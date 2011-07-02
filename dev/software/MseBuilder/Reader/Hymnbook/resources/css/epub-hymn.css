@@ -1,0 +1,52 @@
+* { font-family: serif; font-size: 1.05em; text-align: left; } 
+@page { margin: 1pt  0pt  1pt  0pt; } 
+body { margin: 0 auto; padding: 0em 0%; } 
+
+p { padding: 0; line-height: 1.25em; text-align: left; text-indent:0em; margin: 0 0 0.5em 0; } 
+
+.hymnno { font-family: sans-serif; font-size: 1.5em; line-height:normal;  font-weight: bold; margin: 0px; padding: 0px; float: left;}
+.meter { font-size: 1em; float: right; line-height: normal; margin: 0 0 0.8em 0; text-align: right;}
+p.author { font-family: sans-serif; font-size: 0.8em; font-weight: bold; padding-top: 4px; }
+p.authorlife { font-family: sans-serif; font-size: 0.8em; font-style: italic; }
+
+ol {
+  margin:0px;
+  clear: both;
+  padding-top: 5px;
+}
+
+.verse
+{
+  font-family: serif; 
+  font-size: 0.8em;
+  margin: 0 0 .5em 0;
+  text-align: left; 
+}
+
+.chorus 
+{  
+  font-family: serif; 
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 0 0 .5em 0;
+  text-align: left; 
+}
+
+p.tocheading
+{
+  font-size: 1.25em;
+  font-family: sans-serif; 
+  font-weight: bold;
+  padding: 0; 
+  margin: 0.75em 0 0.25em 0; 
+}
+
+li.toc 
+{
+ font-family: sans-serif; 
+ padding: 0; 
+ line-height: 1.0em; 
+ text-align: left; 
+ text-indent: 0em; 
+ margin: 0; 
+}

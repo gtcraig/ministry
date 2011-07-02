@@ -1,0 +1,266 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5FB56D7-8DC8-4F2D-8E55-BA61D893D856}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrontBurner.Ministry.MseBuilder</RootNamespace>
+    <AssemblyName>MseBuilder</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=1.0.10.1, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\Article.cs" />
+    <Compile Include="Abstract\Author.cs" />
+    <Compile Include="Abstract\BibleBook.cs" />
+    <Compile Include="Abstract\BibleFootnote.cs" />
+    <Compile Include="Abstract\BibleFootnoteRef.cs" />
+    <Compile Include="Abstract\BibleRef.cs" />
+    <Compile Include="Abstract\Footnotes.cs" />
+    <Compile Include="Abstract\Paragraph.cs" />
+    <Compile Include="Abstract\BibleVersion.cs" />
+    <Compile Include="Abstract\BibleVerse.cs" />
+    <Compile Include="Abstract\Volume.cs" />
+    <Compile Include="Abstract\BibleXref.cs" />
+    <Compile Include="Bible\MseBibleEngine.cs" />
+    <Compile Include="Engine\EngineSettings.cs" />
+    <Compile Include="Forms\BuildErrors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BuildErrors.Designer.cs">
+      <DependentUpon>BuildErrors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\BusinessLayer.cs" />
+    <Compile Include="Data\DatabaseLayer.cs" />
+    <Compile Include="Data\MseData.cs">
+      <DependentUpon>MseData.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data\MseData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MseData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\MseEngine.cs" />
+    <Compile Include="Engine\MseParser.cs" />
+    <Compile Include="Forms\MseBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MseBuilder.Designer.cs">
+      <DependentUpon>MseBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\BuildErrors.resx">
+      <DependentUpon>BuildErrors.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MseBuilder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MseBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Data\MseData.xsc">
+      <DependentUpon>MseData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\MseData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MseData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\MseData.xss">
+      <DependentUpon>MseData.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reader\Bbeb\BbebBlockStyle.cs" />
+    <Compile Include="Reader\Bbeb\BbebBookInformation.cs" />
+    <Compile Include="Reader\Bbeb\BbebBookStyle.cs" />
+    <Compile Include="Reader\Bbeb\BbebElement.cs" />
+    <Compile Include="Reader\Bbeb\BbebImageStream.cs" />
+    <Compile Include="Reader\Bbeb\BbebPage.cs" />
+    <Compile Include="Reader\Bbeb\BbebPageStyle.cs" />
+    <Compile Include="Reader\Bbeb\BbebStyle.cs" />
+    <Compile Include="Reader\Bbeb\BbebDocument.cs" />
+    <Compile Include="Reader\Bbeb\BbebObjElement.cs" />
+    <Compile Include="Reader\Bbeb\BbebTextBlock.cs" />
+    <Compile Include="Reader\Bbeb\BbebTextStyle.cs" />
+    <Compile Include="Reader\Bbeb\BbebTitlePage.cs" />
+    <Compile Include="Reader\Bbeb\BbebTocLabel.cs" />
+    <Compile Include="Reader\Bbeb\BbebUtil.cs" />
+    <Compile Include="Reader\Bbeb\IBbebGenerator.cs" />
+    <Compile Include="Reader\Bbeb\BbebImageBlock.cs" />
+    <Compile Include="Reader\Hymnbook\EpubHymn.cs" />
+    <Compile Include="Reader\Hymnbook\EpubHymnAuthor.cs" />
+    <Compile Include="Reader\Hymnbook\EpubHymnCollection.cs" />
+    <Compile Include="Reader\Hymnbook\EpubContainer.cs" />
+    <Compile Include="Reader\Hymnbook\EpubHymnbookDocument.cs" />
+    <Compile Include="Reader\Hymnbook\EpubFile.cs" />
+    <Compile Include="Reader\Hymnbook\EpubHymnHeader.cs" />
+    <Compile Include="Reader\Hymnbook\EpubHymnVerse.cs" />
+    <Compile Include="Reader\Hymnbook\EpubNcx.cs" />
+    <Compile Include="Reader\Hymnbook\EpubOpf.cs" />
+    <Compile Include="Reader\Hymnbook\EpubToc.cs" />
+    <Compile Include="Reader\Hymnbook\EpubXmlFile.cs" />
+    <Compile Include="Reader\Hymnbook\IEpubGenerator.cs" />
+    <Compile Include="Reader\Hymnbook\Language.cs" />
+    <Compile Include="Reader\Epub\Article\EpubArticleCollection.cs" />
+    <Compile Include="Reader\Epub\Article\EpubImage.cs" />
+    <Compile Include="Reader\Epub\Article\EpubTitlePage.cs" />
+    <Compile Include="Reader\Epub\EpubContainer.cs" />
+    <Compile Include="Reader\Epub\EpubDocument.cs" />
+    <Compile Include="Reader\Epub\Article\EpubHeading.cs" />
+    <Compile Include="Reader\Epub\Article\EpubItem.cs" />
+    <Compile Include="Reader\Epub\EpubFile.cs" />
+    <Compile Include="Reader\Epub\EpubNcx.cs" />
+    <Compile Include="Reader\Epub\Article\EpubArticle.cs" />
+    <Compile Include="Reader\Epub\EpubOpf.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reader\Epub\EpubToc.cs" />
+    <Compile Include="Reader\Epub\EpubXmlFile.cs" />
+    <Compile Include="Reader\Epub\IEpubGenerator.cs" />
+    <Compile Include="Reader\Epub\Article\EpubParagraph.cs" />
+    <Compile Include="Reader\Epub\Article\EpubScriptures.cs" />
+    <Compile Include="Reader\Epub\MimeType.cs" />
+    <Compile Include="Util\KindleGen.cs" />
+    <Compile Include="Util\Zipper.cs" />
+    <Compile Include="Engine\VolumeThread.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\war_into.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brickwall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\create_tables.sql" />
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\author\cac.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\author\fer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\author\jbs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\author\jnd.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\author\jt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="img\book_open2.png" />
+    <None Include="img\books.png" />
+    <Content Include="img\cover\cac.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\cover\fer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\cover\jbs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\cover\jnd.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\cover\jt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\eministry.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="img\cover\cac.psd" />
+    <None Include="img\cover\FER.psd" />
+    <None Include="img\cover\JBS.psd" />
+    <None Include="img\cover\JND.psd" />
+    <None Include="img\cover\jt.psd" />
+    <None Include="img\holmes.png" />
+    <None Include="img\hymnbook\hymnbook.psd" />
+    <Content Include="img\hymnbook\hymnbook_de.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\hymnbook\hymnbook_en-gb.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\hymnbook\hymnbook_nl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reader\Hymnbook\resources\css\epub-hymn.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reader\Epub\resources\css\epub-ministry.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
