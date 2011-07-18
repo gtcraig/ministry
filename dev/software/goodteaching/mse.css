@@ -1,0 +1,599 @@
+/* * * * * * * * * * * * * * * * * * * * * * * *
+ * Ministry Search Engine
+ * Copyright (c) 2007,2009 frontburner.co.uk
+ *
+ * Style Sheet
+ *
+ * $Id: mse.css 1103 2009-12-29 21:04:39Z craig $
+ *
+ * Who  When         Why
+ * CAM  29-Jul-2007  File created.
+ * CAM  08-Nov-2007  10200 : Added Results Pagination (page*).
+ * CAM  24-Nov-2007  10210 : Added contNewPage.
+ * CAM  24-Nov-2007  10213 : Improve Link colours.
+ * CAM  29-Dec-2007  10211 : Added highlight colours.
+ * CAM  02-Jan-2008  10206 : Added Page (preview) classes.
+ * CAM  11-May-2008  10263 : Improved Heading classes.
+ * CAM  04-Jun-2008  10268 : Added latestvols.
+ * CAM  15-Jun-2008  10272 : Added fn for footnotes (and white background on rh).
+ * CAM  18-Jun-2007  10274 : Changed highlight to hlght to prevent the word "light" causing problems.
+ * CAM  29-Sep-2008  10302 : Added Hymn classes.
+ * CAM  28-Mar-2009  10407 : Added SearchType.
+ * CAM  29-Dec-2009  10515 : Added links for Bible.
+ * * * * * * * * * * * * * * * * * * * * * * * */
+
+body {
+  background-color: #66B7E2;
+}
+
+p, table, td, input, select, textarea {
+  color: #000000;
+  FONT-FAMILY: Tahoma, Arial, Helvetica;
+  font-size: 10pt;
+  TEXT-DECORATION: none;
+}
+
+a#linkGt,
+a#linkBible,
+a#linkHymn,
+a#linkEaston,
+a#linkHitchcock
+{
+  font-family: Tahoma, Arial, Helvetica;
+  font-size: 11pt;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  padding: 2px;
+}
+
+body#pageGt a#linkGt,
+body#pageBible a#linkBible,
+body#pageHymn a#linkHymn,
+body#pageEaston a#linkEaston,
+body#pageHitchcock a#linkHitchcock
+{
+  color: #66B7E2;
+  background: #fff;
+}
+
+a#linkGt:hover,
+a#linkBible:hover,
+a#linkHymn:hover,
+a#linkEaston:hover,
+a#linkHitchcock:hover
+{
+  background: #f6b33a;
+}
+
+
+body#pageGt a#linkGt:hover,
+body#pageBible a#linkBible:hover,
+body#pageHymn a#linkHymn:hover,
+body#pageEaston a#linkEaston:hover,
+body#pageHitchcock a#linkHitchcock:hover
+{
+  background: #f6b33a;
+  color: #fff;
+}
+
+.fn {
+  color: #666;
+  font-size: 9pt;
+}
+
+h1, h2, h3, h4 {
+  margin: .2em 0 .2em 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-size: medium;
+}
+
+th {
+  background-color: #9cf;
+}
+
+.topnav {
+  background-color: #66B7E2;
+  color: #0093D8;
+}
+
+.red {
+  color: #DB0954;
+}
+
+.orange {
+  color: #F6B33A;
+}
+
+.green {
+  color: #91CC1A;
+}
+
+.blue {
+  color: #0093D8;
+}
+
+#latestvols {
+  padding: 40px 0px 10px 10px;
+}
+
+#latestvols h3 {
+  FONT-FAMILY: Tahoma, Arial, Helvetica;
+  font-size: 11pt;
+  color: #120966;
+  font-weight: bold;
+}
+
+.resultsheader {
+  padding-top:      5px;
+  PADDING-BOTTOM:   5px;
+  background-color: #66B7E2;
+  color:            #333333;
+  font-weight:      bold;
+}
+
+.searchresults {
+  border:  #0A6CDA 4px solid;
+  background-color: white;
+  color: #333333;
+  font-weight: normal;
+}
+
+.pageresults {
+  border:           #0A6CDA 4px solid;
+  background-color: white;
+  color:            #333333;
+  font-weight:      normal;
+  PADDING:          5px;
+}
+
+.rh {
+  BORDER-BOTTOM:  #0A6CDA 2px solid;
+  font-weight: bold;
+  background-color: white;
+}
+
+.rd {
+  BORDER-BOTTOM:  #0A6CDA 1px solid;
+}
+
+
+#searchType ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#searchType li {
+  margin: 0 0 0 0;
+  padding: .1em .1em;
+  display: inline;
+}
+
+.fld {
+  color: #D00040;
+  font-weight: bold;
+}
+
+td.fldmand {
+  color: #BE0221;
+  font-weight: bold;
+}
+
+
+td.current {
+  color: #FF7900;
+}
+
+td.loggedin {
+  color: #333333;
+  font-size: 8pt;
+}
+
+td.fldopt {
+  color: #189999;
+  font-weight: bold;
+  FONT-STYLE: italic;
+}
+
+td.bc {
+  TEXT-ALIGN: center;
+}
+
+td.br {
+  TEXT-ALIGN: right;
+}
+
+td.navText {
+  color: #FFFFFF;
+}
+
+td.toolTip {
+  color: #666666;
+}
+
+td.sel {
+  color: #FFFFFF;
+  background-color: #3C6C9E;
+  FONT-FAMILY: Tahoma, Helvetica;
+  font-weight: bold
+}
+
+td.sub {
+  color: #FFFFFF;
+  background-color: #3C6C9E;
+  FONT-FAMILY: Tahoma, Arial, Helvetica;
+  font-weight: bold
+}
+
+.outerBox {
+  background-color: #FFFFFF;
+}
+
+.sep {
+  color: #DB0954;
+  font-weight: bold;
+  padding-left:   4px;
+  padding-right:  4px;
+}
+
+.topsep {
+  color: #F6B33A;
+  font-weight: bold;
+  font-size: 11pt;
+  padding-left:   4px;
+  padding-right:  4px;
+}
+
+.cpyrght {
+  color: #333333;
+  font-size: 7pt;
+  TEXT-ALIGN: center;
+  padding-top:    5px;
+}
+
+td.cat {
+  color: #333333;
+  font-size: 12pt;
+  font-weight: bold
+}
+
+.contNewPage {
+  padding:2px;
+  background-color:#CCCCCC;
+  color:#999999;
+}
+
+.fieldFocus {
+  background-colour: #f6b33a;
+}
+
+A.nav,A.nav:visited,A.nav:active,A.nav:link,A.nav:visited {
+  FONT-FAMILY: Tahoma, Arial, Helvetica;
+  color: #FFFFFF;
+  font-size: 8pt;
+  TEXT-DECORATION: none;
+  font-weight: bold;
+}
+A.nav:hover {
+  color: #F6B33A;
+  font-weight: bold;
+  TEXT-DECORATION: underline;
+}
+
+A,A:visited,A:active,A:link,A:visited {
+  color: #0A6CDA;
+  font-weight: bold;
+  TEXT-DECORATION: none;
+}
+A:hover {
+  color: #DB0954;
+  font-weight: bold;
+  TEXT-DECORATION: underline;
+}
+
+
+/** Message formats. */
+
+p.err {
+  FONT-FAMILY: Verdana, Arial, Helvetica;
+  font-size: 14pt;
+  color: #BE0221;
+  font-weight: normal;
+}
+
+p.quest {
+  FONT-FAMILY: Tahoma, Arial, Helvetica;
+  font-size: 14pt;
+  color: #120966;
+  font-weight: normal;
+}
+
+p.statement {
+  FONT-FAMILY: Verdana, Arial, Helvetica;
+  font-size: 14pt;
+  color: #120966;
+  font-weight: normal;
+}
+
+/** Tab colours */
+
+.keywordtab {
+  background-color: #DB0954;
+  color: white;
+  font-weight: bold;
+  width:150px;
+  text-align:center;
+}
+
+.scripturetab {
+  background-color: #f6b33a;
+  color: white;
+  font-weight: bold;
+  width:150px;
+  text-align:center;
+}
+
+.authortab {
+  background-color: #91CC1A;
+  color: white;
+  font-weight: bold;
+  width:150px;
+  text-align:center;
+}
+
+
+.keywordtabhover {
+  background-color: #DC909B;
+  color: #333333;
+  font-weight: bold;
+  width:150px;
+  text-align:center;
+  cursor: pointer;
+}
+
+.scripturetabhover {
+  background-color: #fad28b;
+  color: #333333;
+  font-weight: bold;
+  width:150px;
+  text-align:center;
+  cursor: pointer;
+}
+
+.authortabhover {
+  background-color: #C9DC92;
+  color: #333333;
+  font-weight: bold;
+  width:150px;
+  text-align:center;
+  cursor: pointer;
+}
+
+/** Buttons */
+
+input.previewbutton {
+  background-color: white;
+  border:           #66b7e2 1px solid;
+  color:            blue;
+  font-size:        8pt;
+  font-weight:      bold;
+  PADDING-BOTTOM:   2px;
+  padding-left:     1px;
+  padding-right:    1px;
+  padding-top:      1px;
+}
+
+input.previewbuttonhover {
+  background-color: #66B7E2;
+  border:           #0093D8 1px solid;
+  color:            #333333;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 2px;
+  padding-left:   1px;
+  padding-right:  1px;
+  padding-top:    1px;
+  cursor: pointer;
+}
+
+input.pagebutton {
+  background-color: white;
+  border:           #F6B33A 1px solid;
+  color:            #666666;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 2px;
+  padding-left:   1px;
+  padding-right:  1px;
+  padding-top:    1px;
+}
+
+input.pagebuttonhover {
+  background-color: #F6B33A;
+  border:           #F6B33A 1px solid;
+  color:            white;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 2px;
+  padding-left:   1px;
+  padding-right:  1px;
+  padding-top:    1px;
+  cursor: pointer;
+}
+
+.pagesel {
+  color:            #DB0954;
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.pageannot {
+  color:            #999999;
+  font-size: 8pt;
+  font-weight: normal;
+}
+
+input.button {
+  background-color: #0093D8;
+  border:           #66B7E2 1px solid;
+  color:            #FFFFFF;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 3px;
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-top:    2px;
+}
+
+input.buttonhover {
+  background-color: #66B7E2;
+  border:           #0093D8 1px solid;
+  color:            #333333;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 3px;
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-top:    2px;
+  cursor: pointer;
+}
+
+input.keywordbutton {
+  background-color: #DB0954;
+  border:           #DC909B 1px solid;
+  color:            white;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 3px;
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-top:    2px;
+}
+
+input.scripturebutton {
+  background-color: #F6B33A;
+  border:           #FAD28B 1px solid;
+  color:            #FFFFFF;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 3px;
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-top:    2px;
+}
+
+input.authorbutton {
+  background-color: #F6B33A;
+  border:           #FAD28B 1px solid;
+  color:            #FFFFFF;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 3px;
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-top:    2px;
+}
+
+input.keywordbuttonhover {
+  background-color: #DC909B;
+  border:           #DB0954 1px solid;
+  color:            #333333;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 3px;
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-top:    2px;
+  cursor: pointer;
+}
+
+input.scripturebuttonhover {
+  background-color: #FAD28B;
+  border:           #F6B33A 1px solid;
+  color:            #333333;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 3px;
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-top:    2px;
+  cursor: pointer;
+}
+
+input.authorbuttonhover {
+  background-color: #C9DC92;
+  border:           #0093D8 1px solid;
+  color:            #333333;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 3px;
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-top:    2px;
+  cursor: pointer;
+}
+
+.volpage {
+  text-align:       center;
+  background-color: white;
+  border:           #007ae0 2px solid;
+  color:            black;
+  font-size:        10pt;
+  font-weight:      normal;
+  padding-bottom:   4px;
+  padding-left:     3px;
+  padding-right:    3px;
+  padding-top:      3px;
+}
+
+.volpageedit {
+  text-align:       center;
+  background-color: #c1dcf5;
+  border:           #007ae0 2px solid;
+  color:            black;
+  font-size:        10pt;
+  font-weight:      normal;
+  padding-bottom:   4px;
+  padding-left:     3px;
+  padding-right:    3px;
+  padding-top:      3px;
+}
+
+.imagebutton {
+  cursor: pointer;
+}
+
+
+/** Borders */
+
+.mainborder {
+  PADDING: 5px;
+}
+
+.keywordborder {
+  border:  #DB0954 4px solid;
+  PADDING: 5px;
+}
+
+.scriptureborder {
+  border:  #F6B33A 4px solid;
+  PADDING: 5px;
+}
+
+.authorborder {
+  border:  #91CC1A 4px solid;
+  PADDING: 5px;
+}
+
+/** Highlight Search Colours */
+
+.hlght0 { background-color: #FFFF99; }
+.hlght1 { background-color: #FF99FF; }
+.hlght2 { background-color: #99FFFF; }
+.hlght3 { background-color: #99FF99; }
+.hlght4 { background-color: #FF9999; }
+.hlght5 { background-color: #9999FF; }
