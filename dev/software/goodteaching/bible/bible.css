@@ -1,0 +1,70 @@
+/* * * * * * * * * * * * * * * * * * * * * * * *
+ * Good Teaching Search Engine
+ * Copyright (c) 2009 frontburner.co.uk
+ *
+ * Bible Search
+ *
+ * $Id: bible.css 1109 2009-12-30 13:02:57Z craig $
+ *
+ * Who  When         Why
+ * CAM  29-Dec-2009  10515 : File created.
+ * CAM  30-Dec-2009  10520 : Removed excess formatting on dropdowns.
+ * * * * * * * * * * * * * * * * * * * * * * * */
+
+.error {
+  font-size:13px;
+  color:#1269A0;
+}
+.dropdown {
+  font-size:13px;
+}
+.lines {
+  font-family: Georgia, Arial, Helvetica;
+  font-size:14px;
+}
+.verse {
+  font-family: Georgia, Arial, Helvetica;
+  font-size:24px;
+  font-weight:normal;
+  vertical-align: top;
+  background-color: #f6b33a;
+  color: #29166F;  
+}
+.phrase {
+  color: #29166F;
+  font-weight: bold;
+}
+.footnote {
+  color: #29166F;  
+  border-bottom: #DB0954 1px dashed;  
+}
+.chorus {
+  font-family: Georgia, Arial, Helvetica;
+  font-style:italic;
+  color:29166F;
+}
+.hymn {
+  font-size:13px;
+  font-weight:bold;
+  color: #29166F;
+}
+.meter {
+  font-size:12px;
+  font-weight:bold;
+  text-align: right;
+  color:DB0954;
+}
+.author {
+  font-size:12px;
+  font-weight:bold;
+  text-align: right;
+}
+.hymnSearchType {
+  font-size:10px;
+  font-weight:bold;
+  color:#FFFFFF;
+  background:#0A6CDA;
+  padding:4px;
+  text-align: left;
+}
+
