@@ -13,6 +13,7 @@
 -- CAM  29-Dec-2009  10514 : Structure only.
 -- CAM  29-Dec-2009  10515 : UTF16 charsets where required.
 -- CAM  23-Jan-2010  10551 : Added mse_volume_jndhtml.
+-- CAM  28-Dec-2011  gc005 : Added fullname and orgname to Author and removed mse_volume_jndhtml.
 -- --------------------------------------------------------
 
 --
@@ -244,6 +245,8 @@ CREATE TABLE mse_article (
 CREATE TABLE mse_author (
   author char(3) NOT NULL default '',
   name varchar(50) NOT NULL default '',
+  fullname varchar(50) default NULL,
+  orgname varchar(50) default NULL,
   PRIMARY KEY  (author)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -432,15 +435,3 @@ CREATE TABLE mse_volume (
   PRIMARY KEY  (author,vol)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
---
--- Table structure for table mse_volume_jndhtml
---
-
-CREATE TABLE mse_volume_jndhtml (
-  author varchar(10) NOT NULL default '',
-  vol int(3) NOT NULL default '0',
-  title varchar(255) default NULL,
-  added datetime default NULL,
-  localfile varchar(255) NOT NULL default '',
-  PRIMARY KEY  (author,vol)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;

@@ -7,6 +7,7 @@
  *
  * Who  When         Why
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
+ * CAM  28-Dec-2011  gc005 : Show Author and Title on Contents.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -51,10 +52,12 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
     {
       using (StreamWriter writer = new StreamWriter(XmlFile.FullName))
       {
-        EpubHeading heading = new EpubHeading("Table of Contents");
+        EpubHeading heading = new EpubHeading(Document.Volume.Title);
+        EpubHeading author = new EpubHeading(Document.Volume.Author.FullName, "tocauthor");
         string li;
 
         WriteHeader(writer, heading.Text);
+        writer.WriteLine(author.RenderToXhtml());
         writer.WriteLine(heading.RenderToXhtml());
 
         writer.WriteLine(@"    <ul>");

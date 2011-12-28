@@ -11,6 +11,7 @@
  * CAM  28-Mar-2009  10409 : Added Footnote support.
  * CAM  15-Jan-2010  10528 : Added Authors and converted methods to properties.
  * CAM  23-Jan-2010  10551 : Added JndHtmlVolumes.
+ * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -38,7 +39,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
     protected ArticleCollection _articles;
     protected AuthorCollection _authors;
     protected VolumeCollection _volumes;
-    protected VolumeCollection _jndHtml;
     protected int _nextFootnoteId;
 
     public ArticleCollection Articles
@@ -105,19 +105,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         }
 
         return _volumes;
-      }
-    }
-
-    public VolumeCollection JndHtmlVolumes
-    {
-      get
-      {
-        if (_jndHtml == null)
-        {
-          _jndHtml = DatabaseLayer.Instance.GetJndHtmlVolumes();
-        }
-
-        return _jndHtml;
       }
     }
 

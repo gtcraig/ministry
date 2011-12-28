@@ -11,6 +11,7 @@
  * CAM  21-Jan-2010  10549 : Use Volume.FullTitle for book title.
  * CAM  11-Feb-2010  10559 : Added Namespace etc to Package tag.
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
+ * CAM  28-Dec-2011  gc005 : Ensure apostrophes display correctly by using EpubHeading.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -127,14 +128,14 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 
     protected void AddMetaData()
     {
-      XmlElement element = AppendElement(MetaData, "dc:title", XmlnsDc, Volume.FullTitle);
+      XmlElement element = AppendElement(MetaData, "dc:title", XmlnsDc, new EpubHeading(Volume.FullTitle).Text); // [#5]
 
       element = AppendElement(MetaData, "dc:creator", XmlnsDc, Volume.Author.OrgName);
       AppendAttribute(element, "opf:role", XmlnsOpf, "aut");
       AppendAttribute(element, "opf:file-as", XmlnsOpf, Volume.Author.OrgName);
 
       element = AppendElement(MetaData, "dc:subject", XmlnsDc, TagSafe(Volume.Author.OrgName));
-      element = AppendElement(MetaData, "dc:publisher", XmlnsDc, "GoodTeaching.org/Craig McKay");
+      element = AppendElement(MetaData, "dc:publisher", XmlnsDc, "GoodTeaching.org");
 
       element = AppendElement(MetaData, "dc:date", XmlnsDc, DateTime.Now.ToString("yyyy-MM-dd"));
       AppendAttribute(element, "opf:event", XmlnsOpf, "epub-publication");
