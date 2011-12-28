@@ -14,7 +14,7 @@
 -- Server version: 4.1.20
 -- PHP Version: 4.4.2
 --
--- Database: southesk_com_-_min
+-- Database: goodteaching_org_min
 -- --------------------------------------------------------
 
 --
@@ -43,6 +43,8 @@ ALTER TABLE mse_article ADD localrow INT NOT NULL ;
 CREATE TABLE mse_author (
   author char(3) NOT NULL default '',
   name varchar(50) NOT NULL default '',
+  fullname varchar(50) default NULL,
+  orgname varchar(50) default NULL,
   PRIMARY KEY  (author)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -139,13 +141,13 @@ CREATE TABLE mse_volume (
 -- Dumping data for table mse_author
 --
 
-INSERT INTO mse_author (author, name) VALUES ('CAC', 'C. A. Coates'),
-('FER', 'F. E. Raven'),
-('GRC', 'G. R. Cowell'),
-('JBS', 'J. B. Stoney'),
-('JND', 'J. N. Darby'),
-('JT', 'J. Taylor, Snr'),
-('VAR', 'Various');
+INSERT INTO mse_author VALUES ('CAC', 'C. A. Coates', 'Charles Andrew Coates', 'Coates, Charles');
+INSERT INTO mse_author VALUES ('FER', 'F. E. Raven', 'Frederick Edward Raven', 'Raven, Frederick');
+INSERT INTO mse_author VALUES ('GRC', 'G. R. Cowell', 'Gerald Robert Cowell', 'Cowell, Gerald ');
+INSERT INTO mse_author VALUES ('JBS', 'J. B. Stoney', 'James Butler Stoney', 'Stoney, James');
+INSERT INTO mse_author VALUES ('JND', 'J. N. Darby', 'John Nelson Darby', 'Darby, John');
+INSERT INTO mse_author VALUES ('JT', 'J. Taylor, Snr', 'James Taylor, Snr', 'Taylor, James, Snr');
+INSERT INTO mse_author VALUES ('VAR', 'Various', 'Various', 'Various');
 
 --
 -- Dumping data for table mse_bible_book
@@ -218,269 +220,325 @@ INSERT INTO mse_bible_book (bookid, bookname, testament, testbook, singlechap, f
 (65, 'Jude', 'NT', 25, 1, 'Jude, bondman of Jesus Christ, and brother of James, to the called ones beloved in God [the] Father and preserved in Jesus Christ:'),
 (66, 'Revelation', 'NT', 26, NULL, 'Revelation of Jesus Christ, which God gave to him, to shew to his bondmen what must shortly take place; and he signified [it], sending by his angel, to his bondman John,');
 
-INSERT INTO mse_volume (author, vol, title, added, localfile) VALUES ('CAC', 1, 'Volume 1 - An Outline of Genesis', '2006-12-16 08:18:51', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac1.doc'),
-('CAC', 2, 'Volume 2 - An Outline of Exodus\r\n', '2006-12-16 08:19:37', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac2.doc'),
-('CAC', 3, 'Volume 3 - An Outline of Leviticus\r\n', '2006-12-16 08:20:16', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac3.doc'),
-('CAC', 4, 'Volume 4 - An Outline of the Book of Numbers\r\n', '2006-12-16 08:22:50', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac4.doc'),
-('CAC', 5, 'Volume 5 - An Outline of the Book of Deuteronomy\r\n', '2006-12-16 08:23:38', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac5.doc'),
-('CAC', 6, 'Volume 6 - An Outline of Joshua, Judges and Ruth\r\n', '2006-12-16 08:32:45', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac6.doc'),
-('CAC', 7, 'Volume 7 - An Outline of The Song of Songs\r\n', '2006-12-16 08:34:49', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac7.doc'),
-('CAC', 8, 'Volume 8 - Outline of the Minor Prophets\r\n', '2006-12-16 08:44:41', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac8.doc'),
-('CAC', 9, '', '2006-12-16 09:11:21', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac9.doc'),
-('CAC', 10, '', '2006-12-16 09:14:38', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac10.doc'),
-('CAC', 11, 'Volume 11 - An Outline of Romans\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac11.doc'),
-('CAC', 12, 'Volume 12 - An Outline of the Epistle of James\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac12.doc'),
-('CAC', 13, 'Volume 13 - An Outline of "The Revelation"\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac13.doc'),
-('CAC', 14, 'Volume 14 - The True Grace of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac14.doc'),
-('CAC', 15, 'Volume 15 - The Believer Established\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac15.doc'),
-('CAC', 16, 'Volume 16 - Favour and Freedom\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac16.doc'),
-('CAC', 17, 'Volume 17 - The Food of Life\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac17.doc'),
-('CAC', 18, 'Volume 18 - The House of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac18.doc'),
-('CAC', 19, 'Volume 19 - The Paths of Life\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac19.doc'),
-('CAC', 20, 'Volume 20 - Spiritual Blessings\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac20.doc'),
-('CAC', 21, 'Volume 21 - A Sure Foundation\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac21.doc'),
-('CAC', 22, 'Volume 22 - Letters of C.A. Coates\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac22.doc'),
-('CAC', 23, 'Volume 23 - An Outline of the Epistle to the Hebrews\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac23.doc'),
-('CAC', 24, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac24.doc'),
-('CAC', 25, 'Volume 25 - Outlines of the Epistles of Paul to the Corinthians\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac25.doc'),
-('CAC', 26, 'Volume 26 - Outline of Ephesians\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac26.doc'),
-('CAC', 27, 'Volume 27 - Outlines of Samuel, Kings and the Chronicles\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac27.doc'),
-('CAC', 28, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac28.doc'),
-('CAC', 29, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac29.doc'),
-('CAC', 30, 'Volume 30 - Miscellaneous Ministry on the Old Testament\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac30.doc'),
-('CAC', 31, 'Volume 31 - Miscellaneous Ministry on the New Testament Matthew-Romans\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac31.doc'),
-('CAC', 32, 'Volume 32 - Miscellaneous Ministry on the New Testament Corinthians-Colossians\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac32.doc'),
-('CAC', 33, 'Volume 33 - Miscellaneous Ministry on the New Testament Thessalonians-Revelation\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac33.doc'),
-('CAC', 34, 'Volume 34 - Words in Season\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac34.doc'),
-('CAC', 35, 'Volume 27a - Outlines of the Books of the Chronicles\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac35.doc'),
-('CAC', 36, 'Remarks on a pamphlet by A. J. Pollock entitled "The Eternal Son"\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac36.doc'),
-('CAC', 37, 'A Message for You\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\cac\\\\cac37.doc'),
-('FER', 1, '', '2006-09-17 13:57:39', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer1.doc'),
-('FER', 2, '', '2006-09-17 14:06:44', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer2.doc'),
-('FER', 3, '', '2006-09-17 14:07:33', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer3.doc'),
-('FER', 4, '', '2006-04-04 22:04:55', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer4.doc'),
-('FER', 5, '', '2006-04-04 22:07:33', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer5.doc'),
-('FER', 6, '', '2006-04-04 22:09:56', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer6.doc'),
-('FER', 7, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer7.doc'),
-('FER', 8, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer8.doc'),
-('FER', 9, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer9.doc'),
-('FER', 10, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer10.doc'),
-('FER', 11, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer11.doc'),
-('FER', 12, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer12.doc'),
-('FER', 13, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer13.doc'),
-('FER', 14, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer14.doc'),
-('FER', 15, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer15.doc'),
-('FER', 16, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer16.doc'),
-('FER', 17, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer17.doc'),
-('FER', 18, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer18.doc'),
-('FER', 19, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer19.doc'),
-('FER', 20, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer20.doc'),
-('FER', 21, 'Letters\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\fer\\\\fer21.doc'),
-('GRC', 1, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc1.doc'),
-('GRC', 2, 'Volume 2 - Greatness\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc2.doc'),
-('GRC', 3, 'Volume 3 - The Lord Jesus as seen in the Revelation\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc3.doc'),
-('GRC', 4, 'Volume 4 - The Sabbath Of Rest\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc4.doc'),
-('GRC', 5, 'Volume 5 - Devotion By Vow\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc5.doc'),
-('GRC', 6, 'Volume 6 - God With Us\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc6.doc'),
-('GRC', 7, 'Volume 7 - Progress In Recovery\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc7.doc'),
-('GRC', 8, 'Volume 8 - Ordering of the Camp\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc8.doc'),
-('GRC', 9, 'Volume 9 - Purification And Life\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc9.doc'),
-('GRC', 10, 'Volume 10 - The Gospel of the Glory\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc10.doc'),
-('GRC', 11, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc11.doc'),
-('GRC', 12, 'Volume 12 - The Grace and Government of God in Days of Recovery\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc12.doc'),
-('GRC', 13, 'Volume 13 - Addresses and Readings\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc13.doc'),
-('GRC', 14, 'Volume 14 - Spiritual Vision\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc14.doc'),
-('GRC', 15, 'Volume 15 - The Times of the Nations\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc15.doc'),
-('GRC', 16, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc16.doc'),
-('GRC', 17, 'Booklet 1\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc17.doc'),
-('GRC', 18, 'Booklet 2\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc18.doc'),
-('GRC', 19, 'Booklet 3\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc19.doc'),
-('GRC', 20, 'Booklet 4\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc20.doc'),
-('GRC', 21, 'Booklet 5\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc21.doc'),
-('GRC', 22, 'Booklet 6\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc22.doc'),
-('GRC', 23, 'The Headship of Christ and of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc23.doc'),
-('GRC', 24, 'Fundamental Truths of Christianity and The Kingdom of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc24.doc'),
-('GRC', 25, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc25.doc'),
-('GRC', 26, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc26.doc'),
-('GRC', 27, 'Greatness And Other Ministry\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc27.doc'),
-('GRC', 28, 'Departing from Iniquity or Inconsistency\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc28.doc'),
-('GRC', 29, 'The Call of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc29.doc'),
-('GRC', 30, 'The Choice of a Career\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc30.doc'),
-('GRC', 31, 'The Deity of Christ\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc31.doc'),
-('GRC', 32, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc32.doc'),
-('GRC', 33, 'Houses Hallowed and Redeemed\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc33.doc'),
-('GRC', 34, 'God Himself\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc34.doc'),
-('GRC', 35, 'The Work of the Lord and the Service of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc35.doc'),
-('GRC', 36, 'Giving and its Fruits\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc36.doc'),
-('GRC', 37, 'The Supremacy of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc37.doc'),
-('GRC', 38, 'The Name of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc38.doc'),
-('GRC', 39, 'God Going Before His People\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc39.doc'),
-('GRC', 40, 'Walking in the Light\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc40.doc'),
-('GRC', 41, 'The Servant of the Lord\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc41.doc'),
-('GRC', 42, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc42.doc'),
-('GRC', 43, 'The Family, the Body and the Temple\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc43.doc'),
-('GRC', 44, 'Our Access into the Presence of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc44.doc'),
-('GRC', 45, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc45.doc'),
-('GRC', 46, 'FOUNDATIONS\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc46.doc'),
-('GRC', 47, 'CHRIST IN US\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc47.doc'),
-('GRC', 48, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc48.doc'),
-('GRC', 49, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc49.doc'),
-('GRC', 50, 'Habitation of God in the Spirit\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc50.doc'),
-('GRC', 51, 'The Priest with Urim and with Thummim\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc51.doc'),
-('GRC', 52, 'The Shepherd and Bishop of our Souls\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc52.doc'),
-('GRC', 53, 'The Gospel and the Church\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc53.doc'),
-('GRC', 54, '"God is One"\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc54.doc'),
-('GRC', 55, 'Four Aspects of the Call of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc55.doc'),
-('GRC', 56, 'Lay Hold of Eternal Life\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc56.doc'),
-('GRC', 57, 'Rest, Life, Food, Drink\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc57.doc'),
-('GRC', 58, 'The Divinely Established System\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc58.doc'),
-('GRC', 59, 'The Divine System\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc59.doc'),
-('GRC', 60, 'Fellowship\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc60.doc'),
-('GRC', 61, 'As a Man Thinks in His Heart so is He\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc61.doc'),
-('GRC', 62, 'The Wall of The City\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc62.doc'),
-('GRC', 63, 'Nazariteship\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc63.doc'),
-('GRC', 64, 'Let Him That Boasts, Boast in the Lord\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc64.doc'),
-('GRC', 65, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc65.doc'),
-('GRC', 66, 'Christ as Foundation, Structure and Headstone\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc66.doc'),
-('GRC', 67, 'Devotion to God and His Chief Interest on Earth - The House of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc67.doc'),
-('GRC', 68, 'Our Standing on Divine Ground\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc68.doc'),
-('GRC', 69, 'Loving Righteousness\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc69.doc'),
-('GRC', 70, 'The Knowledge of the Son of God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc70.doc'),
-('GRC', 71, 'The System, Position and Path\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc71.doc'),
-('GRC', 72, 'Activities In Which We Are To Engage\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc72.doc'),
-('GRC', 73, 'The Unveiling of the Glories of Jesus Christ\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc73.doc'),
-('GRC', 74, 'Issues Involved in Present Exercises\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc74.doc'),
-('GRC', 75, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc75.doc'),
-('GRC', 76, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc76.doc'),
-('GRC', 77, 'Levitical Service\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc77.doc'),
-('GRC', 78, 'The Testimony of our Lord\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc78.doc'),
-('GRC', 79, 'Living Water\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc79.doc'),
-('GRC', 80, 'Living Bread\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc80.doc'),
-('GRC', 81, 'Sound Teaching, Sound Words, Sound Mind\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc81.doc'),
-('GRC', 82, 'The Body, the Kingdom, The House\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc82.doc'),
-('GRC', 83, 'Communion With God\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc83.doc'),
-('GRC', 84, 'Running, Walking And Standing\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc84.doc'),
-('GRC', 85, 'Anchor of The Soul\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc85.doc'),
-('GRC', 86, 'Help for those young in the Faith\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc86.doc'),
-('GRC', 87, 'The Upward Way\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc87.doc'),
-('GRC', 88, 'The Closing Ministry of the Dispensation\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\grc\\\\grc88.doc'),
-('JBS', 1, '', '2006-12-16 09:17:08', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs1.doc'),
-('JBS', 2, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs2.doc'),
-('JBS', 3, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs3.doc'),
-('JBS', 4, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs4.doc'),
-('JBS', 5, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs5.doc'),
-('JBS', 6, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs6.doc'),
-('JBS', 7, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs7.doc'),
-('JBS', 8, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs8.doc'),
-('JBS', 9, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs9.doc'),
-('JBS', 10, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs10.doc'),
-('JBS', 11, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs11.doc'),
-('JBS', 12, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs12.doc'),
-('JBS', 13, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs13.doc'),
-('JBS', 14, 'Letters 1\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs14.doc'),
-('JBS', 15, 'Letters 2\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs15.doc'),
-('JBS', 16, 'Letters 3\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs16.doc'),
-('JBS', 17, 'From Glory to Glory\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jbs\\\\jbs17.doc'),
-('JT', 1, '', '2006-11-05 13:31:09', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt1.doc'),
-('JT', 2, '', '2006-11-05 13:33:24', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt2.doc'),
-('JT', 3, '', '2006-11-05 13:34:49', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt3.doc'),
-('JT', 4, '', '2006-11-05 13:35:56', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt4.doc'),
-('JT', 5, '', '2006-11-05 13:37:15', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt5.doc'),
-('JT', 6, '', '2006-11-05 13:38:26', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt6.doc'),
-('JT', 7, '', '2006-11-05 13:39:34', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt7.doc'),
-('JT', 8, '', '2006-11-05 13:40:42', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt8.doc'),
-('JT', 9, '', '2006-11-05 13:41:36', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt9.doc'),
-('JT', 10, '', '2006-11-05 13:42:22', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt10.doc'),
-('JT', 11, '', '2006-11-05 13:43:53', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt11.doc'),
-('JT', 12, '', '2006-11-05 13:45:28', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt12.doc'),
-('JT', 13, '', '2006-11-05 14:02:57', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt13.doc'),
-('JT', 14, '', '2006-11-05 14:05:59', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt14.doc'),
-('JT', 15, '', '2006-11-05 14:07:56', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt15.doc'),
-('JT', 16, '', '2006-11-05 14:08:55', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt16.doc'),
-('JT', 17, '', '2006-11-05 14:09:47', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt17.doc'),
-('JT', 18, '', '2006-11-05 14:13:05', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt18.doc'),
-('JT', 19, '', '2006-11-05 14:13:48', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt19.doc'),
-('JT', 20, '', '2006-11-05 14:14:23', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt20.doc'),
-('JT', 21, '', '2006-11-05 14:15:17', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt21.doc'),
-('JT', 22, '', '2006-11-05 14:15:55', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt22.doc'),
-('JT', 23, '', '2006-11-05 14:16:40', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt23.doc'),
-('JT', 24, '', '2006-11-05 14:22:21', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt24.doc'),
-('JT', 25, '', '2006-11-05 14:23:08', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt25.doc'),
-('JT', 26, '', '2006-12-14 11:38:52', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt26.doc'),
-('JT', 27, '', '2006-12-14 15:40:11', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt27.doc'),
-('JT', 28, '', '2006-12-14 16:21:17', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt28.doc'),
-('JT', 29, '', '2006-12-14 16:22:46', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt29.doc'),
-('JT', 30, '', '2006-12-14 16:25:04', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt30.doc'),
-('JT', 31, '', '2006-12-16 08:14:18', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt31.doc'),
-('JT', 32, '', '2006-12-16 08:16:23', 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt32.doc'),
-('JT', 33, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt33.doc'),
-('JT', 34, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt34.doc'),
-('JT', 35, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt35.doc'),
-('JT', 36, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt36.doc'),
-('JT', 37, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt37.doc'),
-('JT', 38, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt38.doc'),
-('JT', 39, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt39.doc'),
-('JT', 40, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt40.doc'),
-('JT', 41, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt41.doc'),
-('JT', 42, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt42.doc'),
-('JT', 43, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt43.doc'),
-('JT', 44, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt44.doc'),
-('JT', 45, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt45.doc'),
-('JT', 46, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt46.doc'),
-('JT', 47, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt47.doc'),
-('JT', 48, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt48.doc'),
-('JT', 49, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt49.doc'),
-('JT', 50, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt50.doc'),
-('JT', 51, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt51.doc'),
-('JT', 52, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt52.doc'),
-('JT', 53, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt53.doc'),
-('JT', 54, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt54.doc'),
-('JT', 55, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt55.doc'),
-('JT', 56, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt56.doc'),
-('JT', 57, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt57.doc'),
-('JT', 58, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt58.doc'),
-('JT', 59, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt59.doc'),
-('JT', 60, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt60.doc'),
-('JT', 61, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt61.doc'),
-('JT', 62, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt62.doc'),
-('JT', 63, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt63.doc'),
-('JT', 64, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt64.doc'),
-('JT', 65, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt65.doc'),
-('JT', 66, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt66.doc'),
-('JT', 67, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt67.doc'),
-('JT', 68, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt68.doc'),
-('JT', 69, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt69.doc'),
-('JT', 70, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt70.doc'),
-('JT', 71, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt71.doc'),
-('JT', 72, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt72.doc'),
-('JT', 73, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt73.doc'),
-('JT', 74, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt74.doc'),
-('JT', 75, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt75.doc'),
-('JT', 76, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt76.doc'),
-('JT', 77, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt77.doc'),
-('JT', 78, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt78.doc'),
-('JT', 79, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt79.doc'),
-('JT', 80, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt80.doc'),
-('JT', 81, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt81.doc'),
-('JT', 82, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt82.doc'),
-('JT', 83, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt83.doc'),
-('JT', 84, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt84.doc'),
-('JT', 85, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt85.doc'),
-('JT', 86, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt86.doc'),
-('JT', 87, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt87.doc'),
-('JT', 88, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt88.doc'),
-('JT', 89, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt89.doc'),
-('JT', 90, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt90.doc'),
-('JT', 91, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt91.doc'),
-('JT', 92, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt92.doc'),
-('JT', 93, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt93.doc'),
-('JT', 94, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt94.doc'),
-('JT', 95, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt95.doc'),
-('JT', 96, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt96.doc'),
-('JT', 97, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt97.doc'),
-('JT', 98, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt98.doc'),
-('JT', 99, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt99.doc'),
-('JT', 100, '', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt100.doc'),
-('JT', 101, 'Volume 100a\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt101.doc'),
-('JT', 102, 'Letters - Volume 1\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt102.doc'),
-('JT', 103, 'Letters - Volume 2\r\n', NULL, 'C:\\\\FB\\\\Dev\\\\Scriptures\\\\MSE\\\\jt\\\\best\\\\jt103.doc');
+--
+-- Dumping data for table mse_volume
+--
+
+INSERT INTO mse_volume VALUES ('CAC', 1, 'V01 Outline of Genesis', '2006-12-16 08:18:51', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac1.txt');
+INSERT INTO mse_volume VALUES ('CAC', 2, 'V02 Outline of Exodus', '2006-12-16 08:19:37', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac2.txt');
+INSERT INTO mse_volume VALUES ('CAC', 3, 'V03 Outline of Leviticus', '2006-12-16 08:20:16', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac3.txt');
+INSERT INTO mse_volume VALUES ('CAC', 4, 'V04 Outline of the Book of Numbers', '2006-12-16 08:22:50', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac4.txt');
+INSERT INTO mse_volume VALUES ('CAC', 5, 'V05 Outline of the Book of Deuteronomy', '2006-12-16 08:23:38', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac5.txt');
+INSERT INTO mse_volume VALUES ('CAC', 6, 'V06 Outline of Joshua, Judges and Ruth', '2006-12-16 08:32:45', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac6.txt');
+INSERT INTO mse_volume VALUES ('CAC', 7, 'V07 Outline of The Song of Songs', '2006-12-16 08:34:49', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac7.txt');
+INSERT INTO mse_volume VALUES ('CAC', 8, 'V08 Outline of the Minor Prophets', '2006-12-16 08:44:41', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac8.txt');
+INSERT INTO mse_volume VALUES ('CAC', 9, 'V09 Outline of Mark Gospel and Other Ministry', '2006-12-16 09:11:21', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac9.txt');
+INSERT INTO mse_volume VALUES ('CAC', 10, 'V10 Outline of Luke Gospel', '2006-12-16 09:14:38', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac10.txt');
+INSERT INTO mse_volume VALUES ('CAC', 11, 'V11 Outline of Romans', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac11.txt');
+INSERT INTO mse_volume VALUES ('CAC', 12, 'V12 Outline of the Epistle of James', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac12.txt');
+INSERT INTO mse_volume VALUES ('CAC', 13, 'V13 Outline of "The Revelation"', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac13.txt');
+INSERT INTO mse_volume VALUES ('CAC', 14, 'V14 The True Grace of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac14.txt');
+INSERT INTO mse_volume VALUES ('CAC', 15, 'V15 The Believer Established', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac15.txt');
+INSERT INTO mse_volume VALUES ('CAC', 16, 'V16 Favour and Freedom', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac16.txt');
+INSERT INTO mse_volume VALUES ('CAC', 17, 'V17 The Food of Life', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac17.txt');
+INSERT INTO mse_volume VALUES ('CAC', 18, 'V18 The House of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac18.txt');
+INSERT INTO mse_volume VALUES ('CAC', 19, 'V19 The Paths of Life', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac19.txt');
+INSERT INTO mse_volume VALUES ('CAC', 20, 'V20 Spiritual Blessings', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac20.txt');
+INSERT INTO mse_volume VALUES ('CAC', 21, 'V21 A Sure Foundation', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac21.txt');
+INSERT INTO mse_volume VALUES ('CAC', 22, 'V22 Letters of C.A. Coates', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac22.txt');
+INSERT INTO mse_volume VALUES ('CAC', 23, 'V23 Outline of the Epistle to the Hebrews', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac23.txt');
+INSERT INTO mse_volume VALUES ('CAC', 24, 'V24 Notes of Readings on the Lords Supper', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac24.txt');
+INSERT INTO mse_volume VALUES ('CAC', 25, 'V25 Outlines of Corinthians', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac25.txt');
+INSERT INTO mse_volume VALUES ('CAC', 26, 'V26 Outline of Ephesians', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac26.txt');
+INSERT INTO mse_volume VALUES ('CAC', 27, 'V27 Outlines of Samuel, Kings and the Chronicles', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac27.txt');
+INSERT INTO mse_volume VALUES ('CAC', 28, 'V28 Notes of Readings on Matthew Gospel', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac28.txt');
+INSERT INTO mse_volume VALUES ('CAC', 29, 'V29 An Outline of John Gospel', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac29.txt');
+INSERT INTO mse_volume VALUES ('CAC', 30, 'V30 Misc Ministry on OT', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac30.txt');
+INSERT INTO mse_volume VALUES ('CAC', 31, 'V31 Misc Ministry on NT Matthew-Romans', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac31.txt');
+INSERT INTO mse_volume VALUES ('CAC', 32, 'V32 Misc Ministry on NT Corinthians-Colossians', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac32.txt');
+INSERT INTO mse_volume VALUES ('CAC', 33, 'V33 Misc Ministry on NT Thessalonians-Revelation', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac33.txt');
+INSERT INTO mse_volume VALUES ('CAC', 34, 'V34 Words in Season', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac34.txt');
+INSERT INTO mse_volume VALUES ('CAC', 35, 'V27a Outlines of the Books of the Chronicles', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac35.txt');
+INSERT INTO mse_volume VALUES ('CAC', 36, 'Remarks on a pamphlet by A. J. Pollock entitled "The Eternal Son"', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac36.txt');
+INSERT INTO mse_volume VALUES ('CAC', 37, 'A Message for You', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\cac\\\\cac37.txt');
+INSERT INTO mse_volume VALUES ('FER', 1, 'V01 Volume 1', '2006-09-17 13:57:39', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer1.txt');
+INSERT INTO mse_volume VALUES ('FER', 2, 'V02 Volume 2', '2006-09-17 14:06:44', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer2.txt');
+INSERT INTO mse_volume VALUES ('FER', 3, 'V03 Volume 3', '2006-09-17 14:07:33', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer3.txt');
+INSERT INTO mse_volume VALUES ('FER', 4, 'V04 Volume 4', '2006-04-04 22:04:55', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer4.txt');
+INSERT INTO mse_volume VALUES ('FER', 5, 'V05 Volume 5', '2006-04-04 22:07:33', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer5.txt');
+INSERT INTO mse_volume VALUES ('FER', 6, 'V06 Volume 6', '2006-04-04 22:09:56', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer6.txt');
+INSERT INTO mse_volume VALUES ('FER', 7, 'V07 Volume 7', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer7.txt');
+INSERT INTO mse_volume VALUES ('FER', 8, 'V08 Volume 8', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer8.txt');
+INSERT INTO mse_volume VALUES ('FER', 9, 'V09 Volume 9', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer9.txt');
+INSERT INTO mse_volume VALUES ('FER', 10, 'V10 Volume 10', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer10.txt');
+INSERT INTO mse_volume VALUES ('FER', 11, 'V11 Volume 11', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer11.txt');
+INSERT INTO mse_volume VALUES ('FER', 12, 'V12 Volume 12', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer12.txt');
+INSERT INTO mse_volume VALUES ('FER', 13, 'V13 Volume 13', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer13.txt');
+INSERT INTO mse_volume VALUES ('FER', 14, 'V14 Volume 14', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer14.txt');
+INSERT INTO mse_volume VALUES ('FER', 15, 'V15 Volume 15', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer15.txt');
+INSERT INTO mse_volume VALUES ('FER', 16, 'V16 Volume 16', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer16.txt');
+INSERT INTO mse_volume VALUES ('FER', 17, 'V17 Volume 17', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer17.txt');
+INSERT INTO mse_volume VALUES ('FER', 18, 'V18 Volume 18', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer18.txt');
+INSERT INTO mse_volume VALUES ('FER', 19, 'V19 Volume 19', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer19.txt');
+INSERT INTO mse_volume VALUES ('FER', 20, 'V20 Volume 20', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer20.txt');
+INSERT INTO mse_volume VALUES ('FER', 21, 'Letters', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\fer\\\\fer21.txt');
+INSERT INTO mse_volume VALUES ('GRC', 1, 'V01', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc1.txt');
+INSERT INTO mse_volume VALUES ('GRC', 2, 'V02 - Greatness', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc2.txt');
+INSERT INTO mse_volume VALUES ('GRC', 3, 'V03 - The Lord Jesus as seen in the Revelation', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc3.txt');
+INSERT INTO mse_volume VALUES ('GRC', 4, 'V04 - The Sabbath Of Rest', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc4.txt');
+INSERT INTO mse_volume VALUES ('GRC', 5, 'V05 - Devotion By Vow', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc5.txt');
+INSERT INTO mse_volume VALUES ('GRC', 6, 'V06 - God With Us', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc6.txt');
+INSERT INTO mse_volume VALUES ('GRC', 7, 'V07 - Progress In Recovery', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc7.txt');
+INSERT INTO mse_volume VALUES ('GRC', 8, 'V08 - Ordering of the Camp', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc8.txt');
+INSERT INTO mse_volume VALUES ('GRC', 9, 'V09 - Purification And Life', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc9.txt');
+INSERT INTO mse_volume VALUES ('GRC', 10, 'V10 - The Gospel of the Glory', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc10.txt');
+INSERT INTO mse_volume VALUES ('GRC', 11, 'V11', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc11.txt');
+INSERT INTO mse_volume VALUES ('GRC', 12, 'V12 - The Grace and Government of God in Days of Recovery', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc12.txt');
+INSERT INTO mse_volume VALUES ('GRC', 13, 'V13 - Addresses and Readings', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc13.txt');
+INSERT INTO mse_volume VALUES ('GRC', 14, 'V14 - Spiritual Vision', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc14.txt');
+INSERT INTO mse_volume VALUES ('GRC', 15, 'V15 - The Times of the Nations', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc15.txt');
+INSERT INTO mse_volume VALUES ('GRC', 16, 'V16', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc16.txt');
+INSERT INTO mse_volume VALUES ('GRC', 17, 'Booklet 1', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc17.txt');
+INSERT INTO mse_volume VALUES ('GRC', 18, 'Booklet 2', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc18.txt');
+INSERT INTO mse_volume VALUES ('GRC', 19, 'Booklet 3', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc19.txt');
+INSERT INTO mse_volume VALUES ('GRC', 20, 'Booklet 4', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc20.txt');
+INSERT INTO mse_volume VALUES ('GRC', 21, 'Booklet 5', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc21.txt');
+INSERT INTO mse_volume VALUES ('GRC', 22, 'Booklet 6', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc22.txt');
+INSERT INTO mse_volume VALUES ('GRC', 23, 'The Headship of Christ and of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc23.txt');
+INSERT INTO mse_volume VALUES ('GRC', 24, 'Fundamental Truths of Christianity and The Kingdom of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc24.txt');
+INSERT INTO mse_volume VALUES ('GRC', 25, 'V25', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc25.txt');
+INSERT INTO mse_volume VALUES ('GRC', 26, 'V26', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc26.txt');
+INSERT INTO mse_volume VALUES ('GRC', 27, 'Greatness And Other Ministry', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc27.txt');
+INSERT INTO mse_volume VALUES ('GRC', 28, 'Departing from Iniquity or Inconsistency', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc28.txt');
+INSERT INTO mse_volume VALUES ('GRC', 29, 'The Call of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc29.txt');
+INSERT INTO mse_volume VALUES ('GRC', 30, 'The Choice of a Career', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc30.txt');
+INSERT INTO mse_volume VALUES ('GRC', 31, 'The Deity of Christ', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc31.txt');
+INSERT INTO mse_volume VALUES ('GRC', 32, 'V32', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc32.txt');
+INSERT INTO mse_volume VALUES ('GRC', 33, 'Houses Hallowed and Redeemed', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc33.txt');
+INSERT INTO mse_volume VALUES ('GRC', 34, 'God Himself', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc34.txt');
+INSERT INTO mse_volume VALUES ('GRC', 35, 'The Work of the Lord and the Service of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc35.txt');
+INSERT INTO mse_volume VALUES ('GRC', 36, 'Giving and its Fruits', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc36.txt');
+INSERT INTO mse_volume VALUES ('GRC', 37, 'The Supremacy of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc37.txt');
+INSERT INTO mse_volume VALUES ('GRC', 38, 'The Name of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc38.txt');
+INSERT INTO mse_volume VALUES ('GRC', 39, 'God Going Before His People', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc39.txt');
+INSERT INTO mse_volume VALUES ('GRC', 40, 'Walking in the Light', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc40.txt');
+INSERT INTO mse_volume VALUES ('GRC', 41, 'The Servant of the Lord', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc41.txt');
+INSERT INTO mse_volume VALUES ('GRC', 42, 'V42', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc42.txt');
+INSERT INTO mse_volume VALUES ('GRC', 43, 'The Family, the Body and the Temple', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc43.txt');
+INSERT INTO mse_volume VALUES ('GRC', 44, 'Our Access into the Presence of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc44.txt');
+INSERT INTO mse_volume VALUES ('GRC', 45, 'V45', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc45.txt');
+INSERT INTO mse_volume VALUES ('GRC', 46, 'FOUNDATIONS', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc46.txt');
+INSERT INTO mse_volume VALUES ('GRC', 47, 'CHRIST IN US', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc47.txt');
+INSERT INTO mse_volume VALUES ('GRC', 48, 'V48', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc48.txt');
+INSERT INTO mse_volume VALUES ('GRC', 49, 'V49', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc49.txt');
+INSERT INTO mse_volume VALUES ('GRC', 50, 'Habitation of God in the Spirit', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc50.txt');
+INSERT INTO mse_volume VALUES ('GRC', 51, 'The Priest with Urim and with Thummim', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc51.txt');
+INSERT INTO mse_volume VALUES ('GRC', 52, 'The Shepherd and Bishop of our Souls', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc52.txt');
+INSERT INTO mse_volume VALUES ('GRC', 53, 'The Gospel and the Church', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc53.txt');
+INSERT INTO mse_volume VALUES ('GRC', 54, '"God is One"', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc54.txt');
+INSERT INTO mse_volume VALUES ('GRC', 55, 'Four Aspects of the Call of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc55.txt');
+INSERT INTO mse_volume VALUES ('GRC', 56, 'Lay Hold of Eternal Life', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc56.txt');
+INSERT INTO mse_volume VALUES ('GRC', 57, 'Rest, Life, Food, Drink', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc57.txt');
+INSERT INTO mse_volume VALUES ('GRC', 58, 'The Divinely Established System', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc58.txt');
+INSERT INTO mse_volume VALUES ('GRC', 59, 'The Divine System', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc59.txt');
+INSERT INTO mse_volume VALUES ('GRC', 60, 'Fellowship', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc60.txt');
+INSERT INTO mse_volume VALUES ('GRC', 61, 'As a Man Thinks in His Heart so is He', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc61.txt');
+INSERT INTO mse_volume VALUES ('GRC', 62, 'The Wall of The City', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc62.txt');
+INSERT INTO mse_volume VALUES ('GRC', 63, 'Nazariteship', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc63.txt');
+INSERT INTO mse_volume VALUES ('GRC', 64, 'Let Him That Boasts, Boast in the Lord', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc64.txt');
+INSERT INTO mse_volume VALUES ('GRC', 65, 'V65', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc65.txt');
+INSERT INTO mse_volume VALUES ('GRC', 66, 'Christ as Foundation, Structure and Headstone', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc66.txt');
+INSERT INTO mse_volume VALUES ('GRC', 67, 'Devotion to God and His Chief Interest on Earth - The House of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc67.txt');
+INSERT INTO mse_volume VALUES ('GRC', 68, 'Our Standing on Divine Ground', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc68.txt');
+INSERT INTO mse_volume VALUES ('GRC', 69, 'Loving Righteousness', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc69.txt');
+INSERT INTO mse_volume VALUES ('GRC', 70, 'The Knowledge of the Son of God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc70.txt');
+INSERT INTO mse_volume VALUES ('GRC', 71, 'The System, Position and Path', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc71.txt');
+INSERT INTO mse_volume VALUES ('GRC', 72, 'Activities In Which We Are To Engage', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc72.txt');
+INSERT INTO mse_volume VALUES ('GRC', 73, 'The Unveiling of the Glories of Jesus Christ', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc73.txt');
+INSERT INTO mse_volume VALUES ('GRC', 74, 'Issues Involved in Present Exercises', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc74.txt');
+INSERT INTO mse_volume VALUES ('GRC', 75, 'V75', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc75.txt');
+INSERT INTO mse_volume VALUES ('GRC', 76, 'V76', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc76.txt');
+INSERT INTO mse_volume VALUES ('GRC', 77, 'Levitical Service', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc77.txt');
+INSERT INTO mse_volume VALUES ('GRC', 78, 'The Testimony of our Lord', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc78.txt');
+INSERT INTO mse_volume VALUES ('GRC', 79, 'Living Water', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc79.txt');
+INSERT INTO mse_volume VALUES ('GRC', 80, 'Living Bread', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc80.txt');
+INSERT INTO mse_volume VALUES ('GRC', 81, 'Sound Teaching, Sound Words, Sound Mind', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc81.txt');
+INSERT INTO mse_volume VALUES ('GRC', 82, 'The Body, the Kingdom, The House', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc82.txt');
+INSERT INTO mse_volume VALUES ('GRC', 83, 'Communion With God', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc83.txt');
+INSERT INTO mse_volume VALUES ('GRC', 84, 'Running, Walking And Standing', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc84.txt');
+INSERT INTO mse_volume VALUES ('GRC', 85, 'Anchor of The Soul', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc85.txt');
+INSERT INTO mse_volume VALUES ('GRC', 86, 'Help for those young in the Faith', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc86.txt');
+INSERT INTO mse_volume VALUES ('GRC', 87, 'The Upward Way', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc87.txt');
+INSERT INTO mse_volume VALUES ('GRC', 88, 'The Closing Ministry of the Dispensation', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\grc\\\\grc88.txt');
+INSERT INTO mse_volume VALUES ('JBS', 1, 'V01 Volume 1', '2006-12-16 09:17:08', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs1.txt');
+INSERT INTO mse_volume VALUES ('JBS', 2, 'V02 Volume 2', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs2.txt');
+INSERT INTO mse_volume VALUES ('JBS', 3, 'V03 Volume 3', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs3.txt');
+INSERT INTO mse_volume VALUES ('JBS', 4, 'V04 Volume 4', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs4.txt');
+INSERT INTO mse_volume VALUES ('JBS', 5, 'V05 Volume 5', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs5.txt');
+INSERT INTO mse_volume VALUES ('JBS', 6, 'V06 Volume 6', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs6.txt');
+INSERT INTO mse_volume VALUES ('JBS', 7, 'V07 Volume 7', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs7.txt');
+INSERT INTO mse_volume VALUES ('JBS', 8, 'V08 Volume 8', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs8.txt');
+INSERT INTO mse_volume VALUES ('JBS', 9, 'V09 Volume 9', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs9.txt');
+INSERT INTO mse_volume VALUES ('JBS', 10, 'V10 Volume 10', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs10.txt');
+INSERT INTO mse_volume VALUES ('JBS', 11, 'V11 Volume 11', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs11.txt');
+INSERT INTO mse_volume VALUES ('JBS', 12, 'V12 Volume 12', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs12.txt');
+INSERT INTO mse_volume VALUES ('JBS', 13, 'V13 Volume 13', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs13.txt');
+INSERT INTO mse_volume VALUES ('JBS', 14, 'Letters 1', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs14.txt');
+INSERT INTO mse_volume VALUES ('JBS', 15, 'Letters 2', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs15.txt');
+INSERT INTO mse_volume VALUES ('JBS', 16, 'Letters 3', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs16.txt');
+INSERT INTO mse_volume VALUES ('JBS', 17, 'From Glory to Glory', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jbs\\\\jbs17.txt');
+INSERT INTO mse_volume VALUES ('JT', 1, 'V001 Volume 1', '2006-11-05 13:31:09', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt1.txt');
+INSERT INTO mse_volume VALUES ('JT', 2, 'V002 Volume 2', '2006-11-05 13:33:24', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt2.txt');
+INSERT INTO mse_volume VALUES ('JT', 3, 'V003 Volume 3', '2006-11-05 13:34:49', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt3.txt');
+INSERT INTO mse_volume VALUES ('JT', 4, 'V004 Volume 4', '2006-11-05 13:35:56', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt4.txt');
+INSERT INTO mse_volume VALUES ('JT', 5, 'V005 Volume 5', '2006-11-05 13:37:15', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt5.txt');
+INSERT INTO mse_volume VALUES ('JT', 6, 'V006 Volume 6', '2006-11-05 13:38:26', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt6.txt');
+INSERT INTO mse_volume VALUES ('JT', 7, 'V007 Volume 7', '2006-11-05 13:39:34', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt7.txt');
+INSERT INTO mse_volume VALUES ('JT', 8, 'V008 Volume 8', '2006-11-05 13:40:42', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt8.txt');
+INSERT INTO mse_volume VALUES ('JT', 9, 'V009 Volume 9', '2006-11-05 13:41:36', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt9.txt');
+INSERT INTO mse_volume VALUES ('JT', 10, 'V010 Volume 10', '2006-11-05 13:42:22', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt10.txt');
+INSERT INTO mse_volume VALUES ('JT', 11, 'V011 Volume 11', '2006-11-05 13:43:53', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt11.txt');
+INSERT INTO mse_volume VALUES ('JT', 12, 'V012 Volume 12', '2006-11-05 13:45:28', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt12.txt');
+INSERT INTO mse_volume VALUES ('JT', 13, 'V013 Volume 13', '2006-11-05 14:02:57', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt13.txt');
+INSERT INTO mse_volume VALUES ('JT', 14, 'V014 Volume 14', '2006-11-05 14:05:59', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt14.txt');
+INSERT INTO mse_volume VALUES ('JT', 15, 'V015 Volume 15', '2006-11-05 14:07:56', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt15.txt');
+INSERT INTO mse_volume VALUES ('JT', 16, 'V016 Volume 16', '2006-11-05 14:08:55', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt16.txt');
+INSERT INTO mse_volume VALUES ('JT', 17, 'V017 Volume 17', '2006-11-05 14:09:47', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt17.txt');
+INSERT INTO mse_volume VALUES ('JT', 18, 'V018 Volume 18', '2006-11-05 14:13:05', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt18.txt');
+INSERT INTO mse_volume VALUES ('JT', 19, 'V019 Volume 19', '2006-11-05 14:13:48', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt19.txt');
+INSERT INTO mse_volume VALUES ('JT', 20, 'V020 Volume 20', '2006-11-05 14:14:23', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt20.txt');
+INSERT INTO mse_volume VALUES ('JT', 21, 'V021 Volume 21', '2006-11-05 14:15:17', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt21.txt');
+INSERT INTO mse_volume VALUES ('JT', 22, 'V022 Volume 22', '2006-11-05 14:15:55', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt22.txt');
+INSERT INTO mse_volume VALUES ('JT', 23, 'V023 Volume 23', '2006-11-05 14:16:40', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt23.txt');
+INSERT INTO mse_volume VALUES ('JT', 24, 'V024 Volume 24', '2006-11-05 14:22:21', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt24.txt');
+INSERT INTO mse_volume VALUES ('JT', 25, 'V025 Volume 25', '2006-11-05 14:23:08', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt25.txt');
+INSERT INTO mse_volume VALUES ('JT', 26, 'V026 Volume 26', '2006-12-14 11:38:52', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt26.txt');
+INSERT INTO mse_volume VALUES ('JT', 27, 'V027 Volume 27', '2006-12-14 15:40:11', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt27.txt');
+INSERT INTO mse_volume VALUES ('JT', 28, 'V028 Volume 28', '2006-12-14 16:21:17', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt28.txt');
+INSERT INTO mse_volume VALUES ('JT', 29, 'V029 Volume 29', '2006-12-14 16:22:46', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt29.txt');
+INSERT INTO mse_volume VALUES ('JT', 30, 'V030 Volume 30', '2006-12-14 16:25:04', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt30.txt');
+INSERT INTO mse_volume VALUES ('JT', 31, 'V031 Volume 31', '2006-12-16 08:14:18', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt31.txt');
+INSERT INTO mse_volume VALUES ('JT', 32, 'V032 Volume 32', '2006-12-16 08:16:23', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt32.txt');
+INSERT INTO mse_volume VALUES ('JT', 33, 'V033 Volume 33', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt33.txt');
+INSERT INTO mse_volume VALUES ('JT', 34, 'V034 Volume 34', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt34.txt');
+INSERT INTO mse_volume VALUES ('JT', 35, 'V035 Volume 35', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt35.txt');
+INSERT INTO mse_volume VALUES ('JT', 36, 'V036 Volume 36', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt36.txt');
+INSERT INTO mse_volume VALUES ('JT', 37, 'V037 Volume 37', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt37.txt');
+INSERT INTO mse_volume VALUES ('JT', 38, 'V038 Volume 38', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt38.txt');
+INSERT INTO mse_volume VALUES ('JT', 39, 'V039 Volume 39', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt39.txt');
+INSERT INTO mse_volume VALUES ('JT', 40, 'V040 Volume 40', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt40.txt');
+INSERT INTO mse_volume VALUES ('JT', 41, 'V041 Volume 41', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt41.txt');
+INSERT INTO mse_volume VALUES ('JT', 42, 'V042 Volume 42', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt42.txt');
+INSERT INTO mse_volume VALUES ('JT', 43, 'V043 Volume 43', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt43.txt');
+INSERT INTO mse_volume VALUES ('JT', 44, 'V044 Volume 44', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt44.txt');
+INSERT INTO mse_volume VALUES ('JT', 45, 'V045 Volume 45', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt45.txt');
+INSERT INTO mse_volume VALUES ('JT', 46, 'V046 Volume 46', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt46.txt');
+INSERT INTO mse_volume VALUES ('JT', 47, 'V047 Volume 47', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt47.txt');
+INSERT INTO mse_volume VALUES ('JT', 48, 'V048 Volume 48', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt48.txt');
+INSERT INTO mse_volume VALUES ('JT', 49, 'V049 Volume 49', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt49.txt');
+INSERT INTO mse_volume VALUES ('JT', 50, 'V050 Divine Names', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt50.txt');
+INSERT INTO mse_volume VALUES ('JT', 51, 'V051 Volume 51', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt51.txt');
+INSERT INTO mse_volume VALUES ('JT', 52, 'V052 Volume 52', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt52.txt');
+INSERT INTO mse_volume VALUES ('JT', 53, 'V053 Volume 53', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt53.txt');
+INSERT INTO mse_volume VALUES ('JT', 54, 'V054 Volume 54', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt54.txt');
+INSERT INTO mse_volume VALUES ('JT', 55, 'V055 Volume 55', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt55.txt');
+INSERT INTO mse_volume VALUES ('JT', 56, 'V056 Volume 56', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt56.txt');
+INSERT INTO mse_volume VALUES ('JT', 57, 'V057 Volume 57', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt57.txt');
+INSERT INTO mse_volume VALUES ('JT', 58, 'V058 Volume 58', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt58.txt');
+INSERT INTO mse_volume VALUES ('JT', 59, 'V059 Volume 59', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt59.txt');
+INSERT INTO mse_volume VALUES ('JT', 60, 'V060 Volume 60', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt60.txt');
+INSERT INTO mse_volume VALUES ('JT', 61, 'V061 Volume 61', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt61.txt');
+INSERT INTO mse_volume VALUES ('JT', 62, 'V062 Volume 62', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt62.txt');
+INSERT INTO mse_volume VALUES ('JT', 63, 'V063 Volume 63', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt63.txt');
+INSERT INTO mse_volume VALUES ('JT', 64, 'V064 Volume 64', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt64.txt');
+INSERT INTO mse_volume VALUES ('JT', 65, 'V065 Volume 65', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt65.txt');
+INSERT INTO mse_volume VALUES ('JT', 66, 'V066 Volume 66', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt66.txt');
+INSERT INTO mse_volume VALUES ('JT', 67, 'V067 Volume 67', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt67.txt');
+INSERT INTO mse_volume VALUES ('JT', 68, 'V068 Volume 68', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt68.txt');
+INSERT INTO mse_volume VALUES ('JT', 69, 'V069 Volume 69', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt69.txt');
+INSERT INTO mse_volume VALUES ('JT', 70, 'V070 Volume 70', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt70.txt');
+INSERT INTO mse_volume VALUES ('JT', 71, 'V071 Volume 71', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt71.txt');
+INSERT INTO mse_volume VALUES ('JT', 72, 'V072 Volume 72', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt72.txt');
+INSERT INTO mse_volume VALUES ('JT', 73, 'V073 Volume 73', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt73.txt');
+INSERT INTO mse_volume VALUES ('JT', 74, 'V074 Volume 74', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt74.txt');
+INSERT INTO mse_volume VALUES ('JT', 75, 'V075 Volume 75', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt75.txt');
+INSERT INTO mse_volume VALUES ('JT', 76, 'V076 Volume 76', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt76.txt');
+INSERT INTO mse_volume VALUES ('JT', 77, 'V077 Volume 77', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt77.txt');
+INSERT INTO mse_volume VALUES ('JT', 78, 'V078 Volume 78', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt78.txt');
+INSERT INTO mse_volume VALUES ('JT', 79, 'V079 Volume 79', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt79.txt');
+INSERT INTO mse_volume VALUES ('JT', 80, 'V080 Volume 80', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt80.txt');
+INSERT INTO mse_volume VALUES ('JT', 81, 'V081 Volume 81', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt81.txt');
+INSERT INTO mse_volume VALUES ('JT', 82, 'V082 Volume 82', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt82.txt');
+INSERT INTO mse_volume VALUES ('JT', 83, 'V083 Volume 83', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt83.txt');
+INSERT INTO mse_volume VALUES ('JT', 84, 'V084 Volume 84', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt84.txt');
+INSERT INTO mse_volume VALUES ('JT', 85, 'V085 Volume 85', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt85.txt');
+INSERT INTO mse_volume VALUES ('JT', 86, 'V086 Volume 86', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt86.txt');
+INSERT INTO mse_volume VALUES ('JT', 87, 'V087 Volume 87', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt87.txt');
+INSERT INTO mse_volume VALUES ('JT', 88, 'V088 Volume 88', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt88.txt');
+INSERT INTO mse_volume VALUES ('JT', 89, 'V089 Volume 89', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt89.txt');
+INSERT INTO mse_volume VALUES ('JT', 90, 'V090 Volume 90', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt90.txt');
+INSERT INTO mse_volume VALUES ('JT', 91, 'V091 Volume 91', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt91.txt');
+INSERT INTO mse_volume VALUES ('JT', 92, 'V092 Volume 92', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt92.txt');
+INSERT INTO mse_volume VALUES ('JT', 93, 'V093 Volume 93', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt93.txt');
+INSERT INTO mse_volume VALUES ('JT', 94, 'V094 Volume 94', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt94.txt');
+INSERT INTO mse_volume VALUES ('JT', 95, 'V095 Volume 95', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt95.txt');
+INSERT INTO mse_volume VALUES ('JT', 96, 'V096 Volume 96', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt96.txt');
+INSERT INTO mse_volume VALUES ('JT', 97, 'V097 Volume 97', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt97.txt');
+INSERT INTO mse_volume VALUES ('JT', 98, 'V098 Volume 98', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt98.txt');
+INSERT INTO mse_volume VALUES ('JT', 99, 'V099 Volume 99', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt99.txt');
+INSERT INTO mse_volume VALUES ('JT', 100, 'V100 Volume 100', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt100.txt');
+INSERT INTO mse_volume VALUES ('JT', 101, 'V100a', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt101.txt');
+INSERT INTO mse_volume VALUES ('JT', 102, 'Letters - Vol 1', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt102.txt');
+INSERT INTO mse_volume VALUES ('JT', 103, 'Letters - Vol 2', NULL, 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jt\\\\jt103.txt');
+INSERT INTO mse_volume VALUES ('JND', 1, 'CW V01 Ecclesiastical 1', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd1.txt');
+INSERT INTO mse_volume VALUES ('JND', 2, 'CW V02 Prophetic 1', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd2.txt');
+INSERT INTO mse_volume VALUES ('JND', 3, 'CW V03 Doctrinal 1', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd3.txt');
+INSERT INTO mse_volume VALUES ('JND', 4, 'CW V04 Ecclesiastical 2', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd4.txt');
+INSERT INTO mse_volume VALUES ('JND', 5, 'CW V05 Prophetic 2', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd5.txt');
+INSERT INTO mse_volume VALUES ('JND', 6, 'CW V06 Apologetic 1', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd6.txt');
+INSERT INTO mse_volume VALUES ('JND', 7, 'CW V07 Doctrinal 2', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd7.txt');
+INSERT INTO mse_volume VALUES ('JND', 8, 'CW V08 Prophetic 3', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd8.txt');
+INSERT INTO mse_volume VALUES ('JND', 9, 'CW V09 Apologetic 2', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd9.txt');
+INSERT INTO mse_volume VALUES ('JND', 10, 'CW V10 Doctrinal 3', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd10.txt');
+INSERT INTO mse_volume VALUES ('JND', 11, 'CW V11 Prophetic 4', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd11.txt');
+INSERT INTO mse_volume VALUES ('JND', 12, 'CW V12 Evangelical 1', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd12.txt');
+INSERT INTO mse_volume VALUES ('JND', 13, 'CW V13 Critical 1', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd13.txt');
+INSERT INTO mse_volume VALUES ('JND', 14, 'CW V14 Ecclesiastical 3', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd14.txt');
+INSERT INTO mse_volume VALUES ('JND', 15, 'CW V15 Doctrinal 4', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd15.txt');
+INSERT INTO mse_volume VALUES ('JND', 16, 'CW V16 Practical 1', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd16.txt');
+INSERT INTO mse_volume VALUES ('JND', 17, 'CW V17 Practical 2', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd17.txt');
+INSERT INTO mse_volume VALUES ('JND', 18, 'CW V18 Doctrinal 5', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd18.txt');
+INSERT INTO mse_volume VALUES ('JND', 19, 'CW V19 Expository 1', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd19.txt');
+INSERT INTO mse_volume VALUES ('JND', 20, 'CW V20 Ecclesiastical 4', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd20.txt');
+INSERT INTO mse_volume VALUES ('JND', 21, 'CW V21 Evangelical 2', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd21.txt');
+INSERT INTO mse_volume VALUES ('JND', 22, 'CW V22 Doctrinal 6', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd22.txt');
+INSERT INTO mse_volume VALUES ('JND', 23, 'CW V23 Doctrinal 7', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd23.txt');
+INSERT INTO mse_volume VALUES ('JND', 24, 'CW V24 Expository 3', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd24.txt');
+INSERT INTO mse_volume VALUES ('JND', 25, 'CW V25 Expository 4', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd25.txt');
+INSERT INTO mse_volume VALUES ('JND', 26, 'CW V26 Expository 5', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd26.txt');
+INSERT INTO mse_volume VALUES ('JND', 27, 'CW V27 Expository 6', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd27.txt');
+INSERT INTO mse_volume VALUES ('JND', 28, 'CW V28 Expository 7', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd28.txt');
+INSERT INTO mse_volume VALUES ('JND', 29, 'CW V29 Doctrinal 8', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd29.txt');
+INSERT INTO mse_volume VALUES ('JND', 30, 'CW V30 Expository 2', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd30.txt');
+INSERT INTO mse_volume VALUES ('JND', 31, 'CW V31 Doctrinal 9', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd31.txt');
+INSERT INTO mse_volume VALUES ('JND', 32, 'CW V32 Misc 1', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd32.txt');
+INSERT INTO mse_volume VALUES ('JND', 33, 'CW V33 Misc 2', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd33.txt');
+INSERT INTO mse_volume VALUES ('JND', 34, 'CW V34 Misc 3', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd34.txt');
+INSERT INTO mse_volume VALUES ('JND', 35, 'N&C V01', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd35.txt');
+INSERT INTO mse_volume VALUES ('JND', 36, 'N&C V02', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd36.txt');
+INSERT INTO mse_volume VALUES ('JND', 37, 'N&C V03', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd37.txt');
+INSERT INTO mse_volume VALUES ('JND', 38, 'N&C V04', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd38.txt');
+INSERT INTO mse_volume VALUES ('JND', 39, 'N&C V05', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd39.txt');
+INSERT INTO mse_volume VALUES ('JND', 40, 'N&C V06', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd40.txt');
+INSERT INTO mse_volume VALUES ('JND', 41, 'N&C V07', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd41.txt');
+INSERT INTO mse_volume VALUES ('JND', 42, 'N&C Notes and Jottings', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd42.txt');
+INSERT INTO mse_volume VALUES ('JND', 43, 'Synopsis V01 Genesis to 2 Chronicles', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd43.txt');
+INSERT INTO mse_volume VALUES ('JND', 44, 'Synopsis V02 Ezra to Malachi', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd44.txt');
+INSERT INTO mse_volume VALUES ('JND', 45, 'Synopsis V03 Matthew to John', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd45.txt');
+INSERT INTO mse_volume VALUES ('JND', 46, 'Synopsis V04 Acts to Philippians', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd46.txt');
+INSERT INTO mse_volume VALUES ('JND', 47, 'Synopsis V05 Colossians to Revelation', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd47.txt');
+INSERT INTO mse_volume VALUES ('JND', 48, 'Misc The World or Christ?', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd48.txt');
+INSERT INTO mse_volume VALUES ('JND', 49, 'Misc What the World is and how a Christian can live in it', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd49.txt');
+INSERT INTO mse_volume VALUES ('JND', 50, 'Letters V01', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd50.txt');
+INSERT INTO mse_volume VALUES ('JND', 51, 'Letters V02', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd51.txt');
+INSERT INTO mse_volume VALUES ('JND', 52, 'Letters V03', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd52.txt');
