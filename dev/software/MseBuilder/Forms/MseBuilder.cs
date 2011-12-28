@@ -20,6 +20,7 @@
  * CAM  24-Dec-2010  10902 : Removed plumbing to radios for types.
  * CAM  03-Jan-2011  10917 : Added checks for completion of EpubHymnThread.
  * CAM  03-Jan-2011  10918 : Added radio buttons to set entire session for EPUB or MOBI (because of LI/P issue)
+ * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -46,10 +47,8 @@ namespace FrontBurner.Ministry.MseBuilder
     private bool _specificVolume;
     private BuilderThread _builder;
     private ZipperThread _zipper;
-    private BbebThread _bbeb;
     private EpubThread _epub;
     private EpubHymnThread _epubHymn;
-    private ParseJndThread _jnd;
 
     public MseBuilder()
     {
@@ -111,20 +110,6 @@ namespace FrontBurner.Ministry.MseBuilder
           _zipper = null;
         }
       }
-      else if (_bbeb != null)
-      {
-        if (_bbeb.Process.IsAlive)
-        {
-          if (_bbeb.Engine != null) pgbVol.Value = _bbeb.Engine.Current;
-          this.Refresh();
-          this.Update();
-        }
-        else
-        {
-          ProcessComplete();
-          _bbeb = null;
-        }
-      }
       else if (_epub != null)
       {
         if (_epub.Process.IsAlive)
@@ -151,20 +136,6 @@ namespace FrontBurner.Ministry.MseBuilder
         {
           ProcessComplete();
           _epubHymn = null;
-        }
-      }
-      else if (_jnd != null)
-      {
-        if (_jnd.Process.IsAlive)
-        {
-          if (_jnd.Engine != null) pgbVol.Value = _jnd.Engine.Current;
-          this.Refresh();
-          this.Update();
-        }
-        else
-        {
-          ProcessComplete();
-          _jnd = null;
         }
       }
     }
@@ -272,21 +243,6 @@ namespace FrontBurner.Ministry.MseBuilder
       _tspMain.Enabled = true;
     }
 
-    private void CreateBbebReaderFiles(object sender, EventArgs e)
-    {
-      _tspMain.Enabled = false;
-
-      pgbVol.Minimum = 0;
-      pgbVol.Maximum = BusinessLayer.Instance.Volumes.Count;
-
-      SpecificVolume();
-
-      _bbeb = new BbebThread(_author, _vol, _specificVolume);
-      Thread.Sleep(1000);
-
-      tmrRefresh.Enabled = true;
-    }
-
     private void CreateEpubFiles(object sender, EventArgs e)
     {
       _tspMain.Enabled = false;
@@ -297,21 +253,6 @@ namespace FrontBurner.Ministry.MseBuilder
       SpecificVolume();
 
       _epub = new EpubThread(_author, _vol, _specificVolume);
-      Thread.Sleep(1000);
-
-      tmrRefresh.Enabled = true;
-    }
-
-    private void ParseJndHthmlFiles(object sender, EventArgs e)
-    {
-      _tspMain.Enabled = false;
-
-      pgbVol.Minimum = 0;
-      pgbVol.Maximum = BusinessLayer.Instance.JndHtmlVolumes.Count;
-
-      SpecificVolume();
-
-      _jnd = new ParseJndThread(_author, _vol, _specificVolume);
       Thread.Sleep(1000);
 
       tmrRefresh.Enabled = true;

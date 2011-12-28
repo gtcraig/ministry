@@ -14,6 +14,7 @@
  * CAM  18-Jan-2010  10539 : Include volume number prefix in title (for sorting in Calibre).
  * CAM  19-Jan-2010  10540 : Series is no longer require - based on logic.
  * CAM  24-Dec-2010  10902 : Smarter volume titles.
+ * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -158,14 +159,6 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
       set
       {
         _localFile = value.Replace("\\\\", "\\");
-      }
-    }
-
-    public bool IsFullMarkup
-    {
-      get
-      {
-        return _author.Equals("JND");
       }
     }
 

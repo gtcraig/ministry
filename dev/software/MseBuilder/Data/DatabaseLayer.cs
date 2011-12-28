@@ -26,6 +26,7 @@
  * CAM  03-Jan-2011  10917 : Retrieve hymns.
  * CAM  03-Jan-2011  10920 : Retrieve first line of each hymn.
  * CAM  04-Jan-2011  10919 : Retrieve hymns by authors and meters.
+ * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -217,55 +218,12 @@ namespace FrontBurner.Ministry.MseBuilder
           string sql =
             "SELECT author,vol,title,added,localfile " +
             "FROM mse_volume " +
-            "WHERE author <> 'GRC' ";
+            "WHERE author <> 'GRC' " +
+            "ORDER BY author,vol ";
 
           _cmdVolume = new MySqlCommand(sql, _conn);
         }
         dr = _cmdVolume.ExecuteReader();
-
-        do
-        {
-          while (dr.Read())
-          {
-            inits = dr.GetString(0);
-            if (authors.Contains(inits))
-            {
-              vol = new Volume(authors[inits], dr.GetInt32(1));
-
-              if (!dr.IsDBNull(2)) vol.Title = dr.GetString(2);
-              if (!dr.IsDBNull(3)) vol.Added = dr.GetDateTime(3);
-              if (!dr.IsDBNull(4)) vol.LocalFile = dr.GetString(4);
-
-              rval.Add(vol);
-            }
-          }
-        } while (dr.NextResult());
-
-        dr.Close();
-      }
-
-      return rval;
-    }
-
-    public VolumeCollection GetJndHtmlVolumes()
-    {
-      MySqlDataReader dr;
-      Volume vol;
-      string inits;
-      VolumeCollection rval = new VolumeCollection();
-      AuthorCollection authors = BusinessLayer.Instance.Authors;
-
-      lock (_semaphore)
-      {
-        if (_cmdVolumeJndHtml == null)
-        {
-          string sql =
-            "SELECT author,vol,title,added,localfile " +
-            "FROM mse_volume_jndhtml ";
-
-          _cmdVolumeJndHtml = new MySqlCommand(sql, _conn);
-        }
-        dr = _cmdVolumeJndHtml.ExecuteReader();
 
         do
         {
@@ -970,9 +928,9 @@ namespace FrontBurner.Ministry.MseBuilder
     public DataTable GetHymnAuthors(Language language)
     {
       string sql =
-        "SELECT ha.id, ha.fullname, ha.surname, ha.firstnames, ha.author_life, h.hymn_no "+
+        "SELECT ha.id, ha.fullname, ha.surname, ha.firstnames, ha.author_life, h.hymn_no " +
         "FROM authors ha, hymn" + Languages.LanguageSuffix(language) + " h " +
-        "WHERE h.author_id = ha.id "+
+        "WHERE h.author_id = ha.id " +
         "ORDER BY 3,4,2,6 ";
 
       MySqlDataAdapter dad = new MySqlDataAdapter(sql, _conn);

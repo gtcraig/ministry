@@ -12,6 +12,7 @@
  * CAM  19-Jan-2010  10540 : Added EpubThread.
  * CAM  23-Jan-2010  10551 : Added ParseJndThread.
  * CAM  03-Jan-2011  10917 : Added EpubHymnThread.
+ * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -112,31 +113,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
     }
   }
 
-  public class BbebThread : VolumeThread
-  {
-    public BbebThread(string author, int vol, bool specificVolume)
-      : base(author, vol, specificVolume)
-    {
-      _process = new Thread(new ThreadStart(CreateBbebFiles));
-      _process.IsBackground = true;
-      _process.Start();
-    }
-
-    private void CreateBbebFiles()
-    {
-      _engine = new MseEngine();
-
-      if (_specificVolume)
-      {
-        _engine.CreateBbebFiles(_author, _vol);
-      }
-      else
-      {
-        _engine.CreateBbebFiles();
-      }
-    }
-  }
-
   public class EpubThread : VolumeThread
   {
     public EpubThread(string author, int vol, bool specificVolume)
@@ -175,31 +151,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
     private void CreateEpubFiles()
     {
       new MseEngine().CreateEpubHymnFiles();
-    }
-  }
-
-  public class ParseJndThread : VolumeThread
-  {
-    public ParseJndThread(string author, int vol, bool specificVolume)
-      : base(author, vol, specificVolume)
-    {
-      _process = new Thread(new ThreadStart(CreateJndFiles));
-      _process.IsBackground = true;
-      _process.Start();
-    }
-
-    private void CreateJndFiles()
-    {
-      _engine = new MseEngine();
-
-      if (_specificVolume)
-      {
-        _engine.CreateJndFiles(_author, _vol);
-      }
-      else
-      {
-        _engine.CreateJndFiles();
-      }
     }
   }
 }

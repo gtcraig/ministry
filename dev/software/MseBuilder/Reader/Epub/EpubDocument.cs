@@ -11,6 +11,7 @@
  * CAM  11-Feb-2010  10559 : Mimetype without newline (needed?).
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * CAM  24-Dec-2010  10904 : More sensible, tidier title on cover image.
+ * CAM  28-Dec-2011  gc005 : Ensure apostrophes display correctly on cover page.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -211,14 +212,14 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       _cssFile.CopyTo(String.Format(@"{0}\{1}", _cssDir.FullName, _cssFile.Name), true);
       _authorImage.CopyTo(String.Format(@"{0}\{1}", _imgDir.FullName, _authorImage.Name), true);
 
-      // Determine the text and therefore size/position of the title 
+      // Determine the text and therefore size/position of the title
       string title = String.Format("Volume {0}", Volume.Vol);
       int fontSize = 48;
       float vertical = 0.25f;
 
       if (Volume.Title.Length > 0)
       {
-        title = Volume.Title;
+        title = Volume.Title.Replace('~', (char)8217); // [#5]
         fontSize = 36;
         vertical = 0.4f;
       }
@@ -233,7 +234,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       int h = (int)(((float)coverBitmap.Height) * vertical);
       int w = (int)(((float)coverBitmap.Width) * 0.9f);
       g.DrawString(title, new Font("Tahoma", fontSize), new SolidBrush(Color.FromArgb(255, 243, 186)),
-          new RectangleF((coverBitmap.Width-w)/2, coverBitmap.Height-h, w, h), strFormat);
+          new RectangleF((coverBitmap.Width - w) / 2, coverBitmap.Height - h, w, h), strFormat);
       coverBitmap.Save(String.Format(@"{0}\cover-{1}", _imgDir.FullName, _coverImage.Name));
     }
   }
