@@ -12,6 +12,7 @@
  * CAM  11-Feb-2010  10559 : Added Namespace etc to Package tag.
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * CAM  28-Dec-2011  gc005 : Ensure apostrophes display correctly by using EpubHeading.
+ * CAM  29-Dec-2011  gc005 : Titles were not displaying correctly on Apple (&amp;rsquo;).
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -126,9 +127,16 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       return type.Replace(",", "");
     }
 
+    protected string XmlSafeTitle(string title)
+    {
+      // [#5]
+      title = title.Replace("~", "'");
+      return title;
+    }
+
     protected void AddMetaData()
     {
-      XmlElement element = AppendElement(MetaData, "dc:title", XmlnsDc, new EpubHeading(Volume.FullTitle).Text); // [#5]
+      XmlElement element = AppendElement(MetaData, "dc:title", XmlnsDc, XmlSafeTitle(Volume.FullTitle));      
 
       element = AppendElement(MetaData, "dc:creator", XmlnsDc, Volume.Author.OrgName);
       AppendAttribute(element, "opf:role", XmlnsOpf, "aut");
