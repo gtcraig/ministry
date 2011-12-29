@@ -127,16 +127,9 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       return type.Replace(",", "");
     }
 
-    protected string XmlSafeTitle(string title)
-    {
-      // [#5]
-      title = title.Replace("~", "'");
-      return title;
-    }
-
     protected void AddMetaData()
     {
-      XmlElement element = AppendElement(MetaData, "dc:title", XmlnsDc, XmlSafeTitle(Volume.FullTitle));      
+      XmlElement element = AppendElement(MetaData, "dc:title", XmlnsDc, XmlTitle(Volume.FullTitle));      
 
       element = AppendElement(MetaData, "dc:creator", XmlnsDc, Volume.Author.OrgName);
       AppendAttribute(element, "opf:role", XmlnsOpf, "aut");
