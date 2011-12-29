@@ -16,6 +16,7 @@
  * CAM  24-Dec-2010  10902 : Smarter volume titles.
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * CAM  29-Dec-2011  gc006 : Removed volume number from VolumeTitle.
+ * CAM  29-Dec-2011  gc009 : Removed volume number from FullTitle for StandardEpub.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -99,10 +100,10 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
           case BuildMode.SonyEpub:
             fullTitle = String.Format("{0:000}", Vol);
             break;
-          case BuildMode.StandardEpub:
+          //case BuildMode.StandardEpub:  // No longer required as Title now includes a sort
             // Include a Volume number with leading zeroes to force sort order in iBooks
-            fullTitle = String.Format("{1} {0:000}", Vol, Author.Inits);
-            break;
+            //fullTitle = String.Format("{1} {0:000}", Vol, Author.Inits);
+            //break;
           default:
             fullTitle = Author.Inits;
             break;
@@ -125,7 +126,6 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
       get
       {
         return String.Format("{0}_{1:000}", Author.Inits.ToLower(), Vol);
-
       }
     }
     public string Series
