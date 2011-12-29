@@ -8,6 +8,7 @@
  * Who  When         Why
  * CAM  19-Jan-2010  10540 : File created.
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
+ * CAM  29-Dec-2011  gc005 : Added XmlTitle.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -127,6 +128,12 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       XmlAttribute attribute = CreateAttribute(attributeName, ns);
       attribute.Value = attributeValue;
       element.Attributes.Append(attribute);
+    }
+
+    protected string XmlTitle(string title)
+    {
+      title = title.Replace("~", "'");
+      return title;
     }
   }
 }

@@ -11,6 +11,7 @@
  * CAM  23-Jan-2010  10553 : Use PlainText for TOC entries.
  * CAM  11-Feb-2010  10559 : Increment TOC entry id.
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
+ * CAM  29-Dec-2011  gc005 : Removed Title page from Contents and ensure Title is XmlSafe.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -67,7 +68,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 
       XmlElement docTitle = AppendElement(Root, "docTitle");
       XmlElement text = AppendElement(docTitle, "text");
-      text.AppendChild(CreateTextNode(Volume.VolumeTitle));
+      text.AppendChild(CreateTextNode(XmlTitle(Volume.VolumeTitle)));
 
       XmlElement docAuthor = AppendElement(Root, "docAuthor");
       text = AppendElement(docAuthor, "text");
@@ -81,6 +82,8 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       int id = 1;
       foreach (EpubArticle article in Doc.Articles)
       {
+        if (article is EpubTitlePage) continue;
+
         XmlElement navPoint = AppendElement(NavMap, "navPoint");
         AppendAttribute(navPoint, "id", String.Format("navpoint-{0}", id));
         AppendAttribute(navPoint, "playOrder", String.Format("{0}", id));
