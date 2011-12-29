@@ -146,7 +146,7 @@ INSERT INTO mse_author VALUES ('FER', 'F. E. Raven', 'Frederick Edward Raven', '
 INSERT INTO mse_author VALUES ('GRC', 'G. R. Cowell', 'Gerald Robert Cowell', 'Cowell, Gerald ');
 INSERT INTO mse_author VALUES ('JBS', 'J. B. Stoney', 'James Butler Stoney', 'Stoney, James');
 INSERT INTO mse_author VALUES ('JND', 'J. N. Darby', 'John Nelson Darby', 'Darby, John');
-INSERT INTO mse_author VALUES ('JT', 'J. Taylor, Snr', 'James Taylor, Snr', 'Taylor, James, Snr');
+INSERT INTO mse_author VALUES ('JT', 'J. Taylor, Sr', 'James Taylor (Sr)', 'Taylor Sr, James');
 INSERT INTO mse_author VALUES ('VAR', 'Various', 'Various', 'Various');
 
 --
