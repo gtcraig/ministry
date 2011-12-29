@@ -15,6 +15,7 @@
  * CAM  19-Jan-2010  10540 : Series is no longer require - based on logic.
  * CAM  24-Dec-2010  10902 : Smarter volume titles.
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
+ * CAM  29-Dec-2011  gc006 : Removed volume number from VolumeTitle.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -81,7 +82,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
       {
         if (Title.Length > 0)
         {
-          return String.Format("{0} (#{1})", Title, Vol);
+          return Title;
         }
 
         return String.Format("Volume {0}", Vol);
