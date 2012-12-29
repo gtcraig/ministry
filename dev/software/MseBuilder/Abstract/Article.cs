@@ -9,6 +9,7 @@
  * CAM  22-Sep-2007  File added to source control.
  * CAM  26-Sep-2007  Early working version.
  * CAM  23-Jan-2010  10553 : Created GetTitle to remove extraneous formatting for display in TOC etc.
+ * CAM  29-Dec-2012  11151 : Remove broken-bar footnotes from TOC.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -104,6 +105,8 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
 
         p = title.IndexOf(SuperscriptStart);
       }
+
+      title = title.Replace("¦", ""); // Remove broken-bar style footnotes too
 
       return title;
     }

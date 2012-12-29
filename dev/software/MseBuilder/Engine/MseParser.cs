@@ -13,6 +13,7 @@
  * CAM  15-Jun-2008  10271 : Handle Footnotes.
  * CAM  18-Jan-2010  10529 : Missed several references to Author!
  * CAM  23-Jan-2010  10553 : Handle JND's footnotes correctly.
+ * CAM  29-Dec-2012  11151 : Treat broken-bars as footnotes.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -127,7 +128,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
 
     public bool ParseText()
     {
-      StreamReader sr = new StreamReader(_vol.GetFile().FullName);
+      StreamReader sr = new StreamReader(_vol.GetFile().FullName, System.Text.Encoding.Default, true);
       string buffer;
       int rows = 0;
       int cb = 0;
@@ -149,6 +150,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       {
         rows++;
         //MessageBox.Show(string.Format("{0}\n{1}", rows, buffer));
+
         buffer = buffer.Trim();
 
         scriptures = false;
@@ -190,29 +192,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
           para++;
           calcPageNo = pageNo;
 
-          //if ((buffer.Length >= 4) && buffer.Substring(0, 4).Equals("<sup"))
-          //{
-          //  // Footnote, add to the previous paragraph
-          //  // (which is paraCurrent because its not reset until below)
-          //  if ((paraFootnotes == null) && (paraCurrent != null))
-          //  {
-          //    paraFootnotes = paraCurrent;
-          //  }
-          //  paraFootnotes.Footnotes.Add(buffer);
-          //  calcPageNo = paraFootnotes.PageNo;
-          //  para = paraFootnotes.NextParaNo;
-          //  footnote = true;
-          //}
-          //else
-          //{
-          //  // Not a footnote - close off the previous paragraph and reset paragraph counter
-          //  if (paraFootnotes != null)
-          //  {
-          //    if (pageNo != paraFootnotes.PageNo) para = 1; // reset paragraph counter if we have changed page
-          //    paraFootnotes = null;
-          //  }
-          //}
-
           inits = null;
 
           if (GetInitials(buffer, out initStart, out initFinish))
@@ -239,7 +218,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
           {
             // Set the Article
             if (art != null) paraCurrent.Article = art;
-            bool footnote = buffer.StartsWith("<sup>");
+            bool footnote = (buffer.StartsWith("<sup>") || buffer.StartsWith("¦"));
 
             if (paraPrevious != null)
             {
