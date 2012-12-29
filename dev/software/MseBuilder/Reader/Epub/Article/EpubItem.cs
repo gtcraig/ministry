@@ -9,6 +9,7 @@
  * CAM  19-Jan-2010  10540 : File created.
  * CAM  23-Jan-2010  10553 : Ensure valid XHTML.
  * CAM  03-Jan-2011  10917 : Enable repeated setting/concatenation of _text using PlainText and do all conversion on Text.get.
+ * CAM  29-Dec-2012  11151 : Correctly output Italics and Double and Single Quotation marks.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -29,11 +30,36 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 
         rval = rval.Replace("&", "&amp;");
         rval = rval.Replace("@", "");
-        rval = rval.Replace("*", ""); // TODO: make italics work
+
+        #region Italics
+        if (rval.StartsWith("*")) rval = "<i>" + rval.Substring(1);   // Italics beginning at the start of a line
+
+        rval = rval.Replace(" *", " <i>");
+        rval = rval.Replace("\"*", "\"<i>");
+
+        rval = rval.Replace("*", "</i>"); // All others, assume closing
+        #endregion
+
         rval = rval.Replace("~", "&rsquo;"); // Apostrophes
         rval = rval.Replace("--", "&mdash;");
-        rval = rval.Replace("\"", "&quot;");
+
+        #region Double Quotation Marks
+        if (rval.StartsWith("\"")) rval = "&ldquo;" + rval.Substring(1);   // Italics beginning at the start of a line
+        rval = rval.Replace(" \"", " &ldquo;");
+        rval = rval.Replace("\"", "&rdquo;");  // All others, assume closing
+        #endregion
+
+        #region Single Quotation Marks
+        if (rval.StartsWith("'")) rval = "&lsquo;" + rval.Substring(1);   // Italics beginning at the start of a line
+        rval = rval.Replace(" '", " &lsquo;");
+        rval = rval.Replace("'", "&rsquo;");  // All others, assume closing
+        #endregion
+
         rval = rval.Replace("<br>", "<br />"); // XHTML
+        rval = rval.Replace("<hr>", "<hr />"); // XHTML
+        rval = rval.Replace("`", ""); // Hymn references
+
+        rval = rval.Replace("¦", "<sup>&dagger;</sup>"); // Footnotes.  TODO: Count the number in the current article
 
         return rval;
       }

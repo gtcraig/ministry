@@ -17,6 +17,7 @@
  * CAM  15-Jun-2008  10271 : Consider '"' to be an acceptable end paragraph character (end quote).
  * CAM  15-Jan-2010  10531 : Created a static version of IsTitle.
  * CAM  23-Jan-2010  10553 : Use GetTitle to remove extraneous formatting before checking whether a Paragraph is a Title.
+ * CAM  29-Dec-2012  11151 : Use Properties as intended.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -168,11 +169,11 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
       : base()
     {
       _vol = vol;
-      _pageNo = pageNo;
-      _para = para;
-      _localRow = localRow;
-      _inits = inits;
-      _text = text.Trim();
+      PageNo = pageNo;
+      Para = para;
+      LocalRow = localRow;
+      Inits = inits;
+      Text = text;
 
       _newPages = new List<int>();
 
