@@ -10,6 +10,7 @@
  * CAM  23-Jan-2010  10553 : Ensure valid XHTML.
  * CAM  03-Jan-2011  10917 : Enable repeated setting/concatenation of _text using PlainText and do all conversion on Text.get.
  * CAM  29-Dec-2012  11151 : Correctly output Italics and Double and Single Quotation marks.
+ * CAM  01-Jan-2013  11151 : Improvements on Double and Single Quotation marks.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -46,12 +47,28 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
         #region Double Quotation Marks
         if (rval.StartsWith("\"")) rval = "&ldquo;" + rval.Substring(1);   // Italics beginning at the start of a line
         rval = rval.Replace(" \"", " &ldquo;");
+
+        rval = rval.Replace("\".", "&rdquo;.");
+        rval = rval.Replace("\";", "&rdquo;;");
+        rval = rval.Replace("\",", "&rdquo;,");
+        rval = rval.Replace("\"!", "&rdquo;!");
+        rval = rval.Replace("\"?", "&rdquo;?");
+
+        rval = rval.Replace(">\"", ">&ldquo;");
         rval = rval.Replace("\"", "&rdquo;");  // All others, assume closing
         #endregion
 
         #region Single Quotation Marks
         if (rval.StartsWith("'")) rval = "&lsquo;" + rval.Substring(1);   // Italics beginning at the start of a line
         rval = rval.Replace(" '", " &lsquo;");
+
+        rval = rval.Replace("'.", "&rsquo;.");
+        rval = rval.Replace("';", "&rsquo;;");
+        rval = rval.Replace("',", "&rsquo;,");
+        rval = rval.Replace("'!", "&rsquo;!");
+        rval = rval.Replace("'?", "&rsquo;?");
+
+        rval = rval.Replace(">'", ">&lsquo;");
         rval = rval.Replace("'", "&rsquo;");  // All others, assume closing
         #endregion
 
