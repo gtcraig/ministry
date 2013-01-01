@@ -18,6 +18,7 @@
  * CAM  15-Jan-2010  10531 : Created a static version of IsTitle.
  * CAM  23-Jan-2010  10553 : Use GetTitle to remove extraneous formatting before checking whether a Paragraph is a Title.
  * CAM  29-Dec-2012  11151 : Use Properties as intended.
+ * CAM  01-Jan-2013  11153 : Support for SubTitles (lines beginning %).
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -108,6 +109,10 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
       set
       {
         _text = value.Trim();
+        if (_text.StartsWith("%"))
+        {
+          _text = String.Format("<h4>{0}</h4>", _text.Substring(1));
+        }
       }
     }
     public string NewPages
@@ -264,6 +269,11 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
       return IsTitle(_text);
     }
 
+    public bool IsSubTitle()
+    {
+      return IsSubTitle(_text);
+    }
+
     public static bool IsTitle(string text)
     {
       int upper;
@@ -313,6 +323,11 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
         }
       }
       return false;
+    }
+
+    public static bool IsSubTitle(string text)
+    {
+      return (text.StartsWith("<h4>"));
     }
 
     public void SaveToDatabase()

@@ -8,9 +8,11 @@
  * Who  When         Why
  * CAM  19-Jan-2010  10540 : File created.
  * CAM  23-Jan-2010  10553 : Format footnotes differently.
+ * CAM  01-Jan-2013  11153 : Support for SubTitles (lines beginning %).
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
+using FrontBurner.Ministry.MseBuilder.Abstract;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 {
@@ -18,11 +20,23 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
   {
     private string _inits;
 
-public string Inits
-{
-  get { return _inits; }
-  set { _inits = value; }
-}
+    public string Inits
+    {
+      get { return _inits; }
+      set { _inits = value; }
+    }
+
+    private bool DoesNotRequireParagraphEncoding()
+    {
+      if (Text.Contains("<ol>") || Text.Contains("</ol>") || Text.Contains("<ul>") || Text.Contains("</ul>") ||
+        Text.Contains("<li>") || Text.Contains("</li>") ||
+        Text.Contains("<table>") || Text.Contains("<tr>") || Text.Contains("<th>") || Text.Contains("<td>") ||
+        Text.Contains("</table>") || Text.Contains("</tr>") || Text.Contains("</th>") || Text.Contains("</td>"))
+      {
+        return true;
+      }
+      return false;
+    }
 
     public EpubParagraph(string inits, string text)
       : base(text)
@@ -40,9 +54,17 @@ public string Inits
       string initials = "";
       string classId = "";
 
-      if (Inits.Length > 0)
+      if (Paragraph.IsSubTitle(Text))
       {
-        initials= String.Format("<span class=\"init\">{0}</span>&nbsp;", Inits);
+        return String.Format("    {0}{1}", Text, Newline());
+      }
+      else if (DoesNotRequireParagraphEncoding())
+      {
+        return String.Format("    {0}", Text);
+      }
+      else if (Inits.Length > 0)
+      {
+        initials = String.Format("<span class=\"init\">{0}</span>&nbsp;", Inits);
       }
       else if (Text.StartsWith("<sup>"))
       {

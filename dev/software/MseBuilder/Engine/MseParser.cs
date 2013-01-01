@@ -14,6 +14,7 @@
  * CAM  18-Jan-2010  10529 : Missed several references to Author!
  * CAM  23-Jan-2010  10553 : Handle JND's footnotes correctly.
  * CAM  29-Dec-2012  11151 : Treat broken-bars as footnotes.
+ * CAM  01-Jan-2013  11153 : Support for SubTitles (lines beginning %).
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -175,12 +176,12 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
           //}
           //else
           //{
-            if ((cb = buffer.IndexOf("}")) >= 0)
-            {
-              pageNo = int.Parse(buffer.Substring(1, cb - 1));
-            }
+          if ((cb = buffer.IndexOf("}")) >= 0)
+          {
+            pageNo = int.Parse(buffer.Substring(1, cb - 1));
+          }
 
-            para = 0;
+          para = 0;
           //}
         }
         else if ((buffer.Length > 1) && buffer.Substring(0, 2).Equals("{#"))
@@ -204,7 +205,19 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
           if (paraCurrent.AnyErrors) anyErrors = true;
 
           prevTitle = false;
-          if (paraCurrent.IsTitle())
+          if (paraCurrent.IsSubTitle())
+          {
+            if (paraPrevious != null)
+            {
+              // Write out the previous paragraph
+              paraPrevious.SaveToDatabase();
+              paraPrevious = null;
+            }
+
+            if (art != null) paraCurrent.Article = art;
+            DatabaseLayer.Instance.InsertParagraph(paraCurrent);          
+          }
+          else if (paraCurrent.IsTitle())
           {
             art = paraCurrent.Article;
             BusinessLayer.Instance.Articles.Add(art);
