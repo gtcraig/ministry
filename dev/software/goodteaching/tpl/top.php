@@ -5,7 +5,7 @@
  *
  * Top of the page
  *
- * $Id: top.php 1114 2009-12-30 14:01:33Z craig $
+ * $Id$
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
@@ -27,8 +27,8 @@ if (empty($pageName)) {
 }
 
 include_once $root.'Main.php';
-$member = NULL;  if (session_is_registered('member_person')) $member = $_SESSION['member_person'];
-$loggedin = (session_is_registered('memberid') && session_is_registered('Good Teaching Search Engine'));
+$member = NULL;  if (isset($_SESSION['member_person'])) $member = $_SESSION['member_person'];
+$loggedin = (isset($_SESSION['memberid']) && isset($_SESSION['Good Teaching Search Engine']));
 global $tab,$tabs;
 
 if (empty($title)) {

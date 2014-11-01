@@ -28,7 +28,7 @@ class ActionUtil {
   * @public
   * @returns String
   */
-  function getDesc($action) {
+  static function getDesc($action) {
     if ($action == 'C') return "Confirm";
     if ($action == 'X') return "Cancel";
   }
@@ -39,7 +39,7 @@ class ActionUtil {
   * @public
   * @returns String
   */
-  function url($action, $proceed='') {
+  static function url($action, $proceed='') {
     $rval = "action.php?action=$action";
 
     if (!empty($proceed)) {
@@ -55,7 +55,7 @@ class ActionUtil {
   * @public
   * @returns String
   */
-  function linkButton($action, $buttonText, $className='button', $hoverClass='') {
+  static function linkButton($action, $buttonText, $className='button', $hoverClass='') {
 
     $hover = "";
 
@@ -74,7 +74,7 @@ class ActionUtil {
   * @public
   * @returns String
   */
-  function submitButton($buttonText, $className='button', $hoverClassName='buttonhover', $action='submit') {
+  static function submitButton($buttonText, $className='button', $hoverClassName='buttonhover', $action='submit') {
     $button = "<input class=\"$className\" onmouseover=\"this.className='$hoverClassName';\" onmouseout=\"this.className='$className'\" value=\"". $buttonText . "\"";
 
     if ($action == 'submit') {

@@ -215,9 +215,9 @@ class SqlFactory {
     $result=preg_replace("/([[:space:]]{2,})/",' ',$result);
 
     /* convert normal boolean operators to shortened syntax */
-    $result=eregi_replace(' not ',' -',$result);
-    $result=eregi_replace(' and ',' ',$result);
-    $result=eregi_replace(' or ',',',$result);
+    $result=preg_replace('/ not /i',' -',$result);
+    $result=preg_replace('/ and /i',' ',$result);
+    $result=preg_replace('/ or /i',',',$result);
 
     /* drop unnecessary spaces */
     $result=str_replace(' ,',',',$result);
@@ -289,12 +289,12 @@ class SqlFactory {
    * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
   function boolean_mark_atoms($string) {
     $result=trim($string);
-    $result=preg_replace("/([[:space:]]{2,})/",' ',$result);
+    $result=preg_replace("/([[:space:]]{2,})/i",' ',$result);
 
     /* convert normal boolean operators to shortened syntax */
-    $result=eregi_replace(' not ',' -',$result);
-    $result=eregi_replace(' and ',' ',$result);
-    $result=eregi_replace(' or ',',',$result);
+    $result=preg_replace('/ not /i',' -',$result);
+    $result=preg_replace('/ and /i',' ',$result);
+    $result=preg_replace('/ or /i',',',$result);
 
     /* strip excessive whitespace */
     $result=str_replace('( ','(',$result);
