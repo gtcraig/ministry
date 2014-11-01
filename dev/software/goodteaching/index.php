@@ -41,6 +41,6 @@ $_SESSION['preview_page'] = "";
 $_SESSION['results_pageno'] = "";
 
 include $root.'tpl/newsearch.php';
-include $root.'tpl/latestvols.php';
+//include $root.'tpl/latestvols.php';
 include $root.'tpl/bot.php';
 ?>
