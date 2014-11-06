@@ -11,9 +11,14 @@
  * CAM  29-Jul-2007  File created.
  * CAM  18-Nov-2007  10205 : Added sendNewQuery - will need attention for 10207.
  * CAM  29-Sep-2008  10302 : Added root.
+ * CAM  01-Nov-2014  576402 : Changed sendNewQuery recipient.
+ * CAM  06-Nov-2014  823080 : Removed deprecated functions.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 include_once $root.'Main.php';
+
+require_once($root."ip/ip.codehelper.io.php");
+require_once($root."ip/php_fast_cache.php");
 
 /**
 * EmailMsg information.
@@ -45,17 +50,9 @@ class EmailMsg {
   */
   var $memPerson;
 
-  function EmailMsg() {
-    //$this->emailType = $emailType;
-    //$this->memPerson = Person::getPerson($memberId);
+  var $_visitor_location;
 
-    /*
-    if ($emailType == 'N') {
-      $this->typeDesc = "Notification";
-    } else {
-      $this->typeDesc = "Reminder";
-    }
-  */
+  function EmailMsg() {
   }
 
   function getHeaders($cc='') {
@@ -145,19 +142,26 @@ class EmailMsg {
   function sendNewQuery($query) {
     global $cfg;
 
-    $to = $cfg['Site']['Email'];
+	$_ip = new ip_codehelper();
+	$ipaddr = $_ip->getRealIP();
+	$this->_visitor_location = $_ip->getLocation($ipaddr);
+
+    $to = $cfg['Site']['Admin']['Email'];
     $subject = $cfg['Site']['Name'] . " Query";
     $cr = "\r\n";
 
     $message =
       $this->getHTMLStart($subject) .
-      "<tr><td><b>Query</b></td><td>". str_replace("|", "<br>$cr", $query) . "</td></tr>".
-      $this->AddServerVar('REMOTE_ADDR').
-      //$this->AddServerVar('REMOTE_HOST').
-      $this->AddServerVar('REMOTE_PORT').
-      $this->AddServerVar('HTTP_USER_AGENT').
-      $this->AddServerVar('REQUEST_METHOD').
-      $this->AddServerVar('HTTP_REFERER').
+      "<tr><td><p>Hi ". $cfg['Site']['Admin']['Name'] . ",</p><p>The following new query has just been executed:</p>".
+      "<p><ul>".
+      "<li>Query &mdash; <b>". str_replace("|", "&nbsp;&nbsp;", $query) . "</b></li>".
+      "<li>IP Address &mdash; <b>". $ipaddr . "</b></li>".
+      "<li>Country &mdash; <b>". $this->_visitor_location['Country'] . "</b></li>";
+    if (!empty($this->_visitor_location['City'])) {
+      $message .= "<li>City &mdash; <b>". $this->_visitor_location['City'] . "</b></li>";
+    }
+    $message .= "<li>Browser &mdash; <b>". $_SERVER['HTTP_USER_AGENT'] . "</b></li>".
+      "</ul></p>".
       $this->getHTMLEnd();
 
     mail($to,$subject,$message,$this->getHeaders());

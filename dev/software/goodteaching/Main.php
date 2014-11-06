@@ -15,12 +15,17 @@
  * CAM  28-Mar-2009  10407 : Added $cfg['Site']['Status'].
  * CAM  12-Apr-2009  10419 : Removed override database option.
  * CAM  30-Dec-2009  10520 : Improved fieldFocus style, and added dropdownFocus.
+ * CAM  01-Nov-2014  576402 : Added Admin Email/Name and changed Site Email to support.
+ * CAM  06-Nov-2014  823080 : Removed deprecated functions.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $cfg['Site']['Name']  = "Good Teaching Search Engine";
 $cfg['Site']['URL']   = "http://goodteaching.org"; // no trailing slash
-$cfg['Site']['Email'] = "craig@southesk.com";
+$cfg['Site']['Email'] = "support@goodteaching.org";
 $cfg['Site']['Status'] = "Production";
+
+$cfg['Site']['Admin']['Email'] = "craig@goodteaching.org";
+$cfg['Site']['Admin']['Name'] = "Craig McKay";
 
 $cfg['Site']['Db']['Hostname'] = "localhost";
 $cfg['Site']['Db']['Username'] = "goodteaching";
