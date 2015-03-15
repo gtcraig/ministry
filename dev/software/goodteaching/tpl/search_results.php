@@ -32,8 +32,8 @@ $newQuery   = ($prevQuery != $thisQuery);
 $_SESSION['search_previous'] = $thisQuery;
 
 if ($newQuery && $cfg['Site']['Status'] == "Production") {
- $em = new EmailMsg();
- $em->sendNewQuery($thisQuery);
+ //$em = new EmailMsg();
+ //$em->sendNewQuery($thisQuery);
 }
 
 $pageNo = $_SESSION['results_pageno'];  if (isset($_POST['results_pageno'])) $pageNo = $_POST['results_pageno'];
