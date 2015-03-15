@@ -1,0 +1,1 @@
+This project encompasses Ministry Search Engine and related source code and source text (ministry) files including the Java source for MSE, the C# source for the 'builder' app for ebooks and GoodTeaching.org online search.
