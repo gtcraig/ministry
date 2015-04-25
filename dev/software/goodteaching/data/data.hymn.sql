@@ -4411,7 +4411,7 @@ INSERT INTO hymn_line VALUES (144, 1, 5, 'And we shall share that home above');
 INSERT INTO hymn_line VALUES (144, 1, 6, 'Which He for us has won,');
 INSERT INTO hymn_line VALUES (144, 1, 7, 'As now we share His Father''s love');
 INSERT INTO hymn_line VALUES (144, 1, 8, 'With Him, the first-born Son.');
-INSERT INTO hymn_line VALUES (144, 2, 1, 'We shall we with Him where He is,');
+INSERT INTO hymn_line VALUES (144, 2, 1, 'We shall be with Him where He is,');
 INSERT INTO hymn_line VALUES (144, 2, 2, 'For such is His desire;');
 INSERT INTO hymn_line VALUES (144, 2, 3, 'We shall behold His glory bright -');
 INSERT INTO hymn_line VALUES (144, 2, 4, 'The sight shall bliss inspire!');
