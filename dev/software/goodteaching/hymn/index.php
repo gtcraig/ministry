@@ -51,7 +51,7 @@ $language = NULL;    if (!empty($_POST['language'])) $language = $_POST['languag
     <tr>
       <td><select <? dropdownFocus(); ?> name="language" id="language" class="dropdown" onchange="toggle_language();">
       <option value="" <? echo ($language == "" ? "SELECTED" : ""); ?>>English</option>
-      <option value="_de" <? echo ($language == "_de" ? "SELECTED" : ""); ?>>Deutsche</option>
+      <option value="_de" <? echo ($language == "_de" ? "SELECTED" : ""); ?>>Deutsch</option>
       <option value="_nl" <? echo ($language == "_nl" ? "SELECTED" : ""); ?>>Netherlands</option>
       </select></td>
 
