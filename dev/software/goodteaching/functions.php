@@ -126,7 +126,7 @@ function f_highlight_text($text, &$sqlFactory, $abbrev=false) {
         $len = strlen($atoms[$i]);
         $rlen = strlen($rval); // remember the current length
         $rval = substr($rval, 0, $p) . "<span class=\"hlght$i\">" . substr($rval, $p, $len) . "</span>" . substr($rval, $p+$len);
-        $p = stripos($rval, $atoms[$i], $p+$len+(strlen($rval)-$rlen+1));
+        $p = stripos($rval, $atoms[$i], $p+$len+(strlen($rval)-$rlen));
       }
     }
   }

@@ -33,7 +33,7 @@ $cfg['Site']['Db']['Password'] = "psalm45";
 $cfg['Site']['Db']['Database'] = "goodteaching_org_min";
 
 if (strpos(strtolower($_SERVER['SERVER_NAME']), "localhost") !== FALSE) {
-  $cfg['Site']['URL'] = "http://localhost:90/ministry";
+  $cfg['Site']['URL'] = "http://localhost/~craig/ministry/dev/software/goodteaching/";
   $cfg['Site']['Status'] = "Development";
 }
 

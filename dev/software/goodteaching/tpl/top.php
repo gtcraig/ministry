@@ -60,9 +60,7 @@ if (empty($title)) {
     <tr><td rowspan=2><a id="linkGt" href="<? echo $cfg['Site']['URL']; ?>"><? echo
     str_replace(" ", "&nbsp;", $cfg['Site']['Name']); ?></a><span class="topsep">|</span><a id="linkBible" href="<? echo
     $cfg['Site']['URL']; ?>/bible/">Bible</a><span class="topsep">|</span><a id="linkHymn" href="<? echo
-    $cfg['Site']['URL']; ?>/hymn/">Hymns</a><span class="topsep">|</span><a id="linkEaston" href="<? echo
-    $cfg['Site']['URL']; ?>/easton/">Easton's</a><span class="topsep">|</span><a id="linkHitchcock" href="<? echo
-    $cfg['Site']['URL']; ?>/hitchcock/">Hitchcock's</a></td>
+    $cfg['Site']['URL']; ?>/hymn/">Hymns</a></td>
 
     <td class="loggedin" align=right><?php
       if ($loggedin) {
