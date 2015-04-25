@@ -100,7 +100,7 @@ namespace FrontBurner.Ministry.MseBuilder
 
     public bool Open()
     {
-      string DataSource = "localhost";
+      string DataSource = "wizard";
       string Database = "goodteaching_org_min";
       string UserID = "goodteaching";
       string Password = "psalm45";
