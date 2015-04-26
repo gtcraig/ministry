@@ -22,7 +22,41 @@ $db = mysql_select_db('gt_support', $connection)
       or die("Couldn't select database.");
 
 ?>
+<table border=1 cellpadding=5 cellspacing=0>
+<tr>
+  <th>Person</th>
+  <th>No.</th>
+  <th>of Mistakes identified</th>
+</tr>
+<?
+$sql = "SELECT " .
+       "  u.name, " .
+       "  count(t.ticket_id) ticket_count " .
+       "FROM ost_ticket t, ost_ticket_thread tt, ost_user u " .
+       "WHERE tt.ticket_id = t.ticket_id  " .
+       "AND u.id = tt.user_id " .
+       "AND t.topic_id = 12  " .
+       "AND tt.id = (SELECT MIN(id) FROM ost_ticket_thread WHERE ticket_id = t.ticket_id)  " .
+       "GROUP BY u.name  " .
+       "ORDER BY count(t.ticket_id) DESC";
 
+$ssql = mysql_query($sql);
+while ($row = mysql_fetch_array($ssql)) {
+  foreach($row AS $key => $val) {
+    $$key = stripslashes($val);
+  }
+?>
+<tr>
+  <td><?=$name?></td>
+  <td><?=$ticket_count?></td>
+  <td><? echo "<img src='img/redpx.png' height=10 width=". $ticket_count * 3 . ">"; ?></td>
+</tr>
+<?
+}
+?>
+</table>
+
+<br />
 
 <table border=1 cellpadding=5 cellspacing=0 width="100%">
 <tr>
