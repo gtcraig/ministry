@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2015 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
  * $Id: EpubItem.cs 1310 2011-01-03 16:41:38Z craig $
@@ -11,6 +11,7 @@
  * CAM  03-Jan-2011  10917 : Enable repeated setting/concatenation of _text using PlainText and do all conversion on Text.get.
  * CAM  29-Dec-2012  11151 : Correctly output Italics and Double and Single Quotation marks.
  * CAM  01-Jan-2013  11151 : Improvements on Double and Single Quotation marks.
+ * CAM  20-May-2013  516699 : Ensure that '* is converted to '<i>.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -29,7 +30,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
       get {
         string rval = _text;
 
-        rval = rval.Replace("&", "&amp;");
+        //rval = rval.Replace("&", "&amp;");  // #992047 All ampersands are now HTML-safe
         rval = rval.Replace("@", "");
 
         #region Italics
@@ -37,6 +38,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 
         rval = rval.Replace(" *", " <i>");
         rval = rval.Replace("\"*", "\"<i>");
+        rval = rval.Replace("'*", "'<i>");
 
         rval = rval.Replace("*", "</i>"); // All others, assume closing
         #endregion
