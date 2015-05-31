@@ -12,6 +12,7 @@
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * CAM  24-Dec-2010  10904 : More sensible, tidier title on cover image.
  * CAM  28-Dec-2011  gc005 : Ensure apostrophes display correctly on cover page.
+ * CAM  31-May-2015  998637 : Support for Cover page.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -59,6 +60,14 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
     public string QualifiedBookId
     {
       get { return String.Format("urn:uuid:{0}", BookId); }
+    }
+    public FileInfo AuthorImage
+    {
+      get { return _authorImage; }
+    }
+    public FileInfo CoverImage
+    {
+      get { return _coverImage; }
     }
     public DirectoryInfo RootDir
     {
@@ -176,7 +185,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       // MOBI generated with Kindle TOC
       KindleGen.Instance.GenerateMobi(_opf.File, _mobiFile);
 
-      // Regenerate without the Kindle TOC for EPUB (iPad etc)
+      // Regenerate without the Kindle TOC for EPUB (iPad etc) and with Cover page
       EngineSettings.Instance.Mode = BuildMode.StandardEpub;
       Opf.GenerateEpub();
       Opf.GenerateToc();

@@ -13,6 +13,7 @@
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * CAM  28-Dec-2011  gc005 : Ensure apostrophes display correctly by using EpubHeading.
  * CAM  29-Dec-2011  gc005 : Titles were not displaying correctly on Apple (&amp;rsquo;).
+ * CAM  31-May-2015  998637 : Add the actual Cover page to spine for EPUB files (particularly Android, to ensure cover page appears).
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -97,7 +98,17 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
     {
       foreach (EpubArticle article in Doc.Articles)
       {
-        AppendSpineItem(article.QualifiedId, article.XmlFile.Name);
+        bool outputArticle = true;
+
+        if (article is EpubCoverPage)
+        {
+          outputArticle = (EngineSettings.Instance.Mode == BuildMode.StandardEpub);
+        }
+
+        if (outputArticle)
+        {
+          AppendSpineItem(article.QualifiedId, article.XmlFile.Name);
+        }
 
         if (article is EpubTitlePage)
         {
@@ -129,7 +140,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 
     protected void AddMetaData()
     {
-      XmlElement element = AppendElement(MetaData, "dc:title", XmlnsDc, XmlTitle(Volume.FullTitle));      
+      XmlElement element = AppendElement(MetaData, "dc:title", XmlnsDc, XmlTitle(Volume.FullTitle));
 
       element = AppendElement(MetaData, "dc:creator", XmlnsDc, Volume.Author.OrgName);
       AppendAttribute(element, "opf:role", XmlnsOpf, "aut");

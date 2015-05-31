@@ -111,8 +111,12 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
           writer.WriteLine("      <dd>");
         }
 
-        hymn = Document.Hymns[long.Parse(ar["hymn_no"].ToString())];
-        writer.WriteLine("<a href=\"" + hymn.XmlFile.Name + "\">" + hymn.ShortHymnNo + "</a>&nbsp;");
+        try
+        {
+          hymn = Document.Hymns[long.Parse(ar["hymn_no"].ToString())];
+          writer.WriteLine("<a href=\"" + hymn.XmlFile.Name + "\">" + hymn.ShortHymnNo + "</a>&nbsp;");
+        }
+        catch { }
         prevAuthor = currAuthor;
       }
 
@@ -159,8 +163,14 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
           writer.WriteLine("      <dd>");
         }
 
-        hymn = Document.Hymns[long.Parse(mr["hymn_no"].ToString())];
-        writer.WriteLine("<a href=\"" + hymn.XmlFile.Name + "\">" + hymn.ShortHymnNo + "</a>&nbsp;");
+        try
+        {
+          hymn = Document.Hymns[long.Parse(mr["hymn_no"].ToString())];
+          writer.WriteLine("<a href=\"" + hymn.XmlFile.Name + "\">" + hymn.ShortHymnNo + "</a>&nbsp;");
+        }
+        catch
+        {
+        }
         prevMeter = currMeter;
       }
 

@@ -12,6 +12,7 @@
  * CAM  11-Feb-2010  10559 : Increment TOC entry id.
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * CAM  29-Dec-2011  gc005 : Removed Title page from Contents and ensure Title is XmlSafe.
+ * CAM  31-May-2015  998637 : Skip Cover page in Index.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -82,6 +83,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       int id = 1;
       foreach (EpubArticle article in Doc.Articles)
       {
+        if (article is EpubCoverPage) continue;
         if (article is EpubTitlePage) continue;
 
         XmlElement navPoint = AppendElement(NavMap, "navPoint");

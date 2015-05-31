@@ -7,6 +7,7 @@
  *
  * Who  When         Why
  * CAM  21-Jan-2010  10546 : Class moved from EpubArticle.cs.
+ * CAM  31-May-2015  998637 : Added Cover page.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -26,6 +27,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
       _doc = doc;
       _nextId = 1;
 
+      CreateArticle(CoverPageFactory());
       CreateArticle(TitlePageFactory());
     }
 
@@ -58,6 +60,11 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
     public EpubArticle TitlePageFactory()
     {
       return new EpubTitlePage(GetNextId(), _doc);
+    }
+
+    public EpubArticle CoverPageFactory()
+    {
+      return new EpubCoverPage(GetNextId(), _doc);
     }
   }
 }

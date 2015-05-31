@@ -60,7 +60,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Bbeb
       text = new BbebTextBlock(doc, doc.BlockStyle, doc.TextStyleCollection[TextPurpose.CoverTitleSmall]);
       text.AddNewline();
       text.AddParagraph("Produced from GoodTeaching.org", true);
-      text.AddParagraph(String.Format("by Craig McKay {0:d-MMM-yyyy}", DateTime.Now), false);
+      text.AddParagraph(String.Format("on {0:d-MMM-yyyy}", DateTime.Now), false);
       AppendChild(text);
       text.GenerateBbeb();
     }

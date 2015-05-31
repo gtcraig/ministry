@@ -149,6 +149,7 @@
     <Compile Include="Reader\Bbeb\BbebUtil.cs" />
     <Compile Include="Reader\Bbeb\IBbebGenerator.cs" />
     <Compile Include="Reader\Bbeb\BbebImageBlock.cs" />
+    <Compile Include="Reader\Epub\Article\EpubCoverPage.cs" />
     <Compile Include="Reader\Hymnbook\EpubHymn.cs" />
     <Compile Include="Reader\Hymnbook\EpubHymnAuthor.cs" />
     <Compile Include="Reader\Hymnbook\EpubHymnCollection.cs" />

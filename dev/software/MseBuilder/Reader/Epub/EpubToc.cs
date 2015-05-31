@@ -8,6 +8,7 @@
  * Who  When         Why
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * CAM  28-Dec-2011  gc005 : Show Author and Title on Contents.
+ * CAM  31-May-2015  998637 : Hide Cover page from TOC.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -64,7 +65,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 
         foreach (EpubArticle article in Document.Articles)
         {
-          if (!(article is EpubTitlePage))
+          if (!(article is EpubTitlePage) && !(article is EpubCoverPage))
           {
             li = "      <li><a href=\"" + article.XmlFile.Name + "\">" + article.PlainTitle + "</a></li>";
             writer.WriteLine(li);

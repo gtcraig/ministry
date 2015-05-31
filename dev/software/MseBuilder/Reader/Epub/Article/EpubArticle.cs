@@ -1,15 +1,14 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2015 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: EpubArticle.cs 1286 2010-12-24 22:41:03Z craig $
  *
  * Who  When         Why
  * CAM  19-Jan-2010  10540 : File created.
  * CAM  21-Jan-2010  10546 : Moved Header/Footer elements to WriteHeader/WriteFooter.
  * CAM  23-Jan-2010  10553 : Added PlainTitle for use in TOCs etc.
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
+ * CAM  31-May-2015  998637 : Added Cover page.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
