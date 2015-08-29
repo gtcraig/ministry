@@ -19,6 +19,7 @@
  * CAM  23-Jan-2010  10553 : Use GetTitle to remove extraneous formatting before checking whether a Paragraph is a Title.
  * CAM  29-Dec-2012  11151 : Use Properties as intended.
  * CAM  01-Jan-2013  11153 : Support for SubTitles (lines beginning %).
+ * CAM  29-Aug-2015  163118 : Added the Article Primary property to ensure primary Scriptures are stamped.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -40,6 +41,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
     protected string _inits;
     protected string _text;
     protected List<int> _newPages;
+    protected bool _articlePrimary;
     protected bool _anyErrors;
 
     public string Id
@@ -170,7 +172,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
       }
     }
 
-    public Paragraph(Volume vol, int pageNo, int para, int localRow, string inits, string text)
+    public Paragraph(Volume vol, int pageNo, int para, int localRow, string inits, string text, bool articlePrimary)
       : base()
     {
       _vol = vol;
@@ -179,6 +181,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
       LocalRow = localRow;
       Inits = inits;
       Text = text;
+      _articlePrimary = articlePrimary;
 
       _newPages = new List<int>();
 
@@ -194,7 +197,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
 
         for (int i = 1; i < refs.Length; i++)
         {
-          BibleRef bref = new BibleRef(refs[i]);
+          BibleRef bref = new BibleRef(refs[i], _articlePrimary);
 
           if (bref.RefValid)
           {
@@ -332,8 +335,6 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
 
     public void SaveToDatabase()
     {
-      // Convert asterisks to italics html
-
       DatabaseLayer.Instance.InsertParagraph(this);
 
       int i = 1;

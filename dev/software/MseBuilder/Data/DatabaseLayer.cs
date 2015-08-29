@@ -27,6 +27,7 @@
  * CAM  03-Jan-2011  10920 : Retrieve first line of each hymn.
  * CAM  04-Jan-2011  10919 : Retrieve hymns by authors and meters.
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
+ * CAM  29-Aug-2015  163118 : Save Article Primary and Article Page properties for BibleRef.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -439,10 +440,10 @@ namespace FrontBurner.Ministry.MseBuilder
       {
         string sql =
           "INSERT INTO mse_bible_ref (" +
-           "author, vol, page, para, ref, " +
+           "author, vol, page, para, ref, article_page, article_primary, " +
             "bookid, chapter, vstart, vend" +
           ") VALUES (" +
-            "?author, ?vol, ?pageNo, ?para, ?ref, " +
+            "?author, ?vol, ?pageNo, ?para, ?ref, ?article_page, ?article_primary, " +
             "?bookId, ?chapter, ?vStart, ?vEnd" +
           ")";
 
@@ -454,6 +455,8 @@ namespace FrontBurner.Ministry.MseBuilder
         _cmdInsertBibleRef.Parameters.Add("?pageNo", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?para", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?ref", MySqlDbType.Int32);
+        _cmdInsertBibleRef.Parameters.Add("?article_page", MySqlDbType.Int32);
+        _cmdInsertBibleRef.Parameters.Add("?article_primary", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?bookId", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?chapter", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?vStart", MySqlDbType.Int32);
@@ -465,6 +468,8 @@ namespace FrontBurner.Ministry.MseBuilder
       _cmdInsertBibleRef.Parameters["?pageNo"].Value = paragraph.PageNo;
       _cmdInsertBibleRef.Parameters["?para"].Value = paragraph.Para;
       _cmdInsertBibleRef.Parameters["?ref"].Value = refNo;
+      _cmdInsertBibleRef.Parameters["?article_page"].Value = paragraph.Article.PageNo;
+      _cmdInsertBibleRef.Parameters["?article_primary"].Value = (bref.ArticlePrimary ? 1 : 0);
       _cmdInsertBibleRef.Parameters["?bookId"].Value = bref.Book.BookId;
       _cmdInsertBibleRef.Parameters["?chapter"].Value = bref.Chapter;
       _cmdInsertBibleRef.Parameters["?vStart"].Value = bref.VerseStart;

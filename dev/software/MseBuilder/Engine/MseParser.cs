@@ -15,6 +15,7 @@
  * CAM  23-Jan-2010  10553 : Handle JND's footnotes correctly.
  * CAM  29-Dec-2012  11151 : Treat broken-bars as footnotes.
  * CAM  01-Jan-2013  11153 : Support for SubTitles (lines beginning %).
+ * CAM  29-Aug-2015  163118 : Passed the Article Primary property to Paragraph to ensure primary Scriptures are stamped.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -201,7 +202,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
             buffer = buffer.Substring(initFinish, buffer.Length - initFinish).Trim();
           }
 
-          paraCurrent = new Paragraph(_vol, calcPageNo, para, rows, inits, buffer);
+          paraCurrent = new Paragraph(_vol, calcPageNo, para, rows, inits, buffer, scriptures);
           if (paraCurrent.AnyErrors) anyErrors = true;
 
           prevTitle = false;
