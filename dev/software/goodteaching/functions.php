@@ -3,8 +3,6 @@
  * Good Teaching Search Engine
  * Copyright (c) 2006,2009 Southesk.com
  *
- * $Id: functions.php 947 2009-04-12 12:46:53Z craig $
- *
  * Who  When         Why
  * CAM  15-Feb-2006  File created.
  * CAM  15-Oct-2007  10187 : Modified functions to work in new interface.
@@ -15,6 +13,7 @@
  * CAM  18-Jun-2007  10274 : Changed highlight to hlght to prevent the word "light" causing problems.
  * CAM  28-Mar-2009  10407 : Correct PHP syntax.
  * CAM  12-Apr-2009  10419 : Changed session vars to include module name.
+ * CAM  05-Sep-2015  159308 : Changed layout to accomodate new checkbox.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 function f_neat_truncate($text, $backpoint) {
@@ -139,6 +138,9 @@ function f_highlight_text($text, &$sqlFactory, $abbrev=false) {
   // Remove remaining Scripture markup
   $rval = str_replace('@', '', $rval);
 
+  // Replace dashes
+  $rval = str_replace('--', '&mdash;', $rval);
+
   return $rval;
 }
 
@@ -198,7 +200,7 @@ function f_show_chapters() {
 */
   $sql .= "ORDER BY chapter \n";
 ?>
-<a href="javascript:void" onclick="submitBookRef('NULL');return false;">Books</a>&nbsp;|&nbsp;<?php echo $bibleBook->getBookName(); ?></td></tr><tr><td>Chapters
+<a href="javascript:void" onclick="submitBookRef('NULL');return false;">Books</a>&nbsp;|&nbsp;<?php echo $bibleBook->getBookName(); ?></td></tr><tr><td colspan="2">Chapters
 <?php
 
   $ssql = mysql_query($sql);
@@ -241,7 +243,7 @@ function f_show_verses() {
 if (!$bibleBook->isSingleChap()) {
   echo "&nbsp;|&nbsp;Chapter $chapter";
 }
-?></td></tr><tr><td>Verses
+?></td></tr><tr><td colspan="2">Verses
 <?php
   $ssql = mysql_query($sql);
   while ($row = mysql_fetch_array($ssql)) {
@@ -262,6 +264,7 @@ function f_search_parameter_string(){
   if (!empty($_SESSION['search_min_bookid'])) $list[$i++] = new Tuple("bookid", $_SESSION['search_min_bookid']);
   if (!empty($_SESSION['search_min_chapter'])) $list[$i++] = new Tuple("chapter", $_SESSION['search_min_chapter']);
   if (!empty($_SESSION['search_min_vstart'])) $list[$i++] = new Tuple("vstart", $_SESSION['search_min_vstart']);
+  if (!empty($_SESSION['search_min_primary'])) $list[$i++] = new Tuple("primary", $_SESSION['search_min_primary']);
 
   for ($i=0; $i<count($list); $i++) {
     if ($i > 0) $rval .= "|";

@@ -1,11 +1,9 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine
- * Copyright (c) 2007,2009 frontburner.co.uk
+ * Copyright (c) 2007,2015 frontburner.co.uk
  *
  * Page Preview Pane
- *
- * $Id: page.php 947 2009-04-12 12:46:53Z craig $
  *
  * Who  When         Why
  * CAM  19-Aug-2007  File created.
@@ -16,6 +14,7 @@
  * CAM  29-Sep-2008  10302 : Added root.
  * CAM  28-Mar-2009  10407 : Added Search Type.
  * CAM  12-Apr-2009  10419 : Changed session vars to include module name.
+ * CAM  05-Sep-2015  159308 : Pass new primary flag to SqlFactory.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 include_once($root.'functions.php');
@@ -72,6 +71,7 @@ $author     = $_SESSION['search_min_author'];
 $bookid     = $_SESSION['search_min_bookid'];
 $chapter    = $_SESSION['search_min_chapter'];
 $vstart     = $_SESSION['search_min_vstart'];
+$primary    = $_SESSION['search_min_primary'];
 
 $sqlFactory = new SqlFactory();
 if (!empty($keywords)) {
@@ -84,7 +84,7 @@ if ((count($author)>0) && (empty($author['ALL']))) {
   $sqlFactory->setAuthors($author);
 }
 if (!empty($bookid) && !empty($chapter)) {
-  $sqlFactory->setBookRef($bookid, $chapter, $vstart);
+  $sqlFactory->setBookRef($bookid, $primary, $chapter, $vstart);
 }
 
 if (!empty($preview_author)) {

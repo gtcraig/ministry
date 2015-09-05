@@ -1,11 +1,9 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
- * Copyright (c) 2007,2009 frontburner.co.uk
+ * Copyright (c) 2007,2015 frontburner.co.uk
  *
  * Bottom of the page
- *
- * $Id: bot.php 1112 2009-12-30 13:47:05Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
@@ -23,16 +21,12 @@
  * CAM  28-Mar-2009  10412 : Version V0.0.13.
  * CAM  29-Dec-2009  10519 : Version V0.0.14.
  * CAM  30-Dec-2009  10523 : Version V0.0.15.
+ * CAM  05-Sep-2015  159308 : Version V0.0.16. Moved form to scriptures page.
  * * * * * * * * * * * * * * * * * * * * * * * */
 ?>
 </td></tr>
 </table></td></tr>
-<tr><td class="cpyrght"><a href="<? echo $root; ?>releases.php">V0.0.15</a> System designed and maintained by <a class="nav" href="http://www.frontburner.co.uk/">frontburner.co.uk</a></td>
-<form method=post name=books id=books><input
-type=hidden name=bookid id=bookid><input
-type=hidden name=chapter id=chapter><input
-type=hidden name=vstart id=vstart><input
-type=hidden name=vend id=vend></form></tr>
+<tr><td class="cpyrght"><a href="<? echo $root; ?>releases.php">V0.0.16</a> System designed and maintained by <a class="nav" href="http://www.frontburner.co.uk/">frontburner.co.uk</a></td></tr>
 </td></tr>
 </table>
 </body>

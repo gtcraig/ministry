@@ -1,9 +1,7 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine
- * Copyright (c) 2007,2009 frontburner.co.uk
- *
- * $Id: search_results.php 947 2009-04-12 12:46:53Z craig $
+ * Copyright (c) 2007,2015 frontburner.co.uk
  *
  * Who  When         Why
  * CAM  19-Aug-2007  File created.
@@ -15,6 +13,7 @@
  * CAM  29-Dec-2007  10211 : Call the highlight function with SqlFactory.
  * CAM  28-Mar-2009  10407 : Added Search Type.
  * CAM  12-Apr-2009  10419 : Changed session vars to include module name.
+ * CAM  05-Sep-2015  159308 : Pass new primary flag to SqlFactory and show article title in place of initials.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 include_once($root.'functions.php');
@@ -25,6 +24,7 @@ $author     = $_SESSION['search_min_author'];
 $bookid     = $_SESSION['search_min_bookid'];
 $chapter    = $_SESSION['search_min_chapter'];
 $vstart     = $_SESSION['search_min_vstart'];
+$primary    = $_SESSION['search_min_primary'];
 
 $prevQuery  = $_SESSION['search_previous'];
 $thisQuery  = f_search_parameter_string();
@@ -57,7 +57,7 @@ if ((count($author)>0) && (empty($author['ALL']))) {
 }
 
 if (!empty($bookid) && !empty($chapter)) {
-  $sqlFactory->setBookRef($bookid, $chapter, $vstart);
+  $sqlFactory->setBookRef($bookid, $primary, $chapter, $vstart);
 
   if (empty($keywords)) $showBibleRef = true;
 }
@@ -124,8 +124,13 @@ if ($sqlFactory->isSearch()) {
   <tr>
     <th class="rh" width="50">Servant<br>Vol</th>
     <th class="rh" width="40">Page</th>
+<? if ($primary) { ?>
+    <th class="rh">Title</th>
+    <th class="rh">Scriptures</th>
+<? } else { ?>
     <th class="rh" width="50">Inits</th>
     <th class="rh">Text</th>
+<? } ?>
   </tr>
 <?php
 if ($sqlFactory->isSearch()) {
@@ -143,10 +148,16 @@ if ($sqlFactory->isSearch()) {
                ActionUtil::submitButton($page, "previewbutton", "previewbuttonhover");
 
 ?><form method="post"><tr>
-  <td class="rd"><?php echo "<b>$author</b> $vol"; ?></td>
-  <td class="rd"><?php echo "$preview"; ?></td>
-  <td class="rd"><?php echo "<b>$inits</b>"; ?></td>
-  <td class="rd"><?php echo f_highlight_text($text, $sqlFactory, true); ?></td>
+  <td class="rd"><b><?=$author?></b>&nbsp;<?=$vol?></td>
+  <td class="rd"><?=$preview?></td>
+<? if ($primary) { ?>
+    <td class="rd red"><?=$article?></td>
+    <td class="rd"><?=f_highlight_text($text, $sqlFactory, true)?></td>
+<? } else { ?>
+    <td class="rd"><b><?=$inits?></b></td>
+    <td class="rd"><?=f_highlight_text($text, $sqlFactory, true)?></td>
+<? } ?>
+
 </tr></form><?php
   }
 }

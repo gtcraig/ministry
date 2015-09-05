@@ -1,11 +1,9 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine
- * Copyright (c) 2007,2009 frontburner.co.uk
+ * Copyright (c) 2007,2015 frontburner.co.uk
  *
  * Home Page Context
- *
- * $Id: index.php 947 2009-04-12 12:46:53Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
@@ -17,6 +15,7 @@
  * CAM  29-Sep-2008  10302 : Added root.
  * CAM  28-Mar-2009  10407 : Added $_SESSION['search_min_type'].
  * CAM  12-Apr-2009  10419 : Changed session vars to include module name.
+ * CAM  05-Sep-2015  159308 : Reset new primary flag.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Home";
@@ -31,6 +30,7 @@ $_SESSION['search_min_author'] = array('ALL'=>'ALL');
 $_SESSION['search_min_bookid'] = "";
 $_SESSION['search_min_chapter'] = "";
 $_SESSION['search_min_vstart'] = "";
+$_SESSION['search_min_primary'] = false;
 
 $_SESSION['search_previous'] = "";
 

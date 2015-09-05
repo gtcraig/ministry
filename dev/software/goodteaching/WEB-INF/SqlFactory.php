@@ -1,11 +1,9 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine
- * Copyright (c) 2007,2009 frontburner.co.uk
+ * Copyright (c) 2007,2015 frontburner.co.uk
  *
  * SqlFactory Class
- *
- * $Id: SqlFactory.php 933 2009-03-28 14:04:28Z craig $
  *
  * Who  When         Why
  * CAM  15-Oct-2007  File created.
@@ -14,6 +12,7 @@
  * CAM  08-Nov-2007  10200 : Added ability to Count and Limit results.
  * CAM  29-Dec-2007  10211 : Added getAtoms.
  * CAM  28-Mar-2009  10407 : Added Search Type.
+ * CAM  05-Sep-2015  159308 : Accept new primary flag and include article title in results.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 class SqlFactory {
@@ -34,6 +33,8 @@ class SqlFactory {
   var $chapter;
   var $vStart;
   var $vEnd;
+
+  var $primary;
 
   var $whereConjunct;
 
@@ -67,8 +68,9 @@ class SqlFactory {
     $this->authors = $authors;
   }
 
-  function setBookRef($bookid, $chapter, $vStart) {
+  function setBookRef($bookid, $primary, $chapter, $vStart) {
     $this->bookId = $bookid;
+    $this->primary = $primary;
     $this->chapter = $chapter;
     $this->vStart = $vStart;
   }
@@ -113,9 +115,9 @@ class SqlFactory {
     $sql .= " as relevance, ";
 
     if ($this->isBookRef()) {
-      $sql .= "b.bookname, b.singlechap, r.ref, r.vstart, r.vend \n" ;
+      $sql .= "b.bookname, b.singlechap, r.ref, r.vstart, r.vend, a.article \n" ;
     } else {
-      $sql .= "'' as bookname, 0 as singlechap, 0 as ref, 0 as vstart, 0 as vend \n" ;
+      $sql .= "'' as bookname, 0 as singlechap, 0 as ref, 0 as vstart, 0 as vend, '' as article \n" ;
     }
 
     return $sql;
@@ -136,7 +138,7 @@ class SqlFactory {
     $sql .= "FROM " . $this->tableName . " t ";
 
     if ($this->isBookRef()) {
-      $sql .= ", mse_bible_ref r, mse_bible_book b " ;
+      $sql .= ", mse_bible_ref r, mse_bible_book b, mse_article a " ;
     }
     $sql .= "\n";
 
@@ -156,11 +158,18 @@ class SqlFactory {
           "AND r.vol = t.vol \n".
           "AND r.page = t.page \n".
           "AND r.para = t.para \n".
+          "AND a.author = r.author \n".
+          "AND a.vol = r.vol \n".
+          "AND a.page = r.article_page \n".
           "AND r.bookid = " . $this->bookId . "\n".
           "AND r.chapter = " . $this->chapter . "\n");
 
       if ($this->vStart > 0) {
         $sql .= "AND r.vstart = " . $this->vStart . "\n";
+      }
+
+      if ($this->primary == 1) {
+        $sql .= "AND r.article_primary = 1\n";
       }
     }
 

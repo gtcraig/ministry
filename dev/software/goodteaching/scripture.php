@@ -1,9 +1,7 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine
- * Copyright (c) 2007,2009 frontburner.co.uk
- *
- * $Id: scripture.php 947 2009-04-12 12:46:53Z craig $
+ * Copyright (c) 2007,2015 frontburner.co.uk
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
@@ -11,6 +9,7 @@
  * CAM  25-Oct-2007  10187 : Added Verse Start to search.
  * CAM  29-Sep-2008  10302 : Added root.
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and changed session vars to include module name.
+ * CAM  05-Sep-2015  159308 : Added new checkbox and logic to reset (moved form from bot).
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Scripture Search";
@@ -22,6 +21,7 @@ include_once $root.'functions.php';
 $bookid = $_SESSION['search_min_bookid'];    if (!empty($_POST['bookid'])) $bookid = $_POST['bookid'];
 $chapter = $_SESSION['search_min_chapter'];  if (!empty($_POST['chapter'])) $chapter = $_POST['chapter'];
 $vstart = $_SESSION['search_min_vstart'];    if (!empty($_POST['chapter']) && ($_POST['vstart']!="")) $vstart = $_POST['vstart'];
+$primary = $_SESSION['search_min_primary'];  if (isset($_POST['primary'])) $primary = $_POST['primary'];
 
 if ($bookid == "NULL") {
   $bookid = "";
@@ -35,6 +35,7 @@ if ($bookid == "NULL") {
 $_SESSION['search_min_bookid'] = $bookid;
 $_SESSION['search_min_chapter'] = $chapter;
 $_SESSION['search_min_vstart'] = $vstart;
+$_SESSION['search_min_primary'] = $primary;
 
 $entity = "";
 $bibleBook = "";
@@ -51,8 +52,8 @@ if (empty($bookid)) {
   }
 }
 ?>
-<table border=0 cellpadding=10 cellspacing=0>
-<tr><td align=left colspan=2>
+<table border=0 cellpadding=10 cellspacing=0 width="100%">
+<tr><td align=left>
 <?
   $q = "Select your $entity";
 
@@ -63,7 +64,14 @@ if (empty($bookid)) {
   $q .= ":";
 
   Msg::statement($q);
-?></td></tr><tr><td><?
+?></td><td align="right">
+<form method=post name=books id=books><input
+type=hidden name=bookid id=bookid><input
+type=hidden name=chapter id=chapter><input
+type=hidden name=vstart id=vstart><input
+type=hidden name=vend id=vend><input type=hidden name=primary id=primary value="<?=$primary?>">
+<input type="checkbox" onclick="getObjRef('primary').value=(this.checked)?1:0;" <?=($primary)?" CHECKED":""?>>&nbsp;Search only Scriptures referenced at the beginning of an article?</form></td></tr>
+<tr><td colspan="2"><?
 /**** START ****/
     if (empty($bookid)) {
       f_show_books();
