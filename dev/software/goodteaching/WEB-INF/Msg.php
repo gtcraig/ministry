@@ -9,6 +9,7 @@
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
+ * CAM  04-Dec-2015  863707 : Declare public static functions correctly.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 /**
@@ -26,7 +27,7 @@ class Msg {
   * @public
   * @returns String
   */
-  static function question($quest) {
+  public static function question($quest) {
     echo "<p class=\"quest\">$quest?</p>";
   }
 
@@ -36,7 +37,7 @@ class Msg {
   * @public
   * @returns String
   */
-  static function statement($statement) {
+  public static function statement($statement) {
     echo "<p class=\"statement\">$statement</p>";
   }
 
@@ -46,7 +47,7 @@ class Msg {
   * @public
   * @returns String
   */
-  static function error($err) {
+  public static function error($err) {
     echo "<p class=\"err\">$err</p>";
   }
 }

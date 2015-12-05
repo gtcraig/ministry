@@ -15,6 +15,7 @@
  * CAM  28-Mar-2009  10407 : Added Search Type.
  * CAM  12-Apr-2009  10419 : Changed session vars to include module name.
  * CAM  05-Sep-2015  159308 : Pass new primary flag to SqlFactory.
+ * CAM  04-Dec-2015  863707 : Check session variables before setting to remove log errors.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 include_once($root.'functions.php');
@@ -65,13 +66,13 @@ if ($pagechanged && !empty($gotopage)) {
   $preview_page = ($gotopage * 1);
 }
 
-$keywords   = $_SESSION['search_min_keywords'];
-$searchType = $_SESSION['search_min_type'];
-$author     = $_SESSION['search_min_author'];
-$bookid     = $_SESSION['search_min_bookid'];
-$chapter    = $_SESSION['search_min_chapter'];
-$vstart     = $_SESSION['search_min_vstart'];
-$primary    = $_SESSION['search_min_primary'];
+$keywords = isset($_SESSION['search_min_keywords']) ? $_SESSION['search_min_keywords']: "";
+$searchType = isset($_SESSION['search_min_type']) ? $_SESSION['search_min_type']: "";
+$author = isset($_SESSION['search_min_author']) ? $_SESSION['search_min_author']: "";
+$bookid = isset($_SESSION['search_min_bookid']) ? $_SESSION['search_min_bookid']: "";
+$chapter = isset($_SESSION['search_min_chapter']) ? $_SESSION['search_min_chapter']: "";
+$vstart = isset($_SESSION['search_min_vstart']) ? $_SESSION['search_min_vstart']: "";
+$primary = isset($_SESSION['search_min_primary']) ? $_SESSION['search_min_primary']: "";
 
 $sqlFactory = new SqlFactory();
 if (!empty($keywords)) {

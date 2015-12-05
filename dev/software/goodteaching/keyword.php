@@ -5,7 +5,7 @@
  *
  * New Search Wizard
  *
- * $Id: keyword.php 1109 2009-12-30 13:02:57Z craig $
+ * $Id$
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
@@ -15,6 +15,7 @@
  * CAM  28-Mar-2009  10407 : Added Search Type.
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and changed session vars to include module name.
  * CAM  30-Dec-2009  10520 : Add focus formatting for textboxes.
+ * CAM  04-Dec-2015  863707 : Added improved search options.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Keyword Search";
@@ -26,12 +27,20 @@ $keywords = $_SESSION['search_min_keywords'];  if (!empty($_POST['keywords'])) $
 $searchType = $_SESSION['search_min_type'];  if (!empty($_POST['search_min_type'])) $searchType = $_POST['search_min_type'];
 
 if ($keywords == "NULL") $keywords = "";
-if (empty($searchType)) $searchType = "WORDS";
+if (empty($searchType)) $searchType = "ALL";
 
 $keywords = str_replace("\\\"", "", $keywords);
 $keywords = str_replace("\\'", "", $keywords);
 $keywords = str_replace("\\", "", $keywords);
 $keywords = str_replace("  ", " ", $keywords);
+
+if ($keywords == "") {
+  // Ignore
+} else if ($searchType == "ALL") {
+  $keywords = SqlFactory::addAndOperators($keywords);
+} else if (($searchType == "ANY") || ($searchType == "PHRASE")) {
+  $keywords = SqlFactory::removeOperators($keywords);
+}
 
 $_SESSION['search_min_keywords'] = $keywords;
 $_SESSION['search_min_type'] = $searchType;
@@ -58,13 +67,14 @@ $_SESSION['search_min_type'] = $searchType;
   </td>
   <td><?php echo ActionUtil::submitButton("Search", "button", "buttonhover", "submitSearchText();"); ?></td>
   <td width="100%"><div id=searchType><ul>
-    <li><input <?php if ($searchType == "WORDS") echo "CHECKED"; ?> type=radio id=st_words name=search_min_type value="WORDS"><label for="st_words">Any Words</label></li>
+    <li><input <?php if ($searchType == "ALL") echo "CHECKED"; ?> type=radio id=st_all name=search_min_type value="ALL"><label for="st_all">All Words</label></li>
+    <li><input <?php if ($searchType == "ANY") echo "CHECKED"; ?> type=radio id=st_any name=search_min_type value="ANY"><label for="st_any">Any Words</label></li>
+    <li><input <?php if ($searchType == "CUSTOM") echo "CHECKED"; ?> type=radio id=st_custom name=search_min_type value="CUSTOM"><label for="st_custom">Custom</label></li>
     <li><input <?php if ($searchType == "PHRASE") echo "CHECKED"; ?> type=radio id=st_phrase name=search_min_type value="PHRASE"><label for="st_phrase">Exact Phrase</label></li>
   </ul></div></td>
 </tr>
 </table>
 </form>
-
 <?php
 include $root.'tpl/results.php';
 include $root.'tpl/bot.php';
