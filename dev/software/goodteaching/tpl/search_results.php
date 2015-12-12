@@ -15,6 +15,7 @@
  * CAM  12-Apr-2009  10419 : Changed session vars to include module name.
  * CAM  05-Sep-2015  159308 : Pass new primary flag to SqlFactory and show article title in place of initials.
  * CAM  06-Dec-2015  863707 : Check session variables before setting to remove log errors.
+ * CAM  12-Dec-2015  476204 : Check session variables are set before referencing.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 include_once($root.'functions.php');
@@ -37,7 +38,8 @@ if ($newQuery && $cfg['Site']['Status'] == "Production") {
  //$em->sendNewQuery($thisQuery);
 }
 
-$pageNo = $_SESSION['results_pageno'];  if (isset($_POST['results_pageno'])) $pageNo = $_POST['results_pageno'];
+$pageNo = isset($_SESSION['results_pageno'])?$_SESSION['results_pageno']:0;  // Retrieve PageNo from Session
+if (isset($_POST['results_pageno'])) $pageNo = $_POST['results_pageno'];
 
 if (($pageNo == "") || ($pageNo == "0") || $newQuery) $pageNo = 1; $_SESSION['results_pageno'] = $pageNo;
 

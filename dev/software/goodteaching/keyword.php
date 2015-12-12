@@ -16,6 +16,7 @@
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and changed session vars to include module name.
  * CAM  30-Dec-2009  10520 : Add focus formatting for textboxes.
  * CAM  04-Dec-2015  863707 : Added improved search options.
+ * CAM  12-Dec-2015  476204 : Check session variables are set before referencing.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Keyword Search";
@@ -23,8 +24,8 @@ $tab = "KEYWORD";
 $tabs = "MINISTRY";
 include $root.'tpl/top.php';
 
-$keywords = $_SESSION['search_min_keywords'];  if (!empty($_POST['keywords'])) $keywords = $_POST['keywords'];
-$searchType = $_SESSION['search_min_type'];  if (!empty($_POST['search_min_type'])) $searchType = $_POST['search_min_type'];
+$keywords = isset($_SESSION['search_min_keywords'])?$_SESSION['search_min_keywords']:"";  if (!empty($_POST['keywords'])) $keywords = $_POST['keywords'];
+$searchType = isset($_SESSION['search_min_type'])?$_SESSION['search_min_type']:"";  if (!empty($_POST['search_min_type'])) $searchType = $_POST['search_min_type'];
 
 if ($keywords == "NULL") $keywords = "";
 if (empty($searchType)) $searchType = "ALL";

@@ -10,6 +10,7 @@
  * CAM  29-Sep-2008  10302 : Added root.
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and changed session vars to include module name.
  * CAM  05-Sep-2015  159308 : Added new checkbox and logic to reset (moved form from bot).
+ * CAM  12-Dec-2015  476204 : Check session variables are set before referencing.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Scripture Search";
@@ -18,10 +19,10 @@ $tabs = "MINISTRY";
 include $root.'tpl/top.php';
 include_once $root.'functions.php';
 
-$bookid = $_SESSION['search_min_bookid'];    if (!empty($_POST['bookid'])) $bookid = $_POST['bookid'];
-$chapter = $_SESSION['search_min_chapter'];  if (!empty($_POST['chapter'])) $chapter = $_POST['chapter'];
-$vstart = $_SESSION['search_min_vstart'];    if (!empty($_POST['chapter']) && ($_POST['vstart']!="")) $vstart = $_POST['vstart'];
-$primary = $_SESSION['search_min_primary'];  if (isset($_POST['primary'])) $primary = $_POST['primary'];
+$bookid = isset($_SESSION['search_min_bookid'])?$_SESSION['search_min_bookid']:"";     if (!empty($_POST['bookid'])) $bookid = $_POST['bookid'];
+$chapter = isset($_SESSION['search_min_chapter'])?$_SESSION['search_min_chapter']:"";  if (!empty($_POST['chapter'])) $chapter = $_POST['chapter'];
+$vstart = isset($_SESSION['search_min_vstart'])?$_SESSION['search_min_vstart']:"";     if (!empty($_POST['chapter']) && ($_POST['vstart']!="")) $vstart = $_POST['vstart'];
+$primary = isset($_SESSION['search_min_primary'])?$_SESSION['search_min_primary']:"";  if (isset($_POST['primary'])) $primary = $_POST['primary'];
 
 if ($bookid == "NULL") {
   $bookid = "";

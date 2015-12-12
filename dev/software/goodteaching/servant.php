@@ -5,13 +5,12 @@
  *
  * Author Filter
  *
- * $Id: servant.php 947 2009-04-12 12:46:53Z craig $
- *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
  * CAM  12-Nov-2007  10204 : Added calls to Servant checkbox functions.
  * CAM  29-Sep-2008  10302 : Added root.
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and changed session vars to include module name.
+ * CAM  12-Dec-2015  476204 : Check session variables are set before referencing.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Servant Filter";
@@ -19,7 +18,7 @@ $tab = "author";
 $tabs = "MINISTRY";
 include $root.'tpl/top.php';
 
-$author_filter = $_SESSION['search_min_author'];  if (!empty($_POST['author_filter'])) $author_filter = $_POST['author_filter'];
+$author_filter = isset($_SESSION['search_min_author'])?$_SESSION['search_min_author']:"";  if (!empty($_POST['author_filter'])) $author_filter = $_POST['author_filter'];
 $_SESSION['search_min_author'] = $author_filter;
 
 ?>

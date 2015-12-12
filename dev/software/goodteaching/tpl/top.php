@@ -16,6 +16,7 @@
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs.
  * CAM  29-Dec-2009  10515 : Added Bible.
  * CAM  30-Dec-2009  10523 : Added Favicon.
+ * CAM  12-Dec-2015  476204 : Remove pointless login and register links.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 if (empty($root)) {
@@ -89,8 +90,10 @@ if (empty($title)) {
 <?
           } else {
 ?>
+<!--
             <td><a class="nav" href="login.php">login</a><span class="sep">|</sep></td>
             <td><a class="nav" href="register.php">register</a><span class="sep">|</sep></td>
+-->
 <?
           }
         ?>
