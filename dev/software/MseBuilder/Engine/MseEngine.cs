@@ -3,8 +3,6 @@
  * Copyright (c) 2007,2010 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
- * $Id: MseEngine.cs 1312 2011-01-03 23:44:28Z craig $
- *
  * Who  When         Why
  * CAM  22-Sep-2007  File added to source control.
  * CAM  22-Oct-2007  10186 : Added Zip method.
@@ -27,10 +25,12 @@
  * CAM  03-Jan-2011  10917 : Replaced stub CreateEpubHymnFiles with actual data.
  * CAM  03-Jan-2011  10920 : Retrieve first line of each hymn.
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
+ * CAM  31-Dec-2015  886930 : Added CreateEpubScriptureFiles.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Data;
 using System.Diagnostics;
 using System.IO;
@@ -161,7 +161,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
               sw.WriteLine("\n-- REMOVE EXISTING VOLUME\n");
 
               // Empty existing data
-              sw.WriteLine(String.Format("REPLACE INTO mse_volume (author,vol,title,added) VALUES ('{0}', '{1}', '{2}', NOW());\n", vol.Author.Inits, vol.Vol, vol.Title));
+              sw.WriteLine(String.Format("REPLACE INTO mse_volume (author,vol,title,added) VALUES ('{0}', '{1}', '{2}', NOW());\n", vol.Author.Inits, vol.Vol, DatabaseLayer.SqlText(vol.Title)));
               sw.WriteLine(String.Format("DELETE FROM mse_article WHERE author='{0}' AND vol={1};", vol.Author.Inits, vol.Vol));
               sw.WriteLine(String.Format("DELETE FROM mse_text WHERE author='{0}' AND vol={1};", vol.Author.Inits, vol.Vol));
               sw.WriteLine(String.Format("DELETE FROM mse_bible_ref WHERE author='{0}' AND vol={1};\n", vol.Author.Inits, vol.Vol));
@@ -220,10 +220,10 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
               foreach (DataRow dr in DatabaseLayer.Instance.GetBibleRefs(vol).Rows)
               {
                 sql = String.Format(
-                  "INSERT INTO mse_bible_ref (author,vol,page,para,ref,bookid,chapter,vstart,vend) VALUES " +
-                  "('{0}',{1},{2},{3},{4},{5},{6},{7},{8});",
+                  "INSERT INTO mse_bible_ref (author,vol,page,para,ref,article_page,article_primary,bookid,chapter,vstart,vend) VALUES " +
+                  "('{0}',{1},{2},{3},{4},{5},{6},{7},{8},{9},{10});",
                   vol.Author.Inits, vol.Vol,
-                  dr["page"], dr["para"], dr["ref"],
+                  dr["page"], dr["para"], dr["ref"], dr["article_page"], dr["article_primary"],
                   dr["bookid"], dr["chapter"], dr["vstart"], dr["vend"]);
 
                 sw.WriteLine(sql);
@@ -345,6 +345,132 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
 
         _current++;
       }
+    }
+
+    public void CreateEpubScriptureFiles()
+    {
+      byte[] dataBuffer = new byte[4096];
+      DirectoryInfo root = new DirectoryInfo(@"C:\tmp\epub");
+      DirectoryInfo files = new DirectoryInfo(@"C:\tmp\epub\dirs");
+      DirectoryInfo epubDir = new DirectoryInfo(@"C:\tmp\epub\epub");
+      DirectoryInfo mobiDir = new DirectoryInfo(@"C:\tmp\epub\mobi");
+
+      try
+      {
+        if (files.Exists) files.Delete(true);
+        files.Create();
+        if (epubDir.Exists) epubDir.Delete(true);
+        epubDir.Create();
+        if (mobiDir.Exists) mobiDir.Delete(true);
+        mobiDir.Create();
+      }
+      catch
+      {
+      }
+
+      FileInfo exe = new FileInfo(Application.ExecutablePath);
+      FileInfo cssFile = new FileInfo(String.Format(@"{0}\Reader\Epub\resources\css\epub-ministry.css", exe.DirectoryName));
+
+      _current = 0;
+
+      foreach (Volume vol in DatabaseLayer.Instance.GetVolumesByBibleBook())
+      {
+        FileInfo authorImageFile = new FileInfo(String.Format(@"{0}\img\author\{1}", exe.DirectoryName, vol.Author.ImageFilename));
+        FileInfo coverImageFile = new FileInfo(String.Format(@"{0}\img\cover\{1}", exe.DirectoryName, vol.Author.ImageFilename));
+
+        EpubDocument epub = new EpubDocument(files, epubDir, mobiDir, vol, cssFile, authorImageFile, coverImageFile);
+
+        int currentArticle = 0;
+        int currentChapter = 0;
+        EpubArticle article = null;
+        EpubArticle earlierArticle = null;
+        ArticleStage stage = ArticleStage.Title;
+        ArticleCollection relArticles = null;
+        OrderedDictionary earlierArticles = new OrderedDictionary();
+
+        foreach (DataRow dr in DatabaseLayer.Instance.GetScriptureText(vol).Rows)
+        {
+          int bookid = int.Parse(dr["bookid"].ToString());
+          string bookName = dr["bookname"].ToString();
+          int chapter = int.Parse(dr["chapter"].ToString());
+          string author = dr["author"].ToString();
+          int volNo = int.Parse(dr["vol"].ToString());
+
+          string text = dr["text"].ToString();
+          string inits = dr["inits"].ToString();
+          string newPages = dr["newpages"].ToString();
+          int articlePage = int.Parse(dr["article_page"].ToString());
+
+          if (articlePage != currentArticle)
+          {
+            if (chapter != currentChapter && currentChapter > 0)
+            {
+              relArticles = DatabaseLayer.Instance.GetRelatedArticles(bookid, currentChapter);
+
+              if (relArticles.Count > 0)
+              {
+                article = epub.Articles.CreateArticle();
+                article.Title = String.Format("{0} {1} - Earlier Articles", bookName, currentChapter);
+                article.Items.Add(new EpubPlain("<ul>"));
+
+                foreach (Article a in relArticles)
+                {
+                  earlierArticle = (EpubArticle)earlierArticles[String.Format("{0}-{1:000}-{2:000000}", a.Volume.Author.Inits, a.Volume.Vol, a.PageNo)];
+                  if (earlierArticle != null)
+                  {
+                    article.Items.Add(new EpubPlain(String.Format("<li><a href=\"{0}\">{1}</a></li>", earlierArticle.XmlFile.Name, a.Title)));
+                  }
+                }
+
+                article.Items.Add(new EpubPlain("</ul>"));
+              }
+            }
+
+            article = epub.Articles.CreateArticle();
+            earlierArticles.Add(String.Format("{0}-{1:000}-{2:000000}", author, volNo, articlePage), article);
+            currentArticle = articlePage;
+            stage = ArticleStage.Title;
+          }
+
+          if (stage == ArticleStage.Title)
+          {
+            if (Paragraph.IsTitle(text))
+            {
+              if (vol.LocalFile == "1")
+              {
+                article.Title = String.Format("{0} - {1} ({2} {3})", bookName, text, author, volNo);
+              }
+              else
+              {
+                article.Title = String.Format("{0} {1} - {2} ({3} {4})", bookName, chapter, text, author, volNo);
+              }
+              stage = ArticleStage.Scriptures;
+            }
+          }
+          else
+          {
+            if (stage == ArticleStage.Scriptures && text.Trim().StartsWith("@"))
+            {
+              article.Scriptures = text;
+              stage = ArticleStage.Body;
+            }
+            else
+            {
+              article.Items.Add(new EpubParagraph(inits, text));
+              stage = ArticleStage.Body;
+            }
+          }
+
+          currentChapter = chapter;
+        }
+
+        epub.GenerateToc();
+        epub.SaveFile();
+
+        Thread.Sleep(50);
+        _current++;
+      }
+
     }
 
     public void CreateEpubHymnFiles()

@@ -13,6 +13,7 @@
  * CAM  23-Jan-2010  10551 : Added ParseJndThread.
  * CAM  03-Jan-2011  10917 : Added EpubHymnThread.
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
+ * CAM  31-Dec-2015  886930 : Added EpubScriptureThread.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -135,6 +136,23 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       {
         _engine.CreateEpubFiles();
       }
+    }
+  }
+
+  public class EpubScriptureThread : VolumeThread
+  {
+    public EpubScriptureThread()
+      : base("", 0, false)
+    {
+      _process = new Thread(new ThreadStart(CreateEpubScriptureFiles));
+      _process.IsBackground = true;
+      _process.Start();
+    }
+
+    private void CreateEpubScriptureFiles()
+    {
+      _engine = new MseEngine();
+      _engine.CreateEpubScriptureFiles();
     }
   }
 

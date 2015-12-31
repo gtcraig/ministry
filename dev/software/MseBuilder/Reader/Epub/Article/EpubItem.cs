@@ -12,6 +12,7 @@
  * CAM  29-Dec-2012  11151 : Correctly output Italics and Double and Single Quotation marks.
  * CAM  01-Jan-2013  11151 : Improvements on Double and Single Quotation marks.
  * CAM  20-May-2013  516699 : Ensure that '* is converted to '<i>.
+ * CAM  31-Dec-2015  886930 : Removed ancient SonyEpub references - no longer required.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -108,11 +109,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 
     public string Newline()
     {
-      if (EngineSettings.Instance.Mode == BuildMode.SonyEpub)
-      {
-        return "<p>&nbsp;</p>";
-      }
-
       return String.Empty;
     }
   }

@@ -21,6 +21,7 @@
  * CAM  03-Jan-2011  10917 : Added checks for completion of EpubHymnThread.
  * CAM  03-Jan-2011  10918 : Added radio buttons to set entire session for EPUB or MOBI (because of LI/P issue)
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
+ * CAM  31-Dec-2015  886930 : Added button to generate ebooks by Scripture.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -48,13 +49,12 @@ namespace FrontBurner.Ministry.MseBuilder
     private BuilderThread _builder;
     private ZipperThread _zipper;
     private EpubThread _epub;
+    private EpubScriptureThread _epubScripture;
     private EpubHymnThread _epubHymn;
 
     public MseBuilder()
     {
       InitializeComponent();
-
-      _radEpub.Checked = true;
 
       DatabaseLayer.Instance.Open();
     }
@@ -122,6 +122,20 @@ namespace FrontBurner.Ministry.MseBuilder
         {
           ProcessComplete();
           _epub = null;
+        }
+      }
+      else if (_epubScripture != null)
+      {
+        if (_epubScripture.Process.IsAlive)
+        {
+          if (_epubScripture.Engine != null) pgbVol.Value = _epubScripture.Engine.Current;
+          this.Refresh();
+          this.Update();
+        }
+        else
+        {
+          ProcessComplete();
+          _epubScripture = null;
         }
       }
       else if (_epubHymn != null)
@@ -253,6 +267,19 @@ namespace FrontBurner.Ministry.MseBuilder
       SpecificVolume();
 
       _epub = new EpubThread(_author, _vol, _specificVolume);
+      Thread.Sleep(1000);
+
+      tmrRefresh.Enabled = true;
+    }
+
+    private void CreateEpubScriptureFiles(object sender, EventArgs e)
+    {
+      _tspMain.Enabled = false;
+
+      pgbVol.Minimum = 0;
+      pgbVol.Maximum = BusinessLayer.Instance.Books.Count;
+
+      _epubScripture = new EpubScriptureThread();
       Thread.Sleep(1000);
 
       tmrRefresh.Enabled = true;

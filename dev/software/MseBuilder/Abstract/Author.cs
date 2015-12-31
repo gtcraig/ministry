@@ -3,12 +3,11 @@
  * Copyright (c) 2010 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
- * $Id: Author.cs 1286 2010-12-24 22:41:03Z craig $
- *
  * Who  When         Why
  * CAM  15-Jan-2010  10528 : File created.
  * CAM  15-Jan-2010  10533 : Added ImageFilename.
  * CAM  24-Dec-2010  10902 : Added Fullname and Orgname.
+ * CAM  31-Dec-2015  886930 : Added ScriptureAuthor as reference author for new volume by Bible Book.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -21,6 +20,8 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
 {
   public class Author
   {
+    public static readonly Author ScriptureAuthor = new Author("SCRIPTURE", "Scripture", "Scripture", "Various");
+
     private string _inits;
     private string _name;
     private string _fullName;

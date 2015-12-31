@@ -218,6 +218,10 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 
     protected void CopyResources()
     {
+      Color gold = Color.FromArgb(255, 243, 186);
+      Color deepGold = Color.FromArgb(196, 180, 48);
+      Color fontColor = gold;
+
       _cssFile.CopyTo(String.Format(@"{0}\{1}", _cssDir.FullName, _cssFile.Name), true);
       _authorImage.CopyTo(String.Format(@"{0}\{1}", _imgDir.FullName, _authorImage.Name), true);
 
@@ -233,6 +237,13 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
         vertical = 0.4f;
       }
 
+      if (Volume.Author == Author.ScriptureAuthor)
+      {
+        fontSize = 48;
+        vertical = 0.45f;
+        fontColor = deepGold;
+      }
+
       // Copy the plain volume cover and add the specific title
       Bitmap coverBitmap = new Bitmap(_coverImage.FullName);
       Graphics g = Graphics.FromImage(coverBitmap);
@@ -242,7 +253,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       strFormat.Alignment = StringAlignment.Center;
       int h = (int)(((float)coverBitmap.Height) * vertical);
       int w = (int)(((float)coverBitmap.Width) * 0.9f);
-      g.DrawString(title, new Font("Tahoma", fontSize), new SolidBrush(Color.FromArgb(255, 243, 186)),
+      g.DrawString(title, new Font("Swis721 BT Roman", fontSize), new SolidBrush(fontColor),
           new RectangleF((coverBitmap.Width - w) / 2, coverBitmap.Height - h, w, h), strFormat);
       coverBitmap.Save(String.Format(@"{0}\cover-{1}", _imgDir.FullName, _coverImage.Name));
     }

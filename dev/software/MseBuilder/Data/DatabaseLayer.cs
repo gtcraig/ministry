@@ -3,8 +3,6 @@
  * Copyright (c) 2007,2010 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
- * $Id: DatabaseLayer.cs 1314 2011-01-04 01:59:30Z craig $
- *
  * Who  When         Why
  * CAM  22-Sep-2007  File added to source control.
  * CAM  22-Oct-2007  10186 : Added methods for exporting.
@@ -28,6 +26,7 @@
  * CAM  04-Jan-2011  10919 : Retrieve hymns by authors and meters.
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * CAM  29-Aug-2015  163118 : Save Article Primary and Article Page properties for BibleRef.
+ * CAM  31-Dec-2015  886930 : Added methods to return Articles and Text by Scripture.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -62,6 +61,7 @@ namespace FrontBurner.Ministry.MseBuilder
     protected MySqlCommand _cmdArticles;
     protected MySqlCommand _cmdText;
     protected MySqlCommand _cmdBibleRef;
+    protected MySqlCommand _cmdRelArticles;
 
     protected MySqlCommand _cmdInsertText;
     protected MySqlCommand _cmdInsertBibleRef;
@@ -250,6 +250,126 @@ namespace FrontBurner.Ministry.MseBuilder
       return rval;
     }
 
+    public VolumeCollection GetVolumesByBibleBook()
+    {
+      MySqlDataReader dr;
+      Volume vol;
+      VolumeCollection rval = new VolumeCollection();
+
+      lock (_semaphore)
+      {
+        if (_cmdVolume == null)
+        {
+          string sql =
+            "SELECT bookid,bookname,ifnull(singlechap,0) singlechap " +
+            "FROM mse_bible_book " +
+            //"WHERE bookid >= 6 and bookid <= 9 " +
+            "ORDER BY bookid ";
+
+          _cmdVolume = new MySqlCommand(sql, _conn);
+        }
+        dr = _cmdVolume.ExecuteReader();
+
+        do
+        {
+          while (dr.Read())
+          {
+            vol = new Volume(Author.ScriptureAuthor, dr.GetInt32(0));
+
+            if (!dr.IsDBNull(1)) vol.Title = dr.GetString(1);
+            if (!dr.IsDBNull(2)) vol.LocalFile = dr.GetString(2);
+
+            rval.Add(vol);
+          }
+        } while (dr.NextResult());
+
+        dr.Close();
+      }
+
+      return rval;
+    }
+
+    public ArticleCollection GetRelatedArticles(int bookid, int chapter)
+    {
+      MySqlDataReader dr;
+      Volume vol;
+      Article article;
+      ArticleCollection rval = new ArticleCollection();
+      AuthorCollection authors = BusinessLayer.Instance.Authors;
+      string inits;
+
+      lock (_semaphore)
+      {
+        if (_cmdRelArticles == null)
+        {
+          string sql =
+            "select a.author, a.vol, a.article_page, a.localrow, a.article, a.scriptures, " +
+            "concat(a.bookname, ' ', br.chapter, ' &ndash; <b>', a.article, '</b> (', a.author, ' ', a.vol, ')') ref " +
+            "from ( " +
+            "select bb.bookid, min(bb.bookname) bookname, br.chapter,  " +
+            "br.author, br.vol, br.article_page, a.localrow,  " +
+            "min(a.article) article, min(a.scriptures) scriptures " +
+            "from mse_bible_ref br " +
+            "inner join mse_bible_book bb " +
+            "on bb.bookid = br.bookid " +
+            "inner join mse_article a " +
+            "on a.author = br.author " +
+            "and a.vol = br.vol " +
+            "and a.page = br.page " +
+            "where article_primary = 1 " +
+            "and br.bookid = ?bookid " +
+            "and br.chapter = ?chapter " +
+            "and exists (select 1 from mse_bible_ref br2  " +
+            "where br2.bookid = br.bookid  " +
+            "and br2.chapter < br.chapter " +
+            "and br2.author = br.author " +
+            "and br2.vol = br.vol " +
+            "and br2.article_page = br.article_page " +
+            "and br2.article_primary = 1 " +
+            ") " +
+            "group by bb.bookid, br.chapter, br.author, br.vol, br.article_page " +
+            ") a inner join mse_bible_ref br " +
+            "on a.author = br.author " +
+            "and a.vol = br.vol " +
+            "and a.article_page = br.article_page " +
+            "and br.article_primary = 1 " +
+            "group by a.bookid, a.bookname, a.chapter, a.author, a.vol, a.article_page, a.localrow, a.article, a.scriptures " +
+            "order by br.chapter, br.author, br.vol, br.article_page ";
+
+          _cmdRelArticles = new MySqlCommand(sql, _conn);
+          _cmdRelArticles.Prepare();
+
+          _cmdRelArticles.Parameters.Add("?bookid", MySqlDbType.Int32);
+          _cmdRelArticles.Parameters.Add("?chapter", MySqlDbType.Int32);
+
+        }
+
+        _cmdRelArticles.Parameters["?bookid"].Value = bookid;
+        _cmdRelArticles.Parameters["?chapter"].Value = chapter;
+
+        dr = _cmdRelArticles.ExecuteReader();
+
+        do
+        {
+          while (dr.Read())
+          {
+            inits = dr.GetString(0);
+            if (authors.Contains(inits))
+            {
+              vol = new Volume(authors[inits], dr.GetInt32(1));
+              article = new Article(vol, dr.GetInt32(2), 1, dr.GetInt32(3), dr.GetString(6));
+     
+              rval.Add(article);
+            }
+          }
+        } while (dr.NextResult());
+
+        dr.Close();
+      }
+
+      return rval;
+    }
+
     public AuthorCollection GetAuthors()
     {
       MySqlDataReader dr;
@@ -361,12 +481,52 @@ namespace FrontBurner.Ministry.MseBuilder
       return dt;
     }
 
+    public DataTable GetScriptureText(Volume vol)
+    {
+      if (_cmdText == null)
+      {
+        string sql =
+          "select a.bookid, a.bookname, a.chapter, a.author, a.vol, a.article_page, " +
+          "t.page, t.para, t.inits, t.text, t.newpages " +
+          "from ( " +
+          "select bb.bookid, min(bb.bookname) bookname, min(br.chapter) chapter, " +
+          "br.author, br.vol, br.article_page,  " +
+          "min(a.article) article, min(a.scriptures) scriptures " +
+          "from mse_bible_ref br " +
+          "inner join mse_bible_book bb " +
+          "on bb.bookid = br.bookid " +
+          "inner join mse_article a " +
+          "on a.author = br.author " +
+          "and a.vol = br.vol " +
+          "and a.page = br.page " +
+          "where article_primary = 1 " +
+          "and br.bookid = ?bookid " +
+          "group by bb.bookid, br.author, br.vol, br.article_page " +
+          ") a inner join mse_text t " +
+          "on t.author = a.author " +
+          "and t.vol = a.vol " +
+          "and t.article_page = a.article_page " +
+          "order by bookid, chapter, t.author, t.vol, t.page, t.para";
+        _cmdText = new MySqlCommand(sql, _conn);
+        _cmdText.Prepare();
+
+        _cmdText.Parameters.Add("?bookid", MySqlDbType.Int32);
+      }
+
+      _cmdText.Parameters["?bookid"].Value = vol.Vol;
+
+      DataTable dt = new DataTable("mse_text");
+      MySqlDataAdapter da = new MySqlDataAdapter(_cmdText);
+      da.Fill(dt);
+      return dt;
+    }
+
     public DataTable GetBibleRefs(Volume vol)
     {
       if (_cmdBibleRef == null)
       {
         string sql =
-          "SELECT page,para,ref,bookid,chapter,vstart,vend " +
+          "SELECT page,para,ref,article_page,article_primary,bookid,chapter,vstart,vend " +
           "FROM mse_bible_ref " +
           "WHERE author = ?author " +
           "AND vol = ?vol " +

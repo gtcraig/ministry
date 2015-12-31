@@ -3,11 +3,10 @@
  * Copyright (c) 2007,2010 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
- * $Id: EngineSettings.cs 1286 2010-12-24 22:41:03Z craig $
- *
  * Who  When         Why
  * CAM  13-Jan-2010  10551 : Added JndHtmlVolumes.
  * CAM  24-Dec-2010  10902 : Added BuildModes.
+ * CAM  31-Dec-2015  886930 : Removed ancient SonyEpub references - no longer required.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -18,8 +17,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
   public enum BuildMode
   {
     StandardEpub,
-    SonyEpub,
-    StanzaEpub,
     KindleMobiEpub
   }
 

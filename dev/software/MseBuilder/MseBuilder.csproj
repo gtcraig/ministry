@@ -150,6 +150,10 @@
     <Compile Include="Reader\Bbeb\IBbebGenerator.cs" />
     <Compile Include="Reader\Bbeb\BbebImageBlock.cs" />
     <Compile Include="Reader\Epub\Article\EpubCoverPage.cs" />
+    <Compile Include="Reader\Epub\Article\EpubParagraph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reader\Epub\Article\EpubPlain.cs" />
     <Compile Include="Reader\Hymnbook\EpubHymn.cs" />
     <Compile Include="Reader\Hymnbook\EpubHymnAuthor.cs" />
     <Compile Include="Reader\Hymnbook\EpubHymnCollection.cs" />
@@ -180,7 +184,6 @@
     <Compile Include="Reader\Epub\EpubToc.cs" />
     <Compile Include="Reader\Epub\EpubXmlFile.cs" />
     <Compile Include="Reader\Epub\IEpubGenerator.cs" />
-    <Compile Include="Reader\Epub\Article\EpubParagraph.cs" />
     <Compile Include="Reader\Epub\Article\EpubScriptures.cs" />
     <Compile Include="Reader\Epub\MimeType.cs" />
     <Compile Include="Util\KindleGen.cs" />
@@ -215,6 +218,9 @@
     </Content>
     <None Include="img\book_open2.png" />
     <None Include="img\books.png" />
+    <Content Include="img\author\scripture.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="img\cover\cac.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -228,6 +234,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="img\cover\jt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\cover\scripture.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="img\eministry.gif">
