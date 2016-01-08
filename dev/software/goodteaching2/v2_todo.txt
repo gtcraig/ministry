@@ -1,0 +1,72 @@
+GT v2.0 
+
+--[files containing '<html']--
+./tpl/top.php:1
+	--the template for the "top" of most pages. includes navbar down to beginning of content
+./WEB-INF/EmailMsg.php:1
+	--an email template class
+--[end '<html']--
+
+
+--[files containing '</html']--
+./tpl/bot.php:1
+	--the template for the "bottom" of most pages. includes footer
+./WEB-INF/EmailMsg.php:1
+--[end '</html']--
+
+
+--[files containing '<table']--
+./bible/index.php:2
+./buildindex.php:1
+./frm/file.upload.php:1
+./frm/user.chgpass.php:1
+./frm/user.login.php:1
+./frm/user.register.php:1
+./frm/user.verify.php:1
+./help.php:1
+./hymn/hymn_fn.php:3
+./hymn/index.php:1
+./keyword.php:1
+./releases.php:1
+./scripture.php:1
+./servant.php:1
+./textmistakes.php:1
+./tpl/home.php:1
+./tpl/latestvols.php:1
+./tpl/newsearch.php:2
+./tpl/page.php:2
+./tpl/search_results.php:2
+./tpl/tabs.php:1
+./tpl/top.php:4
+./volumes.php:1
+./WEB-INF/EmailMsg.php:3
+--[end '<table']--
+
+
+--[files containing '</table']--
+./bible/index.php:2
+./buildindex.php:1
+./frm/file.upload.php:1
+./frm/user.chgpass.php:1
+./frm/user.login.php:1
+./frm/user.register.php:1
+./frm/user.verify.php:1
+./help.php:1
+./hymn/hymn_fn.php:3
+./hymn/index.php:1
+./keyword.php:1
+./releases.php:1
+./scripture.php:1
+./servant.php:1
+./textmistakes.php:1
+./tpl/home.php:1
+./tpl/latestvols.php:1
+./tpl/newsearch.php:2
+./tpl/page.php:2
+./tpl/search_results.php:2
+./tpl/tabs.php:1
+./tpl/top.php:2
+./volumes.php:1
+./WEB-INF/EmailMsg.php:3
+--[end '</table']--
+

@@ -1,0 +1,138 @@
+/***
+ * Ministry Search Engine
+ * Copyright (c) 2007,2016 frontburner.co.uk
+ *
+ * GT Site Style Sheet
+ *
+ * $Id:  $
+ *
+ * Who  When         Why
+ * RWM  22-Dec-2015  508026 : v2 Responsive - File created.
+ */
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+
+.p-push p {
+	padding-top: 5em;
+}
+
+.container {
+  max-width: 1280px; /* std 1280px */
+  width: 90%; /* std 90% */
+}
+
+table.compact-table tr th, table.compact-table tr td {
+	padding: 2px 3px;
+}
+
+table.top-align tr th, table.top-align tr, td {
+	vertical-align: top;
+}
+
+table.striped > tbody > tr:nth-child(odd) {
+	background-color: #e1f5fe; /* light-blue lighten-5 */
+}
+
+table.highlight > tbody > tr:hover {
+  background-color: #c0ffee; /* smell the c0ffee - a lovely pale blue-green */
+  /*background-color: #acac1a; /* acacia - an interesting olive green */
+}
+
+/* try &equiv; x2261 dec8801 for hamburger */
+.hamburger:before {
+	content: "\2261";
+	font-size: 2rem;
+}
+ 
+.center-on-small-otherwise-right-align {
+	text-align: right;
+}
+.center-on-small-otherwise-left-align {
+	text-align: left;
+}
+@media only screen and (max-width: 600px) {
+    .center-on-small-otherwise-right-align {
+      text-align: center;
+    }
+    .center-on-small-otherwise-left-align {
+      text-align: center;
+    }
+}
+
+/* half chip, half badge */
+span.counter {
+  min-width: 3rem;
+  padding: 0 6px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: inherit;
+  right: 15px;
+  box-sizing: border-box;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 16px;
+  background-color: #e4e4e4;
+}
+
+.tabs .indicator {
+  height: 4px;
+  background-color: #000;
+}
+
+nav .heading {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 0;
+  padding-left: 1em;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  nav .heading {
+    font-size: 1em;
+  }
+}
+
+nav .linkitem {
+	padding: 0;
+}
+
+/***
+ * other site-related settings
+ *
+ */
+.verse {
+	font-size: 2em;
+	font-weight: bold;
+	color: dodgerblue;
+}
+.chorus {
+	font-style: italic;
+}
+.lines {
+	/**/
+}
+
+.err {
+	color: red;
+}
+
+.quest {
+	color: blue;
+}
+
+.statement {
+	color: green;
+}
