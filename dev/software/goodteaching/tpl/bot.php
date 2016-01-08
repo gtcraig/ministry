@@ -22,11 +22,27 @@
  * CAM  29-Dec-2009  10519 : Version V0.0.14.
  * CAM  30-Dec-2009  10523 : Version V0.0.15.
  * CAM  05-Sep-2015  159308 : Version V0.0.16. Moved form to scriptures page.
+ * CAM  12-Dec-2015  476204 : Lookup latest version from the database, and reference support email rather than frontburner.
  * * * * * * * * * * * * * * * * * * * * * * * */
+
+ $releaseNo = "";
+ $releaseDate = "";
+ $sql = "SELECT release_no, DATE_FORMAT(completion_date, '%e %b %Y') ".
+        "FROM mse_release_history ".
+        "WHERE completion_date = ( ".
+          "SELECT MAX(completion_date) ".
+          "FROM mse_release_history)";
+   $ssql = mysql_query($sql) or die(mysql_error());
+  if ($row = mysql_fetch_array($ssql)) {
+    $releaseNo = $row[0];
+    $releaseDate = $row[1];
+  }
+ 
+
 ?>
 </td></tr>
 </table></td></tr>
-<tr><td class="cpyrght"><a href="<? echo $root; ?>releases.php">V0.0.16</a> System designed and maintained by <a class="nav" href="http://www.frontburner.co.uk/">frontburner.co.uk</a></td></tr>
+<tr><td class="cpyrght"><a href="<? echo $root; ?>releases.php">V<?=$releaseNo?></a> released <?=$releaseDate?>.  For help, contact <a href="mailto:support@goodteaching.org">Support</a>.</td></tr>
 </td></tr>
 </table>
 </body>

@@ -17,6 +17,7 @@
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * CAM  29-Dec-2011  gc006 : Removed volume number from VolumeTitle.
  * CAM  29-Dec-2011  gc009 : Removed volume number from FullTitle for StandardEpub.
+ * CAM  31-Dec-2015  886930 : Removed ancient SonyEpub references - no longer required.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -81,6 +82,11 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
     {
       get
       {
+        if (Author == Author.ScriptureAuthor)
+        {
+          return FullTitle;
+        }
+
         if (Title.Length > 0)
         {
           return Title;
@@ -93,23 +99,13 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
     {
       get
       {
-        string fullTitle = String.Empty;
+        string fullTitle = Author.Inits;
 
-        switch (EngineSettings.Instance.Mode)
+        if (Author == Author.ScriptureAuthor)
         {
-          case BuildMode.SonyEpub:
-            fullTitle = String.Format("{0:000}", Vol);
-            break;
-          //case BuildMode.StandardEpub:  // No longer required as Title now includes a sort
-            // Include a Volume number with leading zeroes to force sort order in iBooks
-            //fullTitle = String.Format("{1} {0:000}", Vol, Author.Inits);
-            //break;
-          default:
-            fullTitle = Author.Inits;
-            break;
+          fullTitle = String.Format("Good Teaching by Scripture {0:00} - {1}", Vol, Title);
         }
-
-        if (Title.Length > 0)
+        else if (Title.Length > 0)
         {
           fullTitle = String.Format("{0} {1}", fullTitle, Title);
         }
@@ -125,6 +121,10 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
     {
       get
       {
+        if (Author == Author.ScriptureAuthor)
+        {
+          return String.Format("gtscripture_{0:00}", Vol);
+        }
         return String.Format("{0}_{1:000}", Author.Inits.ToLower(), Vol);
       }
     }
@@ -178,7 +178,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
 
     public static string GetId(string author, int vol)
     {
-      return String.Format("{0}-{1}", author, vol);
+      return String.Format("{0}-{1:000}", author, vol);
     }
   }
 

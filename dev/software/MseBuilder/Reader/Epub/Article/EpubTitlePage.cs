@@ -17,6 +17,7 @@ using System.Text;
 using System.IO;
 
 using FrontBurner.Ministry.MseBuilder.Engine;
+using FrontBurner.Ministry.MseBuilder.Abstract;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 {
@@ -25,14 +26,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
     public EpubTitlePage(long id, EpubDocument doc)
       : base(id, doc)
     {
-      if (EngineSettings.Instance.Mode == BuildMode.SonyEpub)
-      {
-        Title = doc.Volume.VolumeTitle;
-      }
-      else
-      {
-        Title = doc.Volume.FullTitle;
-      }
+      Title = doc.Volume.FullTitle;
     }
 
     public override void SaveFile()
@@ -47,7 +41,10 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 
         WriteHeader(writer, Title);
 
-        writer.WriteLine(author.RenderToXhtml());
+        if (Document.Volume.Author != Author.ScriptureAuthor)
+        {
+          writer.WriteLine(author.RenderToXhtml());
+        }
         writer.WriteLine(title.RenderToXhtml());
 
         if (Document.Volume.Author.Inits.Equals("JT"))

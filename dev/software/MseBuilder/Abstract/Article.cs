@@ -10,6 +10,7 @@
  * CAM  26-Sep-2007  Early working version.
  * CAM  23-Jan-2010  10553 : Created GetTitle to remove extraneous formatting for display in TOC etc.
  * CAM  29-Dec-2012  11151 : Remove broken-bar footnotes from TOC.
+ * CAM  31-Dec-2015  886930 : Added leading zeroes to Id to ensure better sorting.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -127,7 +128,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
 
     public static string GetId(Volume vol, int localRow)
     {
-      return String.Format("{0}-{1}", vol.Id, localRow);
+      return String.Format("{0}-{1:000000}", vol.Id, localRow);
     }
   }
 
