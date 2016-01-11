@@ -23,7 +23,27 @@
  * CAM  30-Dec-2009  10523 : Version V0.0.15.
  * CAM  05-Sep-2015  159308 : Version V0.0.16. Moved form to scriptures page.
  * RWM  22-Dec-2015  508026 : Begin v2 responsive.
+ * RWM  08-Jan-2015  508026 : implement "CAM  12-Dec-2015  476204 : Remove pointless login and register links."
+ * RWM  08-Jan-2015  508026 : implement "CAM  12-Dec-2015  476204 : Lookup latest version from the database, and reference support email rather than frontburner."
  * * * * * * * * * * * * * * * * * * * * * * * */
+
+$releaseNo = "";
+$releaseDate = "";
+$sql = "SELECT release_no, DATE_FORMAT(completion_date, '%e %b %Y') ".
+       "FROM mse_release_history ".
+       "WHERE completion_date = ( ".
+         "SELECT MAX(completion_date) ".
+         "FROM mse_release_history)";
+$ssql = mysql_query($sql) ; //or die(mysql_error());
+if ($ssql) {
+	if ($row = mysql_fetch_array($ssql)) {
+		$releaseNo = $row[0];
+		$releaseDate = $row[1];
+	}
+} else {
+	$releaseNo = $cfg['Site']['VersionNo'];
+	$releaseDate = $cfg['Site']['VersionDate'];
+}
 ?>
   </div>
 </main>
@@ -41,15 +61,20 @@ if ($cfg['Site']['Scheme']['Footer']['Compact']) {
 		<div class="row">
 			<div class="col s12 m6 <?php echo $cfg['Site']['Scheme']['Footer']['Text']['Class']; ?>">
 				<p class="center-on-small-otherwise-left-align">
-					<a class="<?php echo $cfg['Site']['Scheme']['FooterCopyright']['Text']['Class']; ?>" href="<?php echo $root; ?>releases.php"><?php echo $cfg['Site']['Version']; ?> :: </a> 
+					<a class="<?php echo $cfg['Site']['Scheme']['FooterCopyright']['Text']['Class']; ?>" href="<?php echo $root; ?>releases.php">V<?=$releaseNo?> </a> 
+					released <?=$releaseDate?>. 
+					For help, contact <a class="<?php echo $cfg['Site']['Scheme']['FooterCopyright']['Text']['Class']; ?>" href="mailto:support@goodteaching.org">Support</a>.
+<!--
 					<a class="<?php echo $cfg['Site']['Scheme']['FooterCopyright']['Text']['Class']; ?>" href="//www.frontburner.co.uk">
 						<span class="hide-on-small-and-down">System designed and maintained </span>by frontburner.co.uk
 					</a>
+-->
 				</p>
 			</div>
 			<div class="col s12 m6 <?php echo $cfg['Site']['Scheme']['Footer']['Text']['Class']; ?>">
 				<p class="center-on-small-otherwise-right-align">
 <?php
+/**
 	if ($loggedin) {
 ?>
 						<a href="<? echo $root; ?>logout.php" class="<?php echo $cfg['Site']['Scheme']['FooterCopyright']['Text']['Class']; ?>">logout 
@@ -70,6 +95,9 @@ if ($cfg['Site']['Scheme']['Footer']['Compact']) {
 	}
 ?>
 					&nbsp;|&nbsp;
+<?php
+**/
+?>
 					<a href="<? echo $root; ?>help.php" class="<?php echo $cfg['Site']['Scheme']['FooterCopyright']['Text']['Class']; ?>">help</a>
 				</p>
 			</div>

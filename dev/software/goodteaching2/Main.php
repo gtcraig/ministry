@@ -22,7 +22,8 @@
 
 define("GTORG", TRUE);
 
-$cfg['Site']['Version'] = "V2.0.00ß";
+$cfg['Site']['VersionNo'] = "2.0.00ß";
+$cfg['Site']['VersionDate'] = "01 Jan 2016";
 
 $cfg['Site']['Name']  = "Good Teaching Search Engine";
 $cfg['Site']['Shortname']  = "Good Teaching";

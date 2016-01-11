@@ -17,6 +17,7 @@
  * CAM  29-Dec-2009  10515 : Added Bible.
  * CAM  30-Dec-2009  10523 : Added Favicon.
  * RWM  22-Dec-2015  508026 : Begin v2 responsive.
+ * RWM  08-Jan-2015  508026 : implement "CAM  12-Dec-2015  476204 : Remove pointless login and register links."
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 if (empty($root)) {
