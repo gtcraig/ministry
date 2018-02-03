@@ -201,7 +201,13 @@
     <None Include="Resources\copy.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\author\ajg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="img\author\cac.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\author\chm.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="img\author\fer.png">
@@ -221,7 +227,16 @@
     <Content Include="img\author\scripture.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\author\smc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\cover\ajg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="img\cover\cac.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\cover\chm.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="img\cover\fer.png">
@@ -239,14 +254,12 @@
     <Content Include="img\cover\scripture.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\cover\smc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="img\eministry.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="img\cover\cac.psd" />
-    <None Include="img\cover\FER.psd" />
-    <None Include="img\cover\JBS.psd" />
-    <None Include="img\cover\JND.psd" />
-    <None Include="img\cover\jt.psd" />
     <None Include="img\holmes.png" />
     <None Include="img\hymnbook\hymnbook.psd" />
     <Content Include="img\hymnbook\hymnbook_de.png">
