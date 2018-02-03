@@ -20,6 +20,9 @@ xcopy /E /I mobi\fer* ministry\fer
 xcopy /E /I mobi\jbs* ministry\jbs
 xcopy /E /I mobi\jnd* ministry\jnd
 xcopy /E /I mobi\jt* ministry\jt
+xcopy /E /I mobi\ajg* ministry\ajg
+xcopy /E /I mobi\chm* ministry\chm
+xcopy /E /I mobi\smc* ministry\smc
 
 zip -9 -r mobi_ministry.zip ministry
 
