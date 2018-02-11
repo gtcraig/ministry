@@ -40,6 +40,8 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
         rval = rval.Replace(" *", " <i>");
         rval = rval.Replace("\"*", "\"<i>");
         rval = rval.Replace("'*", "'<i>");
+        rval = rval.Replace("[*", "[<i>");
+        rval = rval.Replace("(*", "(<i>");
 
         rval = rval.Replace("*", "</i>"); // All others, assume closing
         #endregion
