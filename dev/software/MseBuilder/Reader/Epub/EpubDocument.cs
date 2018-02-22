@@ -1,9 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: EpubDocument.cs 1287 2010-12-24 23:05:17Z craig $
  *
  * Who  When         Why
  * CAM  19-Jan-2010  10540 : File created.
@@ -13,6 +11,7 @@
  * CAM  24-Dec-2010  10904 : More sensible, tidier title on cover image.
  * CAM  28-Dec-2011  gc005 : Ensure apostrophes display correctly on cover page.
  * CAM  31-May-2015  998637 : Support for Cover page.
+ * CAM  22-Feb-2018  732482 : Refreshed the font and added support for Collections.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -218,7 +217,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 
     protected void CopyResources()
     {
-      Color gold = Color.FromArgb(255, 243, 186);
+      Color gold = Color.FromArgb(255, 221, 51);
       Color deepGold = Color.FromArgb(196, 180, 48);
       Color fontColor = gold;
 
@@ -233,15 +232,19 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       if (Volume.Title.Length > 0)
       {
         title = Volume.Title.Replace('~', (char)8217); // [#5]
-        fontSize = 36;
+        fontSize = 48;
         vertical = 0.4f;
       }
 
       if (Volume.Author == Author.ScriptureAuthor)
       {
-        fontSize = 48;
+        fontSize = 60;
         vertical = 0.45f;
-        fontColor = deepGold;
+        //fontColor = deepGold;
+      }
+      if (Volume.Author == Author.CollectionAuthor)
+      {
+        vertical = 0.50f;
       }
 
       // Copy the plain volume cover and add the specific title
@@ -253,8 +256,15 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       strFormat.Alignment = StringAlignment.Center;
       int h = (int)(((float)coverBitmap.Height) * vertical);
       int w = (int)(((float)coverBitmap.Width) * 0.9f);
-      g.DrawString(title, new Font("Swis721 BT Roman", fontSize), new SolidBrush(fontColor),
+      g.DrawString(title, new Font("Swis721 Cn BT", fontSize), new SolidBrush(fontColor),
           new RectangleF((coverBitmap.Width - w) / 2, coverBitmap.Height - h, w, h), strFormat);
+
+      if (Volume.Author == Author.CollectionAuthor)
+      {
+        g.DrawString(String.Format("#{0}", Volume.Vol) , new Font("Swis721 Cn BT", fontSize), new SolidBrush(fontColor),
+            new RectangleF((coverBitmap.Width - w) / 2, coverBitmap.Height - h - (fontSize*1.5f), w, h), strFormat);
+      }
+
       coverBitmap.Save(String.Format(@"{0}\cover-{1}", _imgDir.FullName, _coverImage.Name));
     }
   }

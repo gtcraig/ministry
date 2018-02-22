@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
  * Who  When         Why
@@ -27,6 +27,7 @@
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * CAM  29-Aug-2015  163118 : Save Article Primary and Article Page properties for BibleRef.
  * CAM  31-Dec-2015  886930 : Added methods to return Articles and Text by Scripture.
+ * CAM  22-Feb-2018  732482 : Added Collection summary and detail queries.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -54,6 +55,7 @@ namespace FrontBurner.Ministry.MseBuilder
     protected MySqlConnection _conn;
 
     protected MySqlCommand _cmdVolume;
+    protected MySqlCommand _cmdVolumeColl;
     protected MySqlCommand _cmdVolumeJndHtml;
     protected MySqlCommand _cmdAuthor;
     protected MySqlCommand _cmdVersions;
@@ -289,6 +291,43 @@ namespace FrontBurner.Ministry.MseBuilder
       return rval;
     }
 
+    public VolumeCollection GetCollectionVolumes()
+    {
+      MySqlDataReader dr;
+      Volume vol;
+      VolumeCollection rval = new VolumeCollection();
+
+      lock (_semaphore)
+      {
+        if (_cmdVolumeColl == null)
+        {
+          string sql =
+            "SELECT collectionid,collectionname " +
+            "FROM mse_collection " +
+            "ORDER BY collectionid ";
+
+          _cmdVolumeColl = new MySqlCommand(sql, _conn);
+        }
+        dr = _cmdVolumeColl.ExecuteReader();
+
+        do
+        {
+          while (dr.Read())
+          {
+            vol = new Volume(Author.CollectionAuthor, dr.GetInt32(0));
+
+            if (!dr.IsDBNull(1)) vol.Title = dr.GetString(1);
+
+            rval.Add(vol);
+          }
+        } while (dr.NextResult());
+
+        dr.Close();
+      }
+
+      return rval;
+    }
+
     public ArticleCollection GetRelatedArticles(int bookid, int chapter)
     {
       MySqlDataReader dr;
@@ -416,7 +455,8 @@ namespace FrontBurner.Ministry.MseBuilder
           string sql =
             "SELECT author, name " +
             "FROM mse_author " +
-            "WHERE author <> 'GRC' ";
+            "WHERE author <> 'GRC' " +
+            "ORDER BY name";
 
           _dadAuthor = new MySqlDataAdapter(sql, _conn);
         }
@@ -514,6 +554,33 @@ namespace FrontBurner.Ministry.MseBuilder
       }
 
       _cmdText.Parameters["?bookid"].Value = vol.Vol;
+
+      DataTable dt = new DataTable("mse_text");
+      MySqlDataAdapter da = new MySqlDataAdapter(_cmdText);
+      da.Fill(dt);
+      return dt;
+    }
+
+    public DataTable GetCollectionText(Volume vol)
+    {
+      if (_cmdText == null)
+      {
+        string sql =
+          "select c.collectionid bookid, c.collectionname bookname, ca.articleno, a.author, a.vol, a.page article_page, " +
+          "t.page, t.para, t.inits, t.text, t.newpages " +
+          "from mse_collection c " +
+          "inner join mse_collection_article ca on ca.collectionid = c.collectionid " +
+          "inner join mse_article a on a.author=ca.author and a.vol=ca.vol and a.page=ca.page " +
+          "inner join mse_text t on t.author=a.author and t.vol=a.vol and t.article_page=a.page " +
+          "where c.collectionid = ?collectionid " +
+          "order by c.collectionid, ca.articleno, t.author, t.vol, t.page, t.para ";
+        _cmdText = new MySqlCommand(sql, _conn);
+        _cmdText.Prepare();
+
+        _cmdText.Parameters.Add("?collectionid", MySqlDbType.Int32);
+      }
+
+      _cmdText.Parameters["?collectionid"].Value = vol.Vol;
 
       DataTable dt = new DataTable("mse_text");
       MySqlDataAdapter da = new MySqlDataAdapter(_cmdText);

@@ -1,9 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2008,2010 Front Burner
+ * Copyright (c) 2008,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: VolumeThread.cs 1310 2011-01-03 16:41:38Z craig $
  *
  * Who  When         Why
  * CAM  11-May-2008  10265 : File created (for clarity).
@@ -14,6 +12,7 @@
  * CAM  03-Jan-2011  10917 : Added EpubHymnThread.
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * CAM  31-Dec-2015  886930 : Added EpubScriptureThread.
+ * CAM  22-Feb-2018  732482 : Added EpubCollectionThread.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -136,6 +135,23 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       {
         _engine.CreateEpubFiles();
       }
+    }
+  }
+
+  public class EpubCollectionThread : VolumeThread
+  {
+    public EpubCollectionThread()
+      : base("", 0, false)
+    {
+      _process = new Thread(new ThreadStart(CreateEpubCollectionFiles));
+      _process.IsBackground = true;
+      _process.Start();
+    }
+
+    private void CreateEpubCollectionFiles()
+    {
+      _engine = new MseEngine();
+      _engine.CreateEpubCollectionFiles();
     }
   }
 

@@ -1,9 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: MseBuilder.Designer.cs 1311 2011-01-03 23:13:42Z craig $
  *
  * Who  When         Why
  * CAM  22-Sep-2007  File added to source control.
@@ -14,6 +12,7 @@
  * CAM  15-Jan-2010  10528 : Added button for CreateBbebReaderFiles.
  * CAM  19-Jan-2010  10540 : Added button for CreateEpubFiles.
  * CAM  23-Jan-2010  10551 : Added button for ParseJndHthmlFiles.
+ * CAM  22-Feb-2018  732482 : Added CreateEpubCollections.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using FrontBurner.Ministry.MseBuilder.Data;
@@ -64,11 +63,12 @@ namespace FrontBurner.Ministry.MseBuilder
       this._tsbVersionHistory = new System.Windows.Forms.ToolStripButton();
       this._tsbBible = new System.Windows.Forms.ToolStripButton();
       this._tsbCreateEpub = new System.Windows.Forms.ToolStripButton();
+      this._tsbCreateEpubScripture = new System.Windows.Forms.ToolStripButton();
       this._tsbEpubHymn = new System.Windows.Forms.ToolStripButton();
       this.mseData = new FrontBurner.Ministry.MseBuilder.Data.MseData();
       this._bdsBugs = new System.Windows.Forms.BindingSource(this.components);
       this._bugsTableAdapter = new FrontBurner.Ministry.MseBuilder.Data.MseDataTableAdapters.CompletedBugsTableAdapter();
-      this._tsbCreateEpubScripture = new System.Windows.Forms.ToolStripButton();
+      this._tsbCreateCollections = new System.Windows.Forms.ToolStripButton();
       ((System.ComponentModel.ISupportInitialize)(this.grdArticle)).BeginInit();
       this.toolStripContainer1.ContentPanel.SuspendLayout();
       this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
@@ -191,11 +191,12 @@ namespace FrontBurner.Ministry.MseBuilder
             this._tsbVersionHistory,
             this._tsbBible,
             this._tsbCreateEpub,
+            this._tsbCreateCollections,
             this._tsbCreateEpubScripture,
             this._tsbEpubHymn});
       this._tspMain.Location = new System.Drawing.Point(3, 0);
       this._tspMain.Name = "_tspMain";
-      this._tspMain.Size = new System.Drawing.Size(663, 55);
+      this._tspMain.Size = new System.Drawing.Size(781, 55);
       this._tspMain.TabIndex = 0;
       // 
       // _tsbBuild
@@ -252,6 +253,16 @@ namespace FrontBurner.Ministry.MseBuilder
       this._tsbCreateEpub.Text = "EPUB";
       this._tsbCreateEpub.Click += new System.EventHandler(this.CreateEpubFiles);
       // 
+      // _tsbCreateEpubScripture
+      // 
+      this._tsbCreateEpubScripture.Image = global::FrontBurner.Ministry.MseBuilder.Properties.Resources.Books;
+      this._tsbCreateEpubScripture.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+      this._tsbCreateEpubScripture.ImageTransparentColor = System.Drawing.Color.Magenta;
+      this._tsbCreateEpubScripture.Name = "_tsbCreateEpubScripture";
+      this._tsbCreateEpubScripture.Size = new System.Drawing.Size(137, 52);
+      this._tsbCreateEpubScripture.Text = "EPUB Scripture";
+      this._tsbCreateEpubScripture.Click += new System.EventHandler(this.CreateEpubScriptureFiles);
+      // 
       // _tsbEpubHymn
       // 
       this._tsbEpubHymn.Image = global::FrontBurner.Ministry.MseBuilder.Properties.Resources.Books;
@@ -275,15 +286,15 @@ namespace FrontBurner.Ministry.MseBuilder
       // 
       this._bugsTableAdapter.ClearBeforeFill = true;
       // 
-      // _tsbCreateEpubScripture
+      // _tsbCreateCollections
       // 
-      this._tsbCreateEpubScripture.Image = global::FrontBurner.Ministry.MseBuilder.Properties.Resources.Books;
-      this._tsbCreateEpubScripture.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-      this._tsbCreateEpubScripture.ImageTransparentColor = System.Drawing.Color.Magenta;
-      this._tsbCreateEpubScripture.Name = "_tsbCreateEpubScripture";
-      this._tsbCreateEpubScripture.Size = new System.Drawing.Size(137, 52);
-      this._tsbCreateEpubScripture.Text = "EPUB Scripture";
-      this._tsbCreateEpubScripture.Click += new System.EventHandler(this.CreateEpubScriptureFiles);
+      this._tsbCreateCollections.Image = global::FrontBurner.Ministry.MseBuilder.Properties.Resources.Books;
+      this._tsbCreateCollections.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+      this._tsbCreateCollections.ImageTransparentColor = System.Drawing.Color.Magenta;
+      this._tsbCreateCollections.Name = "_tsbCreateCollections";
+      this._tsbCreateCollections.Size = new System.Drawing.Size(118, 52);
+      this._tsbCreateCollections.Text = "Collections";
+      this._tsbCreateCollections.Click += new System.EventHandler(this.CreateEpubCollections);
       // 
       // MseBuilder
       // 
@@ -332,6 +343,7 @@ namespace FrontBurner.Ministry.MseBuilder
     private System.Windows.Forms.ToolStripButton _tsbCreateEpub;
     private System.Windows.Forms.ToolStripButton _tsbEpubHymn;
     private System.Windows.Forms.ToolStripButton _tsbCreateEpubScripture;
+    private System.Windows.Forms.ToolStripButton _tsbCreateCollections;
   }
 }
 

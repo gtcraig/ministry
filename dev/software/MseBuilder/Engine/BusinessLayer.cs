@@ -1,9 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: BusinessLayer.cs 1157 2010-02-13 14:54:18Z craig $
  *
  * Who  When         Why
  * CAM  22-Sep-2007  File added to source control.
@@ -12,6 +10,7 @@
  * CAM  15-Jan-2010  10528 : Added Authors and converted methods to properties.
  * CAM  23-Jan-2010  10551 : Added JndHtmlVolumes.
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
+ * CAM  22-Feb-2018  732482 : Added Collections property.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -39,6 +38,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
     protected ArticleCollection _articles;
     protected AuthorCollection _authors;
     protected VolumeCollection _volumes;
+    protected VolumeCollection _collections;
     protected int _nextFootnoteId;
 
     public ArticleCollection Articles
@@ -105,6 +105,19 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         }
 
         return _volumes;
+      }
+    }
+
+    public VolumeCollection Collections
+    {
+      get
+      {
+        if (_collections == null)
+        {
+          _collections = DatabaseLayer.Instance.GetCollectionVolumes();
+        }
+
+        return _collections;
       }
     }
 

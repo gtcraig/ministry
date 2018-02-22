@@ -1,14 +1,13 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: EpubToc.cs 1286 2010-12-24 22:41:03Z craig $
  *
  * Who  When         Why
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * CAM  28-Dec-2011  gc005 : Show Author and Title on Contents.
  * CAM  31-May-2015  998637 : Hide Cover page from TOC.
+ * CAM  22-Feb-2018  732482 : Use TocTitle - improved Plain Text.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -67,7 +66,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
         {
           if (!(article is EpubTitlePage) && !(article is EpubCoverPage))
           {
-            li = "      <li><a href=\"" + article.XmlFile.Name + "\">" + article.PlainTitle + "</a></li>";
+            li = "      <li><a href=\"" + article.XmlFile.Name + "\">" + article.TocTitle + "</a></li>";
             writer.WriteLine(li);
           }
         }

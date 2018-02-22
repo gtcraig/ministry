@@ -1,9 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: MseBuilder.cs 1311 2011-01-03 23:13:42Z craig $
  *
  * Who  When         Why
  * CAM  22-Sep-2007  File added to source control.
@@ -22,6 +20,7 @@
  * CAM  03-Jan-2011  10918 : Added radio buttons to set entire session for EPUB or MOBI (because of LI/P issue)
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * CAM  31-Dec-2015  886930 : Added button to generate ebooks by Scripture.
+ * CAM  22-Feb-2018  732482 : Added CreateEpubCollections.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -49,6 +48,7 @@ namespace FrontBurner.Ministry.MseBuilder
     private BuilderThread _builder;
     private ZipperThread _zipper;
     private EpubThread _epub;
+    private EpubCollectionThread _epubCollection;
     private EpubScriptureThread _epubScripture;
     private EpubHymnThread _epubHymn;
 
@@ -136,6 +136,20 @@ namespace FrontBurner.Ministry.MseBuilder
         {
           ProcessComplete();
           _epubScripture = null;
+        }
+      }
+      else if (_epubCollection != null)
+      {
+        if (_epubCollection.Process.IsAlive)
+        {
+          if (_epubCollection.Engine != null) pgbVol.Value = _epubCollection.Engine.Current;
+          this.Refresh();
+          this.Update();
+        }
+        else
+        {
+          ProcessComplete();
+          _epubCollection = null;
         }
       }
       else if (_epubHymn != null)
@@ -267,6 +281,19 @@ namespace FrontBurner.Ministry.MseBuilder
       SpecificVolume();
 
       _epub = new EpubThread(_author, _vol, _specificVolume);
+      Thread.Sleep(1000);
+
+      tmrRefresh.Enabled = true;
+    }
+
+    private void CreateEpubCollections(object sender, EventArgs e)
+    {
+      _tspMain.Enabled = false;
+
+      pgbVol.Minimum = 0;
+      pgbVol.Maximum = BusinessLayer.Instance.Collections.Count;
+
+      _epubCollection = new EpubCollectionThread();
       Thread.Sleep(1000);
 
       tmrRefresh.Enabled = true;

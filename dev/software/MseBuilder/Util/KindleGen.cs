@@ -1,12 +1,11 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2010,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: KindleGen.cs 1310 2011-01-03 16:41:38Z craig $
  *
  * Who  When         Why
  * CAM  24-Dec-2010  10902 : File added.
+ * CAM  22-Feb-2018  732482 : Delete the final MOBI file if it exists before recreating.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -49,6 +48,7 @@ namespace FrontBurner.Ministry.MseBuilder.Util
       string mobiName = String.Format("{0}.mobi", 
         opfFile.FullName.Substring(0, opfFile.FullName.LastIndexOf('.')));
 
+      if (mobiFile.Exists) mobiFile.Delete();
       File.Move(mobiName, mobiFile.FullName);
     }
   }

@@ -1,9 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2007,2015 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: EpubItem.cs 1310 2011-01-03 16:41:38Z craig $
  *
  * Who  When         Why
  * CAM  19-Jan-2010  10540 : File created.
@@ -13,6 +11,7 @@
  * CAM  01-Jan-2013  11151 : Improvements on Double and Single Quotation marks.
  * CAM  20-May-2013  516699 : Ensure that '* is converted to '<i>.
  * CAM  31-Dec-2015  886930 : Removed ancient SonyEpub references - no longer required.
+ * CAM  22-Feb-2018  732482 : Handle other apostrophe symbol.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -47,6 +46,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
         #endregion
 
         rval = rval.Replace("~", "&rsquo;"); // Apostrophes
+        rval = rval.Replace("¬", "&rsquo;"); // Apostrophes
         rval = rval.Replace("--", "&mdash;");
 
         #region Double Quotation Marks

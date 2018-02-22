@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine Data Builder
- * Copyright (c) 2010 Front Burner
+ * Copyright (c) 2010-2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
  * Who  When         Why
@@ -8,6 +8,7 @@
  * CAM  15-Jan-2010  10533 : Added ImageFilename.
  * CAM  24-Dec-2010  10902 : Added Fullname and Orgname.
  * CAM  31-Dec-2015  886930 : Added ScriptureAuthor as reference author for new volume by Bible Book.
+ * CAM  22-Feb-2018  732482 : Added CollectionAuthor as reference author for new volume by Collection.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -21,6 +22,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
   public class Author
   {
     public static readonly Author ScriptureAuthor = new Author("SCRIPTURE", "Scripture", "Scripture", "Various");
+    public static readonly Author CollectionAuthor = new Author("Collection", "Collection", "Collection", "Various");
 
     private string _inits;
     private string _name;

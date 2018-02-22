@@ -1,9 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: Volume.cs 1286 2010-12-24 22:41:03Z craig $
  *
  * Who  When         Why
  * CAM  22-Sep-2007  File added to source control.
@@ -18,6 +16,7 @@
  * CAM  29-Dec-2011  gc006 : Removed volume number from VolumeTitle.
  * CAM  29-Dec-2011  gc009 : Removed volume number from FullTitle for StandardEpub.
  * CAM  31-Dec-2015  886930 : Removed ancient SonyEpub references - no longer required.
+ * CAM  22-Feb-2018  732482 : Ignore 'Author Name' for CollectionAuthor.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -82,7 +81,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
     {
       get
       {
-        if (Author == Author.ScriptureAuthor)
+        if ((Author == Author.ScriptureAuthor) || (Author == Author.CollectionAuthor))
         {
           return FullTitle;
         }
@@ -104,6 +103,10 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
         if (Author == Author.ScriptureAuthor)
         {
           fullTitle = String.Format("Good Teaching by Scripture {0:00} - {1}", Vol, Title);
+        }
+        else if (Author == Author.CollectionAuthor)
+        {
+          fullTitle = String.Format("Good Teaching Collection #{0} - {1}", Vol, Title);
         }
         else if (Title.Length > 0)
         {

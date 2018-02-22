@@ -1,14 +1,13 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: BibleRef.cs 1157 2010-02-13 14:54:18Z craig $
  *
  * Who  When         Why
  * CAM  22-Sep-2007  File added to source control.
  * CAM  15-Jan-2010  10528 : Use Properties rather than methods.
  * CAM  29-Aug-2015  163118 : Added Article Primary property.
+ * CAM  22-Feb-2018  732482 : Tidied space after colon in Bible Refs.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -329,7 +328,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
 
       if (_vStart.Length > 0)
       {
-        rval += ": " + _vStart;
+        rval += ":" + _vStart;
       }
 
       if (_vEnd.Length > 0)

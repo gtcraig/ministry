@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2007,2015 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
  * Who  When         Why
@@ -9,6 +9,7 @@
  * CAM  23-Jan-2010  10553 : Added PlainTitle for use in TOCs etc.
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * CAM  31-May-2015  998637 : Added Cover page.
+ * CAM  22-Feb-2018  732482 : Added TocTitle and improved PlainTitle.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -58,7 +59,20 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
     {
       get
       {
-        return FrontBurner.Ministry.MseBuilder.Abstract.Article.GetTitle(Title);
+        string title = FrontBurner.Ministry.MseBuilder.Abstract.Article.GetTitle(Title);
+        title = title.Replace("--", "-");
+        title = title.Replace("@", "");
+        title = title.Replace("~", "'");
+        title = title.Replace("¬", "'");
+        return title;
+      }
+    }
+    public string TocTitle
+    {
+      get
+      {
+        EpubHeading title = new EpubHeading(FrontBurner.Ministry.MseBuilder.Abstract.Article.GetTitle(Title));
+        return title.Text;
       }
     }
     public string Scriptures
