@@ -9,9 +9,7 @@
  * CAM  15-Jun-2008  10271 : File created.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
 using System.Collections.ObjectModel;
-using System.Text;
 
 namespace FrontBurner.Ministry.MseBuilder.Abstract
 {

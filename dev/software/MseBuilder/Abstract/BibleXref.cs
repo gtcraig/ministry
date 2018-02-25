@@ -11,11 +11,6 @@
  * CAM  29-Dec-2009  10516 : Remove UTF16 characters.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows.Forms;
-
 namespace FrontBurner.Ministry.MseBuilder.Abstract
 {
   public enum XrefType

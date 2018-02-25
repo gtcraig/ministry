@@ -9,9 +9,7 @@
  * CAM  04-Apr-2009  10413 : File created.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
 using System.Collections.ObjectModel;
-using System.Text;
 
 namespace FrontBurner.Ministry.MseBuilder.Abstract
 {

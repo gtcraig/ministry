@@ -14,21 +14,13 @@
  * CAM  25-Feb-2018  790063 : Used correct namespace for Data.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Windows.Forms;
-using System.Data;
-using MySql.Data;
-using MySql.Data.MySqlClient;
-
 using FrontBurner.Ministry.MseBuilder.Abstract;
 using FrontBurner.Ministry.MseBuilder.Data;
 
 namespace FrontBurner.Ministry.MseBuilder.Engine
 {
   /// <summary>
-  /// All Business data and processes
+  /// All Business data and processes.
   /// </summary>
   public class BusinessLayer
   {

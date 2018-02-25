@@ -9,8 +9,6 @@
  * CAM  19-Jan-2010  10540 : File created.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
-
 namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 {
   public interface IEpubGenerator

@@ -9,8 +9,6 @@
  * CAM  02-Jan-2011  10917 : File created.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
-
 namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
 {
   public interface IEpubGenerator

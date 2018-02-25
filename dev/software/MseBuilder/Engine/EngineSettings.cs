@@ -9,9 +9,6 @@
  * CAM  31-Dec-2015  886930 : Removed ancient SonyEpub references - no longer required.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
-using System.Collections;
-
 namespace FrontBurner.Ministry.MseBuilder.Engine
 {
   public enum BuildMode

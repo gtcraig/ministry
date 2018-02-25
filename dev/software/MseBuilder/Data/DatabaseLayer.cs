@@ -32,11 +32,9 @@
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Data;
-using MySql.Data;
+
 using MySql.Data.MySqlClient;
 
 using FrontBurner.Ministry.MseBuilder.Abstract;

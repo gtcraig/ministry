@@ -9,9 +9,7 @@
  * CAM  15-Jun-2008  10409 : File added.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
 using System.Collections.ObjectModel;
-using System.Text;
 
 namespace FrontBurner.Ministry.MseBuilder.Abstract
 {

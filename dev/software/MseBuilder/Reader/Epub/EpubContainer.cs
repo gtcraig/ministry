@@ -10,11 +10,8 @@
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
 using System.IO;
 using System.Xml;
-
-using FrontBurner.Ministry.MseBuilder.Abstract;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 {

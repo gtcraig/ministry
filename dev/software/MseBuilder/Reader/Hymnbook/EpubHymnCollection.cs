@@ -10,9 +10,7 @@
  * CAM  03-Jan-2011  10917 : Class renames to make Hymn EPUB more obviously separate.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
 using System.Collections.ObjectModel;
-using System.Text;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
 {

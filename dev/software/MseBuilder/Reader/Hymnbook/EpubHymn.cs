@@ -14,10 +14,8 @@
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
-using System.Text;
 using System.IO;
 
-using FrontBurner.Ministry.MseBuilder.Abstract;
 using FrontBurner.Ministry.MseBuilder.Reader.Epub.Article;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook

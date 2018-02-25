@@ -14,9 +14,7 @@ using System;
 using System.IO;
 using System.Xml;
 
-using FrontBurner.Ministry.MseBuilder.Abstract;
 using FrontBurner.Ministry.MseBuilder.Engine;
-using FrontBurner.Ministry.MseBuilder.Reader.Epub.Article;
 using FrontBurner.Ministry.MseBuilder.Reader.Epub;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook

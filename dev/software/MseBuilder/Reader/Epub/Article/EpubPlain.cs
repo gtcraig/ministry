@@ -7,9 +7,6 @@
  * CAM  31-Dec-2015  886930 : File created to enable HTML encoding.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
-using FrontBurner.Ministry.MseBuilder.Abstract;
-
 namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 {
   public class EpubPlain : EpubItem

@@ -13,11 +13,8 @@
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
-using System.Drawing;
 using System.IO;
 
-using FrontBurner.Ministry.MseBuilder.Abstract;
-using FrontBurner.Ministry.MseBuilder.Reader.Epub.Article;
 using FrontBurner.Ministry.MseBuilder.Util;
 using FrontBurner.Ministry.MseBuilder.Engine;
 using FrontBurner.Ministry.MseBuilder.Reader.Epub;

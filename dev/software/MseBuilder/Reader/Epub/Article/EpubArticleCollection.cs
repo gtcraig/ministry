@@ -10,9 +10,7 @@
  * CAM  31-May-2015  998637 : Added Cover page.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
 using System.Collections.ObjectModel;
-using System.Text;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 {

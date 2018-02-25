@@ -13,10 +13,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
-using System.Text;
 using System.IO;
-
-using FrontBurner.Ministry.MseBuilder.Abstract;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 {

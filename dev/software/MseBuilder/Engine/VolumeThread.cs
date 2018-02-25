@@ -15,12 +15,7 @@
  * CAM  22-Feb-2018  732482 : Added EpubCollectionThread.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
-
-using FrontBurner.Ministry.MseBuilder.Engine;
 
 namespace FrontBurner.Ministry.MseBuilder.Engine
 {

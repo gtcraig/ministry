@@ -12,9 +12,7 @@
 
 using System;
 using System.IO;
-using System.Xml;
 
-using FrontBurner.Ministry.MseBuilder.Abstract;
 using FrontBurner.Ministry.MseBuilder.Reader.Epub.Article;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Epub

@@ -7,11 +7,7 @@
  * CAM  31-May-2015  998637 : File created.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
-using System.Text;
 using System.IO;
-
-using FrontBurner.Ministry.MseBuilder.Engine;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 {

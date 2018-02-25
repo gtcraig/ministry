@@ -14,8 +14,6 @@ using System;
 using System.IO;
 using System.Xml;
 
-using FrontBurner.Ministry.MseBuilder.Abstract;
-
 namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
 {
   public abstract class EpubXmlFile : XmlDocument, IEpubGenerator

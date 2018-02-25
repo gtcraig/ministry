@@ -17,8 +17,6 @@
 using System;
 using System.Collections.Generic;
 
-using FrontBurner.Ministry.MseBuilder.Engine;
-
 namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 {
   public abstract class EpubItem

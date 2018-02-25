@@ -11,10 +11,7 @@
  * CAM  04-Apr-2009  10413 : Added ToString.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 
 namespace FrontBurner.Ministry.MseBuilder.Abstract
 {
