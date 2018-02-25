@@ -386,7 +386,6 @@ namespace FrontBurner.Ministry.MseBuilder
     private System.Windows.Forms.ToolStripButton _tsbVersionHistory;
     //private MseData mseData;
     private System.Windows.Forms.ToolStripButton _tsbBible;
-    private System.Windows.Forms.BindingSource _bdsBugs;
     private System.Windows.Forms.ToolStripButton _tsbCreateEpub;
     private System.Windows.Forms.ToolStripButton _tsbEpubHymn;
     private System.Windows.Forms.ToolStripButton _tsbCreateEpubScripture;

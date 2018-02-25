@@ -52,7 +52,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-  <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Dll\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
@@ -122,23 +122,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Reader\Bbeb\BbebBlockStyle.cs" />
-    <Compile Include="Reader\Bbeb\BbebBookInformation.cs" />
-    <Compile Include="Reader\Bbeb\BbebBookStyle.cs" />
-    <Compile Include="Reader\Bbeb\BbebElement.cs" />
-    <Compile Include="Reader\Bbeb\BbebImageStream.cs" />
-    <Compile Include="Reader\Bbeb\BbebPage.cs" />
-    <Compile Include="Reader\Bbeb\BbebPageStyle.cs" />
-    <Compile Include="Reader\Bbeb\BbebStyle.cs" />
-    <Compile Include="Reader\Bbeb\BbebDocument.cs" />
-    <Compile Include="Reader\Bbeb\BbebObjElement.cs" />
-    <Compile Include="Reader\Bbeb\BbebTextBlock.cs" />
-    <Compile Include="Reader\Bbeb\BbebTextStyle.cs" />
-    <Compile Include="Reader\Bbeb\BbebTitlePage.cs" />
-    <Compile Include="Reader\Bbeb\BbebTocLabel.cs" />
-    <Compile Include="Reader\Bbeb\BbebUtil.cs" />
-    <Compile Include="Reader\Bbeb\IBbebGenerator.cs" />
-    <Compile Include="Reader\Bbeb\BbebImageBlock.cs" />
     <Compile Include="Reader\Epub\Article\EpubCoverPage.cs" />
     <Compile Include="Reader\Epub\Article\EpubParagraph.cs">
       <SubType>Code</SubType>
