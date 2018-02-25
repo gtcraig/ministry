@@ -21,6 +21,7 @@
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * CAM  31-Dec-2015  886930 : Added button to generate ebooks by Scripture.
  * CAM  22-Feb-2018  732482 : Added CreateEpubCollections.
+ * CAM  25-Feb-2018  790063 : Used correct namespace for Data and replaced MseData.xsd with an explicit query.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -34,6 +35,7 @@ using System.Threading;
 using System.Windows.Forms;
 
 using FrontBurner.Ministry.MseBuilder.Bible;
+using FrontBurner.Ministry.MseBuilder.Data;
 using FrontBurner.Ministry.MseBuilder.Engine;
 
 using FrontBurner.Ministry.MseBuilder.Abstract;
@@ -88,8 +90,14 @@ namespace FrontBurner.Ministry.MseBuilder
 
           if (_builder.AnyErrors)
           {
-            BuildErrors formErrors = new BuildErrors();
-            formErrors.ShowDialog();
+            tabResults.SelectTab(tabBuildErrors);
+            grdError.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            grdError.DataSource = DatabaseLayer.Instance.GetBuildErrorDataset();
+            grdError.DataMember = "BuildError";
+          }
+          else
+          {
+            tabResults.SelectTab(tabArticles);
           }
 
           ProcessComplete();

@@ -10,7 +10,8 @@
  * CAM  03-Jan-2011  10917 : Class renames to make Hymn EPUB more obviously separate.
  * CAM  03-Jan-2011  10918 : Build index by Hymn Number.
  * CAM  04-Jan-2011  10919 : Expand TOC with Authors and Meters.
- * * * * * * * * * * * * * * * * * * * * * * * */
+ * CAM  25-Feb-2018  790063 : Used correct namespace for Data.
+ * * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
 using System.Data;
@@ -18,6 +19,8 @@ using System.IO;
 using System.Xml;
 
 using FrontBurner.Ministry.MseBuilder.Abstract;
+using FrontBurner.Ministry.MseBuilder.Data;
+
 using FrontBurner.Ministry.MseBuilder.Reader.Epub.Article;
 
 namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook

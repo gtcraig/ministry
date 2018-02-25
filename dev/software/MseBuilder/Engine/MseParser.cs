@@ -3,8 +3,6 @@
  * Copyright (c) 2007,2010 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
- * $Id: MseParser.cs 1157 2010-02-13 14:54:18Z craig $
- *
  * Who  When         Why
  * CAM  22-Sep-2007  File added to source control.
  * CAM  22-Oct-2007  10189 : Catch all initials, and tidy them up appropriately.
@@ -16,6 +14,7 @@
  * CAM  29-Dec-2012  11151 : Treat broken-bars as footnotes.
  * CAM  01-Jan-2013  11153 : Support for SubTitles (lines beginning %).
  * CAM  29-Aug-2015  163118 : Passed the Article Primary property to Paragraph to ensure primary Scriptures are stamped.
+ * CAM  25-Feb-2018  790063 : Used correct namespace for Data.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -25,6 +24,7 @@ using System.IO;
 using System.Windows.Forms;
 
 using FrontBurner.Ministry.MseBuilder.Abstract;
+using FrontBurner.Ministry.MseBuilder.Data;
 using FrontBurner.Ministry.MseBuilder.Engine;
 
 namespace FrontBurner.Ministry.MseBuilder.Engine

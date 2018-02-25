@@ -8,6 +8,7 @@
  * CAM  15-Jan-2010  10528 : Use Properties rather than methods.
  * CAM  29-Aug-2015  163118 : Added Article Primary property.
  * CAM  22-Feb-2018  732482 : Tidied space after colon in Bible Refs.
+ * CAM  25-Feb-2018  790063 : Used correct namespace for Data.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -15,6 +16,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 
+using FrontBurner.Ministry.MseBuilder.Data;
 using FrontBurner.Ministry.MseBuilder.Engine;
 
 namespace FrontBurner.Ministry.MseBuilder.Abstract

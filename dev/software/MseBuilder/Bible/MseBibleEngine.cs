@@ -1,15 +1,14 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2008 Front Burner
+ * Copyright (c) 2008,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: MseBibleEngine.cs 1157 2010-02-13 14:54:18Z craig $
  *
  * Who  When         Why
  * CAM  22-Jun-2008  10409 : File created.
  * CAM  04-Apr-2009  10413 : Parse Footnote refs and record ALL of them, and the phrases that they are connected to.
  * CAM  04-Apr-2009  10414 : Moved CrossReference to BibleVerse.
  * CAM  15-Jan-2010  10528 : Use Properties rather than methods.
+ * CAM  25-Feb-2018  790063 : Used correct namespace for Data.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -20,6 +19,7 @@ using System.IO;
 using System.Windows.Forms;
 
 using FrontBurner.Ministry.MseBuilder.Abstract;
+using FrontBurner.Ministry.MseBuilder.Data;
 using FrontBurner.Ministry.MseBuilder.Engine;
 
 namespace FrontBurner.Ministry.MseBuilder.Bible

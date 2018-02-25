@@ -8,6 +8,7 @@
  * Who  When         Why
  * CAM  21-Jan-2010  10544 : File created.
  * CAM  11-Feb-2010  10560 : Moved to using zip.exe as something is wrong with the way we are building zipfiles using SharpZipLib.
+ * CAM  25-Feb-2018  790063 : Removed all refs to SharpZipLib as per above.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -15,9 +16,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
-
-using ICSharpCode.SharpZipLib.Checksums;
-using ICSharpCode.SharpZipLib.Zip;
 
 namespace FrontBurner.Ministry.MseBuilder.Util
 {
@@ -58,46 +56,6 @@ namespace FrontBurner.Ministry.MseBuilder.Util
       }
     }
 
-    public void ZipDirectory2(DirectoryInfo sourceFolder, FileInfo zipfile)
-    {
-      Ziplist.Clear();
-
-      GenerateFileList(sourceFolder);
-
-      FileStream fs;
-      byte[] buffer;
-      ZipEntry entry;
-      Crc32 crc = new Crc32();
-      ZipOutputStream zipStream = new ZipOutputStream(zipfile.Create());
-      zipStream.SetLevel(9); // maximum compression
-      int baseDirectoryLength = sourceFolder.FullName.Length + 1; // remove up to and including the '\'
-
-      foreach (FileInfo file in _ziplist)
-      {
-        // Read the file contents
-        fs = File.OpenRead(file.FullName);
-        buffer = new byte[fs.Length];
-        fs.Read(buffer, 0, buffer.Length);
-        entry = new ZipEntry(file.FullName.Remove(0, baseDirectoryLength));
-        entry.DateTime = DateTime.Now;
-        entry.Size = fs.Length;
-        fs.Close();
-
-        // Calculate CRC
-        crc.Reset();
-        crc.Update(buffer);
-        entry.Crc = crc.Value;
-
-        // Generate an entry in the zipfile
-        zipStream.PutNextEntry(entry);
-        // Add the contents of the file itself
-        zipStream.Write(buffer, 0, buffer.Length);
-      }
-
-      zipStream.Finish();
-      zipStream.Close();
-    }
-
     public void ZipDirectory(DirectoryInfo sourceFolder, FileInfo zipfile)
     {
       Process zip = new Process();
@@ -131,21 +89,6 @@ namespace FrontBurner.Ministry.MseBuilder.Util
       }
 
       return sb.ToString().Trim();
-    }
-
-    private void GenerateFileList(DirectoryInfo dir)
-    {
-      foreach (FileInfo file in dir.GetFiles())
-      {
-        // Add each file in directory
-        _ziplist.Add(file);
-      }
-
-      foreach (DirectoryInfo subdir in dir.GetDirectories())
-      {
-        // Recursively add subdirectories
-        GenerateFileList(subdir);
-      }
     }
   }
 }

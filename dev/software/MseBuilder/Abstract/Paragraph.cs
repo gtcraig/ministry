@@ -1,9 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
+ * Copyright (c) 2007,2018 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: Paragraph.cs 1150 2010-01-24 12:32:55Z craig $
  *
  * Who  When         Why
  * CAM  01-Oct-2007  File created.
@@ -20,6 +18,7 @@
  * CAM  29-Dec-2012  11151 : Use Properties as intended.
  * CAM  01-Jan-2013  11153 : Support for SubTitles (lines beginning %).
  * CAM  29-Aug-2015  163118 : Added the Article Primary property to ensure primary Scriptures are stamped.
+ * CAM  25-Feb-2018  790063 : Used correct namespace for Data.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -27,6 +26,8 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 using System.Windows.Forms;
+
+using FrontBurner.Ministry.MseBuilder.Data;
 
 namespace FrontBurner.Ministry.MseBuilder.Abstract
 {

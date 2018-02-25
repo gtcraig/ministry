@@ -63,38 +63,43 @@ namespace FrontBurner.Ministry.MseBuilder
       this._tsbVersionHistory = new System.Windows.Forms.ToolStripButton();
       this._tsbBible = new System.Windows.Forms.ToolStripButton();
       this._tsbCreateEpub = new System.Windows.Forms.ToolStripButton();
+      this._tsbCreateCollections = new System.Windows.Forms.ToolStripButton();
       this._tsbCreateEpubScripture = new System.Windows.Forms.ToolStripButton();
       this._tsbEpubHymn = new System.Windows.Forms.ToolStripButton();
-      this.mseData = new FrontBurner.Ministry.MseBuilder.Data.MseData();
-      this._bdsBugs = new System.Windows.Forms.BindingSource(this.components);
-      this._bugsTableAdapter = new FrontBurner.Ministry.MseBuilder.Data.MseDataTableAdapters.CompletedBugsTableAdapter();
-      this._tsbCreateCollections = new System.Windows.Forms.ToolStripButton();
+      this.tabResults = new System.Windows.Forms.TabControl();
+      this.tabArticles = new System.Windows.Forms.TabPage();
+      this.tabBuildErrors = new System.Windows.Forms.TabPage();
+      this.grdError = new System.Windows.Forms.DataGridView();
       ((System.ComponentModel.ISupportInitialize)(this.grdArticle)).BeginInit();
       this.toolStripContainer1.ContentPanel.SuspendLayout();
       this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
       this.toolStripContainer1.SuspendLayout();
       this.tableLayoutPanel1.SuspendLayout();
       this._tspMain.SuspendLayout();
-      ((System.ComponentModel.ISupportInitialize)(this.mseData)).BeginInit();
-      ((System.ComponentModel.ISupportInitialize)(this._bdsBugs)).BeginInit();
+      this.tabResults.SuspendLayout();
+      this.tabArticles.SuspendLayout();
+      this.tabBuildErrors.SuspendLayout();
+      ((System.ComponentModel.ISupportInitialize)(this.grdError)).BeginInit();
       this.SuspendLayout();
       // 
       // cmbAuthor
       // 
       this.cmbAuthor.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
       this.cmbAuthor.FormattingEnabled = true;
-      this.cmbAuthor.Location = new System.Drawing.Point(103, 3);
+      this.cmbAuthor.Location = new System.Drawing.Point(206, 6);
+      this.cmbAuthor.Margin = new System.Windows.Forms.Padding(6);
       this.cmbAuthor.Name = "cmbAuthor";
-      this.cmbAuthor.Size = new System.Drawing.Size(193, 24);
+      this.cmbAuthor.Size = new System.Drawing.Size(382, 39);
       this.cmbAuthor.TabIndex = 1;
       // 
       // label1
       // 
       this.label1.AutoSize = true;
       this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label1.Location = new System.Drawing.Point(3, 0);
+      this.label1.Location = new System.Drawing.Point(6, 0);
+      this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
       this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(54, 16);
+      this.label1.Size = new System.Drawing.Size(104, 31);
       this.label1.TabIndex = 2;
       this.label1.Text = "Author";
       // 
@@ -102,38 +107,41 @@ namespace FrontBurner.Ministry.MseBuilder
       // 
       this.label2.AutoSize = true;
       this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label2.Location = new System.Drawing.Point(3, 30);
+      this.label2.Location = new System.Drawing.Point(6, 58);
+      this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
       this.label2.Name = "label2";
-      this.label2.Size = new System.Drawing.Size(55, 16);
+      this.label2.Size = new System.Drawing.Size(113, 31);
       this.label2.TabIndex = 3;
       this.label2.Text = "Volume";
       // 
       // txtVol
       // 
       this.txtVol.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.txtVol.Location = new System.Drawing.Point(103, 33);
+      this.txtVol.Location = new System.Drawing.Point(206, 64);
+      this.txtVol.Margin = new System.Windows.Forms.Padding(6);
       this.txtVol.Name = "txtVol";
-      this.txtVol.Size = new System.Drawing.Size(64, 23);
+      this.txtVol.Size = new System.Drawing.Size(124, 39);
       this.txtVol.TabIndex = 4;
       // 
       // pgbVol
       // 
       this.tableLayoutPanel1.SetColumnSpan(this.pgbVol, 3);
       this.pgbVol.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.pgbVol.Location = new System.Drawing.Point(3, 63);
+      this.pgbVol.Location = new System.Drawing.Point(6, 122);
+      this.pgbVol.Margin = new System.Windows.Forms.Padding(6);
       this.pgbVol.Name = "pgbVol";
-      this.pgbVol.Size = new System.Drawing.Size(852, 24);
+      this.pgbVol.Size = new System.Drawing.Size(1939, 46);
       this.pgbVol.TabIndex = 5;
       // 
       // grdArticle
       // 
-      this.tableLayoutPanel1.SetColumnSpan(this.grdArticle, 3);
       this.grdArticle.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.grdArticle.Location = new System.Drawing.Point(3, 93);
+      this.grdArticle.Location = new System.Drawing.Point(3, 3);
+      this.grdArticle.Margin = new System.Windows.Forms.Padding(6);
       this.grdArticle.Name = "grdArticle";
       this.grdArticle.ReadOnly = true;
       this.grdArticle.ShowEditingIcon = false;
-      this.grdArticle.Size = new System.Drawing.Size(852, 470);
+      this.grdArticle.Size = new System.Drawing.Size(1923, 906);
       this.grdArticle.TabIndex = 6;
       // 
       // tmrRefresh
@@ -146,11 +154,13 @@ namespace FrontBurner.Ministry.MseBuilder
       // toolStripContainer1.ContentPanel
       // 
       this.toolStripContainer1.ContentPanel.Controls.Add(this.tableLayoutPanel1);
-      this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(858, 566);
+      this.toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding(6);
+      this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1951, 1139);
       this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
       this.toolStripContainer1.Location = new System.Drawing.Point(0, 0);
+      this.toolStripContainer1.Margin = new System.Windows.Forms.Padding(6);
       this.toolStripContainer1.Name = "toolStripContainer1";
-      this.toolStripContainer1.Size = new System.Drawing.Size(858, 621);
+      this.toolStripContainer1.Size = new System.Drawing.Size(1951, 1194);
       this.toolStripContainer1.TabIndex = 8;
       this.toolStripContainer1.Text = "toolStripContainer1";
       // 
@@ -161,24 +171,26 @@ namespace FrontBurner.Ministry.MseBuilder
       // tableLayoutPanel1
       // 
       this.tableLayoutPanel1.ColumnCount = 3;
-      this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+      this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 200F));
       this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-      this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 535F));
+      this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 1028F));
       this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
       this.tableLayoutPanel1.Controls.Add(this.cmbAuthor, 1, 0);
-      this.tableLayoutPanel1.Controls.Add(this.grdArticle, 0, 3);
       this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
       this.tableLayoutPanel1.Controls.Add(this.pgbVol, 0, 2);
       this.tableLayoutPanel1.Controls.Add(this.txtVol, 1, 1);
+      this.tableLayoutPanel1.Controls.Add(this.tabResults, 0, 3);
       this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
       this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+      this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(6);
       this.tableLayoutPanel1.Name = "tableLayoutPanel1";
       this.tableLayoutPanel1.RowCount = 4;
-      this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-      this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-      this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+      this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+      this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+      this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
       this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-      this.tableLayoutPanel1.Size = new System.Drawing.Size(858, 566);
+      this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+      this.tableLayoutPanel1.Size = new System.Drawing.Size(1951, 1139);
       this.tableLayoutPanel1.TabIndex = 0;
       // 
       // _tspMain
@@ -196,7 +208,7 @@ namespace FrontBurner.Ministry.MseBuilder
             this._tsbEpubHymn});
       this._tspMain.Location = new System.Drawing.Point(3, 0);
       this._tspMain.Name = "_tspMain";
-      this._tspMain.Size = new System.Drawing.Size(781, 55);
+      this._tspMain.Size = new System.Drawing.Size(1075, 55);
       this._tspMain.TabIndex = 0;
       // 
       // _tsbBuild
@@ -238,7 +250,7 @@ namespace FrontBurner.Ministry.MseBuilder
       this._tsbBible.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
       this._tsbBible.ImageTransparentColor = System.Drawing.Color.Magenta;
       this._tsbBible.Name = "_tsbBible";
-      this._tsbBible.Size = new System.Drawing.Size(116, 52);
+      this._tsbBible.Size = new System.Drawing.Size(182, 52);
       this._tsbBible.Text = "Parse Bible";
       this._tsbBible.ToolTipText = "Parse Bible";
       this._tsbBible.Click += new System.EventHandler(this.BuildBibleDatabase);
@@ -249,17 +261,26 @@ namespace FrontBurner.Ministry.MseBuilder
       this._tsbCreateEpub.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
       this._tsbCreateEpub.ImageTransparentColor = System.Drawing.Color.Magenta;
       this._tsbCreateEpub.Name = "_tsbCreateEpub";
-      this._tsbCreateEpub.Size = new System.Drawing.Size(87, 52);
+      this._tsbCreateEpub.Size = new System.Drawing.Size(122, 52);
       this._tsbCreateEpub.Text = "EPUB";
       this._tsbCreateEpub.Click += new System.EventHandler(this.CreateEpubFiles);
+      // 
+      // _tsbCreateCollections
+      // 
+      this._tsbCreateCollections.Image = global::FrontBurner.Ministry.MseBuilder.Properties.Resources.Books;
+      this._tsbCreateCollections.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+      this._tsbCreateCollections.ImageTransparentColor = System.Drawing.Color.Magenta;
+      this._tsbCreateCollections.Name = "_tsbCreateCollections";
+      this._tsbCreateCollections.Size = new System.Drawing.Size(184, 52);
+      this._tsbCreateCollections.Text = "Collections";
+      this._tsbCreateCollections.Click += new System.EventHandler(this.CreateEpubCollections);
       // 
       // _tsbCreateEpubScripture
       // 
       this._tsbCreateEpubScripture.Image = global::FrontBurner.Ministry.MseBuilder.Properties.Resources.Books;
-      this._tsbCreateEpubScripture.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
       this._tsbCreateEpubScripture.ImageTransparentColor = System.Drawing.Color.Magenta;
       this._tsbCreateEpubScripture.Name = "_tsbCreateEpubScripture";
-      this._tsbCreateEpubScripture.Size = new System.Drawing.Size(137, 52);
+      this._tsbCreateEpubScripture.Size = new System.Drawing.Size(224, 52);
       this._tsbCreateEpubScripture.Text = "EPUB Scripture";
       this._tsbCreateEpubScripture.Click += new System.EventHandler(this.CreateEpubScriptureFiles);
       // 
@@ -268,41 +289,66 @@ namespace FrontBurner.Ministry.MseBuilder
       this._tsbEpubHymn.Image = global::FrontBurner.Ministry.MseBuilder.Properties.Resources.Books;
       this._tsbEpubHymn.ImageTransparentColor = System.Drawing.Color.Magenta;
       this._tsbEpubHymn.Name = "_tsbEpubHymn";
-      this._tsbEpubHymn.Size = new System.Drawing.Size(124, 52);
+      this._tsbEpubHymn.Size = new System.Drawing.Size(195, 52);
       this._tsbEpubHymn.Text = "Hymnbooks";
       this._tsbEpubHymn.Click += new System.EventHandler(this.CreateEpubHymnFiles);
       // 
-      // mseData
+      // tabResults
       // 
-      this.mseData.DataSetName = "MseData";
-      this.mseData.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+      this.tableLayoutPanel1.SetColumnSpan(this.tabResults, 3);
+      this.tabResults.Controls.Add(this.tabArticles);
+      this.tabResults.Controls.Add(this.tabBuildErrors);
+      this.tabResults.Dock = System.Windows.Forms.DockStyle.Fill;
+      this.tabResults.Location = new System.Drawing.Point(3, 177);
+      this.tabResults.Name = "tabResults";
+      this.tabResults.SelectedIndex = 0;
+      this.tabResults.Size = new System.Drawing.Size(1945, 959);
+      this.tabResults.TabIndex = 7;
       // 
-      // _bdsBugs
+      // tabArticles
       // 
-      this._bdsBugs.DataMember = "CompletedBugs";
-      this._bdsBugs.DataSource = this.mseData;
+      this.tabArticles.Controls.Add(this.grdArticle);
+      this.tabArticles.Location = new System.Drawing.Point(8, 39);
+      this.tabArticles.Name = "tabArticles";
+      this.tabArticles.Padding = new System.Windows.Forms.Padding(3);
+      this.tabArticles.Size = new System.Drawing.Size(1929, 912);
+      this.tabArticles.TabIndex = 0;
+      this.tabArticles.Text = "Articles";
+      this.tabArticles.UseVisualStyleBackColor = true;
       // 
-      // _bugsTableAdapter
+      // tabBuildErrors
       // 
-      this._bugsTableAdapter.ClearBeforeFill = true;
+      this.tabBuildErrors.Controls.Add(this.grdError);
+      this.tabBuildErrors.Location = new System.Drawing.Point(8, 39);
+      this.tabBuildErrors.Name = "tabBuildErrors";
+      this.tabBuildErrors.Padding = new System.Windows.Forms.Padding(3);
+      this.tabBuildErrors.Size = new System.Drawing.Size(1929, 912);
+      this.tabBuildErrors.TabIndex = 1;
+      this.tabBuildErrors.Text = "Build Errors";
+      this.tabBuildErrors.UseVisualStyleBackColor = true;
       // 
-      // _tsbCreateCollections
+      // grdError
       // 
-      this._tsbCreateCollections.Image = global::FrontBurner.Ministry.MseBuilder.Properties.Resources.Books;
-      this._tsbCreateCollections.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-      this._tsbCreateCollections.ImageTransparentColor = System.Drawing.Color.Magenta;
-      this._tsbCreateCollections.Name = "_tsbCreateCollections";
-      this._tsbCreateCollections.Size = new System.Drawing.Size(118, 52);
-      this._tsbCreateCollections.Text = "Collections";
-      this._tsbCreateCollections.Click += new System.EventHandler(this.CreateEpubCollections);
+      this.grdError.AllowUserToAddRows = false;
+      this.grdError.AllowUserToDeleteRows = false;
+      this.grdError.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+      this.grdError.Dock = System.Windows.Forms.DockStyle.Fill;
+      this.grdError.Location = new System.Drawing.Point(3, 3);
+      this.grdError.Margin = new System.Windows.Forms.Padding(6);
+      this.grdError.Name = "grdError";
+      this.grdError.ReadOnly = true;
+      this.grdError.Size = new System.Drawing.Size(1923, 906);
+      this.grdError.TabIndex = 1;
       // 
       // MseBuilder
       // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+      this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(858, 621);
+      this.ClientSize = new System.Drawing.Size(1951, 1194);
       this.Controls.Add(this.toolStripContainer1);
+      this.Margin = new System.Windows.Forms.Padding(6);
       this.Name = "MseBuilder";
+      this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "Ministry Search Engine Data Builder";
       this.Load += new System.EventHandler(this.MseBuilder_Load);
       ((System.ComponentModel.ISupportInitialize)(this.grdArticle)).EndInit();
@@ -315,8 +361,10 @@ namespace FrontBurner.Ministry.MseBuilder
       this.tableLayoutPanel1.PerformLayout();
       this._tspMain.ResumeLayout(false);
       this._tspMain.PerformLayout();
-      ((System.ComponentModel.ISupportInitialize)(this.mseData)).EndInit();
-      ((System.ComponentModel.ISupportInitialize)(this._bdsBugs)).EndInit();
+      this.tabResults.ResumeLayout(false);
+      this.tabArticles.ResumeLayout(false);
+      this.tabBuildErrors.ResumeLayout(false);
+      ((System.ComponentModel.ISupportInitialize)(this.grdError)).EndInit();
       this.ResumeLayout(false);
 
     }
@@ -336,14 +384,17 @@ namespace FrontBurner.Ministry.MseBuilder
     private System.Windows.Forms.ToolStripButton _tsbBuild;
     private System.Windows.Forms.ToolStripButton _tsbZip;
     private System.Windows.Forms.ToolStripButton _tsbVersionHistory;
-    private MseData mseData;
+    //private MseData mseData;
     private System.Windows.Forms.ToolStripButton _tsbBible;
     private System.Windows.Forms.BindingSource _bdsBugs;
-    private FrontBurner.Ministry.MseBuilder.Data.MseDataTableAdapters.CompletedBugsTableAdapter _bugsTableAdapter;
     private System.Windows.Forms.ToolStripButton _tsbCreateEpub;
     private System.Windows.Forms.ToolStripButton _tsbEpubHymn;
     private System.Windows.Forms.ToolStripButton _tsbCreateEpubScripture;
     private System.Windows.Forms.ToolStripButton _tsbCreateCollections;
+    private System.Windows.Forms.TabControl tabResults;
+    private System.Windows.Forms.TabPage tabArticles;
+    private System.Windows.Forms.TabPage tabBuildErrors;
+    private System.Windows.Forms.DataGridView grdError;
   }
 }
 

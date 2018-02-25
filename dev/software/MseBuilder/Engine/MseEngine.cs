@@ -27,6 +27,7 @@
  * CAM  28-Dec-2011  gc005 : Removed redundant code.
  * CAM  31-Dec-2015  886930 : Added CreateEpubScriptureFiles.
  * CAM  22-Feb-2018  732482 : Added CreateEpubCollectionFiles and tidied TOC entries for Scripture Files.
+ * CAM  25-Feb-2018  790063 : Used correct namespace for Data.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -43,6 +44,7 @@ using ICSharpCode.SharpZipLib.Core;
 using ICSharpCode.SharpZipLib.GZip;
 
 using FrontBurner.Ministry.MseBuilder.Abstract;
+using FrontBurner.Ministry.MseBuilder.Data;
 
 using FrontBurner.Ministry.MseBuilder.Reader.Epub;
 using FrontBurner.Ministry.MseBuilder.Reader.Epub.Article;
