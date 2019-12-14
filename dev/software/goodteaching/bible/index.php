@@ -20,9 +20,6 @@ $pageName = "pageBible";
 $pageCss = "bible.css";
 include $root.'tpl/top.php';
 
-$searchType = NULL;     if (!empty($_POST['search_bible_type'])) $searchType = $_POST['search_bible_type'];
-$searchContext = NULL;  if (!empty($_POST['search_bible_context'])) $searchContext = $_POST['search_bible_context'];
-$searchVersion = NULL;  if (!empty($_POST['search_bible_version'])) $searchVersion = $_POST['search_bible_version'];
 $keywords = NULL;       if (!empty($_POST['keywords'])) $keywords = $_POST['keywords'];
 
 $keywords = trim(str_replace("\'", " ", $keywords));
@@ -66,29 +63,16 @@ function remove_mselinks($text) {
 
   <form action="index.php" method="post" name="searchForm" target="_top" id="searchForm">
   <table border=0 cellpadding=3 cellpadding=0>
-  <tr>
-    <td><div id=searchType><ul>
-    <li><input <?php if ($searchVersion == "DARBY" || empty($searchVersion)) echo "CHECKED"; ?> type=radio id=sv_darby name=search_bible_version value="DARBY"><label for="sv_darby">J.N.Darby</label></li>
-    <li><input <?php if ($searchVersion == "KJV") echo "CHECKED"; ?> type=radio disabled id=sv_kjv name=search_bible_version value="KJV"><label for="sv_kjv">King James (Authorised)</label></li>
-    <li><input <?php if ($searchVersion == "BOTH") echo "CHECKED"; ?> type=radio disabled id=sv_both name=search_bible_version value="BOTH"><label for="sv_both">Both</label></li>
-    </ul></div></td>
-  </tr>
-
-  <tr>
-    <td><div id=searchType><ul>
-    <li><input <?php if ($searchType == "KEYWORDS" || empty($searchType)) echo "CHECKED"; ?> type=radio id=st_keywords name=search_bible_type value="KEYWORDS"><label for="st_keywords">Keywords</label></li>
-    <li><input <?php if ($searchType == "SCRIPTURE") echo "CHECKED"; ?> type=radio disabled id=st_scripture name=search_bible_type value="SCRIPTURE"><label for="st_scripture">Scripture</label></li>
-    </ul></div></td>
-  </tr>
+		<tr>
+			<td colspan=2 class="fld">Search Darby Translation Footnotes</td>
+		</tr>
+		<tr>
+			<td colspan=2>(if you would like to search the Bible text, please use <a href="https://www.biblegateway.com/quicksearch/?qs_version=DARBY">BibleGateway</a> or <a href="https://www.olivetree.com/bible-study-apps/">Olive Tree</a>)</td>
+		</tr>
 
     <tr>
       <td><input <? fieldFocus(); ?> type="text" name="keywords" size="50" class="inputbox" value="<?php echo $keywords;?>" /></td>
-    <td><div id=searchType><ul>
-    <li><input <?php if ($searchContext == "FOOTNOTES" || empty($searchContext)) echo "CHECKED"; ?> type=radio id=sc_footnotes name=search_bible_context value="FOOTNOTES"><label for="sc_footnotes">Footnotes</label></li>
-    <li><input <?php if ($searchContext == "TEXT") echo "CHECKED"; ?> type=radio disabled id=sc_text name=search_bible_context value="TEXT"><label for="sc_text">Bible text</label></li>
-    <li><input <?php if ($searchContext == "BOTH") echo "CHECKED"; ?> type=radio disabled id=sc_both name=search_bible_context value="BOTH"><label for="sc_both">Both</label></li>
-    </ul></div></td>
-      <td><input type="submit" name="hymn_search" value="Search" class="button" /></td>
+      <td align="left"><input type="submit" name="hymn_search" value="Search" class="button" /></td>
     </tr>
   </table>
   <input type="hidden" name="op" value="search" />

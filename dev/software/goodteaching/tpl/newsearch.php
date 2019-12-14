@@ -15,7 +15,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * */
 ?>
 
-<table border=0 cellpadding=10 cellspacing=0>
+<table border=0 cellpadding=10 cellspacing=0 width="100%">
 <tr><td align=left colspan=2>
 <?
   $q = "What would you like to do";
@@ -29,7 +29,7 @@
 ?></td></tr>
 <tr>
   <td align="right"><? echo ActionUtil::linkButton('keyword.php', 'Search by Keyword', 'keywordbutton', 'keywordbuttonhover');?></td>
-  <td class="toolTip">Interested in ministry relating to one or more specific words?</td>
+  <td class="toolTip" width="100%">Interested in ministry relating to one or more specific words?</td>
 </tr><tr>
   <td align="right" valign=middle><? echo ActionUtil::linkButton('scripture.php', 'Search by Scripture Reference', 'scripturebutton', 'scripturebuttonhover');?></td>
   <td class="toolTip">Looking for ministry on a particular passage of Scripture?</td>
@@ -58,4 +58,35 @@
   	<a href="http://goodteaching.org/ebook">http://goodteaching.org/ebook</a>
   </td>
 </tr>
+<tr>
+  <td colspan=2><table border=1 cellpadding=10 cellspacing=0 width="100%">
+    <tr>
+      <th>Task \ Device</th>
+      <th width="120">PC</th>
+      <th width="120">Mac</th>
+      <th width="120">iOS (iPhone/iPad)</th>
+      <th width="120">Android</th>
+      <th width="120">Kindle</th>
+    </tr>
+    <tr>
+      <td>Reading/Searching the Bible</td>
+      <td colspan="4" align="center">Relevant <a href="https://www.olivetree.com/bible-study-apps/">Olive Tree</a> app</td>
+      <td align="center"><a href="ebook/">JND eBook</a></td>
+    </tr>
+    <tr>
+      <td>Reading the Ministry - <a href="ebook/">eBooks</a></td>
+      <td colspan="2" align="center"><a href="https://calibre-ebook.com/download">Calibre</a> or
+        <a href="https://itunes.apple.com/gb/app/ibooks/id364709193?mt=8">iBooks</a></td>
+      <td align="center"><a href="https://itunes.apple.com/gb/app/ibooks/id364709193?mt=8">iBooks</a></td>
+      <td align="center"><a href="https://play.google.com/store/apps/details?id=com.aldiko.android">Aldiko</a></td>
+      <td rowspan="2" align="center"><a href="ebook/">eBooks</a></td>
+    </tr>
+		<tr>
+      <td>Searching the Ministry</td>
+      <td colspan="2" align="center"><a href="http://mse.0mpurdy.com/">Ministry Search Engine</a></td>
+      <td align="center"><a href="http://goodteaching.org">GoodTeaching.org</a></td>
+      <td align="center"><a href="https://play.google.com/store/apps/details?id=mse.mse_android&hl=en">MSE</a> (Google Play)</td>
+    </tr>
+  </table></td>
+</td>
 </table>
