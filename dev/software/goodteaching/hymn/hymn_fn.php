@@ -13,7 +13,7 @@
  * CAM  30-Dec-2009  10520 : Add focus formatting for dropdowns.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-function select_meters($meter_id) {
+function select_meters($meter_id, $language) {
 ?><select <? dropdownFocus(); ?> name="meter_id" id="meter_id" class="dropdown">
       <option value="ALL">All Meters</option>
 <?
@@ -206,15 +206,17 @@ function author_search($authorList, $searchType) {
 function show_hymn($hymn, $language) {
   global $database;
   $verseCount = 0;
+  $meterId = 0;
 
   if ($hymn < 0 || $hymn > 456) {
     echo "<h1 class=error>Please enter a Hymn from 1 to 456.</h1>";
     return;
   }
 ?>
+  <table border=0 cellspacing=0 cellpadding=0 width="100%"><tr><td align=left valign=top>
   <table border=0 cellspacing=0 cellpadding=2><tr><td class=hymn><? echo $hymn; ?></td>
 <?
-  $hymnSql = "SELECT m.meter, m.rhythm, m.chorus ".
+  $hymnSql = "SELECT m.meter, m.rhythm, m.chorus, h.meter_id ".
              "FROM hymn$language h, hymn_meter m ".
              "WHERE h.meter_id=m.id ".
              "AND hymn_no=$hymn";
@@ -226,6 +228,7 @@ function show_hymn($hymn, $language) {
     if (!empty($row[1])) $metdesc .= "&nbsp;<i>" . $row[1] ."</i>";
     if (!empty($row[2])) $metdesc .= "<br>Chorus ". $row[2];
   }
+  $meterId = $row[3];
 
   echo "<td class=\"meter\">$metdesc</td></tr>";
 
@@ -268,8 +271,24 @@ function show_hymn($hymn, $language) {
   $res = mysql_query($hymnSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
   if ($row = mysql_fetch_row($res)) {
     echo "<tr><td colspan=2 class=author><a href=\"javascript:void();\" onclick=\"view_author('" . $row[0] . "');\">" . $row[0] . "</a></td></tr>\n";
-    echo "</table>\n";
   }
-}
+?>
+  </table></td><td align=right valign="top">
+    <table border=0 cellspacing=0 cellpadding=0>
+    <tr><td align=center><b><i style="color:eecc33">*NEW*</i> Listen to Tunes</b></td></tr><tr><td><ul>
+<?
+  $tuneSql = "SELECT tune_name, tune_url FROM hymn_tune WHERE meter_id=" . $meterId . " ORDER BY tune_name";
+  $res = mysql_query($tuneSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
+  while ($row = mysql_fetch_row($res)) {
+    echo "<li><a href='" . $row[1] .
+      "' onclick=\"window.open('" . $row[1] . "','GoodTeachingTune','width=500,height=150');return false;\">" .
+      $row[0] . "</a></li>\n";
+  }
+?>
 
+    </ul></td></tr>
+    </table>
+  </td></tr></table>
+<?
+}
 ?>

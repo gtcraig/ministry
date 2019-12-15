@@ -29,6 +29,7 @@ $author = NULL;      if (!empty($_POST['author'])) $author = $_POST['author'];
 $meter_id = NULL;    if (!empty($_POST['meter_id'])) $meter_id = $_POST['meter_id'];
 $category_id = NULL; if (!empty($_POST['category_id'])) $category_id = $_POST['category_id'];
 $language = NULL;    if (!empty($_POST['language'])) $language = $_POST['language'];
+$sitename = NULL;    if (!empty($_POST['sitename'])) $sitename = $_POST['sitename'];
 
 
 ?>
@@ -57,7 +58,7 @@ $language = NULL;    if (!empty($_POST['language'])) $language = $_POST['languag
 
       <td><? select_categories($category_id); ?></td>
 
-      <td><? select_meters($meter_id); ?></td>
+      <td><? select_meters($meter_id, $language); ?></td>
       <td align=right>
         <input type="submit" name="hymn_search" value="Search" class="button" />
         <!--<a href="index.php?option=com_content&task=view&id=34&Itemid=2">Need help?</a>-->
