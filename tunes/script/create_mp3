@@ -1,0 +1,2 @@
+for f in *.mid; do timidity $f -T 110 -Ow -o - | lame - $f.mp3; done
+
