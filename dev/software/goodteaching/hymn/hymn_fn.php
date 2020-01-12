@@ -277,11 +277,11 @@ function show_hymn($hymn, $language) {
     <table border=0 cellspacing=0 cellpadding=0>
     <tr><td align=center><b><i style="color:eecc33">*NEW*</i> Listen to Tunes</b></td></tr><tr><td><ul>
 <?
-  $tuneSql = "SELECT tune_name, tune_url, tune_id FROM hymn_tune WHERE meter_id=" . $meterId . " ORDER BY tune_name";
+  $tuneSql = "SELECT tune_name, tune_url FROM hymn_tune WHERE meter_id=" . $meterId . " ORDER BY tune_name";
   $res = mysql_query($tuneSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
   while ($row = mysql_fetch_row($res)) {
-    echo "<li><a href='hymn_player.php?tune_id=" . $row[2] .
-      "' onclick=\"window.open('hymn_player.php?tune_id=" . $row[2] . "','GoodTeachingTune','width=520,height=200');return false;\">" .
+    echo "<li><a href='" . $row[1] .
+      "' onclick=\"window.open('" . $row[1] . "','GoodTeachingTune','width=500,height=150');return false;\">" .
       $row[0] . "</a></li>\n";
   }
 ?>
