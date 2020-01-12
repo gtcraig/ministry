@@ -25,7 +25,7 @@
 -- Dumping data for table member
 --
 
-INSERT INTO member VALUES ('CRAIG', 'Craig', 'McKay', 'craig@southesk.com', '0954bfb4e59e3d85ff989944a65f6955', 1, 'A', '0', 1, '1975-09-13', '0000-00-00 00:00:00', '2007-08-11 16:23:56');
+INSERT INTO `member` VALUES ('CRAIG', 'Craig', 'McKay', 'craig@southesk.com', '0954bfb4e59e3d85ff989944a65f6955', 1, 'A', '0', 1, '1975-09-13', '2006-01-01 00:00:00', '2007-08-11 16:23:56');
 
 --
 -- Dumping data for table member_type
