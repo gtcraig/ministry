@@ -15,6 +15,8 @@
 -- CAM  15-Dec-2019  410113 : Added hymn_tune.
 -- --------------------------------------------------------
 
+USE goodteaching_org_min;
+
 --
 -- To recreate this file, dump data for ALL tables with structure, no data:
 --
