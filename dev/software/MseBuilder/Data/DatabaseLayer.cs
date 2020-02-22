@@ -29,6 +29,7 @@
  * CAM  31-Dec-2015  886930 : Added methods to return Articles and Text by Scripture.
  * CAM  22-Feb-2018  732482 : Added Collection summary and detail queries.
  * CAM  25-Feb-2018  790063 : Used correct namespace for Data and replaced MseData.xsd with an explicit query.
+ * CAM  22-Feb-2020  737453 : Separated commands into individual variables to ensure correct access.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -60,7 +61,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
     protected MySqlCommand _cmdVersions;
     protected MySqlCommand _cmdBooks;
     protected MySqlCommand _cmdArticles;
-    protected MySqlCommand _cmdText;
+    protected MySqlCommand _cmdTextAuth;
+    protected MySqlCommand _cmdTextScrip;
+    protected MySqlCommand _cmdTextColl;
     protected MySqlCommand _cmdBibleRef;
     protected MySqlCommand _cmdRelArticles;
 
@@ -111,7 +114,8 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       string MyConString = "Data Source=" + DataSource +
           ";Database=" + Database +
           ";User ID=" + UserID +
-          ";Password=" + Password;
+          ";Password=" + Password +
+          ";CharSet=latin1";
 
       lock (_semaphore)
       {
@@ -538,7 +542,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
 
     public DataTable GetText(Volume vol)
     {
-      if (_cmdText == null)
+      if (_cmdTextAuth == null)
       {
         string sql =
           "SELECT page,para,article_page,text,inits,newpages " +
@@ -547,25 +551,25 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "AND vol = ?vol " +
           "ORDER BY page,para";
 
-        _cmdText = new MySqlCommand(sql, Connection);
-        _cmdText.Prepare();
+        _cmdTextAuth = new MySqlCommand(sql, Connection);
+        _cmdTextAuth.Prepare();
 
-        _cmdText.Parameters.Add("?author", MySqlDbType.String);
-        _cmdText.Parameters.Add("?vol", MySqlDbType.Int32);
+        _cmdTextAuth.Parameters.Add("?author", MySqlDbType.String);
+        _cmdTextAuth.Parameters.Add("?vol", MySqlDbType.Int32);
       }
 
-      _cmdText.Parameters["?author"].Value = vol.Author.Inits;
-      _cmdText.Parameters["?vol"].Value = vol.Vol;
+      _cmdTextAuth.Parameters["?author"].Value = vol.Author.Inits;
+      _cmdTextAuth.Parameters["?vol"].Value = vol.Vol;
 
       DataTable dt = new DataTable("mse_text");
-      MySqlDataAdapter da = new MySqlDataAdapter(_cmdText);
+      MySqlDataAdapter da = new MySqlDataAdapter(_cmdTextAuth);
       da.Fill(dt);
       return dt;
     }
 
     public DataTable GetScriptureText(Volume vol)
     {
-      if (_cmdText == null)
+      if (_cmdTextScrip == null)
       {
         string sql =
           "select a.bookid, a.bookname, a.chapter, a.author, a.vol, a.article_page, " +
@@ -589,23 +593,23 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "and t.vol = a.vol " +
           "and t.article_page = a.article_page " +
           "order by bookid, chapter, t.author, t.vol, t.page, t.para";
-        _cmdText = new MySqlCommand(sql, Connection);
-        _cmdText.Prepare();
+        _cmdTextScrip = new MySqlCommand(sql, Connection);
+        _cmdTextScrip.Prepare();
 
-        _cmdText.Parameters.Add("?bookid", MySqlDbType.Int32);
+        _cmdTextScrip.Parameters.Add("?bookid", MySqlDbType.Int32);
       }
 
-      _cmdText.Parameters["?bookid"].Value = vol.Vol;
+      _cmdTextScrip.Parameters["?bookid"].Value = vol.Vol;
 
       DataTable dt = new DataTable("mse_text");
-      MySqlDataAdapter da = new MySqlDataAdapter(_cmdText);
+      MySqlDataAdapter da = new MySqlDataAdapter(_cmdTextScrip);
       da.Fill(dt);
       return dt;
     }
 
     public DataTable GetCollectionText(Volume vol)
     {
-      if (_cmdText == null)
+      if (_cmdTextColl == null)
       {
         string sql =
           "select c.collectionid bookid, c.collectionname bookname, ca.articleno, a.author, a.vol, a.page article_page, " +
@@ -616,16 +620,17 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "inner join mse_text t on t.author=a.author and t.vol=a.vol and t.article_page=a.page " +
           "where c.collectionid = ?collectionid " +
           "order by c.collectionid, ca.articleno, t.author, t.vol, t.page, t.para ";
-        _cmdText = new MySqlCommand(sql, Connection);
-        _cmdText.Prepare();
+        _cmdTextColl = new MySqlCommand(sql, Connection);
+        _cmdTextColl.Prepare();
 
-        _cmdText.Parameters.Add("?collectionid", MySqlDbType.Int32);
+        _cmdTextColl.Parameters.Add("?collectionid", MySqlDbType.Int32);
       }
 
-      _cmdText.Parameters["?collectionid"].Value = vol.Vol;
+      _cmdTextColl.Parameters["?collectionid"].Value = vol.Vol;
 
       DataTable dt = new DataTable("mse_text");
-      MySqlDataAdapter da = new MySqlDataAdapter(_cmdText);
+      _cmdTextColl.Connection = Connection;
+      MySqlDataAdapter da = new MySqlDataAdapter(_cmdTextColl);
       da.Fill(dt);
       return dt;
     }
