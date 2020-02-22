@@ -48,6 +48,7 @@ namespace FrontBurner.Ministry.MseBuilder
     private void InitializeComponent()
     {
       this.components = new System.ComponentModel.Container();
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MseBuilder));
       this.cmbAuthor = new System.Windows.Forms.ComboBox();
       this.label1 = new System.Windows.Forms.Label();
       this.label2 = new System.Windows.Forms.Label();
@@ -57,6 +58,10 @@ namespace FrontBurner.Ministry.MseBuilder
       this.tmrRefresh = new System.Windows.Forms.Timer(this.components);
       this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
       this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+      this.tabResults = new System.Windows.Forms.TabControl();
+      this.tabArticles = new System.Windows.Forms.TabPage();
+      this.tabBuildErrors = new System.Windows.Forms.TabPage();
+      this.grdError = new System.Windows.Forms.DataGridView();
       this._tspMain = new System.Windows.Forms.ToolStrip();
       this._tsbBuild = new System.Windows.Forms.ToolStripButton();
       this._tsbZip = new System.Windows.Forms.ToolStripButton();
@@ -66,20 +71,16 @@ namespace FrontBurner.Ministry.MseBuilder
       this._tsbCreateCollections = new System.Windows.Forms.ToolStripButton();
       this._tsbCreateEpubScripture = new System.Windows.Forms.ToolStripButton();
       this._tsbEpubHymn = new System.Windows.Forms.ToolStripButton();
-      this.tabResults = new System.Windows.Forms.TabControl();
-      this.tabArticles = new System.Windows.Forms.TabPage();
-      this.tabBuildErrors = new System.Windows.Forms.TabPage();
-      this.grdError = new System.Windows.Forms.DataGridView();
       ((System.ComponentModel.ISupportInitialize)(this.grdArticle)).BeginInit();
       this.toolStripContainer1.ContentPanel.SuspendLayout();
       this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
       this.toolStripContainer1.SuspendLayout();
       this.tableLayoutPanel1.SuspendLayout();
-      this._tspMain.SuspendLayout();
       this.tabResults.SuspendLayout();
       this.tabArticles.SuspendLayout();
       this.tabBuildErrors.SuspendLayout();
       ((System.ComponentModel.ISupportInitialize)(this.grdError)).BeginInit();
+      this._tspMain.SuspendLayout();
       this.SuspendLayout();
       // 
       // cmbAuthor
@@ -193,6 +194,53 @@ namespace FrontBurner.Ministry.MseBuilder
       this.tableLayoutPanel1.Size = new System.Drawing.Size(1951, 1139);
       this.tableLayoutPanel1.TabIndex = 0;
       // 
+      // tabResults
+      // 
+      this.tableLayoutPanel1.SetColumnSpan(this.tabResults, 3);
+      this.tabResults.Controls.Add(this.tabArticles);
+      this.tabResults.Controls.Add(this.tabBuildErrors);
+      this.tabResults.Dock = System.Windows.Forms.DockStyle.Fill;
+      this.tabResults.Location = new System.Drawing.Point(3, 177);
+      this.tabResults.Name = "tabResults";
+      this.tabResults.SelectedIndex = 0;
+      this.tabResults.Size = new System.Drawing.Size(1945, 959);
+      this.tabResults.TabIndex = 7;
+      // 
+      // tabArticles
+      // 
+      this.tabArticles.Controls.Add(this.grdArticle);
+      this.tabArticles.Location = new System.Drawing.Point(8, 39);
+      this.tabArticles.Name = "tabArticles";
+      this.tabArticles.Padding = new System.Windows.Forms.Padding(3);
+      this.tabArticles.Size = new System.Drawing.Size(1929, 912);
+      this.tabArticles.TabIndex = 0;
+      this.tabArticles.Text = "Articles";
+      this.tabArticles.UseVisualStyleBackColor = true;
+      // 
+      // tabBuildErrors
+      // 
+      this.tabBuildErrors.Controls.Add(this.grdError);
+      this.tabBuildErrors.Location = new System.Drawing.Point(8, 39);
+      this.tabBuildErrors.Name = "tabBuildErrors";
+      this.tabBuildErrors.Padding = new System.Windows.Forms.Padding(3);
+      this.tabBuildErrors.Size = new System.Drawing.Size(1929, 912);
+      this.tabBuildErrors.TabIndex = 1;
+      this.tabBuildErrors.Text = "Build Errors";
+      this.tabBuildErrors.UseVisualStyleBackColor = true;
+      // 
+      // grdError
+      // 
+      this.grdError.AllowUserToAddRows = false;
+      this.grdError.AllowUserToDeleteRows = false;
+      this.grdError.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+      this.grdError.Dock = System.Windows.Forms.DockStyle.Fill;
+      this.grdError.Location = new System.Drawing.Point(3, 3);
+      this.grdError.Margin = new System.Windows.Forms.Padding(6);
+      this.grdError.Name = "grdError";
+      this.grdError.ReadOnly = true;
+      this.grdError.Size = new System.Drawing.Size(1923, 906);
+      this.grdError.TabIndex = 1;
+      // 
       // _tspMain
       // 
       this._tspMain.Dock = System.Windows.Forms.DockStyle.None;
@@ -293,59 +341,13 @@ namespace FrontBurner.Ministry.MseBuilder
       this._tsbEpubHymn.Text = "Hymnbooks";
       this._tsbEpubHymn.Click += new System.EventHandler(this.CreateEpubHymnFiles);
       // 
-      // tabResults
-      // 
-      this.tableLayoutPanel1.SetColumnSpan(this.tabResults, 3);
-      this.tabResults.Controls.Add(this.tabArticles);
-      this.tabResults.Controls.Add(this.tabBuildErrors);
-      this.tabResults.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.tabResults.Location = new System.Drawing.Point(3, 177);
-      this.tabResults.Name = "tabResults";
-      this.tabResults.SelectedIndex = 0;
-      this.tabResults.Size = new System.Drawing.Size(1945, 959);
-      this.tabResults.TabIndex = 7;
-      // 
-      // tabArticles
-      // 
-      this.tabArticles.Controls.Add(this.grdArticle);
-      this.tabArticles.Location = new System.Drawing.Point(8, 39);
-      this.tabArticles.Name = "tabArticles";
-      this.tabArticles.Padding = new System.Windows.Forms.Padding(3);
-      this.tabArticles.Size = new System.Drawing.Size(1929, 912);
-      this.tabArticles.TabIndex = 0;
-      this.tabArticles.Text = "Articles";
-      this.tabArticles.UseVisualStyleBackColor = true;
-      // 
-      // tabBuildErrors
-      // 
-      this.tabBuildErrors.Controls.Add(this.grdError);
-      this.tabBuildErrors.Location = new System.Drawing.Point(8, 39);
-      this.tabBuildErrors.Name = "tabBuildErrors";
-      this.tabBuildErrors.Padding = new System.Windows.Forms.Padding(3);
-      this.tabBuildErrors.Size = new System.Drawing.Size(1929, 912);
-      this.tabBuildErrors.TabIndex = 1;
-      this.tabBuildErrors.Text = "Build Errors";
-      this.tabBuildErrors.UseVisualStyleBackColor = true;
-      // 
-      // grdError
-      // 
-      this.grdError.AllowUserToAddRows = false;
-      this.grdError.AllowUserToDeleteRows = false;
-      this.grdError.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-      this.grdError.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.grdError.Location = new System.Drawing.Point(3, 3);
-      this.grdError.Margin = new System.Windows.Forms.Padding(6);
-      this.grdError.Name = "grdError";
-      this.grdError.ReadOnly = true;
-      this.grdError.Size = new System.Drawing.Size(1923, 906);
-      this.grdError.TabIndex = 1;
-      // 
       // MseBuilder
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(1951, 1194);
       this.Controls.Add(this.toolStripContainer1);
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Margin = new System.Windows.Forms.Padding(6);
       this.Name = "MseBuilder";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -359,12 +361,12 @@ namespace FrontBurner.Ministry.MseBuilder
       this.toolStripContainer1.PerformLayout();
       this.tableLayoutPanel1.ResumeLayout(false);
       this.tableLayoutPanel1.PerformLayout();
-      this._tspMain.ResumeLayout(false);
-      this._tspMain.PerformLayout();
       this.tabResults.ResumeLayout(false);
       this.tabArticles.ResumeLayout(false);
       this.tabBuildErrors.ResumeLayout(false);
       ((System.ComponentModel.ISupportInitialize)(this.grdError)).EndInit();
+      this._tspMain.ResumeLayout(false);
+      this._tspMain.PerformLayout();
       this.ResumeLayout(false);
 
     }
