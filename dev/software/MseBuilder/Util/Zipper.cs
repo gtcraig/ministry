@@ -9,6 +9,7 @@
  * CAM  21-Jan-2010  10544 : File created.
  * CAM  11-Feb-2010  10560 : Moved to using zip.exe as something is wrong with the way we are building zipfiles using SharpZipLib.
  * CAM  25-Feb-2018  790063 : Removed all refs to SharpZipLib as per above.
+ * CAM  22-Feb-2020  737453 : Improved logging and launching of external program.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -62,9 +63,11 @@ namespace FrontBurner.Ministry.MseBuilder.Util
 
       zip.StartInfo.FileName = "zip.exe";
       zip.StartInfo.Arguments = String.Format("-9 -r \"{0}\" {1}", zipfile.FullName, GenerateFlatFileList(sourceFolder));
+      zip.StartInfo.UseShellExecute = false;
+      zip.StartInfo.CreateNoWindow = true;
       zip.StartInfo.WorkingDirectory = sourceFolder.FullName;
       zip.Start();
-      zip.StartInfo.WindowStyle = ProcessWindowStyle.Minimized;
+
       zip.WaitForExit();
     }
 
