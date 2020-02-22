@@ -12,6 +12,7 @@
  * CAM  20-May-2013  516699 : Ensure that '* is converted to '<i>.
  * CAM  31-Dec-2015  886930 : Removed ancient SonyEpub references - no longer required.
  * CAM  22-Feb-2018  732482 : Handle other apostrophe symbol.
+ * CAM  22-Feb-2020  737453 : Handled more exceptions to closing italics.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -34,13 +35,20 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
         #region Italics
         if (rval.StartsWith("*")) rval = "<i>" + rval.Substring(1);   // Italics beginning at the start of a line
 
+        // A few initial exceptions - closing italics
+        rval = rval.Replace("\"*.", "\"</i>.");
+        rval = rval.Replace("\"*,", "\"</i>,");
+        rval = rval.Replace("\"*;", "\"</i>;");
+
+        // Now opening italics
         rval = rval.Replace(" *", " <i>");
         rval = rval.Replace("\"*", "\"<i>");
         rval = rval.Replace("'*", "'<i>");
         rval = rval.Replace("[*", "[<i>");
         rval = rval.Replace("(*", "(<i>");
 
-        rval = rval.Replace("*", "</i>"); // All others, assume closing
+        // Finally, all others - assume closing
+        rval = rval.Replace("*", "</i>");
         #endregion
 
         rval = rval.Replace("~", "&rsquo;"); // Apostrophes
