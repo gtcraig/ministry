@@ -41,6 +41,7 @@ INSERT INTO mse_author VALUES ('JBS', 'J. B. Stoney', 'James Butler Stoney', 'St
 INSERT INTO mse_author VALUES ('JND', 'J. N. Darby', 'John Nelson Darby', 'Darby, John');
 INSERT INTO mse_author VALUES ('JT', 'J. Taylor, Snr', 'James Taylor, Snr', 'Taylor, James, Snr');
 INSERT INTO mse_author VALUES ('VAR', 'Various', 'Various', 'Various');
+INSERT INTO mse_author VALUES ('WJ', 'W. Johnson', 'William Johnson', 'Johnson, William ');
 
 
 --
@@ -365,3 +366,6 @@ INSERT INTO mse_volume VALUES ('JND', 49, 'Misc What the World is and how a Chri
 INSERT INTO mse_volume VALUES ('JND', 50, 'Letters V01', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd50.txt');
 INSERT INTO mse_volume VALUES ('JND', 51, 'Letters V02', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd51.txt');
 INSERT INTO mse_volume VALUES ('JND', 52, 'Letters V03', '2010-01-23 08:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\jnd\\\\jnd52.txt');
+
+INSERT INTO mse_volume VALUES ('WJ', 1, 'Addresses and Other Ministry', '2020-04-01 18:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wj\\\\wj1.txt');
+
