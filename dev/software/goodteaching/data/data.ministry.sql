@@ -369,3 +369,27 @@ INSERT INTO mse_volume VALUES ('JND', 52, 'Letters V03', '2010-01-23 08:30:00', 
 
 INSERT INTO mse_volume VALUES ('WJ', 1, 'Addresses and Other Ministry', '2020-04-01 18:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wj\\\\wj1.txt');
 
+INSERT INTO mse_volume VALUES ('WJH', 1, 'The Temple of God', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh1.txt');
+INSERT INTO mse_volume VALUES ('WJH', 2, 'From Day to Day', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh2.txt');
+INSERT INTO mse_volume VALUES ('WJH', 3, 'Walls', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh3.txt');
+INSERT INTO mse_volume VALUES ('WJH', 4, 'Our End', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh4.txt');
+INSERT INTO mse_volume VALUES ('WJH', 5, 'Eden: The Garden of God', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh5.txt');
+INSERT INTO mse_volume VALUES ('WJH', 6, 'Purity', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh6.txt');
+INSERT INTO mse_volume VALUES ('WJH', 7, 'What God Has Joined Together', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh7.txt');
+INSERT INTO mse_volume VALUES ('WJH', 8, 'God\'s Name', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh8.txt');
+INSERT INTO mse_volume VALUES ('WJH', 9, 'God\'s Thoughts for the Assembly', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh9.txt');
+INSERT INTO mse_volume VALUES ('WJH', 10, 'Distinctive Glories of Christ and Other Ministry', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh10.txt');
+INSERT INTO mse_volume VALUES ('WJH', 11, 'The Spirit of Reverence', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh11.txt');
+INSERT INTO mse_volume VALUES ('WJH', 12, 'The Great King and Other Addresses', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh12.txt');
+INSERT INTO mse_volume VALUES ('WJH', 13, 'The Wisdom of Solomon', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh13.txt');
+INSERT INTO mse_volume VALUES ('WJH', 14, 'Our Closing Days and Other Addresses', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh14.txt');
+INSERT INTO mse_volume VALUES ('WJH', 15, 'Two Worlds', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh15.txt');
+INSERT INTO mse_volume VALUES ('WJH', 16, 'The Dew', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh16.txt');
+INSERT INTO mse_volume VALUES ('WJH', 17, 'God\'s Dwelling', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh17.txt');
+INSERT INTO mse_volume VALUES ('WJH', 18, 'Lovers of Christ', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh18.txt');
+INSERT INTO mse_volume VALUES ('WJH', 19, 'Two Kings', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh19.txt');
+INSERT INTO mse_volume VALUES ('WJH', 20, 'The Person of Christ', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh20.txt');
+INSERT INTO mse_volume VALUES ('WJH', 21, 'God’s Glorious End', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh21.txt');
+INSERT INTO mse_volume VALUES ('WJH', 22, 'Spend and Be Spent', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh22.txt');
+INSERT INTO mse_volume VALUES ('WJH', 23, 'Christ the Centre', '2020-04-08 22:30:00', 'C:\\\\Dev\\\\ministry\\\\dev\\\\text\\\\ministry\\\\wjh\\\\wjh23.txt');
+
