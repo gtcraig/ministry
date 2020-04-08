@@ -42,6 +42,7 @@ INSERT INTO mse_author VALUES ('JND', 'J. N. Darby', 'John Nelson Darby', 'Darby
 INSERT INTO mse_author VALUES ('JT', 'J. Taylor, Snr', 'James Taylor, Snr', 'Taylor, James, Snr');
 INSERT INTO mse_author VALUES ('VAR', 'Various', 'Various', 'Various');
 INSERT INTO mse_author VALUES ('WJ', 'W. Johnson', 'William Johnson', 'Johnson, William ');
+INSERT INTO mse_author VALUES ('WJH', 'W. J. House', 'W. J. House', 'House, W. J.');
 
 
 --
