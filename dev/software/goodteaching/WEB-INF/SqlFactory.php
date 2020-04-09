@@ -83,6 +83,10 @@ class SqlFactory {
     return (!empty($this->searchText));
   }
 
+  function isPrimary() {
+    return $this->primary;
+  }
+
   function isAuthorFilter() {
     return (count($this->authors) > 0);
   }
@@ -179,7 +183,6 @@ class SqlFactory {
         $sql .= "LIMIT ". (($this->pageNo-1)*$this->maxRows) . "," . $this->maxRows . "\n";
       }
     }
-
     return $sql;
   }
 

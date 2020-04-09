@@ -105,8 +105,8 @@ function f_highlight_text($text, &$sqlFactory, $abbrev=false) {
     // Find any matching Scripture refs
     // TODO 10212
   }
-
-  if ($abbrev) {
+  
+  if ($abbrev && !$sqlFactory->isPrimary()) {
     if ($start > 0) $start = beginning_of_sentence($rval, $start);
     $rval = substr($rval, $start, strlen($rval));
     $rval = trim(substr($rval, 0, neat_ending($rval, 140)));
