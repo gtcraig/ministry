@@ -33,17 +33,19 @@
 --
 -- Dumping data for table mse_author
 --
-
-INSERT INTO mse_author VALUES ('CAC', 'C. A. Coates', 'Charles Andrew Coates', 'Coates, Charles');
-INSERT INTO mse_author VALUES ('FER', 'F. E. Raven', 'Frederick Edward Raven', 'Raven, Frederick');
-INSERT INTO mse_author VALUES ('GRC', 'G. R. Cowell', 'Gerald Robert Cowell', 'Cowell, Gerald ');
-INSERT INTO mse_author VALUES ('JBS', 'J. B. Stoney', 'James Butler Stoney', 'Stoney, James');
-INSERT INTO mse_author VALUES ('JND', 'J. N. Darby', 'John Nelson Darby', 'Darby, John');
-INSERT INTO mse_author VALUES ('JT', 'J. Taylor, Snr', 'James Taylor, Snr', 'Taylor, James, Snr');
-INSERT INTO mse_author VALUES ('VAR', 'Various', 'Various', 'Various');
-INSERT INTO mse_author VALUES ('WJ', 'W. Johnson', 'William Johnson', 'Johnson, William ');
-INSERT INTO mse_author VALUES ('WJH', 'W. J. House', 'W. J. House', 'House, W. J.');
-
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('CAC', 'C. A. Coates', 'Charles Andrew Coates', 'Coates, Charles');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('FER', 'F. E. Raven', 'Frederick Edward Raven', 'Raven, Frederick');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('GRC', 'G. R. Cowell', 'Gerald Robert Cowell', 'Cowell, Gerald ');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('JBS', 'J. B. Stoney', 'James Butler Stoney', 'Stoney, James');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('JND', 'J. N. Darby', 'John Nelson Darby', 'Darby, John');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('JT', 'J. Taylor, Sr', 'James Taylor (Sr)', 'Taylor Sr, James');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('VAR', 'Various', 'Various', 'Various');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('AJG', 'A. J. Gardiner', 'Alfred John Gardiner', 'Gardiner, Alfred John');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('CHM', 'C. H. Mackintosh', 'Charles Henry Mackintosh', 'Mackintosh, Charles Henry');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('SMC', 'S. McCallum', 'Stanley McCallum', 'McCallum, Stanley');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('JGB', 'J. G. Bellatt', 'John Gifford Bellett', 'Bellett, John Gifford');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('WJ', 'W. Johnson', 'William Johnson', 'Johnson, William ');
+INSERT INTO mse_author (author, name, fullname, orgname) VALUES('WJH', 'W. J. House', 'W. J. House', 'House, W. J.');
 
 --
 -- Dumping data for table mse_volume
