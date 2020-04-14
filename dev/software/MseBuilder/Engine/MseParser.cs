@@ -15,6 +15,7 @@
  * CAM  01-Jan-2013  11153 : Support for SubTitles (lines beginning %).
  * CAM  29-Aug-2015  163118 : Passed the Article Primary property to Paragraph to ensure primary Scriptures are stamped.
  * CAM  25-Feb-2018  790063 : Used correct namespace for Data.
+ * CAM  14-Apr-2020  361011 : Consider for Article Groups when parsing.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System.Collections.Generic;
@@ -70,7 +71,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       // Look for any of the Constant Initials first
       foreach (string s in _constantIntials)
       {
-        if ((text.Length >= s.Length) && (text.Substring(start, s.Length).Equals(s)))
+        if ((text.Length > s.Length) && (text.Substring(start, s.Length).Equals(s)))
         {
           finish = s.Length;
           return true;
@@ -143,6 +144,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       Paragraph paraCurrent = null;
       //Paragraph paraFootnotes = null;
       Article art = null;
+      ArticleGroupCollection articleGroups = new ArticleGroupCollection();
 
       while ((buffer = sr.ReadLine()) != null)
       {
@@ -185,6 +187,24 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         {
           // Volume title - do nothing
         }
+        else if ((buffer.Length > 1) && buffer.Substring(0, 1).Equals("$"))
+        {
+          // Article Grouping
+          if (paraPrevious != null)
+          {
+            // Write out the previous paragraph
+            paraPrevious.SaveToDatabase();
+            paraPrevious = null;
+          }
+          string title = buffer;
+          string locationDate = sr.ReadLine(); // Location, Date
+          string summary = sr.ReadLine(); // Summary
+
+          // [TODO:361011 - Parse LocationDate and split into City and Date, and enable this on any article]
+          ArticleGroup articleGroup = new ArticleGroup(_vol, buffer, locationDate, locationDate, summary, rows);
+          DatabaseLayer.Instance.CreateArticleGroup(articleGroup);
+          articleGroups.Add(articleGroup);
+        }
         else
         {
           para++;
@@ -216,7 +236,13 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
           }
           else if (paraCurrent.IsTitle())
           {
-            art = paraCurrent.Article;
+              art = paraCurrent.Article;
+
+            // Add the Article to a matching Group in the Volume (if any)
+            articleGroups.Add(art);
+            // Ensure the Paragraph is reset to match the Article Title, accounting for any Groups or other changes
+            paraCurrent.Text = art.Title;
+
             BusinessLayer.Instance.Articles.Add(art);
             DatabaseLayer.Instance.UpdateArticle(art);
             DatabaseLayer.Instance.InsertParagraph(paraCurrent);

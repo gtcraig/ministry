@@ -28,10 +28,11 @@
  * CAM  31-Dec-2015  886930 : Added CreateEpubScriptureFiles.
  * CAM  22-Feb-2018  732482 : Added CreateEpubCollectionFiles and tidied TOC entries for Scripture Files.
  * CAM  25-Feb-2018  790063 : Used correct namespace for Data.
+ * CAM  14-Apr-2020  361011 : Include Article Groups, and group GT by Bible Book using Book-Chapter parent groupings.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
-using System.Collections.Specialized;
+using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Threading;
@@ -294,8 +295,12 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
 
           EpubDocument epub = new EpubDocument(files, epubDir, mobiDir, vol, cssFile, authorImageFile, coverImageFile);
 
-          int currentArticle = 0;
+          int currentArticlePage = -1;
           EpubArticle article = null;
+          EpubArticle articleGroup = null;
+          DataTable articleGroups = DatabaseLayer.Instance.GetArticleGroups(vol);
+          Article art = null;
+
           ArticleStage stage = ArticleStage.Title;
 
           foreach (DataRow dr in DatabaseLayer.Instance.GetText(vol).Rows)
@@ -305,27 +310,41 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
             string newPages = dr["newpages"].ToString();
             int articlePage = int.Parse(dr["article_page"].ToString());
 
-            if (articlePage != currentArticle)
+            if (articlePage != currentArticlePage)
             {
-              article = epub.Articles.CreateArticle();
+              // Find Article
+              art = DatabaseLayer.Instance.GetArticle(vol, articlePage);
+              if (art.Group == null)
+              {
+                articleGroup = null;
+              }
+              else
+              {
+                if (articleGroup == null || articleGroup.Title != art.Group.Title)
+                {
+                  articleGroup = epub.Articles.CreateArticle();
+                  articleGroup.Title = art.Group.Title;
+                  article.Items.Add(new EpubParagraph(art.Group.Summary));
+                }
+              }
 
-              currentArticle = articlePage;
+              article = epub.Articles.CreateArticle();
+              article.Title = art.Title;
+              article.Scriptures = art.Scriptures;
+              article.Group = articleGroup;
+
+              currentArticlePage = articlePage;
               stage = ArticleStage.Title;
             }
 
             if (stage == ArticleStage.Title)
             {
-              if (Paragraph.IsTitle(text))
-              {
-                article.Title = text;
-                stage = ArticleStage.Scriptures;
-              }
+              stage = ArticleStage.Scriptures;
             }
             else
             {
               if (stage == ArticleStage.Scriptures && text.Trim().StartsWith("@"))
               {
-                article.Scriptures = text;
                 stage = ArticleStage.Body;
               }
               else
@@ -434,6 +453,16 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       }
     }
 
+    private string ChapterTitle(Volume vol, string bookName, int chapter)
+    {
+      if (vol.LocalFile == "1")
+      {
+        return bookName;
+      }
+
+      return String.Format("{0} {1}", bookName, chapter);
+    }
+
     public void CreateEpubScriptureFiles()
     {
       byte[] dataBuffer = new byte[4096];
@@ -470,18 +499,24 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         int currentArticle = 0;
         int currentChapter = 0;
         EpubArticle article = null;
-        EpubArticle earlierArticle = null;
+        EpubArticle articleChap = null;
         ArticleStage stage = ArticleStage.Title;
-        ArticleCollection relArticles = null;
-        OrderedDictionary earlierArticles = new OrderedDictionary();
+        SortedDictionary<string, Article> chaps = new SortedDictionary<string, Article>();
+        SortedDictionary<string, EpubArticle> chapArticles = new SortedDictionary<string, EpubArticle>();
+        DataTable scriptureText = DatabaseLayer.Instance.GetScriptureText(vol);
+        
+        // Reset Chapter Reference
+        currentChapter = 0;
 
-        foreach (DataRow dr in DatabaseLayer.Instance.GetScriptureText(vol).Rows)
+        foreach (DataRow dr in scriptureText.Rows)
         {
           int bookid = int.Parse(dr["bookid"].ToString());
-          string bookName = dr["bookname"].ToString();
           int chapter = int.Parse(dr["chapter"].ToString());
           string author = dr["author"].ToString();
           int volNo = int.Parse(dr["vol"].ToString());
+          int pageNo = int.Parse(dr["page"].ToString());
+          int para = int.Parse(dr["para"].ToString());
+          int localRow = int.Parse(dr["localrow"].ToString());
 
           string text = dr["text"].ToString();
           string inits = dr["inits"].ToString();
@@ -490,31 +525,20 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
 
           if (articlePage != currentArticle)
           {
-            if (chapter != currentChapter && currentChapter > 0)
+            if (chapter != currentChapter)
             {
-              relArticles = DatabaseLayer.Instance.GetRelatedArticles(bookid, currentChapter);
-
-              if (relArticles.Count > 0)
+              Article a = new Article(vol, pageNo, para, localRow, ChapterTitle(vol, vol.Title, chapter));
+              //Article a = chaps[ChapterTitle(vol, vol.Title, chapter)];
+              if (a != null)
               {
-                article = epub.Articles.CreateArticle();
-                article.Title = String.Format("{0} {1} -- Earlier Articles", bookName, currentChapter);
-                article.Items.Add(new EpubPlain("<ul>"));
-
-                foreach (Article a in relArticles)
-                {
-                  earlierArticle = (EpubArticle)earlierArticles[String.Format("{0}-{1:000}-{2:000000}", a.Volume.Author.Inits, a.Volume.Vol, a.PageNo)];
-                  if (earlierArticle != null)
-                  {
-                    article.Items.Add(new EpubPlain(String.Format("<li><a href=\"{0}\">{1}</a></li>", earlierArticle.XmlFile.Name, a.Title)));
-                  }
-                }
-
-                article.Items.Add(new EpubPlain("</ul>"));
+                articleChap = epub.Articles.CreateArticle();
+                articleChap.Title = a.Title;
+                chapArticles.Add(ChapterTitle(vol, vol.Title, chapter), articleChap);
               }
             }
 
             article = epub.Articles.CreateArticle();
-            earlierArticles.Add(String.Format("{0}-{1:000}-{2:000000}", author, volNo, articlePage), article);
+            article.Group = articleChap;
             currentArticle = articlePage;
             stage = ArticleStage.Title;
           }
@@ -525,11 +549,11 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
             {
               if (vol.LocalFile == "1")
               {
-                article.Title = String.Format("{0} -- {1} ({2} {3})", bookName, text, author, volNo);
+                article.Title = String.Format("{0} -- {1} ({2} {3})", vol.Title, text, author, volNo);
               }
               else
               {
-                article.Title = String.Format("{0} {1} -- {2} ({3} {4})", bookName, chapter, text, author, volNo);
+                article.Title = String.Format("{0} ({1} {2})", text, author, volNo);
               }
               stage = ArticleStage.Scriptures;
             }
@@ -551,13 +575,44 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
           currentChapter = chapter;
         }
 
+        // Now that all Articles have been created, 
+        // Add links onto them for each article referring to the Article Chapter
+        foreach (EpubArticle chap in chapArticles.Values)
+        {
+          chap.Items.Add(new EpubPlain("<ul>"));
+
+          foreach (EpubArticle a in epub.Articles)
+          {
+            Paragraph scriptures = new Paragraph(vol, 1, 1, 1, "", a.Scriptures, true);
+            foreach (BibleRef bref in scriptures)
+            {
+              string key = ChapterTitle(vol, bref.Book.BookName, bref.Chapter);
+              if (key == chap.Title)
+              {
+                EpubItem title = new EpubParagraph(a.Title);
+                if (a.Group != chap)
+                {
+                  chap.Items.Add(new EpubPlain(String.Format("<li>({2}) <a href=\"{0}\">{1}</a></li>", 
+                    a.XmlFile.Name, title.RenderToXhtml(), a.Group.Title)));
+                }
+                else
+                {
+                  chap.Items.Add(new EpubPlain(String.Format("<li><a href=\"{0}\">{1}</a></li>", 
+                    a.XmlFile.Name, title.RenderToXhtml())));
+                }
+              }
+            }
+          }
+
+          chap.Items.Add(new EpubPlain("</ul>"));          
+        }
+
         epub.GenerateToc();
         epub.SaveFile();
 
         Thread.Sleep(50);
         _current++;
       }
-
     }
 
     public void CreateEpubHymnFiles()

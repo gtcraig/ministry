@@ -3,8 +3,6 @@
  * Copyright (c) 2007,2010 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
- * $Id: EpubNcx.cs 1286 2010-12-24 22:41:03Z craig $
- *
  * Who  When         Why
  * CAM  19-Jan-2010  10540 : File created.
  * CAM  21-Jan-2010  10542 : Corrected metadata.
@@ -13,6 +11,7 @@
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * CAM  29-Dec-2011  gc005 : Removed Title page from Contents and ensure Title is XmlSafe.
  * CAM  31-May-2015  998637 : Skip Cover page in Index.
+ * CAM  14-Apr-2020  361011 : Added Article Group.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -81,12 +80,17 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
     public void GenerateToc()
     {
       int id = 1;
+      XmlElement prevNavPoint = null;
+      EpubArticle prevArticle = null;
+
       foreach (EpubArticle article in Doc.Articles)
       {
         if (article is EpubCoverPage) continue;
         if (article is EpubTitlePage) continue;
+        XmlElement element = NavMap;
+        if (article.Group != null && article.Group == prevArticle) element = prevNavPoint;
 
-        XmlElement navPoint = AppendElement(NavMap, "navPoint");
+        XmlElement navPoint = AppendElement(element, "navPoint");
         AppendAttribute(navPoint, "id", String.Format("navpoint-{0}", id));
         AppendAttribute(navPoint, "playOrder", String.Format("{0}", id));
 
@@ -96,6 +100,11 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
         XmlElement content = AppendElement(navPoint, "content");
         AppendAttribute(content, "src", article.XmlFile.Name);
 
+        if (article.Group == null)
+        {
+          prevNavPoint = navPoint;
+          prevArticle = article;
+        }
         id++;
       }
     }

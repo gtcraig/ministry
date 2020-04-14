@@ -30,11 +30,12 @@
  * CAM  22-Feb-2018  732482 : Added Collection summary and detail queries.
  * CAM  25-Feb-2018  790063 : Used correct namespace for Data and replaced MseData.xsd with an explicit query.
  * CAM  22-Feb-2020  737453 : Separated commands into individual variables to ensure correct access.
+ * CAM  14-Apr-2020  361011 : Added Article Group related methods, and changed the way By Bible Book references are build.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
-using System.Windows.Forms;
 using System.Data;
+using System.Windows.Forms;
 
 using MySql.Data.MySqlClient;
 
@@ -55,12 +56,16 @@ namespace FrontBurner.Ministry.MseBuilder.Data
     protected MySqlConnection _conn;
 
     protected MySqlCommand _cmdVolume;
+    protected MySqlCommand _cmdVolumeBibleBook;
     protected MySqlCommand _cmdVolumeColl;
     protected MySqlCommand _cmdVolumeJndHtml;
     protected MySqlCommand _cmdAuthor;
     protected MySqlCommand _cmdVersions;
     protected MySqlCommand _cmdBooks;
     protected MySqlCommand _cmdArticles;
+    protected MySqlCommand _cmdArticleGroups;
+    protected MySqlCommand _cmdArticle;
+    protected MySqlCommand _cmdArticleGroup;
     protected MySqlCommand _cmdTextAuth;
     protected MySqlCommand _cmdTextScrip;
     protected MySqlCommand _cmdTextColl;
@@ -106,7 +111,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
 
     public bool Open()
     {
-      string DataSource = "wizard";
+      string DataSource = "localhost";
       string Database = "goodteaching_org_min";
       string UserID = "goodteaching";
       string Password = "psalm45";
@@ -146,7 +151,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
             }
             catch (Exception) { }
           }
-         
+
         }
         return _conn;
       }
@@ -284,7 +289,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
 
       lock (_semaphore)
       {
-        if (_cmdVolume == null)
+        if (_cmdVolumeBibleBook == null)
         {
           string sql =
             "SELECT bookid,bookname,ifnull(singlechap,0) singlechap " +
@@ -292,9 +297,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
             //"WHERE bookid >= 6 and bookid <= 9 " +
             "ORDER BY bookid ";
 
-          _cmdVolume = new MySqlCommand(sql, Connection);
+          _cmdVolumeBibleBook = new MySqlCommand(sql, Connection);
         }
-        dr = _cmdVolume.ExecuteReader();
+        dr = _cmdVolumeBibleBook.ExecuteReader();
 
         do
         {
@@ -343,87 +348,6 @@ namespace FrontBurner.Ministry.MseBuilder.Data
             if (!dr.IsDBNull(1)) vol.Title = dr.GetString(1);
 
             rval.Add(vol);
-          }
-        } while (dr.NextResult());
-
-        dr.Close();
-      }
-
-      return rval;
-    }
-
-    public ArticleCollection GetRelatedArticles(int bookid, int chapter)
-    {
-      MySqlDataReader dr;
-      Volume vol;
-      Article article;
-      ArticleCollection rval = new ArticleCollection();
-      AuthorCollection authors = BusinessLayer.Instance.Authors;
-      string inits;
-
-      lock (_semaphore)
-      {
-        if (_cmdRelArticles == null)
-        {
-          string sql =
-            "select a.author, a.vol, a.article_page, a.localrow, a.article, a.scriptures, " +
-            "concat(a.bookname, ' ', br.chapter, ' &ndash; <b>', a.article, '</b> (', a.author, ' ', a.vol, ')') ref " +
-            "from ( " +
-            "select bb.bookid, min(bb.bookname) bookname, br.chapter,  " +
-            "br.author, br.vol, br.article_page, a.localrow,  " +
-            "min(a.article) article, min(a.scriptures) scriptures " +
-            "from mse_bible_ref br " +
-            "inner join mse_bible_book bb " +
-            "on bb.bookid = br.bookid " +
-            "inner join mse_article a " +
-            "on a.author = br.author " +
-            "and a.vol = br.vol " +
-            "and a.page = br.page " +
-            "where article_primary = 1 " +
-            "and br.bookid = ?bookid " +
-            "and br.chapter = ?chapter " +
-            "and exists (select 1 from mse_bible_ref br2  " +
-            "where br2.bookid = br.bookid  " +
-            "and br2.chapter < br.chapter " +
-            "and br2.author = br.author " +
-            "and br2.vol = br.vol " +
-            "and br2.article_page = br.article_page " +
-            "and br2.article_primary = 1 " +
-            ") " +
-            "group by bb.bookid, br.chapter, br.author, br.vol, br.article_page " +
-            ") a inner join mse_bible_ref br " +
-            "on a.author = br.author " +
-            "and a.vol = br.vol " +
-            "and a.article_page = br.article_page " +
-            "and br.article_primary = 1 " +
-            "group by a.bookid, a.bookname, a.chapter, a.author, a.vol, a.article_page, a.localrow, a.article, a.scriptures " +
-            "order by br.chapter, br.author, br.vol, br.article_page ";
-
-          _cmdRelArticles = new MySqlCommand(sql, Connection);
-          _cmdRelArticles.Prepare();
-
-          _cmdRelArticles.Parameters.Add("?bookid", MySqlDbType.Int32);
-          _cmdRelArticles.Parameters.Add("?chapter", MySqlDbType.Int32);
-
-        }
-
-        _cmdRelArticles.Parameters["?bookid"].Value = bookid;
-        _cmdRelArticles.Parameters["?chapter"].Value = chapter;
-
-        dr = _cmdRelArticles.ExecuteReader();
-
-        do
-        {
-          while (dr.Read())
-          {
-            inits = dr.GetString(0);
-            if (authors.Contains(inits))
-            {
-              vol = new Volume(authors[inits], dr.GetInt32(1));
-              article = new Article(vol, dr.GetInt32(2), 1, dr.GetInt32(3), dr.GetString(6));
-
-              rval.Add(article);
-            }
           }
         } while (dr.NextResult());
 
@@ -518,7 +442,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       if (_cmdArticles == null)
       {
         string sql =
-          "SELECT page,article,scriptures,localrow " +
+          "SELECT page,articlegroup,article,scriptures,localrow " +
           "FROM mse_article " +
           "WHERE author = ?author " +
           "AND vol = ?vol " +
@@ -538,6 +462,104 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       MySqlDataAdapter da = new MySqlDataAdapter(_cmdArticles);
       da.Fill(dt);
       return dt;
+    }
+
+    public DataTable GetArticleGroups(Volume vol)
+    {
+      if (_cmdArticleGroups == null)
+      {
+        string sql =
+          "SELECT articlegroup,city,groupdate,summary,localrow " +
+          "FROM mse_articlegroup " +
+          "WHERE author = ?author " +
+          "AND vol = ?vol " +
+          "ORDER BY localrow DESC";
+
+        _cmdArticleGroups = new MySqlCommand(sql, Connection);
+        _cmdArticleGroups.Prepare();
+
+        _cmdArticleGroups.Parameters.Add("?author", MySqlDbType.String);
+        _cmdArticleGroups.Parameters.Add("?vol", MySqlDbType.Int32);
+      }
+
+      _cmdArticleGroups.Parameters["?author"].Value = vol.Author.Inits;
+      _cmdArticleGroups.Parameters["?vol"].Value = vol.Vol;
+
+      DataTable dt = new DataTable("mse_articlegroup");
+      MySqlDataAdapter da = new MySqlDataAdapter(_cmdArticleGroups);
+      da.Fill(dt);
+      return dt;
+    }
+
+    public Article GetArticle(Volume vol, int page)
+    {
+      if (_cmdArticle == null)
+      {
+        string sql =
+          "SELECT articlegroup,article,scriptures,localrow " +
+          "FROM mse_article " +
+          "WHERE author = ?author " +
+          "AND vol = ?vol " +
+          "AND page = ?page ";
+
+        _cmdArticle = new MySqlCommand(sql, Connection);
+        _cmdArticle.Prepare();
+
+        _cmdArticle.Parameters.Add("?author", MySqlDbType.String);
+        _cmdArticle.Parameters.Add("?vol", MySqlDbType.Int32);
+        _cmdArticle.Parameters.Add("?page", MySqlDbType.Int32);
+      }
+
+      _cmdArticle.Parameters["?author"].Value = vol.Author.Inits;
+      _cmdArticle.Parameters["?vol"].Value = vol.Vol;
+      _cmdArticle.Parameters["?page"].Value = page;
+
+      DataTable dt = new DataTable("mse_article");
+      MySqlDataAdapter da = new MySqlDataAdapter(_cmdArticle);
+      da.Fill(dt);
+      DataRow dr = dt.Rows[0];
+      Article art = new Article(vol, page, Convert.ToInt32(dr["localrow"]), Convert.ToInt32(dr["localrow"]), dr["article"].ToString());
+
+      if (!dr.IsNull("scriptures")) art.Scriptures = dr["scriptures"].ToString();
+      if (!dr.IsNull("articlegroup"))
+      {
+        ArticleGroup ag = GetArticleGroup(vol, dr["articlegroup"].ToString());
+        art.Group = ag;
+      }
+
+      return art;
+    }
+
+    public ArticleGroup GetArticleGroup(Volume vol, string title)
+    {
+      if (_cmdArticleGroup == null)
+      {
+        string sql =
+          "SELECT city,groupdate,summary,localrow " +
+          "FROM mse_articlegroup " +
+          "WHERE author = ?author " +
+          "AND vol = ?vol " +
+          "AND articlegroup = ?articlegroup ";
+
+        _cmdArticleGroup = new MySqlCommand(sql, Connection);
+        _cmdArticleGroup.Prepare();
+
+        _cmdArticleGroup.Parameters.Add("?author", MySqlDbType.String);
+        _cmdArticleGroup.Parameters.Add("?vol", MySqlDbType.Int32);
+        _cmdArticleGroup.Parameters.Add("?articlegroup", MySqlDbType.String);
+      }
+
+      _cmdArticleGroup.Parameters["?author"].Value = vol.Author.Inits;
+      _cmdArticleGroup.Parameters["?vol"].Value = vol.Vol;
+      _cmdArticleGroup.Parameters["?articlegroup"].Value = title;
+
+      DataTable dt = new DataTable("mse_article");
+      MySqlDataAdapter da = new MySqlDataAdapter(_cmdArticleGroup);
+      da.Fill(dt);
+      DataRow dr = dt.Rows[0];
+      ArticleGroup ag = new ArticleGroup(vol, title, dr["city"].ToString(), dr["groupdate"].ToString(), 
+        dr["summary"].ToString(), Convert.ToInt32(dr["localrow"]));
+      return ag;
     }
 
     public DataTable GetText(Volume vol)
@@ -573,7 +595,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       {
         string sql =
           "select a.bookid, a.bookname, a.chapter, a.author, a.vol, a.article_page, " +
-          "t.page, t.para, t.inits, t.text, t.newpages " +
+          "t.page, t.para, t.inits, t.text, t.newpages, t.localrow " +
           "from ( " +
           "select bb.bookid, min(bb.bookname) bookname, min(br.chapter) chapter, " +
           "br.author, br.vol, br.article_page,  " +
@@ -802,18 +824,47 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       }
     }
 
+    public void CreateArticleGroup(ArticleGroup ag)
+    {
+      string sql;
+
+      sql = String.Format(
+        "REPLACE INTO mse_articlegroup ( " +
+          "author, vol, articlegroup, city, groupdate, summary, localrow " +
+        ") VALUES (" +
+          "'{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}')",
+        ag.Volume.Author.Inits, ag.Volume.Vol, DatabaseLayer.SqlText(ag.Title),
+          DatabaseLayer.SqlText(ag.City), DatabaseLayer.SqlText(ag.GroupDate),
+          DatabaseLayer.SqlText(ag.Summary), ag.LocalRow);
+
+      ExecuteSql(sql);
+    }
+
     public void UpdateArticle(Article art)
     {
       string sql;
 
       if (art.Scriptures == null)
       {
-        sql = String.Format(
-          "REPLACE INTO mse_article ( " +
-            "author, vol, article, localrow, page " +
-          ") VALUES (" +
-            "'{0}', '{1}', '{2}', '{3}', '{4}')",
-          art.Volume.Author.Inits, art.Volume.Vol, DatabaseLayer.SqlText(art.Title), art.LocalRow, art.PageNo);
+        if (art.Group == null)
+        {
+          sql = String.Format(
+            "REPLACE INTO mse_article ( " +
+              "author, vol, article, localrow, page " +
+            ") VALUES (" +
+              "'{0}', '{1}', '{2}', '{3}', '{4}')",
+            art.Volume.Author.Inits, art.Volume.Vol, DatabaseLayer.SqlText(art.Title), art.LocalRow, art.PageNo);
+        }
+        else
+        {
+          sql = String.Format(
+            "REPLACE INTO mse_article ( " +
+              "author, vol, articlegroup, article, localrow, page " +
+            ") VALUES (" +
+              "'{0}', '{1}', '{2}', '{3}', '{4}', '{5}')",
+            art.Volume.Author.Inits, art.Volume.Vol, DatabaseLayer.SqlText(art.Group.Title), 
+            DatabaseLayer.SqlText(art.Title), art.LocalRow, art.PageNo);
+        }
       }
       else
       {
@@ -832,6 +883,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
     public void TruncateTables()
     {
       this.ExecuteSql("TRUNCATE TABLE mse_article");
+      this.ExecuteSql("TRUNCATE TABLE mse_articlegroup");
       this.ExecuteSql("TRUNCATE TABLE mse_text");
       this.ExecuteSql("TRUNCATE TABLE mse_bible_ref");
     }
@@ -840,6 +892,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
     {
       this.ExecuteSql(String.Format("UPDATE mse_volume SET added=NOW() WHERE author = '{0}' and vol = {1}", vol.Author.Inits, vol.Vol), true);
       this.ExecuteSql(String.Format("DELETE FROM mse_article WHERE author = '{0}' and vol = {1}", vol.Author.Inits, vol.Vol), true);
+      this.ExecuteSql(String.Format("DELETE FROM mse_articlegroup WHERE author = '{0}' and vol = {1}", vol.Author.Inits, vol.Vol), true);
       this.ExecuteSql(String.Format("DELETE FROM mse_text WHERE author = '{0}' and vol = {1}", vol.Author.Inits, vol.Vol), true);
       this.ExecuteSql(String.Format("DELETE FROM mse_bible_ref WHERE author = '{0}' and vol = {1}", vol.Author.Inits, vol.Vol), true);
       this.ExecuteSql(String.Format("DELETE FROM mse_bible_ref_error WHERE author = '{0}' and vol = {1}", vol.Author.Inits, vol.Vol), true);

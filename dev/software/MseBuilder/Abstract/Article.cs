@@ -3,14 +3,13 @@
  * Copyright (c) 2007,2010 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
- * $Id: Article.cs 1150 2010-01-24 12:32:55Z craig $
- *
  * Who  When         Why
  * CAM  22-Sep-2007  File added to source control.
  * CAM  26-Sep-2007  Early working version.
  * CAM  23-Jan-2010  10553 : Created GetTitle to remove extraneous formatting for display in TOC etc.
  * CAM  29-Dec-2012  11151 : Remove broken-bar footnotes from TOC.
  * CAM  31-Dec-2015  886930 : Added leading zeroes to Id to ensure better sorting.
+ * CAM  14-Apr-2020  361011 : Added Article Group.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -21,6 +20,8 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
   public class Article
   {
     protected Volume _vol;
+    protected ArticleGroup _group;
+
     protected int _pageNo;
     protected int _para;
     protected int _localRow;
@@ -88,6 +89,25 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
       set
       {
         _scriptures = value;
+      }
+    }
+    public ArticleGroup Group
+    {
+      get
+      {
+        return _group;
+      }
+      set
+      {
+        if (_group == null)
+        {
+          _group = value;
+          if (_title.StartsWith(value.Title))
+          {
+            _title = _title.Substring(value.Title.Length).Trim();
+            if (_title.StartsWith(@"\")) _title = _title.Substring(1).Trim();
+          }
+        }
       }
     }
 

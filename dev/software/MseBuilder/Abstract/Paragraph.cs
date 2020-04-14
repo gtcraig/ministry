@@ -19,6 +19,7 @@
  * CAM  01-Jan-2013  11153 : Support for SubTitles (lines beginning %).
  * CAM  29-Aug-2015  163118 : Added the Article Primary property to ensure primary Scriptures are stamped.
  * CAM  25-Feb-2018  790063 : Used correct namespace for Data.
+ * CAM  14-Apr-2020  361011 : Do consider PREFATORY NOTE and *NOTE* to be article titles, to ensure that the genuine articles are picked up.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -317,7 +318,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
         }
       }
 
-      if (((upper + lower) > 0) && (html == 0) && (!text.Equals("PREFATORY NOTE")) && (!text.Equals("*NOTE*")))
+      if (((upper + lower) > 0) && (html == 0)/* && (!text.Equals("PREFATORY NOTE")) && (!text.Equals("*NOTE*"))*/)
       {
         if (((float)upper / (float)(upper + lower + other)) > 0.7f)
         {

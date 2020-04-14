@@ -10,6 +10,7 @@
  * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
  * CAM  31-May-2015  998637 : Added Cover page.
  * CAM  22-Feb-2018  732482 : Added TocTitle and improved PlainTitle.
+ * CAM  14-Apr-2020  361011 : Added Article Group.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -19,10 +20,11 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
 {
   public class EpubArticle : EpubFile, IEpubGenerator
   {
-    private long _id;
-    private EpubItemCollection _items;
-    private string _title;
-    private string _scriptures;
+    protected long _id;
+    protected EpubItemCollection _items;
+    protected string _title;
+    protected string _scriptures;
+    private EpubArticle _group;
 
     public long Id
     {
@@ -81,6 +83,8 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
       }
       set { _scriptures = value; }
     }
+
+    public EpubArticle Group { get => _group; set => _group = value; }
 
     public EpubArticle(long id, EpubDocument doc)
       : base(doc)
