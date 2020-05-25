@@ -1,12 +1,13 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
- * Copyright (c) 2019 Southesk.com
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
- * 1962 Hymn Book Search CSS
+ * 1962 Hymn Book Player
  *
  * Who  When         Why
- * CAM  23-Dec-2009  xxxx : Created.
+ * CAM  23-Dec-2019  Created.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $root = "../";
@@ -23,8 +24,8 @@ $tuneSql = "SELECT t.tune_name, t.tune_url, ".
   "WHERE t.tune_id=" . $tune_id . " " .
   "ORDER BY t.tune_name";
 
-$res = mysql_query($tuneSql) or die("<h1>Query failed</h1><pre>$tuneSql</pre>");
-if ($row = mysql_fetch_assoc($res)) {
+$res = mysqli_query($dbConn, $tuneSql) or die("<h1>Query failed</h1><pre>$tuneSql</pre>");
+if ($row = mysqli_fetch_assoc($res)) {
 ?>
 	<html><head><title><? echo $row["tune_book_name"] . " " . $row["tune_no"] . " &mdash; &ldquo;" . $row["tune_name"] .  "&rdquo;";?></title>
 	<style>
@@ -47,7 +48,7 @@ if ($row = mysql_fetch_assoc($res)) {
   if (!empty($row["chorus"])) echo " Chorus " . $row["chorus"];
   echo "</h3>";
 	echo "<h4 style='text-align:right;'>" . $row["tune_author"] . "</h4>";
-	echo "<iframe src='" . $row["tune_url"] . "' width=500 height=80></frame>";
+	echo "<iframe src='" . $row["tune_url"] . "' width=650 height=120></frame>";
 }
 ?>
 	</body>

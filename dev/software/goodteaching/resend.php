@@ -1,15 +1,14 @@
 <?
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Resend Email Verification
- *
- * $Id: resend.php 894 2008-09-29 21:22:54Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
  * CAM  29-Sep-2008  10302 : Added root.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Resend Email Verification";
@@ -22,7 +21,7 @@ $verify_code = NULL;      if (!empty($_POST['verify_code'])) $verify_code = $_PO
 
 $ssql = "UPDATE member SET email_address='$email_address' ".
         "WHERE memberid='$username'";
-$sql = mysql_query($ssql);
+$sql = mysqli_query($dbConn, $ssql);
 
 Msg::statement("Thank you.  Please check your email to verify your email address.");
 

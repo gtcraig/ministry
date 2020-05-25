@@ -1,10 +1,8 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
- * Copyright (c) 2008 Southesk.com
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * 1962 Hymn Book Search
- *
- * $Id: ajax.js 894 2008-09-29 21:22:54Z craig $
  *
  * Who  When         Why
  * CAM  29-Sep-2008  10302 : File created.

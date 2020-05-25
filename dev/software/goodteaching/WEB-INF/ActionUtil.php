@@ -1,11 +1,9 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Action Utilities
- *
- * $Id: ActionUtil.php 582 2007-11-12 19:15:02Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.

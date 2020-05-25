@@ -1,16 +1,15 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007,2009 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * New User Creation
- *
- * $Id: register.php 933 2009-03-28 14:04:28Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
  * CAM  29-Sep-2008  10302 : Added root.
  * CAM  28-Mar-2009  10407 : Added root correctly.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Register";
@@ -67,7 +66,7 @@ if (!$retry) {
       "'$email_address','U','$dob', '$verify_code'".
     ")";
 
-  $sql = mysql_query($ssql);
+  $sql = mysqli_query($dbConn, $ssql);
 
   if (mysql_errno() == 1062) {
     $username = NULL;

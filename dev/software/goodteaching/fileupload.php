@@ -1,11 +1,9 @@
 <?
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * File upload
- *
- * $Id: fileupload.php 894 2008-09-29 21:22:54Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
@@ -13,6 +11,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Register";
+$root = "./";
 include_once $root.'Main.php';
 include $root.'tpl/top.php';
 
@@ -46,7 +45,7 @@ if (empty($retry)) {
 
     $ssql = "REPLACE INTO upload (uplfile, docdate, doctype) VALUES ".
             "('$uploadbase', '" . mdate($documentdate) . "', '$documenttype') ";
-    $sql = mysql_query($ssql) or die (mysql_error());
+    $sql = mysqli_query($dbConn, $ssql) or die (mysql_error());
 
   } else {
     Msg::statement("Possible file upload attack! (only upload PDF files)");

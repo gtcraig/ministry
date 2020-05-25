@@ -1,11 +1,9 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
+ * Good Teaching Search Engine
  * Copyright (c) 2007 frontburner.co.uk
  *
  * EmailMsg - Sends an Email
- *
- * $Id: EmailMsg.php 894 2008-09-29 21:22:54Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.

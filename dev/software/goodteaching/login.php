@@ -1,16 +1,15 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007,2009 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Login to the system (including first-time)
- *
- * $Id: login.php 933 2009-03-28 14:04:28Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
  * CAM  29-Sep-2008  10302 : Added root.
  * CAM  28-Mar-2009  10407 : Added root.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Login";
@@ -37,11 +36,11 @@ if(!$memberid){
 $pwd = md5($pwd);
 
 // Retrieve the member details
-$sql = mysql_query("SELECT * FROM member WHERE memberid='$memberid'");
-$login_check = mysql_num_rows($sql);
+$sql = mysqli_query($dbConn, "SELECT * FROM member WHERE memberid='$memberid'");
+$login_check = mysqli_num_rows($sql);
 
 if ($login_check > 0) {
-  if ($row = mysql_fetch_array($sql)) {
+  if ($row = mysqli_fetch_array($sql)) {
     foreach($row AS $key => $val) {
       $$key = stripslashes($val);
     }

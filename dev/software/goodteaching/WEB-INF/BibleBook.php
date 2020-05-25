@@ -1,13 +1,12 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
- *
- * $Id: BibleBook.php 561 2007-10-25 14:08:15Z craig $
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Who  When         Why
  * CAM  15-Oct-2007  10187 : File created.
  * CAM  25-Oct-2007  10187 : Allow construction with all parameters passed in.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 class BibleBook {
@@ -16,13 +15,13 @@ class BibleBook {
   var $bookName = "";
   var $singleChap = false;
 
-  function BibleBook($bookid, $bookName='', $singleChap=0) {
+  function BibleBook($dbConn, $bookid, $bookName='', $singleChap=0) {
     $this->bookId = $bookid;
 
     if (empty($bookName)) {
       $sql = "SELECT bookname,singlechap FROM mse_bible_book WHERE bookid = '$bookid' ";
-          $ssql = mysql_query($sql);
-          if ($row = mysql_fetch_array($ssql)) {
+          $ssql = mysqli_query($dbConn, $sql);
+          if ($row = mysqli_fetch_array($ssql)) {
             $this->bookName = $row[0];
             $this->singleChap = ($row[1] == 1);
       }

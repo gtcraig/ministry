@@ -1,11 +1,9 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * New User Form
- *
- * $Id: user.register.php 485 2007-07-29 19:59:18Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.

@@ -1,7 +1,7 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007,2015 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Page Preview Pane
  *
@@ -16,13 +16,14 @@
  * CAM  12-Apr-2009  10419 : Changed session vars to include module name.
  * CAM  05-Sep-2015  159308 : Pass new primary flag to SqlFactory.
  * CAM  04-Dec-2015  863707 : Check session variables before setting to remove log errors.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 include_once($root.'functions.php');
 
 $volPages = 0;
 
-function count_vol_pages($author, $vol) {
+function count_vol_pages($dbConn, $author, $vol) {
   global $volPages;
 
   if ($volPages == 0) {
@@ -31,8 +32,8 @@ function count_vol_pages($author, $vol) {
            "WHERE author='$author' ".
            "AND vol=$vol ";
 
-    $ssql = mysql_query($sql);
-    if ($row = mysql_fetch_array($ssql)) {
+    $ssql = mysqli_query($dbConn, $sql);
+    if ($row = mysqli_fetch_array($ssql)) {
       $volPages = $row[0];
     }
   }
@@ -89,7 +90,7 @@ if (!empty($bookid) && !empty($chapter)) {
 }
 
 if (!empty($preview_author)) {
-  count_vol_pages($preview_author, $preview_vol);
+  count_vol_pages($dbConn, $preview_author, $preview_vol);
 
   echo "<p align=center><b>$preview_author</b> Volume <b>$preview_vol</b> Page <b>$preview_page</b></p>";
 
@@ -102,8 +103,8 @@ if (!empty($preview_author)) {
          "AND page=$preview_page ".
          "ORDER BY para";
 
-  $ssql = mysql_query($sql);
-  while ($row = mysql_fetch_array($ssql)) {
+  $ssql = mysqli_query($dbConn, $sql);
+  while ($row = mysqli_fetch_array($ssql)) {
 
     $newtext = $row[1];
 

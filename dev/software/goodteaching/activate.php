@@ -1,17 +1,16 @@
 <?
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Account activation script
- *
- * $Id: activate.php 894 2008-09-29 21:22:54Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
  * CAM  29-Sep-2008  10302 : Added root.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
+$root = "./";
 include_once $root.'Main.php';
 include $root.'tpl/top.php';
 
@@ -37,7 +36,7 @@ if ($password1 != $password2) {
   retry_activate("Please confirm your email address is correct...", "Y");
 } else {
   $password1 = md5($password1);
-  $sql = mysql_query("UPDATE member SET active='1', password='$password1', email_address='$email' WHERE memberid='$memberid'");
+  $sql = mysqli_query($dbConn, "UPDATE member SET active='1', password='$password1', email_address='$email' WHERE memberid='$memberid'");
   include $root.'session_reg.php';
   include $root.'tpl/bot.php';
 }

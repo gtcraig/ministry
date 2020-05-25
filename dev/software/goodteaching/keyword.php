@@ -1,11 +1,9 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
+ * Good Teaching Search Engine
  * Copyright (c) 2007,2009 frontburner.co.uk
  *
  * New Search Wizard
- *
- * $Id$
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
@@ -17,11 +15,13 @@
  * CAM  30-Dec-2009  10520 : Add focus formatting for textboxes.
  * CAM  04-Dec-2015  863707 : Added improved search options.
  * CAM  12-Dec-2015  476204 : Check session variables are set before referencing.
+ * CAM  24-May-2020  481548 : Ensure Root path is set. 
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Keyword Search";
 $tab = "KEYWORD";
 $tabs = "MINISTRY";
+$root = "./";
 include $root.'tpl/top.php';
 
 $keywords = isset($_SESSION['search_min_keywords'])?$_SESSION['search_min_keywords']:"";  if (!empty($_POST['keywords'])) $keywords = $_POST['keywords'];

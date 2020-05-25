@@ -1,7 +1,7 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007,2015 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Who  When         Why
  * CAM  19-Aug-2007  File created.
@@ -16,6 +16,7 @@
  * CAM  05-Sep-2015  159308 : Pass new primary flag to SqlFactory and show article title in place of initials.
  * CAM  06-Dec-2015  863707 : Check session variables before setting to remove log errors.
  * CAM  12-Dec-2015  476204 : Check session variables are set before referencing.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 include_once($root.'functions.php');
@@ -67,8 +68,8 @@ if (!empty($bookid) && !empty($chapter)) {
 
 if ($sqlFactory->isSearch()) {
   $rowCount = 0;
-  $ssql = mysql_query($sqlFactory->getSql(true)) or die(mysql_error());
-  if ($row = mysql_fetch_array($ssql)) {
+  $ssql = mysqli_query($dbConn, $sqlFactory->getSql(true)) or die(mysql_error());
+  if ($row = mysqli_fetch_array($ssql)) {
     $rowCount = $row[0];
   }
 
@@ -137,8 +138,8 @@ if ($sqlFactory->isSearch()) {
   </tr>
 <?php
 if ($sqlFactory->isSearch()) {
-  $ssql = mysql_query($sqlFactory->getSql()) or die(mysql_error());
-  while ($row = mysql_fetch_array($ssql)) {
+  $ssql = mysqli_query($dbConn, $sqlFactory->getSql()) or die(mysql_error());
+  while ($row = mysqli_fetch_array($ssql)) {
     foreach($row AS $key => $val) {
       $$key = stripslashes($val);
     }

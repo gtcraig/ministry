@@ -1,11 +1,9 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * File Upload
- *
- * $Id: file.upload.php 894 2008-09-29 21:22:54Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.

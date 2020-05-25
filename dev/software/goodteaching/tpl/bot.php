@@ -1,7 +1,7 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
- * Copyright (c) 2007,2015 frontburner.co.uk
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Bottom of the page
  *
@@ -23,6 +23,7 @@
  * CAM  30-Dec-2009  10523 : Version V0.0.15.
  * CAM  05-Sep-2015  159308 : Version V0.0.16. Moved form to scriptures page.
  * CAM  12-Dec-2015  476204 : Lookup latest version from the database, and reference support email rather than frontburner.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
  $releaseNo = "";
@@ -32,8 +33,8 @@
         "WHERE completion_date = ( ".
           "SELECT MAX(completion_date) ".
           "FROM mse_release_history)";
-   $ssql = mysql_query($sql) or die(mysql_error());
-  if ($row = mysql_fetch_array($ssql)) {
+   $ssql = mysqli_query($dbConn, $sql) or die(mysql_error());
+  if ($row = mysqli_fetch_array($ssql)) {
     $releaseNo = $row[0];
     $releaseDate = $row[1];
   }

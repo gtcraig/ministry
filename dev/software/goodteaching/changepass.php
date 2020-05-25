@@ -1,11 +1,9 @@
 <?
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Change Password
- *
- * $Id: changepass.php 894 2008-09-29 21:22:54Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
@@ -13,6 +11,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Change Password";
+$root = "./";
 include_once $root.'Main.php';
 include $root.'tpl/top.php';
 
@@ -44,11 +43,11 @@ if(!$old_pwd || !$new_pwd1 || !$new_pwd2){
   $new_pwd1 = md5($new_pwd1);
 
   // Retrieve the member details
-  $sql = mysql_query("SELECT * FROM member WHERE memberid='$memberid' AND password='$old_pwd'");
-  $login_check = mysql_num_rows($sql);
+  $sql = mysqli_query($dbConn, "SELECT * FROM member WHERE memberid='$memberid' AND password='$old_pwd'");
+  $login_check = mysqli_num_rows($sql);
 
   if ($login_check > 0) {
-    mysql_query("UPDATE member SET password='$new_pwd1' WHERE memberid='$memberid'");
+    mysqli_query($dbConn, "UPDATE member SET password='$new_pwd1' WHERE memberid='$memberid'");
     Msg::error("Password changed.");
   } else {
     retry_chgpass("Your old password is incorrect.&nbsp;&nbsp;Please check and try again!");

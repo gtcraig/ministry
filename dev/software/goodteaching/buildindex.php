@@ -5,10 +5,9 @@
  *
  * Release History
  *
- * $Id$
- *
  * Who  When         Why
  * CAM  19-Oct-2014  File created.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Index by Bible Book and Chapter";
@@ -72,8 +71,8 @@ $sql = "SELECT br.bookid, bb.bookname, br.chapter, br.author, br.vol, br.page, a
        "GROUP BY br.bookid, bb.bookname, br.chapter, br.author, br.vol, br.page, a.article ".
        "ORDER BY 1,3,4,5,6;";
 
-$ssql = mysql_query($sql);
-while ($row = mysql_fetch_array($ssql)) {
+$ssql = mysqli_query($dbConn, $sql);
+while ($row = mysqli_fetch_array($ssql)) {
   foreach($row AS $key => $val) {
     $$key = stripslashes($val);
   }

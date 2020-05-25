@@ -1,19 +1,18 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
- * Copyright (c) 2008,2009 Southesk.com
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
- * 1962 Hymn Book Search CSS
- *
- * $Id: hymn_fn.php 1109 2009-12-30 13:02:57Z craig $
+ * 1962 Hymn Book Search Functions
  *
  * Who  When         Why
  * CAM  29-Sep-2008  10302 : Moved to GoodTeaching.org
  * CAM  12-Apr-2009  10419 : Renamed CSS class to include module name.
  * CAM  30-Dec-2009  10520 : Add focus formatting for dropdowns.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-function select_meters($meter_id, $language) {
+function select_meters($dbConn, $meter_id, $language) {
 ?><select <? dropdownFocus(); ?> name="meter_id" id="meter_id" class="dropdown">
       <option value="ALL">All Meters</option>
 <?
@@ -22,9 +21,9 @@ function select_meters($meter_id, $language) {
               "WHERE h.meter_id=m.id ".
               "GROUP BY disp_order, id, meter, rhythm, chorus ".
               "ORDER BY disp_order, meter, rhythm, chorus";
-  $meterRes = mysql_query($meterSql) or die("</select><h1>Query failed</h1><pre>$meterSql</pre>");
+  $meterRes = mysqli_query($dbConn, $meterSql) or die("</select><h1>Query failed</h1><pre>$meterSql</pre>");
 
-  while ($row = mysql_fetch_row($meterRes)) {
+  while ($row = mysqli_fetch_row($meterRes)) {
     $sel = "";
     if ($row[0] == $meter_id) {
       $sel = "SELECTED ";
@@ -34,12 +33,12 @@ function select_meters($meter_id, $language) {
 <?
   }
 
-  mysql_free_result($meterRes);
+  mysqli_free_result($meterRes);
 
 ?></select><?
 }
 
-function select_categories($category_id) {
+function select_categories($dbConn, $category_id) {
 ?><select <? dropdownFocus(); ?> name="category_id" id="category_id" class="dropdown">
       <option value="ALL">All Categories</option>
 <?
@@ -47,9 +46,9 @@ function select_categories($category_id) {
               "FROM hymn_scheme_categories c, hymn_schemes s ".
               "WHERE c.scheme_id = s.id ".
               "ORDER BY c.disp_order, c.name";
-  $meterRes = mysql_query($meterSql) or die("</select><h1>Query failed</h1><pre>$meterSql</pre>");
+  $meterRes = mysqli_query($dbConn, $meterSql) or die("</select><h1>Query failed</h1><pre>$meterSql</pre>");
 
-  while ($row = mysql_fetch_row($meterRes)) {
+  while ($row = mysqli_fetch_row($meterRes)) {
     $sel = "";
     if ($row[0] == $category_id) {
       $sel = "SELECTED ";
@@ -59,7 +58,7 @@ function select_categories($category_id) {
 <?
   }
 
-  mysql_free_result($meterRes);
+  mysqli_free_result($meterRes);
 
 ?></select><?
 }
@@ -97,7 +96,7 @@ function output_hymn_table_end() {
 <?
 }
 
-function body_search($keywordsList, $searchType) {
+function body_search($dbConn, $keywordsList, $searchType) {
   global $database, $language, $meter_id, $category_id;
 
   describe_search($searchType);
@@ -133,15 +132,15 @@ function body_search($keywordsList, $searchType) {
               "WHERE d.hymn_no = h.hymn_no $whereClause ".
               "ORDER BY d.hymn_no,d.vers_no,d.line_no";
 
-  $res = mysql_query($verseSql) or die("</select><h1>Query failed</h1><pre>$verseSql</pre>");
+  $res = mysqli_query($dbConn, $verseSql) or die("</select><h1>Query failed</h1><pre>$verseSql</pre>");
   output_hymn_table_start();
-  while ($row = mysql_fetch_row($res)) {
+  while ($row = mysqli_fetch_row($res)) {
     output_hymn_line($row[0], $row[1], $row[2]);
   }
   output_hymn_table_end();
 }
 
-function author_search($authorList, $searchType) {
+function author_search($dbConn, $authorList, $searchType) {
   global $database, $language, $meter_id;
 
   describe_search($searchType);
@@ -162,9 +161,9 @@ function author_search($authorList, $searchType) {
 <?
   $verseSql = "SELECT id,fullname,surname,firstnames,author_life,bio_url ".
               "FROM authors $whereClause order by surname,fullname";
-  $verseRes = mysql_query($verseSql) or die("<h1>Query failed</h1><pre>$verseSql</pre>");
+  $verseRes = mysqli_query($dbConn, $verseSql) or die("<h1>Query failed</h1><pre>$verseSql</pre>");
 
-  for ($count = 1; $row = mysql_fetch_row($verseRes); ++$count) {
+  for ($count = 1; $row = mysqli_fetch_row($verseRes); ++$count) {
     $details = "$row[3] $row[2] $row[4]";
 
     if (!empty($row[5])) {
@@ -186,9 +185,9 @@ function author_search($authorList, $searchType) {
 
 ?><tr><td colspan=4><?
 
-  $res = mysql_query($compSql) or die("</select><h1>Query failed</h1><pre>$compSql</pre>");
+  $res = mysqli_query($dbConn, $compSql) or die("</select><h1>Query failed</h1><pre>$compSql</pre>");
   output_hymn_table_start();
-  while ($row = mysql_fetch_row($res)) {
+  while ($row = mysqli_fetch_row($res)) {
     output_hymn_line($row[0], utf8_encode($row[1]), $row[2]);
   }
   output_hymn_table_end();
@@ -196,14 +195,14 @@ function author_search($authorList, $searchType) {
   ?></td></tr><?
   }
 
-  mysql_free_result($verseRes);
+  mysqli_free_result($verseRes);
 
 ?>
 </table>
 <?
 }
 
-function show_hymn($hymn, $language) {
+function show_hymn($dbConn, $hymn, $language) {
   global $database;
   $verseCount = 0;
   $meterId = 0;
@@ -222,8 +221,8 @@ function show_hymn($hymn, $language) {
              "AND hymn_no=$hymn";
 
   $metdesc = "";
-  $res = mysql_query($hymnSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
-  if ($row = mysql_fetch_row($res)) {
+  $res = mysqli_query($dbConn, $hymnSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
+  if ($row = mysqli_fetch_row($res)) {
     $metdesc = $row[0];
     if (!empty($row[1])) $metdesc .= "&nbsp;<i>" . $row[1] ."</i>";
     if (!empty($row[2])) $metdesc .= "<br>Chorus ". $row[2];
@@ -238,14 +237,14 @@ function show_hymn($hymn, $language) {
              "GROUP BY vers_no ".
              "ORDER BY if(vers_no=1,0,if(vers_no=99,1,vers_no)) ";
 
-  $res = mysql_query($hymnSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
-  while ($row = mysql_fetch_row($res)) {
+  $res = mysqli_query($dbConn, $hymnSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
+  while ($row = mysqli_fetch_row($res)) {
     $verseSql = "SELECT line_no,line_text FROM hymn_line$language ".
           "where hymn_no=$hymn and vers_no=".$row[0]." ".
             "order by vers_no,line_no";
-    //mysql_query("set names 'utf8';");
-    $res2 = mysql_query($verseSql) or die("<h1>Query failed</h1><pre>$verseSql</pre>");
-    while ($row2 = mysql_fetch_row($res2)) {
+    //mysqli_query($dbConn, "set names 'utf8';");
+    $res2 = mysqli_query($dbConn, $verseSql) or die("<h1>Query failed</h1><pre>$verseSql</pre>");
+    while ($row2 = mysqli_fetch_row($res2)) {
 ?>
   <tr>
 <?
@@ -268,8 +267,8 @@ function show_hymn($hymn, $language) {
   }
 
   $hymnSql = "SELECT a.fullname FROM hymn$language h, authors a where h.author_id = a.id and h.hymn_no=$hymn";
-  $res = mysql_query($hymnSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
-  if ($row = mysql_fetch_row($res)) {
+  $res = mysqli_query($dbConn, $hymnSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
+  if ($row = mysqli_fetch_row($res)) {
     echo "<tr><td colspan=2 class=author><a href=\"javascript:void();\" onclick=\"view_author('" . $row[0] . "');\">" . $row[0] . "</a></td></tr>\n";
   }
 ?>
@@ -278,10 +277,10 @@ function show_hymn($hymn, $language) {
     <tr><td align=center><b><i style="color:eecc33">*NEW*</i> Listen to Tunes</b></td></tr><tr><td><ul>
 <?
   $tuneSql = "SELECT tune_name, tune_url, tune_id FROM hymn_tune WHERE meter_id=" . $meterId . " ORDER BY tune_name";
-  $res = mysql_query($tuneSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
-  while ($row = mysql_fetch_row($res)) {
+  $res = mysqli_query($dbConn, $tuneSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
+  while ($row = mysqli_fetch_row($res)) {
     echo "<li><a href='hymn_player.php?tune_id=" . $row[2] .
-      "' onclick=\"window.open('hymn_player.php?tune_id=" . $row[2] . "','GoodTeachingTune','width=520,height=200');return false;\">" .
+      "' onclick=\"window.open('hymn_player.php?tune_id=" . $row[2] . "','GoodTeachingTune','width=670,height=300');return false;\">" .
       $row[0] . "</a></li>\n";
   }
 ?>

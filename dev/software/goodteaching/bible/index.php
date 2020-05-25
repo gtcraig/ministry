@@ -1,16 +1,15 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
- * Copyright (c) 2009 frontburner.co.uk
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Bible Search
- *
- * $Id: index.php 1111 2009-12-30 13:45:32Z craig $
  *
  * Who  When         Why
  * CAM  29-Dec-2009  10515 : File created.
  * CAM  30-Dec-2009  10520 : Ensure keywords are formatted correctly for SQL.
  * CAM  30-Dec-2009  10522 : Added remove_mselinks - needs to be improved once links are clickable.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Bible Search";
@@ -125,11 +124,11 @@ function remove_mselinks($text) {
                 "OR fr.phrase LIKE '" . $keywords . "') ".
            "ORDER BY b.bookid, f.chapter, f.verse, f.footnoteid ";
 
-    $ssql = mysql_query($sql) or die(mysql_error());
+    $ssql = mysqli_query($dbConn, $sql) or die(mysql_error());
     $prevFootnoteId = 0;
     $refs="";
 
-    while ($row = mysql_fetch_array($ssql)) {
+    while ($row = mysqli_fetch_array($ssql)) {
     foreach($row AS $key => $val) {
       $$key = stripslashes($val);
     }

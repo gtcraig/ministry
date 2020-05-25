@@ -1,7 +1,7 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
- * Copyright (c) 2006,2009 Southesk.com
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Who  When         Why
  * CAM  15-Feb-2006  File created.
@@ -14,6 +14,7 @@
  * CAM  28-Mar-2009  10407 : Correct PHP syntax.
  * CAM  12-Apr-2009  10419 : Changed session vars to include module name.
  * CAM  05-Sep-2015  159308 : Changed layout to accomodate new checkbox.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 function f_neat_truncate($text, $backpoint) {
@@ -148,7 +149,7 @@ function f_url_ref($a,$v,$pg,$pa) {
   return "&raut=$a&rvol=$v&rpag=$pg&rpar=$pa";
 }
 
-function f_show_books() {
+function f_show_books($dbConn) {
   global $stext, $uauthor, $uvol, $ubookid, $uchapter, $uvstart, $bookname, $singlechap;
   $prevtest = "";
 
@@ -164,8 +165,8 @@ function f_show_books() {
   }
   $sql .= "ORDER BY 1 DESC,2";
 
-  $ssql = mysql_query($sql);
-  while ($row = mysql_fetch_array($ssql)) {
+  $ssql = mysqli_query($dbConn, $sql);
+  while ($row = mysqli_fetch_array($ssql)) {
     foreach($row AS $key => $val) {
       $$key = stripslashes($val);
     }
@@ -182,7 +183,7 @@ echo str_replace(" ", "&nbsp;", $bookname); ?></a>
   }
 }
 
-function f_show_chapters() {
+function f_show_chapters($dbConn) {
   global $bibleBook;
 
   $sql = "SELECT DISTINCT chapter \n".
@@ -202,9 +203,8 @@ function f_show_chapters() {
 ?>
 <a href="javascript:void" onclick="submitBookRef('NULL');return false;">Books</a>&nbsp;|&nbsp;<?php echo $bibleBook->getBookName(); ?></td></tr><tr><td colspan="2">Chapters
 <?php
-
-  $ssql = mysql_query($sql);
-  while ($row = mysql_fetch_array($ssql)) {
+  $ssql = mysqli_query($dbConn, $sql);
+  while ($row = mysqli_fetch_array($ssql)) {
     foreach($row AS $key => $val) {
       $$key = stripslashes($val);
     }
@@ -214,7 +214,7 @@ echo $chapter; ?></a>
   }
 }
 
-function f_show_verses() {
+function f_show_verses($dbConn) {
   global $bibleBook, $chapter;
 
   $sql = "SELECT DISTINCT vstart ".
@@ -245,8 +245,8 @@ if (!$bibleBook->isSingleChap()) {
 }
 ?></td></tr><tr><td colspan="2">Verses
 <?php
-  $ssql = mysql_query($sql);
-  while ($row = mysql_fetch_array($ssql)) {
+  $ssql = mysqli_query($dbConn, $sql);
+  while ($row = mysqli_fetch_array($ssql)) {
     foreach($row AS $key => $val) {
       $$key = stripslashes($val);
     }

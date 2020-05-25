@@ -1,6 +1,6 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
+ * Good Teaching Search Engine
  * Copyright (c) 2007,2015 frontburner.co.uk
  *
  * Who  When         Why
@@ -11,11 +11,13 @@
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and changed session vars to include module name.
  * CAM  05-Sep-2015  159308 : Added new checkbox and logic to reset (moved form from bot).
  * CAM  12-Dec-2015  476204 : Check session variables are set before referencing.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Scripture Search";
 $tab = "scripture";
 $tabs = "MINISTRY";
+$root = "./";
 include $root.'tpl/top.php';
 include_once $root.'functions.php';
 
@@ -44,7 +46,7 @@ $bibleBook = "";
 if (empty($bookid)) {
   $entity = "Book";
 } else {
-  $bibleBook = new BibleBook($bookid);
+  $bibleBook = new BibleBook($dbConn, $bookid);
 
   if (empty($chapter) && !$bibleBook->isSingleChap()) {
     $entity = "Chapter";
@@ -75,11 +77,11 @@ type=hidden name=vend id=vend><input type=hidden name=primary id=primary value="
 <tr><td colspan="2"><?
 /**** START ****/
     if (empty($bookid)) {
-      f_show_books();
+      f_show_books($dbConn);
     } else if (empty($chapter) && !$bibleBook->isSingleChap()) {
-      f_show_chapters();
+      f_show_chapters($dbConn);
     } else {
-      f_show_verses();
+      f_show_verses($dbConn);
     }
 /**** END ****/
 ?>

@@ -5,8 +5,6 @@
  *
  * Main page setup
  *
- * $Id: Main.php 1109 2009-12-30 13:02:57Z craig $
- *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
  * CAM  12-Nov-2007  10202 : Migrated to goodteaching.org.
@@ -17,6 +15,7 @@
  * CAM  30-Dec-2009  10520 : Improved fieldFocus style, and added dropdownFocus.
  * CAM  01-Nov-2014  576402 : Added Admin Email/Name and changed Site Email to support.
  * CAM  06-Nov-2014  823080 : Removed deprecated functions.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $cfg['Site']['Name']  = "Good Teaching Search Engine";
@@ -33,9 +32,11 @@ $cfg['Site']['Db']['Password'] = "psalm45";
 $cfg['Site']['Db']['Database'] = "goodteaching_org_min";
 
 if (strpos(strtolower($_SERVER['SERVER_NAME']), "localhost") !== FALSE) {
-  $cfg['Site']['URL'] = "http://localhost/~craig/ministry/dev/software/goodteaching/";
+  $cfg['Site']['URL'] = "http://localhost/gt";
   $cfg['Site']['Status'] = "Development";
 }
+
+$dbConn = 0;
 
 include_once $root.'WEB-INF/inc.php';
 include_once $root.'db.php';

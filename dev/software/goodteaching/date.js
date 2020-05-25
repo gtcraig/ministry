@@ -1,11 +1,9 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * WEBSITE_NAME
- * Copyright (c) 2007 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Javascript - Date validation 
  *
- * $Id: date.js 485 2007-07-29 19:59:18Z craig $
- * 
  * Who  When         Why
  * CAM  27-Dec-2005  File created.
  * * * * * * * * * * * * * * * * * * * * * * * */

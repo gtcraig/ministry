@@ -1,14 +1,13 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2008 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Table of Latest Volumes
  *
- * $Id: latestvols.php 838 2008-06-04 06:46:18Z craig $
- *
  * Who  When         Why
  * CAM  04-Jun-2008  10268 : File created.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 ?>
 
@@ -26,8 +25,8 @@
           "FROM mse_volume ".
           "ORDER BY added DESC ".
           "LIMIT 6 ";
-  $sql = mysql_query($ssql);
-  while ($row = mysql_fetch_array($sql)) {
+  $sql = mysqli_query($dbConn, $ssql);
+  while ($row = mysqli_fetch_array($sql)) {
     foreach($row AS $key => $val) {
       $$key = stripslashes($val);
     }

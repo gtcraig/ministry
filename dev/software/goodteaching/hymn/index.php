@@ -5,14 +5,13 @@
  *
  * 1962 Hymn Book Search
  *
- * $Id: index.php 1109 2009-12-30 13:02:57Z craig $
- *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
  * CAM  12-Nov-2007  10204 : Added calls to Servant checkbox functions.
  * CAM  29-Sep-2008  10302 : Moved to GoodTeaching.org.
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and use common database.
  * CAM  30-Dec-2009  10520 : Add focus formatting for dropdowns.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "1962 Hymn Search";
@@ -56,9 +55,9 @@ $sitename = NULL;    if (!empty($_POST['sitename'])) $sitename = $_POST['sitenam
       <option value="_nl" <? echo ($language == "_nl" ? "SELECTED" : ""); ?>>Netherlands</option>
       </select></td>
 
-      <td><? select_categories($category_id); ?></td>
+      <td><? select_categories($dbConn, $category_id); ?></td>
 
-      <td><? select_meters($meter_id, $language); ?></td>
+      <td><? select_meters($dbConn, $meter_id, $language); ?></td>
       <td align=right>
         <input type="submit" name="hymn_search" value="Search" class="button" />
         <!--<a href="index.php?option=com_content&task=view&id=34&Itemid=2">Need help?</a>-->
@@ -80,7 +79,7 @@ $sitename = NULL;    if (!empty($_POST['sitename'])) $sitename = $_POST['sitenam
 <tr>
   <td class="pageresults" valign=top><?
   if (!empty($hymn_no)) {
-    show_hymn($hymn_no, $language);
+    show_hymn($dbConn, $hymn_no, $language);
   } else {
     echo "&nbsp;";
   }
@@ -99,8 +98,8 @@ $sitename = NULL;    if (!empty($_POST['sitename'])) $sitename = $_POST['sitenam
            "FROM hymn_meter ".
            "WHERE id = '$meter_id'";
 
-    $res = mysql_query($sql) or die("<h1>Query failed</h1><pre>$sql</pre>");
-    if ($row = mysql_fetch_array($res)) {
+    $res = mysqli_query($dbConn, $sql) or die("<h1>Query failed</h1><pre>$sql</pre>");
+    if ($row = mysqli_fetch_array($res)) {
       foreach($row AS $key => $val) {
         $$key = stripslashes($val);
       }
@@ -117,8 +116,8 @@ $sitename = NULL;    if (!empty($_POST['sitename'])) $sitename = $_POST['sitenam
            "FROM hymn_scheme_categories ".
            "WHERE id = '$category_id'";
 
-    $res = mysql_query($sql) or die("<h1>Query failed</h1><pre>$sql</pre>");
-    if ($row = mysql_fetch_array($res)) {
+    $res = mysqli_query($dbConn, $sql) or die("<h1>Query failed</h1><pre>$sql</pre>");
+    if ($row = mysqli_fetch_array($res)) {
       foreach($row AS $key => $val) {
         $$key = stripslashes($val);
       }
@@ -129,11 +128,11 @@ $sitename = NULL;    if (!empty($_POST['sitename'])) $sitename = $_POST['sitenam
   }
 
   if (!empty($keywords) > 0) {
-    body_search($keywordsList, "Hymns $metdesc $catdesc containing \"$keywords\"");
+    body_search($dbConn, $keywordsList, "Hymns $metdesc $catdesc containing \"$keywords\"");
   } else if (!empty($author) > 0) {
-    author_search($authorList, "Authors like \"$author\" and their hymns");
+    author_search($dbConn, $authorList, "Authors like \"$author\" and their hymns");
   } else if ($meter_id != "ALL" || $category_id != "ALL") {
-    body_search($keywordsList, "Hymns $metdesc $catdesc");
+    body_search($dbConn, $keywordsList, "Hymns $metdesc $catdesc");
   } else {
     echo "&nbsp;";
   }

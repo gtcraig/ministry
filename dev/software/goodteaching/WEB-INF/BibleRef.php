@@ -1,12 +1,11 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
- *
- * $Id: BibleRef.php 561 2007-10-25 14:08:15Z craig $
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Who  When         Why
  * CAM  25-Oct-2007  10187 : File created.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 class BibleRef {
@@ -66,18 +65,18 @@ class BibleRefCollection {
 
   var $refs;
 
-  function BibleRefCollection($sqlFactory, $author, $vol, $page, $para, $bookid, $chapter) {
+  function BibleRefCollection($dbConn, $sqlFactory, $author, $vol, $page, $para, $bookid, $chapter) {
     $this->refs = array();
 
     $sql = $sqlFactory->getBibleRefSql($author, $vol, $page, $para, $bookid, $chapter);
 
-    $ssql = mysql_query($sql) or die(mysql_error());
-    if ($row = mysql_fetch_array($ssql)) {
+    $ssql = mysqli_query($dbConn, $sql) or die(mysql_error());
+    if ($row = mysqli_fetch_array($ssql)) {
       foreach($row AS $key => $val) {
         $$key = stripslashes($val);
       }
 
-      $bibleBook = new BibleBook($bookid, $bookname, $singlechap);
+      $bibleBook = new BibleBook($dbConn, $bookid, $bookname, $singlechap, $dbConn);
       $bibleRef = new BibleRef($bibleBook, $ref, $chapter, $vstart, $vend);
       $this->refs[count($this->refs)] = $bibleRef;
     }

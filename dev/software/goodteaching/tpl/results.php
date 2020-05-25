@@ -1,13 +1,11 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Results panes
  *
- * $Id: results.php 894 2008-09-29 21:22:54Z craig $
- *
- * Who  When         Why
+  * Who  When         Why
  * CAM  19-Aug-2007  File created.
  * CAM  29-Sep-2008  10302 : Added root.
  * * * * * * * * * * * * * * * * * * * * * * * */

@@ -1,9 +1,11 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007,2015 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2009 frontburner.co.uk
  *
  * Home Page Context
+ *
+ * $Id: index.php 947 2009-04-12 12:46:53Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
@@ -16,10 +18,12 @@
  * CAM  28-Mar-2009  10407 : Added $_SESSION['search_min_type'].
  * CAM  12-Apr-2009  10419 : Changed session vars to include module name.
  * CAM  05-Sep-2015  159308 : Reset new primary flag.
+ * CAM  24-May-2020  481548 : Ensure Root path is set. 
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Home";
 $tabs = "NONE";
+$root = "./";
 
 include $root.'tpl/top.php';
 

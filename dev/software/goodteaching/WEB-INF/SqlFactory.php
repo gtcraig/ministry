@@ -1,6 +1,6 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
+ * Good Teaching Search Engine
  * Copyright (c) 2007,2015 frontburner.co.uk
  *
  * SqlFactory Class
@@ -14,6 +14,7 @@
  * CAM  28-Mar-2009  10407 : Added Search Type.
  * CAM  05-Sep-2015  159308 : Accept new primary flag and include article title in results.
  * CAM  04-Dec-2015  863707 : Greatly simplified searching using BOOLEAN MODE.
+ * CAM  24-May-2020  481548 : Ensure proper checks for authors array before using as such.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 class SqlFactory {
@@ -88,6 +89,7 @@ class SqlFactory {
   }
 
   function isAuthorFilter() {
+    if (!is_array($this->authors)) return false;
     return (count($this->authors) > 0);
   }
 
@@ -172,7 +174,7 @@ class SqlFactory {
       }
     }
 
-    if ($this->isAuthorFilter()) {
+    if ($this->isAuthorFilter() && is_array($this->authors)) {
       $sql .= $this->whereClause("t.author IN ('" . implode("','", $this->authors) . "')");
     }
 

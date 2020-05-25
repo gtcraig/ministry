@@ -1,9 +1,7 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
+ * Good Teaching Search Engine
  * Copyright (c) 2007 frontburner.co.uk
- *
- * $Id: inc.php 561 2007-10-25 14:08:15Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.

@@ -1,17 +1,17 @@
 <?
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
- * Copyright (c) 2007 frontburner.co.uk
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Forgotten Password Workflow
- *
- * $Id: forgot.php 894 2008-09-29 21:22:54Z craig $
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
  * CAM  29-Sep-2008  10302 : Added root.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
+$root = "./";
 include_once $root.'Main.php';
 include $root.'tpl/top.php';
 
@@ -31,14 +31,14 @@ if(!$memberid){
 } else {
 
   // Retrieve the member details
-  $sql = mysql_query("SELECT * FROM member WHERE memberid='$memberid'");
-  $login_check = mysql_num_rows($sql);
+  $sql = mysqli_query($dbConn, "SELECT * FROM member WHERE memberid='$memberid'");
+  $login_check = mysqli_num_rows($sql);
 
   if ($login_check == 0) {
     retry_login("The Username " . $memberid . " could not be found.&nbsp;&nbsp;Please check and try again!");
   } else {
 
-    if ($row = mysql_fetch_array($sql)) {
+    if ($row = mysqli_fetch_array($sql)) {
       foreach($row AS $key => $val) {
         $$key = stripslashes($val);
       }
@@ -60,7 +60,7 @@ if(!$memberid){
       $new_pwd = strtolower(substr(md5(time()),0,8));
       $pwd = md5($new_pwd);
 
-      $sql = mysql_query("UPDATE member SET password='$pwd' WHERE memberid='$memberid'");
+      $sql = mysqli_query($dbConn, "UPDATE member SET password='$pwd' WHERE memberid='$memberid'");
 
       $em = new EmailMsg("F", $memberid);
       $em->sendForgot($new_pwd);

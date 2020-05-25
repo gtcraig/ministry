@@ -5,15 +5,16 @@
  *
  * Release History
  *
- * $Id$
- *
  * Who  When         Why
  * CAM  02-Jan-2015  File created.
  * CAM  12-Dec-2015  476204 : Correct query and use non-deprecated MySQL functions.
+ * CAM  24-May-2020  481548 : Ensure Root path is set. 
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Text Mistakes";
 $tabs = "NONE";
+$root = "./";
+
 include $root.'tpl/top.php';
 
 $connection = mysqli_connect('127.0.0.1', 'gt_support', 'psalm45', 'gt_support')

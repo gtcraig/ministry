@@ -1,11 +1,11 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
+ * Good Teaching Search Engine
  * Copyright (c) 2007 frontburner.co.uk
  *
  * Search Tabs
  *
- * $Id: tabs.php 521 2007-09-09 21:20:14Z craig $
+ * $Id$
  *
  * Who  When         Why
  * CAM  19-Aug-2007  File created.

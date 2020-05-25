@@ -11,6 +11,7 @@
  * CAM  29-Sep-2008  10302 : Added root.
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and changed session vars to include module name.
  * CAM  12-Dec-2015  476204 : Check session variables are set before referencing.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Servant Filter";
@@ -40,12 +41,13 @@ $_SESSION['search_min_author'] = $author_filter;
 
 ?></td></tr>
 <tr>
-  <td width="100%"><input type="checkbox" <? echo $checked; ?> name="author_filter[ALL]" id="author_filter[ALL]" value="ALL" onclick="toggleServants(this);return true;">All&nbsp;<?
+  <td width="100%"><input type="checkbox" <? echo $checked; ?> name="author_filter[ALL]" id="author_filter[ALL]" 
+    value="ALL" onclick="toggleServants(this);return true;"><label for="author_filter[ALL]">All</label>&nbsp;<?
 
 $sql = "SELECT author, name FROM mse_author ORDER BY author";
 
-$ssql = mysql_query($sql);
-while ($row = mysql_fetch_array($ssql)) {
+$ssql = mysqli_query($dbConn, $sql);
+while ($row = mysqli_fetch_array($ssql)) {
   foreach($row AS $key => $val) {
     $$key = stripslashes($val);
   }
@@ -56,7 +58,7 @@ while ($row = mysql_fetch_array($ssql)) {
   }
 
 ?>
-<input type="checkbox" <? echo $checked; ?> name="author_filter[<? echo $author; ?>]" id="author_filter[<? echo $author; ?>]" value="<? echo $author; ?>" onclick="uncheckAll();return true;"><? echo $name; ?>&nbsp;
+<input type="checkbox" <? echo $checked; ?> name="author_filter[<? echo $author; ?>]" id="author_filter[<? echo $author; ?>]" value="<? echo $author; ?>" onclick="uncheckAll();return true;"><label for="author_filter[<? echo $author; ?>]"><? echo $name; ?></label>&nbsp;
 <?
 }
 

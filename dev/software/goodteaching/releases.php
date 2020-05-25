@@ -5,14 +5,14 @@
  *
  * Release History
  *
- * $Id$
- *
  * Who  When         Why
  * CAM  19-Oct-2014  File created.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Volume Titles";
 $tabs = "NONE";
+$root = "./";
 include $root.'tpl/top.php';
 
 ?>
@@ -29,8 +29,8 @@ $sql = "SELECT release_no, task_id, description, completion_date ".
        "ORDER BY 4 DESC, 1 DESC, 2";
 
 $prev_release_no = "";
-$ssql = mysql_query($sql);
-while ($row = mysql_fetch_array($ssql)) {
+$ssql = mysqli_query($dbConn, $sql);
+while ($row = mysqli_fetch_array($ssql)) {
   foreach($row AS $key => $val) {
     $$key = stripslashes($val);
   }

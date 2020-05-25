@@ -1,10 +1,8 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
- * Copyright (c) 2009 frontburner.co.uk
+ * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Bible Search
- *
- * $Id: ajax.js 1109 2009-12-30 13:02:57Z craig $
  *
  * Who  When         Why
  * CAM  29-Dec-2009  10515 : File created.

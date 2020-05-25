@@ -1,14 +1,13 @@
 <?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
- * Ministry Search Engine
+ * Good Teaching Search Engine
  * Copyright (c) 2007 frontburner.co.uk
  *
  * Person Class
  *
- * $Id: Person.php 520 2007-09-09 21:19:56Z craig $
- *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 /**
@@ -199,11 +198,11 @@ class Person extends Tuple {
   }
 
   function getPerson($memberid) {
-    $per = mysql_query("SELECT m.*, mt.type_name ".
+    $per = mysqli_query($dbConn, "SELECT m.*, mt.type_name ".
                        "FROM member m, member_type mt ".
                        "WHERE m.member_type = mt.member_type ".
                        "AND m.memberid='$memberid'");
-    if ($row = mysql_fetch_array($per)) {
+    if ($row = mysqli_fetch_array($per)) {
       foreach($row AS $key => $val) {
         $$key = stripslashes($val);
       }
