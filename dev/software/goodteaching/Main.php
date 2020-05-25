@@ -19,7 +19,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $cfg['Site']['Name']  = "Good Teaching Search Engine";
-$cfg['Site']['URL']   = "http://goodteaching.org"; // no trailing slash
+$cfg['Site']['URL']   = "https://goodteaching.org"; // no trailing slash
 $cfg['Site']['Email'] = "support@goodteaching.org";
 $cfg['Site']['Status'] = "Production";
 

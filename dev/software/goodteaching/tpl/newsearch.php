@@ -41,8 +41,8 @@
 	<td>
 		<table border="0" cellpadding=5 cellspacing=0>
 			<tr>
-				<td><a href="http://goodteaching.org/ebook"><img border="0" src="ebook/kindlepw4.png"></a></td>
-				<td><a href="http://goodteaching.org/ebook"><img border="0" src="ebook/apple4.png"></a></td>
+				<td><a href="https://goodteaching.org/ebook"><img border="0" src="ebook/kindlepw4.png"></a></td>
+				<td><a href="https://goodteaching.org/ebook"><img border="0" src="ebook/apple4.png"></a></td>
 		  </tr>
 			<tr>
 				<td align="center">Kindle</td>
@@ -54,7 +54,7 @@
   </td>
   <td class="toolTip">
   	Want to read the ministry on your ereader?<br />
-  	<a href="http://goodteaching.org/ebook">http://goodteaching.org/ebook</a>
+  	<a href="https://goodteaching.org/ebook">https://goodteaching.org/ebook</a>
   </td>
 </tr>
 <tr>
@@ -89,7 +89,7 @@
 		<tr>
       <td colspan="2">Searching the Ministry</td>
       <td colspan="2" align="center"><a href="http://mse.0mpurdy.com/">Ministry Search Engine</a></td>
-      <td align="center"><a href="http://goodteaching.org">GoodTeaching.org</a></td>
+      <td align="center"><a href="https://goodteaching.org">GoodTeaching.org</a></td>
       <td align="center"><a href="https://play.google.com/store/apps/details?id=mse.mse_android&hl=en">MSE</a> (Google Play)</td>
       <td align="center"><a href="ebook/">eBooks</a></td>
     </tr>

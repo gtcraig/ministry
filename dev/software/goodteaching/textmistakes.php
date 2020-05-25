@@ -52,7 +52,7 @@ $ssql = mysqli_query($connection, $sql) or die(mysqli_error());
 while ($row = mysqli_fetch_array($ssql, MYSQLI_ASSOC)) {
 ?>
 <tr>
-  <td><a href="http://support.goodteaching.org/scp/tickets.php?id=<?=$row["ticket_id"]?>"><? echo $row["number"]; ?></a></td>
+  <td><a href="https://support.goodteaching.org/scp/tickets.php?id=<?=$row["ticket_id"]?>"><? echo $row["number"]; ?></a></td>
   <td><?=$row["created"]?></td>
   <td><?=$row["status"]?></td>
   <td><?=empty($row["title"]) ? "&nbsp;": $row["title"] ?></td>
