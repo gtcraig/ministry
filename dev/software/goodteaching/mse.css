@@ -18,6 +18,7 @@
  * CAM  29-Sep-2008  10302 : Added Hymn classes.
  * CAM  28-Mar-2009  10407 : Added SearchType.
  * CAM  29-Dec-2009  10515 : Added links for Bible.
+ * CAM  30-May-2020  909743 : Added links for Tunes.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 body {
@@ -34,6 +35,7 @@ p, table, td, input, select, textarea {
 a#linkGt,
 a#linkBible,
 a#linkHymn,
+a#linkTune,
 a#linkEaston,
 a#linkHitchcock
 {
@@ -48,6 +50,7 @@ a#linkHitchcock
 body#pageGt a#linkGt,
 body#pageBible a#linkBible,
 body#pageHymn a#linkHymn,
+body#pageTune a#linkTune,
 body#pageEaston a#linkEaston,
 body#pageHitchcock a#linkHitchcock
 {
@@ -58,6 +61,7 @@ body#pageHitchcock a#linkHitchcock
 a#linkGt:hover,
 a#linkBible:hover,
 a#linkHymn:hover,
+a#linkTune:hover,
 a#linkEaston:hover,
 a#linkHitchcock:hover
 {
@@ -68,6 +72,7 @@ a#linkHitchcock:hover
 body#pageGt a#linkGt:hover,
 body#pageBible a#linkBible:hover,
 body#pageHymn a#linkHymn:hover,
+body#pageTune a#linkTune:hover,
 body#pageEaston a#linkEaston:hover,
 body#pageHitchcock a#linkHitchcock:hover
 {
@@ -247,10 +252,12 @@ td.sub {
 }
 
 .cpyrght {
-  color: #333333;
-  font-size: 7pt;
-  TEXT-ALIGN: center;
-  padding-top:    5px;
+  background-color: #66B7E2;
+  color: white;
+  font-size: 9pt;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 td.cat {

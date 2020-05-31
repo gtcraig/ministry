@@ -17,6 +17,7 @@
  * CAM  29-Dec-2009  10515 : Added Bible.
  * CAM  30-Dec-2009  10523 : Added Favicon.
  * CAM  12-Dec-2015  476204 : Remove pointless login and register links.
+ * CAM  30-May-2020  909743 : Updated table structure of page, added /tunes, removed New Search, Help and other redundant login/membership code.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 if (empty($root)) {
@@ -49,57 +50,20 @@ if (empty($title)) {
 
 <body topmargin=2 leftmargin=0 id="<? echo $pageName;?>">
 
-<table border=0 cellpadding=0 cellspacing=0 align=center cols=3>
-<tr><td><table border=0 cellpadding=0 cellspacing=0 class=outerBox width="900">
+<table border=0 cellpadding=0 cellspacing=0 class=outerBox width="900" align=center cols=3>
   <tr>
-    <td class="topnav"><img src="<? echo $root;?>img/f.gif" border=0 width=500 height=0></td>
+    <td class="topnav"><img src="<? echo $root;?>img/f.gif" border=0 width=500 height=10></td>
     <td class="topnav"><img src="<? echo $root;?>img/f.gif" border=0 width=20 height=0></td>
     <td class="topnav"><img src="<? echo $root;?>img/f.gif" border=0 width=460 height=0></td>
   </tr>
   <tr>
   <td valign=top colspan=3><table border=0 cellpadding=0 cellspacing=0 width="100%" height="100%" class="topnav">
-    <tr><td rowspan=2><a id="linkGt" href="<? echo $cfg['Site']['URL']; ?>"><? echo
-    str_replace(" ", "&nbsp;", $cfg['Site']['Name']); ?></a><span class="topsep">|</span><a id="linkBible" href="<? echo
-    $cfg['Site']['URL']; ?>/bible/">Bible</a><span class="topsep">|</span><a id="linkHymn" href="<? echo
-    $cfg['Site']['URL']; ?>/hymn/">Hymns</a></td>
-
-    <td class="loggedin" align=right><?php
-      if ($loggedin) {
-        echo "Logged in as <b>" . $member->getFullname() . "</b>";
-      } else {
-        echo "&nbsp;";
-      }
-    ?></td>
-
-    </tr>
-    <tr><td><table border=0 cellpadding=0 cellspacing=0 class="topnav" align=right>
-      <tr>
-        <td><a class="nav" href="index.php">new search</a><span class="sep">|</sep></td>
-        <?
-          if ($loggedin) {
-            // Nothing currently
-?>
-<?
-            if ($member->isAdmin()) {
-              // Nothing currently
-?>
-<?
-            }
-?>
-            <td><a class="nav" href="logout.php">logout</a><span class="sep">|</sep></td>
-<?
-          } else {
-?>
-<!--
-            <td><a class="nav" href="login.php">login</a><span class="sep">|</sep></td>
-            <td><a class="nav" href="register.php">register</a><span class="sep">|</sep></td>
--->
-<?
-          }
-        ?>
-        <td><a class="nav" href="help.php">help</a></td>
-      </tr>
-    </table></td></tr>
+    <tr><td><a id="linkGt" href="<? echo $cfg['Site']['URL']; ?>"><? echo
+      str_replace(" ", "&nbsp;", $cfg['Site']['Name']); ?></a><span class="topsep">|</span><a id="linkBible" href="<? echo
+      $cfg['Site']['URL']; ?>/bible/">Bible</a><span class="topsep">|</span><a id="linkHymn" href="<? echo
+      $cfg['Site']['URL']; ?>/hymn/">Hymns</a><span class="topsep">|</span><a id="linkTune" href="<? echo
+      $cfg['Site']['URL']; ?>/tune/">Tunes</a></td>
+      </tr><tr><td><img src="<? echo $root; ?>img/f.gif" height=10></td></tr>
 
 <?
     if ($tabs == "MINISTRY") {
@@ -114,9 +78,6 @@ if (empty($title)) {
       } else {
         $className = "KEYWORDborder";
       }
-?>
-    <tr><td colspan=3><img src="<? echo $root; ?>img/f.gif" height=10></td></tr>
-<?
     }
 ?>
     </table></td></tr>

@@ -12,11 +12,13 @@
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and changed session vars to include module name.
  * CAM  12-Dec-2015  476204 : Check session variables are set before referencing.
  * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
+ * CAM  30-May-2020  909743 : Added root.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Servant Filter";
 $tab = "author";
 $tabs = "MINISTRY";
+$root = "./";
 include $root.'tpl/top.php';
 
 $author_filter = isset($_SESSION['search_min_author'])?$_SESSION['search_min_author']:"";  if (!empty($_POST['author_filter'])) $author_filter = $_POST['author_filter'];

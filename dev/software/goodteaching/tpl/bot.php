@@ -24,6 +24,7 @@
  * CAM  05-Sep-2015  159308 : Version V0.0.16. Moved form to scriptures page.
  * CAM  12-Dec-2015  476204 : Lookup latest version from the database, and reference support email rather than frontburner.
  * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
+ * CAM  30-May-2020  909743 : Updated table structure of page.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
  $releaseNo = "";
@@ -42,8 +43,7 @@
 
 ?>
 </td></tr>
-</table></td></tr>
-<tr><td class="cpyrght"><a href="<? echo $root; ?>releases.php">V<?=$releaseNo?></a> released <?=$releaseDate?>.  For help, contact <a href="mailto:support@goodteaching.org">Support</a>.</td></tr>
+<tr><td class="cpyrght" colspan="3"><a href="<? echo $root; ?>releases.php">V<?=$releaseNo?></a> released <?=$releaseDate?>.  For help, contact <a href="mailto:support@goodteaching.org">Support</a></td></tr>
 </td></tr>
 </table>
 </body>
