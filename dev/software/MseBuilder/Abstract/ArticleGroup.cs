@@ -91,7 +91,10 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
     {
       foreach (ArticleGroup ag in this)
       {
-        article.Group = ag;
+        if (article.Title.StartsWith(ag.Title))
+        {
+          article.Group = ag;
+        }
       }
     }
 
