@@ -36,7 +36,7 @@ if ($row = mysqli_fetch_assoc($res)) {
 	  padding: 1px;
     margin: 1px;
     color: white;
-    font-family: "Verdana";
+    font-family: "Georgia";
 	 }
 	</style>
 	</head>
@@ -48,7 +48,9 @@ if ($row = mysqli_fetch_assoc($res)) {
   if (!empty($row["chorus"])) echo " Chorus " . $row["chorus"];
   echo "</h3>";
 	echo "<h4 style='text-align:right;'>" . $row["tune_author"] . "</h4>";
-	echo "<iframe src='" . $row["tune_url"] . "' width=650 height=120></frame>";
+	echo "<center>";
+	echo "<audio autoplay controls src='" . $row["tune_url"] . "'>Audio not supported by your browser</audio>";
+	echo "</center>";
 }
 ?>
 	</body>

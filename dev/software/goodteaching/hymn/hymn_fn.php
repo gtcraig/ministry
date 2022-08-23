@@ -271,16 +271,41 @@ function show_hymn($dbConn, $hymn, $language) {
   if ($row = mysqli_fetch_row($res)) {
     echo "<tr><td colspan=2 class=author><a href=\"javascript:void();\" onclick=\"view_author('" . $row[0] . "');\">" . $row[0] . "</a></td></tr>\n";
   }
+
+  $singSql = "SELECT count(*) FROM hymn_sing WHERE hymn_no=$hymn";
+  $res = mysqli_query($dbConn, $singSql) or die("<h1>Query failed</h1><pre>$singSql</pre>");
+  $singCount=0;
+  if ($row = mysqli_fetch_row($res)) {
+    $singCount=$row[0];   
+  }
 ?>
   </table></td><td align=right valign="top">
     <table border=0 cellspacing=0 cellpadding=0>
-    <tr><td align=center><b><i style="color:eecc33">*NEW*</i> Listen to Tunes</b></td></tr><tr><td><ul>
+<?
+  if ($singCount>0) {    
+?>
+    <tr><td align=center><b><i style="color:eecc33">*NEW*</i> Sing Along</b></td></tr><tr><td><ul>
+<?
+  $singSql = "SELECT s.hymn_no, s.tune_id, t.tune_name, s.recorded_by FROM hymn_sing s INNER JOIN hymn_tune t ON t.tune_id=s.tune_id WHERE s.hymn_no=$hymn";
+  $res = mysqli_query($dbConn, $singSql) or die("<h1>Query failed</h1><pre>$singSql</pre>");
+  while ($row = mysqli_fetch_row($res)) {
+    echo "<li><a href='sing_player.php?hymn_no=" . $row[0] . "&tune_id=" . $row[1] . 
+      "' onclick=\"window.open('sing_player.php?hymn_no=" . $row[0] . "&tune_id=" . $row[1] . 
+      "','GoodTeachingPlay','width=750,height=280');return false;\">" .
+      $row[2] . "</a></li>\n";
+  }
+?>
+    </ul></td></tr>
+<?
+  }
+?>
+    <tr><td align=center><b>Listen to Tunes</b></td></tr><tr><td><ul>
 <?
   $tuneSql = "SELECT tune_name, tune_url, tune_id FROM hymn_tune WHERE meter_id=" . $meterId . " ORDER BY tune_name";
-  $res = mysqli_query($dbConn, $tuneSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
+  $res = mysqli_query($dbConn, $tuneSql) or die("<h1>Query failed</h1><pre>$tuneSql</pre>");
   while ($row = mysqli_fetch_row($res)) {
     echo "<li><a href='hymn_player.php?tune_id=" . $row[2] .
-      "' onclick=\"window.open('hymn_player.php?tune_id=" . $row[2] . "','GoodTeachingTune','width=670,height=300');return false;\">" .
+      "' onclick=\"window.open('hymn_player.php?tune_id=" . $row[2] . "','GoodTeachingPlay','width=750,height=280');return false;\">" .
       $row[0] . "</a></li>\n";
   }
 ?>

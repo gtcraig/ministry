@@ -130,7 +130,12 @@ if ($row = mysqli_fetch_assoc($res)) {
   if (!empty($row["chorus"])) echo " Chorus " . $row["chorus"];
   echo "</h3>";
 	echo "<h4 style='text-align:right;'>" . $row["tune_author"] . "</h4>";
-	echo "<iframe border=0 src='" . $row["tune_url"] . "' width=480 height=250></iframe>";
+	//echo "<iframe border=0 src='" . $row["tune_url"] . "' width=480 height=550></iframe>";
+  
+  echo "<audio autoplay controls src='" . $row["tune_url"]. "' type='audio/mp3'>";
+  echo "Your browser does not support the audio element.";
+  echo "</audio>";
+  
 }
 ?>
   </td></tr></table>

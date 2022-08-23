@@ -60,7 +60,7 @@ function remove_mselinks($text) {
 ?>
   <script language="Javascript" src="ajax.js"></script>
 
-  <form action="index.php" method="post" name="searchForm" target="_top" id="searchForm">
+  <form action="." method="post" name="searchForm" target="_top" id="searchForm">
   <table border=0 cellpadding=3 cellpadding=0>
 		<tr>
 			<td colspan=2 class="fld">Search Darby Translation Footnotes</td>

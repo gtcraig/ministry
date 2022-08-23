@@ -18,6 +18,7 @@
  * CAM  30-Dec-2009  10523 : Added Favicon.
  * CAM  12-Dec-2015  476204 : Remove pointless login and register links.
  * CAM  30-May-2020  909743 : Updated table structure of page, added /tunes, removed New Search, Help and other redundant login/membership code.
+ * CAM  15-Jan-2021  839152 : Added /sing.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 if (empty($root)) {
@@ -62,7 +63,10 @@ if (empty($title)) {
       str_replace(" ", "&nbsp;", $cfg['Site']['Name']); ?></a><span class="topsep">|</span><a id="linkBible" href="<? echo
       $cfg['Site']['URL']; ?>/bible/">Bible</a><span class="topsep">|</span><a id="linkHymn" href="<? echo
       $cfg['Site']['URL']; ?>/hymn/">Hymns</a><span class="topsep">|</span><a id="linkTune" href="<? echo
-      $cfg['Site']['URL']; ?>/tune/">Tunes</a></td>
+      $cfg['Site']['URL']; ?>/tune/">Tunes</a><span class="topsep">      
+      <?
+      //|</span><a id="linkSing" href="<? echo $cfg['Site']['URL']; /sing/">Sing</a></td>
+      ?>
       </tr><tr><td><img src="<? echo $root; ?>img/f.gif" height=10></td></tr>
 
 <?

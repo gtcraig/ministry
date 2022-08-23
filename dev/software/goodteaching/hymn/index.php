@@ -22,19 +22,17 @@ $pageCss = "hymn.css";
 include $root.'tpl/top.php';
 include 'hymn_fn.php';
 
-$hymn_no = NULL;     if (!empty($_POST['hymn_no'])) $hymn_no = $_POST['hymn_no'];
-$keywords = NULL;    if (!empty($_POST['keywords'])) $keywords = $_POST['keywords'];
-$author = NULL;      if (!empty($_POST['author'])) $author = $_POST['author'];
-$meter_id = NULL;    if (!empty($_POST['meter_id'])) $meter_id = $_POST['meter_id'];
-$category_id = NULL; if (!empty($_POST['category_id'])) $category_id = $_POST['category_id'];
-$language = NULL;    if (!empty($_POST['language'])) $language = $_POST['language'];
-$sitename = NULL;    if (!empty($_POST['sitename'])) $sitename = $_POST['sitename'];
-
+$hymn_no = NULL;     if (!empty($_GET['hymn_no'])) $hymn_no = $_GET['hymn_no'];
+$keywords = NULL;    if (!empty($_GET['keywords'])) $keywords = $_GET['keywords'];
+$author = NULL;      if (!empty($_GET['author'])) $author = $_GET['author'];
+$meter_id = NULL;    if (!empty($_GET['meter_id'])) $meter_id = $_GET['meter_id'];
+$category_id = NULL; if (!empty($_GET['category_id'])) $category_id = $_GET['category_id'];
+$language = NULL;    if (!empty($_GET['language'])) $language = $_GET['language'];
 
 ?>
   <script language="Javascript" src="ajax.js"></script>
 
-  <form action="index.php" method="post" name="searchForm" target="_top" id="searchForm">
+  <form action="." method="get" name="searchForm" target="_top" id="searchForm">
   <table border=0>
     <tr>
       <td class="fld">Hymn No.</th>
@@ -64,8 +62,6 @@ $sitename = NULL;    if (!empty($_POST['sitename'])) $sitename = $_POST['sitenam
       </td>
     </tr>
   </table>
-  <input type="hidden" name="sitename" value="<?php echo $sitename; ?>" />
-  <input type="hidden" name="op" value="search" />
   </form>
 
   </td></tr>
