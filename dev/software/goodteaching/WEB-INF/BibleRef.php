@@ -16,7 +16,7 @@ class BibleRef {
   var $vStart=0;
   var $vEnd=0;
 
-  function BibleRef($bibleBook, $ref, $chapter, $vStart, $vEnd) {
+  function __construct($bibleBook, $ref, $chapter, $vStart, $vEnd) {
     $this->bibleBook = $bibleBook;
     $this->ref = $ref;
     $this->chapter = $chapter;
@@ -65,7 +65,7 @@ class BibleRefCollection {
 
   var $refs;
 
-  function BibleRefCollection($dbConn, $sqlFactory, $author, $vol, $page, $para, $bookid, $chapter) {
+  function __construct($dbConn, $sqlFactory, $author, $vol, $page, $para, $bookid, $chapter) {
     $this->refs = array();
 
     $sql = $sqlFactory->getBibleRefSql($author, $vol, $page, $para, $bookid, $chapter);

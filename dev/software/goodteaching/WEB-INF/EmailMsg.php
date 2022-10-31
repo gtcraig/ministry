@@ -50,7 +50,7 @@ class EmailMsg {
 
   var $_visitor_location;
 
-  function EmailMsg() {
+  function __construct() {
   }
 
   function getHeaders($cc='') {

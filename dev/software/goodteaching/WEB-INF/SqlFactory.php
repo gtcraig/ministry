@@ -45,7 +45,7 @@ class SqlFactory {
 
   // ----- Constructors --------------------------------------------------- //
 
-  function SqlFactory($tableName='', $fieldList='', $orderBy='') {
+  function __construct($tableName='', $fieldList='') {
     $this->tableName = $tableName;
     $this->fieldList = $fieldList;
     $this->orderBy = "author, vol, page";

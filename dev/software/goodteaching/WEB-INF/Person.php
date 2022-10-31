@@ -186,7 +186,7 @@ class Person extends Tuple {
   * @public
   * @returns
   */
-  function Person($id='', $firstname='', $lastname='', $email='', $dob='', $admin=false, $membertype='', $verify_code='') {
+  function __construct($id='', $firstname='', $lastname='', $email='', $dob='', $admin=false, $membertype='', $verify_code='') {
     $this->id = $id;
     $this->desc = $firstname . " " . $lastname;
     $this->firstname = $firstname;
