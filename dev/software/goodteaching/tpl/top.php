@@ -42,6 +42,8 @@ if (empty($title)) {
 
 ?><head>
   <title><? echo $title;?></title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Biryani:wght@200">  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
   <link href="<? echo $root;?>mse.css" rel="stylesheet" type="text/css" />
   <? if (!empty($pageCss)) { ?><link href="<? echo $pageCss;?>" rel="stylesheet" type="text/css" /><? } ?>
   <script language="Javascript" src="<? echo $root;?>date.js"></script>
@@ -63,7 +65,7 @@ if (empty($title)) {
       str_replace(" ", "&nbsp;", $cfg['Site']['Name']); ?></a><span class="topsep">|</span><a id="linkBible" href="<? echo
       $cfg['Site']['URL']; ?>/bible/">Bible</a><span class="topsep">|</span><a id="linkHymn" href="<? echo
       $cfg['Site']['URL']; ?>/hymn/">Hymns</a><span class="topsep">|</span><a id="linkTune" href="<? echo
-      $cfg['Site']['URL']; ?>/tune/">Tunes</a><span class="topsep">      
+      $cfg['Site']['URL']; ?>/tune/">Tunes</a><span class="topsep"></td>
       <?
       //|</span><a id="linkSing" href="<? echo $cfg['Site']['URL']; /sing/">Sing</a></td>
       ?>

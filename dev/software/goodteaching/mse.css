@@ -25,9 +25,9 @@ body {
   background-color: #66B7E2;
 }
 
-p, table, td, input, select, textarea {
+p, a, h3, table, td, input, select, textarea {
   color: #000000;
-  FONT-FAMILY: Tahoma, Arial, Helvetica;
+  font-family: 'Montserrat', sans-serif;
   font-size: 10pt;
   TEXT-DECORATION: none;
 }
@@ -40,7 +40,6 @@ a#linkSing,
 a#linkEaston,
 a#linkHitchcock
 {
-  font-family: Tahoma, Arial, Helvetica;
   font-size: 11pt;
   text-decoration: none;
   font-weight: bold;
@@ -128,7 +127,6 @@ th {
 }
 
 #latestvols h3 {
-  FONT-FAMILY: Tahoma, Arial, Helvetica;
   font-size: 11pt;
   color: #120966;
   font-weight: bold;
@@ -225,15 +223,13 @@ td.toolTip {
 td.sel {
   color: #FFFFFF;
   background-color: #3C6C9E;
-  FONT-FAMILY: Tahoma, Helvetica;
-  font-weight: bold
+  font-weight: bold;
 }
 
 td.sub {
   color: #FFFFFF;
   background-color: #3C6C9E;
-  FONT-FAMILY: Tahoma, Arial, Helvetica;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .outerBox {
@@ -281,7 +277,6 @@ td.cat {
 }
 
 A.nav,A.nav:visited,A.nav:active,A.nav:link,A.nav:visited {
-  FONT-FAMILY: Tahoma, Arial, Helvetica;
   color: #FFFFFF;
   font-size: 8pt;
   TEXT-DECORATION: none;
@@ -308,21 +303,18 @@ A:hover {
 /** Message formats. */
 
 p.err {
-  FONT-FAMILY: Verdana, Arial, Helvetica;
   font-size: 14pt;
   color: #BE0221;
   font-weight: normal;
 }
 
 p.quest {
-  FONT-FAMILY: Tahoma, Arial, Helvetica;
   font-size: 14pt;
   color: #120966;
   font-weight: normal;
 }
 
 p.statement {
-  FONT-FAMILY: Verdana, Arial, Helvetica;
   font-size: 14pt;
   color: #120966;
   font-weight: normal;

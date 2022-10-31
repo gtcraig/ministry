@@ -15,7 +15,7 @@ class BibleBook {
   var $bookName = "";
   var $singleChap = false;
 
-  function BibleBook($dbConn, $bookid, $bookName='', $singleChap=0) {
+  function __construct($dbConn, $bookid, $bookName='', $singleChap=0) {
     $this->bookId = $bookid;
 
     if (empty($bookName)) {
