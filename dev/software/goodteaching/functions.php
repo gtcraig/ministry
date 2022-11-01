@@ -117,7 +117,7 @@ function f_highlight_text($text, &$sqlFactory, $abbrev=false) {
   if ($sqlFactory->isSearchText()) {
     // Firstly, look for any matching keywords
     $atoms = $sqlFactory->getAtoms();
-
+    
     for($i=0; $i<count($atoms); $i++) {
       $p = stripos($rval, $atoms[$i]);
       $cntr = 0;
@@ -130,18 +130,37 @@ function f_highlight_text($text, &$sqlFactory, $abbrev=false) {
       }
     }
   }
+  
+  // Replace Asterisk for Italics, Tilde for Apostrophe 
+  // and remove @ Scripture refs TODO Hyperlink Scriptures
+  $ital = $rval;
+  $rval = "";
+  $italics = false;
+  for ($i = 0; $i < strlen($ital); $i ++) {
+    $c = substr($ital, $i, 1);
+    if ($c === "*") {
+      if ($italics) {
+        $rval = $rval . "</i>";
+      } else {
+        $rval = $rval . "<i>";
+      }
+      $italics = (!$italics);
+    } elseif ($c === "@") {
+      // Ignore
+    } elseif ($c === "~") {
+      $rval = $rval . "&rsquo;";
+    } else {
+      $rval .= $c;
+    }
+  }
 
   if ($sqlFactory->isBookRef()) {
     // Next, highlight matching scripture references
     // TODO 10212
   }
 
-  // Remove remaining Scripture markup
-  $rval = str_replace('@', '', $rval);
-
-  // Replace dashes
-  $rval = str_replace('--', '&mdash;', $rval);
-
+  $rval = str_replace('--', '&mdash;', $rval);  // Replace dashes
+  
   return $rval;
 }
 
