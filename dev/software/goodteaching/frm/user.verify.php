@@ -37,8 +37,7 @@
     </tr>
     <tr>
       <td class="fld">Email Address</td>
-      <td><input name="email_address" type="text" id="email_address" size=30
-      <? echo 'value="'. $email_address . '">';?></td>
+      <td><input name="email_address" type="text" id="email_address" size=30 value="<?=$email_address?>"></td>
     </tr>
     <tr>
       <td>&nbsp;</td>
