@@ -43,7 +43,7 @@
 
 ?>
 </td></tr>
-<tr><td class="cpyrght" colspan="3"><a href="<? echo $root; ?>releases.php">V<?=$releaseNo?></a> released <?=$releaseDate?>.  For help, contact <a href="mailto:support@goodteaching.org">Support</a></td></tr>
+<tr><td class="cpyrght" colspan="3"><a href="<?=$root?>releases.php">V<?=$releaseNo?></a> released <?=$releaseDate?>.  For help, contact <a href="mailto:support@goodteaching.org">Support</a></td></tr>
 </td></tr>
 </table>
 </body>

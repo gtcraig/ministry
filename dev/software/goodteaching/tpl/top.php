@@ -42,9 +42,7 @@ if (empty($title)) {
 
 ?><head>
   <title><? echo $title;?></title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Biryani:wght@200">  
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link href="<? echo $root;?>mse.css" rel="stylesheet" type="text/css" />
   <? if (!empty($pageCss)) { ?><link href="<? echo $pageCss;?>" rel="stylesheet" type="text/css" /><? } ?>
   <script language="Javascript" src="<? echo $root;?>date.js"></script>

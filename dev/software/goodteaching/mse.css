@@ -27,9 +27,14 @@ body {
 
 p, a, h3, table, td, input, select, textarea {
   color: #000000;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 10pt;
-  TEXT-DECORATION: none;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+a {
+	font-weight: 500;
 }
 
 a#linkGt,
@@ -40,9 +45,7 @@ a#linkSing,
 a#linkEaston,
 a#linkHitchcock
 {
-  font-size: 11pt;
   text-decoration: none;
-  font-weight: bold;
   color: #fff;
   padding: 2px;
 }
@@ -254,7 +257,6 @@ td.sub {
 .cpyrght {
   background-color: #66B7E2;
   color: white;
-  font-size: 9pt;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
