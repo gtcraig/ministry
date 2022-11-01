@@ -23,16 +23,20 @@ include_once $root.'functions.php';
 
 $bookid = isset($_SESSION['search_min_bookid'])?$_SESSION['search_min_bookid']:"";     if (!empty($_POST['bookid'])) $bookid = $_POST['bookid'];
 $chapter = isset($_SESSION['search_min_chapter'])?$_SESSION['search_min_chapter']:"";  if (!empty($_POST['chapter'])) $chapter = $_POST['chapter'];
-$vstart = isset($_SESSION['search_min_vstart'])?$_SESSION['search_min_vstart']:"";     if (!empty($_POST['chapter']) && ($_POST['vstart']!="")) $vstart = $_POST['vstart'];
+$vstart = isset($_SESSION['search_min_vstart'])?$_SESSION['search_min_vstart']:"";     if (!empty($_POST['vstart'])) $vstart = $_POST['vstart']; 
 $primary = isset($_SESSION['search_min_primary'])?$_SESSION['search_min_primary']:"";  if (isset($_POST['primary'])) $primary = $_POST['primary'];
 
 if ($bookid == "NULL") {
   $bookid = "";
   $chapter = "";
   $vstart = 0;
-} else if ($chapter == "NULL") {
+} else if (($chapter == "NULL") && (empty($vstart))) {
   $chapter = "";
   $vstart = 0;
+}
+
+if (!empty($vstart) && empty($chapter)) {
+  $chapter = 0;
 }
 
 $_SESSION['search_min_bookid'] = $bookid;

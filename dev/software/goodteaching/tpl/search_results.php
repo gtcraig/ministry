@@ -21,6 +21,8 @@
 
 include_once($root.'functions.php');
 
+global $cfg, $dbConn;
+
 $keywords = isset($_SESSION['search_min_keywords']) ? $_SESSION['search_min_keywords']: "";
 $searchType = isset($_SESSION['search_min_type']) ? $_SESSION['search_min_type']: "";
 $author = isset($_SESSION['search_min_author']) ? $_SESSION['search_min_author']: "";
@@ -60,14 +62,14 @@ if ((count($author)>0) && (empty($author['ALL']))) {
   $sqlFactory->setAuthors($author);
 }
 
-if (!empty($bookid) && !empty($chapter)) {
+if (!empty($bookid) && (!empty($chapter) || !empty($vstart))) {
   $sqlFactory->setBookRef($bookid, $primary, $chapter, $vstart);
-
   if (empty($keywords)) $showBibleRef = true;
 }
 
 if ($sqlFactory->isSearch()) {
   $rowCount = 0;
+
   $ssql = mysqli_query($dbConn, $sqlFactory->getSql(true)) or die(mysql_error());
   if ($row = mysqli_fetch_array($ssql)) {
     $rowCount = $row[0];

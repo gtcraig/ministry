@@ -151,6 +151,7 @@ function f_url_ref($a,$v,$pg,$pa) {
 
 function f_show_books($dbConn) {
   global $stext, $uauthor, $uvol, $ubookid, $uchapter, $uvstart, $bookname, $singlechap;
+  $first=true;
   $prevtest = "";
 
   $sql = "SELECT DISTINCT b.testament, r.bookid, b.bookname ".
@@ -172,15 +173,20 @@ function f_show_books($dbConn) {
     }
 
     if ($testament <> $prevtest) {
-?>
-<h3><?php echo $testament; ?></h3>
+      $first=true;
+?><h3><?php echo $testament; ?></h3>
 <?php
       $prevtest = $testament;
     }
-?><a href="javascript:void();" onclick="submitBookRef(<?php echo $bookid; ?>);return false;"><?php
+    if (!$first) {
+      ?> | <?php
+    }
+
+    ?><a href="javascript:void();" onclick="submitBookRef(<?php echo $bookid; ?>);return false;"><?php
 echo str_replace(" ", "&nbsp;", $bookname); ?></a>
 <?php
-  }
+      $first=false;
+    }
 }
 
 function f_show_chapters($dbConn) {
@@ -225,6 +231,10 @@ function f_show_verses($dbConn) {
     $sql .= "AND chapter = $chapter ";
   }
 
+  if ($bibleBook->isSingleChap()) {
+    $chapter = 0;
+  }
+
 /** // TODO
   if (!empty($uauthor)) {
     $sql .= "AND author = '$uauthor' ";
@@ -238,7 +248,7 @@ function f_show_verses($dbConn) {
   //echo "<pre>$sql</pre>";
 ?>
 <a href="javascript:void" onclick="submitBookRef('NULL');return false;">Books</a>&nbsp;|
-<a href="javascript:void();" onclick="submitBookRef(<?php echo $bibleBook->getBookId(); ?>, 'NULL'); return false;"><?php echo $bibleBook->getBookName(); ?></a>
+<a href="javascript:void();" onclick="submitBookRef(<?=$bibleBook->getBookId()?>); return false;"><?=$bibleBook->getBookName()?></a>
 <?php
 if (!$bibleBook->isSingleChap()) {
   echo "&nbsp;|&nbsp;Chapter $chapter";

@@ -94,7 +94,7 @@ class SqlFactory {
   }
 
   function isBookRef() {
-    return (!empty($this->bookId) && !empty($this->chapter));
+    return (!empty($this->bookId) && (!empty($this->chapter) || !empty($this->vStart)));
   }
 
   function isShowBookRef() {
@@ -154,16 +154,16 @@ class SqlFactory {
 
     if ($this->isBookRef()) {
       $sql .= $this->whereClause(
-          "r.bookid = b.bookid \n".
-          "AND r.author = t.author \n".
-          "AND r.vol = t.vol \n".
-          "AND r.page = t.page \n".
-          "AND r.para = t.para \n".
-          "AND a.author = r.author \n".
-          "AND a.vol = r.vol \n".
-          "AND a.page = r.article_page \n".
-          "AND r.bookid = " . $this->bookId . "\n".
-          "AND r.chapter = " . $this->chapter . "\n");
+        "r.bookid = b.bookid \n".
+        "AND r.author = t.author \n".
+        "AND r.vol = t.vol \n".
+        "AND r.page = t.page \n".
+        "AND r.para = t.para \n".
+        "AND a.author = r.author \n".
+        "AND a.vol = r.vol \n".
+        "AND a.page = r.article_page \n".
+        "AND r.bookid = " . $this->bookId . "\n".
+        "AND r.chapter = " . $this->chapter . "\n");
 
       if ($this->vStart > 0) {
         $sql .= "AND r.vstart = " . $this->vStart . "\n";

@@ -14,28 +14,23 @@
   <table border="0" align="center" cellpadding="0" cellspacing="8">
     <tr>
       <td class="<? echo (!empty($retry) && empty($username)) ? "fldmand" : "fld" ?>">Username</td>
-      <td><input name="username" type="text" id="username" size=6
-      <? echo 'value="'. $username . '">';?></td>
+      <td><input name="username" type="text" id="username" size=6 value="<?=$username?>"></td>
     </tr>
     <tr>
       <td class="<? echo (!empty($retry) && empty($first_name)) ? "fldmand" : "fld" ?>">First name</td>
-      <td><input name="first_name" type="text" id="first_name" size=15
-      <? echo 'value="'. $first_name . '">';?></td>
+      <td><input name="first_name" type="text" id="first_name" size=15 value="<?=$first_name?>"></td>
     </tr>
     <tr>
       <td class="<? echo (!empty($retry) && empty($last_name)) ? "fldmand" : "fld" ?>">Surname</td>
-      <td><input name="last_name" type="text" id="last_name" size=15
-      <? echo 'value="'. $last_name . '">';?></td>
+      <td><input name="last_name" type="text" id="last_name" size=15 value="<?=$last_name?>"></td>
     </tr>
     <tr>
       <td class="<? echo (!empty($retry) && empty($dob)) ? "fldmand" : "fld" ?>">Date of Birth</td>
-      <td><input name="dob" type="text" id="dob" size=10 onChange="checkDate(this);"
-      <? echo 'value="'. $dob . '">';?></td>
+      <td><input name="dob" type="text" id="dob" size=10 onChange="checkDate(this);" value="<?=$dob?>"></td>
     </tr>
     <tr>
       <td class="<? echo (!empty($retry) && empty($email_address)) ? "fldmand" : "fld" ?>">Email Address</td>
-      <td><input name="email_address" type="text" id="email_address" size=30
-      <? echo 'value="'. $email_address . '">';?></td>
+      <td><input name="email_address" type="text" id="email_address" size=30 value="<?=$email_address?>"></td>
     <tr>
       <td class="<? echo (!empty($retry) && empty($password1)) ? "fldmand" : "fld" ?>">Password</td>
       <td><input name="password1" type="password" id="password1" size=12></td>
