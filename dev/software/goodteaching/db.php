@@ -19,4 +19,6 @@ $dbConn = mysqli_connect(
   $cfg['Site']['Db']['Password'],
   $cfg['Site']['Db']['Database']
 ) or die ("Couldn't connect to server.");
+
+mysqli_query($dbConn, "set names 'utf8'");
 ?>
