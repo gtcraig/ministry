@@ -29,6 +29,8 @@ if (empty($pageName)) {
   $pageName = "pageGt";
 }
 
+header("Content-Type: text/html;charset=UTF-8");
+
 include_once $root.'Main.php';
 $member = NULL;  if (isset($_SESSION['member_person'])) $member = $_SESSION['member_person'];
 $loggedin = (isset($_SESSION['memberid']) && isset($_SESSION['Good Teaching Search Engine']));
@@ -42,6 +44,7 @@ if (empty($title)) {
 
 ?><head>
   <title><? echo $title;?></title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <link href="<? echo $root;?>mse.css" rel="stylesheet" type="text/css" />
   <? if (!empty($pageCss)) { ?><link href="<? echo $pageCss;?>" rel="stylesheet" type="text/css" /><? } ?>
