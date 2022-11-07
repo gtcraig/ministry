@@ -58,6 +58,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
         #region Double Quotation Marks
         if (rval.StartsWith("\"")) rval = "&ldquo;" + rval.Substring(1);   // Italics beginning at the start of a line
         rval = rval.Replace(" \"", " &ldquo;");
+        rval = rval.Replace("\" ", "&rdquo; ");
 
         rval = rval.Replace("\".", "&rdquo;.");
         rval = rval.Replace("\";", "&rdquo;;");
