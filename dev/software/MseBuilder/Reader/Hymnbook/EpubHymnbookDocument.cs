@@ -28,14 +28,12 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
     private Language _language;
     private DirectoryInfo _rootDir;
     private DirectoryInfo _outputEpub;
-    private DirectoryInfo _outputMobi;
     private DirectoryInfo _epubDir;
     private DirectoryInfo _metaDir;
     private DirectoryInfo _opsDir;
     private DirectoryInfo _cssDir;
     private DirectoryInfo _imgDir;
     private FileInfo _epubFile;
-    private FileInfo _mobiFile;
 
     private FileInfo _cssFile;
     private FileInfo _coverImage;
@@ -86,11 +84,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
       get { return _outputEpub; }
       set { _outputEpub = value; }
     }
-    public DirectoryInfo OutputMobi
-    {
-      get { return _outputMobi; }
-      set { _outputMobi = value; }
-    }
     public DirectoryInfo OpsDir
     {
       get { return _opsDir; }
@@ -131,12 +124,11 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
       get { return _hymns; }
     }
 
-    public EpubHymnbookDocument(Language language, DirectoryInfo root, DirectoryInfo outputEpub, DirectoryInfo outputMobi, FileInfo cssFile, FileInfo coverImage)
+    public EpubHymnbookDocument(Language language, DirectoryInfo root, DirectoryInfo outputEpub, FileInfo cssFile, FileInfo coverImage)
     {
       Language = language;
       RootDir = root;
       OutputEpub = outputEpub;
-      OutputMobi = outputMobi;
       _cssFile = cssFile;
       _coverImage = coverImage;
 
@@ -158,7 +150,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
       _imgDir = new DirectoryInfo(String.Format(@"{0}\img", _opsDir.FullName));
 
       _epubFile = new FileInfo(String.Format(@"{0}\{1}.epub", OutputEpub.FullName, Filename));
-      _mobiFile = new FileInfo(String.Format(@"{0}\{1}.mobi", OutputMobi.FullName, Filename));
 
       Ncx = new EpubNcx(this, _opsDir);
       Toc = new EpubToc(this, _opsDir);
@@ -189,12 +180,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
       CreateMimeType();
       CopyResources();
 
-      if (EngineSettings.Instance.Mode == BuildMode.KindleMobiEpub)
-      {
-        // MOBI generated with Kindle TOC
-        KindleGen.Instance.GenerateMobi(_opf.File, _mobiFile);
-      }
-      else if (EngineSettings.Instance.Mode == BuildMode.StandardEpub)
+      if (EngineSettings.Instance.Mode == BuildMode.StandardEpub)
       {
         Zipper.Instance.ZipDirectory(_epubDir, _epubFile);
       }

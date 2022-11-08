@@ -332,10 +332,5 @@ namespace FrontBurner.Ministry.MseBuilder
     {
       EngineSettings.Instance.Mode = BuildMode.StandardEpub;
     }
-
-    private void MobiChecked(object sender, EventArgs e)
-    {
-      EngineSettings.Instance.Mode = BuildMode.KindleMobiEpub;
-    }
   }
 }

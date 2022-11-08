@@ -32,14 +32,12 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 
     private DirectoryInfo _rootDir;
     private DirectoryInfo _outputEpub;
-    private DirectoryInfo _outputMobi;
     private DirectoryInfo _epubDir;
     private DirectoryInfo _metaDir;
     private DirectoryInfo _opsDir;
     private DirectoryInfo _cssDir;
     private DirectoryInfo _imgDir;
     private FileInfo _epubFile;
-    private FileInfo _mobiFile;
 
     private FileInfo _cssFile;
     private FileInfo _authorImage;
@@ -78,11 +76,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       get { return _outputEpub; }
       set { _outputEpub = value; }
     }
-    public DirectoryInfo OutputMobi
-    {
-      get { return _outputMobi; }
-      set { _outputMobi = value; }
-    }
     public DirectoryInfo OpsDir
     {
       get { return _opsDir; }
@@ -119,11 +112,10 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       get { return _articles; }
     }
 
-    public EpubDocument(DirectoryInfo root, DirectoryInfo outputEpub, DirectoryInfo outputMobi, Volume volume, FileInfo cssFile, FileInfo authorImage, FileInfo coverImage)
+    public EpubDocument(DirectoryInfo root, DirectoryInfo outputEpub, Volume volume, FileInfo cssFile, FileInfo authorImage, FileInfo coverImage)
     {
       RootDir = root;
       OutputEpub = outputEpub;
-      OutputMobi = outputMobi;
       Volume = volume;
       _cssFile = cssFile;
       _authorImage = authorImage;
@@ -133,8 +125,8 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 
       _articles = new EpubArticleCollection(this);
 
-      // Build based on the Epub for Mobi, alter for Standard later (as this has less functionality)
-      EngineSettings.Instance.Mode = BuildMode.KindleMobiEpub;
+      // Build based on Standard Epub - Mobi has been entirely removed (as no longer supported by Kindle)
+      EngineSettings.Instance.Mode = BuildMode.StandardEpub;
 
       GenerateEpub();
     }
@@ -150,7 +142,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       _imgDir = new DirectoryInfo(String.Format(@"{0}\img", _opsDir.FullName));
 
       _epubFile = new FileInfo(String.Format(@"{0}\{1}.epub", OutputEpub.FullName, _volume.Filename));
-      _mobiFile = new FileInfo(String.Format(@"{0}\{1}.mobi", OutputMobi.FullName, _volume.Filename));
 
       Ncx = new EpubNcx(this, _opsDir);
       Toc = new EpubToc(this, _opsDir);
@@ -181,11 +172,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       CreateMimeType();
       CopyResources();
 
-      // MOBI generated with Kindle TOC
-      KindleGen.Instance.GenerateMobi(_opf.File, _mobiFile);
-
-      // Regenerate without the Kindle TOC for EPUB (iPad etc) and with Cover page
-      EngineSettings.Instance.Mode = BuildMode.StandardEpub;
       Opf.GenerateEpub();
       Opf.GenerateToc();
       Opf.SaveFile();
@@ -218,7 +204,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
     protected void CopyResources()
     {
       Color gold = Color.FromArgb(255, 221, 51);
-      Color deepGold = Color.FromArgb(196, 180, 48);
+      //Color deepGold = Color.FromArgb(196, 180, 48);
       Color fontColor = gold;
 
       _cssFile.CopyTo(String.Format(@"{0}\{1}", _cssDir.FullName, _cssFile.Name), true);
