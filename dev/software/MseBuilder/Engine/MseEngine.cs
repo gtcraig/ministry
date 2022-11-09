@@ -266,7 +266,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       DirectoryInfo root = new DirectoryInfo(@"C:\tmp\epub");
       DirectoryInfo files = new DirectoryInfo(@"C:\tmp\epub\dirs");
       DirectoryInfo epubDir = new DirectoryInfo(@"C:\tmp\epub\epub");
-      DirectoryInfo mobiDir = new DirectoryInfo(@"C:\tmp\epub\mobi");
 
       try
       {
@@ -274,8 +273,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         files.Create();
         if (epubDir.Exists) epubDir.Delete(true);
         epubDir.Create();
-        if (mobiDir.Exists) mobiDir.Delete(true);
-        mobiDir.Create();
       }
       catch
       {
@@ -293,7 +290,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
           FileInfo authorImageFile = new FileInfo(String.Format(@"{0}\img\author\{1}", exe.DirectoryName, vol.Author.ImageFilename));
           FileInfo coverImageFile = new FileInfo(String.Format(@"{0}\img\cover\{1}", exe.DirectoryName, vol.Author.ImageFilename));
 
-          EpubDocument epub = new EpubDocument(files, epubDir, mobiDir, vol, cssFile, authorImageFile, coverImageFile);
+          EpubDocument epub = new EpubDocument(files, epubDir, vol, cssFile, authorImageFile, coverImageFile);
 
           int currentArticlePage = -1;
           EpubArticle article = null;
@@ -371,7 +368,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       DirectoryInfo root = new DirectoryInfo(@"C:\tmp\epub");
       DirectoryInfo files = new DirectoryInfo(@"C:\tmp\epub\dirs");
       DirectoryInfo epubDir = new DirectoryInfo(@"C:\tmp\epub\epub");
-      DirectoryInfo mobiDir = new DirectoryInfo(@"C:\tmp\epub\mobi");
 
       try
       {
@@ -379,8 +375,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         files.Create();
         if (epubDir.Exists) epubDir.Delete(true);
         epubDir.Create();
-        if (mobiDir.Exists) mobiDir.Delete(true);
-        mobiDir.Create();
       }
       catch
       {
@@ -396,7 +390,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         FileInfo authorImageFile = new FileInfo(String.Format(@"{0}\img\author\{1}", exe.DirectoryName, vol.Author.ImageFilename));
         FileInfo coverImageFile = new FileInfo(String.Format(@"{0}\img\cover\{1}", exe.DirectoryName, vol.Author.ImageFilename));
 
-        EpubDocument epub = new EpubDocument(files, epubDir, mobiDir, vol, cssFile, authorImageFile, coverImageFile);
+        EpubDocument epub = new EpubDocument(files, epubDir, vol, cssFile, authorImageFile, coverImageFile);
 
         int currentArticle = 0;
         EpubArticle article = null;
@@ -469,7 +463,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       DirectoryInfo root = new DirectoryInfo(@"C:\tmp\epub");
       DirectoryInfo files = new DirectoryInfo(@"C:\tmp\epub\dirs");
       DirectoryInfo epubDir = new DirectoryInfo(@"C:\tmp\epub\epub");
-      DirectoryInfo mobiDir = new DirectoryInfo(@"C:\tmp\epub\mobi");
 
       try
       {
@@ -477,8 +470,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         files.Create();
         if (epubDir.Exists) epubDir.Delete(true);
         epubDir.Create();
-        if (mobiDir.Exists) mobiDir.Delete(true);
-        mobiDir.Create();
       }
       catch
       {
@@ -494,7 +485,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         FileInfo authorImageFile = new FileInfo(String.Format(@"{0}\img\author\{1}", exe.DirectoryName, vol.Author.ImageFilename));
         FileInfo coverImageFile = new FileInfo(String.Format(@"{0}\img\cover\{1}", exe.DirectoryName, vol.Author.ImageFilename));
 
-        EpubDocument epub = new EpubDocument(files, epubDir, mobiDir, vol, cssFile, authorImageFile, coverImageFile);
+        EpubDocument epub = new EpubDocument(files, epubDir, vol, cssFile, authorImageFile, coverImageFile);
 
         int currentArticle = 0;
         int currentChapter = 0;
@@ -621,7 +612,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       DirectoryInfo root = new DirectoryInfo(@"C:\tmp\epub");
       DirectoryInfo files = new DirectoryInfo(@"C:\tmp\epub\dirs");
       DirectoryInfo epubDir = new DirectoryInfo(@"C:\tmp\epub\epub");
-      DirectoryInfo mobiDir = new DirectoryInfo(@"C:\tmp\epub\mobi");
 
       try
       {
@@ -629,8 +619,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         files.Create();
         if (epubDir.Exists) epubDir.Delete(true);
         epubDir.Create();
-        if (mobiDir.Exists) mobiDir.Delete(true);
-        mobiDir.Create();
       }
       catch (IOException ioe)
       {
@@ -646,7 +634,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       {
         FileInfo coverImageFile = new FileInfo(String.Format(@"{0}\img\hymnbook\hymnbook_{1}.png",
           exe.DirectoryName, Languages.LanguageCode(lang)));
-        EpubHymnbookDocument hymnDoc = new EpubHymnbookDocument(lang, files, epubDir, mobiDir, cssFile, coverImageFile);
+        EpubHymnbookDocument hymnDoc = new EpubHymnbookDocument(lang, files, epubDir, cssFile, coverImageFile);
 
         foreach (DataRow hr in DatabaseLayer.Instance.GetHymns(lang).Rows)
         {

@@ -34,7 +34,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
     private XmlElement _metaData;
     private XmlElement _manifest;
     private XmlElement _spine;
-    private XmlElement _guide;
 
     public override string XmlFilename { get { return String.Format("{0}-{1:000}.opf", Doc.Volume.Author.Inits.ToLower(), Doc.Volume.Vol); } }
     public override string RootName { get { return "package"; } }
@@ -81,15 +80,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       _spine = AppendElement(Root, "spine");
       AppendAttribute(Spine, "toc", "ncx");
 
-      if (EngineSettings.Instance.Mode == BuildMode.KindleMobiEpub)
-      {
-        _guide = AppendElement(Root, "guide"); // Kindle TOC support
-        XmlElement reference = AppendElement(_guide, "reference");
-        AppendAttribute(reference, "type", "toc");
-        AppendAttribute(reference, "title", "Table of Contents");
-        AppendAttribute(reference, "href", Doc.Toc.XmlFile.Name);
-      }
-
       AddMetaData();
       AddSupportFiles();
     }
@@ -108,15 +98,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
         if (outputArticle)
         {
           AppendSpineItem(article.QualifiedId, article.XmlFile.Name);
-        }
-
-        if (article is EpubTitlePage)
-        {
-          if (EngineSettings.Instance.Mode == BuildMode.KindleMobiEpub)
-          {
-            // Only add the 'dummy' HTML TOC for Kindle generations
-            AppendSpineItem(Doc.Toc.QualifiedId, Doc.Toc.XmlFile.Name);
-          }
         }
       }
     }

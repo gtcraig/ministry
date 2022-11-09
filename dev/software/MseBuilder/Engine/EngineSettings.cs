@@ -13,8 +13,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
 {
   public enum BuildMode
   {
-    StandardEpub,
-    KindleMobiEpub
+    StandardEpub
   }
 
   /// <summary>
