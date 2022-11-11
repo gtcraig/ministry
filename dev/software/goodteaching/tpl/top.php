@@ -52,7 +52,17 @@ if (empty($title)) {
   <script language="Javascript" src="<? echo $root;?>form.js"></script>
   <link rel="icon" type="image/vnd.microsoft.icon" href="<? echo $cfg['Site']['URL']; ?>/favicon.ico">
 </head>
+<?if ($cfg['Site']['Status'] == "Production") {?>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ML4G845784"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-ML4G845784');
+</script>
+<?}?>
 <body topmargin=2 leftmargin=0 id="<? echo $pageName;?>">
 
 <table border=0 cellpadding=0 cellspacing=0 class=outerBox width="900" align=center cols=3>
@@ -64,7 +74,8 @@ if (empty($title)) {
   <tr>
   <td valign=top colspan=3><table border=0 cellpadding=0 cellspacing=0 width="100%" height="100%" class="topnav">
     <tr><td><a id="linkGt" href="<? echo $cfg['Site']['URL']; ?>"><? echo
-      str_replace(" ", "&nbsp;", $cfg['Site']['Name']); ?></a><span class="topsep">|</span><a id="linkBible" href="<? echo
+      str_replace(" ", "&nbsp;", $cfg['Site']['Name']); ?></a><span class="topsep">|</span><a id="linkEbook" href="<? echo
+      $cfg['Site']['URL']; ?>/ebook/">eBooks</a><span class="topsep">|</span><a id="linkBible" href="<? echo
       $cfg['Site']['URL']; ?>/bible/">Bible</a><span class="topsep">|</span><a id="linkHymn" href="<? echo
       $cfg['Site']['URL']; ?>/hymn/">Hymns</a><span class="topsep">|</span><a id="linkTune" href="<? echo
       $cfg['Site']['URL']; ?>/tune/">Tunes</a><span class="topsep"></td>
