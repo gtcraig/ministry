@@ -1,37 +1,27 @@
-<!--
- * * * * * * * * * * * * * * * * * * * * * * * *
- * Good Teaching
- * Copyright (c) 2012 Front Burner
+<?php
+/* * * * * * * * * * * * * * * * * * * * * * * *
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2009 frontburner.co.uk
  *
- * eBook Help
- *
- * $Id: $
+ * 1962 Hymn Book Search
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
- * CAM  29-Jul-2012  11129 : Updated goodteaching.org/ebook for Kindle Touch.
- * CAM  20-Oct-2012  11143 : Updated goodteaching.org/ebook for Kindle Paperwhite and Fire.
- * CAM  01-Jan-2013  11153 : Updated with Version 3 of ebook ministry.
- * CAM  21-Jan-2014  xxxxx : Changed download links back to goodteaching.org.
- * CAM  31-Dec-2015  886930 : Updated with current devices and links to Ministry organised by Bible Book
- * CAM  26-Dec-2017  Updated with current devices and with Notes on The Breaking of Bread
- * CAM  03-Dec-2018  Updated with AJG, CHM and SMcC.
- * CAM  30-Jun-2019  Updated with current devices.
- * * * * * * * * * * * * * * * * * * * * * * * *
--->
-<html>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-	<head><title>Good Teaching - How to download and install the e-books</title>
+ * CAM  12-Nov-2007  10204 : Added calls to Servant checkbox functions.
+ * CAM  29-Sep-2008  10302 : Moved to GoodTeaching.org.
+ * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and use common database.
+ * CAM  30-Dec-2009  10520 : Add focus formatting for dropdowns.
+ * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
+ * * * * * * * * * * * * * * * * * * * * * * * */
 
+$title = "1962 Hymn Search";
+$root = "../";
+$tabs = "HYMN";
+$pageName = "pageEbook";
+$pageCss = "hymn.css";
+include $root.'tpl/top.php';
+?>
 <style>
-  p, table, td, h1, h2, h3, ol, ul {
-    color: #333333;
-    font-family: 'Ubuntu', sans-serif;
-    text-decoration: none;
-    line-height: 1.4;
-    font-weight: 400;    
-  }
-
   #updated p {
     font-size: 9pt;
     color: #999999;
@@ -92,8 +82,7 @@
     color: #666699;
   }
 </style>
-</head>
-<body>
+
     <div id="updated"><p>Updated <b>08-Nov-2022</b> with latest devices and to remove MOBI</p></div>
 
 		<div id="mainbody">
@@ -279,6 +268,8 @@ If you have a Paperwhite 2 or newer, Footnotes are not always working correctly.
 </p></li>
 </ol>
 
-<br />
-</body>
-</html>
+
+
+<?
+include $root.'tpl/bot.php';
+?>

@@ -41,8 +41,8 @@
 	<td>
 		<table border="0" cellpadding=5 cellspacing=0>
 			<tr>
-				<td><a href="https://goodteaching.org/ebook"><img border="0" src="ebook/kindlepw4.png"></a></td>
-				<td><a href="https://goodteaching.org/ebook"><img border="0" src="ebook/apple4.png"></a></td>
+				<td><a href="ebook/"><img border="0" src="ebook/kindlepw4.png"></a></td>
+				<td><a href="ebook/"><img border="0" src="ebook/apple4.png"></a></td>
 		  </tr>
 			<tr>
 				<td align="center">Kindle</td>
@@ -54,7 +54,7 @@
   </td>
   <td class="toolTip">
   	Want to read the ministry on your ereader?<br />
-  	<a href="https://goodteaching.org/ebook">https://goodteaching.org/ebook</a>
+  	<a href="ebook/">https://goodteaching.org/ebook</a>
   </td>
 </tr>
 <tr>

@@ -38,6 +38,7 @@ a {
 }
 
 a#linkGt,
+a#linkEbook,
 a#linkBible,
 a#linkHymn,
 a#linkTune,
@@ -51,6 +52,7 @@ a#linkHitchcock
 }
 
 body#pageGt a#linkGt,
+body#pageEbook a#linkEbook,
 body#pageBible a#linkBible,
 body#pageHymn a#linkHymn,
 body#pageTune a#linkTune,
@@ -63,6 +65,7 @@ body#pageHitchcock a#linkHitchcock
 }
 
 a#linkGt:hover,
+a#linkEbook:hover,
 a#linkBible:hover,
 a#linkHymn:hover,
 a#linkTune:hover,
@@ -75,6 +78,7 @@ a#linkHitchcock:hover
 
 
 body#pageGt a#linkGt:hover,
+body#pageEbook a#linkEbook:hover,
 body#pageBible a#linkBible:hover,
 body#pageHymn a#linkHymn:hover,
 body#pageTune a#linkTune:hover,
