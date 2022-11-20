@@ -39,6 +39,7 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub.Article
         rval = rval.Replace("\"*.", "\"</i>.");
         rval = rval.Replace("\"*,", "\"</i>,");
         rval = rval.Replace("\"*;", "\"</i>;");
+        rval = rval.Replace("\"* ", "\"</i> "); // Quote then end bold with a space, is the end
 
         // Now opening italics
         rval = rval.Replace(" *", " <i>");
