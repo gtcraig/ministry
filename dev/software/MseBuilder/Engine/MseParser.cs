@@ -232,11 +232,11 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
             }
 
             if (art != null) paraCurrent.Article = art;
-            DatabaseLayer.Instance.InsertParagraph(paraCurrent);          
+            DatabaseLayer.Instance.InsertParagraph(paraCurrent);
           }
           else if (paraCurrent.IsTitle())
           {
-              art = paraCurrent.Article;
+            art = paraCurrent.Article;
 
             // Add the Article to a matching Group in the Volume (if any)
             articleGroups.Add(art);

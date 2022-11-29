@@ -172,9 +172,9 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
               foreach (DataRow dr in DatabaseLayer.Instance.GetArticles(vol).Rows)
               {
                 sql = String.Format(
-                  "INSERT INTO mse_article (author,vol,page,article,scriptures) VALUES " +
-                  "('{0}',{1},{2},'{3}','{4}');",
-                  vol.Author.Inits, vol.Vol, dr["page"],
+                  "INSERT INTO mse_article (author,vol,page,localrow,article,scriptures) VALUES " +
+                  "('{0}',{1},{2},{3},'{4}','{5}');",
+                  vol.Author.Inits, vol.Vol, dr["page"], dr["localrow"],
                   DatabaseLayer.SqlText(dr["article"]),
                   DatabaseLayer.SqlText(dr["scriptures"]));
 
@@ -192,11 +192,11 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
                 if (text.Length > 0)
                 {
                   // Non-null columns
-                  colSql = "INSERT INTO mse_text (author,vol,page,para,article_page,text";
+                  colSql = "INSERT INTO mse_text (author,vol,page,para,article_page,article_localrow,text";
                   sql = String.Format(
-                    "'{0}',{1},{2},{3},{4},'{5}'",
+                    "'{0}',{1},{2},{3},{4},{5},'{6}'",
                     vol.Author.Inits, vol.Vol,
-                    dr["page"], dr["para"], dr["article_page"], DatabaseLayer.SqlText(text));
+                    dr["page"], dr["para"], dr["article_page"], dr["article_localrow"], DatabaseLayer.SqlText(text));
 
                   // Add each nullable column
                   if (inits.Length > 0)
@@ -220,10 +220,10 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
               foreach (DataRow dr in DatabaseLayer.Instance.GetBibleRefs(vol).Rows)
               {
                 sql = String.Format(
-                  "INSERT INTO mse_bible_ref (author,vol,page,para,ref,article_page,article_primary,bookid,chapter,vstart,vend) VALUES " +
-                  "('{0}',{1},{2},{3},{4},{5},{6},{7},{8},{9},{10});",
+                  "INSERT INTO mse_bible_ref (author,vol,page,para,ref,article_page,article_localrow,article_primary,bookid,chapter,vstart,vend) VALUES " +
+                  "('{0}',{1},{2},{3},{4},{5},{6},{7},{8},{9},{10},{11});",
                   vol.Author.Inits, vol.Vol,
-                  dr["page"], dr["para"], dr["ref"], dr["article_page"], dr["article_primary"],
+                  dr["page"], dr["para"], dr["ref"], dr["article_page"], dr["article_localrow"], dr["article_primary"],
                   dr["bookid"], dr["chapter"], dr["vstart"], dr["vend"]);
 
                 sw.WriteLine(sql);
@@ -292,7 +292,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
 
           EpubDocument epub = new EpubDocument(files, epubDir, vol, cssFile, authorImageFile, coverImageFile);
 
-          int currentArticlePage = -1;
+          int currentArticleLocalRow = -1;
           EpubArticle article = null;
           EpubArticle articleGroup = null;
           DataTable articleGroups = DatabaseLayer.Instance.GetArticleGroups(vol);
@@ -306,11 +306,12 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
             string inits = dr["inits"].ToString();
             string newPages = dr["newpages"].ToString();
             int articlePage = int.Parse(dr["article_page"].ToString());
+            int articleLocalRow = int.Parse(dr["article_localrow"].ToString());
 
-            if (articlePage != currentArticlePage)
+            if (articleLocalRow != currentArticleLocalRow)
             {
               // Find Article
-              art = DatabaseLayer.Instance.GetArticle(vol, articlePage);
+              art = DatabaseLayer.Instance.GetArticle(vol, articlePage, articleLocalRow);
               if (art.Group == null)
               {
                 articleGroup = null;
@@ -330,7 +331,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
               article.Scriptures = art.Scriptures;
               article.Group = articleGroup;
 
-              currentArticlePage = articlePage;
+              currentArticleLocalRow = articleLocalRow;
               stage = ArticleStage.Title;
             }
 
@@ -408,11 +409,11 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
           string inits = dr["inits"].ToString();
           string newPages = dr["newpages"].ToString();
           int articlePage = int.Parse(dr["article_page"].ToString());
+          int articleLocalRow = int.Parse(dr["article_localrow"].ToString());
 
-          if (articlePage != currentArticle)
+          if (articleLocalRow != currentArticle)
           {
             article = epub.Articles.CreateArticle();
-            currentArticle = articlePage;
             stage = ArticleStage.Title;
           }
 
@@ -437,6 +438,8 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
               stage = ArticleStage.Body;
             }
           }
+
+          currentArticle = articleLocalRow;
         }
 
         epub.GenerateToc();
@@ -496,9 +499,6 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         SortedDictionary<string, EpubArticle> chapArticles = new SortedDictionary<string, EpubArticle>();
         DataTable scriptureText = DatabaseLayer.Instance.GetScriptureText(vol);
         
-        // Reset Chapter Reference
-        currentChapter = 0;
-
         foreach (DataRow dr in scriptureText.Rows)
         {
           int bookid = int.Parse(dr["bookid"].ToString());
@@ -512,9 +512,9 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
           string text = dr["text"].ToString();
           string inits = dr["inits"].ToString();
           string newPages = dr["newpages"].ToString();
-          int articlePage = int.Parse(dr["article_page"].ToString());
+          int articleLocalRow = int.Parse(dr["article_localrow"].ToString());
 
-          if (articlePage != currentArticle)
+          if (articleLocalRow != currentArticle)
           {
             if (chapter != currentChapter)
             {
@@ -530,7 +530,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
 
             article = epub.Articles.CreateArticle();
             article.Group = articleChap;
-            currentArticle = articlePage;
+            currentArticle = articleLocalRow;
             stage = ArticleStage.Title;
           }
 
