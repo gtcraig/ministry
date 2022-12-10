@@ -39,13 +39,8 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
 
       if (EngineSettings.Instance.Mode == BuildMode.StandardEpub)
       {
-        // Standard EPUB can cope with these reverse links back to the TOC... Kindle cannot
-        meter = String.Format("<a class=\"meter\" href=\"{0}#meter-{1}\">{2}</a>",
-          _doc.Toc.XmlFile.Name, _meterId, _meter);
-      }
-      else if (EngineSettings.Instance.Mode == BuildMode.KindleMobiEpub)
-      {
-        meter = String.Format("<p class=\"meter\">{0}</p>", _meter);
+        // Standard EPUB can cope with these reverse links back to the TOC
+        meter = String.Format("<a class=\"meter\" href=\"{0}#meter-{1}\">{2}</a>", _doc.Toc.XmlFile.Name, _meterId, _meter);
       }
 
       return String.Format("    <p class=\"hymnno\">{0}</p>{1}{2}", _hymnNo, meter, Newline());

@@ -27,7 +27,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
     private XmlElement _metaData;
     private XmlElement _manifest;
     private XmlElement _spine;
-    private XmlElement _guide;
 
     public override string XmlFilename { get { return String.Format("{0}.opf", Doc.LanguageCode); } }
     public override string RootName { get { return "package"; } }
@@ -73,15 +72,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
 
       _spine = AppendElement(Root, "spine");
       AppendAttribute(Spine, "toc", "ncx");
-
-      if (EngineSettings.Instance.Mode == BuildMode.KindleMobiEpub)
-      {
-        _guide = AppendElement(Root, "guide"); // Kindle TOC support
-        XmlElement reference = AppendElement(_guide, "reference");
-        AppendAttribute(reference, "type", "toc");
-        AppendAttribute(reference, "title", "Table of Contents");
-        AppendAttribute(reference, "href", Doc.Toc.XmlFile.Name);
-      }
 
       AddMetaData();
       AddSupportFiles();

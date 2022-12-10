@@ -60,13 +60,6 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
         return String.Format("        <p class=\"chorus\">{0}</p>{1}", Text, Newline());
       }
 
-      if (EngineSettings.Instance.Mode == BuildMode.KindleMobiEpub)
-      {
-        // Kindle can't cope with the paragraph inside the LI - it creates a newline
-        // and/or we lose the numbering
-        return String.Format("        <li class=\"verse\" value=\"{0}\">{1}</li>{2}", VerseNo, Text, Newline());
-      }
-
       // Standard EPUB (iPad etc)
       return String.Format("        <li value=\"{0}\"><p class=\"verse\">{1}</p></li>{2}", VerseNo, Text, Newline());
     }
