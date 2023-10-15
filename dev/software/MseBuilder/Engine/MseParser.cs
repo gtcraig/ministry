@@ -18,9 +18,10 @@
  * CAM  14-Apr-2020  361011 : Consider for Article Groups when parsing.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
+using System;
 using System.Collections.Generic;
 using System.IO;
-
+using System.Windows.Forms;
 using FrontBurner.Ministry.MseBuilder.Abstract;
 using FrontBurner.Ministry.MseBuilder.Data;
 
@@ -40,6 +41,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
     {
       bool halt = false;
       bool inits = false;
+      bool upper = false;
       int dotCount = 0;
       int c = 0;
       int i = 0;
@@ -59,6 +61,11 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       if (text.Length <= 3)
       {
         // Don't look for initials in very short lines
+        return false;
+      }
+      else if (text.Length <= 25 && text[text.Length-1] != '.')
+      {
+        // Don't look for initials in lines that are likely to be author's names on a single line
         return false;
       }
 
@@ -86,20 +93,33 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         if (c == 46)
         {
           dotCount++;
-
         }
         else if (c == 32)
         {
           halt = true;
 
-          if (dotCount > 1)
+          if ((dotCount > 1) || (dotCount == 1 && i == 2))
           {
             inits = true;
           }
         }
+        else if ((c >= 'A' && c <= 'Z') )
+        {
+          // At least one upper case
+          upper = true;
+        }
+        else if ((c >= 'a' && c <= 'z') || c == '\'' || c == '-')
+        {
+          // Other valid characters
+        }
+        else
+        {
+          // Stop if any other non initials characters are found
+          halt = true;
+        }
       }
 
-      if (inits && (i > 0))
+      if (inits && upper && (i > 0))
       {
         text = text.Substring(0, i).Trim();
 
