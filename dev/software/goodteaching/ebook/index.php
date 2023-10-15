@@ -83,7 +83,7 @@ include $root.'tpl/top.php';
   }
 </style>
 
-    <div id="updated"><p>Updated <b>08-Nov-2022</b> with latest devices and to remove MOBI</p></div>
+    <div id="updated"><p>Updated <b>17-Sep-2023</b> with latest devices</p></div>
 
 		<div id="mainbody">
 
@@ -134,8 +134,8 @@ Spiritual Songs (1962)</span> <span style="color: #A9A9A9;">[English, Deutsch &a
 <h2>Don't have a reader and don't know which one to get?</h2>
 <ul>
   <li><a href="http://www.youtube.com/watch?v=w1qjML1YO3s" target="_blank">Here's a (very out of date) comparison of the iPad 1 with the Kindle 3</a>.</li>
-  <li>If you're regularly travelling or commuting and want to read the  ministry on the move, I recommend the <a href="https://www.amazon.co.uk/dp/B08N36XNTT"
-target="_blank">Kindle Paperwhite No Ads (&pound;139)</a>.</li>
+  <li>If you're regularly travelling or commuting and want to read the  ministry on the move, I recommend the <a href="https://www.amazon.co.uk/dp/B09TMP5Y2S/"
+target="_blank">Kindle Paperwhite No Ads (&pound;149.99)</a>.</li>
 </ul>
 
 <table id="comparison" border="0" cellpadding="5" cellspacing="0">
@@ -150,11 +150,11 @@ target="_blank">Kindle Paperwhite No Ads (&pound;139)</a>.</li>
   </tr>
 
   <tr>
-    <td align="center"><a href="https://www.amazon.co.uk/dp/B08N3TCP2F" target="_blank"><img border="0" src="kindlepw4.png"></a></td>
-    <td><b><a href="https://www.amazon.co.uk/dp/B08N3TCP2F"
+    <td align="center"><a href="https://www.amazon.co.uk/dp/B09TMP5Y2S/" target="_blank"><img border="0" src="kindlepw4.png"></a></td>
+    <td><b><a href="https://www.amazon.co.uk/dp/B09TMP5Y2S/"
 target="_blank">Kindle Paperwhite Waterproof</a></b></td>
     <td>6.8&rdquo; backlit e-ink</td>
-    <td class="r"><b>&pound;129.99</b></td>
+    <td class="r"><b>&pound;149.99</b></td>
     <td><p><b>Great e-reader</b></p>  <p>If you are mainly using it for reading the ministry, this is the one for you.</p></td>
 	  <td><ul class="cmpr">
       <li class="cmpr">Cheap</li>
