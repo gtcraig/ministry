@@ -449,10 +449,10 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "ORDER BY page DESC";
 
         _cmdArticles = new MySqlCommand(sql, Connection);
-        _cmdArticles.Prepare();
 
         _cmdArticles.Parameters.Add("?author", MySqlDbType.String);
         _cmdArticles.Parameters.Add("?vol", MySqlDbType.Int32);
+        _cmdArticles.Prepare();
       }
 
       _cmdArticles.Parameters["?author"].Value = vol.Author.Inits;
@@ -476,10 +476,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "ORDER BY localrow DESC";
 
         _cmdArticleGroups = new MySqlCommand(sql, Connection);
-        _cmdArticleGroups.Prepare();
-
         _cmdArticleGroups.Parameters.Add("?author", MySqlDbType.String);
         _cmdArticleGroups.Parameters.Add("?vol", MySqlDbType.Int32);
+        _cmdArticleGroups.Prepare();
       }
 
       _cmdArticleGroups.Parameters["?author"].Value = vol.Author.Inits;
@@ -503,11 +502,10 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "AND page = ?page ";
 
         _cmdArticle = new MySqlCommand(sql, Connection);
-        _cmdArticle.Prepare();
-
         _cmdArticle.Parameters.Add("?author", MySqlDbType.String);
         _cmdArticle.Parameters.Add("?vol", MySqlDbType.Int32);
         _cmdArticle.Parameters.Add("?page", MySqlDbType.Int32);
+        _cmdArticle.Prepare();
       }
 
       _cmdArticle.Parameters["?author"].Value = vol.Author.Inits;
@@ -542,11 +540,10 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "AND articlegroup = ?articlegroup ";
 
         _cmdArticleGroup = new MySqlCommand(sql, Connection);
-        _cmdArticleGroup.Prepare();
-
         _cmdArticleGroup.Parameters.Add("?author", MySqlDbType.String);
         _cmdArticleGroup.Parameters.Add("?vol", MySqlDbType.Int32);
         _cmdArticleGroup.Parameters.Add("?articlegroup", MySqlDbType.String);
+        _cmdArticleGroup.Prepare();
       }
 
       _cmdArticleGroup.Parameters["?author"].Value = vol.Author.Inits;
@@ -574,10 +571,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "ORDER BY page,para";
 
         _cmdTextAuth = new MySqlCommand(sql, Connection);
-        _cmdTextAuth.Prepare();
-
         _cmdTextAuth.Parameters.Add("?author", MySqlDbType.String);
         _cmdTextAuth.Parameters.Add("?vol", MySqlDbType.Int32);
+        _cmdTextAuth.Prepare();
       }
 
       _cmdTextAuth.Parameters["?author"].Value = vol.Author.Inits;
@@ -616,9 +612,8 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "and t.article_page = a.article_page " +
           "order by bookid, chapter, t.author, t.vol, t.page, t.para";
         _cmdTextScrip = new MySqlCommand(sql, Connection);
-        _cmdTextScrip.Prepare();
-
         _cmdTextScrip.Parameters.Add("?bookid", MySqlDbType.Int32);
+        _cmdTextScrip.Prepare();
       }
 
       _cmdTextScrip.Parameters["?bookid"].Value = vol.Vol;
@@ -643,9 +638,8 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "where c.collectionid = ?collectionid " +
           "order by c.collectionid, ca.articleno, t.author, t.vol, t.page, t.para ";
         _cmdTextColl = new MySqlCommand(sql, Connection);
-        _cmdTextColl.Prepare();
-
         _cmdTextColl.Parameters.Add("?collectionid", MySqlDbType.Int32);
+        _cmdTextColl.Prepare();
       }
 
       _cmdTextColl.Parameters["?collectionid"].Value = vol.Vol;
@@ -669,10 +663,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "ORDER BY page,para,ref";
 
         _cmdBibleRef = new MySqlCommand(sql, Connection);
-        _cmdBibleRef.Prepare();
-
         _cmdBibleRef.Parameters.Add("?author", MySqlDbType.String);
         _cmdBibleRef.Parameters.Add("?vol", MySqlDbType.Int32);
+        _cmdBibleRef.Prepare();
       }
 
       _cmdBibleRef.Parameters["?author"].Value = vol.Author.Inits;
@@ -696,8 +689,6 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           ")";
 
         _cmdInsertText = new MySqlCommand(sql, Connection);
-        _cmdInsertText.Prepare();
-
         _cmdInsertText.Parameters.Add("?author", MySqlDbType.String);
         _cmdInsertText.Parameters.Add("?vol", MySqlDbType.Int32);
         _cmdInsertText.Parameters.Add("?pageNo", MySqlDbType.Int32);
@@ -707,6 +698,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
         _cmdInsertText.Parameters.Add("?inits", MySqlDbType.String);
         _cmdInsertText.Parameters.Add("?text", MySqlDbType.String);
         _cmdInsertText.Parameters.Add("?newPages", MySqlDbType.String);
+        _cmdInsertText.Prepare();
       }
 
       _cmdInsertText.Parameters["?author"].Value = para.Volume.Author.Inits;
@@ -744,8 +736,6 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           ")";
 
         _cmdInsertBibleRef = new MySqlCommand(sql, Connection);
-        _cmdInsertBibleRef.Prepare();
-
         _cmdInsertBibleRef.Parameters.Add("?author", MySqlDbType.String);
         _cmdInsertBibleRef.Parameters.Add("?vol", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?pageNo", MySqlDbType.Int32);
@@ -757,6 +747,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
         _cmdInsertBibleRef.Parameters.Add("?chapter", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?vStart", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?vEnd", MySqlDbType.Int32);
+        _cmdInsertBibleRef.Prepare();
       }
 
       _cmdInsertBibleRef.Parameters["?author"].Value = paragraph.Volume.Author.Inits;
@@ -788,8 +779,6 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           ")";
 
         _cmdInsertBadBibleRef = new MySqlCommand(sql, Connection);
-        _cmdInsertBadBibleRef.Prepare();
-
         _cmdInsertBadBibleRef.Parameters.Add("?author", MySqlDbType.String);
         _cmdInsertBadBibleRef.Parameters.Add("?vol", MySqlDbType.Int32);
         _cmdInsertBadBibleRef.Parameters.Add("?pageNo", MySqlDbType.Int32);
@@ -797,6 +786,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
         _cmdInsertBadBibleRef.Parameters.Add("?ref", MySqlDbType.Int32);
         _cmdInsertBadBibleRef.Parameters.Add("?errCode", MySqlDbType.String);
         _cmdInsertBadBibleRef.Parameters.Add("?text", MySqlDbType.String);
+        _cmdInsertBadBibleRef.Prepare();
       }
 
       _cmdInsertBadBibleRef.Parameters["?author"].Value = vol.Author.Inits;
@@ -935,10 +925,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "AND bookid = ?bookid";
 
         _cmdDeleteVerse = new MySqlCommand(sql, Connection);
-        _cmdDeleteVerse.Prepare();
-
         _cmdDeleteVerse.Parameters.Add("?verid", MySqlDbType.Int32);
         _cmdDeleteVerse.Parameters.Add("?bookid", MySqlDbType.Int32);
+        _cmdDeleteVerse.Prepare();
       }
 
       _cmdDeleteVerse.Parameters["?verid"].Value = book.Version.VersionId;
@@ -964,10 +953,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
                         "AND bookid = ?bookid " +
                         "AND footnoteid = mse_bible_footnote_xref.footnoteid)";
         _cmdDeleteFootnoteXref1 = new MySqlCommand(sql, Connection);
-        _cmdDeleteFootnoteXref1.Prepare();
-
         _cmdDeleteFootnoteXref1.Parameters.Add("?verid", MySqlDbType.Int32);
         _cmdDeleteFootnoteXref1.Parameters.Add("?bookid", MySqlDbType.Int32);
+        _cmdDeleteFootnoteXref1.Prepare();
       }
 
       _cmdDeleteFootnoteXref1.Parameters["?verid"].Value = book.Version.VersionId;
@@ -989,10 +977,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
          "AND from_footnoteid IS NOT NULL";
 
         _cmdDeleteFootnoteXref2 = new MySqlCommand(sql, Connection);
-        _cmdDeleteFootnoteXref2.Prepare();
-
         _cmdDeleteFootnoteXref2.Parameters.Add("?verid", MySqlDbType.Int32);
         _cmdDeleteFootnoteXref2.Parameters.Add("?bookid", MySqlDbType.Int32);
+        _cmdDeleteFootnoteXref2.Prepare();
       }
 
       _cmdDeleteFootnoteXref2.Parameters["?verid"].Value = book.Version.VersionId;
@@ -1011,10 +998,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "AND bookid = ?bookid";
 
         _cmdDeleteFootnote = new MySqlCommand(sql, Connection);
-        _cmdDeleteFootnote.Prepare();
-
         _cmdDeleteFootnote.Parameters.Add("?verid", MySqlDbType.Int32);
         _cmdDeleteFootnote.Parameters.Add("?bookid", MySqlDbType.Int32);
+        _cmdDeleteFootnote.Prepare();
       }
 
       _cmdDeleteFootnote.Parameters["?verid"].Value = book.Version.VersionId;
@@ -1035,13 +1021,12 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           ")";
 
         _cmdInsertVerse = new MySqlCommand(sql, Connection);
-        _cmdInsertVerse.Prepare();
-
         _cmdInsertVerse.Parameters.Add("?verid", MySqlDbType.Int32);
         _cmdInsertVerse.Parameters.Add("?bookid", MySqlDbType.Int32);
         _cmdInsertVerse.Parameters.Add("?chapter", MySqlDbType.Int32);
         _cmdInsertVerse.Parameters.Add("?verse", MySqlDbType.Int32);
         _cmdInsertVerse.Parameters.Add("?text", MySqlDbType.String);
+        _cmdInsertVerse.Prepare();
       }
 
       _cmdInsertVerse.Parameters["?verid"].Value = verse.Book.Version.VersionId;
@@ -1065,8 +1050,6 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           ")";
 
         _cmdInsertFootnote = new MySqlCommand(sql, Connection);
-        _cmdInsertFootnote.Prepare();
-
         _cmdInsertFootnote.Parameters.Add("?footnoteid", MySqlDbType.Int32);
         _cmdInsertFootnote.Parameters.Add("?verid", MySqlDbType.Int32);
         _cmdInsertFootnote.Parameters.Add("?bookid", MySqlDbType.Int32);
@@ -1074,6 +1057,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
         _cmdInsertFootnote.Parameters.Add("?verse", MySqlDbType.Int32);
         _cmdInsertFootnote.Parameters.Add("?symbol", MySqlDbType.VarChar);
         _cmdInsertFootnote.Parameters.Add("?text", MySqlDbType.String);
+        _cmdInsertFootnote.Prepare();
       }
 
       _cmdInsertFootnote.Parameters["?footnoteid"].Value = footnote.FoonoteId;
@@ -1099,8 +1083,6 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           ")";
 
         _cmdInsertFootnoteRef = new MySqlCommand(sql, Connection);
-        _cmdInsertFootnoteRef.Prepare();
-
         _cmdInsertFootnoteRef.Parameters.Add("?footnoteid", MySqlDbType.Int32);
         _cmdInsertFootnoteRef.Parameters.Add("?verid", MySqlDbType.Int32);
         _cmdInsertFootnoteRef.Parameters.Add("?bookid", MySqlDbType.Int32);
@@ -1108,6 +1090,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
         _cmdInsertFootnoteRef.Parameters.Add("?verse", MySqlDbType.Int32);
         _cmdInsertFootnoteRef.Parameters.Add("?refid", MySqlDbType.Int32);
         _cmdInsertFootnoteRef.Parameters.Add("?phrase", MySqlDbType.String);
+        _cmdInsertFootnoteRef.Prepare();
       }
 
       _cmdInsertFootnoteRef.Parameters["?footnoteid"].Value = fref.Footnote.FoonoteId;
@@ -1136,8 +1119,6 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           ")";
 
         _cmdInsertFootnoteXref = new MySqlCommand(sql, Connection);
-        _cmdInsertFootnoteXref.Prepare();
-
         _cmdInsertFootnoteXref.Parameters.Add("?footnoteid", MySqlDbType.Int32);
         _cmdInsertFootnoteXref.Parameters.Add("?verid", MySqlDbType.Int32);
         _cmdInsertFootnoteXref.Parameters.Add("?bookid", MySqlDbType.Int32);
@@ -1146,6 +1127,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
         _cmdInsertFootnoteXref.Parameters.Add("?xrefid", MySqlDbType.Int32);
         _cmdInsertFootnoteXref.Parameters.Add("?from_footnoteid", MySqlDbType.Int32);
         _cmdInsertFootnoteXref.Parameters.Add("?phrase", MySqlDbType.String);
+        _cmdInsertFootnoteXref.Prepare();
       }
 
       _cmdInsertFootnoteXref.Parameters["?footnoteid"].Value = refTo.FoonoteId;
