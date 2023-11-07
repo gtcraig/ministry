@@ -490,7 +490,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       return dt;
     }
 
-    public Article GetArticle(Volume vol, int page)
+    public Article GetArticle(Volume vol, int page, int localRow)
     {
       if (_cmdArticle == null)
       {
@@ -499,18 +499,21 @@ namespace FrontBurner.Ministry.MseBuilder.Data
           "FROM mse_article " +
           "WHERE author = ?author " +
           "AND vol = ?vol " +
-          "AND page = ?page ";
+          "AND page = ?page " +
+          "AND localrow = ?localRow ";
 
         _cmdArticle = new MySqlCommand(sql, Connection);
         _cmdArticle.Parameters.Add("?author", MySqlDbType.String);
         _cmdArticle.Parameters.Add("?vol", MySqlDbType.Int32);
         _cmdArticle.Parameters.Add("?page", MySqlDbType.Int32);
+        _cmdArticle.Parameters.Add("?localRow", MySqlDbType.Int32);
         _cmdArticle.Prepare();
       }
 
       _cmdArticle.Parameters["?author"].Value = vol.Author.Inits;
       _cmdArticle.Parameters["?vol"].Value = vol.Vol;
       _cmdArticle.Parameters["?page"].Value = page;
+      _cmdArticle.Parameters["?localRow"].Value = localRow;
 
       DataTable dt = new DataTable("mse_article");
       MySqlDataAdapter da = new MySqlDataAdapter(_cmdArticle);
@@ -564,7 +567,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       if (_cmdTextAuth == null)
       {
         string sql =
-          "SELECT page,para,article_page,text,inits,newpages " +
+          "SELECT page,para,article_page,article_localrow,text,inits,newpages " +
           "FROM mse_text " +
           "WHERE author = ?author " +
           "AND vol = ?vol " +
@@ -590,26 +593,28 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       if (_cmdTextScrip == null)
       {
         string sql =
-          "select a.bookid, a.bookname, a.chapter, a.author, a.vol, a.article_page, " +
+          "select a.bookid, a.bookname, a.chapter, a.author, a.vol, a.article_page, a.article_localrow, " +
           "t.page, t.para, t.inits, t.text, t.newpages, t.localrow " +
           "from ( " +
-          "select bb.bookid, min(bb.bookname) bookname, min(br.chapter) chapter, " +
-          "br.author, br.vol, br.article_page,  " +
-          "min(a.article) article, min(a.scriptures) scriptures " +
-          "from mse_bible_ref br " +
-          "inner join mse_bible_book bb " +
-          "on bb.bookid = br.bookid " +
-          "inner join mse_article a " +
-          "on a.author = br.author " +
-          "and a.vol = br.vol " +
-          "and a.page = br.page " +
-          "where article_primary = 1 " +
-          "and br.bookid = ?bookid " +
-          "group by bb.bookid, br.author, br.vol, br.article_page " +
+            "select bb.bookid, min(bb.bookname) bookname, min(br.chapter) chapter, " +
+            "br.author, br.vol, br.article_page, br.article_localrow, " +
+            "min(a.article) article, min(a.scriptures) scriptures " +
+            "from mse_bible_ref br " +
+            "inner join mse_bible_book bb " +
+            "on bb.bookid = br.bookid " +
+            "inner join mse_article a " +
+            "on a.author = br.author " +
+            "and a.vol = br.vol " +
+            "and a.page = br.page " +
+            "and a.localrow = br.article_localrow " +
+            "where article_primary = 1 " +
+            "and br.bookid = ?bookid " +
+            "group by bb.bookid, br.author, br.vol, br.article_page, br.article_localrow " +
           ") a inner join mse_text t " +
           "on t.author = a.author " +
           "and t.vol = a.vol " +
           "and t.article_page = a.article_page " +
+          "and t.article_localrow = a.article_localrow " +
           "order by bookid, chapter, t.author, t.vol, t.page, t.para";
         _cmdTextScrip = new MySqlCommand(sql, Connection);
         _cmdTextScrip.Parameters.Add("?bookid", MySqlDbType.Int32);
@@ -629,12 +634,13 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       if (_cmdTextColl == null)
       {
         string sql =
-          "select c.collectionid bookid, c.collectionname bookname, ca.articleno, a.author, a.vol, a.page article_page, " +
-          "t.page, t.para, t.inits, t.text, t.newpages " +
+          "select c.collectionid bookid, c.collectionname bookname, ca.articleno, " + 
+            "a.author, a.vol, a.page article_page, a.localrow article_localrow, " +
+            "t.page, t.para, t.inits, t.text, t.newpages " +
           "from mse_collection c " +
           "inner join mse_collection_article ca on ca.collectionid = c.collectionid " +
           "inner join mse_article a on a.author=ca.author and a.vol=ca.vol and a.page=ca.page " +
-          "inner join mse_text t on t.author=a.author and t.vol=a.vol and t.article_page=a.page " +
+          "inner join mse_text t on t.author=a.author and t.vol=a.vol and t.article_page=a.page and t.article_localrow=a.localrow " +
           "where c.collectionid = ?collectionid " +
           "order by c.collectionid, ca.articleno, t.author, t.vol, t.page, t.para ";
         _cmdTextColl = new MySqlCommand(sql, Connection);
@@ -656,7 +662,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       if (_cmdBibleRef == null)
       {
         string sql =
-          "SELECT page,para,ref,article_page,article_primary,bookid,chapter,vstart,vend " +
+          "SELECT page,para,ref,article_page,article_localrow,article_primary,bookid,chapter,vstart,vend " +
           "FROM mse_bible_ref " +
           "WHERE author = ?author " +
           "AND vol = ?vol " +
@@ -683,9 +689,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       {
         string sql =
           "INSERT INTO mse_text (" +
-            "author, vol, page, para, article_page, localrow, inits, text, newpages" +
+            "author, vol, page, para, article_page, article_localrow, localrow, inits, text, newpages" +
           ") VALUES (" +
-            "?author, ?vol, ?pageNo, ?para, ?articlePage, ?localRow, ?inits, ?text, ?newPages" +
+            "?author, ?vol, ?pageNo, ?para, ?articlePage, ?articleLocalRow, ?localRow, ?inits, ?text, ?newPages" +
           ")";
 
         _cmdInsertText = new MySqlCommand(sql, Connection);
@@ -694,6 +700,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
         _cmdInsertText.Parameters.Add("?pageNo", MySqlDbType.Int32);
         _cmdInsertText.Parameters.Add("?para", MySqlDbType.Int32);
         _cmdInsertText.Parameters.Add("?articlePage", MySqlDbType.Int32);
+        _cmdInsertText.Parameters.Add("?articleLocalRow", MySqlDbType.Int32);
         _cmdInsertText.Parameters.Add("?localRow", MySqlDbType.Int32);
         _cmdInsertText.Parameters.Add("?inits", MySqlDbType.String);
         _cmdInsertText.Parameters.Add("?text", MySqlDbType.String);
@@ -706,6 +713,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       _cmdInsertText.Parameters["?pageNo"].Value = para.PageNo;
       _cmdInsertText.Parameters["?para"].Value = para.Para;
       _cmdInsertText.Parameters["?articlePage"].Value = para.Article.PageNo;
+      _cmdInsertText.Parameters["?articleLocalRow"].Value = para.Article.LocalRow;
       _cmdInsertText.Parameters["?localRow"].Value = para.LocalRow;
       _cmdInsertText.Parameters["?inits"].Value = para.Inits;
       _cmdInsertText.Parameters["?text"].Value = para.Text;
@@ -728,10 +736,10 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       {
         string sql =
           "INSERT INTO mse_bible_ref (" +
-           "author, vol, page, para, ref, article_page, article_primary, " +
+           "author, vol, page, para, ref, article_page, article_localrow, article_primary, " +
             "bookid, chapter, vstart, vend" +
           ") VALUES (" +
-            "?author, ?vol, ?pageNo, ?para, ?ref, ?article_page, ?article_primary, " +
+            "?author, ?vol, ?pageNo, ?para, ?ref, ?article_page, ?article_localrow, ?article_primary, " +
             "?bookId, ?chapter, ?vStart, ?vEnd" +
           ")";
 
@@ -742,6 +750,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
         _cmdInsertBibleRef.Parameters.Add("?para", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?ref", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?article_page", MySqlDbType.Int32);
+        _cmdInsertBibleRef.Parameters.Add("?article_localrow", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?article_primary", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?bookId", MySqlDbType.Int32);
         _cmdInsertBibleRef.Parameters.Add("?chapter", MySqlDbType.Int32);
@@ -756,6 +765,7 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       _cmdInsertBibleRef.Parameters["?para"].Value = paragraph.Para;
       _cmdInsertBibleRef.Parameters["?ref"].Value = refNo;
       _cmdInsertBibleRef.Parameters["?article_page"].Value = paragraph.Article.PageNo;
+      _cmdInsertBibleRef.Parameters["?article_localrow"].Value = paragraph.Article.LocalRow;
       _cmdInsertBibleRef.Parameters["?article_primary"].Value = (bref.ArticlePrimary ? 1 : 0);
       _cmdInsertBibleRef.Parameters["?bookId"].Value = bref.Book.BookId;
       _cmdInsertBibleRef.Parameters["?chapter"].Value = bref.Chapter;
