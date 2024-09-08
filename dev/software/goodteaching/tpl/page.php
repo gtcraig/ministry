@@ -82,7 +82,7 @@ if (!empty($keywords)) {
 if (!empty($searchType)) {
   $sqlFactory->setSearchType($searchType);
 }
-if ((count($author)>0) && (empty($author['ALL']))) {
+if ((count((array)$author)>0) && (empty($author['ALL']))) {
   $sqlFactory->setAuthors($author);
 }
 if (!empty($bookid) && !empty($chapter)) {
