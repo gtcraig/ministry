@@ -71,6 +71,10 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       get { return _rootDir; }
       set { _rootDir = value; }
     }
+    public FileInfo EpubFile
+    {
+      get { return _epubFile; }
+    }
     public DirectoryInfo OutputEpub
     {
       get { return _outputEpub; }
