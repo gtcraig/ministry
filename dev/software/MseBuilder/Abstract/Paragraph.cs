@@ -286,6 +286,7 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
       int c;
 
       text = Article.GetTitle(text);
+      text = text.Replace("...", ""); // Remove ellipsis from consideration
 
       upper = lower = html = other = 0;
       char[] buffa = text.ToCharArray();
