@@ -22,6 +22,7 @@
 include_once($root.'functions.php');
 
 $volPages = 0;
+$articlePage = 1;
 
 function count_vol_pages($dbConn, $author, $vol) {
   global $volPages;
@@ -82,7 +83,7 @@ if (!empty($keywords)) {
 if (!empty($searchType)) {
   $sqlFactory->setSearchType($searchType);
 }
-if ((count($author)>0) && (empty($author['ALL']))) {
+if ((count((array)$author)>0) && (empty($author['ALL']))) {
   $sqlFactory->setAuthors($author);
 }
 if (!empty($bookid) && !empty($chapter)) {
@@ -96,7 +97,7 @@ if (!empty($preview_author)) {
 
 ?><table border=0 cellpadding=0 cellspacing=4><?php
 
-  $sql = "SELECT inits, text, page, newpages ".
+  $sql = "SELECT inits, text, page, newpages, article_page ".
          "FROM mse_text ".
          "WHERE author='$preview_author' ".
          "AND vol=$preview_vol ".
@@ -107,6 +108,7 @@ if (!empty($preview_author)) {
   while ($row = mysqli_fetch_array($ssql)) {
 
     $newtext = $row[1];
+	$articlePage = $row[4];
 
     if (!empty($row[3])) {
       $charpos = explode(",", $row[3]);
@@ -139,11 +141,17 @@ if (!empty($preview_author)) {
   <form method="POST" id="pageSelector" name="pageSelector">
     <input type=hidden id="pagechanged" name="pagechanged" value="1">
     <table border=0 cellpadding=5 cellspacing=0><tr>
-      <td><img width="16" height="16" class="imagebutton" title="Goto first page" src="img/page_first.png" onclick="ChangePageNo(pageSelector, gotopage, 1);"></td>
-      <td><img width="16" height="16" class="imagebutton" title="Goto previous page" src="img/page_prev.png" onclick="ChangePageNo(pageSelector, gotopage, <?php echo max(1, ($preview_page-1)); ?>);"></td>
-      <td><input class="volpage" id="gotopage" name="gotopage" size=4 value="<?php echo $preview_page; ?>" onKeyUp="ValidationPageNo(this);" onChange="ValidationPageNo(this, <?php echo $volPages; ?>);" onclick="this.className='volpageedit';" onBlur="this.className='volpage';"></td>
-      <td><img width="16" height="16" class="imagebutton" title="Goto next page" src="img/page_next.png" onclick="ChangePageNo(pageSelector, gotopage, <?php echo min($volPages, ($preview_page+1)); ?>);"></td>
-      <td><img width="16" height="16" class="imagebutton" title="Goto last page (<?php echo $volPages; ?>)" src="img/page_last.png" onclick="ChangePageNo(pageSelector, gotopage, <?php echo $volPages; ?>);"></td>
+      <td><img width="25" height="25" class="imagebutton" title="Goto First Page" src="img/page_first.svg" onclick="ChangePageNo(pageSelector, gotopage, 1);"></td>
+      <!--
+	  <td><img width="25" height="25" class="imagebutton" title="Goto Table of Contents" src="img/toc.svg" onclick="ChangePageNo(pageSelector, gotopage, 1);"></td>
+      -->	  
+      <td><img width="25" height="25" class="imagebutton" title="Goto Start of this Article (<?=$articlePage?>)" src="img/article.svg" onclick="ChangePageNo(pageSelector, gotopage, <?=$articlePage?>);"></td>
+      <td width="25">&nbsp;</td>
+      <td><img width="25" height="25" class="imagebutton" title="Goto Previous Page" src="img/page_prev.svg" onclick="ChangePageNo(pageSelector, gotopage, <?php echo max(1, ($preview_page-1)); ?>);"></td>
+      <td><input class="volpage" id="gotopage" name="gotopage" size=4 value="<?=$preview_page?>" onKeyUp="ValidationPageNo(this);" onChange="ValidationPageNo(this, <?php echo $volPages; ?>);" onclick="this.className='volpageedit';" onBlur="this.className='volpage';"></td>
+      <td><img width="25" height="25" class="imagebutton" title="Goto Next Page" src="img/page_next.svg" onclick="ChangePageNo(pageSelector, gotopage, <?php echo min($volPages, ($preview_page+1)); ?>);"></td>
+      <td width="50">&nbsp;</td>
+      <td><img width="25" height="25" class="imagebutton" title="Goto Last Page (<?=$volPages?>)" src="img/page_last.svg" onclick="ChangePageNo(pageSelector, gotopage, <?=$volPages?>);"></td>
     </td></table>
   </form>
 </div><?php

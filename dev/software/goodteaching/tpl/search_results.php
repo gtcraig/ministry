@@ -58,7 +58,7 @@ if (!empty($searchType)) {
   $sqlFactory->setSearchType($searchType);
 }
 
-if ((count($author)>0) && (empty($author['ALL']))) {
+if ((count((array)$author)>0) && (empty($author['ALL']))) {
   $sqlFactory->setAuthors($author);
 }
 
@@ -143,7 +143,7 @@ if ($sqlFactory->isSearch()) {
   $ssql = mysqli_query($dbConn, $sqlFactory->getSql()) or die(mysql_error());
   while ($row = mysqli_fetch_array($ssql)) {
     foreach($row AS $key => $val) {
-      $$key = stripslashes($val);
+      $$key = stripslashes($val ?? '');
     }
 
     if (empty($inits)) $inits = "&nbsp;";
