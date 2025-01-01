@@ -518,6 +518,9 @@ namespace FrontBurner.Ministry.MseBuilder.Data
       DataTable dt = new DataTable("mse_article");
       MySqlDataAdapter da = new MySqlDataAdapter(_cmdArticle);
       da.Fill(dt);
+
+      if (dt.Rows.Count == 0) return null;
+
       DataRow dr = dt.Rows[0];
       Article art = new Article(vol, page, Convert.ToInt32(dr["localrow"]), Convert.ToInt32(dr["localrow"]), dr["article"].ToString());
 

@@ -47,6 +47,7 @@ using FrontBurner.Ministry.MseBuilder.Data;
 using FrontBurner.Ministry.MseBuilder.Reader.Epub;
 using FrontBurner.Ministry.MseBuilder.Reader.Epub.Article;
 using FrontBurner.Ministry.MseBuilder.Reader.Hymnbook;
+using System.Diagnostics;
 
 namespace FrontBurner.Ministry.MseBuilder.Engine
 {
@@ -266,13 +267,16 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       DirectoryInfo root = new DirectoryInfo(@"C:\tmp\epub");
       DirectoryInfo files = new DirectoryInfo(@"C:\tmp\epub\dirs");
       DirectoryInfo epubDir = new DirectoryInfo(@"C:\tmp\epub\epub");
+      DirectoryInfo kindleDir = new DirectoryInfo(@"C:\tmp\epub\kindle");
 
       try
       {
         if (files.Exists) files.Delete(true);
         files.Create();
         if (epubDir.Exists) epubDir.Delete(true);
-        epubDir.Create();
+        epubDir.Create(); 
+        if (kindleDir.Exists) kindleDir.Delete(true);
+        kindleDir.Create();
       }
       catch
       {
@@ -312,6 +316,8 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
             {
               // Find Article
               art = DatabaseLayer.Instance.GetArticle(vol, articlePage, articleLocalRow);
+              if (art == null) continue;
+
               if (art.Group == null)
               {
                 articleGroup = null;
@@ -355,6 +361,8 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
 
           epub.GenerateToc();
           epub.SaveFile();
+
+          CreateKindleFromEpub(epub.EpubFile, new FileInfo(String.Format(@"{0}\{1}.azw3", kindleDir.FullName, epub.Volume.Filename)));
 
           Thread.Sleep(50);
         }
@@ -466,6 +474,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       DirectoryInfo root = new DirectoryInfo(@"C:\tmp\epub");
       DirectoryInfo files = new DirectoryInfo(@"C:\tmp\epub\dirs");
       DirectoryInfo epubDir = new DirectoryInfo(@"C:\tmp\epub\epub");
+      DirectoryInfo kindleDir = new DirectoryInfo(@"C:\tmp\epub\kindle");
 
       try
       {
@@ -473,6 +482,8 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         files.Create();
         if (epubDir.Exists) epubDir.Delete(true);
         epubDir.Create();
+        if (kindleDir.Exists) kindleDir.Delete(true);
+        kindleDir.Create();
       }
       catch
       {
@@ -601,9 +612,23 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         epub.GenerateToc();
         epub.SaveFile();
 
+        CreateKindleFromEpub(epub.EpubFile, new FileInfo(String.Format(@"{0}\{1}.azw3", kindleDir.FullName, epub.Volume.Filename)));
+
         Thread.Sleep(50);
         _current++;
       }
+    }
+
+    private void CreateKindleFromEpub(FileInfo epub, FileInfo kindle)
+    {
+      Process kindleConv = new Process();
+      kindleConv.StartInfo.FileName = "ebook-convert.exe";
+      kindleConv.StartInfo.Arguments = String.Format("\"{0}\" \"{1}\"", epub.FullName, kindle.FullName);
+      kindleConv.StartInfo.UseShellExecute = false;
+      kindleConv.StartInfo.CreateNoWindow = true;
+      //kindleConv.StartInfo.WorkingDirectory = sourceFolder.FullName;
+      kindleConv.Start();
+      kindleConv.WaitForExit();
     }
 
     public void CreateEpubHymnFiles()
@@ -612,6 +637,7 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
       DirectoryInfo root = new DirectoryInfo(@"C:\tmp\epub");
       DirectoryInfo files = new DirectoryInfo(@"C:\tmp\epub\dirs");
       DirectoryInfo epubDir = new DirectoryInfo(@"C:\tmp\epub\epub");
+      DirectoryInfo kindleDir = new DirectoryInfo(@"C:\tmp\epub\kindle");
 
       try
       {
@@ -619,6 +645,8 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
         files.Create();
         if (epubDir.Exists) epubDir.Delete(true);
         epubDir.Create();
+        if (kindleDir.Exists) kindleDir.Delete(true);
+        kindleDir.Create();
       }
       catch (IOException ioe)
       {
@@ -661,8 +689,11 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
               hymn.Items.Add(verse);
             }
 
-            if (verse.PlainText != String.Empty) verse.PlainText += "<br />";
-            verse.PlainText += tr["line_text"].ToString();
+            if (verse != null)
+            {
+              if (verse.PlainText != String.Empty) verse.PlainText += "<br />";
+              verse.PlainText += tr["line_text"].ToString();
+            }
 
             prevVers = currVers;
           }
@@ -670,6 +701,8 @@ namespace FrontBurner.Ministry.MseBuilder.Engine
 
         hymnDoc.GenerateToc();
         hymnDoc.SaveFile();
+
+        CreateKindleFromEpub(hymnDoc.EpubFile, new FileInfo(String.Format(@"{0}\{1}.azw3", kindleDir.FullName, hymnDoc.Filename)));
 
         Thread.Sleep(50);
       }
