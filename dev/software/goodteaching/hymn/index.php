@@ -50,6 +50,7 @@ $language = NULL;    if (!empty($_GET['language'])) $language = $_GET['language'
       <td><select <? dropdownFocus(); ?> name="language" id="language" class="dropdown" onchange="toggle_language();">
       <option value="" <? echo ($language == "" ? "SELECTED" : ""); ?>>English</option>
       <option value="_de" <? echo ($language == "_de" ? "SELECTED" : ""); ?>>Deutsch</option>
+      <option value="_in" <? echo ($language == "_in" ? "SELECTED" : ""); ?>>Italian</option>
       <option value="_nl" <? echo ($language == "_nl" ? "SELECTED" : ""); ?>>Netherlands</option>
       </select></td>
 
@@ -83,8 +84,8 @@ $language = NULL;    if (!empty($_GET['language'])) $language = $_GET['language'
   </td>
   <td class="resultsheader"><img src="<? echo $root; ?>img/f.gif" border=0 width=12></td>
   <td height="100" class="searchresults" valign=top><?
-  $keywordsList = explode(" ", $keywords);
-  $authorList = explode(" ", $author);
+  $keywordsList = explode(" ", $keywords ?? '');
+  $authorList = explode(" ", $author ?? '');
 
   $metdesc = "";
   $catdesc = "";
