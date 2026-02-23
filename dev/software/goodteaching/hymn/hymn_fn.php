@@ -188,7 +188,7 @@ function author_search($dbConn, $authorList, $searchType) {
   $res = mysqli_query($dbConn, $compSql) or die("</select><h1>Query failed</h1><pre>$compSql</pre>");
   output_hymn_table_start();
   while ($row = mysqli_fetch_row($res)) {
-    output_hymn_line($row[0], utf8_encode($row[1]), $row[2]);
+    output_hymn_line($row[0], mb_convert_encoding($row[1], "UTF-8", mb_detect_encoding($row[1])), $row[2]);
   }
   output_hymn_table_end();
 
