@@ -1,22 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Ministry Search Engine Data Builder
- * Copyright (c) 2007,2018 Front Burner
- * Author Craig McKay <craig@frontburner.co.uk>
- *
- * Who  When         Why
- * CAM  22-Sep-2007  File added to source control.
- * CAM  12-May-2008  10265 : Added IsFullMarkup.
- * CAM  15-Jan-2010  10528 : Added Series and Title options.
- * CAM  15-Jan-2010  10529 : Converted Volume.Author from string to Author class.
- * CAM  15-Jan-2010  10529 : Missed a reference to Author.
- * CAM  18-Jan-2010  10539 : Include volume number prefix in title (for sorting in Calibre).
- * CAM  19-Jan-2010  10540 : Series is no longer require - based on logic.
- * CAM  24-Dec-2010  10902 : Smarter volume titles.
- * CAM  28-Dec-2011  gc005 : Removed redundant code.
- * CAM  29-Dec-2011  gc006 : Removed volume number from VolumeTitle.
- * CAM  29-Dec-2011  gc009 : Removed volume number from FullTitle for StandardEpub.
- * CAM  31-Dec-2015  886930 : Removed ancient SonyEpub references - no longer required.
- * CAM  22-Feb-2018  732482 : Ignore 'Author Name' for CollectionAuthor.
+ * Copyright (c) 2026 GoodTeaching.org
+ * Author Craig McKay <craig@goodteacing.org>
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -114,6 +99,38 @@ namespace FrontBurner.Ministry.MseBuilder.Abstract
         }
 
         return fullTitle;
+      }
+    }
+    public string FullSeries
+    {
+      get
+      {
+        if (Author == Author.ScriptureAuthor)
+        {
+          return "Good Teaching by Scripture";
+        }
+        else if (Author == Author.CollectionAuthor)
+        {
+          return "Good Teaching Collection";
+        }
+
+        return String.Format("{0} {1}", Author.FullName, Series).Trim();
+      }
+    }
+    public string Tag
+    {
+      get
+      {
+        if (Author == Author.ScriptureAuthor)
+        {
+          return "goodteachingbyscripture";
+        }
+        else if (Author == Author.CollectionAuthor)
+        {
+          return "goodteachingcollection";
+        }
+
+        return Author.Inits.ToLower();
       }
     }
     public string Filename

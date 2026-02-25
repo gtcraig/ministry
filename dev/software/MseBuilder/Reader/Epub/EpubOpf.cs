@@ -1,19 +1,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine Data Builder
- * Copyright (c) 2007,2010 Front Burner
- * Author Craig McKay <craig@frontburner.co.uk>
- *
- * $Id: EpubOpf.cs 1286 2010-12-24 22:41:03Z craig $
- *
- * Who  When         Why
- * CAM  19-Jan-2010  10540 : File created.
- * CAM  21-Jan-2010  10543 : Added dc:Subject (Tags).
- * CAM  21-Jan-2010  10549 : Use Volume.FullTitle for book title.
- * CAM  11-Feb-2010  10559 : Added Namespace etc to Package tag.
- * CAM  24-Dec-2010  10902 : Improved OO design to allow better extendability.
- * CAM  28-Dec-2011  gc005 : Ensure apostrophes display correctly by using EpubHeading.
- * CAM  29-Dec-2011  gc005 : Titles were not displaying correctly on Apple (&amp;rsquo;).
- * CAM  31-May-2015  998637 : Add the actual Cover page to spine for EPUB files (particularly Android, to ensure cover page appears).
+ * Copyright (c) 2026 GoodTeaching.org
+ * Author Craig McKay <craig@goodteacing.org>
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 using System;
@@ -125,10 +113,12 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
 
       element = AppendElement(MetaData, "dc:creator", XmlnsDc, Volume.Author.OrgName);
       AppendAttribute(element, "opf:role", XmlnsOpf, "aut");
-      AppendAttribute(element, "opf:file-as", XmlnsOpf, Volume.Author.OrgName);
+      AppendAttribute(element, "opf:file-as", XmlnsOpf, Volume.Author.OrgName);      
 
-      element = AppendElement(MetaData, "dc:subject", XmlnsDc, TagSafe(Volume.Author.OrgName));
+      element = AppendElement(MetaData, "dc:subject", XmlnsDc, TagSafe(Volume.Tag));
+      element = AppendElement(MetaData, "dc:subject", XmlnsDc, "goodteaching");
       element = AppendElement(MetaData, "dc:publisher", XmlnsDc, "GoodTeaching.org");
+
 
       element = AppendElement(MetaData, "dc:date", XmlnsDc, DateTime.Now.ToString("yyyy-MM-dd"));
       AppendAttribute(element, "opf:event", XmlnsOpf, "epub-publication");
@@ -143,6 +133,15 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Epub
       element = AppendElement(MetaData, "meta");
       AppendAttribute(element, "name", "cover");
       AppendAttribute(element, "content", CoverId);
+
+      // Calibre Meta Data
+      element = AppendElement(MetaData, "meta");
+      AppendAttribute(element, "name", "calibre:series");
+      AppendAttribute(element, "content", Volume.FullSeries);
+
+      element = AppendElement(MetaData, "meta");
+      AppendAttribute(element, "name", "calibre:series_index");
+      AppendAttribute(element, "content", String.Format("{0:0.0}", Volume.Vol));
     }
 
     protected void AddSupportFiles()
