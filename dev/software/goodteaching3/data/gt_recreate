@@ -1,0 +1,7 @@
+#mysql -u goodteaching -ppsalm45 -D goodteaching_org_min <structure.sql 
+#mysql -u goodteaching -ppsalm45 -D goodteaching_org_min <data.common.sql 
+#mysql -u goodteaching -ppsalm45 -D goodteaching_org_min <data.hymn.sql 
+#mysql -u goodteaching -ppsalm45 -D goodteaching_org_min <data.bible.sql 
+#mysql -u goodteaching -ppsalm45 -D goodteaching_org_min <data.ministry.sql 
+
+mysql -u goodteaching -ppsalm45 -D goodteaching_org_min <~/Sites/ministry/dev/software/MseBuilder/Data/create_tables.sql

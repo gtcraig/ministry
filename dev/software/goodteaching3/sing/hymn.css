@@ -1,0 +1,60 @@
+/* * * * * * * * * * * * * * * * * * * * * * * *
+ * Good Teaching Search Engine
+ * Copyright (c) 2007,2020 frontburner.co.uk
+ *
+ * 1962 Hymn Book Search CSS
+ *
+ * Who  When         Why
+ * CAM  29-Sep-2008  10302 : File created.
+ * CAM  12-Apr-2009  10419 : Matched Hymn Search Type banner to Results border.
+ * CAM  30-Dec-2009  10520 : Removed excess formatting on dropdowns.
+ * * * * * * * * * * * * * * * * * * * * * * * */
+
+.error {
+  font-size:13px;
+  color:#1269A0;
+}
+.dropdown {
+  font-size:13px;
+}
+.lines {
+  font-family: Georgia, Arial, Helvetica;
+  font-size:14px;
+}
+.verse {
+  font-family: Georgia, Arial, Helvetica;
+  font-size:24px;
+  font-weight:normal;
+  vertical-align: top;
+  background-color: #f6b33a;
+  color: #29166F;  
+}
+.chorus {
+  font-family: Georgia, Arial, Helvetica;
+  font-style:italic;
+  color:29166F;
+}
+.hymn {
+  font-size:13px;
+  font-weight:bold;
+  color: #29166F;
+}
+.meter {
+  font-size:12px;
+  font-weight:bold;
+  text-align: right;
+  color:DB0954;
+}
+.author {
+  font-size:12px;
+  font-weight:bold;
+  text-align: right;
+}
+.hymnSearchType {
+  font-size:10px;
+  font-weight:bold;
+  color:#FFFFFF;
+  background:#0A6CDA;
+  padding:4px;
+  text-align: left;
+}
