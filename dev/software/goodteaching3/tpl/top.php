@@ -65,7 +65,7 @@ if (empty($title)) {
 <?}?>
 <body topmargin=2 leftmargin=0 id="<? echo $pageName;?>">
 
-<table border=0 cellpadding=0 cellspacing=0 class=outerBox width="900" align=center cols=3>
+<table border=0 cellpadding=0 cellspacing=0 class=outerBox width="100%" align=center cols=3>
   <tr>
     <td class="topnav"><img src="<? echo $root;?>img/f.gif" border=0 width=500 height=10></td>
     <td class="topnav"><img src="<? echo $root;?>img/f.gif" border=0 width=20 height=0></td>

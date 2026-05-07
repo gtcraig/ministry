@@ -1,0 +1,88 @@
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600&display=swap');
+  .mock * { box-sizing: border-box; margin: 0; padding: 0; }
+  .mock { font-family: 'Inter', sans-serif; background: #f5f3ee; border-radius: 12px; overflow: hidden; }
+  .mock-header { background: #0d1f3c; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; }
+  .mock-logo { font-family: 'Playfair Display', serif; color: #c9a84c; font-size: 18px; letter-spacing: 0.3px; }
+  .mock-nav { display: flex; gap: 6px; }
+  .mock-nav a { color: #a0b4cc; font-size: 12px; padding: 5px 10px; border-radius: 6px; text-decoration: none; font-weight: 500; }
+  .mock-nav a.active { background: #c9a84c; color: #0d1f3c; }
+  .mock-nav a:not(.active):hover { color: #fff; }
+  .mock-tabs { background: #152d4e; padding: 0 24px; display: flex; gap: 2px; }
+  .mock-tab { padding: 10px 18px; font-size: 12px; font-weight: 500; border-radius: 6px 6px 0 0; cursor: pointer; }
+  .mock-tab.keyword { background: #b5292e; color: #fff; }
+  .mock-tab.scripture { background: #c9a84c; color: #0d1f3c; }
+  .mock-tab.author { background: #2d6a4f; color: #fff; }
+  .mock-tab.inactive { background: transparent; color: #7a9ab8; }
+  .mock-body { padding: 24px; display: grid; grid-template-columns: 1fr 260px; gap: 20px; }
+  .mock-search { background: #fff; border-radius: 10px; border: 1px solid #ddd8cc; padding: 20px; }
+  .mock-search-title { font-family: 'Playfair Display', serif; font-size: 15px; color: #0d1f3c; margin-bottom: 12px; }
+  .mock-input { width: 100%; border: 1px solid #c9d4de; border-radius: 6px; padding: 9px 12px; font-size: 13px; color: #333; margin-bottom: 10px; font-family: 'Inter', sans-serif; }
+  .mock-btn { background: #0d1f3c; color: #c9a84c; border: none; border-radius: 6px; padding: 9px 20px; font-size: 12px; font-weight: 600; font-family: 'Inter', sans-serif; cursor: pointer; letter-spacing: 0.5px; }
+  .mock-result { background: #fff; border-radius: 10px; border: 1px solid #ddd8cc; padding: 14px; margin-bottom: 10px; }
+  .mock-result-title { font-weight: 600; font-size: 13px; color: #0d1f3c; margin-bottom: 4px; }
+  .mock-result-meta { font-size: 11px; color: #7a8a9a; margin-bottom: 6px; }
+  .mock-result-excerpt { font-size: 12px; color: #444; line-height: 1.6; }
+  .mock-result-excerpt mark { background: #fff3b0; color: #333; border-radius: 2px; padding: 0 2px; }
+  .mock-sidebar { display: flex; flex-direction: column; gap: 14px; }
+  .mock-widget { background: #fff; border-radius: 10px; border: 1px solid #ddd8cc; padding: 16px; }
+  .mock-widget-title { font-family: 'Playfair Display', serif; font-size: 13px; color: #0d1f3c; margin-bottom: 10px; border-bottom: 1px solid #eee8dc; padding-bottom: 8px; }
+  .mock-vol { font-size: 12px; color: #2d6a4f; font-weight: 500; padding: 4px 0; border-bottom: 1px solid #f0ebe0; }
+  .mock-vol:last-child { border-bottom: none; }
+  .mock-footer { background: #0d1f3c; padding: 12px 24px; text-align: center; font-size: 11px; color: #4a6280; }
+  .mock-gold-bar { height: 3px; background: linear-gradient(90deg, #c9a84c, #e8c97a, #c9a84c); }
+</style>
+<div class="mock">
+  <div class="mock-header">
+    <div class="mock-logo">Good Teaching</div>
+    <nav class="mock-nav">
+      <a href="#" class="active">Search</a>
+      <a href="#">eBooks</a>
+      <a href="#">Bible</a>
+      <a href="#">Hymns</a>
+      <a href="#">Tunes</a>
+    </nav>
+  </div>
+  <div class="mock-gold-bar"></div>
+  <div class="mock-tabs">
+    <div class="mock-tab keyword">Keyword</div>
+    <div class="mock-tab scripture">Scripture</div>
+    <div class="mock-tab author">Author</div>
+  </div>
+  <div class="mock-body">
+    <div>
+      <div class="mock-search" style="margin-bottom:16px;">
+        <div class="mock-search-title">Search the Ministry</div>
+        <input class="mock-input" placeholder="Enter keyword..." />
+        <button class="mock-btn">Search</button>
+      </div>
+      <div class="mock-result">
+        <div class="mock-result-title">The Gospel of Grace — Vol. 3</div>
+        <div class="mock-result-meta">J.N. Darby &nbsp;·&nbsp; Page 142</div>
+        <div class="mock-result-excerpt">...the <mark>grace</mark> of God that bringeth salvation hath appeared to all men, teaching us that, denying ungodliness...</div>
+      </div>
+      <div class="mock-result">
+        <div class="mock-result-title">Ministry of the Word — Vol. 12</div>
+        <div class="mock-result-meta">W. Kelly &nbsp;·&nbsp; Page 87</div>
+        <div class="mock-result-excerpt">...in all its fullness, the <mark>grace</mark> that was given to us in Christ Jesus before the world began...</div>
+      </div>
+    </div>
+    <div class="mock-sidebar">
+      <div class="mock-widget">
+        <div class="mock-widget-title">Latest Volumes</div>
+        <div class="mock-vol">Collected Writings Vol. 34</div>
+        <div class="mock-vol">Notes on Romans</div>
+        <div class="mock-vol">Synopsis Vol. 5</div>
+        <div class="mock-vol">The Psalms</div>
+      </div>
+      <div class="mock-widget">
+        <div class="mock-widget-title">Quick Links</div>
+        <div class="mock-vol">Download eBooks</div>
+        <div class="mock-vol">Hymn Search</div>
+        <div class="mock-vol">Tune Player</div>
+      </div>
+    </div>
+  </div>
+  <div class="mock-footer">© Good Teaching Search Engine · frontburner.co.uk</div>
+</div>
