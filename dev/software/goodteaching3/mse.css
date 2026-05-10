@@ -1,15 +1,17 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
- * Redesigned CSS — Navy + Gold Theme
- * Based on original copyright (c) 2007,2020 frontburner.co.uk
- *
- * Redesign: 2026
+ * Navy + Gold Theme — Redesign 2026
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-/* ── Google Fonts ── */
+/* ══════════════════════════════════════
+   1. FONTS
+══════════════════════════════════════ */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600&display=swap');
 
-/* ── CSS Variables ── */
+
+/* ══════════════════════════════════════
+   2. VARIABLES
+══════════════════════════════════════ */
 :root {
   --navy:        #0d1f3c;
   --navy-mid:    #152d4e;
@@ -34,15 +36,21 @@
   --radius-lg:   14px;
 }
 
-/* ── Reset & Base ── */
-*, *::before, *::after {
-  box-sizing: border-box;
+
+/* ══════════════════════════════════════
+   3. RESET & BASE
+══════════════════════════════════════ */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 body {
   background-color: var(--cream);
-  margin: 0;
-  padding: 0;
 }
 
 p, a, h3, table, td, input, select, textarea {
@@ -53,14 +61,12 @@ p, a, h3, table, td, input, select, textarea {
   font-weight: 400;
 }
 
-a {
-  font-weight: 500;
-}
+a { font-weight: 500; }
 
 h1, h2, h3, h4 {
   font-family: 'Playfair Display', serif;
   font-size: medium;
-  margin: .3em 0 .3em 0;
+  margin: .3em 0;
   padding: 0;
   color: var(--navy);
 }
@@ -74,98 +80,132 @@ th {
   padding: 6px 8px;
 }
 
-/* ── Top Navigation Bar ── */
-.topnav {
-  background-color: var(--navy);
-  color: var(--gold);
+
+/* ══════════════════════════════════════
+   4. OUTER WRAPPER
+══════════════════════════════════════ */
+.outerBox {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-/* Nav links */
-a#linkGt,
-a#linkEbook,
-a#linkBible,
-a#linkHymn,
-a#linkTune,
-a#linkSing,
-a#linkEaston,
-a#linkHitchcock {
-  text-decoration: none;
-  color: #a0b4cc;
-  padding: 5px 11px;
-  border-radius: var(--radius-sm);
+
+/* ══════════════════════════════════════
+   5. HEADER
+══════════════════════════════════════ */
+.gt-header {
+  background-color: var(--navy);
+  padding: 0 28px;
+  flex-shrink: 0;
+}
+
+.gt-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.gt-logo {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: var(--gold) !important;
+  text-decoration: none !important;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.gt-logo:hover {
+  color: var(--gold-light) !important;
+  text-decoration: none !important;
+}
+
+.gt-goldbar {
+  height: 3px;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+  flex-shrink: 0;
+}
+
+
+/* ══════════════════════════════════════
+   6. NAVIGATION
+══════════════════════════════════════ */
+.gt-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.gt-nav a {
   font-family: 'Inter', sans-serif;
   font-size: 10pt;
   font-weight: 500;
+  color: #a0b4cc;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
   transition: background 0.15s, color 0.15s;
 }
 
-/* Active nav link (current page) */
-body#pageEbook a#linkEbook,
-body#pageBible a#linkBible,
-body#pageHymn a#linkHymn,
-body#pageTune a#linkTune,
-body#pageSing a#linkSing,
-body#pageEaston a#linkEaston,
-body#pageHitchcock a#linkHitchcock {
-  color: var(--navy);
-  background: var(--gold);
-}
-
-
-/* Good Teaching Main Page */
-body#pageGt a#linkGt {
-  color: var(--gold);
-  background: var(--navy);
-  font-family: 'Playfair Display', serif; 
-  font-size: 18px; 
-  letter-spacing: 0.3px;
-}
-
-/* Nav link hover */
-a#linkGt:hover,
-a#linkEbook:hover,
-a#linkBible:hover,
-a#linkHymn:hover,
-a#linkTune:hover,
-a#linkSing:hover,
-a#linkEaston:hover,
-a#linkHitchcock:hover {
+.gt-nav a:hover {
   background: var(--navy-light);
   color: var(--white);
+  text-decoration: none;
 }
 
-body#pageGt a#linkGt:hover,
-body#pageEbook a#linkEbook:hover,
-body#pageBible a#linkBible:hover,
-body#pageHymn a#linkHymn:hover,
-body#pageTune a#linkTune:hover,
-body#pageSing a#linkSing:hover,
-body#pageEaston a#linkEaston:hover,
-body#pageHitchcock a#linkHitchcock:hover {
+body#pageGt    .gt-nav a#linkGt,
+body#pageEbook .gt-nav a#linkEbook,
+body#pageBible .gt-nav a#linkBible,
+body#pageHymn  .gt-nav a#linkHymn,
+body#pageTune  .gt-nav a#linkTune,
+body#pageSing  .gt-nav a#linkSing {
+  background: var(--gold);
+  color: var(--navy);
+  font-weight: 600;
+}
+
+body#pageGt    .gt-nav a#linkGt:hover,
+body#pageEbook .gt-nav a#linkEbook:hover,
+body#pageBible .gt-nav a#linkBible:hover,
+body#pageHymn  .gt-nav a#linkHymn:hover,
+body#pageTune  .gt-nav a#linkTune:hover,
+body#pageSing  .gt-nav a#linkSing:hover {
   background: var(--gold-light);
   color: var(--navy);
 }
 
-/* Separator between nav links */
-.topsep {
-  color: var(--navy-light);
-  font-weight: 400;
-  font-size: 11pt;
-  padding-left: 2px;
-  padding-right: 2px;
+/* Legacy nav link styles (used in old tpl files) */
+.topnav { background-color: var(--navy); color: var(--gold); }
+.topsep { color: var(--navy-light); font-weight: 400; font-size: 11pt; padding: 0 2px; }
+
+A.nav, A.nav:visited, A.nav:active, A.nav:link {
+  color: var(--gold-light);
+  font-size: 8.5pt;
+  text-decoration: none;
+  font-weight: 500;
+}
+A.nav:hover { color: var(--gold); text-decoration: underline; }
+
+
+/* ══════════════════════════════════════
+   7. TABS
+══════════════════════════════════════ */
+.gt-tabs {
+  background-color: var(--navy-mid);
+  padding: 8px 28px 0;
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
 }
 
-/* ── Outer Container ── */
-.outerBox {
-  background-color: var(--white);
-  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-  box-shadow: 0 4px 24px rgba(13, 31, 60, 0.08);
-}
-
-/* ── Tabs ── */
-.keywordtab {
-  background-color: var(--red);
-  color: var(--white);
+.keywordtab, .scripturetab, .authortab,
+.keywordtabhover, .scripturetabhover, .authortabhover {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 10pt;
@@ -176,92 +216,35 @@ body#pageHitchcock a#linkHitchcock:hover {
   letter-spacing: 0.3px;
 }
 
-.scripturetab {
-  background-color: var(--gold);
-  color: var(--navy);
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 10pt;
-  width: 150px;
-  text-align: center;
-  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-  padding: 6px 0;
-  letter-spacing: 0.3px;
+.keywordtab  { background-color: var(--red);        color: var(--white); }
+.scripturetab { background-color: var(--gold);       color: var(--navy); }
+.authortab   { background-color: var(--green);       color: var(--white); }
+
+.keywordtabhover  { background-color: var(--red-light);   color: var(--red);   cursor: pointer; letter-spacing: normal; }
+.scripturetabhover { background-color: var(--gold-pale);  color: var(--amber); cursor: pointer; letter-spacing: normal; }
+.authortabhover   { background-color: var(--green-light); color: var(--green); cursor: pointer; letter-spacing: normal; }
+
+
+/* ══════════════════════════════════════
+   8. CONTENT AREA
+══════════════════════════════════════ */
+.gt-content {
+  padding: 20px 28px;
+  background: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-.authortab {
-  background-color: var(--green);
-  color: var(--white);
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 10pt;
-  width: 150px;
-  text-align: center;
-  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-  padding: 6px 0;
-  letter-spacing: 0.3px;
-}
+.mainborder     { padding: 16px; }
+.keywordborder  { border-top: 4px solid var(--red);   padding: 16px; }
+.scriptureborder { border-top: 4px solid var(--gold);  padding: 16px; }
+.authorborder   { border-top: 4px solid var(--green);  padding: 16px; }
 
-.keywordtabhover {
-  background-color: var(--red-light);
-  color: var(--red);
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 10pt;
-  width: 150px;
-  text-align: center;
-  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-  padding: 6px 0;
-  cursor: pointer;
-}
 
-.scripturetabhover {
-  background-color: var(--gold-pale);
-  color: var(--amber);
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 10pt;
-  width: 150px;
-  text-align: center;
-  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-  padding: 6px 0;
-  cursor: pointer;
-}
-
-.authortabhover {
-  background-color: var(--green-light);
-  color: var(--green);
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 10pt;
-  width: 150px;
-  text-align: center;
-  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
-  padding: 6px 0;
-  cursor: pointer;
-}
-
-/* ── Content Borders (by search type) ── */
-.mainborder {
-  padding: 16px;
-}
-
-.keywordborder {
-  border-top: 4px solid var(--red);
-  padding: 16px;
-}
-
-.scriptureborder {
-  border-top: 4px solid var(--gold);
-  padding: 16px;
-}
-
-.authorborder {
-  border-top: 4px solid var(--green);
-  padding: 16px;
-}
-
-/* ── Links ── */
+/* ══════════════════════════════════════
+   9. LINKS
+══════════════════════════════════════ */
 A, A:visited, A:active, A:link {
   color: var(--navy-light);
   font-weight: 500;
@@ -274,19 +257,10 @@ A:hover {
   text-decoration: underline;
 }
 
-A.nav, A.nav:visited, A.nav:active, A.nav:link {
-  color: var(--gold-light);
-  font-size: 8.5pt;
-  text-decoration: none;
-  font-weight: 500;
-}
 
-A.nav:hover {
-  color: var(--gold);
-  text-decoration: underline;
-}
-
-/* ── Search Results ── */
+/* ══════════════════════════════════════
+   10. SEARCH RESULTS
+══════════════════════════════════════ */
 .resultsheader {
   padding:          8px 10px;
   background-color: var(--navy);
@@ -301,7 +275,6 @@ A.nav:hover {
   border-top:       3px solid var(--navy-light);
   background-color: var(--white);
   color:            var(--text-dark);
-  font-weight:      normal;
   border-radius:    0 0 var(--radius-md) var(--radius-md);
 }
 
@@ -310,7 +283,6 @@ A.nav:hover {
   border-top:       3px solid var(--navy-light);
   background-color: var(--white);
   color:            var(--text-dark);
-  font-weight:      normal;
   padding:          12px;
   border-radius:    0 0 var(--radius-md) var(--radius-md);
 }
@@ -324,355 +296,10 @@ A.nav:hover {
 }
 
 .rd {
-  border-bottom:    1px solid var(--cream-dark);
-  padding:          4px 8px;
+  border-bottom: 1px solid var(--cream-dark);
+  padding:       4px 8px;
 }
 
-/* ── Latest Volumes ── */
-#latestvols {
-  padding: 20px 0 10px 10px;
-}
-
-#latestvols h3 {
-  font-family:   'Playfair Display', serif;
-  font-size:     12pt;
-  color:         var(--navy);
-  font-weight:   600;
-  border-bottom: 2px solid var(--gold);
-  padding-bottom: 6px;
-  margin-bottom: 10px;
-  display:       inline-block;
-}
-
-/* ── Semantic Colour Helpers ── */
-.red    { color: var(--red); }
-.orange { color: var(--amber); }
-.green  { color: var(--green); }
-.blue   { color: var(--navy-light); }
-
-.fn {
-  color: var(--text-muted);
-  font-size: 9pt;
-}
-
-/* ── Copyright Footer ── */
-.cpyrght {
-  background-color: var(--navy);
-  color:            #4a6280;
-  text-align:       center;
-  padding:          12px;
-  font-size:        9pt;
-  border-radius:    0 0 var(--radius-lg) var(--radius-lg);
-}
-
-/* ── Search Type Selector ── */
-#searchType ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-#searchType li {
-  margin: 0;
-  padding: .1em .2em;
-  display: inline;
-}
-
-/* ── Form Field Labels ── */
-.fld {
-  color:       var(--red);
-  font-weight: 600;
-}
-
-td.fldmand {
-  color:       var(--red);
-  font-weight: 600;
-}
-
-td.fldopt {
-  color:       var(--green);
-  font-weight: 500;
-  font-style:  italic;
-}
-
-td.current {
-  color:       var(--gold);
-  font-weight: 500;
-}
-
-td.loggedin {
-  color:     var(--text-mid);
-  font-size: 8.5pt;
-}
-
-td.bc { text-align: center; }
-td.br { text-align: right; }
-
-td.navText {
-  color: var(--gold-light);
-}
-
-td.toolTip {
-  color:     var(--text-muted);
-  font-size: 9pt;
-}
-
-td.sel {
-  color:            var(--white);
-  background-color: var(--navy-light);
-  font-weight:      600;
-}
-
-td.sub {
-  color:            var(--white);
-  background-color: var(--navy-mid);
-  font-weight:      600;
-}
-
-td.cat {
-  color:       var(--navy);
-  font-size:   12pt;
-  font-weight: 600;
-  font-family: 'Playfair Display', serif;
-}
-
-/* ── Separators ── */
-.sep {
-  color:         var(--red);
-  font-weight:   600;
-  padding-left:  4px;
-  padding-right: 4px;
-}
-
-/* ── Buttons ── */
-input.button {
-  background-color: var(--navy);
-  border:           1px solid var(--navy-light);
-  color:            var(--gold);
-  font-family:      'Inter', sans-serif;
-  font-size:        9pt;
-  font-weight:      600;
-  padding:          5px 14px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-  letter-spacing:   0.4px;
-  transition:       background 0.15s, color 0.15s;
-}
-
-input.buttonhover {
-  background-color: var(--navy-light);
-  border:           1px solid var(--gold);
-  color:            var(--gold-light);
-  font-family:      'Inter', sans-serif;
-  font-size:        9pt;
-  font-weight:      600;
-  padding:          5px 14px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-}
-
-input.keywordbutton {
-  background-color: var(--red);
-  border:           1px solid #8a1e22;
-  color:            var(--white);
-  font-family:      'Inter', sans-serif;
-  font-size:        9pt;
-  font-weight:      600;
-  padding:          5px 14px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-  transition:       background 0.15s;
-}
-
-input.scripturebutton {
-  background-color: var(--gold);
-  border:           1px solid #a88030;
-  color:            var(--navy);
-  font-family:      'Inter', sans-serif;
-  font-size:        9pt;
-  font-weight:      600;
-  padding:          5px 14px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-  transition:       background 0.15s;
-}
-
-input.authorbutton {
-  background-color: var(--green);
-  border:           1px solid #1e4d38;
-  color:            var(--white);
-  font-family:      'Inter', sans-serif;
-  font-size:        9pt;
-  font-weight:      600;
-  padding:          5px 14px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-  transition:       background 0.15s;
-}
-
-input.keywordbuttonhover {
-  background-color: var(--red-light);
-  border:           1px solid var(--red);
-  color:            var(--red);
-  font-family:      'Inter', sans-serif;
-  font-size:        9pt;
-  font-weight:      600;
-  padding:          5px 14px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-}
-
-input.scripturebuttonhover {
-  background-color: var(--gold-pale);
-  border:           1px solid var(--gold);
-  color:            var(--amber);
-  font-family:      'Inter', sans-serif;
-  font-size:        9pt;
-  font-weight:      600;
-  padding:          5px 14px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-}
-
-input.authorbuttonhover {
-  background-color: var(--green-light);
-  border:           1px solid var(--green);
-  color:            var(--green);
-  font-family:      'Inter', sans-serif;
-  font-size:        9pt;
-  font-weight:      600;
-  padding:          5px 14px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-}
-
-input.previewbutton {
-  background-color: var(--white);
-  border:           1px solid var(--border);
-  color:            var(--navy-light);
-  font-family:      'Inter', sans-serif;
-  font-size:        8.5pt;
-  font-weight:      500;
-  padding:          3px 8px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-  transition:       background 0.15s;
-}
-
-input.previewbuttonhover {
-  background-color: var(--cream);
-  border:           1px solid var(--navy-light);
-  color:            var(--navy);
-  font-family:      'Inter', sans-serif;
-  font-size:        8.5pt;
-  font-weight:      500;
-  padding:          3px 8px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-}
-
-input.pagebutton {
-  background-color: var(--white);
-  border:           1px solid var(--border);
-  color:            var(--text-mid);
-  font-family:      'Inter', sans-serif;
-  font-size:        8.5pt;
-  font-weight:      500;
-  padding:          3px 8px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-  transition:       background 0.15s;
-}
-
-input.pagebuttonhover {
-  background-color: var(--gold);
-  border:           1px solid var(--amber);
-  color:            var(--navy);
-  font-family:      'Inter', sans-serif;
-  font-size:        8.5pt;
-  font-weight:      600;
-  padding:          3px 8px;
-  border-radius:    var(--radius-sm);
-  cursor:           pointer;
-}
-
-.imagebutton {
-  cursor: pointer;
-}
-
-/* ── Pagination ── */
-.pagesel {
-  color:       var(--gold);
-  font-size:   8.5pt;
-  font-weight: 600;
-}
-
-.pageannot {
-  color:       var(--text-muted);
-  font-size:   8.5pt;
-  font-weight: normal;
-}
-
-/* ── Volume / Page Display ── */
-.volpage {
-  text-align:       center;
-  background-color: var(--white);
-  border:           1px solid var(--navy-light);
-  color:            var(--text-dark);
-  font-size:        10pt;
-  font-weight:      normal;
-  padding:          6px;
-  border-radius:    var(--radius-sm);
-}
-
-.volpageedit {
-  text-align:       center;
-  background-color: var(--gold-pale);
-  border:           1px solid var(--gold);
-  color:            var(--navy);
-  font-size:        10pt;
-  font-weight:      normal;
-  padding:          6px;
-  border-radius:    var(--radius-sm);
-}
-
-/* ── Continuation marker ── */
-.contNewPage {
-  padding:          4px 6px;
-  background-color: var(--cream-dark);
-  color:            var(--text-muted);
-  border-radius:    var(--radius-sm);
-  font-size:        9pt;
-}
-
-/* ── Form Focus ── */
-.fieldFocus {
-  background-color: var(--gold-pale);
-  outline:          2px solid var(--gold);
-}
-
-/* ── Message Formats ── */
-p.err {
-  font-size:   13pt;
-  color:       var(--red);
-  font-weight: normal;
-}
-
-p.quest {
-  font-family: 'Playfair Display', serif;
-  font-size:   13pt;
-  color:       var(--navy);
-  font-weight: normal;
-}
-
-p.statement {
-  font-family: 'Playfair Display', serif;
-  font-size:   13pt;
-  color:       var(--navy);
-  font-weight: normal;
-}
-
-/* ── Search Term Highlight Colours ── */
 .hlght0 { background-color: #fff3b0; color: #333; border-radius: 2px; padding: 0 2px; }
 .hlght1 { background-color: #f9d0f0; color: #333; border-radius: 2px; padding: 0 2px; }
 .hlght2 { background-color: #c8f0f0; color: #333; border-radius: 2px; padding: 0 2px; }
@@ -681,18 +308,226 @@ p.statement {
 .hlght5 { background-color: #c8c8f9; color: #333; border-radius: 2px; padding: 0 2px; }
 
 
-/* ── Responsive Layout ── */
-.outerBox {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+/* ══════════════════════════════════════
+   11. BUTTONS
+══════════════════════════════════════ */
+input.button {
+  background-color: var(--navy);   border: 1px solid var(--navy-light);
+  color: var(--gold);              font-family: 'Inter', sans-serif;
+  font-size: 9pt;                  font-weight: 600;
+  padding: 5px 14px;               border-radius: var(--radius-sm);
+  cursor: pointer;                 letter-spacing: 0.4px;
+  transition: background 0.15s, color 0.15s;
+}
+input.buttonhover {
+  background-color: var(--navy-light); border: 1px solid var(--gold);
+  color: var(--gold-light);            font-family: 'Inter', sans-serif;
+  font-size: 9pt;                      font-weight: 600;
+  padding: 5px 14px;                   border-radius: var(--radius-sm);
+  cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .outerBox { padding: 0 8px; }
+input.keywordbutton {
+  background-color: var(--red);   border: 1px solid #8a1e22;
+  color: var(--white);            font-family: 'Inter', sans-serif;
+  font-size: 9pt;                 font-weight: 600;
+  padding: 5px 14px;              border-radius: var(--radius-sm);
+  cursor: pointer;                transition: background 0.15s;
+}
+input.keywordbuttonhover {
+  background-color: var(--red-light); border: 1px solid var(--red);
+  color: var(--red);                  font-family: 'Inter', sans-serif;
+  font-size: 9pt;                     font-weight: 600;
+  padding: 5px 14px;                  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+input.scripturebutton {
+  background-color: var(--gold);  border: 1px solid #a88030;
+  color: var(--navy);             font-family: 'Inter', sans-serif;
+  font-size: 9pt;                 font-weight: 600;
+  padding: 5px 14px;              border-radius: var(--radius-sm);
+  cursor: pointer;                transition: background 0.15s;
+}
+input.scripturebuttonhover {
+  background-color: var(--gold-pale); border: 1px solid var(--gold);
+  color: var(--amber);                font-family: 'Inter', sans-serif;
+  font-size: 9pt;                     font-weight: 600;
+  padding: 5px 14px;                  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+input.authorbutton {
+  background-color: var(--green); border: 1px solid #1e4d38;
+  color: var(--white);            font-family: 'Inter', sans-serif;
+  font-size: 9pt;                 font-weight: 600;
+  padding: 5px 14px;              border-radius: var(--radius-sm);
+  cursor: pointer;                transition: background 0.15s;
+}
+input.authorbuttonhover {
+  background-color: var(--green-light); border: 1px solid var(--green);
+  color: var(--green);                  font-family: 'Inter', sans-serif;
+  font-size: 9pt;                       font-weight: 600;
+  padding: 5px 14px;                    border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+input.previewbutton {
+  background-color: var(--white); border: 1px solid var(--border);
+  color: var(--navy-light);       font-family: 'Inter', sans-serif;
+  font-size: 8.5pt;               font-weight: 500;
+  padding: 3px 8px;               border-radius: var(--radius-sm);
+  cursor: pointer;                transition: background 0.15s;
+}
+input.previewbuttonhover {
+  background-color: var(--cream); border: 1px solid var(--navy-light);
+  color: var(--navy);             font-family: 'Inter', sans-serif;
+  font-size: 8.5pt;               font-weight: 500;
+  padding: 3px 8px;               border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+input.pagebutton {
+  background-color: var(--white); border: 1px solid var(--border);
+  color: var(--text-mid);         font-family: 'Inter', sans-serif;
+  font-size: 8.5pt;               font-weight: 500;
+  padding: 3px 8px;               border-radius: var(--radius-sm);
+  cursor: pointer;                transition: background 0.15s;
+}
+input.pagebuttonhover {
+  background-color: var(--gold);  border: 1px solid var(--amber);
+  color: var(--navy);             font-family: 'Inter', sans-serif;
+  font-size: 8.5pt;               font-weight: 600;
+  padding: 3px 8px;               border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.imagebutton { cursor: pointer; }
+
+
+/* ══════════════════════════════════════
+   12. FORM ELEMENTS
+══════════════════════════════════════ */
+.fld        { color: var(--red);   font-weight: 600; }
+.fieldFocus { background-color: var(--gold-pale); outline: 2px solid var(--gold); }
+
+td.fldmand  { color: var(--red);   font-weight: 600; }
+td.fldopt   { color: var(--green); font-weight: 500; font-style: italic; }
+td.current  { color: var(--gold);  font-weight: 500; }
+td.loggedin { color: var(--text-mid); font-size: 8.5pt; }
+td.navText  { color: var(--gold-light); }
+td.toolTip  { color: var(--text-muted); font-size: 9pt; }
+td.sel      { color: var(--white); background-color: var(--navy-light); font-weight: 600; }
+td.sub      { color: var(--white); background-color: var(--navy-mid);   font-weight: 600; }
+td.cat      { color: var(--navy);  font-size: 12pt; font-weight: 600; font-family: 'Playfair Display', serif; }
+td.bc       { text-align: center; }
+td.br       { text-align: right; }
+
+#searchType ul { margin: 0; padding: 0; list-style-type: none; }
+#searchType li { margin: 0; padding: .1em .2em; display: inline; }
+
+
+/* ══════════════════════════════════════
+   13. PAGINATION & VOLUME DISPLAY
+══════════════════════════════════════ */
+.pagesel   { color: var(--gold);       font-size: 8.5pt; font-weight: 600; }
+.pageannot { color: var(--text-muted); font-size: 8.5pt; font-weight: normal; }
+
+.volpage {
+  text-align: center; background-color: var(--white);
+  border: 1px solid var(--navy-light); color: var(--text-dark);
+  font-size: 10pt; padding: 6px; border-radius: var(--radius-sm);
+}
+.volpageedit {
+  text-align: center; background-color: var(--gold-pale);
+  border: 1px solid var(--gold); color: var(--navy);
+  font-size: 10pt; padding: 6px; border-radius: var(--radius-sm);
+}
+
+
+/* ══════════════════════════════════════
+   14. MISC & SEMANTIC HELPERS
+══════════════════════════════════════ */
+.red    { color: var(--red); }
+.orange { color: var(--amber); }
+.green  { color: var(--green); }
+.blue   { color: var(--navy-light); }
+
+.fn          { color: var(--text-muted); font-size: 9pt; }
+.sep         { color: var(--red); font-weight: 600; padding: 0 4px; }
+.contNewPage { padding: 4px 6px; background-color: var(--cream-dark); color: var(--text-muted); border-radius: var(--radius-sm); font-size: 9pt; }
+
+p.err       { font-size: 13pt; color: var(--red);  font-weight: normal; }
+p.quest     { font-family: 'Playfair Display', serif; font-size: 13pt; color: var(--navy); }
+p.statement { font-family: 'Playfair Display', serif; font-size: 13pt; color: var(--navy); }
+
+#latestvols { padding: 20px 0 10px 10px; }
+#latestvols h3 {
+  font-family: 'Playfair Display', serif; font-size: 12pt;
+  color: var(--navy); font-weight: 600;
+  border-bottom: 2px solid var(--gold); padding-bottom: 6px;
+  margin-bottom: 10px; display: inline-block;
+}
+
+
+/* ══════════════════════════════════════
+   15. FOOTER
+══════════════════════════════════════ */
+.cpyrght {
+  background-color: var(--navy);
+  color: #4a6280;
+  text-align: center;
+  padding: 12px;
+  font-size: 9pt;
+  flex-shrink: 0;
+}
+
+
+/* ══════════════════════════════════════
+   16. HOME PAGE LAYOUT
+══════════════════════════════════════ */
+.gt-home {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 20px;
+  padding: 4px 0 8px;
+  flex: 1;
+}
+
+.gt-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: center;
+}
+
+.gt-ebook-banner {
+  grid-column: 1 / -1;
+  margin-top: auto;
+}
+
+
+/* ══════════════════════════════════════
+   17. RESPONSIVE
+══════════════════════════════════════ */
+@media (max-width: 900px) {
+  .gt-header  { padding: 0 16px; }
+  .gt-content { padding: 16px; }
+  .gt-tabs    { padding: 6px 16px 0; }
+  .gt-logo    { font-size: 15px !important; }
+  .gt-nav a   { padding: 5px 8px; font-size: 9.5pt; }
+}
+
+@media (max-width: 750px) {
+  .gt-home         { grid-template-columns: 1fr; }
+  .gt-ebook-banner { flex-direction: column; text-align: center; }
+}
+
+@media (max-width: 600px) {
+  .gt-header-inner { flex-direction: column; height: auto; padding: 12px 0; gap: 10px; }
+  .gt-nav          { flex-wrap: wrap; justify-content: center; }
   .keywordtab, .scripturetab, .authortab,
   .keywordtabhover, .scripturetabhover, .authortabhover {
-    width: 90px;
-    font-size: 8.5pt;
+    width: 80px; font-size: 8pt; padding: 5px 0;
   }
 }

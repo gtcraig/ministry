@@ -4,6 +4,7 @@
  * Copyright (c) 2007,2009 frontburner.co.uk
  *
  * Home Page Context
+ * This is the actual index page that controls what you see on the main goodteaching screen when you go to goodteaching.org
  *
  * $Id: index.php 947 2009-04-12 12:46:53Z craig $
  *
@@ -19,6 +20,7 @@
  * CAM  12-Apr-2009  10419 : Changed session vars to include module name.
  * CAM  05-Sep-2015  159308 : Reset new primary flag.
  * CAM  24-May-2020  481548 : Ensure Root path is set. 
+ * KEK  10-May-2026  Update main file from top.php to home.php for new
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Home";
@@ -44,7 +46,7 @@ $_SESSION['preview_page'] = "";
 
 $_SESSION['results_pageno'] = "";
 
-include $root.'tpl/newsearch.php';
+include $root.'tpl/home.php';
 //include $root.'tpl/latestvols.php';
-include $root.'tpl/bot.php';
+// include $root.'tpl/bot.php';
 ?>

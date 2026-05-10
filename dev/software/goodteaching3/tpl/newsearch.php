@@ -11,13 +11,14 @@
  * CAM  20-Oct-2012  11143 : Updated goodteaching.org/ebook for Kindle Paperwhite and Fire.
  * CAM  31-Dec-2015  886930 : Updated with images for current devices
  * CAM  24-May-2020  481548 : Updated to include links to Rob's MSE copy. 
+ * KED  10-May-2026  Deprecated this to make room for new home.php
  * * * * * * * * * * * * * * * * * * * * * * * */
 ?>
 
 <table border=0 cellpadding=10 cellspacing=0 width="100%">
 <tr><td align=left colspan=2>
 <?
-  $q = "What would you like to do";
+  $q = "Search the Ministry";
 
   if ($loggedin) {
     $q .= ", " . $member->getFirstname();
