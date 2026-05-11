@@ -60,7 +60,7 @@ if (empty($title)) {
         <a id="linkGt"        href="<?= $cfg['Site']['URL'] ?>">Search</a>
         <a id="linkEbook"     href="<?= $cfg['Site']['URL'] ?>/ebook/">eBooks</a>
         <a id="linkBible"     href="<?= $cfg['Site']['URL'] ?>/bible/">Bible</a>
-        <a id="linkMinistry"  href="<?= $cfg['Site']['URL'] ?>/keyword.php">Ministry</a>
+        <a id="linkMinistry"  href="<?= $cfg['Site']['URL'] ?>/volumes.php">Ministry</a>
         <a id="linkHymn"      href="<?= $cfg['Site']['URL'] ?>/hymn/">Hymns</a>
         <a id="linkTune"      href="<?= $cfg['Site']['URL'] ?>/tune/">Tunes</a>
       </nav>

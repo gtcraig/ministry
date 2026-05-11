@@ -10,12 +10,13 @@
  * CAM  12-Apr-2009  10419 : Renamed CSS class to include module name.
  * CAM  30-Dec-2009  10520 : Add focus formatting for dropdowns.
  * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
+ * 2026             : Replaced short tags.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 function select_meters($dbConn, $meter_id, $language) {
-?><select <? dropdownFocus(); ?> name="meter_id" id="meter_id" class="dropdown">
+?><select <?php dropdownFocus(); ?> name="meter_id" id="meter_id" class="dropdown">
       <option value="ALL">All Meters</option>
-<?
+<?php
   $meterSql = "SELECT m.id, m.meter, m.rhythm, m.chorus, m.disp_order ".
               "FROM hymn$language h, hymn_meter m ".
               "WHERE h.meter_id=m.id ".
@@ -29,19 +30,19 @@ function select_meters($dbConn, $meter_id, $language) {
       $sel = "SELECTED ";
     }
 ?>
-    <option <?echo $sel; ?>value="<? echo $row[0]; ?>"><? echo trim("$row[1] $row[2] $row[3]"); ?></option>
-<?
+    <option <?php echo $sel; ?>value="<?php echo $row[0]; ?>"><?php echo trim("$row[1] $row[2] $row[3]"); ?></option>
+<?php
   }
 
   mysqli_free_result($meterRes);
 
-?></select><?
+?></select><?php
 }
 
 function select_categories($dbConn, $category_id) {
-?><select <? dropdownFocus(); ?> name="category_id" id="category_id" class="dropdown">
+?><select <?php dropdownFocus(); ?> name="category_id" id="category_id" class="dropdown">
       <option value="ALL">All Categories</option>
-<?
+<?php
   $meterSql = "SELECT c.id, s.code scheme_code, c.code category, c.name ".
               "FROM hymn_scheme_categories c, hymn_schemes s ".
               "WHERE c.scheme_id = s.id ".
@@ -54,46 +55,45 @@ function select_categories($dbConn, $category_id) {
       $sel = "SELECTED ";
     }
 ?>
-      <option <?echo $sel; ?>value="<? echo $row[0]; ?>"><? echo trim("$row[3]"); ?></option>
-<?
+      <option <?php echo $sel; ?>value="<?php echo $row[0]; ?>"><?php echo trim("$row[3]"); ?></option>
+<?php
   }
 
   mysqli_free_result($meterRes);
 
-?></select><?
+?></select><?php
 }
 
 function nbsp($value) {
   if ($value == "") {
     return "&nbsp;";
   }
-
   return $value;
 }
 
 function describe_search($searchType) {
 ?>
-  <div class="hymnSearchType"><? echo $searchType; ?></div>
-<?
+  <div class="hymnSearchType"><?php echo $searchType; ?></div>
+<?php
 }
 
 function output_hymn_table_start() {
 ?>
 <table border=0 cellspacing=0 cellpadding=4>
-<?
+<?php
 }
 
 function output_hymn_line($hymn_no, $hymn_line, $meter) {
 ?>
-  <tr><td><a href="javascript:void();" onClick="view_hymn('<? echo $hymn_no; ?>');return false;"><? echo
-  nbsp($hymn_no); ?></a></td><td title="<? echo $meter; ?>"><? echo $hymn_line; ?></td></tr>
-<?
+  <tr><td><a href="javascript:void();" onClick="view_hymn('<?php echo $hymn_no; ?>');return false;"><?php echo
+  nbsp($hymn_no); ?></a></td><td title="<?php echo $meter; ?>"><?php echo $hymn_line; ?></td></tr>
+<?php
 }
 
 function output_hymn_table_end() {
 ?>
 </table>
-<?
+<?php
 }
 
 function body_search($dbConn, $keywordsList, $searchType) {
@@ -127,7 +127,7 @@ function body_search($dbConn, $keywordsList, $searchType) {
     }
   }
 
-  $verseSql = "SELECT DISTINCT d.hymn_no, d.line_text, h.meter " . //, d.vers_no, d.line_no, d.line_text, h.meter ".
+  $verseSql = "SELECT DISTINCT d.hymn_no, d.line_text, h.meter ".
               "FROM hymn_line$language d, hymn$language h $extraTables ".
               "WHERE d.hymn_no = h.hymn_no $whereClause ".
               "ORDER BY d.hymn_no,d.vers_no,d.line_no";
@@ -155,10 +155,9 @@ function author_search($dbConn, $authorList, $searchType) {
     $whereClause .= "fullname LIKE '%".$auth."%' ";
     $i++;
   }
-
 ?>
   <table border=0 cellspacing=0 cellpadding=4>
-<?
+<?php
   $verseSql = "SELECT id,fullname,surname,firstnames,author_life,bio_url ".
               "FROM authors $whereClause order by surname,fullname";
   $verseRes = mysqli_query($dbConn, $verseSql) or die("<h1>Query failed</h1><pre>$verseSql</pre>");
@@ -171,19 +170,18 @@ function author_search($dbConn, $authorList, $searchType) {
     }
 ?>
   <tr>
-    <td><b><? echo $row[1]; ?></b><br>
-      <? echo $details; ?></td>
+    <td><b><?php echo $row[1]; ?></b><br>
+      <?php echo $details; ?></td>
   </tr>
-<?
-    $compSql = "SELECT h.hymn_no, d.line_text, h.meter " .
-               "FROM hymn$language h, hymn_line$language d " .
-               "WHERE h.hymn_no = d.hymn_no " .
-               "AND d.line_no = 1 " .
-               "AND d.vers_no = 1 " .
-               "AND h.author_id = $row[0] " .
+<?php
+    $compSql = "SELECT h.hymn_no, d.line_text, h.meter ".
+               "FROM hymn$language h, hymn_line$language d ".
+               "WHERE h.hymn_no = d.hymn_no ".
+               "AND d.line_no = 1 ".
+               "AND d.vers_no = 1 ".
+               "AND h.author_id = $row[0] ".
                "ORDER BY h.hymn_no";
-
-?><tr><td colspan=4><?
+?><tr><td colspan=4><?php
 
   $res = mysqli_query($dbConn, $compSql) or die("</select><h1>Query failed</h1><pre>$compSql</pre>");
   output_hymn_table_start();
@@ -192,14 +190,13 @@ function author_search($dbConn, $authorList, $searchType) {
   }
   output_hymn_table_end();
 
-  ?></td></tr><?
+  ?></td></tr><?php
   }
 
   mysqli_free_result($verseRes);
-
 ?>
 </table>
-<?
+<?php
 }
 
 function show_hymn($dbConn, $hymn, $language) {
@@ -213,8 +210,8 @@ function show_hymn($dbConn, $hymn, $language) {
   }
 ?>
   <table border=0 cellspacing=0 cellpadding=0 width="100%"><tr><td align=left valign=top>
-  <table border=0 cellspacing=0 cellpadding=2><tr><td class=hymn><? echo $hymn; ?></td>
-<?
+  <table border=0 cellspacing=0 cellpadding=2><tr><td class=hymn><?php echo $hymn; ?></td>
+<?php
   $hymnSql = "SELECT m.meter, m.rhythm, m.chorus, h.meter_id ".
              "FROM hymn$language h, hymn_meter m ".
              "WHERE h.meter_id=m.id ".
@@ -240,15 +237,13 @@ function show_hymn($dbConn, $hymn, $language) {
   $res = mysqli_query($dbConn, $hymnSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
   while ($row = mysqli_fetch_row($res)) {
     $verseSql = "SELECT line_no,line_text FROM hymn_line$language ".
-          "where hymn_no=$hymn and vers_no=".$row[0]." ".
-            "order by vers_no,line_no";
-    //mysqli_query($dbConn, "set names 'utf8';");
+          "WHERE hymn_no=$hymn AND vers_no=".$row[0]." ".
+          "ORDER BY vers_no,line_no";
     $res2 = mysqli_query($dbConn, $verseSql) or die("<h1>Query failed</h1><pre>$verseSql</pre>");
     while ($row2 = mysqli_fetch_row($res2)) {
 ?>
   <tr>
-<?
-      $verse_desc = "&nbsp;";
+<?php
       $verse_class = "lines";
       if ($row[0]==99) {
         $verse_class = "chorus";
@@ -257,16 +252,14 @@ function show_hymn($dbConn, $hymn, $language) {
           echo "<td valign=top rowspan=" . $row[1] . "><span class=verse>" . $row[0] . "</span></td>\n";
         }
       }
-
       echo "<td class=$verse_class>" . $row2[1] . "</td></tr>\n";
     }
-
 ?>
   </tr><tr><td colspan=2>&nbsp;</td></tr>
-<?
+<?php
   }
 
-  $hymnSql = "SELECT a.fullname FROM hymn$language h, authors a where h.author_id = a.id and h.hymn_no=$hymn";
+  $hymnSql = "SELECT a.fullname FROM hymn$language h, authors a WHERE h.author_id = a.id AND h.hymn_no=$hymn";
   $res = mysqli_query($dbConn, $hymnSql) or die("<h1>Query failed</h1><pre>$hymnSql</pre>");
   if ($row = mysqli_fetch_row($res)) {
     echo "<tr><td colspan=2 class=author><a href=\"javascript:void();\" onclick=\"view_author('" . $row[0] . "');\">" . $row[0] . "</a></td></tr>\n";
@@ -274,33 +267,33 @@ function show_hymn($dbConn, $hymn, $language) {
 
   $singSql = "SELECT count(*) FROM hymn_sing WHERE hymn_no=$hymn";
   $res = mysqli_query($dbConn, $singSql) or die("<h1>Query failed</h1><pre>$singSql</pre>");
-  $singCount=0;
+  $singCount = 0;
   if ($row = mysqli_fetch_row($res)) {
-    $singCount=$row[0];   
+    $singCount = $row[0];
   }
 ?>
   </table></td><td align=right valign="top">
     <table border=0 cellspacing=0 cellpadding=0>
-<?
-  if ($singCount>0) {    
+<?php
+  if ($singCount > 0) {
 ?>
     <tr><td align=center><b><i style="color:eecc33">*NEW*</i> Sing Along</b></td></tr><tr><td><ul>
-<?
+<?php
   $singSql = "SELECT s.hymn_no, s.tune_id, t.tune_name, s.recorded_by FROM hymn_sing s INNER JOIN hymn_tune t ON t.tune_id=s.tune_id WHERE s.hymn_no=$hymn";
   $res = mysqli_query($dbConn, $singSql) or die("<h1>Query failed</h1><pre>$singSql</pre>");
   while ($row = mysqli_fetch_row($res)) {
-    echo "<li><a href='sing_player.php?hymn_no=" . $row[0] . "&tune_id=" . $row[1] . 
-      "' onclick=\"window.open('sing_player.php?hymn_no=" . $row[0] . "&tune_id=" . $row[1] . 
+    echo "<li><a href='sing_player.php?hymn_no=" . $row[0] . "&tune_id=" . $row[1] .
+      "' onclick=\"window.open('sing_player.php?hymn_no=" . $row[0] . "&tune_id=" . $row[1] .
       "','GoodTeachingPlay','width=750,height=280');return false;\">" .
       $row[2] . "</a></li>\n";
   }
 ?>
     </ul></td></tr>
-<?
+<?php
   }
 ?>
     <tr><td align=center><b>Listen to Tunes</b></td></tr><tr><td><ul>
-<?
+<?php
   $tuneSql = "SELECT tune_name, tune_url, tune_id FROM hymn_tune WHERE meter_id=" . $meterId . " ORDER BY tune_name";
   $res = mysqli_query($dbConn, $tuneSql) or die("<h1>Query failed</h1><pre>$tuneSql</pre>");
   while ($row = mysqli_fetch_row($res)) {
@@ -309,10 +302,9 @@ function show_hymn($dbConn, $hymn, $language) {
       $row[0] . "</a></li>\n";
   }
 ?>
-
     </ul></td></tr>
     </table>
   </td></tr></table>
-<?
+<?php
 }
 ?>

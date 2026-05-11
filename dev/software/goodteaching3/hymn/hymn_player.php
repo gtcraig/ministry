@@ -8,12 +8,13 @@
  * Who  When         Why
  * CAM  23-Dec-2019  Created.
  * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
+ * 2026             : Replaced short tags.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $root = "../";
 include_once $root.'Main.php';
 
-$tune_id = NULL;     if (!empty($_GET['tune_id'])) $tune_id = $_GET['tune_id'];
+$tune_id = NULL; if (!empty($_GET['tune_id'])) $tune_id = $_GET['tune_id'];
 
 $tuneSql = "SELECT t.tune_name, t.tune_url, ".
   "t.tune_book_name, t.tune_no, t.tune_author, ".
@@ -27,33 +28,36 @@ $tuneSql = "SELECT t.tune_name, t.tune_url, ".
 $res = mysqli_query($dbConn, $tuneSql) or die("<h1>Query failed</h1><pre>$tuneSql</pre>");
 if ($row = mysqli_fetch_assoc($res)) {
 ?>
-	<html><head><title><? echo $row["tune_book_name"] . " " . $row["tune_no"] . " &mdash; &ldquo;" . $row["tune_name"] .  "&rdquo;";?></title>
-	<style>
-	  body {
-      background-color: black;
+<html>
+<head>
+  <title><?php echo $row["tune_book_name"] . " " . $row["tune_no"] . " &mdash; &ldquo;" . $row["tune_name"] . "&rdquo;"; ?></title>
+  <style>
+    body { background-color: #0d1f3c; }
+    * {
+      padding: 1px;
+      margin: 1px;
+      color: #e8c97a;
+      font-family: 'Georgia', serif;
     }
-	  * {
-	  padding: 1px;
-    margin: 1px;
-    color: white;
-    font-family: "Georgia";
-	 }
-	</style>
-	</head>
-	<body>
-<?
-  echo "<h2>" . $row["tune_book_name"] . " " . $row["tune_no"] . " &mdash; &ldquo;" . $row["tune_name"] .  "&rdquo;</h2>";
+    audio { width: 100%; margin-top: 16px; }
+    h2 { color: #c9a84c; }
+    h3 { color: #a0b4cc; font-weight: normal; }
+    h4 { color: #7a8a9a; text-align: right; }
+    center { padding: 10px; }
+  </style>
+</head>
+<body>
+<?php
+  echo "<h2>" . $row["tune_book_name"] . " " . $row["tune_no"] . " &mdash; &ldquo;" . $row["tune_name"] . "&rdquo;</h2>";
   echo "<h3>" . $row["meter"];
-  if (!empty($row["rhythm"])) echo " <i>" . $row["rhythm"] ."</i>";
+  if (!empty($row["rhythm"])) echo " <i>" . $row["rhythm"] . "</i>";
   if (!empty($row["chorus"])) echo " Chorus " . $row["chorus"];
   echo "</h3>";
-	echo "<h4 style='text-align:right;'>" . $row["tune_author"] . "</h4>";
-	echo "<center>";
-	echo "<audio autoplay controls src='" . $row["tune_url"] . "'>Audio not supported by your browser</audio>";
-	echo "</center>";
+  echo "<h4>" . $row["tune_author"] . "</h4>";
+  echo "<center>";
+  echo "<audio autoplay controls src='" . $row["tune_url"] . "'>Audio not supported by your browser</audio>";
+  echo "</center>";
 }
 ?>
-	</body>
-	</html>
-<?
-
+</body>
+</html>
