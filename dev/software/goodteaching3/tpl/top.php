@@ -28,7 +28,7 @@ if (empty($title)) {
 }
 
 ?><head>
-  <title><? echo $title;?></title>
+  <title><?php echo $title;?></title>
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
