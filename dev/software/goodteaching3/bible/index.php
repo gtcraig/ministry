@@ -4,6 +4,9 @@
  * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Bible Search — cleaned up 2026
+ * 
+ * 
+ * KED 11-May-2026  Update Bible search page to new design, and clean up code.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title    = "Bible Search";

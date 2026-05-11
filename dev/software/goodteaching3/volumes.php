@@ -2,6 +2,9 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
  * Volume Picker — redesigned 2026
+ * 
+ * 
+ * KEK 11-May-2026  Update volumes page to new design.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title = "Ministry Library";
