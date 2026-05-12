@@ -9,6 +9,7 @@
 
 $title = "Ministry Library";
 $tabs  = "NONE";
+$pageName = "pageMinistry";
 $root  = "./";
 include $root.'tpl/top.php';
 

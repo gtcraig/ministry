@@ -2,6 +2,9 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
  * Ministry Reader — 2026
+ * KED  11-May-2026  Added Start button, fixed duplicate Library link.
+ * KED  11-May-2026  Added scripture @ link conversion.
+ * KED  11-May-2026  Fixed blockquote styling, added br support.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $root = "./";
@@ -25,7 +28,6 @@ if ($row = mysqli_fetch_assoc($res)) $auRow = $row;
 $volTitle = 'Volume ' . $vol;
 $res = mysqli_query($dbConn, "SELECT title FROM mse_volume WHERE author='$author' AND vol=$vol LIMIT 1");
 if ($row = mysqli_fetch_assoc($res)) {
-  // Strip leading "V01 " style prefix
   $volTitle = preg_replace('/^V\d+\s+/i', '', $row['title']);
 }
 
@@ -63,17 +65,94 @@ while ($row = mysqli_fetch_assoc($res)) {
 $progressPct = $totalPages > 1 ? round(($page / $totalPages) * 100) : 100;
 $pageTitle   = ($auRow ? $auRow['name'] . ' — ' : '') . $volTitle . ' (Vol ' . $vol . ')';
 
-// Helper: clean raw text from database
-function cleanText($text) {
-  // Decode any HTML entities first
+// Bible book name to ID map
+$bibleBooks = [
+  'genesis'=>1,'exodus'=>2,'leviticus'=>3,'numbers'=>4,'deuteronomy'=>5,
+  'joshua'=>6,'judges'=>7,'ruth'=>8,'1 samuel'=>9,'2 samuel'=>10,
+  '1 kings'=>11,'2 kings'=>12,'1 chronicles'=>13,'2 chronicles'=>14,
+  'ezra'=>15,'nehemiah'=>16,'esther'=>17,'job'=>18,'psalms'=>19,'psalm'=>19,
+  'proverbs'=>20,'ecclesiastes'=>21,'song of solomon'=>22,'song of songs'=>22,
+  'isaiah'=>23,'isaih'=>23,'isiah'=>23,'jeremiah'=>24,'lamentations'=>25,
+  'ezekiel'=>26,'daniel'=>27,'hosea'=>28,'joel'=>29,'amos'=>30,
+  'obadiah'=>31,'jonah'=>32,'micah'=>33,'nahum'=>34,'habakkuk'=>35,
+  'habakuk'=>35,'zephaniah'=>36,'haggai'=>37,'zechariah'=>38,'malachi'=>39,
+  'matthew'=>40,'mark'=>41,'luke'=>42,'john'=>43,'acts'=>44,
+  'romans'=>45,'1 corinthians'=>46,'2 corinthians'=>47,'galatians'=>48,
+  'ephesians'=>49,'philippians'=>50,'colossians'=>51,'1 thessalonians'=>52,
+  '2 thessalonians'=>53,'1 timothy'=>54,'2 timothy'=>55,'titus'=>56,
+  'philemon'=>57,'hebrews'=>58,'james'=>59,'1 peter'=>60,'2 peter'=>61,
+  '1 john'=>62,'2 john'=>63,'3 john'=>64,'jude'=>65,'revelation'=>66,'revelations'=>66,
+];
+
+// Detect if a paragraph is a blockquote
+function isBlockquote($text) {
+  $stripped = trim($text);
+  return (stripos($stripped, '<blockquote') === 0) ||
+         (substr($stripped, 0, 1) === '"' && substr($stripped, -1) === '"') ||
+         (substr($stripped, 0, 1) === '\u201c');
+}
+
+// Clean and process text
+function cleanText($text, $bibleBooks, $root) {
+  // Decode HTML entities first
   $text = html_entity_decode($text, ENT_QUOTES | ENT_HTML5, 'UTF-8');
-  // Strip any HTML tags
-  $text = strip_tags($text);
-  // Clean up MSE link markup e.g. [linktext][/link]
+  // Allow blockquote and br tags through, strip everything else
+  $text = strip_tags($text, '<blockquote><br>');
+  // Clean up MSE link markup
   $text = preg_replace('/\[\/?\w+\]/', '', $text);
-  // Normalise whitespace
-  $text = preg_replace('/\s+/', ' ', $text);
-  return trim($text);
+  // Normalise whitespace but preserve br tags
+  $text = preg_replace('/[ \t]+/', ' ', $text);
+  $text = trim($text);
+
+  // Convert @Scripture references to links
+  $text = preg_replace_callback(
+    '/@([1-3]?\s?[A-Za-z][a-zA-Z]*(?:\s+(?:of\s+)?[A-Za-z]+)*?)\s+(\d+)(?::(\d+)(?:-(\d+))?)?(?=[\s,;.()\[\]]|$)/u',
+    function($matches) use ($bibleBooks, $root) {
+      $bookName   = trim($matches[1]);
+      $chapter    = $matches[2];
+      $verseStart = isset($matches[3]) && $matches[3] !== '' ? $matches[3] : '';
+      $verseEnd   = isset($matches[4]) && $matches[4] !== '' ? $matches[4] : '';
+
+      $bookKey = strtolower($bookName);
+      $bookId  = isset($bibleBooks[$bookKey]) ? $bibleBooks[$bookKey] : null;
+
+      // Fuzzy match if no exact match
+      if (!$bookId) {
+        $bestScore = 0;
+        foreach ($bibleBooks as $name => $id) {
+          similar_text($bookKey, $name, $pct);
+          if ($pct > $bestScore && $pct > 70) {
+            $bestScore = $pct;
+            $bookId    = $id;
+          }
+        }
+      }
+
+      $display = $bookName . ' ' . $chapter;
+      if ($verseStart !== '') {
+        $display .= ':' . $verseStart;
+        if ($verseEnd !== '') $display .= '-' . $verseEnd;
+      }
+
+      if ($bookId) {
+        $url = $root . 'scripture.php?bookid=' . $bookId .
+               '&chapter=' . urlencode($chapter) .
+               ($verseStart !== '' ? '&vstart=' . urlencode($verseStart) : '');
+        return '<a href="' . $url . '" class="rd-scripture-link" title="Search ministry on ' .
+               htmlspecialchars($display) . '">' . htmlspecialchars($display) . '</a>';
+      }
+
+      return htmlspecialchars($display);
+    },
+    $text
+  );
+
+  return $text;
+}
+
+// Check if cleaned text contains a blockquote tag
+function hasBlockquote($text) {
+  return stripos($text, '<blockquote') !== false;
 }
 
 header("Content-Type: text/html;charset=UTF-8");
@@ -84,6 +163,7 @@ header("Content-Type: text/html;charset=UTF-8");
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo htmlspecialchars($pageTitle); ?> — Good Teaching</title>
+  <link rel="icon" type="image/vnd.microsoft.icon" href="<?php echo $root; ?>favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -110,7 +190,6 @@ header("Content-Type: text/html;charset=UTF-8");
       color: var(--text);
     }
 
-    /* ── Progress bar ── */
     .rd-progress-wrap {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -126,7 +205,6 @@ header("Content-Type: text/html;charset=UTF-8");
       width: <?php echo $progressPct; ?>%;
     }
 
-    /* ── Top bar ── */
     .rd-topbar {
       position: fixed;
       top: 4px; left: 0; right: 0;
@@ -143,7 +221,7 @@ header("Content-Type: text/html;charset=UTF-8");
     .rd-topbar-left {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
       min-width: 0;
     }
 
@@ -155,8 +233,39 @@ header("Content-Type: text/html;charset=UTF-8");
       white-space: nowrap;
       opacity: 0.85;
       transition: opacity 0.15s;
+      padding: 4px 8px;
+      border-radius: var(--radius-sm);
     }
-    .rd-back:hover { opacity: 1; text-decoration: none; color: var(--gold); }
+    .rd-back:hover {
+      opacity: 1;
+      text-decoration: none;
+      color: var(--gold);
+      background: var(--navy-mid);
+    }
+
+    .rd-start-btn {
+      color: var(--gold-light);
+      text-decoration: none;
+      font-size: 9pt;
+      font-weight: 600;
+      white-space: nowrap;
+      padding: 4px 8px;
+      border-radius: var(--radius-sm);
+      border: 1px solid #2a4a6e;
+      background: var(--navy-mid);
+      transition: background 0.15s;
+    }
+    .rd-start-btn:hover {
+      background: var(--navy-light);
+      text-decoration: none;
+      color: var(--gold-light);
+    }
+
+    .rd-divider {
+      color: #2a4a6e;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
 
     .rd-title {
       font-family: 'Playfair Display', serif;
@@ -193,7 +302,6 @@ header("Content-Type: text/html;charset=UTF-8");
     }
     .rd-toc-btn:hover { background: var(--navy-light); }
 
-    /* ── TOC drawer ── */
     .rd-toc-drawer {
       position: fixed;
       top: 56px; right: -320px;
@@ -245,7 +353,6 @@ header("Content-Type: text/html;charset=UTF-8");
       margin-left: 6px;
     }
 
-    /* ── Main content ── */
     .rd-body {
       padding-top: 72px;
       padding-bottom: 80px;
@@ -294,7 +401,7 @@ header("Content-Type: text/html;charset=UTF-8");
       border-bottom: 2px solid var(--gold);
     }
 
-    /* Text content */
+    /* Normal paragraph */
     .rd-paragraph {
       font-family: 'Lora', serif;
       font-size: 12pt;
@@ -307,6 +414,42 @@ header("Content-Type: text/html;charset=UTF-8");
 
     .rd-paragraph:last-child { margin-bottom: 0; }
 
+    /* Blockquote paragraph — rendered as its own block */
+    .rd-blockquote {
+      display: block;
+      margin: 16px auto;
+      padding: 16px 28px;
+      background: var(--cream);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      font-family: 'Lora', serif;
+      font-size: 11.5pt;
+      font-style: italic;
+      line-height: 1.8;
+      color: var(--text-mid);
+      text-align: center;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Standalone blockquote tag styling */
+    blockquote {
+      display: block;
+      margin: 16px auto;
+      padding: 16px 28px;
+      background: var(--cream);
+      border-left: 4px solid var(--gold);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      font-family: 'Lora', serif;
+      font-size: 11.5pt;
+      font-style: italic;
+      line-height: 1.8;
+      color: var(--text-mid);
+      text-align: center;
+      max-width: 90%;
+    }
+
     .rd-inits {
       font-family: 'Playfair Display', serif;
       font-size: 24pt;
@@ -317,7 +460,22 @@ header("Content-Type: text/html;charset=UTF-8");
       margin: 6px 6px 0 0;
     }
 
-    /* ── Navigation ── */
+    /* Scripture reference links */
+    .rd-scripture-link {
+      color: var(--navy-light);
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 1px dotted var(--gold);
+      transition: color 0.12s, border-color 0.12s;
+      font-family: 'Inter', sans-serif;
+      font-size: 10.5pt;
+    }
+    .rd-scripture-link:hover {
+      color: var(--gold);
+      border-bottom-color: var(--gold);
+      text-decoration: none;
+    }
+
     .rd-nav {
       width: 100%;
       max-width: 680px;
@@ -414,15 +572,19 @@ header("Content-Type: text/html;charset=UTF-8");
 </head>
 <body>
 
-  <!-- Progress bar -->
   <div class="rd-progress-wrap">
     <div class="rd-progress-bar"></div>
   </div>
 
-  <!-- Top bar -->
   <div class="rd-topbar">
     <div class="rd-topbar-left">
       <a href="<?php echo $root; ?>volumes.php" class="rd-back">&larr; Library</a>
+      <?php if ($page > 1): ?>
+        <span class="rd-divider">|</span>
+        <a href="?author=<?php echo urlencode($author); ?>&vol=<?php echo $vol; ?>&page=1"
+           class="rd-start-btn">&#8676; Start</a>
+      <?php endif; ?>
+      <span class="rd-divider">|</span>
       <span class="rd-title"><?php echo htmlspecialchars($volTitle); ?> &mdash; <?php echo htmlspecialchars($auRow['name'] ?? ''); ?></span>
     </div>
     <div class="rd-topbar-right">
@@ -433,12 +595,10 @@ header("Content-Type: text/html;charset=UTF-8");
     </div>
   </div>
 
-  <!-- TOC Drawer -->
   <?php if (!empty($toc)): ?>
   <div class="rd-toc-drawer" id="tocDrawer">
     <div class="rd-toc-heading">Table of Contents</div>
     <?php
-    // Find the current chapter for active highlighting
     $currentChapter = 0;
     foreach ($toc as $t) {
       if ((int)$t['page'] <= $page) $currentChapter = (int)$t['page'];
@@ -456,7 +616,6 @@ header("Content-Type: text/html;charset=UTF-8");
   </div>
   <?php endif; ?>
 
-  <!-- Main content -->
   <div class="rd-body">
 
     <div class="rd-page">
@@ -473,20 +632,33 @@ header("Content-Type: text/html;charset=UTF-8");
         <div class="rd-empty">No content found for this page.</div>
       <?php else: ?>
         <?php foreach ($paragraphs as $i => $para):
-          $text = cleanText($para['text']);
-          if (empty($text)) continue;
+          $text = cleanText($para['text'], $bibleBooks, $root);
+          if (empty(strip_tags($text))) continue;
+
+          // Check if this paragraph is a blockquote
+          $isQuote = hasBlockquote($text);
         ?>
-        <p class="rd-paragraph">
-          <?php if ($i === 0 && !empty($para['inits'])): ?>
-            <span class="rd-inits"><?php echo htmlspecialchars($para['inits']); ?></span>
-          <?php endif; ?>
-          <?php echo htmlspecialchars($text); ?>
-        </p>
+        <?php if ($isQuote): ?>
+          <!-- Render as standalone blockquote, not inside a p tag -->
+          <div class="rd-blockquote">
+            <?php
+            // Strip the outer blockquote tags and just render the content
+            $inner = preg_replace('/<\/?blockquote[^>]*>/i', '', $text);
+            echo trim($inner);
+            ?>
+          </div>
+        <?php else: ?>
+          <p class="rd-paragraph">
+            <?php if ($i === 0 && !empty($para['inits'])): ?>
+              <span class="rd-inits"><?php echo htmlspecialchars($para['inits']); ?></span>
+            <?php endif; ?>
+            <?php echo $text; ?>
+          </p>
+        <?php endif; ?>
         <?php endforeach; ?>
       <?php endif; ?>
     </div>
 
-    <!-- Navigation -->
     <div class="rd-nav">
       <?php if ($page > 1): ?>
         <a href="?author=<?php echo urlencode($author); ?>&vol=<?php echo $vol; ?>&page=<?php echo $page - 1; ?>" class="rd-nav-btn">&larr; Previous</a>
@@ -519,10 +691,8 @@ header("Content-Type: text/html;charset=UTF-8");
     const page   = <?php echo json_encode($page); ?>;
     const total  = <?php echo json_encode($totalPages); ?>;
 
-    // Save position to localStorage
     localStorage.setItem('gt_reader_' + author + '_' + vol, page);
 
-    // TOC toggle
     function toggleToc() {
       document.getElementById('tocDrawer').classList.toggle('open');
     }
@@ -536,7 +706,6 @@ header("Content-Type: text/html;charset=UTF-8");
       }
     });
 
-    // Page jump
     function jumpToPage() {
       const val = parseInt(document.getElementById('jumpInput').value);
       if (val >= 1 && val <= total) {
@@ -547,13 +716,11 @@ header("Content-Type: text/html;charset=UTF-8");
       if (e.key === 'Enter') jumpToPage();
     });
 
-    // Keyboard navigation
     document.addEventListener('keydown', function(e) {
-      if (e.key === 'ArrowLeft'  && page > 1)     window.location.href = '?author=' + encodeURIComponent(author) + '&vol=' + vol + '&page=' + (page - 1);
-      if (e.key === 'ArrowRight' && page < total)  window.location.href = '?author=' + encodeURIComponent(author) + '&vol=' + vol + '&page=' + (page + 1);
+      if (e.key === 'ArrowLeft'  && page > 1)    window.location.href = '?author=' + encodeURIComponent(author) + '&vol=' + vol + '&page=' + (page - 1);
+      if (e.key === 'ArrowRight' && page < total) window.location.href = '?author=' + encodeURIComponent(author) + '&vol=' + vol + '&page=' + (page + 1);
     });
 
-    // Swipe support for iPad / touch
     let touchStartX = 0;
     let touchStartY = 0;
 
