@@ -22,18 +22,18 @@ while ($row = mysqli_fetch_assoc($res)) {
 // Pull 3 random ministry snippets for the search cards
 $snippets = [];
 // comment out starting here if you need to visually test the home page. Searching for ministry snippets slows the home page down
-// $sql = "SELECT t.text, a.article, au.name
-//         FROM mse_text t
-//         JOIN mse_article a ON t.author = a.author AND t.vol = a.vol AND t.page = a.page
-//         JOIN mse_author au ON t.author = au.author
-//         WHERE LENGTH(t.text) > 120 AND LENGTH(t.text) < 400
-//         AND t.text NOT LIKE '%?%'
-//         ORDER BY RAND()
-//         LIMIT 3";
-// $res = mysqli_query($dbConn, $sql);
-// while ($row = mysqli_fetch_assoc($res)) {
-//   $snippets[] = $row;
-// }
+$sql = "SELECT t.text, a.article, au.name
+        FROM mse_text t
+        JOIN mse_article a ON t.author = a.author AND t.vol = a.vol AND t.page = a.page
+        JOIN mse_author au ON t.author = au.author
+        WHERE LENGTH(t.text) > 120 AND LENGTH(t.text) < 400
+        AND t.text NOT LIKE '%?%'
+        ORDER BY RAND()
+        LIMIT 3";
+$res = mysqli_query($dbConn, $sql);
+while ($row = mysqli_fetch_assoc($res)) {
+  $snippets[] = $row;
+}
 // end comment out here for faster home page loading for tests
 // Pad with empty if not enough
 while (count($snippets) < 3) {
@@ -333,12 +333,12 @@ while (count($snippets) < 3) {
       <?php endif; ?>
     </a>
 
-    <a href="<?= $root ?>author.php" class="gt-card author">
+    <a href="<?= $root ?>servant.php" class="gt-card author">
       <div class="gt-card-top">
         <div class="gt-card-icon">&#9997;&#65039;</div>
         <div class="gt-card-heading">
-          <span class="gt-card-title">Search by Author</span>
-          <p class="gt-card-desc">Browse ministry from a specific servant of the Lord</p>
+          <span class="gt-card-title">Search by Servant</span>
+            <p class="gt-card-desc">Filter ministry by a specific servant of the Lord</p>
         </div>
         <span class="gt-card-arrow">&#8250;</span>
       </div>

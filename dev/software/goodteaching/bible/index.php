@@ -4,9 +4,9 @@
  * Copyright (c) 2007,2020 frontburner.co.uk
  *
  * Bible Search — cleaned up 2026
- * 
- * 
+ *
  * KED 11-May-2026  Update Bible search page to new design, and clean up code.
+ * KED 11-May-2026  Increased font sizes for accessibility.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title    = "Bible Search";
@@ -45,8 +45,8 @@ function remove_mselinks($text) {
 <style>
 .bible-wrap {
   display: grid;
-  grid-template-columns: 1fr 280px;
-  gap: 20px;
+  grid-template-columns: 1fr 300px;
+  gap: 24px;
   align-items: start;
 }
 
@@ -54,36 +54,37 @@ function remove_mselinks($text) {
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 16px 20px;
-  margin-bottom: 16px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
 }
 
 .bible-search-box h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 13pt;
+  font-size: 15pt;
   color: var(--navy);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .bible-search-box p {
-  font-size: 9pt;
+  font-size: 11pt;
   color: var(--text-muted);
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+  line-height: 1.6;
 }
 
 .bible-search-row {
   display: flex;
-  gap: 8px;
+  gap: 10px;
   align-items: center;
 }
 
 .bible-search-input {
   flex: 1;
-  padding: 7px 12px;
+  padding: 9px 14px;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   font-family: 'Inter', sans-serif;
-  font-size: 10pt;
+  font-size: 12pt;
   color: var(--text-dark);
   background: var(--cream);
 }
@@ -103,19 +104,19 @@ function remove_mselinks($text) {
 
 .bible-results-header {
   background: var(--navy);
-  padding: 9px 16px;
+  padding: 11px 18px;
   font-family: 'Playfair Display', serif;
-  font-size: 10.5pt;
+  font-size: 12pt;
   color: var(--gold-light);
 }
 
 .bible-result-row {
   display: grid;
-  grid-template-columns: 120px 50px 40px 40px 1fr;
-  gap: 8px;
-  padding: 8px 16px;
+  grid-template-columns: 140px 60px 50px 50px 1fr;
+  gap: 10px;
+  padding: 10px 18px;
   border-bottom: 1px solid var(--cream-dark);
-  font-size: 9pt;
+  font-size: 11pt;
   align-items: start;
 }
 
@@ -126,30 +127,31 @@ function remove_mselinks($text) {
   background: var(--cream);
   font-weight: 600;
   color: var(--navy);
+  font-size: 11pt;
 }
 
-.bible-result-book  { color: var(--navy);       font-weight: 600; }
-.bible-result-chap  { color: var(--text-mid);   text-align: center; }
-.bible-result-verse { color: var(--text-mid);   text-align: center; }
-.bible-result-sym   { color: var(--gold);       font-weight: 700; text-align: center; }
-.bible-result-text  { color: var(--text-dark);  line-height: 1.5; }
+.bible-result-book  { color: var(--navy);      font-weight: 600; }
+.bible-result-chap  { color: var(--text-mid);  text-align: center; }
+.bible-result-verse { color: var(--text-mid);  text-align: center; }
+.bible-result-sym   { color: var(--gold);      font-weight: 700; text-align: center; }
+.bible-result-text  { color: var(--text-dark); line-height: 1.6; }
 
-.phrase { color: var(--red); font-weight: 600; }
+.phrase   { color: var(--red);       font-weight: 600; }
 .footnote { color: var(--text-muted); font-style: italic; }
 
 .bible-empty {
-  padding: 32px 16px;
+  padding: 36px 18px;
   text-align: center;
   color: var(--text-muted);
   font-style: italic;
-  font-size: 10pt;
+  font-size: 11pt;
 }
 
-/* Sidebar info */
+/* Sidebar */
 .bible-sidebar {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
 }
 
 .bible-info-widget {
@@ -161,15 +163,15 @@ function remove_mselinks($text) {
 
 .bible-info-header {
   background: var(--navy);
-  padding: 9px 16px;
+  padding: 11px 18px;
   font-family: 'Playfair Display', serif;
-  font-size: 10.5pt;
+  font-size: 12pt;
   color: var(--gold-light);
 }
 
 .bible-info-body {
-  padding: 14px 16px;
-  font-size: 9pt;
+  padding: 16px 18px;
+  font-size: 11pt;
   color: var(--text-mid);
   line-height: 1.7;
 }
@@ -182,7 +184,7 @@ function remove_mselinks($text) {
 .bible-info-body a:hover { color: var(--gold); }
 
 @media (max-width: 750px) {
-  .bible-wrap { grid-template-columns: 1fr; }
+  .bible-wrap       { grid-template-columns: 1fr; }
   .bible-result-row { grid-template-columns: 1fr 1fr; }
 }
 </style>

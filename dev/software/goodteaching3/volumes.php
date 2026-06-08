@@ -2,18 +2,17 @@
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
  * Volume Picker — redesigned 2026
- * 
- * 
+ *
  * KEK 11-May-2026  Update volumes page to new design.
+ * KED 11-May-2026  Increased card and font sizes for accessibility.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-$title = "Ministry Library";
-$tabs  = "NONE";
-$root  = "./";
+$title    = "Ministry Library";
+$tabs     = "NONE";
+$pageName = "pageMinistry";
+$root     = "./";
 include $root.'tpl/top.php';
 
-// Fetch one row per volume using mse_volume for proper titles
-// ORDER BY au.fullname ASC ensures alphabetical by full name
 $volumes = [];
 $sql = "SELECT v.author, v.vol, v.title,
                au.name, au.fullname, au.orgname,
@@ -30,7 +29,6 @@ while ($row = mysqli_fetch_assoc($res)) {
   $volumes[$row['author']][] = $row;
 }
 
-// Sort the author groups alphabetically by fullname
 uasort($volumes, function($a, $b) {
   return strcmp($a[0]['fullname'], $b[0]['fullname']);
 });
@@ -41,38 +39,38 @@ uasort($volumes, function($a, $b) {
 
 .vp-heading {
   font-family: 'Playfair Display', serif;
-  font-size: 16pt;
+  font-size: 20pt;
   color: var(--navy);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .vp-subheading {
-  font-size: 9.5pt;
+  font-size: 11pt;
   color: var(--text-muted);
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .vp-author {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
 .vp-author-header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 12px;
-  padding-bottom: 8px;
+  gap: 14px;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
   border-bottom: 2px solid var(--gold);
 }
 
 .vp-author-initial {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background: var(--navy);
   color: var(--gold);
   font-family: 'Playfair Display', serif;
-  font-size: 16pt;
+  font-size: 20pt;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,29 +79,29 @@ uasort($volumes, function($a, $b) {
 
 .vp-author-name {
   font-family: 'Playfair Display', serif;
-  font-size: 13pt;
+  font-size: 15pt;
   color: var(--navy);
 }
 
 .vp-author-fullname {
-  font-size: 9pt;
+  font-size: 11pt;
   color: var(--text-muted);
 }
 
 .vp-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
 }
 
 .vp-vol {
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 14px 16px;
+  padding: 18px 20px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
   transition: box-shadow 0.15s, transform 0.15s;
 }
 
@@ -113,7 +111,7 @@ uasort($volumes, function($a, $b) {
 }
 
 .vp-vol-num {
-  font-size: 8pt;
+  font-size: 10pt;
   font-weight: 600;
   color: var(--gold);
   text-transform: uppercase;
@@ -121,7 +119,7 @@ uasort($volumes, function($a, $b) {
 }
 
 .vp-vol-title {
-  font-size: 9.5pt;
+  font-size: 11pt;
   font-weight: 600;
   color: var(--navy);
   line-height: 1.4;
@@ -129,17 +127,17 @@ uasort($volumes, function($a, $b) {
 }
 
 .vp-vol-pages {
-  font-size: 8pt;
+  font-size: 10pt;
   color: var(--text-muted);
 }
 
 .vp-read-btn {
   display: inline-block;
-  margin-top: 4px;
-  padding: 5px 12px;
+  margin-top: 6px;
+  padding: 8px 16px;
   background: var(--navy);
   color: var(--gold) !important;
-  font-size: 8.5pt;
+  font-size: 11pt;
   font-weight: 600;
   border-radius: var(--radius-sm);
   text-decoration: none !important;
@@ -153,7 +151,7 @@ uasort($volumes, function($a, $b) {
 }
 
 @media (max-width: 600px) {
-  .vp-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .vp-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
 }
 </style>
 

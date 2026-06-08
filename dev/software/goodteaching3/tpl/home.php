@@ -333,12 +333,12 @@ while (count($snippets) < 3) {
       <?php endif; ?>
     </a>
 
-    <a href="<?= $root ?>author.php" class="gt-card author">
+    <a href="<?= $root ?>servant.php" class="gt-card author">
       <div class="gt-card-top">
         <div class="gt-card-icon">&#9997;&#65039;</div>
         <div class="gt-card-heading">
-          <span class="gt-card-title">Search by Author</span>
-          <p class="gt-card-desc">Browse ministry from a specific servant of the Lord</p>
+          <span class="gt-card-title">Search by Servant</span>
+            <p class="gt-card-desc">Filter ministry by a specific servant of the Lord</p>
         </div>
         <span class="gt-card-arrow">&#8250;</span>
       </div>
