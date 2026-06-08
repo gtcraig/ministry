@@ -14,7 +14,7 @@
  * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-$title = "1962 Hymn Search";
+$title = "eBook Download and Installation";
 $root = "../";
 $tabs = "HYMN";
 $pageName = "pageEbook";
@@ -83,7 +83,7 @@ include $root.'tpl/top.php';
   }
 </style>
 
-    <div id="updated"><p>Updated <b>17-Sep-2023</b> with latest devices</p></div>
+    <div id="updated"><p>Updated <b>31-Dec-2024</b> with new Kindle downloads and instructions</p></div>
 
 		<div id="mainbody">
 
@@ -95,16 +95,20 @@ Spiritual Songs (1962)</span> <span style="color: #A9A9A9;">[English, Deutsch &a
 <h2><a id="downloads"></a>Downloads</h2>
 <ul>
   <li>Ministry
-    [<a href="https://bit.ly/3bvr2sl">EPUB</a>]
+    [<a href="https://bit.ly/3bvr2sl">EPUB</a> |
+     <a href="https://www.dropbox.com/s/d0ckg5du5393wm6/kindle_ministry.zip?dl=0">Kindle</a>]
   </li>
   <li><span class="hilight">Ministry organised by Bible Book</span>
-    [<a href="https://bit.ly/2vOn8eO">EPUB</a>]
+    [<a href="https://bit.ly/2vOn8eO">EPUB</a> |
+     <a href="https://www.dropbox.com/s/ead6de0ya6k27my/kindle_gtscripture.zip?dl=0">Kindle</a>]
   </li>
   <li>1962 Hymns
-    [<a href="https://bit.ly/2WKlS7I">EPUB</a>]
+    [<a href="https://bit.ly/2WKlS7I">EPUB</a> |
+     <a href="https://www.dropbox.com/scl/fi/i338hc8d7ppx7hg2v4xnr/hymns-1962-kindle.zip?rlkey=uq96ci27mg410re8wrxksdz4i&dl=0">Kindle</a>]
   </li>
   <li>JND Bible
-    [<a href="https://www.dropbox.com/s/82r2sb7qwdd3ip2/Bible_Darby_R04.epub?dl=0">EPUB</a>]
+    [<a href="https://www.dropbox.com/scl/fi/8dr906sept0zov4zeo88f/Bible_Darby_R05.azw3?rlkey=hlt2v53bshtjt07itt89z30yu&dl=0">Kindle</a> |
+     <a href="https://www.dropbox.com/scl/fi/r6wveaqs7kc0n6874gs9m/Bible_Darby_R05.epub?rlkey=rakp297n0c370zkzjq7xzflwe&dl=0">EPUB</a>]
   </li>
   <li>Various Ministries
     [<a href="https://bit.ly/3dWJuMM">EPUB</a>]
@@ -130,12 +134,11 @@ Spiritual Songs (1962)</span> <span style="color: #A9A9A9;">[English, Deutsch &a
   </li>
 </ul>
 
-
 <h2>Don't have a reader and don't know which one to get?</h2>
 <ul>
   <li><a href="http://www.youtube.com/watch?v=w1qjML1YO3s" target="_blank">Here's a (very out of date) comparison of the iPad 1 with the Kindle 3</a>.</li>
-  <li>If you're regularly travelling or commuting and want to read the  ministry on the move, I recommend the <a href="https://www.amazon.co.uk/dp/B09TMP5Y2S/"
-target="_blank">Kindle Paperwhite No Ads (&pound;149.99)</a>.</li>
+  <li>If you're regularly travelling or commuting and want to read the  ministry on the move, I recommend the <a href="https://www.amazon.co.uk/dp/B0CFPWLGF2/"
+target="_blank">Kindle Paperwhite No Ads (&pound;169.99)</a>.</li>
 </ul>
 
 <table id="comparison" border="0" cellpadding="5" cellspacing="0">
@@ -150,11 +153,11 @@ target="_blank">Kindle Paperwhite No Ads (&pound;149.99)</a>.</li>
   </tr>
 
   <tr>
-    <td align="center"><a href="https://www.amazon.co.uk/dp/B09TMP5Y2S/" target="_blank"><img border="0" src="kindlepw4.png"></a></td>
-    <td><b><a href="https://www.amazon.co.uk/dp/B09TMP5Y2S/"
+    <td align="center"><a href="https://www.amazon.co.uk/dp/B0CFPWLGF2/" target="_blank"><img border="0" src="kindlepw4.png"></a></td>
+    <td><b><a href="https://www.amazon.co.uk/dp/B0CFPWLGF2/"
 target="_blank">Kindle Paperwhite Waterproof</a></b></td>
-    <td>6.8&rdquo; backlit e-ink</td>
-    <td class="r"><b>&pound;149.99</b></td>
+    <td>7&rdquo; backlit e-ink</td>
+    <td class="r"><b>&pound;169.99</b></td>
     <td><p><b>Great e-reader</b></p>  <p>If you are mainly using it for reading the ministry, this is the one for you.</p></td>
 	  <td><ul class="cmpr">
       <li class="cmpr">Cheap</li>
@@ -172,8 +175,8 @@ target="_blank">Kindle Paperwhite Waterproof</a></b></td>
     <td><b><a href="https://www.apple.com/uk/shop/buy-ipad/ipad-mini"
 target="_blank">Apple iPad Mini</a></b></td>
     <td>8.3&rdquo; liquid retina</td>
-    <td class="r"><b>&pound;569</b></td>
-    <td><p><b>Apple tablet</b></p>  <p>Apple products are very well designed and intuitive to use.  The iBook reader is very good, offering bookmarking, highlighting and excellent navigation, and you'll be able to read email and browse the web too.</p></td>
+    <td class="r"><b>&pound;499</b></td>
+    <td><p><b>Apple tablet</b></p>  <p>Apple products are very well designed and intuitive to use.  The Books reader is very good, offering bookmarking, highlighting and excellent navigation, and you'll be able to read email and browse the web too.</p></td>
 	  <td><ul class="cmpr">
 	    <li class="cmpr">Sharp, bright screen</li>
 	    <li class="cmpr">Compact size</li>
@@ -196,13 +199,19 @@ target="_blank">Apple iPad Mini</a></b></td>
 <h3><a id="kindle"></a>Amazon Kindle</h3>
 <ol type="1">
 
-<li>Download the <a href="https://www.dropbox.com/s/o5bt0idersubg5t/epub_ministry.zip?dl=0">EPUB format</a> ministry (now available <a href="https://www.dropbox.com/s/6eq86w5z8qk2176/hymns-1962-epub.zip?dl=0">EPUB format Hymns</a> too!)</li>
-<li>Unzip the file on your Desktop - it should create a single <span style="font-weight: bold;">"ministry"</span> folder with subfolders for servants</li>
-<li>Attach your Kindle via the supplied USB cable</li>
-
-<li>Drag the <span style="font-weight: bold;">ministry</span> folder that you created and drop it onto the <span style="font-weight: bold;">documents</span> folder on Kindle drive or device (the ministry has to sit underneath the documents folder)</li>
-<li>Wait for the files to copy, then disconnect the Kindle</li>
-<li>When it powers up, you should see all the ministry!  If not, <a href="mailto:support@goodteaching.org?Subject=Good%20Teaching%20-%20Kindle%20(MOBI)%20-%20Problem">email Support</a>!</li></ol>
+<li><b>You need to download files from Dropbox; this may require you to have an account and sign-in to access - this is free</b></li>
+<li>Download the one or more of the following zip files to your computer:
+  <ul>
+    <li><a href="https://www.dropbox.com/s/d0ckg5du5393wm6/kindle_ministry.zip?dl=0">Kindle format ministry</a></li>
+    <li><a href="https://www.dropbox.com/s/ead6de0ya6k27my/kindle_gtscripture.zip?dl=0">Kindle format ministry by Bible Book</a></li>
+    <li><a href="https://www.dropbox.com/scl/fi/i338hc8d7ppx7hg2v4xnr/hymns-1962-kindle.zip?rlkey=uq96ci27mg410re8wrxksdz4i&dl=0">Kindle format Hymns</a></li>
+  </ul>
+</li>
+<li>Unzip the downloaded file(s), in your Downloads folder is fine; this should create a single folder named the same as the respective zip file</li>
+<li>Attach your Kindle to your computer via the supplied USB cable</li>
+<li>Drag each of the unzipped folder(s) from your Downloads folder and drop it onto the <span style="font-weight: bold;">documents</span> folder on Kindle drive or device (these downloaded folders must sit <i>underneath</i> the documents folder)</li>
+<li>Wait for the files to copy, then disconnect the USB cable from the Kindle</li>
+<li>When the Kindle screen refreshes, you should see all the ministry!  If not, <a href="mailto:support@goodteaching.org?Subject=Good%20Teaching%20-%20Kindle%20Problem">email Support</a>!</li></ol>
 
 <h3><a id="apple"></a>Apple iPad, iPhone or iPod Touch</h3>
 
@@ -212,23 +221,25 @@ target="_blank">Apple iPad Mini</a></b></td>
 
 <p>Now you're ready to download and install the ebooks:</p>
 <ol type="1">
+<li><b>You need to download files from Dropbox; this may require you to have an account and sign-in to access - this is free</b></li>
 <li>Download the <a href="https://www.dropbox.com/s/o5bt0idersubg5t/epub_ministry.zip?dl=0">EPUB format</a> ministry (now available <a href="https://www.dropbox.com/s/6eq86w5z8qk2176/hymns-1962-epub.zip?dl=0">EPUB format Hymns</a> too!)</li>
 <li>Unzip the file on your Desktop  - it should create a single "ministry" folder with all the epub files inside</li>
 <li>Fire up iTunes</li>
 <li>Drag the "ministry" folder onto iTunes (you should see the progress bar at the top as it copies the books)</li>
-<li>If you look under "Books" you will see all the ministry &mdash; which you can read within iBooks on the Mac/PC if you wish</li>
+<li>If you look under "Books" you will see all the ministry &mdash; which you can read within Books on the Mac/PC if you wish</li>
 <li>Now attach your first device (e.g. iPad or iPhone) and wait for iTunes to recognise it</li>
 <li>In the new version of iTunes, your device will appear at the top of the screen, top left, just left of the ellipsis (...) and if you have several devices attached (e.g. over Wifi), the dropdown list will contain each one, just click on the first device</li>
 <li>Look down the left Summary, Apps... Books!  Click on <span style="font-weight: bold;">Books</span></li>
 
 <li>Tick <b>Sync Books</b> checkbox and leave &ldquo;All books&rdquo; radio button selected</li>
 <li>Click the <span style="font-weight: bold;">Sync</span> button at the bottom and wait!</li>
-<li>After sync'ing, go to your device (disconnect if using a cable), push the iBooks app and you should see all the ministry!  If not, <a href="mailto:support@goodteaching.org?Subject=Good%20Teaching%20-%20Apple%20(EPUB)%20-%20Problem">email Support</a>!</li>
+<li>After sync'ing, go to your device (disconnect if using a cable), push the Books app and you should see all the ministry!  If not, <a href="mailto:support@goodteaching.org?Subject=Good%20Teaching%20-%20Apple%20(EPUB)%20-%20Problem">email Support</a>!</li>
 <li>(Repeat steps 7 - 12 if you have another Apple device sync'd with iTunes)</li></ol>
 
 <h3><a id="android"></a>Android-based devices</h3>
 
 <ol type="1">
+<li><b>You need to download files from Dropbox; this may require you to have an account and sign-in to access - this is free</b></li>
 <li>Download the <a href="https://www.dropbox.com/s/o5bt0idersubg5t/epub_ministry.zip?dl=0">EPUB format</a> ministry (now available <a href="https://www.dropbox.com/s/6eq86w5z8qk2176/hymns-1962-epub.zip?dl=0">EPUB format Hymns</a> too!)</li>
 <li>Unzip the file on your Desktop &mdash; it should create a single "ministry"</li>
 <li>Connect your Android device by USB cable and it will appear as a new drive</li>
@@ -249,7 +260,7 @@ target="_blank">Apple iPad Mini</a></b></td>
 <p>Yes...
 
 <ul>
-<li><b>Kindle?</b> Try our new <a href="https://www.dropbox.com/s/82r2sb7qwdd3ip2/Bible_Darby_R04.epub?dl=0">JND Bible for Kindle</a>.
+<li><b>Kindle?</b> Try our new <a href="https://www.dropbox.com/scl/fi/8dr906sept0zov4zeo88f/Bible_Darby_R05.azw3?rlkey=hlt2v53bshtjt07itt89z30yu&dl=0">JND Bible for Kindle</a>.
 If you have a Paperwhite 2 or newer, Footnotes are not always working correctly... we're working on it.
 <li><b>All other devices?</b> &mdash; We would recommend that you download Bible specific software - which works far better as a concordance and reader.  The best Bible software is definitely <a href="http://olivetree.com/bible-study-apps/" target="_blank">Olive Tree</a>, and you can run it on any of the above platforms.  Even better: it's free! (Software and Darby &amp; KJV Bibles)</li>
 </ul>
