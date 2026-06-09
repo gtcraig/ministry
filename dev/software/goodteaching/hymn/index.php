@@ -12,7 +12,8 @@
  * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and use common database.
  * CAM  30-Dec-2009  10520 : Add focus formatting for dropdowns.
  * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
- * KED  11-May-2026             : Replaced short tags, cleaned up layout.
+ * KED  11-May-2026  Replaced short tags, cleaned up layout.
+ * KED  11-May-2026  Fixed dropdown layout, increased font sizes.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $title    = "1962 Hymn Search";
@@ -23,12 +24,12 @@ $pageCss  = "hymn.css";
 include $root.'tpl/top.php';
 include 'hymn_fn.php';
 
-$hymn_no     = NULL; if (!empty($_GET['hymn_no']))     $hymn_no     = $_GET['hymn_no'];
-$keywords    = NULL; if (!empty($_GET['keywords']))    $keywords    = $_GET['keywords'];
-$author      = NULL; if (!empty($_GET['author']))      $author      = $_GET['author'];
-$meter_id    = NULL; if (!empty($_GET['meter_id']))    $meter_id    = $_GET['meter_id'];
+$hymn_no     = NULL; if (!empty($_GET['hymn_no']))      $hymn_no     = $_GET['hymn_no'];
+$keywords    = NULL; if (!empty($_GET['keywords']))     $keywords    = $_GET['keywords'];
+$author      = NULL; if (!empty($_GET['author']))       $author      = $_GET['author'];
+$meter_id    = NULL; if (!empty($_GET['meter_id']))     $meter_id    = $_GET['meter_id'];
 $category_id = NULL; if (!empty($_GET['category_id'])) $category_id = $_GET['category_id'];
-$language    = NULL; if (!empty($_GET['language']))    $language    = $_GET['language'];
+$language    = NULL; if (!empty($_GET['language']))     $language    = $_GET['language'];
 ?>
 
 <script language="Javascript" src="ajax.js"></script>
@@ -36,7 +37,7 @@ $language    = NULL; if (!empty($_GET['language']))    $language    = $_GET['lan
 <style>
 .hymn-wrap {
   display: grid;
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 340px 1fr;
   gap: 20px;
   align-items: start;
 }
@@ -45,42 +46,42 @@ $language    = NULL; if (!empty($_GET['language']))    $language    = $_GET['lan
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 16px 20px;
+  padding: 20px 22px;
   margin-bottom: 16px;
 }
 
 .hymn-search-box h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 13pt;
+  font-size: 15pt;
   color: var(--navy);
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .hymn-field-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  margin-bottom: 8px;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
-.hymn-field-row.three {
-  grid-template-columns: 1fr 1fr 1fr;
+.hymn-field-full {
+  margin-bottom: 10px;
 }
 
 .hymn-field-label {
-  font-size: 8.5pt;
+  font-size: 10pt;
   font-weight: 600;
   color: var(--navy);
-  margin-bottom: 3px;
+  margin-bottom: 4px;
 }
 
 .hymn-field-input {
   width: 100%;
-  padding: 6px 10px;
+  padding: 8px 12px;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   font-family: 'Inter', sans-serif;
-  font-size: 9.5pt;
+  font-size: 11pt;
   color: var(--text-dark);
   background: var(--cream);
 }
@@ -92,11 +93,11 @@ $language    = NULL; if (!empty($_GET['language']))    $language    = $_GET['lan
 
 .hymn-field-select {
   width: 100%;
-  padding: 6px 10px;
+  padding: 8px 12px;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   font-family: 'Inter', sans-serif;
-  font-size: 9pt;
+  font-size: 11pt;
   color: var(--text-dark);
   background: var(--cream);
 }
@@ -104,15 +105,7 @@ $language    = NULL; if (!empty($_GET['language']))    $language    = $_GET['lan
 .hymn-search-actions {
   display: flex;
   justify-content: flex-end;
-  margin-top: 10px;
-}
-
-/* Results panels */
-.hymn-results-wrap {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 12px;
-  align-items: start;
+  margin-top: 12px;
 }
 
 .hymn-panel {
@@ -124,28 +117,31 @@ $language    = NULL; if (!empty($_GET['language']))    $language    = $_GET['lan
 
 .hymn-panel-header {
   background: var(--navy);
-  padding: 8px 14px;
+  padding: 10px 16px;
   font-family: 'Playfair Display', serif;
-  font-size: 10.5pt;
+  font-size: 12pt;
   color: var(--gold-light);
 }
 
 .hymn-panel-body {
-  padding: 12px 14px;
-  font-size: 9.5pt;
+  padding: 14px 16px;
+  font-size: 11pt;
 }
 
 .hymn-empty {
-  padding: 20px;
+  padding: 24px;
   text-align: center;
   color: var(--text-muted);
   font-style: italic;
-  font-size: 9.5pt;
+  font-size: 11pt;
+}
+
+.hymn-field-row-lc {
+  grid-template-columns: 110px 1fr;
 }
 
 @media (max-width: 900px) {
   .hymn-wrap { grid-template-columns: 1fr; }
-  .hymn-results-wrap { grid-template-columns: 1fr; }
 }
 </style>
 
@@ -157,7 +153,8 @@ $language    = NULL; if (!empty($_GET['language']))    $language    = $_GET['lan
       <h2>Hymn Search</h2>
       <form action="." method="get" name="searchForm" id="searchForm">
 
-        <div class="hymn-field-row">
+        <!-- Hymn No + Author -->
+        <div class="hymn-field-row hymn-field-row-lc">
           <div>
             <div class="hymn-field-label">Hymn No.</div>
             <input type="text" name="hymn_no" class="hymn-field-input"
@@ -170,30 +167,34 @@ $language    = NULL; if (!empty($_GET['language']))    $language    = $_GET['lan
           </div>
         </div>
 
-        <div style="margin-bottom:8px;">
+        <!-- Keywords full width -->
+        <div class="hymn-field-full">
           <div class="hymn-field-label">Text / Keywords</div>
           <input type="text" name="keywords" class="hymn-field-input"
                  value="<?php echo htmlspecialchars($keywords ?? ''); ?>" />
         </div>
 
-        <div class="hymn-field-row three">
-          <div>
-            <div class="hymn-field-label">Language</div>
-            <select name="language" id="language" class="hymn-field-select" onchange="toggle_language();">
-              <option value=""    <?php echo ($language == ""    ? "selected" : ""); ?>>English</option>
-              <option value="_de" <?php echo ($language == "_de" ? "selected" : ""); ?>>Deutsch</option>
-              <option value="_in" <?php echo ($language == "_in" ? "selected" : ""); ?>>Italian</option>
-              <option value="_nl" <?php echo ($language == "_nl" ? "selected" : ""); ?>>Netherlands</option>
-            </select>
-          </div>
-          <div>
-            <div class="hymn-field-label">Category</div>
-            <?php select_categories($dbConn, $category_id); ?>
-          </div>
-          <div>
-            <div class="hymn-field-label">Meter</div>
-            <?php select_meters($dbConn, $meter_id, $language); ?>
-          </div>
+       <!-- Language full width -->
+       <div class="hymn-field-full">
+         <div class="hymn-field-label">Language</div>
+         <select name="language" id="language" class="hymn-field-select" onchange="toggle_language();">
+           <option value=""    <?php echo ($language == ""    ? "selected" : ""); ?>>English</option>
+           <option value="_de" <?php echo ($language == "_de" ? "selected" : ""); ?>>Deutsch</option>
+           <option value="_in" <?php echo ($language == "_in" ? "selected" : ""); ?>>Italian</option>
+           <option value="_nl" <?php echo ($language == "_nl" ? "selected" : ""); ?>>Netherlands</option>
+         </select>
+       </div>
+
+      <!-- Category full width -->
+      <div class="hymn-field-full">
+        <div class="hymn-field-label">Category</div>
+        <?php select_categories($dbConn, $category_id); ?>
+      </div>
+
+        <!-- Meter full width so it has room to breathe -->
+        <div class="hymn-field-full">
+          <div class="hymn-field-label">Meter</div>
+          <?php select_meters($dbConn, $meter_id, $language); ?>
         </div>
 
         <div class="hymn-search-actions">
@@ -225,8 +226,8 @@ $language    = NULL; if (!empty($_GET['language']))    $language    = $_GET['lan
       <?php
       $keywordsList = explode(" ", $keywords ?? '');
       $authorList   = explode(" ", $author ?? '');
-      $metdesc = "";
-      $catdesc = "";
+      $metdesc      = "";
+      $catdesc      = "";
 
       if (!empty($meter_id) && ($meter_id != "ALL")) {
         $sql = "SELECT meter, rhythm, chorus FROM hymn_meter WHERE id = '$meter_id'";
