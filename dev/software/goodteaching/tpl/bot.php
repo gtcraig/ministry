@@ -25,27 +25,31 @@
  * CAM  12-Dec-2015  476204 : Lookup latest version from the database, and reference support email rather than frontburner.
  * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * CAM  30-May-2020  909743 : Updated table structure of page.
+ * KED  10-May-2026  Updated closing tags to match new div-based layout.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
- $releaseNo = "";
- $releaseDate = "";
- $sql = "SELECT release_no, DATE_FORMAT(completion_date, '%e %b %Y') ".
-        "FROM mse_release_history ".
-        "WHERE completion_date = ( ".
-          "SELECT MAX(completion_date) ".
-          "FROM mse_release_history)";
-   $ssql = mysqli_query($dbConn, $sql) or die(mysql_error());
-  if ($row = mysqli_fetch_array($ssql)) {
-    $releaseNo = $row[0];
-    $releaseDate = $row[1];
-  }
- 
-
+$releaseNo = "";
+$releaseDate = "";
+$sql = "SELECT release_no, DATE_FORMAT(completion_date, '%e %b %Y') ".
+       "FROM mse_release_history ".
+       "WHERE completion_date = ( ".
+         "SELECT MAX(completion_date) ".
+         "FROM mse_release_history)";
+$ssql = mysqli_query($dbConn, $sql) or die(mysql_error());
+if ($row = mysqli_fetch_array($ssql)) {
+  $releaseNo = $row[0];
+  $releaseDate = $row[1];
+}
 ?>
-</td></tr>
-<tr><td class="cpyrght" colspan="3"><a href="<?=$root?>releases.php">V<?=$releaseNo?></a> released <?=$releaseDate?>.  For help, contact <a href="mailto:support@goodteaching.org">Support</a></td></tr>
-</td></tr>
-</table>
+
+  </div><!-- /.gt-content -->
+
+  <div class="cpyrght">
+    <a href="<?= $root ?>releases.php">V<?= $releaseNo ?></a> released <?= $releaseDate ?>.
+    For help, contact <a href="mailto:support@goodteaching.org">Support</a>
+  </div>
+
+</div><!-- /.outerBox -->
+
 </body>
 </html>
-

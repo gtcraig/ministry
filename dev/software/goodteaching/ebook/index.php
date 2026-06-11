@@ -3,84 +3,263 @@
  * Good Teaching Search Engine
  * Copyright (c) 2007,2009 frontburner.co.uk
  *
- * 1962 Hymn Book Search
+ * eBook Downloads Page
  *
  * Who  When         Why
  * CAM  29-Jul-2007  File created.
- * CAM  12-Nov-2007  10204 : Added calls to Servant checkbox functions.
- * CAM  29-Sep-2008  10302 : Moved to GoodTeaching.org.
- * CAM  12-Apr-2009  10419 : Added more flexibility to tabs, and use common database.
- * CAM  30-Dec-2009  10520 : Add focus formatting for dropdowns.
  * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
+ * KED  11-May-2026  Redesigned layout, replaced short tags.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-$title = "1962 Hymn Search";
-$root = "../";
-$tabs = "HYMN";
+$title    = "eBook Download and Installation";
+$root     = "../";
+$tabs     = "NONE";
 $pageName = "pageEbook";
-$pageCss = "hymn.css";
+$pageCss  = "hymn.css";
 include $root.'tpl/top.php';
 ?>
+
 <style>
-  #updated p {
-    font-size: 9pt;
-    color: #999999;
-    text-align: center;
-  }
+.eb-page { padding: 4px 0; }
 
-  #mainbody {
-  	width: 1000px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.eb-hero {
+  background: var(--navy);
+  border-radius: var(--radius-md);
+  padding: 28px 32px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
 
-  a {
-  	color: #3366FF;
-  	text-decoration: none;
-  }
+.eb-hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18pt;
+  color: var(--gold-light);
+  margin-bottom: 8px;
+}
 
-  a:hover {
-  	color: white;
-  	background-color: #3366FF;
-  	text-decoration: none;
-  }
+.eb-hero-text p {
+  font-size: 10pt;
+  color: #7a9ab8;
+  margin: 0;
+  line-height: 1.6;
+}
 
-  .r {
-    text-align: right;
-  }
+.eb-updated {
+  font-size: 8pt;
+  color: #4a6280;
+  margin-top: 8px;
+}
 
-  .c {
-    text-align: center;
-  }
+/* Two column layout */
+.eb-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 24px;
+  align-items: start;
+}
 
-  #favourite {
-    background-color: #CCCCFF;
-  }
+/* Section cards */
+.eb-section {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: 16px;
+}
 
-  th {
-    background-color: #666699;
-  	color: white;
-  }
+.eb-section-header {
+  background: var(--navy);
+  padding: 10px 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 12pt;
+  color: var(--gold-light);
+}
 
-  #comparison {
-	  border-left: 1px solid grey;
-	  border-top: 1px solid grey;
-	  float: none;
-  }
+.eb-section-body {
+  padding: 16px 20px;
+}
 
-  #comparison td, #comparison th {
-	  border-right: 1px solid grey;
-	  border-bottom: 1px solid grey;
-  }
+/* Download cards */
+.eb-downloads {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
-  .cmpr {
-    margin: 0 0 0 7;
-    padding: 0;
+.eb-download-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  gap: 12px;
+}
 
-  .hilight {
-    color: #666699;
-  }
+.eb-download-item:hover { background: var(--gold-pale); }
+
+.eb-download-name {
+  font-size: 9.5pt;
+  font-weight: 600;
+  color: var(--navy);
+  flex: 1;
+}
+
+.eb-download-sub {
+  font-size: 8.5pt;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.eb-download-links {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.eb-download-btn {
+  padding: 4px 12px;
+  background: var(--navy);
+  color: var(--gold) !important;
+  font-size: 8.5pt;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  text-decoration: none !important;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+
+.eb-download-btn:hover {
+  background: var(--navy-light);
+  text-decoration: none !important;
+}
+
+/* Steps */
+.eb-steps ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.eb-steps li {
+  font-size: 9.5pt;
+  color: var(--text-mid);
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+
+.eb-steps li b { color: var(--navy); }
+.eb-steps li a { color: var(--navy-light); }
+.eb-steps li a:hover { color: var(--gold); }
+
+/* Device comparison table */
+.eb-device-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 8.5pt;
+}
+
+.eb-device-table th {
+  background: var(--navy);
+  color: var(--gold-light);
+  padding: 8px 10px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.eb-device-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--cream-dark);
+  color: var(--text-mid);
+  vertical-align: top;
+}
+
+.eb-device-table tr:last-child td { border-bottom: none; }
+.eb-device-table tr:hover td { background: var(--cream); }
+.eb-device-table a { color: var(--navy-light); }
+.eb-device-table a:hover { color: var(--gold); }
+
+.eb-device-img {
+  width: 48px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.eb-pros-cons { margin: 0; padding-left: 14px; }
+.eb-pros-cons li { margin-bottom: 2px; }
+
+/* FAQ */
+.eb-faq-item {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--cream-dark);
+}
+.eb-faq-item:last-child { border-bottom: none; }
+
+.eb-faq-q {
+  font-size: 10pt;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.eb-faq-a {
+  font-size: 9.5pt;
+  color: var(--text-mid);
+  line-height: 1.6;
+}
+
+.eb-faq-a ul { margin: 6px 0 0 16px; padding: 0; }
+.eb-faq-a li { margin-bottom: 3px; }
+.eb-faq-a a  { color: var(--navy-light); }
+.eb-faq-a a:hover { color: var(--gold); }
+
+/* Sidebar */
+.eb-sidebar { display: flex; flex-direction: column; gap: 16px; }
+
+.eb-widget {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.eb-widget-header {
+  background: var(--navy);
+  padding: 9px 16px;
+  font-family: 'Playfair Display', serif;
+  font-size: 10.5pt;
+  color: var(--gold-light);
+}
+
+.eb-widget-body {
+  padding: 14px 16px;
+  font-size: 9pt;
+  color: var(--text-mid);
+  line-height: 1.7;
+}
+
+.eb-widget-body a { color: var(--navy-light); font-weight: 500; }
+.eb-widget-body a:hover { color: var(--gold); }
+
+.eb-device-pill {
+  display: inline-block;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 8pt;
+  color: var(--navy);
+  font-weight: 500;
+  margin: 2px;
+}
+
+@media (max-width: 750px) {
+  .eb-layout { grid-template-columns: 1fr; }
+  .eb-hero   { flex-direction: column; }
+}
 </style>
 
     <div id="updated"><p>Updated <b>17-Sep-2023</b> with latest devices</p></div>
@@ -255,21 +434,75 @@ If you have a Paperwhite 2 or newer, Footnotes are not always working correctly.
 </ul>
 </p></li>
 
-<li><b>How can I relate the page numbers in the ebook to the physical page numbers?</b>
-<p>There isn't currently a way of doing this.  I have thought about adding an index page to each volume with the links to the physical page numbers.</p></li>
-<li><b>I have found mistakes in the text from the scanning process... how do I let you know?</b>
-<p>Simple!  Send an email to <a href="mailto:support@goodteaching.org?Subject=Text%20Mistake%20-%20">support@goodteaching.org</a> and you will receive an automated reply with a ticket number.  Once the mistake has been corrected you will receive a reply.
-<ul>
-<li><b>Subject</b> &mdash; Please include the volume in the Subject line (e.g. JND V45)</li>
-<li><b>Body</b> &mdash; Please re-type a portion of the incorrect text so that we can find it in the volume, and then add the correction.  We will confirm against the original printed volume.</li>
-<li>It would be helpful if you would send an individual email for each mistake, even if they are in the same volume.  The automated ticket system assigns each one a number so it's easy to track.</li>
-<li>We will release a new &ldquo;build&rdquo; of the ebooks once a year with the corrections.</li>
-</ul>
-</p></li>
-</ol>
+          <div class="eb-faq-item">
+            <div class="eb-faq-q">How can I relate eBook page numbers to physical page numbers?</div>
+            <div class="eb-faq-a">There isn't currently a way to do this. An index page linking to physical page numbers is being considered for a future release.</div>
+          </div>
 
+          <div class="eb-faq-item">
+            <div class="eb-faq-q">I've found a mistake in the text — how do I report it?</div>
+            <div class="eb-faq-a">
+              Email <a href="mailto:support@goodteaching.org?Subject=Text%20Mistake%20-%20">support@goodteaching.org</a>. You'll receive an automated reply with a ticket number.
+              <ul>
+                <li><b>Subject:</b> include the volume (e.g. JND V45)</li>
+                <li><b>Body:</b> retype a portion of the incorrect text and add the correction</li>
+                <li>Send a separate email per mistake — the ticket system tracks each one individually</li>
+                <li>A new build of eBooks is released once a year with all corrections</li>
+              </ul>
+            </div>
+          </div>
 
+        </div>
+      </div>
 
-<?
-include $root.'tpl/bot.php';
-?>
+    </div>
+
+    <!-- ── Sidebar ── -->
+    <div class="eb-sidebar">
+
+      <div class="eb-widget">
+        <div class="eb-widget-header">Quick Downloads</div>
+        <div class="eb-widget-body">
+          <a href="https://bit.ly/3bvr2sl">&#128214; Ministry EPUB</a><br>
+          <a href="https://bit.ly/2WKlS7I">&#127925; Hymns EPUB</a><br>
+          <a href="https://www.dropbox.com/s/82r2sb7qwdd3ip2/Bible_Darby_R04.epub?dl=0">&#10013; JND Bible EPUB</a><br>
+          <a href="https://bit.ly/3dWJuMM">&#128218; Various Ministries EPUB</a>
+        </div>
+      </div>
+
+      <div class="eb-widget">
+        <div class="eb-widget-header">Compatible Devices</div>
+        <div class="eb-widget-body">
+          <span class="eb-device-pill">Kindle Paperwhite</span>
+          <span class="eb-device-pill">iPad / iPhone</span>
+          <span class="eb-device-pill">Android</span>
+          <span class="eb-device-pill">Apple Books</span>
+          <span class="eb-device-pill">Aldiko</span>
+          <span class="eb-device-pill">Calibre (PC/Mac)</span>
+        </div>
+      </div>
+
+      <div class="eb-widget">
+        <div class="eb-widget-header">Installation Guides</div>
+        <div class="eb-widget-body">
+          <a href="#kindle">&#128279; Kindle setup</a><br>
+          <a href="#apple">&#128279; Apple iPad / iPhone</a><br>
+          <a href="#android">&#128279; Android devices</a><br>
+          <a href="#faq">&#128279; FAQ</a>
+        </div>
+      </div>
+
+      <div class="eb-widget">
+        <div class="eb-widget-header">Need Help?</div>
+        <div class="eb-widget-body">
+          Having trouble installing or downloading?<br><br>
+          <a href="mailto:support@goodteaching.org">&#9993; Email Support</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<?php include $root.'tpl/bot.php'; ?>
