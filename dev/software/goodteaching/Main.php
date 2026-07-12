@@ -19,7 +19,7 @@
  * * * * * * * * * * * * * * * * * * * * * * * */
 
 $cfg['Site']['Name']  = "Good Teaching Search Engine";
-$cfg['Site']['URL']   = "https://goodteaching.org"; // no trailing slash
+$cfg['Site']['URL']   = "https://test.goodteaching.org"; // no trailing slash
 $cfg['Site']['Email'] = "support@goodteaching.org";
 $cfg['Site']['Status'] = "Production";
 
@@ -33,6 +33,12 @@ $cfg['Site']['Db']['Database'] = "goodteaching_org_min";
 
 if (strpos(strtolower($_SERVER['SERVER_NAME']), "localhost") !== FALSE) {
   $cfg['Site']['URL'] = "http://localhost:8080/ministry/dev/software/goodteaching";
+  $cfg['Site']['Status'] = "Development";
+  $cfg['Site']['Db']['Username'] = "root";
+  $cfg['Site']['Db']['Password'] = "";
+}
+else if (strpos(strtolower($_SERVER['SERVER_NAME']), "sharksaw") !== FALSE) {
+  $cfg['Site']['URL'] = "http://sharksaw/gt";
   $cfg['Site']['Status'] = "Development";
   $cfg['Site']['Db']['Username'] = "root";
   $cfg['Site']['Db']['Password'] = "";
