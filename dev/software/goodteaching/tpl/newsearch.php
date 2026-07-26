@@ -33,6 +33,10 @@
   <td align="right" valign=middle><? echo ActionUtil::linkButton('scripture.php', 'Search by Scripture Reference', 'scripturebutton', 'scripturebuttonhover');?></td>
   <td class="toolTip">Looking for ministry on a particular passage of Scripture?</td>
 </tr><tr>
+  <td align="right" valign=middle><? echo ActionUtil::linkButton('Library/', 'View Library', 'librarybutton', 'librarybuttonhover');?></td>
+  <td class="toolTip"><i style="color:DB0954">*NEW*</i> Peruse the full <a href="Library/">Library</a> which includes magazines (<i>A Word in its Season</i> and <i>Notes of Ministry</i>) and recent publications?
+   </br></br>You can also subscribe to the <a href="ebook#library-feed">Library feed</a> to receive new issues of AWiiS and NOM, and any other updates.</td>
+</tr><tr>
   <td>&nbsp;</td>
   <td class="toolTip">Looking for a list of <a href="volumes.php">Volume Titles</a> (e.g. what does 'JND Volume 45' mean?)</td>
 </tr>
@@ -42,7 +46,7 @@
 		<table border="0" cellpadding=5 cellspacing=0>
 			<tr>
 				<td><a href="ebook/"><img border="0" src="ebook/kindlepw4.png"></a></td>
-				<td><a href="ebook/"><img border="0" src="ebook/apple4.png"></a></td>
+				<td><a href="ebook/"><img border="0" src="ebook/apple5.png"></a></td>
 		  </tr>
 			<tr>
 				<td align="center">Kindle</td>
@@ -78,7 +82,7 @@
       <td align="center"><a href="https://calibre-ebook.com/download">Calibre</a> or<br />
         <a href="https://itunes.apple.com/gb/app/ibooks/id364709193?mt=8">Apple Books</a></td>
       <td align="center"><a href="https://itunes.apple.com/gb/app/ibooks/id364709193?mt=8">Apple Books</a></td>
-      <td align="center"><a href="https://play.google.com/store/apps/details?id=com.aldiko.android">Aldiko</a></td>
+      <td align="center"><a href="https://play.google.com/store/apps/details?id=org.readera">ReadEra</a></td>
       <td align="center"><a href="ebook/">eBooks</a></td>
     </tr>
     <tr>

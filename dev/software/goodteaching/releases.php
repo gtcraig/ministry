@@ -10,7 +10,7 @@
  * CAM  24-May-2020  481548 : Replace deprecated ext/mysql calls with MySQLi.
  * * * * * * * * * * * * * * * * * * * * * * * */
 
-$title = "Volume Titles";
+$title = "Release History";
 $tabs = "NONE";
 $root = "./";
 include $root.'tpl/top.php';

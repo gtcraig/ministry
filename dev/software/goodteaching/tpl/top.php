@@ -75,7 +75,8 @@ if (empty($title)) {
   <td valign=top colspan=3><table border=0 cellpadding=0 cellspacing=0 width="100%" height="100%" class="topnav">
     <tr><td><a id="linkGt" href="<? echo $cfg['Site']['URL']; ?>"><? echo
       str_replace(" ", "&nbsp;", $cfg['Site']['Name']); ?></a><span class="topsep">|</span><a id="linkEbook" href="<? echo
-      $cfg['Site']['URL']; ?>/ebook/">eBooks</a><span class="topsep">|</span><a id="linkBible" href="<? echo
+      $cfg['Site']['URL']; ?>/ebook/">eBooks</a><span class="topsep">|</span><a id="linkLibrary" href="<? echo
+      $cfg['Site']['URL']; ?>/Library/">Library</a><span class="topsep">|</span><a id="linkBible" href="<? echo
       $cfg['Site']['URL']; ?>/bible/">Bible</a><span class="topsep">|</span><a id="linkHymn" href="<? echo
       $cfg['Site']['URL']; ?>/hymn/">Hymns</a><span class="topsep">|</span><a id="linkTune" href="<? echo
       $cfg['Site']['URL']; ?>/tune/">Tunes</a><span class="topsep"></td>
