@@ -25,12 +25,16 @@ body {
   background-color: #66B7E2;
 }
 
-p, a, h3, table, td, input, select, textarea {
+p, a, h1, h2, h3, table, td, input, select, textarea {
   color: #000000;
   font-family: 'Ubuntu', sans-serif;
   font-size: 10pt;
   line-height: 1.4;
   font-weight: 400;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
 }
 
 a {
@@ -39,6 +43,7 @@ a {
 
 a#linkGt,
 a#linkEbook,
+a#linkLibrary,
 a#linkBible,
 a#linkHymn,
 a#linkTune,
@@ -53,6 +58,7 @@ a#linkHitchcock
 
 body#pageGt a#linkGt,
 body#pageEbook a#linkEbook,
+body#pageLibrary a#linkLibrary,
 body#pageBible a#linkBible,
 body#pageHymn a#linkHymn,
 body#pageTune a#linkTune,
@@ -66,6 +72,7 @@ body#pageHitchcock a#linkHitchcock
 
 a#linkGt:hover,
 a#linkEbook:hover,
+a#linkLibrary:hover,
 a#linkBible:hover,
 a#linkHymn:hover,
 a#linkTune:hover,
@@ -79,6 +86,7 @@ a#linkHitchcock:hover
 
 body#pageGt a#linkGt:hover,
 body#pageEbook a#linkEbook:hover,
+body#pageLibrary a#linkLibrary:hover,
 body#pageBible a#linkBible:hover,
 body#pageHymn a#linkHymn:hover,
 body#pageTune a#linkTune:hover,
@@ -98,9 +106,6 @@ body#pageHitchcock a#linkHitchcock:hover
 h1, h2, h3, h4 {
   margin: .2em 0 .2em 0;
   padding: 0;
-}
-
-h1, h2, h3, h4 {
   font-size: medium;
 }
 
@@ -505,6 +510,18 @@ input.authorbutton {
   padding-top:    2px;
 }
 
+input.librarybutton {
+  background-color: #0093D8;
+  border:           rgb(60, 177, 231) 1px solid;
+  color:            #FFFFFF;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 3px;
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-top:    2px;
+}
+
 input.keywordbuttonhover {
   background-color: #DC909B;
   border:           #DB0954 1px solid;
@@ -533,6 +550,19 @@ input.scripturebuttonhover {
 
 input.authorbuttonhover {
   background-color: #C9DC92;
+  border:           #0093D8 1px solid;
+  color:            #333333;
+  font-size: 8pt;
+  font-weight: bold;
+  PADDING-BOTTOM: 3px;
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-top:    2px;
+  cursor: pointer;
+}
+
+input.librarybuttonhover {
+  background-color: #74c8f0;
   border:           #0093D8 1px solid;
   color:            #333333;
   font-size: 8pt;
