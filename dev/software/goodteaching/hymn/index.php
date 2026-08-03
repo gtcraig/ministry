@@ -50,7 +50,7 @@ $language = NULL;    if (!empty($_GET['language'])) $language = $_GET['language'
       <td><select <? dropdownFocus(); ?> name="language" id="language" class="dropdown" onchange="toggle_language();">
       <option value="" <? echo ($language == "" ? "SELECTED" : ""); ?>>English</option>
       <option value="_de" <? echo ($language == "_de" ? "SELECTED" : ""); ?>>Deutsch</option>
-      <option value="_in" <? echo ($language == "_in" ? "SELECTED" : ""); ?>>Italian</option>
+      <option value="_it" <? echo ($language == "_it" ? "SELECTED" : ""); ?>>Italian</option>
       <option value="_nl" <? echo ($language == "_nl" ? "SELECTED" : ""); ?>>Netherlands</option>
       </select></td>
 
