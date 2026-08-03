@@ -3,8 +3,6 @@
  * Copyright (c) 2007,2011 Front Burner
  * Author Craig McKay <craig@frontburner.co.uk>
  *
- * $Id: Language.cs 1314 2011-01-04 01:59:30Z craig $
- *
  * Who  When         Why
  * CAM  02-Jan-2011  10917 : File created.
  * CAM  03-Jan-2011  10917 : Added LanguageList and LanguageName.
@@ -19,7 +17,9 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
   {
     English,
     Dutch,
-    German
+    German,
+    Italian,
+    French
   }
 
   public class LanguageList : List<Language>
@@ -40,6 +40,8 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
         list.Add(Language.English);
         list.Add(Language.German);
         list.Add(Language.Dutch);
+        list.Add(Language.Italian);
+        //list.Add(Language.French);
         return list;
       }
     }
@@ -52,6 +54,10 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
           return "nl";
         case Language.German:
           return "de";
+        case Language.Italian:
+          return "it";
+        case Language.French:
+          return "fr";
         default:
           break;
       }
@@ -67,6 +73,10 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
           return "Dutch";
         case Language.German:
           return "Deutsche";
+        case Language.Italian:
+          return "Italiano";
+        case Language.French:
+          return "Français";
         default:
           break;
       }
@@ -88,6 +98,10 @@ namespace FrontBurner.Ministry.MseBuilder.Reader.Hymnbook
           return "_nl";
         case Language.German:
           return "_de";
+        case Language.Italian:
+          return "_it";
+        case Language.French:
+          return "_fr";
         default:
           break;
       }
