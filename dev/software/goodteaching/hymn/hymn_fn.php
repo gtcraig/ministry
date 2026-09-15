@@ -209,7 +209,7 @@ function show_hymn($dbConn, $hymn, $language) {
     return;
   }
 ?>
-  <table border=0 cellspacing=0 cellpadding=0 width="100%"><tr><td align=left valign=top>
+  <table border=0 cellspacing=0 cellpadding=0 width="100%" class="hymn-outer-table"><tr><td align=left valign=top class="hymn-outer-td">
   <table border=0 cellspacing=0 cellpadding=2><tr><td class=hymn><?php echo $hymn; ?></td>
 <?php
   $hymnSql = "SELECT m.meter, m.rhythm, m.chorus, h.meter_id ".
@@ -272,7 +272,7 @@ function show_hymn($dbConn, $hymn, $language) {
     $singCount = $row[0];
   }
 ?>
-  </table></td><td align=right valign="top">
+  </table></td><td align=right valign="top" class="hymn-outer-td hymn-tune-td">
     <table border=0 cellspacing=0 cellpadding=0>
 <?php
   if ($singCount > 0) {

@@ -376,14 +376,15 @@ input.authorbuttonhover {
   cursor: pointer;
 }
 
-input.previewbutton {
+input.previewbutton, a.previewbutton {
   background-color: var(--white); border: 1px solid var(--border);
   color: var(--navy-light);       font-family: 'Inter', sans-serif;
   font-size: 10pt;                font-weight: 500;
   padding: 4px 10px;              border-radius: var(--radius-sm);
   cursor: pointer;                transition: background 0.15s;
+  text-decoration: none;
 }
-input.previewbuttonhover {
+input.previewbuttonhover, a.previewbutton:hover {
   background-color: var(--cream); border: 1px solid var(--navy-light);
   color: var(--navy);             font-family: 'Inter', sans-serif;
   font-size: 10pt;                font-weight: 500;
@@ -523,8 +524,71 @@ p.statement { font-family: 'Playfair Display', serif; font-size: 14pt; color: va
 }
 
 @media (max-width: 750px) {
-  .gt-home         { grid-template-columns: 1fr; }
+  .gt-home         { grid-template-columns: minmax(0, 1fr); }
+  .gt-cards        { min-width: 0; }
+  .gt-sidebar      { min-width: 0; }
   .gt-ebook-banner { flex-direction: column; text-align: center; }
+}
+
+/* Tune search results table -> horizontal scroll on mobile */
+.tune-table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+@media (max-width: 700px) {
+  .tune-table { font-size: 9pt; }
+  .tune-table td { white-space: nowrap; }
+}
+
+/* Hymn/Sing viewer: verses + tune list table -> stack on mobile */
+@media (max-width: 700px) {
+  .hymn-outer-table, .hymn-outer-table > tbody, .hymn-outer-table > tbody > tr {
+    display: block;
+    width: 100% !important;
+  }
+  .hymn-outer-td {
+    display: block;
+    width: 100% !important;
+  }
+  .hymn-tune-td { margin-top: 18px; text-align: left !important; }
+}
+
+/* Keyword/Scripture/Servant search results table -> stacked cards on mobile */
+@media (max-width: 700px) {
+  #searchResultsTable, #searchResultsTable tbody, #searchResultsTable tr {
+    display: block;
+    width: 100% !important;
+  }
+  #searchResultsTable tr { border-bottom: 1px solid var(--cream-dark); padding: 10px 0; }
+  #searchResultsTable tr:last-child { border-bottom: none; }
+  #searchResultsTable th.rh { display: none; }
+  #searchResultsTable td.rd {
+    display: block;
+    border-bottom: none;
+    padding: 2px 14px;
+  }
+  #searchResultsTable td.rd:nth-child(1),
+  #searchResultsTable td.rd:nth-child(2) {
+    display: inline-block;
+  }
+  #searchResultsTable td.rd:nth-child(3),
+  #searchResultsTable td.rd:nth-child(4) {
+    margin-top: 4px;
+  }
+
+  /* Pagination bar: let page buttons wrap instead of overflowing */
+  #searchPaginationTable, #searchPaginationTable tbody {
+    display: block;
+    width: 100%;
+  }
+  #searchPaginationTable tr {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
 }
 
 @media (max-width: 600px) {

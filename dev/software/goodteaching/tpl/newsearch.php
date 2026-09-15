@@ -17,7 +17,7 @@
 
 <table border=0 cellpadding=10 cellspacing=0 width="100%">
 <tr><td align=left colspan=2>
-<?
+<?php
   $q = "Search the Ministry";
 
   if ($loggedin) {
@@ -28,10 +28,10 @@
 
 ?></td></tr>
 <tr>
-  <td align="right"><? echo ActionUtil::linkButton('keyword.php', 'Search by Keyword', 'keywordbutton', 'keywordbuttonhover');?></td>
+  <td align="right"><?php echo ActionUtil::linkButton('keyword.php', 'Search by Keyword', 'keywordbutton', 'keywordbuttonhover');?></td>
   <td class="toolTip" width="100%">Interested in ministry relating to one or more specific words?</td>
 </tr><tr>
-  <td align="right" valign=middle><? echo ActionUtil::linkButton('scripture.php', 'Search by Scripture Reference', 'scripturebutton', 'scripturebuttonhover');?></td>
+  <td align="right" valign=middle><?php echo ActionUtil::linkButton('scripture.php', 'Search by Scripture Reference', 'scripturebutton', 'scripturebuttonhover');?></td>
   <td class="toolTip">Looking for ministry on a particular passage of Scripture?</td>
 </tr><tr>
   <td>&nbsp;</td>

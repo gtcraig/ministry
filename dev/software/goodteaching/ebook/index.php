@@ -260,6 +260,25 @@ include $root.'tpl/top.php';
   .eb-layout { grid-template-columns: 1fr; }
   .eb-hero   { flex-direction: column; }
 }
+
+/* Legacy device-comparison table (#comparison): not yet migrated to
+   .eb-device-table -- keep its natural width and let it scroll
+   horizontally within a contained box on narrow screens, rather than
+   letting it get clipped off-screen. */
+.eb-table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+}
+
+#comparison {
+  min-width: 700px;
+}
+
+@media (max-width: 750px) {
+  #comparison { font-size: 9.5pt; }
+}
 </style>
 
     <div id="updated"><p>Updated <b>17-Sep-2023</b> with latest devices</p></div>
@@ -317,7 +336,7 @@ Spiritual Songs (1962)</span> <span style="color: #A9A9A9;">[English, Deutsch &a
 target="_blank">Kindle Paperwhite No Ads (&pound;149.99)</a>.</li>
 </ul>
 
-<table id="comparison" border="0" cellpadding="5" cellspacing="0">
+<div class="eb-table-scroll"><table id="comparison" border="0" cellpadding="5" cellspacing="0">
   <tr>
     <th>&nbsp;</td>
     <th>Model</th>
@@ -362,7 +381,7 @@ target="_blank">Apple iPad Mini</a></b></td>
 	  </ul></td>
   </tr>
 
-</table>
+</table></div>
 
 <h2>So you've bought a reader and want to read the ministry on it?</h2>
 <p>Easy!  Follow the simple steps below!</p>

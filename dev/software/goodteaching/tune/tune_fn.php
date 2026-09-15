@@ -37,7 +37,8 @@ function select_books($dbConn, $book_name) {
 
 function output_tune_table_start() {
 ?>
-<table border=0 cellspacing=0 cellpadding=4>
+<div class="tune-table-scroll">
+<table border=0 cellspacing=0 cellpadding=4 class="tune-table">
 <?php
 }
 
@@ -57,6 +58,7 @@ function output_tune_line($tune_id, $tune_book, $tune_no, $tune_name, $meter, $a
 function output_tune_table_end() {
 ?>
 </table>
+</div>
 <?php
 }
 

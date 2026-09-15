@@ -23,7 +23,7 @@ include $root.'tpl/top.php';
   <th>Description</th>
   <th>Completion Date</th>
 </tr>
-<?
+<?php
 $sql = "SELECT release_no, task_id, description, completion_date ".
        "FROM mse_release_history ".
        "ORDER BY 4 DESC, 1 DESC, 2";
@@ -36,16 +36,16 @@ while ($row = mysqli_fetch_array($ssql)) {
   }
 ?>
 <tr>
-  <td><b><? echo ($prev_release_no != $release_no) ? $release_no: "&nbsp;"; ?></b></td>
-  <td><? echo $task_id; ?></td>
-  <td><? echo $description; ?></td>
-  <td><? echo $completion_date; ?></td>
+  <td><b><?php echo ($prev_release_no != $release_no) ? $release_no: "&nbsp;"; ?></b></td>
+  <td><?php echo $task_id; ?></td>
+  <td><?php echo $description; ?></td>
+  <td><?php echo $completion_date; ?></td>
 </tr>
-<?
+<?php
   $prev_release_no = $release_no;
 }
 ?>
 </table>
-<?
+<?php
 include $root.'tpl/bot.php';
 ?>

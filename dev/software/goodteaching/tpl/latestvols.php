@@ -20,7 +20,7 @@
   <th>Title</th>
   <th>Added</th>
 </tr>
-<?
+<?php
   $ssql = "SELECT author, vol, title, added ".
           "FROM mse_volume ".
           "ORDER BY added DESC ".
@@ -32,12 +32,12 @@
     }
 ?>
 <tr>
-  <td><? echo $author; ?></td>
-  <td><? echo $vol; ?></td>
-  <td><? echo (empty($title)) ? "&nbsp;" : $title; ?></td>
-  <td><? echo $added; ?></td>
+  <td><?php echo $author; ?></td>
+  <td><?php echo $vol; ?></td>
+  <td><?php echo (empty($title)) ? "&nbsp;" : $title; ?></td>
+  <td><?php echo $added; ?></td>
 </tr>
-<?    
+<?php    
   }
 ?>
 </table>

@@ -1,4 +1,4 @@
-<?
+<?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
  * Copyright (c) 2007 frontburner.co.uk
@@ -22,6 +22,6 @@ include $root.'tpl/top.php';
 <tr><td align=center>help</td></tr>
 </table>
 
-<?
+<?php
 include $root.'tpl/bot.php';
 ?>

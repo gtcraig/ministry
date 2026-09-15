@@ -1,4 +1,4 @@
-<?
+<?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
  * Copyright (c) 2007 frontburner.co.uk

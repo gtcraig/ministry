@@ -81,7 +81,7 @@ if ($sqlFactory->isSearch()) {
   if ($rowCount > $maxRows) {
     $sqlFactory->setLimit($maxRows, $pageNo);
 ?>
-<table align=center border=0 cellpadding=4 cellspacing=0><tr><td class="pageannot">Pages</td>
+<table align=center border=0 cellpadding=4 cellspacing=0 id="searchPaginationTable"><tr><td class="pageannot">Pages</td>
 <?php
     $j            = 0;
     $maxPages     = 7;
@@ -122,7 +122,7 @@ if ($sqlFactory->isSearch()) {
 }
 ?>
 
-<table border=0 cellpadding=3 cellspacing=0 width="100%">
+<table border=0 cellpadding=3 cellspacing=0 width="100%" id="searchResultsTable">
   <tr>
     <th class="rh" width="50">Servant<br>Vol</th>
     <th class="rh" width="40">Page</th>

@@ -330,12 +330,28 @@ while (count($snippets) < 3) {
 .gt-device-table a { color: var(--navy-light); font-weight: 500; }
 .gt-device-table a:hover { color: var(--gold); }
 
+/* ── Device table: horizontal scroll on narrow screens ── */
+.gt-table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 /* ── Responsive ── */
 @media (max-width: 750px) {
-  .gt-home         { grid-template-columns: 1fr; }
+  .gt-home         { grid-template-columns: minmax(0, 1fr); }
+  .gt-cards        { min-width: 0; }
+  .gt-sidebar      { min-width: 0; }
+  .gt-device-section { min-width: 0; }
   .gt-ebook-banner { flex-direction: column; text-align: center; }
-  .gt-device-table { font-size: 9pt; }
+  .gt-device-table { font-size: 9pt; min-width: 620px; }
   .gt-device-table td, .gt-device-table th { padding: 7px 8px; }
+}
+
+@media (max-width: 480px) {
+  .gt-card          { padding: 16px 18px; }
+  .gt-ebook-banner  { padding: 18px 20px; }
+  .gt-widget-link   { padding: 12px 16px; }
 }
 </style>
 
@@ -436,6 +452,7 @@ while (count($snippets) < 3) {
   <!-- ── Device compatibility table ── -->
   <div class="gt-device-section">
     <div class="gt-device-section-title">How to Access the Ministry</div>
+    <div class="gt-table-scroll">
     <table class="gt-device-table">
       <tr>
         <th colspan="2">Task / Device</th>
@@ -472,6 +489,7 @@ while (count($snippets) < 3) {
         <td><a href="<?php echo $root; ?>ebook/">eBooks</a></td>
       </tr>
     </table>
+    </div>
   </div>
 
 </div>

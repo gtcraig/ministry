@@ -184,8 +184,33 @@ function remove_mselinks($text) {
 .bible-info-body a:hover { color: var(--gold); }
 
 @media (max-width: 750px) {
-  .bible-wrap       { grid-template-columns: 1fr; }
-  .bible-result-row { grid-template-columns: 1fr 1fr; }
+  .bible-wrap    { grid-template-columns: minmax(0, 1fr); }
+  .bible-sidebar { min-width: 0; }
+
+  /* Result rows: stack as a citation line + text, instead of a squeezed 2-col grid */
+  .bible-result-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    row-gap: 2px;
+    column-gap: 0;
+    padding: 12px 16px;
+  }
+  .bible-result-row.bible-result-header { display: none; }
+
+  .bible-result-book   { order: 1; font-weight: 600; margin-right: 5px; }
+  .bible-result-chap   { order: 2; }
+  .bible-result-verse  { order: 3; }
+  .bible-result-verse::before { content: ":"; }
+  .bible-result-sym    { order: 4; font-size: 9pt; margin-left: 5px; }
+  .bible-result-sym::before   { content: "("; }
+  .bible-result-sym::after    { content: ")"; }
+  .bible-result-text   { order: 5; flex-basis: 100%; margin-top: 4px; }
+}
+
+@media (max-width: 480px) {
+  .bible-search-row { flex-wrap: wrap; }
+  .bible-search-row input[type="submit"] { width: 100%; }
 }
 </style>
 

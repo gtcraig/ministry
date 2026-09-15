@@ -1,4 +1,4 @@
-<?
+<?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
  * Copyright (c) 2007,2020 frontburner.co.uk
@@ -48,13 +48,13 @@ if(!$memberid){
       Msg::question("Would you like a new password emailed to $email_address");
     ?>
       <form name=frmConfirm action="forgot.php" method="post">
-        <input type=hidden name="memberid" value="<? echo $memberid; ?>">
+        <input type=hidden name="memberid" value="<?php echo $memberid; ?>">
         <input type=hidden name="confirm" value="1">
-    <?
+    <?php
         echo "<center><a href=\"javascript:frmConfirm.submit();\">Yes</a> | <a href=javascript:history.back()>No</a>";
     ?>
       </form>
-    <?
+    <?php
     } else {
       // Convert password to md5 hash
       $new_pwd = strtolower(substr(md5(time()),0,8));

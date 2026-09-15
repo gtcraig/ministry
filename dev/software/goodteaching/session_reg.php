@@ -1,4 +1,4 @@
-<?
+<?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
  * Copyright (c) 2007,2020 frontburner.co.uk
@@ -27,4 +27,4 @@ mysqli_query($dbConn, "UPDATE member SET last_login=now() WHERE memberid='$membe
 
 ?>
 <script language="javascript">top.location.href="index.php";</script>
-<?
+<?php

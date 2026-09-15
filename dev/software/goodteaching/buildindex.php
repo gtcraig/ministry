@@ -33,11 +33,11 @@ if (empty($title)) {
 }
 
 ?><head>
-  <title><? echo $title;?></title>
+  <title><?php echo $title;?></title>
 </head>
 
-<body topmargin=2 leftmargin=0 id="<? echo $pageName;?>">
-<?
+<body topmargin=2 leftmargin=0 id="<?php echo $pageName;?>">
+<?php
 
 function f_open_table() {
 ?>
@@ -49,7 +49,7 @@ function f_open_table() {
   <th>Title</th>
   <th>Scriptures</th>
 </tr>
-<?
+<?php
 }
 
 function f_close_table() {
@@ -96,7 +96,7 @@ while ($row = mysqli_fetch_array($ssql)) {
   <td><?= $article ?></td>
   <td><?= str_replace("@", "", $scriptures) ?></td>
 </tr>
-<?
+<?php
   $prevbookid = $bookid;
   $prevchap = $chapter;
 }

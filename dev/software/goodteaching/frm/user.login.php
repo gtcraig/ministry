@@ -1,4 +1,4 @@
-<?
+<?php
 /* * * * * * * * * * * * * * * * * * * * * * * *
  * Good Teaching Search Engine
  * Copyright (c) 2007,2020 frontburner.co.uk
@@ -27,7 +27,7 @@ if ($retry == NULL && !isset($_REQUEST['logmeout'])) {
   <table border="0" align="center" cellpadding="0" cellspacing="8">
     <tr>
       <td class="fld">Username</td>
-      <td colspan=2><input name="memberid" type="text" id="memberid" value="<? echo $memberid; ?>"></td>
+      <td colspan=2><input name="memberid" type="text" id="memberid" value="<?php echo $memberid; ?>"></td>
     </tr>
     <tr>
       <td class="fld">Password</td>

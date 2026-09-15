@@ -29,7 +29,7 @@ $connection = mysqli_connect('127.0.0.1', 'gt_support', 'psalm45', 'gt_support')
   <th>Title</th>
   <th>Mistake Detail</th>
 </tr>
-<?
+<?php
 
 $sql = "SELECT " .
        "  t.ticket_id, " .
@@ -52,16 +52,16 @@ $ssql = mysqli_query($connection, $sql) or die(mysqli_error());
 while ($row = mysqli_fetch_array($ssql, MYSQLI_ASSOC)) {
 ?>
 <tr>
-  <td><a href="https://support.goodteaching.org/scp/tickets.php?id=<?=$row["ticket_id"]?>"><? echo $row["number"]; ?></a></td>
+  <td><a href="https://support.goodteaching.org/scp/tickets.php?id=<?=$row["ticket_id"]?>"><?php echo $row["number"]; ?></a></td>
   <td><?=$row["created"]?></td>
   <td><?=$row["status"]?></td>
   <td><?=empty($row["title"]) ? "&nbsp;": $row["title"] ?></td>
   <td><?=empty($row["body"]) ? "&nbsp;": $row["body"] ?></td>
 </tr>
-<?
+<?php
 }
 ?>
 </table>
-<?
+<?php
 include $root.'tpl/bot.php';
 ?>

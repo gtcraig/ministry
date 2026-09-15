@@ -27,7 +27,7 @@ $tuneSql = "SELECT t.tune_name, t.tune_url, ".
 $res = mysqli_query($dbConn, $tuneSql) or die("<h1>Query failed</h1><pre>$tuneSql</pre>");
 if ($row = mysqli_fetch_assoc($res)) {
 ?>
-	<html><head><title><? echo $row["tune_book_name"] . " " . $row["tune_no"] . " &mdash; &ldquo;" . $row["tune_name"] .  "&rdquo;";?></title>
+	<html><head><title><?php echo $row["tune_book_name"] . " " . $row["tune_no"] . " &mdash; &ldquo;" . $row["tune_name"] .  "&rdquo;";?></title>
 	<style>
 	  body {
       background-color: black;
@@ -41,7 +41,7 @@ if ($row = mysqli_fetch_assoc($res)) {
 	</style>
 	</head>
 	<body>
-<?
+<?php
   echo "<h2>" . $row["tune_book_name"] . " " . $row["tune_no"] . " &mdash; &ldquo;" . $row["tune_name"] .  "&rdquo;</h2>";
   echo "<h3>" . $row["meter"];
   if (!empty($row["rhythm"])) echo " <i>" . $row["rhythm"] ."</i>";
@@ -53,5 +53,5 @@ if ($row = mysqli_fetch_assoc($res)) {
 ?>
 	</body>
 	</html>
-<?
+<?php
 

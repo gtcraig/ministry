@@ -34,8 +34,9 @@ $cfg['Site']['Db']['Database'] = "goodteaching_org_min";
 if (strpos(strtolower($_SERVER['SERVER_NAME']), "localhost") !== FALSE) {
   $cfg['Site']['URL'] = "http://localhost:8080/ministry/dev/software/goodteaching";
   $cfg['Site']['Status'] = "Development";
+  $cfg['Site']['Db']['Hostname'] = "127.0.0.1";
   $cfg['Site']['Db']['Username'] = "root";
-  $cfg['Site']['Db']['Password'] = "";
+  $cfg['Site']['Db']['Password'] = "root";
 }
 else if (strpos(strtolower($_SERVER['SERVER_NAME']), "sharksaw") !== FALSE) {
   $cfg['Site']['URL'] = "http://sharksaw/gt";

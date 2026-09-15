@@ -51,8 +51,25 @@ $_SESSION['search_min_keywords'] = $keywords;
 $_SESSION['search_min_type']     = $searchType;
 ?>
 
+<style>
+@media (max-width: 600px) {
+  #keywordSearchTable, #keywordSearchTable tbody,
+  #keywordSearchTable tr, #keywordSearchTable td {
+    display: block;
+    width: auto !important;
+  }
+  #keywordSearchTable td { padding: 6px 0; }
+  #keywordSearchTable input[name="keywords"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #keywordSearchTable input[name="keywords"] + input[type="hidden"] { display: none; }
+  #searchType ul { display: flex; flex-wrap: wrap; gap: 6px 18px; list-style: none; padding-left: 0; margin: 0; }
+}
+</style>
+
 <form action="keyword.php" method="post" name="searchText" id="searchText">
-<table border=0 cellpadding=10>
+<table border=0 cellpadding=10 id="keywordSearchTable">
 <tr><td align=left colspan=3>
 <?php
   $q = "Type one or more keywords";

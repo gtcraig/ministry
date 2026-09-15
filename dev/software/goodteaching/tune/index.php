@@ -129,7 +129,8 @@ $language  = NULL;  if (!empty($_GET['language']))  $language  = $_GET['language
 }
 
 @media (max-width: 900px) {
-  .tune-wrap { grid-template-columns: 1fr; }
+  .tune-wrap  { grid-template-columns: minmax(0, 1fr); }
+  .tune-panel { min-width: 0; }
 }
 </style>
 
