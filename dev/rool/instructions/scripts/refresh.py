@@ -171,9 +171,9 @@ def main():
 
     if failed:
         optional = [f for f in failed if f[0] in (d for _, d in FILES)]
-        for rel, _ in optional:
-            print(f"  note: {rel} is not on this branch yet; the data is installed "
-                  f"but that tool must be copied by hand")
+        for rel, err in optional:
+            print(f"  note: {rel} could not be fetched ({err}); the data is "
+                  f"installed but that tool must be copied by hand")
         failed = [f for f in failed if f not in optional]
     if failed:
         print(f"{len(failed)} file(s) could not be downloaded:")
@@ -185,12 +185,12 @@ def main():
 
 
 def source_path(rel):
+    for src, d in FILES:          # exact files first: bible/expand.py is not
+        if d == rel:              # dev/text/bible/expand.py
+            return src
     for prefix, folder in DIRS:
         if rel.startswith(folder + "/"):
             return prefix + "/" + rel[len(folder) + 1:]
-    for src, d in FILES:
-        if d == rel:
-            return src
     raise KeyError(rel)
 
 
