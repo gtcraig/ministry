@@ -67,11 +67,11 @@ root, from `rool/instructions`, or from anywhere else.
 
 ## What to expect
 
-Across the 386 ministry files there are 8,197 `@` citation lines. Of these
-**8,185 resolve**, producing roughly 172,000 verses. The twelve that do not are
+Across the 380 ministry files there are 8,667 `@` citation lines. Of these
+**8,627 resolve**, producing 156,097 verses in the KJV. The forty that do not are
 either prose that happens to begin with `@` or genuine misprints (for example
 `@2 Cor 2:20-22`, where 2 Corinthians has thirteen chapters and no verses 20–22
-in chapter 2). Those twelve should be reported with their article file, never
+in chapter 2). Those forty should be reported with their article file, never
 silently dropped.
 
 ## Notes on use

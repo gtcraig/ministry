@@ -9,14 +9,14 @@ tool that resolves the hymn references scattered through the ministry text.
 |---|---|
 | `text/hymns/hymns.json` | the hymn tables, as exported from the ministry database |
 | `text/hymns/Hymns Index.md` | readable index: number, first line, author, metre, categories |
+| `rool/instructions/scripts/hymns.py` | lookup and search, stdlib only |
 
 In this repository they sit under `text/hymns/`; on a Rool drive they sit under
 `hymns/`. The script searches for both, so either layout works.
-| `rool/instructions/scripts/hymns.py` | lookup and search, stdlib only |
 
 ## Shape of `hymns.json`
 
-It is a phpMyAdmin export: an array of 15 tables, each `{"type":"table","name":…,"data":[…]}`.
+It is a phpMyAdmin export: an array of 13 tables, each `{"type":"table","name":…,"data":[…]}`.
 The useful ones:
 
 | Table | Rows | Fields |
@@ -46,7 +46,7 @@ the couplet quoted from it:
 ```
 
 The number is `hymn_no`; the verse is `vers_no`. There are 512 such references
-across the 386 ministry files. **505 resolve.** The seven that do not point at
+across the 380 ministry files. **505 resolve.** The seven that do not point at
 hymn numbers above 456 — 464, 474, 475, 479, 487 — which are outside this
 collection. Say so; do not guess at their text.
 
