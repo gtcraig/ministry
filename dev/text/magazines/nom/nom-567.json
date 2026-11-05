@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -26,96 +26,115 @@
    "place": "Kirkcaldy",
    "date": "9 March 2019",
    "speakers": [
-    "T.W.L.",
-    "A.W.",
-    "R.G.",
-    "J.L.",
-    "A.B.",
-    "G.B.G.",
-    "T.R.C.",
-    "P.A.G.",
-    "R.T.",
-    "J.W.",
-    "D.C.B.",
-    "J.A.B.",
-    "N.J.H.",
-    "G.A.B.",
-    "A.M.B.",
-    "W.M.P.",
-    "J.S.S."
+    "TWL",
+    "AW",
+    "RG",
+    "JL",
+    "AB",
+    "GBG",
+    "TRC",
+    "NCMcK",
+    "PAG",
+    "RT",
+    "JW",
+    "DCB",
+    "JAB",
+    "NJH",
+    "GAB",
+    "AMB",
+    "WMP",
+    "JSS"
    ],
    "initials": [
     {
-     "initials": "AMBAMBG",
-     "name": "A.M.B. Alistair .M Brown Grangemouth"
+     "initials": "AMB",
+     "name": "Alistair .M Brown",
+     "place": "Grangemouth"
     },
     {
-     "initials": "DCBDCBE",
-     "name": "D.C.B. David C Brown Edinburgh"
+     "initials": "DCB",
+     "name": "David C Brown",
+     "place": "Edinburgh"
     },
     {
-     "initials": "GABGABG",
-     "name": "G.A.B. G Allan Brown Grangemouth"
+     "initials": "GAB",
+     "name": "G Allan Brown",
+     "place": "Grangemouth"
     },
     {
-     "initials": "JABJABG",
-     "name": "J.A.B. John A Brown Grangemouth"
+     "initials": "JAB",
+     "name": "John A Brown",
+     "place": "Grangemouth"
     },
     {
-     "initials": "ABABK",
-     "name": "A.B. Adrian Buchan Kirkcaldy"
+     "initials": "AB",
+     "name": "Adrian Buchan",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "TRCTRCG",
-     "name": "T.R.C. Trevor R Campbell Glasgow"
+     "initials": "TRC",
+     "name": "Trevor R Campbell",
+     "place": "Glasgow"
     },
     {
-     "initials": "RGRGK",
-     "name": "R.G. Robert Gardiner Kirkcaldy"
+     "initials": "RG",
+     "name": "Robert Gardiner",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "GBGGBGD",
-     "name": "G.B.G. G Bruce Grant Dundee"
+     "initials": "GBG",
+     "name": "G Bruce Grant",
+     "place": "Dundee"
     },
     {
-     "initials": "PAGPAGG",
-     "name": "P.A.G. Paul A Gray Grangemouth"
+     "initials": "PAG",
+     "name": "Paul A Gray",
+     "place": "Grangemouth"
     },
     {
-     "initials": "NJHNJHG",
-     "name": "N.J.H. Norman J Henry Glasgow"
+     "initials": "NJH",
+     "name": "Norman J Henry",
+     "place": "Glasgow"
     },
     {
-     "initials": "JLJLB",
-     "name": "J.L. John Laurie Brechin"
+     "initials": "JL",
+     "name": "John Laurie",
+     "place": "Brechin"
     },
     {
-     "initials": "TWLTWLE",
-     "name": "T.W.L. Terry W Lock Edinburgh"
+     "initials": "TWL",
+     "name": "Terry W Lock",
+     "place": "Edinburgh"
     },
     {
-     "initials": "NCMNCMG",
-     "name": "N.C.McK. Neil C MacKay Glasgow"
+     "initials": "NCMcK",
+     "name": "Neil C MacKay",
+     "place": "Glasgow"
     },
     {
-     "initials": "WMPWMPG",
-     "name": "W.M.P. Walter M Patterson Glasgow"
+     "initials": "WMP",
+     "name": "Walter M Patterson",
+     "place": "Glasgow"
     },
     {
-     "initials": "JSSJSSG",
-     "name": "J.S.S. John S Speirs Grangemouth"
+     "initials": "JSS",
+     "name": "John S Speirs",
+     "place": "Grangemouth"
     },
     {
-     "initials": "RTRTK",
-     "name": "R.T. Robert Taylor Kirkcaldy"
+     "initials": "RT",
+     "name": "Robert Taylor",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "JWJWF",
-     "name": "J.W. James Webster Fraserburgh"
+     "initials": "JW",
+     "name": "James Webster",
+     "place": "Fraserburgh"
     },
     {
-     "initials": "AWAWK",
-     "name": "A.W. Allan Wilson Kirkcaldy"
+     "initials": "AW",
+     "name": "Allan Wilson",
+     "place": "Kirkcaldy"
     }
    ],
    "initials_heading": "KEY TO INITIALS",
@@ -141,373 +160,552 @@
    ],
    "paragraphs": [
     {
-     "speaker": "T.W.L.",
-     "text": "I was wondering whether we might get help in relation to this scripture in Isaiah; “For he shall grow up before him as a tender sapling, and as a root out of dry ground”. What Isaiah writes after that is what was seen amongst men, the Man who was despised amongst men. “For he shall grow up … as a tender sapling” was primarily what God saw in Christ here – and He saw every feature of that perfect life. Jesus had grown up before Him as a tender sapling, and as a root out of dry ground. Luke’s gospel, particularly, presents the humanity of Jesus in all the moral characteristics that were so pleasing to God. Luke writes of “the holy thing” (Luke 1:35); that is the root out of dry ground. Never before could that have been said of any man but Jesus, because of His uniqueness, but then it says that He “waxed strong in spirit”, Luke 2:40. Even in the years of His infancy and then at the age of twelve, there was in Christ what was according to His God and what was entirely pleasing to Him."
+     "speaker": "TWL",
+     "text": [
+      "I was wondering whether we might get help in relation to this scripture in Isaiah; “For he shall grow up before him as a tender sapling, and as a root out of dry ground”. What Isaiah writes after that is what was seen amongst men, the Man who was despised amongst men. “For he shall grow up … as a tender sapling” was primarily what God saw in Christ here – and He saw every feature of that perfect life. Jesus had grown up before Him as a tender sapling, and as a root out of dry ground. Luke’s gospel, particularly, presents the humanity of Jesus in all the moral characteristics that were so pleasing to God. Luke writes of “the holy thing” (Luke 1:35); that is the root out of dry ground. Never before could that have been said of any man but Jesus, because of His uniqueness, but then it says that He “waxed strong in spirit”, Luke 2:40. Even in the years of His infancy and then at the age of twelve, there was in Christ what was according to His God and what was entirely pleasing to Him.",
+      "In Luke’s gospel we have what He was at twelve years old and it is a remarkable thing that Jesus was there in the temple, taking up His responsibilities and going forward according to His commission, according to what His work was to be as a Man here for God. But what shines in Him there was that although He was going on in His commitment to His Father’s business, He was in subjection to His parents. How pleasing it was to the eye of His Father to see Jesus, even as a Boy, in subjection to His parents. And then we come to the time when He came up out of the Jordan. What a moment that was! This is the only gospel where it refers to Jesus coming up from the Jordan “and praying”. You see the dependence of Christ there before the eye of His Father; how pleasing it was for the Father to see One entirely committed. Then He was led by the Spirit in the wilderness. It does not say in this gospel as it does in others that He was driven, or that He was carried; He was “led by the Spirit in the wilderness”. Being “led by the Spirit” again is subjection seen in Christ. He was not led by the Spirit into the wilderness; He was led by the Spirit as being in the wilderness, which was characteristically true of Him, a Man moving by the Spirit for His God. And then we see the Man of grace; they “wondered at the words of grace which were coming out of his mouth”. What features there were in Christ when making known the heart of His God, a Man speaking these words of grace, and “all bore witness to him, and wondered at the words of grace which were coming out of his mouth”.",
+      "Lastly, when He was on the cross, He said, “Father, into thy hands I commit my spirit”. We see the Man of faith there. He was showing what the scripture said, “For thou wilt not leave my soul to Sheol, neither wilt thou allow thy Holy One to see corruption”, Ps.16:10. He committed His spirit into the hands of His Father. What an act of faith; the Leader and Completer of faith (Heb.12:2) was there, knowing that the Father would raise Him out of death. It speaks in Hebrews about “him who was able to save him out of death, with strong crying and tears; (and having been heard because of his piety;)”, chap.5:7. That was the dependent Man acting in faith."
+     ]
     },
     {
-     "text": "In Luke’s gospel we have what He was at twelve years old and it is a remarkable thing that Jesus was there in the temple, taking up His responsibilities and going forward according to His commission, according to what His work was to be as a Man here for God. But what shines in Him there was that although He was going on in His commitment to His Father’s business, He was in subjection to His parents. How pleasing it was to the eye of His Father to see Jesus, even as a Boy, in subjection to His parents. And then we come to the time when He came up out of the Jordan. What a moment that was! This is the only gospel where it refers to Jesus coming up from the Jordan “and praying”. You see the dependence of Christ there before the eye of His Father; how pleasing it was for the Father to see One entirely committed. Then He was led by the Spirit in the wilderness. It does not say in this gospel as it does in others that He was driven, or that He was carried; He was “led by the Spirit in the wilderness”. Being “led by the Spirit” again is subjection seen in Christ. He was not led by the Spirit into the wilderness; He was led by the Spirit as being in the wilderness, which was characteristically true of Him, a Man moving by the Spirit for His God. And then we see the Man of grace; they “wondered at the words of grace which were coming out of his mouth”. What features there were in Christ when making known the heart of His God, a Man speaking these words of grace, and “all bore witness to him, and wondered at the words of grace which were coming out of his mouth”."
+     "speaker": "AW",
+     "text": [
+      "He is the One who we need to keep our eyes fixed on. There was nothing in this world that the Lord Jesus used as a resource. It was dry ground."
+     ]
     },
     {
-     "text": "Lastly, when He was on the cross, He said, “Father, into thy hands I commit my spirit”. We see the Man of faith there. He was showing what the scripture said, “For thou wilt not leave my soul to Sheol, neither wilt thou allow thy Holy One to see corruption”, Ps.16:10. He committed His spirit into the hands of His Father. What an act of faith; the Leader and Completer of faith (Heb.12:2) was there, knowing that the Father would raise Him out of death. It speaks in Hebrews about “him who was able to save him out of death, with strong crying and tears; (and having been heard because of his piety;)”, chap.5:7. That was the dependent Man acting in faith."
+     "speaker": "TWL",
+     "text": [
+      "If there is going to be anything for God in us, the features that we see in Christ must be formed in us. There were persons in both the Old and New Testaments who took on features of the humanity of Jesus, that were so pleasing to God. In what He was as a root out of dry ground, He drew nothing from this scene, but came into it to grow up before His God. That is the “holy thing”."
+     ]
     },
     {
-     "speaker": "A.W.",
-     "text": "He is the One who we need to keep our eyes fixed on. There was nothing in this world that the Lord Jesus used as a resource. It was dry ground."
+     "speaker": "AW",
+     "text": [
+      "In our own lives, we can be so dependent on the world, but here was someone who was dependent on His Father. He was very conscious even from His early years that He drew from that fresh and new resource."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "If there is going to be anything for God in us, the features that we see in Christ must be formed in us. There were persons in both the Old and New Testaments who took on features of the humanity of Jesus, that were so pleasing to God. In what He was as a root out of dry ground, He drew nothing from this scene, but came into it to grow up before His God. That is the “holy thing”."
+     "speaker": "TWL",
+     "text": [
+      "Yes. Christ was a Man with a different origin, different motives, and different objects."
+     ]
     },
     {
-     "speaker": "A.W.",
-     "text": "In our own lives, we can be so dependent on the world, but here was someone who was dependent on His Father. He was very conscious even from His early years that He drew from that fresh and new resource."
+     "speaker": "RG",
+     "text": [
+      "It says “Things which eye has not seen, and ear not heard, and which have not come into man’s heart, which God has prepared for them that love him”, 1 Cor.2:9. Here is the Man who loved God beyond all others, and there are things that God has prepared for Him. But how marvellous to think that God has also prepared things for those that love Him, so that there should be a representation in believers of Christ Himself in this weary world."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes. Christ was a Man with a different origin, different motives, and different objects."
+     "speaker": "TWL",
+     "text": [
+      "Yes. If we look at Christ objectively without it having any formative effect in us, there is little for God in that, but there are to be persons changed because they see this wonderful Man in all that He is for His Father. To see that blessed humanity of Christ, in all that it is for God, should be formative in us, so that God would see it in us as well."
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "It says “Things which eye has not seen, and ear not heard, and which have not come into man’s heart, which God has prepared for them that love him”, 1 Cor.2:9. Here is the Man who loved God beyond all others, and there are things that God has prepared for Him. But how marvellous to think that God has also prepared things for those that love Him, so that there should be a representation in believers of Christ Himself in this weary world."
+     "speaker": "AW",
+     "text": [
+      "Does His mother Mary set out something of these things – she pondered these things in her heart (Luke 2:19). That is true affection. She saw the glories of the Person, and pondered them in her heart."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes. If we look at Christ objectively without it having any formative effect in us, there is little for God in that, but there are to be persons changed because they see this wonderful Man in all that He is for His Father. To see that blessed humanity of Christ, in all that it is for God, should be formative in us, so that God would see it in us as well."
+     "speaker": "TWL",
+     "text": [
+      "She was pondering the Person, but was she pondering the great works of God too? She was pondering how God was moving. Luke refers to the angel and the heavenly host saying, “Glory to God in the highest, and on earth peace, good pleasure in men”, Luke 2:14. All of this was coming into display for those who were close enough to see what God was doing through this blessed Man."
+     ]
     },
     {
-     "speaker": "A.W.",
-     "text": "Does His mother Mary set out something of these things – she pondered these things in her heart (Luke 2:19). That is true affection. She saw the glories of the Person, and pondered them in her heart."
+     "speaker": "JL",
+     "text": [
+      "Would it be right to say that the Lord neither derived anything from this world nor contributed anything to this world? He was not here to advance things in the world. His whole life was for God and delightful to God and in view of God’s interest in securing men according to a new order expressed in Himself."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "She was pondering the Person, but was she pondering the great works of God too? She was pondering how God was moving. Luke refers to the angel and the heavenly host saying, “Glory to God in the highest, and on earth peace, good pleasure in men”, Luke 2:14. All of this was coming into display for those who were close enough to see what God was doing through this blessed Man."
+     "speaker": "TWL",
+     "text": [
+      "Exactly. He did not come here to improve anything. We often hear that Christians should improve the world, but we have no basis on which to improve anything in the world. The world is condemned, it is incorrigible and cannot be improved upon; the truth of that is seen in what it did to Christ. But Christ was here, securing men for God out of that world. That was His commission, to secure persons in accord with Himself, persons formed like Himself."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Would it be right to say that the Lord neither derived anything from this world nor contributed anything to this world? He was not here to advance things in the world. His whole life was for God and delightful to God and in view of God’s interest in securing men according to a new order expressed in Himself."
+     "speaker": "AB",
+     "text": [
+      "The Lord says that “the ruler of the world comes, and in me he has nothing”, John 14:30. It underlines what you are saying, that the Lord Jesus derived nothing whatsoever from this world."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Exactly. He did not come here to improve anything. We often hear that Christians should improve the world, but we have no basis on which to improve anything in the world. The world is condemned, it is incorrigible and cannot be improved upon; the truth of that is seen in what it did to Christ. But Christ was here, securing men for God out of that world. That was His commission, to secure persons in accord with Himself, persons formed like Himself."
+     "speaker": "TWL",
+     "text": [
+      "Yes. Luke opens it up in relation to Him, “the holy thing also which shall be born shall be called Son of God”, Luke 1:35. Moses was called a friend of God (Exod.33:11), and Jesus said of John the baptist that a greater prophet had not been born of woman (Luke 7:28), but even of those persons it could not be said, “the holy thing also which shall be born”. Jesus was unique in this scene, because everything in this scene is marred by sin, and yet there was here in that Babe what was absolutely in accord with what God is in Himself, in His intrinsic holiness."
+     ]
     },
     {
-     "speaker": "A.B.",
-     "text": "The Lord says that “the ruler of the world comes, and in me he has nothing”, John 14:30. It underlines what you are saying, that the Lord Jesus derived nothing whatsoever from this world."
+     "speaker": "GBG",
+     "text": [
+      "“For he shall grow up before him as a tender sapling”; God was His object but then think of the Father watching Him grow up. He must have had great pleasure in watching the Lord Jesus grow up and the features that marked Him."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes. Luke opens it up in relation to Him, “the holy thing also which shall be born shall be called Son of God”, Luke 1:35. Moses was called a friend of God (Exod.33:11), and Jesus said of John the baptist that a greater prophet had not been born of woman (Luke 7:28), but even of those persons it could not be said, “the holy thing also which shall be born”. Jesus was unique in this scene, because everything in this scene is marred by sin, and yet there was here in that Babe what was absolutely in accord with what God is in Himself, in His intrinsic holiness."
+     "speaker": "TWL",
+     "text": [
+      "Yes, what a thing it was that the Father saw Him grow up. It says that “the child grew and waxed strong in spirit” (Luke 2:40); that was for God. It was not just what He was amongst men, but it was what He was for God. The Father saw that. You could understand, when it came to the time at the Jordan, why the heavens were opened. For the thirty years previous to this, the Father had watched this Child grow, His humanity always in relation to His God."
+     ]
     },
     {
-     "speaker": "G.B.G.",
-     "text": "“For he shall grow up before him as a tender sapling”; God was His object but then think of the Father watching Him grow up. He must have had great pleasure in watching the Lord Jesus grow up and the features that marked Him."
+     "speaker": "GBG",
+     "text": [
+      "God always had Him in mind; “thou spakest in vision of thy Holy One”, Ps.89:19. Others came along, but He always had Christ in mind."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes, what a thing it was that the Father saw Him grow up. It says that “the child grew and waxed strong in spirit” (Luke 2:40); that was for God. It was not just what He was amongst men, but it was what He was for God. The Father saw that. You could understand, when it came to the time at the Jordan, why the heavens were opened. For the thirty years previous to this, the Father had watched this Child grow, His humanity always in relation to His God."
+     "speaker": "TWL",
+     "text": [
+      "Yes. We need to be careful for we are on holy ground, but what a thing it was for the heart of the Father to see Christ growing up from a Babe to a Boy to a Man, and carrying forward all these features pleasing to His Father as He grew. “And the child grew and waxed strong in spirit, filled with wisdom, and God’s grace was upon him”; that had not been seen before."
+     ]
     },
     {
-     "speaker": "G.B.G.",
-     "text": "God always had Him in mind; “thou spakest in vision of thy Holy One”, Ps.89:19. Others came along, but He always had Christ in mind."
+     "speaker": "TRC",
+     "text": [
+      "Do we see that in type with Jacob in the way that he watched Joseph grow up? He loved Joseph, and he made him a vest of many colours (Gen.37:3). Would that fit in with your thought that these glories were what the Father saw; these colours in all their brilliance shone in type for the Father’s eye?"
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes. We need to be careful for we are on holy ground, but what a thing it was for the heart of the Father to see Christ growing up from a Babe to a Boy to a Man, and carrying forward all these features pleasing to His Father as He grew. “And the child grew and waxed strong in spirit, filled with wisdom, and God’s grace was upon him”; that had not been seen before."
+     "speaker": "TWL",
+     "text": [
+      "Yes. You have in type in that scripture the things that God saw in His Man, things that we can take account of. God has a reason for His pleasure in Jesus. How glorious it is that He allows us to see something of what He sees in the moral worth of Christ. How pleasing Christ was to the Father."
+     ]
     },
     {
-     "speaker": "T.R.C.",
-     "text": "Do we see that in type with Jacob in the way that he watched Joseph grow up? He loved Joseph, and he made him a vest of many colours (Gen.37:3). Would that fit in with your thought that these glories were what the Father saw; these colours in all their brilliance shone in type for the Father’s eye?"
+     "speaker": "NCMcK",
+     "text": [
+      "I know it has been said often that He did not derive anything morally from His parents; He derived nothing at all from anything here."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes. You have in type in that scripture the things that God saw in His Man, things that we can take account of. God has a reason for His pleasure in Jesus. How glorious it is that He allows us to see something of what He sees in the moral worth of Christ. How pleasing Christ was to the Father."
+     "speaker": "TWL",
+     "text": [
+      "Exactly, He did not derive anything morally from His parents, but does that not make it all the more wonderful that He said, “did ye not know that I ought to be occupied in my Father’s business”, Luke 2:49? They did not understand, but then it says, “he was in subjection to them”, (v.51). Now you would say that would be normal for a child, but this One was moving in relation to His heavenly Father as being subject to His earthly parents. What subjection was seen perfectly in Jesus in the circumstances in which God had placed Him, moving in perfect subjection to His heavenly Father in the reality of His manhood."
+     ]
     },
     {
-     "text": "N.C.McK. I know it has been said often that He did not derive anything morally from His parents; He derived nothing at all from anything here."
+     "speaker": "PAG",
+     "text": [
+      "I wondered if you would say more about what this thought of a “tender sapling” would convey."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Exactly, He did not derive anything morally from His parents, but does that not make it all the more wonderful that He said, “did ye not know that I ought to be occupied in my Father’s business”, Luke 2:49? They did not understand, but then it says, “he was in subjection to them”, (v.51). Now you would say that would be normal for a child, but this One was moving in relation to His heavenly Father as being subject to His earthly parents. What subjection was seen perfectly in Jesus in the circumstances in which God had placed Him, moving in perfect subjection to His heavenly Father in the reality of His manhood."
+     "speaker": "TWL",
+     "text": [
+      "Pardon my use of the analogy, but it is not like an old tree which is gnarled and the bark is thick, and it is able to withstand storms, but growing up “before him as a tender sapling” is Christ in all His tenderness as under the eye of the Father, under the care of the Father. Christ moved here knowing the reality of what it was to be cared for by His Father and moving as not in any way tarnished or harmed by the scene in which He was. Rather He was moving according to the affections of His Father for Him, and His for the Father. Is that how you understand it?"
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "I wondered if you would say more about what this thought of a “tender sapling” would convey."
+     "speaker": "PAG",
+     "text": [
+      "Yes. The tender sapling would suggest what was potential in Him from the moment He came in, but yet unlike the tree that you have spoken off, He never lost His tenderness, even on the cross. He said, “Father, forgive them, for they know not what they do”, Luke 23:34. Especially in Luke’s account, the tenderness of grace was always there."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Pardon my use of the analogy, but it is not like an old tree which is gnarled and the bark is thick, and it is able to withstand storms, but growing up “before him as a tender sapling” is Christ in all His tenderness as under the eye of the Father, under the care of the Father. Christ moved here knowing the reality of what it was to be cared for by His Father and moving as not in any way tarnished or harmed by the scene in which He was. Rather He was moving according to the affections of His Father for Him, and His for the Father. Is that how you understand it?"
+     "speaker": "TWL",
+     "text": [
+      "Yes, that is why I thought it applied over the whole of His path as presented in Luke, right until the end. That tenderness was there in the humanity of Jesus, in all that He was for His Father all the way until He died upon the cross."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Yes. The tender sapling would suggest what was potential in Him from the moment He came in, but yet unlike the tree that you have spoken off, He never lost His tenderness, even on the cross. He said, “Father, forgive them, for they know not what they do”, Luke 23:34. Especially in Luke’s account, the tenderness of grace was always there."
+     "speaker": "RT",
+     "text": [
+      "It is striking that Simeon saw all this. As soon as he saw Him, he said “Lord, now thou lettest thy bondman go, according to thy word, in peace; for mine eyes have seen thy salvation”, Luke 2:29. He saw it there in that Babe."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes, that is why I thought it applied over the whole of His path as presented in Luke, right until the end. That tenderness was there in the humanity of Jesus, in all that He was for His Father all the way until He died upon the cross."
+     "speaker": "TWL",
+     "text": [
+      "Yes. He saw how God was going to work out everything through this One. What scope there is in what Simeon said, but what he saw in that Babe, as we have often been reminded, was there in infancy but not in immaturity in relation to the purpose of God. Simeon saw it all, and yet it was in a Babe."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It is striking that Simeon saw all this. As soon as he saw Him, he said “Lord, now thou lettest thy bondman go, according to thy word, in peace; for mine eyes have seen thy salvation”, Luke 2:29. He saw it there in that Babe."
+     "speaker": "JW",
+     "text": [
+      "I wondered about what Solomon said, “For I was a son unto my father, tender and an only one in the sight of my mother”, Prov.4:3. I wondered if we get something of the Lord’s feelings in those expressions, and how He enjoyed the relationship."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes. He saw how God was going to work out everything through this One. What scope there is in what Simeon said, but what he saw in that Babe, as we have often been reminded, was there in infancy but not in immaturity in relation to the purpose of God. Simeon saw it all, and yet it was in a Babe."
+     "speaker": "TWL",
+     "text": [
+      "Yes very good. I was reading that very thing today, and it is interesting because Solomon said that when he became a little older, and God named him “Jedidiah, for Jehovah’s sake”, 2 Sam.12:25. That is what Christ was – for Jehovah’s sake."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "I wondered about what Solomon said, “For I was a son unto my father, tender and an only one in the sight of my mother”, Prov.4:3. I wondered if we get something of the Lord’s feelings in those expressions, and how He enjoyed the relationship."
+     "speaker": "JL",
+     "text": [
+      "Does the tender sapling also link with the expression, “In him was life”, John 1:4? He was the very expression of life. That is conveyed in the sapling; the root comes out of dry ground, the full expression of the energy of life pleasing to God was there."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes very good. I was reading that very thing today, and it is interesting because Solomon said that when he became a little older, and God named him “Jedidiah, for Jehovah’s sake”, 2 Sam.12:25. That is what Christ was – for Jehovah’s sake."
+     "speaker": "TWL",
+     "text": [
+      "Yes, life that could not be intruded upon. There was no way that that life could be intruded upon by any adverse thing that came upon Christ. That was life precious to God."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Does the tender sapling also link with the expression, “In him was life”, John 1:4? He was the very expression of life. That is conveyed in the sapling; the root comes out of dry ground, the full expression of the energy of life pleasing to God was there."
+     "speaker": "DCB",
+     "text": [
+      "I was wondering about the word to Mary; “The Holy Spirit shall come upon thee”, Luke 1:35. The Holy Spirit came upon the Lord by way of anointing at His baptism, but we have to see something of that tenderness here, what was in perfection in manhood, One with whom the Spirit had His full place."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes, life that could not be intruded upon. There was no way that that life could be intruded upon by any adverse thing that came upon Christ. That was life precious to God."
+     "speaker": "TWL",
+     "text": [
+      "Yes, and I think we can see that there was never anything in Christ that the Spirit could not attach to. “The Holy Spirit shall come upon thee, and power of the Highest overshadow thee” is the origin of the humanity of Jesus, and subsequently the whole nature of His being, different from every other man on the face of the earth. That is why God saw it so delightful, because the whole nature of His being was different. It was not just what He was as to His beginnings in holiness, but in His very nature Christ was different, in His spirit Christ was different."
+     ]
     },
     {
-     "speaker": "D.C.B.",
-     "text": "I was wondering about the word to Mary; “The Holy Spirit shall come upon thee”, Luke 1:35. The Holy Spirit came upon the Lord by way of anointing at His baptism, but we have to see something of that tenderness here, what was in perfection in manhood, One with whom the Spirit had His full place."
+     "speaker": "AB",
+     "text": [
+      "Do you think that the manna in the wilderness links with this? God gave the children of Israel the manna, and they said, “our soul loathes this light bread”, Num.21:5. There is “no beauty that we should desire him”."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes, and I think we can see that there was never anything in Christ that the Spirit could not attach to. “The Holy Spirit shall come upon thee, and power of the Highest overshadow thee” is the origin of the humanity of Jesus, and subsequently the whole nature of His being, different from every other man on the face of the earth. That is why God saw it so delightful, because the whole nature of His being was different. It was not just what He was as to His beginnings in holiness, but in His very nature Christ was different, in His spirit Christ was different."
+     "speaker": "TWL",
+     "text": [
+      "To the natural man, there never is beauty in Christ. When you speak to men in the world about Jesus, they laugh, but by the Spirit of God, the God who has sent His Spirit into our hearts, we have begun to have a little appreciation of Jesus. It struck me today that the Father sent out the Spirit into our hearts so that we can appreciate the Son. He sent the Spirit of that Man so that we can appreciate that Man. What a wonderful thing it is that. Speaking reverently, the Father is eager for us to see His Man as He sees Him, and to display these wonderful features that are so pleasurable to the heart of God and that for all eternity. There were men in whom certain features were seen both in the Old Testament and in the New, but what came in in Christ in humanity was the expression of all of those features, and many more, seen in one Man in His humanity, in His life – all these blessed features so delightful to God. So there is what was there in the humanity of Christ that expressed everything that was pleasing to God. Individual features were seen in persons in the Old Testament and the New, but every moral perfection was seen in Jesus."
+     ]
     },
     {
-     "speaker": "A.B.",
-     "text": "Do you think that the manna in the wilderness links with this? God gave the children of Israel the manna, and they said, “our soul loathes this light bread”, Num.21:5. There is “no beauty that we should desire him”."
+     "speaker": "GBG",
+     "text": [
+      "We are formed in these features of Christ, but there is an added glory of Christ because of who He is in His Person. He was always on equality with God in His manhood; that Person was here, but His being subject is an added glorious view of subjection and all the moral features that were seen in Him."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "To the natural man, there never is beauty in Christ. When you speak to men in the world about Jesus, they laugh, but by the Spirit of God, the God who has sent His Spirit into our hearts, we have begun to have a little appreciation of Jesus. It struck me today that the Father sent out the Spirit into our hearts so that we can appreciate the Son. He sent the Spirit of that Man so that we can appreciate that Man. What a wonderful thing it is that. Speaking reverently, the Father is eager for us to see His Man as He sees Him, and to display these wonderful features that are so pleasurable to the heart of God and that for all eternity. There were men in whom certain features were seen both in the Old Testament and in the New, but what came in in Christ in humanity was the expression of all of those features, and many more, seen in one Man in His humanity, in His life – all these blessed features so delightful to God. So there is what was there in the humanity of Christ that expressed everything that was pleasing to God. Individual features were seen in persons in the Old Testament and the New, but every moral perfection was seen in Jesus."
+     "speaker": "TWL",
+     "text": [
+      "That was what I was thinking. There was One who was here in subjection to His parents. He is the Lord of glory, but what a feature it was in His blessed humanity that He would move into an area where subjection became normal to Him as a Man. That is Christ moving according to the affections of His heart."
+     ]
     },
     {
-     "speaker": "G.B.G.",
-     "text": "We are formed in these features of Christ, but there is an added glory of Christ because of who He is in His Person. He was always on equality with God in His manhood; that Person was here, but His being subject is an added glorious view of subjection and all the moral features that were seen in Him."
+     "speaker": "PAG",
+     "text": [
+      "We are told that emptying Himself involved making Himself of no reputation, and again we have been taught that that stands in contrast to the first Adam. The features of Christ that shone here were the features of a Man who not only derived nothing from the world but sought no place in it, and was willing to come as One who had no reputation. “Behold thy King cometh to thee, meek, and mounted upon an ass, and upon a colt the foal of an ass”, Matt.21:5. He would not make Himself of any reputation."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "That was what I was thinking. There was One who was here in subjection to His parents. He is the Lord of glory, but what a feature it was in His blessed humanity that He would move into an area where subjection became normal to Him as a Man. That is Christ moving according to the affections of His heart."
+     "speaker": "TWL",
+     "text": [
+      "He moved into circumstances of lowly obedience, not because it was a demand, but because it was love’s place to do so. What a thing that is and how it should attract our hearts that a Man moved in such a way."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "We are told that emptying Himself involved making Himself of no reputation, and again we have been taught that that stands in contrast to the first Adam. The features of Christ that shone here were the features of a Man who not only derived nothing from the world but sought no place in it, and was willing to come as One who had no reputation. “Behold thy King cometh to thee, meek, and mounted upon an ass, and upon a colt the foal of an ass”, Matt.21:5. He would not make Himself of any reputation."
+     "speaker": "JAB",
+     "text": [
+      "In relation to the Father’s delight in this blessed One, I was thinking about how the Holy Spirit came upon Jesus at the Jordan at the outset of His three and a half years of public service. The Spirit’s delight also was in Him, and we have that same Spirit within us. We should be thankful to the Father for giving us the Spirit because it is only by the Spirit that these features of Jesus can be attractive to us."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "He moved into circumstances of lowly obedience, not because it was a demand, but because it was love’s place to do so. What a thing that is and how it should attract our hearts that a Man moved in such a way."
+     "speaker": "TWL",
+     "text": [
+      "Yes exactly. Going back to there being “no form nor lordliness that we should desire him”, if we just look with natural eyes, that is all we will see. But the Spirit of God brings before us all the moral excellence of Jesus to His Father, and we can see that."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "In relation to the Father’s delight in this blessed One, I was thinking about how the Holy Spirit came upon Jesus at the Jordan at the outset of His three and a half years of public service. The Spirit’s delight also was in Him, and we have that same Spirit within us. We should be thankful to the Father for giving us the Spirit because it is only by the Spirit that these features of Jesus can be attractive to us."
+     "speaker": "JAB",
+     "text": [
+      "Is that how we become like Him? The tenderness of Jesus should be reflected in us, and in how we do things as we let the Spirit have way in our lives and in our affections. Tenderness is a beautiful characteristic."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes exactly. Going back to there being “no form nor lordliness that we should desire him”, if we just look with natural eyes, that is all we will see. But the Spirit of God brings before us all the moral excellence of Jesus to His Father, and we can see that."
+     "speaker": "TWL",
+     "text": [
+      "Yes, what tenderness there is in the humanity of Jesus. We can think of the Lord as to the greatness of His divinity, but Luke particularly presents His humanity. It is not the Lord asserting His rights, or taking up His power, or moving in relation to the greatness of His Person. It is the Lord moving in the reality of His humanity before the face of His Father. Those are features that we can take on."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "Is that how we become like Him? The tenderness of Jesus should be reflected in us, and in how we do things as we let the Spirit have way in our lives and in our affections. Tenderness is a beautiful characteristic."
+     "speaker": "RG",
+     "text": [
+      "Should that not increase humility in each one of us? Man is always looking for something that he can be proud of. This is the very opposite. This is what should cause humility to fill our souls, that in the purpose of God, believers are part of a whole generation that is like Christ and which delights in these features of subjection."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes, what tenderness there is in the humanity of Jesus. We can think of the Lord as to the greatness of His divinity, but Luke particularly presents His humanity. It is not the Lord asserting His rights, or taking up His power, or moving in relation to the greatness of His Person. It is the Lord moving in the reality of His humanity before the face of His Father. Those are features that we can take on."
+     "speaker": "TWL",
+     "text": [
+      "That was seen in how the Lord was with His parents; it is the first time it is spoken of like that. Then we see Him coming up out of the Jordan and His dependence there, that Man having been baptised. That was an expression of His righteousness, a Man that understood the rights of His God. And along with that you have Him praying, expressing His dependency on His God."
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "Should that not increase humility in each one of us? Man is always looking for something that he can be proud of. This is the very opposite. This is what should cause humility to fill our souls, that in the purpose of God, believers are part of a whole generation that is like Christ and which delights in these features of subjection."
+     "speaker": "NJH",
+     "text": [
+      "He was here in conscious sonship. It starts with the uniqueness of the Person, but if we are going to make progress, we must be free of every adverse influence. Spiritual life in the believer has no link with the world around."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "That was seen in how the Lord was with His parents; it is the first time it is spoken of like that. Then we see Him coming up out of the Jordan and His dependence there, that Man having been baptised. That was an expression of His righteousness, a Man that understood the rights of His God. And along with that you have Him praying, expressing His dependency on His God."
+     "speaker": "TWL",
+     "text": [
+      "No. This life in the believer involves relationships which are not connected with the earth. There are relationships which apply while we are upon the earth, but this life we are speaking of involves new relationships which are according to God. The Lord’s relationships with His Father governed Him. Not even His relationships with those in Bethany governed Him. Did He value them? Yes. But did they govern Him? No. What governed the Lord in His relationships was what was in heaven, not upon the earth."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "He was here in conscious sonship. It starts with the uniqueness of the Person, but if we are going to make progress, we must be free of every adverse influence. Spiritual life in the believer has no link with the world around."
+     "speaker": "GAB",
+     "text": [
+      "Do we have the fine flour mingled with oil in these first thirty years, and then in principle its anointing with oil as Jesus came out of the Jordan? Isaiah 53 speaks about a tender sapling. The name suggests it was full of sap, yet that did not come out of a dry ground. Would it have any relation to the presence and power of the Spirit in Jesus from the outset, and then as He was anointed later as the Spirit descended upon Him?"
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "No. This life in the believer involves relationships which are not connected with the earth. There are relationships which apply while we are upon the earth, but this life we are speaking of involves new relationships which are according to God. The Lord’s relationships with His Father governed Him. Not even His relationships with those in Bethany governed Him. Did He value them? Yes. But did they govern Him? No. What governed the Lord in His relationships was what was in heaven, not upon the earth."
+     "speaker": "TWL",
+     "text": [
+      "I think that goes back to what was said earlier, that the Lord’s life and all that it was for His God was holy in its origin and spiritual in its power. That could not be said of any other man. What a glorious Man Jesus was for the eyes of God."
+     ]
     },
     {
-     "speaker": "G.A.B.",
-     "text": "Do we have the fine flour mingled with oil in these first thirty years, and then in principle its anointing with oil as Jesus came out of the Jordan? Isaiah 53 speaks about a tender sapling. The name suggests it was full of sap, yet that did not come out of a dry ground. Would it have any relation to the presence and power of the Spirit in Jesus from the outset, and then as He was anointed later as the Spirit descended upon Him?"
+     "speaker": "AMB",
+     "text": [
+      "Do we see what we are speaking of in the comment that the apostle makes about “the second man, out of heaven”, 1 Cor.15:47. That was the Lord’s origin. He was the second man, the Man according to God and different from every other man. Then it says, “such as the heavenly one, such also the heavenly ones” (v.48). I wondered if that related to the root out of dry ground. I know you are wanting to draw from these scriptures in Luke as to the Lord, but the root out of dry ground goes along with the tender sapling. There was what the Lord was in His supreme attractiveness to the Father here, and the divine will is that we should appreciate these attractive features of Him, but He is also the root out of dry ground. Would you say something about that?"
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "I think that goes back to what was said earlier, that the Lord’s life and all that it was for His God was holy in its origin and spiritual in its power. That could not be said of any other man. What a glorious Man Jesus was for the eyes of God."
+     "speaker": "TWL",
+     "text": [
+      "Christ expressed what is suitable to heaven, what is suitable to the relationships that exist there. Does that fit in with what you had in mind?"
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Do we see what we are speaking of in the comment that the apostle makes about “the second man, out of heaven”, 1 Cor.15:47. That was the Lord’s origin. He was the second man, the Man according to God and different from every other man. Then it says, “such as the heavenly one, such also the heavenly ones” (v.48). I wondered if that related to the root out of dry ground. I know you are wanting to draw from these scriptures in Luke as to the Lord, but the root out of dry ground goes along with the tender sapling. There was what the Lord was in His supreme attractiveness to the Father here, and the divine will is that we should appreciate these attractive features of Him, but He is also the root out of dry ground. Would you say something about that?"
+     "speaker": "AMB",
+     "text": [
+      "Reference has already been made to the tender sapling having potential, with growth in mind, but then the root too has potential. “I will bring forth my servant the Branch”, Zech.3:8. What is in mind is fresh life sprouting, with its source in this One who is the Root. That is what believers have to be by the power of the Holy Spirit."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Christ expressed what is suitable to heaven, what is suitable to the relationships that exist there. Does that fit in with what you had in mind?"
+     "speaker": "TWL",
+     "text": [
+      "Exactly. So there will be nothing in heaven different in character from what Jesus is, and that is all derived from Him because He was the root out of dry ground, and a tender sapling. He grew up before God as a tender sapling. What a thing that was for God. The features were always there but, as Christ grew, the features came into expression. That is the reality of the humanity of Jesus in the features and character that were there and came into expression as Christ grew, all for His Father to take account of. So as Jesus came out of the Jordan, the Father could say “Thou art my beloved Son, in thee I have found my delight” because of the features that had always been there in Jesus but had now come into expression in Him as a Man."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Reference has already been made to the tender sapling having potential, with growth in mind, but then the root too has potential. “I will bring forth my servant the Branch”, Zech.3:8. What is in mind is fresh life sprouting, with its source in this One who is the Root. That is what believers have to be by the power of the Holy Spirit."
+     "speaker": "RT",
+     "text": [
+      "Before He goes back to the Father, He says “I have glorified thee on the earth, I have completed the work which thou gavest me that I should do it”, and then He says “and now glorify me”, John 17:4. Nobody else could have said these things, but it shows that He came to do this. That was in His mind from infancy, to glorify the Father’s name on the earth, and then He says, “now glorify me”."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Exactly. So there will be nothing in heaven different in character from what Jesus is, and that is all derived from Him because He was the root out of dry ground, and a tender sapling. He grew up before God as a tender sapling. What a thing that was for God. The features were always there but, as Christ grew, the features came into expression. That is the reality of the humanity of Jesus in the features and character that were there and came into expression as Christ grew, all for His Father to take account of. So as Jesus came out of the Jordan, the Father could say “Thou art my beloved Son, in thee I have found my delight” because of the features that had always been there in Jesus but had now come into expression in Him as a Man."
+     "speaker": "TWL",
+     "text": [
+      "The Lord said that as having completed everything and being the outshining of all that the Father is, all that God is, in whom “all the fulness of the Godhead was pleased to dwell”, Col.1:19."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Before He goes back to the Father, He says “I have glorified thee on the earth, I have completed the work which thou gavest me that I should do it”, and then He says “and now glorify me”, John 17:4. Nobody else could have said these things, but it shows that He came to do this. That was in His mind from infancy, to glorify the Father’s name on the earth, and then He says, “now glorify me”."
+     "speaker": "RT",
+     "text": [
+      "And nothing diverted Him from it."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "The Lord said that as having completed everything and being the outshining of all that the Father is, all that God is, in whom “all the fulness of the Godhead was pleased to dwell”, Col.1:19."
+     "speaker": "TWL",
+     "text": [
+      "Exactly. In His love for His Father, He carried out that work in all His dignity and glory, and in spite of all the circumstances in which it was carried out."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "And nothing diverted Him from it."
+     "speaker": "AB",
+     "text": [
+      "No one spoke like Jesus; men wondered at the words and said, “Never man spoke thus, as this man speaks”, John 7:46. He said, “No one has greater love than this, that one should lay down his life for his friends”, John 15:13. Nicodemus wondered how He could do these signs unless God was with Him (John 3:2). No one else could have taken on your liability and mine as the perfect offering; He is the unique and glorious Man."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Exactly. In His love for His Father, He carried out that work in all His dignity and glory, and in spite of all the circumstances in which it was carried out."
+     "speaker": "TWL",
+     "text": [
+      "He is the only Man that God ever had on the earth like this. It is important to see that, because then we can understand the love of God in relation to us, because this is the Man that He forsook on the cross."
+     ]
     },
     {
-     "speaker": "A.B.",
-     "text": "No one spoke like Jesus; men wondered at the words and said, “Never man spoke thus, as this man speaks”, John 7:46. He said, “No one has greater love than this, that one should lay down his life for his friends”, John 15:13. Nicodemus wondered how He could do these signs unless God was with Him (John 3:2). No one else could have taken on your liability and mine as the perfect offering; He is the unique and glorious Man."
+     "speaker": "JL",
+     "text": [
+      "It makes it understandable then that, just at this point at the Jordan, the heavens were opened. It was an indication of heaven’s complacency and perfect delight in all that was sought for in man and had now found its full expression in this blessed Man here."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "He is the only Man that God ever had on the earth like this. It is important to see that, because then we can understand the love of God in relation to us, because this is the Man that He forsook on the cross."
+     "speaker": "TWL",
+     "text": [
+      "The Father had His resting place now in a Man upon the earth. The Lord says to the woman in John 4, “the Father seeks such as his worshippers. God is a spirit; and they who worship him must worship him in spirit and truth” (v.24)."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "It makes it understandable then that, just at this point at the Jordan, the heavens were opened. It was an indication of heaven’s complacency and perfect delight in all that was sought for in man and had now found its full expression in this blessed Man here."
+     "speaker": "NJH",
+     "text": [
+      "Does God now secure in this Person a universe in subjection?"
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "The Father had His resting place now in a Man upon the earth. The Lord says to the woman in John 4, “the Father seeks such as his worshippers. God is a spirit; and they who worship him must worship him in spirit and truth” (v.24)."
+     "speaker": "TWL",
+     "text": [
+      "Yes. Sometimes we think that subjection is hard, but subjection is submission to the will and desire of someone you love."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "Does God now secure in this Person a universe in subjection?"
+     "speaker": "NJH",
+     "text": [
+      "Christ will Himself take that place eternally."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes. Sometimes we think that subjection is hard, but subjection is submission to the will and desire of someone you love."
+     "speaker": "TWL",
+     "text": [
+      "Love was the motive for Jesus being subject to the Father, being found here as having emptied Himself. Love is what caused Him to be here in subjection and in dependence, love was what caused Him to speak these words of grace which came out of His mouth. What a Man!"
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "Christ will Himself take that place eternally."
+     "speaker": "WMP",
+     "text": [
+      "Reference has been made to the scripture, “in him all the fulness of the Godhead was pleased to dwell”. Why do you think Paul adds “pleased to dwell”, rather than just saying that it was there?"
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Love was the motive for Jesus being subject to the Father, being found here as having emptied Himself. Love is what caused Him to be here in subjection and in dependence, love was what caused Him to speak these words of grace which came out of His mouth. What a Man!"
+     "speaker": "TWL",
+     "text": [
+      "I think it shows the complacency of affection that existed between heaven and earth when Jesus was here. There was what was here for God in Jesus that had never been before. When the angels said, “on earth peace, good pleasure in men”, that had never been said before. It could not be said after Christ had ascended, and it will not be said again until everything is in order under the reign of Christ in the day to come. But when Christ was here there was complacency of affection between heaven and men."
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "Reference has been made to the scripture, “in him all the fulness of the Godhead was pleased to dwell”. Why do you think Paul adds “pleased to dwell”, rather than just saying that it was there?"
+     "speaker": "WMP",
+     "text": [
+      "I am connecting it with what has been said about the fine flour mingled with oil. The fulness of the Godhead meant that not only was there the expression of the Father in Christ, but an expression of all that the Spirit was too."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "I think it shows the complacency of affection that existed between heaven and earth when Jesus was here. There was what was here for God in Jesus that had never been before. When the angels said, “on earth peace, good pleasure in men”, that had never been said before. It could not be said after Christ had ascended, and it will not be said again until everything is in order under the reign of Christ in the day to come. But when Christ was here there was complacency of affection between heaven and men."
+     "speaker": "TWL",
+     "text": [
+      "Exactly. What the Spirit was as satisfied in Christ was seen in Him coming upon Jesus as a dove. What Christ was in relation to the Spirit was seen in Him being led by the Spirit in the wilderness. That relationship becomes what is characteristically true of Christ here upon the earth. What glorious features are seen in this Man and in His words of grace. Then we have one of the most affecting passages in scripture, at the end of Luke, “Father, into thy hands I commit my spirit”. What a Man He was; I think Mr Coates said that He was a Man of faith1."
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "I am connecting it with what has been said about the fine flour mingled with oil. The fulness of the Godhead meant that not only was there the expression of the Father in Christ, but an expression of all that the Spirit was too."
+     "speaker": "PAG",
+     "text": [
+      "Is that because the Spirit was intrinsic not only in relation to the incarnation, the anointing, and the binding of the strong man, but also “who by the eternal Spirit offered himself spotless to God”, Heb 9:14. The Lord Jesus was made alive in the Spirit. The Spirit was intrinsic to every part of Christ’s activity as Man, and thus it was ever pleasing to God, not only on account of who He was, but on account of His dependence."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Exactly. What the Spirit was as satisfied in Christ was seen in Him coming upon Jesus as a dove. What Christ was in relation to the Spirit was seen in Him being led by the Spirit in the wilderness. That relationship becomes what is characteristically true of Christ here upon the earth. What glorious features are seen in this Man and in His words of grace. Then we have one of the most affecting passages in scripture, at the end of Luke, “Father, into thy hands I commit my spirit”. What a Man He was; I think Mr Coates said that He was a Man of faith1."
+     "speaker": "TWL",
+     "text": [
+      "Yes, the reality of His humanity as going forward in the power of the Spirit of God was always pleasing to His Father. Luke’s gospel does not present Christ moving according to His glory, but according to His humanity; that in itself is glorious."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Is that because the Spirit was intrinsic not only in relation to the incarnation, the anointing, and the binding of the strong man, but also “who by the eternal Spirit offered himself spotless to God”, Heb 9:14. The Lord Jesus was made alive in the Spirit. The Spirit was intrinsic to every part of Christ’s activity as Man, and thus it was ever pleasing to God, not only on account of who He was, but on account of His dependence."
+     "speaker": "PAG",
+     "text": [
+      "He was the only One who had the right to do this. He was His own spirit, and thus He could act in this way; it is a glory that He has that is unique to Him. We are given our spirits, but He was His own spirit. And in the same way in which when the Spirit descended and abode upon Him, there was nothing to repel, there was nothing to hinder the Father’s acceptance of His spirit."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes, the reality of His humanity as going forward in the power of the Spirit of God was always pleasing to His Father. Luke’s gospel does not present Christ moving according to His glory, but according to His humanity; that in itself is glorious."
+     "speaker": "TWL",
+     "text": [
+      "Yes, because of the glorious humanity of Jesus. It does not say in this scripture that He delivered up His spirit, but that He committed His spirit into the hands of His Father whom He loved so well. For the Father’s sake He committed His spirit – that shows the dependence of His manhood. It is not exactly that He was doing this according to the might of His strength, but rather as what He was as a Man."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "He was the only One who had the right to do this. He was His own spirit, and thus He could act in this way; it is a glory that He has that is unique to Him. We are given our spirits, but He was His own spirit. And in the same way in which when the Spirit descended and abode upon Him, there was nothing to repel, there was nothing to hinder the Father’s acceptance of His spirit."
+     "speaker": "AB",
+     "text": [
+      "You started with the tender sapling, and in the Song it says, “His bearing as Lebanon, excellent as the cedars”, Song of Songs 5:15. There is a majesty that belongs to Him."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes, because of the glorious humanity of Jesus. It does not say in this scripture that He delivered up His spirit, but that He committed His spirit into the hands of His Father whom He loved so well. For the Father’s sake He committed His spirit – that shows the dependence of His manhood. It is not exactly that He was doing this according to the might of His strength, but rather as what He was as a Man."
+     "speaker": "TWL",
+     "text": [
+      "It belongs to Him alone, and the Father always saw it. We can take account of it, but there was that which was expressed in His humanity which only the Father could see, such as Jesus saying, “into thy hands I commit my spirit”. This was said in faith knowing that God would not allow His “Holy One to see corruption”, Ps.16:10. He was going to be raised; this is a Man of faith."
+     ]
     },
     {
-     "speaker": "A.B.",
-     "text": "You started with the tender sapling, and in the Song it says, “His bearing as Lebanon, excellent as the cedars”, Song of Songs 5:15. There is a majesty that belongs to Him."
+     "speaker": "JAB",
+     "text": [
+      "I was thinking of the effect of these words on the centurion – there was something for God from him. When Jesus spoke in the synagogue at Nazareth, there was no response from those who heard. They would have cast Him over the brow of the hill, and there is no record of any conversion in Nazareth at all, but the centurion was affected. We are speaking of holy things, and the Spirit would have in mind that a conversation like this should have an effect in the souls of those who know Jesus. As these blessed features of Christ are before us, there should be more for God from us."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "It belongs to Him alone, and the Father always saw it. We can take account of it, but there was that which was expressed in His humanity which only the Father could see, such as Jesus saying, “into thy hands I commit my spirit”. This was said in faith knowing that God would not allow His “Holy One to see corruption”, Ps.16:10. He was going to be raised; this is a Man of faith."
+     "speaker": "TWL",
+     "text": [
+      "Exactly, because here in Luke “the centurion, seeing what took place, glorified God, saying, In very deed this man was just” (v.47). It was the humanity of Jesus for God. “In very deed this man was just”; that was His whole life, everything in Jesus and expressed in its fulness at the cross was summed up in these words. How could the centurion ever know what it was to be just or unjust unless he had seen an expression of what God was in that Man, so he could say, “In very deed this man was just”. What it was for the Father, that there should be this expression from a centurion in relation to the Man of His choice."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "I was thinking of the effect of these words on the centurion – there was something for God from him. When Jesus spoke in the synagogue at Nazareth, there was no response from those who heard. They would have cast Him over the brow of the hill, and there is no record of any conversion in Nazareth at all, but the centurion was affected. We are speaking of holy things, and the Spirit would have in mind that a conversation like this should have an effect in the souls of those who know Jesus. As these blessed features of Christ are before us, there should be more for God from us."
+     "speaker": "JSS",
+     "text": [
+      "In Jeremiah 17 we have “Blessed is the man that confideth in Jehovah, and whose confidence Jehovah is” (v.7). It says of that man that he never ceases to yield fruit even in the time of drought. In this scripture in Luke, there is wonderful fruit for God being yielded as a result of One who trusted in God."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Exactly, because here in Luke “the centurion, seeing what took place, glorified God, saying, In very deed this man was just” (v.47). It was the humanity of Jesus for God. “In very deed this man was just”; that was His whole life, everything in Jesus and expressed in its fulness at the cross was summed up in these words. How could the centurion ever know what it was to be just or unjust unless he had seen an expression of what God was in that Man, so he could say, “In very deed this man was just”. What it was for the Father, that there should be this expression from a centurion in relation to the Man of His choice."
+     "speaker": "TWL",
+     "text": [
+      "Exactly, and as we contemplate the features of this humanity of Jesus, they will be formative in us, and subsequently there will be fruit. What a thing it would be to come to the end of your life and for someone say that you were like Jesus. We are not going to be if we do not contemplate Him. We are not going to be if we do not see Him as the Father sees Him."
+     ]
     },
     {
-     "speaker": "J.S.S.",
-     "text": "In Jeremiah 17 we have “Blessed is the man that confideth in Jehovah, and whose confidence Jehovah is” (v.7). It says of that man that he never ceases to yield fruit even in the time of drought. In this scripture in Luke, there is wonderful fruit for God being yielded as a result of One who trusted in God."
+     "speaker": "GBG",
+     "text": [
+      "He was prepared to be led by men that hated Him; that is meekness."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Exactly, and as we contemplate the features of this humanity of Jesus, they will be formative in us, and subsequently there will be fruit. What a thing it would be to come to the end of your life and for someone say that you were like Jesus. We are not going to be if we do not contemplate Him. We are not going to be if we do not see Him as the Father sees Him."
+     "speaker": "TWL",
+     "text": [
+      "Yes, prepared to be led by men that hated Him, and then to die to make forgiveness available to those men too. To think that Jesus made salvation available to the soldier who thrust his spear into Him. That is quite a thought."
+     ]
     },
     {
-     "speaker": "G.B.G.",
-     "text": "He was prepared to be led by men that hated Him; that is meekness."
+     "speaker": "RG",
+     "text": [
+      "It will be wonderful in the eternal day to see that every son will be like the Lord Jesus."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes, prepared to be led by men that hated Him, and then to die to make forgiveness available to those men too. To think that Jesus made salvation available to the soldier who thrust his spear into Him. That is quite a thought."
+     "speaker": "TWL",
+     "text": [
+      "Yes, and it will be wonderful to have the Father taking delight in all the sons because of the features of the humanity of Jesus seen in the saints. That is what the Father will delight in, what the Spirit will pervade, and what Christ will give character to."
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "It will be wonderful in the eternal day to see that every son will be like the Lord Jesus."
+     "speaker": "DCB",
+     "text": [
+      "You have referred to Him as the Man of faith. Could you say more about that?"
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes, and it will be wonderful to have the Father taking delight in all the sons because of the features of the humanity of Jesus seen in the saints. That is what the Father will delight in, what the Spirit will pervade, and what Christ will give character to."
+     "speaker": "TWL",
+     "text": [
+      "He was a Man who in faith committed Himself to His God, even to the point of dying, knowing that His Father, in love for Him, would not leave His “Holy One to see corruption”, but would raise Him. What a thing that is. That is the reality of the Man of faith; “Jesus the leader and completer of faith” Heb.12:2. He is the “leader and completer of faith” in all that He did, carrying out everything while trusting in His God. When on the cross He could say, “Father, into thy hands I commit my spirit”, He was looking on to the time when He would be raised, knowing that His God would save Him out of death (Heb.5:7); not keeping Him from it, but saving Him out of it. That was the reality of the death of Jesus, and faith played a part in that."
+     ]
     },
     {
-     "speaker": "D.C.B.",
-     "text": "You have referred to Him as the Man of faith. Could you say more about that?"
+     "speaker": "DCB",
+     "text": [
+      "It just strikes me that every feature of what is normal in the sight of God was displayed in Christ, and faith is one of these features. Of course, we would have before our minds these other features that we have been speaking of, but it is important to see what God regards as normal."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "He was a Man who in faith committed Himself to His God, even to the point of dying, knowing that His Father, in love for Him, would not leave His “Holy One to see corruption”, but would raise Him. What a thing that is. That is the reality of the Man of faith; “Jesus the leader and completer of faith” Heb.12:2. He is the “leader and completer of faith” in all that He did, carrying out everything while trusting in His God. When on the cross He could say, “Father, into thy hands I commit my spirit”, He was looking on to the time when He would be raised, knowing that His God would save Him out of death (Heb.5:7); not keeping Him from it, but saving Him out of it. That was the reality of the death of Jesus, and faith played a part in that."
+     "speaker": "TWL",
+     "text": [
+      "Yes. In the eyes of men, faith is highly abnormal, but for the saint it is entirely normal; it is a feature that God looks for and rests in. That is a wonderful thing, because we can come into settled conditions when we become conformed to Christ."
+     ]
     },
     {
-     "speaker": "D.C.B.",
-     "text": "It just strikes me that every feature of what is normal in the sight of God was displayed in Christ, and faith is one of these features. Of course, we would have before our minds these other features that we have been speaking of, but it is important to see what God regards as normal."
+     "speaker": "TRC",
+     "text": [
+      "The Lord could say “Take my yoke upon you, and learn from me; for I am meek and lowly in heart”, Matt.11:29. Do we see the full expression of that here at the cross?"
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes. In the eyes of men, faith is highly abnormal, but for the saint it is entirely normal; it is a feature that God looks for and rests in. That is a wonderful thing, because we can come into settled conditions when we become conformed to Christ."
+     "speaker": "TWL",
+     "text": [
+      "Yes, we do. It is very interesting how the Lord speaks there, because what He was as meek and lowly in heart was a Person not stressing His own rights at all, nor ever expressing His own will. But “Take my yoke upon you, and learn from me” brings us into step with Jesus in all that He was for the Father, so that we become conformed to Him. We shall find rest to our souls as we are conformed to Him, and it comes from the heart. You cannot arrive at this by legislation, you cannot arrive it by rule and regulation. You arrive at it by affection for Jesus."
+     ]
     },
     {
-     "speaker": "T.R.C.",
-     "text": "The Lord could say “Take my yoke upon you, and learn from me; for I am meek and lowly in heart”, Matt.11:29. Do we see the full expression of that here at the cross?"
+     "speaker": "NJH",
+     "text": [
+      "Jesus would have had His direction that day from the Father to commit His spirit into the hands of His Father We know of course that the glory of Jesus’ Person remains, He brought all that He was in the Godhead into manhood, but in His condition, He is Man. What a day it was when He actually committed His spirit into the hands of His Father. He was in control."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Yes, we do. It is very interesting how the Lord speaks there, because what He was as meek and lowly in heart was a Person not stressing His own rights at all, nor ever expressing His own will. But “Take my yoke upon you, and learn from me” brings us into step with Jesus in all that He was for the Father, so that we become conformed to Him. We shall find rest to our souls as we are conformed to Him, and it comes from the heart. You cannot arrive at this by legislation, you cannot arrive it by rule and regulation. You arrive at it by affection for Jesus."
-    },
-    {
-     "speaker": "N.J.H.",
-     "text": "Jesus would have had His direction that day from the Father to commit His spirit into the hands of His Father We know of course that the glory of Jesus’ Person remains, He brought all that He was in the Godhead into manhood, but in His condition, He is Man. What a day it was when He actually committed His spirit into the hands of His Father. He was in control."
-    },
-    {
-     "speaker": "T.W.L.",
-     "text": "Yes. It says, “He wakeneth morning by morning, he wakeneth mine ear to hear as the instructed”, Isa.50:4. That was the reality of the life of Jesus before His God, and it would have been so on this day when He delivered up His spirit. What a blessed Man, and what love lay behind all His actions; all these features were for the pleasure of God."
+     "speaker": "TWL",
+     "text": [
+      "Yes. It says, “He wakeneth morning by morning, he wakeneth mine ear to hear as the instructed”, Isa.50:4. That was the reality of the life of Jesus before His God, and it would have been so on this day when He delivered up His spirit. What a blessed Man, and what love lay behind all His actions; all these features were for the pleasure of God."
+     ]
     }
    ]
   },
@@ -543,7 +741,7 @@
     "Ephesians 5:16-19"
    ],
    "speakers": [
-    "C.A."
+    "CA"
    ],
    "paragraphs": [
     {
@@ -643,38 +841,142 @@
      "text": "The happy vessel of Thy pleasure here!"
     },
     {
-     "speaker": "C.A.",
-     "text": "Coates Vol.26 pp.142,143"
+     "speaker": "CA",
+     "text": [
+      "Coates Vol.26 pp.142,143",
+      "Edited and published monthly by John Brown and Paul Martin",
+      "Additional copies are available, free of charge, by emailing",
+      "notesofministry@virginmedia.com or paul@nofm.co.uk",
+      "36 Laverock Park Linlithgow EH49 6AT",
+      "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ",
+      "Tel: 01277 650 661",
+      "Notes",
+      "[←1]"
+     ]
     },
     {
-     "text": "Edited and published monthly by John Brown and Paul Martin"
-    },
-    {
-     "text": "Additional copies are available, free of charge, by emailing"
-    },
-    {
-     "text": "notesofministry@virginmedia.com or paul@nofm.co.uk"
-    },
-    {
-     "text": "36 Laverock Park Linlithgow EH49 6AT"
-    },
-    {
-     "text": "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ"
-    },
-    {
-     "text": "Tel: 01277 650 661"
-    },
-    {
-     "text": "Notes"
-    },
-    {
-     "text": "[←1]"
-    },
-    {
-     "speaker": "C.A.",
-     "text": "Coates Vol.23 p.235"
+     "speaker": "CA",
+     "text": [
+      "Coates Vol.23 p.235"
+     ]
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alistair .M Brown Grangemouth\" read as Alistair .M Brown, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"David C Brown Edinburgh\" read as David C Brown, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"G Allan Brown Grangemouth\" read as G Allan Brown, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"John A Brown Grangemouth\" read as John A Brown, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Adrian Buchan Kirkcaldy\" read as Adrian Buchan, Kirkcaldy"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Trevor R Campbell Glasgow\" read as Trevor R Campbell, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Robert Gardiner Kirkcaldy\" read as Robert Gardiner, Kirkcaldy"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"G Bruce Grant Dundee\" read as G Bruce Grant, Dundee"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Paul A Gray Grangemouth\" read as Paul A Gray, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Norman J Henry Glasgow\" read as Norman J Henry, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"John Laurie Brechin\" read as John Laurie, Brechin"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Terry W Lock Edinburgh\" read as Terry W Lock, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Neil C MacKay Glasgow\" read as Neil C MacKay, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Walter M Patterson Glasgow\" read as Walter M Patterson, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"John S Speirs Grangemouth\" read as John S Speirs, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Robert Taylor Kirkcaldy\" read as Robert Taylor, Kirkcaldy"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"James Webster Fraserburgh\" read as James Webster, Fraserburgh"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Allan Wilson Kirkcaldy\" read as Allan Wilson, Kirkcaldy"
+  },
+  {
+   "article": 1,
+   "title": "THE PERFECT HUMANITY OF JESUS",
+   "kind": "initials_before_name",
+   "detail": "18 entries written as initials then name (\"AMB ...\")"
   }
  ]
 }

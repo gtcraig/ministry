@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -28,6 +28,7 @@
    "speakers": [
     "TWL",
     "DCB",
+    "THB",
     "JTB",
     "KRC",
     "RCT",
@@ -37,8 +38,8 @@
    ],
    "initials": [
     {
-     "initials": "ETHB",
-     "name": "(all from Edinburgh):- T H Bailey"
+     "initials": "THB",
+     "name": "T H Bailey"
     },
     {
      "initials": "DCB",
@@ -74,6 +75,7 @@
     }
    ],
    "initials_heading": "Key to Initials",
+   "initials_comment": "all from Edinburgh",
    "initials_text": [
     "(all from Edinburgh):-",
     "T H Bailey; D C Brown; J T Brown; K R Cumming; N R Cumming; D J Hutson; B R Lock; T W Lock; R C Trotter"
@@ -81,303 +83,421 @@
    "paragraphs": [
     {
      "speaker": "TWL",
-     "text": "We are reading this book from the exercise of considering the glories of the Son, and that is why I did not read from verses 24-31 because those verses take into account what there is in the line of breakdown, and what we find in ourselves. Starting at chapter 10: 1, it is very interesting that what God had in mind is taken account of. When we think of all that there was in the Old Testament in relation to the offerings for sin and so on, there was no clearing of the conscience. The people understood what was there for God according to His commandment, but there was no clearing of conscience; but then the way it goes on is interesting in the light of what was said in our reading last week in the Acts about “him, given up by the determinate counsel and foreknowledge of God” (Acts 2: 23). Starting at verse 5, it says, “Wherefore coming into the world he” - that is Christ - “says, Sacrifice and offering thou willedst not; but thou hast prepared me a body”. It is very interesting that these words suggest how He knew that He would have a body prepared for Him. He came into the world as taking up that body but taking it up in the light that it would become a sacrifice for His God. The committal of Christ to the will of His God involved that He would lay down that body in death. He would take it up in testimony, and lay it down in death. That was according to the will of His God; so the first part of verse 7 brings in “the roll of the book”, which brings in the counsels of God. But the second reference in this chapter, in verse 9, does not refer to the counsels of God; it has to do with the love of Christ for His God. So that He says, “Lo, I come to do thy will”. “The roll of the book” is not mentioned there, and the reason it is not mentioned there is that, speaking very carefully, Christ did not go through and take up the things of God merely because it was an ordinance, though that was involved. He took it up because of what was in His heart, and the will of God always takes into account the heart of God; so Christ took it up in relation to the heart of God."
-    },
-    {
-     "text": "Then it goes on in relation to “sanctified through the offering of the body of Jesus Christ”. Last week we were touching on the blood of Christ, but we are “sanctified through the offering” of His body, which is another thought because that is the Man for God: it is not just a matter of what was morally acceptable, but all that was involved in the manhood of Jesus for God; and we are sanctified according to that. What made the blood efficacious was what was seen in holiness in the body as it was for His God; so all of these things go through, and then He is perfected. Then we come to the point of our access, and it is wonderful because our access is dependent on the perfection of Christ in His manhood for God. And the more we take account of that, the more we understand our liberty and the faithfulness of God who has promised that this would be the way."
-    },
-    {
-     "text": "Then we come to the latter part of the chapter and there are two verses that I thought we could get help with, one being verse 35: “Cast not away therefore your confidence, which has great recompense”. That takes account of the finality that faith sees, Christ where He is; so our suffering is in relation to a Man who lives there. There is suffering, beloved brethren, but our inheritance is there, not here. So, although there will be sufferings here, do not cast away your confidence in what God is doing in Christ in bringing us to Himself."
-    },
-    {
-     "text": "And then it says, “For yet a very little while he that comes will come, and will not delay”, and for the believer that is wonderful. Often we think about the Lord coming in relation to the rapture, when we are going to be with Him; but, beloved brethren, the thing that should be uppermost in our hearts is not the rapture when the Lord comes for us, and we shall go to be forever with the Lord, but rather the day when the Lord will come and we will see Him vindicated in the scene where He was rejected. We will see Him vindicated in the area where His body was laid in death. Beloved brethren, for the saint that is the day of the vindication of Jesus."
+     "text": [
+      "We are reading this book from the exercise of considering the glories of the Son, and that is why I did not read from verses 24-31 because those verses take into account what there is in the line of breakdown, and what we find in ourselves. Starting at chapter 10: 1, it is very interesting that what God had in mind is taken account of. When we think of all that there was in the Old Testament in relation to the offerings for sin and so on, there was no clearing of the conscience. The people understood what was there for God according to His commandment, but there was no clearing of conscience; but then the way it goes on is interesting in the light of what was said in our reading last week in the Acts about “him, given up by the determinate counsel and foreknowledge of God” (Acts 2: 23). Starting at verse 5, it says, “Wherefore coming into the world he” - that is Christ - “says, Sacrifice and offering thou willedst not; but thou hast prepared me a body”. It is very interesting that these words suggest how He knew that He would have a body prepared for Him. He came into the world as taking up that body but taking it up in the light that it would become a sacrifice for His God. The committal of Christ to the will of His God involved that He would lay down that body in death. He would take it up in testimony, and lay it down in death. That was according to the will of His God; so the first part of verse 7 brings in “the roll of the book”, which brings in the counsels of God. But the second reference in this chapter, in verse 9, does not refer to the counsels of God; it has to do with the love of Christ for His God. So that He says, “Lo, I come to do thy will”. “The roll of the book” is not mentioned there, and the reason it is not mentioned there is that, speaking very carefully, Christ did not go through and take up the things of God merely because it was an ordinance, though that was involved. He took it up because of what was in His heart, and the will of God always takes into account the heart of God; so Christ took it up in relation to the heart of God.",
+      "Then it goes on in relation to “sanctified through the offering of the body of Jesus Christ”. Last week we were touching on the blood of Christ, but we are “sanctified through the offering” of His body, which is another thought because that is the Man for God: it is not just a matter of what was morally acceptable, but all that was involved in the manhood of Jesus for God; and we are sanctified according to that. What made the blood efficacious was what was seen in holiness in the body as it was for His God; so all of these things go through, and then He is perfected. Then we come to the point of our access, and it is wonderful because our access is dependent on the perfection of Christ in His manhood for God. And the more we take account of that, the more we understand our liberty and the faithfulness of God who has promised that this would be the way.",
+      "Then we come to the latter part of the chapter and there are two verses that I thought we could get help with, one being verse 35: “Cast not away therefore your confidence, which has great recompense”. That takes account of the finality that faith sees, Christ where He is; so our suffering is in relation to a Man who lives there. There is suffering, beloved brethren, but our inheritance is there, not here. So, although there will be sufferings here, do not cast away your confidence in what God is doing in Christ in bringing us to Himself.",
+      "And then it says, “For yet a very little while he that comes will come, and will not delay”, and for the believer that is wonderful. Often we think about the Lord coming in relation to the rapture, when we are going to be with Him; but, beloved brethren, the thing that should be uppermost in our hearts is not the rapture when the Lord comes for us, and we shall go to be forever with the Lord, but rather the day when the Lord will come and we will see Him vindicated in the scene where He was rejected. We will see Him vindicated in the area where His body was laid in death. Beloved brethren, for the saint that is the day of the vindication of Jesus."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "It is wonderful to see how everything centres in this Person, and the way in which He has gone in taking up a body. We sang,"
-    },
-    {
-     "text": "Thou art, O Lord, the centre (Hymn 259)."
-    },
-    {
-     "text": "We see that the whole working out of the divine counsel is all bound up with this one glorious Person, and the fact that this One, who is God in His Person, has taken, in the reality of humanity, a body, in order to ensure that the will of God is fully fulfilled."
+     "text": [
+      "It is wonderful to see how everything centres in this Person, and the way in which He has gone in taking up a body. We sang,",
+      "Thou art, O Lord, the centre (Hymn 259).",
+      "We see that the whole working out of the divine counsel is all bound up with this one glorious Person, and the fact that this One, who is God in His Person, has taken, in the reality of humanity, a body, in order to ensure that the will of God is fully fulfilled."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "And the reality of His manhood continues. There was the body He took up, there is the body that He laid down in death; and there is the body He took up again, in a different condition, but a body just the same. “They found not the body of the Lord Jesus”, Luke 24: 3. The reality of the manhood of Jesus involves His having a body; and subsequently, when we are taken to be with the Lord, we also will have bodies like His. The body of glory is the vehicle by which we will have expression Godward, but it is also that by which we will stand before God. The reality of manhood for God is seen in Christ having a body."
+     "text": [
+      "And the reality of His manhood continues. There was the body He took up, there is the body that He laid down in death; and there is the body He took up again, in a different condition, but a body just the same. “They found not the body of the Lord Jesus”, Luke 24: 3. The reality of the manhood of Jesus involves His having a body; and subsequently, when we are taken to be with the Lord, we also will have bodies like His. The body of glory is the vehicle by which we will have expression Godward, but it is also that by which we will stand before God. The reality of manhood for God is seen in Christ having a body."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So that all of that is in the maintenance of the will of God. The Lord went into death and did all that was necessary as to the cost according to the will of God, but He lives again for the will of God, and those who are brought into line with Him are brought into line therefore with Him according to the will of God."
+     "text": [
+      "So that all of that is in the maintenance of the will of God. The Lord went into death and did all that was necessary as to the cost according to the will of God, but He lives again for the will of God, and those who are brought into line with Him are brought into line therefore with Him according to the will of God."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "It is interesting that He took up things according to the will of God, but it also says here, “by which will we have been sanctified through the offering of the body of Jesus Christ once for all”. That was the will of God, beloved brethren. We have been brought to God according to His will, and the will of God always takes into account the heart of God. It also takes into account the purpose of God, always; so how it works out according to His will is that He will have us “sanctified through the offering of the body of Jesus Christ”, and that is quite a thing because it involved His sufferings."
+     "text": [
+      "It is interesting that He took up things according to the will of God, but it also says here, “by which will we have been sanctified through the offering of the body of Jesus Christ once for all”. That was the will of God, beloved brethren. We have been brought to God according to His will, and the will of God always takes into account the heart of God. It also takes into account the purpose of God, always; so how it works out according to His will is that He will have us “sanctified through the offering of the body of Jesus Christ”, and that is quite a thing because it involved His sufferings."
+     ]
     },
     {
-     "text": "THB I was thinking about what you have said about the heart of God. We sing that hymn sometimes as to the Lord Jesus:"
-    },
-    {
-     "text": "The will of Thy God and His pleasure"
-    },
-    {
-     "text": "(Hymn 148)."
-    },
-    {
-     "text": "Is God’s pleasure involved, the Lord having a knowledge of what is in God’s heart and going through with everything for God’s pleasure?"
+     "speaker": "THB",
+     "text": [
+      "I was thinking about what you have said about the heart of God. We sing that hymn sometimes as to the Lord Jesus:",
+      "The will of Thy God and His pleasure",
+      "(Hymn 148).",
+      "Is God’s pleasure involved, the Lord having a knowledge of what is in God’s heart and going through with everything for God’s pleasure?"
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "Christ took account of what it would be for God that there would come a time when He would be able to rest in His love, and He took that up as a Man to achieve it. That is a remarkable thing to think about, Christ taking up a body that He would suffer in on account of God. He would arrive at a point where God would be able to rest in His love, in those He has sanctified through the offering of that body. Is that what you had in mind?"
+     "text": [
+      "Christ took account of what it would be for God that there would come a time when He would be able to rest in His love, and He took that up as a Man to achieve it. That is a remarkable thing to think about, Christ taking up a body that He would suffer in on account of God. He would arrive at a point where God would be able to rest in His love, in those He has sanctified through the offering of that body. Is that what you had in mind?"
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "It says in Exodus 21, “If he came in alone” (v 3), that is, if he came in ‘with his body’ (note ‘b’), but then, “If his master have given him a wife, and she have borne him sons or daughters”, v 4. If this refers to the Lord Jesus, “His master” would refer to His God and Father. He has to lay down that body: his ear was bored through with an awl. It is “ears hast thou prepared me” in Psalm 40: 6; but in Hebrews 10 it is, “thou hast prepared me a body”. There is no part of the human anatomy more wonderful than the ear."
+     "text": [
+      "It says in Exodus 21, “If he came in alone” (v 3), that is, if he came in ‘with his body’ (note ‘b’), but then, “If his master have given him a wife, and she have borne him sons or daughters”, v 4. If this refers to the Lord Jesus, “His master” would refer to His God and Father. He has to lay down that body: his ear was bored through with an awl. It is “ears hast thou prepared me” in Psalm 40: 6; but in Hebrews 10 it is, “thou hast prepared me a body”. There is no part of the human anatomy more wonderful than the ear."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "Yes, and it is quite a thing to think about that. The Lord knew what it was to offer that body. It was not an onerous thing for Him to take it up; He took it up on behalf of His God; but it was a real thing for Him to commit that body to His God knowing the sufferings that would be involved in that. And yet He shows His committal in affection, “I love my master, my wife, and my children, I will not go free”, Exod 21: 5."
+     "text": [
+      "Yes, and it is quite a thing to think about that. The Lord knew what it was to offer that body. It was not an onerous thing for Him to take it up; He took it up on behalf of His God; but it was a real thing for Him to commit that body to His God knowing the sufferings that would be involved in that. And yet He shows His committal in affection, “I love my master, my wife, and my children, I will not go free”, Exod 21: 5."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "Is the bondman saying “distinctly” related to His committal to the will of God?"
+     "text": [
+      "Is the bondman saying “distinctly” related to His committal to the will of God?"
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "He says it “distinctly” because of His love, and that is why I thought it was so precious in verse 9 because this verse does not have “the roll of the book”. “Lo, I come to do thy will”, is what He did in His affection for His God. This verse is not exactly a matter of what is according to counsel, although that was involved, but He did it out of love for His God as having taken up a body."
+     "text": [
+      "He says it “distinctly” because of His love, and that is why I thought it was so precious in verse 9 because this verse does not have “the roll of the book”. “Lo, I come to do thy will”, is what He did in His affection for His God. This verse is not exactly a matter of what is according to counsel, although that was involved, but He did it out of love for His God as having taken up a body."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "The question of preparation is a very blessed one, is it not? We cannot really enter into much of that, but we need to emphasise that the Lord Jesus is not a creature. In the preparation of the body His deity was ever maintained."
+     "text": [
+      "The question of preparation is a very blessed one, is it not? We cannot really enter into much of that, but we need to emphasise that the Lord Jesus is not a creature. In the preparation of the body His deity was ever maintained."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "That the Creator would take up a body, your mind just has to rest there. You cannot reason about that, but that is exactly what happened, and He took up that body that He might lay it down in death. What a thing that Christ should move that way, knowing all the feelings that were there in His manhood in relation to the will of His God."
+     "text": [
+      "That the Creator would take up a body, your mind just has to rest there. You cannot reason about that, but that is exactly what happened, and He took up that body that He might lay it down in death. What a thing that Christ should move that way, knowing all the feelings that were there in His manhood in relation to the will of His God."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "It is beyond comprehension, but worthy of contemplation, that God actually prepared His body. “The holy thing also which shall be born” (Luke 1: 35) is Christ the Lord, intrinsically holy, but divine preparation entered into this wonderful matter."
+     "text": [
+      "It is beyond comprehension, but worthy of contemplation, that God actually prepared His body. “The holy thing also which shall be born” (Luke 1: 35) is Christ the Lord, intrinsically holy, but divine preparation entered into this wonderful matter."
+     ]
     },
     {
      "speaker": "KRC",
-     "text": "I was just contemplating the full scope of His life, because He is no longer a Man here. That body went into the grave, but He was raised, not in flesh and blood, but “flesh and bones”, Luke 24: 39. I was thinking of how He ends Matthew’s gospel, “And behold, I am with you all the days, until the completion of the age”, Matt 28: 20. I was thinking of the grandeur of the Person and the greatness of how He came in in the incarnation, and yet that Person is still the same and will ever be the same."
+     "text": [
+      "I was just contemplating the full scope of His life, because He is no longer a Man here. That body went into the grave, but He was raised, not in flesh and blood, but “flesh and bones”, Luke 24: 39. I was thinking of how He ends Matthew’s gospel, “And behold, I am with you all the days, until the completion of the age”, Matt 28: 20. I was thinking of the grandeur of the Person and the greatness of how He came in in the incarnation, and yet that Person is still the same and will ever be the same."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "And it is always a delight to me that Christ remains a Man forever. He has a body, and He remains a Man, and because He remains a Man, I have a right to be in heaven as a man. It could not be unless He was a Man there, unless He had a body there, and that is quite affecting, because that is according to the will of God."
+     "text": [
+      "And it is always a delight to me that Christ remains a Man forever. He has a body, and He remains a Man, and because He remains a Man, I have a right to be in heaven as a man. It could not be unless He was a Man there, unless He had a body there, and that is quite affecting, because that is according to the will of God."
+     ]
     },
     {
      "speaker": "RCT",
-     "text": "I was just looking at Philippians, “taking a bondman’s form, taking his place in the likeness of men” (chap 2: 7); it was all part of this. The fact that He “emptied himself” as well: I would like some help on it."
+     "text": [
+      "I was just looking at Philippians, “taking a bondman’s form, taking his place in the likeness of men” (chap 2: 7); it was all part of this. The fact that He “emptied himself” as well: I would like some help on it."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "It is quite a touching thing that the One that was there had a right to remain in glory, and yet He moved and “emptied himself” to take up this body that had been prepared for Him according to the counsels of God; and according to His own Person He took it up in love for His God. That is quite a thing to think of, that Person moving in relation to love, to take up a body, to secure for His God that which was according to His will. That is Philippians, the manner in which He moved; here it is the love that lay behind how He moved."
+     "text": [
+      "It is quite a touching thing that the One that was there had a right to remain in glory, and yet He moved and “emptied himself” to take up this body that had been prepared for Him according to the counsels of God; and according to His own Person He took it up in love for His God. That is quite a thing to think of, that Person moving in relation to love, to take up a body, to secure for His God that which was according to His will. That is Philippians, the manner in which He moved; here it is the love that lay behind how He moved."
+     ]
     },
     {
      "speaker": "NRC",
-     "text": "I am seeking help as to this thought as to the heart of God. The hymn-writer says,"
-    },
-    {
-     "text": "The heart of God is love (Hymn 59)."
-    },
-    {
-     "text": "It is not something that has been formed through time. It was always there, and yet it has been revealed through Jesus Christ, and now that love has really extended to us, speaking reverently, through Christ, and through God being revealed as Father to us. But that love was always there. I was thinking back at the very beginning: “Jehovah Elohim, walking in the garden in the cool of the day”, Gen 3: 8. There was a desire there, was there not, although the love may have been shown in a different way? I am impressed with the thought that God’s heart has constantly been, and forever will be, love, but it has been revealed through Jesus."
+     "text": [
+      "I am seeking help as to this thought as to the heart of God. The hymn-writer says,",
+      "The heart of God is love (Hymn 59).",
+      "It is not something that has been formed through time. It was always there, and yet it has been revealed through Jesus Christ, and now that love has really extended to us, speaking reverently, through Christ, and through God being revealed as Father to us. But that love was always there. I was thinking back at the very beginning: “Jehovah Elohim, walking in the garden in the cool of the day”, Gen 3: 8. There was a desire there, was there not, although the love may have been shown in a different way? I am impressed with the thought that God’s heart has constantly been, and forever will be, love, but it has been revealed through Jesus."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "Speaking very carefully, because of what God is in His nature, which is love, there is a need there, for love seeks answers to itself. That involves His will. Counsel is how it was going to happen; will was the force behind it; and love is the character of it."
+     "text": [
+      "Speaking very carefully, because of what God is in His nature, which is love, there is a need there, for love seeks answers to itself. That involves His will. Counsel is how it was going to happen; will was the force behind it; and love is the character of it."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "“Jesus Christ come in flesh” brings out the complete answer in Christ to what God desired in men; so “every spirit which confesses Jesus Christ come in flesh is of God”, 1 John 4: 2. We hold on to that, “Jesus Christ come in flesh”, but then we recognise too that He came “by water and blood” (chap 5: 6); so, in order that the counsels of God could be accomplished, He had to die. There was the glory of the incarnation, “Jesus Christ come in flesh”, but then “by water and blood” is the means by which God finds an answer to the work of Christ and to the desires and dictates of His own heart, do you think?"
+     "text": [
+      "“Jesus Christ come in flesh” brings out the complete answer in Christ to what God desired in men; so “every spirit which confesses Jesus Christ come in flesh is of God”, 1 John 4: 2. We hold on to that, “Jesus Christ come in flesh”, but then we recognise too that He came “by water and blood” (chap 5: 6); so, in order that the counsels of God could be accomplished, He had to die. There was the glory of the incarnation, “Jesus Christ come in flesh”, but then “by water and blood” is the means by which God finds an answer to the work of Christ and to the desires and dictates of His own heart, do you think?"
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "That is the thing I find most touching about this, because Christ in Himself was acceptable to God as He was. There was nothing additional needed in Him; so that body was perfect for His God while He was here but then, in order that we should be brought to God, in order that we should be sanctified according to the will of that God, Christ, knowing what that was, laid down that body. So where you have made reference to in John’s epistle is very touching, “he that came by water and blood”. Christ came in, knowing that there was going to come a time when He was going to lay down that holy body for God; He knew what that was. What committal there was, for God!"
+     "text": [
+      "That is the thing I find most touching about this, because Christ in Himself was acceptable to God as He was. There was nothing additional needed in Him; so that body was perfect for His God while He was here but then, in order that we should be brought to God, in order that we should be sanctified according to the will of that God, Christ, knowing what that was, laid down that body. So where you have made reference to in John’s epistle is very touching, “he that came by water and blood”. Christ came in, knowing that there was going to come a time when He was going to lay down that holy body for God; He knew what that was. What committal there was, for God!"
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "So in the scripture, “not by water only, but by water and blood”, the emphasis is on the sacrifice of Christ to secure what was pleasurable to God in men."
+     "text": [
+      "So in the scripture, “not by water only, but by water and blood”, the emphasis is on the sacrifice of Christ to secure what was pleasurable to God in men."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "I was thinking how comprehensive it is that He gave Himself. That would involve His body and His blood, everything. There was nothing withheld; He gave Himself. The immensity of it is really too much for us to comprehend: He gave Himself."
+     "text": [
+      "I was thinking how comprehensive it is that He gave Himself. That would involve His body and His blood, everything. There was nothing withheld; He gave Himself. The immensity of it is really too much for us to comprehend: He gave Himself."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "It is quite something when you think that, when it says He gave Himself, it meant that there was going to come a time when He was going to lie in death. All that had entered into that life, the enjoyment of things while in that body was given up for His God. I find that quite affecting, because the reality of what Christ had as Man with His God, involving His body, and the feelings expressed and known while in that body, would all for a time be given up to fulfill the will of his God."
+     "text": [
+      "It is quite something when you think that, when it says He gave Himself, it meant that there was going to come a time when He was going to lie in death. All that had entered into that life, the enjoyment of things while in that body was given up for His God. I find that quite affecting, because the reality of what Christ had as Man with His God, involving His body, and the feelings expressed and known while in that body, would all for a time be given up to fulfill the will of his God."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "And how wonderful that one could say, “who has … given himself for me”, Gal 2: 20. That was the cost, not only for the complete scope of the fulfilling of the will of God but for each one of us. That is something that we shall never fully encompass throughout eternity."
+     "text": [
+      "And how wonderful that one could say, “who has … given himself for me”, Gal 2: 20. That was the cost, not only for the complete scope of the fulfilling of the will of God but for each one of us. That is something that we shall never fully encompass throughout eternity."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "We shall never be able to fathom what that was, but we will be able to take account of it. You come to the knowledge of what it is, not exactly in comprehension, but as you look on it you see how pleasurable that Man was for His God."
+     "text": [
+      "We shall never be able to fathom what that was, but we will be able to take account of it. You come to the knowledge of what it is, not exactly in comprehension, but as you look on it you see how pleasurable that Man was for His God."
+     ]
     },
     {
      "speaker": "BRL",
-     "text": "I thought of the Lord’s words, “I go and shall prepare you a place … that where I am ye also may be”, John 14: 3. It affected me freshly that, speaking reverently, that was His objective. That was His full occupation, and He did it for me. When you put the two together, it is quite affecting to think that not only did He go that way for you and me, but also that it was in the counsels of God that it should be so."
+     "text": [
+      "I thought of the Lord’s words, “I go and shall prepare you a place … that where I am ye also may be”, John 14: 3. It affected me freshly that, speaking reverently, that was His objective. That was His full occupation, and He did it for me. When you put the two together, it is quite affecting to think that not only did He go that way for you and me, but also that it was in the counsels of God that it should be so."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "Yes, and from that aspect of it, when you get to Ephesians you see “the breadth and length and depths and height”; and then it goes on “and to know the love of the Christ which surpasses knowledge”, chap 3: 18, 19. The four dimensions there are what Christ has secured by His committal to His God; the four dimensions are what He has secured for His God; and “to know the love of the Christ which surpasses knowledge” is the love that secured it. We cannot comprehend it; we cannot reason that out; but we get to look on it and see it for what it is, and that is a wonderful thing."
+     "text": [
+      "Yes, and from that aspect of it, when you get to Ephesians you see “the breadth and length and depths and height”; and then it goes on “and to know the love of the Christ which surpasses knowledge”, chap 3: 18, 19. The four dimensions there are what Christ has secured by His committal to His God; the four dimensions are what He has secured for His God; and “to know the love of the Christ which surpasses knowledge” is the love that secured it. We cannot comprehend it; we cannot reason that out; but we get to look on it and see it for what it is, and that is a wonderful thing."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So we see here the way in which the will of God applies: “by which will we have been sanctified through the offering of the body of Jesus Christ once for all”. We can look at the Lord Jesus and say, “the Son of God, who has loved me”; it is a wonderful fact; but we see also that the whole heart of God was involved in that. The will of God was that we should be sanctified, and the only way that could be done was by such an offering."
+     "text": [
+      "So we see here the way in which the will of God applies: “by which will we have been sanctified through the offering of the body of Jesus Christ once for all”. We can look at the Lord Jesus and say, “the Son of God, who has loved me”; it is a wonderful fact; but we see also that the whole heart of God was involved in that. The will of God was that we should be sanctified, and the only way that could be done was by such an offering."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "Yes, the point of this chapter is that we see it in Christ, His love for the will of His God, but it is fine to see that the will of God, working according to the heart of God, took account of us too. So, what we were for the heart of God before time ever began is what is here. It is God saying, ‘This is what I want, and this is how I am going to secure it, and it is also how I am going to express myself’. He separates to Himself a race of men that is according to the Man of His counsel; that is this. Subsequently “he has perfected in perpetuity the sanctified”. God has done that because Christ lives, as Man, before God, perfectly."
+     "text": [
+      "Yes, the point of this chapter is that we see it in Christ, His love for the will of His God, but it is fine to see that the will of God, working according to the heart of God, took account of us too. So, what we were for the heart of God before time ever began is what is here. It is God saying, ‘This is what I want, and this is how I am going to secure it, and it is also how I am going to express myself’. He separates to Himself a race of men that is according to the Man of His counsel; that is this. Subsequently “he has perfected in perpetuity the sanctified”. God has done that because Christ lives, as Man, before God, perfectly."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Scripture brings in God’s will several times. I was thinking of, “having marked us out beforehand for adoption through Jesus Christ to himself, according to the good pleasure of his will”, Eph 1: 5. This is a working out of that. It is according to what God has secured for Himself: “according to the good pleasure of his will” before time was."
+     "text": [
+      "Scripture brings in God’s will several times. I was thinking of, “having marked us out beforehand for adoption through Jesus Christ to himself, according to the good pleasure of his will”, Eph 1: 5. This is a working out of that. It is according to what God has secured for Himself: “according to the good pleasure of his will” before time was."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "And that is “the good pleasure of his will”. Before you have counsel and purpose, the good pleasure is there. It is God moving according to His heart, so it goes back to what was said: it is the love of God."
+     "text": [
+      "And that is “the good pleasure of his will”. Before you have counsel and purpose, the good pleasure is there. It is God moving according to His heart, so it goes back to what was said: it is the love of God."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "We see how “both he that sanctifies and those sanctified are all of one”, Heb 2: 11. That is in virtue of this verse, “by which will we have been sanctified”; so it is on that basis that we become one with Christ. It is very affecting, and it is “once for all”. That is a great assurance that it is “once for all”. Mr Raven said, ‘Sanctification is more positional; holiness more moral’, vol 16 p302. Of course, there is the practical side to sanctification, but according to this scripture it is “once for all”."
+     "text": [
+      "We see how “both he that sanctifies and those sanctified are all of one”, Heb 2: 11. That is in virtue of this verse, “by which will we have been sanctified”; so it is on that basis that we become one with Christ. It is very affecting, and it is “once for all”. That is a great assurance that it is “once for all”. Mr Raven said, ‘Sanctification is more positional; holiness more moral’, vol 16 p302. Of course, there is the practical side to sanctification, but according to this scripture it is “once for all”."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "And for God it could not be any less than that, or it could not be for God; and that is what makes all of this so wonderful. But it goes on to say, “And the Holy Spirit also bears us witness of it; for after what was said: This is the covenant which I will establish towards them after those days, saith the Lord: Giving my laws into their hearts”; so we begin to love the things of God like Christ did, in our measure, but like Christ did. That is the truth of what the Lord says in John “that they may be one, as we are one”. The character of those persons is Christ over again."
+     "text": [
+      "And for God it could not be any less than that, or it could not be for God; and that is what makes all of this so wonderful. But it goes on to say, “And the Holy Spirit also bears us witness of it; for after what was said: This is the covenant which I will establish towards them after those days, saith the Lord: Giving my laws into their hearts”; so we begin to love the things of God like Christ did, in our measure, but like Christ did. That is the truth of what the Lord says in John “that they may be one, as we are one”. The character of those persons is Christ over again."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "There is a fine note to “those sanctified” in Hebrews 2: 11, ‘Simply the character of the persons, without reference to done or doing’ (note ‘i’); so it does not depend on us in that sense."
+     "text": [
+      "There is a fine note to “those sanctified” in Hebrews 2: 11, ‘Simply the character of the persons, without reference to done or doing’ (note ‘i’); so it does not depend on us in that sense."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So the practical exercise you refer to depends on us seeing this first. Our position in the sight of God is “sanctified”; seeing that, we have the grace to take on the practical exercise."
+     "text": [
+      "So the practical exercise you refer to depends on us seeing this first. Our position in the sight of God is “sanctified”; seeing that, we have the grace to take on the practical exercise."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "We marvel at the way God has operated; so, as you see the example in Christ and what He has done - “by which will”, as has been referred to - it becomes a great lever for how we conduct ourselves."
+     "text": [
+      "We marvel at the way God has operated; so, as you see the example in Christ and what He has done - “by which will”, as has been referred to - it becomes a great lever for how we conduct ourselves."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "It moves on then to our side of the matter: “Having therefore, brethren, boldness for entering into the holy of holies”, and then it goes on, “let us approach with a true heart, in full assurance of faith” - that is the whole system of affection opened up for us - “sprinkled as to our hearts from a wicked conscience, and washed as to our body with pure water”. It is a wonderful thing to take account of that, because the blood of Jesus stands; the manhood of Jesus stands, the reality that He is there, so that it is “entering into the holy of holies by the blood of Jesus,” - that is the moral side - “the new and living way which he has dedicated for us through the veil, that is, his flesh”. That is the body of the Man, and because He remains a Man we can have boldness for entering in because of all the perfection of the Man, not just what He did and what He removed but because of what He is, and that is the point. It is because of what Christ is and not just because of what He has done. You cannot put aside what He has done, but He has done it so that He can be, speaking carefully, a Man where He is for His God. The systems, the operations, the love of God in function are known because Christ is a Man as He is there."
+     "text": [
+      "It moves on then to our side of the matter: “Having therefore, brethren, boldness for entering into the holy of holies”, and then it goes on, “let us approach with a true heart, in full assurance of faith” - that is the whole system of affection opened up for us - “sprinkled as to our hearts from a wicked conscience, and washed as to our body with pure water”. It is a wonderful thing to take account of that, because the blood of Jesus stands; the manhood of Jesus stands, the reality that He is there, so that it is “entering into the holy of holies by the blood of Jesus,” - that is the moral side - “the new and living way which he has dedicated for us through the veil, that is, his flesh”. That is the body of the Man, and because He remains a Man we can have boldness for entering in because of all the perfection of the Man, not just what He did and what He removed but because of what He is, and that is the point. It is because of what Christ is and not just because of what He has done. You cannot put aside what He has done, but He has done it so that He can be, speaking carefully, a Man where He is for His God. The systems, the operations, the love of God in function are known because Christ is a Man as He is there."
+     ]
     },
     {
      "speaker": "NRC",
-     "text": "There are three sections really to verse 19. It starts first of all with “entering into”: that comes from us first; there is movement from our side. There has to be a desire there to want to move. And it is “into the holy of holies”, which has been made manifest by the something which covers all, which is “the blood of Jesus”; so there are three parts to that verse which is very interesting. But over it all is “the blood of Jesus, the new and living way”. It is really interesting to see the way that we have been able to come to it that we can move towards God and go into His presence, “the holy of holies”. It has all been made known to us through the blood of Jesus Christ."
+     "text": [
+      "There are three sections really to verse 19. It starts first of all with “entering into”: that comes from us first; there is movement from our side. There has to be a desire there to want to move. And it is “into the holy of holies”, which has been made manifest by the something which covers all, which is “the blood of Jesus”; so there are three parts to that verse which is very interesting. But over it all is “the blood of Jesus, the new and living way”. It is really interesting to see the way that we have been able to come to it that we can move towards God and go into His presence, “the holy of holies”. It has all been made known to us through the blood of Jesus Christ."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "Yes, exactly, and going on from here it is very interesting, because we move on from this point to the point of faith, and faith, beloved brethren, is something which takes account of finished things; it takes account of finality. So faith does not just work for what is testimonial, although it is taken up there. Faith takes account of finished things with God, and we will go on to that in the next chapter in more detail, if the Lord will; but faith here is in relation to going on: “Cast not away therefore your confidence, which has great recompense”. The confidence is that Christ is enough for God and my standing is in that Man; that is what gives me confidence in God. It is not because I am something; it is because Christ is everything; and I have confidence in that. Faith takes account of Christ as He is for God. Now I stand, and that is why I stand. Is that right?"
+     "text": [
+      "Yes, exactly, and going on from here it is very interesting, because we move on from this point to the point of faith, and faith, beloved brethren, is something which takes account of finished things; it takes account of finality. So faith does not just work for what is testimonial, although it is taken up there. Faith takes account of finished things with God, and we will go on to that in the next chapter in more detail, if the Lord will; but faith here is in relation to going on: “Cast not away therefore your confidence, which has great recompense”. The confidence is that Christ is enough for God and my standing is in that Man; that is what gives me confidence in God. It is not because I am something; it is because Christ is everything; and I have confidence in that. Faith takes account of Christ as He is for God. Now I stand, and that is why I stand. Is that right?"
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "The word is “boldness”, a remarkable word for any of us to have that attitude. It is not something that is characteristic of us. An Israelite of old would never have the audacity or temerity to seek to enter the holy of holies; he never could; he would be consumed: but we have boldness to do such a thing. It is remarkable, because it is underpinned by the blood “dedicated for us”. Think of God being so gracious that through the work of Christ He has been able to dedicate this place and this entering into the holiest for us. How reassuring that is!"
+     "text": [
+      "The word is “boldness”, a remarkable word for any of us to have that attitude. It is not something that is characteristic of us. An Israelite of old would never have the audacity or temerity to seek to enter the holy of holies; he never could; he would be consumed: but we have boldness to do such a thing. It is remarkable, because it is underpinned by the blood “dedicated for us”. Think of God being so gracious that through the work of Christ He has been able to dedicate this place and this entering into the holiest for us. How reassuring that is!"
+     ]
     },
     {
      "speaker": "NRC",
-     "text": "You have a right; somebody who is bold thinks they have a right to something: does that bring this out? We have a right to this, do we not? I often think of that as we enter into the Father’s presence. It is our right as sons to be there, is it not?"
+     "text": [
+      "You have a right; somebody who is bold thinks they have a right to something: does that bring this out? We have a right to this, do we not? I often think of that as we enter into the Father’s presence. It is our right as sons to be there, is it not?"
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "The “assurance of faith” really garrisons us, gives us the ability, really comfort, to enter there."
+     "text": [
+      "The “assurance of faith” really garrisons us, gives us the ability, really comfort, to enter there."
+     ]
     },
     {
-     "text": "THB I was wondering if the enjoyment of being in the sense of justification would be involved in that. We have that sense that it is our right to go in."
+     "speaker": "THB",
+     "text": [
+      "I was wondering if the enjoyment of being in the sense of justification would be involved in that. We have that sense that it is our right to go in."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "That is right. “Sprinkled as to our hearts from a wicked conscience”; that is a complete matter, is it not? Everything is completely cleared. Then “washed as to our body with pure water”; so you are wholly suitable to enter into this place of nearness and the enjoyment of the most precious of divine things."
+     "text": [
+      "That is right. “Sprinkled as to our hearts from a wicked conscience”; that is a complete matter, is it not? Everything is completely cleared. Then “washed as to our body with pure water”; so you are wholly suitable to enter into this place of nearness and the enjoyment of the most precious of divine things."
+     ]
     },
     {
      "speaker": "KRC",
-     "text": "What does it mean by approaching “with a true heart”? It seems challenging to me, because it is a full heart matter in that sense. Am I approaching it just because it is something I am accustomed to, or is it something that I have a genuine desire for, or am I bringing everything to God that would be suitable to Him?"
+     "text": [
+      "What does it mean by approaching “with a true heart”? It seems challenging to me, because it is a full heart matter in that sense. Am I approaching it just because it is something I am accustomed to, or is it something that I have a genuine desire for, or am I bringing everything to God that would be suitable to Him?"
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "Because of the work of Christ within us we can be in this attitude as approaching “with a true heart”. That is that everything is cleared; the work of Christ has proceeded in our hearts; and we have that sure foundation as opposed to what is false. I suppose one of the things that Hebrews deals with is the apostasy, persons resiling from what is true, and what is appropriate and proper to the divine presence, but “a true heart” would be contrary to that, do you think?"
+     "text": [
+      "Because of the work of Christ within us we can be in this attitude as approaching “with a true heart”. That is that everything is cleared; the work of Christ has proceeded in our hearts; and we have that sure foundation as opposed to what is false. I suppose one of the things that Hebrews deals with is the apostasy, persons resiling from what is true, and what is appropriate and proper to the divine presence, but “a true heart” would be contrary to that, do you think?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So there is One who is in the divine presence who is faithful and true: “having a great priest over the house of God”. He has a wonderful administration under His hand, which would involve drawing us in to have part in that response to the divine heart."
+     "text": [
+      "So there is One who is in the divine presence who is faithful and true: “having a great priest over the house of God”. He has a wonderful administration under His hand, which would involve drawing us in to have part in that response to the divine heart."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "The Spirit of God is also involved in that. In verse 16, which I know is slightly different because it is referring to the house of Israel, it says, “Giving my laws into their hearts”. “A true heart” is one that loves God without sin attached."
+     "text": [
+      "The Spirit of God is also involved in that. In verse 16, which I know is slightly different because it is referring to the house of Israel, it says, “Giving my laws into their hearts”. “A true heart” is one that loves God without sin attached."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So, would the exercise, “washed as to our body with pure water” relate to coming “with a true heart”? We can look back with full assurance to the sprinkling, what has been done “through the offering of the body of Jesus Christ once for all” but we need to be maintained morally in accord with that, and there is sufficient in the work of Christ to allow us to “approach with a true heart” because we have that constant exercise to be washed."
+     "text": [
+      "So, would the exercise, “washed as to our body with pure water” relate to coming “with a true heart”? We can look back with full assurance to the sprinkling, what has been done “through the offering of the body of Jesus Christ once for all” but we need to be maintained morally in accord with that, and there is sufficient in the work of Christ to allow us to “approach with a true heart” because we have that constant exercise to be washed."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "The water aspect of the death of Christ takes account of our testimony after we are Christians. You maintain yourself by the water, by the death of Christ; that is how you wash. So the “true heart” is in relation to what you are as morally acceptable to God; the washing has in mind that you are testimonially acceptable to God, and those two things stand; consequently you can have this boldness because the Priest operates according to that."
+     "text": [
+      "The water aspect of the death of Christ takes account of our testimony after we are Christians. You maintain yourself by the water, by the death of Christ; that is how you wash. So the “true heart” is in relation to what you are as morally acceptable to God; the washing has in mind that you are testimonially acceptable to God, and those two things stand; consequently you can have this boldness because the Priest operates according to that."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "I wondered about the boldness. In chapter 4 you have boldness to approach the throne of grace (v 16), and we can understand that, God’s full favour towards us, but I wondered if, practically, as we learn to approach the throne of grace with boldness, we learn how to come into the divine presence and the holiest. It might be the same event: the same time of getting down on your knees might be to approach the throne of grace, but not only that, you are going to enter into what God has in His view, in His mind, rather than simply an answer to your need."
+     "text": [
+      "I wondered about the boldness. In chapter 4 you have boldness to approach the throne of grace (v 16), and we can understand that, God’s full favour towards us, but I wondered if, practically, as we learn to approach the throne of grace with boldness, we learn how to come into the divine presence and the holiest. It might be the same event: the same time of getting down on your knees might be to approach the throne of grace, but not only that, you are going to enter into what God has in His view, in His mind, rather than simply an answer to your need."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "The principal thing you find when you enter into the presence of God is Christ. You see God’s Man. If you do not see Christ before the face of God, how can you have the liberty of boldness to approach? But the Priest is there; who He is and how He functions makes all of this possible."
+     "text": [
+      "The principal thing you find when you enter into the presence of God is Christ. You see God’s Man. If you do not see Christ before the face of God, how can you have the liberty of boldness to approach? But the Priest is there; who He is and how He functions makes all of this possible."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So He is “a great priest over the house of God”; it is an administration under His hand. That is how I would understand “over the house of God”, that He is the One who is in control. In chapter 8 He is referred to as “minister of the holy places”, v 2. We wonder at the glory of that, that there is One who is able to set everything according to the divine mind, and that it should be in function for the pleasure of God."
+     "text": [
+      "So He is “a great priest over the house of God”; it is an administration under His hand. That is how I would understand “over the house of God”, that He is the One who is in control. In chapter 8 He is referred to as “minister of the holy places”, v 2. We wonder at the glory of that, that there is One who is able to set everything according to the divine mind, and that it should be in function for the pleasure of God."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "So the One who set it up is Son over it; the One who makes it function is Priest over it; and that is important. Both of these are in Hebrews but it is important to see that; so this is the Man who operates for God and for us, and it is quite a touching thing, beloved brethren, because this is literally going on in heaven. Are we conscious of that? When we go into the presence of God are we conscience of being there in Christ? Are we conscious that He is operating on our behalf there? It is a very real thing."
+     "text": [
+      "So the One who set it up is Son over it; the One who makes it function is Priest over it; and that is important. Both of these are in Hebrews but it is important to see that; so this is the Man who operates for God and for us, and it is quite a touching thing, beloved brethren, because this is literally going on in heaven. Are we conscious of that? When we go into the presence of God are we conscience of being there in Christ? Are we conscious that He is operating on our behalf there? It is a very real thing."
+     ]
     },
     {
      "speaker": "NRC",
-     "text": "How do we get help to have a better understanding when we do pray, when we are on our knees and praying, that we are in that position because - and I speak only for myself - it is very easy to pray for things of need; so how do we get help to realise the position that we are in when praying?"
+     "text": [
+      "How do we get help to have a better understanding when we do pray, when we are on our knees and praying, that we are in that position because - and I speak only for myself - it is very easy to pray for things of need; so how do we get help to realise the position that we are in when praying?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Well, you are perfectly right to go before the throne of grace. We have boldness to do that, and, if you have any concern whatever, you are absolutely entitled to be there before the throne of grace and to receive all the grace that is needed for it. But it is a matter of seeing that really God does have in mind answering your needs, but not only that. I think we are perhaps particularly helped to do it collectively. It is not exclusively collective, I do not think, this approaching the holy of holies, but we have particular help in doing it collectively."
+     "text": [
+      "Well, you are perfectly right to go before the throne of grace. We have boldness to do that, and, if you have any concern whatever, you are absolutely entitled to be there before the throne of grace and to receive all the grace that is needed for it. But it is a matter of seeing that really God does have in mind answering your needs, but not only that. I think we are perhaps particularly helped to do it collectively. It is not exclusively collective, I do not think, this approaching the holy of holies, but we have particular help in doing it collectively."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "Is it therefore important, or essential, for this that we are praying in the Holy Spirit? That would all enter into this question that has been asked as to how we approach, and what is before us as we approach, whether we have the divine interests and God’s interests in view rather than what is according to our need, but it all shows the importance of praying in the Holy Spirit."
+     "text": [
+      "Is it therefore important, or essential, for this that we are praying in the Holy Spirit? That would all enter into this question that has been asked as to how we approach, and what is before us as we approach, whether we have the divine interests and God’s interests in view rather than what is according to our need, but it all shows the importance of praying in the Holy Spirit."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So that would include His guidance but would be beyond His guidance, the Holy Spirit really acting with our spirits."
+     "text": [
+      "So that would include His guidance but would be beyond His guidance, the Holy Spirit really acting with our spirits."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "The holy of holies goes beyond need. The holy of holies is where God rests; it is for Himself."
+     "text": [
+      "The holy of holies goes beyond need. The holy of holies is where God rests; it is for Himself."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Is it a view really of the Person who is there that changes our experience?"
+     "text": [
+      "Is it a view really of the Person who is there that changes our experience?"
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "Yes, and that is really my exercise, to see the Person there. We might go in with our need and we might go in with the things we need as to the testimony, but if you are going to touch what is eternal, that goes away past your need. It goes past that onto what God sees for Himself and what you see for God; that is the reality of the holy of holies."
+     "text": [
+      "Yes, and that is really my exercise, to see the Person there. We might go in with our need and we might go in with the things we need as to the testimony, but if you are going to touch what is eternal, that goes away past your need. It goes past that onto what God sees for Himself and what you see for God; that is the reality of the holy of holies."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "Does Asaph set it forward? He went into the sanctuary a burdened person, and he understood the end of things. He found an answer to all the turmoil that was afflicting him, but then he says, “Thou wilt guide me by thy counsel, and after the glory, thou wilt receive me”, Ps 73: 24. That is the great end that we are at home in the divine presence according to God."
+     "text": [
+      "Does Asaph set it forward? He went into the sanctuary a burdened person, and he understood the end of things. He found an answer to all the turmoil that was afflicting him, but then he says, “Thou wilt guide me by thy counsel, and after the glory, thou wilt receive me”, Ps 73: 24. That is the great end that we are at home in the divine presence according to God."
+     ]
     },
     {
      "speaker": "NRC",
-     "text": "Would it be right to say that Stephen was one who was in the gain of the holy of holies? It does not say that he was literally praying, but he had his eyes “fixed”. It says as well, “being full of the Holy Spirit” (Acts 7: 55); so that would coincide with what our brother has said. And “he saw”: he saw the Man that was there in glory."
+     "text": [
+      "Would it be right to say that Stephen was one who was in the gain of the holy of holies? It does not say that he was literally praying, but he had his eyes “fixed”. It says as well, “being full of the Holy Spirit” (Acts 7: 55); so that would coincide with what our brother has said. And “he saw”: he saw the Man that was there in glory."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes; it supersedes everything he might have to pray for regarding need, because he had the glory of God before him and Jesus."
+     "text": [
+      "Yes; it supersedes everything he might have to pray for regarding need, because he had the glory of God before him and Jesus."
+     ]
     },
     {
      "speaker": "RCT",
-     "text": "Stephen had a true heart. You can see it in what he says, “Lord, lay not this sin to their charge”, v 60."
+     "text": [
+      "Stephen had a true heart. You can see it in what he says, “Lord, lay not this sin to their charge”, v 60."
+     ]
     },
     {
      "speaker": "TWL",
-     "text": "Yes, he had a true heart, and it is very interesting because he lost his life because he was faithful in relation to the glory of that Man; and that, I suppose, is what lies behind verse 37 here: “For yet a very little while he that comes will come, and will not delay”. That will be a wonderful day, beloved brethren. The day of the vindication of Jesus will be a wonderful day."
+     "text": [
+      "Yes, he had a true heart, and it is very interesting because he lost his life because he was faithful in relation to the glory of that Man; and that, I suppose, is what lies behind verse 37 here: “For yet a very little while he that comes will come, and will not delay”. That will be a wonderful day, beloved brethren. The day of the vindication of Jesus will be a wonderful day."
+     ]
     }
    ]
   },

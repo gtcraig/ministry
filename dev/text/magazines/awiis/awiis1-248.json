@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,29 +26,30 @@
    "place": "LONDON",
    "date": "19 December 1992",
    "speakers": [
-    "W.D.",
-    "J.S.G.",
-    "J.C.E.",
-    "E.C.B.",
-    "D.A.B.",
-    "H.A.H.",
-    "D.J.H.",
-    "D.E.R.",
-    "J.M.",
-    "L.A.B.",
-    "M.A.J.T.",
-    "R.T.",
-    "S.D.K.R.",
-    "R.W.F.",
-    "J.W.",
-    "D.E.B.",
-    "W.H.S.",
-    "E.O.P.M."
+    "WD",
+    "JSG",
+    "JCE",
+    "ECB",
+    "DAB",
+    "HAH",
+    "DJH",
+    "DER",
+    "JM",
+    "LAB",
+    "MAJT",
+    "RT",
+    "SDKR",
+    "RWF",
+    "JW",
+    "DEB",
+    "WHS",
+    "EOPM"
    ],
    "initials": [
     {
-     "initials": "LDAB",
-     "name": "London unless otherwise stated D.A.Burr"
+     "initials": "DAB",
+     "name": "D.A.Burr",
+     "place": "London"
     },
     {
      "initials": "DEB",
@@ -57,10 +58,11 @@
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "London"
     },
     {
-     "initials": "LB",
+     "initials": "LAB",
      "name": "LA.Barlow",
      "place": "Bexley"
     },
@@ -71,7 +73,8 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "London"
     },
     {
      "initials": "RWF",
@@ -80,15 +83,18 @@
     },
     {
      "initials": "JSG",
-     "name": "J.S.Gray"
+     "name": "J.S.Gray",
+     "place": "London"
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "London"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "London"
     },
     {
      "initials": "EOPM",
@@ -117,7 +123,8 @@
     },
     {
      "initials": "MAJT",
-     "name": "M.A.J.Terry"
+     "name": "M.A.J.Terry",
+     "place": "London"
     },
     {
      "initials": "RT",
@@ -131,622 +138,901 @@
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "London unless otherwise stated",
    "initials_text": [
     "London unless otherwise stated",
     "D.A.Burr; D.E.Burr, Redbridge; E.C.Burr; LA.Barlow, Bexley; W.Dickson, Edinburgh; J.C.Evershed; R.W.Flowerdew, Sunbury; J.S.Gray; D.J.Hutson; H.A.Hutson; E.O.P.Mutton, Walton-on-the-Naze; J.Mitchell, Bexley; D.E.Remmington, St Albans; S.D.K.Roberts, Croydon; W.H.Shephard, Bedford; M.A.J.Terry; R.Taylor, Barnet; J.Wright, Redbridge"
    ],
    "paragraphs": [
     {
-     "speaker": "W.D.",
-     "text": "It is in mind to converse about the testimony. The Spirit may give us a greater valuation of it and encourage our commitment to it. I suppose, first of all, we should enquire what is the testimony? I would like to ask some of the younger brothers who have started to do the Lord's work. What do you say?"
+     "speaker": "WD",
+     "text": [
+      "It is in mind to converse about the testimony. The Spirit may give us a greater valuation of it and encourage our commitment to it. I suppose, first of all, we should enquire what is the testimony? I would like to ask some of the younger brothers who have started to do the Lord's work. What do you say?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I understand it to be the expression of Christ down here in His absence, God having at the present time an expression of what He will yet display publicly to the universe."
+     "speaker": "JSG",
+     "text": [
+      "I understand it to be the expression of Christ down here in His absence, God having at the present time an expression of what He will yet display publicly to the universe."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is as good a word as we could get. Could I add to that? I think it would also involve that what God is as revealed in Christ is expressed in persons at the present time? I think that would be the force of it. Would you go with that?"
+     "speaker": "WD",
+     "text": [
+      "That is as good a word as we could get. Could I add to that? I think it would also involve that what God is as revealed in Christ is expressed in persons at the present time? I think that would be the force of it. Would you go with that?"
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "It would be looking forward to the Person, not so much to a code or anything of that kind. The testimony is a Person."
+     "speaker": "JCE",
+     "text": [
+      "It would be looking forward to the Person, not so much to a code or anything of that kind. The testimony is a Person."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is what I have in mind. I want to enlist the younger brethren as to what it means because I have a feeling that we do not really understand Christianity if we do not understand the testimony."
+     "speaker": "WD",
+     "text": [
+      "That is what I have in mind. I want to enlist the younger brethren as to what it means because I have a feeling that we do not really understand Christianity if we do not understand the testimony."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Christianity actually is the testimony, is it not, and the testimony is Christianity? But just adding to what you said, the testimony is set out in individuals, but for a complete aspect of it there must be something collective."
+     "speaker": "ECB",
+     "text": [
+      "Christianity actually is the testimony, is it not, and the testimony is Christianity? But just adding to what you said, the testimony is set out in individuals, but for a complete aspect of it there must be something collective."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, though I would have to say, to make way for our enquiry, that you could hardly insist that the testimony is the exclusive property he few with whom we walk."
+     "speaker": "WD",
+     "text": [
+      "Yes, though I would have to say, to make way for our enquiry, that you could hardly insist that the testimony is the exclusive property he few with whom we walk."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is very important to understand that; I believe that everyone who confesses Jesus as Lord is in the testimony to that extent."
+     "speaker": "ECB",
+     "text": [
+      "It is very important to understand that; I believe that everyone who confesses Jesus as Lord is in the testimony to that extent."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Fully accepting that, there is no doubt that brethren, as such, have a special place in the testimony."
+     "speaker": "WD",
+     "text": [
+      "Fully accepting that, there is no doubt that brethren, as such, have a special place in the testimony."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "They have a special place because they have a special responsibility."
+     "speaker": "ECB",
+     "text": [
+      "They have a special place because they have a special responsibility."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "And special light has been granted to them. I am speaking in the broad sense in which the Lord initiated the recovery of the truth. I say that because it must come into our reading if we are going to make it current amongst us."
+     "speaker": "WD",
+     "text": [
+      "And special light has been granted to them. I am speaking in the broad sense in which the Lord initiated the recovery of the truth. I say that because it must come into our reading if we are going to make it current amongst us."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Does the testimony involve a witness of things that I am certain of myself because I have seen them in Jesus? It is not a second-hand thing, is it?"
+     "speaker": "DAB",
+     "text": [
+      "Does the testimony involve a witness of things that I am certain of myself because I have seen them in Jesus? It is not a second-hand thing, is it?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That may be why the angel emphasises twice in the short passage we read at the end of Matthew's gospel that He is risen. The fact that the Lord is risen is basic to the testimony."
+     "speaker": "WD",
+     "text": [
+      "That may be why the angel emphasises twice in the short passage we read at the end of Matthew's gospel that He is risen. The fact that the Lord is risen is basic to the testimony."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "In Mark's gospel the Lord reproaches those who had not believed those who had seen Him risen. They had the testimony."
+     "speaker": "DAB",
+     "text": [
+      "In Mark's gospel the Lord reproaches those who had not believed those who had seen Him risen. They had the testimony."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "The Lord is risen. How important it is to see that that colours the dispensation! It affects us too that we have a link with a risen Man."
+     "speaker": "WD",
+     "text": [
+      "The Lord is risen. How important it is to see that that colours the dispensation! It affects us too that we have a link with a risen Man."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "I was noticing the reference to discipleship in the scriptures read in the New Testament. I wondered if the testimony is seen in the feature of discipleship, particularly in Antioch, where they were first called Christians, whether it was because of the testimony that they rendered as to Christ personally that they were so named."
+     "speaker": "HAH",
+     "text": [
+      "I was noticing the reference to discipleship in the scriptures read in the New Testament. I wondered if the testimony is seen in the feature of discipleship, particularly in Antioch, where they were first called Christians, whether it was because of the testimony that they rendered as to Christ personally that they were so named."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. At the beginning of Acts their whole outlook, their movements too, were governed by the fact that the Lord was risen. I think it adds vitality to the thought of the testimony to see the emphasis on it in these passages in Matthew."
+     "speaker": "WD",
+     "text": [
+      "Yes. At the beginning of Acts their whole outlook, their movements too, were governed by the fact that the Lord was risen. I think it adds vitality to the thought of the testimony to see the emphasis on it in these passages in Matthew."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Do we have to see too that the testimony is not only for men but that it is for God?"
+     "speaker": "DJH",
+     "text": [
+      "Do we have to see too that the testimony is not only for men but that it is for God?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "What do you mean by saying it is for God?"
+     "speaker": "WD",
+     "text": [
+      "What do you mean by saying it is for God?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "That He sees in the scene where Christ has been rejected that there is still that which witnesses to Him as risen."
+     "speaker": "DJH",
+     "text": [
+      "That He sees in the scene where Christ has been rejected that there is still that which witnesses to Him as risen."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "All involves the help of the Spirit and some formation in the saints. What this passage that we have commenced with brings out - it says, \"he goes before you into Galilee, there shall ye see him\" - is that we are to grasp the fact that no matter what breakdown there may be in the testimony on our side, the Lord will see it through to the end. Of that there can be no question. We regard that as an anchor to the whole situation. No matter what the breakdown may be, it says, \"he goes before you into Galilee, there shall ye see him\". That is the Spirit's intimation that the Lord has control of the whole matter. But our side of it must of necessity come in if the thing is to be vital with us now. Do you go with that?"
+     "speaker": "WD",
+     "text": [
+      "All involves the help of the Spirit and some formation in the saints. What this passage that we have commenced with brings out - it says, \"he goes before you into Galilee, there shall ye see him\" - is that we are to grasp the fact that no matter what breakdown there may be in the testimony on our side, the Lord will see it through to the end. Of that there can be no question. We regard that as an anchor to the whole situation. No matter what the breakdown may be, it says, \"he goes before you into Galilee, there shall ye see him\". That is the Spirit's intimation that the Lord has control of the whole matter. But our side of it must of necessity come in if the thing is to be vital with us now. Do you go with that?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Yes, surely; and Galilee is significant, is it not? Luke begins with Jerusalem and ends with Jerusalem, but here it is Galilee, so we can count upon it in such a day as ours."
+     "speaker": "DJH",
+     "text": [
+      "Yes, surely; and Galilee is significant, is it not? Luke begins with Jerusalem and ends with Jerusalem, but here it is Galilee, so we can count upon it in such a day as ours."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "While what is said is important, is the testimony expressed most fully in what persons are?"
+     "speaker": "DER",
+     "text": [
+      "While what is said is important, is the testimony expressed most fully in what persons are?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is what I hope we will reach in our enquiry together, because it is so essential these days, in the general decline into Laodicean conditions, that the testimony should be expressed in a people who are heavenly. The link with a risen Christ is the real factor. You have statements like Matthew 16: \"on this rock I will build my assembly, and hades' gates shall not prevail against it\" (v 18), and in Timothy: “the assembly of the living God, the pillar and base of the truth\", 1 Tim 3: 15. Basically these are abstract statements, but what is involved in them is that there will be persons formed in the power of the Spirit who will maintain the divine thought right to the end of the dispensation."
+     "speaker": "WD",
+     "text": [
+      "That is what I hope we will reach in our enquiry together, because it is so essential these days, in the general decline into Laodicean conditions, that the testimony should be expressed in a people who are heavenly. The link with a risen Christ is the real factor. You have statements like Matthew 16: \"on this rock I will build my assembly, and hades' gates shall not prevail against it\" (v 18), and in Timothy: “the assembly of the living God, the pillar and base of the truth\", 1 Tim 3: 15. Basically these are abstract statements, but what is involved in them is that there will be persons formed in the power of the Spirit who will maintain the divine thought right to the end of the dispensation."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is of interest that Jesus presents Himself to Laodicea as “the faithful and true witness\", Rev 3: 14. It is almost as if in the day of such decline as that He becomes His own testimony."
+     "speaker": "ECB",
+     "text": [
+      "It is of interest that Jesus presents Himself to Laodicea as “the faithful and true witness\", Rev 3: 14. It is almost as if in the day of such decline as that He becomes His own testimony."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "He does. That is ever true, of course, that Divine Persons are their own testimony. It has often been quoted that Mr Darby said that if brethren are a testimony to anything, they are a testimony to the ruin. Sometimes brethren bring that forth as an excuse for the general breakdown of things. But the statement refers to what is public, to the breakdown of things amongst those who had the light of the recovery. But what remains is the need for the vital side of testimony amongst the people of God."
+     "speaker": "WD",
+     "text": [
+      "He does. That is ever true, of course, that Divine Persons are their own testimony. It has often been quoted that Mr Darby said that if brethren are a testimony to anything, they are a testimony to the ruin. Sometimes brethren bring that forth as an excuse for the general breakdown of things. But the statement refers to what is public, to the breakdown of things amongst those who had the light of the recovery. But what remains is the need for the vital side of testimony amongst the people of God."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "When that remark of Mr Darby's was quoted to Mr Raven, he said, That is not much."
+     "speaker": "ECB",
+     "text": [
+      "When that remark of Mr Darby's was quoted to Mr Raven, he said, That is not much."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I agree with that."
+     "speaker": "WD",
+     "text": [
+      "I agree with that."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Is the apprehension of a Man out of death intended to give power to the testimony? In connection with chapter 16 - that hades' gates shall not prevail against it - do you think that, as we are formed in the understanding of a Man out of death, it will help us to go through whatever may come up against the testimony?"
+     "speaker": "JM",
+     "text": [
+      "Is the apprehension of a Man out of death intended to give power to the testimony? In connection with chapter 16 - that hades' gates shall not prevail against it - do you think that, as we are formed in the understanding of a Man out of death, it will help us to go through whatever may come up against the testimony?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, I think so, because that involves that the Spirit is working at something now in the dispensation that will withstand the power of Satan. Is that so?"
+     "speaker": "WD",
+     "text": [
+      "Yes, I think so, because that involves that the Spirit is working at something now in the dispensation that will withstand the power of Satan. Is that so?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I was thinking of the opening of Revelation. He says there that He has “the keys of death and of hades\", chap 1: 18. So everything is under the control of a Man who has risen out of death, and the effect of that in us is that the testimony can go through in power."
+     "speaker": "JM",
+     "text": [
+      "I was thinking of the opening of Revelation. He says there that He has “the keys of death and of hades\", chap 1: 18. So everything is under the control of a Man who has risen out of death, and the effect of that in us is that the testimony can go through in power."
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "The great point in being risen out of death means that He is living. We may all assent to the fact that He is risen out of death but the thing that has to come home to our hearts is that He is living, is it not?"
+     "speaker": "LAB",
+     "text": [
+      "The great point in being risen out of death means that He is living. We may all assent to the fact that He is risen out of death but the thing that has to come home to our hearts is that He is living, is it not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so; but then when you are in a situation such as it speaks of here, what power it imparts to you that He is risen, a Man out of death. I do not see anything that can hold you more in a fragmented condition of things than having a link with that Man where He is. I think the positive exercise of ministry would always have that in mind."
+     "speaker": "WD",
+     "text": [
+      "I think so; but then when you are in a situation such as it speaks of here, what power it imparts to you that He is risen, a Man out of death. I do not see anything that can hold you more in a fragmented condition of things than having a link with that Man where He is. I think the positive exercise of ministry would always have that in mind."
+     ]
     },
     {
-     "speaker": "M.A.J.T.",
-     "text": "The disciples knew He was alive because they had seen Him. The Lord said, \"blessed they who have not seen and have believed\", John 20: 29. That is us."
+     "speaker": "MAJT",
+     "text": [
+      "The disciples knew He was alive because they had seen Him. The Lord said, \"blessed they who have not seen and have believed\", John 20: 29. That is us."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, so they went to the appointed mountain. I do not know that Scripture indicates where the appointed mountain was. Does anybody know in the record of scripture what mountain it was?"
+     "speaker": "WD",
+     "text": [
+      "Yes, so they went to the appointed mountain. I do not know that Scripture indicates where the appointed mountain was. Does anybody know in the record of scripture what mountain it was?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It was not Sinai."
+     "speaker": "ECB",
+     "text": [
+      "It was not Sinai."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, what does it mean?"
+     "speaker": "WD",
+     "text": [
+      "Well, what does it mean?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The Lord as risen has established something in testimony which, in principle, is immovable and not only immovable, but also very great. Perhaps we need more of that in our souls. I value your reference to that remark of Mr Darby's because, as you say, we often use it in a sense to justify the ruin, but it does not justify the ruin, and the need for testimony is not to ruin but to the fact that there is a mountain that Jesus has appointed."
+     "speaker": "ECB",
+     "text": [
+      "The Lord as risen has established something in testimony which, in principle, is immovable and not only immovable, but also very great. Perhaps we need more of that in our souls. I value your reference to that remark of Mr Darby's because, as you say, we often use it in a sense to justify the ruin, but it does not justify the ruin, and the need for testimony is not to ruin but to the fact that there is a mountain that Jesus has appointed."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Quite so."
+     "speaker": "WD",
+     "text": [
+      "Quite so."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It is a very fine thing to have a mountain in Galilee, is it not?"
+     "speaker": "RT",
+     "text": [
+      "It is a very fine thing to have a mountain in Galilee, is it not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Could the mountain be a reference to the Lord's supper?"
+     "speaker": "WD",
+     "text": [
+      "Could the mountain be a reference to the Lord's supper?"
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Would you open that out, please."
+     "speaker": "SDKR",
+     "text": [
+      "Would you open that out, please."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think that central to the whole theme of the testimony is that divine appointment. I am not suggesting it in its formal aspect, but I think that the Lord's supper is central to Christian testimony when it is partaken of vitally and in full regard for the Lord's rights individually and collectively. It is a focal point that is vital to the testimony at the present time."
+     "speaker": "WD",
+     "text": [
+      "I think that central to the whole theme of the testimony is that divine appointment. I am not suggesting it in its formal aspect, but I think that the Lord's supper is central to Christian testimony when it is partaken of vitally and in full regard for the Lord's rights individually and collectively. It is a focal point that is vital to the testimony at the present time."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Would one characteristic of persons who take the Supper rightly be like what is said of these women, ''for I know that ye seek Jesus the crucified one. He is not here, for he is risen\"?"
+     "speaker": "JSG",
+     "text": [
+      "Would one characteristic of persons who take the Supper rightly be like what is said of these women, ''for I know that ye seek Jesus the crucified one. He is not here, for he is risen\"?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "The Supper affords the constant strengthening of our link with the risen Man. To clarify what I am saying: I am speaking about the institution, by divine appointment, of something that would be a rallying point for believers who are consciously seeking to maintain the testimony for the Lord."
+     "speaker": "WD",
+     "text": [
+      "The Supper affords the constant strengthening of our link with the risen Man. To clarify what I am saying: I am speaking about the institution, by divine appointment, of something that would be a rallying point for believers who are consciously seeking to maintain the testimony for the Lord."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Is that the force of the apostle's word in 1 Corinthians 11: \"For as often as ye shall eat this. bread, and drink the cup, ye announce the death of the Lord, until he come\" (v 26)?"
+     "speaker": "RWF",
+     "text": [
+      "Is that the force of the apostle's word in 1 Corinthians 11: \"For as often as ye shall eat this. bread, and drink the cup, ye announce the death of the Lord, until he come\" (v 26)?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That announcement, would you say, involves some moral touch?"
+     "speaker": "WD",
+     "text": [
+      "That announcement, would you say, involves some moral touch?"
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Yes, but I was wondering why it is ''the death of the Lord\" and not His resurrection. Why is that?"
+     "speaker": "RWF",
+     "text": [
+      "Yes, but I was wondering why it is ''the death of the Lord\" and not His resurrection. Why is that?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is the public side, the testimony, but it is celebrated by believers who are in the full recognition and enjoyment of His present position. The Person who died is alive, and we announce His death publicly in this scene."
+     "speaker": "WD",
+     "text": [
+      "It is the public side, the testimony, but it is celebrated by believers who are in the full recognition and enjoyment of His present position. The Person who died is alive, and we announce His death publicly in this scene."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "I was wondering about what we were saying earlier as to resurrection, whether the force of it in the testimony is not simply that there is life out of death - that is true and Christ is alive - but there is life in the scene of death."
+     "speaker": "RWF",
+     "text": [
+      "I was wondering about what we were saying earlier as to resurrection, whether the force of it in the testimony is not simply that there is life out of death - that is true and Christ is alive - but there is life in the scene of death."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "What a living testimony that there are believers in the full gain of what you are saying! The effect of it, even in the most limited circumstances, would be profound if there were persons really in the power and life of a risen Christ."
+     "speaker": "WD",
+     "text": [
+      "What a living testimony that there are believers in the full gain of what you are saying! The effect of it, even in the most limited circumstances, would be profound if there were persons really in the power and life of a risen Christ."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "What our brother says helps in regard to a question I was going to ask. We are speaking much about a risen Christ. We know a glorified Christ, but the risen Christ is that there is life in the scene where there is death all around."
+     "speaker": "DJH",
+     "text": [
+      "What our brother says helps in regard to a question I was going to ask. We are speaking much about a risen Christ. We know a glorified Christ, but the risen Christ is that there is life in the scene where there is death all around."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "When we speak about a risen Christ, what we have in mind is the power that attaches to the Man in that place."
+     "speaker": "WD",
+     "text": [
+      "When we speak about a risen Christ, what we have in mind is the power that attaches to the Man in that place."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is of interest in regard to Corinthians, that the real point of chapter 11 is not the institution of the Supper itself but the moral state of the brethren. Paul enlarges on the resurrection and the risen Christ in chapter 15."
+     "speaker": "ECB",
+     "text": [
+      "It is of interest in regard to Corinthians, that the real point of chapter 11 is not the institution of the Supper itself but the moral state of the brethren. Paul enlarges on the resurrection and the risen Christ in chapter 15."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "So what the Spirit would seek to emphasise is that the Supper is a vital thing in the testimony by divine appointment. It is not just an ordinance but there is something vital in it, the persons who partake of it knowing its moral significance."
+     "speaker": "WD",
+     "text": [
+      "So what the Spirit would seek to emphasise is that the Supper is a vital thing in the testimony by divine appointment. It is not just an ordinance but there is something vital in it, the persons who partake of it knowing its moral significance."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "The reference to 1 Corinthians 15 is interesting because we do not get the rapture there; it is the resurrection."
+     "speaker": "DJH",
+     "text": [
+      "The reference to 1 Corinthians 15 is interesting because we do not get the rapture there; it is the resurrection."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Does what we are saying as to the Supper give confirmation, and maybe raise exercise with us, as to what we say, that the Lord sets something on at the Supper in relation to the testimony here."
+     "speaker": "JM",
+     "text": [
+      "Does what we are saying as to the Supper give confirmation, and maybe raise exercise with us, as to what we say, that the Lord sets something on at the Supper in relation to the testimony here."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, and you would say that that setting on is not only in relation to ministry."
+     "speaker": "WD",
+     "text": [
+      "Yes, and you would say that that setting on is not only in relation to ministry."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I was thinking of it more broadly than ministry. It would have the whole week in testimony in mind in whatever circumstances the saints may come into it. I would like to experience that a bit more."
+     "speaker": "JM",
+     "text": [
+      "I was thinking of it more broadly than ministry. It would have the whole week in testimony in mind in whatever circumstances the saints may come into it. I would like to experience that a bit more."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Is it this mountain where they saw Him? They saw the Lord there and did Him homage. Is that a vital thing in regard of the testimony?"
+     "speaker": "JW",
+     "text": [
+      "Is it this mountain where they saw Him? They saw the Lord there and did Him homage. Is that a vital thing in regard of the testimony?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, and from there He came up to them and said \"All power has been given me in heaven and upon earth. Go therefore and make disciples of all the nations, baptising them to the name of the Father, and of the Son, and of the Holy Spirit\". That is a vital part of the testimony."
+     "speaker": "WD",
+     "text": [
+      "Yes, and from there He came up to them and said \"All power has been given me in heaven and upon earth. Go therefore and make disciples of all the nations, baptising them to the name of the Father, and of the Son, and of the Holy Spirit\". That is a vital part of the testimony."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It makes a new centre, does it not, when they apprehend the Lord risen? Death is vanquished; a new scene is opened up."
+     "speaker": "RT",
+     "text": [
+      "It makes a new centre, does it not, when they apprehend the Lord risen? Death is vanquished; a new scene is opened up."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It involves the gospel as the way into it. There is a testimony: \"baptising them to the name of the Father, and of the Son, and of the Holy Spirit\". In the glad tidings there is a wondrous area of blessing opened up in this present scene of darkness and sorrow. There is this divine name available in blessing for man at the present time."
+     "speaker": "WD",
+     "text": [
+      "It involves the gospel as the way into it. There is a testimony: \"baptising them to the name of the Father, and of the Son, and of the Holy Spirit\". In the glad tidings there is a wondrous area of blessing opened up in this present scene of darkness and sorrow. There is this divine name available in blessing for man at the present time."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "We sing:"
+     "speaker": "DER",
+     "text": [
+      "We sing:",
+      "'By love constrained, Thy death we deem",
+      "Our point of severance from this scene'",
+      "(Hymn 192)",
+      "Is that the point to which the Lord was bringing the disciples and thus finding a place of stability in this mountain of Galilee where divine disclosures could be unfolded?"
+     ]
     },
     {
-     "text": "'By love constrained, Thy death we deem"
+     "speaker": "WD",
+     "text": [
+      "The injunction that He gave them was accompanied by power to baptise ''to the name of the Father, and of the Son, and of the Holy Spirit\". The gospel, involving the economy, is a vital part of the present testimony. I am not talking about the platform. The revelation of God in Father, Son and Holy Spirit is a way of divine blessing in this dark world today. The world needs it, and it is so imperative that the spirit of the glad tidings as well as the word of the glad tidings be maintained amongst the people of God."
+     ]
     },
     {
-     "text": "Our point of severance from this scene'"
+     "speaker": "DAB",
+     "text": [
+      "The appointment was given to twelve but only eleven kept it. I was thinking that the breakdown that has come in is necessarily before us, but what can never be broken down in the mountain is also before us."
+     ]
     },
     {
-     "text": "(Hymn 192)"
+     "speaker": "WD",
+     "text": [
+      "That is one thing that one would be assured of, that right to the end of the dispensation somewhere the full significance of the institution of the Lord's supper will remain with the saints collectively."
+     ]
     },
     {
-     "text": "Is that the point to which the Lord was bringing the disciples and thus finding a place of stability in this mountain of Galilee where divine disclosures could be unfolded?"
+     "speaker": "DAB",
+     "text": [
+      "The Lord has never promised us crowds. The fulness of it in a sense is in the mountain and what He brings to it, but we have to seek out those who are available with whom to enjoy it, celebrate it."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "The injunction that He gave them was accompanied by power to baptise ''to the name of the Father, and of the Son, and of the Holy Spirit\". The gospel, involving the economy, is a vital part of the present testimony. I am not talking about the platform. The revelation of God in Father, Son and Holy Spirit is a way of divine blessing in this dark world today. The world needs it, and it is so imperative that the spirit of the glad tidings as well as the word of the glad tidings be maintained amongst the people of God."
+     "speaker": "JW",
+     "text": [
+      "As to the glad tidings and what the Lord puts on the disciples here, it is quite an undertaking, is it not? But there is His promise: \"I am with you all the days\". I wondered if that is something we need to think of, that the power of the testimony is seen where the Lord is with persons in that way to give power and support to it."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The appointment was given to twelve but only eleven kept it. I was thinking that the breakdown that has come in is necessarily before us, but what can never be broken down in the mountain is also before us."
+     "speaker": "WD",
+     "text": [
+      "How could we go on if we had not the constant, weekly confirmation that the Lord is with us? The Lord assures us that He is with us to the end, and that raises a simple exercise with me anyway - how vital is that assurance in my own soul as I touch it?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is one thing that one would be assured of, that right to the end of the dispensation somewhere the full significance of the institution of the Lord's supper will remain with the saints collectively."
+     "speaker": "DEB",
+     "text": [
+      "Is baptism part of the testimony?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The Lord has never promised us crowds. The fulness of it in a sense is in the mountain and what He brings to it, but we have to seek out those who are available with whom to enjoy it, celebrate it."
+     "speaker": "WD",
+     "text": [
+      "What do you mean by 'part of the testimony'?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "As to the glad tidings and what the Lord puts on the disciples here, it is quite an undertaking, is it not? But there is His promise: \"I am with you all the days\". I wondered if that is something we need to think of, that the power of the testimony is seen where the Lord is with persons in that way to give power and support to it."
+     "speaker": "DEB",
+     "text": [
+      "I suppose the testimony has certain elements in it."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "How could we go on if we had not the constant, weekly confirmation that the Lord is with us? The Lord assures us that He is with us to the end, and that raises a simple exercise with me anyway - how vital is that assurance in my own soul as I touch it?"
+     "speaker": "WD",
+     "text": [
+      "I think so, but it also involves that there is power in the Name to bring persons into conformity to the blessing of the glad tidings."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "Is baptism part of the testimony?"
+     "speaker": "ECB",
+     "text": [
+      "In the beginning of the Acts persons were baptised - indeed, up to chapter 9, at least - but it was very much later that Paul developed the doctrine of baptism. Initially, baptism was a token that I am committed to the testimony."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "What do you mean by 'part of the testimony'?"
+     "speaker": "WD",
+     "text": [
+      "Yes. It may help parents who are bringing up children that, when this matter was raised with Mr Darby he said, I would not like to leave my children on heathen ground. In baptising them ''to the name of the Father, and of the Son, and of the Holy Spirit\" we transfer them to the new ground of Christianity, which the testimony involves. That may help our younger brethren if families are coming along. We have a baptismal meeting and somebody will suggest a scripture. But, beloved young brethren, it is something that is vital to your future prosperity if you hold these children on the ground that their baptism has placed them."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "I suppose the testimony has certain elements in it."
+     "speaker": "JM",
+     "text": [
+      "It is very touching that it says, \"Go therefore and make disciples\". That involves a process, but it involves some moral result from the testimony, do you think? And then it is \"baptising them to the name\". What is in view is the full thought of Christianity."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so, but it also involves that there is power in the Name to bring persons into conformity to the blessing of the glad tidings."
+     "speaker": "WD",
+     "text": [
+      "Christianity vitally. We should have a word on Acts 20. What one had in mind in reading this passage is that it might link on with what we have said, that it is a heavenly testimony. It may point on to the millennium, but at the present time the testimony is a heavenly one."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "In the beginning of the Acts persons were baptised - indeed, up to chapter 9, at least - but it was very much later that Paul developed the doctrine of baptism. Initially, baptism was a token that I am committed to the testimony."
+     "speaker": "ECB",
+     "text": [
+      "At Paul's last defence he said, \"I was not disobedient to the heavenly vision\", Acts 26: 19."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. It may help parents who are bringing up children that, when this matter was raised with Mr Darby he said, I would not like to leave my children on heathen ground. In baptising them ''to the name of the Father, and of the Son, and of the Holy Spirit\" we transfer them to the new ground of Christianity, which the testimony involves. That may help our younger brethren if families are coming along. We have a baptismal meeting and somebody will suggest a scripture. But, beloved young brethren, it is something that is vital to your future prosperity if you hold these children on the ground that their baptism has placed them."
+     "speaker": "WD",
+     "text": [
+      "So to those Ephesian elders he announces \"all the counsel of God\". Now, the \"counsel of God\" involves more than the assembly. Is that so?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "It is very touching that it says, \"Go therefore and make disciples\". That involves a process, but it involves some moral result from the testimony, do you think? And then it is \"baptising them to the name\". What is in view is the full thought of Christianity."
+     "speaker": "ECB",
+     "text": [
+      "I was thinking that very thing. \"The counsel of God\" involves God's counsels in relation to the nations, in relation to Israel, in relation to new heavens and a new earth."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Christianity vitally. We should have a word on Acts 20. What one had in mind in reading this passage is that it might link on with what we have said, that it is a heavenly testimony. It may point on to the millennium, but at the present time the testimony is a heavenly one."
+     "speaker": "WD",
+     "text": [
+      "That is all included in the testimony."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "At Paul's last defence he said, \"I was not disobedient to the heavenly vision\", Acts 26: 19."
+     "speaker": "ECB",
+     "text": [
+      "If I may quote - which I do not like doing you will remember that Mr Raven said that all the elements of the world to come are manifested in Christianity."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "So to those Ephesian elders he announces \"all the counsel of God\". Now, the \"counsel of God\" involves more than the assembly. Is that so?"
+     "speaker": "WD",
+     "text": [
+      "I think it is important to grasp that the heavenly character of the testimony involves divine counsels, especially this vessel, the assembly, which is central to all divine operations at the present time."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I was thinking that very thing. \"The counsel of God\" involves God's counsels in relation to the nations, in relation to Israel, in relation to new heavens and a new earth."
+     "speaker": "ECB",
+     "text": [
+      "It has also been said that every thread of divine activity since the beginning of creation will be gathered up in the assembly in display."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is all included in the testimony."
+     "speaker": "WD",
+     "text": [
+      "The pressure upon our younger brethren over associations and other matters is very great, and unless the testimony we are speaking about affects them deeply, they may put matters into the scales and say, Is it worthwhile? Unless the testimony grips you vitally you will not be prepared to make the sacrifice that is involved."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "If I may quote - which I do not like doing you will remember that Mr Raven said that all the elements of the world to come are manifested in Christianity."
+     "speaker": "DAB",
+     "text": [
+      "It is very touching in that connection that Paul speaks here of God having made a purchase; you might say - if I may speak reverently - in a currency that only He uses, showing that these things are of inestimable value to God."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think it is important to grasp that the heavenly character of the testimony involves divine counsels, especially this vessel, the assembly, which is central to all divine operations at the present time."
+     "speaker": "WD",
+     "text": [
+      "In the scripture you have referred to why does it say “the assembly of God\" and not the assembly as the bride? He has spoken of the assembly as a bride in the Ephesian epistle, but here he does not speak of that; he speaks of “the assembly of God\". Why does he do that?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It has also been said that every thread of divine activity since the beginning of creation will be gathered up in the assembly in display."
+     "speaker": "DAB",
+     "text": [
+      "He is thinking about the testimony, whereas the assembly as the bride of Christ is a more heavenly setting, out of the scene of testimony. Is that right?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "The pressure upon our younger brethren over associations and other matters is very great, and unless the testimony we are speaking about affects them deeply, they may put matters into the scales and say, Is it worthwhile? Unless the testimony grips you vitally you will not be prepared to make the sacrifice that is involved."
+     "speaker": "WD",
+     "text": [
+      "How precious to have the light of the assembly of God, \"purchased with the blood of his own\". It puts us in mind of the first chapter of Corinthians where we have ''the assembly of God which is in Corinth\". How dignified and choice to have a part in the testimony which involves the assembly of God!"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It is very touching in that connection that Paul speaks here of God having made a purchase; you might say - if I may speak reverently - in a currency that only He uses, showing that these things are of inestimable value to God."
+     "speaker": "JW",
+     "text": [
+      "Would it be right to say that the assembly is the vessel of testimony at the present time?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "In the scripture you have referred to why does it say “the assembly of God\" and not the assembly as the bride? He has spoken of the assembly as a bride in the Ephesian epistle, but here he does not speak of that; he speaks of “the assembly of God\". Why does he do that?"
+     "speaker": "WD",
+     "text": [
+      "Yes; I emphasise that: the assembly. But you must have the thing concretely, otherwise you have not grasped the force of the expression ''which he has purchased with the blood of his own\"."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "He is thinking about the testimony, whereas the assembly as the bride of Christ is a more heavenly setting, out of the scene of testimony. Is that right?"
+     "speaker": "ECB",
+     "text": [
+      "Is what you have in mind in emphasising ''the assembly\", that it is the assembly in its totality, not a local company or anything like that?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "How precious to have the light of the assembly of God, \"purchased with the blood of his own\". It puts us in mind of the first chapter of Corinthians where we have ''the assembly of God which is in Corinth\". How dignified and choice to have a part in the testimony which involves the assembly of God!"
+     "speaker": "WD",
+     "text": [
+      "It is the assembly of God. I am in no way minimising brethren as such. I come back to what I said earlier - that brethren have a special place in the testimony. The divine thoughts that have been with brethren since the beginning of the recovery are unique in Christendom. But the exercise is, I would say, as to the answer in power and freshness to that light that the Lord has given."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Would it be right to say that the assembly is the vessel of testimony at the present time?"
+     "speaker": "ECB",
+     "text": [
+      "There are books giving an account of different sects which include the brethren. I was looking at one recently in which it says the brethren have had an influence in Christendom grossly out of proportion to their numbers."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes; I emphasise that: the assembly. But you must have the thing concretely, otherwise you have not grasped the force of the expression ''which he has purchased with the blood of his own\"."
+     "speaker": "WD",
+     "text": [
+      "That is true; and may I say we disown the sectarian classification. If we could, by the Spirit's help, in any ministry arouse the brethren in our localities to the significance and richness of the light that the Lord has deposited in the assembly of God, I am sure it would encourage more of the younger brethren to say, Well, from now on, from this very day, my life, my all, is in relation to the testimony of our Lord."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is what you have in mind in emphasising ''the assembly\", that it is the assembly in its totality, not a local company or anything like that?"
+     "speaker": "RT",
+     "text": [
+      "The emphasis on God throughout this section is very striking. Does that suggest that the testimony is all pointing to God, not to a company, nor even to persons?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is the assembly of God. I am in no way minimising brethren as such. I come back to what I said earlier - that brethren have a special place in the testimony. The divine thoughts that have been with brethren since the beginning of the recovery are unique in Christendom. But the exercise is, I would say, as to the answer in power and freshness to that light that the Lord has given."
+     "speaker": "WD",
+     "text": [
+      "In the measure in which there is testimony the service of God is enriched. Have we not known that at a time of suffering in the testimony, perhaps in our own personal experience, having to stand for the Lord's rights in our employment and things like that? The service of God has a wonderful richness as we approach it."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "There are books giving an account of different sects which include the brethren. I was looking at one recently in which it says the brethren have had an influence in Christendom grossly out of proportion to their numbers."
+     "speaker": "DAB",
+     "text": [
+      "The assembly of God is not limited to those who may be alive now, is it? When we speak of it as the vessel of testimony, we mean throughout the present dispensation. Paul here looks on to those who will succeed those to whom he speaks, just as we can look back to those who have gone before. It might be for our encouragement just to observe that this is not the only day in which things have been difficult, and if others had not maintained things in times of difficulty, we now would have nothing."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is true; and may I say we disown the sectarian classification. If we could, by the Spirit's help, in any ministry arouse the brethren in our localities to the significance and richness of the light that the Lord has deposited in the assembly of God, I am sure it would encourage more of the younger brethren to say, Well, from now on, from this very day, my life, my all, is in relation to the testimony of our Lord."
+     "speaker": "SDKR",
+     "text": [
+      "We walk in the light of the assembly. Should we seek to maintain the dignity of the assembly?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "The emphasis on God throughout this section is very striking. Does that suggest that the testimony is all pointing to God, not to a company, nor even to persons?"
+     "speaker": "WD",
+     "text": [
+      "I think we do. We walk in the light of the assembly, but I have thought a little lately as to whether that is sufficient for our day. There are many companies which claim to be walking in the light of the assembly. I do not know that the expression is sufficient in our time."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "In the measure in which there is testimony the service of God is enriched. Have we not known that at a time of suffering in the testimony, perhaps in our own personal experience, having to stand for the Lord's rights in our employment and things like that? The service of God has a wonderful richness as we approach it."
+     "speaker": "SDKR",
+     "text": [
+      "I have in mind that we do not claim to be the assembly but we have that light."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The assembly of God is not limited to those who may be alive now, is it? When we speak of it as the vessel of testimony, we mean throughout the present dispensation. Paul here looks on to those who will succeed those to whom he speaks, just as we can look back to those who have gone before. It might be for our encouragement just to observe that this is not the only day in which things have been difficult, and if others had not maintained things in times of difficulty, we now would have nothing."
+     "speaker": "WD",
+     "text": [
+      "We walk in the light of the counsels of God as a heavenly people at the present time, bearing testimony to the rights of Christ in our localities, as partaking of the Lord's supper vitally every Lord's Day."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "We walk in the light of the assembly. Should we seek to maintain the dignity of the assembly?"
+     "speaker": "RWF",
+     "text": [
+      "Is not the testimony very positive? We sometimes think of it in a negative context and perhaps are filled with negative thoughts about it but, as has just been said, the references to God are extensive here: “the grace of God\", “the kingdom of God\", “the counsel of God\"; and the vessel of expression is '1he assembly of God\". That is very positive and, one might say, powerful."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think we do. We walk in the light of the assembly, but I have thought a little lately as to whether that is sufficient for our day. There are many companies which claim to be walking in the light of the assembly. I do not know that the expression is sufficient in our time."
+     "speaker": "WD",
+     "text": [
+      "Yes, and that leads us on to verse 32: \"And now I commit you to God, and to the word of his grace, which is able to build you up and give to you an inheritance among all the sanctified\". \"The word of his grace\" is a peculiar expression. What do you think it means?"
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "I have in mind that we do not claim to be the assembly but we have that light."
+     "speaker": "RWF",
+     "text": [
+      "It is not an expression of ourselves, is it? It is to be the expression of God Himself who manifests Himself in grace in contrast to law which is demand. Grace is supply, which seems to connect with the positive side."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "We walk in the light of the counsels of God as a heavenly people at the present time, bearing testimony to the rights of Christ in our localities, as partaking of the Lord's supper vitally every Lord's Day."
+     "speaker": "WD",
+     "text": [
+      "\"The word of his grace\" would appear to be the divine supply that maintains our committal to God and His testimony. It points to the invaluable character of meetings such as we are having today."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Is not the testimony very positive? We sometimes think of it in a negative context and perhaps are filled with negative thoughts about it but, as has just been said, the references to God are extensive here: “the grace of God\", “the kingdom of God\", “the counsel of God\"; and the vessel of expression is '1he assembly of God\". That is very positive and, one might say, powerful."
+     "speaker": "JM",
+     "text": [
+      "Do you think that, while there is in Paul what is distinctive in the testimony - what is apostolic - in the way that he speaks here of making no account of his life as dear, and finishing his course and the ministry which he had received “to testify the glad tidings of the grace of God\", and then \"clean from the blood of all\" and \"not shrunk from announcing to you all the counsel of God\", his responsibility is fully discharged? Do you think “the word of his grace\" is in view of our discharging our responsibility for the testimony?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, and that leads us on to verse 32: \"And now I commit you to God, and to the word of his grace, which is able to build you up and give to you an inheritance among all the sanctified\". \"The word of his grace\" is a peculiar expression. What do you think it means?"
+     "speaker": "WD",
+     "text": [
+      "Yes. There is a currency about “the word of his grace\" and, to me, it brings out the full importance of what our gatherings should be in “the word of his grace\" being available to build us up constantly in relation to the testimony."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "It is not an expression of ourselves, is it? It is to be the expression of God Himself who manifests Himself in grace in contrast to law which is demand. Grace is supply, which seems to connect with the positive side."
+     "speaker": "ECB",
+     "text": [
+      "\"The word of His grace\" would cover the same ground as declaring \"all the counsel of God\", would it not? Do not the first and second chapters of Ephesians bring that out, that “the word of his grace\" is rich and glorious, but it gives us a place in Christ and brings out to us the fulness of salvation; that is, the counsels of God."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "\"The word of his grace\" would appear to be the divine supply that maintains our committal to God and His testimony. It points to the invaluable character of meetings such as we are having today."
+     "speaker": "WHS",
+     "text": [
+      "Paul writes to Titus \"that they may adorn the teaching which is of our Saviour God in all things\" (chap 2: 10) - in a number of practical things which are, alas, quite often ignored at the present time in practice amongst us. But it is “the grace of God which carries with it salvation for all men has appeared, teaching us\" certain things. Do you think that links with \"the word of his grace\"?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Do you think that, while there is in Paul what is distinctive in the testimony - what is apostolic - in the way that he speaks here of making no account of his life as dear, and finishing his course and the ministry which he had received “to testify the glad tidings of the grace of God\", and then \"clean from the blood of all\" and \"not shrunk from announcing to you all the counsel of God\", his responsibility is fully discharged? Do you think “the word of his grace\" is in view of our discharging our responsibility for the testimony?"
+     "speaker": "WD",
+     "text": [
+      "I think it does, and it emphasises what we must never forget, that this dispensation is maintained on the principle of grace."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. There is a currency about “the word of his grace\" and, to me, it brings out the full importance of what our gatherings should be in “the word of his grace\" being available to build us up constantly in relation to the testimony."
+     "speaker": "WHS",
+     "text": [
+      "It has particularly struck by “that they may adorn the teaching\", persons adorning the teaching."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "\"The word of His grace\" would cover the same ground as declaring \"all the counsel of God\", would it not? Do not the first and second chapters of Ephesians bring that out, that “the word of his grace\" is rich and glorious, but it gives us a place in Christ and brings out to us the fulness of salvation; that is, the counsels of God."
+     "speaker": "WD",
+     "text": [
+      "How practical that is! It should be an encouragement to our young brothers and sisters. I remember that a brother obtained a job for a young sister. After she had been in it for six months the personnel officer came to the brother and said, If you have any more young people like that I will take a dozen of them."
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "Paul writes to Titus \"that they may adorn the teaching which is of our Saviour God in all things\" (chap 2: 10) - in a number of practical things which are, alas, quite often ignored at the present time in practice amongst us. But it is “the grace of God which carries with it salvation for all men has appeared, teaching us\" certain things. Do you think that links with \"the word of his grace\"?"
+     "speaker": "JM",
+     "text": [
+      "Do you think that, while the enemy is always set against the testimony, he is particularly set against the heavenly character of it?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think it does, and it emphasises what we must never forget, that this dispensation is maintained on the principle of grace."
+     "speaker": "WD",
+     "text": [
+      "I think so. I know this expression 'a heavenly testimony' is difficult to define. We live in a dark world, a wearisome world, and to have the joy of heavenly things springing up in our hearts day by day as we go amongst men is a testimony. Our neighbours say to us, Why do you go to so many meetings? It is just because something of the heavenly testimony of God has taken possession of us. Hymn 206 really brings in what is known in the Christian circle now:",
+      "\"Where the saints in glory thronging,",
+      "Where they feed on life's blest Tree'.",
+      "We touch that at the present time."
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "It has particularly struck by “that they may adorn the teaching\", persons adorning the teaching."
+     "speaker": "RT",
+     "text": [
+      "There is power in” the word of his grace\", is there not? The rest of that verse is important. It says, \"which is able to build you up\". He is not saying who is able, but “the word of his grace, which is able\". There is power in “the word of his grace\" to build us up and give us the enjoyment of this inheritance now."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "How practical that is! It should be an encouragement to our young brothers and sisters. I remember that a brother obtained a job for a young sister. After she had been in it for six months the personnel officer came to the brother and said, If you have any more young people like that I will take a dozen of them."
+     "speaker": "WD",
+     "text": [
+      "I think so. Had you any thought how that would operate? Am I right in what I am saying as to the constant circulation of positive ministry?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Do you think that, while the enemy is always set against the testimony, he is particularly set against the heavenly character of it?"
+     "speaker": "RT",
+     "text": [
+      "I think it is important; there is a living word of His grace going on today which is able to build us up. We need to have faith about that and allow it to do the building up."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so. I know this expression 'a heavenly testimony' is difficult to define. We live in a dark world, a wearisome world, and to have the joy of heavenly things springing up in our hearts day by day as we go amongst men is a testimony. Our neighbours say to us, Why do you go to so many meetings? It is just because something of the heavenly testimony of God has taken possession of us. Hymn 206 really brings in what is known in the Christian circle now:"
+     "speaker": "WD",
+     "text": [
+      "Yes, and it helps the saints to maintain the testimony because there is something being built up in them all the time by “the word of his grace\"."
+     ]
     },
     {
-     "text": "\"Where the saints in glory thronging,"
+     "speaker": "JCE",
+     "text": [
+      "It is a testimony if we are enjoying what these things are."
+     ]
     },
     {
-     "text": "Where they feed on life's blest Tree'."
+     "speaker": "WD",
+     "text": [
+      "Yes. You would remember Mr Champney. He used to say that on a Monday morning the brethren should be like little heavenly cities coming down to influence the environment in which they live. I think that is very real."
+     ]
     },
     {
-     "text": "We touch that at the present time."
+     "speaker": "ECB",
+     "text": [
+      "One thing that is important is that “the word of his grace\" proceeds in grace, does it not? The word of God's grace is very full, but it proceeds in grace among the brethren."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "There is power in” the word of his grace\", is there not? The rest of that verse is important. It says, \"which is able to build you up\". He is not saying who is able, but “the word of his grace, which is able\". There is power in “the word of his grace\" to build us up and give us the enjoyment of this inheritance now."
+     "speaker": "WD",
+     "text": [
+      "Yes, it is part of the responsibility I am seeking to bring out. He addresses the overseers here, those that are responsible. The constant flow of \"the word of his grace\" amongst us builds up the testimonial position."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so. Had you any thought how that would operate? Am I right in what I am saying as to the constant circulation of positive ministry?"
+     "speaker": "ECB",
+     "text": [
+      "The elders referred to in Acts 20 maintain the character of grace among the brethren."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think it is important; there is a living word of His grace going on today which is able to build us up. We need to have faith about that and allow it to do the building up."
+     "speaker": "WD",
+     "text": [
+      "Very important!"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, and it helps the saints to maintain the testimony because there is something being built up in them all the time by “the word of his grace\"."
+     "speaker": "EOPM",
+     "text": [
+      "Eutychus could have told us about ''the word of his grace\". In the middle of the meeting Paul gave Eutychus a demonstration of it, and the local brethren too. He lifted him up and brought him into the company. You were referring to the young people. Mr Taylor said that the best way to influence others is to be a living exponent of the truth ourselves."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "It is a testimony if we are enjoying what these things are."
+     "speaker": "WD",
+     "text": [
+      "And \"the word of his grace\" in that connection involves that the principle of the thing is enthroned in my heart. Now that is an important thing. \"The word of his grace\" was enthroned in Paul's heart. He had ministered in the beginning of Acts 20 on heavenly light and blessing. Wonderful it was! Paul might have said, Well, Eutychus is down there, I cannot leave my ministry, I must continue with that. But actually ''the word of his grace\" being enthroned in Paul's heart enabled him to bring about recovery in a young person."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. You would remember Mr Champney. He used to say that on a Monday morning the brethren should be like little heavenly cities coming down to influence the environment in which they live. I think that is very real."
+     "speaker": "EOPM",
+     "text": [
+      "I think it is what the Lord is seeking to arrive at in all of us. It we are not exponents of this, there is not much point in talking about it. This ministry is helping us to become more attracted to operating in this kind of way because, as you say, the character of the dispensation is grace reigning. It is enthroned. Whether it is enthroned in my heart is another question."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "One thing that is important is that “the word of his grace\" proceeds in grace, does it not? The word of God's grace is very full, but it proceeds in grace among the brethren."
+     "speaker": "WD",
+     "text": [
+      "That is what one would seek to say. The smallness of our gatherings today in no way inhibits the testimony."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, it is part of the responsibility I am seeking to bring out. He addresses the overseers here, those that are responsible. The constant flow of \"the word of his grace\" amongst us builds up the testimonial position."
+     "speaker": "JM",
+     "text": [
+      "Because the testimony is moral, is it not? It is not related to the size of a company; it is the moral worth that is there in the individuals through the work of the Spirit."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The elders referred to in Acts 20 maintain the character of grace among the brethren."
+     "speaker": "SDKR",
+     "text": [
+      "The maintenance of ''the word of his grace\" would not interfere with the maintenance of the principles that are necessary to maintain the testimony."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Very important!"
+     "speaker": "WD",
+     "text": [
+      "By no means; but what I have observed in my life is that, when the principles are insisted upon in the spirit of grace, they are more effectively upheld than when administered dogmatically. You are bound to have observed that in your own experience. We find the effectiveness of it in \"Let your word be always with grace, seasoned with salt\", Col 4: 6.",
+      "I would like a short word on 2 Kings. It is a very important thought that the testimony is a royal testimony. There is a suffering testimony and there is a heavenly testimony, but there is also a royal testimony at the present time, and it is most important that the people of God maintain the features of royalty."
+     ]
     },
     {
-     "speaker": "E.O.P.M.",
-     "text": "Eutychus could have told us about ''the word of his grace\". In the middle of the meeting Paul gave Eutychus a demonstration of it, and the local brethren too. He lifted him up and brought him into the company. You were referring to the young people. Mr Taylor said that the best way to influence others is to be a living exponent of the truth ourselves."
+     "speaker": "ECB",
+     "text": [
+      "That comes out later in this chapter when they brought forth the king's son and they said, \"Long live the king!\" (v 12). That is the public testimony to royalty."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "And \"the word of his grace\" in that connection involves that the principle of the thing is enthroned in my heart. Now that is an important thing. \"The word of his grace\" was enthroned in Paul's heart. He had ministered in the beginning of Acts 20 on heavenly light and blessing. Wonderful it was! Paul might have said, Well, Eutychus is down there, I cannot leave my ministry, I must continue with that. But actually ''the word of his grace\" being enthroned in Paul's heart enabled him to bring about recovery in a young person."
+     "speaker": "WD",
+     "text": [
+      "Very good."
+     ]
     },
     {
-     "speaker": "E.O.P.M.",
-     "text": "I think it is what the Lord is seeking to arrive at in all of us. It we are not exponents of this, there is not much point in talking about it. This ministry is helping us to become more attracted to operating in this kind of way because, as you say, the character of the dispensation is grace reigning. It is enthroned. Whether it is enthroned in my heart is another question."
+     "speaker": "DAB",
+     "text": [
+      "Chronicles brings out that this woman was the priest's wife, so this boy was kept in the house, in the home we might say. People might say, They seem to have something in that house; we cannot quite see what it is but it seems to give a character to it. It has not yet come into display."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is what one would seek to say. The smallness of our gatherings today in no way inhibits the testimony."
+     "speaker": "WD",
+     "text": [
+      "Yes, and think of the care shown. This young king was going to be the testimony in Israel. We want to judge the spirit of Athaliah, an ambitious woman. That is the principle which negates every attempt to give Christ His supreme place amongst us. So this young priestly woman took him and his nurse to the bed-chamber and for six years hid him in the house of God. Where would that be?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Because the testimony is moral, is it not? It is not related to the size of a company; it is the moral worth that is there in the individuals through the work of the Spirit."
+     "speaker": "ECB",
+     "text": [
+      "It shows that there was somebody there who valued the reality of things."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "The maintenance of ''the word of his grace\" would not interfere with the maintenance of the principles that are necessary to maintain the testimony."
+     "speaker": "WD",
+     "text": [
+      "It might be an allusion too to the fact that the house of Jehovah is the safest place for our young people."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "By no means; but what I have observed in my life is that, when the principles are insisted upon in the spirit of grace, they are more effectively upheld than when administered dogmatically. You are bound to have observed that in your own experience. We find the effectiveness of it in \"Let your word be always with grace, seasoned with salt\", Col 4: 6."
+     "speaker": "ECB",
+     "text": [
+      "We were remarking locally the other day that it is important to remember that we are always in the house of God."
+     ]
     },
     {
-     "text": "I would like a short word on 2 Kings. It is a very important thought that the testimony is a royal testimony. There is a suffering testimony and there is a heavenly testimony, but there is also a royal testimony at the present time, and it is most important that the people of God maintain the features of royalty."
+     "speaker": "WD",
+     "text": [
+      "It is the safest place for protection. It might have been said it was a strange place to hide a young man - in a bed-chamber. It is an allusion, like the end of Matthew, to the fragmentary condition of things, a bed-chamber in the house of Jehovah. But it brings out that somebody recognised divine principles and sought to conserve the line of royalty."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "That comes out later in this chapter when they brought forth the king's son and they said, \"Long live the king!\" (v 12). That is the public testimony to royalty."
+     "speaker": "DJH",
+     "text": [
+      "She showed them the king's son. ls that an assurance that the line is going to continue?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Very good."
+     "speaker": "WD",
+     "text": [
+      "Are we royal enough? Think of what is happening publicly as to royalty. I think there is an onus on the people of God to display a testimony of royalty, and that royalty is expressed in grace, in dignity - I want to underline that word dignity - and moral authority. That is how the royal testimony is maintained when the public thing has come under so much reproach on account of behaviour which is not in keeping with the royal status."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Chronicles brings out that this woman was the priest's wife, so this boy was kept in the house, in the home we might say. People might say, They seem to have something in that house; we cannot quite see what it is but it seems to give a character to it. It has not yet come into display."
+     "speaker": "DJH",
+     "text": [
+      "Do you think that would be seen in Paul when he says, \"such as I also am\" Acts 26: 29? That would be a royal testimony, the dignity and power in which he stood there."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, and think of the care shown. This young king was going to be the testimony in Israel. We want to judge the spirit of Athaliah, an ambitious woman. That is the principle which negates every attempt to give Christ His supreme place amongst us. So this young priestly woman took him and his nurse to the bed-chamber and for six years hid him in the house of God. Where would that be?"
+     "speaker": "WD",
+     "text": [
+      "There are none really so regal - if I may use the word - as the people of God, young and old alike, walking in dignity and in the power of the anointing, even to avoiding the use of slipshod expressions in speaking of divine things. Now brethren, for example, the word 'fellowship' is too choice and rich a word to be attached to any name. Brethren want to be guarded against slipshod language that demeans such divinely-given coinage by attaching it to what is divisive in its character."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It shows that there was somebody there who valued the reality of things."
+     "speaker": "RWF",
+     "text": [
+      "In that connection it is the fellowship of God's Son. Here we have the king's son. You spoke of what was enthroned in the heart which implies royalty. Do we see in this section Christ enthroned typically? With Jehosheba and Jehoiada, Joash was already enthroned before he was manifested publicly."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It might be an allusion too to the fact that the house of Jehovah is the safest place for our young people."
-    },
-    {
-     "speaker": "E.C.B.",
-     "text": "We were remarking locally the other day that it is important to remember that we are always in the house of God."
-    },
-    {
-     "speaker": "W.D.",
-     "text": "It is the safest place for protection. It might have been said it was a strange place to hide a young man - in a bed-chamber. It is an allusion, like the end of Matthew, to the fragmentary condition of things, a bed-chamber in the house of Jehovah. But it brings out that somebody recognised divine principles and sought to conserve the line of royalty."
-    },
-    {
-     "speaker": "D.J.H.",
-     "text": "She showed them the king's son. ls that an assurance that the line is going to continue?"
-    },
-    {
-     "speaker": "W.D.",
-     "text": "Are we royal enough? Think of what is happening publicly as to royalty. I think there is an onus on the people of God to display a testimony of royalty, and that royalty is expressed in grace, in dignity - I want to underline that word dignity - and moral authority. That is how the royal testimony is maintained when the public thing has come under so much reproach on account of behaviour which is not in keeping with the royal status."
-    },
-    {
-     "speaker": "D.J.H.",
-     "text": "Do you think that would be seen in Paul when he says, \"such as I also am\" Acts 26: 29? That would be a royal testimony, the dignity and power in which he stood there."
-    },
-    {
-     "speaker": "W.D.",
-     "text": "There are none really so regal - if I may use the word - as the people of God, young and old alike, walking in dignity and in the power of the anointing, even to avoiding the use of slipshod expressions in speaking of divine things. Now brethren, for example, the word 'fellowship' is too choice and rich a word to be attached to any name. Brethren want to be guarded against slipshod language that demeans such divinely-given coinage by attaching it to what is divisive in its character."
-    },
-    {
-     "speaker": "R.W.F.",
-     "text": "In that connection it is the fellowship of God's Son. Here we have the king's son. You spoke of what was enthroned in the heart which implies royalty. Do we see in this section Christ enthroned typically? With Jehosheba and Jehoiada, Joash was already enthroned before he was manifested publicly."
-    },
-    {
-     "speaker": "W.D.",
-     "text": "I think that is what it refers to in the teaching of the chapter. But if you want to get the moral application of it, read the first half of 1 Corinthians 11."
+     "speaker": "WD",
+     "text": [
+      "I think that is what it refers to in the teaching of the chapter. But if you want to get the moral application of it, read the first half of 1 Corinthians 11."
+     ]
     }
    ]
   },
@@ -795,6 +1081,20 @@
      "text": "Do you know that the Bible speaks of signposts? Perhaps some young people have experienced getting lost and looking anxiously for the right road. In the Christian way one signpost points to 'repentance', another to 'faith' and another to 'confession'. The same scripture speaks of waymarks which we put up at places we have reached with the Lord's help. Some of these are 'obedience', 'salvation', and 'thanksgiving· but perhaps the most important is the gift of the Holy Spirit who takes up His abode in the obedient believer. Have you received Him into your own heart yet?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE TESTIMONY",
+   "kind": "default_place",
+   "detail": "London given to 7 names (\"London unless otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY",
+   "kind": "speaker_matched_loosely",
+   "detail": "LAB used in the text for LA.Barlow (key gives LB)"
   }
  ]
 }

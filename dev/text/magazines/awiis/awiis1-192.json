@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,45 +26,51 @@
    "place": "LONDON",
    "date": "20 March 1988",
    "speakers": [
-    "R.T.",
-    "E.P.",
-    "D.J.H.",
-    "E.C.B.",
-    "R.W.F.",
-    "G.A.P.",
-    "J.A.B.",
-    "J.S.G.",
-    "H.A.H.",
-    "H.J.T.",
-    "B.W.W.",
-    "K.J.M.",
-    "J.R.W.",
-    "M.J.S."
+    "RT",
+    "EP",
+    "DJH",
+    "ECB",
+    "RWF",
+    "GAP",
+    "JAB",
+    "JSG",
+    "HAH",
+    "HJT",
+    "BWW",
+    "KJM",
+    "JRW",
+    "MJS"
    ],
    "initials": [
     {
-     "initials": "AECB",
-     "name": "(All local unless otherwise stated) E.C.Burr"
+     "initials": "ECB",
+     "name": "E.C.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "JAB",
-     "name": "J.A.Burnett"
+     "name": "J.A.Burnett",
+     "place": "LONDON"
     },
     {
      "initials": "RWF",
-     "name": "R.W.Flowerdew"
+     "name": "R.W.Flowerdew",
+     "place": "LONDON"
     },
     {
      "initials": "JSG",
-     "name": "J.S.Gray"
+     "name": "J.S.Gray",
+     "place": "LONDON"
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "KJM",
@@ -73,11 +79,13 @@
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "GAP",
-     "name": "G.A.Palmer"
+     "name": "G.A.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "MJS",
@@ -86,7 +94,8 @@
     },
     {
      "initials": "HJT",
-     "name": "H.J.Taylor"
+     "name": "H.J.Taylor",
+     "place": "LONDON"
     },
     {
      "initials": "RT",
@@ -100,395 +109,582 @@
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "LONDON"
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "E.C.Burr; J.A.Burnett; R.W.Flowerdew; J.S.Gray; D.J.Hutson; H.A.Hutson; K.J.May, Maidstone; E.Palmer; G.A.Palmer; M.J.Smith, Chelmsford; H.J.Taylor; R.Taylor, Barnet; J.R.Walkinshaw, Bexley; B.W.Ward"
    ],
    "paragraphs": [
     {
-     "speaker": "R.T.",
-     "text": "I was thinking of this expression that John uses, \"I became in the Spirit on the Lord's day\". We were speaking yesterday of the Spirit bringing of the things of Christ to us. I just felt that this morning there may be profit in thinking of the Spirit in the house - if I could use that expression - His activities in the house. If you look at the temple, there was a good deal of olive-wood and cypress. I think that these woods would have some reference to the Spirit, particularly in the doors and the porches, suggesting as you come into this divine area that the Spirit is known in His fulness. And as we apprehend who He is we would be helped in the service in the house where there is nothing to disturb. I was thinking of Rebecca; the Spirit there would help us in promoting affections for Christ, and in relation to the Father He would help us in intelligence as to what is suited to sonship and the Father's praise. These thoughts are very fragmentary and the scriptures maybe not too clear, but I believe the Lord and the Spirit would help us, as we go on, to get some impression as to what John means, \"I became in the Spirit on the Lord's day\" - two things which seem to be connected. Maybe in our minds at times we have thought of this as something that was for John, and I have no doubt there is a distinctiveness about the matter as applying to him and in what was being opened up. It is very interesting if you look at the footnote; it will lead you to Simeon in Luke - \"he came in the Spirit into the temple\" (chap 2: 27). So it comes very near to us, perhaps nearer than we have thought about, the ability just to be, shall I say, transported (however short it may be) into a realm that is spiritual. I believe there is a need for it among us. The surroundings that we are in, as we see here, would be no drawback. We think of many of our brethren in very small companies, and many pressures, but they have no hindrance to becoming in the Spirit on the Lord's day, and maybe at any time when we have entrance and access into the divine presence."
+     "speaker": "RT",
+     "text": [
+      "I was thinking of this expression that John uses, \"I became in the Spirit on the Lord's day\". We were speaking yesterday of the Spirit bringing of the things of Christ to us. I just felt that this morning there may be profit in thinking of the Spirit in the house - if I could use that expression - His activities in the house. If you look at the temple, there was a good deal of olive-wood and cypress. I think that these woods would have some reference to the Spirit, particularly in the doors and the porches, suggesting as you come into this divine area that the Spirit is known in His fulness. And as we apprehend who He is we would be helped in the service in the house where there is nothing to disturb. I was thinking of Rebecca; the Spirit there would help us in promoting affections for Christ, and in relation to the Father He would help us in intelligence as to what is suited to sonship and the Father's praise. These thoughts are very fragmentary and the scriptures maybe not too clear, but I believe the Lord and the Spirit would help us, as we go on, to get some impression as to what John means, \"I became in the Spirit on the Lord's day\" - two things which seem to be connected. Maybe in our minds at times we have thought of this as something that was for John, and I have no doubt there is a distinctiveness about the matter as applying to him and in what was being opened up. It is very interesting if you look at the footnote; it will lead you to Simeon in Luke - \"he came in the Spirit into the temple\" (chap 2: 27). So it comes very near to us, perhaps nearer than we have thought about, the ability just to be, shall I say, transported (however short it may be) into a realm that is spiritual. I believe there is a need for it among us. The surroundings that we are in, as we see here, would be no drawback. We think of many of our brethren in very small companies, and many pressures, but they have no hindrance to becoming in the Spirit on the Lord's day, and maybe at any time when we have entrance and access into the divine presence."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Would you say just a little more as to the matter of the house. I notice that in Genesis 24 it says \"I have prepared the house\" (v 31)."
+     "speaker": "EP",
+     "text": [
+      "Would you say just a little more as to the matter of the house. I notice that in Genesis 24 it says \"I have prepared the house\" (v 31)."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "We may be more at home with the Spirit's activities in the wilderness, that is all I would distinguish. He comes down to our needs, He comes down to help us in these things, but His activities in the house are somewhat different. Our needs have been met and the servant is employing this clothing in relation to Rebecca. There are certain finer touches in the house. There is nothing to disturb becoming in the Spirit on the Lord's day. The disturbing elements are without, you may say, and the Spirit has great liberty in helping us in assembly affection for Christ and sonship's intelligence in relation to the Father."
+     "speaker": "RT",
+     "text": [
+      "We may be more at home with the Spirit's activities in the wilderness, that is all I would distinguish. He comes down to our needs, He comes down to help us in these things, but His activities in the house are somewhat different. Our needs have been met and the servant is employing this clothing in relation to Rebecca. There are certain finer touches in the house. There is nothing to disturb becoming in the Spirit on the Lord's day. The disturbing elements are without, you may say, and the Spirit has great liberty in helping us in assembly affection for Christ and sonship's intelligence in relation to the Father."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "In Genesis 24 it says \"he ungirded the camels\" (v 32). That would, so to speak, set the desert side on one side for the moment. Is that what you have in mind?"
+     "speaker": "EP",
+     "text": [
+      "In Genesis 24 it says \"he ungirded the camels\" (v 32). That would, so to speak, set the desert side on one side for the moment. Is that what you have in mind?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. He has endeared Himself to us in those wilderness surroundings, He has made Himself indispensable to us, but then He has another service, and that is to help us in responsiveness and to fill the house. The fragrance of the Spirit's activities enters into the eternal praise of God."
+     "speaker": "RT",
+     "text": [
+      "Yes. He has endeared Himself to us in those wilderness surroundings, He has made Himself indispensable to us, but then He has another service, and that is to help us in responsiveness and to fill the house. The fragrance of the Spirit's activities enters into the eternal praise of God."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Is it necessary for us to be rightly with Him in the wilderness in order to be able to enter into this? I was thinking of verse 9 coming first as to John being there \"in Jesus ... for the word of God\", and so on."
+     "speaker": "DJH",
+     "text": [
+      "Is it necessary for us to be rightly with Him in the wilderness in order to be able to enter into this? I was thinking of verse 9 coming first as to John being there \"in Jesus ... for the word of God\", and so on."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. I think that what we were speaking of yesterday would settle that side of things: there is a divine Person come here who is more than able for the wilderness and the circumstances that we may be found in. John would seem to be restful; he has confidence in divine love. He just says \"I became in the Spirit\". It seemed to be a very easy transfer. These things may help us in all our assemblings. What burdens we carry, but the Spirit is able to transport us and help us into an area of things where sin has never come."
+     "speaker": "RT",
+     "text": [
+      "Yes. I think that what we were speaking of yesterday would settle that side of things: there is a divine Person come here who is more than able for the wilderness and the circumstances that we may be found in. John would seem to be restful; he has confidence in divine love. He just says \"I became in the Spirit\". It seemed to be a very easy transfer. These things may help us in all our assemblings. What burdens we carry, but the Spirit is able to transport us and help us into an area of things where sin has never come."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The olive-wood does not belong to the wilderness; it belongs to the setting where there is finality, the ark at rest, the kingdom immensely rich, sacrifices immensely full, no evil or adversary. Does that fit with your thought?"
+     "speaker": "ECB",
+     "text": [
+      "The olive-wood does not belong to the wilderness; it belongs to the setting where there is finality, the ark at rest, the kingdom immensely rich, sacrifices immensely full, no evil or adversary. Does that fit with your thought?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, we come into something that has been divinely prepared. The Spirit took on a different character as they came into the land. They came into a place where they did not need to dig, there were hills full of copper and iron, there were wells that were springing forth, there were houses that they did not build - Deuteronomy is a very attractive book to me - \"cities which thou buildedst not\", chap 6: 10. How different from the wilderness with its toil and exercises; in the land they came into things that they had no hand in, and they entered in to enjoy them. I think becoming in the Spirit on the Lord's day would be something like that. We come into a realm where we prove the Spirit's grace to help us to be at home and function in liberty in a scene that is all divine."
+     "speaker": "RT",
+     "text": [
+      "Yes, we come into something that has been divinely prepared. The Spirit took on a different character as they came into the land. They came into a place where they did not need to dig, there were hills full of copper and iron, there were wells that were springing forth, there were houses that they did not build - Deuteronomy is a very attractive book to me - \"cities which thou buildedst not\", chap 6: 10. How different from the wilderness with its toil and exercises; in the land they came into things that they had no hand in, and they entered in to enjoy them. I think becoming in the Spirit on the Lord's day would be something like that. We come into a realm where we prove the Spirit's grace to help us to be at home and function in liberty in a scene that is all divine."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "So in Deuteronomy 8: 7 he says that God has brought you into a good land, and immediately goes on to speak about the waterbrooks and the springs."
+     "speaker": "ECB",
+     "text": [
+      "So in Deuteronomy 8: 7 he says that God has brought you into a good land, and immediately goes on to speak about the waterbrooks and the springs."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "A beautiful chapter that! It is wonderful to think of Moses speaking like that. He was never going to be living in it, but how he looked forward to the beauty of that land. He knew he would not dwell there but he made it attractive to the people so that they would want to go in. Do you think that becoming in the Spirit on the Lord's day is something open to us, something that we should have our thoughts expanded about?"
+     "speaker": "RT",
+     "text": [
+      "A beautiful chapter that! It is wonderful to think of Moses speaking like that. He was never going to be living in it, but how he looked forward to the beauty of that land. He knew he would not dwell there but he made it attractive to the people so that they would want to go in. Do you think that becoming in the Spirit on the Lord's day is something open to us, something that we should have our thoughts expanded about?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think it is something that is not a private experience to John, but it all connects with what we speak of as the out-of-the-world condition, and I think it is the only sphere where we touch real impressions of the assembly."
+     "speaker": "ECB",
+     "text": [
+      "I think it is something that is not a private experience to John, but it all connects with what we speak of as the out-of-the-world condition, and I think it is the only sphere where we touch real impressions of the assembly."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "So we need to think like this, particularly on the Lord's day. As was said, the wilderness matters have been settled; we do not go on in disturbances and matters that the Spirit is able to settle, in view of being easily transported. Ezekiel had a very trying life. He speaks about being lifted up by one of his locks (see chap 8: 3). He comes into an area of things like John who \"became in the Spirit on the Lord's day\". What happenings there are through the book! What the Lord and the Spirit would lead us into as we set ourselves and seek to prove His grace in service!"
+     "speaker": "RT",
+     "text": [
+      "So we need to think like this, particularly on the Lord's day. As was said, the wilderness matters have been settled; we do not go on in disturbances and matters that the Spirit is able to settle, in view of being easily transported. Ezekiel had a very trying life. He speaks about being lifted up by one of his locks (see chap 8: 3). He comes into an area of things like John who \"became in the Spirit on the Lord's day\". What happenings there are through the book! What the Lord and the Spirit would lead us into as we set ourselves and seek to prove His grace in service!"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Do you see a connection in chapter 4 where John says \"I saw, and behold, a door opened in heaven\", then the word saying \"Come up here\" (v 1), and then verse 2: \"Immediately I became in the Spirit\"?"
+     "speaker": "EP",
+     "text": [
+      "Do you see a connection in chapter 4 where John says \"I saw, and behold, a door opened in heaven\", then the word saying \"Come up here\" (v 1), and then verse 2: \"Immediately I became in the Spirit\"?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think that is a helpful reference. He saw a door. Very fine that, is it not? You see a door opened, \"a door opened in heaven\". It is beckoning us in, the Spirit is leading us into heaven and all that is current and active there. So that our service in the house is spiritual. It is not a question of our memories or what we are as after nature, but the service in the house is entirely spiritual, and it will be so in the day to come. Everything will be carried out in what is spiritual. It tests us, but it should strengthen us in the Spirit's grace so that we know something of it now."
+     "speaker": "RT",
+     "text": [
+      "Yes, I think that is a helpful reference. He saw a door. Very fine that, is it not? You see a door opened, \"a door opened in heaven\". It is beckoning us in, the Spirit is leading us into heaven and all that is current and active there. So that our service in the house is spiritual. It is not a question of our memories or what we are as after nature, but the service in the house is entirely spiritual, and it will be so in the day to come. Everything will be carried out in what is spiritual. It tests us, but it should strengthen us in the Spirit's grace so that we know something of it now."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "It is difficult to think that there was any lack with John on the other six days of the week. Do you think that the Spirit provides a special access of power, and that in the setting of the house? There is a reserve of power with the Spirit to help us in spiritual things."
+     "speaker": "RWF",
+     "text": [
+      "It is difficult to think that there was any lack with John on the other six days of the week. Do you think that the Spirit provides a special access of power, and that in the setting of the house? There is a reserve of power with the Spirit to help us in spiritual things."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think it means that in the six days, or any day, we have easy relationships with the Spirit; and He helps us as to these exercises; then it becomes an easy matter: \"I became in the Spirit on the Lord's day\". It is a door opened, drawing us into things in which we had no hand, and yet we are prepared and strengthened in view of functioning there in spiritual liberty."
+     "speaker": "RT",
+     "text": [
+      "I think it means that in the six days, or any day, we have easy relationships with the Spirit; and He helps us as to these exercises; then it becomes an easy matter: \"I became in the Spirit on the Lord's day\". It is a door opened, drawing us into things in which we had no hand, and yet we are prepared and strengthened in view of functioning there in spiritual liberty."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Does it relate to our feelings and affections, and our souls, in that regard, rather more than the mind?"
+     "speaker": "GAP",
+     "text": [
+      "Does it relate to our feelings and affections, and our souls, in that regard, rather more than the mind?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think so. It speaks of the inner man in Ephesians 3: 16. We all know what our bodies are like, and what weakness there is, and what limitations John was in here, but he became in Spirit; it is the inner man responsive to the Spirit's leading to help us into this heavenly realm."
+     "speaker": "RT",
+     "text": [
+      "Yes, I think so. It speaks of the inner man in Ephesians 3: 16. We all know what our bodies are like, and what weakness there is, and what limitations John was in here, but he became in Spirit; it is the inner man responsive to the Spirit's leading to help us into this heavenly realm."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "There is communication, is there not, as there was also with Simeon: \"it was ... communicated to him by the Holy Spirit\", Luke 2: 26? There is the voice here too."
+     "speaker": "JAB",
+     "text": [
+      "There is communication, is there not, as there was also with Simeon: \"it was ... communicated to him by the Holy Spirit\", Luke 2: 26? There is the voice here too."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. Immediately John is ready for it. He is not worrying about what is going to happen tomorrow, and other things that may come up. These things may be allowed to intrude. I think we all know our weakness - at least, I feel it very severely at times - but the Spirit would help us to be sustained and have entrance into the realm that is spiritual. So John is interested: \"I heard behind me a great voice\", and he \"turned back to see the voice which spoke with me\". He is attracted into these things. We are helped in our souls, as well as in our minds, to follow the Spirit's activities in the house, in view of being enlarged, and in view of the Father and Christ and the Spirit Himself having Their full portion."
+     "speaker": "RT",
+     "text": [
+      "Yes. Immediately John is ready for it. He is not worrying about what is going to happen tomorrow, and other things that may come up. These things may be allowed to intrude. I think we all know our weakness - at least, I feel it very severely at times - but the Spirit would help us to be sustained and have entrance into the realm that is spiritual. So John is interested: \"I heard behind me a great voice\", and he \"turned back to see the voice which spoke with me\". He is attracted into these things. We are helped in our souls, as well as in our minds, to follow the Spirit's activities in the house, in view of being enlarged, and in view of the Father and Christ and the Spirit Himself having Their full portion."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "As to the other six days to which reference was made, you might wonder how one could get through the rest of this book without this experience. John is even able to say \"I saw a beast rising out of the sea\" (chap 13: 1) and he is undisturbed."
+     "speaker": "ECB",
+     "text": [
+      "As to the other six days to which reference was made, you might wonder how one could get through the rest of this book without this experience. John is even able to say \"I saw a beast rising out of the sea\" (chap 13: 1) and he is undisturbed."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Well, there is something he saw before that which I think gives a key to the whole book: he saw \"a Lamb standing, as slain\", chap 5: 6. I think the key to the book is chapter 5. There was Someone worthy. \"Who is worthy?\"; it says \"no one was able\" (v 3), but there was a Lamb, having all that was needed to deal with everything that was coming in in the book. The Spirit gave John entrance into that. So there was experience, experience on the first day of the week. The six days lead up to the first day, but also the first day gives character to the six days, that we are not only going in but we are coming out in the wealth and experience of our heavenly part."
+     "speaker": "RT",
+     "text": [
+      "Well, there is something he saw before that which I think gives a key to the whole book: he saw \"a Lamb standing, as slain\", chap 5: 6. I think the key to the book is chapter 5. There was Someone worthy. \"Who is worthy?\"; it says \"no one was able\" (v 3), but there was a Lamb, having all that was needed to deal with everything that was coming in in the book. The Spirit gave John entrance into that. So there was experience, experience on the first day of the week. The six days lead up to the first day, but also the first day gives character to the six days, that we are not only going in but we are coming out in the wealth and experience of our heavenly part."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Just referring to Solomon's temple, you come out from \"the settled place of thy dwelling\", 2 Chron 6: 30, etc."
+     "speaker": "ECB",
+     "text": [
+      "Just referring to Solomon's temple, you come out from \"the settled place of thy dwelling\", 2 Chron 6: 30, etc."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "You come out to bless, you come out to be an overcomer, you come out in triumph. So the clothing and the things that the servant brought to Rebecca were all in view of her being responsive to Isaac. The verse in the Psalm - the king's daughter all glorious within, it is within the apartments; the Spirit supplies what is suited, the silver and gold and clothing. It was all for Isaac's eye. It was in view of her being at home in the heavenly realm."
+     "speaker": "RT",
+     "text": [
+      "You come out to bless, you come out to be an overcomer, you come out in triumph. So the clothing and the things that the servant brought to Rebecca were all in view of her being responsive to Isaac. The verse in the Psalm - the king's daughter all glorious within, it is within the apartments; the Spirit supplies what is suited, the silver and gold and clothing. It was all for Isaac's eye. It was in view of her being at home in the heavenly realm."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you have in mind that these are not exactly travelling clothes; they are clothes for Isaac's presence?"
+     "speaker": "ECB",
+     "text": [
+      "Do you have in mind that these are not exactly travelling clothes; they are clothes for Isaac's presence?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That is right; that is what they are for; they would have been out of keeping anywhere else. The servant brought them forth. Rebecca had never seen anything like them before and she is drawn to the heavenly one, and the servant is showing her what is suited to being within the royal apartments. \"Things which eye has not seen, and ear not heard, and which have not come into man's heart\" (1 Cor 2: 9) we are brought into, and yet we are there perfectly at rest and at home to function for the divine pleasure."
+     "speaker": "RT",
+     "text": [
+      "That is right; that is what they are for; they would have been out of keeping anywhere else. The servant brought them forth. Rebecca had never seen anything like them before and she is drawn to the heavenly one, and the servant is showing her what is suited to being within the royal apartments. \"Things which eye has not seen, and ear not heard, and which have not come into man's heart\" (1 Cor 2: 9) we are brought into, and yet we are there perfectly at rest and at home to function for the divine pleasure."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "We had a word this morning on John 16 where the Lord says \"he shall receive of mine and shall announce it to you. All things that the Father has are mine; on account of this I have said that he receives of mine and shall announce it to you\" (vv 14, 15). \"All things\": that would be these things that the servant brought out. They came from the father, did they not?"
+     "speaker": "EP",
+     "text": [
+      "We had a word this morning on John 16 where the Lord says \"he shall receive of mine and shall announce it to you. All things that the Father has are mine; on account of this I have said that he receives of mine and shall announce it to you\" (vv 14, 15). \"All things\": that would be these things that the servant brought out. They came from the father, did they not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, and they were only for Rebecca. \"He gave to her brother, and to her mother, precious things\", but these things were entirely for her in view of Isaac's heart being satisfied. I was thinking that, in its application, it would apply to assembly affections being developed for Christ glorified."
+     "speaker": "RT",
+     "text": [
+      "Yes, and they were only for Rebecca. \"He gave to her brother, and to her mother, precious things\", but these things were entirely for her in view of Isaac's heart being satisfied. I was thinking that, in its application, it would apply to assembly affections being developed for Christ glorified."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "The next verse is \"Send me away to my master\". Would that involve becoming in Spirit, going through that door that we were speaking of?"
+     "speaker": "DJH",
+     "text": [
+      "The next verse is \"Send me away to my master\". Would that involve becoming in Spirit, going through that door that we were speaking of?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Very good. So she says \"I will go\". It is a very exercising side of things: are we disposed to allow ourselves to go in? It is not in any fleshly activity but in confidence in the Spirit; we are drawn to Him and relying on Him to experience the liberty that is our portion in the house."
+     "speaker": "RT",
+     "text": [
+      "Very good. So she says \"I will go\". It is a very exercising side of things: are we disposed to allow ourselves to go in? It is not in any fleshly activity but in confidence in the Spirit; we are drawn to Him and relying on Him to experience the liberty that is our portion in the house."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I was thinking about what you said as to this young woman and the impression that these things would give her. It must have given her a great impression of the one to whom she was to be united, that the elevation and glory of these things had come from where he was."
+     "speaker": "JSG",
+     "text": [
+      "I was thinking about what you said as to this young woman and the impression that these things would give her. It must have given her a great impression of the one to whom she was to be united, that the elevation and glory of these things had come from where he was."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. It is so beautifully presented that she said \"I will go\". What a journey she was going to take! She was going to leave her parents, she was going to leave her country, but the man had been so perfectly presented to her that without hesitation (I do not say without feeling) she says \"I will go\". That is becoming in Spirit, I think; the pull of these other things is overcome in the Spirit's grace and the power of His service, and we are drawn in to find our place in union with Christ."
+     "speaker": "RT",
+     "text": [
+      "Yes. It is so beautifully presented that she said \"I will go\". What a journey she was going to take! She was going to leave her parents, she was going to leave her country, but the man had been so perfectly presented to her that without hesitation (I do not say without feeling) she says \"I will go\". That is becoming in Spirit, I think; the pull of these other things is overcome in the Spirit's grace and the power of His service, and we are drawn in to find our place in union with Christ."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Are you suggesting that there is such a thing as committal to the Spirit?"
+     "speaker": "EP",
+     "text": [
+      "Are you suggesting that there is such a thing as committal to the Spirit?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Oh, I think it is at the threshold of spiritual experience. What do you say about it?"
+     "speaker": "RT",
+     "text": [
+      "Oh, I think it is at the threshold of spiritual experience. What do you say about it?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I think it is of all moment, especially in the light of the scripture you brought before us yesterday from 1 Corinthians 2. It seems to me that unless we are definite and specific in our committal to the Spirit, that realm of things of which you speak is not really open to us, because it is not understood except through the Spirit. Do you go with that?"
+     "speaker": "EP",
+     "text": [
+      "I think it is of all moment, especially in the light of the scripture you brought before us yesterday from 1 Corinthians 2. It seems to me that unless we are definite and specific in our committal to the Spirit, that realm of things of which you speak is not really open to us, because it is not understood except through the Spirit. Do you go with that?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, and as was said yesterday, He is God; who He is, His deity and the greatness of His person are to help us to be committed to Him. But then He would lead us on to see what He has in view, and He would have us adorned. The king's daughter is perfectly at home in the royal apartments. There may be a certain official side about the royal apartments, but I was only thinking of it in connecting it with Rebecca: \"All glorious is the king's daughter within; her clothing is of wrought gold\"; she is entirely suited to the palace and the heavenly one, brought in in raiment of embroidery. There has been a great deal of spiritual expenditure in view of this clothing and those garments being worn and being for the eye of the king."
+     "speaker": "RT",
+     "text": [
+      "Yes, and as was said yesterday, He is God; who He is, His deity and the greatness of His person are to help us to be committed to Him. But then He would lead us on to see what He has in view, and He would have us adorned. The king's daughter is perfectly at home in the royal apartments. There may be a certain official side about the royal apartments, but I was only thinking of it in connecting it with Rebecca: \"All glorious is the king's daughter within; her clothing is of wrought gold\"; she is entirely suited to the palace and the heavenly one, brought in in raiment of embroidery. There has been a great deal of spiritual expenditure in view of this clothing and those garments being worn and being for the eye of the king."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Have you any thought as to why the silver comes first in the Genesis scripture? I wondered whether there was any suggestion of what we have in Ephesians 1, that from our side \"we have redemption through his blood\" (v 7)."
+     "speaker": "HAH",
+     "text": [
+      "Have you any thought as to why the silver comes first in the Genesis scripture? I wondered whether there was any suggestion of what we have in Ephesians 1, that from our side \"we have redemption through his blood\" (v 7)."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "There are volumes in all these things, silver, as you say, reminding us of the glory of redemption, the wealth of it. It is not just a question of the settlement of sins; redemption Is a great love matter, that we were loved so much that He paid such a price to have us liberated. The sense of that helps us to leave country and environment. The Spirit bringing the love of Christ into our hearts would help us to say \"I will go\"."
+     "speaker": "RT",
+     "text": [
+      "There are volumes in all these things, silver, as you say, reminding us of the glory of redemption, the wealth of it. It is not just a question of the settlement of sins; redemption Is a great love matter, that we were loved so much that He paid such a price to have us liberated. The sense of that helps us to leave country and environment. The Spirit bringing the love of Christ into our hearts would help us to say \"I will go\"."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does what you get in Genesis 24 and Psalm 45 remind us of Esther? It says \"she required nothing but what ... the king's chamberlain ... appointed\" (Esth 2: 15), and then she was fit for the royal apartments."
+     "speaker": "ECB",
+     "text": [
+      "Does what you get in Genesis 24 and Psalm 45 remind us of Esther? It says \"she required nothing but what ... the king's chamberlain ... appointed\" (Esth 2: 15), and then she was fit for the royal apartments."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, that verse came into my mind too. It just amplifies this service, the Spirit's activities in view of developing assembly responsiveness. The clothing, and silver and gold articles, I think we could speak of as being developed assembly affection , things that are wrought in the bride in view of being responsive and in view of being at home alongside the heavenly Man."
+     "speaker": "RT",
+     "text": [
+      "Yes, that verse came into my mind too. It just amplifies this service, the Spirit's activities in view of developing assembly responsiveness. The clothing, and silver and gold articles, I think we could speak of as being developed assembly affection , things that are wrought in the bride in view of being responsive and in view of being at home alongside the heavenly Man."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "\"Upon thy right hand ... the queen\", Ps 45: 9?"
+     "speaker": "ECB",
+     "text": [
+      "\"Upon thy right hand ... the queen\", Ps 45: 9?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, that is very touching, I think. One of the great points of Christ having the assembly is that He is no longer alone. He was once alone, but the Spirit's activity has brought the bride to the Bridegroom and He is no longer alone. What a comfort to His heart! What a matter, that He has a vessel in the assembly that can be with Him in the whole sphere of divine administration, and He has one that can be with Him in view of the whole praise of God being eternally secured."
+     "speaker": "RT",
+     "text": [
+      "Yes, that is very touching, I think. One of the great points of Christ having the assembly is that He is no longer alone. He was once alone, but the Spirit's activity has brought the bride to the Bridegroom and He is no longer alone. What a comfort to His heart! What a matter, that He has a vessel in the assembly that can be with Him in the whole sphere of divine administration, and He has one that can be with Him in view of the whole praise of God being eternally secured."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it right that, while we apply these scriptures especially in relation to the assembly, some comparable service will be carried out in respect of Israel? \"Let the beauty of Jehovah our God be upon us\", Ps 90: 17. I was thinking of the way in which the Spirit in different ways will have to do with every family to make them suited for the position they are to hold in relation to Christ."
+     "speaker": "ECB",
+     "text": [
+      "Is it right that, while we apply these scriptures especially in relation to the assembly, some comparable service will be carried out in respect of Israel? \"Let the beauty of Jehovah our God be upon us\", Ps 90: 17. I was thinking of the way in which the Spirit in different ways will have to do with every family to make them suited for the position they are to hold in relation to Christ."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think there is something of that in Ephesians: \"of whom every family in the heavens and on earth is named\", chap 3: 15. Does the idea of the Father naming every family connect with what you are saying?"
+     "speaker": "RT",
+     "text": [
+      "Yes, I think there is something of that in Ephesians: \"of whom every family in the heavens and on earth is named\", chap 3: 15. Does the idea of the Father naming every family connect with what you are saying?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, I think it does. I have often felt myself the need for expansion in relation to what the Father, and the Son, and the Spirit have in relation to families other than the assembly . The assembly is intended to be intelligent about them, is it not? Ephesians 3 is about that: \"my intelligence in the mystery\" (v 4)."
+     "speaker": "ECB",
+     "text": [
+      "Yes, I think it does. I have often felt myself the need for expansion in relation to what the Father, and the Son, and the Spirit have in relation to families other than the assembly . The assembly is intended to be intelligent about them, is it not? Ephesians 3 is about that: \"my intelligence in the mystery\" (v 4)."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Do you think they will all come into their place as Christ has the assembly? The great thing in the Spirit's service is that the heavenly Man may have, as you said, at His right hand the assembly. Christ has the assembly, and as that takes place I think the whole plan will unfold. Indeed, as you read through Revelation, you can see that as Christ comes on to view everything falls into its place. That is the new covenant. As Christ takes things up, every family will come into its place. But the great prime central thing, you may say, is Christ and the assembly."
+     "speaker": "RT",
+     "text": [
+      "Do you think they will all come into their place as Christ has the assembly? The great thing in the Spirit's service is that the heavenly Man may have, as you said, at His right hand the assembly. Christ has the assembly, and as that takes place I think the whole plan will unfold. Indeed, as you read through Revelation, you can see that as Christ comes on to view everything falls into its place. That is the new covenant. As Christ takes things up, every family will come into its place. But the great prime central thing, you may say, is Christ and the assembly."
+     ]
     },
     {
-     "text": "E.C.B . So we might say that the other families do not yet understand what the precious things are that have been provided for them."
+     "speaker": "ECB",
+     "text": [
+      ". So we might say that the other families do not yet understand what the precious things are that have been provided for them.",
+      "R,T, No, that is right. So it is the Spirit's day, and it is the assembly time. Rebecca appreciated these things, but others will yet come into the gladness and fulness of what divine love has purposed."
+     ]
     },
     {
-     "text": "R,T, No, that is right. So it is the Spirit's day, and it is the assembly time. Rebecca appreciated these things, but others will yet come into the gladness and fulness of what divine love has purposed."
+     "speaker": "JSG",
+     "text": [
+      "In the Psalm the language seems to flow on from kings' daughters to \"the king's daughter\", as if on the one hand this glorious person is accustomed to elevated companionship, but there is one that is unique. Is that your thought?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "In the Psalm the language seems to flow on from kings' daughters to \"the king's daughter\", as if on the one hand this glorious person is accustomed to elevated companionship, but there is one that is unique. Is that your thought?"
+     "speaker": "RT",
+     "text": [
+      "Yes. I think verse 14 is very beautiful, and it just bears on what we are saying. \"She shall be brought unto the king in raiment of embroidery\": that is one thing. \"The virgins behind her\" would be like the other families. They will be brought into their place; they will all have their own beauty and their own precious distinctiveness, but the great point of the Spirit's activities at the moment 1s that \"She shall be brought unto the king in raiment of embroidery\". You can help us."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. I think verse 14 is very beautiful, and it just bears on what we are saying. \"She shall be brought unto the king in raiment of embroidery\": that is one thing. \"The virgins behind her\" would be like the other families. They will be brought into their place; they will all have their own beauty and their own precious distinctiveness, but the great point of the Spirit's activities at the moment 1s that \"She shall be brought unto the king in raiment of embroidery\". You can help us."
+     "speaker": "HJT",
+     "text": [
+      "I think it is a most stimulating line. I was just pondering, earlier in Ephesians, the blessedness of the mercy that has reached us, that we are brought into these great and glorious things."
+     ]
     },
     {
-     "speaker": "H.J.T.",
-     "text": "I think it is a most stimulating line. I was just pondering, earlier in Ephesians, the blessedness of the mercy that has reached us, that we are brought into these great and glorious things."
+     "speaker": "RT",
+     "text": [
+      "Yes, the Spirit has brought all these things. He has brought the silver - redemption, gold - the love of God; He has brought all these things within our reach, and it is all to stimulate us to come into the house, to be where the King is, to be His companion, to be in response to the feelings and longings of His heart."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, the Spirit has brought all these things. He has brought the silver - redemption, gold - the love of God; He has brought all these things within our reach, and it is all to stimulate us to come into the house, to be where the King is, to be His companion, to be in response to the feelings and longings of His heart."
+     "speaker": "BWW",
+     "text": [
+      "And is that particularly for the King?"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "And is that particularly for the King?"
+     "speaker": "RT",
+     "text": [
+      "Yes. Think of the blessed Spirit serving in view of Christ being satisfied. It reminds us of the mutual relationships that exist between the Father and the Son and the Holy Spirit, serving in wonderful grace love to One Another. The Spirit's appreciation of Christ is something He would convey to us. It says, as the Lord came on to view from the waters of baptism, that the Spirit descended as a dove and abode upon Him (see John 1: 32). There is some reference there to the Spirit's appreciation of Christ, that glorious Man, that He would identify Himself so completely with Him. I think the Spirit would promote the glory of Christ in our affections in view of our being at home in His surroundings."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. Think of the blessed Spirit serving in view of Christ being satisfied. It reminds us of the mutual relationships that exist between the Father and the Son and the Holy Spirit, serving in wonderful grace love to One Another. The Spirit's appreciation of Christ is something He would convey to us. It says, as the Lord came on to view from the waters of baptism, that the Spirit descended as a dove and abode upon Him (see John 1: 32). There is some reference there to the Spirit's appreciation of Christ, that glorious Man, that He would identify Himself so completely with Him. I think the Spirit would promote the glory of Christ in our affections in view of our being at home in His surroundings."
+     "speaker": "RWF",
+     "text": [
+      "In that connection, there is a fine verse at the end of Genesis 24: \"the servant told Isaac all things that he had done\" (v 66)."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "In that connection, there is a fine verse at the end of Genesis 24: \"the servant told Isaac all things that he had done\" (v 66)."
+     "speaker": "RT",
+     "text": [
+      "Yes, very beautiful! As you visualise that, how it would enlarge Isaac's appreciation of Rebecca; it is not only what the servant had done but how she had responded. Think of him going over that incident when she drew for all the camels. Think of the Spirit going over how readily she said \"I will go\", in the presence of elements that would hold her. How all that would endear Rebecca to Isaac's heart!"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, very beautiful! As you visualise that, how it would enlarge Isaac's appreciation of Rebecca; it is not only what the servant had done but how she had responded. Think of him going over that incident when she drew for all the camels. Think of the Spirit going over how readily she said \"I will go\", in the presence of elements that would hold her. How all that would endear Rebecca to Isaac's heart!"
+     "speaker": "KJM",
+     "text": [
+      "I was thinking of this clothing. We perhaps are content with purely functional clothing, but this has some artistic work about it, has it not?"
+     ]
     },
     {
-     "speaker": "K.J.M.",
-     "text": "I was thinking of this clothing. We perhaps are content with purely functional clothing, but this has some artistic work about it, has it not?"
+     "speaker": "RT",
+     "text": [
+      "Yes; \"raiment of embroidery\", I think, alludes to how the Spirit has been speaking about Christ. In the anti-type He brought it out from heaven. \"Raiment of embroidery\" suggests that a great deal of detail has gone into it. How the Spirit has served in this kind of detail, not in view of us being adorned here but of being adorned suited to be in the King's palace."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes; \"raiment of embroidery\", I think, alludes to how the Spirit has been speaking about Christ. In the anti-type He brought it out from heaven. \"Raiment of embroidery\" suggests that a great deal of detail has gone into it. How the Spirit has served in this kind of detail, not in view of us being adorned here but of being adorned suited to be in the King's palace."
+     "speaker": "KJM",
+     "text": [
+      "Is there any link between that and the wedding garment?"
+     ]
     },
     {
-     "speaker": "K.J.M.",
-     "text": "Is there any link between that and the wedding garment?"
+     "speaker": "RT",
+     "text": [
+      "Yes, I am sure there is. Tell us more about it."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I am sure there is. Tell us more about it."
+     "speaker": "KJM",
+     "text": [
+      "It just occurred to me that it was not just an ordinary garment, it was something suitable for God's presence."
+     ]
     },
     {
-     "speaker": "K.J.M.",
-     "text": "It just occurred to me that it was not just an ordinary garment, it was something suitable for God's presence."
+     "speaker": "RT",
+     "text": [
+      "Very good. So if there was somebody there without it, how out of place they were, and made to feel it. But here it is entirely suited for the heavenly realm: \"All glorious is the king's daughter within; her clothing is of wrought gold\"; and then embroidery, everything there so that at the time of union there is no disparity, there is nothing inferior between the Bridegroom and the bride. The Spirit would help us to respond in that kind of affection, that we do not feel that we are strangers there, but we are brought in to have the feelings suited to the environment that we are in."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Very good. So if there was somebody there without it, how out of place they were, and made to feel it. But here it is entirely suited for the heavenly realm: \"All glorious is the king's daughter within; her clothing is of wrought gold\"; and then embroidery, everything there so that at the time of union there is no disparity, there is nothing inferior between the Bridegroom and the bride. The Spirit would help us to respond in that kind of affection, that we do not feel that we are strangers there, but we are brought in to have the feelings suited to the environment that we are in."
+     "speaker": "DJH",
+     "text": [
+      "It is woven into the fabric, is it not? It is really in the fabric of the assembly, you might say; there is something there substantially, woven in, which would be for Christ."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "It is woven into the fabric, is it not? It is really in the fabric of the assembly, you might say; there is something there substantially, woven in, which would be for Christ."
+     "speaker": "RT",
+     "text": [
+      "Yes; it reminds you of Revelation \"as a bride adorned for her husband\", chap 21: 2. It speaks about \"Her shining\", chap 21: 11. It is undoubtedly a reflected glory that the assembly will ever have, but it says \"Her shining\". There is something there that is entirely suited to Christ, the glorious One. These things will help us to be expanded in our appreciation of the Spirit's service, that Christ's portion in union may be fuller and we may be stimulated and strengthened in it."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes; it reminds you of Revelation \"as a bride adorned for her husband\", chap 21: 2. It speaks about \"Her shining\", chap 21: 11. It is undoubtedly a reflected glory that the assembly will ever have, but it says \"Her shining\". There is something there that is entirely suited to Christ, the glorious One. These things will help us to be expanded in our appreciation of the Spirit's service, that Christ's portion in union may be fuller and we may be stimulated and strengthened in it."
+     "speaker": "ECB",
+     "text": [
+      "Our brother used the expression 'it is not just functional clothing'. I think we have to get beyond that even in the service - just to function. What we need is embroidery."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Our brother used the expression 'it is not just functional clothing'. I think we have to get beyond that even in the service - just to function. What we need is embroidery."
+     "speaker": "RT",
+     "text": [
+      "Yes, tell us some more about it."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, tell us some more about it."
+     "speaker": "ECB",
+     "text": [
+      "It is very easy to say. The time to address the Spirit is come, so we address the Spirit; and, Now we go to the Father - phase 1, 2 and 3 - but we want embroidery, do we not, - what the Spirit has wrought in us, and we thus get some more personal expression in the meeting."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is very easy to say. The time to address the Spirit is come, so we address the Spirit; and, Now we go to the Father - phase 1, 2 and 3 - but we want embroidery, do we not, - what the Spirit has wrought in us, and we thus get some more personal expression in the meeting."
+     "speaker": "RT",
+     "text": [
+      "Yes. I think it all starts with being in Spirit on the Lord's day. There is a certain preparedness to be in the flow, to be carried into the stream, and as you say, it is not an organised or man-made service that we are having part in, but there is a glorious, blessed divine Person who is leading us, strengthening us to be at home in these heavenly responses."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. I think it all starts with being in Spirit on the Lord's day. There is a certain preparedness to be in the flow, to be carried into the stream, and as you say, it is not an organised or man-made service that we are having part in, but there is a glorious, blessed divine Person who is leading us, strengthening us to be at home in these heavenly responses."
+     "speaker": "RWF",
+     "text": [
+      "Does \"let a man prove himself\" (1 Cor 11: 28) have to do with the fine work, the embroidery? There is what is negative that has to be seen to, but \"let a man prove himself\" is in view of what is positive, do you think?"
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Does \"let a man prove himself\" (1 Cor 11: 28) have to do with the fine work, the embroidery? There is what is negative that has to be seen to, but \"let a man prove himself\" is in view of what is positive, do you think?"
+     "speaker": "RT",
+     "text": [
+      "Yes, I think that would all have in view the material that can take on an impression. Embroidery, I think, requires impressionable material. The exercise is that we are to be impressionable, and that is just what Paul was saying to Corinth - \"fleshy tables of the heart\", 2 Cor 3: 3. There is something there that is divinely impressionable in view of the Spirit leaving His own mark. Embroidery is very skilful work; it is for the King's eye and in view of our being suited to this heavenly realm."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think that would all have in view the material that can take on an impression. Embroidery, I think, requires impressionable material. The exercise is that we are to be impressionable, and that is just what Paul was saying to Corinth - \"fleshy tables of the heart\", 2 Cor 3: 3. There is something there that is divinely impressionable in view of the Spirit leaving His own mark. Embroidery is very skilful work; it is for the King's eye and in view of our being suited to this heavenly realm."
+     "speaker": "JRW",
+     "text": [
+      "There is much detail in this psalm. I wondered what the companions would represent."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "There is much detail in this psalm. I wondered what the companions would represent."
+     "speaker": "RT",
+     "text": [
+      "Well, they all have their place, and the Spirit would have to do with every family; I thought it would bear that application. \"She shall be brought unto the king\": it is obvious that she is the bride, to bring it to our language. But then the whole scene is adorned in perfect suitability; the virgins, her companions - these various families, perhaps we could read into it, but they are all suited in their own place. There is nothing jarring about it, every one is suited in its own place to the heavenly realm."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Well, they all have their place, and the Spirit would have to do with every family; I thought it would bear that application. \"She shall be brought unto the king\": it is obvious that she is the bride, to bring it to our language. But then the whole scene is adorned in perfect suitability; the virgins, her companions - these various families, perhaps we could read into it, but they are all suited in their own place. There is nothing jarring about it, every one is suited in its own place to the heavenly realm."
+     "speaker": "ECB",
+     "text": [
+      "Would they correspond to Rebecca's maids, a company which is as willing as she is?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Would they correspond to Rebecca's maids, a company which is as willing as she is?"
+     "speaker": "RT",
+     "text": [
+      "Very good, and each has the Spirit's service to fill out their own place. The virgins suggest the protective service of the Spirit in view of persons being preserved through a dispensation perhaps not so enlightened as ours, yet persecuted perhaps more than we have known. These families will all be there, a tribute to the Spirit's own work, but there at home in the presence of the King, that He may have everything suited to His taste."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Very good, and each has the Spirit's service to fill out their own place. The virgins suggest the protective service of the Spirit in view of persons being preserved through a dispensation perhaps not so enlightened as ours, yet persecuted perhaps more than we have known. These families will all be there, a tribute to the Spirit's own work, but there at home in the presence of the King, that He may have everything suited to His taste."
+     "speaker": "HAH",
+     "text": [
+      "There is one family mentioned in Revelation 14, that \"they are blameless\" (v 5), this thought of purity entering into that, do you think?"
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "There is one family mentioned in Revelation 14, that \"they are blameless\" (v 5), this thought of purity entering into that, do you think?"
+     "speaker": "RT",
+     "text": [
+      "Very good. You can see that that is a very distinct tribute to the service of the Spirit to that family, as it will be to all the families. What pressures these families will go through! But the Spirit will preserve what is virgin and what is suited to Christ.",
+      "In Ephesians I thought it might just help us as to sonship's feelings and affections in view of the Father. It says \"through him (Christ) we have both access by one Spirit to the Father\". It reminds you of the olive-wood doors, but it is not only a question of passing through the door and leaving it. The idea of access, I think, is that we are made suitable, \"access by one Spirit to the Father\". We are to have sonship's intelligence and sonship's feelings in view of the Father having His portion from His sons."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Very good. You can see that that is a very distinct tribute to the service of the Spirit to that family, as it will be to all the families. What pressures these families will go through! But the Spirit will preserve what is virgin and what is suited to Christ."
+     "speaker": "HAH",
+     "text": [
+      "Those doors were folding doors, were they not? Is the idea in that that there is room for expansion?"
+     ]
     },
     {
-     "text": "In Ephesians I thought it might just help us as to sonship's feelings and affections in view of the Father. It says \"through him (Christ) we have both access by one Spirit to the Father\". It reminds you of the olive-wood doors, but it is not only a question of passing through the door and leaving it. The idea of access, I think, is that we are made suitable, \"access by one Spirit to the Father\". We are to have sonship's intelligence and sonship's feelings in view of the Father having His portion from His sons."
+     "speaker": "RT",
+     "text": [
+      "Yes, they will expand to bring in the virgins, the companions. The doors will expand to bring the whole thing in to God's own abode. \"The Spirit of his Son\" (Gal 4: 6) is not just the title to sonship but the Spirit of His Son in our hearts. He gives us the feelings which are suited to being sons of God."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Those doors were folding doors, were they not? Is the idea in that that there is room for expansion?"
+     "speaker": "JSG",
+     "text": [
+      "The idea of qualification for access comes in in the book of Esther, does it not? Does this mean that neither Jew nor Gentile is at any disadvantage at all? There is total liberty through God's grace in that the Spirit is given in view of liberty in the Father's presence."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, they will expand to bring in the virgins, the companions. The doors will expand to bring the whole thing in to God's own abode. \"The Spirit of his Son\" (Gal 4: 6) is not just the title to sonship but the Spirit of His Son in our hearts. He gives us the feelings which are suited to being sons of God."
+     "speaker": "RT",
+     "text": [
+      "Yes, all that is characteristic of Jew or Gentile, or any other nation, is overcome, is it not? The Spirit's grace has overcome all that and has produced a personality in sonship that has access by the Spirit to function in the Father's presence."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "The idea of qualification for access comes in in the book of Esther, does it not? Does this mean that neither Jew nor Gentile is at any disadvantage at all? There is total liberty through God's grace in that the Spirit is given in view of liberty in the Father's presence."
+     "speaker": "RWF",
+     "text": [
+      "You could understand that the Gentiles have a greater appreciation of the Spirit's service because of the distance involved; Gentiles are those afar off. You spoke of the Spirit as power for transport. Do you think that we of the Gentiles should have a particular appreciation of the power of the Spirit, to the point of the most privileged access?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, all that is characteristic of Jew or Gentile, or any other nation, is overcome, is it not? The Spirit's grace has overcome all that and has produced a personality in sonship that has access by the Spirit to function in the Father's presence."
+     "speaker": "RT",
+     "text": [
+      "Yes. \"Remember that ye, once nations in the flesh ... strangers to the covenants of promise, having no hope, and without God in the world; but now in Christ Jesus ye who once were afar off are become nigh by the blood of the Christ\", Eph 2: 11-13. What impressionable material for the Spirit to take to clothe with sonship's feelings, that we may function before the Father's face! So it says \"to be strengthened with power by his Spirit in the inner man\", to be before the Father to apprehend things that were purposed before time began, and yet able to serve acceptably in the feelings of sonship in the presence of such glory."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "You could understand that the Gentiles have a greater appreciation of the Spirit's service because of the distance involved; Gentiles are those afar off. You spoke of the Spirit as power for transport. Do you think that we of the Gentiles should have a particular appreciation of the power of the Spirit, to the point of the most privileged access?"
+     "speaker": "BWW",
+     "text": [
+      "Does your expression 'before time began' bring out the greatness of God Himself? There is what is being worked out in the time scene, what has been worked out, what is being worked out and what will yet be in relation to those families for which the end is going to be very glorious. If we could take it in a little more would it help us as to patience in time now?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. \"Remember that ye, once nations in the flesh ... strangers to the covenants of promise, having no hope, and without God in the world; but now in Christ Jesus ye who once were afar off are become nigh by the blood of the Christ\", Eph 2: 11-13. What impressionable material for the Spirit to take to clothe with sonship's feelings, that we may function before the Father's face! So it says \"to be strengthened with power by his Spirit in the inner man\", to be before the Father to apprehend things that were purposed before time began, and yet able to serve acceptably in the feelings of sonship in the presence of such glory."
+     "speaker": "RT",
+     "text": [
+      "Yes. I think one of the great features, as was said earlier in the reading, is confidence in the Spirit; confidence in Him as to matters in time, as you say, because He has eternity in view. Here it is \"strengthened with power by his Spirit in the inner man\". I think the inner man would refer to what is divine workmanship - that is suited to be conducted into this area to be functioning intelligently in sonship's feelings before the Father."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Does your expression 'before time began' bring out the greatness of God Himself? There is what is being worked out in the time scene, what has been worked out, what is being worked out and what will yet be in relation to those families for which the end is going to be very glorious. If we could take it in a little more would it help us as to patience in time now?"
+     "speaker": "DJH",
+     "text": [
+      "It is \"according to the riches of his glory\". Is that like the wealth - \"All things that the Father has\" - the riches of which we have been speaking, all now in view of the Father?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. I think one of the great features, as was said earlier in the reading, is confidence in the Spirit; confidence in Him as to matters in time, as you say, because He has eternity in view. Here it is \"strengthened with power by his Spirit in the inner man\". I think the inner man would refer to what is divine workmanship - that is suited to be conducted into this area to be functioning intelligently in sonship's feelings before the Father."
+     "speaker": "RT",
+     "text": [
+      "It reminds you of the scripture to which we referred yesterday, the Spirit searching the depths of God (see 1 Cor 2: 10); they are all under His control. He would strengthen us with power, He would give us the words the feelings, expressions that are suited to the activity of sons in the presence of the Father."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "It is \"according to the riches of his glory\". Is that like the wealth - \"All things that the Father has\" - the riches of which we have been speaking, all now in view of the Father?"
+     "speaker": "DJH",
+     "text": [
+      "These expressions are meaningless in the world, are they not? They are spiritual, conveyed by spiritual means. \"The riches of his glory\" is a wonderful expression; it is understandable only in the spiritual realm is it not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It reminds you of the scripture to which we referred yesterday, the Spirit searching the depths of God (see 1 Cor 2: 10); they are all under His control. He would strengthen us with power, He would give us the words the feelings, expressions that are suited to the activity of sons in the presence of the Father."
+     "speaker": "RT",
+     "text": [
+      "Yes. \"The riches of his grace\" (Eph 1: 7), \"the glory of his grace\" (v 6); such expressions cast us on the Spirit of God for help to understand them. Here there is the suggestion that persons are strengthened divinely strengthened to be at home and functioning in the Father's presence."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "These expressions are meaningless in the world, are they not? They are spiritual, conveyed by spiritual means. \"The riches of his glory\" is a wonderful expression; it is understandable only in the spiritual realm is it not?"
+     "speaker": "ECB",
+     "text": [
+      "Is the inner man what will ultimately go through into the actuality of these circumstances? It is not here, as in Romans 7 and 2 Corinthians 4, contrasted with the outward man; it is just the inner man. Is that what goes through?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. \"The riches of his grace\" (Eph 1: 7), \"the glory of his grace\" (v 6); such expressions cast us on the Spirit of God for help to understand them. Here there is the suggestion that persons are strengthened divinely strengthened to be at home and functioning in the Father's presence."
+     "speaker": "RT",
+     "text": [
+      "That is what will take on glory, because the service eternally will be spiritual and it will be connected with the inner man, I think."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is the inner man what will ultimately go through into the actuality of these circumstances? It is not here, as in Romans 7 and 2 Corinthians 4, contrasted with the outward man; it is just the inner man. Is that what goes through?"
+     "speaker": "ECB",
+     "text": [
+      "I wondered that, in connection with \"there is ... a spiritual one (body)\", 1 Cor 15: 44. Flesh and blood does not inherit this realm."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That is what will take on glory, because the service eternally will be spiritual and it will be connected with the inner man, I think."
+     "speaker": "RT",
+     "text": [
+      "That is substantial. We are apt to think of spiritual as being something that is not substantial. I think that the experiences with the Spirit produce something that is substantial, and yet it is spiritual, and it is at home in the presence of divine Persons. Think of a divine Person, the Holy Spirit of God, being alongside of us and strengthening us in view of the Father's name being praised with suitable feelings and suitable expressions. So we do not go back to formality, things that are right but which may not be just what is proper to the Father's name and the feelings of the house at that moment. We are very cast on the Spirit that right things are said at the right time, and they have a right ring about them."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I wondered that, in connection with \"there is ... a spiritual one (body)\", 1 Cor 15: 44. Flesh and blood does not inherit this realm."
+     "speaker": "MJS",
+     "text": [
+      "Do you think that we do not value enough the power that is mentioned here that is available to us? I was thinking of the way the Lord sent His disciples out with power."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That is substantial. We are apt to think of spiritual as being something that is not substantial. I think that the experiences with the Spirit produce something that is substantial, and yet it is spiritual, and it is at home in the presence of divine Persons. Think of a divine Person, the Holy Spirit of God, being alongside of us and strengthening us in view of the Father's name being praised with suitable feelings and suitable expressions. So we do not go back to formality, things that are right but which may not be just what is proper to the Father's name and the feelings of the house at that moment. We are very cast on the Spirit that right things are said at the right time, and they have a right ring about them."
-    },
-    {
-     "speaker": "M.J.S.",
-     "text": "Do you think that we do not value enough the power that is mentioned here that is available to us? I was thinking of the way the Lord sent His disciples out with power."
-    },
-    {
-     "speaker": "R.T.",
-     "text": "Yes; it says \"to be strengthened with power”. You feel you are not able to get up sometimes, but the Spirit would strengthen you with power in the inner man, so that we may - and I am sure we have experienced it - that as you are on your feet something else comes into your mind; that is the Spirit strengthening with power; He knows what is suited to the Father's name. Are we amenable? Do we become in Spirit on the Lord's day? Do we come into a realm where the Spirit pervades, so that we can prove His service as inside, strengthening us, that the Father's name is praised?"
+     "speaker": "RT",
+     "text": [
+      "Yes; it says \"to be strengthened with power”. You feel you are not able to get up sometimes, but the Spirit would strengthen you with power in the inner man, so that we may - and I am sure we have experienced it - that as you are on your feet something else comes into your mind; that is the Spirit strengthening with power; He knows what is suited to the Father's name. Are we amenable? Do we become in Spirit on the Lord's day? Do we come into a realm where the Spirit pervades, so that we can prove His service as inside, strengthening us, that the Father's name is praised?"
+     ]
     }
    ]
   },
@@ -700,6 +896,14 @@
      "text": "It is a wonderful thing that God is able to blot out, as well as write down. Peter appealed to the very people who had crucified Jesus, saying that they should repent and be converted \"for the blotting out of your sins\". Happily for them, many people answered the appeal and the number of men was about five thousand. Centuries before it had been prophesied that God was able to blot out sins as a thick cloud. His righteousness in doing so was on account of the atoning work of Jesus, known already in divine purpose. Are your sins blotted out?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE SPIRIT IN THE HOUSE",
+   "kind": "default_place",
+   "detail": "LONDON given to 10 names (\"All local unless otherwise stated\")"
   }
  ]
 }

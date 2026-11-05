@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -31,44 +31,55 @@
     "RT",
     "RG",
     "AB",
+    "TDB",
+    "DM",
     "MC",
     "DS",
     "DTP",
     "JT",
-    "SN"
+    "SN",
+    "EMcL"
    ],
    "initials": [
     {
-     "initials": "KDB",
-     "name": "(Kirkcaldy unless shown otherwise):- D Beveridge"
+     "initials": "TDB",
+     "name": "D Beveridge",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "AB",
-     "name": "A Buchan"
+     "name": "A Buchan",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "MC",
-     "name": "M Cowan"
+     "name": "M Cowan",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "RG",
-     "name": "R Gardiner"
+     "name": "R Gardiner",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "DMS",
-     "name": "D Matthews Snr"
+     "initials": "DM",
+     "name": "D Matthews Snr",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "DMJ",
-     "name": "D Matthews Jr"
+     "initials": "DM",
+     "name": "D Matthews Jr",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "DTP",
-     "name": "D T Pye"
+     "name": "D T Pye",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "EM",
-     "name": "E McLaren"
+     "initials": "EMcL",
+     "name": "E McLaren",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "DS",
@@ -77,18 +88,22 @@
     },
     {
      "initials": "RT",
-     "name": "R Taylor"
+     "name": "R Taylor",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "SN",
-     "name": "S Newberry"
+     "name": "S Newberry",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "JT",
-     "name": "J Thompson"
+     "name": "J Thompson",
+     "place": "Kirkcaldy"
     }
    ],
    "initials_heading": "Key to Initials:",
+   "initials_comment": "Kirkcaldy unless shown otherwise",
    "initials_text": [
     "(Kirkcaldy unless shown otherwise):-",
     "D Beveridge; A Buchan; M Cowan; R Gardiner; D Matthews Snr; D Matthews Jr; D T Pye; E McLaren; D Spinks, Grangemouth; R Taylor; S Newberry; J Thompson"
@@ -96,391 +111,485 @@
    "paragraphs": [
     {
      "speaker": "RT",
-     "text": "I just felt this morning, dear brethren, that the occasion increased in wealth as we proceeded, especially as in the Father’s presence. Maybe some impress was left on our spirits, and having this reading and the hymn we have just sung, Hymn 144, would give us a deeper appreciation of the place that we are destined for. The place is already prepared and we are now being prepared for the place. And I think that it requires our peculiar attention today, to freshly lay hold in our spirits of the place that is prepared already for us. Exercises may help to lead us to be more suited to the place."
-    },
-    {
-     "text": "The Lord is leaving the disciples here, and He wants to leave that impression with them: “Let not your heart be troubled … I go to prepare you a place”. He has already done it; He has gone: He has prepared the place. And He says, “I am coming again”. What a heart He had for them! So He says, “that where I am ye also may be”. That is the love that He has for us, dear brethren. He wants us to be in the place where He is, “that where I am ye also may be”. He says, “ye know where I go”. Well, do we? These are exercises that may arise in our hearts as we speak of the blessedness of the place. In John 17, He says, “that where I am they also may be with me”. He has already given them glory, and now He wants us to see His glory. Some of these things would come into the types in Kings; but John 14 says that the Father has many abodes. Paul says, “I bow my knees to the Father … of whom every family … is named”; there is a place for every family. What a place the Father's house is going to be! All the families - Adam, Noah, Abraham ... - there will be a place for them all. And the centre of it all is the ark in its place. I just thought these impressions may expand as we speak about them, dear brethren, quicken our affections and give us a deeper sense of the restfulness and the beauty and the charm of that place. May that be left on our spirits now in the difficult times that we are in. The Lord is very tender with them in chapter 14. “Let not your heart be troubled”, as if there is a rock outside of everything else, an anchor."
+     "text": [
+      "I just felt this morning, dear brethren, that the occasion increased in wealth as we proceeded, especially as in the Father’s presence. Maybe some impress was left on our spirits, and having this reading and the hymn we have just sung, Hymn 144, would give us a deeper appreciation of the place that we are destined for. The place is already prepared and we are now being prepared for the place. And I think that it requires our peculiar attention today, to freshly lay hold in our spirits of the place that is prepared already for us. Exercises may help to lead us to be more suited to the place.",
+      "The Lord is leaving the disciples here, and He wants to leave that impression with them: “Let not your heart be troubled … I go to prepare you a place”. He has already done it; He has gone: He has prepared the place. And He says, “I am coming again”. What a heart He had for them! So He says, “that where I am ye also may be”. That is the love that He has for us, dear brethren. He wants us to be in the place where He is, “that where I am ye also may be”. He says, “ye know where I go”. Well, do we? These are exercises that may arise in our hearts as we speak of the blessedness of the place. In John 17, He says, “that where I am they also may be with me”. He has already given them glory, and now He wants us to see His glory. Some of these things would come into the types in Kings; but John 14 says that the Father has many abodes. Paul says, “I bow my knees to the Father … of whom every family … is named”; there is a place for every family. What a place the Father's house is going to be! All the families - Adam, Noah, Abraham ... - there will be a place for them all. And the centre of it all is the ark in its place. I just thought these impressions may expand as we speak about them, dear brethren, quicken our affections and give us a deeper sense of the restfulness and the beauty and the charm of that place. May that be left on our spirits now in the difficult times that we are in. The Lord is very tender with them in chapter 14. “Let not your heart be troubled”, as if there is a rock outside of everything else, an anchor."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "When the Lord said this, do you think He had in His mind and heart that there was to be a place for sons, so that where we read next we have “the glory which thou hast given me I have given them”. Persons were in accord, were they?"
+     "text": [
+      "When the Lord said this, do you think He had in His mind and heart that there was to be a place for sons, so that where we read next we have “the glory which thou hast given me I have given them”. Persons were in accord, were they?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes, I think that is right. He has given us a glory. Hymn 76 says,"
-    },
-    {
-     "text": "There no stranger-God shall meet thee-."
-    },
-    {
-     "text": "and then it says,"
-    },
-    {
-     "text": "Stranger thou in courts above!"
-    },
-    {
-     "text": "Maybe we do not know enough about it, but that is what the Lord would be saying here, I think, that there will be no strangers. He has given us a glory to be there but then He has a glory that we will behold as the Centre of the whole system."
+     "text": [
+      "Yes, I think that is right. He has given us a glory. Hymn 76 says,",
+      "There no stranger-God shall meet thee-.",
+      "and then it says,",
+      "Stranger thou in courts above!",
+      "Maybe we do not know enough about it, but that is what the Lord would be saying here, I think, that there will be no strangers. He has given us a glory to be there but then He has a glory that we will behold as the Centre of the whole system."
+     ]
     },
     {
      "speaker": "AB",
-     "text": "It says, “I … shall receive you” but then there is something more, “receive you to myself”. There is something very personal about that. What would you say?"
+     "text": [
+      "It says, “I … shall receive you” but then there is something more, “receive you to myself”. There is something very personal about that. What would you say?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, that is what Kings opens up: the ark in its place. We get some sense of that, that He has been here, placed in circumstances like we are in, but now He has gone in to prepare us a place: “I am coming again and shall receive you to myself”. We are going to see Him in His own glory and beauty, the glory that the Father has given Him. It will move our hearts in worship eternally: the ark in its place, the staves drawn out, the journey all over. What a journey it has been! It says, “There was nothing in the ark save the two tables of stone”. The wilderness was over; there is no rod of Aaron but the ark in its own beauty and glory filling that place."
+     "text": [
+      "Well, that is what Kings opens up: the ark in its place. We get some sense of that, that He has been here, placed in circumstances like we are in, but now He has gone in to prepare us a place: “I am coming again and shall receive you to myself”. We are going to see Him in His own glory and beauty, the glory that the Father has given Him. It will move our hearts in worship eternally: the ark in its place, the staves drawn out, the journey all over. What a journey it has been! It says, “There was nothing in the ark save the two tables of stone”. The wilderness was over; there is no rod of Aaron but the ark in its own beauty and glory filling that place."
+     ]
     },
     {
-     "text": "TDB Is the Father’s house an eternal thought? God’s house is provisional but the Father’s house is eternal?"
+     "speaker": "TDB",
+     "text": [
+      "Is the Father’s house an eternal thought? God’s house is provisional but the Father’s house is eternal?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, would you want to leave it? It will be eternal, to let loose, we may say, the affection and the wealth that has been gained in the pathway here by the Spirit. There is something being wrought now by the Spirit that will be set free in those conditions in eternal praise to God, do you think?"
+     "text": [
+      "Well, would you want to leave it? It will be eternal, to let loose, we may say, the affection and the wealth that has been gained in the pathway here by the Spirit. There is something being wrought now by the Spirit that will be set free in those conditions in eternal praise to God, do you think?"
+     ]
     },
     {
-     "text": "DM Jr Is that why the Lord Jesus uses the word “abodes”? He speaks about the place, but “abodes” is more the thought of staying, is it not?"
+     "speaker": "DM",
+     "text": [
+      "Jr Is that why the Lord Jesus uses the word “abodes”? He speaks about the place, but “abodes” is more the thought of staying, is it not?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, that is Ephesians. The Father - “In my Father’s house” - but then Paul says in Ephesians, “I bow my knees to the Father … of whom every family in the heavens and on earth is named”. They will be named for the place, many families there, and they will all have a different glory: Old Testament saints will have a glory, Israel will have a glory; and the assembly will have a glory seen all of its own. But they will all have glory about them; and they will be in their place, all giving tribute to the God that purposed this wonderful place."
+     "text": [
+      "Well, that is Ephesians. The Father - “In my Father’s house” - but then Paul says in Ephesians, “I bow my knees to the Father … of whom every family in the heavens and on earth is named”. They will be named for the place, many families there, and they will all have a different glory: Old Testament saints will have a glory, Israel will have a glory; and the assembly will have a glory seen all of its own. But they will all have glory about them; and they will be in their place, all giving tribute to the God that purposed this wonderful place."
+     ]
     },
     {
      "speaker": "MC",
-     "text": "Something will be distinctive about the first of all the families? God will have pleasure and delight in them all, but there is something very pleasurable in what He has secured in the first family, those that are related to Christ in such a way as this."
+     "text": [
+      "Something will be distinctive about the first of all the families? God will have pleasure and delight in them all, but there is something very pleasurable in what He has secured in the first family, those that are related to Christ in such a way as this."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "I thought that was the house for Pharaoh’s daughter in the type. We read in the close about the house of Pharaoh’s daughter; that was Solomon's wife. There was all that beauty and all that charm of the house, but there is another place: there was a place for Pharaoh’s daughter, his wife. Christ and the assembly will give a peculiar lustre, I think, the final touch, maybe, to the Father’s house. But Christ will be there, the Bridegroom and the bride, do you think?"
+     "text": [
+      "I thought that was the house for Pharaoh’s daughter in the type. We read in the close about the house of Pharaoh’s daughter; that was Solomon's wife. There was all that beauty and all that charm of the house, but there is another place: there was a place for Pharaoh’s daughter, his wife. Christ and the assembly will give a peculiar lustre, I think, the final touch, maybe, to the Father’s house. But Christ will be there, the Bridegroom and the bride, do you think?"
+     ]
     },
     {
      "speaker": "MC",
-     "text": "Yes. In John 17 it says, “I desire that where I am they also may be with me”; so that what is secured there is entirely for His own delight, is it not, in the realm of divine love and complacency?"
+     "text": [
+      "Yes. In John 17 it says, “I desire that where I am they also may be with me”; so that what is secured there is entirely for His own delight, is it not, in the realm of divine love and complacency?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes, it is “that they may behold my glory which thou has given me”, that we may come into the whole wealth of the house. “I desire that where I am they also may be with me, that they may behold my glory which thou has given me, for thou lovedst me before the foundation of the world”: to see the Son as loved by the Father. What praise it must evoke to see the way the Father loves the Son. He gave all things to be in His hand and here is the grand result of it all, many families to be suited and to be at home in the Father’s house and to behold His glory."
-    },
-    {
-     "text": "There Christ, the centre of the throng,"
-    },
-    {
-     "text": "Shall in His glory shine,"
-    },
-    {
-     "text": "But not an eye those hosts among"
-    },
-    {
-     "text": "But sees His glory thine."
-    },
-    {
-     "text": "(Hymn 178)"
-    },
-    {
-     "text": "The notes and praises that are awakened will all ascend to the Father, will they not?"
+     "text": [
+      "Yes, it is “that they may behold my glory which thou has given me”, that we may come into the whole wealth of the house. “I desire that where I am they also may be with me, that they may behold my glory which thou has given me, for thou lovedst me before the foundation of the world”: to see the Son as loved by the Father. What praise it must evoke to see the way the Father loves the Son. He gave all things to be in His hand and here is the grand result of it all, many families to be suited and to be at home in the Father’s house and to behold His glory.",
+      "There Christ, the centre of the throng,",
+      "Shall in His glory shine,",
+      "But not an eye those hosts among",
+      "But sees His glory thine.",
+      "(Hymn 178)",
+      "The notes and praises that are awakened will all ascend to the Father, will they not?"
+     ]
     },
     {
      "speaker": "AB",
-     "text": "Paul does not give us exactly the Father’s house, does he, when he says that “if our earthly tabernacle be destroyed, we have a building from God.... eternal in the heavens” (2 Cor 5: 1); is that a different thought?"
+     "text": [
+      "Paul does not give us exactly the Father’s house, does he, when he says that “if our earthly tabernacle be destroyed, we have a building from God.... eternal in the heavens” (2 Cor 5: 1); is that a different thought?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, it is a house “not made with hands”. I think that is what is working now; the Spirit is doing that: He is building the material for it. The entrance itself will await the rapture, but the material for it is being wrought now. “Not made with hands”; it is a great tribute what the Spirit is doing. There is something being formed now. May we give more room to Him. There is something being formed now that will find its eternal rest in the Father’s house."
+     "text": [
+      "Well, it is a house “not made with hands”. I think that is what is working now; the Spirit is doing that: He is building the material for it. The entrance itself will await the rapture, but the material for it is being wrought now. “Not made with hands”; it is a great tribute what the Spirit is doing. There is something being formed now. May we give more room to Him. There is something being formed now that will find its eternal rest in the Father’s house."
+     ]
     },
     {
      "speaker": "DS",
-     "text": "So the Lord Himself is the great Operator in this whole system, is He? He goes to prepare a place for us; as you say, He has already prepared that place. We had a touch this morning of the fact that we have been given to Christ to bring us home to the Father; so we see the Lord as the great Operator in everything that He is doing, and then He is operating to bring everything back in relation to the Father."
+     "text": [
+      "So the Lord Himself is the great Operator in this whole system, is He? He goes to prepare a place for us; as you say, He has already prepared that place. We had a touch this morning of the fact that we have been given to Christ to bring us home to the Father; so we see the Lord as the great Operator in everything that He is doing, and then He is operating to bring everything back in relation to the Father."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes, very beautiful, is it not? Jacob says, “Bring them, I pray thee, to me”, Gen 48: 9. You see what he does: he elevates them, does he not? He says they, “shall be mine”, v 5. It gives us some impression of the path that we are on: it is not doom and gloom. There is something being formed that will be for the Father’s pleasure and praise. I felt there was some special touch about the meeting as we were speaking to the Father this morning: the Father’s love resting on the sons, the joy He finds in them, and that joy filling the whole scene with praise and worship and glory to God."
+     "text": [
+      "Yes, very beautiful, is it not? Jacob says, “Bring them, I pray thee, to me”, Gen 48: 9. You see what he does: he elevates them, does he not? He says they, “shall be mine”, v 5. It gives us some impression of the path that we are on: it is not doom and gloom. There is something being formed that will be for the Father’s pleasure and praise. I felt there was some special touch about the meeting as we were speaking to the Father this morning: the Father’s love resting on the sons, the joy He finds in them, and that joy filling the whole scene with praise and worship and glory to God."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "When the Lord said, “my Father and your Father” (John 20:17), do you think that gives us some impression of the place that we are brought into? “My Father”: a personal touch there, is there not? Personal knowledge of the Father and the Father of the Son, and we are brought into the same place, and the same position, do you think?"
+     "text": [
+      "When the Lord said, “my Father and your Father” (John 20:17), do you think that gives us some impression of the place that we are brought into? “My Father”: a personal touch there, is there not? Personal knowledge of the Father and the Father of the Son, and we are brought into the same place, and the same position, do you think?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Tell us some more about it."
+     "text": [
+      "Tell us some more about it."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Well, I do not know that I could, but it seems to me that there is nothing inferior about all this. It is according to God’s purpose. God’s purpose was that He would have man according to His own heart, suitable for His own presence to give praise to Him, do you think?"
+     "text": [
+      "Well, I do not know that I could, but it seems to me that there is nothing inferior about all this. It is according to God’s purpose. God’s purpose was that He would have man according to His own heart, suitable for His own presence to give praise to Him, do you think?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes, and you see the way that He has worked it out, as you said in the beginning, “the glory which thou hast given me I have given them”: entirely suited to the place through the work of Christ. His priesthood and His grace have followed us, but then the added thing is, “behold my glory which thou hast given me, for thou lovedst me”. The Father’s love for the Son; the Son’s appreciation of the Father’s love: what should our love be? It should be growing on our hearts, the way that the Father has loved us to bring us to be in His own presence, suited to His eternal thoughts."
+     "text": [
+      "Yes, and you see the way that He has worked it out, as you said in the beginning, “the glory which thou hast given me I have given them”: entirely suited to the place through the work of Christ. His priesthood and His grace have followed us, but then the added thing is, “behold my glory which thou hast given me, for thou lovedst me”. The Father’s love for the Son; the Son’s appreciation of the Father’s love: what should our love be? It should be growing on our hearts, the way that the Father has loved us to bring us to be in His own presence, suited to His eternal thoughts."
+     ]
     },
     {
-     "text": "TDB I was thinking of one of the last hymns that we sang,"
-    },
-    {
-     "text": "Love in its own dwelling, every voice is telling"
-    },
-    {
-     "text": "Of glory known ..."
-    },
-    {
-     "text": "(Hymn 100);"
-    },
-    {
-     "text": "- the atmosphere of the place; we will be living in that."
+     "speaker": "TDB",
+     "text": [
+      "I was thinking of one of the last hymns that we sang,",
+      "Love in its own dwelling, every voice is telling",
+      "Of glory known ...",
+      "(Hymn 100);",
+      "- the atmosphere of the place; we will be living in that."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes. Well, it will be glory, glory, glory, will it not? The eternal song - something will be awakened that will never cease. The praise will be eternal because the atmosphere will be different, but the Spirit has given us some foretaste of it now, I think: to be in a home where Christ is the Centre of the throng."
+     "text": [
+      "Yes. Well, it will be glory, glory, glory, will it not? The eternal song - something will be awakened that will never cease. The praise will be eternal because the atmosphere will be different, but the Spirit has given us some foretaste of it now, I think: to be in a home where Christ is the Centre of the throng."
+     ]
     },
     {
      "speaker": "DTP",
-     "text": "You think of Christ in resurrection; He settled the disciples as to Himself and the place that they had before Him. That is like, “Let not your hearts be troubled”, and a settling. There was that period when three divine Persons were in the glory; that was distinctive at this time after Christ's resurrection, but you would feel the Lord’s longings to be settled with His own, in view of them touching that period that was unique in divine purpose that satisfied divine Persons."
+     "text": [
+      "You think of Christ in resurrection; He settled the disciples as to Himself and the place that they had before Him. That is like, “Let not your hearts be troubled”, and a settling. There was that period when three divine Persons were in the glory; that was distinctive at this time after Christ's resurrection, but you would feel the Lord’s longings to be settled with His own, in view of them touching that period that was unique in divine purpose that satisfied divine Persons."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, would that I knew more about it! “Let not your heart be troubled”; that is something that is fixed, is it not? “Believe on God, believe also on me”, the One who is conducting us in, you might say. And the Spirit having come from that atmosphere too, our hearts should not be troubled but we should have some sense of the Lord speaking here about the Father. “Righteous Father, - and the world has not known thee, but I have known thee, and these have known that thou has sent me. And I have made known to them thy name”. It is not some story book; it is the Son making known the Father. He is made known in His grace and His ways, but think of Him making it known now, and the Spirit making Him known; so I think we get touches from time to time. But we know the place; it says, you know the place. Well, we are tested about these things but the Man that we loved and followed He has gone in, ready to bring us in that we may be at home in the place."
+     "text": [
+      "Well, would that I knew more about it! “Let not your heart be troubled”; that is something that is fixed, is it not? “Believe on God, believe also on me”, the One who is conducting us in, you might say. And the Spirit having come from that atmosphere too, our hearts should not be troubled but we should have some sense of the Lord speaking here about the Father. “Righteous Father, - and the world has not known thee, but I have known thee, and these have known that thou has sent me. And I have made known to them thy name”. It is not some story book; it is the Son making known the Father. He is made known in His grace and His ways, but think of Him making it known now, and the Spirit making Him known; so I think we get touches from time to time. But we know the place; it says, you know the place. Well, we are tested about these things but the Man that we loved and followed He has gone in, ready to bring us in that we may be at home in the place."
+     ]
     },
     {
      "speaker": "JT",
-     "text": "The Father’s love comes into this. The Lord says, “that the love with which thou has loved me may be in them and I in them”. Do you get some touch of what the Father’s love is?"
+     "text": [
+      "The Father’s love comes into this. The Lord says, “that the love with which thou has loved me may be in them and I in them”. Do you get some touch of what the Father’s love is?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes, it would seem, as we quoted earlier, that Jacob’s heart was moved when he saw these two sons. One of them was named, ‘causing to forget’: all the toil that Joseph had gone through is forgotten. But the other one was “double fruitfulness”, Gen. 41: 51, 52. There is Christ; caused to forget all the toil that He may be fruitful; and there is the fruit. Joseph brings the two sons that are like him, and Jacob says, “Bring them, I pray thee, to me”; he says, “Ephraim and Manasseh shall be mine, as Reuben and Simeon”. He elevates them; he brings them into the full thought of sonship. There are no grades in sonship, brethren: “ye are all God’s sons”, Gal 3: 26. We are brought into the height and joy of our calling."
+     "text": [
+      "Yes, it would seem, as we quoted earlier, that Jacob’s heart was moved when he saw these two sons. One of them was named, ‘causing to forget’: all the toil that Joseph had gone through is forgotten. But the other one was “double fruitfulness”, Gen. 41: 51, 52. There is Christ; caused to forget all the toil that He may be fruitful; and there is the fruit. Joseph brings the two sons that are like him, and Jacob says, “Bring them, I pray thee, to me”; he says, “Ephraim and Manasseh shall be mine, as Reuben and Simeon”. He elevates them; he brings them into the full thought of sonship. There are no grades in sonship, brethren: “ye are all God’s sons”, Gal 3: 26. We are brought into the height and joy of our calling."
+     ]
     },
     {
      "speaker": "AB",
-     "text": "The living experience that we have in the Lord’s supper each Lord’s day is unique; there is a new experience; and both in John 14 and John 17 it says “where I am”. Is that the leadership of the Lord Jesus, would you say?"
+     "text": [
+      "The living experience that we have in the Lord’s supper each Lord’s day is unique; there is a new experience; and both in John 14 and John 17 it says “where I am”. Is that the leadership of the Lord Jesus, would you say?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Would that we made more of the experience. I am just saying this very simply: very quickly after, the conversation drops. Do we speak about our experience when we go home, the impressions that we have got, and think about them? That is the way that formation takes place. It is not only in the meeting; it is what takes place through the experiences, as you say, experience that should move our hearts that what we are brought into, and what we have a taste of now is a house:"
-    },
-    {
-     "text": "Where deceiver ne'er can enter,"
-    },
-    {
-     "text": "Sin-soiled feet have never trod;"
-    },
-    {
-     "text": "But -"
-    },
-    {
-     "text": "Free, our peaceful feet may venture"
-    },
-    {
-     "text": "In the paradise of God."
-    },
-    {
-     "text": "Hymn 206"
+     "text": [
+      "Would that we made more of the experience. I am just saying this very simply: very quickly after, the conversation drops. Do we speak about our experience when we go home, the impressions that we have got, and think about them? That is the way that formation takes place. It is not only in the meeting; it is what takes place through the experiences, as you say, experience that should move our hearts that what we are brought into, and what we have a taste of now is a house:",
+      "Where deceiver ne'er can enter,",
+      "Sin-soiled feet have never trod;",
+      "But -",
+      "Free, our peaceful feet may venture",
+      "In the paradise of God.",
+      "Hymn 206"
+     ]
     },
     {
      "speaker": "MC",
-     "text": "It brings out God’s workmanship. There is something by the way of formation in the saints in their affections, and that brings forth the response. I was very affected this morning by what was mentioned several times, the eternal song, and for that to remain on our spirits I think is a very fine thing, is it not?"
+     "text": [
+      "It brings out God’s workmanship. There is something by the way of formation in the saints in their affections, and that brings forth the response. I was very affected this morning by what was mentioned several times, the eternal song, and for that to remain on our spirits I think is a very fine thing, is it not?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, that is the stones of Kings, I thought. The stones had all been quarried; that is the exercises of the present moment. The stones were entirely made ready; are we ready for it? The sorrows of death and the exercises and sorrows that we pass through, they are all forming the stones. That is the wilderness experience, but you come to the chapter where the stones were already entirely made ready. Well, that is what is going on now, do you think? The stones are being entirely made ready so that they will be suited there. There will be no reference to the past, but something entirely new:"
-    },
-    {
-     "text": "The new creation's stainless joy"
-    },
-    {
-     "text": "(Hymn 81)."
+     "text": [
+      "Well, that is the stones of Kings, I thought. The stones had all been quarried; that is the exercises of the present moment. The stones were entirely made ready; are we ready for it? The sorrows of death and the exercises and sorrows that we pass through, they are all forming the stones. That is the wilderness experience, but you come to the chapter where the stones were already entirely made ready. Well, that is what is going on now, do you think? The stones are being entirely made ready so that they will be suited there. There will be no reference to the past, but something entirely new:",
+      "The new creation's stainless joy",
+      "(Hymn 81)."
+     ]
     },
     {
      "speaker": "MC",
-     "text": "Divine perfection, is it not? It is really what we are brought to arrive at. Nothing short of perfection would be suitable to God, would it?"
+     "text": [
+      "Divine perfection, is it not? It is really what we are brought to arrive at. Nothing short of perfection would be suitable to God, would it?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, how beautiful they are. Look at these stones in their place in this building: they were overlaid with gold; they are shining in lustre and beauty. They adorned the place. What a place the Father’s house will be because of the saints in it - vibrant with life."
+     "text": [
+      "Well, how beautiful they are. Look at these stones in their place in this building: they were overlaid with gold; they are shining in lustre and beauty. They adorned the place. What a place the Father’s house will be because of the saints in it - vibrant with life."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Psalm 132: 14 says, “This is my rest forever; here will I dwell, for I have desired it”. There was no sound of hammer nor axe nor any tool of iron heard in the house. It is a remarkable thing, is it not, that all that is going on in formation is being formed outside? But then when it comes together the formation is there, and we can fit together as the stones fitted together in perfection."
+     "text": [
+      "Psalm 132: 14 says, “This is my rest forever; here will I dwell, for I have desired it”. There was no sound of hammer nor axe nor any tool of iron heard in the house. It is a remarkable thing, is it not, that all that is going on in formation is being formed outside? But then when it comes together the formation is there, and we can fit together as the stones fitted together in perfection."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "It is not a place like the palaces of men: it is vibrant with life. It is not something that is open in the season to show people around; it is there in vitality and life. There are all these beautiful woods, some of them with half open flowers; vital with life, all things vibrant with glory and praise; God is finding His dwelling place in it."
+     "text": [
+      "It is not a place like the palaces of men: it is vibrant with life. It is not something that is open in the season to show people around; it is there in vitality and life. There are all these beautiful woods, some of them with half open flowers; vital with life, all things vibrant with glory and praise; God is finding His dwelling place in it."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "The olive is a reminder of the Spirit of God, the living Spirit, but then the evergreen cypress might speak of life amongst the saints? The doors lead into the most holy place, the Father’s house. We take character from the Spirit Himself when we approach through Christ by one Spirit, do you think? There is life in Himself, in the Spirit, the Spirit of life. That is the same Spirit that was in Christ Jesus, the Spirit of life in Christ Jesus. That is the Spirit of life that motivates us. What a privilege we have, do you think?"
+     "text": [
+      "The olive is a reminder of the Spirit of God, the living Spirit, but then the evergreen cypress might speak of life amongst the saints? The doors lead into the most holy place, the Father’s house. We take character from the Spirit Himself when we approach through Christ by one Spirit, do you think? There is life in Himself, in the Spirit, the Spirit of life. That is the same Spirit that was in Christ Jesus, the Spirit of life in Christ Jesus. That is the Spirit of life that motivates us. What a privilege we have, do you think?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes, and it is all overlaid with gold. I used to think that gold was a type of the love of God, but I think I have seen since that the gold is a type of divine righteousness. All around wherever you look -"
-    },
-    {
-     "text": "God’s righteousness with glory bright"
-    },
-    {
-     "text": "(Hymn 88)"
-    },
-    {
-     "text": "fills that scene. And that was all seen in those flowers and the woods; they are all there, but what they are bearing is the gold. It is a wonderful thing when you think of God’s righteousness. There is great scope in it in the way that He has done things. But His nature is love; and here it is flowing in this place that it is entirely suited to it."
+     "text": [
+      "Yes, and it is all overlaid with gold. I used to think that gold was a type of the love of God, but I think I have seen since that the gold is a type of divine righteousness. All around wherever you look -",
+      "God’s righteousness with glory bright",
+      "(Hymn 88)",
+      "fills that scene. And that was all seen in those flowers and the woods; they are all there, but what they are bearing is the gold. It is a wonderful thing when you think of God’s righteousness. There is great scope in it in the way that He has done things. But His nature is love; and here it is flowing in this place that it is entirely suited to it."
+     ]
     },
     {
      "speaker": "MC",
-     "text": "It is interesting how many cherubim are here. We are moved by that,. It says they stretched forth their wings over the ark, as if they were living beings. I wondered if that brought out divine love, and perfection and protection too. The ark was held in that situation - protected, do you think?"
+     "text": [
+      "It is interesting how many cherubim are here. We are moved by that,. It says they stretched forth their wings over the ark, as if they were living beings. I wondered if that brought out divine love, and perfection and protection too. The ark was held in that situation - protected, do you think?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "There will be no disturbing elements will there? Everything is protected and guarded. Think of the joy of the Father in seeing now persons who are interested in that, persons who are touched with His grace and interested in the place that is being prepared. What joy the Father has now! And there is a protection of all these things going through amidst all the breakdown, something going through in which God is going to have His final rest."
+     "text": [
+      "There will be no disturbing elements will there? Everything is protected and guarded. Think of the joy of the Father in seeing now persons who are interested in that, persons who are touched with His grace and interested in the place that is being prepared. What joy the Father has now! And there is a protection of all these things going through amidst all the breakdown, something going through in which God is going to have His final rest."
+     ]
     },
     {
      "speaker": "SN",
-     "text": "I was thinking about what you were saying about keeping the level of the impressions that we get. I was thinking of the two on the way to Emmaus. The Lord came there, and they were affected; so they were still speaking of Him after, were they not, being at Jerusalem? Would that be something we are tested in in terms of our maintaining the level and the impressions we get, and how we build on them?"
+     "text": [
+      "I was thinking about what you were saying about keeping the level of the impressions that we get. I was thinking of the two on the way to Emmaus. The Lord came there, and they were affected; so they were still speaking of Him after, were they not, being at Jerusalem? Would that be something we are tested in in terms of our maintaining the level and the impressions we get, and how we build on them?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, I speak for myself. You feel how quickly we get down to material things; and we have to do them, but can we come into material things from the sense of the Father’s house? They will not be so important to us if we got some sense of our place in that house. These things fall into their place when God has His place. The two you mention speaking of their experience rose up and returned to Jerusalem."
+     "text": [
+      "Well, I speak for myself. You feel how quickly we get down to material things; and we have to do them, but can we come into material things from the sense of the Father’s house? They will not be so important to us if we got some sense of our place in that house. These things fall into their place when God has His place. The two you mention speaking of their experience rose up and returned to Jerusalem."
+     ]
     },
     {
      "speaker": "DS",
-     "text": "Peter speaks of a precious stone (1 Pet 2: 4) which was treated as worthless, v 7.Believers are living stones in the eyes of the Father; and they are fitted together. There is something here of divine workmanship, where everyone is fitted together like that. It gives the ground for the Lord’s supper, do you think?"
+     "text": [
+      "Peter speaks of a precious stone (1 Pet 2: 4) which was treated as worthless, v 7.Believers are living stones in the eyes of the Father; and they are fitted together. There is something here of divine workmanship, where everyone is fitted together like that. It gives the ground for the Lord’s supper, do you think?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes, it does, and they are all working. The steps suggest there is movement. The door of the house overlaid with gold; the beams and the wood are there: everything is operative; it is not merely ornamental. They are all working and operating. There are the palm trees, and then there are the steps that go up. It is not just all on one level; steps are going up. There was room made in the house; there was width as you went up. So you may begin with the forgiveness of your sins; you may go on, appreciating the Lord for His guidance and help in wilderness circumstances, but can you come up to this other storey where Jesus fills that holy place, and glory dwells?"
+     "text": [
+      "Yes, it does, and they are all working. The steps suggest there is movement. The door of the house overlaid with gold; the beams and the wood are there: everything is operative; it is not merely ornamental. They are all working and operating. There are the palm trees, and then there are the steps that go up. It is not just all on one level; steps are going up. There was room made in the house; there was width as you went up. So you may begin with the forgiveness of your sins; you may go on, appreciating the Lord for His guidance and help in wilderness circumstances, but can you come up to this other storey where Jesus fills that holy place, and glory dwells?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "The queen of Sheba was moved by Solomon's ascent by which he ascended into the house of Jehovah. It was not going up to his throne of judgment; it was going up to the house of Jehovah. What a privilege we have to be with Christ, and not only to see it now but to be with Him in it, do you think?"
+     "text": [
+      "The queen of Sheba was moved by Solomon's ascent by which he ascended into the house of Jehovah. It was not going up to his throne of judgment; it was going up to the house of Jehovah. What a privilege we have to be with Christ, and not only to see it now but to be with Him in it, do you think?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, she was affected by it. She sees that all her glory and all that she thought that was hers is eclipsed in the presence of this glory. Well, are we affected when we see it? So, these steps: as you go up it gets wider and the Spirit has more room and more scope to cause us to see the glories and the beauties of that divine abode. And functioning in it; these flowers were not just ornaments. They were there in their beauty; the saints are shining in their glory. And then there are these folding doors - there is nothing rigid about it all; it is full of life. The folding doors are all swung open. That gave me some impression of all the families that will be there: folding doors. There will be a glory about Israel, there will be a glory about these saints that are suffering today, and persons that will suffer as in Revelation in all the testings that are going to come into this world. There will be a glory about all these persons, and they will all be radiating their own glory in the Father’s house to His eternal praise and glory."
+     "text": [
+      "Well, she was affected by it. She sees that all her glory and all that she thought that was hers is eclipsed in the presence of this glory. Well, are we affected when we see it? So, these steps: as you go up it gets wider and the Spirit has more room and more scope to cause us to see the glories and the beauties of that divine abode. And functioning in it; these flowers were not just ornaments. They were there in their beauty; the saints are shining in their glory. And then there are these folding doors - there is nothing rigid about it all; it is full of life. The folding doors are all swung open. That gave me some impression of all the families that will be there: folding doors. There will be a glory about Israel, there will be a glory about these saints that are suffering today, and persons that will suffer as in Revelation in all the testings that are going to come into this world. There will be a glory about all these persons, and they will all be radiating their own glory in the Father’s house to His eternal praise and glory."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Tell us something about these half-open flowers now."
+     "text": [
+      "Tell us something about these half-open flowers now."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, a half-open flower: does it not show freshness and potential; it is living, is it not? The doors are opening out to bring everybody in, but then there are the half-open flowers. They all have their place; we are all God’s sons; there are no grades in sonship. We are all God’s sons; there may be something different in quantity, but the quality is the same. What are you going to say about them?"
+     "text": [
+      "Well, a half-open flower: does it not show freshness and potential; it is living, is it not? The doors are opening out to bring everybody in, but then there are the half-open flowers. They all have their place; we are all God’s sons; there are no grades in sonship. We are all God’s sons; there may be something different in quantity, but the quality is the same. What are you going to say about them?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "They are not past their best; they are not fading. They are half-open flowers. Do you not think that we get an impression of that sometimes? Maybe brothers get an impression, or maybe the sisters - who do not speak - receive something; and the more we contemplate, the more we allow the Spirit to work in us, our impression opens up even more, and there is more and more beauty coming to light, do you think?"
+     "text": [
+      "They are not past their best; they are not fading. They are half-open flowers. Do you not think that we get an impression of that sometimes? Maybe brothers get an impression, or maybe the sisters - who do not speak - receive something; and the more we contemplate, the more we allow the Spirit to work in us, our impression opens up even more, and there is more and more beauty coming to light, do you think?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "I think that is the best part. If we just said what we thought in our minds before we got on our feet, it has its freshness; but I think if you are in a suitable state, the Spirit will give you something fresh to say. Maybe it is in the heart of a sister. The Spirit will give you something fresh to say that is in the heart in the company. It is fresh and it can be discerned, and the Father’s heart is cheered by it, do you think?"
+     "text": [
+      "I think that is the best part. If we just said what we thought in our minds before we got on our feet, it has its freshness; but I think if you are in a suitable state, the Spirit will give you something fresh to say. Maybe it is in the heart of a sister. The Spirit will give you something fresh to say that is in the heart in the company. It is fresh and it can be discerned, and the Father’s heart is cheered by it, do you think?"
+     ]
     },
     {
-     "text": "TDB So you do not make up something in your mind before you get up; is that what you are saying?"
+     "speaker": "TDB",
+     "text": [
+      "So you do not make up something in your mind before you get up; is that what you are saying?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, I think if the Spirit moves you in your seat we should be ready for something fresh also."
+     "text": [
+      "Well, I think if the Spirit moves you in your seat we should be ready for something fresh also."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "It is quickening, is it not?"
+     "text": [
+      "It is quickening, is it not?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Exactly; that is the word - quickening. A brother referred this morning to Samuel. The other sons were there but when David came in there was something that came into Samuel’s heart; he never thought about it before. There is Samuel quickened, “Arise, anoint him; for this is he”, 1 Sam 16: 12. What hallelujahs will be raised, will they not? I think this whole chapter, the Father’s house, is filled with freshness and glory and beauty: not formality; no prayer books, maybe not even hymn books, but the Spirit’s song will be sung."
+     "text": [
+      "Exactly; that is the word - quickening. A brother referred this morning to Samuel. The other sons were there but when David came in there was something that came into Samuel’s heart; he never thought about it before. There is Samuel quickened, “Arise, anoint him; for this is he”, 1 Sam 16: 12. What hallelujahs will be raised, will they not? I think this whole chapter, the Father’s house, is filled with freshness and glory and beauty: not formality; no prayer books, maybe not even hymn books, but the Spirit’s song will be sung."
+     ]
     },
     {
-     "text": "DM Snr In the Song of Songs it is, “Before I was aware ...”, chap 6: 12. If you make something up it is not the same as having something put into your heart by the Spirit at the time; is that right?"
+     "speaker": "DM",
+     "text": [
+      "Snr In the Song of Songs it is, “Before I was aware ...”, chap 6: 12. If you make something up it is not the same as having something put into your heart by the Spirit at the time; is that right?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, the scripture is,"
-    },
-    {
-     "text": "Before I was aware,"
-    },
-    {
-     "text": "My soul set me upon the chariots"
-    },
-    {
-     "text": "of my willing people."
-    },
-    {
-     "text": "Are we willing, brethren? Are we ready? Are we ready through the meeting? We are all human; things come into our minds and thoughts, but are we all ready for the Spirit to give us an impression of the Father’s house? I think He did this morning. I think there were some fresh songs in our hearts; the glory of this place that we are being brought into, which will be for His eternal glory."
+     "text": [
+      "Well, the scripture is,",
+      "Before I was aware,",
+      "My soul set me upon the chariots",
+      "of my willing people.",
+      "Are we willing, brethren? Are we ready? Are we ready through the meeting? We are all human; things come into our minds and thoughts, but are we all ready for the Spirit to give us an impression of the Father’s house? I think He did this morning. I think there were some fresh songs in our hearts; the glory of this place that we are being brought into, which will be for His eternal glory."
+     ]
     },
     {
      "speaker": "MC",
-     "text": "Our hearts need to be expanded, do you think? If our hearts are expanded, do you think, then we can reach into this great, vast area of things? I was thinking about how it opens up, and it says of how the saints “may be filled even to all the fulness of God”, Eph 3: 19. I was thinking about the liberty that we have, and there is liberty to move about, do you think?"
+     "text": [
+      "Our hearts need to be expanded, do you think? If our hearts are expanded, do you think, then we can reach into this great, vast area of things? I was thinking about how it opens up, and it says of how the saints “may be filled even to all the fulness of God”, Eph 3: 19. I was thinking about the liberty that we have, and there is liberty to move about, do you think?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes. Well, I think these half-open flowers would be something like that too: the great potential in the saints when the Spirit touches these chords. Half-open flowers have got a freshness about them and great potential, and they are there to be unfolding and adorning the scene for the Father’s pleasure."
+     "text": [
+      "Yes. Well, I think these half-open flowers would be something like that too: the great potential in the saints when the Spirit touches these chords. Half-open flowers have got a freshness about them and great potential, and they are there to be unfolding and adorning the scene for the Father’s pleasure."
+     ]
     },
     {
-     "text": "EMcL Say more about the different floors of the house. I was wondering about them; the middle and the upper floors, the lowest floor."
+     "speaker": "EMcL",
+     "text": [
+      "Say more about the different floors of the house. I was wondering about them; the middle and the upper floors, the lowest floor."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, we do not just keep singing, “Oh happy day that fixed my choice”. We may start there but can we expand in our affections. The Spirit is looking for room. That is Rebecca. The servant says to Rebecca, “Is there room”, Gen 24: 23? The Spirit is saying that to us today. Is there room to go to the second floor, or whatever floor there may be until you come to the eternal scene where all is of God and all is for God?"
+     "text": [
+      "Well, we do not just keep singing, “Oh happy day that fixed my choice”. We may start there but can we expand in our affections. The Spirit is looking for room. That is Rebecca. The servant says to Rebecca, “Is there room”, Gen 24: 23? The Spirit is saying that to us today. Is there room to go to the second floor, or whatever floor there may be until you come to the eternal scene where all is of God and all is for God?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Could we apply the first floor to knowing Jesus as Saviour, the second floor knowing Him as Lord, and the third floor knowing Him as Head?"
+     "text": [
+      "Could we apply the first floor to knowing Jesus as Saviour, the second floor knowing Him as Lord, and the third floor knowing Him as Head?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "I think there is more to it than that. The Bridegroom and headship are not out of place there. God “gave him to be head over all things to the assembly, which is his body, the fulness of him who fills all in all”, Eph 1: 22, 23. What a company!"
+     "text": [
+      "I think there is more to it than that. The Bridegroom and headship are not out of place there. God “gave him to be head over all things to the assembly, which is his body, the fulness of him who fills all in all”, Eph 1: 22, 23. What a company!"
+     ]
     },
     {
      "speaker": "MC",
-     "text": "I was thinking of the windows; it says they were closed windows. I was wondering about it when we read it. It says “closed windows”, but the note is very interesting because it says they were 'narrow without, broad within'. I was thinking it was a bit like the narrow way, is it not?"
+     "text": [
+      "I was thinking of the windows; it says they were closed windows. I was wondering about it when we read it. It says “closed windows”, but the note is very interesting because it says they were 'narrow without, broad within'. I was thinking it was a bit like the narrow way, is it not?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "The world is shut out."
+     "text": [
+      "The world is shut out."
+     ]
     },
     {
      "speaker": "MC",
-     "text": "Yes, but inside it is very broad; so there is plenty of scope for expansion. Is that right?"
+     "text": [
+      "Yes, but inside it is very broad; so there is plenty of scope for expansion. Is that right?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Well, is that our hearts dear brethren? There is a narrow way, is there not? There is a narrow way. That is because of the circumstances that we are in; there are some things that we cannot do: they are not suited to persons who belong to the Father. There are some places that we would not go: they are not suited to the Father’s house. But as you go in the whole thing is widening out - the glory is all within, is it not? It shuts out the world’s attractions to us, and there are great temptations now today. Alas, we are tempted in a way that we were not before because now there is a lot of wealth about, and it is tempting God’s people away into a world that is a broad way. But there is a narrow way for us outside, and inside there are these windows; that is full of splendour and glory. Well, I think we want to keep in the light, do we not? “If we walk in the light as he is in the light”, 1 John 1: 7. That is inside and outside."
+     "text": [
+      "Well, is that our hearts dear brethren? There is a narrow way, is there not? There is a narrow way. That is because of the circumstances that we are in; there are some things that we cannot do: they are not suited to persons who belong to the Father. There are some places that we would not go: they are not suited to the Father’s house. But as you go in the whole thing is widening out - the glory is all within, is it not? It shuts out the world’s attractions to us, and there are great temptations now today. Alas, we are tempted in a way that we were not before because now there is a lot of wealth about, and it is tempting God’s people away into a world that is a broad way. But there is a narrow way for us outside, and inside there are these windows; that is full of splendour and glory. Well, I think we want to keep in the light, do we not? “If we walk in the light as he is in the light”, 1 John 1: 7. That is inside and outside."
+     ]
     },
     {
      "speaker": "AB",
-     "text": "I was just thinking about the half-open flowers, that the petals may be very delicate, but the effect of the sun opens them up; the warmth of the sun."
+     "text": [
+      "I was just thinking about the half-open flowers, that the petals may be very delicate, but the effect of the sun opens them up; the warmth of the sun."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes; in the Father’s house, if you are on the outside, it is narrow. Light goes out, but inside there are the half-open flowers, and the glory is shining. What radiancy must have marked this place. Think of light being reflected by the glory of the gold, filling the house with glory. And then Solomon makes this special house. The doors were thrown open but then, “his house where he dwelt had another court within the porch, which was of the like work. And he made, like to this porch, a house for Pharaoh’s daughter, whom Solomon had taken.” What a place the assembly is going to have, the perfect expression of the Spirit’s work and the Father’s love and the Father’s purpose. It is all going to be displayed in this house that Solomon has made for his wife. Well, dear brethren, may we have some sense of the glory of that place and the dignity that belongs to it. Every family will be dignified by sonship, of course, but there will be a dignity about the assembly. We will see that if we care to go through Revelation. ”I saw the holy city … coming down … prepared as a bride adorned for her husband”, chap 21: 2. That is all in mind in the Father’s house; there will be a dwelling place, but there will be a bride and there will be a bridegroom."
+     "text": [
+      "Yes; in the Father’s house, if you are on the outside, it is narrow. Light goes out, but inside there are the half-open flowers, and the glory is shining. What radiancy must have marked this place. Think of light being reflected by the glory of the gold, filling the house with glory. And then Solomon makes this special house. The doors were thrown open but then, “his house where he dwelt had another court within the porch, which was of the like work. And he made, like to this porch, a house for Pharaoh’s daughter, whom Solomon had taken.” What a place the assembly is going to have, the perfect expression of the Spirit’s work and the Father’s love and the Father’s purpose. It is all going to be displayed in this house that Solomon has made for his wife. Well, dear brethren, may we have some sense of the glory of that place and the dignity that belongs to it. Every family will be dignified by sonship, of course, but there will be a dignity about the assembly. We will see that if we care to go through Revelation. ”I saw the holy city … coming down … prepared as a bride adorned for her husband”, chap 21: 2. That is all in mind in the Father’s house; there will be a dwelling place, but there will be a bride and there will be a bridegroom."
+     ]
     },
     {
-     "text": "DM Snr I wondered about what Paul says about the Father having “made us fit for sharing the portion of the saints in light”, Col 1: 12-13. Is that like the carving, when it is overlaid with gold?"
+     "speaker": "DM",
+     "text": [
+      "Snr I wondered about what Paul says about the Father having “made us fit for sharing the portion of the saints in light”, Col 1: 12-13. Is that like the carving, when it is overlaid with gold?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Very good. That is all done in the wilderness experiences. Our daily lives, our home affairs, local circumstances: these are all the preparation to be suited to be at home. There will be nobody kept at the door until they are ready then. You will be in the Father’s house as a son with all the glory. It is a blessed tribute to the Spirit’s work that there will be persons in sonship suited to the place that God has purposed."
+     "text": [
+      "Very good. That is all done in the wilderness experiences. Our daily lives, our home affairs, local circumstances: these are all the preparation to be suited to be at home. There will be nobody kept at the door until they are ready then. You will be in the Father’s house as a son with all the glory. It is a blessed tribute to the Spirit’s work that there will be persons in sonship suited to the place that God has purposed."
+     ]
     },
     {
-     "text": "TDB Would it be the thought of divine pleasure?"
+     "speaker": "TDB",
+     "text": [
+      "Would it be the thought of divine pleasure?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "“Here will I dwell”, Ps 132: 14. That is what Solomon had here; he had a dwelling place. That is what the Father’s house is. “The tabernacle of God is with men” (Rev. 21: 3): a dwelling place. There will be a display in the millennial day but in this this aspect of it - what we are speaking of as the Father’s house - it is a place where glory dwells, is it not?"
+     "text": [
+      "“Here will I dwell”, Ps 132: 14. That is what Solomon had here; he had a dwelling place. That is what the Father’s house is. “The tabernacle of God is with men” (Rev. 21: 3): a dwelling place. There will be a display in the millennial day but in this this aspect of it - what we are speaking of as the Father’s house - it is a place where glory dwells, is it not?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Do you think that when Pharaoh’s daughter was taken in here it would be like taken into favour in the Beloved? It says Solomon took her. “Taken us into favour in the Beloved” (Eph 1: 6): that is the best place I would understand."
+     "text": [
+      "Do you think that when Pharaoh’s daughter was taken in here it would be like taken into favour in the Beloved? It says Solomon took her. “Taken us into favour in the Beloved” (Eph 1: 6): that is the best place I would understand."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes."
-    },
-    {
-     "text": "O God, the thought was Thine (Hymn 92)."
-    },
-    {
-     "text": "Say some more about it."
+     "text": [
+      "Yes.",
+      "O God, the thought was Thine (Hymn 92).",
+      "Say some more about it."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "I was thinking it was a place prepared by Him. It is a place prepared for an answer to His affections and the person that could answer to His affections was the bride. Solomon had taken her; it says, “a house for Pharaoh’s daughter, whom Solomon had taken”. There is the thought of choice in that, is there?"
+     "text": [
+      "I was thinking it was a place prepared by Him. It is a place prepared for an answer to His affections and the person that could answer to His affections was the bride. Solomon had taken her; it says, “a house for Pharaoh’s daughter, whom Solomon had taken”. There is the thought of choice in that, is there?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes, it reminds you of Ephesians there: “that he may give you according to the riches of his glory, to be strengthened with power by his Spirit in the inner man; that the Christ may dwell, through faith, in your hearts, being rooted and founded in love”, chap 3: 16, 17. What dignity belongs to them, entirely suited to a place where God has purposed to eternally dwell with men. Well, may our hearts be encouraged and exercised dear brethren that the place is there already. May we give more liberty to the Spirit, so that we are prepared readily for the place when the Lord comes."
+     "text": [
+      "Yes, it reminds you of Ephesians there: “that he may give you according to the riches of his glory, to be strengthened with power by his Spirit in the inner man; that the Christ may dwell, through faith, in your hearts, being rooted and founded in love”, chap 3: 16, 17. What dignity belongs to them, entirely suited to a place where God has purposed to eternally dwell with men. Well, may our hearts be encouraged and exercised dear brethren that the place is there already. May we give more liberty to the Spirit, so that we are prepared readily for the place when the Lord comes."
+     ]
     }
    ]
   },
@@ -670,6 +779,26 @@
      "text": "81 Roxburgh Road."
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE FATHER'S HOUSE",
+   "kind": "default_place",
+   "detail": "Kirkcaldy given to 11 names (\"Kirkcaldy unless shown otherwise\")"
+  },
+  {
+   "article": 1,
+   "title": "THE FATHER'S HOUSE",
+   "kind": "speaker_second_name",
+   "detail": "TDB used in the text for D Beveridge (key gives DB)"
+  },
+  {
+   "article": 1,
+   "title": "THE FATHER'S HOUSE",
+   "kind": "speaker_matched_loosely",
+   "detail": "EMcL used in the text for E McLaren (key gives EM)"
   }
  ]
 }

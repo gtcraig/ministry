@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,34 +26,36 @@
    "place": "LONDON",
    "date": "15 April 1989",
    "speakers": [
-    "J.C.E.",
-    "D.J.H.",
-    "H.A.H.",
-    "S.D.K.R.",
-    "E.C.B.",
-    "J.S.P.",
-    "W.H.S.",
-    "J.M.",
-    "E.C.M.",
-    "D.E.B.",
-    "E.M.W.",
-    "C.J.H.D.",
-    "E.P.",
-    "R.T.",
-    "J.A.B.",
-    "P.M.",
-    "R.W.F.",
-    "C.G.H.",
-    "B.W.W.",
-    "D.A.B.",
-    "D.E.R.",
-    "S.B.H.",
-    "F.E."
+    "JMcK",
+    "JCE",
+    "DJH",
+    "HAH",
+    "SDKR",
+    "ECB",
+    "JSP",
+    "WHS",
+    "JM",
+    "ECM",
+    "DEB",
+    "EMW",
+    "CJHD",
+    "EP",
+    "RT",
+    "JAB",
+    "PM",
+    "RWF",
+    "CGH",
+    "BWW",
+    "DAB",
+    "DER",
+    "SBH",
+    "FE"
    ],
    "initials": [
     {
-     "initials": "ADAB",
-     "name": "(All local unless otherwise stated) D.A.Burr"
+     "initials": "DAB",
+     "name": "D.A.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "DEB",
@@ -62,11 +64,13 @@
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "JAB",
-     "name": "J.A.Burnett"
+     "name": "J.A.Burnett",
+     "place": "LONDON"
     },
     {
      "initials": "CJHD",
@@ -75,15 +79,18 @@
     },
     {
      "initials": "FE",
-     "name": "F.Eagle"
+     "name": "F.Eagle",
+     "place": "LONDON"
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "LONDON"
     },
     {
      "initials": "RWF",
-     "name": "R.W.Flowerdew"
+     "name": "R.W.Flowerdew",
+     "place": "LONDON"
     },
     {
      "initials": "CGH",
@@ -92,11 +99,13 @@
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "SBH",
@@ -110,7 +119,8 @@
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "JSP",
@@ -139,517 +149,880 @@
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "LONDON"
     },
     {
      "initials": "EMW",
      "name": "E.M.Walkinshaw",
      "place": "Gillingham"
+    },
+    {
+     "initials": "JM",
+     "not_in_key": true
+    },
+    {
+     "initials": "PM",
+     "not_in_key": true
+    },
+    {
+     "initials": "JMcK",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "D.A.Burr; D.E.Burr, Redbridge; E.C.Burr; J.A.Burnett; C.J.H.Davidson, Dorking; F.Eagle; J.C.Evershed; R.W.Flowerdew; C.G.Hitchcock, Ealing; D.J.Hutson; H.A.Hutson; S.B.Hewison, Dorking; E.C.Muggleton, Colchester; E.Palmer; J.S.Pugh, Maidstone; D.E.Remmington, St Albans; S.D.K.Roberts, Croydon; W.H.Shephard, Bedford; R.Taylor, Barnet; B.W.Ward; E.M.Walkinshaw, Gillingham"
    ],
    "paragraphs": [
     {
-     "text": "J.McK. These passages readily connect with one another with regard to the anointing, identified as it is in Isaiah 42 with the Spirit Himself: \"I will put my Spirit upon him\". I wondered if we might have help to focus our attention in particular on the passage in Samuel, where we have recorded the last words of David. As we gather today we miss many of our brethren whom we have known and loved, and whose days in the testimony have been completed. It is therefore very interesting to see what David says as he comes to the end of his life, in particular referring to himself firstly as \"The anointed of the God of Jacob\" - as looking back he was conscious that God had committed Himself to him - and then as \"the sweet psalmist of Israel\". We think of our absent brethren in the context of these precious words and they become meaningful. There are those whom we remember as marked among us by the dignity of the anointing; and from their experiences, rich as they have been, there have come psalms, rich contributions to the service of God."
+     "speaker": "JMcK",
+     "text": [
+      "These passages readily connect with one another with regard to the anointing, identified as it is in Isaiah 42 with the Spirit Himself: \"I will put my Spirit upon him\". I wondered if we might have help to focus our attention in particular on the passage in Samuel, where we have recorded the last words of David. As we gather today we miss many of our brethren whom we have known and loved, and whose days in the testimony have been completed. It is therefore very interesting to see what David says as he comes to the end of his life, in particular referring to himself firstly as \"The anointed of the God of Jacob\" - as looking back he was conscious that God had committed Himself to him - and then as \"the sweet psalmist of Israel\". We think of our absent brethren in the context of these precious words and they become meaningful. There are those whom we remember as marked among us by the dignity of the anointing; and from their experiences, rich as they have been, there have come psalms, rich contributions to the service of God.",
+      "I thought we could dwell on these things and maybe be helped to see how the Spirit of God is available as the anointing, emphasising the feature of dignity and attractiveness in the saints. We often think and speak, rightly, of the presence of the Spirit in other respects, and of course His presence among us is a very full thing! He is able for every exigency that arises in the testimony - power for life, power to go through in the energy that God gives in a scene that is marked by defilement and death, power to retain what is of God, power to understand things, power to realise our link with Christ. All these things are available in the Spirit for us, but do we think enough, dear brethren, of what He is as the anointing? I believe the presence of the Spirit in view of dignity is something that we might get help about, as seeing that this feature is vital to the testimony at the end of this wonderful dispensation."
+     ]
     },
     {
-     "text": "I thought we could dwell on these things and maybe be helped to see how the Spirit of God is available as the anointing, emphasising the feature of dignity and attractiveness in the saints. We often think and speak, rightly, of the presence of the Spirit in other respects, and of course His presence among us is a very full thing! He is able for every exigency that arises in the testimony - power for life, power to go through in the energy that God gives in a scene that is marked by defilement and death, power to retain what is of God, power to understand things, power to realise our link with Christ. All these things are available in the Spirit for us, but do we think enough, dear brethren, of what He is as the anointing? I believe the presence of the Spirit in view of dignity is something that we might get help about, as seeing that this feature is vital to the testimony at the end of this wonderful dispensation."
+     "speaker": "JCE",
+     "text": [
+      "In our case, in the last verses that you read, it is subject to our link with the Lord Jesus that we have been anointed: \"he that establishes us with you in Christ, and has anointed us, is God\", and so on. It is not for any specific purpose, but it is being anointed in view of our general activities being in accordance with the divine mind."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "In our case, in the last verses that you read, it is subject to our link with the Lord Jesus that we have been anointed: \"he that establishes us with you in Christ, and has anointed us, is God\", and so on. It is not for any specific purpose, but it is being anointed in view of our general activities being in accordance with the divine mind."
+     "speaker": "JMcK",
+     "text": [
+      "Yes. I think the first point in it would be that God is pleased. He commits Himself to what is pleasing to Him, and in that passage Paul puts himself alongside the brethren: \"he that establishes us with you in Christ, and has anointed us, is God\". We should not forget in days of smallness publicly, that there is to be a suited dignity and attractiveness about what is of God and for God in His testimony. I think we must be concerned not to fail Him in that respect."
+     ]
     },
     {
-     "text": "J.McK. Yes. I think the first point in it would be that God is pleased. He commits Himself to what is pleasing to Him, and in that passage Paul puts himself alongside the brethren: \"he that establishes us with you in Christ, and has anointed us, is God\". We should not forget in days of smallness publicly, that there is to be a suited dignity and attractiveness about what is of God and for God in His testimony. I think we must be concerned not to fail Him in that respect."
+     "speaker": "DJH",
+     "text": [
+      "Is that why it is related to \"in Christ\", the Anointed of God; we are to be in accord with that?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Is that why it is related to \"in Christ\", the Anointed of God; we are to be in accord with that?"
+     "speaker": "JMcK",
+     "text": [
+      "You mean that He is the Man who has done, and will do, things. He has been made both Lord and Christ. He is the great Operator, the One who will bring everything in finally for God, and we have a link with Him. I thought we should begin, therefore, by considering this beautiful account of the servant in Isaiah 42. If we are to appreciate what in normality is to be found in us, we need to see that for God dignity and beauty in man relates to what came out in Christ personally."
+     ]
     },
     {
-     "text": "J.McK. You mean that He is the Man who has done, and will do, things. He has been made both Lord and Christ. He is the great Operator, the One who will bring everything in finally for God, and we have a link with Him. I thought we should begin, therefore, by considering this beautiful account of the servant in Isaiah 42. If we are to appreciate what in normality is to be found in us, we need to see that for God dignity and beauty in man relates to what came out in Christ personally."
+     "speaker": "DJH",
+     "text": [
+      "So it has been pointed out that there is no comma after 'behold'; it is \"Behold my servant\". Attention is specifically drawn to this blessed One as anointed of God."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "So it has been pointed out that there is no comma after 'behold'; it is \"Behold my servant\". Attention is specifically drawn to this blessed One as anointed of God."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, One who would come into the place of service, the glory of who He was personally giving its own tone to what actually came out in that life of perfection in service upon the earth."
+     ]
     },
     {
-     "text": "J.McK. Yes, One who would come into the place of service, the glory of who He was personally giving its own tone to what actually came out in that life of perfection in service upon the earth."
+     "speaker": "HAH",
+     "text": [
+      "I think it has been pointed out affectingly that when this passage is quoted in Matthew 12 it is really the answer to the meek and lowly Man of chapter 11."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "I think it has been pointed out affectingly that when this passage is quoted in Matthew 12 it is really the answer to the meek and lowly Man of chapter 11."
+     "speaker": "JMcK",
+     "text": [
+      "That is interesting; the One who was so great came into circumstances which were outwardly so restricted and lowly. We are to learn from that, that dignity according to God does not belong to official, public, orthodox position. Dignity according to God is moral and relates to what is inward. In the manhood of Jesus what was inward and what was outward were fully in accord."
+     ]
     },
     {
-     "text": "J.McK. That is interesting; the One who was so great came into circumstances which were outwardly so restricted and lowly. We are to learn from that, that dignity according to God does not belong to official, public, orthodox position. Dignity according to God is moral and relates to what is inward. In the manhood of Jesus what was inward and what was outward were fully in accord."
+     "speaker": "HAH",
+     "text": [
+      "He could say \"Altogether that which I also say to you\", John 8: 25."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "He could say \"Altogether that which I also say to you\", John 8: 25."
+     "speaker": "SDKR",
+     "text": [
+      "Would it be the consciousness of what we are from the divine point of view?"
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Would it be the consciousness of what we are from the divine point of view?"
+     "speaker": "JMcK",
+     "text": [
+      "I think that is basic to it. David looks back and says, God anointed me. I think in some sense we must have the assurance in our own souls that God has committed Himself to us. He does not commit Himself to the flesh. His committal involves that He has done something, and that forms the basis upon which all service to God, or representation of Him, is carried out."
+     ]
     },
     {
-     "text": "J.McK. I think that is basic to it. David looks back and says, God anointed me. I think in some sense we must have the assurance in our own souls that God has committed Himself to us. He does not commit Himself to the flesh. His committal involves that He has done something, and that forms the basis upon which all service to God, or representation of Him, is carried out."
+     "speaker": "ECB",
+     "text": [
+      "Does the pouring out of the Spirit especially connect with anointing?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does the pouring out of the Spirit especially connect with anointing?"
+     "speaker": "JMcK",
+     "text": [
+      "I believe that would be right: you are thinking of Acts 2?"
+     ]
     },
     {
-     "text": "J.McK. I believe that would be right: you are thinking of Acts 2?"
+     "speaker": "ECB",
+     "text": [
+      "Yes, and connecting with it the reference quoted in Acts from Joel: \"I will pour out of my Spirit upon ...\" (v 17). It is not 'with' nor 'in', but it is 'upon'. That is the character of the anointing, is it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, and connecting with it the reference quoted in Acts from Joel: \"I will pour out of my Spirit upon ...\" (v 17). It is not 'with' nor 'in', but it is 'upon'. That is the character of the anointing, is it not?"
+     "speaker": "JMcK",
+     "text": [
+      "I think so. So the word here is \"I will put my Spirit upon him\". There should be a difference that is observable in those who are rightly in God's testimony. There was something about Christ that marked Him out from others. Men did not always accept His ministry, but there was always something in Him as representing God which drew out respect even from His enemies."
+     ]
     },
     {
-     "text": "J.McK. I think so. So the word here is \"I will put my Spirit upon him\". There should be a difference that is observable in those who are rightly in God's testimony. There was something about Christ that marked Him out from others. Men did not always accept His ministry, but there was always something in Him as representing God which drew out respect even from His enemies."
+     "speaker": "JSP",
+     "text": [
+      "\"Never man spoke thus, as this speaks\", John 7: 46."
+     ]
     },
     {
-     "speaker": "J.S.P.",
-     "text": "\"Never man spoke thus, as this speaks\", John 7: 46."
+     "speaker": "JMcK",
+     "text": [
+      "Yes; in that chapter the opposition against Christ was rising. The question is raised \"Why have ye not brought him?\" and His enemies themselves, the officers who came back, say \"Never man spoke thus, as this man\". I think that shows that although they were against what Christ stood for there was an attractiveness about His whole bearing among them that was recognisable and had to be respected even by those who were against Him."
+     ]
     },
     {
-     "text": "J.McK. Yes; in that chapter the opposition against Christ was rising. The question is raised \"Why have ye not brought him?\" and His enemies themselves, the officers who came back, say \"Never man spoke thus, as this man\". I think that shows that although they were against what Christ stood for there was an attractiveness about His whole bearing among them that was recognisable and had to be respected even by those who were against Him."
+     "speaker": "WHS",
+     "text": [
+      "In 1 Samuel 16 we read about man looking upon the outward appearance, \"but Jehovah looketh upon the heart\" (v 7). He found all that in David personally which was so attractive - \"he was ruddy, and besides of a lovely countenance and beautiful appearance\"; but there was something inward as well, was there not?"
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "In 1 Samuel 16 we read about man looking upon the outward appearance, \"but Jehovah looketh upon the heart\" (v 7). He found all that in David personally which was so attractive - \"he was ruddy, and besides of a lovely countenance and beautiful appearance\"; but there was something inward as well, was there not?"
+     "speaker": "JMcK",
+     "text": [
+      "That is right; there was, and he stayed that way. That reference is to David at the beginning of his life. God had seen what he was secretly, the incident of the lion and the bear and all that was involved in that. But David stayed that way, so that the tribute from the women who sang in Israel was not exactly to his exploits but to his personal beauty and influence as among the people."
+     ]
     },
     {
-     "text": "J.McK. That is right; there was, and he stayed that way. That reference is to David at the beginning of his life. God had seen what he was secretly, the incident of the lion and the bear and all that was involved in that. But David stayed that way, so that the tribute from the women who sang in Israel was not exactly to his exploits but to his personal beauty and influence as among the people."
+     "speaker": "ECB",
+     "text": [
+      "Is that also reflected in what is said, that \"even when Saul was king, thou wast he that leddest out and broughtest in Israel\", 1 Chron 11: 2? Is that the dignity of his movements?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is that also reflected in what is said, that \"even when Saul was king, thou wast he that leddest out and broughtest in Israel\", 1 Chron 11: 2? Is that the dignity of his movements?"
+     "speaker": "JMcK",
+     "text": [
+      "That is what I was thinking of, that his personal influence in a sense was greater than his official position, and we shall be on dangerous ground if we are on any other ground than that, that personally we are greater than any official place we may take up."
+     ]
     },
     {
-     "text": "J.McK. That is what I was thinking of, that his personal influence in a sense was greater than his official position, and we shall be on dangerous ground if we are on any other ground than that, that personally we are greater than any official place we may take up."
+     "speaker": "JM",
+     "text": [
+      "God Himself speaks of \"my servant whom I uphold, mine elect in whom my soul delighteth!\". The inward moral beauty that was there becomes the reason, so to speak, why the Spirit is put upon Him."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "God Himself speaks of \"my servant whom I uphold, mine elect in whom my soul delighteth!\". The inward moral beauty that was there becomes the reason, so to speak, why the Spirit is put upon Him."
+     "speaker": "JMcK",
+     "text": [
+      "\"In whom my soul delighteth\" indicates that, speaking very carefully, the inwards of God were affected and drawn out by an object upon the earth. It takes our minds quickly to the beginning of Luke's gospel where the perfection of Christ is described, but in real human circumstances."
+     ]
     },
     {
-     "text": "J.McK. \"In whom my soul delighteth\" indicates that, speaking very carefully, the inwards of God were affected and drawn out by an object upon the earth. It takes our minds quickly to the beginning of Luke's gospel where the perfection of Christ is described, but in real human circumstances."
+     "speaker": "JM",
+     "text": [
+      "All that was for the pleasure of God before there was anything public."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "All that was for the pleasure of God before there was anything public."
+     "speaker": "JMcK",
+     "text": [
+      "So that in Luke's gospel, when He is baptised, He takes a very low place. I was looking the other day at chapter 3 of Luke which says \"it came to pass, all the people having been baptised, and Jesus having been baptised, and praying\" (v 21), the wording suggesting that the people had gone before and He took the last place."
+     ]
     },
     {
-     "text": "J.McK. So that in Luke's gospel, when He is baptised, He takes a very low place. I was looking the other day at chapter 3 of Luke which says \"it came to pass, all the people having been baptised, and Jesus having been baptised, and praying\" (v 21), the wording suggesting that the people had gone before and He took the last place."
+     "speaker": "ECM",
+     "text": [
+      "\"I am in the midst of you as the one that serves\": what an example for us!"
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "\"I am in the midst of you as the one that serves\": what an example for us!"
+     "speaker": "JMcK",
+     "text": [
+      "Exactly, the One who took the bondman's place. A servant of the Lord has said as to this passage that, although as to His Person, His glory knew no competition, yet the first evidence of it was in perfect unobtrusive lowliness. Now that is the kind of man God anoints. To refer back to Luke 3, it was not simply that He was baptised but it says He was praying. I believe that connects with the line of experience in the servant himself which will result in responsiveness Godward and which links with what David became as the sweet psalmist. There is a link between the idea that Jesus was praying and the experience in manhood which results in an outflow Godward."
+     ]
     },
     {
-     "text": "J.McK. Exactly, the One who took the bondman's place. A servant of the Lord has said as to this passage that, although as to His Person, His glory knew no competition, yet the first evidence of it was in perfect unobtrusive lowliness. Now that is the kind of man God anoints. To refer back to Luke 3, it was not simply that He was baptised but it says He was praying. I believe that connects with the line of experience in the servant himself which will result in responsiveness Godward and which links with what David became as the sweet psalmist. There is a link between the idea that Jesus was praying and the experience in manhood which results in an outflow Godward."
+     "speaker": "DEB",
+     "text": [
+      "It goes on in this section in Isaiah 42 to speak in some detail about what He would not do. Is that because those are the things which we, probably, naturally would do?"
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "It goes on in this section in Isaiah 42 to speak in some detail about what He would not do. Is that because those are the things which we, probably, naturally would do?"
+     "speaker": "JMcK",
+     "text": [
+      "I think that is right. The contrast is beautiful. \"He shall not cry, nor lift up, nor cause his voice to be heard in the street\". What men seek is prominence, outward recognition. What Jesus sought was heaven's approval, and there was a beauty about His manhood which was incomparable. There was never a man like this upon the earth before, and in perfection there has never been another like Him since, but we are to learn from it in order that the qualities wrought out in that Man shall yet be extended for God's pleasure. He will commit Himself to those qualities even in these days."
+     ]
     },
     {
-     "text": "J.McK. I think that is right. The contrast is beautiful. \"He shall not cry, nor lift up, nor cause his voice to be heard in the street\". What men seek is prominence, outward recognition. What Jesus sought was heaven's approval, and there was a beauty about His manhood which was incomparable. There was never a man like this upon the earth before, and in perfection there has never been another like Him since, but we are to learn from it in order that the qualities wrought out in that Man shall yet be extended for God's pleasure. He will commit Himself to those qualities even in these days."
+     "speaker": "EMW",
+     "text": [
+      "We see it perfectly in Him. Will you tell us how it is brought about in us?"
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "We see it perfectly in Him. Will you tell us how it is brought about in us?"
+     "speaker": "JMcK",
+     "text": [
+      "I think in the first instance it calls for a state of humility with us. Mr Darby contrasts chapter 22 of 2 Samuel with chapter 23. He says that in chapter 22 David is celebrating the victory over his enemies; the enemies had all been overthrown and he is celebrating all that God had done for him in that context. In chapter 23 he is in the presence of the wealth and richness of divine blessing. What that results in is not an expression of jubilance but a state of humility with David, and I think that is basic to our beginning to move down this road about which we are speaking. What do you say?"
+     ]
     },
     {
-     "text": "J.McK. I think in the first instance it calls for a state of humility with us. Mr Darby contrasts chapter 22 of 2 Samuel with chapter 23. He says that in chapter 22 David is celebrating the victory over his enemies; the enemies had all been overthrown and he is celebrating all that God had done for him in that context. In chapter 23 he is in the presence of the wealth and richness of divine blessing. What that results in is not an expression of jubilance but a state of humility with David, and I think that is basic to our beginning to move down this road about which we are speaking. What do you say?"
+     "speaker": "EMW",
+     "text": [
+      "I think that helps; so in chapter 22 he had God before him, what God had done, and God being before him and he being in the presence of God would keep him lowly."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I think that helps; so in chapter 22 he had God before him, what God had done, and God being before him and he being in the presence of God would keep him lowly."
+     "speaker": "JMcK",
+     "text": [
+      "That is right. So he says in chapter 23, It was God that anointed me. Everything changed for David from that day onwards and we are thinking of David as a man of like passions with ourselves. Everything changed for David from the moment that he was aware that God had committed Himself to him."
+     ]
     },
     {
-     "text": "J.McK. That is right. So he says in chapter 23, It was God that anointed me. Everything changed for David from that day onwards and we are thinking of David as a man of like passions with ourselves. Everything changed for David from the moment that he was aware that God had committed Himself to him."
+     "speaker": "ECM",
+     "text": [
+      "Paul speaks of himself as being \"less than the least of all saints\", Eph 3: 8."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "Paul speaks of himself as being \"less than the least of all saints\", Eph 3: 8."
+     "speaker": "JMcK",
+     "text": [
+      "Well, the more we think of Christ the more we are reduced in our own view because of what we find in ourselves. But notice the character of this service: \"A bruised reed shall he not break, and smoking flax shall he not quench: he shall bring forth judgment according to truth\"; that is, His service was a very sensitive thing. He was not making great proclamations, He was operating in a sensitive and, you might say, a feeling way, as bringing into evidence what was of God. The bruised reed may indicate that some damage had been caused and it was a question of recovery. The Lord Jesus was active, not to cause damage, not in any way to cause disruption, but to bring about healing and revival."
+     ]
     },
     {
-     "text": "J.McK. Well, the more we think of Christ the more we are reduced in our own view because of what we find in ourselves. But notice the character of this service: \"A bruised reed shall he not break, and smoking flax shall he not quench: he shall bring forth judgment according to truth\"; that is, His service was a very sensitive thing. He was not making great proclamations, He was operating in a sensitive and, you might say, a feeling way, as bringing into evidence what was of God. The bruised reed may indicate that some damage had been caused and it was a question of recovery. The Lord Jesus was active, not to cause damage, not in any way to cause disruption, but to bring about healing and revival."
+     "speaker": "CJHD",
+     "text": [
+      "I was thinking how interesting it is that David should write that psalm that covers the anointing in a priestly way at the end of the Songs of Degrees, Psalm 133, and the fact that the oil flowed down to the lowest point, the hem of the garment, which would fit in with our day of humbling circumstances, would it not?"
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I was thinking how interesting it is that David should write that psalm that covers the anointing in a priestly way at the end of the Songs of Degrees, Psalm 133, and the fact that the oil flowed down to the lowest point, the hem of the garment, which would fit in with our day of humbling circumstances, would it not?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes, that is interesting. What a contributor to the service of God David became, and we too have that privilege. We should think, even in that, of the Lord Jesus as an example, which is why I read from verse 10 of chapter 42, where we have the words \"Sing unto Jehovah a new song\". If we think of that as related to the life of Jesus, it carries a distinctive richness about it, that out of the experiences of Christ in manhood there came responses to God that were unique."
+     ]
     },
     {
-     "text": "J.McK. Yes, that is interesting. What a contributor to the service of God David became, and we too have that privilege. We should think, even in that, of the Lord Jesus as an example, which is why I read from verse 10 of chapter 42, where we have the words \"Sing unto Jehovah a new song\". If we think of that as related to the life of Jesus, it carries a distinctive richness about it, that out of the experiences of Christ in manhood there came responses to God that were unique."
+     "speaker": "DJH",
+     "text": [
+      "Is that something that remains: David is gone but the psalms remain. Those of whom you have spoken who have gone before us have gone, but there is something that remains. Is that what you have in mind?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Is that something that remains: David is gone but the psalms remain. Those of whom you have spoken who have gone before us have gone, but there is something that remains. Is that what you have in mind?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes. We have had the privilege, and along with that the considerable responsibility of knowing persons who have been conscious that God had committed Himself to them, and persons who through experience with Him in their lives became contributors in a right sense to what was for His pleasure."
+     ]
     },
     {
-     "text": "J.McK. Yes. We have had the privilege, and along with that the considerable responsibility of knowing persons who have been conscious that God had committed Himself to them, and persons who through experience with Him in their lives became contributors in a right sense to what was for His pleasure."
+     "speaker": "DJH",
+     "text": [
+      "So it is not that what remains is to make anything of us; what remains results in what is for God, does it not?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "So it is not that what remains is to make anything of us; what remains results in what is for God, does it not?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes, exactly."
+     ]
     },
     {
-     "text": "J.McK. Yes, exactly."
+     "speaker": "ECB",
+     "text": [
+      "Do you think we need more consciousness that we are anointed? I wondered if that was not a good beginning. Even in public matters in services like the Coronation, anointing is a conscious thing. I wondered whether we have sufficient consciousness of being anointed."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think we need more consciousness that we are anointed? I wondered if that was not a good beginning. Even in public matters in services like the Coronation, anointing is a conscious thing. I wondered whether we have sufficient consciousness of being anointed."
+     "speaker": "JMcK",
+     "text": [
+      "I think that is a very good suggestion because, if you think about the life of David, it says that God \"took him from the sheepfolds: from following the suckling-ewes\", Ps 78: 70, 71. We do not know a great deal of the detail, but we know sufficient to realise that there came a day when the messengers came from Jesse's house, and conveyed the message that everybody was waiting for David to come in. I think that emphasises what you say, that there was a particular point in the man's history when he was conscious that God committed Himself to him, and I believe that that made a change. From that day onwards David not only realised the anointing for himself but he took account of it as it related to others, for example Saul. He learned to respect it in others, as having the experience of what it meant for himself."
+     ]
     },
     {
-     "text": "J.McK. I think that is a very good suggestion because, if you think about the life of David, it says that God \"took him from the sheepfolds: from following the suckling-ewes\", Ps 78: 70, 71. We do not know a great deal of the detail, but we know sufficient to realise that there came a day when the messengers came from Jesse's house, and conveyed the message that everybody was waiting for David to come in. I think that emphasises what you say, that there was a particular point in the man's history when he was conscious that God committed Himself to him, and I believe that that made a change. From that day onwards David not only realised the anointing for himself but he took account of it as it related to others, for example Saul. He learned to respect it in others, as having the experience of what it meant for himself."
+     "speaker": "ECB",
+     "text": [
+      "We perhaps need therefore to be strengthened in the sense that we are here as anointed me and women."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "We perhaps need therefore to be strengthened in the sense that we are here as anointed me and women."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, quite; so that God not only has something secretly in us, but He has something that He has conferred upon us that will make a distinction publicly. It means that everything we do is to have a certain character and attractiveness about it. Is that right?"
+     ]
     },
     {
-     "text": "J.McK. Yes, quite; so that God not only has something secretly in us, but He has something that He has conferred upon us that will make a distinction publicly. It means that everything we do is to have a certain character and attractiveness about it. Is that right?"
+     "speaker": "ECB",
+     "text": [
+      "Yes, I think what you are saying is very important and, if I may say so, timely. We should not think of having the Spirit apart from believing and acting as if there was some outward effect; an outward effect is inseparable from the anointing."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, I think what you are saying is very important and, if I may say so, timely. We should not think of having the Spirit apart from believing and acting as if there was some outward effect; an outward effect is inseparable from the anointing."
+     "speaker": "EP",
+     "text": [
+      "Would you say something as to the difference between anointing and sealing."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Would you say something as to the difference between anointing and sealing."
+     "speaker": "JMcK",
+     "text": [
+      "As I understand it sealing is a question of God's claim; that is, He puts in His claim of ownership upon us. The anointing is rather the conferring of a dignity that He alone can impart. There may be an attempt to imitate this, but in its quality and character God alone can confer the kind of dignity and beauty which we are speaking about. What do you say?"
+     ]
     },
     {
-     "text": "J.McK. As I understand it sealing is a question of God's claim; that is, He puts in His claim of ownership upon us. The anointing is rather the conferring of a dignity that He alone can impart. There may be an attempt to imitate this, but in its quality and character God alone can confer the kind of dignity and beauty which we are speaking about. What do you say?"
+     "speaker": "EP",
+     "text": [
+      "I think that helps very much. I did wonder whether the sealing would make us conscious that the Spirit claims us for God, but the anointing would help us to see that there is a divine objective in that we might truly represent the God to whom we belong."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I think that helps very much. I did wonder whether the sealing would make us conscious that the Spirit claims us for God, but the anointing would help us to see that there is a divine objective in that we might truly represent the God to whom we belong."
+     "speaker": "JMcK",
+     "text": [
+      "That is an interesting way to put it. So the expression in 2 Samuel 23 is \"The anointed of the God of Jacob\". David in that reference is linking on, is he not, with what has gone before? He is referring to God in the way that Jacob knew Him. Jacob was not always exemplary, he was not always conscious of divine support; in fact, although his objectives were largely right, some of the means he used to reach them could be questioned. Nevertheless the anointing became evident in a man like Jacob. At the end of his life Jacob, it says, \"blessed Pharaoh\" (Gen 47: 7), and according to Hebrews, \"the inferior is blessed by the better\", chap 7: 7. That was because of the anointing. It was because there was something in Jacob as a consequence of divine committal that was not in Pharaoh in spite of the man's official position."
+     ]
     },
     {
-     "text": "J.McK. That is an interesting way to put it. So the expression in 2 Samuel 23 is \"The anointed of the God of Jacob\". David in that reference is linking on, is he not, with what has gone before? He is referring to God in the way that Jacob knew Him. Jacob was not always exemplary, he was not always conscious of divine support; in fact, although his objectives were largely right, some of the means he used to reach them could be questioned. Nevertheless the anointing became evident in a man like Jacob. At the end of his life Jacob, it says, \"blessed Pharaoh\" (Gen 47: 7), and according to Hebrews, \"the inferior is blessed by the better\", chap 7: 7. That was because of the anointing. It was because there was something in Jacob as a consequence of divine committal that was not in Pharaoh in spite of the man's official position."
+     "speaker": "EMW",
+     "text": [
+      "In Christianity we regard the assembly as the anointed vessel: will you say a word as to how that works out in days of breakdown."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "In Christianity we regard the assembly as the anointed vessel: will you say a word as to how that works out in days of breakdown."
+     "speaker": "JMcK",
+     "text": [
+      "Well, you can help us, but God's commitment to the assembly is, I suppose, alluded to in 2 Corinthians 1: 21: \"he that ... has anointed us\"; that is, the saints as brought together in the light of the assembly. We also have the reference in 1 Corinthians 12: 12, do we not, \"so also is the Christ\"; that is the saints as anointed together and bound together in an organic sense by divine activity. What do you have in mind?"
+     ]
     },
     {
-     "text": "J.McK. Well, you can help us, but God's commitment to the assembly is, I suppose, alluded to in 2 Corinthians 1: 21: \"he that ... has anointed us\"; that is, the saints as brought together in the light of the assembly. We also have the reference in 1 Corinthians 12: 12, do we not, \"so also is the Christ\"; that is the saints as anointed together and bound together in an organic sense by divine activity. What do you have in mind?"
+     "speaker": "EMW",
+     "text": [
+      "I was thinking of the verse that you have quoted in 1 Corinthians 12: that refers to the assembly. Do you think that we should be exercised, as already intimated, to be in the power of the anointing so that there is something of the nature and character of the assembly in expression? We need to see the assembly as the anointed vessel, do we not, not ourselves as exclusive brethren, so to speak."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I was thinking of the verse that you have quoted in 1 Corinthians 12: that refers to the assembly. Do you think that we should be exercised, as already intimated, to be in the power of the anointing so that there is something of the nature and character of the assembly in expression? We need to see the assembly as the anointed vessel, do we not, not ourselves as exclusive brethren, so to speak."
+     "speaker": "JMcK",
+     "text": [
+      ". Precisely; so the anointing brings about a unity which is of God, a unity which, as we have been taught, according to 1 Corinthians 12 is organic; it relates to life. It is not an organisation but rather an organism, and the Spirit is committed to that."
+     ]
     },
     {
-     "text": "J.McK . Precisely; so the anointing brings about a unity which is of God, a unity which, as we have been taught, according to 1 Corinthians 12 is organic; it relates to life. It is not an organisation but rather an organism, and the Spirit is committed to that."
+     "speaker": "RT",
+     "text": [
+      "Does the anointing involve both power and capacity to go through in perhaps a suffering way?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Does the anointing involve both power and capacity to go through in perhaps a suffering way?"
+     "speaker": "JMcK",
+     "text": [
+      "I am sure that is right. Help us more about that."
+     ]
     },
     {
-     "text": "J.McK. I am sure that is right. Help us more about that."
+     "speaker": "RT",
+     "text": [
+      "I was thinking that perhaps the anointing comes out particularly in circumstances of suffering in the present time. What is to be in expression is a capacity to go through these sufferings in the dignity of which you are speaking."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I was thinking that perhaps the anointing comes out particularly in circumstances of suffering in the present time. What is to be in expression is a capacity to go through these sufferings in the dignity of which you are speaking."
+     "speaker": "JMcK",
+     "text": [
+      "So that the first ingredient of the anointing oil in Exodus was myrrh, was it not? It was also fragrant. So, as going through wilderness circumstances, there is to be, in spite of suffering, what is attractive in the public position. It has often been pointed out that you do not get any reference to the anointing in respect of the temple but you have it in connection with the tabernacle, that is, related to the scene in the wilderness where what is of God is going through against a background of what is opposed to Him. It is against such a background that the dignity of what is of Himself shines through, is it not?"
+     ]
     },
     {
-     "text": "J.McK. So that the first ingredient of the anointing oil in Exodus was myrrh, was it not? It was also fragrant. So, as going through wilderness circumstances, there is to be, in spite of suffering, what is attractive in the public position. It has often been pointed out that you do not get any reference to the anointing in respect of the temple but you have it in connection with the tabernacle, that is, related to the scene in the wilderness where what is of God is going through against a background of what is opposed to Him. It is against such a background that the dignity of what is of Himself shines through, is it not?"
+     "speaker": "EP",
+     "text": [
+      "In Luke's gospel, when the Lord says to the disciples \"But ye, who do ye say that I am? And Peter answering said, The Christ of God\" (chap 9: 20) - that is the anointed One, is it not? - \"but, earnestly charging them, he enjoined them to say this to no man, saying, The Son of man must suffer many things\". The suffering is immediately after that. The Lord draws attention to that: \"be rejected of the elders and chief priests ... and be killed, and the third day be raised up\". But Peter says \"The Christ of God\"; he recognised that He was the anointed of God, but the Lord indicated that what was in view was suffering."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "In Luke's gospel, when the Lord says to the disciples \"But ye, who do ye say that I am? And Peter answering said, The Christ of God\" (chap 9: 20) - that is the anointed One, is it not? - \"but, earnestly charging them, he enjoined them to say this to no man, saying, The Son of man must suffer many things\". The suffering is immediately after that. The Lord draws attention to that: \"be rejected of the elders and chief priests ... and be killed, and the third day be raised up\". But Peter says \"The Christ of God\"; he recognised that He was the anointed of God, but the Lord indicated that what was in view was suffering."
+     "speaker": "JMcK",
+     "text": [
+      "Yes. It has often been said that as soon as the anointing shows itself, Satan will oppose it. Psalm 2: 2 brings that out - that \"the princes plot together, against Jehovah and against his anointed\". So there is tremendous opposition to this, but the superiority of what is of God shines through. I think that comes out in a man like David. Think of the quality of manhood that was wrought out in him over against all the difficulty of circumstances in his life. He relates it at the end of his days to the fact that the God of Jacob anointed him."
+     ]
     },
     {
-     "text": "J.McK. Yes. It has often been said that as soon as the anointing shows itself, Satan will oppose it. Psalm 2: 2 brings that out - that \"the princes plot together, against Jehovah and against his anointed\". So there is tremendous opposition to this, but the superiority of what is of God shines through. I think that comes out in a man like David. Think of the quality of manhood that was wrought out in him over against all the difficulty of circumstances in his life. He relates it at the end of his days to the fact that the God of Jacob anointed him."
+     "speaker": "JAB",
+     "text": [
+      "The link between suffering and dignity is confirmed by what Peter says: \"If ye are reproached in the name of Christ, blessed are ye; for the Spirit of glory and the Spirit of God rests upon you\", 1 Pet 4: 14."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "The link between suffering and dignity is confirmed by what Peter says: \"If ye are reproached in the name of Christ, blessed are ye; for the Spirit of glory and the Spirit of God rests upon you\", 1 Pet 4: 14."
+     "speaker": "JMcK",
+     "text": [
+      "Yes; not in you, in that sense, but resting upon you, so that in the presence of the outward reproach there is something that is resting upon the saints which no human means could achieve."
+     ]
     },
     {
-     "text": "J.McK. Yes; not in you, in that sense, but resting upon you, so that in the presence of the outward reproach there is something that is resting upon the saints which no human means could achieve."
+     "speaker": "ECB",
+     "text": [
+      "With reference to the anointing of the God of Jacob, would it connect through Exodus 15: 2, \"My father's God\"? \"My father\" there is in the singular and would perhaps refer directly to Jacob. Does that connect with what you are saying about those who have filled their part in the testimony and who are no longer here?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "With reference to the anointing of the God of Jacob, would it connect through Exodus 15: 2, \"My father's God\"? \"My father\" there is in the singular and would perhaps refer directly to Jacob. Does that connect with what you are saying about those who have filled their part in the testimony and who are no longer here?"
+     "speaker": "JMcK",
+     "text": [
+      "I think that is important. If we have come in vitally to what is of God, we are a part of a great current in which He is moving. \"The anointed of the God of Jacob\", I think, is a touch of wonderful grace, because David is conscious that the life line is running through in spite of all that Jacob had been."
+     ]
     },
     {
-     "text": "J.McK. I think that is important. If we have come in vitally to what is of God, we are a part of a great current in which He is moving. \"The anointed of the God of Jacob\", I think, is a touch of wonderful grace, because David is conscious that the life line is running through in spite of all that Jacob had been."
+     "speaker": "ECB",
+     "text": [
+      "You could connect Jacob's history with chapter 22, a man going over in detail all he has been through. It has been remarked before that in that chapter David refers to his failure, only to say that he has kept himself from his iniquity (v 24). It is a chapter of history but as you say, chapter 23 is what has emerged from that by way of essence. It is notable that that section of chapter 23 is much shorter than chapter 22."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "You could connect Jacob's history with chapter 22, a man going over in detail all he has been through. It has been remarked before that in that chapter David refers to his failure, only to say that he has kept himself from his iniquity (v 24). It is a chapter of history but as you say, chapter 23 is what has emerged from that by way of essence. It is notable that that section of chapter 23 is much shorter than chapter 22."
+     "speaker": "JMcK",
+     "text": [
+      "Yes; so in verse 5 for example - \"Although my house be not so before God\" - in a spirit of humility David is calling attention to what God has done. He says, God committed Himself to me, and that made all the difference. We thank God for all the young ones who are among us. It is a vital ingredient in their having a secure place in the testimony, that they are aware that God has committed Himself to them. He does not commit Himself to the flesh, but He does commit Himself to what is of Himself in the saints and what draws out His pleasure."
+     ]
     },
     {
-     "text": "J.McK. Yes; so in verse 5 for example - \"Although my house be not so before God\" - in a spirit of humility David is calling attention to what God has done. He says, God committed Himself to me, and that made all the difference. We thank God for all the young ones who are among us. It is a vital ingredient in their having a secure place in the testimony, that they are aware that God has committed Himself to them. He does not commit Himself to the flesh, but He does commit Himself to what is of Himself in the saints and what draws out His pleasure."
+     "speaker": "ECM",
+     "text": [
+      "I would like a little help as to the comment \"The Spirit of Jehovah spoke by me; And his word was on my tongue\"."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "I would like a little help as to the comment \"The Spirit of Jehovah spoke by me; And his word was on my tongue\"."
+     "speaker": "JMcK",
+     "text": [
+      "I think there is an order in these things. \"The anointed of the God of Jacob \" is first; that is divine commitment. \"The sweet psalmist of Israel\" is next, involving responsiveness Godward; and then \"The Spirit ... spoke by me\" follows on that. That is, the idea of representation, the idea of being for God, follows the things of which we are speaking."
+     ]
     },
     {
-     "text": "J.McK. I think there is an order in these things. \"The anointed of the God of Jacob \" is first; that is divine commitment. \"The sweet psalmist of Israel\" is next, involving responsiveness Godward; and then \"The Spirit ... spoke by me\" follows on that. That is, the idea of representation, the idea of being for God, follows the things of which we are speaking."
+     "speaker": "PM",
+     "text": [
+      "Those of us who are younger may think that the anointing is in view of service. Could you help us as to that, because it is more than that, is it not?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Those of us who are younger may think that the anointing is in view of service. Could you help us as to that, because it is more than that, is it not?"
+     "speaker": "JMcK",
+     "text": [
+      "It is more than that. I think it is the seal of divine approval. Something we should desire - as I am sure you would agree - is to be pleasing to God. There was something that supported the anointing in David, something basic; even as there was in Christ before the heavens opened upon Him, so there was in David before Samuel acted with the horn of oil and anointed him in the midst of his brethren. God distinguishes and commits Himself to what pleases Him, and I think that is a line of exercise that should never be lacking with us."
+     ]
     },
     {
-     "text": "J.McK. It is more than that. I think it is the seal of divine approval. Something we should desire - as I am sure you would agree - is to be pleasing to God. There was something that supported the anointing in David, something basic; even as there was in Christ before the heavens opened upon Him, so there was in David before Samuel acted with the horn of oil and anointed him in the midst of his brethren. God distinguishes and commits Himself to what pleases Him, and I think that is a line of exercise that should never be lacking with us."
+     "speaker": "SDKR",
+     "text": [
+      "Would you mind saying in simplicity for me - how is one to be conscious that one has the anointing?"
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Would you mind saying in simplicity for me - how is one to be conscious that one has the anointing?"
+     "speaker": "JMcK",
+     "text": [
+      "Well, Enoch was conscious that he pleased God, was he not? So it is right that we should desire a sense secretly that what we are and what we have is pleasing to Him. Then as the Spirit is given, one of the ways in which we prove His presence is as the anointing. I think we should be enlarged in our apprehension of what the Spirit can do for us, the more we apprehend His glory, the more He will help us into the practical working out of what it means."
+     ]
     },
     {
-     "text": "J.McK. Well, Enoch was conscious that he pleased God, was he not? So it is right that we should desire a sense secretly that what we are and what we have is pleasing to Him. Then as the Spirit is given, one of the ways in which we prove His presence is as the anointing. I think we should be enlarged in our apprehension of what the Spirit can do for us, the more we apprehend His glory, the more He will help us into the practical working out of what it means."
+     "speaker": "RT",
+     "text": [
+      "Would we not be conscious of it in God's presence?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Would we not be conscious of it in God's presence?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes, that is that something has come from Him, you mean."
+     ]
     },
     {
-     "text": "J.McK. Yes, that is that something has come from Him, you mean."
+     "speaker": "RT",
+     "text": [
+      "Before there can be anything for His pleasure in testimony we must come out from God. I think David had the sense of it. When Michal upbraided him, he said \"It was before Jehovah, who chose me\", 2 Sam 6: 21. He had some sense of coming from the presence of God, so that circumstances did not rule him, but he was superior to them."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Before there can be anything for His pleasure in testimony we must come out from God. I think David had the sense of it. When Michal upbraided him, he said \"It was before Jehovah, who chose me\", 2 Sam 6: 21. He had some sense of coming from the presence of God, so that circumstances did not rule him, but he was superior to them."
+     "speaker": "JMcK",
+     "text": [
+      "That is right. He says \"Jehovah ... chose me rather than thy father\". You might say there were contrasts there: one was man in the flesh and the other was the man of God's choice, involving His own work. David says \"Jehovah ... chose me\"."
+     ]
     },
     {
-     "text": "J.McK. That is right. He says \"Jehovah ... chose me rather than thy father\". You might say there were contrasts there: one was man in the flesh and the other was the man of God's choice, involving His own work. David says \"Jehovah ... chose me\"."
+     "speaker": "RWF",
+     "text": [
+      "Is that implicit in the word as to \"the sweet psalmist of Israel\"? He was conscious of God's pleasure in his response. Does the anointing give rise to what is exquisite in God's assessment?"
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Is that implicit in the word as to \"the sweet psalmist of Israel\"? He was conscious of God's pleasure in his response. Does the anointing give rise to what is exquisite in God's assessment?"
+     "speaker": "JMcK",
+     "text": [
+      "So that every experience through which David went yielded something. I was looking a little at the book of Psalms, and there are seventy-three of them written by this man. He became known as the sweet psalmist of Israel. The anointing was what God did; the sweet psalmist is what the man became. It was not an official appointment or designation, but rather how he became known, what was worked out in his life."
+     ]
     },
     {
-     "text": "J.McK. So that every experience through which David went yielded something. I was looking a little at the book of Psalms, and there are seventy-three of them written by this man. He became known as the sweet psalmist of Israel. The anointing was what God did; the sweet psalmist is what the man became. It was not an official appointment or designation, but rather how he became known, what was worked out in his life."
+     "speaker": "CGH",
+     "text": [
+      "You mentioned the young people. Would it be useful if you were to say something about the reception of the Spirit as the indwelling Spirit and the Spirit coming upon us in the way of anointing?"
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "You mentioned the young people. Would it be useful if you were to say something about the reception of the Spirit as the indwelling Spirit and the Spirit coming upon us in the way of anointing?"
+     "speaker": "JMcK",
+     "text": [
+      "Well, there are not two comings. What we are speaking of are glories belonging to the Spirit of God, who is equal as on our side for all that is needed in God's testimony. He is to be known by us as the anointing. He is able to impart a dignity which is recognisably of God and which has a beauty which cannot be gainsaid."
+     ]
     },
     {
-     "text": "J.McK. Well, there are not two comings. What we are speaking of are glories belonging to the Spirit of God, who is equal as on our side for all that is needed in God's testimony. He is to be known by us as the anointing. He is able to impart a dignity which is recognisably of God and which has a beauty which cannot be gainsaid."
+     "speaker": "ECB",
+     "text": [
+      "That is, the disciples were called Christians."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "That is, the disciples were called Christians."
+     "speaker": "JMcK",
+     "text": [
+      "Yes; what they were drew out that kind of description. Is that what you mean?"
+     ]
     },
     {
-     "text": "J.McK. Yes; what they were drew out that kind of description. Is that what you mean?"
+     "speaker": "ECB",
+     "text": [
+      "Yes, exactly. Why should they choose that title? They are not called Jesuits; they are not called by any other title. They are called by a title that implies the anointing."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, exactly. Why should they choose that title? They are not called Jesuits; they are not called by any other title. They are called by a title that implies the anointing."
+     "speaker": "CJHD",
+     "text": [
+      "Is there not something for us in the fact that the establishing comes before the anointing? Mr Darby's note there is beautiful, that God has firmly attached us to Christ, and that seems to be an absolute necessity to precede the wonderful gift of the anointing. We are to be firmly attached to Christ."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "Is there not something for us in the fact that the establishing comes before the anointing? Mr Darby's note there is beautiful, that God has firmly attached us to Christ, and that seems to be an absolute necessity to precede the wonderful gift of the anointing. We are to be firmly attached to Christ."
+     "speaker": "JMcK",
+     "text": [
+      "It involves what is substantial, does it not? \"He that establishes us\": it is not a question simply of profession, but it involves substance."
+     ]
     },
     {
-     "text": "J.McK. It involves what is substantial, does it not? \"He that establishes us\": it is not a question simply of profession, but it involves substance."
+     "speaker": "BWW",
+     "text": [
+      "Going back to your reference to the great importance of each of us being conscious of the dignity that God has put upon us, whether old or young, we are challenged as to whether we value it enough. Is it in your mind that to get a deeper sense of the privilege that we have would help to strengthen us and keep us in the way?"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Going back to your reference to the great importance of each of us being conscious of the dignity that God has put upon us, whether old or young, we are challenged as to whether we value it enough. Is it in your mind that to get a deeper sense of the privilege that we have would help to strengthen us and keep us in the way?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes, and would constantly challenge us as to whether our conduct is in keeping with what God has done. David says, God anointed me, but then I became the sweet psalmist of Israel. Out of every experience there was some contribution from David's life to the service of God, and some of those contributions were very carefully composed. In looking at the psalms, for example, there are three of them that are referred to as acrostic psalms; that is, each verse takes a letter of the Hebrew alphabet all the way through. He must have sat down and, with deliberation, composed that psalm. So I think there is room in this for exercise among us, that as aware of what God has done there shall not lack the answer on our side in the working out of a responsiveness that makes everything of Him."
+     ]
     },
     {
-     "text": "J.McK. Yes, and would constantly challenge us as to whether our conduct is in keeping with what God has done. David says, God anointed me, but then I became the sweet psalmist of Israel. Out of every experience there was some contribution from David's life to the service of God, and some of those contributions were very carefully composed. In looking at the psalms, for example, there are three of them that are referred to as acrostic psalms; that is, each verse takes a letter of the Hebrew alphabet all the way through. He must have sat down and, with deliberation, composed that psalm. So I think there is room in this for exercise among us, that as aware of what God has done there shall not lack the answer on our side in the working out of a responsiveness that makes everything of Him."
+     "speaker": "BWW",
+     "text": [
+      "And the time for doing that may be short for any or all of us."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "And the time for doing that may be short for any or all of us."
+     "speaker": "JMcK",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "text": "J.McK. Exactly."
+     "speaker": "DAB",
+     "text": [
+      "Does \"his word\" in verse 3 look on to the appearing? There is an echo of that in the other scriptures read. The earnest would look on to that as well, perhaps. I was thinking of what was said as to admiration for Christ, whether the consolation of the love of His appearing would give us more the power of what we are speaking of."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Does \"his word\" in verse 3 look on to the appearing? There is an echo of that in the other scriptures read. The earnest would look on to that as well, perhaps. I was thinking of what was said as to admiration for Christ, whether the consolation of the love of His appearing would give us more the power of what we are speaking of."
+     "speaker": "JMcK",
+     "text": [
+      "I think that is right, so that David is looking forward in what he says here to the morning without clouds, when every cloud, every uncertainty, every obscurity, will have been removed out of the way. He is looking forward to that, but until that time he says 'This is what was worked out in my experience'."
+     ]
     },
     {
-     "text": "J.McK. I think that is right, so that David is looking forward in what he says here to the morning without clouds, when every cloud, every uncertainty, every obscurity, will have been removed out of the way. He is looking forward to that, but until that time he says 'This is what was worked out in my experience'."
+     "speaker": "DAB",
+     "text": [
+      "There would have been something for God in our singing at the beginning of this meeting about the manifestation of the anointed One (hymn 291): 'He comes, from heaven descending'. Is that really the theme of the anointed company?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "There would have been something for God in our singing at the beginning of this meeting about the manifestation of the anointed One (hymn 291): 'He comes, from heaven descending'. Is that really the theme of the anointed company?"
+     "speaker": "JMcK",
+     "text": [
+      "What a hope it is, to realise that in some sense we have affinity with the One who will be the centre of that scene of glory; He was anointed when He was here, and it is the same God who has anointed us."
+     ]
     },
     {
-     "text": "J.McK. What a hope it is, to realise that in some sense we have affinity with the One who will be the centre of that scene of glory; He was anointed when He was here, and it is the same God who has anointed us."
+     "speaker": "JCE",
+     "text": [
+      "I think it is helpful, especially for our younger brethren, to connect their experiences in Christianity with the God who gives them. I was thinking of Jacob setting up a pillar and anointing it. Although we may not exactly look upon him as anointed, yet God committed Himself to him - \"the God of Jacob\" - and it is good, I think, to connect experiences we have in the course of our lives - practical matters, personal matters, inward matters and testimonial matters, as far as that goes - to connect them with God and feel the establishment that comes in."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "I think it is helpful, especially for our younger brethren, to connect their experiences in Christianity with the God who gives them. I was thinking of Jacob setting up a pillar and anointing it. Although we may not exactly look upon him as anointed, yet God committed Himself to him - \"the God of Jacob\" - and it is good, I think, to connect experiences we have in the course of our lives - practical matters, personal matters, inward matters and testimonial matters, as far as that goes - to connect them with God and feel the establishment that comes in."
+     "speaker": "JMcK",
+     "text": [
+      "And to realise in some sense the divine pleasure in the results of experiences through which we may go. Stephen is described in the presence of the council as having “the face of an angel\", Acts 6: 15. There was unquestionable beauty in the vessel of the testimony in spite of the adversity that was rising against him. I think that is where we shall find divine support."
+     ]
     },
     {
-     "text": "J.McK. And to realise in some sense the divine pleasure in the results of experiences through which we may go. Stephen is described in the presence of the council as having “the face of an angel\", Acts 6: 15. There was unquestionable beauty in the vessel of the testimony in spite of the adversity that was rising against him. I think that is where we shall find divine support."
+     "speaker": "DER",
+     "text": [
+      "This experience is calculated to attach us firmly to Christ, and as we have Him before us we shall take character from Him. That is what is involved in the anointing, is it not?"
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "This experience is calculated to attach us firmly to Christ, and as we have Him before us we shall take character from Him. That is what is involved in the anointing, is it not?"
+     "speaker": "JMcK",
+     "text": [
+      "Well, if we go through those experiences with Him. It is possible to go through a lot of experience and fail to make room for what is of God. In result the psalm will be lacking. My concern today is that the psalm shall not be lacking. It was not lacking from the life of Jesus. He came into circumstances that were new to Him, in which He became responsive in a new way to the God whom He knew, and that is an example for us."
+     ]
     },
     {
-     "text": "J.McK. Well, if we go through those experiences with Him. It is possible to go through a lot of experience and fail to make room for what is of God. In result the psalm will be lacking. My concern today is that the psalm shall not be lacking. It was not lacking from the life of Jesus. He came into circumstances that were new to Him, in which He became responsive in a new way to the God whom He knew, and that is an example for us."
+     "speaker": "ECB",
+     "text": [
+      "Psalm 40: \"I waited patiently for Jehovah; and he inclined unto me ... And he brought me up out of the pit ... And he hath put a new song in my mouth\" (vv 1-3). You referred before to this not being a conferred title. It was something he was conscious of in himself, that he now had something to yield to God. I was thinking of what was said earlier, that the consciousness of the anointing comes in the presence of God."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Psalm 40: \"I waited patiently for Jehovah; and he inclined unto me ... And he brought me up out of the pit ... And he hath put a new song in my mouth\" (vv 1-3). You referred before to this not being a conferred title. It was something he was conscious of in himself, that he now had something to yield to God. I was thinking of what was said earlier, that the consciousness of the anointing comes in the presence of God."
+     "speaker": "JMcK",
+     "text": [
+      "So that is the way he became known as the sweet psalmist of Israel, is it not?"
+     ]
     },
     {
-     "text": "J.McK. So that is the way he became known as the sweet psalmist of Israel, is it not?"
+     "speaker": "ECB",
+     "text": [
+      "And today he still is."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "And today he still is."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, he made a contribution which remained."
+     ]
     },
     {
-     "text": "J.McK. Yes, he made a contribution which remained."
+     "speaker": "ECM",
+     "text": [
+      "I was thinking of the reference to \"this psalm\" which he delivered \"through Asaph and his brethren\", 1 Chron 16: 17. It covers quite a bit of experience with God, and in that contribution he says \"Touch not mine anointed ones. And do my prophets no harm\" (v 22). As he was with God there are references to respect for the anointing."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "I was thinking of the reference to \"this psalm\" which he delivered \"through Asaph and his brethren\", 1 Chron 16: 17. It covers quite a bit of experience with God, and in that contribution he says \"Touch not mine anointed ones. And do my prophets no harm\" (v 22). As he was with God there are references to respect for the anointing."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, he never lost that. In spite of Saul's conduct he never lost it. He regarded Saul very highly. At one time Saul himself is brought to say, \"because my life was precious in thine eyes\" (1 Sam 26: 21), and David, in spite of the opposition, was maintained in the grace that the anointing gives."
+     ]
     },
     {
-     "text": "J.McK. Yes, he never lost that. In spite of Saul's conduct he never lost it. He regarded Saul very highly. At one time Saul himself is brought to say, \"because my life was precious in thine eyes\" (1 Sam 26: 21), and David, in spite of the opposition, was maintained in the grace that the anointing gives."
+     "speaker": "EP",
+     "text": [
+      "Was the song of the bow confirmatory of what you are saying, because David refers to the anointing there (see 2 Sam 1: 21)? All the depths of his soul in relation to the anointing came out, but it came out in a song and it was to be taught to others."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Was the song of the bow confirmatory of what you are saying, because David refers to the anointing there (see 2 Sam 1: 21)? All the depths of his soul in relation to the anointing came out, but it came out in a song and it was to be taught to others."
+     "speaker": "JMcK",
+     "text": [
+      "He made a contribution that was to remain and be a part of God's service."
+     ]
     },
     {
-     "text": "J.McK. He made a contribution that was to remain and be a part of God's service."
+     "speaker": "SBH",
+     "text": [
+      "Would a psalm be an ascription of love to God as revealed in Christ to me in many wonderful ways?"
+     ]
     },
     {
-     "speaker": "S.B.H.",
-     "text": "Would a psalm be an ascription of love to God as revealed in Christ to me in many wonderful ways?"
+     "speaker": "JMcK",
+     "text": [
+      "I am sure that is right; it is a response from a heart that owes everything to God. David is very dependent, and he is very humble in what he is saying here, but nevertheless he is making full room for what God has done, and he says, I became the sweet psalmist of Israel. You would like to finish your life as one who had been a contributor to God's service."
+     ]
     },
     {
-     "text": "J.McK. I am sure that is right; it is a response from a heart that owes everything to God. David is very dependent, and he is very humble in what he is saying here, but nevertheless he is making full room for what God has done, and he says, I became the sweet psalmist of Israel. You would like to finish your life as one who had been a contributor to God's service."
+     "speaker": "JM",
+     "text": [
+      "As you said, he is speaking very humbly. \"The last words of David: David the son of Jesse saith\": he is very certain. \"The God of Israel said, The Rock of Israel spoke to me\"; there is no doubt about that. As it came into Isaiah 42 - \"The ruler among men shall be just, Ruling in the fear of God\" - would you say something about it."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "As you said, he is speaking very humbly. \"The last words of David: David the son of Jesse saith\": he is very certain. \"The God of Israel said, The Rock of Israel spoke to me\"; there is no doubt about that. As it came into Isaiah 42 - \"The ruler among men shall be just, Ruling in the fear of God\" - would you say something about it."
+     "speaker": "JMcK",
+     "text": [
+      "The maintenance, I suppose, of equity and justice according to God runs along with what we are saying. Dignity could not in any sense relate to the setting aside of divine standards, could it? It involves the maintenance of the rights of the throne."
+     ]
     },
     {
-     "text": "J.McK. The maintenance, I suppose, of equity and justice according to God runs along with what we are saying. Dignity could not in any sense relate to the setting aside of divine standards, could it? It involves the maintenance of the rights of the throne."
+     "speaker": "JM",
+     "text": [
+      "I was thinking of that; Isaiah 42 brought that in, that \"he shall bring forth judgment according to truth\". There is no giving up of divine standards, but it was the Man who would not break a bruised reed that was going to bring in these judgments, was it not?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I was thinking of that; Isaiah 42 brought that in, that \"he shall bring forth judgment according to truth\". There is no giving up of divine standards, but it was the Man who would not break a bruised reed that was going to bring in these judgments, was it not?"
+     "speaker": "JMcK",
+     "text": [
+      "Exactly; so that although the standards are maintained, it is in an unfailing attractiveness that bears witness to the fact that the servant is supported of God."
+     ]
     },
     {
-     "text": "J.McK. Exactly; so that although the standards are maintained, it is in an unfailing attractiveness that bears witness to the fact that the servant is supported of God."
+     "speaker": "CJHD",
+     "text": [
+      "So the remainder of the chapter covers the men who came out in the spirit of David, as having been his mighty men. There is something sad about the last words of a man, but what a product there was in the remainder of the chapter in the mighty men that he had."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "So the remainder of the chapter covers the men who came out in the spirit of David, as having been his mighty men. There is something sad about the last words of a man, but what a product there was in the remainder of the chapter in the mighty men that he had."
+     "speaker": "JMcK",
+     "text": [
+      "His personal influence during his life was unquestionable. The Spirit of God later refers to the days of David (see 2 Sam 21: 1), and that relates to his personal influence rather than to his official position. As you say, the effect of his presence remained, and we can say that as we look round our localities there are results from those who have gone before on this principle."
+     ]
     },
     {
-     "text": "J.McK. His personal influence during his life was unquestionable. The Spirit of God later refers to the days of David (see 2 Sam 21: 1), and that relates to his personal influence rather than to his official position. As you say, the effect of his presence remained, and we can say that as we look round our localities there are results from those who have gone before on this principle."
+     "speaker": "ECB",
+     "text": [
+      "It is very affecting that it says \"Uriah the Hittite: thirty-seven in all\" (v 39). There was a man, not formally anointed but having all the characteristics of it."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is very affecting that it says \"Uriah the Hittite: thirty-seven in all\" (v 39). There was a man, not formally anointed but having all the characteristics of it."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, including the readiness to sacrifice what was legitimate in view of being fully committed to God's testimony in a right way. I think then that what the Spirit of God is raising with us is whether we are pleasing to the Lord in this sense, in the full recognition of what He has done. We were reading at home the other day in Proverbs 16: \"When a man's ways please Jehovah, he maketh even his enemies to be at peace with him\" (v 7). I think that relates to what we are saying. There is another way of meeting opposition, and it is through the inherent attractiveness of what is of God, as acting for Him in His testimony. David is a shining example of that."
+     ]
     },
     {
-     "text": "J.McK. Yes, including the readiness to sacrifice what was legitimate in view of being fully committed to God's testimony in a right way. I think then that what the Spirit of God is raising with us is whether we are pleasing to the Lord in this sense, in the full recognition of what He has done. We were reading at home the other day in Proverbs 16: \"When a man's ways please Jehovah, he maketh even his enemies to be at peace with him\" (v 7). I think that relates to what we are saying. There is another way of meeting opposition, and it is through the inherent attractiveness of what is of God, as acting for Him in His testimony. David is a shining example of that."
+     "speaker": "PM",
+     "text": [
+      "Was the anointing seen then in the silence in which the Lord stood before Pilate?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Was the anointing seen then in the silence in which the Lord stood before Pilate?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes, there was a dignity that could not be denied. Is that what you had in mind?"
+     ]
     },
     {
-     "text": "J.McK. Yes, there was a dignity that could not be denied. Is that what you had in mind?"
+     "speaker": "PM",
+     "text": [
+      "Yes: everything was against Him and yet He stood there in silence. He could not be questioned."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes: everything was against Him and yet He stood there in silence. He could not be questioned."
+     "speaker": "JMcK",
+     "text": [
+      "And the testimony is given: \"I find no guilt in this man\", Luke 23: 4. That was in the mouth of one who sat in judgment against Him. I think there is something in this that is calculated to help us. David overthrew or effectively neutralised the opposition of Saul through his personal attractiveness."
+     ]
     },
     {
-     "text": "J.McK. And the testimony is given: \"I find no guilt in this man\", Luke 23: 4. That was in the mouth of one who sat in judgment against Him. I think there is something in this that is calculated to help us. David overthrew or effectively neutralised the opposition of Saul through his personal attractiveness."
+     "speaker": "JM",
+     "text": [
+      "It comes out beautifully there. The anointing was formally on Saul, as you mentioned before, but it was morally and substantially in David, was it not? He did nothing whatever to further his own position. The whole matter was left in the hands of God, and God wrought things for him."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "It comes out beautifully there. The anointing was formally on Saul, as you mentioned before, but it was morally and substantially in David, was it not? He did nothing whatever to further his own position. The whole matter was left in the hands of God, and God wrought things for him."
+     "speaker": "JMcK",
+     "text": [
+      "In 1 Samuel 26 we see in particular, when Saul is pursuing him with three thousand chosen men, a beautiful example of the attitude that David has in disarming the opposition. In spite of what Abishai says he is not willing to put forth his hand against Jehovah's anointed. He takes the spear and the cruse of water which were at Saul's head and he goes across to the other side of the valley. The result is that Saul is brought to say \"Is this thy voice, my son David?\". David's voice was what really broke down, or neutralised at that moment, the opposition."
+     ]
     },
     {
-     "text": "J.McK. In 1 Samuel 26 we see in particular, when Saul is pursuing him with three thousand chosen men, a beautiful example of the attitude that David has in disarming the opposition. In spite of what Abishai says he is not willing to put forth his hand against Jehovah's anointed. He takes the spear and the cruse of water which were at Saul's head and he goes across to the other side of the valley. The result is that Saul is brought to say \"Is this thy voice, my son David?\". David's voice was what really broke down, or neutralised at that moment, the opposition."
+     "speaker": "DJH",
+     "text": [
+      "I thought of that in connection with Isaiah 42 - \"He shall not cry, nor lift up\", he did not have to assert himself. It was just what he was, the recognition of his being there, and his voice. The Lord Jesus never asserted Himself."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "I thought of that in connection with Isaiah 42 - \"He shall not cry, nor lift up\", he did not have to assert himself. It was just what he was, the recognition of his being there, and his voice. The Lord Jesus never asserted Himself."
+     "speaker": "JMcK",
+     "text": [
+      "What is of God shines in its own character and will be unfailingly divinely supported. It does not need human effort to sustain it. The dignity of the anointing showed itself, and Saul, violently opposed as he was, is brought to acknowledge it, saying \"Is this thy voice, my son David? \"."
+     ]
     },
     {
-     "text": "J.McK. What is of God shines in its own character and will be unfailingly divinely supported. It does not need human effort to sustain it. The dignity of the anointing showed itself, and Saul, violently opposed as he was, is brought to acknowledge it, saying \"Is this thy voice, my son David? \"."
+     "speaker": "RWF",
+     "text": [
+      "The Spirit of the anointing comes out also in Christ at the time of greatest outward weakness, does it not? There was the witness, \"this man has done nothing amiss\", and \"In very deed this man was just\", Luke 23: 41, 47. God has seen to it that there was a testimony recorded right through to the point of death."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "The Spirit of the anointing comes out also in Christ at the time of greatest outward weakness, does it not? There was the witness, \"this man has done nothing amiss\", and \"In very deed this man was just\", Luke 23: 41, 47. God has seen to it that there was a testimony recorded right through to the point of death."
+     "speaker": "JMcK",
+     "text": [
+      "That is the answer to the dependence of Jesus, that God saw to it that witness was borne. He was not calling attention to Himself in any sense, even as David was not, and yet David served against a background of opposition in Saul for a significant part of his life."
+     ]
     },
     {
-     "text": "J.McK. That is the answer to the dependence of Jesus, that God saw to it that witness was borne. He was not calling attention to Himself in any sense, even as David was not, and yet David served against a background of opposition in Saul for a significant part of his life."
+     "speaker": "FE",
+     "text": [
+      "I think what you are saying is very important. The work of God should show itself in all the saints."
+     ]
     },
     {
-     "speaker": "F.E.",
-     "text": "I think what you are saying is very important. The work of God should show itself in all the saints."
+     "speaker": "JMcK",
+     "text": [
+      "That is right."
+     ]
     },
     {
-     "text": "J.McK. That is right."
+     "speaker": "FE",
+     "text": [
+      "Brethren value one another when they see the work of God shining out, do they not?"
+     ]
     },
     {
-     "speaker": "F.E.",
-     "text": "Brethren value one another when they see the work of God shining out, do they not?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes; what we need to do is to make room for that in one another. You may say that circumstances are difficult: the work of God will always respond to this kind of appeal. We were reading locally in Job during the week, and were impressed by the spirit of Elihu. He is remarkably skilful in his approach to Job, a man who had been so aggressive. Job had used very strong language and yet Elihu draws alongside him in a way that is compassionate: \"My terror shall not make thee afraid\", chap 33: 7. The spirit of his approach results in recovery."
+     ]
     },
     {
-     "text": "J.McK. Yes; what we need to do is to make room for that in one another. You may say that circumstances are difficult: the work of God will always respond to this kind of appeal. We were reading locally in Job during the week, and were impressed by the spirit of Elihu. He is remarkably skilful in his approach to Job, a man who had been so aggressive. Job had used very strong language and yet Elihu draws alongside him in a way that is compassionate: \"My terror shall not make thee afraid\", chap 33: 7. The spirit of his approach results in recovery."
+     "speaker": "FE",
+     "text": [
+      "There will be remarkable unity amongst us if we can all get the gain of this."
+     ]
     },
     {
-     "speaker": "F.E.",
-     "text": "There will be remarkable unity amongst us if we can all get the gain of this."
+     "speaker": "RT",
+     "text": [
+      "When David cut off Saul's skirt the anointing rebuked him; is that a very practical side of the anointing working in us?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "When David cut off Saul's skirt the anointing rebuked him; is that a very practical side of the anointing working in us?"
+     "speaker": "JMcK",
+     "text": [
+      "That is interesting, and may link with what John says in his epistle about the unction; that is, it teaches you. So that David immediately realises that his action had been out of keeping for the moment with what God was promoting in him. Immediately, as you say, he is rebuked and judges himself."
+     ]
     },
     {
-     "text": "J.McK. That is interesting, and may link with what John says in his epistle about the unction; that is, it teaches you. So that David immediately realises that his action had been out of keeping for the moment with what God was promoting in him. Immediately, as you say, he is rebuked and judges himself."
+     "speaker": "RT",
+     "text": [
+      "Is Paul using that method at Corinth? He uses the anointing to rebuke the Corinthians: \"Do ye not recognise yourselves\", 2 Cor 13: 5. Certain things may come in in our pathways and localities that have not been worthy; the anointing would rebuke us, to come back into accord with it."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Is Paul using that method at Corinth? He uses the anointing to rebuke the Corinthians: \"Do ye not recognise yourselves\", 2 Cor 13: 5. Certain things may come in in our pathways and localities that have not been worthy; the anointing would rebuke us, to come back into accord with it."
+     "speaker": "JMcK",
+     "text": [
+      "I think that is very important and is the significance really of the reference in 2 Corinthians 1 to the anointed vessel. Paul asserts that it is God who has anointed us. There had been certain progress from the first epistle, and Paul is, you might say, consolidating the position and is very concerned that the conduct among the brethren should be fully in keeping with the dignity which God has conferred. It is not a question of what we have attained to; it is a question of what God has conferred, and that all our conduct and ways should be fully in keeping with that."
+     ]
     },
     {
-     "text": "J.McK. I think that is very important and is the significance really of the reference in 2 Corinthians 1 to the anointed vessel. Paul asserts that it is God who has anointed us. There had been certain progress from the first epistle, and Paul is, you might say, consolidating the position and is very concerned that the conduct among the brethren should be fully in keeping with the dignity which God has conferred. It is not a question of what we have attained to; it is a question of what God has conferred, and that all our conduct and ways should be fully in keeping with that."
+     "speaker": "ECB",
+     "text": [
+      "You can see without very much difficulty how that verse underlies the whole of the second epistle."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "You can see without very much difficulty how that verse underlies the whole of the second epistle."
+     "speaker": "JMcK",
+     "text": [
+      "Go on."
+     ]
     },
     {
-     "text": "J.McK. Go on."
+     "speaker": "ECB",
+     "text": [
+      "Well, you should show grace and encourage, and be new covenant ministers; you should have the glory of Christ shining out from you; you should be here as reconciled to God, be here as apart from iniquity, and so on; right through to the end when you come to the communion of the Spirit."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Well, you should show grace and encourage, and be new covenant ministers; you should have the glory of Christ shining out from you; you should be here as reconciled to God, be here as apart from iniquity, and so on; right through to the end when you come to the communion of the Spirit."
+     "speaker": "JMcK",
+     "text": [
+      "So that the spirit of the minister is involved in what we are saying, that in the full light of God's greatest thoughts I am comporting myself in a way that is dependent and makes room for what is of Him in spite of what may oppose. While still in wilderness circumstances the beauty of what God has here should attract us. We are in a day of small things, but let us not fail to recognise that the Spirit is available to dignify the saints in spite of all that is of man."
+     ]
     },
     {
-     "text": "J.McK. So that the spirit of the minister is involved in what we are saying, that in the full light of God's greatest thoughts I am comporting myself in a way that is dependent and makes room for what is of Him in spite of what may oppose. While still in wilderness circumstances the beauty of what God has here should attract us. We are in a day of small things, but let us not fail to recognise that the Spirit is available to dignify the saints in spite of all that is of man."
+     "speaker": "JM",
+     "text": [
+      "I think that comes very much into what you mentioned in prayer; there is need for respect as coming into a locality, because the anointed position is there, and if the anointing is upon persons there should be immediate respect, do you not think?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I think that comes very much into what you mentioned in prayer; there is need for respect as coming into a locality, because the anointed position is there, and if the anointing is upon persons there should be immediate respect, do you not think?"
-    },
-    {
-     "text": "J.McK. Yes, I think so. We should learn to develop that instinct. As Paul came into a place he sought to identify what was of God and to foster it, and I think that is an example for us all."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, I think so. We should learn to develop that instinct. As Paul came into a place he sought to identify what was of God and to foster it, and I think that is an example for us all."
+     ]
     }
    ]
   },
@@ -707,6 +1080,32 @@
      "text": "The aged apostle John wrote a short and beautiful letter to a family of children with their mother. In it he said how glad he was to hear that some - perhaps all - of the household were \"walking in truth\". We can be sure that heaven, too, looked with pleasure on footsteps small and larger in such a path. The children not only spoke the truth, but also in their whole conduct they wished to be true to their knowledge of God as Father. His commandment is that we should love one another. We do not exactly need a commandment to love Him, but do so because He has first loved us and sent His Son to die for our sins. Do you love Him?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE ANOINTING",
+   "kind": "default_place",
+   "detail": "LONDON given to 10 names (\"All local unless otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "THE ANOINTING",
+   "kind": "speaker_not_in_key",
+   "detail": "JM (6 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "THE ANOINTING",
+   "kind": "speaker_not_in_key",
+   "detail": "PM (3 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "THE ANOINTING",
+   "kind": "speaker_not_in_key",
+   "detail": "JMcK (in the text)"
   }
  ]
 }

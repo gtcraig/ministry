@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -28,107 +28,132 @@
    "place": "Grangemouth",
    "date": "8 August 2014",
    "speakers": [
-    "P.M.",
-    "J.C.G.",
-    "D.M.C.",
-    "D.B.R.",
-    "J.L.",
-    "N.J.H.",
-    "R.D.P.",
-    "D.A.B.",
-    "R.Gar.",
-    "P.A.G.",
-    "E.M.",
-    "D.C.B.",
-    "R.T.",
-    "G.B.G.",
-    "R.H.",
-    "J.D.",
-    "R.Gr.",
-    "J.A.B.",
-    "J.B.I.",
-    "P.J.W."
+    "PM",
+    "JCG",
+    "DMC",
+    "DBR",
+    "JL",
+    "NJH",
+    "RDP",
+    "DAB",
+    "RGar",
+    "PAG",
+    "EM",
+    "DCB",
+    "NCMcK",
+    "RT",
+    "GBG",
+    "RH",
+    "JD",
+    "RGr",
+    "JAB",
+    "JBI",
+    "PJW"
    ],
    "initials": [
     {
-     "initials": "DCBDBE",
-     "name": "D.C.B. David Brown Edinburgh"
+     "initials": "DCB",
+     "name": "David Brown",
+     "place": "Edinburgh"
     },
     {
-     "initials": "JABJBG",
-     "name": "J.A.B. John Brown Grangemouth"
+     "initials": "JAB",
+     "name": "John Brown",
+     "place": "Grangemouth"
     },
     {
-     "initials": "DABABL",
-     "name": "D.A.B. Andrew Burr London"
+     "initials": "DAB",
+     "name": "Andrew Burr",
+     "place": "London"
     },
     {
-     "initials": "DMCDCW",
-     "name": "D.M.C David Crozier sr Warrenpoint"
+     "initials": "DMC",
+     "name": "David Crozier Sr",
+     "place": "Warrenpoint"
     },
     {
-     "initials": "JDJDAS",
-     "name": "J.D. Jimmy Drummond Aberdeen Scotland"
+     "initials": "JD",
+     "name": "Jimmy Drummond",
+     "place": "Aberdeen Scotland"
     },
     {
-     "initials": "RGRGK",
-     "name": "R.Gar. Robert Gardiner Kirkcaldy"
+     "initials": "RGar",
+     "name": "Robert Gardiner",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "GBGBGD",
-     "name": "G.B.G. Bruce Grant Dundee"
+     "initials": "GBG",
+     "name": "Bruce Grant",
+     "place": "Dundee"
     },
     {
-     "initials": "JCGJGG",
-     "name": "J.C.G. John Gray Grangemouth"
+     "initials": "JCG",
+     "name": "John Gray",
+     "place": "Grangemouth"
     },
     {
-     "initials": "PAGPGG",
-     "name": "P.A.G. Paul Gray Grangemouth"
+     "initials": "PAG",
+     "name": "Paul Gray",
+     "place": "Grangemouth"
     },
     {
-     "initials": "RGRGG",
-     "name": "R.Gr. Robert Gray Grangemouth"
+     "initials": "RGr",
+     "name": "Robert Gray",
+     "place": "Grangemouth"
     },
     {
-     "initials": "NJHNHG",
-     "name": "N.J.H. Norman Henry Glasgow"
+     "initials": "NJH",
+     "name": "Norman Henry",
+     "place": "Glasgow"
     },
     {
-     "initials": "RHRHSI",
-     "name": "R.H. Robert Hodge St Ives"
+     "initials": "RH",
+     "name": "Robert Hodge",
+     "place": "St Ives"
     },
     {
-     "initials": "JLJLB",
-     "name": "J.L John Laurie Brechin"
+     "initials": "JL",
+     "name": "John Laurie",
+     "place": "Brechin"
     },
     {
-     "initials": "EMEMB",
-     "name": "E.M Edward Mair Buckie"
+     "initials": "EM",
+     "name": "Edward Mair",
+     "place": "Buckie"
     },
     {
-     "initials": "PMPMC",
-     "name": "P.M Paul Martin Colchester"
+     "initials": "PM",
+     "name": "Paul Martin",
+     "place": "Colchester"
     },
     {
-     "initials": "NCMNMG",
-     "name": "N.C.McK. Neil McKay Glasgow"
+     "initials": "NCMcK",
+     "name": "Neil McKay",
+     "place": "Glasgow"
     },
     {
-     "initials": "RDPRPB",
-     "name": "R.D.P Ron Plant Birmingham"
+     "initials": "RDP",
+     "name": "Ron Plant",
+     "place": "Birmingham"
     },
     {
-     "initials": "DBRDRD",
-     "name": "D.B.R David Robertson Dundee"
+     "initials": "DBR",
+     "name": "David Robertson",
+     "place": "Dundee"
     },
     {
-     "initials": "RTRTK",
-     "name": "R.T Robert Taylor Kirkcaldy"
+     "initials": "RT",
+     "name": "Robert Taylor",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "PJWPWS",
-     "name": "P.J.W Philip Walkinshaw Strood"
+     "initials": "PJW",
+     "name": "Philip Walkinshaw",
+     "place": "Strood"
+    },
+    {
+     "initials": "JBI",
+     "not_in_key": true
     }
    ],
    "initials_heading": "KEY TO INITIALS:",
@@ -156,456 +181,673 @@
    ],
    "paragraphs": [
     {
-     "speaker": "P.M.",
-     "text": "It is in mind to enquire as to the eating of the sin-offering. We shall need to be kept in the spirit of worship in our conversation together, because we are speaking of what is most holy. When the tabernacle was set up at the commencement of this book, Jehovah speaks immediately to Moses as to the offerings, and He begins with the burnt-offering. In chapters 1 to 6, He is speaking of the offerings from the divine side; it is what they would be for God. Jehovah begins with the burnt-offering, because it must be that everything for God depended on, and depends on, the infinite perfection and excellence of Christ. In that early presentation of the offerings, the sin-offering comes after the peace–offering, but when we come to the law of the offerings beginning from verse 8 of chapter 6, the sin-offering comes before the peace-offering. That would suggest that from our side, everything for God, individually or collectively, must be on a moral basis. It could not be otherwise, dear brethren. Only what is suited to the holiness of God is acceptable, and therefore the eating of the sin-offering is so important for us. It has in view the building up and maintenance of a priestly constitution. The eating of the offering is not exactly occupation with sin, but it is occupation with the One who bore it. That is where sin is rightly measured – in the presence of the cross where our blessed Saviour was made sin. “Him who knew not sin he has made sin for us”."
+     "speaker": "PM",
+     "text": [
+      "It is in mind to enquire as to the eating of the sin-offering. We shall need to be kept in the spirit of worship in our conversation together, because we are speaking of what is most holy. When the tabernacle was set up at the commencement of this book, Jehovah speaks immediately to Moses as to the offerings, and He begins with the burnt-offering. In chapters 1 to 6, He is speaking of the offerings from the divine side; it is what they would be for God. Jehovah begins with the burnt-offering, because it must be that everything for God depended on, and depends on, the infinite perfection and excellence of Christ. In that early presentation of the offerings, the sin-offering comes after the peace–offering, but when we come to the law of the offerings beginning from verse 8 of chapter 6, the sin-offering comes before the peace-offering. That would suggest that from our side, everything for God, individually or collectively, must be on a moral basis. It could not be otherwise, dear brethren. Only what is suited to the holiness of God is acceptable, and therefore the eating of the sin-offering is so important for us. It has in view the building up and maintenance of a priestly constitution. The eating of the offering is not exactly occupation with sin, but it is occupation with the One who bore it. That is where sin is rightly measured – in the presence of the cross where our blessed Saviour was made sin. “Him who knew not sin he has made sin for us”.",
+      "I suggested the passage in Matthew because it gives us some sense of the feelings of the Lord Jesus in the anticipation of this moment. Luke does not exactly give us the sin-offering. In Luke’s gospel, it is the priestly dignity of the One who had moved and was moving in communion. So in Luke, Jesus knelt down, and the forsaking is not included in Luke’s presentation. But in both Matthew and Mark, He fell on the ground. What a movement. This was the Creator of the universe, here in manhood, anticipating what it would be for Him to be made sin.",
+      "When we come to Leviticus 10, the sin-offering had been burnt but it was not eaten, and it says, Moses “was wroth.” We may get some help about that."
+     ]
     },
     {
-     "text": "I suggested the passage in Matthew because it gives us some sense of the feelings of the Lord Jesus in the anticipation of this moment. Luke does not exactly give us the sin-offering. In Luke’s gospel, it is the priestly dignity of the One who had moved and was moving in communion. So in Luke, Jesus knelt down, and the forsaking is not included in Luke’s presentation. But in both Matthew and Mark, He fell on the ground. What a movement. This was the Creator of the universe, here in manhood, anticipating what it would be for Him to be made sin."
+     "speaker": "JCG",
+     "text": [
+      "This is a very sobering contemplation. In Leviticus 6, where the law is spoken of, it says “The priest that offereth it for sin shall eat it: in a holy place shall it be eaten”. It brings out the need for appreciation of what the Lord Jesus has done for each one of us. Paul says, “the Son of God, who has loved me and given himself for me”, Gal.2:20."
+     ]
     },
     {
-     "text": "When we come to Leviticus 10, the sin-offering had been burnt but it was not eaten, and it says, Moses “was wroth.” We may get some help about that."
+     "speaker": "PM",
+     "text": [
+      "It is the appreciation of what He has done for us and what He has done for God too, would you say? He is the Taker-away of the sin of the world, and at the great white throne, He will put into effect actually what He has done morally in His death. Sin will finally be removed from the universe, but the basis has already been laid at the cross. Who else could do it? It was done at a cost that we could never measure or even understand, because we can hardly understand what sin is as He understood it. But we should deepen in our judgment of what sin is."
+     ]
     },
     {
-     "speaker": "J.C.G.",
-     "text": "This is a very sobering contemplation. In Leviticus 6, where the law is spoken of, it says “The priest that offereth it for sin shall eat it: in a holy place shall it be eaten”. It brings out the need for appreciation of what the Lord Jesus has done for each one of us. Paul says, “the Son of God, who has loved me and given himself for me”, Gal.2:20."
+     "speaker": "JCG",
+     "text": [
+      "The Scripture makes it clear that sin is lawlessness, bringing in what is against God, but what Christ has done has reconciled us to God through His death. Is that what is involved in the sin-offering, that everything that was against me has been effaced?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It is the appreciation of what He has done for us and what He has done for God too, would you say? He is the Taker-away of the sin of the world, and at the great white throne, He will put into effect actually what He has done morally in His death. Sin will finally be removed from the universe, but the basis has already been laid at the cross. Who else could do it? It was done at a cost that we could never measure or even understand, because we can hardly understand what sin is as He understood it. But we should deepen in our judgment of what sin is."
+     "speaker": "PM",
+     "text": [
+      "That is helpful. Through the disobedience of the one, the many were constituted sinners, but through the obedience of the One, the many will be constituted righteous (Rom.5:19). That is what He has done in going into death and becoming the Sin-bearer."
+     ]
     },
     {
-     "speaker": "J.C.G.",
-     "text": "The Scripture makes it clear that sin is lawlessness, bringing in what is against God, but what Christ has done has reconciled us to God through His death. Is that what is involved in the sin-offering, that everything that was against me has been effaced?"
+     "speaker": "DMC",
+     "text": [
+      "Why does it say, “the law of the sin-offering”?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is helpful. Through the disobedience of the one, the many were constituted sinners, but through the obedience of the One, the many will be constituted righteous (Rom.5:19). That is what He has done in going into death and becoming the Sin-bearer."
+     "speaker": "PM",
+     "text": [
+      "I think the law of the sin-offering sets out the order as far as man is concerned. The presentation of the offerings in the earlier chapters sets out what God looked for, but the law of the offering suggests to me that if the offering was to be offered and to be eaten, it must be according to the due order."
+     ]
     },
     {
-     "speaker": "D.M.C.",
-     "text": "Why does it say, “the law of the sin-offering”?"
+     "speaker": "DMC",
+     "text": [
+      "Would it show that there was only one way for the Lord Jesus to go; “that the death of the cross”, Phil.2:8?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I think the law of the sin-offering sets out the order as far as man is concerned. The presentation of the offerings in the earlier chapters sets out what God looked for, but the law of the offering suggests to me that if the offering was to be offered and to be eaten, it must be according to the due order."
+     "speaker": "PM",
+     "text": [
+      "That fits with what our brother has said, because He became obedient “even unto death, and that the death of the cross”. Sin was measured and judged there at the cross. Sins have been forgiven, but sin has been condemned. It has never been forgiven and never will be; God could not forgive sin. He condemned sin in the flesh; He did that in Jesus."
+     ]
     },
     {
-     "speaker": "D.M.C.",
-     "text": "Would it show that there was only one way for the Lord Jesus to go; “that the death of the cross”, Phil.2:8?"
+     "speaker": "DBR",
+     "text": [
+      "The transaction was between a holy God and a holy Man, One who was able to settle the whole sin question without compromising the holiness of God. That should sober us."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That fits with what our brother has said, because He became obedient “even unto death, and that the death of the cross”. Sin was measured and judged there at the cross. Sins have been forgiven, but sin has been condemned. It has never been forgiven and never will be; God could not forgive sin. He condemned sin in the flesh; He did that in Jesus."
+     "speaker": "PM",
+     "text": [
+      "Yes. The cry on the cross would bear on that, “My God, my God … ”. It was a Man who was there, calling on His God. How much entered into these words, “My God, my God, why hast thou forsaken me?” Mark 15:34. Why was it that He had to be forsaken? I wonder if we have all answered that question."
+     ]
     },
     {
-     "speaker": "D.B.R.",
-     "text": "The transaction was between a holy God and a holy Man, One who was able to settle the whole sin question without compromising the holiness of God. That should sober us."
+     "speaker": "JL",
+     "text": [
+      "The eating of the sin-offering was said to be specifically for the males. Does that confirm your thought that it is to be taken up in a responsible, understanding way in view of us appreciating the depth of what it involved for Christ to go that way? That would lead to being strengthened for the priestly function."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes. The cry on the cross would bear on that, “My God, my God … ”. It was a Man who was there, calling on His God. How much entered into these words, “My God, my God, why hast thou forsaken me?” Mark 15:34. Why was it that He had to be forsaken? I wonder if we have all answered that question."
+     "speaker": "PM",
+     "text": [
+      "That is helpful, because so quickly after this, in chapter 10, the priesthood failed. Strange fire was offered to God. It appears from what Moses says in that chapter that the eating of the sin-offering had not been maintained. The eating of the sin-offering, dear brethren, is not just once or every so often. We are to be maintained in our feeding on the sin-offering."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "The eating of the sin-offering was said to be specifically for the males. Does that confirm your thought that it is to be taken up in a responsible, understanding way in view of us appreciating the depth of what it involved for Christ to go that way? That would lead to being strengthened for the priestly function."
+     "speaker": "JL",
+     "text": [
+      "It has to be distinguished from the daily food connected with the manna. Can you help us as to the difference? It is very specific here."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is helpful, because so quickly after this, in chapter 10, the priesthood failed. Strange fire was offered to God. It appears from what Moses says in that chapter that the eating of the sin-offering had not been maintained. The eating of the sin-offering, dear brethren, is not just once or every so often. We are to be maintained in our feeding on the sin-offering."
+     "speaker": "PM",
+     "text": [
+      "It seems to me that this food stands related to the holiness of God known in the midst of His people. So the sin-offering was slaughtered in a clean place, “in the court of the tent of meeting”."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "It has to be distinguished from the daily food connected with the manna. Can you help us as to the difference? It is very specific here."
+     "speaker": "NJH",
+     "text": [
+      "The law of the offering would mean that a priest is not permitted to have his own judgment or his own appreciation of Christ. He is to be governed by God’s appreciation of Christ and God’s judgment of sin."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It seems to me that this food stands related to the holiness of God known in the midst of His people. So the sin-offering was slaughtered in a clean place, “in the court of the tent of meeting”."
+     "speaker": "PM",
+     "text": [
+      "Law attached to all these offerings from this chapter onwards, showing that there is a due order. If God is to be served rightly, there must be a due order by which He is served. It is not formality. We may fear formality, but where the sin-offering is eaten, the due order is not a formality. It has in view the maintenance in life of what is suited to the holiness of God and His presence with His people."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "The law of the offering would mean that a priest is not permitted to have his own judgment or his own appreciation of Christ. He is to be governed by God’s appreciation of Christ and God’s judgment of sin."
+     "speaker": "RDP",
+     "text": [
+      "Is it part of the way that the priest was formed? He was not just to have a knowledge of the detail of the offering, but he was to eat it. What is priestly is really important at the present time because it involves what is for God. Does the formation of priestly instincts involve the eating of the offering?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Law attached to all these offerings from this chapter onwards, showing that there is a due order. If God is to be served rightly, there must be a due order by which He is served. It is not formality. We may fear formality, but where the sin-offering is eaten, the due order is not a formality. It has in view the maintenance in life of what is suited to the holiness of God and His presence with His people."
+     "speaker": "PM",
+     "text": [
+      "I am sure of that, and it is intended to get right into our inwards. It is not a superficial matter. We may quote these scriptures; thank God that we do. We should have liberty to read and to refer to the Scriptures. But the eating of the sin-offering involves that there is something worked out in my being that forms in me the feelings of holiness that shrink from the very principle of sin that we find around us and within us."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Is it part of the way that the priest was formed? He was not just to have a knowledge of the detail of the offering, but he was to eat it. What is priestly is really important at the present time because it involves what is for God. Does the formation of priestly instincts involve the eating of the offering?"
+     "speaker": "DAB",
+     "text": [
+      "Does the idea of it being law also emphasise the grace of God, that He would have us share what He Himself has accepted?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I am sure of that, and it is intended to get right into our inwards. It is not a superficial matter. We may quote these scriptures; thank God that we do. We should have liberty to read and to refer to the Scriptures. But the eating of the sin-offering involves that there is something worked out in my being that forms in me the feelings of holiness that shrink from the very principle of sin that we find around us and within us."
+     "speaker": "PM",
+     "text": [
+      "Do you mean that the eating came in only in relation to the law of the offerings?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Does the idea of it being law also emphasise the grace of God, that He would have us share what He Himself has accepted?"
+     "speaker": "DAB",
+     "text": [
+      "I was reminded of a comment I remember Mr Lyon making: ‘Imagine God’s grace that He would share His best with us when we have sinned’. So we have the priest here taking responsibility for the sin that had come in, and it is God’s decree that the priest should share with God what God Himself has accepted in relation to that sin."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Do you mean that the eating came in only in relation to the law of the offerings?"
+     "speaker": "PM",
+     "text": [
+      "And the priest would feel what the sin is, and feel what the answer is to God; not only the awfulness of what sin is, but the infinite perfection and glory of the One who has met it and has come out of death and is at the right hand of God."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I was reminded of a comment I remember Mr Lyon making: ‘Imagine God’s grace that He would share His best with us when we have sinned’. So we have the priest here taking responsibility for the sin that had come in, and it is God’s decree that the priest should share with God what God Himself has accepted in relation to that sin."
+     "speaker": "DAB",
+     "text": [
+      "Would it be right to say that God does not feed on the sin, but we are to feed with God? That is why it was to be in a holy place. It has to be in a place where God Himself comes."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "And the priest would feel what the sin is, and feel what the answer is to God; not only the awfulness of what sin is, but the infinite perfection and glory of the One who has met it and has come out of death and is at the right hand of God."
+     "speaker": "PM",
+     "text": [
+      "I think that is most important, because in seeking to have a judgment of sin, as we must, both collectively and individually, there is the danger that we feed on it. But God, as you say, is not feeding on it and we do not get the gain of what has been effected in the death of Christ if we feed on the sin. We are to feed on the One who has borne it and in whom it has been judged. Therefore, the sin-offering was slaughtered at the place of the burnt-offering. That involves our acceptance before God. I have sinned and deserved judgment, but God is accepting me on the basis of the burnt-offering in all its perfection. The burnt-offering must precede the sin-offering, because the excellence of Christ has answered to all that God required."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Would it be right to say that God does not feed on the sin, but we are to feed with God? That is why it was to be in a holy place. It has to be in a place where God Himself comes."
+     "speaker": "DAB",
+     "text": [
+      "It has been pointed out that the cleansed leper was anointed by the priest, and then he would eat the priest’s food. We need to see that God has set us free so that we should have fellowship with Him in a formative appreciation of the affection of Christ."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I think that is most important, because in seeking to have a judgment of sin, as we must, both collectively and individually, there is the danger that we feed on it. But God, as you say, is not feeding on it and we do not get the gain of what has been effected in the death of Christ if we feed on the sin. We are to feed on the One who has borne it and in whom it has been judged. Therefore, the sin-offering was slaughtered at the place of the burnt-offering. That involves our acceptance before God. I have sinned and deserved judgment, but God is accepting me on the basis of the burnt-offering in all its perfection. The burnt-offering must precede the sin-offering, because the excellence of Christ has answered to all that God required."
+     "speaker": "PM",
+     "text": [
+      "Very good. We may see tomorrow how that works out in fellowship with one another."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It has been pointed out that the cleansed leper was anointed by the priest, and then he would eat the priest’s food. We need to see that God has set us free so that we should have fellowship with Him in a formative appreciation of the affection of Christ."
+     "speaker": "RGar",
+     "text": [
+      "Are we meant to be affected by the fact that this One was the One upon whom the heavens were opened and that voice was heard saying “This is my beloved Son, in whom I have found my delight”, Matt.3:17? This is the One who knew no sin but was “made sin for us, that we might become God’s righteousness in him”."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Very good. We may see tomorrow how that works out in fellowship with one another."
+     "speaker": "PM",
+     "text": [
+      "How much God has secured through the death of Christ. “Yet it pleased Jehovah to bruise him; he hath subjected him to suffering. When thou shalt make his soul an offering for sin, he shall see a seed”, Isa.53:10. If I might speak carefully, God has been vindicated in having forsaken Christ, in that He has those who are established in that blessed Man in the righteousness of God. How wonderful that is!"
+     ]
     },
     {
-     "speaker": "R.Gar.",
-     "text": "Are we meant to be affected by the fact that this One was the One upon whom the heavens were opened and that voice was heard saying “This is my beloved Son, in whom I have found my delight”, Matt.3:17? This is the One who knew no sin but was “made sin for us, that we might become God’s righteousness in him”."
+     "speaker": "PAG",
+     "text": [
+      "You have rightly pointed out that in the introduction of the offerings, the peace-offering comes before the sin-offering, but in the law the peace-offering comes after the sin-offering. I know that you have in mind to speak of the peace-offering more tomorrow, but is it important for us to understand that the enjoyment of fellowship requires that I first apply the sin-offering to myself?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "How much God has secured through the death of Christ. “Yet it pleased Jehovah to bruise him; he hath subjected him to suffering. When thou shalt make his soul an offering for sin, he shall see a seed”, Isa.53:10. If I might speak carefully, God has been vindicated in having forsaken Christ, in that He has those who are established in that blessed Man in the righteousness of God. How wonderful that is!"
+     "speaker": "PM",
+     "text": [
+      "That is why I thought we should take up the offerings in the order that they come in the law, because there is a moral order to it. If I am eating the sin-offering and you are eating the sin-offering, we have a common moral judgment and we can enjoy fellowship, but as you say, I have to come to that in relation to myself. Sin has worked in me. That is a sobering thing. Not only have I committed sins, as awful as they have been, but sin has worked in my members. God saw that it was essential, and there was no other way, than that sin should be judged in the flesh and condemned in the flesh in Jesus. What a moment that was."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "You have rightly pointed out that in the introduction of the offerings, the peace-offering comes before the sin-offering, but in the law the peace-offering comes after the sin-offering. I know that you have in mind to speak of the peace-offering more tomorrow, but is it important for us to understand that the enjoyment of fellowship requires that I first apply the sin-offering to myself?"
+     "speaker": "EM",
+     "text": [
+      "David knew what it was to eat the sin-offering more than once, and he says in one of the psalms “The law of Jehovah is perfect, restoring the soul”, Ps.19:7. That is a fine example of one who applied the law of Jehovah to himself."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is why I thought we should take up the offerings in the order that they come in the law, because there is a moral order to it. If I am eating the sin-offering and you are eating the sin-offering, we have a common moral judgment and we can enjoy fellowship, but as you say, I have to come to that in relation to myself. Sin has worked in me. That is a sobering thing. Not only have I committed sins, as awful as they have been, but sin has worked in my members. God saw that it was essential, and there was no other way, than that sin should be judged in the flesh and condemned in the flesh in Jesus. What a moment that was."
+     "speaker": "PM",
+     "text": [
+      "Yes, David came under that regulation, the law of Jehovah. He had gone against it, as we have, but he came to appreciate that there was One in whom everything was upheld. The Lord Jesus kept the law and made it honourable. Everything that God looked for from man was there in that blessed Person, but it was that One who had to be made sin."
+     ]
     },
     {
-     "speaker": "E.M.",
-     "text": "David knew what it was to eat the sin-offering more than once, and he says in one of the psalms “The law of Jehovah is perfect, restoring the soul”, Ps.19:7. That is a fine example of one who applied the law of Jehovah to himself."
+     "speaker": "DCB",
+     "text": [
+      "In verse 30 there is an offering that is not to be eaten. I was thinking of the question you asked each one of us about why it was that Jesus had to be forsaken; “My God, my God, why has thou forsaken me?” We should all have an impression for ourselves, but there is that which was infinitely greater in His death, which only God Himself can appreciate. As we realise that, it enhances the glory of what we can appreciate."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, David came under that regulation, the law of Jehovah. He had gone against it, as we have, but he came to appreciate that there was One in whom everything was upheld. The Lord Jesus kept the law and made it honourable. Everything that God looked for from man was there in that blessed Person, but it was that One who had to be made sin."
+     "speaker": "PM",
+     "text": [
+      "Yes, there will always be what is beyond us. We could never measure the judgment of sin. God measured that. He “has not spared his own Son, but delivered him up”, Rom.8:32. Think of God doing that. I had wondered about verse 30, “And no sin-offering whereof blood hath been brought to the tent of meeting, to make atonement in the sanctuary, shall be eaten”. It is the blood that makes the difference here. It was brought into the sanctuary and it could not be eaten. The blood was entirely for God; the life is in the blood, and that was given up for God."
+     ]
     },
     {
-     "speaker": "D.C.B.",
-     "text": "In verse 30 there is an offering that is not to be eaten. I was thinking of the question you asked each one of us about why it was that Jesus had to be forsaken; “My God, my God, why has thou forsaken me?” We should all have an impression for ourselves, but there is that which was infinitely greater in His death, which only God Himself can appreciate. As we realise that, it enhances the glory of what we can appreciate."
+     "speaker": "NCMcK",
+     "text": [
+      "Is that what is referred to at the end of Hebrews? The bodies of the offerings were burned outside the camp (Heb.13:11). I was wondering about the extent of the sin considered here. Does it go wider than sin that has affected us? Is it the very principle of sin as it has affected God?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, there will always be what is beyond us. We could never measure the judgment of sin. God measured that. He “has not spared his own Son, but delivered him up”, Rom.8:32. Think of God doing that. I had wondered about verse 30, “And no sin-offering whereof blood hath been brought to the tent of meeting, to make atonement in the sanctuary, shall be eaten”. It is the blood that makes the difference here. It was brought into the sanctuary and it could not be eaten. The blood was entirely for God; the life is in the blood, and that was given up for God."
+     "speaker": "PM",
+     "text": [
+      "I think so. There has been one Offering; think of how much has been encompassed by this Offering. As we said earlier, He is the Taker-away of the sin of the world; what an extent! Death had reigned from Adam to Moses, we read in Romans 5; and then sin had reigned under the law. Here was One who came in and bore the judgment for the whole extent of it, but in grace He was also “made sin for us”."
+     ]
     },
     {
-     "text": "N.C.McK. Is that what is referred to at the end of Hebrews? The bodies of the offerings were burned outside the camp (Heb.13:11). I was wondering about the extent of the sin considered here. Does it go wider than sin that has affected us? Is it the very principle of sin as it has affected God?"
+     "speaker": "JCG",
+     "text": [
+      "It speaks of the transaction between God and Christ on the cross. Would it refer particularly to the great day of atonement in chapter 16, where the bodies were burned outside the camp in relation to the sin-offering? In the earlier chapters of this book, it is “if anyone sin”. We therefore have to take it individually. Is that why the earlier point was made as to eating it?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I think so. There has been one Offering; think of how much has been encompassed by this Offering. As we said earlier, He is the Taker-away of the sin of the world; what an extent! Death had reigned from Adam to Moses, we read in Romans 5; and then sin had reigned under the law. Here was One who came in and bore the judgment for the whole extent of it, but in grace He was also “made sin for us”."
+     "speaker": "PM",
+     "text": [
+      "“If anyone sin”; God has to be answered, and He has been. We have all sinned since conversion and hence the need with us to eat the sin-offering because sin has been working in us. At our conversion, we put our faith in the Lord Jesus and in His blood, and our sins were washed away – a wonderful thing! I wonder if everyone here knows the peace and joy of having salvation and being justified. Paul says “having been justified … we have peace towards God”, Rom.5:1."
+     ]
     },
     {
-     "speaker": "J.C.G.",
-     "text": "It speaks of the transaction between God and Christ on the cross. Would it refer particularly to the great day of atonement in chapter 16, where the bodies were burned outside the camp in relation to the sin-offering? In the earlier chapters of this book, it is “if anyone sin”. We therefore have to take it individually. Is that why the earlier point was made as to eating it?"
+     "speaker": "RT",
+     "text": [
+      "In the New Testament it says, “Him who knew not sin he has made sin for us, that we might become God’s righteousness in him”. There is a wonderful end to be reached."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "“If anyone sin”; God has to be answered, and He has been. We have all sinned since conversion and hence the need with us to eat the sin-offering because sin has been working in us. At our conversion, we put our faith in the Lord Jesus and in His blood, and our sins were washed away – a wonderful thing! I wonder if everyone here knows the peace and joy of having salvation and being justified. Paul says “having been justified … we have peace towards God”, Rom.5:1."
+     "speaker": "PM",
+     "text": [
+      "There is, and there was never a need for another offering. There could not be. God has been justified in all that Christ has done. He was “made sin”. What does that mean?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "In the New Testament it says, “Him who knew not sin he has made sin for us, that we might become God’s righteousness in him”. There is a wonderful end to be reached."
+     "speaker": "RT",
+     "text": [
+      "It is the article itself. Sin had come into the world, and it is removed by that one Man. There is a glorious end reached in that we then become God’s righteousness, so that we might have liberty. There is no liberty unless the sin-offering is eaten."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "There is, and there was never a need for another offering. There could not be. God has been justified in all that Christ has done. He was “made sin”. What does that mean?"
+     "speaker": "PM",
+     "text": [
+      "That is good; having become God’s righteousness, we have liberty and we have favour. That enters into Luke 15, does it not? The father in the parable said “it was right” (v.32). It was the necessity of God’s holiness that sin should be condemned, but He finds His pleasure in justifying the sinner. That is a wonderful thing; it sets us at liberty in the presence of God and to be here for His glory."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It is the article itself. Sin had come into the world, and it is removed by that one Man. There is a glorious end reached in that we then become God’s righteousness, so that we might have liberty. There is no liberty unless the sin-offering is eaten."
+     "speaker": "RT",
+     "text": [
+      "Paul says “by one man sin entered into the world” (Rom.5:12), but now there is another Man that takes us into another world."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is good; having become God’s righteousness, we have liberty and we have favour. That enters into Luke 15, does it not? The father in the parable said “it was right” (v.32). It was the necessity of God’s holiness that sin should be condemned, but He finds His pleasure in justifying the sinner. That is a wonderful thing; it sets us at liberty in the presence of God and to be here for His glory."
+     "speaker": "PM",
+     "text": [
+      "Yes. Having answered to God fully and perfectly, He now becomes the Centre of a world in which sin can never enter because He is the Centre of it all."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Paul says “by one man sin entered into the world” (Rom.5:12), but now there is another Man that takes us into another world."
+     "speaker": "GBG",
+     "text": [
+      "We speak often of self-judgment. How does that relate to what we are speaking about?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes. Having answered to God fully and perfectly, He now becomes the Centre of a world in which sin can never enter because He is the Centre of it all."
+     "speaker": "PM",
+     "text": [
+      "Well, it does, and I believe that eating the sin-offering would keep us tender and sensitive in the presence of God. Self-judgment is not merely coming to know how awful I am, is it? God has already come to that. Self-judgment involves that I come to see that everything that has been removed has been done by Christ, and God is now accepting me in the worth of another Man. But I find that sin works in me."
+     ]
     },
     {
-     "speaker": "G.B.G.",
-     "text": "We speak often of self-judgment. How does that relate to what we are speaking about?"
+     "speaker": "GBG",
+     "text": [
+      "There must be a judgment of what I find in myself. It is self-judgment. That is not exactly a judgment of what I do, is it? Self-judgment is judging the propensity that there is in me all the time to do what is wrong. Is that involved in our judging ourselves in the light of the death of Christ? God has judged sin in His Son."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Well, it does, and I believe that eating the sin-offering would keep us tender and sensitive in the presence of God. Self-judgment is not merely coming to know how awful I am, is it? God has already come to that. Self-judgment involves that I come to see that everything that has been removed has been done by Christ, and God is now accepting me in the worth of another Man. But I find that sin works in me."
+     "speaker": "PM",
+     "text": [
+      "Yes. After our conversion, we are often disappointed because we find failure and sin working. The answer to it is to come to God’s judgment of what that is, and to see that God has taken me up in another Man. The man that I get disappointed with, God is not disappointed with, because He has already removed him, and established me in Christ with a power that I could never have of myself, because I could never have power over sin. But He has given me a power in the Holy Spirit in order that I might be occupied with the Man who is in His presence. It leads on to what we had in John 6 this morning, living on account of Him."
+     ]
     },
     {
-     "speaker": "G.B.G.",
-     "text": "There must be a judgment of what I find in myself. It is self-judgment. That is not exactly a judgment of what I do, is it? Self-judgment is judging the propensity that there is in me all the time to do what is wrong. Is that involved in our judging ourselves in the light of the death of Christ? God has judged sin in His Son."
+     "speaker": "RH",
+     "text": [
+      "Mr. Stoney used to speak of ‘changing your man’. Would that bring about deliverance with us? Would it suggest that we expect nothing from the man that has been removed at the cross? We need to change our man and have a fresh outlook, focus our attention on Christ, the Man of God’s choice and all that He has achieved."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes. After our conversion, we are often disappointed because we find failure and sin working. The answer to it is to come to God’s judgment of what that is, and to see that God has taken me up in another Man. The man that I get disappointed with, God is not disappointed with, because He has already removed him, and established me in Christ with a power that I could never have of myself, because I could never have power over sin. But He has given me a power in the Holy Spirit in order that I might be occupied with the Man who is in His presence. It leads on to what we had in John 6 this morning, living on account of Him."
+     "speaker": "PM",
+     "text": [
+      "He is the Man for God, He is the Man for us, and He is the Man who went into death as the Sin-bearer. What movements they were. Think of Him falling on the ground and saying, “My Father”. Not just “Father”, but “My Father”. He says first, “if it be possible let this cup pass from me; but not as I will, but as thou wilt”. Then the second time, He says, “My Father, if this cannot pass from me ... ” You get the sense that this blessed One, in His communion, knew from the Father that it could not pass from Him. He says, “if this cannot pass from me unless I drink it, thy will be done.” What a Man!"
+     ]
     },
     {
-     "speaker": "R.H.",
-     "text": "Mr. Stoney used to speak of ‘changing your man’. Would that bring about deliverance with us? Would it suggest that we expect nothing from the man that has been removed at the cross? We need to change our man and have a fresh outlook, focus our attention on Christ, the Man of God’s choice and all that He has achieved."
+     "speaker": "DAB",
+     "text": [
+      "In what the priest was to eat, the emphasis is on the inwards. I wondered if what the Lord Jesus says in Gethsemane and on the cross would bear especially on that side. That may be over against what you have been speaking about, as to what we find in ourselves. It is very choice that on the cross the Lord Jesus could say, “Father, forgive them, for they know not what they do”, Luke 23:34. That was the inwards of Christ presented perfectly as food for God, but also food for us. I wondered if we see something similar in Gethsemane. The fact that His words were recorded revealed His inwards, which were especially choice and are our food."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "He is the Man for God, He is the Man for us, and He is the Man who went into death as the Sin-bearer. What movements they were. Think of Him falling on the ground and saying, “My Father”. Not just “Father”, but “My Father”. He says first, “if it be possible let this cup pass from me; but not as I will, but as thou wilt”. Then the second time, He says, “My Father, if this cannot pass from me ... ” You get the sense that this blessed One, in His communion, knew from the Father that it could not pass from Him. He says, “if this cannot pass from me unless I drink it, thy will be done.” What a Man!"
+     "speaker": "PM",
+     "text": [
+      "It is His inwards relating to His communion at such a moment. He went into death; He went to the cross in communion. But here, He was anticipating what it would be for Him to be the sin-bearer. He was anticipating not only what the judgment would be, but what death would be and what broken communion would be. We could never feel these things as He felt them, but He bore them in His spirit in a way that, as we contemplate them, we are left to worship."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "In what the priest was to eat, the emphasis is on the inwards. I wondered if what the Lord Jesus says in Gethsemane and on the cross would bear especially on that side. That may be over against what you have been speaking about, as to what we find in ourselves. It is very choice that on the cross the Lord Jesus could say, “Father, forgive them, for they know not what they do”, Luke 23:34. That was the inwards of Christ presented perfectly as food for God, but also food for us. I wondered if we see something similar in Gethsemane. The fact that His words were recorded revealed His inwards, which were especially choice and are our food."
+     "speaker": "DAB",
+     "text": [
+      "When Paul says that Christ “offered himself spotless to God” (Heb.9:14), God was looking not only on the externals that people could see, but He was looking on the fat of the inwards. That the Lord should speak about His feelings in the hearing of His disciples presents those inwards as food for us – a very precious thing."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It is His inwards relating to His communion at such a moment. He went into death; He went to the cross in communion. But here, He was anticipating what it would be for Him to be the sin-bearer. He was anticipating not only what the judgment would be, but what death would be and what broken communion would be. We could never feel these things as He felt them, but He bore them in His spirit in a way that, as we contemplate them, we are left to worship."
+     "speaker": "PM",
+     "text": [
+      "Does that not come out in this reference, “My soul is very sorrowful even unto death”? Think of the soul of the Lord Jesus. That bears on what you say – the inward feelings of this perfect One."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "When Paul says that Christ “offered himself spotless to God” (Heb.9:14), God was looking not only on the externals that people could see, but He was looking on the fat of the inwards. That the Lord should speak about His feelings in the hearing of His disciples presents those inwards as food for us – a very precious thing."
+     "speaker": "JD",
+     "text": [
+      "The Lord was “marked out Son of God in power, according to the Spirit of holiness” Rom.1:4. Do you think that we have that here? “If it be possible let this cup pass from me”: that would link with what we have been speaking about as to His soul and as to His feelings."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Does that not come out in this reference, “My soul is very sorrowful even unto death”? Think of the soul of the Lord Jesus. That bears on what you say – the inward feelings of this perfect One."
+     "speaker": "PM",
+     "text": [
+      "I think so. “When thou shalt make his soul an offering for sin” (Isa.53:10); what feelings they were. He knew what sin was as God knew it. No one else did. He knew what the distance was. No one else could measure it. But, if one might speak very reverently, He entered into it not in an unfeeling way, but all the feelings and the inwards of the Lord Jesus were engaged in this. If the sin of the world is to be taken away, it required that He should go this way."
+     ]
     },
     {
-     "speaker": "J.D.",
-     "text": "The Lord was “marked out Son of God in power, according to the Spirit of holiness” Rom.1:4. Do you think that we have that here? “If it be possible let this cup pass from me”: that would link with what we have been speaking about as to His soul and as to His feelings."
+     "speaker": "RGr",
+     "text": [
+      "Do you think that the reference to the sin-offering in Leviticus 16 would bear on what you are saying? It has been referred to already; it says there that the blood was sprinkled on the mercy-seat once, and seven times before it. Do you think God would ensure that we have a full and wealthy appreciation of His thoughts in regard of the sin-offering?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I think so. “When thou shalt make his soul an offering for sin” (Isa.53:10); what feelings they were. He knew what sin was as God knew it. No one else did. He knew what the distance was. No one else could measure it. But, if one might speak very reverently, He entered into it not in an unfeeling way, but all the feelings and the inwards of the Lord Jesus were engaged in this. If the sin of the world is to be taken away, it required that He should go this way."
+     "speaker": "PM",
+     "text": [
+      "Yes. Help us as to the blood sprinkled on and before the mercy-seat."
+     ]
     },
     {
-     "speaker": "R.Gr.",
-     "text": "Do you think that the reference to the sin-offering in Leviticus 16 would bear on what you are saying? It has been referred to already; it says there that the blood was sprinkled on the mercy-seat once, and seven times before it. Do you think God would ensure that we have a full and wealthy appreciation of His thoughts in regard of the sin-offering?"
+     "speaker": "RGr",
+     "text": [
+      "I was thinking of the blood sprinkled on the mercy-seat as being for the eye of God. Speaking reverently, once was sufficient for God’s eyes; His appreciation was perfect. But for us, the seven times would assure us fully of our standing in relation to these great things."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes. Help us as to the blood sprinkled on and before the mercy-seat."
+     "speaker": "PM",
+     "text": [
+      "I am sure of that, and it relates to our approach to God. “Therefore having been justified … we have peace towards God through our Lord Jesus Christ” Rom.5:1."
+     ]
     },
     {
-     "speaker": "R.Gr.",
-     "text": "I was thinking of the blood sprinkled on the mercy-seat as being for the eye of God. Speaking reverently, once was sufficient for God’s eyes; His appreciation was perfect. But for us, the seven times would assure us fully of our standing in relation to these great things."
+     "speaker": "JCG",
+     "text": [
+      "Paul is very insistent in Philippians 2, where in manhood He “humbled himself, becoming obedient even unto death” (v 8), that it involved that His every step was linked to the will of the Father. It emphasises what we are naturally according to our sinful flesh; we are very prone to be disobedient, but here is One who was perfect. This is what you were speaking of as food for us. That obedience in relation to God’s will, what God said and what God wanted was implicit in the movements of Christ. As cleansed, it should be true of us as well."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I am sure of that, and it relates to our approach to God. “Therefore having been justified … we have peace towards God through our Lord Jesus Christ” Rom.5:1."
+     "speaker": "PM",
+     "text": [
+      "It should be, hence the priest here had in view that he was going to eat of the offering. There was going to be some formation in keeping with the sin-offering. The priest would come to understand in some measure what it cost Christ to remove sin and deal with it."
+     ]
     },
     {
-     "speaker": "J.C.G.",
-     "text": "Paul is very insistent in Philippians 2, where in manhood He “humbled himself, becoming obedient even unto death” (v 8), that it involved that His every step was linked to the will of the Father. It emphasises what we are naturally according to our sinful flesh; we are very prone to be disobedient, but here is One who was perfect. This is what you were speaking of as food for us. That obedience in relation to God’s will, what God said and what God wanted was implicit in the movements of Christ. As cleansed, it should be true of us as well."
+     "speaker": "NJH",
+     "text": [
+      "I was thinking about what is being said as to the holy feelings of Christ as entering into this, but there were feelings in the heart of God at this point too."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It should be, hence the priest here had in view that he was going to eat of the offering. There was going to be some formation in keeping with the sin-offering. The priest would come to understand in some measure what it cost Christ to remove sin and deal with it."
+     "speaker": "PM",
+     "text": [
+      "What can we say? “My God, I cry by day, and thou answerest not; and by night, and there is no rest for me”, Ps.22:2."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "I was thinking about what is being said as to the holy feelings of Christ as entering into this, but there were feelings in the heart of God at this point too."
+     "speaker": "NJH",
+     "text": [
+      "Some have said that must have been an experience of the psalmist, but it could not be. This stands alone. Others have been answered, but Christ was not."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "What can we say? “My God, I cry by day, and thou answerest not; and by night, and there is no rest for me”, Ps.22:2."
+     "speaker": "PM",
+     "text": [
+      "He was not answered during those three hours of darkness on the cross. He was not seen by the eye of man. He was alone in the darkness. There had never been a moment in the history of time like it."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "Some have said that must have been an experience of the psalmist, but it could not be. This stands alone. Others have been answered, but Christ was not."
+     "speaker": "PAG",
+     "text": [
+      "Does this holy subject help us about what we were speaking of earlier as to that which is to be eaten, and that which is not to be eaten? There was what was distinctively between Christ as Man and His God in the forsaking. It brings out worship, but we cannot eat of it."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "He was not answered during those three hours of darkness on the cross. He was not seen by the eye of man. He was alone in the darkness. There had never been a moment in the history of time like it."
+     "speaker": "PM",
+     "text": [
+      "No. We must be kept in the spirit of worship in the light of the fact that this blessed Person, who was none less in His person than the Creator, should stoop into such conditions, and as Man be made sin. As our brother has said, every footstep, every moment, had been so delightful to God, but there came a moment when there was no answer. We could not feed on that, could we? But what I would say for my own soul is that we are moving through a world where sin is legitimised and legalised. Even in religious circles, sin that is so hateful to God is being made way for. Let us continue to eat of the sin-offering. There is one standard for God and that standard was expressed at the cross."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Does this holy subject help us about what we were speaking of earlier as to that which is to be eaten, and that which is not to be eaten? There was what was distinctively between Christ as Man and His God in the forsaking. It brings out worship, but we cannot eat of it."
+     "speaker": "PAG",
+     "text": [
+      "And although we cannot partake of it, yet at that time there was unbounded fragrance for God in that Offering, such as had never been His before."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "No. We must be kept in the spirit of worship in the light of the fact that this blessed Person, who was none less in His person than the Creator, should stoop into such conditions, and as Man be made sin. As our brother has said, every footstep, every moment, had been so delightful to God, but there came a moment when there was no answer. We could not feed on that, could we? But what I would say for my own soul is that we are moving through a world where sin is legitimised and legalised. Even in religious circles, sin that is so hateful to God is being made way for. Let us continue to eat of the sin-offering. There is one standard for God and that standard was expressed at the cross."
+     "speaker": "PM",
+     "text": [
+      "It would be true to say that our Lord Jesus was never more pleasurable to God than when He uttered these words, “not my will, but thine be done”, Luke 22:42. It shows the extent of His devotion to the will of God. How precious that must have been to God. We do not know what is before us, but He knew every moment of what was before Him. If sin was to be removed from the universe, He had to go this way."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "And although we cannot partake of it, yet at that time there was unbounded fragrance for God in that Offering, such as had never been His before."
+     "speaker": "RGar",
+     "text": [
+      "I was going to ask if Psalm 22 helps us. Immediately after the reference to the forsaking there, we have “And thou are holy, thou that dwellest amid the praises of Israel” (v3). How wonderful the outcome was. The holy One who went into death and was made sin has come out of death, but there is a product of that, if we might use that expression, in the many who are now like Christ. God, who remains holy and always has and will be holy, inhabits the praises of these people."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It would be true to say that our Lord Jesus was never more pleasurable to God than when He uttered these words, “not my will, but thine be done”, Luke 22:42. It shows the extent of His devotion to the will of God. How precious that must have been to God. We do not know what is before us, but He knew every moment of what was before Him. If sin was to be removed from the universe, He had to go this way."
+     "speaker": "PM",
+     "text": [
+      "And He has an answer that is in keeping with His holiness. It is wonderful that His holiness had to be answered to. Sin is a challenge to the majesty of God. Through the work of redemption, through the work of Christ, God now is able to take man up, not as an improvement of the old, but to take man up on a new basis altogether. In man, God has an answer that is in keeping with His holiness, because He has reached it in Christ and those that are associated with Him."
+     ]
     },
     {
-     "speaker": "R.Gar.",
-     "text": "I was going to ask if Psalm 22 helps us. Immediately after the reference to the forsaking there, we have “And thou are holy, thou that dwellest amid the praises of Israel” (v3). How wonderful the outcome was. The holy One who went into death and was made sin has come out of death, but there is a product of that, if we might use that expression, in the many who are now like Christ. God, who remains holy and always has and will be holy, inhabits the praises of these people."
+     "speaker": "JAB",
+     "text": [
+      "Would it be open to us to ask the Holy Spirit to help us to deepen in our appreciation of what you are bringing before us? It tells us in Hebrews that the Lord Jesus, “by the eternal Spirit offered himself spotless to God”, Heb.9:14. That is the same Spirit who dwells in you and me as believers. He would help us to deepen in our appreciation of God’s holiness."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "And He has an answer that is in keeping with His holiness. It is wonderful that His holiness had to be answered to. Sin is a challenge to the majesty of God. Through the work of redemption, through the work of Christ, God now is able to take man up, not as an improvement of the old, but to take man up on a new basis altogether. In man, God has an answer that is in keeping with His holiness, because He has reached it in Christ and those that are associated with Him."
+     "speaker": "PM",
+     "text": [
+      "He would, and He does if we ask Him. There must be moral formation if God is to be rightly served. As we feed on the sin-offering, the Spirit of God would help us to be formed in our judgment of what sin is."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "Would it be open to us to ask the Holy Spirit to help us to deepen in our appreciation of what you are bringing before us? It tells us in Hebrews that the Lord Jesus, “by the eternal Spirit offered himself spotless to God”, Heb.9:14. That is the same Spirit who dwells in you and me as believers. He would help us to deepen in our appreciation of God’s holiness."
+     "speaker": "JAB",
+     "text": [
+      "You said in your opening remarks that there must be a moral basis for all that there is for the pleasure of God now. Could you explain that?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "He would, and He does if we ask Him. There must be moral formation if God is to be rightly served. As we feed on the sin-offering, the Spirit of God would help us to be formed in our judgment of what sin is."
+     "speaker": "PM",
+     "text": [
+      "Well, it was true for the Israelites. God’s holiness and His righteousness have to be fully met if man is to have a relation with Him and if man is to approach God. That is what the Israelites would have understood. They never came into the fulness of it as we do, but they understood that God was holy. Mount Sinai was a witness to the holiness of God; the mountain was all on fire and the sight was so fearful that the Israelites would have had some impression of the holiness of God (Ex.19:18). We are not called to Mount Sinai, but the holiness of God is unchanged. We are not called to Mount Sinai because God’s holiness has been answered to in Christ, and we have been taken up in Christ to be here for God. But if God is to be rightly served by us individually and collectively, there must be an answer that is in keeping with the holiness of His presence. It is not something that man thinks of. Alas, that is often what has come into Christendom, and we know something of it in our own histories. But the answer to God must be on the basis of His holy claims and His righteous claims being fully met, so that the worshipper is in keeping with His presence."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "You said in your opening remarks that there must be a moral basis for all that there is for the pleasure of God now. Could you explain that?"
+     "speaker": "DBR",
+     "text": [
+      "Is that what is meant by “might become”? It does not say what it is exactly. There is the judicial side, but then there is the moral side involving a process in the believer, do you think?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Well, it was true for the Israelites. God’s holiness and His righteousness have to be fully met if man is to have a relation with Him and if man is to approach God. That is what the Israelites would have understood. They never came into the fulness of it as we do, but they understood that God was holy. Mount Sinai was a witness to the holiness of God; the mountain was all on fire and the sight was so fearful that the Israelites would have had some impression of the holiness of God (Ex.19:18). We are not called to Mount Sinai, but the holiness of God is unchanged. We are not called to Mount Sinai because God’s holiness has been answered to in Christ, and we have been taken up in Christ to be here for God. But if God is to be rightly served by us individually and collectively, there must be an answer that is in keeping with the holiness of His presence. It is not something that man thinks of. Alas, that is often what has come into Christendom, and we know something of it in our own histories. But the answer to God must be on the basis of His holy claims and His righteous claims being fully met, so that the worshipper is in keeping with His presence."
+     "speaker": "PM",
+     "text": [
+      "That is really my exercise, that as feeding on the Offering, we might become God’s righteousness in Him."
+     ]
     },
     {
-     "speaker": "D.B.R.",
-     "text": "Is that what is meant by “might become”? It does not say what it is exactly. There is the judicial side, but then there is the moral side involving a process in the believer, do you think?"
+     "speaker": "DBR",
+     "text": [
+      "I wondered if it is a matter of cleansing. We are speaking of eating this offering and being affected inwardly by it. Cleansing is not actually on the judicial side, it is more the moral side. I wondered if that is really involved in this thought of “might become”. As you say, it is something that we should be doing every day. It is a moral process."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is really my exercise, that as feeding on the Offering, we might become God’s righteousness in Him."
+     "speaker": "PM",
+     "text": [
+      "Yes, the cleansing is included in the law of the sin-offering. If the blood was spilt on an earthen vessel, that vessel was removed. Thank God it has been removed in the death of Christ. But if it was on a copper vessel, the vessel was scoured, it was cleansed, it was washed with water. That is the effect of the Spirit’s service in the application of the death of Christ, so that the believer becomes a vessel of shining copper."
+     ]
     },
     {
-     "speaker": "D.B.R.",
-     "text": "I wondered if it is a matter of cleansing. We are speaking of eating this offering and being affected inwardly by it. Cleansing is not actually on the judicial side, it is more the moral side. I wondered if that is really involved in this thought of “might become”. As you say, it is something that we should be doing every day. It is a moral process."
+     "speaker": "DBR",
+     "text": [
+      "So it is not only the blood, but it is the water. There are these two aspects; not only the blood of Christ but the water came from His side."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, the cleansing is included in the law of the sin-offering. If the blood was spilt on an earthen vessel, that vessel was removed. Thank God it has been removed in the death of Christ. But if it was on a copper vessel, the vessel was scoured, it was cleansed, it was washed with water. That is the effect of the Spirit’s service in the application of the death of Christ, so that the believer becomes a vessel of shining copper."
+     "speaker": "PM",
+     "text": [
+      "It has often been said that the blood involves judicial cleansing; that is, it cleanses me from judgment. But the water involves moral cleansing; that makes me practically fit for the presence of God."
+     ]
     },
     {
-     "speaker": "D.B.R.",
-     "text": "So it is not only the blood, but it is the water. There are these two aspects; not only the blood of Christ but the water came from His side."
+     "speaker": "RDP",
+     "text": [
+      "Paul wrote to the Corinthians about reconciliation. I wondered if that is particularly in view in what is for God. Reconciliation is what is for God."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It has often been said that the blood involves judicial cleansing; that is, it cleanses me from judgment. But the water involves moral cleansing; that makes me practically fit for the presence of God."
+     "speaker": "PM",
+     "text": [
+      "Yes, that is helpful. “Be reconciled to God”; it was us that needed to be reconciled. We used to sing when we were at school, ‘God and sinners reconciled’, but God never needed to be reconciled. It was man that needed to be reconciled to God. Not only did we need to be, but God has provided everything from His side that it might be so. But at what a cost; “Him who knew not sin he has made sin for us”."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Paul wrote to the Corinthians about reconciliation. I wondered if that is particularly in view in what is for God. Reconciliation is what is for God."
+     "speaker": "DAB",
+     "text": [
+      "Does reconciliation put us in the holy place that you read about in Leviticus? Reconciliation is a change of place, is it not? Mr Raven spoke about where there was distance, and that distance remains as far as sin is concerned. It is not that God has accepted that He must reach out; sin is always at a distance from God. But now that there is complacency, there must be a new place. Is that the holy place where we share these things with Him?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, that is helpful. “Be reconciled to God”; it was us that needed to be reconciled. We used to sing when we were at school, ‘God and sinners reconciled’, but God never needed to be reconciled. It was man that needed to be reconciled to God. Not only did we need to be, but God has provided everything from His side that it might be so. But at what a cost; “Him who knew not sin he has made sin for us”."
+     "speaker": "PM",
+     "text": [
+      "Yes, indeed, “There will I meet with thee, and will speak with thee”, Ex.25:22. It was ever in the heart of Jehovah to have His people near, and He has provided the basis in the death of Christ that we might be there in complacency."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Does reconciliation put us in the holy place that you read about in Leviticus? Reconciliation is a change of place, is it not? Mr Raven spoke about where there was distance, and that distance remains as far as sin is concerned. It is not that God has accepted that He must reach out; sin is always at a distance from God. But now that there is complacency, there must be a new place. Is that the holy place where we share these things with Him?"
+     "speaker": "JL",
+     "text": [
+      "Does that bear on the difference in Romans between being accredited righteous and constituted righteous? We are accredited righteous as discharged of all liability because of what Christ has done for us. But we are constituted righteous; we are made fit to be in the presence of God. Reconciliation brings us near and holds us in liberty in the presence of God. We are made entirely suitable to be there; not just discharged of the liabilities, but made fit for His presence."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, indeed, “There will I meet with thee, and will speak with thee”, Ex.25:22. It was ever in the heart of Jehovah to have His people near, and He has provided the basis in the death of Christ that we might be there in complacency."
+     "speaker": "PM",
+     "text": [
+      "That does help, so in Luke 15 the younger son was clothed in the best robe. There is a Man before God in subsisting righteousness. Our Lord Jesus is before God as fully, perfectly righteous. In the parable, the father in effect said, ‘I will put that upon him’. In principle, the son was in his father’s house in all the worth of another Man. There is to be a practical answer to that as formed by the Spirit; I am to be formed in the moral features that are suited to the presence of God. In Romans 8, practical righteousness is reached in the believer who does not walk according to flesh but according to Spirit."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Does that bear on the difference in Romans between being accredited righteous and constituted righteous? We are accredited righteous as discharged of all liability because of what Christ has done for us. But we are constituted righteous; we are made fit to be in the presence of God. Reconciliation brings us near and holds us in liberty in the presence of God. We are made entirely suitable to be there; not just discharged of the liabilities, but made fit for His presence."
+     "speaker": "RT",
+     "text": [
+      "It is called in Hebrews “the new and living way” Heb.10:20. It is not a text, it is a Person."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That does help, so in Luke 15 the younger son was clothed in the best robe. There is a Man before God in subsisting righteousness. Our Lord Jesus is before God as fully, perfectly righteous. In the parable, the father in effect said, ‘I will put that upon him’. In principle, the son was in his father’s house in all the worth of another Man. There is to be a practical answer to that as formed by the Spirit; I am to be formed in the moral features that are suited to the presence of God. In Romans 8, practical righteousness is reached in the believer who does not walk according to flesh but according to Spirit."
+     "speaker": "PM",
+     "text": [
+      "Yes, that is the point."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It is called in Hebrews “the new and living way” Heb.10:20. It is not a text, it is a Person."
+     "speaker": "DMC",
+     "text": [
+      "The woman in Luke 7 said that she was a sinner; she took “an alabaster box of myrrh, and standing at his feet behind him weeping, began to wash his feet with tears; and she wiped them with the hairs of her head, and kissed his feet, and anointed them with the myrrh” (v.38). Was she fully reconciled as a result of her appreciation of who Christ was, and she became a worshipper?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, that is the point."
+     "speaker": "PM",
+     "text": [
+      "She certainly appreciated the way which He was going to go and what it would cost Him, and she valued the One who was going to do it all Himself. That is what should impress us, dear brethren. This whole question has been dealt with by one Man, and He has done it Himself."
+     ]
     },
     {
-     "speaker": "D.M.C.",
-     "text": "The woman in Luke 7 said that she was a sinner; she took “an alabaster box of myrrh, and standing at his feet behind him weeping, began to wash his feet with tears; and she wiped them with the hairs of her head, and kissed his feet, and anointed them with the myrrh” (v.38). Was she fully reconciled as a result of her appreciation of who Christ was, and she became a worshipper?"
+     "speaker": "NJH",
+     "text": [
+      "Why does it say “holy and blameless before him in love”, Eph.1:4?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "She certainly appreciated the way which He was going to go and what it would cost Him, and she valued the One who was going to do it all Himself. That is what should impress us, dear brethren. This whole question has been dealt with by one Man, and He has done it Himself."
+     "speaker": "PM",
+     "text": [
+      "Well, we cannot be before Him in any other way, and His service towards the assembly is that it also might be holy and blameless. It is really the same features that have marked Christ. We are there in the divine presence, not only in the worth of Christ, as we are, but the moral features that mark that blessed Man in the presence of God are to be formed in us, so we are to be holy and blameless. His service to the assembly is that He might present it to Himself holy and blameless. It could only be united to Him as it is so."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "Why does it say “holy and blameless before him in love”, Eph.1:4?"
+     "speaker": "NJH",
+     "text": [
+      "So we are there consciously, as spiritually and morally in keeping with the scene."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Well, we cannot be before Him in any other way, and His service towards the assembly is that it also might be holy and blameless. It is really the same features that have marked Christ. We are there in the divine presence, not only in the worth of Christ, as we are, but the moral features that mark that blessed Man in the presence of God are to be formed in us, so we are to be holy and blameless. His service to the assembly is that He might present it to Himself holy and blameless. It could only be united to Him as it is so."
+     "speaker": "PM",
+     "text": [
+      "That is a good way to put it.",
+      "In Leviticus 10 the offering had been burnt, but it had not been eaten. This is sobering, because although Aaron said in effect, ‘All these things have happened to me’, Moses was wroth. Moses asked “Why have ye not eaten the sin-offering in a holy place?” Any judgment of sin, whether individually or collectively, must be accompanied by the eating of the sin-offering. If it is not eaten, that sin will rise up again."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "So we are there consciously, as spiritually and morally in keeping with the scene."
+     "speaker": "DAB",
+     "text": [
+      "Are you suggesting that until the sin-offering was eaten, the priesthood was not properly restored? Aaron was saying that things were too bad, and everything was irredeemable. But God’s provision in Christ is that however bad things have got, there is a basis on which they can be restored to the fully functioning state. That is God’s call."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is a good way to put it."
+     "speaker": "PM",
+     "text": [
+      "That is just my exercise. We have to be humbled by the state of Christendom, and the state among ourselves. Moral matters arise that may require judicial action at times, but judicial action will not of itself improve the state. Judicial action should always be accompanied by the eating of the sin-offering."
+     ]
     },
     {
-     "text": "In Leviticus 10 the offering had been burnt, but it had not been eaten. This is sobering, because although Aaron said in effect, ‘All these things have happened to me’, Moses was wroth. Moses asked “Why have ye not eaten the sin-offering in a holy place?” Any judgment of sin, whether individually or collectively, must be accompanied by the eating of the sin-offering. If it is not eaten, that sin will rise up again."
+     "speaker": "JBI",
+     "text": [
+      "This was preceded by the offering of strange fire. Was the state of the people the result of not eating the sin-offering?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Are you suggesting that until the sin-offering was eaten, the priesthood was not properly restored? Aaron was saying that things were too bad, and everything was irredeemable. But God’s provision in Christ is that however bad things have got, there is a basis on which they can be restored to the fully functioning state. That is God’s call."
+     "speaker": "PM",
+     "text": [
+      "I thought that. The law of the sin-offering had been introduced in chapter 6, and here in chapter 10, so soon afterwards, things among the priesthood had not only been let slip, but there was something introduced that was strange and not of God. We have to test everything by whether it is of God or whether it is not. This incident was the introduction of something that came from the mind of man. We have to be careful of that all the time. The eating of the sin-offering would preserve us, and therefore Moses was wroth. The sin-offering had been burnt. Why had they not eaten it? The Lord may raise that question with me. There have been times in our histories where we have needed to act judicially. It is right that we should, but unless the sin-offering is eaten there will be weakness and failure, and what we think we have judged will rise again."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is just my exercise. We have to be humbled by the state of Christendom, and the state among ourselves. Moral matters arise that may require judicial action at times, but judicial action will not of itself improve the state. Judicial action should always be accompanied by the eating of the sin-offering."
+     "speaker": "PAG",
+     "text": [
+      "So we might be content to be reckoned righteous; that is in relation to sins. What you are saying helps us as to the earlier question as to being constituted righteous, that is in relation to sin; “by the obedience of the one the many will be constituted righteous”, Rom.5:19. What preceded that was that “by one man sin entered into the world, and by sin death” (v.12). I may be content only to be reckoned as righteous, which is a wonderful thing, but to be constituted righteous involves the acceptance of the obedience of the One who dealt with sin."
+     ]
     },
     {
-     "speaker": "J.B.I.",
-     "text": "This was preceded by the offering of strange fire. Was the state of the people the result of not eating the sin-offering?"
+     "speaker": "PM",
+     "text": [
+      "What you say helps us to see that everything for us must be as it appears in the eye of God; not only sin, but what we are. The whole sin question was like a virus that Satan injected into man at the beginning, and it spread right down through the human race. But the obedience of the One – what a movement that was!"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I thought that. The law of the sin-offering had been introduced in chapter 6, and here in chapter 10, so soon afterwards, things among the priesthood had not only been let slip, but there was something introduced that was strange and not of God. We have to test everything by whether it is of God or whether it is not. This incident was the introduction of something that came from the mind of man. We have to be careful of that all the time. The eating of the sin-offering would preserve us, and therefore Moses was wroth. The sin-offering had been burnt. Why had they not eaten it? The Lord may raise that question with me. There have been times in our histories where we have needed to act judicially. It is right that we should, but unless the sin-offering is eaten there will be weakness and failure, and what we think we have judged will rise again."
+     "speaker": "PJW",
+     "text": [
+      "What then is the answer if judicial action is taken in an unpriestly way?"
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "So we might be content to be reckoned righteous; that is in relation to sins. What you are saying helps us as to the earlier question as to being constituted righteous, that is in relation to sin; “by the obedience of the one the many will be constituted righteous”, Rom.5:19. What preceded that was that “by one man sin entered into the world, and by sin death” (v.12). I may be content only to be reckoned as righteous, which is a wonderful thing, but to be constituted righteous involves the acceptance of the obedience of the One who dealt with sin."
+     "speaker": "PM",
+     "text": [
+      "I think the answer lies in eating the sin-offering now. We may be content with what is outward. The eating of the sin-offering involves what is inward and moral in the soul of the believer. It does not mean that it was wrong to offer the sin-offering here. It was burnt, but that did not mean it was wrong. The sin-offering was necessary and needed, but then they had not eaten it."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "What you say helps us to see that everything for us must be as it appears in the eye of God; not only sin, but what we are. The whole sin question was like a virus that Satan injected into man at the beginning, and it spread right down through the human race. But the obedience of the One – what a movement that was!"
+     "speaker": "PJW",
+     "text": [
+      "I was thinking that every believer is a priest, and so is it for the whole assembly to eat the sin-offering? It is not an exclusive class that does it. It is for all of us."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "What then is the answer if judicial action is taken in an unpriestly way?"
+     "speaker": "PM",
+     "text": [
+      "And it has a very wide bearing in the present day. We will not rightly feel things that have come into Christendom and into the church publicly, or be preserved from them, unless we eat the sin-offering."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I think the answer lies in eating the sin-offering now. We may be content with what is outward. The eating of the sin-offering involves what is inward and moral in the soul of the believer. It does not mean that it was wrong to offer the sin-offering here. It was burnt, but that did not mean it was wrong. The sin-offering was necessary and needed, but then they had not eaten it."
+     "speaker": "JCG",
+     "text": [
+      "Do you think that this part of Leviticus helps us to have our senses exercised in distinguishing both good and evil, between what is right and wrong? My senses would relate to the way in which I morally understand the death of Christ and take it on for myself."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "I was thinking that every believer is a priest, and so is it for the whole assembly to eat the sin-offering? It is not an exclusive class that does it. It is for all of us."
+     "speaker": "PM",
+     "text": [
+      "Yes. Every moral standard was established at the cross. God established the standard in a way that had never been seen before. Everything was established at the cross, and that is where I have to get back to if I am to be maintained in the spirit of holiness."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "And it has a very wide bearing in the present day. We will not rightly feel things that have come into Christendom and into the church publicly, or be preserved from them, unless we eat the sin-offering."
+     "speaker": "DAB",
+     "text": [
+      "If the sin-offering had been eaten in spite of the failure, the priesthood would have been stronger than it was before."
+     ]
     },
     {
-     "speaker": "J.C.G.",
-     "text": "Do you think that this part of Leviticus helps us to have our senses exercised in distinguishing both good and evil, between what is right and wrong? My senses would relate to the way in which I morally understand the death of Christ and take it on for myself."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "Yes. Every moral standard was established at the cross. God established the standard in a way that had never been seen before. Everything was established at the cross, and that is where I have to get back to if I am to be maintained in the spirit of holiness."
-    },
-    {
-     "speaker": "D.A.B.",
-     "text": "If the sin-offering had been eaten in spite of the failure, the priesthood would have been stronger than it was before."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "Yes, and it is so every time, because there is something worked out that had never been there in the priesthood before, some moral fibre established that honours God."
+     "speaker": "PM",
+     "text": [
+      "Yes, and it is so every time, because there is something worked out that had never been there in the priesthood before, some moral fibre established that honours God."
+     ]
     }
    ]
   },
@@ -630,5 +872,145 @@
   "36 Laverock Park, Linlithgow EH49 6AT UK Tel 01506 670 437",
   "email notesofministry@virginmedia.com",
   "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ Tel: 01277 650 661"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"David Brown Edinburgh\" read as David Brown, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"John Brown Grangemouth\" read as John Brown, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Andrew Burr London\" read as Andrew Burr, London"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"David Crozier sr Warrenpoint\" read as David Crozier sr, Warrenpoint"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Jimmy Drummond Aberdeen Scotland\" read as Jimmy Drummond, Aberdeen Scotland"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Robert Gardiner Kirkcaldy\" read as Robert Gardiner, Kirkcaldy"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Bruce Grant Dundee\" read as Bruce Grant, Dundee"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"John Gray Grangemouth\" read as John Gray, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Paul Gray Grangemouth\" read as Paul Gray, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Robert Gray Grangemouth\" read as Robert Gray, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Norman Henry Glasgow\" read as Norman Henry, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Robert Hodge St Ives\" read as Robert Hodge, St Ives"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"John Laurie Brechin\" read as John Laurie, Brechin"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Edward Mair Buckie\" read as Edward Mair, Buckie"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Paul Martin Colchester\" read as Paul Martin, Colchester"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Neil McKay Glasgow\" read as Neil McKay, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Ron Plant Birmingham\" read as Ron Plant, Birmingham"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"David Robertson Dundee\" read as David Robertson, Dundee"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Robert Taylor Kirkcaldy\" read as Robert Taylor, Kirkcaldy"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "no_comma_before_place",
+   "detail": "\"Philip Walkinshaw Strood\" read as Philip Walkinshaw, Strood"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "initials_before_name",
+   "detail": "20 entries written as initials then name (\"DCB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "possible_speaker",
+   "detail": "JBI opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "THE LORD JESUS AS FOOD FOR THE BELIEVER (2)",
+   "kind": "speaker_not_in_key",
+   "detail": "JBI (in the text)"
+  }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,27 +26,28 @@
    "place": "LONDON",
    "date": "17 November 1985",
    "speakers": [
-    "R.T.",
-    "E.O.",
-    "E.P.",
-    "E.C.B.",
-    "C.B.",
-    "R.W.F.",
-    "H.A.H.",
-    "W.J.R.B.",
-    "C.J.G.B.",
-    "B.W.W.",
-    "D.A.B.",
-    "J.S.G.",
-    "J.A.B.",
-    "C.G.H.",
-    "P.S.W.",
-    "H.J.T."
+    "RT",
+    "EO",
+    "EP",
+    "ECB",
+    "CB",
+    "RWF",
+    "HAH",
+    "WJRB",
+    "CJGB",
+    "BWW",
+    "DAB",
+    "JSG",
+    "JAB",
+    "CGH",
+    "PSW",
+    "HJT"
    ],
    "initials": [
     {
-     "initials": "ACB",
-     "name": "(All local unless otherwise stated) C.Beale"
+     "initials": "CB",
+     "name": "C.Beale",
+     "place": "LONDON"
     },
     {
      "initials": "CJGB",
@@ -55,15 +56,18 @@
     },
     {
      "initials": "DAB",
-     "name": "D.A.Burr"
+     "name": "D.A.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "JAB",
-     "name": "J.A.Burnett"
+     "name": "J.A.Burnett",
+     "place": "LONDON"
     },
     {
      "initials": "WJRB",
@@ -77,11 +81,13 @@
     },
     {
      "initials": "RWF",
-     "name": "R.W.Flowerdew"
+     "name": "R.W.Flowerdew",
+     "place": "LONDON"
     },
     {
      "initials": "JSG",
-     "name": "J.S.Gray"
+     "name": "J.S.Gray",
+     "place": "LONDON"
     },
     {
      "initials": "CGH",
@@ -90,19 +96,23 @@
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "LONDON"
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "HJT",
-     "name": "H.J.Taylor"
+     "name": "H.J.Taylor",
+     "place": "LONDON"
     },
     {
      "initials": "RT",
@@ -111,464 +121,683 @@
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "LONDON"
     },
     {
      "initials": "PSW",
-     "name": "P.S.Warren"
+     "name": "P.S.Warren",
+     "place": "LONDON"
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "C.Beale; C.J.G.Brodie, Ealing; D.A.Burr; E.C.Burr; J.A.Burnett; W.J.R.Brodie, Ealing; C.R.J.Brodie, Ealing; R.W.Flowerdew; J.S.Gray; C.G.Hitchcock, Ealing; H.A.Hutson; E.Oliver; E.Palmer; H.J.Taylor; R.Taylor, Barnet; B.W.Ward; P.S.Warren"
    ],
    "paragraphs": [
     {
-     "speaker": "R.T.",
-     "text": "I felt a fresh sense this morning of being engaged with the Lord by Himself and am encouraged to suggest this line of things from the hymn and the prayer that we have had. We are brought into wonderful privileges. We have been brought into an area of wonderful blessing, and these blessings rightly fill our hearts, but I believe there is a need, if we are to get the gain of the dispensation, of looking at the Lord by Himself and holding Him in our hearts, because even in the midst of privilege it is all to make much of Him. If we taste and know the relationship of brethren, the whole purpose is that He might be seen to be the Firstborn among many brethren. If we touch the privilege of sonship, the glory in it is that He may be seen as the beloved Son. We have it by adoption; He alone has sonship in His own right."
+     "speaker": "RT",
+     "text": [
+      "I felt a fresh sense this morning of being engaged with the Lord by Himself and am encouraged to suggest this line of things from the hymn and the prayer that we have had. We are brought into wonderful privileges. We have been brought into an area of wonderful blessing, and these blessings rightly fill our hearts, but I believe there is a need, if we are to get the gain of the dispensation, of looking at the Lord by Himself and holding Him in our hearts, because even in the midst of privilege it is all to make much of Him. If we taste and know the relationship of brethren, the whole purpose is that He might be seen to be the Firstborn among many brethren. If we touch the privilege of sonship, the glory in it is that He may be seen as the beloved Son. We have it by adoption; He alone has sonship in His own right.",
+      "I thought we might just look at these passages and see Him by Himself, in His glory and in His movements in descending love. I believe He would endear Himself to our hearts as we look at Him like this and the way He went: no other could go that way, and there is a glory that belongs to Him as a man that no one else will ever share. There is some suggestion of that when He says \"Tell the vision to no one, until the Son of man be risen up from among the dead\", a secret that they were to carry in their hearts, I believe to strengthen them. You can think of how this secret in the hearts of these three disciples would strengthen them amidst all the opposition and all the indefiniteness as to His person, the secret in their souls of the Father's voice, that \"This is my beloved Son\". After this voice \"they saw no one but Jesus alone\". Certain things are repeated in each of the gospels. Mark says they saw \"Jesus alone with themselves\" (chap 9: 8); Luke says that \"Jesus was found alone\", (chap 9: 36). It was just some impression of that in my mind that made me suggest these scriptures, trusting that the Spirit may use them to magnify Christ's own uniqueness among us."
+     ]
     },
     {
-     "text": "I thought we might just look at these passages and see Him by Himself, in His glory and in His movements in descending love. I believe He would endear Himself to our hearts as we look at Him like this and the way He went: no other could go that way, and there is a glory that belongs to Him as a man that no one else will ever share. There is some suggestion of that when He says \"Tell the vision to no one, until the Son of man be risen up from among the dead\", a secret that they were to carry in their hearts, I believe to strengthen them. You can think of how this secret in the hearts of these three disciples would strengthen them amidst all the opposition and all the indefiniteness as to His person, the secret in their souls of the Father's voice, that \"This is my beloved Son\". After this voice \"they saw no one but Jesus alone\". Certain things are repeated in each of the gospels. Mark says they saw \"Jesus alone with themselves\" (chap 9: 8); Luke says that \"Jesus was found alone\", (chap 9: 36). It was just some impression of that in my mind that made me suggest these scriptures, trusting that the Spirit may use them to magnify Christ's own uniqueness among us."
+     "speaker": "EO",
+     "text": [
+      "Correspondingly, do you think that the Lord standing in the midst gives us the opportunity to be occupied with Him in His beauty and attractiveness?",
+      "R.T.· Yes: He comes in to be worshipped. The first reaction of affectionate hearts as the Lord comes in would be that our hearts would rise to worship. There is much that He brings with Him, there is much that He unfolds, but I think as He comes, as He is apprehended, the first rising up of spiritual feeling would be \"Arise, anoint him; for this is he\", 1 Sam 16: 12."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Correspondingly, do you think that the Lord standing in the midst gives us the opportunity to be occupied with Him in His beauty and attractiveness?"
+     "speaker": "EP",
+     "text": [
+      "Would the fact that they go into this high mountain apart convey the idea that they were to be there without distraction from anything around?"
+     ]
     },
     {
-     "text": "R.T.· Yes: He comes in to be worshipped. The first reaction of affectionate hearts as the Lord comes in would be that our hearts would rise to worship. There is much that He brings with Him, there is much that He unfolds, but I think as He comes, as He is apprehended, the first rising up of spiritual feeling would be \"Arise, anoint him; for this is he\", 1 Sam 16: 12."
+     "speaker": "RT",
+     "text": [
+      "You feel the need of that in assembly service. 'Christ, its unmingled Object, fills the heart' (hymn 247). We would seek to make room for that, would we not? We know our minds, we know how quickly we are like Peter and speak and bring in other things, not meaning to detract from His glory at all, but they do. As you say, there is the need for being apart, for this state of soul being with us, that we may have an apprehension of Jesus alone."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Would the fact that they go into this high mountain apart convey the idea that they were to be there without distraction from anything around?"
+     "speaker": "ECB",
+     "text": [
+      "Have you any suggestion as to how we might the better arrive at this? One notices that a brother will set on something about the glory of Christ and within a few minutes the brethren are talking about themselves, and for that matter, their deficiencies. What would help us in this engagement with Him?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "You feel the need of that in assembly service. 'Christ, its unmingled Object, fills the heart' (hymn 247). We would seek to make room for that, would we not? We know our minds, we know how quickly we are like Peter and speak and bring in other things, not meaning to detract from His glory at all, but they do. As you say, there is the need for being apart, for this state of soul being with us, that we may have an apprehension of Jesus alone."
+     "speaker": "RT",
+     "text": [
+      "I think sensitiveness to the Spirit. What you say I feel, because we are so slow to get beyond ourselves; but the Father here is very jealous about it. It did not seem a bad thing. There were not many better men than Moses or Elias, were there? It would have passed muster with most. They would say, That was a good word that Peter gave. But the Father would have no rival. He says \"This is my beloved Son\". But as to your question, affection for Him is one thing, but I think we are very much cast on the Spirit to be able to get beyond ourselves and see His face shining as the sun."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Have you any suggestion as to how we might the better arrive at this? One notices that a brother will set on something about the glory of Christ and within a few minutes the brethren are talking about themselves, and for that matter, their deficiencies. What would help us in this engagement with Him?"
+     "speaker": "ECB",
+     "text": [
+      "Do you think that in John 16, when Jesus says \"He shall glorify me\" (v 14), the Spirit is on the same line as the Father is here?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think sensitiveness to the Spirit. What you say I feel, because we are so slow to get beyond ourselves; but the Father here is very jealous about it. It did not seem a bad thing. There were not many better men than Moses or Elias, were there? It would have passed muster with most. They would say, That was a good word that Peter gave. But the Father would have no rival. He says \"This is my beloved Son\". But as to your question, affection for Him is one thing, but I think we are very much cast on the Spirit to be able to get beyond ourselves and see His face shining as the sun."
+     "speaker": "RT",
+     "text": [
+      "I think so, and also in John 1 at His baptism, as we sometimes sing to the Spirit: 'Thou didst descend in love to mark Him out' (hymn 300). John would say there was no other man upon whom the Spirit descended in bodily form. You can see that divine Persons are very active to distinguish Christ in His manhood, as having a manhood and a glory in which no other ever shares, His face shining as the sun, His garments white as the light – as Mark says, \"such as fuller on earth could not whiten them\". Something belongs to Christ uniquely. When we think of the Lord our feelings should move adoringly at the mention of His name."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think that in John 16, when Jesus says \"He shall glorify me\" (v 14), the Spirit is on the same line as the Father is here?"
+     "speaker": "CB",
+     "text": [
+      "John was no doubt contemplating Him. Peter ·was speaking, and what he said was all right at first, but John would contemplate that Person, bringing out those glorious, beautiful features in his testimony."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think so, and also in John 1 at His baptism, as we sometimes sing to the Spirit: 'Thou didst descend in love to mark Him out' (hymn 300). John would say there was no other man upon whom the Spirit descended in bodily form. You can see that divine Persons are very active to distinguish Christ in His manhood, as having a manhood and a glory in which no other ever shares, His face shining as the sun, His garments white as the light – as Mark says, \"such as fuller on earth could not whiten them\". Something belongs to Christ uniquely. When we think of the Lord our feelings should move adoringly at the mention of His name."
+     "speaker": "RT",
+     "text": [
+      "Yes. John the baptist says \"Behold the Lamb of God\". That conveys some impression of somebody standing back, admiringly looking at Him: \"looking at Jesus as he walked, he says, Behold the Lamb of God\", John 1: 36. The question raised needs to be thought about, and I ·think it is something we need to make room for in our minds, that the Spirit may have free way to allow us to get beyond ourselves to see His glory. The fact is that we will the better enjoy what we come into as we see it all in relation to Him."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "John was no doubt contemplating Him. Peter ·was speaking, and what he said was all right at first, but John would contemplate that Person, bringing out those glorious, beautiful features in his testimony."
+     "speaker": "RWF",
+     "text": [
+      "Do we need to accustom ourselves to what is elevated? It is a high mountain apart. Under the influence of Christ and with the help of the Spirit we might be encouraged to find ourselves more familiar with what is elevated. Christ has Himself stooped, has He not? as in John 8 and Philippians 2. He has descended, but He has ascended. Do you think, as has been stressed in the past, that we could do well to enter into the heavenly, to enjoy what is elevated, so that we see Christ more clearly?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. John the baptist says \"Behold the Lamb of God\". That conveys some impression of somebody standing back, admiringly looking at Him: \"looking at Jesus as he walked, he says, Behold the Lamb of God\", John 1: 36. The question raised needs to be thought about, and I ·think it is something we need to make room for in our minds, that the Spirit may have free way to allow us to get beyond ourselves to see His glory. The fact is that we will the better enjoy what we come into as we see it all in relation to Him."
+     "speaker": "RT",
+     "text": [
+      "Yes, what they saw here was a touch, you may say, of Him being in His own home. Those disciples in John who abode with Him that day would get some impression like this, too. There was a physical movement here to a high mountain apart. For us it would convey that it requires some exercise on our part, closing some doors, that we may touch an area of things where the Father is free and the Spirit is free to show us Christ in His own glory.·"
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Do we need to accustom ourselves to what is elevated? It is a high mountain apart. Under the influence of Christ and with the help of the Spirit we might be encouraged to find ourselves more familiar with what is elevated. Christ has Himself stooped, has He not? as in John 8 and Philippians 2. He has descended, but He has ascended. Do you think, as has been stressed in the past, that we could do well to enter into the heavenly, to enjoy what is elevated, so that we see Christ more clearly?"
+     "speaker": "HAH",
+     "text": [
+      "The Baptist's first reference would be more on our side, but the verse you quote would be like \"Jesus alone\", would it not? I wondered whether Mary had the experience of Jesus alone, that in His word \"Touch me not\" He is indicating that it is to be Himself absolutely, apart from His work and apart from ourselves altogether, as was said."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, what they saw here was a touch, you may say, of Him being in His own home. Those disciples in John who abode with Him that day would get some impression like this, too. There was a physical movement here to a high mountain apart. For us it would convey that it requires some exercise on our part, closing some doors, that we may touch an area of things where the Father is free and the Spirit is free to show us Christ in His own glory.·"
+     "speaker": "RT",
+     "text": [
+      "Yes, the work is so glorious because of the One who did the work. The work is precious to our hearts, and without it we would not have come into anything, but it all reflects the glory of the One who did the work. I think the transfiguration comes in the gospels for that very reason, to show that the Man who died was a Man who was distinguish ed by heaven. In a sense it enhances the sufferings. These men knew that He was not there as a malefactor. He was there as One who had been distinguished by the Father's voice as His beloved Son. That was the Man that went to the cross."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "The Baptist's first reference would be more on our side, but the verse you quote would be like \"Jesus alone\", would it not? I wondered whether Mary had the experience of Jesus alone, that in His word \"Touch me not\" He is indicating that it is to be Himself absolutely, apart from His work and apart from ourselves altogether, as was said."
+     "speaker": "WJRB",
+     "text": [
+      "There would be some reason why it has been emphasised that it is the Lord's supper."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, the work is so glorious because of the One who did the work. The work is precious to our hearts, and without it we would not have come into anything, but it all reflects the glory of the One who did the work. I think the transfiguration comes in the gospels for that very reason, to show that the Man who died was a Man who was distinguish ed by heaven. In a sense it enhances the sufferings. These men knew that He was not there as a malefactor. He was there as One who had been distinguished by the Father's voice as His beloved Son. That was the Man that went to the cross."
+     "speaker": "RT",
+     "text": [
+      "Yes, it brings out the distinctive place that Christ is to have as we come together. He will lead us onward; He will lead us into heavenly relationships. He leads us to the Father, but as you say, it is the Lord's supper. We come together in relation to Him."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "There would be some reason why it has been emphasised that it is the Lord's supper."
+     "speaker": "EP",
+     "text": [
+      "In resurrection He says to His own \"I myself\". It is remarkable that He should use those two words."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, it brings out the distinctive place that Christ is to have as we come together. He will lead us onward; He will lead us into heavenly relationships. He leads us to the Father, but as you say, it is the Lord's supper. We come together in relation to Him."
+     "speaker": "RT",
+     "text": [
+      "Yes, there is to be no rival, there is to be no other object for our affections. I think that in these days, when there is so much that would becloud His Person, there is a need for us to have a fresh sense of His distinctiveness. \"This\" (emphatic) \"is my beloved Son, in whom I have found my delight\". Moses or Elias, or anybody else, could never fill that position."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "In resurrection He says to His own \"I myself\". It is remarkable that He should use those two words."
+     "speaker": "ECB",
+     "text": [
+      "In Luke it says that they spoke of His departure. Does that bear on what you said just now, that these three in particular would know when they saw Him alone on the cross that He was the One who had this exalted glory?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, there is to be no rival, there is to be no other object for our affections. I think that in these days, when there is so much that would becloud His Person, there is a need for us to have a fresh sense of His distinctiveness. \"This\" (emphatic) \"is my beloved Son, in whom I have found my delight\". Moses or Elias, or anybody else, could never fill that position."
+     "speaker": "RT",
+     "text": [
+      "Yes, that is a part of what He says, \"Tell the vision to no one\". Heaven saw to it that some persons had a view of who He was in His Person before they saw Him there in a position of suffering and shame and ignominy. Pilate and the Jews and the Romans could do what they willed to humiliate Him, but there was a witness from heaven that the Person who was there was God's beloved Son."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "In Luke it says that they spoke of His departure. Does that bear on what you said just now, that these three in particular would know when they saw Him alone on the cross that He was the One who had this exalted glory?"
+     "speaker": "ECB",
+     "text": [
+      "Is that not calculated to help us, especially in the preaching of the gospel? As far as men were concerned He was, as you say, there as a malefactor, but the secret in our hearts is that. He was the Father's beloved Son."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, that is a part of what He says, \"Tell the vision to no one\". Heaven saw to it that some persons had a view of who He was in His Person before they saw Him there in a position of suffering and shame and ignominy. Pilate and the Jews and the Romans could do what they willed to humiliate Him, but there was a witness from heaven that the Person who was there was God's beloved Son."
+     "speaker": "RT",
+     "text": [
+      "Yes, and that gave efficacy to the work that was done, did it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is that not calculated to help us, especially in the preaching of the gospel? As far as men were concerned He was, as you say, there as a malefactor, but the secret in our hearts is that. He was the Father's beloved Son."
+     "speaker": "ECB",
+     "text": [
+      "Romans 8 says: \"He who, yea, has not spared his own Son\" (v 32)."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, and that gave efficacy to the work that was done, did it not?"
+     "speaker": "RT",
+     "text": [
+      "Yes, so that the value of the work done was that it was done by One who was God's beloved Son, and honoured from heaven as such in the days and circumstances of His pathway of humiliation and sorrow, marked out in those conditions as God's beloved Son."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Romans 8 says: \"He who, yea, has not spared his own Son\" (v 32)."
+     "speaker": "CB",
+     "text": [
+      "You can understand that He was in the bright cloud."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, so that the value of the work done was that it was done by One who was God's beloved Son, and honoured from heaven as such in the days and circumstances of His pathway of humiliation and sorrow, marked out in those conditions as God's beloved Son."
+     "speaker": "RT",
+     "text": [
+      "Yes, what do you say about that?"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "You can understand that He was in the bright cloud."
+     "speaker": "CB",
+     "text": [
+      "He made them; His brightness must shine out, must it not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, what do you say about that?"
+     "speaker": "RT",
+     "text": [
+      "Yes; I think that that bright cloud comes in as a protective covering, as it were. Moses and Elias were there, but the bright cloud relates to the Father and the Son, does it not? It overshadowed them, and then there is the voice. The voice is distinctive. Hearing it they fell upon their faces, terrified, but through the touch of His love what they see is Jesus alone. These men are still there in one sense: they continue, they have a place of distinctiveness in the course of the testimony, but here is One who is the object who fills the Father's affections."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "He made them; His brightness must shine out, must it not?"
+     "speaker": "HAH",
+     "text": [
+      "At the end of Exodus Moses was unable to enter because of the cloud: it is the same cloud, I take it. But here is One who is able to sustain the· glory because the glory is intrinsically His own, is it not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes; I think that that bright cloud comes in as a protective covering, as it were. Moses and Elias were there, but the bright cloud relates to the Father and the Son, does it not? It overshadowed them, and then there is the voice. The voice is distinctive. Hearing it they fell upon their faces, terrified, but through the touch of His love what they see is Jesus alone. These men are still there in one sense: they continue, they have a place of distinctiveness in the course of the testimony, but here is One who is the object who fills the Father's affections."
+     "speaker": "RT",
+     "text": [
+      "Yes; He fills the Father's affections, and He has come on to view that He may fill ours. I felt that the view of this is to help us through the dispensation. The Lord speaks in John 17 of the glory that they may behold. There is a glory that we share, but in John 17 the Lord in their presence speaks to the Father about a glory that they may behold. I think that is connected with seeing Christ apart from everybody else, One who is able to carry the dispensation through and to sustain the saints through it for the Father's pleasure."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "At the end of Exodus Moses was unable to enter because of the cloud: it is the same cloud, I take it. But here is One who is able to sustain the· glory because the glory is intrinsically His own, is it not?"
+     "speaker": "CJGB",
+     "text": [
+      "Is the effect of that seen in the way that Peter speaks in his epistle of eye-witnesses of His majesty, leading on to the importance of the prophetic word (see 2 Pet 1: 16,19)?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes; He fills the Father's affections, and He has come on to view that He may fill ours. I felt that the view of this is to help us through the dispensation. The Lord speaks in John 17 of the glory that they may behold. There is a glory that we share, but in John 17 the Lord in their presence speaks to the Father about a glory that they may behold. I think that is connected with seeing Christ apart from everybody else, One who is able to carry the dispensation through and to sustain the saints through it for the Father's pleasure."
+     "speaker": "RT",
+     "text": [
+      "Yes. Peter got the gain of it; He would not have said again what he said on the mount, and I think you can see Peter in the gain of it in the Acts in the way he functions. \"Neither is there another name under heaven which is given among men by which we must be saved\", chap 4:12. No other name: how he would emphasise that in his preaching! As you say, writing to those of the dispersion he says that there is somebody who has majesty, there is someone on the throne who is able to carry things through, in whom we find our trust and strength. I think, as you say, it would make room for the prophetic word, divine speaking to preserve us and see us through."
+     ]
     },
     {
-     "speaker": "C.J.G.B.",
-     "text": "Is the effect of that seen in the way that Peter speaks in his epistle of eye-witnesses of His majesty, leading on to the importance of the prophetic word (see 2 Pet 1: 16,19)?"
+     "speaker": "RWF",
+     "text": [
+      "Does that scripture in 2 Peter 1 indicate in what Peter says that it is possible with the help of the Spirit, to a degree at least, to have the Father's view of Christ? \"He received from God the Father honour and glory, such a voice being uttered\" (v.17). Do you think that that might enter into the question of seeing Christ in His distinctiveness, that we aspire, with the help of the Spirit, to have the Father's view of Him?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. Peter got the gain of it; He would not have said again what he said on the mount, and I think you can see Peter in the gain of it in the Acts in the way he functions. \"Neither is there another name under heaven which is given among men by which we must be saved\", chap 4:12. No other name: how he would emphasise that in his preaching! As you say, writing to those of the dispersion he says that there is somebody who has majesty, there is someone on the throne who is able to carry things through, in whom we find our trust and strength. I think, as you say, it would make room for the prophetic word, divine speaking to preserve us and see us through."
+     "speaker": "RT",
+     "text": [
+      "Yes. I understand that was something that the brethren used often to be reminded about, to ask the Father that He might help us to see what beauty He found in Him, what it was that called forth this exclamation. It was not His service only, I think it was what was in Him intrinsically, and we need to be helped to see that, what is in Him that no one will ever share or have part in. It is what He is in Himself that is carrying the dispensation through in power."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Does that scripture in 2 Peter 1 indicate in what Peter says that it is possible with the help of the Spirit, to a degree at least, to have the Father's view of Christ? \"He received from God the Father honour and glory, such a voice being uttered\" (v.17). Do you think that that might enter into the question of seeing Christ in His distinctiveness, that we aspire, with the help of the Spirit, to have the Father's view of Him?"
+     "speaker": "ECB",
+     "text": [
+      "We used also to be told of the Spirit of God's Son helping us towards the Father but the Father's Spirit helping us as to appreciation of Christ. It is interesting in Ephesians 3 that it says \"to be strengthened with power by his Spirit\" (the Father's Spirit) \"in the inner man; that the Christ may dwell\" (vv 16,17)."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. I understand that was something that the brethren used often to be reminded about, to ask the Father that He might help us to see what beauty He found in Him, what it was that called forth this exclamation. It was not His service only, I think it was what was in Him intrinsically, and we need to be helped to see that, what is in Him that no one will ever share or have part in. It is what He is in Himself that is carrying the dispensation through in power."
+     "speaker": "RT",
+     "text": [
+      "Yes, that is the end to be reached, and I think that, as He dwells in us, we will very quickly come into our blessings. As there is the dwelling the blessings will be the more easily entered into and enjoyed to the full."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "We used also to be told of the Spirit of God's Son helping us towards the Father but the Father's Spirit helping us as to appreciation of Christ. It is interesting in Ephesians 3 that it says \"to be strengthened with power by his Spirit\" (the Father's Spirit) \"in the inner man; that the Christ may dwell\" (vv 16,17)."
+     "speaker": "CB",
+     "text": [
+      "We can say we experienced this touch this morning when Christ was before us in all His beauty and excellence."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, that is the end to be reached, and I think that, as He dwells in us, we will very quickly come into our blessings. As there is the dwelling the blessings will be the more easily entered into and enjoyed to the full."
+     "speaker": "RT",
+     "text": [
+      "Yes, I think that that would normally be true; we could say the same. Well, the Lord says to them \"Tell the vision to no one, until the Son of man be risen up from among the dead\". Now when it comes to Monday the secret of it is to be in your soul, the secret of Christ in His personal worth as being greater than all is to sustain us through each day."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "We can say we experienced this touch this morning when Christ was before us in all His beauty and excellence."
+     "speaker": "EP",
+     "text": [
+      "There is a touch by Paul, too, in 1 Corinthians 2: 8. He speaks about \"the Lord of glory\", and that such a one as the Lord of glory was crucified. The circumstances on Monday or the rest of the week may be very testing, but are you suggesting that this view will carry us through?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think that that would normally be true; we could say the same. Well, the Lord says to them \"Tell the vision to no one, until the Son of man be risen up from among the dead\". Now when it comes to Monday the secret of it is to be in your soul, the secret of Christ in His personal worth as being greater than all is to sustain us through each day."
+     "speaker": "RT",
+     "text": [
+      "The passage you quote says \"had they known, they would not have crucified the Lord of glory\". Well, we know, do we not? And these disciples were let into the secret. That He is the Lord of glory is something treasured in our affections."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "There is a touch by Paul, too, in 1 Corinthians 2: 8. He speaks about \"the Lord of glory\", and that such a one as the Lord of glory was crucified. The circumstances on Monday or the rest of the week may be very testing, but are you suggesting that this view will carry us through?"
+     "speaker": "BWW",
+     "text": [
+      "Should we count upon the help of the Spirit of God as always and immediately available to us? I am not disregarding how my state might be at any time, but normally the Spirit is ready to help us to move in this way of taking account of Christ in His glory."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "The passage you quote says \"had they known, they would not have crucified the Lord of glory\". Well, we know, do we not? And these disciples were let into the secret. That He is the Lord of glory is something treasured in our affections."
+     "speaker": "RT",
+     "text": [
+      "Yes; I think of that verse in Samuel; if we bring it into our dispensation it is like the Spirit's voice: \"Arise, anoint him, for this is he\", 1 Sam 16: 12. David came in in his beauty; he was ruddy; something drew the hearts of the brethren as David came in, and it is like the Spirit saying \"Arise, anoint him, for this is he\", We need help in the attitude of our minds, to be in an area where the Spirit can be free to speak these words, and as we carry this secret in our souls we will all the more readily touch it. Christ is to be the centre even in our gatherings together. Ministry is not expounding the Scriptures; ministry is Christ, and unless He comes into view in the ministry, the ministry is failing in its object. It is not just that we know the Scriptures better and we can say chapter and verse, and dot our i's and stroke our t's. That is not what ministry is for; ministry is to enlarge the heart and bring about a place where Christ has a greater influence and area with us."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Should we count upon the help of the Spirit of God as always and immediately available to us? I am not disregarding how my state might be at any time, but normally the Spirit is ready to help us to move in this way of taking account of Christ in His glory."
+     "speaker": "DAB",
+     "text": [
+      "Is the Father's voice ministry, in that sense?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes; I think of that verse in Samuel; if we bring it into our dispensation it is like the Spirit's voice: \"Arise, anoint him, for this is he\", 1 Sam 16: 12. David came in in his beauty; he was ruddy; something drew the hearts of the brethren as David came in, and it is like the Spirit saying \"Arise, anoint him, for this is he\", We need help in the attitude of our minds, to be in an area where the Spirit can be free to speak these words, and as we carry this secret in our souls we will all the more readily touch it. Christ is to be the centre even in our gatherings together. Ministry is not expounding the Scriptures; ministry is Christ, and unless He comes into view in the ministry, the ministry is failing in its object. It is not just that we know the Scriptures better and we can say chapter and verse, and dot our i's and stroke our t's. That is not what ministry is for; ministry is to enlarge the heart and bring about a place where Christ has a greater influence and area with us."
+     "speaker": "RT",
+     "text": [
+      "Yes, you might even say it is corrective ministry, but what a way to correct the brethren, to bring in Christ, and what a correction it is! Peter is adjusted and he says that what he saw was majesty. It is a very fine example of Christ being introduced in His distinctiveness and glory, and everything finding its place in relation to Him."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Is the Father's voice ministry, in that sense?"
+     "speaker": "EP",
+     "text": [
+      "Would it be right to say that the word from the Father came from the bosom of the Father, because Jesus was there?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, you might even say it is corrective ministry, but what a way to correct the brethren, to bring in Christ, and what a correction it is! Peter is adjusted and he says that what he saw was majesty. It is a very fine example of Christ being introduced in His distinctiveness and glory, and everything finding its place in relation to Him."
+     "speaker": "RT",
+     "text": [
+      "That is right. He never left heaven: \"the Son of man who is in heaven\" (John 3: 13). \"The only-begotten Son, who is in the bosom of the Father\", John 1: 18. It brings out here the Father's jealousy. That may help us to make more room for Him. The Father is jealous that no other man, no code, no system, no brethrenism or anything like that, takes a place that hinders Christ from having His distinctive place among us."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Would it be right to say that the word from the Father came from the bosom of the Father, because Jesus was there?"
+     "speaker": "CB",
+     "text": [
+      "Would it be part of what Jesus has done to us, in being able to voice to the Father the appreciation of Christ? What pleasure for His own heart, and what pleasure this morning for the saints to hear a young brother simply thank the Father for Christ. He did not say a lot but it was beautiful."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That is right. He never left heaven: \"the Son of man who is in heaven\" (John 3: 13). \"The only-begotten Son, who is in the bosom of the Father\", John 1: 18. It brings out here the Father's jealousy. That may help us to make more room for Him. The Father is jealous that no other man, no code, no system, no brethrenism or anything like that, takes a place that hinders Christ from having His distinctive place among us."
+     "speaker": "RT",
+     "text": [
+      "Yes. He \"has delivered us from the authority of darkness, and translated us into the kingdom of the Son of his love\", Col 1: 13. That is what He has done to us, and Peter never forgot something that was done to him here and that was that Christ was to have the first place in all things and there was to be no rival whatever."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Would it be part of what Jesus has done to us, in being able to voice to the Father the appreciation of Christ? What pleasure for His own heart, and what pleasure this morning for the saints to hear a young brother simply thank the Father for Christ. He did not say a lot but it was beautiful."
+     "speaker": "JSG",
+     "text": [
+      "Is His face shining as the sun a hint of universal glory, which some were being introduced into in advance?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. He \"has delivered us from the authority of darkness, and translated us into the kingdom of the Son of his love\", Col 1: 13. That is what He has done to us, and Peter never forgot something that was done to him here and that was that Christ was to have the first place in all things and there was to be no rival whatever."
+     "speaker": "RT",
+     "text": [
+      "Yes, that is very beautiful. It is beyond compare, that His face shone as the sun and His garments became white as the light. What we see is beyond being compared with anyone and that is to hold us through the dispensation."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Is His face shining as the sun a hint of universal glory, which some were being introduced into in advance?"
+     "speaker": "ECB",
+     "text": [
+      "Do you think \"his garments... white as the light\" is like 'We see the Godhead glory shine through the human veil' (hymn 188)."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, that is very beautiful. It is beyond compare, that His face shone as the sun and His garments became white as the light. What we see is beyond being compared with anyone and that is to hold us through the dispensation."
+     "speaker": "RT",
+     "text": [
+      "Well, that may also be Philippians 2. We set there a glory shining through, and we need that touch, that the Lord has come into circumstances but it has not changed His person. In John 17, after having been here in these days and touching circumstances of humiliation, He asked to be glorified with the glory which He had before the world's foundation. Humiliation and lowly manhood has not detracted from the Person. It has brought Him on to our view, but He is the same blessed Person who was there in the beginning."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think \"his garments... white as the light\" is like 'We see the Godhead glory shine through the human veil' (hymn 188)."
+     "speaker": "ECB",
+     "text": [
+      "That is what you had in mind when you referred more than once to His ability to sustain things through the dispensation, because He is in an unchanging condition of glory."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Well, that may also be Philippians 2. We set there a glory shining through, and we need that touch, that the Lord has come into circumstances but it has not changed His person. In John 17, after having been here in these days and touching circumstances of humiliation, He asked to be glorified with the glory which He had before the world's foundation. Humiliation and lowly manhood has not detracted from the Person. It has brought Him on to our view, but He is the same blessed Person who was there in the beginning."
+     "speaker": "RT",
+     "text": [
+      "I think we need to apprehend that, that the dispensation will not run out, that things will not fall down, because of the glory He has been given. I think that is that glory in John 17: \"behold my glory which thou hast given me\" (v 24). In His manhood, in His Person and in His position there is what is unassailable."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "That is what you had in mind when you referred more than once to His ability to sustain things through the dispensation, because He is in an unchanging condition of glory."
+     "speaker": "JAB",
+     "text": [
+      "\"I am with you all the days, until the completion of the age\", Matt 28: 20."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think we need to apprehend that, that the dispensation will not run out, that things will not fall down, because of the glory He has been given. I think that is that glory in John 17: \"behold my glory which thou hast given me\" (v 24). In His manhood, in His Person and in His position there is what is unassailable."
+     "speaker": "RT",
+     "text": [
+      "Yes, go on; I was thinking of that verse. What do you say about it?"
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "\"I am with you all the days, until the completion of the age\", Matt 28: 20."
+     "speaker": "JAB",
+     "text": [
+      "It was very stabilising for the disciples at that point, was it not? And it goes on into the testimony now."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, go on; I was thinking of that verse. What do you say about it?"
+     "speaker": "RT",
+     "text": [
+      "That is a very fine touch. It is another of the mountains in Matthew. It has been called the mountain of divine appointment. So keep the appointments; if we keep them we get helped into this area of things. They kept the appointment there, and they saw Him and all power had been given Him in heaven and upon earth. They were to go forth into a position of reproach, but they went forth in the full sense that there was a Man whom they knew, into whose hands all power had been given."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "It was very stabilising for the disciples at that point, was it not? And it goes on into the testimony now."
+     "speaker": "JSG",
+     "text": [
+      "Does the thought of transfiguration convey that His own were introduced to the circumstances that Jesus Himself was accustomed to? He lived in them."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That is a very fine touch. It is another of the mountains in Matthew. It has been called the mountain of divine appointment. So keep the appointments; if we keep them we get helped into this area of things. They kept the appointment there, and they saw Him and all power had been given Him in heaven and upon earth. They were to go forth into a position of reproach, but they went forth in the full sense that there was a Man whom they knew, into whose hands all power had been given."
+     "speaker": "RT",
+     "text": [
+      "Yes, I think so. We referred to them in John: they went and abode with Him that day (see chap 1: 39). They would see something of the same things as they saw on the mount here; as was said, it is the Godhead glory shining through the human veil. We are apt to limit the Lord to these conditions unwittingly. We are apt to limit Him as we know Him in His grace, know Him in the conditions into which He has come, but we must always remember that He is God over all, blessed for ever. The circumstances, the conditions, the grace of His manhood, have not altered who He is, but the wonder of it is that He has brought all the resources of divine love into manhood. There is all the wealth of what is divine shining for us in a Man."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Does the thought of transfiguration convey that His own were introduced to the circumstances that Jesus Himself was accustomed to? He lived in them."
+     "speaker": "RWF",
+     "text": [
+      "His glory is illimitable, is it not? Do you think we would look to the Father to give us a fresh view of His glory? I was thinking of the service on Lord's day in particular, whether we might, if a word is given at the stage of address to the Lord, wait to hear the Father's voice, that we might have a fresh view of Christ. There can be no limit, can there, to the range of His glories?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think so. We referred to them in John: they went and abode with Him that day (see chap 1: 39). They would see something of the same things as they saw on the mount here; as was said, it is the Godhead glory shining through the human veil. We are apt to limit the Lord to these conditions unwittingly. We are apt to limit Him as we know Him in His grace, know Him in the conditions into which He has come, but we must always remember that He is God over all, blessed for ever. The circumstances, the conditions, the grace of His manhood, have not altered who He is, but the wonder of it is that He has brought all the resources of divine love into manhood. There is all the wealth of what is divine shining for us in a Man."
+     "speaker": "RT",
+     "text": [
+      "No; 'Every view of Him unfolding, Wakes fresh bursts of joyful praise!' (hymn 83). There will be fresh glories of Christ through all eternity which will wake fresh outbursts of praise. We will then be in perfect conditions, and yet I think there will be fresh apprehensions all the time of the glory of the Man Christ Jesus. In Philippians we see Him in His descending movements, the way that He has gone and how unique He is in it."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "His glory is illimitable, is it not? Do you think we would look to the Father to give us a fresh view of His glory? I was thinking of the service on Lord's day in particular, whether we might, if a word is given at the stage of address to the Lord, wait to hear the Father's voice, that we might have a fresh view of Christ. There can be no limit, can there, to the range of His glories?"
+     "speaker": "ECB",
+     "text": [
+      "The Ephesian scripture in chapter 4 that corresponds to this – He descended but He has also ascended – is \"that he might fill all things\" (v 10) and in that He becomes exclusive, does He not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "No; 'Every view of Him unfolding, Wakes fresh bursts of joyful praise!' (hymn 83). There will be fresh glories of Christ through all eternity which will wake fresh outbursts of praise. We will then be in perfect conditions, and yet I think there will be fresh apprehensions all the time of the glory of the Man Christ Jesus. In Philippians we see Him in His descending movements, the way that He has gone and how unique He is in it."
+     "speaker": "RT",
+     "text": [
+      "Yes, I was thinking of that scripture. There can be no thought of a rival, because of the way He has arrived at it, do you mean?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The Ephesian scripture in chapter 4 that corresponds to this – He descended but He has also ascended – is \"that he might fill all things\" (v 10) and in that He becomes exclusive, does He not?"
+     "speaker": "ECB",
+     "text": [
+      "Yes; that is what comes out here. It is all presented apart from any question of sin or of sins, it is just His own movements and the Father's answer to it. It helps us to forget ourselves a bit."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I was thinking of that scripture. There can be no thought of a rival, because of the way He has arrived at it, do you mean?"
+     "speaker": "RT",
+     "text": [
+      "Yes; it was His movements in love, expressing Himself like this: \"subsisting in the form of God, did not esteem it an object of rapine to be on an equality with God; but emptied himself, taking a bondman's form\"."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes; that is what comes out here. It is all presented apart from any question of sin or of sins, it is just His own movements and the Father's answer to it. It helps us to forget ourselves a bit."
+     "speaker": "EO",
+     "text": [
+      "Is the setting of this becoming poor that we might be enriched through His poverty (see 2 Cor 8: 9)?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes; it was His movements in love, expressing Himself like this: \"subsisting in the form of God, did not esteem it an object of rapine to be on an equality with God; but emptied himself, taking a bondman's form\"."
+     "speaker": "RT",
+     "text": [
+      "That verse says \"he, being rich, became poor, in order that ye by his poverty might be enriched\". That is how He has brought things out to us. But the Man who became poor never ceased to be who He was. Even in these circumstances of a bondman's form He was God in His Person, and there was there in Him, in bondman's condition, what was unique and distinct."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Is the setting of this becoming poor that we might be enriched through His poverty (see 2 Cor 8: 9)?"
+     "speaker": "WJRB",
+     "text": [
+      "Is it brought about peculiarly here that the saints might be thinking one thing?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That verse says \"he, being rich, became poor, in order that ye by his poverty might be enriched\". That is how He has brought things out to us. But the Man who became poor never ceased to be who He was. Even in these circumstances of a bondman's form He was God in His Person, and there was there in Him, in bondman's condition, what was unique and distinct."
+     "speaker": "RT",
+     "text": [
+      "Yes. I purposely did not read those verses at the moment; we may speak about them in a minute but I thought we might be affected first of all by the descending movements of Christ."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "Is it brought about peculiarly here that the saints might be thinking one thing?"
+     "speaker": "DAB",
+     "text": [
+      "He did not become an object of the Father's love, did He? He always was. I was thinking of that scripture in Matthew; the voice said \"This is my beloved Son\", Jesus said \"thou lovedst me before the foundation of the world\", John 17: 24."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. I purposely did not read those verses at the moment; we may speak about them in a minute but I thought we might be affected first of all by the descending movements of Christ."
+     "speaker": "RT",
+     "text": [
+      "Yes, that was as to His Person. He loved Him before the foundation of the world, but coming into manhood drew out those affections in a way that marked Him out as distinct from all."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "He did not become an object of the Father's love, did He? He always was. I was thinking of that scripture in Matthew; the voice said \"This is my beloved Son\", Jesus said \"thou lovedst me before the foundation of the world\", John 17: 24."
+     "speaker": "DAB",
+     "text": [
+      "Yes. I was thinking that God's love to us is sovereign. We sing about it being causeless, but it was evoked by what was in Christ, was it not? There was what was in Him substantially that drew out the love of God."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, that was as to His Person. He loved Him before the foundation of the world, but coming into manhood drew out those affections in a way that marked Him out as distinct from all."
+     "speaker": "RT",
+     "text": [
+      "You get that in John's gospel: \"On this account the Father loves me\", chap. 10: 17. The way that He went, you may say, caused the heavens to be opened. If earth was silent about Him in these movements of down stooping love, heaven could not remain silent to distinguish who He was in His Person."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes. I was thinking that God's love to us is sovereign. We sing about it being causeless, but it was evoked by what was in Christ, was it not? There was what was in Him substantially that drew out the love of God."
+     "speaker": "CB",
+     "text": [
+      "Have you any thought as to \"emptied himself\"?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "You get that in John's gospel: \"On this account the Father loves me\", chap. 10: 17. The way that He went, you may say, caused the heavens to be opened. If earth was silent about Him in these movements of down stooping love, heaven could not remain silent to distinguish who He was in His Person."
+     "speaker": "RT",
+     "text": [
+      "Well, just that it was His own action in love. He did this of His own accord. The One \"who, subsisting in the form of God\", moved like this. How it drew out heaven's appreciation. Paul is bringing it in in Philippians that it might draw our hearts to Him,- to see how unique He was in His movements of descending love."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Have you any thought as to \"emptied himself\"?"
+     "speaker": "ECB",
+     "text": [
+      "So in every one of the downward steps of these verses He is alone. He is in the likeness of men but He is unique in every one of these steps."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Well, just that it was His own action in love. He did this of His own accord. The One \"who, subsisting in the form of God\", moved like this. How it drew out heaven's appreciation. Paul is bringing it in in Philippians that it might draw our hearts to Him,- to see how unique He was in His movements of descending love."
+     "speaker": "RT",
+     "text": [
+      "Yes, that is what drew me to the passage, that we are looking here at Christ alone. No one could have any part in Him taking a bond man's form. He was in each of these steps, as you say, alone, and in it to be an object that draws out our hearts and softens them and makes us impressionable, draws us to the wonder of His Person."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "So in every one of the downward steps of these verses He is alone. He is in the likeness of men but He is unique in every one of these steps."
+     "speaker": "EP",
+     "text": [
+      "In the scripture you referred to in John, \"On this account the Father loves me, because I lay down my life that I may take it again\", He says \"I have received this commandment of my Father\" (v 18). Would that be the glory of the obedience that is referred to here?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, that is what drew me to the passage, that we are looking here at Christ alone. No one could have any part in Him taking a bond man's form. He was in each of these steps, as you say, alone, and in it to be an object that draws out our hearts and softens them and makes us impressionable, draws us to the wonder of His Person."
+     "speaker": "RT",
+     "text": [
+      "You mean in the sense that He says \"I have received this commandment of my Father\"?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "In the scripture you referred to in John, \"On this account the Father loves me, because I lay down my life that I may take it again\", He says \"I have received this commandment of my Father\" (v 18). Would that be the glory of the obedience that is referred to here?"
+     "speaker": "EP",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "You mean in the sense that He says \"I have received this commandment of my Father\"?"
+     "speaker": "RT",
+     "text": [
+      "That is a wonderful thing to think about, that there was a Man here in bondman's form – \"humbled himself\" – and in it perfectly pleasing and in perfect communion with the Father who is in heaven."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes."
+     "speaker": "ECB",
+     "text": [
+      "What is even more remarkable about that is that according to Luke He increased in favour with God (see chap 2: 52)."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That is a wonderful thing to think about, that there was a Man here in bondman's form – \"humbled himself\" – and in it perfectly pleasing and in perfect communion with the Father who is in heaven."
+     "speaker": "RT",
+     "text": [
+      "Yes, you can just think of these things wonderingly. Who He was in His Person! As was said, He was loved from before the foundation of the world, yet in His movements in manhood He called out the Father's fresh appreciation of Him. How He should call out ours as we contemplate these descending movements! And He was never deflected in them. Think of being \"tempted of the devil\", Matt 4: 1. He was never deflected in these descending movements. The whole power of the enemy's resources were arrayed against Him but He went on in perfect obedience, in perfect accord with the Father's will."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "What is even more remarkable about that is that according to Luke He increased in favour with God (see chap 2: 52)."
+     "speaker": "DAB",
+     "text": [
+      "And they did not change Him either, did they? I was thinking of when He said \"until the Son of man be risen up from among the dead\". The glory they had seen on the mount would remain, would it not? It was not something death would taint or spoil."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, you can just think of these things wonderingly. Who He was in His Person! As was said, He was loved from before the foundation of the world, yet in His movements in manhood He called out the Father's fresh appreciation of Him. How He should call out ours as we contemplate these descending movements! And He was never deflected in them. Think of being \"tempted of the devil\", Matt 4: 1. He was never deflected in these descending movements. The whole power of the enemy's resources were arrayed against Him but He went on in perfect obedience, in perfect accord with the Father's will."
+     "speaker": "RT",
+     "text": [
+      "Somebody used to speak about a tried and tested humanity, and you see it here in these steps downward. As was said, it was Jesus alone treading that path, and there is nobody to be compared with Him, but He is to be an object that draws out our hearts towards Him and makes us impressionable."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "And they did not change Him either, did they? I was thinking of when He said \"until the Son of man be risen up from among the dead\". The glory they had seen on the mount would remain, would it not? It was not something death would taint or spoil."
+     "speaker": "ECB",
+     "text": [
+      "The very fact that He became obedient even unto death distinguishes Him, because death is our lot, the lot of every other man. He became obedient even unto death."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Somebody used to speak about a tried and tested humanity, and you see it here in these steps downward. As was said, it was Jesus alone treading that path, and there is nobody to be compared with Him, but He is to be an object that draws out our hearts towards Him and makes us impressionable."
+     "speaker": "RT",
+     "text": [
+      "Yes, a very affecting verse, that. I do not know how you understand it, \"becoming obedient even unto death\". Think of Gethsemane! Think of those moments in the garden. I think there is something there of His becoming obedient, even to death, do you think?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The very fact that He became obedient even unto death distinguishes Him, because death is our lot, the lot of every other man. He became obedient even unto death."
+     "speaker": "ECB",
+     "text": [
+      "I am sure that is so. We get Gethsemane in Matthew and Mark, but I think you get a distinct impression of His becoming obedient unto death in John's gospel: \"as the Father has commanded me, thus I do. Rise up, let us go hence\" (chap 14: 31) and it is to the cross.,"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, a very affecting verse, that. I do not know how you understand it, \"becoming obedient even unto death\". Think of Gethsemane! Think of those moments in the garden. I think there is something there of His becoming obedient, even to death, do you think?"
+     "speaker": "RT",
+     "text": [
+      "Yes, that is very beautiful. I think Mr Darby comments that in John everything is settled. In the garden everything is settled. He says \"Rise up, let us go hence\". He goes forward in that perfect obedience, settled in His soul, feeling the weight of it, but obedient unto death."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I am sure that is so. We get Gethsemane in Matthew and Mark, but I think you get a distinct impression of His becoming obedient unto death in John's gospel: \"as the Father has commanded me, thus I do. Rise up, let us go hence\" (chap 14: 31) and it is to the cross.,"
+     "speaker": "CGH",
+     "text": [
+      "The more that we are occupied with the blessed Person of the Lord the more the Spirit causes us to take character from Him. It may be in a certain sense to us unconsciously, but it happens, does it not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, that is very beautiful. I think Mr Darby comments that in John everything is settled. In the garden everything is settled. He says \"Rise up, let us go hence\". He goes forward in that perfect obedience, settled in His soul, feeling the weight of it, but obedient unto death."
+     "speaker": "RT",
+     "text": [
+      "Yes, I think that what you say is good. So you would encourage the brethren to commit this passage to memory. It is good to memorise it all if you can, but I think some of these things are good to read over. As you say, unconsciously, the effect in our minds is that we will become more like Him. Paul writes this that this mind may be in us; not only to be contemplated, not only to be adored, but that some of this attitude may be with us."
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "The more that we are occupied with the blessed Person of the Lord the more the Spirit causes us to take character from Him. It may be in a certain sense to us unconsciously, but it happens, does it not?"
+     "speaker": "RWF",
+     "text": [
+      "There is what is unconscious, and growth is not a conscious matter to us. Do you think there is also in this section what is deliberate, that the steps taken were deli berate? There was full knowledge on the part of Christ of what they would entail. They were deliberate, and the effect upon us, do you think? is that we are to be deli berate : \"Let this mind be in you\"."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think that what you say is good. So you would encourage the brethren to commit this passage to memory. It is good to memorise it all if you can, but I think some of these things are good to read over. As you say, unconsciously, the effect in our minds is that we will become more like Him. Paul writes this that this mind may be in us; not only to be contemplated, not only to be adored, but that some of this attitude may be with us."
+     "speaker": "RT",
+     "text": [
+      "Yes, and the Lord said \"not my will, but thine be done\", Luke 22: 42. That was a deliberate committal to a will that He fully understood. We may commit ourselves and we do not understand what the will of God may be, but He, in the full conscious sense that the will of God involved for Him the death of the cross, committed Himself to it. You can understand that drawing out the Father's affections, and that this kind of Man must be exalted. It says \"Wherefore also God highly exalted him\". As it were, the Lord took these steps down to the end of verse 8 but heaven intervenes. Peter says \"whom heaven indeed must receive'', Acts 3: 21. It was impossible that He should be held by the power of death."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "There is what is unconscious, and growth is not a conscious matter to us. Do you think there is also in this section what is deliberate, that the steps taken were deli berate? There was full knowledge on the part of Christ of what they would entail. They were deliberate, and the effect upon us, do you think? is that we are to be deli berate : \"Let this mind be in you\"."
+     "speaker": "PSW",
+     "text": [
+      "Could we say, reverently, that it is God's deliberate act highly to exalt Him, and that we are to come into accord with it in bowing the knee to that name, the name of Jesus?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, and the Lord said \"not my will, but thine be done\", Luke 22: 42. That was a deliberate committal to a will that He fully understood. We may commit ourselves and we do not understand what the will of God may be, but He, in the full conscious sense that the will of God involved for Him the death of the cross, committed Himself to it. You can understand that drawing out the Father's affections, and that this kind of Man must be exalted. It says \"Wherefore also God highly exalted him\". As it were, the Lord took these steps down to the end of verse 8 but heaven intervenes. Peter says \"whom heaven indeed must receive'', Acts 3: 21. It was impossible that He should be held by the power of death."
+     "speaker": "RT",
+     "text": [
+      "I think it is to give us strength to commit ourselves to this mind, the going-down mind that God will honour. The readiness to take on this path of committal, obedience, humbling ourselves: God, in due season, will honour. It is a line of things that tests us all as we feel how far short we come, we would all have to feel that; but as we said at the outset, we are looking at Christ alone, something that is far beyond us. But then Paul says \"Let this mind be in you\" – the attitude of going down. That is how Christ has met the whole question and God has honoured Him in giving Him a name that is above every name."
+     ]
     },
     {
-     "speaker": "P.S.W.",
-     "text": "Could we say, reverently, that it is God's deliberate act highly to exalt Him, and that we are to come into accord with it in bowing the knee to that name, the name of Jesus?"
+     "speaker": "HJT",
+     "text": [
+      "Why is it God here? We have been enjoying what the Father has done. Is this a wider view, a more public view?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think it is to give us strength to commit ourselves to this mind, the going-down mind that God will honour. The readiness to take on this path of committal, obedience, humbling ourselves: God, in due season, will honour. It is a line of things that tests us all as we feel how far short we come, we would all have to feel that; but as we said at the outset, we are looking at Christ alone, something that is far beyond us. But then Paul says \"Let this mind be in you\" – the attitude of going down. That is how Christ has met the whole question and God has honoured Him in giving Him a name that is above every name."
+     "speaker": "RT",
+     "text": [
+      "Yes, I think it is finality. \"Wherefore God\": there is nobody higher, it is the final matter. There is what the Father has done, and that would be an inward view of things, but I think it is a public, final matter, that God has highly exalted Him and given Him a name above every name."
+     ]
     },
     {
-     "speaker": "H.J.T.",
-     "text": "Why is it God here? We have been enjoying what the Father has done. Is this a wider view, a more public view?"
+     "speaker": "ECB",
+     "text": [
+      "It is God and the Man, is it not, not the Father and the Son?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think it is finality. \"Wherefore God\": there is nobody higher, it is the final matter. There is what the Father has done, and that would be an inward view of things, but I think it is a public, final matter, that God has highly exalted Him and given Him a name above every name."
+     "speaker": "RT",
+     "text": [
+      "That is right, and there is nobody to interfere in that. \"God highly exalted him, and granted him a name, that which is above every name\"."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is God and the Man, is it not, not the Father and the Son?"
+     "speaker": "CB",
+     "text": [
+      "Would you say that we have to bow the knee before we can use our tongues in that way? We bow to Jesus and then confess."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That is right, and there is nobody to interfere in that. \"God highly exalted him, and granted him a name, that which is above every name\"."
+     "speaker": "RT",
+     "text": [
+      "Yes, and that is an outward order of things, that we bow the knee, but I think we bow our hearts in the presence of this. That would be the mind: \"Let this mind be in you\". It means that we bow our hearts in adoration as we see Jesus alone in these movements of love."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Would you say that we have to bow the knee before we can use our tongues in that way? We bow to Jesus and then confess."
+     "speaker": "ECB",
+     "text": [
+      "I carry the reference made to this leading to what is prophetic. Do you not think this would help us in our prophetic meetings? You may have heard of an occasion of which we have heard, when there was a ministry meeting at which nobody spoke, and they gave out a second hymn and went home, and a brother said 'Could nobody have said anything about Christ?' Do you not think there is more scope for this on Tuesdays?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, and that is an outward order of things, that we bow the knee, but I think we bow our hearts in the presence of this. That would be the mind: \"Let this mind be in you\". It means that we bow our hearts in adoration as we see Jesus alone in these movements of love."
+     "speaker": "RT",
+     "text": [
+      "Yes; well, we feel very tested on a Tuesday. The prophetic word is maybe in the first four verses. I think he is bringing the atmosphere of the downward movements of Christ to make us amenable and impressionable. Do you think that?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I carry the reference made to this leading to what is prophetic. Do you not think this would help us in our prophetic meetings? You may have heard of an occasion of which we have heard, when there was a ministry meeting at which nobody spoke, and they gave out a second hymn and went home, and a brother said 'Could nobody have said anything about Christ?' Do you not think there is more scope for this on Tuesdays?"
+     "speaker": "ECB",
+     "text": [
+      "I am sure of that. I have often thought, I can testify to it myself, that if a brother on Tuesday night said 'I have gathered this about Christ today' what a difference it would make. In the scripture referred to in Samuel the prophet said \"we will not sit at table till he come” 1 Sam 16: 11."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes; well, we feel very tested on a Tuesday. The prophetic word is maybe in the first four verses. I think he is bringing the atmosphere of the downward movements of Christ to make us amenable and impressionable. Do you think that?"
+     "speaker": "RT",
+     "text": [
+      "It is hard labour trying to work things without Him. The disciples in the boat were rowing and toiling when He was not there but as soon as He came into the boat they were at land. You find that in meetings, and I think we should arrange ourselves more to look for the Lord coming in, whether it is Tuesday night or whatever night. We should look for the Lord coming in with His own touch. I think it makes room for these opening verses, that if these things are so, PauI almost uses this as a lever in their hearts and he says \"fulfil my joy\". It is like the prophetic word coming in, that the impress of the love of Christ and His descending movements may cause us to \"think the same thing, having the same love, joined in soul, thinking one thing; let nothing be in the spirit of strife or vain glory, but, in lowliness of mind, each esteeming the other as more excellent than themselves\". These things will only work as Christ has His place among us, and that would be the burden of Paul presenting it, that these movements of Christ may cause Him to have His place among us, and these things, \"thinking the same thing, having the same love\", would be the result. We will never reach them any other way."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I am sure of that. I have often thought, I can testify to it myself, that if a brother on Tuesday night said 'I have gathered this about Christ today' what a difference it would make. In the scripture referred to in Samuel the prophet said \"we will not sit at table till he come” 1 Sam 16: 11."
+     "speaker": "RWF",
+     "text": [
+      "It is sobering to reflect that according to this section, even the infernal beings will acknowledge the greatness of Christ; how much more those to whom He has endeared Himself."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It is hard labour trying to work things without Him. The disciples in the boat were rowing and toiling when He was not there but as soon as He came into the boat they were at land. You find that in meetings, and I think we should arrange ourselves more to look for the Lord coming in, whether it is Tuesday night or whatever night. We should look for the Lord coming in with His own touch. I think it makes room for these opening verses, that if these things are so, PauI almost uses this as a lever in their hearts and he says \"fulfil my joy\". It is like the prophetic word coming in, that the impress of the love of Christ and His descending movements may cause us to \"think the same thing, having the same love, joined in soul, thinking one thing; let nothing be in the spirit of strife or vain glory, but, in lowliness of mind, each esteeming the other as more excellent than themselves\". These things will only work as Christ has His place among us, and that would be the burden of Paul presenting it, that these movements of Christ may cause Him to have His place among us, and these things, \"thinking the same thing, having the same love\", would be the result. We will never reach them any other way."
+     "speaker": "RT",
+     "text": [
+      "They will all have to bow, but I think as He comes in among us there would be a bowing in heart. It would be easy to have the same love, to be joined in soul, to esteem the other as more excellent than ourselves, as we see Christ having His true, unrivalled place among us."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "It is sobering to reflect that according to this section, even the infernal beings will acknowledge the greatness of Christ; how much more those to whom He has endeared Himself."
+     "speaker": "JSG",
+     "text": [
+      "The Lord says about the woman in the Pharisee's house that she \"from the time I came in has not ceased kissing my feet\", Luke 7: 45."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "They will all have to bow, but I think as He comes in among us there would be a bowing in heart. It would be easy to have the same love, to be joined in soul, to esteem the other as more excellent than ourselves, as we see Christ having His true, unrivalled place among us."
-    },
-    {
-     "speaker": "J.S.G.",
-     "text": "The Lord says about the woman in the Pharisee's house that she \"from the time I came in has not ceased kissing my feet\", Luke 7: 45."
-    },
-    {
-     "speaker": "R.T.",
-     "text": "Yes; I think we need to remind ourselves in all our meetings that the assembly is for Christ. It is His counterpart. I was thinking about the wife: the assembly is His wife, she is doing everything, arranging everything for Him. It is not her name that is on the door. All that she is doing is to extol Him and make it easy for Him. That would be our present position, that we are holding things for Him as He comes at the time of love."
+     "speaker": "RT",
+     "text": [
+      "Yes; I think we need to remind ourselves in all our meetings that the assembly is for Christ. It is His counterpart. I was thinking about the wife: the assembly is His wife, she is doing everything, arranging everything for Him. It is not her name that is on the door. All that she is doing is to extol Him and make it easy for Him. That would be our present position, that we are holding things for Him as He comes at the time of love."
+     ]
     }
    ]
   },
@@ -644,6 +873,14 @@
      "text": "Paul wrote \"Children, obey your parents in the Lord\". Do you?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "ENGAGEMENT WITH THE LORD HIMSELF",
+   "kind": "default_place",
+   "detail": "LONDON given to 12 names (\"All local unless otherwise stated\")"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,44 +26,49 @@
    "place": "LONDON",
    "date": "15 July 1981",
    "speakers": [
-    "B.M.D.",
-    "E.C.B.",
-    "A.J.E.W.",
-    "W.J.W.",
-    "D.A.B.",
-    "B.W.W.",
-    "C.R.B.",
-    "H.A.H.",
-    "E.P.",
-    "C.B.",
-    "P.S.W.",
-    "R.T.",
-    "J.C.E.",
-    "G.A.P.",
-    "E.C.M.",
-    "T.J.B.",
-    "D.J.H."
+    "BMD",
+    "ECB",
+    "AJEW",
+    "WJW",
+    "DAB",
+    "BWW",
+    "CRB",
+    "HAH",
+    "EP",
+    "CB",
+    "PSW",
+    "RT",
+    "JCE",
+    "GAP",
+    "ECM",
+    "TJB",
+    "DJH"
    ],
    "initials": [
     {
      "initials": "CB",
-     "name": "(all local unless otherwise stated) C.Beale"
+     "name": "C.Beale",
+     "place": "LONDON"
     },
     {
      "initials": "CRB",
-     "name": "C.R.Byng"
+     "name": "C.R.Byng",
+     "place": "LONDON"
     },
     {
      "initials": "DAB",
-     "name": "D.A.Burr"
+     "name": "D.A.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "TJB",
-     "name": "T.J.Burr"
+     "name": "T.J.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "BMD",
@@ -72,15 +77,18 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "LONDON"
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "ECM",
@@ -89,11 +97,13 @@
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "GAP",
-     "name": "G.A.Palmer"
+     "name": "G.A.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "RT",
@@ -102,495 +112,724 @@
     },
     {
      "initials": "AJEW",
-     "name": "A.J.E.Welch"
+     "name": "A.J.E.Welch",
+     "place": "LONDON"
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "LONDON"
     },
     {
      "initials": "PSW",
-     "name": "P.S.Warren"
+     "name": "P.S.Warren",
+     "place": "LONDON"
     },
     {
      "initials": "WJW",
-     "name": "W.J.Woolley"
+     "name": "W.J.Woolley",
+     "place": "LONDON"
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "all local unless otherwise stated",
    "initials_text": [
     "(all local unless otherwise stated)",
     "C.Beale; C.R.Byng; D.A.Burr; E.C.Burr; T.J.Burr; B.M.Deck, Motueka; J.C.Evershed; D.J.Hutson; H.A.Hutson; E.C.Muggleton, Croydon; E.Palmer; G.A.Palmer; R.Taylor, Barnet; A.J.E.Welch; B.W.Ward; P.S.Warren; W.J.Woolley"
    ],
    "paragraphs": [
     {
-     "speaker": "B.M.D.",
-     "text": "Maybe we could enquire a little as to how the Lord leads - \"he led them out as far as Bethany\". He leads them, whereas after He is taken up there seems a pointer to the leading of the Spirit in that it says they \"returned to Jerusalem from the mount called the mount of Olives\". While the Spirit had not yet come (it was prior to Pentecost), there is an indication that in the absence of the Lord there is to be another kind of leading, that of the Spirit. I wondered if there could be something we could get help about in that those He leads are an adjusted company, or adjusted persons, and He leads them to the place to which He is very attached and that He loves - Bethany. It seems to point to something now, that the Lord would have that which He loves. He often resorted there, and the persons were each the subject of His own ministration and service, resulting in a place where love was at home, because He was at home there. From that point it says \"he blessed them. And... was separated from them and was carried up into heaven\". It just seems to me, dear brethren, in the remarkable time in which we are at the end, that we need to get more and more accustomed to spiritual change. The imminence and the actuality of things is at our doors. How the Lord comes and is among us - a constant experience - is a kind of mystery and requires exercise to discern it; and when He is amongst us it seems that He leads; in His absence it would seem that the Spirit leads, and He leads to Christ."
+     "speaker": "BMD",
+     "text": [
+      "Maybe we could enquire a little as to how the Lord leads - \"he led them out as far as Bethany\". He leads them, whereas after He is taken up there seems a pointer to the leading of the Spirit in that it says they \"returned to Jerusalem from the mount called the mount of Olives\". While the Spirit had not yet come (it was prior to Pentecost), there is an indication that in the absence of the Lord there is to be another kind of leading, that of the Spirit. I wondered if there could be something we could get help about in that those He leads are an adjusted company, or adjusted persons, and He leads them to the place to which He is very attached and that He loves - Bethany. It seems to point to something now, that the Lord would have that which He loves. He often resorted there, and the persons were each the subject of His own ministration and service, resulting in a place where love was at home, because He was at home there. From that point it says \"he blessed them. And... was separated from them and was carried up into heaven\". It just seems to me, dear brethren, in the remarkable time in which we are at the end, that we need to get more and more accustomed to spiritual change. The imminence and the actuality of things is at our doors. How the Lord comes and is among us - a constant experience - is a kind of mystery and requires exercise to discern it; and when He is amongst us it seems that He leads; in His absence it would seem that the Spirit leads, and He leads to Christ."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Has the Lord operated in Luke 24 so that He has already become the focus of their attention before He leads them out? He is recognised, and perhaps handled, and fed."
+     "speaker": "ECB",
+     "text": [
+      "Has the Lord operated in Luke 24 so that He has already become the focus of their attention before He leads them out? He is recognised, and perhaps handled, and fed."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "It would seem that way, that His own service had endeared Himself to them, so that He becomes the centre. He comes into the midst; they provided it and it belongs to no other than Him. So in each of our assemblings in the light of the assembly, the midst is for no other than Jesus. Do we not need to think constantly of what His presence among us means and bring it to the immediacy of this meeting and every meeting, and see what potential for experience can enter into an assembly occasion?"
+     "speaker": "BMD",
+     "text": [
+      "It would seem that way, that His own service had endeared Himself to them, so that He becomes the centre. He comes into the midst; they provided it and it belongs to no other than Him. So in each of our assemblings in the light of the assembly, the midst is for no other than Jesus. Do we not need to think constantly of what His presence among us means and bring it to the immediacy of this meeting and every meeting, and see what potential for experience can enter into an assembly occasion?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "In referring to Bethany, as you do, is it in mind that the scene is by no means abandoned but rather that a spot is marked off where the presence of Jesus was a well-known feature, where He could secure, so to say, a nucleus which would later be linked on through the Spirit with Himself on high?"
+     "speaker": "AJEW",
+     "text": [
+      "In referring to Bethany, as you do, is it in mind that the scene is by no means abandoned but rather that a spot is marked off where the presence of Jesus was a well-known feature, where He could secure, so to say, a nucleus which would later be linked on through the Spirit with Himself on high?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "It seems almost like an out-of-the-world position that leads into the enjoyment of eternal life. I have sometimes wondered whether the Lord may yet have something to say to us as to eternal life. I do not know whether you would agree, but it is really an out-of-the-world condition. It is not that things have always been that way, because each of the persons loved by Him was the peculiar subject of His service. Think of Martha and all of them; think of what Lazarus went through, leading to a deathless scene out of the world; it is where He often resorted and it is surely what we would love to furnish."
+     "speaker": "BMD",
+     "text": [
+      "It seems almost like an out-of-the-world position that leads into the enjoyment of eternal life. I have sometimes wondered whether the Lord may yet have something to say to us as to eternal life. I do not know whether you would agree, but it is really an out-of-the-world condition. It is not that things have always been that way, because each of the persons loved by Him was the peculiar subject of His service. Think of Martha and all of them; think of what Lazarus went through, leading to a deathless scene out of the world; it is where He often resorted and it is surely what we would love to furnish."
+     ]
     },
     {
-     "speaker": "W.J.W.",
-     "text": "So that in John's gospel it says \"There therefore they made him a supper\", chap 12: 1. He became the centre of attraction for them."
+     "speaker": "WJW",
+     "text": [
+      "So that in John's gospel it says \"There therefore they made him a supper\", chap 12: 1. He became the centre of attraction for them."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "That is good. So in every meeting we think of His glory, do we not? This is not the Lord's supper. That is what He furnishes because in His love for us He knew what it would mean for His lovers to be left in this world where He died. He has furnished that; but there is something we can furnish, as they did at Bethany."
+     "speaker": "BMD",
+     "text": [
+      "That is good. So in every meeting we think of His glory, do we not? This is not the Lord's supper. That is what He furnishes because in His love for us He knew what it would mean for His lovers to be left in this world where He died. He has furnished that; but there is something we can furnish, as they did at Bethany."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The two men in white clothing say that the Lord would come \"in the manner in which ye have beheld him going into heaven\". While that has a particular bearing in relation to the appearing, do you think that there is some suggestion of what the Lord went up from in that scene of things in Bethany, and which He would look to find among the saints as He comes amongst us according to His promise?"
+     "speaker": "DAB",
+     "text": [
+      "The two men in white clothing say that the Lord would come \"in the manner in which ye have beheld him going into heaven\". While that has a particular bearing in relation to the appearing, do you think that there is some suggestion of what the Lord went up from in that scene of things in Bethany, and which He would look to find among the saints as He comes amongst us according to His promise?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "That is just what is in mind. So how frequently and carefully they would go over the detail of how He was received up, how He was carried up, how He went up. There would not be one detail that would not be constantly reviewed. And do we not need to do the same? Because His coming is in like manner. Do you not think it is to quicken desire and affection for Him to come?"
+     "speaker": "BMD",
+     "text": [
+      "That is just what is in mind. So how frequently and carefully they would go over the detail of how He was received up, how He was carried up, how He went up. There would not be one detail that would not be constantly reviewed. And do we not need to do the same? Because His coming is in like manner. Do you not think it is to quicken desire and affection for Him to come?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "He says as to His coming that we look for: \"When the Son of man comes, shall he indeed find faith on the earth?\", Luke 18: 8. Would you also raise the question with us - would He find what Bethany represents when He comes amongst us?"
+     "speaker": "DAB",
+     "text": [
+      "He says as to His coming that we look for: \"When the Son of man comes, shall he indeed find faith on the earth?\", Luke 18: 8. Would you also raise the question with us - would He find what Bethany represents when He comes amongst us?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Surely; and will He find faith on the earth? It is now faith. It was said in the Acts: \"why do ye stand looking into heaven?\". There was really a change from sight, from when they had actually seen the Lord and been with Him. Now it was a question of faith. And we are still in this remarkable - I suppose the greatest of the - dispensations, the time of faith and the Spirit."
+     "speaker": "BMD",
+     "text": [
+      "Surely; and will He find faith on the earth? It is now faith. It was said in the Acts: \"why do ye stand looking into heaven?\". There was really a change from sight, from when they had actually seen the Lord and been with Him. Now it was a question of faith. And we are still in this remarkable - I suppose the greatest of the - dispensations, the time of faith and the Spirit."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It was suggested recently in ministry near here that in John 21, where the Lord says \"Children, have ye anything to eat?\", He was considering for them and He provided a meal for them. In Luke 24, \"Have ye anything here to eat?\" it is a question of considering for Him. \"And they gave him... and he... ate before them\". Do you think that that should be in all occasions, that we are specifically considering for Him?"
+     "speaker": "ECB",
+     "text": [
+      "It was suggested recently in ministry near here that in John 21, where the Lord says \"Children, have ye anything to eat?\", He was considering for them and He provided a meal for them. In Luke 24, \"Have ye anything here to eat?\" it is a question of considering for Him. \"And they gave him... and he... ate before them\". Do you think that that should be in all occasions, that we are specifically considering for Him?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I do; I think every assembling in the light of the truth should minister for no other but Him. Therefore we think firstly of His glory and He will surely not fail to furnish a portion for each. John 21 shows us the skill with which He meets a somewhat difficult situation. We could learn the skill from Him, how to meet things positively. Maybe the mountains might not look so big, do you think?"
+     "speaker": "BMD",
+     "text": [
+      "I do; I think every assembling in the light of the truth should minister for no other but Him. Therefore we think firstly of His glory and He will surely not fail to furnish a portion for each. John 21 shows us the skill with which He meets a somewhat difficult situation. We could learn the skill from Him, how to meet things positively. Maybe the mountains might not look so big, do you think?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes I do. But it seems to me that the suggestion both in Luke and in John is that the Lord is looking for something - \"Give me to drink\", He says in John 4: 7. And \"Have ye anything to eat? \" - as if He really tests us as to whether we can provide something for Him, because we are apt to become, if I could use the word, selfish in our occasions."
+     "speaker": "ECB",
+     "text": [
+      "Yes I do. But it seems to me that the suggestion both in Luke and in John is that the Lord is looking for something - \"Give me to drink\", He says in John 4: 7. And \"Have ye anything to eat? \" - as if He really tests us as to whether we can provide something for Him, because we are apt to become, if I could use the word, selfish in our occasions."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I would have to agree with that. The wonderful thing is that He accepts what they furnish. He came into their midst. It is the midst they provided and it was somewhat abnormal. There was a certain element of confusion which He has to rebuke, but the skill with which He does it should affect us."
+     "speaker": "BMD",
+     "text": [
+      "I would have to agree with that. The wonderful thing is that He accepts what they furnish. He came into their midst. It is the midst they provided and it was somewhat abnormal. There was a certain element of confusion which He has to rebuke, but the skill with which He does it should affect us."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "I was thinking of the Lord's words in anticipation of the Spirit's coming: \"He shall glorify me\", John 16: 14. Would that fit into what you suggested in Acts 1 and also into our own occasions?"
+     "speaker": "BWW",
+     "text": [
+      "I was thinking of the Lord's words in anticipation of the Spirit's coming: \"He shall glorify me\", John 16: 14. Would that fit into what you suggested in Acts 1 and also into our own occasions?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "That very much helps. So the Spirit of God is among us now, God is here in the Spirit, the divine presence is in this meeting. It is not too much to say that. And it is His mind to glorify Christ, and then to bring by way of formation in us an answer in responsive affection. That would be what answers to Bethany. Does it not become attractive?"
+     "speaker": "BMD",
+     "text": [
+      "That very much helps. So the Spirit of God is among us now, God is here in the Spirit, the divine presence is in this meeting. It is not too much to say that. And it is His mind to glorify Christ, and then to bring by way of formation in us an answer in responsive affection. That would be what answers to Bethany. Does it not become attractive?"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Yes, because it is what the Lord is looking for, and the time in which it can be provided may be quite short."
+     "speaker": "BWW",
+     "text": [
+      "Yes, because it is what the Lord is looking for, and the time in which it can be provided may be quite short."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I believe what you say is so and it should quicken our desire to be more fully committed to the Spirit. He has not failed in His mission despite the shameful breakdown as to which we hang our heads and will do so publicly until the appearing, until He comes. But inwardly and secretly the divine system has not broken down."
+     "speaker": "BMD",
+     "text": [
+      "I believe what you say is so and it should quicken our desire to be more fully committed to the Spirit. He has not failed in His mission despite the shameful breakdown as to which we hang our heads and will do so publicly until the appearing, until He comes. But inwardly and secretly the divine system has not broken down."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "What are we to understand by His showing them His hands and His feet?"
+     "speaker": "CRB",
+     "text": [
+      "What are we to understand by His showing them His hands and His feet?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "We have been over this probably many times, but what would be in it now for us, His hands and His feet? \"Handle me and see, for a spirit has not flesh and bones as ye see me having\". It seems to me that the Lord would get us more and more acquainted with the spiritual side of things, to get us away from the material, and especially earthliness. It is all around us; you cannot come along the streets but that there it is face to face. But are we ready for the spiritual change? If we are here at the rapture, it is the Spirit who will have to do directly with our mortal bodies."
+     "speaker": "BMD",
+     "text": [
+      "We have been over this probably many times, but what would be in it now for us, His hands and His feet? \"Handle me and see, for a spirit has not flesh and bones as ye see me having\". It seems to me that the Lord would get us more and more acquainted with the spiritual side of things, to get us away from the material, and especially earthliness. It is all around us; you cannot come along the streets but that there it is face to face. But are we ready for the spiritual change? If we are here at the rapture, it is the Spirit who will have to do directly with our mortal bodies."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Would one of the gains of the gospel of Luke be to bring us into a deeper understanding of how He does things? His hands would involve not just that He does things but how He does them, and would His feet be connected with the leading that you were referring to?"
+     "speaker": "CRB",
+     "text": [
+      "Would one of the gains of the gospel of Luke be to bring us into a deeper understanding of how He does things? His hands would involve not just that He does things but how He does them, and would His feet be connected with the leading that you were referring to?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I think so. I thought the feet would be a pointer to how the Lord leads. In the assembly the Lord leads, does He not? At the Supper He comes to us, and as He is amongst us it is the Lord who leads. But then His hands would show us how He did things. \"Learn from me\" (Matt 11: 29), He says."
+     "speaker": "BMD",
+     "text": [
+      "I think so. I thought the feet would be a pointer to how the Lord leads. In the assembly the Lord leads, does He not? At the Supper He comes to us, and as He is amongst us it is the Lord who leads. But then His hands would show us how He did things. \"Learn from me\" (Matt 11: 29), He says."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "The Spirit helps us to discern His leading, but the Lord leads."
+     "speaker": "CRB",
+     "text": [
+      "The Spirit helps us to discern His leading, but the Lord leads."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "It is a very delicate matter. Do you not think we would look forward to any assembly occasion as an experience: what is going to happen in this meeting? In a way we cannot anticipate it, but we come in a spirit of expectation. For me it is wonderful to sit with you beloved brethren here because we are very small in number in Australasia, but it is the same thing."
+     "speaker": "BMD",
+     "text": [
+      "It is a very delicate matter. Do you not think we would look forward to any assembly occasion as an experience: what is going to happen in this meeting? In a way we cannot anticipate it, but we come in a spirit of expectation. For me it is wonderful to sit with you beloved brethren here because we are very small in number in Australasia, but it is the same thing."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Would \"behold my hands and my feet\" be to assure them and perhaps link with the way they had known Him before? But then it goes on to say \"he shewed them his hands and his feet\". Would that be leading them into what is spiritual and a new condition?"
+     "speaker": "HAH",
+     "text": [
+      "Would \"behold my hands and my feet\" be to assure them and perhaps link with the way they had known Him before? But then it goes on to say \"he shewed them his hands and his feet\". Would that be leading them into what is spiritual and a new condition?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I think so, and to impress them with a substantial situation. It is not mystical; it is a risen Man and He is in life, and if our experience is not in life, what is it?"
+     "speaker": "BMD",
+     "text": [
+      "I think so, and to impress them with a substantial situation. It is not mystical; it is a risen Man and He is in life, and if our experience is not in life, what is it?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is of some interest that in the end of Psalm 78 it says of David that he \"led them by the skilfulness of his hands\" (v 72). We might not have expected the reference to the hands there. Does it imply that in the process of His leading the Lord is forming something?"
+     "speaker": "ECB",
+     "text": [
+      "It is of some interest that in the end of Psalm 78 it says of David that he \"led them by the skilfulness of his hands\" (v 72). We might not have expected the reference to the hands there. Does it imply that in the process of His leading the Lord is forming something?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "That strengthens what our brother is saying as to the hands. I think it is how He does things. And we know the skill of David's hands; in fact, his whole bearing, whether in meeting the lion and the bear, or the uncircumcised Philistine, involved the skilfulness of his hands. Also, as to the harp, it says that he \"played with his hand\", 1 Sam 16: 23. David was the sweet psalmist of Israel. His leading was constructive."
+     "speaker": "BMD",
+     "text": [
+      "That strengthens what our brother is saying as to the hands. I think it is how He does things. And we know the skill of David's hands; in fact, his whole bearing, whether in meeting the lion and the bear, or the uncircumcised Philistine, involved the skilfulness of his hands. Also, as to the harp, it says that he \"played with his hand\", 1 Sam 16: 23. David was the sweet psalmist of Israel. His leading was constructive."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Does the fact of the Lord leading indicate on our side that we are amenable to His leading? And might it even be that, though we may have some firm thoughts about the truth, He might lead us a bit further on?"
+     "speaker": "EP",
+     "text": [
+      "Does the fact of the Lord leading indicate on our side that we are amenable to His leading? And might it even be that, though we may have some firm thoughts about the truth, He might lead us a bit further on?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Well, He would have gone further, earlier in this chapter, when He went with those two to Emmaus. It may be a question how far we are prepared to go, and who could say what the limit is? \"The Spirit searches all things, even the depths of God\", 1 Cor 2: 10."
+     "speaker": "BMD",
+     "text": [
+      "Well, He would have gone further, earlier in this chapter, when He went with those two to Emmaus. It may be a question how far we are prepared to go, and who could say what the limit is? \"The Spirit searches all things, even the depths of God\", 1 Cor 2: 10."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "In this particular case it was from Jerusalem to somewhere else, and that somewhere else was Bethany, was it not?"
+     "speaker": "EP",
+     "text": [
+      "In this particular case it was from Jerusalem to somewhere else, and that somewhere else was Bethany, was it not?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes. But the skill of His hands is a very interesting reference, that He is lifting them out of perplexity; \"Why are ye troubled? and why are thoughts rising in your hearts?\"; He is lifting them out of that and He proclaims peace to them. You would have a restful atmosphere, with composure and affection. Bethany is affection, is it not? He loved each of them and they loved Him unquestionably."
+     "speaker": "BMD",
+     "text": [
+      "Yes. But the skill of His hands is a very interesting reference, that He is lifting them out of perplexity; \"Why are ye troubled? and why are thoughts rising in your hearts?\"; He is lifting them out of that and He proclaims peace to them. You would have a restful atmosphere, with composure and affection. Bethany is affection, is it not? He loved each of them and they loved Him unquestionably."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Would His hands suggest activity under perfect control? Is that not needed in regard of spiritual things, that the sense of rush and of hasty activity in the scene of things around us is not to disturb us from what is spiritually composed and in accord with the peace and joy which belong to Him?"
+     "speaker": "AJEW",
+     "text": [
+      "Would His hands suggest activity under perfect control? Is that not needed in regard of spiritual things, that the sense of rush and of hasty activity in the scene of things around us is not to disturb us from what is spiritually composed and in accord with the peace and joy which belong to Him?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Well, it cannot be too easy in these large cities. The turmoil and the way men live, in a way detract from assembly life. I think we should not let ourselves get accustomed to the way of life of the world. In fact many things we see should shock us every time we see them."
+     "speaker": "BMD",
+     "text": [
+      "Well, it cannot be too easy in these large cities. The turmoil and the way men live, in a way detract from assembly life. I think we should not let ourselves get accustomed to the way of life of the world. In fact many things we see should shock us every time we see them."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "I was thinking of the hymn (No.199):"
+     "speaker": "CB",
+     "text": [
+      "I was thinking of the hymn (No.199):",
+      "\"But in Thy manhood's glorious state",
+      "Our thankful hearts rejoice\".",
+      "Is there something of that in it?"
+     ]
     },
     {
-     "text": "\"But in Thy manhood's glorious state"
+     "speaker": "BMD",
+     "text": [
+      "There surely would be. That is the humanity we love, is it not? That is the humanity that is going through and in which we are being formed, and it is in the strength of that that we can stand against the tide."
+     ]
     },
     {
-     "text": "Our thankful hearts rejoice\"."
+     "speaker": "CB",
+     "text": [
+      "He was a real Man because He ate before them."
+     ]
     },
     {
-     "text": "Is there something of that in it?"
+     "speaker": "BMD",
+     "text": [
+      "Yes, yet in resurrection; He was not yet glorified, He was in a body of resurrection. It is wonderful to contemplate. You can think of how the beloved disciples would have constantly gone over the detail given in this chapter and what we have in the other gospels. And so should we, particularly now."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "There surely would be. That is the humanity we love, is it not? That is the humanity that is going through and in which we are being formed, and it is in the strength of that that we can stand against the tide."
+     "speaker": "CB",
+     "text": [
+      "Little wonder that they stood there gazing; but activity is required, is it not?"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "He was a real Man because He ate before them."
+     "speaker": "BMD",
+     "text": [
+      "Yes. Why do you think He enquired if they had anything to eat?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes, yet in resurrection; He was not yet glorified, He was in a body of resurrection. It is wonderful to contemplate. You can think of how the beloved disciples would have constantly gone over the detail given in this chapter and what we have in the other gospels. And so should we, particularly now."
+     "speaker": "CB",
+     "text": [
+      "Well, it is a dignified favour, is it not, to be able to respond to the divine needs in that way? He, supplies us with much, but to reciprocate is a very high standard, is it not?"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Little wonder that they stood there gazing; but activity is required, is it not?"
+     "speaker": "BMD",
+     "text": [
+      "They would be very searched by His question. What did they have? They would feel humbled that they were not ready for His coming among them, for His standing in their midst. They would say, Why were we troubled? why did thoughts arise in our hearts? No one else may know them, but God knows them and I know them. And often in the presence of greatest privilege all kinds of thoughts flood in. I do not know whether you find it that way but I do. And we need His service to get free of it so that we come His way. So what is there for Him to participate in? They might have said afterwards, It was not much, it was only part of a fish and part of a honeycomb. It was not much, but He accepted it. It is wonderful grace in keeping with this gospel."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes. Why do you think He enquired if they had anything to eat?"
+     "speaker": "PSW",
+     "text": [
+      "That He took it would be like the song: \"I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk\", Song of Sol 5: 1. It is what is for Him."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Well, it is a dignified favour, is it not, to be able to respond to the divine needs in that way? He, supplies us with much, but to reciprocate is a very high standard, is it not?"
+     "speaker": "BMD",
+     "text": [
+      "Yes, He does not complain. We have a wonderful Master, have we not? He just accepts what love is prepared to provide. On our side we would love it to be a little richer, a little sweeter, a little more mature maybe. But you can see His entering feelingly and affectionately, particularly into the mutual side suggested in the honeycomb. I believe it is a feature that is emerging more and more in this remarkable time we are in, the mutuality of love among ourselves. Would you agree?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "They would be very searched by His question. What did they have? They would feel humbled that they were not ready for His coming among them, for His standing in their midst. They would say, Why were we troubled? why did thoughts arise in our hearts? No one else may know them, but God knows them and I know them. And often in the presence of greatest privilege all kinds of thoughts flood in. I do not know whether you find it that way but I do. And we need His service to get free of it so that we come His way. So what is there for Him to participate in? They might have said afterwards, It was not much, it was only part of a fish and part of a honeycomb. It was not much, but He accepted it. It is wonderful grace in keeping with this gospel."
+     "speaker": "PSW",
+     "text": [
+      "The two that returned would have found that this was there, so that it was available when the Lord came in. So that as we return we rejoice to find the spirit of the honeycomb working amongst the brethren."
+     ]
     },
     {
-     "speaker": "P.S.W.",
-     "text": "That He took it would be like the song: \"I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk\", Song of Sol 5: 1. It is what is for Him."
+     "speaker": "BMD",
+     "text": [
+      "They would have entered into it, in fact they would have added to the honeycomb, I suppose: \"they related what had happened\". They had gone a sabbath day's journey; it appears they returned in an hour. They must have broken all records! Love will do that. And it is just that quality of devotion the Lord is looking for."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes, He does not complain. We have a wonderful Master, have we not? He just accepts what love is prepared to provide. On our side we would love it to be a little richer, a little sweeter, a little more mature maybe. But you can see His entering feelingly and affectionately, particularly into the mutual side suggested in the honeycomb. I believe it is a feature that is emerging more and more in this remarkable time we are in, the mutuality of love among ourselves. Would you agree?"
+     "speaker": "RT",
+     "text": [
+      "There would be a touch of what He says to the overcomer; \"I will... sup with him, and he with me\", Rev 3: 20."
+     ]
     },
     {
-     "speaker": "P.S.W.",
-     "text": "The two that returned would have found that this was there, so that it was available when the Lord came in. So that as we return we rejoice to find the spirit of the honeycomb working amongst the brethren."
+     "speaker": "BMD",
+     "text": [
+      "Yes, I think so. It would be an appeal to the overcomer; it is mutuality both ways."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "They would have entered into it, in fact they would have added to the honeycomb, I suppose: \"they related what had happened\". They had gone a sabbath day's journey; it appears they returned in an hour. They must have broken all records! Love will do that. And it is just that quality of devotion the Lord is looking for."
+     "speaker": "JCE",
+     "text": [
+      "Do you think there would be a word to them in that the Lord, in a way, raised the point as to what they were going to feed on? It seems to lead to His disclosures as to all that there was of Himself. I wondered if His asking them that question, and His feeding, set them at rest. Then whether He thought, well, there is something to be sustained; and this is the way in which it will be sustained, by feeding on Him."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "There would be a touch of what He says to the overcomer; \"I will... sup with him, and he with me\", Rev 3: 20."
+     "speaker": "BMD",
+     "text": [
+      "That is very helpful. You are thinking of the way He opened up things to them: \"all that is written concerning me in the law of Moses and prophets and psalms\". What a tremendous scope of things was opened up! It could never be exhausted, never will be."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes, I think so. It would be an appeal to the overcomer; it is mutuality both ways."
+     "speaker": "JCE",
+     "text": [
+      "And He puts the promise of the Father in the present tense: \"I send\". It was very prominent in His mind, although in actual fact they had to wait for the Spirit, and wait for the power from on high."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Do you think there would be a word to them in that the Lord, in a way, raised the point as to what they were going to feed on? It seems to lead to His disclosures as to all that there was of Himself. I wondered if His asking them that question, and His feeding, set them at rest. Then whether He thought, well, there is something to be sustained; and this is the way in which it will be sustained, by feeding on Him."
+     "speaker": "BMD",
+     "text": [
+      "Yes, I have no doubt He was anticipating that. Then when it says \"Then he opened their understanding\", that was a very direct act. It was an act of Himself; in a way the glory of His person shone in the act. He opened their understanding, but no doubt it anticipated the incoming of the Spirit."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "That is very helpful. You are thinking of the way He opened up things to them: \"all that is written concerning me in the law of Moses and prophets and psalms\". What a tremendous scope of things was opened up! It could never be exhausted, never will be."
+     "speaker": "AJEW",
+     "text": [
+      "Do these pointed references to scripture help us in the sense that an immense amount of detail would enter into the scriptures to which the Lord refers in a general sense but that His remarks bring everything into focus upon Himself? The general bearing of these scriptures, apart from the detail, seems to be what is in the Lord's mind. Everything is pointing forward to Him and what He would introduce. Do we learn things that way?"
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "And He puts the promise of the Father in the present tense: \"I send\". It was very prominent in His mind, although in actual fact they had to wait for the Spirit, and wait for the power from on high."
+     "speaker": "BMD",
+     "text": [
+      "I am sure that is very helpful. So Moses would represent the principles set out in authority. What you had here in the meetings in April, to persevere in the apostles' doctrine, would be like that. We do not have apostles now but we have their doctrine. Then the prophets would bring in the current application of the word. It is so essential that what has been laid down is maintained among us in the power of life, leading, of course, into the psalms of experience."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes, I have no doubt He was anticipating that. Then when it says \"Then he opened their understanding\", that was a very direct act. It was an act of Himself; in a way the glory of His person shone in the act. He opened their understanding, but no doubt it anticipated the incoming of the Spirit."
+     "speaker": "GAP",
+     "text": [
+      "Would the understanding of the Scriptures enable us to provide just what suits the Lord's taste?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Do these pointed references to scripture help us in the sense that an immense amount of detail would enter into the scriptures to which the Lord refers in a general sense but that His remarks bring everything into focus upon Himself? The general bearing of these scriptures, apart from the detail, seems to be what is in the Lord's mind. Everything is pointing forward to Him and what He would introduce. Do we learn things that way?"
+     "speaker": "BMD",
+     "text": [
+      "I am sure; they are His inspired word. He is the Word. How close it is! It is not just something merely written, if you will understand me, it is so near, it is the Person, He is the Word. This gospel begins with \"attendants on the Word\", chap 1: 2."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I am sure that is very helpful. So Moses would represent the principles set out in authority. What you had here in the meetings in April, to persevere in the apostles' doctrine, would be like that. We do not have apostles now but we have their doctrine. Then the prophets would bring in the current application of the word. It is so essential that what has been laid down is maintained among us in the power of life, leading, of course, into the psalms of experience."
+     "speaker": "CRB",
+     "text": [
+      "It is really an opening up of what He says, \"it is I myself\". In an occasion of enquiry in the temple we would seek to get a real experience of the Lord leading. We believe that He should, but it tests us as to whether we really do discern it. But if we do, apart from the detail, the impression left upon the saints would be that it was Jesus Himself, would it not?"
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Would the understanding of the Scriptures enable us to provide just what suits the Lord's taste?"
+     "speaker": "BMD",
+     "text": [
+      "Very affecting: \"it is I myself\". How that would quicken them, alert them! There would not be one that was not ready for movement. \"I myself\". How would we face the corporeal appearing? What would we do?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I am sure; they are His inspired word. He is the Word. How close it is! It is not just something merely written, if you will understand me, it is so near, it is the Person, He is the Word. This gospel begins with \"attendants on the Word\", chap 1: 2."
+     "speaker": "CRB",
+     "text": [
+      "It would not be really very different from what we experience in the Spirit, would it?"
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "It is really an opening up of what He says, \"it is I myself\". In an occasion of enquiry in the temple we would seek to get a real experience of the Lord leading. We believe that He should, but it tests us as to whether we really do discern it. But if we do, apart from the detail, the impression left upon the saints would be that it was Jesus Himself, would it not?"
+     "speaker": "BMD",
+     "text": [
+      "That is exactly what I am trying to get at. We need to accustom ourselves to what is spiritual, because the actual change is near. If it happened, what would we do? Would we be like this, or would we prostrate ourselves at His feet?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Very affecting: \"it is I myself\". How that would quicken them, alert them! There would not be one that was not ready for movement. \"I myself\". How would we face the corporeal appearing? What would we do?"
+     "speaker": "ECM",
+     "text": [
+      "It says \"he presented himself living, after he had suffered\". During the forty days it was the same Jesus but in another condition."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "It would not be really very different from what we experience in the Spirit, would it?"
+     "speaker": "BMD",
+     "text": [
+      "That is right. So He is looking on to the incoming of the Spirit, although this, of course, is in the next chapter. But He is instructing them. Why did He stay forty days? They had to learn Him in another way, in resurrection. Then to Mary He said, Do not touch me, I am not yet ascended. The whole centre of Christianity is being transferred from earth to heaven. There is only one Leader; it is Christ up there. Down here, there are leaders, and we need to respect them and remember them. Mr Darby never accepted a distinctive place. He had it, but it was on moral grounds. What I find searches me very much is, how did the clerical idea interweave itself again, not in outward terms but surreptitiously? How did it do it? Is that understandable?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "That is exactly what I am trying to get at. We need to accustom ourselves to what is spiritual, because the actual change is near. If it happened, what would we do? Would we be like this, or would we prostrate ourselves at His feet?"
+     "speaker": "ECM",
+     "text": [
+      "Yes, it is very helpful. I was thinking of the forty days; that wonderful period would be a test to their spirituality. It was an out-of-the-world condition of things, and is not that where we come into the gain or enjoyment of eternal life?"
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "It says \"he presented himself living, after he had suffered\". During the forty days it was the same Jesus but in another condition."
+     "speaker": "BMD",
+     "text": [
+      "That is exactly what we need to get into, if we can. These persons named as in the upper room: could you have interested them in the things going on in Jerusalem? Their whole interest was centred on the Man they had seen going up. So here they do not come back to the temple, as we get in Luke, which had not then been formally set aside; they come back to the upper chamber. Why is that?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "That is right. So He is looking on to the incoming of the Spirit, although this, of course, is in the next chapter. But He is instructing them. Why did He stay forty days? They had to learn Him in another way, in resurrection. Then to Mary He said, Do not touch me, I am not yet ascended. The whole centre of Christianity is being transferred from earth to heaven. There is only one Leader; it is Christ up there. Down here, there are leaders, and we need to respect them and remember them. Mr Darby never accepted a distinctive place. He had it, but it was on moral grounds. What I find searches me very much is, how did the clerical idea interweave itself again, not in outward terms but surreptitiously? How did it do it? Is that understandable?"
+     "speaker": "ECM",
+     "text": [
+      "I have wondered why the change. It would appear here in the Acts that the Lord went up from the mount of Olives. I wondered whether there was some connection with the Spirit in that."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "Yes, it is very helpful. I was thinking of the forty days; that wonderful period would be a test to their spirituality. It was an out-of-the-world condition of things, and is not that where we come into the gain or enjoyment of eternal life?"
+     "speaker": "BMD",
+     "text": [
+      "When the Lord was here, everything was here. When He was taken up, He is our Head up there and the Spirit here. In a way it is an advantageous position. He said, It is better that I should go away, you should rejoice that I go to the Father. It is a better position, the Head in heaven and the Spirit here."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "That is exactly what we need to get into, if we can. These persons named as in the upper room: could you have interested them in the things going on in Jerusalem? Their whole interest was centred on the Man they had seen going up. So here they do not come back to the temple, as we get in Luke, which had not then been formally set aside; they come back to the upper chamber. Why is that?"
+     "speaker": "TJB",
+     "text": [
+      "Is it interesting to refer in this connection to Acts 13? It is as they were ministering to the Lord and fasting that the Spirit said \"Separate me now Barnabas and Saul\" (v.2). I wondered if there was something of what Bethany would suggest in that, ministering to the Lord."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "I have wondered why the change. It would appear here in the Acts that the Lord went up from the mount of Olives. I wondered whether there was some connection with the Spirit in that."
+     "speaker": "BMD",
+     "text": [
+      "I believe there were Bethany conditions in that local meeting, the way those beloved brethren were set together, and Paul would be so thankful to be the last on the list, would he not? He would bring out the mutual side of how love works, and the Spirit evidently was free to speak. It would have been through someone, I suppose, because He is not here corporeally, and yet it was clear that what was said was by the Spirit."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "When the Lord was here, everything was here. When He was taken up, He is our Head up there and the Spirit here. In a way it is an advantageous position. He said, It is better that I should go away, you should rejoice that I go to the Father. It is a better position, the Head in heaven and the Spirit here."
+     "speaker": "CRB",
+     "text": [
+      "What conclusion have you arrived at as to your own question as to how clericalism came in again?"
+     ]
     },
     {
-     "speaker": "T.J.B.",
-     "text": "Is it interesting to refer in this connection to Acts 13? It is as they were ministering to the Lord and fasting that the Spirit said \"Separate me now Barnabas and Saul\" (v.2). I wondered if there was something of what Bethany would suggest in that, ministering to the Lord."
+     "speaker": "BMD",
+     "text": [
+      "I am still pondering it, but let us be resolved that it does not happen again."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I believe there were Bethany conditions in that local meeting, the way those beloved brethren were set together, and Paul would be so thankful to be the last on the list, would he not? He would bring out the mutual side of how love works, and the Spirit evidently was free to speak. It would have been through someone, I suppose, because He is not here corporeally, and yet it was clear that what was said was by the Spirit."
+     "speaker": "CRB",
+     "text": [
+      "I think it is a very important question, because we are always subject to the danger of it."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "What conclusion have you arrived at as to your own question as to how clericalism came in again?"
+     "speaker": "ECB",
+     "text": [
+      "Has it to do with our recognition of the place that Christ Himself has, that as soon as His place is in any way qualified, not to say lost, something else will take its place?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I am still pondering it, but let us be resolved that it does not happen again."
+     "speaker": "BMD",
+     "text": [
+      "And we drop back into a formality that leads just to a legal position which leads to corruption. I did not want to speak of these things, but let us learn the lessons of the conflicts and see that there is a living order of things proceeding to which you could not attach breakdown. I am the breakdown, we are the breakdown, but there is no breakdown in what comes from the right hand of God."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "I think it is a very important question, because we are always subject to the danger of it."
+     "speaker": "ECB",
+     "text": [
+      "So that if we speak of the Spirit leading, we always keep in our mind His preferred service, that is to glorify Christ."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Has it to do with our recognition of the place that Christ Himself has, that as soon as His place is in any way qualified, not to say lost, something else will take its place?"
+     "speaker": "BMD",
+     "text": [
+      "I believe so."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "And we drop back into a formality that leads just to a legal position which leads to corruption. I did not want to speak of these things, but let us learn the lessons of the conflicts and see that there is a living order of things proceeding to which you could not attach breakdown. I am the breakdown, we are the breakdown, but there is no breakdown in what comes from the right hand of God."
+     "speaker": "RT",
+     "text": [
+      "If the aspect of the assembly as being heavenly in origin and character was remaining with us, only Christ could be the Leader, could He not? No earthly man could be the leader."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "So that if we speak of the Spirit leading, we always keep in our mind His preferred service, that is to glorify Christ."
+     "speaker": "BMD",
+     "text": [
+      "I think we need to be clear as to that."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I believe so."
+     "speaker": "DAB",
+     "text": [
+      "So as soon as rights are claimed for any other person in the assembly than the Lord, the way is beginning to be open to what is clerical, is it not? Is it not the place where He is sovereign and our place one of subjection to His own dominance in that place?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "If the aspect of the assembly as being heavenly in origin and character was remaining with us, only Christ could be the Leader, could He not? No earthly man could be the leader."
+     "speaker": "BMD",
+     "text": [
+      "So most of us had to come to it that the point of departure really was that I got away from Christ. Why did I not know it?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I think we need to be clear as to that."
+     "speaker": "DAB",
+     "text": [
+      "Do you think that the leadership of the Lord and of the Spirit can be discerned by the objective that is set out in what is being said and in the ministry, that they have in view the conducting of the saints into this order of things, and if the tendency was to divert them or lead them elsewhere, the character of that could be discerned if we were following the Lord."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "So as soon as rights are claimed for any other person in the assembly than the Lord, the way is beginning to be open to what is clerical, is it not? Is it not the place where He is sovereign and our place one of subjection to His own dominance in that place?"
+     "speaker": "BMD",
+     "text": [
+      "Oh, I think so. I think it gives us our bond morally. Then what is it? There is no ecclesiastical position as such. What is the bond that holds us? Was it not said recently, maybe it is in one of the books, that there is no stronger bond between human hearts than our attachment to Christ."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "So most of us had to come to it that the point of departure really was that I got away from Christ. Why did I not know it?"
+     "speaker": "ECB",
+     "text": [
+      "Mr Darby said, 'Absolute consecration to Jesus is the strongest bond between human hearts', (Synopsis Vol.3, p.402)."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Do you think that the leadership of the Lord and of the Spirit can be discerned by the objective that is set out in what is being said and in the ministry, that they have in view the conducting of the saints into this order of things, and if the tendency was to divert them or lead them elsewhere, the character of that could be discerned if we were following the Lord."
+     "speaker": "BMD",
+     "text": [
+      "Now that is what our brother is saying and it is something we need to get firmly in our affections, that the position as we see it today is on a moral basis, so that in a way I am responsible to walk with any Christian anywhere who is walking in the truth. Is that too broad?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Oh, I think so. I think it gives us our bond morally. Then what is it? There is no ecclesiastical position as such. What is the bond that holds us? Was it not said recently, maybe it is in one of the books, that there is no stronger bond between human hearts than our attachment to Christ."
+     "speaker": "DAB",
+     "text": [
+      "I do not think it is. Is it a question in all these things of being subject to the Lord? That believer is His just as much as the assembly is His: is that what you are thinking?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Mr Darby said, 'Absolute consecration to Jesus is the strongest bond between human hearts', (Synopsis Vol.3, p.402)."
+     "speaker": "BMD",
+     "text": [
+      "If we are less broad than that we become sectarian. That is how I see it. I am responsible to walk with any Christian anywhere who in practice is walking in the truth."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Now that is what our brother is saying and it is something we need to get firmly in our affections, that the position as we see it today is on a moral basis, so that in a way I am responsible to walk with any Christian anywhere who is walking in the truth. Is that too broad?"
+     "speaker": "JCE",
+     "text": [
+      "Clericalism would be quite a different thing from a spiritual lead. I was thinking of what emerged in Peter here, that he stood up amongst them and spoke of the scriptures that the Holy Spirit had spoken before. He gave a lead in this matter and we are very thankful for that, are we not?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I do not think it is. Is it a question in all these things of being subject to the Lord? That believer is His just as much as the assembly is His: is that what you are thinking?"
+     "speaker": "BMD",
+     "text": [
+      "It was seen early in the recovery, that these things were much more prominently before the brethren. From the tract that Mr Darby wrote (actually I read it on the plane coming over and it arrested me) the danger must have been very prominent at that time. That is what raised the question in my mind, how was it that the enemy was able again to interweave that principle which dispensationally, as he said, is a sin against the Spirit? How the Spirit must have felt being grieved and quenched by the allowance of what was official!"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "If we are less broad than that we become sectarian. That is how I see it. I am responsible to walk with any Christian anywhere who in practice is walking in the truth."
+     "speaker": "ECB",
+     "text": [
+      "Do you think we also have had exposed to us the possibility of making position a substitute for Christ? And many of our brethren are held by that very thing."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Clericalism would be quite a different thing from a spiritual lead. I was thinking of what emerged in Peter here, that he stood up amongst them and spoke of the scriptures that the Holy Spirit had spoken before. He gave a lead in this matter and we are very thankful for that, are we not?"
+     "speaker": "BMD",
+     "text": [
+      "So we have to be careful about a position or a Christian circle. Did not Mr Raven say, Where is it? We can only in humility walk in the light of the truth of the assembly; and let us do it. But to claim it, even using 'we' and 'us', you have just to know what you mean."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "It was seen early in the recovery, that these things were much more prominently before the brethren. From the tract that Mr Darby wrote (actually I read it on the plane coming over and it arrested me) the danger must have been very prominent at that time. That is what raised the question in my mind, how was it that the enemy was able again to interweave that principle which dispensationally, as he said, is a sin against the Spirit? How the Spirit must have felt being grieved and quenched by the allowance of what was official!"
+     "speaker": "ECB",
+     "text": [
+      "Mr Darby somewhere in his letters eventually says, I come back to my old saying, Feet in the narrow path and heart as wide as God's."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think we also have had exposed to us the possibility of making position a substitute for Christ? And many of our brethren are held by that very thing."
+     "speaker": "BMD",
+     "text": [
+      "Yes, that is fine."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "So we have to be careful about a position or a Christian circle. Did not Mr Raven say, Where is it? We can only in humility walk in the light of the truth of the assembly; and let us do it. But to claim it, even using 'we' and 'us', you have just to know what you mean."
+     "speaker": "EP",
+     "text": [
+      "Do you think that the sign of a personal sense of responsibility as assembling is that we come to bring something? I think it was Mr Raven who said that if we did anything other than that, all we would need would be a clergyman and he would supply everything. But we come to bring something. That would apply to brothers and sisters alike, do you think?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Mr Darby somewhere in his letters eventually says, I come back to my old saying, Feet in the narrow path and heart as wide as God's."
+     "speaker": "BMD",
+     "text": [
+      "Yes. It brings up what a wonderful vessel that the body of Christ is and it would be normal that it operates in a meeting like this, in every meeting, that we should have some experience of the organism, do you think?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes, that is fine."
+     "speaker": "EP",
+     "text": [
+      "I do think that. And I have always been impressed, and I want to be increasingly impressed, that responsibility does not rest with a few."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Do you think that the sign of a personal sense of responsibility as assembling is that we come to bring something? I think it was Mr Raven who said that if we did anything other than that, all we would need would be a clergyman and he would supply everything. But we come to bring something. That would apply to brothers and sisters alike, do you think?"
+     "speaker": "BMD",
+     "text": [
+      "No, it is upon each of us."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes. It brings up what a wonderful vessel that the body of Christ is and it would be normal that it operates in a meeting like this, in every meeting, that we should have some experience of the organism, do you think?"
+     "speaker": "EP",
+     "text": [
+      "I remember it being said once to a young brother that the acceptance of responsibility is the way to spiritual prosperity."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I do think that. And I have always been impressed, and I want to be increasingly impressed, that responsibility does not rest with a few."
+     "speaker": "BMD",
+     "text": [
+      "Yes, very fine. Well, these persons that are mentioned here - their names are given - would be persons of spiritual quality, merging into a vessel that was soon to be formed by the actual coming of the Spirit. Here were the personnel, the direct product of the Lord's own hands, the skill of His own hands; here they were, above the level of Jerusalem which was cut off from them because of the cross. And so is the world from us if we love Him. Here they are merging perfectly in affection for Him, to provide what answers to His heart."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "No, it is upon each of us."
+     "speaker": "ECB",
+     "text": [
+      "Had you any further impression as to what the Lord might yet help us in as to eternal life? I was thinking of what you said as to our going through the world and how much in it should really be repulsive to us. But the Lord leads the sheep \"and I give them life eternal\" (John 10: 28), as if there is another sphere than the world in which we are and it makes it much more present, does it not?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I remember it being said once to a young brother that the acceptance of responsibility is the way to spiritual prosperity."
+     "speaker": "BMD",
+     "text": [
+      "I think it makes it very present. I do not know that I could say anything; I would like to think about it and pray about it, and let us see that the experience of it more and more comes into our assemblings. I just feel that the Spirit would belonging to lead us more and more, as we approach the close of the dispensation, into a realm of things as apart from all else, and there provide an answer to the love of Christ."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes, very fine. Well, these persons that are mentioned here - their names are given - would be persons of spiritual quality, merging into a vessel that was soon to be formed by the actual coming of the Spirit. Here were the personnel, the direct product of the Lord's own hands, the skill of His own hands; here they were, above the level of Jerusalem which was cut off from them because of the cross. And so is the world from us if we love Him. Here they are merging perfectly in affection for Him, to provide what answers to His heart."
+     "speaker": "DJH",
+     "text": [
+      "In Luke 24 it does not say He led them to Bethany but \"he led them out as far as\", as though there was One who would be leading them farther. Is that what you had in mind?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Had you any further impression as to what the Lord might yet help us in as to eternal life? I was thinking of what you said as to our going through the world and how much in it should really be repulsive to us. But the Lord leads the sheep \"and I give them life eternal\" (John 10: 28), as if there is another sphere than the world in which we are and it makes it much more present, does it not?"
+     "speaker": "BMD",
+     "text": [
+      "Yes exactly. So it leaves room for us to come in. It is an appeal, is it not?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "I think it makes it very present. I do not know that I could say anything; I would like to think about it and pray about it, and let us see that the experience of it more and more comes into our assemblings. I just feel that the Spirit would belonging to lead us more and more, as we approach the close of the dispensation, into a realm of things as apart from all else, and there provide an answer to the love of Christ."
+     "speaker": "DJH",
+     "text": [
+      "Yes. As to responsibility that was referred to, the emphatic 'ye', \"ye are witnesses\", puts responsibility on us, does it not, as to what we can give account of as to these experiences and carry them forward?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "In Luke 24 it does not say He led them to Bethany but \"he led them out as far as\", as though there was One who would be leading them farther. Is that what you had in mind?"
+     "speaker": "BMD",
+     "text": [
+      "We should feel the sense of responsibility, particularly in the face of what has happened. It has fallen on the shoulders of a few; are we equal now to furnish what is answering to full responsibility as to the assembly? He can clothe the whole with what may be found in the twos and threes, and no doubt He will do it."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes exactly. So it leaves room for us to come in. It is an appeal, is it not?"
+     "speaker": "CRB",
+     "text": [
+      "Spiritually these persons did not leave the upper chamber, did they? They stayed there. Is that somewhat of an answer to what should be our normal experience, to live in the upper chamber?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Yes. As to responsibility that was referred to, the emphatic 'ye', \"ye are witnesses\", puts responsibility on us, does it not, as to what we can give account of as to these experiences and carry them forward?"
+     "speaker": "BMD",
+     "text": [
+      "You regulate your life around the assembly - your home, your business, everything is regulated by the precious heavenly light that divine grace has given to us."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "We should feel the sense of responsibility, particularly in the face of what has happened. It has fallen on the shoulders of a few; are we equal now to furnish what is answering to full responsibility as to the assembly? He can clothe the whole with what may be found in the twos and threes, and no doubt He will do it."
+     "speaker": "CRB",
+     "text": [
+      "It is related very closely to the mount of Olives, is it not? It is not a long way off; so that it is intended to enter into the moral fibre of everything we do and where we go, and whatever we are linked with; it is to be coloured by both the mount of Olives and the upper chamber, is it not?"
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Spiritually these persons did not leave the upper chamber, did they? They stayed there. Is that somewhat of an answer to what should be our normal experience, to live in the upper chamber?"
+     "speaker": "BMD",
+     "text": [
+      "Yes. So as you read through these names you get the impression of how near these persons would have been to each other, and their bond was in the One they had seen taken up. I do not think the position is any different today; do you?"
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "You regulate your life around the assembly - your home, your business, everything is regulated by the precious heavenly light that divine grace has given to us."
+     "speaker": "CRB",
+     "text": [
+      "It cannot be, because divine Persons have not changed."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "It is related very closely to the mount of Olives, is it not? It is not a long way off; so that it is intended to enter into the moral fibre of everything we do and where we go, and whatever we are linked with; it is to be coloured by both the mount of Olives and the upper chamber, is it not?"
+     "speaker": "WJW",
+     "text": [
+      "In the beginning of the gospel they sought Jesus among the company, the friends and relations, but they had to go back to Jerusalem because He was there. Do you think that is a word for us as to keeping our links with Christ in a responsible way rather than going along with a crowd, just linking on with a system? It is Jesus Himself that is to lead and govern all the time."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "Yes. So as you read through these names you get the impression of how near these persons would have been to each other, and their bond was in the One they had seen taken up. I do not think the position is any different today; do you?"
+     "speaker": "BMD",
+     "text": [
+      "We would need to value one another, we are not left to walk alone. According to John it could be that the position vitally would be in one, but there will be a collective position in the light of what is universal maintained at the end. But maybe I am not answering your question."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "It cannot be, because divine Persons have not changed."
+     "speaker": "WJW",
+     "text": [
+      "I was getting back to the thought that links in a responsible way are to be maintained as to where the Lord is. He has to have the central place, rather than any system of teaching about Him or anything that may come in on a social line; there is nothing that can replace the Person Himself."
+     ]
     },
     {
-     "speaker": "W.J.W.",
-     "text": "In the beginning of the gospel they sought Jesus among the company, the friends and relations, but they had to go back to Jerusalem because He was there. Do you think that is a word for us as to keeping our links with Christ in a responsible way rather than going along with a crowd, just linking on with a system? It is Jesus Himself that is to lead and govern all the time."
+     "speaker": "BMD",
+     "text": [
+      "No doubt Mary the mother of Jesus mentioned here, the last name mentioned, would have got the full gain of what happened in Luke that you refer to. \"Did ye not know that I ought to be occupied in my Father's business?\", Luke 2: 49. And then He went down and was subject to them. What that beloved sister would have learned! She knew that humanity from a babe. What wealth she would furnish in this out-of-the-world company in the upper chamber! And what you say would enter vitally into this side, that He was about His Father's business."
+     ]
     },
     {
-     "speaker": "B.M.D.",
-     "text": "We would need to value one another, we are not left to walk alone. According to John it could be that the position vitally would be in one, but there will be a collective position in the light of what is universal maintained at the end. But maybe I am not answering your question."
+     "speaker": "ECB",
+     "text": [
+      "In regard to what was said about this company and their spiritually not having left the upper room, is there a suggestion for us as to lingering in the atmosphere of what unfolds after the Supper?"
+     ]
     },
     {
-     "speaker": "W.J.W.",
-     "text": "I was getting back to the thought that links in a responsible way are to be maintained as to where the Lord is. He has to have the central place, rather than any system of teaching about Him or anything that may come in on a social line; there is nothing that can replace the Person Himself."
-    },
-    {
-     "speaker": "B.M.D.",
-     "text": "No doubt Mary the mother of Jesus mentioned here, the last name mentioned, would have got the full gain of what happened in Luke that you refer to. \"Did ye not know that I ought to be occupied in my Father's business?\", Luke 2: 49. And then He went down and was subject to them. What that beloved sister would have learned! She knew that humanity from a babe. What wealth she would furnish in this out-of-the-world company in the upper chamber! And what you say would enter vitally into this side, that He was about His Father's business."
-    },
-    {
-     "speaker": "E.C.B.",
-     "text": "In regard to what was said about this company and their spiritually not having left the upper room, is there a suggestion for us as to lingering in the atmosphere of what unfolds after the Supper?"
-    },
-    {
-     "speaker": "B.M.D.",
-     "text": "I believe that. It is so easy to lose it and get snatched away. If the experience is more real to us we will linger there. You are loath to have it interrupted."
+     "speaker": "BMD",
+     "text": [
+      "I believe that. It is so easy to lose it and get snatched away. If the experience is more real to us we will linger there. You are loath to have it interrupted."
+     ]
     }
    ]
   },
@@ -682,6 +921,14 @@
      "text": "\"Is it nothing to you, all ye that pass by? Behold, and see... my sorrow\"."
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "DIVINE LEADING",
+   "kind": "default_place",
+   "detail": "LONDON given to 14 names (\"all local unless otherwise stated\")"
   }
  ]
 }

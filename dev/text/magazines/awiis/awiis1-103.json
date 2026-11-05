@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,20 +26,20 @@
    "place": "GRANGEMOUTH",
    "date": "28 March 1981",
    "speakers": [
-    "C.J.H.D.",
-    "Jas.M.",
-    "W D.",
-    "R.J.C.",
-    "D.R.",
-    "W.W.",
-    "J.H.",
-    "T.N.P.",
-    "J.N.",
-    "D.L.S.",
-    "W.D.",
-    "R.S.",
-    "W.G.",
-    "J.Mcl."
+    "CJHD",
+    "JasM",
+    "WD",
+    "RJC",
+    "AMcB",
+    "DR",
+    "WW",
+    "JH",
+    "TNP",
+    "JN",
+    "DLS",
+    "RS",
+    "WG",
+    "JMcl"
    ],
    "initials": [
     {
@@ -73,12 +73,12 @@
      "place": "Glasgow"
     },
     {
-     "initials": "AM",
+     "initials": "AMcB",
      "name": "A.McBride",
      "place": "Grangemouth"
     },
     {
-     "initials": "JM",
+     "initials": "JMcl",
      "name": "J.Mclaren",
      "place": "Dundee"
     },
@@ -95,7 +95,12 @@
     {
      "initials": "TNP",
      "name": "T.N.Pve",
-     "place": "Kirkcaldy, D.Robertson, Cumnock"
+     "place": "Kirkcaldy"
+    },
+    {
+     "initials": "DR",
+     "name": "D.Robertson",
+     "place": "Cumnock"
     },
     {
      "initials": "IS",
@@ -116,6 +121,14 @@
      "initials": "WW",
      "name": "W.Wallace",
      "place": "Grangemouth"
+    },
+    {
+     "initials": "CJHD",
+     "not_in_key": true
+    },
+    {
+     "initials": "JasM",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
@@ -124,305 +137,432 @@
    ],
    "paragraphs": [
     {
-     "speaker": "C.J.H.D.",
-     "text": "I have been feeling, beloved brethren, that we should take note of what God has brought about in the way of difficulty and a measure of suffering economically in this country and in the world generally. I believe that in it He has a purpose to bless us in delivering us from the earthly side of things. Much of the expectation of men is closing up for them, expectation of prosperity. But I believe the Lord would encourage us today to lay hold more firmly of heavenly things, our inheritance, which we have ability by the Spirit to enjoy before we actually reach the scene of which we have sung together. I thought we could get mutual help by enquiry as to the half tribe of Manasseh which was given an inheritance on the earthly side of the Jordan, Gilead, and the other half given an inheritance on the heavenly side, and to see that we might occupy both sides of the inheritance rightly. We have our earthly relationships and joys, God giving us richly all things to enjoy, but to settle down in that would be fatal to our enjoyment of the heavenly inheritance which is much more important in God's view, being connected with His purpose. Gilead was not in the purpose of God, but the land was in the purpose of His love. So that while the Reubenites and Gadites had no desire to go over Jordan, Manasseh was not like that, but Moses divided that tribe deliberately, leaving half on the Gilead side and putting half, through Joshua, into the heavenly inheritance. Combining that idea in Manasseh, I think we can see that God would help us not to settle down on the earthly side, though filling that out as He intends we should in testimony."
+     "speaker": "CJHD",
+     "text": [
+      "I have been feeling, beloved brethren, that we should take note of what God has brought about in the way of difficulty and a measure of suffering economically in this country and in the world generally. I believe that in it He has a purpose to bless us in delivering us from the earthly side of things. Much of the expectation of men is closing up for them, expectation of prosperity. But I believe the Lord would encourage us today to lay hold more firmly of heavenly things, our inheritance, which we have ability by the Spirit to enjoy before we actually reach the scene of which we have sung together. I thought we could get mutual help by enquiry as to the half tribe of Manasseh which was given an inheritance on the earthly side of the Jordan, Gilead, and the other half given an inheritance on the heavenly side, and to see that we might occupy both sides of the inheritance rightly. We have our earthly relationships and joys, God giving us richly all things to enjoy, but to settle down in that would be fatal to our enjoyment of the heavenly inheritance which is much more important in God's view, being connected with His purpose. Gilead was not in the purpose of God, but the land was in the purpose of His love. So that while the Reubenites and Gadites had no desire to go over Jordan, Manasseh was not like that, but Moses divided that tribe deliberately, leaving half on the Gilead side and putting half, through Joshua, into the heavenly inheritance. Combining that idea in Manasseh, I think we can see that God would help us not to settle down on the earthly side, though filling that out as He intends we should in testimony."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "Would what Moses says, \"Lord Jehovah, thou hast begun to shew thy servant thy greatness, and thy powerful hand\", be an incentive to those who were to go into the land to pursue that?"
+     "speaker": "JasM",
+     "text": [
+      "Would what Moses says, \"Lord Jehovah, thou hast begun to shew thy servant thy greatness, and thy powerful hand\", be an incentive to those who were to go into the land to pursue that?"
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think the suggestion of keenness of desire on Moses' part is to affect us, that the Lord Jesus on our account was cut off down here: the scripture says He had nothing (see Dan 9: 26). But for Him the joy was lying before Him on the other side of death, and yet there was an appreciation of the inheritance which, for the moment, in suffering, He had to give up."
+     "speaker": "CJHD",
+     "text": [
+      "I think the suggestion of keenness of desire on Moses' part is to affect us, that the Lord Jesus on our account was cut off down here: the scripture says He had nothing (see Dan 9: 26). But for Him the joy was lying before Him on the other side of death, and yet there was an appreciation of the inheritance which, for the moment, in suffering, He had to give up.",
+      "A.A.B-n. You are referring to certain responsibilities that have to be fulfilled in the wilderness, but our life is not in that; our life lies in what God has purposed for us. Paul says to Timothy: \"Lay hold of eternal life\", 1 Tim 6: 12. Should there be active faith and the pursuit by the Spirit of what God has spread out before us? You have the feeling of what was in Moses' heart as he goes over it here. He was not to go in to the land but it was in his heart."
+     ]
     },
     {
-     "text": "A.A.B-n. You are referring to certain responsibilities that have to be fulfilled in the wilderness, but our life is not in that; our life lies in what God has purposed for us. Paul says to Timothy: \"Lay hold of eternal life\", 1 Tim 6: 12. Should there be active faith and the pursuit by the Spirit of what God has spread out before us? You have the feeling of what was in Moses' heart as he goes over it here. He was not to go in to the land but it was in his heart."
+     "speaker": "CJHD",
+     "text": [
+      "It certainly was in his heart. The desire which I have for myself and the brethren at the present time is that we might accept the side of perhaps cramping conditions through the world recession. The Lord is in that, directing our attention towards what is heavenly and eternal. It is not that the earthly relationships are not of God. That inheritance was given of God and Moses honoured that, but Paul speaks in Timothy about \"what is really life\", 1 Tim 6: 19. That is all for us on the other side."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "It certainly was in his heart. The desire which I have for myself and the brethren at the present time is that we might accept the side of perhaps cramping conditions through the world recession. The Lord is in that, directing our attention towards what is heavenly and eternal. It is not that the earthly relationships are not of God. That inheritance was given of God and Moses honoured that, but Paul speaks in Timothy about \"what is really life\", 1 Tim 6: 19. That is all for us on the other side."
+     "speaker": "WD",
+     "text": [
+      "The separation of the tribe into two halves must have involved some dislocation of natural affections. I suppose that has to be faced in a matter like this."
+     ]
     },
     {
-     "speaker": "W D.",
-     "text": "The separation of the tribe into two halves must have involved some dislocation of natural affections. I suppose that has to be faced in a matter like this."
+     "speaker": "CJHD",
+     "text": [
+      "I think so, and yet the reminder of the heavenly side of the truth would be there for the half tribe that stayed in Gilead. Moses reproved the Reubenites and the Gadites for not wanting to go on to reach the purpose of God, but Manasseh was not in that. Moses sovereignly ordered that that tribe should be split. For us I think it represents the two sides of the matter which affect us. There is the earthly side and there is, far more important, the heavenly side.",
+      "A.C.C-g. Would the will of God govern both sides, on the wilderness side regulating us, but on the other side opening up to us all the vastness of His love?"
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think so, and yet the reminder of the heavenly side of the truth would be there for the half tribe that stayed in Gilead. Moses reproved the Reubenites and the Gadites for not wanting to go on to reach the purpose of God, but Manasseh was not in that. Moses sovereignly ordered that that tribe should be split. For us I think it represents the two sides of the matter which affect us. There is the earthly side and there is, far more important, the heavenly side."
+     "speaker": "CJHD",
+     "text": [
+      "That is good. The prophet Jeremiah raises the question: \"Is there no balm in Gilead?\", Jer 8: 22. There is that side of comfort. One thinks of the loneliness of a brother losing his wife; he wrote me at the time of his first wife's death and said how he felt the loneliness. Well, God has come in for him now on the Gilead side and has given him balm, you may say. But that is not a relationship that goes into eternity. The Lord says \"they neither marry nor are given in marriage, but are as angels of God in heaven\", Matt 22: 30. So the two sides work out with us, and the danger for us is the bedstead of Og. Some of us have been lazy. I have been so myself in not going on to the fulness that was indicated in Mr Taylor's ministry under which I grew up, as so many of the older ones have . But the settling down in the comforts of earth is against the going on."
+     ]
     },
     {
-     "text": "A.C.C-g. Would the will of God govern both sides, on the wilderness side regulating us, but on the other side opening up to us all the vastness of His love?"
+     "speaker": "RJC",
+     "text": [
+      "Would the fact that the size of the bed is given show that it is something that has to be overcome? It is quite an imposing opposition. It is so easy to settle down."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "That is good. The prophet Jeremiah raises the question: \"Is there no balm in Gilead?\", Jer 8: 22. There is that side of comfort. One thinks of the loneliness of a brother losing his wife; he wrote me at the time of his first wife's death and said how he felt the loneliness. Well, God has come in for him now on the Gilead side and has given him balm, you may say. But that is not a relationship that goes into eternity. The Lord says \"they neither marry nor are given in marriage, but are as angels of God in heaven\", Matt 22: 30. So the two sides work out with us, and the danger for us is the bedstead of Og. Some of us have been lazy. I have been so myself in not going on to the fulness that was indicated in Mr Taylor's ministry under which I grew up, as so many of the older ones have . But the settling down in the comforts of earth is against the going on."
+     "speaker": "CJHD",
+     "text": [
+      "Yes, it certainly is. In our measurements, twelve feet by six feet is a big bed, and it is of iron. It is not intended to be done away with easily. I think that side is more dangerous even than the outright opposition of Sihon. The pleasure-loving, settlingdown side is more dangerous for us, I believe."
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "Would the fact that the size of the bed is given show that it is something that has to be overcome? It is quite an imposing opposition. It is so easy to settle down."
+     "speaker": "AMcB",
+     "text": [
+      "It has been said that piety in itself will never make us spiritual, but we will never be spiritual without it. Is that the two sides?"
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "Yes, it certainly is. In our measurements, twelve feet by six feet is a big bed, and it is of iron. It is not intended to be done away with easily. I think that side is more dangerous even than the outright opposition of Sihon. The pleasure-loving, settlingdown side is more dangerous for us, I believe."
+     "speaker": "CJHD",
+     "text": [
+      "I think so. God does not dismiss the side of nature. He says through Paul: \"that which is spiritual was not first, but that which is natural\" (1 Cor 15: 46) - not fleshly. He will never have anything but contempt for that. But He introduced marriage. He made them from the beginning male and female. It is first that which is natural, but how He wants us to have the desires of Moses to get over into what is spiritual!"
+     ]
     },
     {
-     "text": "A.McB. It has been said that piety in itself will never make us spiritual, but we will never be spiritual without it. Is that the two sides?"
+     "speaker": "DR",
+     "text": [
+      "The Lord Jesus might present the two sides, one in relation to the Father in Matthew's gospel and the other in relation to the Father in John's gospel. I wondered if piety would learn the Father in the Matthew side and spirituality take us on to the great ground of ascension, the knowledge of the Father in John's gospel."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think so. God does not dismiss the side of nature. He says through Paul: \"that which is spiritual was not first, but that which is natural\" (1 Cor 15: 46) - not fleshly. He will never have anything but contempt for that. But He introduced marriage. He made them from the beginning male and female. It is first that which is natural, but how He wants us to have the desires of Moses to get over into what is spiritual!"
+     "speaker": "CJHD",
+     "text": [
+      "I think that is a good point. On the Gilead side Matthew's gospel would teach us to seek first God's kingdom and His righteousness and all the other things would be added to us. It is not that God dismisses the earthly side altogether. He gives us all things richly to enjoy (see 1 Tim 6: 17). The young people, I think, are to understand that in the beautiful simplicity of Christianity there is a balanced view of things. Legality would rob them of much, but God wants to encourage them to get over to the John line."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "The Lord Jesus might present the two sides, one in relation to the Father in Matthew's gospel and the other in relation to the Father in John's gospel. I wondered if piety would learn the Father in the Matthew side and spirituality take us on to the great ground of ascension, the knowledge of the Father in John's gospel."
+     "speaker": "DR",
+     "text": [
+      "Do you think that in our circumstances there is a great area in which we can grow in our knowledge of God, and that something of the glory of God comes into our souls that otherwise would never have come in?"
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think that is a good point. On the Gilead side Matthew's gospel would teach us to seek first God's kingdom and His righteousness and all the other things would be added to us. It is not that God dismisses the earthly side altogether. He gives us all things richly to enjoy (see 1 Tim 6: 17). The young people, I think, are to understand that in the beautiful simplicity of Christianity there is a balanced view of things. Legality would rob them of much, but God wants to encourage them to get over to the John line."
+     "speaker": "CJHD",
+     "text": [
+      "I do think that. We can appear among men as normal and happy, not miserable. Men think that to be a Christian is to come into a miserable, legal bondage. But things should be normal with us, and we fill out the one sphere, but we go on to the spiritual side. The meaning of Manasseh’s name is very interesting: 'causing to forget'. Paul says, \"but one thing - forgetting the things behind ... I pursue\", Phil 3 : 13."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Do you think that in our circumstances there is a great area in which we can grow in our knowledge of God, and that something of the glory of God comes into our souls that otherwise would never have come in?"
+     "speaker": "WW",
+     "text": [
+      "At the end of John's gospel the Lord commits His mother to John but she is found with the brethren in the upper chamber at the beginning of Acts."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I do think that. We can appear among men as normal and happy, not miserable. Men think that to be a Christian is to come into a miserable, legal bondage. But things should be normal with us, and we fill out the one sphere, but we go on to the spiritual side. The meaning of Manasseh’s name is very interesting: 'causing to forget'. Paul says, \"but one thing - forgetting the things behind ... I pursue\", Phil 3 : 13."
+     "speaker": "CJHD",
+     "text": [
+      "That is a lovely scripture to bring in. Mr Darby has some beautiful remarks - which the brethren ought to enjoy perhaps more than they do - in the Synopsis on John's gospel. At that point he says 'He returns, so to speak, into His personal relationships. Nature, in His human feelings, is seen in its perfection' (p.401). It is a lovely thought that, having completed sacrificially everything for God, as Mr Darby says He returned into His personal relationships. So His mother was committed in care to a man who in love would look after her for the rest of her days. That is balm, you may say, in Gilead. What it must have meant to that woman, brave enough to stand by the cross with three other women and only one man, to find the Lord taking care of His mother."
+     ]
     },
     {
-     "speaker": "W.W.",
-     "text": "At the end of John's gospel the Lord commits His mother to John but she is found with the brethren in the upper chamber at the beginning of Acts."
+     "speaker": "JH",
+     "text": [
+      "Is one side the truth of the gospel, what the book of Numbers would set out typically, and the other side the purpose of God?"
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "That is a lovely scripture to bring in. Mr Darby has some beautiful remarks - which the brethren ought to enjoy perhaps more than they do - in the Synopsis on John's gospel. At that point he says 'He returns, so to speak, into His personal relationships. Nature, in His human feelings, is seen in its perfection' (p.401). It is a lovely thought that, having completed sacrificially everything for God, as Mr Darby says He returned into His personal relationships. So His mother was committed in care to a man who in love would look after her for the rest of her days. That is balm, you may say, in Gilead. What it must have meant to that woman, brave enough to stand by the cross with three other women and only one man, to find the Lord taking care of His mother."
+     "speaker": "CJHD",
+     "text": [
+      "Yes, and I think we should see the grace of Deuteronomy. You might say that, in a dispensation which was not one of grace, Deuteronomy is the book that gets as near to our time, the dispensation of grace, as it could do in the Old Testament. The very name means the second giving of the law. That was pure grace. The broken tables might have remained broken and God might have given the people up, but in grace there are two tables, hewn by Moses, written on by God, and put down in the ark."
+     ]
     },
     {
-     "speaker": "J.H.",
-     "text": "Is one side the truth of the gospel, what the book of Numbers would set out typically, and the other side the purpose of God?"
+     "speaker": "JH",
+     "text": [
+      "Would the grace of the position be seen in the daughters of Zelophehad? Their desire was to go over, to go in for the best."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "Yes, and I think we should see the grace of Deuteronomy. You might say that, in a dispensation which was not one of grace, Deuteronomy is the book that gets as near to our time, the dispensation of grace, as it could do in the Old Testament. The very name means the second giving of the law. That was pure grace. The broken tables might have remained broken and God might have given the people up, but in grace there are two tables, hewn by Moses, written on by God, and put down in the ark."
+     "speaker": "CJHD",
+     "text": [
+      "That is what I would like to encourage the brethren in. There is much in the way of cramping in these difficult days, economically and financially, but if we could see the love that would present to us the paradise of God of which we have sung (hymn 206) and that the Spirit is already the earnest of all that for us!"
+     ]
     },
     {
-     "speaker": "J.H.",
-     "text": "Would the grace of the position be seen in the daughters of Zelophehad? Their desire was to go over, to go in for the best."
+     "speaker": "JasM",
+     "text": [
+      "Verse 6 of Psalm 16 says \"The lines are fallen unto me in pleasant places; yea, I have a goodly heritage\". Would that be the Lord enjoying what was natural down here as a Man?"
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "That is what I would like to encourage the brethren in. There is much in the way of cramping in these difficult days, economically and financially, but if we could see the love that would present to us the paradise of God of which we have sung (hymn 206) and that the Spirit is already the earnest of all that for us!"
+     "speaker": "CJHD",
+     "text": [
+      "I think so; and I think too that the great answer for Him lay in resurrection. It is very interesting that the tribes' inheritance differed greatly in size under Joshua, but when you come to the millennial side in Ezekiel the inheritance is all divided in equal strips. For us the teaching would be that we have everything in Christ and the assembly on the heavenly side."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "Verse 6 of Psalm 16 says \"The lines are fallen unto me in pleasant places; yea, I have a goodly heritage\". Would that be the Lord enjoying what was natural down here as a Man?"
+     "speaker": "TNP",
+     "text": [
+      "There is a sense of victory in the taking of this land. It says in verse 12: \"And this land we took in possession at that time\". Is our danger that of falling back on that?"
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think so; and I think too that the great answer for Him lay in resurrection. It is very interesting that the tribes' inheritance differed greatly in size under Joshua, but when you come to the millennial side in Ezekiel the inheritance is all divided in equal strips. For us the teaching would be that we have everything in Christ and the assembly on the heavenly side."
+     "speaker": "CJHD",
+     "text": [
+      "I believe there is always a danger for us in spiritual lethargy overtaking us, and we go back to find an easier path. So many, alas, of our brethren whom we still love have gone back to an easier path. Even the material prosperity which has been so manifest in America has been dangerous, in that sense, that there are some who want an easier path in the way of social links and going to weddings of those who are not in fellowship and doing what is right perhaps in our own eyes, but not according to the Pauline stream which takes you into the inheritance."
+     ]
     },
     {
-     "speaker": "T.N.P.",
-     "text": "There is a sense of victory in the taking of this land. It says in verse 12: \"And this land we took in possession at that time\". Is our danger that of falling back on that?"
+     "speaker": "JN",
+     "text": [
+      "Is that the test which Satan put to the Lord in Matthew 4: \"speak, that these stones may become loaves of bread\" (v 3)? The Lord's answer comes from Deuteronomy."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I believe there is always a danger for us in spiritual lethargy overtaking us, and we go back to find an easier path. So many, alas, of our brethren whom we still love have gone back to an easier path. Even the material prosperity which has been so manifest in America has been dangerous, in that sense, that there are some who want an easier path in the way of social links and going to weddings of those who are not in fellowship and doing what is right perhaps in our own eyes, but not according to the Pauline stream which takes you into the inheritance."
+     "speaker": "CJHD",
+     "text": [
+      "I think the way the Lord used Deuteronomic scriptures to answer the temptations of the devil is most striking, as if to say, God will provide for our needs perfectly. We do not have to do more than fulfil righteousness and He will see us through. But the heavenly side was in the Lord's heart all the time.",
+      "A.C.C-g. One of the great objectives of Romans 5 is reigning in life (see v 17). It is not sufficient just to get by as here in our life of responsibility. Is there not a point where you get an easy access into the heavenly side from the side of responsibility?"
+     ]
     },
     {
-     "speaker": "J.N.",
-     "text": "Is that the test which Satan put to the Lord in Matthew 4: \"speak, that these stones may become loaves of bread\" (v 3)? The Lord's answer comes from Deuteronomy."
+     "speaker": "CJHD",
+     "text": [
+      "I think that is fine. Gilead was so near the Jordan. The Gilead inheritance was given at the end of the wilderness journey and they were just about to go into the land at this point. So there should not be any thoughts in our minds that God wishes us to have a very hard and dismal time even on the earthly side. He does not want to see us settle down but He does give us things richly to enjoy."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think the way the Lord used Deuteronomic scriptures to answer the temptations of the devil is most striking, as if to say, God will provide for our needs perfectly. We do not have to do more than fulfil righteousness and He will see us through. But the heavenly side was in the Lord's heart all the time."
+     "speaker": "AMcB",
+     "text": [
+      "Is there some point in Paul saying so much to the Galatians, for instance, about the cross? How easy it is for us to go back, but would the cross preserve us?"
+     ]
     },
     {
-     "text": "A.C.C-g. One of the great objectives of Romans 5 is reigning in life (see v 17). It is not sufficient just to get by as here in our life of responsibility. Is there not a point where you get an easy access into the heavenly side from the side of responsibility?"
+     "speaker": "CJHD",
+     "text": [
+      "If we might refer again to our brother's scripture at the end of John, the standing by the cross is wonderful. To see four women strengthened to stand there, and only one man! But the balm comes in and Mary would find it in John's home and care; and of course in going straight from that home to the upper room in the beginning of the Acts she has the full gain of the spiritual side in the assembly."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think that is fine. Gilead was so near the Jordan. The Gilead inheritance was given at the end of the wilderness journey and they were just about to go into the land at this point. So there should not be any thoughts in our minds that God wishes us to have a very hard and dismal time even on the earthly side. He does not want to see us settle down but He does give us things richly to enjoy."
+     "speaker": "DLS",
+     "text": [
+      "There was a time in David's history when it says \"at the time when kings go forth ... But David abode at Jerusalem\", 2 Sam 11: 1. Was not the cause of this failure at that time that he did not maintain the spirit of energy?"
+     ]
     },
     {
-     "text": "A.McB. Is there some point in Paul saying so much to the Galatians, for instance, about the cross? How easy it is for us to go back, but would the cross preserve us?"
+     "speaker": "CJHD",
+     "text": [
+      "Exactly. And even a man like Joab could see that. It was the time when kings went out to war. The inheritance was to be maintained energetically on the principle of saying 'no' to everything that would hinder our enjoyment, not only of the mercies of God but of the purpose of God ."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "If we might refer again to our brother's scripture at the end of John, the standing by the cross is wonderful. To see four women strengthened to stand there, and only one man! But the balm comes in and Mary would find it in John's home and care; and of course in going straight from that home to the upper room in the beginning of the Acts she has the full gain of the spiritual side in the assembly."
+     "speaker": "WD",
+     "text": [
+      "A large part of Deuteronomy is occupied by Moses describing the beauty of the land. In chapter 11 its rivers, its streams, its blessings are described, as if it is on the principle of attraction through ministry coming from an ascended Christ that we make the change."
+     ]
     },
     {
-     "speaker": "D.L.S.",
-     "text": "There was a time in David's history when it says \"at the time when kings go forth ... But David abode at Jerusalem\", 2 Sam 11: 1. Was not the cause of this failure at that time that he did not maintain the spirit of energy?"
+     "speaker": "CJHD",
+     "text": [
+      "I think that is so. Ministry by Mr Taylor at Bournemouth in 1935 has remained in my soul, an address on Moses seeing the tribes in the land before they got there. The land actually at this time was full of enemies, seven enemies, but he saw the whole land peopled with the tribes. I remember Mr Taylor saying, What would heaven be for Christ without the saints in it? I think we should give the Lord, more than we do, the great joy of seeing us wanting His own company on the other side."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "Exactly. And even a man like Joab could see that. It was the time when kings went out to war. The inheritance was to be maintained energetically on the principle of saying 'no' to everything that would hinder our enjoyment, not only of the mercies of God but of the purpose of God ."
+     "speaker": "DLS",
+     "text": [
+      "Moses speaks of \"that goodly mountain, and Lebanon\". How his heart moved out in relation to God's thoughts!"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "A large part of Deuteronomy is occupied by Moses describing the beauty of the land. In chapter 11 its rivers, its streams, its blessings are described, as if it is on the principle of attraction through ministry coming from an ascended Christ that we make the change."
+     "speaker": "CJHD",
+     "text": [
+      "Yes. Ezekiel says of the land that God had espied it for them (see chap 20: 6). It was His own choice. The enemies were as nothing. Divine fighting for them would remove the difficulties but the land was the choicest that God could imagine."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think that is so. Ministry by Mr Taylor at Bournemouth in 1935 has remained in my soul, an address on Moses seeing the tribes in the land before they got there. The land actually at this time was full of enemies, seven enemies, but he saw the whole land peopled with the tribes. I remember Mr Taylor saying, What would heaven be for Christ without the saints in it? I think we should give the Lord, more than we do, the great joy of seeing us wanting His own company on the other side."
+     "speaker": "WD",
+     "text": [
+      "Where do we touch it?"
+     ]
     },
     {
-     "speaker": "D.L.S.",
-     "text": "Moses speaks of \"that goodly mountain, and Lebanon\". How his heart moved out in relation to God's thoughts!"
+     "speaker": "CJHD",
+     "text": [
+      "I believe that our lives should be found among the brethren in the enjoyment of what the Spirit would bring to us. Our associations in life should really be there and not on the earthly side. An occasion like this should yield something of the enjoyment of eternal life among the brethren."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "Yes. Ezekiel says of the land that God had espied it for them (see chap 20: 6). It was His own choice. The enemies were as nothing. Divine fighting for them would remove the difficulties but the land was the choicest that God could imagine."
+     "speaker": "DR",
+     "text": [
+      "In relation to that question, certain things can be apprehended by faith, but do you think that for this the Spirit is needed, and not only a subjective understanding of the Spirit in you but some sense of the objective glory of the Spirit rising up before your soul to touch this?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Where do we touch it?"
+     "speaker": "CJHD",
+     "text": [
+      "I think that. We come into the area where \"the river of God is full of water\", Ps 65: 9. It is not anything mean or poor, but across the other side we have the Man for the heart of the assembly, and to enjoy Him as He is where He is must surely be the experience of eternal life for us.",
+      "A.A.B-n. Even this afternoon we are seeking \"the things which are above, where the Christ is\", Col 3: 1. Our mind is \"on the things that are above\" (v 2). It all implies energy. Do you think that in the finding and enjoyment of these things we are finding Christ together?"
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I believe that our lives should be found among the brethren in the enjoyment of what the Spirit would bring to us. Our associations in life should really be there and not on the earthly side. An occasion like this should yield something of the enjoyment of eternal life among the brethren."
+     "speaker": "CJHD",
+     "text": [
+      "I think so. The experiences we have of love amongst ourselves are fuller and deeper, at least for me, than I have ever known. I enjoyed growing up under Mr Taylor's ministry, but I failed in the application of it. But in grace there has been, as there was at Corinth, a giving back to us what we deserved to lose, but what now I desire to be in with all the energy that the Spirit would supply.",
+      "J.S. is the Spirit the answer to both these sides you have referred to? I was thinking of the fulfilment of responsibility, so that we are satisfied persons, filling things out as God would desire. It has been said that the Spirit is the completion of things in the line of responsibility and the beginning in the line of purpose."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "In relation to that question, certain things can be apprehended by faith, but do you think that for this the Spirit is needed, and not only a subjective understanding of the Spirit in you but some sense of the objective glory of the Spirit rising up before your soul to touch this?"
+     "speaker": "CJHD",
+     "text": [
+      "I think so, and He is the greatest possible comfort in both settings. Mr Taylor said that if the Spirit had become incarnate He would be exactly like Jesus. If the Lord was a Comforter to His own while He was here - and they lacked nothing on the earthly side: \"did ye lack anything? And they said, nothing\" (Luke 22: 35) - so the Spirit would be a comfort to us, the Comforter, because He not only helps us to fill out our responsible history but He takes of the things of Christ and shows them to us.",
+      "A.C.C-g. Moses said to Jehovah: \"Let me go over\". Moses knew God and divine provision in the wilder ness and that it must be very wonderful to be over in the land of God's purpose. Perhaps we need stimulation to bring about the desire with us to go over."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think that. We come into the area where \"the river of God is full of water\", Ps 65: 9. It is not anything mean or poor, but across the other side we have the Man for the heart of the assembly, and to enjoy Him as He is where He is must surely be the experience of eternal life for us."
+     "speaker": "CJHD",
+     "text": [
+      "I think it is very touching that according to Deuteronomy Moses says three times \"on your account\", not on his own but on the people's account. How he loved them and was prepared to go that way. Paul wrote the epistle to the Ephesians from prison. Within the four walls of a Roman prison the whole world of God's purpose expanded before him. He could not get out to reach the brethren except by letter and he was about to be martyred, yet one can see the whole desire of the apostle burning within him. That is why Ephesians 1 is very attractive."
+     ]
     },
     {
-     "text": "A.A.B-n. Even this afternoon we are seeking \"the things which are above, where the Christ is\", Col 3: 1. Our mind is \"on the things that are above\" (v 2). It all implies energy. Do you think that in the finding and enjoyment of these things we are finding Christ together?"
+     "speaker": "JasM",
+     "text": [
+      "Is it like what is said here: \"lift up thine eyes westward, and northward, and southward, and east ward\"? It is a very large scope."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think so. The experiences we have of love amongst ourselves are fuller and deeper, at least for me, than I have ever known. I enjoyed growing up under Mr Taylor's ministry, but I failed in the application of it. But in grace there has been, as there was at Corinth, a giving back to us what we deserved to lose, but what now I desire to be in with all the energy that the Spirit would supply."
+     "speaker": "CJHD",
+     "text": [
+      "It is tremendous scope, and as Mr Taylor said in that address at Bournemouth, the whole land was covered. Think of the spiritual eyesight of a man about to survey the land from the top of Pisgah, but reaching in eyesight right up to where Naphtali was in the far north of Palestine, \"satisfied with favour, And full of the blessing of Jehovah\", Deut 33: 23.",
+      "A.C.C-g. \"In the eyes of your heart\" (Eph 1: 18): is that Deuteronomy?"
+     ]
     },
     {
-     "text": "J.S. is the Spirit the answer to both these sides you have referred to? I was thinking of the fulfilment of responsibility, so that we are satisfied persons, filling things out as God would desire. It has been said that the Spirit is the completion of things in the line of responsibility and the beginning in the line of purpose."
+     "speaker": "CJHD",
+     "text": [
+      "Yes. And what lies behind this in Deuteronomy was a love that was like a fire burning to the heart of heaven (see Deut 4: 11). We think of Jesus there now and the fire burns yet to the heart of heaven."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think so, and He is the greatest possible comfort in both settings. Mr Taylor said that if the Spirit had become incarnate He would be exactly like Jesus. If the Lord was a Comforter to His own while He was here - and they lacked nothing on the earthly side: \"did ye lack anything? And they said, nothing\" (Luke 22: 35) - so the Spirit would be a comfort to us, the Comforter, because He not only helps us to fill out our responsible history but He takes of the things of Christ and shows them to us."
+     "speaker": "RJC",
+     "text": [
+      "Moses is told to encourage and strengthen Joshua. Is Paul doing that here? Is he seeking to strengthen what is inward in the saints in view of them going in for what is spiritual and heavenly?"
+     ]
     },
     {
-     "text": "A.C.C-g. Moses said to Jehovah: \"Let me go over\". Moses knew God and divine provision in the wilder ness and that it must be very wonderful to be over in the land of God's purpose. Perhaps we need stimulation to bring about the desire with us to go over."
+     "speaker": "CJHD",
+     "text": [
+      "At the beginning of the portion we read in Ephesians 1 it says \"in him, in whom we have also obtained an inheritance\". Everything for us is bound up not only with the knowledge of Christ but with the companionship of Christ."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think it is very touching that according to Deuteronomy Moses says three times \"on your account\", not on his own but on the people's account. How he loved them and was prepared to go that way. Paul wrote the epistle to the Ephesians from prison. Within the four walls of a Roman prison the whole world of God's purpose expanded before him. He could not get out to reach the brethren except by letter and he was about to be martyred, yet one can see the whole desire of the apostle burning within him. That is why Ephesians 1 is very attractive."
+     "speaker": "RJC",
+     "text": [
+      "The thing was full in Paul's soul and heart but he has put it down in a letter that there may be encouragement for us and strengthening to go in for these things."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "Is it like what is said here: \"lift up thine eyes westward, and northward, and southward, and east ward\"? It is a very large scope."
+     "speaker": "CJHD",
+     "text": [
+      "I think so. The apostle suffered exceedingly in the Christian testimony and he is an outstanding example of joy in what was spiritual and what lay beyond death. Yet in his circumstances we should have said they were hardly bearable."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "It is tremendous scope, and as Mr Taylor said in that address at Bournemouth, the whole land was covered. Think of the spiritual eyesight of a man about to survey the land from the top of Pisgah, but reaching in eyesight right up to where Naphtali was in the far north of Palestine, \"satisfied with favour, And full of the blessing of Jehovah\", Deut 33: 23."
+     "speaker": "WD",
+     "text": [
+      "What do you think \"the glad tidings of your salvation\" in this passage would cover?"
+     ]
     },
     {
-     "text": "A.C.C-g. \"In the eyes of your heart\" (Eph 1: 18): is that Deuteronomy?"
+     "speaker": "CJHD",
+     "text": [
+      "I thought that linked with what God would save us in view of. There are different expressions as to the glad tidings, but this is a very unusual one: \"the glad tidings of your salvation\". It is as if Paul would say, Divine love has prepared everything for you and divine power is going to save you in view of it."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "Yes. And what lies behind this in Deuteronomy was a love that was like a fire burning to the heart of heaven (see Deut 4: 11). We think of Jesus there now and the fire burns yet to the heart of heaven."
+     "speaker": "WD",
+     "text": [
+      "It is salvation from place, is it not?"
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "Moses is told to encourage and strengthen Joshua. Is Paul doing that here? Is he seeking to strengthen what is inward in the saints in view of them going in for what is spiritual and heavenly?"
+     "speaker": "CJHD",
+     "text": [
+      "Just so. And all the enemies are overcome in the light of Paul writing to the Ephesians, not only Sihon and Og overcome, but the seven nations of Canaan have had to give way."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "At the beginning of the portion we read in Ephesians 1 it says \"in him, in whom we have also obtained an inheritance\". Everything for us is bound up not only with the knowledge of Christ but with the companionship of Christ."
+     "speaker": "JN",
+     "text": [
+      "In these scriptures you have selected would there be the suggestion of our experience in the ways of God in view of the purpose of God?"
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "The thing was full in Paul's soul and heart but he has put it down in a letter that there may be encouragement for us and strengthening to go in for these things."
+     "speaker": "CJHD",
+     "text": [
+      ". I am glad you say in view of the purpose of God, because so often we tend to refer to the plural thought as to purpose and counsel, and God never does in the Scriptures as to Himself. It is always one purpose. He has never deviated from it. The whole of Scripture is covered by distinctiveness of purpose on God's part, and one counsel by which He, in wisdom, has brought it all about. I think it does us good to think, as Mr Raven said, in terms of Scripture. There is an undeviating line of blessing from Genesis to Revelation which is the purpose of the ages. In all the ages down the history of mankind there has been one purpose in them all."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think so. The apostle suffered exceedingly in the Christian testimony and he is an outstanding example of joy in what was spiritual and what lay beyond death. Yet in his circumstances we should have said they were hardly bearable."
+     "speaker": "RS",
+     "text": [
+      "The Lord's public ministry is covered by the expression \"all the time ... from the baptism of John until the day in which he was taken up\", Acts 1: 21, 22. Paul also uses the expression \"I was with you all the time\" (Acts 2): 18) in regard to Ephesus. What was intimate in these times would be worth our going in for, do you think?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "What do you think \"the glad tidings of your salvation\" in this passage would cover?"
+     "speaker": "CJHD",
+     "text": [
+      "I think so. If we could encourage the younger brethren to look away from the negative side and to see the positive side, that in all that God allows us to pass through circumstantially He only has one purpose in love for fulness of blessing that He wants us to enter into."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I thought that linked with what God would save us in view of. There are different expressions as to the glad tidings, but this is a very unusual one: \"the glad tidings of your salvation\". It is as if Paul would say, Divine love has prepared everything for you and divine power is going to save you in view of it."
+     "speaker": "RS",
+     "text": [
+      "Moses was on the holy mount but it is encouraging that Elias was there too, and he had his beginnings in Gilead."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is salvation from place, is it not?"
+     "speaker": "CJHD",
+     "text": [
+      "Elijah saw the breakdown of everything that Moses had introduced and you might say that there could not be a more depressing journey than that which Elijah took with Elisha. He goes over the cities - Bethel, house of God. Oh, you say, how wonderful! But the prophet Amos says that wickedness was there. He goes to Gilgal. You say, the cutting off of the flesh in circumcision, how wonderful! But the same prophet says that wickedness was there too. So everywhere that Elijah went, as he went out of the land, so to speak, he had seen the breakdown. And we have seen the breakdown, beloved, of everything on the responsible side in Christendom and we have had our part in the humbling of that. Only recently we got seriously astray and many of us did not see it as most of you in Scotland saw it from the beginning. Nevertheless Deuteronomy is lovely. God is giving us back again the opportunity of a lifetime. Think of Paul at Corinth giving the Supper over again to them! He had delivered it once to them. He gives it again to them when things had gone wrong (see 1 Cor 11: 23)."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "Just so. And all the enemies are overcome in the light of Paul writing to the Ephesians, not only Sihon and Og overcome, but the seven nations of Canaan have had to give way."
+     "speaker": "WD",
+     "text": [
+      "Deuteronomy is Horeb, not Sinai."
+     ]
     },
     {
-     "speaker": "J.N.",
-     "text": "In these scriptures you have selected would there be the suggestion of our experience in the ways of God in view of the purpose of God?"
+     "speaker": "CJHD",
+     "text": [
+      "That is it. Right at the end of the Old Testament, in Malachi, it is \"Remember ... Horeb\" (chap 4 : 4), not Sinai. I would be afraid of the terrors of Sinai. But think of a man hewing for himself the two tables of stone and then God writing on them, and everything secured in the heart of Christ."
+     ]
     },
     {
-     "text": "C.J.H.D . I am glad you say in view of the purpose of God, because so often we tend to refer to the plural thought as to purpose and counsel, and God never does in the Scriptures as to Himself. It is always one purpose. He has never deviated from it. The whole of Scripture is covered by distinctiveness of purpose on God's part, and one counsel by which He, in wisdom, has brought it all about. I think it does us good to think, as Mr Raven said, in terms of Scripture. There is an undeviating line of blessing from Genesis to Revelation which is the purpose of the ages. In all the ages down the history of mankind there has been one purpose in them all."
+     "speaker": "JasM",
+     "text": [
+      "Do we get something of the Lord's feelings in chapter 6 of John as to those who found His ministry too testing and turned aside? He appeals to His own: \"Will ye also go away?\" (v.67)."
+     ]
     },
     {
-     "speaker": "R.S.",
-     "text": "The Lord's public ministry is covered by the expression \"all the time ... from the baptism of John until the day in which he was taken up\", Acts 1: 21, 22. Paul also uses the expression \"I was with you all the time\" (Acts 2): 18) in regard to Ephesus. What was intimate in these times would be worth our going in for, do you think?"
+     "speaker": "CJHD",
+     "text": [
+      "I would like to appeal to the brethren this afternoon that there may be no more defection affecting us. I can understand persons defecting from Russia because there is nothing of the blessing of God in that system and if defectors escape it is the mercy of God for them, but I cannot see anything but sadness from defection among us, because we have the wealthiest fulness of joy in the presence of Christ."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "I think so. If we could encourage the younger brethren to look away from the negative side and to see the positive side, that in all that God allows us to pass through circumstantially He only has one purpose in love for fulness of blessing that He wants us to enter into."
+     "speaker": "WG",
+     "text": [
+      "This is a very attractive reference in Ephesians 1: \"that we should be to the praise of his glory\". Would you say a word as to that."
+     ]
     },
     {
-     "speaker": "R.S.",
-     "text": "Moses was on the holy mount but it is encouraging that Elias was there too, and he had his beginnings in Gilead."
+     "speaker": "CJHD",
+     "text": [
+      "I think it is attractive. In a sense glory being the outshining of what God is, that is love, it stands by itself, but the praise of His glory involves a revenue of praise to Him because of the shining out of His glory in Christ. I think that is why Paul says later \"to him be glory in the assembly in Christ Jesus unto all generations of the age of ages\", Eph 3: 21."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "Elijah saw the breakdown of everything that Moses had introduced and you might say that there could not be a more depressing journey than that which Elijah took with Elisha. He goes over the cities - Bethel, house of God. Oh, you say, how wonderful! But the prophet Amos says that wickedness was there. He goes to Gilgal. You say, the cutting off of the flesh in circumcision, how wonderful! But the same prophet says that wickedness was there too. So everywhere that Elijah went, as he went out of the land, so to speak, he had seen the breakdown. And we have seen the breakdown, beloved, of everything on the responsible side in Christendom and we have had our part in the humbling of that. Only recently we got seriously astray and many of us did not see it as most of you in Scotland saw it from the beginning. Nevertheless Deuteronomy is lovely. God is giving us back again the opportunity of a lifetime. Think of Paul at Corinth giving the Supper over again to them! He had delivered it once to them. He gives it again to them when things had gone wrong (see 1 Cor 11: 23)."
+     "speaker": "DR",
+     "text": [
+      "Would you help us as to the expression \"pretrusted in the Christ\"."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Deuteronomy is Horeb, not Sinai."
+     "speaker": "CJHD",
+     "text": [
+      "I think it is part of the wonder of grace that Jew and Gentile could be put down together in the presence of God without anything divisive being found there. Paul and the other apostles were Jews. There was not a Gentile apostle. They pre-trusted: not so much Paul, but the twelve certainly pre-trusted Christ. But Paul, the most bigoted Jew who ever was, in his conversion comes right round to seeing the Gentiles at Ephesus brought in to trust the same glorious Man."
+     ]
     },
     {
-     "speaker": "C.J.H.D.",
-     "text": "That is it. Right at the end of the Old Testament, in Malachi, it is \"Remember ... Horeb\" (chap 4 : 4), not Sinai. I would be afraid of the terrors of Sinai. But think of a man hewing for himself the two tables of stone and then God writing on them, and everything secured in the heart of Christ."
+     "speaker": "JMcl",
+     "text": [
+      "Is not one feature of Deuteronomy concerned with the ability of the saints to get on together in the land, enjoying what is blessed? I am thinking of what you are saying as to there being no divisiveness with us. We should be able to move together in the happy enjoyment of God's blessing."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "Do we get something of the Lord's feelings in chapter 6 of John as to those who found His ministry too testing and turned aside? He appeals to His own: \"Will ye also go away?\" (v.67)."
-    },
-    {
-     "speaker": "C.J.H.D.",
-     "text": "I would like to appeal to the brethren this afternoon that there may be no more defection affecting us. I can understand persons defecting from Russia because there is nothing of the blessing of God in that system and if defectors escape it is the mercy of God for them, but I cannot see anything but sadness from defection among us, because we have the wealthiest fulness of joy in the presence of Christ."
-    },
-    {
-     "speaker": "W.G.",
-     "text": "This is a very attractive reference in Ephesians 1: \"that we should be to the praise of his glory\". Would you say a word as to that."
-    },
-    {
-     "speaker": "C.J.H.D.",
-     "text": "I think it is attractive. In a sense glory being the outshining of what God is, that is love, it stands by itself, but the praise of His glory involves a revenue of praise to Him because of the shining out of His glory in Christ. I think that is why Paul says later \"to him be glory in the assembly in Christ Jesus unto all generations of the age of ages\", Eph 3: 21."
-    },
-    {
-     "speaker": "D.R.",
-     "text": "Would you help us as to the expression \"pretrusted in the Christ\"."
-    },
-    {
-     "speaker": "C.J.H.D.",
-     "text": "I think it is part of the wonder of grace that Jew and Gentile could be put down together in the presence of God without anything divisive being found there. Paul and the other apostles were Jews. There was not a Gentile apostle. They pre-trusted: not so much Paul, but the twelve certainly pre-trusted Christ. But Paul, the most bigoted Jew who ever was, in his conversion comes right round to seeing the Gentiles at Ephesus brought in to trust the same glorious Man."
-    },
-    {
-     "speaker": "J.Mcl.",
-     "text": "Is not one feature of Deuteronomy concerned with the ability of the saints to get on together in the land, enjoying what is blessed? I am thinking of what you are saying as to there being no divisiveness with us. We should be able to move together in the happy enjoyment of God's blessing."
-    },
-    {
-     "speaker": "C.J.H.D.",
-     "text": "I think that. And young and old learn to go on together. When I was young I had some feelings after these things, not very great, not very intelligent (I have not got very far yet), but I found enjoyment in the company of older ones. I remember Mr Lyon putting his hand on my shoulder and addressing me by name when I was in my teens. That was something for an elderly man who had to meet many brethren. That he should know me and my background was a great comfort and encouragement to me. I think there should be more of that affectionate linking of young and old."
-    },
-    {
-     "text": "So the fulness of the inheritance has yet to be entered on, but in the comfort of the Spirit we have the earnest of everything. Hymn 206 can be an anticipated reality in our souls at the present time, and you find your object where God finds His object: 'Object of eternal pleasure'."
+     "speaker": "CJHD",
+     "text": [
+      "I think that. And young and old learn to go on together. When I was young I had some feelings after these things, not very great, not very intelligent (I have not got very far yet), but I found enjoyment in the company of older ones. I remember Mr Lyon putting his hand on my shoulder and addressing me by name when I was in my teens. That was something for an elderly man who had to meet many brethren. That he should know me and my background was a great comfort and encouragement to me. I think there should be more of that affectionate linking of young and old.",
+      "So the fulness of the inheritance has yet to be entered on, but in the comfort of the Spirit we have the earnest of everything. Hymn 206 can be an anticipated reality in our souls at the present time, and you find your object where God finds His object: 'Object of eternal pleasure'."
+     ]
     }
    ]
   },
@@ -492,6 +632,38 @@
      "text": "In a different connection, the prophet Elijah standing upon mount Horeb realised that God was not in the mighty wind, nor the earthquake nor even in the fire. It was in the soft gentle voice that he recognised the speaking of his Maker and Master. God speaks today in the grace of our Lord Jesus Christ, bidding us to be friendly towards Him as He is towards us. Have you heard and answered to that gentle voice?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE HEAVENLY AND THE EARTHLY",
+   "kind": "comma_for_semicolon",
+   "detail": "\"T.N.Pve, Kirkcaldy, D.Robertson\" read as two people"
+  },
+  {
+   "article": 1,
+   "title": "THE HEAVENLY AND THE EARTHLY",
+   "kind": "speaker_not_in_key",
+   "detail": "CJHD (38 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "THE HEAVENLY AND THE EARTHLY",
+   "kind": "speaker_not_in_key",
+   "detail": "JasM (in the text)"
+  },
+  {
+   "article": 1,
+   "title": "THE HEAVENLY AND THE EARTHLY",
+   "kind": "speaker_matched_loosely",
+   "detail": "AMcB used in the text for A.McBride (key gives AM)"
+  },
+  {
+   "article": 1,
+   "title": "THE HEAVENLY AND THE EARTHLY",
+   "kind": "speaker_matched_loosely",
+   "detail": "JMcl used in the text for J.Mclaren (key gives JM)"
   }
  ]
 }

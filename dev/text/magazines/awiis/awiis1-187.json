@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,31 +26,30 @@
    "place": "EDINBURGH",
    "date": "2 September 1987",
    "speakers": [
-    "J.N.G.",
-    "R.S.R.",
-    "J.R.",
-    "W.D.",
-    "J.M.",
-    "E.J.",
-    "W.G.",
-    "J.D.G.",
-    "J.N.G",
-    "J.G.Jr.",
-    "B.S.",
-    "D.LS.",
-    "D.L.S.",
-    "A.B.",
-    "R.T."
+    "JNG",
+    "RSR",
+    "JR",
+    "WD",
+    "JM",
+    "EJ",
+    "WG",
+    "JDG",
+    "JGJr",
+    "BS",
+    "DLS",
+    "AB",
+    "RT"
    ],
    "initials": [
     {
-     "initials": "AAB",
-     "name": "(All local unless otherwise stated) A.Brown",
+     "initials": "AB",
+     "name": "A.Brown",
      "place": "Grangemouth"
     },
     {
      "initials": "WD",
-     "name": "W.Dickson"
+     "name": "W.Dickson",
+     "place": "EDINBURGH"
     },
     {
      "initials": "JNG",
@@ -59,36 +58,43 @@
     },
     {
      "initials": "JDG",
-     "name": "J.D.Gray"
+     "name": "J.D.Gray",
+     "place": "EDINBURGH"
     },
     {
      "initials": "JG",
-     "name": "J.Gray",
-     "place": "Jr"
+     "name": "J.Gray Jr",
+     "place": "EDINBURGH"
     },
     {
      "initials": "WG",
-     "name": "W.Grosse"
+     "name": "W.Grosse",
+     "place": "EDINBURGH"
     },
     {
      "initials": "EJ",
-     "name": "E.Judd"
+     "name": "E.Judd",
+     "place": "EDINBURGH"
     },
     {
      "initials": "JM",
-     "name": "J.Marshall"
+     "name": "J.Marshall",
+     "place": "EDINBURGH"
     },
     {
      "initials": "JR",
-     "name": "J.Renton"
+     "name": "J.Renton",
+     "place": "EDINBURGH"
     },
     {
      "initials": "RSR",
-     "name": "R.S.Renton"
+     "name": "R.S.Renton",
+     "place": "EDINBURGH"
     },
     {
      "initials": "RS",
-     "name": "R.Stenhouse"
+     "name": "R.Stenhouse",
+     "place": "EDINBURGH"
     },
     {
      "initials": "BS",
@@ -97,541 +103,777 @@
     },
     {
      "initials": "DLS",
-     "name": "D.L.Stewart"
+     "name": "D.L.Stewart",
+     "place": "EDINBURGH"
     },
     {
      "initials": "RS",
-     "name": "R.Swan"
+     "name": "R.Swan",
+     "place": "EDINBURGH"
     },
     {
      "initials": "RT",
-     "name": "R.Trotter"
+     "name": "R.Trotter",
+     "place": "EDINBURGH"
+    },
+    {
+     "initials": "JGJr",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "A.Brown, Grangemouth; W.Dickson; J.N.Grace, Melbourne; J.D.Gray; J.Gray, Jr; W.Grosse; E.Judd; J.Marshall; J.Renton; R.S.Renton; R.Stenhouse; B.Surtees, Felixstowe; D.L.Stewart; R.Swan; R.Trotter"
    ],
    "paragraphs": [
     {
-     "speaker": "J.N.G.",
-     "text": "The brethren will have noticed that the idea of proving something comes into these three scriptures. It occurred to me that we might pursue that together profitably. The vitality of Christianity does not lie exactly in knowledge of the Scriptures, although that is needed, nor the knowledge of the ministry, although that also is needed, but it lies in our knowledge of God, and I think that God loves to test us and allow circumstances and other things to come in to prove us, to bring out His own work, because there is nothing that God loves to see more than His own work coming to light in the souls of His people."
+     "speaker": "JNG",
+     "text": [
+      "The brethren will have noticed that the idea of proving something comes into these three scriptures. It occurred to me that we might pursue that together profitably. The vitality of Christianity does not lie exactly in knowledge of the Scriptures, although that is needed, nor the knowledge of the ministry, although that also is needed, but it lies in our knowledge of God, and I think that God loves to test us and allow circumstances and other things to come in to prove us, to bring out His own work, because there is nothing that God loves to see more than His own work coming to light in the souls of His people.",
+      "This passage in Peter refers to the proving of our faith - \"the proving of your faith, much more precious than of gold which perishes\". An illustration of that would be what is said of Abraham; that \"God tried Abraham\" (Gen 22: 1); He tried him as He tries us all. One thing to be observed, I think, is that the greatest test to Abraham's faith came towards the close of his life. We may think that things get easier as we grow older, but I do not think that is the divine way. I think we would like to answer to God's testings like Abraham did."
+     ]
     },
     {
-     "text": "This passage in Peter refers to the proving of our faith - \"the proving of your faith, much more precious than of gold which perishes\". An illustration of that would be what is said of Abraham; that \"God tried Abraham\" (Gen 22: 1); He tried him as He tries us all. One thing to be observed, I think, is that the greatest test to Abraham's faith came towards the close of his life. We may think that things get easier as we grow older, but I do not think that is the divine way. I think we would like to answer to God's testings like Abraham did."
+     "speaker": "RSR",
+     "text": [
+      "Does 'proving' suggest personal experience?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "Does 'proving' suggest personal experience?"
+     "speaker": "JNG",
+     "text": [
+      "I think it does: having to do with God brings out our dependence on God. It is the proving of our faith here: that is how faith answers to testing. It did in Abraham's case it answered by way of obedience, did it not? A very simple way of our faith being proved is by our obedience."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think it does: having to do with God brings out our dependence on God. It is the proving of our faith here: that is how faith answers to testing. It did in Abraham's case it answered by way of obedience, did it not? A very simple way of our faith being proved is by our obedience."
+     "speaker": "RSR",
+     "text": [
+      "In John 6 Peter says, \"and we have believed and known that thou art the holy one of God\" (v 69)."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "In John 6 Peter says, \"and we have believed and known that thou art the holy one of God\" (v 69)."
+     "speaker": "JNG",
+     "text": [
+      "Peter had learned by way of experience to say that. It was a priestly utterance something that he had learned in his ow soul - not exactly by way of light or learned from others - but he had learned by having to do with the Lord Himself."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Peter had learned by way of experience to say that. It was a priestly utterance something that he had learned in his ow soul - not exactly by way of light or learned from others - but he had learned by having to do with the Lord Himself."
+     "speaker": "JR",
+     "text": [
+      "In Genesis it says that \"God tried Abraham'. It says here, \"put to grief by various trials, that the proving of your faith...\", and so on. It is the circumstances through which we pass that are meant to prove our faith."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "In Genesis it says that \"God tried Abraham'. It says here, \"put to grief by various trials, that the proving of your faith...\", and so on. It is the circumstances through which we pass that are meant to prove our faith."
+     "speaker": "JNG",
+     "text": [
+      "Would you not think that it would be a grief to Abraham having to offer up Isaac? It was the biggest, greatest, trial of faith that could have been given to him, to offer up his only son whom he loved."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Would you not think that it would be a grief to Abraham having to offer up Isaac? It was the biggest, greatest, trial of faith that could have been given to him, to offer up his only son whom he loved."
+     "speaker": "JR",
+     "text": [
+      "And yet he \"rose early in the morning\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "And yet he \"rose early in the morning\"."
+     "speaker": "JNG",
+     "text": [
+      "Well, that is how he answered to it. It brings out, in type of course, the wonderful love between the Father and the Son. What Abraham's obedience must have meant to God!"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Well, that is how he answered to it. It brings out, in type of course, the wonderful love between the Father and the Son. What Abraham's obedience must have meant to God!"
+     "speaker": "WD",
+     "text": [
+      "Faith is very important in connection with the vitality of Christianity. We are tested hourly as to our faith, not our initial faith in accepting the gospel, but faith for the pathway too. Do you think so?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Faith is very important in connection with the vitality of Christianity. We are tested hourly as to our faith, not our initial faith in accepting the gospel, but faith for the pathway too. Do you think so?"
+     "speaker": "JNG",
+     "text": [
+      "Yes, I think that; so that the testing of our faith is something that continues from the very time we accept the gospel till the end of our sojourn here. We sometimes think that things will get a bit easier. I do not think they will, but our knowledge of God should increase through these things and perhaps there should be a more ready answer to the testings God allows us to go through. What do you say?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Yes, I think that; so that the testing of our faith is something that continues from the very time we accept the gospel till the end of our sojourn here. We sometimes think that things will get a bit easier. I do not think they will, but our knowledge of God should increase through these things and perhaps there should be a more ready answer to the testings God allows us to go through. What do you say?"
+     "speaker": "WD",
+     "text": [
+      "I am thinking of what you are saying about Abraham. Many things are said about him in the Scriptures but he is the father of those that have faith - that is one thing that marks him. An outstanding characteristic of Abraham was his faith."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I am thinking of what you are saying about Abraham. Many things are said about him in the Scriptures but he is the father of those that have faith - that is one thing that marks him. An outstanding characteristic of Abraham was his faith."
+     "speaker": "JNG",
+     "text": [
+      "He obeyed: that was characteristic of him too. That is faith's answer - obedience; and that is what we get at the beginning and the end of Romans, \"obedience of faith\"."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "He obeyed: that was characteristic of him too. That is faith's answer - obedience; and that is what we get at the beginning and the end of Romans, \"obedience of faith\"."
+     "speaker": "RSR",
+     "text": [
+      "We have the expression \"believing Abraham\" (Gal 3: 9) which is a very fine one, showing that it was characteristic of him all his way through. Are we not tested in our faith as to our prayers?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "We have the expression \"believing Abraham\" (Gal 3: 9) which is a very fine one, showing that it was characteristic of him all his way through. Are we not tested in our faith as to our prayers?"
+     "speaker": "JNG",
+     "text": [
+      "Do you find that?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Do you find that?"
+     "speaker": "RSR",
+     "text": [
+      "I certainly do. Do you?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "I certainly do. Do you?"
+     "speaker": "JNG",
+     "text": [
+      "Yes, I do. But then perhaps we do not realise as we might what it means to God to see the answer on our side to the testings that He does allow. He tests us sometimes to extremities. You think of all the sufferings that the Lord in His wisdom has allowed amongst us. Then you think of those we once walked with; they are being tested. God has not given them up. And you think of those we have never walked with; you think of our brethren around us that we have never had the privilege of walking with. I think a good many of them are being sorely tested by the apostasy that is coming in in Christendom, and God sees something there, I think, that is an answer to their faith. Do you agree with that?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Yes, I do. But then perhaps we do not realise as we might what it means to God to see the answer on our side to the testings that He does allow. He tests us sometimes to extremities. You think of all the sufferings that the Lord in His wisdom has allowed amongst us. Then you think of those we once walked with; they are being tested. God has not given them up. And you think of those we have never walked with; you think of our brethren around us that we have never had the privilege of walking with. I think a good many of them are being sorely tested by the apostasy that is coming in in Christendom, and God sees something there, I think, that is an answer to their faith. Do you agree with that?"
+     "speaker": "RSR",
+     "text": [
+      "I do. I think sometimes that there must be many persons who are sighing and crying at the present moment, and God puts a mark upon them."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "I do. I think sometimes that there must be many persons who are sighing and crying at the present moment, and God puts a mark upon them."
+     "speaker": "JM",
+     "text": [
+      "Do we prove God by being obedient?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Do we prove God by being obedient?"
+     "speaker": "JNG",
+     "text": [
+      "I think that is just the truth, we prove God by being obedient. What Abraham must have meant to God! It was not just one act when God told him this. He had to go a journey, and throughout all that journey with Isaac he was being thoroughly tested as to whether he would go the whole way; and I think that is one of the greatest ways in which God is testing us today, as to whether we will go the whole way in the testimony."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think that is just the truth, we prove God by being obedient. What Abraham must have meant to God! It was not just one act when God told him this. He had to go a journey, and throughout all that journey with Isaac he was being thoroughly tested as to whether he would go the whole way; and I think that is one of the greatest ways in which God is testing us today, as to whether we will go the whole way in the testimony."
+     "speaker": "JM",
+     "text": [
+      "The Lord Jesus went all the way in obedience."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "The Lord Jesus went all the way in obedience."
+     "speaker": "JNG",
+     "text": [
+      "He did. It speaks of Him in connection with faith: \"the leader and completer of faith, Heb 12: 2. That should be an encouragement to us should it not?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "He did. It speaks of Him in connection with faith: \"the leader and completer of faith, Heb 12: 2. That should be an encouragement to us should it not?"
+     "speaker": "EJ",
+     "text": [
+      "'In the great faith chapter of Hebrews it says as to Abraham, \"By faith Abraham, when tried, offered up Isaac\", chap 11: 17. I think we need to be tried; it brings out backbone in people, does it not?"
+     ]
     },
     {
-     "speaker": "E.J.",
-     "text": "'In the great faith chapter of Hebrews it says as to Abraham, \"By faith Abraham, when tried, offered up Isaac\", chap 11: 17. I think we need to be tried; it brings out backbone in people, does it not?"
+     "speaker": "JNG",
+     "text": [
+      "I think it does. Of course we do not like it. I do not think any of us likes being tested, particularly on a matter of faith; not only in our individual pathways is that so, but testings of faith extend throughout every area in which we move in Christianity, faith even enters to the highest notes of the service of God."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think it does. Of course we do not like it. I do not think any of us likes being tested, particularly on a matter of faith; not only in our individual pathways is that so, but testings of faith extend throughout every area in which we move in Christianity, faith even enters to the highest notes of the service of God."
+     "speaker": "WG",
+     "text": [
+      "God says in regard to Abraham, \"For I know him that he will command his children and his household after him, and they shall keep the way of Jehovah, to do righteousness and justice, in order that Jehovah may bring upon Abraham what he hath spoken of him\" Gen 18: 19. I wondered if that brought out God's appreciation of what was seen in Abraham."
+     ]
     },
     {
-     "speaker": "W.G.",
-     "text": "God says in regard to Abraham, \"For I know him that he will command his children and his household after him, and they shall keep the way of Jehovah, to do righteousness and justice, in order that Jehovah may bring upon Abraham what he hath spoken of him\" Gen 18: 19. I wondered if that brought out God's appreciation of what was seen in Abraham."
+     "speaker": "JNG",
+     "text": [
+      "He was called \"Friend of God\", Jas 2: 23. I think we need to appreciate a little more how God looks down on the testings of our faith and takes pleasure in the answer to them in the simple way of obedience."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "He was called \"Friend of God\", Jas 2: 23. I think we need to appreciate a little more how God looks down on the testings of our faith and takes pleasure in the answer to them in the simple way of obedience."
+     "speaker": "JDG",
+     "text": [
+      "In the scripture you have brought before us in Peter, mercy seems to precede what you are speaking about. It says, \"according to his great mercy, has begotten us again to a living hope\". Peter never forgot the mercy that had been shown to him."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "In the scripture you have brought before us in Peter, mercy seems to precede what you are speaking about. It says, \"according to his great mercy, has begotten us again to a living hope\". Peter never forgot the mercy that had been shown to him."
+     "speaker": "JNG",
+     "text": [
+      "I think mercy is a basic thing in our souls. I like the way that Peter starts off this section on a note of worship where he says, \"Blessed be the God and Father of our Lord Jesus Christ\". I think if our souls are occupied with Christ, it keeps us happy whatever the testings are. You say something more."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think mercy is a basic thing in our souls. I like the way that Peter starts off this section on a note of worship where he says, \"Blessed be the God and Father of our Lord Jesus Christ\". I think if our souls are occupied with Christ, it keeps us happy whatever the testings are. You say something more."
+     "speaker": "JDG",
+     "text": [
+      "I thought that mercy is appreciated; then the \"living hope through the resurrection of Jesus Christ from among the dead\" - that is anticipative of the completion of Abraham's exercises - and then, \"to an incorruptible and undefiled and unfading inheritance\". Then I wondered what you might say about \"who are kept guarded by the power of God through faith for salvation\". Faith is operative there in view of salvation and God is guarding us by it."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I thought that mercy is appreciated; then the \"living hope through the resurrection of Jesus Christ from among the dead\" - that is anticipative of the completion of Abraham's exercises - and then, \"to an incorruptible and undefiled and unfading inheritance\". Then I wondered what you might say about \"who are kept guarded by the power of God through faith for salvation\". Faith is operative there in view of salvation and God is guarding us by it."
+     "speaker": "JNG",
+     "text": [
+      "In view of the end, \"the end of your faith, the salvation of your souls\"."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "In view of the end, \"the end of your faith, the salvation of your souls\"."
+     "speaker": "JDG",
+     "text": [
+      "Before that, in verse 5: \"who are kept guarded by the power of God through faith for salvation ready to be revealed in the last time\". God's power is operative, guarding us through faith."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Before that, in verse 5: \"who are kept guarded by the power of God through faith for salvation ready to be revealed in the last time\". God's power is operative, guarding us through faith."
+     "speaker": "JNG",
+     "text": [
+      ". Does not that expression - \"through faith for salvation ready to be revealed in the last time\" - go right through to the salvation of our bodies? But for the moment it is \"the salvation of your souls\" as verse 9 says. In between is this pathway of faith and the testings of faith. Well, young and old, we are being tested."
+     ]
     },
     {
-     "speaker": "J.N.G",
-     "text": ". Does not that expression - \"through faith for salvation ready to be revealed in the last time\" - go right through to the salvation of our bodies? But for the moment it is \"the salvation of your souls\" as verse 9 says. In between is this pathway of faith and the testings of faith. Well, young and old, we are being tested."
+     "speaker": "RSR",
+     "text": [
+      "I have sometimes wondered about this expression \"if needed\" - \"Wherein ye exult, for a little while at present, if needed, put to grief by various trials, that the proving of your faith ...\". What do you say?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "I have sometimes wondered about this expression \"if needed\" - \"Wherein ye exult, for a little while at present, if needed, put to grief by various trials, that the proving of your faith ...\". What do you say?"
+     "speaker": "JNG",
+     "text": [
+      "Well, I often feel that the trials that come upon me are certainly needed. Is that what you find?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Well, I often feel that the trials that come upon me are certainly needed. Is that what you find?"
+     "speaker": "RSR",
+     "text": [
+      "Yes. Would it connect with the vitality you are speaking of, bringing out that feature?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "Yes. Would it connect with the vitality you are speaking of, bringing out that feature?"
+     "speaker": "JNG",
+     "text": [
+      "It brings out our links with God. These things are experimental; it is not just our knowledge of the truth, our knowledge of the ministry, but it involves our vital links with God."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "It brings out our links with God. These things are experimental; it is not just our knowledge of the truth, our knowledge of the ministry, but it involves our vital links with God."
+     "speaker": "JR",
+     "text": [
+      "Is that not what faith is? It is not anything in ourselves; it is in a Person or in the blood. It is in something outside ourselves, and that becomes an anchor."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Is that not what faith is? It is not anything in ourselves; it is in a Person or in the blood. It is in something outside ourselves, and that becomes an anchor."
+     "speaker": "JNG",
+     "text": [
+      "That is the way we start: \"repentance towards God, and faith\" in the living Person, \"towards our Lord Jesus Christ\", Acts 20: 21. So it involves our links with the Lord every day."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is the way we start: \"repentance towards God, and faith\" in the living Person, \"towards our Lord Jesus Christ\", Acts 20: 21. So it involves our links with the Lord every day."
+     "speaker": "JR",
+     "text": [
+      "That is just what I was thinking linking it, as you did at the beginning, with our knowledge of God and of the Lord Jesus. Does not the Spirit help us according to our faith?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is just what I was thinking linking it, as you did at the beginning, with our knowledge of God and of the Lord Jesus. Does not the Spirit help us according to our faith?"
+     "speaker": "JNG",
+     "text": [
+      "He does, and that is our link with the Lord, is it not? Our link with the Lord in heaven is the Spirit down here, and that is really the vitality of Christianity."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "He does, and that is our link with the Lord, is it not? Our link with the Lord in heaven is the Spirit down here, and that is really the vitality of Christianity."
+     "speaker": "WD",
+     "text": [
+      "That expression \"if needed\": the Lord saw that it was needed with Peter: \"but I have besought for thee that thy faith fail not\", Luke 22: 32. The Lord put him through these trials that he went through, and he writes this epistle."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That expression \"if needed\": the Lord saw that it was needed with Peter: \"but I have besought for thee that thy faith fail not\", Luke 22: 32. The Lord put him through these trials that he went through, and he writes this epistle."
+     "speaker": "JNG",
+     "text": [
+      "Is it not a great comfort that in that passage the Lord allowed Peter to go through a very severe trial, but He says, \"I have besought for thee that thy faith fail not\"; so we are in good hands, are we not?",
+      "R .S-e. The apostle says, \"but in that I now live in flesh, I live by faith, the faith of the Son of God, who has loved me and given himself for me\", Gal 2: 20."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Is it not a great comfort that in that passage the Lord allowed Peter to go through a very severe trial, but He says, \"I have besought for thee that thy faith fail not\"; so we are in good hands, are we not?"
+     "speaker": "JNG",
+     "text": [
+      "He lived by faith, did he not?",
+      "R.S-e. Can you help us as to \"the faith of the Son of God\"?"
+     ]
     },
     {
-     "text": "R .S-e. The apostle says, \"but in that I now live in flesh, I live by faith, the faith of the Son of God, who has loved me and given himself for me\", Gal 2: 20."
+     "speaker": "JNG",
+     "text": [
+      "Well, it is another Man and another world. It is a wonderful thing that we have a link with a Man in another world who is going to establish something, and nothing will fail of what He establishes for God."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "He lived by faith, did he not?"
+     "speaker": "JGJr",
+     "text": [
+      "I was wondering if you would say a little more about the reference to Peter because his faith seemed to fail for a little while."
+     ]
     },
     {
-     "text": "R.S-e. Can you help us as to \"the faith of the Son of God\"?"
+     "speaker": "JNG",
+     "text": [
+      "Well, he was quickly recovered, and we are not much different, are we? How often we give up. Maybe we go a certain distance and then our faith begins to fail, but the Lord would see us through, but He will see us through on our side on the line obedience. I think Christianity is made very simple for us. You say, How does faith operate? I think it operates on our side just by obedience."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Well, it is another Man and another world. It is a wonderful thing that we have a link with a Man in another world who is going to establish something, and nothing will fail of what He establishes for God."
+     "speaker": "JR",
+     "text": [
+      "Does not the Lord pray regarding Peter that his faith would not fail, not exactly that he would not fail but that his faith would not fail. He would come through to repentance; his faith would hold and bring him through, do you think?"
+     ]
     },
     {
-     "speaker": "J.G.Jr.",
-     "text": "I was wondering if you would say a little more about the reference to Peter because his faith seemed to fail for a little while."
+     "speaker": "JNG",
+     "text": [
+      "That helps."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Well, he was quickly recovered, and we are not much different, are we? How often we give up. Maybe we go a certain distance and then our faith begins to fail, but the Lord would see us through, but He will see us through on our side on the line obedience. I think Christianity is made very simple for us. You say, How does faith operate? I think it operates on our side just by obedience."
+     "speaker": "BS",
+     "text": [
+      "Peter's courage failed, but his faith did not. Mr Darby says, (in hymn 244), 'our faith and courage tried'. We need to distinguish, do we not?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Does not the Lord pray regarding Peter that his faith would not fail, not exactly that he would not fail but that his faith would not fail. He would come through to repentance; his faith would hold and bring him through, do you think?"
+     "speaker": "JNG",
+     "text": [
+      "Well, you distinguish for us."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That helps."
+     "speaker": "BS",
+     "text": [
+      "Peter never ceased to believe, but he was not brave enough to act on what he believed and do we not need help in that?"
+     ]
     },
     {
-     "speaker": "B.S.",
-     "text": "Peter's courage failed, but his faith did not. Mr Darby says, (in hymn 244), 'our faith and courage tried'. We need to distinguish, do we not?"
+     "speaker": "JNG",
+     "text": [
+      "We can all say that our courage has sometimes failed us. We are not brave enough to stand. What happened over the years is that some of us should have stood for things and we did not because we did not have the faith, but really, if you go to the root of that we were not obedient to what we did know."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Well, you distinguish for us."
+     "speaker": "WD",
+     "text": [
+      "If I can speak personally, one of the greatest tests to my faith at the present time is that the truth of the assembly can be worked out and known in the presence of the breakdown which has come in."
+     ]
     },
     {
-     "speaker": "B.S.",
-     "text": "Peter never ceased to believe, but he was not brave enough to act on what he believed and do we not need help in that?"
+     "speaker": "JNG",
+     "text": [
+      "Well, the truth stands, does it not? If there is any failure it is on our side, but the truth is workable in spite of all the difficulties and breakdown and scattering; the truth is still workable because of the presence of the Spirit of God."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "We can all say that our courage has sometimes failed us. We are not brave enough to stand. What happened over the years is that some of us should have stood for things and we did not because we did not have the faith, but really, if you go to the root of that we were not obedient to what we did know."
+     "speaker": "DLS",
+     "text": [
+      "There was a time when the Lord had to say to Peter and the disciples: \"O ye of little faith, Luke 12: 28. Is faith something with us which is meant to increase as we prove in obedience what the Lord would bring in?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "If I can speak personally, one of the greatest tests to my faith at the present time is that the truth of the assembly can be worked out and known in the presence of the breakdown which has come in."
+     "speaker": "JNG",
+     "text": [
+      "Did they not say to the Lord \"Give more faith to us\", Luke 17: 5?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Well, the truth stands, does it not? If there is any failure it is on our side, but the truth is workable in spite of all the difficulties and breakdown and scattering; the truth is still workable because of the presence of the Spirit of God."
+     "speaker": "DLS",
+     "text": [
+      "Faith would be linked with confidence, would it not?"
+     ]
     },
     {
-     "speaker": "D.LS.",
-     "text": "There was a time when the Lord had to say to Peter and the disciples: \"O ye of little faith, Luke 12: 28. Is faith something with us which is meant to increase as we prove in obedience what the Lord would bring in?"
+     "speaker": "JDG",
+     "text": [
+      "Yes it would, but also, do you not think, that no believer can ever say he does not have faith for the pathway. There is no test that can ever arise for which we can say we do not have faith. \"God has dealt to each a measure of faith\" (Rom 12: 3), and that measure of faith is sufficient to carry us through everything that God allows, do you think?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Did they not say to the Lord \"Give more faith to us\", Luke 17: 5?"
+     "speaker": "DLS",
+     "text": [
+      "\"Various trials\" are really the means that God uses that we might learn to have confidence and go on in the path, are they not?"
+     ]
     },
     {
-     "speaker": "D.L.S.",
-     "text": "Faith would be linked with confidence, would it not?"
+     "speaker": "JNG",
+     "text": [
+      "Exactly, and this epistle is written to \"the sojourners of the dispersion of Pontus, Galatia, Cappadocia, Asia, and Bithynia\" in circumstances where things were very difficult. They were scattered throughout all these countries and these Jewish believers would be wondering how they were going to get through, and so Peter writes this to strengthen their faith."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes it would, but also, do you not think, that no believer can ever say he does not have faith for the pathway. There is no test that can ever arise for which we can say we do not have faith. \"God has dealt to each a measure of faith\" (Rom 12: 3), and that measure of faith is sufficient to carry us through everything that God allows, do you think?"
+     "speaker": "JR",
+     "text": [
+      "He goes on to say \"Jesus Christ: whom, having not seen, ye love\". \"Having not seen\" - that is, it is a faith time - \"ye love.\" Faith leads to attachment and affection, does it not? \"On whom though not now looking, but believing, ye exult with joy unspeakable and filled with the glory\"."
+     ]
     },
     {
-     "speaker": "D.L.S.",
-     "text": "\"Various trials\" are really the means that God uses that we might learn to have confidence and go on in the path, are they not?"
+     "speaker": "JNG",
+     "text": [
+      "Can we get through to that? I am not sure that I know too much about it but I should like to."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Exactly, and this epistle is written to \"the sojourners of the dispersion of Pontus, Galatia, Cappadocia, Asia, and Bithynia\" in circumstances where things were very difficult. They were scattered throughout all these countries and these Jewish believers would be wondering how they were going to get through, and so Peter writes this to strengthen their faith."
+     "speaker": "JR",
+     "text": [
+      "It comes in loving, does it not? \"Whom, having not seen, ye love\". Our faith and our courage fail if we do not have the Person before us and think of ourselves, do you think?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "He goes on to say \"Jesus Christ: whom, having not seen, ye love\". \"Having not seen\" - that is, it is a faith time - \"ye love.\" Faith leads to attachment and affection, does it not? \"On whom though not now looking, but believing, ye exult with joy unspeakable and filled with the glory\"."
+     "speaker": "JNG",
+     "text": [
+      "What did Peter say? \"Lord, to whom shall we go?\", John 6: 68."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Can we get through to that? I am not sure that I know too much about it but I should like to."
+     "speaker": "JM",
+     "text": [
+      "When Peter was walking on the sea he began to look at the winds and he began to sink, and the Lord says to him, \"why didst thou doubt?\" (Matt 14: 31) and He caught hold of him."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It comes in loving, does it not? \"Whom, having not seen, ye love\". Our faith and our courage fail if we do not have the Person before us and think of ourselves, do you think?"
+     "speaker": "JNG",
+     "text": [
+      "He caught hold of him - what an experience that would be for Peter, personal experience with the Lord! I think that is what is in mind tonight that we should have personal experiences with the Lord Jesus and with the Spirit and with the Father. That to me is the vitality of Christianity.",
+      "Now the scripture in Romans is not the proving of our faith but proving the will of God; that is something not just to be known but is to be proved."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "What did Peter say? \"Lord, to whom shall we go?\", John 6: 68."
+     "speaker": "JM",
+     "text": [
+      "At the end of the section read in Peter it seems to result in praise. It is a good thing when we go through trials that there is something in it for divine Persons."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "When Peter was walking on the sea he began to look at the winds and he began to sink, and the Lord says to him, \"why didst thou doubt?\" (Matt 14: 31) and He caught hold of him."
+     "speaker": "JNG",
+     "text": [
+      "That is fine. I am sure that is the result intended, that we should not only find relief on our side as to what is needed, and sustaining in difficulties and trials but, as you say, something that is a yield for God from ourselves.",
+      "R.S-n. When the apostles said to the Lord, \"Give more faith to us\" (Luke 17: 5), is faith working through love? We have it mentioned in Galatians: \"faith working through love\", chap 5: 6."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "He caught hold of him - what an experience that would be for Peter, personal experience with the Lord! I think that is what is in mind tonight that we should have personal experiences with the Lord Jesus and with the Spirit and with the Father. That to me is the vitality of Christianity."
+     "speaker": "JNG",
+     "text": [
+      "That reference in Luke is in connection with forgiving, is it not? I think we could well read those verses: \"And if he should sin against thee seven times in the day, and seven times should return to thee, saying, I repent, thou shalt forgive him. And the apostles said to the Lord Give more faith to us\". That is what tests us, the Spirit of forgiveness in relation to one another."
+     ]
     },
     {
-     "text": "Now the scripture in Romans is not the proving of our faith but proving the will of God; that is something not just to be known but is to be proved."
+     "speaker": "RSR",
+     "text": [
+      "Does the Lord not indicate in that passage that we use the faith we have? We do not need any more."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "At the end of the section read in Peter it seems to result in praise. It is a good thing when we go through trials that there is something in it for divine Persons."
+     "speaker": "JNG",
+     "text": [
+      "It is a lesson to be learned, that we cannot excuse ourselves. The Lord has given us all that is needed. If we just trust Him and obey, I think we will prove the faith that is spoken of in Peter."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is fine. I am sure that is the result intended, that we should not only find relief on our side as to what is needed, and sustaining in difficulties and trials but, as you say, something that is a yield for God from ourselves."
+     "speaker": "EJ",
+     "text": [
+      "The enemy is going about as a roaring lion, Peter says, \"Whom resist, stedfast in faith\", 1 Pet 5: 9. I think we need that at the present moment - steadfastness. ."
+     ]
     },
     {
-     "text": "R.S-n. When the apostles said to the Lord, \"Give more faith to us\" (Luke 17: 5), is faith working through love? We have it mentioned in Galatians: \"faith working through love\", chap 5: 6."
+     "speaker": "JNG",
+     "text": [
+      "I agree. We are so inclined to give up in the face of difficulties, whether they be difficulties in our own circumstances or difficulties that seem to arise in the course of the testimony or in the world, but we need to be steadfast in our faith in God."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That reference in Luke is in connection with forgiving, is it not? I think we could well read those verses: \"And if he should sin against thee seven times in the day, and seven times should return to thee, saying, I repent, thou shalt forgive him. And the apostles said to the Lord Give more faith to us\". That is what tests us, the Spirit of forgiveness in relation to one another."
+     "speaker": "JR",
+     "text": [
+      "It says in this chapter in Romans, \"but be transformed by the renewing of your mind, that ye may prove what is the good and acceptable and perfect will of God\". What would you say about \"the renewing of your mind\"?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "Does the Lord not indicate in that passage that we use the faith we have? We do not need any more."
+     "speaker": "JNG",
+     "text": [
+      "Does it not mean that at this point the believer is wholly secured for God? His heart has been filled with divine love - the love of God shed abroad in our hearts - and then the mind of the believer is secured in Romans 6, 7 and 8, and now the body of the believer is secured, so that the whole man is secured for the will of God. But that has to be proved, and that is a very practical matter. I was thinking of Paul in this connection. Paul had to prove what the will of God was. He thought he would go in one direction in connection with the testimony, but he was not allowed to go. It must have raised questions with him. What do you say?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "It is a lesson to be learned, that we cannot excuse ourselves. The Lord has given us all that is needed. If we just trust Him and obey, I think we will prove the faith that is spoken of in Peter."
+     "speaker": "JR",
+     "text": [
+      "It is as we commit ourselves to the will of God that we prove how good and acceptable and perfect it is."
+     ]
     },
     {
-     "speaker": "E.J.",
-     "text": "The enemy is going about as a roaring lion, Peter says, \"Whom resist, stedfast in faith\", 1 Pet 5: 9. I think we need that at the present moment - steadfastness. ."
+     "speaker": "JNG",
+     "text": [
+      "We do not always like it; we think it is not as good as what we would like, but we Just accept it. We find that it is good, then it becomes acceptable, and as we find it acceptable, we find it is perfect.",
+      "R.S-e. Is this first verse an answer to what we have in He who gave Himself \"an offering and sacrifice to God for a sweet-smelling savour\", Eph 5: 2?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I agree. We are so inclined to give up in the face of difficulties, whether they be difficulties in our own circumstances or difficulties that seem to arise in the course of the testimony or in the world, but we need to be steadfast in our faith in God."
+     "speaker": "JNG",
+     "text": [
+      "I think it is. That was seen in the Lord Jesus in perfection; He delighted in the will of God. He knew what the will of God involved for Him. We do not always know what the will of God is, and sometimes we are a little bit rebellious about it."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It says in this chapter in Romans, \"but be transformed by the renewing of your mind, that ye may prove what is the good and acceptable and perfect will of God\". What would you say about \"the renewing of your mind\"?"
+     "speaker": "EJ",
+     "text": [
+      "The footnote says, 'to your proving'. It seems to be a present matter; it is always there, is it not?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Does it not mean that at this point the believer is wholly secured for God? His heart has been filled with divine love - the love of God shed abroad in our hearts - and then the mind of the believer is secured in Romans 6, 7 and 8, and now the body of the believer is secured, so that the whole man is secured for the will of God. But that has to be proved, and that is a very practical matter. I was thinking of Paul in this connection. Paul had to prove what the will of God was. He thought he would go in one direction in connection with the testimony, but he was not allowed to go. It must have raised questions with him. What do you say?"
+     "speaker": "JNG",
+     "text": [
+      "That is what these scriptures would suggest. It is not a finished matter at any time. It is a current matter, and that is our life. That is the vitality of Christianity that I referred to. It is not an historical thing."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is as we commit ourselves to the will of God that we prove how good and acceptable and perfect it is."
+     "speaker": "BS",
+     "text": [
+      "Would you please say a word about, \"And be not conformed to this world\"."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "We do not always like it; we think it is not as good as what we would like, but we Just accept it. We find that it is good, then it becomes acceptable, and as we find it acceptable, we find it is perfect."
+     "speaker": "JNG",
+     "text": [
+      "That is always a very present danger with us, being conformed to the world and its fashions and its ways in doing things, but it says, \"And be not conformed to this world, but be transformed\"."
+     ]
     },
     {
-     "text": "R.S-e. Is this first verse an answer to what we have in He who gave Himself \"an offering and sacrifice to God for a sweet-smelling savour\", Eph 5: 2?"
+     "speaker": "BS",
+     "text": [
+      "Our bodies cannot be \"a living sacrifice, holy, acceptable to God\" if there is any degree of conformity with this world, can they?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think it is. That was seen in the Lord Jesus in perfection; He delighted in the will of God. He knew what the will of God involved for Him. We do not always know what the will of God is, and sometimes we are a little bit rebellious about it."
+     "speaker": "JNG",
+     "text": [
+      "So he comes back to the mind, does he not! \"And be not conformed to this world, but be transformed by the renewing of your mind\". If our minds are set in the right direction, then we will begin to prove what the will of God really means. It is the best thing out for us. We often think the other way round; particularly when we are young; it is a bit restrictive, and we would like to go another way, and sometimes we try the other way and find it does not work, and then we come back to it that it must be good. If we accept that the will of God is good, then we will soon find it acceptable, and then we will prove it is perfect."
+     ]
     },
     {
-     "speaker": "E.J.",
-     "text": "The footnote says, 'to your proving'. It seems to be a present matter; it is always there, is it not?"
+     "speaker": "RSR",
+     "text": [
+      "I remember looking up this word \"good\". It is not comparative - we were taught at school, good, better, best; it is not that - it means that it always operates in our favour."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is what these scriptures would suggest. It is not a finished matter at any time. It is a current matter, and that is our life. That is the vitality of Christianity that I referred to. It is not an historical thing."
+     "speaker": "JNG",
+     "text": [
+      "That helps.",
+      "R.S-e. I take it that this \"renewing of your mind\" is a daily matter."
+     ]
     },
     {
-     "speaker": "B.S.",
-     "text": "Would you please say a word about, \"And be not conformed to this world\"."
+     "speaker": "JNG",
+     "text": [
+      "That is so. These are not historical matters, they are operating all the time, and the proving of His will results in yielding something for God, presenting our bodies a living sacrifice, and so on. This works out, of course, in our relations with one another finally - what we think of one another; respect for one another and affection for one another are all connected with the will of God."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is always a very present danger with us, being conformed to the world and its fashions and its ways in doing things, but it says, \"And be not conformed to this world, but be transformed\"."
+     "speaker": "WG",
+     "text": [
+      "Is the expression \"by the compassions of God\" important to understand? Paul had some sense of how great the compassions of God were."
+     ]
     },
     {
-     "speaker": "B.S.",
-     "text": "Our bodies cannot be \"a living sacrifice, holy, acceptable to God\" if there is any degree of conformity with this world, can they?"
+     "speaker": "JNG",
+     "text": [
+      "Yes, and how far do our compassions extend? They begin with one another, but in the gospel the compassions of God find an expression towards all men, do they not?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "So he comes back to the mind, does he not! \"And be not conformed to this world, but be transformed by the renewing of your mind\". If our minds are set in the right direction, then we will begin to prove what the will of God really means. It is the best thing out for us. We often think the other way round; particularly when we are young; it is a bit restrictive, and we would like to go another way, and sometimes we try the other way and find it does not work, and then we come back to it that it must be good. If we accept that the will of God is good, then we will soon find it acceptable, and then we will prove it is perfect."
+     "speaker": "WG",
+     "text": [
+      "I am sure that is right, and I feel how little I understand the compassions of God, how wonderful they are; but we would want to learn more of them."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "I remember looking up this word \"good\". It is not comparative - we were taught at school, good, better, best; it is not that - it means that it always operates in our favour."
+     "speaker": "JNG",
+     "text": [
+      "God has all men in mind. There is never anything we enjoy, whether individually or collectively, that is not the mind of God for all men, and with the world in its present state the violence and corruption of the world God is thinking all the time in terms of the very best for every man. That is how I understand the truth."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That helps."
+     "speaker": "JM",
+     "text": [
+      "It is by the compassions of God that we have to present our bodies. You feel that if you do not move in that way (I am thinking of what it says in Corinthians, \"if I deliver up my body ... but have not love\", 1 Cor 13: 3, you are nothing."
+     ]
     },
     {
-     "text": "R.S-e. I take it that this \"renewing of your mind\" is a daily matter."
+     "speaker": "JNG",
+     "text": [
+      "Just so. Think of the compassions of God, how they have come out towards us! God is thinking in terms of blessing for us all the time, is He not? In all that has happened amongst the brethren, the sufferings and accidents and husbands and wives torn apart, children and parents, we know that God is thinking of us in terms of compassion, but can we make ourselves available, or are we just thinking of ourselves all the time? I think that is a test to me. I think of my own circumstances and how I am suffering (if I am suffering)."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is so. These are not historical matters, they are operating all the time, and the proving of His will results in yielding something for God, presenting our bodies a living sacrifice, and so on. This works out, of course, in our relations with one another finally - what we think of one another; respect for one another and affection for one another are all connected with the will of God."
+     "speaker": "AB",
+     "text": [
+      "Would the renewed mind bring a different outlook, a different way of thinking? You are speaking of consideration and care for others, but all that would come in this renewed mind that thinks differently from the world, does it not?"
+     ]
     },
     {
-     "speaker": "W.G.",
-     "text": "Is the expression \"by the compassions of God\" important to understand? Paul had some sense of how great the compassions of God were."
+     "speaker": "JNG",
+     "text": [
+      "Well, does it bring in the lowly mind that was in Christ Jesus instead of (as it says a bit later) \"high thoughts\", \"to every one that is among you, not to have high thoughts above what he should think\"."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Yes, and how far do our compassions extend? They begin with one another, but in the gospel the compassions of God find an expression towards all men, do they not?"
+     "speaker": "JR",
+     "text": [
+      "\"And be not conformed to this world\" has in mind part in another order of things, the \"one body in Christ\" (v 5), an organism down here."
+     ]
     },
     {
-     "speaker": "W.G.",
-     "text": "I am sure that is right, and I feel how little I understand the compassions of God, how wonderful they are; but we would want to learn more of them."
+     "speaker": "JNG",
+     "text": [
+      "That is what is in mind. I am glad you refer to that because that is what this epistle is leading up to and it is teaching in relation to one with another; and Paul, at the end of this epistle in connection with the gospel, cannot help referring to the mystery."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "God has all men in mind. There is never anything we enjoy, whether individually or collectively, that is not the mind of God for all men, and with the world in its present state the violence and corruption of the world God is thinking all the time in terms of the very best for every man. That is how I understand the truth."
+     "speaker": "JR",
+     "text": [
+      "So there is a link between presenting our bodies and having part in the \"one body in Christ\", is there not?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "It is by the compassions of God that we have to present our bodies. You feel that if you do not move in that way (I am thinking of what it says in Corinthians, \"if I deliver up my body ... but have not love\", 1 Cor 13: 3, you are nothing."
+     "speaker": "JNG",
+     "text": [
+      "That is an entirely different state to anything that we can have in the world. Men join all sorts of organisations and bodies in this world, but there is nothing to compare with what is in Christ, \"one body in Christ\".",
+      "R.S-n. Earlier in Romans we get how we yield our members as instruments of righteousness (see chap 6: 13). I was thinking of the jailor, how he laid on the stripes, but it says, \"And having brought them into his house he laid the table for them\", Acts 16: 34. His members were becoming instruments of righteousness, were they not?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Just so. Think of the compassions of God, how they have come out towards us! God is thinking in terms of blessing for us all the time, is He not? In all that has happened amongst the brethren, the sufferings and accidents and husbands and wives torn apart, children and parents, we know that God is thinking of us in terms of compassion, but can we make ourselves available, or are we just thinking of ourselves all the time? I think that is a test to me. I think of my own circumstances and how I am suffering (if I am suffering)."
+     "speaker": "JNG",
+     "text": [
+      "They surely were, and I suppose, having laid the stripes on Paul, the converted jailor would show the compassions of God when he laid the table, would he not? All this comes out in the gospel very simply, I think."
+     ]
     },
     {
-     "speaker": "A.B.",
-     "text": "Would the renewed mind bring a different outlook, a different way of thinking? You are speaking of consideration and care for others, but all that would come in this renewed mind that thinks differently from the world, does it not?"
+     "speaker": "BS",
+     "text": [
+      "The transforming works out from what is inward does it not? It is not just something put on or put off, but as most of us know, it is the word used for the way that a caterpillar turns into a butterfly; it is an inward development that eventually comes to light and changes the whole outward appearance even."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Well, does it bring in the lowly mind that was in Christ Jesus instead of (as it says a bit later) \"high thoughts\", \"to every one that is among you, not to have high thoughts above what he should think\"."
+     "speaker": "JNG",
+     "text": [
+      "That is the way the truth works, is it not? As we were saying, it is not a knowledge of the Scriptures - we have that and we need it, and a knowledge of the ministry - but how we work ministry out with God and our circumstances that God allows with each of us. That is Romans; in the very place where we have misrepresented God, now through the gospel we have been secured and by the Spirit we are enabled to represent God in the very place where we have failed. That is God's victory at the present time."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "\"And be not conformed to this world\" has in mind part in another order of things, the \"one body in Christ\" (v 5), an organism down here."
+     "speaker": "EJ",
+     "text": [
+      "I was thinking of a man like Jeremiah in Lamentations under the greatest pressure, \"because\" he says, \"his compassions fail not\" chap 3: 22. It was a remarkable thing to say in view of what he was passing through, was it not?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is what is in mind. I am glad you refer to that because that is what this epistle is leading up to and it is teaching in relation to one with another; and Paul, at the end of this epistle in connection with the gospel, cannot help referring to the mystery."
+     "speaker": "JNG",
+     "text": [
+      "Well, we prove the compassions of God. Of course, we prove them through one another too, do we not? That is what this line of things leads up to. The truth of the body is not worked out in Romans (it is worked out in other epistles) but a living organism that we have part in has been referred to."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "So there is a link between presenting our bodies and having part in the \"one body in Christ\", is there not?"
+     "speaker": "RT",
+     "text": [
+      "What is says in Luke 10 is that He was \"moved with compassion\" (v 33). It operates, does it not?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is an entirely different state to anything that we can have in the world. Men join all sorts of organisations and bodies in this world, but there is nothing to compare with what is in Christ, \"one body in Christ\"."
+     "speaker": "JNG",
+     "text": [
+      "Yes, just so. As you say, it is operating; He went and did something. So if you just feel compassion for a brother or a sister, can you put in a word that will encourage their hearts? Can you send them a letter if they are ten thousand miles away? You do not know what the result of that will be. Well, the result of it will be just what the result would be if you yourself received a letter from ten thousand miles away if you were in trouble."
+     ]
     },
     {
-     "text": "R.S-n. Earlier in Romans we get how we yield our members as instruments of righteousness (see chap 6: 13). I was thinking of the jailor, how he laid on the stripes, but it says, \"And having brought them into his house he laid the table for them\", Acts 16: 34. His members were becoming instruments of righteousness, were they not?"
+     "speaker": "RSR",
+     "text": [
+      "In Psalm 139 David speaks historically first of all, and then he invites the searching. What do you say about that?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "They surely were, and I suppose, having laid the stripes on Paul, the converted jailor would show the compassions of God when he laid the table, would he not? All this comes out in the gospel very simply, I think."
+     "speaker": "JNG",
+     "text": [
+      "My concern would be whether we are up to that. Have we the faith in God that would say to God, \"Search me, O God, and know my heart; prove me, and know my thoughts\"?"
+     ]
     },
     {
-     "speaker": "B.S.",
-     "text": "The transforming works out from what is inward does it not? It is not just something put on or put off, but as most of us know, it is the word used for the way that a caterpillar turns into a butterfly; it is an inward development that eventually comes to light and changes the whole outward appearance even."
+     "speaker": "WD",
+     "text": [
+      "The note to that word 'thoughts' is quite illuminating, is it not? It says, 'anxious (or conflicting) thoughts', which is rather expressive of our own exercises sometimes in the pressures that come upon you. Anxious or conflicting thoughts - perhaps we would hide them from our brethren, or hide them from one another, but God would search us, and He would perhaps give us to understand regarding these things, would you say?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is the way the truth works, is it not? As we were saying, it is not a knowledge of the Scriptures - we have that and we need it, and a knowledge of the ministry - but how we work ministry out with God and our circumstances that God allows with each of us. That is Romans; in the very place where we have misrepresented God, now through the gospel we have been secured and by the Spirit we are enabled to represent God in the very place where we have failed. That is God's victory at the present time."
+     "speaker": "JNG",
+     "text": [
+      "He will search us, but do we know Him enough to ask Him to search us?"
+     ]
     },
     {
-     "speaker": "E.J.",
-     "text": "I was thinking of a man like Jeremiah in Lamentations under the greatest pressure, \"because\" he says, \"his compassions fail not\" chap 3: 22. It was a remarkable thing to say in view of what he was passing through, was it not?"
+     "speaker": "JR",
+     "text": [
+      "On Saturday we had the inwards, did we not? This would affect our inwards, do you think? They are exposed to God in any case, but to invite them to be exposed to ourselves would be something intimate, would it?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Well, we prove the compassions of God. Of course, we prove them through one another too, do we not? That is what this line of things leads up to. The truth of the body is not worked out in Romans (it is worked out in other epistles) but a living organism that we have part in has been referred to."
+     "speaker": "JNG",
+     "text": [
+      "I think that; that would be the test. What encourages me in regard to this is that it is a psalm of David. You think of what David went through and his sin and what he did, but how he met it and repented of his sin in the presence of God; and here he says, \"Search me, O God, and know my heart; prove me, and know my thoughts; And see if there be any grievous way in me; and lead me in the way everlasting\". I think, or I am coming to think, that often we do not go the whole way in our thoughts and our ways. We ask God to do something for us, but do we have the courage, have we the faith to say to God, \"Search me, O God, and know my heart; prove me, and know my thoughts; And see ...\" Have we the courage to do that, open our hearts completely to God? Maybe we will find He will lead us in the way everlasting."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "What is says in Luke 10 is that He was \"moved with compassion\" (v 33). It operates, does it not?"
+     "speaker": "JR",
+     "text": [
+      "It is very like the word of God which is \"sharper than any two-edged sword\", penetrating, and discerning \"the thoughts and intents of the heart\", Heb 4: 12."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Yes, just so. As you say, it is operating; He went and did something. So if you just feel compassion for a brother or a sister, can you put in a word that will encourage their hearts? Can you send them a letter if they are ten thousand miles away? You do not know what the result of that will be. Well, the result of it will be just what the result would be if you yourself received a letter from ten thousand miles away if you were in trouble."
+     "speaker": "JNG",
+     "text": [
+      "That is a very good reference. Then immediately following that there is a reference to the priesthood of Christ, and if we are prepared for the searching we will prove what the priesthood of Christ really means."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "In Psalm 139 David speaks historically first of all, and then he invites the searching. What do you say about that?"
+     "speaker": "JR",
+     "text": [
+      "This would be what we call self-judgment, only in depth, would it not? It is not by any means superficial."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "My concern would be whether we are up to that. Have we the faith in God that would say to God, \"Search me, O God, and know my heart; prove me, and know my thoughts\"?"
+     "speaker": "JNG",
+     "text": [
+      "I do not know what you think but I do think in my own exercises that the test is as to whether I go all the way. I will go halfway, yes; I will meet things as far as I can but will I go all the way? Do I know God? Do I know my God sufficiently to ask Him to search me?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "The note to that word 'thoughts' is quite illuminating, is it not? It says, 'anxious (or conflicting) thoughts', which is rather expressive of our own exercises sometimes in the pressures that come upon you. Anxious or conflicting thoughts - perhaps we would hide them from our brethren, or hide them from one another, but God would search us, and He would perhaps give us to understand regarding these things, would you say?"
+     "speaker": "RSR",
+     "text": [
+      "In 1 Corinthians 11 it says, \"But let a man prove himself, and thus eat\" (v 28). That is what we do, and we do it, I take it, constantly, but this is God proving us. We would get a right estimate if God proves us, would we not?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "He will search us, but do we know Him enough to ask Him to search us?"
+     "speaker": "JNG",
+     "text": [
+      "It is not what you are in the presence of your brethren but what you are in the presence of God, and there are no secrets there; you cannot hide anything from God, can you? You can hide things from one another but you cannot hide from God."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "On Saturday we had the inwards, did we not? This would affect our inwards, do you think? They are exposed to God in any case, but to invite them to be exposed to ourselves would be something intimate, would it?"
+     "speaker": "JM",
+     "text": [
+      "Paul says, \"he that examines me is the Lord\", 1 Cor 4: 4."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think that; that would be the test. What encourages me in regard to this is that it is a psalm of David. You think of what David went through and his sin and what he did, but how he met it and repented of his sin in the presence of God; and here he says, \"Search me, O God, and know my heart; prove me, and know my thoughts; And see if there be any grievous way in me; and lead me in the way everlasting\". I think, or I am coming to think, that often we do not go the whole way in our thoughts and our ways. We ask God to do something for us, but do we have the courage, have we the faith to say to God, \"Search me, O God, and know my heart; prove me, and know my thoughts; And see ...\" Have we the courage to do that, open our hearts completely to God? Maybe we will find He will lead us in the way everlasting."
+     "speaker": "JNG",
+     "text": [
+      "Yes, He does. Well, just keep in our mind who He is that is examining us."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is very like the word of God which is \"sharper than any two-edged sword\", penetrating, and discerning \"the thoughts and intents of the heart\", Heb 4: 12."
+     "speaker": "WD",
+     "text": [
+      "Do you think what David says earlier in the Psalm had helped him in this matter, from verse 14 onward and then on to verse 17? \"But how precious are thy thoughts unto me, O God! how great is the sum of them! If I would count them, they are more in number than the sand. When I awake, I am still with thee\", as if that personal link in a vital sense with God enabled him to stand the searching inwardly."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is a very good reference. Then immediately following that there is a reference to the priesthood of Christ, and if we are prepared for the searching we will prove what the priesthood of Christ really means."
+     "speaker": "JNG",
+     "text": [
+      "Really I suppose on our side it is an assurance of the new covenant and God's love toward us, that we know God in that way, that His heart is entirely toward us that we would invite Him to search us. There is nothing that God has in His heart against us. It tests us as to our knowledge of God, and that to me is the vitality of Christianity.",
+      "R.S-n. Even from the very outset of this chapter, \"Jehovah, thou hast searched me, and known me\", it seems a very deep matter with him. He speaks three times in this chapter about searching."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "This would be what we call self-judgment, only in depth, would it not? It is not by any means superficial."
-    },
-    {
-     "speaker": "J.N.G.",
-     "text": "I do not know what you think but I do think in my own exercises that the test is as to whether I go all the way. I will go halfway, yes; I will meet things as far as I can but will I go all the way? Do I know God? Do I know my God sufficiently to ask Him to search me?"
-    },
-    {
-     "speaker": "R.S.R.",
-     "text": "In 1 Corinthians 11 it says, \"But let a man prove himself, and thus eat\" (v 28). That is what we do, and we do it, I take it, constantly, but this is God proving us. We would get a right estimate if God proves us, would we not?"
-    },
-    {
-     "speaker": "J.N.G.",
-     "text": "It is not what you are in the presence of your brethren but what you are in the presence of God, and there are no secrets there; you cannot hide anything from God, can you? You can hide things from one another but you cannot hide from God."
-    },
-    {
-     "speaker": "J.M.",
-     "text": "Paul says, \"he that examines me is the Lord\", 1 Cor 4: 4."
-    },
-    {
-     "speaker": "J.N.G.",
-     "text": "Yes, He does. Well, just keep in our mind who He is that is examining us."
-    },
-    {
-     "speaker": "W.D.",
-     "text": "Do you think what David says earlier in the Psalm had helped him in this matter, from verse 14 onward and then on to verse 17? \"But how precious are thy thoughts unto me, O God! how great is the sum of them! If I would count them, they are more in number than the sand. When I awake, I am still with thee\", as if that personal link in a vital sense with God enabled him to stand the searching inwardly."
-    },
-    {
-     "speaker": "J.N.G.",
-     "text": "Really I suppose on our side it is an assurance of the new covenant and God's love toward us, that we know God in that way, that His heart is entirely toward us that we would invite Him to search us. There is nothing that God has in His heart against us. It tests us as to our knowledge of God, and that to me is the vitality of Christianity."
-    },
-    {
-     "text": "R.S-n. Even from the very outset of this chapter, \"Jehovah, thou hast searched me, and known me\", it seems a very deep matter with him. He speaks three times in this chapter about searching."
-    },
-    {
-     "speaker": "J.N.G.",
-     "text": "Well, it is evident that the searchings he had been through with God did not discourage him and only made him want to know God better."
+     "speaker": "JNG",
+     "text": [
+      "Well, it is evident that the searchings he had been through with God did not discourage him and only made him want to know God better."
+     ]
     }
    ]
   },
@@ -713,6 +955,20 @@
      "text": "The scarlet robe arrayed on Jesus was removed again, but it seems that He still wore the crown of thorns when on the cross. This was all in mockery, but is the crucified One the true King and Victor in your heart?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "PROVING AS THE MEANS OF VITALITY",
+   "kind": "default_place",
+   "detail": "EDINBURGH given to 12 names (\"All local unless otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "PROVING AS THE MEANS OF VITALITY",
+   "kind": "speaker_not_in_key",
+   "detail": "JGJr (in the text)"
   }
  ]
 }

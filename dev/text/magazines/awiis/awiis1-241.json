@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,43 +26,145 @@
    "place": "TORONTO",
    "date": "11 October 1991",
    "speakers": [
-    "J.A.G.",
-    "H.J.G.",
-    "E.C.B.",
-    "B.J.",
-    "M.P.",
-    "R.G.J.",
-    "G.R.",
-    "W.A.M.",
-    "C.F.D.",
-    "H.J.B.",
-    "J.A.P.",
-    "D.T.H.",
-    "W.S.C.",
-    "K.A.O.",
-    "G.D.P.",
-    "D.N.M.",
-    "R.N.H.",
-    "R.B.H.",
-    "J.N.M.",
-    "S.E.H."
+    "JAG",
+    "HJG",
+    "ECB",
+    "BJ",
+    "MP",
+    "RGJ",
+    "GR",
+    "WAM",
+    "CFD",
+    "HJB",
+    "JAP",
+    "DTH",
+    "LMcF",
+    "WSC",
+    "KAO",
+    "GDP",
+    "DNM",
+    "RNH",
+    "RBH",
+    "JNM",
+    "SEH"
    ],
    "initials": [
     {
-     "initials": "T",
-     "name": "Toronto if not otherwise stated"
-    },
-    {
      "initials": "ECB",
      "name": "E.C.Burr",
-     "place": "London: W.S.Chellberg, Chicago: C.F.Dadd, Plainfield: J.A.Gardiner, Aberdeen: R.J.Gilroy: H.J.Glass: R.N.Hesterman, Woodstock: S.E.Hesterman, Plainfield: R.B.Hill: D.T.Howie, Edmonton: B.Jensen, Los Angeles: R.G.Johnston, Woodstock: KA.Knauss, Indianapolis: L.McFarlane, New York: J.N.Mooney: W.A.Moseley, Vancouver: K A.Oberg, Villa Grove: M.Pavlik, Dolny Kubin: J.A.Petersen, Plainfield: G.D.Pfingst, Plainfield: G.Rosenberry, San Francisco"
+     "place": "London"
     },
     {
-     "initials": "T",
-     "name": "The further meetings in this series will be published here"
+     "initials": "WSC",
+     "name": "W.S.Chellberg",
+     "place": "Chicago"
+    },
+    {
+     "initials": "CFD",
+     "name": "C.F.Dadd",
+     "place": "Plainfield"
+    },
+    {
+     "initials": "JAG",
+     "name": "J.A.Gardiner",
+     "place": "Aberdeen"
+    },
+    {
+     "initials": "RJG",
+     "name": "R.J.Gilroy",
+     "place": "Toronto"
+    },
+    {
+     "initials": "HJG",
+     "name": "H.J.Glass",
+     "place": "Toronto"
+    },
+    {
+     "initials": "RNH",
+     "name": "R.N.Hesterman",
+     "place": "Woodstock"
+    },
+    {
+     "initials": "SEH",
+     "name": "S.E.Hesterman",
+     "place": "Plainfield"
+    },
+    {
+     "initials": "RBH",
+     "name": "R.B.Hill",
+     "place": "Toronto"
+    },
+    {
+     "initials": "DTH",
+     "name": "D.T.Howie",
+     "place": "Edmonton"
+    },
+    {
+     "initials": "BJ",
+     "name": "B.Jensen",
+     "place": "Los Angeles"
+    },
+    {
+     "initials": "RGJ",
+     "name": "R.G.Johnston",
+     "place": "Woodstock"
+    },
+    {
+     "initials": "KK",
+     "name": "KA.Knauss",
+     "place": "Indianapolis"
+    },
+    {
+     "initials": "LMcF",
+     "name": "L.McFarlane",
+     "place": "New York"
+    },
+    {
+     "initials": "JNM",
+     "name": "J.N.Mooney",
+     "place": "Toronto"
+    },
+    {
+     "initials": "WAM",
+     "name": "W.A.Moseley",
+     "place": "Vancouver"
+    },
+    {
+     "initials": "KAO",
+     "name": "K A.Oberg",
+     "place": "Villa Grove"
+    },
+    {
+     "initials": "MP",
+     "name": "M.Pavlik",
+     "place": "Dolny Kubin"
+    },
+    {
+     "initials": "JAP",
+     "name": "J.A.Petersen",
+     "place": "Plainfield"
+    },
+    {
+     "initials": "GDP",
+     "name": "G.D.Pfingst",
+     "place": "Plainfield"
+    },
+    {
+     "initials": "GR",
+     "name": "G.Rosenberry",
+     "place": "Toronto"
+    },
+    {
+     "initials": "HJB",
+     "not_in_key": true
+    },
+    {
+     "initials": "DNM",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "Toronto if not otherwise stated; San Francisco The further meetings in this series will be published here",
    "initials_text": [
     "Toronto if not otherwise stated",
     "E.C.Burr, London: W.S.Chellberg, Chicago: C.F.Dadd, Plainfield: J.A.Gardiner, Aberdeen: R.J.Gilroy: H.J.Glass: R.N.Hesterman, Woodstock: S.E.Hesterman, Plainfield: R.B.Hill: D.T.Howie, Edmonton: B.Jensen, Los Angeles: R.G.Johnston, Woodstock: KA.Knauss, Indianapolis: L.McFarlane, New York: J.N.Mooney: W.A.Moseley, Vancouver: K A.Oberg, Villa Grove: M.Pavlik, Dolny Kubin: J.A.Petersen, Plainfield: G.D.Pfingst, Plainfield: G.Rosenberry, San Francisco",
@@ -70,742 +172,1044 @@
    ],
    "paragraphs": [
     {
-     "speaker": "J.A.G.",
-     "text": "I wondered if we could help one another on the line of discipleship. It is very much in mind in this gospel. I think everybody present would be one of the disciples of the Lord Jesus - a very blessed situation. They are concerned to learn, then to follow: I think that is the characteristic of disciples - wherever the Lord is they want to be. So here He takes up a position and they come to Him. They are characteristically persons who choose the good part which cannot be taken from them. When He opens His mouth and teaches them, it is all blessing - \"blessed\", He says. We need to see the moral character of things as over against what relates to the Jewish remnant, but I think the Lord might help us as we proceed to see the importance of these features that relate to the kingdom, because they lead to the assembly and to the house. If the Lord helps us we shall come to the rock, and the power and effectiveness of the disciple in self-judgment. He has a judiciary department which is most effective, and offenders are dealt with summarily so that what is in evidence is Christ."
+     "speaker": "JAG",
+     "text": [
+      "I wondered if we could help one another on the line of discipleship. It is very much in mind in this gospel. I think everybody present would be one of the disciples of the Lord Jesus - a very blessed situation. They are concerned to learn, then to follow: I think that is the characteristic of disciples - wherever the Lord is they want to be. So here He takes up a position and they come to Him. They are characteristically persons who choose the good part which cannot be taken from them. When He opens His mouth and teaches them, it is all blessing - \"blessed\", He says. We need to see the moral character of things as over against what relates to the Jewish remnant, but I think the Lord might help us as we proceed to see the importance of these features that relate to the kingdom, because they lead to the assembly and to the house. If the Lord helps us we shall come to the rock, and the power and effectiveness of the disciple in self-judgment. He has a judiciary department which is most effective, and offenders are dealt with summarily so that what is in evidence is Christ.",
+      "It is very blessed teaching in these chapters. We do not have time to cover it all, but here the disciples are going up to the mountain, and then the force of the teaching promotes exercise, so they dig and go deep and come to the rock - established in Christ, a blessed thing! It is hoped if the Lord will in the next reading to see how the priesthood of Christ in chapter 14 sustains us in that position. We fail and we are weak but eventually we walk on the water. We come to assembly touches in the hem of His garment, the healing. And if we can continue we might come to the point where at the end of the gospel we make disciples. The greatness of the Name opens up to us in view of the service of God, and we come through to a point where the disciple is as His teacher. I think that is the character of the mighty men whom David had: it is very fine. So that there is power and substance to build a house."
+     ]
     },
     {
-     "text": "It is very blessed teaching in these chapters. We do not have time to cover it all, but here the disciples are going up to the mountain, and then the force of the teaching promotes exercise, so they dig and go deep and come to the rock - established in Christ, a blessed thing! It is hoped if the Lord will in the next reading to see how the priesthood of Christ in chapter 14 sustains us in that position. We fail and we are weak but eventually we walk on the water. We come to assembly touches in the hem of His garment, the healing. And if we can continue we might come to the point where at the end of the gospel we make disciples. The greatness of the Name opens up to us in view of the service of God, and we come through to a point where the disciple is as His teacher. I think that is the character of the mighty men whom David had: it is very fine. So that there is power and substance to build a house."
+     "speaker": "HJG",
+     "text": [
+      "A disciple would involve discipline, and it says here, \"having opened his mouth, he taught them\". We have had a good deal of exercise up until our coming here and now we would be tested again as to whether we are prepared to be taught by Him."
+     ]
     },
     {
-     "speaker": "H.J.G.",
-     "text": "A disciple would involve discipline, and it says here, \"having opened his mouth, he taught them\". We have had a good deal of exercise up until our coming here and now we would be tested again as to whether we are prepared to be taught by Him."
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think so. The motivation is desire for Christ. He went up into the mountain and sat down and His disciples came to Him. I think, like Mary in Luke 10, they choose the good part, the which shall not be taken from them. They want to follow the Lord to be where He is: that is discipleship. It is a great line of teaching and training that is proper to Christianity. There is nothing optional in it; of course you do not want it to be optional - you are doing things for His sake (v 11). He takes up an elevated position and it requires exercise I suppose, and breath which involves the Spirit, to move to where the Lord has located Himself. You are free then from alien influences and restful in His presence. He \"sat down\", \"and, having opened his mouth, he taught them\"."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think so. The motivation is desire for Christ. He went up into the mountain and sat down and His disciples came to Him. I think, like Mary in Luke 10, they choose the good part, the which shall not be taken from them. They want to follow the Lord to be where He is: that is discipleship. It is a great line of teaching and training that is proper to Christianity. There is nothing optional in it; of course you do not want it to be optional - you are doing things for His sake (v 11). He takes up an elevated position and it requires exercise I suppose, and breath which involves the Spirit, to move to where the Lord has located Himself. You are free then from alien influences and restful in His presence. He \"sat down\", \"and, having opened his mouth, he taught them\"."
+     "speaker": "ECB",
+     "text": [
+      "So far as I see, there is no earlier reference to disciples in this gospel; it is as if they identify themselves."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "So far as I see, there is no earlier reference to disciples in this gospel; it is as if they identify themselves."
+     "speaker": "JAG",
+     "text": [
+      "Exactly: the Spirit clothes them with that wonderful designation because they come to Jesus and I think that is what has happened today. The Lord has taken up a position and the disciples have come, as many as are available, to sit down. He has sat down and He wants to teach. This is a very blessed situation, beloved, that in these days we can have a meeting like this; and the Lord wants to teach us, teach us about disciples, to bring out the characteristic features morally of the Father, to teach us about the kingdom. When we go on to 1 Chronicles 29 we will find out that His is the kingdom in His greatness, He is Head over all and He rules over all in love."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly: the Spirit clothes them with that wonderful designation because they come to Jesus and I think that is what has happened today. The Lord has taken up a position and the disciples have come, as many as are available, to sit down. He has sat down and He wants to teach. This is a very blessed situation, beloved, that in these days we can have a meeting like this; and the Lord wants to teach us, teach us about disciples, to bring out the characteristic features morally of the Father, to teach us about the kingdom. When we go on to 1 Chronicles 29 we will find out that His is the kingdom in His greatness, He is Head over all and He rules over all in love."
+     "speaker": "BJ",
+     "text": [
+      "Is this like what Moses did in chapter 29 of Deuteronomy? He teaches the people as to the way that God would have them go."
+     ]
     },
     {
-     "speaker": "B.J.",
-     "text": "Is this like what Moses did in chapter 29 of Deuteronomy? He teaches the people as to the way that God would have them go."
+     "speaker": "JAG",
+     "text": [
+      "Yes; they were going into the inheritance. It is the Jewish position here. We have to understand the fact that the Lord in coming here would have established the kingdom in Israel, actually, substantially, and that is the link with Deuteronomy because they were about to go into the inheritance. He was rejected, but morally this thing remains, this is the position - very blessed! He opens His mouth and He teaches them and the first thing He says is \"Blessed\"."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes; they were going into the inheritance. It is the Jewish position here. We have to understand the fact that the Lord in coming here would have established the kingdom in Israel, actually, substantially, and that is the link with Deuteronomy because they were about to go into the inheritance. He was rejected, but morally this thing remains, this is the position - very blessed! He opens His mouth and He teaches them and the first thing He says is \"Blessed\"."
+     "speaker": "MP",
+     "text": [
+      "The elevation of the situation on the mountain has been stressed. I think it is touching that the Lord in His first words refers to the poor; He descends in His spirit and in His whole being to the level of the poor and despised on this earth."
+     ]
     },
     {
-     "speaker": "M.P.",
-     "text": "The elevation of the situation on the mountain has been stressed. I think it is touching that the Lord in His first words refers to the poor; He descends in His spirit and in His whole being to the level of the poor and despised on this earth."
+     "speaker": "JAG",
+     "text": [
+      "Yes, He is showing the blessedness of the remnant as over against the Pharisees. The poor would be the poor in spirit, would they not?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, He is showing the blessedness of the remnant as over against the Pharisees. The poor would be the poor in spirit, would they not?"
+     "speaker": "MP",
+     "text": [
+      "The poor of the flock."
+     ]
     },
     {
-     "speaker": "M.P.",
-     "text": "The poor of the flock."
+     "speaker": "JAG",
+     "text": [
+      "And that is the brethren here; they are poor in spirit, they are not assuming to be anything, they are not presumptuous, they are looking to the Lord for help and for teaching. The disciples come to Him, on this elevated level; they are anxious, they are earnest to get help because He is the centre of their whole being. It is now a question of the Lord coming into the meetings and effecting something in grace in the souls of the brethren, and that is what we are looking for."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "And that is the brethren here; they are poor in spirit, they are not assuming to be anything, they are not presumptuous, they are looking to the Lord for help and for teaching. The disciples come to Him, on this elevated level; they are anxious, they are earnest to get help because He is the centre of their whole being. It is now a question of the Lord coming into the meetings and effecting something in grace in the souls of the brethren, and that is what we are looking for."
+     "speaker": "RGJ",
+     "text": [
+      "Did Paul learn something of this when he went into Arabia? He would learn there what the Lord had in mind for him to do."
+     ]
     },
     {
-     "speaker": "R.G.J.",
-     "text": "Did Paul learn something of this when he went into Arabia? He would learn there what the Lord had in mind for him to do."
+     "speaker": "JAG",
+     "text": [
+      "We were reading about him this morning, how he went up to Jerusalem in Acts 9, and he wanted to join the disciples and they did not want to have too much to do with him, but Barnabas came in and helped him - a sort of mediation between them. We need to be on the outlook for the work of God; it is a tremendous thing to look out for what God is going to do. We might say it is hopeless with persons like Saul of Tarsus."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "We were reading about him this morning, how he went up to Jerusalem in Acts 9, and he wanted to join the disciples and they did not want to have too much to do with him, but Barnabas came in and helped him - a sort of mediation between them. We need to be on the outlook for the work of God; it is a tremendous thing to look out for what God is going to do. We might say it is hopeless with persons like Saul of Tarsus."
+     "speaker": "HJG",
+     "text": [
+      "Do you think that the Lord has His eye on such persons? Over and over again I noticed in the reading of it that He says, \"ye\" - \"Blessed are ye\". He has His eye on persons, does He not?"
+     ]
     },
     {
-     "speaker": "H.J.G.",
-     "text": "Do you think that the Lord has His eye on such persons? Over and over again I noticed in the reading of it that He says, \"ye\" - \"Blessed are ye\". He has His eye on persons, does He not?"
+     "speaker": "JAG",
+     "text": [
+      "He has indeed, because He sets out the thing objectively in the first ten verses, and then He says, \"Blessed are ye\"; before that it is \"Blessed are they\". So the Lord looks over the meeting, He sees all the brethren and He says, I am going to give them this, this one is going to get this and that one is going to get something else, and it is all going to be blessing; and we should look out for blessing."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "He has indeed, because He sets out the thing objectively in the first ten verses, and then He says, \"Blessed are ye\"; before that it is \"Blessed are they\". So the Lord looks over the meeting, He sees all the brethren and He says, I am going to give them this, this one is going to get this and that one is going to get something else, and it is all going to be blessing; and we should look out for blessing."
+     "speaker": "GR",
+     "text": [
+      "Do you have more in your mind as to the mountain?"
+     ]
     },
     {
-     "speaker": "G.R.",
-     "text": "Do you have more in your mind as to the mountain?"
+     "speaker": "JAG",
+     "text": [
+      "As we well know, it is the mount of legislation. He is bringing out the elements of rule and authority, features which amongst the brethren are influential. They are like the ordinances of the heavens, they affect the earth. It is a great thing when that is so amongst us. God says to Job, \"Knowest thou the ordinances of the heavens?\", Job 38: 33. This gospel is full of it, and along with them of course goes heavenly royalty; so there is moral influence and authority when these features are amongst the brethren. The first one, as we have said, is poor in spirit: \"Blessed are the poor in spirit\"."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "As we well know, it is the mount of legislation. He is bringing out the elements of rule and authority, features which amongst the brethren are influential. They are like the ordinances of the heavens, they affect the earth. It is a great thing when that is so amongst us. God says to Job, \"Knowest thou the ordinances of the heavens?\", Job 38: 33. This gospel is full of it, and along with them of course goes heavenly royalty; so there is moral influence and authority when these features are amongst the brethren. The first one, as we have said, is poor in spirit: \"Blessed are the poor in spirit\"."
+     "speaker": "WAM",
+     "text": [
+      "This blessing comes in on the responsible side; it is not on the sovereign side exactly."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "This blessing comes in on the responsible side; it is not on the sovereign side exactly."
+     "speaker": "JAG",
+     "text": [
+      "Yes, it has to do with the wilderness and circumstances of contrariety. Consequently you have to say to yourself, How can I get this blessing? How can I be poor in spirit?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, it has to do with the wilderness and circumstances of contrariety. Consequently you have to say to yourself, How can I get this blessing? How can I be poor in spirit?"
+     "speaker": "WAM",
+     "text": [
+      "I suppose the Spirit of God would need to be in it."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "I suppose the Spirit of God would need to be in it."
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think through it all, in its application to us, is the teaching of the gospel."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think through it all, in its application to us, is the teaching of the gospel."
+     "speaker": "ECB",
+     "text": [
+      "Does the end of chapter 11 correspond? \"Come to me, all ye who labour and are burdened, and I will give you rest\" (v 28). Is that not an attractive way for disciples?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does the end of chapter 11 correspond? \"Come to me, all ye who labour and are burdened, and I will give you rest\" (v 28). Is that not an attractive way for disciples?"
+     "speaker": "JAG",
+     "text": [
+      "Yes, that corresponds very much. That is why I referred to Luke 10 when Mary sat down at His feet and chose the better part, which is evidently the same thing as chapter 11. She had arrived at it and found rest for her soul."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, that corresponds very much. That is why I referred to Luke 10 when Mary sat down at His feet and chose the better part, which is evidently the same thing as chapter 11. She had arrived at it and found rest for her soul."
+     "speaker": "ECB",
+     "text": [
+      "There is a certain completion of the section of the Lord's teaching up to chapter 11, when He goes out to the cornfields."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "There is a certain completion of the section of the Lord's teaching up to chapter 11, when He goes out to the cornfields."
+     "speaker": "JAG",
+     "text": [
+      "We have had great help about that in the ministry, Christ as turning point and model. He is rejected, is He not? Then in chapter 13 there is the opening up of the mysteries. It is a fine thing to understand that the miracles are what is from God to man: the parables in chapter 13 are man's response to God."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "We have had great help about that in the ministry, Christ as turning point and model. He is rejected, is He not? Then in chapter 13 there is the opening up of the mysteries. It is a fine thing to understand that the miracles are what is from God to man: the parables in chapter 13 are man's response to God."
+     "speaker": "CFD",
+     "text": [
+      "It says, \"Blessed are the poor in spirit, for theirs is the kingdom of the heavens\". Is it to be noted that the Lord begins His extended discourse with this reference to the kingdom of the heavens?"
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "It says, \"Blessed are the poor in spirit, for theirs is the kingdom of the heavens\". Is it to be noted that the Lord begins His extended discourse with this reference to the kingdom of the heavens?"
+     "speaker": "JAG",
+     "text": [
+      "I think so; the Lord comes in for the poor in spirit and makes way for them. Think of the way that God made way for Ruth because she was poor in spirit! Here is a young widow and her mother-in-law; they were poor materially but they were poor in spirit. (We are in very practical matters here.) God made way for them; He immediately puts them in touch with a mighty man of wealth. It is practical, it is real; we are not talking about things that are not real; it actually happens. These chapters bring out the greatness of the Father as a God in the heavens, beloved, who cares for the very hairs of your head. We need to think about that, because persons are under pressure and there is concern and so forth, but you think of the poor in spirit, \"theirs is the kingdom of the heavens\". It is all yours, beloved, if you are poor in spirit."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so; the Lord comes in for the poor in spirit and makes way for them. Think of the way that God made way for Ruth because she was poor in spirit! Here is a young widow and her mother-in-law; they were poor materially but they were poor in spirit. (We are in very practical matters here.) God made way for them; He immediately puts them in touch with a mighty man of wealth. It is practical, it is real; we are not talking about things that are not real; it actually happens. These chapters bring out the greatness of the Father as a God in the heavens, beloved, who cares for the very hairs of your head. We need to think about that, because persons are under pressure and there is concern and so forth, but you think of the poor in spirit, \"theirs is the kingdom of the heavens\". It is all yours, beloved, if you are poor in spirit."
+     "speaker": "HJB",
+     "text": [
+      "What is it to be poor in spirit? Is it the opposite to the pride of the flesh and the pride of life?"
+     ]
     },
     {
-     "speaker": "H.J.B.",
-     "text": "What is it to be poor in spirit? Is it the opposite to the pride of the flesh and the pride of life?"
+     "speaker": "JAG",
+     "text": [
+      "I think so, the opposite to pomposity, persons who think to promote themselves in that sense. You wait on God."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so, the opposite to pomposity, persons who think to promote themselves in that sense. You wait on God."
+     "speaker": "WAM",
+     "text": [
+      "We have been saved from that. What marked us at one time was the opposite to what is poor in spirit."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "We have been saved from that. What marked us at one time was the opposite to what is poor in spirit."
+     "speaker": "JAG",
+     "text": [
+      "We want to be poor in spirit now."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "We want to be poor in spirit now."
+     "speaker": "WAM",
+     "text": [
+      "Yes, and it is wonderful grace that the Lord has recovered us to it."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "Yes, and it is wonderful grace that the Lord has recovered us to it."
+     "speaker": "JAG",
+     "text": [
+      "Now let us keep on at that line because the kingdom of the heavens is yours and that is a tremendous thing. There are young people here and much is upon them in life, but if they are poor in spirit the whole of the kingdom of the heavens is theirs."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Now let us keep on at that line because the kingdom of the heavens is yours and that is a tremendous thing. There are young people here and much is upon them in life, but if they are poor in spirit the whole of the kingdom of the heavens is theirs."
+     "speaker": "ECB",
+     "text": [
+      "Where do these characteristics come from? Jesus speaks of them as if they exist in the disciples who are coming."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Where do these characteristics come from? Jesus speaks of them as if they exist in the disciples who are coming."
+     "speaker": "JAG",
+     "text": [
+      "They are in Himself, are they not?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "They are in Himself, are they not?"
+     "speaker": "ECB",
+     "text": [
+      "Yes, but they were in them."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, but they were in them."
+     "speaker": "JAG",
+     "text": [
+      "Yes, they are in them but they have to be developed. Then you have to be exercised and find that these things mature in you."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, they are in them but they have to be developed. Then you have to be exercised and find that these things mature in you."
+     "speaker": "ECB",
+     "text": [
+      "Hence, He opened His mouth and taught them. He taught teachable material."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Hence, He opened His mouth and taught them. He taught teachable material."
+     "speaker": "JAG",
+     "text": [
+      "Yes, because they were subject persons."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, because they were subject persons."
+     "speaker": "JAP",
+     "text": [
+      "Did not Mr Stoney write hymn no.7 when he was under 20 - 'Yon heaven is our home'?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Did not Mr Stoney write hymn no.7 when he was under 20 - 'Yon heaven is our home'?"
+     "speaker": "JAG",
+     "text": [
+      "How many people here can say that? It is true of every Christian. Then we are looking for the Lord to come. It is interesting that Paul was only three weeks in Thessalonica and he spent a lot of time speaking to them about the Lord's coming and about the appearing."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "How many people here can say that? It is true of every Christian. Then we are looking for the Lord to come. It is interesting that Paul was only three weeks in Thessalonica and he spent a lot of time speaking to them about the Lord's coming and about the appearing."
+     "speaker": "JAP",
+     "text": [
+      "What do we learn from that?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "What do we learn from that?"
+     "speaker": "JAG",
+     "text": [
+      "I think it causes us to be poor in spirit and wait for the kingdom, \"await his Son from the heavens ... Jesus, our deliverer from the coming wrath\", 1 Thess 1: 10. What a difference it would make to our lives if that was actively working in our souls!"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think it causes us to be poor in spirit and wait for the kingdom, \"await his Son from the heavens ... Jesus, our deliverer from the coming wrath\", 1 Thess 1: 10. What a difference it would make to our lives if that was actively working in our souls!"
+     "speaker": "GR",
+     "text": [
+      "And maintain a sense, too, in our souls of the sorrowful breakdown. If we are a testimony to anything, as someone has said, we are a testimony to the ruin. Would that be part of this? We are feeling it. Mr Lyon used to refer to broken-hearted churchmen."
+     ]
     },
     {
-     "speaker": "G.R.",
-     "text": "And maintain a sense, too, in our souls of the sorrowful breakdown. If we are a testimony to anything, as someone has said, we are a testimony to the ruin. Would that be part of this? We are feeling it. Mr Lyon used to refer to broken-hearted churchmen."
+     "speaker": "JAG",
+     "text": [
+      "Yes, but there is no mention of ruin here; it is all blessing. We need to adopt this great positive line of things and find that there is an area of blessing that the Lord is opening up."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, but there is no mention of ruin here; it is all blessing. We need to adopt this great positive line of things and find that there is an area of blessing that the Lord is opening up."
+     "speaker": "DTH",
+     "text": [
+      "Is the substantial side in the name Emmanuel at the beginning of the gospel: \"God with us\", chap 1: 23?"
+     ]
     },
     {
-     "speaker": "D.T.H.",
-     "text": "Is the substantial side in the name Emmanuel at the beginning of the gospel: \"God with us\", chap 1: 23?"
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think it runs right through to the end: \"behold, I am with you all the days, until the completion of the age\" (chap 28: 20), that is continuity on that line. But He has disciples, the Lord has taken up a position and they go up to where He is, and He opens His mouth and He teaches them. And, as has just been said, they are material that can be taught because they are in principle in the gain of the kingdom. Is that what you had in mind?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think it runs right through to the end: \"behold, I am with you all the days, until the completion of the age\" (chap 28: 20), that is continuity on that line. But He has disciples, the Lord has taken up a position and they go up to where He is, and He opens His mouth and He teaches them. And, as has just been said, they are material that can be taught because they are in principle in the gain of the kingdom. Is that what you had in mind?"
+     "speaker": "ECB",
+     "text": [
+      "Yes, and the reference to the kingdom of the heavens would bring it specially into our own time, because the kingdom of the heavens, as I understand it, implies that the King is in heaven. Hence the Lord makes two references to it. Then He says, \"your reward is great in the heavens\". That is not postponed, is it?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, and the reference to the kingdom of the heavens would bring it specially into our own time, because the kingdom of the heavens, as I understand it, implies that the King is in heaven. Hence the Lord makes two references to it. Then He says, \"your reward is great in the heavens\". That is not postponed, is it?"
+     "speaker": "JAG",
+     "text": [
+      "No, that is why I said we are to get to know the ordinances of the heavens, the rule of heaven upon the earth. You find persons here and they are under a different kind of government, different regulation. Their mind is on the things that are above, where the Christ is."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "No, that is why I said we are to get to know the ordinances of the heavens, the rule of heaven upon the earth. You find persons here and they are under a different kind of government, different regulation. Their mind is on the things that are above, where the Christ is."
+     "speaker": "BJ",
+     "text": [
+      "Are there not several mountains in Matthew's gospel? There is ministry in relation to what is coming from above."
+     ]
     },
     {
-     "speaker": "B.J.",
-     "text": "Are there not several mountains in Matthew's gospel? There is ministry in relation to what is coming from above."
+     "speaker": "JAG",
+     "text": [
+      "I think this is the mount of legislation. These are the features that rule, they have influence and authority. The king in Daniel was brought to realise that the heavens ruled. These are royal features that carry influence and authority, and disciples are becoming like the King. Royalty is in mind in this gospel. All these blessings are very fine. We should be concerned, yea delighted, to get into them: \"Blessed are the poor in spirit\", \"Blessed are they that mourn, for they shall be comforted\". How fine it is to be comforted of God, Jesus comforting you in relation to the assembly, to the breakdown, or whatever it might be. It does not have to be the breakdown, it can be various other features that cause us to mourn. \"Blessed the meek, for they shall inherit the earth\". It is all blessing; it is not exactly the new covenant but the spirit of it all through these chapters."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think this is the mount of legislation. These are the features that rule, they have influence and authority. The king in Daniel was brought to realise that the heavens ruled. These are royal features that carry influence and authority, and disciples are becoming like the King. Royalty is in mind in this gospel. All these blessings are very fine. We should be concerned, yea delighted, to get into them: \"Blessed are the poor in spirit\", \"Blessed are they that mourn, for they shall be comforted\". How fine it is to be comforted of God, Jesus comforting you in relation to the assembly, to the breakdown, or whatever it might be. It does not have to be the breakdown, it can be various other features that cause us to mourn. \"Blessed the meek, for they shall inherit the earth\". It is all blessing; it is not exactly the new covenant but the spirit of it all through these chapters."
+     "speaker": "LMcF",
+     "text": [
+      "Ananias is referred to in Acts 9 as \"a certain disciple\" (v 10). Would the feature there of one who is ready for adjustment come into this thought of discipleship?"
+     ]
     },
     {
-     "text": "L.McF. Ananias is referred to in Acts 9 as \"a certain disciple\" (v 10). Would the feature there of one who is ready for adjustment come into this thought of discipleship?"
+     "speaker": "JAG",
+     "text": [
+      "I think so; he is, as it were, one of the mighty men whom David had. He is bound up in the bundle of the living. The Lord could say, Ananias, you are available. There is great scope in the Scriptures and in the truth."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so; he is, as it were, one of the mighty men whom David had. He is bound up in the bundle of the living. The Lord could say, Ananias, you are available. There is great scope in the Scriptures and in the truth."
+     "speaker": "WAM",
+     "text": [
+      "So \"sufficient for the disciple that he should become as his teacher, and the bondman as his lord\", Matt 10: 25. Is that what is in mind here, that we should become as the Teacher?"
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "So \"sufficient for the disciple that he should become as his teacher, and the bondman as his lord\", Matt 10: 25. Is that what is in mind here, that we should become as the Teacher?"
+     "speaker": "JAG",
+     "text": [
+      "I think so; the mighty men whom David had became as their teacher. Later on we might touch Levi in Deuteronomy 33, Moses king in Jeshurun, your upright works, a whole line of things that run together in the kingdom, until finally, ''thine ... is the kingdom\", David says, 1 Chron 29: 11. A great line of truth is before us; we should just engage ourselves with the blessedness of these features. If you proceed on this line the testimony is to your upright works, and persons are to \"glorify your Father who is in the heavens\". Initially it is Jewish, it is the remnant, but morally it relates to Christianity, and you are going to manifest the features of your Father. These chapters are freighted with the knowledge of God. We surely need to be like our Father who is in the heavens."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so; the mighty men whom David had became as their teacher. Later on we might touch Levi in Deuteronomy 33, Moses king in Jeshurun, your upright works, a whole line of things that run together in the kingdom, until finally, ''thine ... is the kingdom\", David says, 1 Chron 29: 11. A great line of truth is before us; we should just engage ourselves with the blessedness of these features. If you proceed on this line the testimony is to your upright works, and persons are to \"glorify your Father who is in the heavens\". Initially it is Jewish, it is the remnant, but morally it relates to Christianity, and you are going to manifest the features of your Father. These chapters are freighted with the knowledge of God. We surely need to be like our Father who is in the heavens."
+     "speaker": "ECB",
+     "text": [
+      "You do not need to be broken-hearted to be a churchman, do you? In these three chapters the whole Jewish system is really being superseded, but Jesus says nothing to condemn it or anything about its breakdown; what He says is, there is something that is a great deal better."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "You do not need to be broken-hearted to be a churchman, do you? In these three chapters the whole Jewish system is really being superseded, but Jesus says nothing to condemn it or anything about its breakdown; what He says is, there is something that is a great deal better."
+     "speaker": "JAG",
+     "text": [
+      "Exactly, yes."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly, yes."
+     "speaker": "ECB",
+     "text": [
+      "Do you not wonder sometimes if we dwell too much on past failure?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you not wonder sometimes if we dwell too much on past failure?"
+     "speaker": "JAG",
+     "text": [
+      "Yes, because we cannot rise to 'Thy vast thoughts'.",
+      "'How may we rise to Thy vast thoughts,",
+      "Or apprehend Thy sovereign will –",
+      "The grace that sets our souls on high,",
+      "And love that brings us nearer still'.",
+      "(Hymn 116)",
+      "That is a fine hymn."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, because we cannot rise to 'Thy vast thoughts'."
+     "speaker": "WSC",
+     "text": [
+      "Does Gideon set out this type of person? He was threshing wheat in the wine-press, secretly developing on the disciple line: he had something else in mind other than what Midian was doing."
+     ]
     },
     {
-     "text": "'How may we rise to Thy vast thoughts,"
+     "speaker": "JAG",
+     "text": [
+      "I think that is very fine. He was concerned about it. He had all the right features, he was poor in spirit. He said, \"my thousand is the poorest in Manasseh, and I am the least in my father's house\", Judg 6: 15. Then God says, You are a mighty man of wealth, get on with the job. That is what we are at today, to get into this blessing, tremendous power and buoyancy and overcomingness in the kingdom. That is what it is. We do not have to go about apologetically, we need to be poor in spirit and humble. I know Mr Darby has volumes that are called Apologetic but that is not what it means. It is overcomingness; revival is a time of deliverance, and we are to be ready to move in the kingdom. Maybe we have not spoken enough about the kingdom."
+     ]
     },
     {
-     "text": "Or apprehend Thy sovereign will –"
+     "speaker": "MP",
+     "text": [
+      "I was thinking about the poor widow in Mark 12 casting her two mites into the treasury. It was what attracted the eyes of the Lord. Then the disciples showed Him the wonderful buildings of the temple and the Lord says, Do not look at that. What was outwardly great was not attracting Him but what was morally great in the poor widow."
+     ]
     },
     {
-     "text": "The grace that sets our souls on high,"
+     "speaker": "JAG",
+     "text": [
+      "She is a real disciple."
+     ]
     },
     {
-     "text": "And love that brings us nearer still'."
+     "speaker": "BJ",
+     "text": [
+      "Abigail represented the wonderful spirit we are talking about, but also she was rich in faith. She was not so self-condemning that she did not have something real working in her heart and soul."
+     ]
     },
     {
-     "text": "(Hymn 116)"
+     "speaker": "JAG",
+     "text": [
+      "She had a judgment of Nabal. Consequently she was delivered. So here we have \"access by faith into this favour in which we stand, and we boast in hope of the glory of God\", Rom 5: 2. These are wonderful chapters, and the Lord opens His mouth and everything is blessed. It is very positive and very full and that is what the kingdom is, that is what the rule of Christ in the heart is. When Jesus is supreme in your heart you are reigning in life, there is power and joy and happiness."
+     ]
     },
     {
-     "text": "That is a fine hymn."
+     "speaker": "HJG",
+     "text": [
+      "While we are to prove this individually, is there not a suggestion here of numbers - theirs is the kingdom of heaven, and peacemakers and so on. It is as though He is taking account of it and we are taking account of it and then there are persons who can work together at these things."
+     ]
     },
     {
-     "speaker": "W.S.C.",
-     "text": "Does Gideon set out this type of person? He was threshing wheat in the wine-press, secretly developing on the disciple line: he had something else in mind other than what Midian was doing."
+     "speaker": "JAG",
+     "text": [
+      "I think so, He gives us incentive. It is objective - \"Blessed they that mourn\": who would they be? \"Blessed the meek, for they shall inherit the earth\": who are they? You would like to meet them and find out how they became meek."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think that is very fine. He was concerned about it. He had all the right features, he was poor in spirit. He said, \"my thousand is the poorest in Manasseh, and I am the least in my father's house\", Judg 6: 15. Then God says, You are a mighty man of wealth, get on with the job. That is what we are at today, to get into this blessing, tremendous power and buoyancy and overcomingness in the kingdom. That is what it is. We do not have to go about apologetically, we need to be poor in spirit and humble. I know Mr Darby has volumes that are called Apologetic but that is not what it means. It is overcomingness; revival is a time of deliverance, and we are to be ready to move in the kingdom. Maybe we have not spoken enough about the kingdom."
+     "speaker": "KAO",
+     "text": [
+      "Would Mary be an example of one who was poor in spirit? She said, \"he has looked upon the low estate of his bondmaid\", but then she gets through to what is in mind: \"For the Mighty One has done to me great things\", Luke 1: 48,49. Would that be the result in mind?"
+     ]
     },
     {
-     "speaker": "M.P.",
-     "text": "I was thinking about the poor widow in Mark 12 casting her two mites into the treasury. It was what attracted the eyes of the Lord. Then the disciples showed Him the wonderful buildings of the temple and the Lord says, Do not look at that. What was outwardly great was not attracting Him but what was morally great in the poor widow."
+     "speaker": "JAG",
+     "text": [
+      "I think she had faith to apprehend, buoyantly and happily, the immensity of the responsibility that was put upon her. That is what the kingdom is. We need to make way for Christ in our hearts, we need to take up this position of elevation and get up into the mountain, be concerned, get on our knees and pray and ask the Lord to help us to have a clear view of what discipleship is."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "She is a real disciple."
+     "speaker": "WAM",
+     "text": [
+      "Is this the line on which we come to be the salt of the earth and the light of the world? He does not say you will become it, He says you are it."
+     ]
     },
     {
-     "speaker": "B.J.",
-     "text": "Abigail represented the wonderful spirit we are talking about, but also she was rich in faith. She was not so self-condemning that she did not have something real working in her heart and soul."
+     "speaker": "JAG",
+     "text": [
+      "Yes, He says \"Ye are the salt of the earth\". Of course, interpretatively that was the Jewish remnant and the earth was Israel; they are the light of the world. Pentecost and the assembly came out of Israel. \"She is the only one of her mother, She is the choice one of her who bore her\", Song of Sol 6: 9. Then, my master is old and his wife bore him a son in his old age (see Gen 24: 36), and that comes out in its fulness in the gentile world. That is the teaching of this gospel, and what is heavenly is to dominate. It begins early because we have seen His star and have followed the light."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "She had a judgment of Nabal. Consequently she was delivered. So here we have \"access by faith into this favour in which we stand, and we boast in hope of the glory of God\", Rom 5: 2. These are wonderful chapters, and the Lord opens His mouth and everything is blessed. It is very positive and very full and that is what the kingdom is, that is what the rule of Christ in the heart is. When Jesus is supreme in your heart you are reigning in life, there is power and joy and happiness."
+     "speaker": "CFD",
+     "text": [
+      "The disciples are not only interested and vital, they not only get up to where He is and enter into the teaching, but it says, \"Blessed they who hunger and thirst after righteousness\". They not only crave for the truth but are going to lay themselves open to get it and to find it in the Man."
+     ]
     },
     {
-     "speaker": "H.J.G.",
-     "text": "While we are to prove this individually, is there not a suggestion here of numbers - theirs is the kingdom of heaven, and peacemakers and so on. It is as though He is taking account of it and we are taking account of it and then there are persons who can work together at these things."
+     "speaker": "JAG",
+     "text": [
+      "That is why they went up the mountain. They put a bit of exercise and concern into it. The disciples came to Him and having opened His mouth He taught them. The Lord is free to open up His mind to that kind of person. That is what we need."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so, He gives us incentive. It is objective - \"Blessed they that mourn\": who would they be? \"Blessed the meek, for they shall inherit the earth\": who are they? You would like to meet them and find out how they became meek."
+     "speaker": "CFD",
+     "text": [
+      "Righteousness in Romans 14 (see v 17) is the first feature of the kingdom mentioned. Is that the way in, through the principle of righteousness, which of course is seen in perfection in Christ?"
+     ]
     },
     {
-     "speaker": "K.A.O.",
-     "text": "Would Mary be an example of one who was poor in spirit? She said, \"he has looked upon the low estate of his bondmaid\", but then she gets through to what is in mind: \"For the Mighty One has done to me great things\", Luke 1: 48,49. Would that be the result in mind?"
+     "speaker": "JAG",
+     "text": [
+      "I think so; He is our righteousness. That surely surpasses the righteousness of the scribes and Pharisees. What is needed is energy and committal to go to where the Lord is; there is life there, and what comes out is life."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think she had faith to apprehend, buoyantly and happily, the immensity of the responsibility that was put upon her. That is what the kingdom is. We need to make way for Christ in our hearts, we need to take up this position of elevation and get up into the mountain, be concerned, get on our knees and pray and ask the Lord to help us to have a clear view of what discipleship is."
+     "speaker": "ECB",
+     "text": [
+      "We perhaps need more help as to being formed by the influence of Christ. We may try to improve our knowledge of doctrine and our technical knowledge of the truth, but the Lord would be at something being formed in those who will go to Him because of the powerful influence of what He is."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "Is this the line on which we come to be the salt of the earth and the light of the world? He does not say you will become it, He says you are it."
+     "speaker": "JAG",
+     "text": [
+      "I think that is exactly right, because we could sit down and read everything that has been ministered about this chapter, we could look at it and look at it until we have it off pat and it could be as dead as a dodo. What we need is the living quickening touch of Christ and that is why we need to go up to the mountain. Maybe we are still in the crowd. We need to leave the crowd and be individually exercised to go up to the mountain or to go wherever the Lord is."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, He says \"Ye are the salt of the earth\". Of course, interpretatively that was the Jewish remnant and the earth was Israel; they are the light of the world. Pentecost and the assembly came out of Israel. \"She is the only one of her mother, She is the choice one of her who bore her\", Song of Sol 6: 9. Then, my master is old and his wife bore him a son in his old age (see Gen 24: 36), and that comes out in its fulness in the gentile world. That is the teaching of this gospel, and what is heavenly is to dominate. It begins early because we have seen His star and have followed the light."
+     "speaker": "MP",
+     "text": [
+      "I am very glad that this line is being stressed because we are prone to receive things mentally. What you mentioned at the beginning - the substance - is the vital point, is it not?"
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "The disciples are not only interested and vital, they not only get up to where He is and enter into the teaching, but it says, \"Blessed they who hunger and thirst after righteousness\". They not only crave for the truth but are going to lay themselves open to get it and to find it in the Man."
+     "speaker": "JAG",
+     "text": [
+      "We can say to one another what we have read, and this fits with that and something else, but the quickening vital touch of Christ comes from Himself by the Spirit."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is why they went up the mountain. They put a bit of exercise and concern into it. The disciples came to Him and having opened His mouth He taught them. The Lord is free to open up His mind to that kind of person. That is what we need."
+     "speaker": "MP",
+     "text": [
+      "It is \"Christ is everything, and in all\", Col 3: 11."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "Righteousness in Romans 14 (see v 17) is the first feature of the kingdom mentioned. Is that the way in, through the principle of righteousness, which of course is seen in perfection in Christ?"
+     "speaker": "JAG",
+     "text": [
+      "Exactly, that is what it is here."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so; He is our righteousness. That surely surpasses the righteousness of the scribes and Pharisees. What is needed is energy and committal to go to where the Lord is; there is life there, and what comes out is life."
+     "speaker": "JAP",
+     "text": [
+      "In Ephesians the apostle puts it in just the way the brethren have been saying: \"But ye have not thus learnt the Christ\" (chap 4: 20), and there are other references like that. That is perhaps something we need to think about, just to have to do with the Lord Jesus Himself, learn from Him in the gospels."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "We perhaps need more help as to being formed by the influence of Christ. We may try to improve our knowledge of doctrine and our technical knowledge of the truth, but the Lord would be at something being formed in those who will go to Him because of the powerful influence of what He is."
+     "speaker": "JAG",
+     "text": [
+      "If you met somebody who has been in the presence of Christ there is life, there is vitality."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think that is exactly right, because we could sit down and read everything that has been ministered about this chapter, we could look at it and look at it until we have it off pat and it could be as dead as a dodo. What we need is the living quickening touch of Christ and that is why we need to go up to the mountain. Maybe we are still in the crowd. We need to leave the crowd and be individually exercised to go up to the mountain or to go wherever the Lord is."
+     "speaker": "ECB",
+     "text": [
+      "The other side is \"as their scribes\", is it not?"
+     ]
     },
     {
-     "speaker": "M.P.",
-     "text": "I am very glad that this line is being stressed because we are prone to receive things mentally. What you mentioned at the beginning - the substance - is the vital point, is it not?"
+     "speaker": "JAG",
+     "text": [
+      "Exactly; it is so easy to come into some kind of pseudo-Christianity, not the real vital thing in touch with Christ."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "We can say to one another what we have read, and this fits with that and something else, but the quickening vital touch of Christ comes from Himself by the Spirit."
+     "speaker": "GDP",
+     "text": [
+      "The teaching is contrary to the mind of the flesh, is it not? \"The mind of the flesh is death\", Rom 8: 6."
+     ]
     },
     {
-     "speaker": "M.P.",
-     "text": "It is \"Christ is everything, and in all\", Col 3: 11."
+     "speaker": "JAG",
+     "text": [
+      "Yes, “the mind of the flesh is death; but the mind of the Spirit life and peace\", but we need to get up to this mountain and listen to what the Lord has to say, and it is all blessing."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly, that is what it is here."
+     "speaker": "DNM",
+     "text": [
+      "You said earlier that there is something very individual for everybody in discipleship. There is commitment on one side, but there is something that comes back to us from the Lord, is there not?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "In Ephesians the apostle puts it in just the way the brethren have been saying: \"But ye have not thus learnt the Christ\" (chap 4: 20), and there are other references like that. That is perhaps something we need to think about, just to have to do with the Lord Jesus Himself, learn from Him in the gospels."
+     "speaker": "JAG",
+     "text": [
+      "You put yourself in this position. The Lord Jesus has gone up into the mountain and the disciples are going, and you go up with them. You climb up this mountain, you leave certain things behind, and you are concerned, you are anxious to hear what He has to say, and He opens His mouth and teaches. You might have a different impression of what He says from what I have, but generally we get the trend of the whole line of teaching and it is all blessing; you are thrilled to be in His presence. You carry away the effects of it. It is like the incense, it clings and lingers. Then you want to find out what He meant; you do not know, you are not sure, so you get down on your knees and ask Him, and finally you get clarification. You see how this is going to be and you put it into effect. That is the next bit we read. You get these opposing elements, they want to negate what He said and you have to deal with them summarily. That is the teaching of discipleship."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "If you met somebody who has been in the presence of Christ there is life, there is vitality."
+     "speaker": "RNH",
+     "text": [
+      "In John 6 we see how this worked out practically with the Lord, the disciples knowing how to work it out, do you think?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The other side is \"as their scribes\", is it not?"
+     "speaker": "JAG",
+     "text": [
+      "I think so; we should go into that in the next reading. There is the mount of intercession, you might say. He wants to know if they have reached the rock, which finds us all out."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly; it is so easy to come into some kind of pseudo-Christianity, not the real vital thing in touch with Christ."
+     "speaker": "RGJ",
+     "text": [
+      "I wondered if Aquila and Priscilla were the kind of persons who had been on the mountain when they instructed Apollos in the way of God more exactly (see Acts 18: 26)."
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "The teaching is contrary to the mind of the flesh, is it not? \"The mind of the flesh is death\", Rom 8: 6."
+     "speaker": "JAG",
+     "text": [
+      "I am sure they were. They are available, they are really disciples. You can go to their house at any time; if you go along to the meeting they would never let you go away. They would not have to miss a meeting to make a meal or anything like that, they are not that kind of folk. They accommodate the brethren, they are disciples. They are on a par, Priscilla and Aquila and Aquila and Priscilla, and they have been to Ephesus and Corinth and they are saluted in 2 Timothy. I think that is the kind of answer practically to this, but then they have gone. How do we get on? We have the meetings, and we keep at the meetings and we respect the dignity of the assembly at the level of the assembly in the wilderness, and whatever goes on it goes on at that level. That is a fine thing, that is Matthew's gospel."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, “the mind of the flesh is death; but the mind of the Spirit life and peace\", but we need to get up to this mountain and listen to what the Lord has to say, and it is all blessing."
+     "speaker": "ECB",
+     "text": [
+      "Perhaps you would say a word as to how we go up the mountain; you have referred to it several times."
+     ]
     },
     {
-     "speaker": "D.N.M.",
-     "text": "You said earlier that there is something very individual for everybody in discipleship. There is commitment on one side, but there is something that comes back to us from the Lord, is there not?"
+     "speaker": "JAG",
+     "text": [
+      "There is only one way to go up the mountain and that is to climb up; it costs you something. You do not go up by a lift, there is a way up the mountain, you go up whatever way you want because He is up there, and you go the way that He has gone."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "You put yourself in this position. The Lord Jesus has gone up into the mountain and the disciples are going, and you go up with them. You climb up this mountain, you leave certain things behind, and you are concerned, you are anxious to hear what He has to say, and He opens His mouth and teaches. You might have a different impression of what He says from what I have, but generally we get the trend of the whole line of teaching and it is all blessing; you are thrilled to be in His presence. You carry away the effects of it. It is like the incense, it clings and lingers. Then you want to find out what He meant; you do not know, you are not sure, so you get down on your knees and ask Him, and finally you get clarification. You see how this is going to be and you put it into effect. That is the next bit we read. You get these opposing elements, they want to negate what He said and you have to deal with them summarily. That is the teaching of discipleship."
+     "speaker": "WAM",
+     "text": [
+      "Jesus is on the mountain; that is the point, is it not? They came to Him."
+     ]
     },
     {
-     "speaker": "R.N.H.",
-     "text": "In John 6 we see how this worked out practically with the Lord, the disciples knowing how to work it out, do you think?"
+     "speaker": "JAG",
+     "text": [
+      "That is right. If He is there, you want to be there. That proves, I think, that you are a disciple, prepared for what is sacrificial. Now, would you tell us how you went up the mountain."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so; we should go into that in the next reading. There is the mount of intercession, you might say. He wants to know if they have reached the rock, which finds us all out."
+     "speaker": "ECB",
+     "text": [
+      "The simplest way is that you have some real link in yourself with Jesus where He is now, but if you want to arrive at it doctrinally I think you would go through Colossians, you are circumcised with the circumcision of the Christ (see chap 2: 11) and you set \"your mind on the things that are above\", ''where the Christ is\", chap 3: 2,1."
+     ]
     },
     {
-     "speaker": "R.G.J.",
-     "text": "I wondered if Aquila and Priscilla were the kind of persons who had been on the mountain when they instructed Apollos in the way of God more exactly (see Acts 18: 26)."
+     "speaker": "JAG",
+     "text": [
+      "I am glad you said that because I think Joshua underlies this cutting off your hand and pulling out your eye and whatever."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I am sure they were. They are available, they are really disciples. You can go to their house at any time; if you go along to the meeting they would never let you go away. They would not have to miss a meeting to make a meal or anything like that, they are not that kind of folk. They accommodate the brethren, they are disciples. They are on a par, Priscilla and Aquila and Aquila and Priscilla, and they have been to Ephesus and Corinth and they are saluted in 2 Timothy. I think that is the kind of answer practically to this, but then they have gone. How do we get on? We have the meetings, and we keep at the meetings and we respect the dignity of the assembly at the level of the assembly in the wilderness, and whatever goes on it goes on at that level. That is a fine thing, that is Matthew's gospel."
+     "speaker": "BJ",
+     "text": [
+      "While we sit here as disciples, as learners, it is noteworthy that the crowds were there and the ending of chapter 7 indicates that there is no restriction on anyone getting the good of it."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Perhaps you would say a word as to how we go up the mountain; you have referred to it several times."
+     "speaker": "JAG",
+     "text": [
+      "Yes. Everybody has not been up the mountain, but the brethren here have, they have made a sacrifice to come here, and we trust the Lord is in this meeting and is opening His mouth and teaching: I think He is. He is bestowing blessing upon the brethren and He is concerned about discipleship, persons who are willing and ready to be taught and ready to follow Him, to walk after Him."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "There is only one way to go up the mountain and that is to climb up; it costs you something. You do not go up by a lift, there is a way up the mountain, you go up whatever way you want because He is up there, and you go the way that He has gone."
+     "speaker": "RBH",
+     "text": [
+      "There has been healing in the previous chapter; He healed every one. He had met all these kinds of things that He describes in terms of the weaknesses of the human being in the previous chapter, but some of those who had experienced healing went up into the mountain for this teaching."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "Jesus is on the mountain; that is the point, is it not? They came to Him."
+     "speaker": "JAG",
+     "text": [
+      "I think that is the brethren here. We have been healed. We have had moral diseases, very serious moral diseases it might be, but in His wonderful grace He has healed them, and we are so thankful that we have been healed. So we follow Him up the mountain, we sit down at His feet and we listen to His words."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is right. If He is there, you want to be there. That proves, I think, that you are a disciple, prepared for what is sacrificial. Now, would you tell us how you went up the mountain."
+     "speaker": "WSC",
+     "text": [
+      "The word to Moses was, \"Come up to me in the mountain, and be there\", Exod. 24: 12. I wonder if you could emphasise more the coming to Jesus and His opening His mouth. Joseph said \"it is my mouth which speaks to you\", Gen 45: 12."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The simplest way is that you have some real link in yourself with Jesus where He is now, but if you want to arrive at it doctrinally I think you would go through Colossians, you are circumcised with the circumcision of the Christ (see chap 2: 11) and you set \"your mind on the things that are above\", ''where the Christ is\", chap 3: 2,1."
+     "speaker": "JAG",
+     "text": [
+      "Yes, you have heard it for yourself. Is that not fine? It has come into your own soul; you do not need to think about anybody else. That is John 4 - we do not need your testimony now, good testimony, because we have heard from Himself and we know this is true. That is what we are going to do. Mr Darby said, I am going on, if you want to come with me that is fine, but if you do not I am still going on. That tested me."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I am glad you said that because I think Joshua underlies this cutting off your hand and pulling out your eye and whatever."
+     "speaker": "JNM",
+     "text": [
+      "The Lord says here, \"Rejoice and exult\". Would rejoicing be a feature of discipleship?"
+     ]
     },
     {
-     "speaker": "B.J.",
-     "text": "While we sit here as disciples, as learners, it is noteworthy that the crowds were there and the ending of chapter 7 indicates that there is no restriction on anyone getting the good of it."
+     "speaker": "JAG",
+     "text": [
+      "Yes. How do we get on when we are reproached and persecuted \"and say every wicked thing against you, lying, for my sake\"? That is a different thing. What you rejoice in is \"for your reward is great in the heavens\". Are we equal to that? Would you say ''for my sake\"? Do you love Him so much? How much does Jesus mean to us?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes. Everybody has not been up the mountain, but the brethren here have, they have made a sacrifice to come here, and we trust the Lord is in this meeting and is opening His mouth and teaching: I think He is. He is bestowing blessing upon the brethren and He is concerned about discipleship, persons who are willing and ready to be taught and ready to follow Him, to walk after Him."
+     "speaker": "HJG",
+     "text": [
+      "You would not be able to rejoice in the persecutions unless you were near to Him, would you?"
+     ]
     },
     {
-     "speaker": "R.B.H.",
-     "text": "There has been healing in the previous chapter; He healed every one. He had met all these kinds of things that He describes in terms of the weaknesses of the human being in the previous chapter, but some of those who had experienced healing went up into the mountain for this teaching."
+     "speaker": "JAG",
+     "text": [
+      "I think so, because you know the value of prayer; they were praising God with singing. These are practical matters, and this kind of thing comes upon us, there is reproach, there is persecution, maybe not physical but you get persecuted, they say every wicked thing against you, lying; you may be perjured. What are you going to do about it? Leave it with Jesus, He knows about it."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think that is the brethren here. We have been healed. We have had moral diseases, very serious moral diseases it might be, but in His wonderful grace He has healed them, and we are so thankful that we have been healed. So we follow Him up the mountain, we sit down at His feet and we listen to His words."
+     "speaker": "JAP",
+     "text": [
+      "That Stephen, the martyr, turned to heaven was what brought out the final hatred of the Jews against him, when he spoke about heaven and said it is open to me."
+     ]
     },
     {
-     "speaker": "W.S.C.",
-     "text": "The word to Moses was, \"Come up to me in the mountain, and be there\", Exod. 24: 12. I wonder if you could emphasise more the coming to Jesus and His opening His mouth. Joseph said \"it is my mouth which speaks to you\", Gen 45: 12."
+     "speaker": "JAG",
+     "text": [
+      "He was a disciple; I think he knew from the start what was going to happen to him, that he was going to be killed. He was in power, he went over the whole history and spoke in such a condemnatory way of them that showed how thoroughly he was with God in his judgment. We should consider that; would we be equal to that in discipleship? It is not gift, it is not an apostle or anything like that but a disciple of the Lord Jesus; he uses that name \"Lord Jesus\" (I think it is the first time it is used in this dispensation). He says \"Lord Jesus, receive my spirit\" (Acts 7: 59): that is the word of a disciple."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, you have heard it for yourself. Is that not fine? It has come into your own soul; you do not need to think about anybody else. That is John 4 - we do not need your testimony now, good testimony, because we have heard from Himself and we know this is true. That is what we are going to do. Mr Darby said, I am going on, if you want to come with me that is fine, but if you do not I am still going on. That tested me."
+     "speaker": "ECB",
+     "text": [
+      "Do not these verses correspond with the epistle to the Philippians, the gospel preached out of contention? It is the poor in spirit in Jesus in chapter 2, and \"Rejoice\" and \"again I will say rejoice\" in chapter 4. Is that not what is here?"
+     ]
     },
     {
-     "speaker": "J.N.M.",
-     "text": "The Lord says here, \"Rejoice and exult\". Would rejoicing be a feature of discipleship?"
+     "speaker": "JAG",
+     "text": [
+      "I think it is. You know the teaching; the scope of these chapters, as those who have taught us have opened up to us, equates to the word in Paul's writing to Titus, teaching us that \"we should live soberly, and justly, and piously in the present course of things\", chap 2: 12. So chapter 5 of Matthew is righteousness, chapter 6 is piety and chapter 7 is sobriety. That is the teaching of grace in these chapters, and that belongs to discipleship. We may not be in the very high grades; we are probably in the primary grades, but we want to progress."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes. How do we get on when we are reproached and persecuted \"and say every wicked thing against you, lying, for my sake\"? That is a different thing. What you rejoice in is \"for your reward is great in the heavens\". Are we equal to that? Would you say ''for my sake\"? Do you love Him so much? How much does Jesus mean to us?"
+     "speaker": "SEH",
+     "text": [
+      "I was noticing as to these blessings that the kingdom of the heavens is present - for theirs is the kingdom of the heavens (vv 3 and 10) - and in between it is future - they shall be comforted, they shall inherit the earth, they shall be filled, shall find mercy and so on. What does that mean?"
+     ]
     },
     {
-     "speaker": "H.J.G.",
-     "text": "You would not be able to rejoice in the persecutions unless you were near to Him, would you?"
+     "speaker": "JAG",
+     "text": [
+      "I am quite interested in the fact that theirs is the kingdom of the heavens. I suppose you find that in the book of Daniel, and divine intervention; they are poor in spirit, they are committed to the truth, they are not going to deviate from the path of discipleship, and the heavens are ruling. You might not think so, but there it is, it rules undeviatingly for their deliverance and for their help and for the blessing of men. Matthew's gospel is a great gospel. We should read the ministry on the Ordinances of the Heavens, because here we have persons who are the ruling class; they say what is going to happen. Is that right?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so, because you know the value of prayer; they were praising God with singing. These are practical matters, and this kind of thing comes upon us, there is reproach, there is persecution, maybe not physical but you get persecuted, they say every wicked thing against you, lying; you may be perjured. What are you going to do about it? Leave it with Jesus, He knows about it."
+     "speaker": "MP",
+     "text": [
+      "I am sure it is, for there are those who are brethren of Christ, who are like Him, who show His features. I am thinking of chapter 12 when He speaks of those who do the will of God (see v 50). It is what He did and what He did perfectly, and then it is that these features of His work shine in those who are like Him."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "That Stephen, the martyr, turned to heaven was what brought out the final hatred of the Jews against him, when he spoke about heaven and said it is open to me."
+     "speaker": "JAG",
+     "text": [
+      "Yes, because this gospel goes on to even two persons - \"two of you\", chap 18: 19. If you ask, you can bind or you can loosen, you can move heaven: that is tremendous influence."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "He was a disciple; I think he knew from the start what was going to happen to him, that he was going to be killed. He was in power, he went over the whole history and spoke in such a condemnatory way of them that showed how thoroughly he was with God in his judgment. We should consider that; would we be equal to that in discipleship? It is not gift, it is not an apostle or anything like that but a disciple of the Lord Jesus; he uses that name \"Lord Jesus\" (I think it is the first time it is used in this dispensation). He says \"Lord Jesus, receive my spirit\" (Acts 7: 59): that is the word of a disciple."
+     "speaker": "JAP",
+     "text": [
+      "Is the Lord's remark, \"I say unto you\", something to be understood now, the Lord coming into our gathering and saying something? Would you carry it that far?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do not these verses correspond with the epistle to the Philippians, the gospel preached out of contention? It is the poor in spirit in Jesus in chapter 2, and \"Rejoice\" and \"again I will say rejoice\" in chapter 4. Is that not what is here?"
+     "speaker": "JAG",
+     "text": [
+      "I think so. \"I say unto you\" in this gospel is over against what the ancients said. He is coming to give the fulness of the law and He is bringing in the heavenly standard, the divine standard.\"/ say unto you\" currently involves the word of Christ. His word is known in the revival. Because thou hast kept the word of my patience\" (Rev 3: 10): that is, the Lord is free to open up His mind to persons. This is Christianity in its fulness, in its essence; it is morally excellent."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think it is. You know the teaching; the scope of these chapters, as those who have taught us have opened up to us, equates to the word in Paul's writing to Titus, teaching us that \"we should live soberly, and justly, and piously in the present course of things\", chap 2: 12. So chapter 5 of Matthew is righteousness, chapter 6 is piety and chapter 7 is sobriety. That is the teaching of grace in these chapters, and that belongs to discipleship. We may not be in the very high grades; we are probably in the primary grades, but we want to progress."
+     "speaker": "CFD",
+     "text": [
+      "To get through to this moral excellence involves an inward line of purity that the Lord refers to: \"Blessed the pure in heart for they shall see God\". It seems to me that the excellence, the outward expression of this, is going to flow out of a pure line of things that is in the souls and hearts of the brethren."
+     ]
     },
     {
-     "speaker": "S.E.H.",
-     "text": "I was noticing as to these blessings that the kingdom of the heavens is present - for theirs is the kingdom of the heavens (vv 3 and 10) - and in between it is future - they shall be comforted, they shall inherit the earth, they shall be filled, shall find mercy and so on. What does that mean?"
+     "speaker": "JAG",
+     "text": [
+      "I think so. The pure in heart is the fat of the offerings, it is motivation; Christ is the object of your affections. Whatever you do is because of Him."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I am quite interested in the fact that theirs is the kingdom of the heavens. I suppose you find that in the book of Daniel, and divine intervention; they are poor in spirit, they are committed to the truth, they are not going to deviate from the path of discipleship, and the heavens are ruling. You might not think so, but there it is, it rules undeviatingly for their deliverance and for their help and for the blessing of men. Matthew's gospel is a great gospel. We should read the ministry on the Ordinances of the Heavens, because here we have persons who are the ruling class; they say what is going to happen. Is that right?"
+     "speaker": "MP",
+     "text": [
+      "Is it significant that the pure in heart are emphasised in 2nd Timothy?"
+     ]
     },
     {
-     "speaker": "M.P.",
-     "text": "I am sure it is, for there are those who are brethren of Christ, who are like Him, who show His features. I am thinking of chapter 12 when He speaks of those who do the will of God (see v 50). It is what He did and what He did perfectly, and then it is that these features of His work shine in those who are like Him."
+     "speaker": "JAG",
+     "text": [
+      "Exactly, and that is a creation of God, is it not? David says, \"Create in me a clean heart\", Ps 51: 10."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, because this gospel goes on to even two persons - \"two of you\", chap 18: 19. If you ask, you can bind or you can loosen, you can move heaven: that is tremendous influence."
+     "speaker": "MP",
+     "text": [
+      "\"Pursue righteousness, faith, love, peace, with those that call upon the Lord out of a pure heart\", 2 Tim 2: 22."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Is the Lord's remark, \"I say unto you\", something to be understood now, the Lord coming into our gathering and saying something? Would you carry it that far?"
+     "speaker": "JAG",
+     "text": [
+      "That is what it is; so immediately you do not have the disciple but you have the bondman of the Lord; he is not to contend."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so. \"I say unto you\" in this gospel is over against what the ancients said. He is coming to give the fulness of the law and He is bringing in the heavenly standard, the divine standard.\"/ say unto you\" currently involves the word of Christ. His word is known in the revival. Because thou hast kept the word of my patience\" (Rev 3: 10): that is, the Lord is free to open up His mind to persons. This is Christianity in its fulness, in its essence; it is morally excellent."
+     "speaker": "CFD",
+     "text": [
+      "\"Create in me a clean heart\" was what David came to under very difficult circumstances, as if he had to get back to that in the sense of basic purity from which true recovery would flow. Is this what we have to get to? We are tested inwardly as to our likeness to Christ."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "To get through to this moral excellence involves an inward line of purity that the Lord refers to: \"Blessed the pure in heart for they shall see God\". It seems to me that the excellence, the outward expression of this, is going to flow out of a pure line of things that is in the souls and hearts of the brethren."
+     "speaker": "JAG",
+     "text": [
+      "I think so, because David had failed in government in himself, his judiciary department had broken down; he had failed to cut off and to pluck out. It is an important matter that we learn how to control ourselves. A Christian is in charge of himself, Romans teaches us that. You are your own government, you regulate yourself - ''the law of the Spirit of life in Christ Jesus\", Rom 8: 2."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so. The pure in heart is the fat of the offerings, it is motivation; Christ is the object of your affections. Whatever you do is because of Him."
+     "speaker": "ECB",
+     "text": [
+      "Ordained by God."
+     ]
     },
     {
-     "speaker": "M.P.",
-     "text": "Is it significant that the pure in heart are emphasised in 2nd Timothy?"
+     "speaker": "JAG",
+     "text": [
+      "Exactly, that is fine."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly, and that is a creation of God, is it not? David says, \"Create in me a clean heart\", Ps 51: 10."
+     "speaker": "ECB",
+     "text": [
+      "Your reference to the Psalm - \"Create in me a clean heart\" - goes back to the well-known remark among us that we should be able to identify the work of God in us."
+     ]
     },
     {
-     "speaker": "M.P.",
-     "text": "\"Pursue righteousness, faith, love, peace, with those that call upon the Lord out of a pure heart\", 2 Tim 2: 22."
+     "speaker": "JAG",
+     "text": [
+      "That is right, and it is very affecting that there is a day to come when all the remnant will have a Psalm 51, and if we have not had a Psalm 51 we have not made much progress."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is what it is; so immediately you do not have the disciple but you have the bondman of the Lord; he is not to contend."
+     "speaker": "ECB",
+     "text": [
+      "He opened His mouth and taught them: \"I say unto you\", that is the teaching, is it not?"
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "\"Create in me a clean heart\" was what David came to under very difficult circumstances, as if he had to get back to that in the sense of basic purity from which true recovery would flow. Is this what we have to get to? We are tested inwardly as to our likeness to Christ."
+     "speaker": "JAG",
+     "text": [
+      "Yes, it is teaching, we have something superlative now. We have finality in the words of Jesus: \"I say unto you\"; how blessed they are! If you go on this line you are going to be effective in testimony and persons are going to see your good works and they are going to glorify your Father who is in the heavens."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so, because David had failed in government in himself, his judiciary department had broken down; he had failed to cut off and to pluck out. It is an important matter that we learn how to control ourselves. A Christian is in charge of himself, Romans teaches us that. You are your own government, you regulate yourself - ''the law of the Spirit of life in Christ Jesus\", Rom 8: 2."
+     "speaker": "JAP",
+     "text": [
+      "Psalm 51 is how we arrive at being poor in spirit: \"The sacrifices of God are a broken spirit\" (v 17). We have had to go through experience to reach some of the things that the Lord Jesus says in these blessings. He is ready to bless us but we have had to humble ourselves and God has had to subdue us. Could we look at it in a positive sense like that?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Ordained by God."
+     "speaker": "JAG",
+     "text": [
+      "I think so. One of the great points in the kingdom is that our wills are broken. Redemption brings us into the kingdom, and in the kingdom God's will prevails; it is the rule of God, so our wills are broken. As that is so we are ready for the teaching of the new covenant, that is the unfolding of God's love. In the new covenant we become God-like; in reconciliation we become Christ-like. These are tremendous chapters and that is what they bring out."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly, that is fine."
+     "speaker": "ECB",
+     "text": [
+      "Is Psalm 51 new creation and the new man?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Your reference to the Psalm - \"Create in me a clean heart\" - goes back to the well-known remark among us that we should be able to identify the work of God in us."
+     "speaker": "JAG",
+     "text": [
+      "Exactly; he says, \"Create in me\"."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is right, and it is very affecting that there is a day to come when all the remnant will have a Psalm 51, and if we have not had a Psalm 51 we have not made much progress."
+     "speaker": "SEH",
+     "text": [
+      "In verse 17 of that Psalm he says, \"The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise\". In the light of that could you elaborate on your earlier remarks about the believer being a broken-hearted churchman and that we do not all have to be broken-hearted churchmen. Is that a state that we arrive at but then get beyond?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "He opened His mouth and taught them: \"I say unto you\", that is the teaching, is it not?"
+     "speaker": "JAG",
+     "text": [
+      "I would say publicly we are broken-hearted churchmen. I do not know if we shed enough tears about our brethren, if we are concerned enough about them, feel for them. But then we see the scope and greatness of what God has wrought, and objectively we rejoice in the fact that He is bringing everything through. I spoke to a brother two weeks ago, he had not broken bread for 20-odd years and he did not agree with anything I said; but the chink in his armour was that the Spirit and the bride saying 'Come' is a collective thought and he recognised that he has to find the Supper. Well, how do we pray? There are many brethren like that. They are looking for something. It is almost like Israel in Romans 9; what is Israel looking for that he cannot find. We need to feel about it; if we shed more tears about our brethren there would be more recoveries. Does that help?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, it is teaching, we have something superlative now. We have finality in the words of Jesus: \"I say unto you\"; how blessed they are! If you go on this line you are going to be effective in testimony and persons are going to see your good works and they are going to glorify your Father who is in the heavens."
+     "speaker": "SEH",
+     "text": [
+      "Should the two sides go on together in us, that is, feeling the loss of our brethren as well as the sense of what God has for us collectively in the way of blessing?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Psalm 51 is how we arrive at being poor in spirit: \"The sacrifices of God are a broken spirit\" (v 17). We have had to go through experience to reach some of the things that the Lord Jesus says in these blessings. He is ready to bless us but we have had to humble ourselves and God has had to subdue us. Could we look at it in a positive sense like that?"
+     "speaker": "JAG",
+     "text": [
+      "We need to be helped not to go around exuding despondency, because there have been tremendous things wrought in the revival and God is working right now, and we can point to various positive things that God has done - a tremendous thing- and yet we must feel for brethren who have lost their way. There is balance in that. How Paul felt it when he said that all in Asia have forsaken me (see 2 Tim 1: 15), and yet he comes out with a wonderful doxology, the Lord stood by him and he is really full of energy."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so. One of the great points in the kingdom is that our wills are broken. Redemption brings us into the kingdom, and in the kingdom God's will prevails; it is the rule of God, so our wills are broken. As that is so we are ready for the teaching of the new covenant, that is the unfolding of God's love. In the new covenant we become God-like; in reconciliation we become Christ-like. These are tremendous chapters and that is what they bring out."
+     "speaker": "ECB",
+     "text": [
+      "We cannot arrive at a real impression of the church through impressions of the breakdown, can we? We have to start with the reality of what the church is and then feel the breakdown."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is Psalm 51 new creation and the new man?"
+     "speaker": "JAG",
+     "text": [
+      "I think so. If we are with God in the recovery we know that is how it began. There are many brethren: we are not the only ones: do not let us think so, because we might get into brethrenism and that would be awful. We are Christians seeking to move in the light of Paul's ministry."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly; he says, \"Create in me\"."
+     "speaker": "RNH",
+     "text": [
+      "Is Moses looking for motivated persons in Exodus 35? He \"collected all the assembly\" and then it speaks about every one whose spirit promoted him, and of a willing spirit and a willing heart."
+     ]
     },
     {
-     "speaker": "S.E.H.",
-     "text": "In verse 17 of that Psalm he says, \"The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise\". In the light of that could you elaborate on your earlier remarks about the believer being a broken-hearted churchman and that we do not all have to be broken-hearted churchmen. Is that a state that we arrive at but then get beyond?"
+     "speaker": "JAG",
+     "text": [
+      "That is very fine, and they brought so much that they had to be restrained. They brought, willing-hearted and wise-hearted, the women spun and they were all go. In Exodus 15 they were thinking about God's sanctuary, what they were going to do, and then there comes a time when they apply themselves to it. It is fine to see the brethren energetically committed to the truth like that, positively; they have the pattern before them and they know what they are doing and where they are going and what they are working to. They are not aimless, careless as to going to the meetings, but there is purpose of heart; that is what is needed and that is discipleship. I think that is what the Lord would speak to us about."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I would say publicly we are broken-hearted churchmen. I do not know if we shed enough tears about our brethren, if we are concerned enough about them, feel for them. But then we see the scope and greatness of what God has wrought, and objectively we rejoice in the fact that He is bringing everything through. I spoke to a brother two weeks ago, he had not broken bread for 20-odd years and he did not agree with anything I said; but the chink in his armour was that the Spirit and the bride saying 'Come' is a collective thought and he recognised that he has to find the Supper. Well, how do we pray? There are many brethren like that. They are looking for something. It is almost like Israel in Romans 9; what is Israel looking for that he cannot find. We need to feel about it; if we shed more tears about our brethren there would be more recoveries. Does that help?"
+     "speaker": "GDP",
+     "text": [
+      "You said we have to go up to the mountain where Jesus is, and then you said we get to the rock. So I have to dig, too, do I not?"
+     ]
     },
     {
-     "speaker": "S.E.H.",
-     "text": "Should the two sides go on together in us, that is, feeling the loss of our brethren as well as the sense of what God has for us collectively in the way of blessing?"
+     "speaker": "JAG",
+     "text": [
+      "That is what I thought. You go up to the mountain and then you have to get down and dig. That tests us as to how sincere and real we are. Are we eating the unleavened bread of sincerity and truth? Are we keeping the feast? When you are newly converted you would dig like anything, would you not? We need to maintain that line and get ourselves established on the rock. Once that happens your foundation is sure. Come what may, that is where you are; that is prudence."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "We need to be helped not to go around exuding despondency, because there have been tremendous things wrought in the revival and God is working right now, and we can point to various positive things that God has done - a tremendous thing- and yet we must feel for brethren who have lost their way. There is balance in that. How Paul felt it when he said that all in Asia have forsaken me (see 2 Tim 1: 15), and yet he comes out with a wonderful doxology, the Lord stood by him and he is really full of energy."
+     "speaker": "WSC",
+     "text": [
+      "There is no discussion or speaking by the disciples in chapter 5, but on the beach at the end of John's gospel it is, What about this man? Do you think that, if we were on the line of discipleship, our eye would be single and we would have it on Christ?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "We cannot arrive at a real impression of the church through impressions of the breakdown, can we? We have to start with the reality of what the church is and then feel the breakdown."
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think so. It is quite a severe thing because we are inclined to look upon good brothers who are following. John was the very best and he was following. The Lord says to Peter, That is none of your business; you look at Me - and that is the next reading, Peter getting out of that boat. Never mind anybody else, you keep your eye on Me, that is what the Lord says. If they go astray you do not go with them. It is fine to have brethren with you but if they go off the line you may go with them - good men, too."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so. If we are with God in the recovery we know that is how it began. There are many brethren: we are not the only ones: do not let us think so, because we might get into brethrenism and that would be awful. We are Christians seeking to move in the light of Paul's ministry."
+     "speaker": "RGJ",
+     "text": [
+      "Paul said in Hebrews, \"looking steadfastly on Jesus the leader and completer of faith\", chap 12: 2."
+     ]
     },
     {
-     "speaker": "R.N.H.",
-     "text": "Is Moses looking for motivated persons in Exodus 35? He \"collected all the assembly\" and then it speaks about every one whose spirit promoted him, and of a willing spirit and a willing heart."
+     "speaker": "JAG",
+     "text": [
+      "A very salutary word! It is fine that this is brought up because Peter had been adjusted and he would be clear, and thankful that he was completely clear; not only his conscience but his affections were gained for Christ. The Lord says, never you mind him, \"Follow thou me\". That is really a word to me."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is very fine, and they brought so much that they had to be restrained. They brought, willing-hearted and wise-hearted, the women spun and they were all go. In Exodus 15 they were thinking about God's sanctuary, what they were going to do, and then there comes a time when they apply themselves to it. It is fine to see the brethren energetically committed to the truth like that, positively; they have the pattern before them and they know what they are doing and where they are going and what they are working to. They are not aimless, careless as to going to the meetings, but there is purpose of heart; that is what is needed and that is discipleship. I think that is what the Lord would speak to us about."
+     "speaker": "JAP",
+     "text": [
+      "It is very encouraging that this house did not fall, and whatever has happened in our histories, the house has not fallen. It is resting on the word of the Christ at the present time, resting on Him."
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "You said we have to go up to the mountain where Jesus is, and then you said we get to the rock. So I have to dig, too, do I not?"
+     "speaker": "JAG",
+     "text": [
+      "That is the revival. Those who came out and opened up the truth in the recovery founded the house upon the rock. They did not go to this one or that one, they went right back to the apostles, and the truth was founded on the rock, and that was the revival, union with Christ, was it not? That is what we need because we get so unstable; when things go against us do we not go down?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is what I thought. You go up to the mountain and then you have to get down and dig. That tests us as to how sincere and real we are. Are we eating the unleavened bread of sincerity and truth? Are we keeping the feast? When you are newly converted you would dig like anything, would you not? We need to maintain that line and get ourselves established on the rock. Once that happens your foundation is sure. Come what may, that is where you are; that is prudence."
+     "speaker": "MP",
+     "text": [
+      "\"The firm foundation of God stands\", 2 Tim 2: 19."
+     ]
     },
     {
-     "speaker": "W.S.C.",
-     "text": "There is no discussion or speaking by the disciples in chapter 5, but on the beach at the end of John's gospel it is, What about this man? Do you think that, if we were on the line of discipleship, our eye would be single and we would have it on Christ?"
+     "speaker": "HJG",
+     "text": [
+      "The Lord says that every one who gets into the kingdom forces his way in (see Luke 16: 16). Is that like getting up the mountain, that you have to push everything else aside and get up there."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think so. It is quite a severe thing because we are inclined to look upon good brothers who are following. John was the very best and he was following. The Lord says to Peter, That is none of your business; you look at Me - and that is the next reading, Peter getting out of that boat. Never mind anybody else, you keep your eye on Me, that is what the Lord says. If they go astray you do not go with them. It is fine to have brethren with you but if they go off the line you may go with them - good men, too."
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think so. You just have to do it. Then lots of people will tell you that you are being unwise and are inconsiderate, that you should think about this and you are not prudent, but if Christ is your object you will get there."
+     ]
     },
     {
-     "speaker": "R.G.J.",
-     "text": "Paul said in Hebrews, \"looking steadfastly on Jesus the leader and completer of faith\", chap 12: 2."
+     "speaker": "DTH",
+     "text": [
+      "Do you think the eunuch arrived at it when he said, What hinders me (see Acts 8: 36)?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "A very salutary word! It is fine that this is brought up because Peter had been adjusted and he would be clear, and thankful that he was completely clear; not only his conscience but his affections were gained for Christ. The Lord says, never you mind him, \"Follow thou me\". That is really a word to me."
+     "speaker": "JAG",
+     "text": [
+      "I think so. The basis of it all is attraction - for My sake, He says. What an appeal that was by Jesus! It says here, saying \"every wicked thing against you, lying, for my sake\". You are considering for Him, that is priestliness. Royalty and priestliness is coming out in this gospel. That eunuch's heart was won by Christ. Who does the prophet speak of, himself or somebody else? The glad tidings of Jesus opens up the whole thing to him.",
+      "'The love, that bore the burden",
+      "On the accursed tree,",
+      "Would give the heart its pardon,",
+      "And set the sinner free!",
+      "That is the glad tidings of Jesus – Mr Darby's beautiful composition,",
+      "'The chains of man, his victim,",
+      "Were loosened by Thy hand'.",
+      "O, what a word that is! Is He not attractive to us, beloved? Cannot we follow, just a little bit more committed?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "It is very encouraging that this house did not fall, and whatever has happened in our histories, the house has not fallen. It is resting on the word of the Christ at the present time, resting on Him."
+     "speaker": "ECB",
+     "text": [
+      "Do you think there is need for some increase in individuality among us? I think we tend very much to rely on the company. Mr Raven said that we know nothing about what is collective until we know it individually."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is the revival. Those who came out and opened up the truth in the recovery founded the house upon the rock. They did not go to this one or that one, they went right back to the apostles, and the truth was founded on the rock, and that was the revival, union with Christ, was it not? That is what we need because we get so unstable; when things go against us do we not go down?"
+     "speaker": "JAG",
+     "text": [
+      "I think so. We might see in the next reading that, when Peter and the Lord are in the boat, Peter has walked on the water. Then we touch the hem of His garment. Is that not interesting? I think that supports what you say. These are very practical things. The Lord is looking for disciples. There may be plenty of meeting-goers, plenty of folk who come out to the Supper and to the gospel and they are gone - week-enders. That is not Christianity. You might come out on Lord's Day and be legitimately detained during the week. I am not saying anything about that, but the true hearts, the lovers of Christ, would be there, they are going up that mountain, on Monday night, Tuesday night, whatever other night; that is Christianity."
+     ]
     },
     {
-     "speaker": "M.P.",
-     "text": "\"The firm foundation of God stands\", 2 Tim 2: 19."
+     "speaker": "LMcF",
+     "text": [
+      "Do you think that in \"the disciple whom Jesus loved\" what was stable was marking John?"
+     ]
     },
     {
-     "speaker": "H.J.G.",
-     "text": "The Lord says that every one who gets into the kingdom forces his way in (see Luke 16: 16). Is that like getting up the mountain, that you have to push everything else aside and get up there."
+     "speaker": "JAG",
+     "text": [
+      "That is beautiful. We would like to be like that."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think so. You just have to do it. Then lots of people will tell you that you are being unwise and are inconsiderate, that you should think about this and you are not prudent, but if Christ is your object you will get there."
+     "speaker": "WAM",
+     "text": [
+      "I suppose when He says, \"I say unto you\", that would take precedence over everything else; He puts His own touch upon things."
+     ]
     },
     {
-     "speaker": "D.T.H.",
-     "text": "Do you think the eunuch arrived at it when he said, What hinders me (see Acts 8: 36)?"
+     "speaker": "JAG",
+     "text": [
+      "Yes.",
+      "'Disease, and death, and demon,",
+      "All fled before Thy word",
+      "As darkness, the dominion",
+      "Of day's returning Lord!'",
+      "What power there is in the word of Jesus! How He longs that there might be an increase of committal, devoted affection for Himself on the basis of discipleship. I want to know more about Him, I want more and more of Jesus. You do not have to have gift or ability; you may be the dumbest person in Toronto, but if you love Christ He will make you something."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so. The basis of it all is attraction - for My sake, He says. What an appeal that was by Jesus! It says here, saying \"every wicked thing against you, lying, for my sake\". You are considering for Him, that is priestliness. Royalty and priestliness is coming out in this gospel. That eunuch's heart was won by Christ. Who does the prophet speak of, himself or somebody else? The glad tidings of Jesus opens up the whole thing to him."
+     "speaker": "CFD",
+     "text": [
+      "Chapter 7 ends, \"he taught them as having authority, and not as their scribes\". He brings in the contrast. We might be dumb but the Lord can make something out of us; in Mark's gospel He says \"I will make you become fishers of men\", chap 1: 17. Do you think the touch of authority is needed to affect the brethren?"
+     ]
     },
     {
-     "text": "'The love, that bore the burden"
+     "speaker": "JAG",
+     "text": [
+      "Yes, and the authority comes because we are morally equal to it ourselves. It does not come because we speak about authority, but it is the moral influence and power of the person. Hence Matthew, in chapter 20, gives us the eleventhhour labourers and they are the best kind of folk to have in the vineyard. Nobody takes them on, they are poor workmen, they say, I am just hopeless. Paul was the great eleventh-hour labourer."
+     ]
     },
     {
-     "text": "On the accursed tree,"
+     "speaker": "JAP",
+     "text": [
+      "Does the Lord give each of us a work? Is it \"Whatever thy hand findeth to do\", Eccles 9: 10? So let us each get on with what the Lord has put our way."
+     ]
     },
     {
-     "text": "Would give the heart its pardon,"
+     "speaker": "JAG",
+     "text": [
+      "Yes, that is levitically. What underlies that and what is needed to cause that to be effective is priesthood, spirituality, being with Christ. Whatever you do, if you have been with the Lord you can give a touch to things. Speak to some of these sisters and they give you a touch. That is discipleship, they are always there, they do not miss many meetings. We do not lay down laws - you must be at the meetings and you must do this and that and the next, though maybe we should (I do not know), but spirituality, nearness to Christ is the idea, the disciple whom Jesus loved, who was in the bosom of Jesus. That is available to everybody. The breast, the bosom, is the same as when John the beloved leant thereon. What a thing Christianity is!"
+     ]
     },
     {
-     "text": "And set the sinner free!"
+     "speaker": "MP",
+     "text": [
+      "You were referring to moral authority. I recently noticed that it says in Ezra 9: \"Then were assembled to me every one that trembled at the words of the God of Israel\" (v.4). Then in chapter 10 a great congregation gathered to Ezra, and Shecheniah said, \"And now let us make a covenant with our God to put away all the wives ... according to the counsel of my lord, and of those that tremble at the commandments of our God\" (v.3). So those who trembled at the word of God had in fact moral authority which here is acknowledged and loved, is it not?"
+     ]
     },
     {
-     "text": "That is the glad tidings of Jesus – Mr Darby's beautiful composition,"
-    },
-    {
-     "text": "'The chains of man, his victim,"
-    },
-    {
-     "text": "Were loosened by Thy hand'."
-    },
-    {
-     "text": "O, what a word that is! Is He not attractive to us, beloved? Cannot we follow, just a little bit more committed?"
-    },
-    {
-     "speaker": "E.C.B.",
-     "text": "Do you think there is need for some increase in individuality among us? I think we tend very much to rely on the company. Mr Raven said that we know nothing about what is collective until we know it individually."
-    },
-    {
-     "speaker": "J.A.G.",
-     "text": "I think so. We might see in the next reading that, when Peter and the Lord are in the boat, Peter has walked on the water. Then we touch the hem of His garment. Is that not interesting? I think that supports what you say. These are very practical things. The Lord is looking for disciples. There may be plenty of meeting-goers, plenty of folk who come out to the Supper and to the gospel and they are gone - week-enders. That is not Christianity. You might come out on Lord's Day and be legitimately detained during the week. I am not saying anything about that, but the true hearts, the lovers of Christ, would be there, they are going up that mountain, on Monday night, Tuesday night, whatever other night; that is Christianity."
-    },
-    {
-     "text": "L.McF. Do you think that in \"the disciple whom Jesus loved\" what was stable was marking John?"
-    },
-    {
-     "speaker": "J.A.G.",
-     "text": "That is beautiful. We would like to be like that."
-    },
-    {
-     "speaker": "W.A.M.",
-     "text": "I suppose when He says, \"I say unto you\", that would take precedence over everything else; He puts His own touch upon things."
-    },
-    {
-     "speaker": "J.A.G.",
-     "text": "Yes."
-    },
-    {
-     "text": "'Disease, and death, and demon,"
-    },
-    {
-     "text": "All fled before Thy word"
-    },
-    {
-     "text": "As darkness, the dominion"
-    },
-    {
-     "text": "Of day's returning Lord!'"
-    },
-    {
-     "text": "What power there is in the word of Jesus! How He longs that there might be an increase of committal, devoted affection for Himself on the basis of discipleship. I want to know more about Him, I want more and more of Jesus. You do not have to have gift or ability; you may be the dumbest person in Toronto, but if you love Christ He will make you something."
-    },
-    {
-     "speaker": "C.F.D.",
-     "text": "Chapter 7 ends, \"he taught them as having authority, and not as their scribes\". He brings in the contrast. We might be dumb but the Lord can make something out of us; in Mark's gospel He says \"I will make you become fishers of men\", chap 1: 17. Do you think the touch of authority is needed to affect the brethren?"
-    },
-    {
-     "speaker": "J.A.G.",
-     "text": "Yes, and the authority comes because we are morally equal to it ourselves. It does not come because we speak about authority, but it is the moral influence and power of the person. Hence Matthew, in chapter 20, gives us the eleventhhour labourers and they are the best kind of folk to have in the vineyard. Nobody takes them on, they are poor workmen, they say, I am just hopeless. Paul was the great eleventh-hour labourer."
-    },
-    {
-     "speaker": "J.A.P.",
-     "text": "Does the Lord give each of us a work? Is it \"Whatever thy hand findeth to do\", Eccles 9: 10? So let us each get on with what the Lord has put our way."
-    },
-    {
-     "speaker": "J.A.G.",
-     "text": "Yes, that is levitically. What underlies that and what is needed to cause that to be effective is priesthood, spirituality, being with Christ. Whatever you do, if you have been with the Lord you can give a touch to things. Speak to some of these sisters and they give you a touch. That is discipleship, they are always there, they do not miss many meetings. We do not lay down laws - you must be at the meetings and you must do this and that and the next, though maybe we should (I do not know), but spirituality, nearness to Christ is the idea, the disciple whom Jesus loved, who was in the bosom of Jesus. That is available to everybody. The breast, the bosom, is the same as when John the beloved leant thereon. What a thing Christianity is!"
-    },
-    {
-     "speaker": "M.P.",
-     "text": "You were referring to moral authority. I recently noticed that it says in Ezra 9: \"Then were assembled to me every one that trembled at the words of the God of Israel\" (v.4). Then in chapter 10 a great congregation gathered to Ezra, and Shecheniah said, \"And now let us make a covenant with our God to put away all the wives ... according to the counsel of my lord, and of those that tremble at the commandments of our God\" (v.3). So those who trembled at the word of God had in fact moral authority which here is acknowledged and loved, is it not?"
-    },
-    {
-     "speaker": "J.A.G.",
-     "text": "Indeed it is. Somebody referred to those who tremble at His word. God links on with that sort of person. It is a proof of the work of God. The fall came in through the fact that His word was not obeyed, it was treated lightly as though it meant nothing. That is a fine word to bring in because it bears upon our salvation - listening to the word of God. That is the first temptation: \"Man shall not live by bread alone, but by every word which goes out through God's mouth\" (Matt 4: 4), and that is living this, is it not?"
+     "speaker": "JAG",
+     "text": [
+      "Indeed it is. Somebody referred to those who tremble at His word. God links on with that sort of person. It is a proof of the work of God. The fall came in through the fact that His word was not obeyed, it was treated lightly as though it meant nothing. That is a fine word to bring in because it bears upon our salvation - listening to the word of God. That is the first temptation: \"Man shall not live by bread alone, but by every word which goes out through God's mouth\" (Matt 4: 4), and that is living this, is it not?"
+     ]
     }
    ]
   },
@@ -878,6 +1282,44 @@
      "text": "Have you answered His call?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "DISCIPLESHIP (1)",
+   "kind": "default_place",
+   "detail": "Toronto given to 5 names (\"Toronto if not otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "DISCIPLESHIP (1)",
+   "kind": "possible_speaker",
+   "detail": "DNM opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "DISCIPLESHIP (1)",
+   "kind": "possible_speaker",
+   "detail": "HJB opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "DISCIPLESHIP (1)",
+   "kind": "speaker_not_in_key",
+   "detail": "HJB (in the text)"
+  },
+  {
+   "article": 1,
+   "title": "DISCIPLESHIP (1)",
+   "kind": "speaker_matched_loosely",
+   "detail": "LMcF used in the text for L.McFarlane (key gives LM)"
+  },
+  {
+   "article": 1,
+   "title": "DISCIPLESHIP (1)",
+   "kind": "speaker_not_in_key",
+   "detail": "DNM (in the text)"
   }
  ]
 }

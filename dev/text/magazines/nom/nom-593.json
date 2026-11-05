@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -26,101 +26,94 @@
    "place": "Strood",
    "date": "11 December 2021",
    "speakers": [
-    "B.W.L.",
-    "P.J.W.",
-    "D.C.W.",
-    "J.R.W.",
-    "D.A.B.",
-    "A.A.C.",
-    "R.H.B.",
-    "R.M.B.",
-    "P.M.",
-    "D.B.",
-    "T.J.H.",
-    "G.J.R.",
-    "R.A.S."
+    "WWL",
+    "PJW",
+    "DCW",
+    "JRW",
+    "DAB",
+    "AAC",
+    "RHB",
+    "RMB",
+    "PM",
+    "RWMcC",
+    "DB",
+    "TJH",
+    "GJR",
+    "RAS"
    ],
    "initials": [
     {
-     "initials": "RMBRMBS",
-     "name": "R.M.B. Richard M Brown Strood"
+     "initials": "RMB",
+     "name": "Richard M Brown",
+     "place": "Strood"
     },
     {
-     "initials": "RHBRHBM",
-     "name": "R.H.B. Roland H Brown Maidstone"
+     "initials": "RHB",
+     "name": "Roland H Brown",
+     "place": "Maidstone"
     },
     {
-     "initials": "DBDBS",
-     "name": "D.B. Dan Bodman Strood"
+     "initials": "DB",
+     "name": "Dan Bodman",
+     "place": "Strood"
     },
     {
-     "initials": "DABDABN",
-     "name": "D.A.B. D Andrew Burr Norwood"
+     "initials": "DAB",
+     "name": "D Andrew Burr",
+     "place": "Norwood"
     },
     {
-     "initials": "AACAACS",
-     "name": "A.A.C. Alan A Croot Sidcup"
+     "initials": "AAC",
+     "name": "Alan A Croot",
+     "place": "Sidcup"
     },
     {
-     "initials": "TJHTJHEF",
-     "name": "T.J.H. Trevor J Harvey East Finchley"
+     "initials": "TJH",
+     "name": "Trevor J Harvey",
+     "place": "East Finchley"
     },
     {
-     "initials": "BWLBWLA",
-     "name": "B.W.L. Bill W Lovie Aberdeen"
+     "initials": "WWL",
+     "name": "Bill W Lovie",
+     "place": "Aberdeen"
     },
     {
-     "initials": "PMPMC",
-     "name": "P.M. Paul Martin Colchester"
+     "initials": "PM",
+     "name": "Paul Martin",
+     "place": "Colchester"
     },
     {
-     "initials": "RWMRWMG",
-     "name": "R.W.McC. Rob W McClean Grimsby"
+     "initials": "RWMcC",
+     "name": "Rob W McClean Grimsby"
     },
     {
-     "initials": "GJRGJRM",
-     "name": "G.J.R. G. John Richards Malvern"
+     "initials": "GJR",
+     "name": "G. John Richards",
+     "place": "Malvern"
     },
     {
-     "initials": "RASRASS",
-     "name": "R.A.S. Richard A Smith Strood"
+     "initials": "RAS",
+     "name": "Richard A Smith",
+     "place": "Strood"
     },
     {
-     "initials": "JRWJRWM",
-     "name": "J.R.W. Jim R Walkinshaw Maidstone"
+     "initials": "JRW",
+     "name": "Jim R Walkinshaw",
+     "place": "Maidstone"
     },
     {
-     "initials": "PJWPJWS",
-     "name": "P.J.W. Phil J Walkinshaw Strood"
+     "initials": "PJW",
+     "name": "Phil J Walkinshaw",
+     "place": "Strood"
     },
     {
-     "initials": "DCWDCWS",
-     "name": "D.C.W. David C White Sidcup"
-    },
-    {
-     "initials": "EJBPM",
-     "name": "Edited and published monthly by John Brown and Paul Martin"
-    },
-    {
-     "initials": "A",
-     "name": "Additional copies are available",
-     "place": "free of charge, by emailing"
-    },
-    {
-     "initials": "",
-     "name": "notesofministry@virginmedia.com or paul@nofm.co.uk"
-    },
-    {
-     "initials": "LPLEA",
-     "name": "36 Laverock Park Linlithgow EH49 6AT"
-    },
-    {
-     "initials": "PCP",
-     "name": "Printed by Crystal Print",
-     "place": "22 Western Road, Billericay, Essex CM12 9DZ"
+     "initials": "DCW",
+     "name": "David C White",
+     "place": "Sidcup"
     }
    ],
    "initials_heading": "List of Initials",
+   "initials_comment": "Edited and published monthly by John Brown and Paul Martin",
    "initials_text": [
     "R.M.B. Richard M Brown Strood",
     "R.H.B. Roland H Brown Maidstone",
@@ -144,449 +137,625 @@
    ],
    "paragraphs": [
     {
-     "speaker": "B.W.L.",
-     "text": "What is in mind is to enquire into the greatness of Christ, so that we may grow in our appreciation of Him; “And the man became great, and he became continually greater, until he was very great”. In the beginning of Luke the word to Mary from the angel is “He shall be great” (chap.1:32). In the scriptures that we have read in relation to the temptations and the mount of transfiguration and then at the end of the gospel, I wondered if, pondering them, we would increase in our appreciation of the greatness of the Lord Jesus in His manhood. In John’s gospel, the deity of Christ is immediately brought before us; He is great. In Luke’s gospel it is the manhood of Christ that we are to be engaged with and to see its distinctiveness. In the temptations, Satan was defeated, he had never been defeated like that before. In the Lord Jesus he found One that was perfect and he had no point of attack. “And the man became great”; we see the greatness of the Lord Jesus in His manhood in that situation."
+     "speaker": "WWL",
+     "text": [
+      "What is in mind is to enquire into the greatness of Christ, so that we may grow in our appreciation of Him; “And the man became great, and he became continually greater, until he was very great”. In the beginning of Luke the word to Mary from the angel is “He shall be great” (chap.1:32). In the scriptures that we have read in relation to the temptations and the mount of transfiguration and then at the end of the gospel, I wondered if, pondering them, we would increase in our appreciation of the greatness of the Lord Jesus in His manhood. In John’s gospel, the deity of Christ is immediately brought before us; He is great. In Luke’s gospel it is the manhood of Christ that we are to be engaged with and to see its distinctiveness. In the temptations, Satan was defeated, he had never been defeated like that before. In the Lord Jesus he found One that was perfect and he had no point of attack. “And the man became great”; we see the greatness of the Lord Jesus in His manhood in that situation.",
+      "Then we come to the mount of transfiguration and we see the Father’s delight in Him and He is glorified; that had never happened before. We see the greatness of the Lord Jesus on the mountain. Peter writes in his epistle about “his majesty”, 2 Pet.1:16; he was growing in his appreciation of the Lord Jesus and His greatness. Then we come to the end of the gospel and there is a Man out of death. That had never happened before, a Man on whom death had no claim. Think of the greatness of the Lord Jesus in resurrection! But then too, we have His ascension and glorification. He was caught up, for God wanted that Man in His presence, so He was caught up – the affections of heaven were involved in that. We are told that He “has been received up in glory” (1 Tim.3:16), a glorious reception for that Man. How great He is! We are to grow in our appreciation of Him and I trust we will do so in our time together as we speak of Him."
+     ]
     },
     {
-     "text": "Then we come to the mount of transfiguration and we see the Father’s delight in Him and He is glorified; that had never happened before. We see the greatness of the Lord Jesus on the mountain. Peter writes in his epistle about “his majesty”, 2 Pet.1:16; he was growing in his appreciation of the Lord Jesus and His greatness. Then we come to the end of the gospel and there is a Man out of death. That had never happened before, a Man on whom death had no claim. Think of the greatness of the Lord Jesus in resurrection! But then too, we have His ascension and glorification. He was caught up, for God wanted that Man in His presence, so He was caught up – the affections of heaven were involved in that. We are told that He “has been received up in glory” (1 Tim.3:16), a glorious reception for that Man. How great He is! We are to grow in our appreciation of Him and I trust we will do so in our time together as we speak of Him."
+     "speaker": "PJW",
+     "text": [
+      "It is striking that it says, “And Isaac sowed in that land” then it says, “the man became great, and he became continually greater”. Perhaps you could enlarge on the way the scripture puts it, “the man became great”. It could have said ‘Isaac became great’, but it is “the man”."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "It is striking that it says, “And Isaac sowed in that land” then it says, “the man became great, and he became continually greater”. Perhaps you could enlarge on the way the scripture puts it, “the man became great”. It could have said ‘Isaac became great’, but it is “the man”."
+     "speaker": "WWL",
+     "text": [
+      "If we think of Isaac as a type of Christ, I think it just brings out the greatness of the manhood of Christ, the perfection of it. The Lord as among men was the heavenly Man; He came from heaven. Isaac here was moving under direction. We read earlier on that God told him where to dwell, so the Lord in subjection to the Father is bringing out a great result. That is one of the reasons I read at the end of Luke’s gospel, “they, having done him homage”, because there we have the worshipping company and perhaps that is included in this thought of “a hundred-fold”; the great result that is for God’s pleasure."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "If we think of Isaac as a type of Christ, I think it just brings out the greatness of the manhood of Christ, the perfection of it. The Lord as among men was the heavenly Man; He came from heaven. Isaac here was moving under direction. We read earlier on that God told him where to dwell, so the Lord in subjection to the Father is bringing out a great result. That is one of the reasons I read at the end of Luke’s gospel, “they, having done him homage”, because there we have the worshipping company and perhaps that is included in this thought of “a hundred-fold”; the great result that is for God’s pleasure."
+     "speaker": "PJW",
+     "text": [
+      "From one point of view, Christ could never become greater; we often quote that He was ‘perfect in what He became’. In Himself He is ever the same, but is it your thought that, as a Man, He increases in our affections? I like the way in which you have traced that thought through Luke’s gospel; He was great and then continually greater and then very great."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "From one point of view, Christ could never become greater; we often quote that He was ‘perfect in what He became’. In Himself He is ever the same, but is it your thought that, as a Man, He increases in our affections? I like the way in which you have traced that thought through Luke’s gospel; He was great and then continually greater and then very great."
+     "speaker": "WWL",
+     "text": [
+      "Think of the Lord’s incoming in Bethlehem’s manger, the outward smallness and limited circumstances, “wrapped in swaddling-clothes” (Luke 2:12), but heaven had an appreciation of who was there; there was that heavenly response. In reading",
+      "through the gospels, and as we are occupied with the Lord Jesus, each page is intended to bring out a growing appreciation on our part of the greatness of who was there. We are never to cease growing in our appreciation of His greatness."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Think of the Lord’s incoming in Bethlehem’s manger, the outward smallness and limited circumstances, “wrapped in swaddling-clothes” (Luke 2:12), but heaven had an appreciation of who was there; there was that heavenly response. In reading"
+     "speaker": "DCW",
+     "text": [
+      "The term “the man”, is applied to Him in relation to His position as mediator; “the man Christ Jesus”, 1 Tim.2:3."
+     ]
     },
     {
-     "text": "through the gospels, and as we are occupied with the Lord Jesus, each page is intended to bring out a growing appreciation on our part of the greatness of who was there. We are never to cease growing in our appreciation of His greatness."
+     "speaker": "WWL",
+     "text": [
+      "Yes, that is good. God has come near to us in Christ. It involved the incarnation, “the mediator of God and men one, the man Christ Jesus”, and He has come in on our side in that way too as Son of man. The way that divine love has taken is very wonderful."
+     ]
     },
     {
-     "speaker": "D.C.W.",
-     "text": "The term “the man”, is applied to Him in relation to His position as mediator; “the man Christ Jesus”, 1 Tim.2:3."
+     "speaker": "DCW",
+     "text": [
+      "No one else could occupy that position."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Yes, that is good. God has come near to us in Christ. It involved the incarnation, “the mediator of God and men one, the man Christ Jesus”, and He has come in on our side in that way too as Son of man. The way that divine love has taken is very wonderful."
+     "speaker": "WWL",
+     "text": [
+      "No. In speaking of the manhood of Christ, we have to recognise that His deity underlies everything, and we should not lose sight of that in our enquiry. But when we are speaking of the manhood of Christ, we would see perfection in it."
+     ]
     },
     {
-     "speaker": "D.C.W.",
-     "text": "No one else could occupy that position."
+     "speaker": "JRW",
+     "text": [
+      "Could you say more in relation to His manhood. The devil said to Him, “If thou be Son of God”, but the Lord said, “Man shall not live by bread alone”. I was thinking too of what the centurion said, “Truly this man was Son of God”, Mark 15:39. He never ceased to be Son of God, but say more what is in your mind as to the manhood of Christ and how great that is."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "No. In speaking of the manhood of Christ, we have to recognise that His deity underlies everything, and we should not lose sight of that in our enquiry. But when we are speaking of the manhood of Christ, we would see perfection in it."
+     "speaker": "WWL",
+     "text": [
+      "We can think of these two titles, Son of man, and Son of God. As Son of God the Lord Jesus really represents God to mankind,and is securing the universe for God. As Son of man, He comes in on man’s behalf and all that God looked for in man He found in Christ. The Lord has taken up all our liabilities and as Son of man He has recovered everything for God. The battle ground is in the hearts and lives of persons. The title Son of God emphasises His deity. Satan was trying to choose the battle ground, but the Lord was not diverted so that He answers as Son of man, taking the place of dependence and humility and meekness. Satan had never come across a Man like that before!"
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "Could you say more in relation to His manhood. The devil said to Him, “If thou be Son of God”, but the Lord said, “Man shall not live by bread alone”. I was thinking too of what the centurion said, “Truly this man was Son of God”, Mark 15:39. He never ceased to be Son of God, but say more what is in your mind as to the manhood of Christ and how great that is."
+     "speaker": "JRW",
+     "text": [
+      "It impressed me that as man, the Lord Jesus overcame the devil. No other man could do that. He did that in His manhood. What you are seeking to impress us with is the greatness of His manhood, and no other man but Him could overcome the devil. That would emphasise the greatness of His manhood."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "We can think of these two titles, Son of man, and Son of God. As Son of God the Lord Jesus really represents God to mankind,and is securing the universe for God. As Son of man, He comes in on man’s behalf and all that God looked for in man He found in Christ. The Lord has taken up all our liabilities and as Son of man He has recovered everything for God. The battle ground is in the hearts and lives of persons. The title Son of God emphasises His deity. Satan was trying to choose the battle ground, but the Lord was not diverted so that He answers as Son of man, taking the place of dependence and humility and meekness. Satan had never come across a Man like that before!"
+     "speaker": "DAB",
+     "text": [
+      "Paul shows us in the epistle to the Galatians that when God spoke to Abraham about his seed, He had Christ in view: “and to thy seed, which is Christ” (chap.3:16). I wondered if God’s thoughts for man were such that only One as great as Christ could fill them out. Dependence on God is one of those blessed features that we see in the temptations."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "It impressed me that as man, the Lord Jesus overcame the devil. No other man could do that. He did that in His manhood. What you are seeking to impress us with is the greatness of His manhood, and no other man but Him could overcome the devil. That would emphasise the greatness of His manhood."
+     "speaker": "WWL",
+     "text": [
+      "Yes, that is exactly right and we see too that Jesus as full of the Holy Spirit was really God’s vessel of testimony and service. He was led by the Spirit into that area where the testing took place. It all brings about the perfection and dependence of His manhood."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Paul shows us in the epistle to the Galatians that when God spoke to Abraham about his seed, He had Christ in view: “and to thy seed, which is Christ” (chap.3:16). I wondered if God’s thoughts for man were such that only One as great as Christ could fill them out. Dependence on God is one of those blessed features that we see in the temptations."
+     "speaker": "AAC",
+     "text": [
+      "I wondered if you could say more about the measure of Isaac’s greatness. In the first scripture, it is measured by material possessions, sheep and herds. The greatness of the Lord Jesus is of a different measure altogether. I note that natural man envied Isaac here, but there is no envy in the world towards the Lord Jesus. His is an utterly different kind of wealth, a wealth which results from the understanding of His greatness, and in which His own can be increased."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Yes, that is exactly right and we see too that Jesus as full of the Holy Spirit was really God’s vessel of testimony and service. He was led by the Spirit into that area where the testing took place. It all brings about the perfection and dependence of His manhood."
+     "speaker": "WWL",
+     "text": [
+      "It is not comparative here, it is not greater or greatest. As you say, the measure of wealth in this world is based on what is comparative, but the Lord Jesus stands in all His distinctiveness and glory. In thinking of His manhood – of His moral glories, of His moral greatness – that distinctiveness would be in our minds. He is entirely superior to every circumstance."
+     ]
     },
     {
-     "speaker": "A.A.C.",
-     "text": "I wondered if you could say more about the measure of Isaac’s greatness. In the first scripture, it is measured by material possessions, sheep and herds. The greatness of the Lord Jesus is of a different measure altogether. I note that natural man envied Isaac here, but there is no envy in the world towards the Lord Jesus. His is an utterly different kind of wealth, a wealth which results from the understanding of His greatness, and in which His own can be increased."
+     "speaker": "AAC",
+     "text": [
+      "I am glad of what you say – that it is an utterly different thought altogether. I was thinking of our young brethren; how do we comprehend it in our minds? It is a spiritual view, God’s own view of Christ, and that will come out later, no doubt. It is utterly distinct and unique."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "It is not comparative here, it is not greater or greatest. As you say, the measure of wealth in this world is based on what is comparative, but the Lord Jesus stands in all His distinctiveness and glory. In thinking of His manhood – of His moral glories, of His moral greatness – that distinctiveness would be in our minds. He is entirely superior to every circumstance."
+     "speaker": "RHB",
+     "text": [
+      "You spoke about moral perfection. It was always there under the eye of God, but did the temptations that you have read about, bring it out in testimony for others, for us indeed, to take account of?"
+     ]
     },
     {
-     "speaker": "A.A.C.",
-     "text": "I am glad of what you say – that it is an utterly different thought altogether. I was thinking of our young brethren; how do we comprehend it in our minds? It is a spiritual view, God’s own view of Christ, and that will come out later, no doubt. It is utterly distinct and unique."
+     "speaker": "WWL",
+     "text": [
+      "Yes, that is right. Earlier in Luke’s gospel, it says “the holy thing also which shall be born” (chap.1:35). The Lord was inherently holy; in the type of the oblation, it was mingled with oil, speaking of who He is in manhood as of the Holy Spirit. But as in manhood and moving among men in service, He was anointed; the Holy Spirit came upon Him (chap.3:22) in view of His service in testimony. We do not lose sight of what, in the type, being mingled with oil means, but Paul writes of His being “justified in the Spirit”, 1 Tim.3:16. The Spirit was with Him in everything that the Lord did; He was “justified in the Spirit” in every act."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "You spoke about moral perfection. It was always there under the eye of God, but did the temptations that you have read about, bring it out in testimony for others, for us indeed, to take account of?"
+     "speaker": "RHB",
+     "text": [
+      "After the first sign in John’s gospel, it says He “manifested his glory; and his disciples believed on him” (chap.2:11). He was great, but it was a question of them, and us too, growing in the appreciation of Him as",
+      "He “manifested his glory”, that they and we might grow in wonder at who was there."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Yes, that is right. Earlier in Luke’s gospel, it says “the holy thing also which shall be born” (chap.1:35). The Lord was inherently holy; in the type of the oblation, it was mingled with oil, speaking of who He is in manhood as of the Holy Spirit. But as in manhood and moving among men in service, He was anointed; the Holy Spirit came upon Him (chap.3:22) in view of His service in testimony. We do not lose sight of what, in the type, being mingled with oil means, but Paul writes of His being “justified in the Spirit”, 1 Tim.3:16. The Spirit was with Him in everything that the Lord did; He was “justified in the Spirit” in every act."
+     "speaker": "WWL",
+     "text": [
+      "That is good, and it is signs we have in John, not miracles. Miracles speak more of what was accomplished, but in the case of signs we are going deeper than that, we are seeing the greatness of the One who has accomplished it. That is John’s thought."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "After the first sign in John’s gospel, it says He “manifested his glory; and his disciples believed on him” (chap.2:11). He was great, but it was a question of them, and us too, growing in the appreciation of Him as"
+     "speaker": "RMB",
+     "text": [
+      "In applying this expression, “he became continually greater”, to the Lord Jesus, is it in the sense of our apprehension of Him, so that the Lord Jesus and His glories should become greater and greater to us? In one sense the glory of Christ is there for all to see, but is there a process that needs to go on in our souls, is there some change that needs to be brought about in us if we are to grow in our appreciation of His greatness?"
+     ]
     },
     {
-     "text": "He “manifested his glory”, that they and we might grow in wonder at who was there."
+     "speaker": "WWL",
+     "text": [
+      "Yes, there must be. We come to appreciate Christ as our Saviour – that would be our initial appreciation of Him, what He has done for me – but then as receiving the gift of the Spirit, we can appreciate more. We can only really appreciate the greatness of the Lord Jesus by the Spirit, but please help us more."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "That is good, and it is signs we have in John, not miracles. Miracles speak more of what was accomplished, but in the case of signs we are going deeper than that, we are seeing the greatness of the One who has accomplished it. That is John’s thought."
+     "speaker": "RMB",
+     "text": [
+      "I am looking for help myself because if there is that thought that we can be enlarged in our capacity to take in more of the glory of Christ, I am sure that is something that would touch every heart that loves Him. We would all long for that! But I wondered if the reference to sowing, might suggest that there is exercise involved and that it is something we have to definitely commit ourselves to?"
+     ]
     },
     {
-     "speaker": "R.M.B.",
-     "text": "In applying this expression, “he became continually greater”, to the Lord Jesus, is it in the sense of our apprehension of Him, so that the Lord Jesus and His glories should become greater and greater to us? In one sense the glory of Christ is there for all to see, but is there a process that needs to go on in our souls, is there some change that needs to be brought about in us if we are to grow in our appreciation of His greatness?"
+     "speaker": "WWL",
+     "text": [
+      "Yes that is good. There is a process; the sower sowed and then received a hundredfold (Luke 8:8). Sometimes we speak about slow results and that is because of our own state, but what is envisaged is full results and quick results. But there is a process in the sowing and there is what goes on secretly. When you sow, you do not see anything for quite a while and then suddenly you have a green shoot. There is something that has been going on secretly and hidden. The Spirit’s work is formative in us and while we see the distinctiveness of the Lord Jesus, there is too what is pattern for us in the way of the Lord’s dependence in prayer. If we are occupied and appreciate His greatness then we will be formed in that way too."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Yes, there must be. We come to appreciate Christ as our Saviour – that would be our initial appreciation of Him, what He has done for me – but then as receiving the gift of the Spirit, we can appreciate more. We can only really appreciate the greatness of the Lord Jesus by the Spirit, but please help us more."
+     "speaker": "RMB",
+     "text": [
+      "I think what you say as to the private side, the secret spiritual exercises, must underlie any increased capacity in us to take in more of the glory of Christ."
+     ]
     },
     {
-     "speaker": "R.M.B.",
-     "text": "I am looking for help myself because if there is that thought that we can be enlarged in our capacity to take in more of the glory of Christ, I am sure that is something that would touch every heart that loves Him. We would all long for that! But I wondered if the reference to sowing, might suggest that there is exercise involved and that it is something we have to definitely commit ourselves to?"
+     "speaker": "DCW",
+     "text": [
+      "John the baptist had an appreciation of what we are speaking of. He could speak of the One who comes “from above”, and “He must increase, but I must decrease”, John 3:30."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Yes that is good. There is a process; the sower sowed and then received a hundredfold (Luke 8:8). Sometimes we speak about slow results and that is because of our own state, but what is envisaged is full results and quick results. But there is a process in the sowing and there is what goes on secretly. When you sow, you do not see anything for quite a while and then suddenly you have a green shoot. There is something that has been going on secretly and hidden. The Spirit’s work is formative in us and while we see the distinctiveness of the Lord Jesus, there is too what is pattern for us in the way of the Lord’s dependence in prayer. If we are occupied and appreciate His greatness then we will be formed in that way too."
+     "speaker": "WWL",
+     "text": [
+      "He had a wonderful appreciation of the Lord Jesus, but then the saints of the assembly are to have an even greater appreciation of Him than John the baptist’s. “He must increase, but I must decrease” involves a process in us. That helps us to see the difference between the Lord being “full of the Holy Spirit”, and how it speaks of persons being “filled with the Holy Spirit” (Acts 2:4). We are filled because that involves displacement in us, but there is no thought of that with the Lord."
+     ]
     },
     {
-     "speaker": "R.M.B.",
-     "text": "I think what you say as to the private side, the secret spiritual exercises, must underlie any increased capacity in us to take in more of the glory of Christ."
+     "speaker": "DCW",
+     "text": [
+      "No doubt that would be the effect of the Lord’s instruction in chapter 24, the expansion of their thoughts and their appreciation of Him as He would open the Scriptures and open their understandings."
+     ]
     },
     {
-     "speaker": "D.C.W.",
-     "text": "John the baptist had an appreciation of what we are speaking of. He could speak of the One who comes “from above”, and “He must increase, but I must decrease”, John 3:30."
+     "speaker": "PJW",
+     "text": [
+      "We see an example of it with the apostle Paul. He saw “a light out of heaven” (Acts 9:3), then he called it “a great light”, Acts 22:6. Then speaking to Agrippa, Paul called it “a light above the brightness of the sun” (Acts 26:13), as though the greatness of the One who had appeared to Him was continually increasing in His affections."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "He had a wonderful appreciation of the Lord Jesus, but then the saints of the assembly are to have an even greater appreciation of Him than John the baptist’s. “He must increase, but I must decrease” involves a process in us. That helps us to see the difference between the Lord being “full of the Holy Spirit”, and how it speaks of persons being “filled with the Holy Spirit” (Acts 2:4). We are filled because that involves displacement in us, but there is no thought of that with the Lord."
+     "speaker": "WWL",
+     "text": [
+      "Exactly, and that is really my exercise in reading these scriptures, that we grow in the appreciation of the Person."
+     ]
     },
     {
-     "speaker": "D.C.W.",
-     "text": "No doubt that would be the effect of the Lord’s instruction in chapter 24, the expansion of their thoughts and their appreciation of Him as He would open the Scriptures and open their understandings."
+     "speaker": "PM",
+     "text": [
+      "The hymn writer says as to the Father,",
+      "‘Each holy footstep gave Thee fresh delight’",
+      "(Hymn 119).",
+      "Do you think it is important to ask the Father to show us what delight He found in Jesus? Every circumstance brought out a glory that was already there."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "We see an example of it with the apostle Paul. He saw “a light out of heaven” (Acts 9:3), then he called it “a great light”, Acts 22:6. Then speaking to Agrippa, Paul called it “a light above the brightness of the sun” (Acts 26:13), as though the greatness of the One who had appeared to Him was continually increasing in His affections."
+     "speaker": "WWL",
+     "text": [
+      "That is good, so that as the Lord was in, and moved through, these situations and circumstances, what comes out was already there. I think that is good to contemplate. The Father’s appreciation of Christ is full. It is very elevated to get some touch about what the Father thinks of Him."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Exactly, and that is really my exercise in reading these scriptures, that we grow in the appreciation of the Person."
+     "speaker": "RWMcC",
+     "text": [
+      "It says in Luke that “Jesus advanced in wisdom and stature, and in favour with God and men” (chap 2:52). I know that was as a Boy, but could you say something about that in relation to what we are saying as to the greatness of Christ?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "The hymn writer says as to the Father,"
+     "speaker": "WWL",
+     "text": [
+      "In these secret years of which we get only one account when He was about twelve years of age, heaven found delight in every moment of the life of Jesus. You might say that it was unseen to most, although Mary had some appreciation of it, no doubt. I would be glad if you could say more about that."
+     ]
     },
     {
-     "text": "‘Each holy footstep gave Thee fresh delight’"
+     "speaker": "RWMcC",
+     "text": [
+      "The divine foreknowledge of all that was in Christ did not hinder the Father’s delight in every unfolding of it in His ways, do you think?"
+     ]
     },
     {
-     "text": "(Hymn 119)."
+     "speaker": "WWL",
+     "text": [
+      "I think it is like the seed again; the blade, then an ear and then full corn in the ear (Mark 4:28). There was that which was seen in Jesus at every stage of His growth from a Babe to a Boy then to a young Man. The Lord was perfect in every stage of His growth in manhood and heaven found delight in that; the heaven was opened upon Him just before where we read. That would be related to these secret years."
+     ]
     },
     {
-     "text": "Do you think it is important to ask the Father to show us what delight He found in Jesus? Every circumstance brought out a glory that was already there."
+     "speaker": "PJW",
+     "text": [
+      "What our brother has said as to divine foreknowledge is very instructive. The Lord speaks to the Father of loving Him before the foundation of the world (John 17:24), and He says in John 10 “On this account the Father loves me, because I lay down my life that I may take it again” (v.17). It has been said that the Lord gave the Father fresh cause to love Him. I like what our brother said; the greatness of what He was in God’s foreknowledge of Him as a Man did not take away from the Father’s delight in what came out in His pathway here. Is it right to say that?"
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "That is good, so that as the Lord was in, and moved through, these situations and circumstances, what comes out was already there. I think that is good to contemplate. The Father’s appreciation of Christ is full. It is very elevated to get some touch about what the Father thinks of Him."
+     "speaker": "WWL",
+     "text": [
+      "I think it is, because the Lord Jesus was in a scene that is adverse, “but where sin abounded grace has overabounded”, Rom.5:20.",
+      "We read from chapter 4. It has been suggested that the first temptation is in relation to food and that is where Adam failed; he failed in relation to the food question. And then we have the kingdoms of the world, which would relate to government, and Noah failed in relation to that principle. Lastly, we have temptation; Israel as a nation tempted God. So that in every circumstance, whether it is innocence or what is spoken of the new world in Noah, we might say despite all God’s bountiful provision and goodness, man failed. But the Lord did not fail. In all these questions, Satan had never come across anybody like this before and he was defeated, he left Jesus, departed from Him for a time. He was completely defeated."
+     ]
     },
     {
-     "text": "R.W.McC. It says in Luke that “Jesus advanced in wisdom and stature, and in favour with God and men” (chap 2:52). I know that was as a Boy, but could you say something about that in relation to what we are saying as to the greatness of Christ?"
+     "speaker": "DB",
+     "text": [
+      "What can be said about the Holy Spirit in relation to this matter of greatness? Jesus was “full of the Holy Spirit” and “led by the Spirit”?"
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "In these secret years of which we get only one account when He was about twelve years of age, heaven found delight in every moment of the life of Jesus. You might say that it was unseen to most, although Mary had some appreciation of it, no doubt. I would be glad if you could say more about that."
+     "speaker": "WWL",
+     "text": [
+      "I think these verses show the Lord in His dependent manhood as the Vessel of testimony to man and of service towards God. His movements were in the Spirit, and in one of the other gospels it says that He was driven by the Spirit (Mark 1:12). This was not an area where man would choose to go, to be tempted of the devil, but it was necessary. Right at the beginning of the Lord’s public service, there was this challenge. Satan was looking to defeat God’s thoughts but he came up against One the like of whom he had never come across before."
+     ]
     },
     {
-     "text": "R.W.McC. The divine foreknowledge of all that was in Christ did not hinder the Father’s delight in every unfolding of it in His ways, do you think?"
+     "speaker": "DAB",
+     "text": [
+      "I wondered if we see in this section a glorious answer to what came out of His baptism in the previous chapter. The Father said, “Thou art my beloved Son” (v.22) and the Holy Spirit came upon Him. Satan said ‘if’; “If thou be Son of God”. It was a challenge to the Father really and the Father was glorified in the answer He received. The Father was vindicated for what He had said from heaven, and the Holy Spirit was vindicated in having come upon Jesus."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "I think it is like the seed again; the blade, then an ear and then full corn in the ear (Mark 4:28). There was that which was seen in Jesus at every stage of His growth from a Babe to a Boy then to a young Man. The Lord was perfect in every stage of His growth in manhood and heaven found delight in that; the heaven was opened upon Him just before where we read. That would be related to these secret years."
+     "speaker": "WWL",
+     "text": [
+      "That is helpful. Here was God’s Man moving out in service and immediately there was a challenge and, as you say, the Father was vindicated and the Spirit was vindicated in the way the Lord answers in perfection and in dependence."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "What our brother has said as to divine foreknowledge is very instructive. The Lord speaks to the Father of loving Him before the foundation of the world (John 17:24), and He says in John 10 “On this account the Father loves me, because I lay down my life that I may take it again” (v.17). It has been said that the Lord gave the Father fresh cause to love Him. I like what our brother said; the greatness of what He was in God’s foreknowledge of Him as a Man did not take away from the Father’s delight in what came out in His pathway here. Is it right to say that?"
+     "speaker": "DAB",
+     "text": [
+      "The greatness of the Man is seen in the extent to which He glorifies God."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "I think it is, because the Lord Jesus was in a scene that is adverse, “but where sin abounded grace has overabounded”, Rom.5:20."
+     "speaker": "TJH",
+     "text": [
+      "In chapter 3, it says that “the Holy Spirit descended in a bodily form as a dove upon him” (v.22). I wonder if that speaks of the uniqueness of the Lord Jesus in line with your thought that the Holy Spirit has descended upon no one else in such a manner. In the scripture you read, Jesus answered Satan from the book of Deuteronomy and His selection of scriptures was marked by the same sensitivity. Being full of the Holy Spirit is an important point."
+     ]
     },
     {
-     "text": "We read from chapter 4. It has been suggested that the first temptation is in relation to food and that is where Adam failed; he failed in relation to the food question. And then we have the kingdoms of the world, which would relate to government, and Noah failed in relation to that principle. Lastly, we have temptation; Israel as a nation tempted God. So that in every circumstance, whether it is innocence or what is spoken of the new world in Noah, we might say despite all God’s bountiful provision and goodness, man failed. But the Lord did not fail. In all these questions, Satan had never come across anybody like this before and he was defeated, he left Jesus, departed from Him for a time. He was completely defeated."
+     "speaker": "WWL",
+     "text": [
+      "It has been often said that the Holy Spirit descending as a dove on Jesus involved restfulness, but in Acts 2, the Spirit came upon those in the upper room as “parted tongues, as of fire” (v.3). Not that there was anything at that point that needed negating, but the tongues of fire would involve that side of the Spirit’s activities in us. But that was not necessary in any way when the Spirit descended upon the Lord Jesus in such a full way. We sang (Hymn 259) of the fulness of the Godhead dwelling in Him; that would include the Spirit. In relation to what you say as to Deuteronomy, Exodus is the book for the wilderness and that involves formation for us, but the Lord was not formed in the way in which we are in our wilderness pathway, through the experiences that we go through. So the Lord answered from Deuteronomy which is teaching for a people ready to go into the land. It is the divine view of the wilderness, so that the Lord answers perfectly."
+     ]
     },
     {
-     "speaker": "D.B.",
-     "text": "What can be said about the Holy Spirit in relation to this matter of greatness? Jesus was “full of the Holy Spirit” and “led by the Spirit”?"
+     "speaker": "TJH",
+     "text": [
+      "Yes, it speaks of the preparation of the people of Israel for moving forward on the way to the land."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "I think these verses show the Lord in His dependent manhood as the Vessel of testimony to man and of service towards God. His movements were in the Spirit, and in one of the other gospels it says that He was driven by the Spirit (Mark 1:12). This was not an area where man would choose to go, to be tempted of the devil, but it was necessary. Right at the beginning of the Lord’s public service, there was this challenge. Satan was looking to defeat God’s thoughts but he came up against One the like of whom he had never come across before."
+     "speaker": "WWL",
+     "text": [
+      "The scriptures He used showed the Lord’s wisdom. We could think of David; he chose five smooth stones out of the brook, although he only needed one. I think the Lord’s selection here would be on those lines."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I wondered if we see in this section a glorious answer to what came out of His baptism in the previous chapter. The Father said, “Thou art my beloved Son” (v.22) and the Holy Spirit came upon Him. Satan said ‘if’; “If thou be Son of God”. It was a challenge to the Father really and the Father was glorified in the answer He received. The Father was vindicated for what He had said from heaven, and the Holy Spirit was vindicated in having come upon Jesus."
+     "speaker": "GJR",
+     "text": [
+      "We cannot but notice the audacity of the devil, a being that would dare to bring these temptations before One who was so great. It was not possible that the Lord Jesus could fail, He was the “holy thing”. Yet why was it necessary that He should be exposed to this dreadful being three times like this when it was never possible that He could fail?"
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "That is helpful. Here was God’s Man moving out in service and immediately there was a challenge and, as you say, the Father was vindicated and the Spirit was vindicated in the way the Lord answers in perfection and in dependence."
+     "speaker": "WWL",
+     "text": [
+      "I suppose the strong man is bound here, and now the Lord Jesus is going to go on through the gospel and spoil his goods. Satan would come back: he departed from Him for a time, but we know he came back at the garden of Gethsemane. That brings in the thought of the Lord being forsaken and going into death – think of the awfulness of it! But here Satan had for the moment used up all his armoury and he had been defeated. I think this challenge was allowed at the outset of the Lord’s public service, just before He came out in service, to show that He was entirely superior. It speaks in Luke 1 as to the holy thing “He shall be great, and shall be called Son of the Highest” (v.32). The Lord is entirely superior in every way."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The greatness of the Man is seen in the extent to which He glorifies God."
+     "speaker": "RMB",
+     "text": [
+      "I think it was said earlier that it was necessary for the Lord Jesus to go through these temptations to bring out into testimony, into public display, the moral worth that characterised Him. Up to this moment, He had only been under the Father’s eye, but from this moment it was brought out into public display. Would it be right to say that there are two main reasons why that was necessary. First of all, it shows us why it is that the Lord Jesus was suitable to be the sin-offering; the scripture refers to Him offering Himself “spotless to God”, Heb.9:14. In every way, He met the divine requirement. But secondly, as a Pattern, He sets out what is possible for a dependent believer moving in the power of the Holy Spirit to be able to overcome every temptation."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "In chapter 3, it says that “the Holy Spirit descended in a bodily form as a dove upon him” (v.22). I wonder if that speaks of the uniqueness of the Lord Jesus in line with your thought that the Holy Spirit has descended upon no one else in such a manner. In the scripture you read, Jesus answered Satan from the book of Deuteronomy and His selection of scriptures was marked by the same sensitivity. Being full of the Holy Spirit is an important point."
+     "speaker": "WWL",
+     "text": [
+      "That is very good. “Him who knew not sin he has made sin for us” (2 Cor.5:21); that is the sin-offering. Then “in him sin is not” (1 John 3:5); you see His perfection, His spotless character. The lamb in Exodus was washed within and without; although as a type of the Lord Jesus, He did not need to have anything washed away. It draws our attention to the perfection and purity that was in the Lord in His perfection. Do you think we see something like that here? As you say, there is a pattern for us as we are engaged with this One, then by the Spirit we are to be like Him."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "It has been often said that the Holy Spirit descending as a dove on Jesus involved restfulness, but in Acts 2, the Spirit came upon those in the upper room as “parted tongues, as of fire” (v.3). Not that there was anything at that point that needed negating, but the tongues of fire would involve that side of the Spirit’s activities in us. But that was not necessary in any way when the Spirit descended upon the Lord Jesus in such a full way. We sang (Hymn 259) of the fulness of the Godhead dwelling in Him; that would include the Spirit. In relation to what you say as to Deuteronomy, Exodus is the book for the wilderness and that involves formation for us, but the Lord was not formed in the way in which we are in our wilderness pathway, through the experiences that we go through. So the Lord answered from Deuteronomy which is teaching for a people ready to go into the land. It is the divine view of the wilderness, so that the Lord answers perfectly."
+     "speaker": "PM",
+     "text": [
+      "Would it also underlie His priesthood? He was “tempted in all things”, Heb.4:15. No one else has been tempted in the same way as the Lord Jesus was tempted here, but it was necessary that He should be tempted."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "Yes, it speaks of the preparation of the people of Israel for moving forward on the way to the land."
+     "speaker": "WWL",
+     "text": [
+      "That is good, so “such a high priest became us”, Heb.7:26. Think of the suitability, the greatness of Christ as Priest. It speaks about forty days here; forty days in the wilderness and then we are told about these distinct temptations, which in a way cover everything. It was a full period of testing that the Lord endured and He came through in perfection. As you said, He is able to sympathise with us; “tempted in all things in like manner, sin apart”. He is unique and distinctive but the Lord’s feelings are towards us in that way in support and strengthening."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "The scriptures He used showed the Lord’s wisdom. We could think of David; he chose five smooth stones out of the brook, although he only needed one. I think the Lord’s selection here would be on those lines."
+     "speaker": "RMB",
+     "text": [
+      "What was in your mind in connection with the second temptation? I think you referred to government; would you open that up for us please?"
+     ]
     },
     {
-     "speaker": "G.J.R.",
-     "text": "We cannot but notice the audacity of the devil, a being that would dare to bring these temptations before One who was so great. It was not possible that the Lord Jesus could fail, He was the “holy thing”. Yet why was it necessary that He should be exposed to this dreadful being three times like this when it was never possible that He could fail?"
+     "speaker": "WWL",
+     "text": [
+      "I think it has been linked with Noah, he was really given that place and he failed in it, in that he could not govern himself and failure came in. This was not Satan’s to give anyway. It has often been pointed out that he showed Jesus all the kingdoms in a moment of time, but that if it had been any longer than that, the failure and sin that marks the world would have been apparent."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "I suppose the strong man is bound here, and now the Lord Jesus is going to go on through the gospel and spoil his goods. Satan would come back: he departed from Him for a time, but we know he came back at the garden of Gethsemane. That brings in the thought of the Lord being forsaken and going into death – think of the awfulness of it! But here Satan had for the moment used up all his armoury and he had been defeated. I think this challenge was allowed at the outset of the Lord’s public service, just before He came out in service, to show that He was entirely superior. It speaks in Luke 1 as to the holy thing “He shall be great, and shall be called Son of the Highest” (v.32). The Lord is entirely superior in every way."
+     "speaker": "TJH",
+     "text": [
+      "In that section it is about His sonship: “If thou be Son”. The answer is that we should live “by every word of God”. The word of God comes “Thou art my beloved Son”. Should we not live by that word?"
+     ]
     },
     {
-     "speaker": "R.M.B.",
-     "text": "I think it was said earlier that it was necessary for the Lord Jesus to go through these temptations to bring out into testimony, into public display, the moral worth that characterised Him. Up to this moment, He had only been under the Father’s eye, but from this moment it was brought out into public display. Would it be right to say that there are two main reasons why that was necessary. First of all, it shows us why it is that the Lord Jesus was suitable to be the sin-offering; the scripture refers to Him offering Himself “spotless to God”, Heb.9:14. In every way, He met the divine requirement. But secondly, as a Pattern, He sets out what is possible for a dependent believer moving in the power of the Holy Spirit to be able to overcome every temptation."
+     "speaker": "WWL",
+     "text": [
+      "The Lord said, “My food is that I should do the will of him that has sent me”, John 4:34. That is what governed the Lord in every movement; it was food to Him."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "That is very good. “Him who knew not sin he has made sin for us” (2 Cor.5:21); that is the sin-offering. Then “in him sin is not” (1 John 3:5); you see His perfection, His spotless character. The lamb in Exodus was washed within and without; although as a type of the Lord Jesus, He did not need to have anything washed away. It draws our attention to the perfection and purity that was in the Lord in His perfection. Do you think we see something like that here? As you say, there is a pattern for us as we are engaged with this One, then by the Spirit we are to be like Him."
+     "speaker": "PJW",
+     "text": [
+      "As to government, Paul says, “giving the proof of it”, and “by the man whom he has appointed”, Acts 17:31. You spoke about Noah failing in government. The only Man that is capable of and qualified for government of the world is Christ, the Man.",
+      "What was your particular thought as to the transfiguration?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Would it also underlie His priesthood? He was “tempted in all things”, Heb.4:15. No one else has been tempted in the same way as the Lord Jesus was tempted here, but it was necessary that He should be tempted."
+     "speaker": "WWL",
+     "text": [
+      "I think we see the Lord here glorified as Man, as God the Father’s delight. Then He comes down the mountain and sets His face to go to Jerusalem and it speaks of the “days of his receiving up”, Luke 9:51. I think this is the Man that heaven wants."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "That is good, so “such a high priest became us”, Heb.7:26. Think of the suitability, the greatness of Christ as Priest. It speaks about forty days here; forty days in the wilderness and then we are told about these distinct temptations, which in a way cover everything. It was a full period of testing that the Lord endured and He came through in perfection. As you said, He is able to sympathise with us; “tempted in all things in like manner, sin apart”. He is unique and distinctive but the Lord’s feelings are towards us in that way in support and strengthening."
+     "speaker": "PJW",
+     "text": [
+      "So are you are linking that a little with “continually greater”, and the last section with “very great”?"
+     ]
     },
     {
-     "speaker": "R.M.B.",
-     "text": "What was in your mind in connection with the second temptation? I think you referred to government; would you open that up for us please?"
+     "speaker": "WWL",
+     "text": [
+      "Yes, that is right. We have Moses and Elias here who were used by God and had certain distinction, but it has been suggested that they are introduced here to be withdrawn and the disciples saw Jesus alone. Peter was perhaps on the side of ‘greatest’ or ‘greater’, but “Jesus was found alone”."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "I think it has been linked with Noah, he was really given that place and he failed in it, in that he could not govern himself and failure came in. This was not Satan’s to give anyway. It has often been pointed out that he showed Jesus all the kingdoms in a moment of time, but that if it had been any longer than that, the failure and sin that marks the world would have been apparent."
+     "speaker": "DAB",
+     "text": [
+      "Would you say that the mistake that Peter made was to think of Him as relatively greater. God’s intention was that Jesus should be continually greater with no reference to the stature of anyone else."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "In that section it is about His sonship: “If thou be Son”. The answer is that we should live “by every word of God”. The word of God comes “Thou art my beloved Son”. Should we not live by that word?"
+     "speaker": "WWL",
+     "text": [
+      "Just so. When Peter writes his epistle, he speaks of being “eyewitnesses of his majesty” (2 Pet.1:16), which would no doubt involve the mountain. It might be wider than that of course, but I think you get a sense of the Lord’s majesty here."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "The Lord said, “My food is that I should do the will of him that has sent me”, John 4:34. That is what governed the Lord in every movement; it was food to Him."
+     "speaker": "JRW",
+     "text": [
+      "He stood out here. It says, “the fashion of his countenance became different and his raiment white and effulgent” and then it says as to those who were looking on “they saw his glory, and the two men who stood with him”. There was evidently something very distinctive here."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "As to government, Paul says, “giving the proof of it”, and “by the man whom he has appointed”, Acts 17:31. You spoke about Noah failing in government. The only Man that is capable of and qualified for government of the world is Christ, the Man."
+     "speaker": "WWL",
+     "text": [
+      "Do you think that one of the things that the mountain shows us is the Father glorifying Christ as Man? We speak of the Lord as the Man of God’s purpose and He is now in conditions of purpose which involved ascension and glorification. We get some preview here of Christ glorified."
+     ]
     },
     {
-     "text": "What was your particular thought as to the transfiguration?"
+     "speaker": "RWMcC",
+     "text": [
+      "I think I read somewhere that we speak about Jesus moving from the manger to the cross, but we should speak about from the manger to the mountain, and from the mountain to the cross. It shows the distinctiveness of this event, that Christ is magnified by the Father; it shows God’s appreciation of His greatness!"
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "I think we see the Lord here glorified as Man, as God the Father’s delight. Then He comes down the mountain and sets His face to go to Jerusalem and it speaks of the “days of his receiving up”, Luke 9:51. I think this is the Man that heaven wants."
+     "speaker": "WWL",
+     "text": [
+      "Yes that is good. We perhaps become accustomed to Christ moving about in this scene of need, and the Lord moved in perfection of course in every circumstance, but here we get what a brother in Aberdeen used to speak about as love at home and love away from home. I suppose when the Lord was moving about where sin abounded, grace was overabounding; that is love away from home. But here on the mountain, we are coming now to love at home, to the Father’s delight in Christ, are we not? Peter and James and John are given a glimpse of that. That links with what you said earlier in relation to the Father’s delight and appreciation."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "So are you are linking that a little with “continually greater”, and the last section with “very great”?"
+     "speaker": "PM",
+     "text": [
+      "Yes, the conversation that was proceeding is affecting. They “spoke of his departure which he was about to accomplish”; only He could do that. Is that another feature of the greatness of the Person that came out, that He had authority to lay down His life and authority to take it again (John 10:18). He had a right to ascend."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Yes, that is right. We have Moses and Elias here who were used by God and had certain distinction, but it has been suggested that they are introduced here to be withdrawn and the disciples saw Jesus alone. Peter was perhaps on the side of ‘greatest’ or ‘greater’, but “Jesus was found alone”."
+     "speaker": "WWL",
+     "text": [
+      "So we get a glimpse of the Lord in the glory and as has been said, a preview of what God’s thoughts are in relation to Christ as glorifying Him. But Jesus came down from the mount, so it is His departure that is in mind. Moses led the people out of Egypt, and he knew something about his departure. Elias was caught up in a whirlwind, and he could have spoken about his departure. But it was not their departures they were speaking about, it was Christ’s, which is very wonderful to contemplate."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Would you say that the mistake that Peter made was to think of Him as relatively greater. God’s intention was that Jesus should be continually greater with no reference to the stature of anyone else."
+     "speaker": "PM",
+     "text": [
+      "He was going to depart because He did not belong here."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Just so. When Peter writes his epistle, he speaks of being “eyewitnesses of his majesty” (2 Pet.1:16), which would no doubt involve the mountain. It might be wider than that of course, but I think you get a sense of the Lord’s majesty here."
+     "speaker": "WWL",
+     "text": [
+      "So He is the heavenly Man seen here in testimony. I suppose there is what continues in the saints in the way of heavenly character, but this Man really belongs in heaven."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "He stood out here. It says, “the fashion of his countenance became different and his raiment white and effulgent” and then it says as to those who were looking on “they saw his glory, and the two men who stood with him”. There was evidently something very distinctive here."
+     "speaker": "TJH",
+     "text": [
+      "Would the authority that He had, as has been referred to, be suggested in the “fashion of his countenance”? In Matthew’s account, “his face shone as the sun” (chap.17:2); that might refer to the idea of authority, for the sun has authority on all that it shines upon. I wonder if His authority is suggested in this section."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Do you think that one of the things that the mountain shows us is the Father glorifying Christ as Man? We speak of the Lord as the Man of God’s purpose and He is now in conditions of purpose which involved ascension and glorification. We get some preview here of Christ glorified."
+     "speaker": "WWL",
+     "text": [
+      "Yes, and what Peter says in relation to “his majesty” involves authority too."
+     ]
     },
     {
-     "text": "R.W.McC. I think I read somewhere that we speak about Jesus moving from the manger to the cross, but we should speak about from the manger to the mountain, and from the mountain to the cross. It shows the distinctiveness of this event, that Christ is magnified by the Father; it shows God’s appreciation of His greatness!"
+     "speaker": "DCW",
+     "text": [
+      "There is a reference in John 13 to the Lord’s departure; “knowing that his hour had come that he should depart out of this world to the Father …” (v.1), and then His love comes out, “… having loved his own who were in the world, loved them to the end”. The Lord was in control of everything."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Yes that is good. We perhaps become accustomed to Christ moving about in this scene of need, and the Lord moved in perfection of course in every circumstance, but here we get what a brother in Aberdeen used to speak about as love at home and love away from home. I suppose when the Lord was moving about where sin abounded, grace was overabounding; that is love away from home. But here on the mountain, we are coming now to love at home, to the Father’s delight in Christ, are we not? Peter and James and John are given a glimpse of that. That links with what you said earlier in relation to the Father’s delight and appreciation."
+     "speaker": "WWL",
+     "text": [
+      "I think He was looking past the cross and all its sufferings; He was going to the Father having accomplished all."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, the conversation that was proceeding is affecting. They “spoke of his departure which he was about to accomplish”; only He could do that. Is that another feature of the greatness of the Person that came out, that He had authority to lay down His life and authority to take it again (John 10:18). He had a right to ascend."
+     "speaker": "RAS",
+     "text": [
+      "I was wondering if we can contemplate the greatness of the Lord Jesus in silence sometimes. I was thinking about the fact that Peter spoke here; James tells us that we should be “swift to hear, slow to speak”, Jas.1:19. In the next chapter, Mary was sitting at Jesus’ feet. It does not say that she was saying anything, but was she contemplating something of His greatness?"
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "So we get a glimpse of the Lord in the glory and as has been said, a preview of what God’s thoughts are in relation to Christ as glorifying Him. But Jesus came down from the mount, so it is His departure that is in mind. Moses led the people out of Egypt, and he knew something about his departure. Elias was caught up in a whirlwind, and he could have spoken about his departure. But it was not their departures they were speaking about, it was Christ’s, which is very wonderful to contemplate."
+     "speaker": "WWL",
+     "text": [
+      "I think that is good. Luke writes with method so there is a certain order in what he writes about. We can learn a lot from Peter, and can all be quite glad of him because we learn that we are like him. We may say things that are a little bit out of turn, but then it is for our education; not that there is any premium on making mistakes, but if we do make a mistake, we are to learn from it. We see how Peter developed in his appreciation of this; we find that “they kept silence” in those days. Impressions can mature and the Lord commends Mary for choosing “the good part, the which shall not be taken from her”, Luke 10:42. An impression of Christ is to develop and to last. We get new impressions of Him; it is not that the ones that we have had before become stale, because the One with whom we are engaged is living.",
+      "That brings us to the end of the gospel. There is something further, “it behoved the Christ to suffer, and to rise from among the dead the third day”; here is a Man out of death; the greatness of Christ as the conqueror of death. It is a selective resurrection, “from among the dead”. And then we come on to His ascension and glorification and the worshipping company, so that there is more for God."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "He was going to depart because He did not belong here."
+     "speaker": "RHB",
+     "text": [
+      "Is the sending of “the promise of my Father” indicative of the greatness of Him as Man?"
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "So He is the heavenly Man seen here in testimony. I suppose there is what continues in the saints in the way of heavenly character, but this Man really belongs in heaven."
+     "speaker": "WWL",
+     "text": [
+      "The Lord had been with the disciples and they had become accustomed to Him. Jesus says of the Father, “he will give you another Comforter” (John 14:16), and as has been taught, the Spirit is not another Comforter in the sense of being here instead of the Lord, but the Spirit takes up that service. It is not that the Lord does not remain as a Comforter to us, but the Spirit is here with us too. The Lord recognised how necessary it was; “I send the promise of my Father”.",
+      "The Lord had secured that promise from His Father; He was thinking about His own. It certainly speaks of the greatness of His love for His own in the time of His absence."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "Would the authority that He had, as has been referred to, be suggested in the “fashion of his countenance”? In Matthew’s account, “his face shone as the sun” (chap.17:2); that might refer to the idea of authority, for the sun has authority on all that it shines upon. I wonder if His authority is suggested in this section."
+     "speaker": "DAB",
+     "text": [
+      "He is also shown to be the golden thread through all Scripture. I was thinking of what we have been saying; the Father’s delight had very much been in looking forward anticipatively to Christ and He laid that thread, as it were, all through the Old Testament, but now His own can see it and understand it."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Yes, and what Peter says in relation to “his majesty” involves authority too."
+     "speaker": "WWL",
+     "text": [
+      "Yes, “he opened their understanding to understand the scriptures”. In the Old Testament scriptures, we find Christ all the way through; they speak of Him and the Spirit helps us in understanding and appreciation, which leads to our formation."
+     ]
     },
     {
-     "speaker": "D.C.W.",
-     "text": "There is a reference in John 13 to the Lord’s departure; “knowing that his hour had come that he should depart out of this world to the Father …” (v.1), and then His love comes out, “… having loved his own who were in the world, loved them to the end”. The Lord was in control of everything."
+     "speaker": "JRW",
+     "text": [
+      "That is interesting. I was noticing that, as you say, the greatness of the Person is brought out, but what comes into the early verses is the stress on the manhood of Jesus, because it says they “supposed they beheld a spirit” but He says “behold my hands and my feet, that it is I myself. Handle me and see …” and then He took food and ate it before them. There is a stress on the fact that He is a blessed Man, and yet so great!"
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "I think He was looking past the cross and all its sufferings; He was going to the Father having accomplished all."
+     "speaker": "WWL",
+     "text": [
+      "He remains a Man. “The Word became flesh” (John 1:14); that involves the incarnation, Christ becoming Man. It is interesting to see how Scripture is so accurate. John does not say that the Word became flesh and blood, which relates to His condition here in manhood, but in the forty days the Lord was showing and demonstrating to them that He was still a real Man. It was secret, it was not public. Now the Lord is ascended and glorified, but He remains a Man. There is a hymn that says:",
+      "‘O the sight in heav’n is glorious!",
+      "Man in righteousness is there;’ (Hymn 212).",
+      "It is the same One who was here in lowliness and meekness, in humility and suffering who is now glorified."
+     ]
     },
     {
-     "speaker": "R.A.S.",
-     "text": "I was wondering if we can contemplate the greatness of the Lord Jesus in silence sometimes. I was thinking about the fact that Peter spoke here; James tells us that we should be “swift to hear, slow to speak”, Jas.1:19. In the next chapter, Mary was sitting at Jesus’ feet. It does not say that she was saying anything, but was she contemplating something of His greatness?"
+     "speaker": "DCW",
+     "text": [
+      "There is a sense of immediacy at the end of Luke’s gospel. There is no mention of the forty days."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "I think that is good. Luke writes with method so there is a certain order in what he writes about. We can learn a lot from Peter, and can all be quite glad of him because we learn that we are like him. We may say things that are a little bit out of turn, but then it is for our education; not that there is any premium on making mistakes, but if we do make a mistake, we are to learn from it. We see how Peter developed in his appreciation of this; we find that “they kept silence” in those days. Impressions can mature and the Lord commends Mary for choosing “the good part, the which shall not be taken from her”, Luke 10:42. An impression of Christ is to develop and to last. We get new impressions of Him; it is not that the ones that we have had before become stale, because the One with whom we are engaged is living."
+     "speaker": "WWL",
+     "text": [
+      "That is right. In the first chapter of the Acts, we have the word as to the Lord coming again. We are in the faith period now, the dispensation of grace which is in faith, and it is the Spirit’s dispensation, it is marked by the Spirit. That is the time we are in, and there is a full result. Mr Coates said that Luke’s gospel begins with a dumb priest and an empty temple, and it finishes with a worshipping company1. I think that is the hundredfold. Luke gives us one hundred-fold. He does not give us increase or decrease, he gives us the full result, one hundredfold. I wondered if we could apply that to the last few verses because of the greatness of Christ."
+     ]
     },
     {
-     "text": "That brings us to the end of the gospel. There is something further, “it behoved the Christ to suffer, and to rise from among the dead the third day”; here is a Man out of death; the greatness of Christ as the conqueror of death. It is a selective resurrection, “from among the dead”. And then we come on to His ascension and glorification and the worshipping company, so that there is more for God."
+     "speaker": "PJW",
+     "text": [
+      "Could you help us as to the expression, unique to Luke, that the Lord Jesus was “carried up into heaven”. It is the same idea as in the Acts where it says that “he was taken up” (chap.1:9). In John’s gospel, He says, “I ascend”, (chap.20:17) no doubt conveying the greatness of who He is as Son of God, but here it says that He was carried up into heaven."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "Is the sending of “the promise of my Father” indicative of the greatness of Him as Man?"
+     "speaker": "WWL",
+     "text": [
+      "Peter says, “whom heaven indeed must receive”, Acts 3:21. Heaven was longing for this moment. The Lord had asked the Father that He might send the Spirit as another Comforter for His own, and you might say that everything was accomplished; the",
+      "Lord had accomplished it all, although the Spirit was yet to come. We need to be careful about what we say; the Lord would have loved to have remained with His own, but He could say in John’s gospel that it was “profitable for you that I go away” (chap.16:7). It says in the Acts that “he was taken up” (chap.1:2) which is a similar thought to “carried up”. Heaven must receive Him – the Father was longing to have His Son back in glory with Him as Man."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "The Lord had been with the disciples and they had become accustomed to Him. Jesus says of the Father, “he will give you another Comforter” (John 14:16), and as has been taught, the Spirit is not another Comforter in the sense of being here instead of the Lord, but the Spirit takes up that service. It is not that the Lord does not remain as a Comforter to us, but the Spirit is here with us too. The Lord recognised how necessary it was; “I send the promise of my Father”."
+     "speaker": "PJW",
+     "text": [
+      "Hebrews says that He “passed through the heavens” (chap.4:14), and someone once said that He filled every heaven that He passed through: “that he might fill all things”, Eph.4:10."
+     ]
     },
     {
-     "text": "The Lord had secured that promise from His Father; He was thinking about His own. It certainly speaks of the greatness of His love for His own in the time of His absence."
+     "speaker": "WWL",
+     "text": [
+      "Yes, and He was “received up into glory” (1 Tim.3:16); that was the manner of His being taken up. It does not say ‘received up to glory’, although that would be true of course, but “received up in glory”. It was a glorious reception!"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "He is also shown to be the golden thread through all Scripture. I was thinking of what we have been saying; the Father’s delight had very much been in looking forward anticipatively to Christ and He laid that thread, as it were, all through the Old Testament, but now His own can see it and understand it."
+     "speaker": "RHB",
+     "text": [
+      "It was as He was blessing them; “having lifted up his hands, he blessed them”, and as He was blessing them He was “carried up”. Does that give character to the whole dispensation?"
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Yes, “he opened their understanding to understand the scriptures”. In the Old Testament scriptures, we find Christ all the way through; they speak of Him and the Spirit helps us in understanding and appreciation, which leads to our formation."
+     "speaker": "WWL",
+     "text": [
+      "Yes, that is good. They were blessed by Christ, the One who we have been speaking about who has become “continually greater until he was very great”. It is His entire supremacy."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "That is interesting. I was noticing that, as you say, the greatness of the Person is brought out, but what comes into the early verses is the stress on the manhood of Jesus, because it says they “supposed they beheld a spirit” but He says “behold my hands and my feet, that it is I myself. Handle me and see …” and then He took food and ate it before them. There is a stress on the fact that He is a blessed Man, and yet so great!"
+     "speaker": "RMB",
+     "text": [
+      "Was it in your mind that the significance of the Lord’s ascension, as we might say in contrast to His resurrection, is that it has established a new place for believers before God and by that means it has established the distinctively heavenly character of Christianity."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "He remains a Man. “The Word became flesh” (John 1:14); that involves the incarnation, Christ becoming Man. It is interesting to see how Scripture is so accurate. John does not say that the Word became flesh and blood, which relates to His condition here in manhood, but in the forty days the Lord was showing and demonstrating to them that He was still a real Man. It was secret, it was not public. Now the Lord is ascended and glorified, but He remains a Man. There is a hymn that says:"
+     "speaker": "WWL",
+     "text": [
+      "Yes, resurrection involves a different state; it is “from among the dead” (Acts 3:15), but I think it has been said that true assembly ground is on the platform of ascension. That links with what you say in relation to what is heavenly."
+     ]
     },
     {
-     "text": "‘O the sight in heav’n is glorious!"
+     "speaker": "TJH",
+     "text": [
+      "So the Man we call to mind in the Lord’s supper is not only One who is risen, which is a victory, but the One who has ascended. We call to mind a Man in the glory, and that really marks the dispensation."
+     ]
     },
     {
-     "text": "Man in righteousness is there;’ (Hymn 212)."
+     "speaker": "WWL",
+     "text": [
+      "Just so. When we think of the Lord, we think of Him where He is. We may speak about where He has been, but we think of Him where He is. He is there in all His worth and greatness."
+     ]
     },
     {
-     "text": "It is the same One who was here in lowliness and meekness, in humility and suffering who is now glorified."
+     "speaker": "PM",
+     "text": [
+      "He blessed the little company at Bethany here, but that blessing is now universal. It was necessary that He should be carried up into heaven so that such a blessing should continue universally."
+     ]
     },
     {
-     "speaker": "D.C.W.",
-     "text": "There is a sense of immediacy at the end of Luke’s gospel. There is no mention of the forty days."
+     "speaker": "WWL",
+     "text": [
+      "And what marks Bethany is that it is where He was loved. There were those who appreciated the Lord."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "That is right. In the first chapter of the Acts, we have the word as to the Lord coming again. We are in the faith period now, the dispensation of grace which is in faith, and it is the Spirit’s dispensation, it is marked by the Spirit. That is the time we are in, and there is a full result. Mr Coates said that Luke’s gospel begins with a dumb priest and an empty temple, and it finishes with a worshipping company1. I think that is the hundredfold. Luke gives us one hundred-fold. He does not give us increase or decrease, he gives us the full result, one hundredfold. I wondered if we could apply that to the last few verses because of the greatness of Christ."
+     "speaker": "RWMcC",
+     "text": [
+      "I was thinking about what you said about the assembly. Assembly ground is Christ risen and the Spirit here. It says in John 7 “the Spirit was not yet, because Jesus had not yet been glorified” (v.39). He is glorified now, and when the assembly is taken up, we will all be changed to be like Him. It magnifies His greatness."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "Could you help us as to the expression, unique to Luke, that the Lord Jesus was “carried up into heaven”. It is the same idea as in the Acts where it says that “he was taken up” (chap.1:9). In John’s gospel, He says, “I ascend”, (chap.20:17) no doubt conveying the greatness of who He is as Son of God, but here it says that He was carried up into heaven."
+     "speaker": "WWL",
+     "text": [
+      "I suppose we could think of Colossians 1 as a chapter that speaks of the glory of Christ and the assembly is brought in there because of what He is personally, “he is the head of the body, the assembly”",
+      "(v.18); that is the Lord as ascended. It is because of all that He is in His personal greatness."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Peter says, “whom heaven indeed must receive”, Acts 3:21. Heaven was longing for this moment. The Lord had asked the Father that He might send the Spirit as another Comforter for His own, and you might say that everything was accomplished; the"
-    },
-    {
-     "text": "Lord had accomplished it all, although the Spirit was yet to come. We need to be careful about what we say; the Lord would have loved to have remained with His own, but He could say in John’s gospel that it was “profitable for you that I go away” (chap.16:7). It says in the Acts that “he was taken up” (chap.1:2) which is a similar thought to “carried up”. Heaven must receive Him – the Father was longing to have His Son back in glory with Him as Man."
-    },
-    {
-     "speaker": "P.J.W.",
-     "text": "Hebrews says that He “passed through the heavens” (chap.4:14), and someone once said that He filled every heaven that He passed through: “that he might fill all things”, Eph.4:10."
-    },
-    {
-     "speaker": "B.W.L.",
-     "text": "Yes, and He was “received up into glory” (1 Tim.3:16); that was the manner of His being taken up. It does not say ‘received up to glory’, although that would be true of course, but “received up in glory”. It was a glorious reception!"
-    },
-    {
-     "speaker": "R.H.B.",
-     "text": "It was as He was blessing them; “having lifted up his hands, he blessed them”, and as He was blessing them He was “carried up”. Does that give character to the whole dispensation?"
-    },
-    {
-     "speaker": "B.W.L.",
-     "text": "Yes, that is good. They were blessed by Christ, the One who we have been speaking about who has become “continually greater until he was very great”. It is His entire supremacy."
-    },
-    {
-     "speaker": "R.M.B.",
-     "text": "Was it in your mind that the significance of the Lord’s ascension, as we might say in contrast to His resurrection, is that it has established a new place for believers before God and by that means it has established the distinctively heavenly character of Christianity."
-    },
-    {
-     "speaker": "B.W.L.",
-     "text": "Yes, resurrection involves a different state; it is “from among the dead” (Acts 3:15), but I think it has been said that true assembly ground is on the platform of ascension. That links with what you say in relation to what is heavenly."
-    },
-    {
-     "speaker": "T.J.H.",
-     "text": "So the Man we call to mind in the Lord’s supper is not only One who is risen, which is a victory, but the One who has ascended. We call to mind a Man in the glory, and that really marks the dispensation."
-    },
-    {
-     "speaker": "B.W.L.",
-     "text": "Just so. When we think of the Lord, we think of Him where He is. We may speak about where He has been, but we think of Him where He is. He is there in all His worth and greatness."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "He blessed the little company at Bethany here, but that blessing is now universal. It was necessary that He should be carried up into heaven so that such a blessing should continue universally."
-    },
-    {
-     "speaker": "B.W.L.",
-     "text": "And what marks Bethany is that it is where He was loved. There were those who appreciated the Lord."
-    },
-    {
-     "text": "R.W.McC. I was thinking about what you said about the assembly. Assembly ground is Christ risen and the Spirit here. It says in John 7 “the Spirit was not yet, because Jesus had not yet been glorified” (v.39). He is glorified now, and when the assembly is taken up, we will all be changed to be like Him. It magnifies His greatness."
-    },
-    {
-     "speaker": "B.W.L.",
-     "text": "I suppose we could think of Colossians 1 as a chapter that speaks of the glory of Christ and the assembly is brought in there because of what He is personally, “he is the head of the body, the assembly”"
-    },
-    {
-     "text": "(v.18); that is the Lord as ascended. It is because of all that He is in His personal greatness."
-    },
-    {
-     "speaker": "D.C.W.",
-     "text": "There was a consequence to His ascension, “that he might fill all things”. He has gone far above all the heavens."
+     "speaker": "DCW",
+     "text": [
+      "There was a consequence to His ascension, “that he might fill all things”. He has gone far above all the heavens."
+     ]
     }
    ]
   },
@@ -601,6 +770,116 @@
      "text": "C A Coates Vol.1 (Outline of Genesis) p.121"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"Richard M Brown Strood\" read as Richard M Brown, Strood"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"Roland H Brown Maidstone\" read as Roland H Brown, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"Dan Bodman Strood\" read as Dan Bodman, Strood"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"D Andrew Burr Norwood\" read as D Andrew Burr, Norwood"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alan A Croot Sidcup\" read as Alan A Croot, Sidcup"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"Trevor J Harvey East Finchley\" read as Trevor J Harvey, East Finchley"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"Bill W Lovie Aberdeen\" read as Bill W Lovie, Aberdeen"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"Paul Martin Colchester\" read as Paul Martin, Colchester"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"G. John Richards Malvern\" read as G. John Richards, Malvern"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"Richard A Smith Strood\" read as Richard A Smith, Strood"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"Jim R Walkinshaw Maidstone\" read as Jim R Walkinshaw, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"Phil J Walkinshaw Strood\" read as Phil J Walkinshaw, Strood"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
+   "detail": "\"David C White Sidcup\" read as David C White, Sidcup"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "not_a_name",
+   "detail": "\"Additional copies are available\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "publisher_in_key",
+   "detail": "\"@virginmedia.com or paul@nofm.co.uk...\" ignored"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "not_a_name",
+   "detail": "\"notesofministry\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "initials_before_name",
+   "detail": "14 entries written as initials then name (\"RMB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "person_fixed",
+   "detail": "BWL in the text -> WWL (Bill W. Lovie)"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,100 +26,102 @@
    "place": "KIRKCALDY",
    "date": "11 June 1994",
    "speakers": [
-    "P.M.",
-    "J.W.",
-    "D.T.P.",
-    "J.S.",
-    "A.C.C.",
-    "P.B.",
-    "R.J.C.",
-    "R.T.",
-    "J.M.",
-    "W.W.",
-    "E.S.",
-    "J.D.G.",
-    "T.D.B."
+    "PM",
+    "JW",
+    "DTP",
+    "JS",
+    "ACC",
+    "PB",
+    "RJC",
+    "RT",
+    "JM",
+    "WW",
+    "ES",
+    "JDG",
+    "DMcG",
+    "AMcB",
+    "AMcK",
+    "TDB"
    ],
    "initials": [
     {
-     "initials": "TDBTDB",
-     "name": "T.D.B. T.D.Beveridge",
+     "initials": "TDB",
+     "name": "T.D.Beveridge",
      "place": "Kirkcaldy"
     },
     {
-     "initials": "PBPB",
-     "name": "P.B. P.Buchan",
+     "initials": "PB",
+     "name": "P.Buchan",
      "place": "Kirkcaldy"
     },
     {
-     "initials": "RJCRJC",
-     "name": "R.J.C. R.J.Campbell",
+     "initials": "RJC",
+     "name": "R.J.Campbell",
      "place": "Glasgow"
     },
     {
-     "initials": "ACCACC",
-     "name": "A.C.C. A.C.Craig",
+     "initials": "ACC",
+     "name": "A.C.Craig",
      "place": "Airdrie"
     },
     {
-     "initials": "JDGJDG",
-     "name": "J.D.G. J.D.Gray",
+     "initials": "JDG",
+     "name": "J.D.Gray",
      "place": "Edinburgh"
     },
     {
-     "initials": "AMAM",
-     "name": "A.McB. A.McBride",
+     "initials": "AMcB",
+     "name": "A.McBride",
      "place": "Grangemouth"
     },
     {
-     "initials": "AMAM",
-     "name": "A.McK. A.McKay",
+     "initials": "AMcK",
+     "name": "A.McKay",
      "place": "Brechin"
     },
     {
-     "initials": "DMDM",
-     "name": "D.McG. D.McGregor",
+     "initials": "DMcG",
+     "name": "D.McGregor",
      "place": "Lochgelly"
     },
     {
-     "initials": "JMJM",
-     "name": "J.M. J.Marshall",
+     "initials": "JM",
+     "name": "J.Marshall",
      "place": "Edinburgh"
     },
     {
-     "initials": "DTPDP",
-     "name": "D.T.P. D.Pye",
+     "initials": "DTP",
+     "name": "D.Pye",
      "place": "Kirkcaldy"
-    },
-    {
-     "initials": "JSJS",
-     "name": "J.S. J.Spinks",
-     "place": "Grangemouth"
-    },
-    {
-     "initials": "ESES",
-     "name": "E.S. E.Steedman",
-     "place": "Grangemouth"
     },
     {
      "initials": "JS",
-     "name": "n. J.Strachan",
-     "place": "Dundee"
+     "name": "J.Spinks",
+     "place": "Grangemouth"
     },
     {
-     "initials": "RTRT",
-     "name": "R.T. R.Taylor",
+     "initials": "ES",
+     "name": "E.Steedman",
+     "place": "Grangemouth"
+    },
+    {
+     "initials": "RT",
+     "name": "R.Taylor",
      "place": "Kirkcaldy"
     },
     {
-     "initials": "WWWW",
-     "name": "W.W. W.Wallace",
+     "initials": "WW",
+     "name": "W.Wallace",
      "place": "Kirkcaldy"
     },
     {
-     "initials": "JWJW",
-     "name": "J.W. J.Wilson",
+     "initials": "JW",
+     "name": "J.Wilson",
      "place": "Kirkcaldy"
+    },
+    {
+     "initials": "PM",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
@@ -128,352 +130,510 @@
    ],
    "paragraphs": [
     {
-     "speaker": "P.M.",
-     "text": "We might enquire as to the references to the blood in these passages, thinking about its value to God, not so much its bearing on the removal of our sins, although of course how blessedly perfect and full and efficacious it is in that regard - and I trust that each one of us has an appreciation of the blood of Jesus, the One who has made atonement for sin. But I wondered if in these passages where there is the application of the blood upon the persons, there is not something that has to be wrought out in the believer. In chapter 12 the blood is apprehended by faith, the blood of Jesus typically. Peter says, \"Ye have been redeemed, not by corruptible things, as silver or gold ... but by precious blood, as of a lamb without blemish and without spot\" (1 Peter 1: 18,19). The blood in Exodus 12 is laid hold of in faith; the firstborn in the house may never actually have seen it, but in faith he laid hold of the fact that it was there. In these passages however there is a moral effect in the believer, and I wondered if the blood of the covenant that is referred to in Hebrews, has a bearing on the day in which we are where persons esteem the blood of the covenant common. Maybe the Lord will give us to have a greater appreciation of the blood of the covenant."
+     "speaker": "PM",
+     "text": [
+      "We might enquire as to the references to the blood in these passages, thinking about its value to God, not so much its bearing on the removal of our sins, although of course how blessedly perfect and full and efficacious it is in that regard - and I trust that each one of us has an appreciation of the blood of Jesus, the One who has made atonement for sin. But I wondered if in these passages where there is the application of the blood upon the persons, there is not something that has to be wrought out in the believer. In chapter 12 the blood is apprehended by faith, the blood of Jesus typically. Peter says, \"Ye have been redeemed, not by corruptible things, as silver or gold ... but by precious blood, as of a lamb without blemish and without spot\" (1 Peter 1: 18,19). The blood in Exodus 12 is laid hold of in faith; the firstborn in the house may never actually have seen it, but in faith he laid hold of the fact that it was there. In these passages however there is a moral effect in the believer, and I wondered if the blood of the covenant that is referred to in Hebrews, has a bearing on the day in which we are where persons esteem the blood of the covenant common. Maybe the Lord will give us to have a greater appreciation of the blood of the covenant.",
+      "In the second passage, the blood is in relation to the priesthood, and the object in view is that God is to be served. He has redeemed us, not only to remove us from where we were, but in order that we should be serving Him, and service Godward is what is in view in the gospel and in God's dealings with us - ''that they should serve me as priests\". It may open up as we proceed."
+     ]
     },
     {
-     "text": "In the second passage, the blood is in relation to the priesthood, and the object in view is that God is to be served. He has redeemed us, not only to remove us from where we were, but in order that we should be serving Him, and service Godward is what is in view in the gospel and in God's dealings with us - ''that they should serve me as priests\". It may open up as we proceed."
+     "speaker": "JW",
+     "text": [
+      "Appreciation of the blood is a wonderful thing to know. It is through the blood that we are here today, through the precious blood of Christ. We will get help on the matter as we go along."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Appreciation of the blood is a wonderful thing to know. It is through the blood that we are here today, through the precious blood of Christ. We will get help on the matter as we go along."
+     "speaker": "PM",
+     "text": [
+      "I am sure we would all desire to grow in the appreciation of the blood of Jesus, and what that blood is in its application to me, also what it is to God. We sometimes sing that \"We should be part, through Jesus’ blood\". The whole universe will be secured finally for God on the basis of the blood of Jesus, not only the saints of this dispensation, but every family will be gathered in on the basis of redemption."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I am sure we would all desire to grow in the appreciation of the blood of Jesus, and what that blood is in its application to me, also what it is to God. We sometimes sing that \"We should be part, through Jesus’ blood\". The whole universe will be secured finally for God on the basis of the blood of Jesus, not only the saints of this dispensation, but every family will be gathered in on the basis of redemption."
+     "speaker": "JW",
+     "text": [
+      "\"O Love divine, that did decree",
+      "We should be part, through Jesus’ blood.\" (Hymn 88)",
+      "What a wonderful thing!"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "\"O Love divine, that did decree"
+     "speaker": "PM",
+     "text": [
+      "It is, and if we value that precious blood, how much more does God, for the blood is to God."
+     ]
     },
     {
-     "text": "We should be part, through Jesus’ blood.\" (Hymn 88)"
+     "speaker": "DTP",
+     "text": [
+      "That comes in in Exodus 2, \"When I see the blood\" (v 13). There is God’s valuation of it, and it is difficult for us to grasp in its fulness what He sees in the blood. That is what you are at, is it?"
+     ]
     },
     {
-     "text": "What a wonderful thing!"
+     "speaker": "PM",
+     "text": [
+      "Yes, \"When I see you\". The judgment in Exodus 12 was not from the Egyptians, but the judgment was God's righteous judgment upon the Egyptians. But, \"When I see the blood, I will pass over you\". It is a wonderful thing to have our faith in the blood of Jesus. I do trust that each of us here has that. Nothing else will cleanse us from our sins. The hymnwriter says,",
+      "\"What can wash away my sins?",
+      "Nothing but the blood of Jesus!\""
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It is, and if we value that precious blood, how much more does God, for the blood is to God."
+     "speaker": "DTP",
+     "text": [
+      "We have been reading in John's Gospel chapter 19, where John speaks of the blood and the water (v 34); he is very explicit as to it, is he not? And that is from one who had great affection for the Lord. Does that suggest some opening up through affection as to the value of the blood?"
+     ]
     },
     {
-     "speaker": "D.T.P.",
-     "text": "That comes in in Exodus 2, \"When I see the blood\" (v 13). There is God’s valuation of it, and it is difficult for us to grasp in its fulness what He sees in the blood. That is what you are at, is it?"
+     "speaker": "PM",
+     "text": [
+      "That is helpful, because in the gospel John presents the blood first, and as one who was standing there when that precious blood was shed. He would have had a fresh impression in relation to the shedding of the blood of Jesus in such a way. He puts the blood first in the Gospel because it presents the judicial side, that God's righteousness had to be met; but in the epistle, \"He that came by water and blood\", there is the moral bearing upon those that believe, I wondered if we might work a little at that together, the moral bearing of the blood upon us today."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, \"When I see you\". The judgment in Exodus 12 was not from the Egyptians, but the judgment was God's righteous judgment upon the Egyptians. But, \"When I see the blood, I will pass over you\". It is a wonderful thing to have our faith in the blood of Jesus. I do trust that each of us here has that. Nothing else will cleanse us from our sins. The hymnwriter says,"
+     "speaker": "JS",
+     "text": [
+      "We had a touch on Wednesday night as to the reference in Peter, \"elect according to the foreknowledge of God the Father, by sanctification of the Spirit, unto the obedience and sprinkling of the blood of Jesus Christ\" (1 Peter 1: 2). Would the subjective work of the Spirit bring the moral bearing of the blood upon us?"
+     ]
     },
     {
-     "text": "\"What can wash away my sins?"
+     "speaker": "PM",
+     "text": [
+      "I am sure it would. \"The obedience and sprinkling\". Obedience comes out in this section we have read, and it links with that passage in Peter, but perhaps we could ponder \"obedience and sprinkling\" because it stands related to Jesus, does it not? \"Obedience and sprinkling of the blood of Jesus Christ\"; the whole answer for God is secured on the basis of obedience, obedience of the One, but that is to work out by the Spirit in us. I wondered if the sprinkling here is to bring out identification in the people with the obedience of Jesus. What do you say?"
+     ]
     },
     {
-     "text": "Nothing but the blood of Jesus!\""
+     "speaker": "ACC",
+     "text": [
+      "It might not be the blood on the mercyseat, which primarily is for God, His pleasure and satisfaction. Would He feast on the obedience of Christ as the blood comes under His eye, before there is any application to ourselves?"
+     ]
     },
     {
-     "speaker": "D.T.P.",
-     "text": "We have been reading in John's Gospel chapter 19, where John speaks of the blood and the water (v 34); he is very explicit as to it, is he not? And that is from one who had great affection for the Lord. Does that suggest some opening up through affection as to the value of the blood?"
+     "speaker": "PM",
+     "text": [
+      "I thought that and wondered whether the burnt-offering coming in in this section first would link with that. All was seen in perfection in the obedience of that blessed Man, so delightful to God, involving that He should be \"obedient even unto death, and that the death of the cross\" (Phil. 2: 8). How far that obedience has gone! It is as if the writer would say it is not just obedient unto death, but that the death of the cross."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is helpful, because in the gospel John presents the blood first, and as one who was standing there when that precious blood was shed. He would have had a fresh impression in relation to the shedding of the blood of Jesus in such a way. He puts the blood first in the Gospel because it presents the judicial side, that God's righteousness had to be met; but in the epistle, \"He that came by water and blood\", there is the moral bearing upon those that believe, I wondered if we might work a little at that together, the moral bearing of the blood upon us today."
+     "speaker": "PB",
+     "text": [
+      "Why do you think Moses put half of the blood in basins and half he sprinkled? What was the motive in that?"
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "We had a touch on Wednesday night as to the reference in Peter, \"elect according to the foreknowledge of God the Father, by sanctification of the Spirit, unto the obedience and sprinkling of the blood of Jesus Christ\" (1 Peter 1: 2). Would the subjective work of the Spirit bring the moral bearing of the blood upon us?"
+     "speaker": "PM",
+     "text": [
+      "It says, “And Moses took half the blood, and put in basons; and half the blood he sprinkled on the altar\". Does that not link with what has been said as to the obedience and sprinkling of the blood of Jesus Christ, the altar perhaps suggesting the way in which He was obedient unto death all that has been secured sacrificially in the death of Christ providing the basis for God to come out in covenant relationships? But then the volume of that blood - it is not just in a bason but it is in basons - suggesting to us perhaps the fulness of all that is in the heart of God towards us on the basis of the obedience and sacrifice of Jesus."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I am sure it would. \"The obedience and sprinkling\". Obedience comes out in this section we have read, and it links with that passage in Peter, but perhaps we could ponder \"obedience and sprinkling\" because it stands related to Jesus, does it not? \"Obedience and sprinkling of the blood of Jesus Christ\"; the whole answer for God is secured on the basis of obedience, obedience of the One, but that is to work out by the Spirit in us. I wondered if the sprinkling here is to bring out identification in the people with the obedience of Jesus. What do you say?"
+     "speaker": "RJC",
+     "text": [
+      "In the end of verse the people say, \"All the words that Jehovah has said will we do!\", and then in verse 7, \"All that Jehovah has said will we do and obey!\". That comes in after these reference to the blood. I wonder whether it had some impact on the people that they added that word, \"and obey\"."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "It might not be the blood on the mercyseat, which primarily is for God, His pleasure and satisfaction. Would He feast on the obedience of Christ as the blood comes under His eye, before there is any application to ourselves?"
+     "speaker": "PM",
+     "text": [
+      "Do you think it is so like me, anyway, that our immediate reaction is to commit ourselves, perhaps without weighing the full impact of what it has cost divine Persons? What a difference that makes in our committal. I wondered if it was like the seed that was sown on the stony ground that sprang up immediately and yet it had no root in itself. I speak affectionately, but there is often a danger I find with myself, and I am sure I am not alone in it, that we assent to the truth, and perhaps go along with it, without working it out in exercise in relation to all that it cost the Lord Jesus in the establishment of it."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I thought that and wondered whether the burnt-offering coming in in this section first would link with that. All was seen in perfection in the obedience of that blessed Man, so delightful to God, involving that He should be \"obedient even unto death, and that the death of the cross\" (Phil. 2: 8). How far that obedience has gone! It is as if the writer would say it is not just obedient unto death, but that the death of the cross."
+     "speaker": "JW",
+     "text": [
+      "What is in your mind is that it should have a moral effect upon us."
+     ]
     },
     {
-     "speaker": "P.B.",
-     "text": "Why do you think Moses put half of the blood in basins and half he sprinkled? What was the motive in that?"
+     "speaker": "PM",
+     "text": [
+      "That is what is in mind. It is more, l think, than the apprehension of it by faith, but as has been said, there has to be a moral effect wrought out by the Spirit and it stands related to the wondrous sacrifice of Christ."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It says, “And Moses took half the blood, and put in basons; and half the blood he sprinkled on the altar\". Does that not link with what has been said as to the obedience and sprinkling of the blood of Jesus Christ, the altar perhaps suggesting the way in which He was obedient unto death all that has been secured sacrificially in the death of Christ providing the basis for God to come out in covenant relationships? But then the volume of that blood - it is not just in a bason but it is in basons - suggesting to us perhaps the fulness of all that is in the heart of God towards us on the basis of the obedience and sacrifice of Jesus."
+     "speaker": "DTP",
+     "text": [
+      "Often we do much by way of affection and there is genuineness of heart with us in that affection, but there needs to be intelligence in our affection too, which would relate to that moral side working out, would it not?"
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "In the end of verse the people say, \"All the words that Jehovah has said will we do!\", and then in verse 7, \"All that Jehovah has said will we do and obey!\". That comes in after these reference to the blood. I wonder whether it had some impact on the people that they added that word, \"and obey\"."
+     "speaker": "PM",
+     "text": [
+      "Does that not relate to our secret history with God, in which we are formed? There is formation that proceeds as we sit together, no doubt, and we value that, but if it is to have any fruit and any depth, it must be worked out in secret with divine Persons."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Do you think it is so like me, anyway, that our immediate reaction is to commit ourselves, perhaps without weighing the full impact of what it has cost divine Persons? What a difference that makes in our committal. I wondered if it was like the seed that was sown on the stony ground that sprang up immediately and yet it had no root in itself. I speak affectionately, but there is often a danger I find with myself, and I am sure I am not alone in it, that we assent to the truth, and perhaps go along with it, without working it out in exercise in relation to all that it cost the Lord Jesus in the establishment of it."
+     "speaker": "RT",
+     "text": [
+      "We are brought really on to collective ground in this section. In Exodus 12 there are households but we come more on to a collective company through these transactions, do you think?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "What is in your mind is that it should have a moral effect upon us."
+     "speaker": "PM",
+     "text": [
+      "Would not the twelve pillars suggest that?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is what is in mind. It is more, l think, than the apprehension of it by faith, but as has been said, there has to be a moral effect wrought out by the Spirit and it stands related to the wondrous sacrifice of Christ."
+     "speaker": "RT",
+     "text": [
+      "There is an individual appreciation of our sins being cleared and the cost that that has been individually, but does this not set us together collectively? Are we brought on to ground where we have collective responsibilities and collective privileges?"
+     ]
     },
     {
-     "speaker": "D.T.P.",
-     "text": "Often we do much by way of affection and there is genuineness of heart with us in that affection, but there needs to be intelligence in our affection too, which would relate to that moral side working out, would it not?"
+     "speaker": "PM",
+     "text": [
+      "I am sure of that, and does not Moses have that all in view in these movements. Firstly he builds an altar. He establishes before hem the greatness of what has been secure sacrificially, but then there are the twelve pillars according to the twelve tribes of Israel, and God is taking up covenant relations with His people collectively. It is wonderful that He has taken up relations with me individually, but it is a greater thing, is it not, that He is taking up collective relationships?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Does that not relate to our secret history with God, in which we are formed? There is formation that proceeds as we sit together, no doubt, and we value that, but if it is to have any fruit and any depth, it must be worked out in secret with divine Persons."
+     "speaker": "JM",
+     "text": [
+      "It speaks about shepherding the assembly of God, which He has purchased with the blood of His own (see Acts 20: 28). I was thinking of the cost in regard to the securing of the assembly and the valuation of the blood."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "We are brought really on to collective ground in this section. In Exodus 12 there are households but we come more on to a collective company through these transactions, do you think?"
+     "speaker": "PM",
+     "text": [
+      "It is helpful to bring that in, \"the assembly of God, which he has purchased with the blood of his own\". I wonder if I have any apprehension of the cost that divine Persons have incurred in the securing of a collective answer for themselves. There has been the individual answer, but there has been a cost that there should be a collective answer and that the saints should be held together in relation to all that has been manifested in Jesus and is shining in Him now where He is."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Would not the twelve pillars suggest that?"
+     "speaker": "WW",
+     "text": [
+      "Is the cost and the collective answer seen in Hebrews 9 where there is the contrast between the blood of bulls and goats and the blood of Christ, \"how much rather shall the blood of the Christ, who by the eternal Spirit offered himself spotless to God, purify your conscience from dead works to worship the living God?\" (v 14)? This is something that the Lord Jesus took on Himself. He offered Himself spotless to God. How God would appreciate that! We should take character from Christ in that way, should we?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "There is an individual appreciation of our sins being cleared and the cost that that has been individually, but does this not set us together collectively? Are we brought on to ground where we have collective responsibilities and collective privileges?"
+     "speaker": "PM",
+     "text": [
+      "I thought that, and that comes out in this passage that there should be an answer in a people that God had ever longed for, but secured on the basis of the sacrifice of Jesus. It is a wonderful thing to realise and appreciate that His sacrifice and death have accomplished more than the meeting of my need, great as that is - and I do not wish to set that aside, for everything for me must depend on that - but there is what He has secured for God in His death, and He has secured it in a collective answer. The covenant - it comes in so fully in Hebrews, \"I will write them also upon their hearts\" (Hebrews 8: 10) - involves the thought of teaching so that each one should know the Lord for themselves. There is a company in which Christ is known, in which He has relationships and in which His word has a place, and that word is regulating the whole company."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I am sure of that, and does not Moses have that all in view in these movements. Firstly he builds an altar. He establishes before hem the greatness of what has been secure sacrificially, but then there are the twelve pillars according to the twelve tribes of Israel, and God is taking up covenant relations with His people collectively. It is wonderful that He has taken up relations with me individually, but it is a greater thing, is it not, that He is taking up collective relationships?"
+     "speaker": "WW",
+     "text": [
+      "Is the Supper introduced in view of a collective response - \"This cup is the new covenant in my blood, which is poured out for you\" (Luke 22: 20)?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "It speaks about shepherding the assembly of God, which He has purchased with the blood of His own (see Acts 20: 28). I was thinking of the cost in regard to the securing of the assembly and the valuation of the blood."
+     "speaker": "PM",
+     "text": [
+      "I am glad you refer to that because it brings us into what is collective. Is there not the side of communion of His blood that we would cherish as we come to the Supper? Then all drinking, you might say, together, into what is available to us through the blood of Jesus. It would set us together collectively on a right moral basis, not just an outward position - one fears it - but a moral basis on which the saints can be together serving God."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It is helpful to bring that in, \"the assembly of God, which he has purchased with the blood of his own\". I wonder if I have any apprehension of the cost that divine Persons have incurred in the securing of a collective answer for themselves. There has been the individual answer, but there has been a cost that there should be a collective answer and that the saints should be held together in relation to all that has been manifested in Jesus and is shining in Him now where He is."
+     "speaker": "ES",
+     "text": [
+      "There would be no approach without that. \"Having ... boldness for entering into the holy of holies by the blood of Jesus\", and then it says, \"let us approach with a true heart, in full assurance of faith, sprinkled as to our hearts from a wicked conscience\" (Hebrews 10: 19,22), so that everything is clear. It is \"through the veil, that is, his flesh\", but it is by the blood of Jesus."
+     ]
     },
     {
-     "speaker": "W.W.",
-     "text": "Is the cost and the collective answer seen in Hebrews 9 where there is the contrast between the blood of bulls and goats and the blood of Christ, \"how much rather shall the blood of the Christ, who by the eternal Spirit offered himself spotless to God, purify your conscience from dead works to worship the living God?\" (v 14)? This is something that the Lord Jesus took on Himself. He offered Himself spotless to God. How God would appreciate that! We should take character from Christ in that way, should we?"
+     "speaker": "PM",
+     "text": [
+      "Hebrews so attractively brings that out. There is not only what has been done for us through His blood, but what has been done in order that we might approach God, that God might be served, all based on the precious blood of Jesus. It is wonderful to go within, is it not?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I thought that, and that comes out in this passage that there should be an answer in a people that God had ever longed for, but secured on the basis of the sacrifice of Jesus. It is a wonderful thing to realise and appreciate that His sacrifice and death have accomplished more than the meeting of my need, great as that is - and I do not wish to set that aside, for everything for me must depend on that - but there is what He has secured for God in His death, and He has secured it in a collective answer. The covenant - it comes in so fully in Hebrews, \"I will write them also upon their hearts\" (Hebrews 8: 10) - involves the thought of teaching so that each one should know the Lord for themselves. There is a company in which Christ is known, in which He has relationships and in which His word has a place, and that word is regulating the whole company."
+     "speaker": "RT",
+     "text": [
+      "We have to commit ourselves to get the gain of this. It is after verse 7 that they have the blood sprinkled on them, is it not?"
+     ]
     },
     {
-     "speaker": "W.W.",
-     "text": "Is the Supper introduced in view of a collective response - \"This cup is the new covenant in my blood, which is poured out for you\" (Luke 22: 20)?"
+     "speaker": "PM",
+     "text": [
+      "I thought it linked with Peter, \"the obedience and the sprinkling of the blood of Jesus Christ\". We get nowhere without obedience to the truth, do we?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I am glad you refer to that because it brings us into what is collective. Is there not the side of communion of His blood that we would cherish as we come to the Supper? Then all drinking, you might say, together, into what is available to us through the blood of Jesus. It would set us together collectively on a right moral basis, not just an outward position - one fears it - but a moral basis on which the saints can be together serving God."
+     "speaker": "JDG",
+     "text": [
+      "I suppose assembly ground is sanctified. I was thinking of your reference to Hebrews 10, the blood of the covenant whereby you have been sanctified (see v 29). It is a very sobering side of things, is it not, the blood of the covenant and the people answering to it; it is a sanctified place, a sanctified position."
+     ]
     },
     {
-     "speaker": "E.S.",
-     "text": "There would be no approach without that. \"Having ... boldness for entering into the holy of holies by the blood of Jesus\", and then it says, \"let us approach with a true heart, in full assurance of faith, sprinkled as to our hearts from a wicked conscience\" (Hebrews 10: 19,22), so that everything is clear. It is \"through the veil, that is, his flesh\", but it is by the blood of Jesus."
+     "speaker": "PM",
+     "text": [
+      "It must be so because it is where God is served in the company. You could not think of God taking up relationship with a people who were not sanctified; therefore obedience to the truth is so essential. In Hebrews not only the altar and the people are sprinkled, but the book is sprinkled. There is to be conformity in each one of us to what has come out in God's word in the book and the obedience in the people committing themselves to it, so that God secures in the sprinkling a sanctified people."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Hebrews so attractively brings that out. There is not only what has been done for us through His blood, but what has been done in order that we might approach God, that God might be served, all based on the precious blood of Jesus. It is wonderful to go within, is it not?"
+     "speaker": "JDG",
+     "text": [
+      "Yes. At the end of that chapter the writer brings out, \"But we are not drawers back ...\", as if to say that is the answer in themselves, \"But we are not drawers back to perdition\" (v 39)."
+     ]
     },
     {
-     "text": "RT. We have to commit ourselves to get the gain of this. It is after verse 7 that they have the blood sprinkled on them, is it not?"
+     "speaker": "PM",
+     "text": [
+      "He has another outlook. There is a system I think we could use that word safely - where God is served, and He is served on a moral basis.",
+      "J.S-n. Do you think that is why the cup of blessing is brought in in 1 Corinthians 10? It is brought in before the bread, \"The cup of blessing which we bless, is it not the communion of the blood of the Christ?\" (v 16). Do you think our links in the collective sense must be governed by the cost it has been?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I thought it linked with Peter, \"the obedience and the sprinkling of the blood of Jesus Christ\". We get nowhere without obedience to the truth, do we?"
+     "speaker": "PM",
+     "text": [
+      "And bringing out the moral conditions upon which the Supper can be taken. The cup comes in first, and through it God has committed Himself to His people in covenant relationships, but all on a moral basis, the basis of the shedding of the blood of Jesus. Would it not lift our appreciation as we come to the Supper that God has established new relationships with man into which we have been brought through wondrous grace, and those relationships are relationships of nearness, but they must be suited to Himself.",
+      "J.S-n. Is it instructive in the context of fellowship that the blood should be brought to bear on us, obviously, as you say, to have a moral effect on us governing our links in fellowship."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I suppose assembly ground is sanctified. I was thinking of your reference to Hebrews 10, the blood of the covenant whereby you have been sanctified (see v 29). It is a very sobering side of things, is it not, the blood of the covenant and the people answering to it; it is a sanctified place, a sanctified position."
+     "speaker": "PM",
+     "text": [
+      "It must do that, and our links together are both inclusive and exclusive; the blood has its bearing on both. We may be going on together, and let us thank God that we are, but let our links be in relation to the blood of Jesus. The fellowship is not just an outward ordinance without a moral foundation. There must be a moral foundation that is suited to God. I fear - I say it for myself - the danger of being in fellowship and outwardly con forming to what is required without the moral foundation that would be suited to God."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It must be so because it is where God is served in the company. You could not think of God taking up relationship with a people who were not sanctified; therefore obedience to the truth is so essential. In Hebrews not only the altar and the people are sprinkled, but the book is sprinkled. There is to be conformity in each one of us to what has come out in God's word in the book and the obedience in the people committing themselves to it, so that God secures in the sprinkling a sanctified people."
+     "speaker": "DMcG",
+     "text": [
+      "Do you think that is why it is brought out in the Acts in chapter 15 and chapter 21 that there should be the reassertion of the four necessary things amongst which the matter of blood was brought in, not just so much the individual side but what God had in view, viewing it for His own joy and pleasure."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes. At the end of that chapter the writer brings out, \"But we are not drawers back ...\", as if to say that is the answer in themselves, \"But we are not drawers back to perdition\" (v 39)."
+     "speaker": "PM",
+     "text": [
+      "Yes, and God viewing it knowing that He was securing a universe that would be in conformity to all that that blood spoke of morally - a wonderful thing that that is, the attractiveness of it, the preciousness of it. You can understand God committing Himself to covenant relationships with His people because of the attractiveness of that blood. Let us bathe our souls in the covenant relationships that God has taken up. It involves obedience on our side, it involves learning, learning what we are, learning what God is. That is what the people had to learn here. In type they first learned what they were, then they learned what the perfection of Christ was, then they came to learn what God was. How wondrous to come into relationships where we can learn who God is."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "He has another outlook. There is a system I think we could use that word safely - where God is served, and He is served on a moral basis."
+     "speaker": "AMcB",
+     "text": [
+      "The apostle says in 1 Corinthians 10, \"I speak as to intelligent persons\" (v 15). Does that involve that the bearing of all that we are saying has got into our souls?"
+     ]
     },
     {
-     "text": "J.S-n. Do you think that is why the cup of blessing is brought in in 1 Corinthians 10? It is brought in before the bread, \"The cup of blessing which we bless, is it not the communion of the blood of the Christ?\" (v 16). Do you think our links in the collective sense must be governed by the cost it has been?"
+     "speaker": "PM",
+     "text": [
+      "That is helpful, showing that teaching leading to moral formation has taken place in the soul. We will not get on without the teaching. We had an old brother local when I was a boy and he used to say, 'You young people say that teaching is dry. The teaching isn't dry, it is the teachers that are dry'. Oh for the ability to be able to set out the teaching so that it does not appear to be dry to our young people!"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "And bringing out the moral conditions upon which the Supper can be taken. The cup comes in first, and through it God has committed Himself to His people in covenant relationships, but all on a moral basis, the basis of the shedding of the blood of Jesus. Would it not lift our appreciation as we come to the Supper that God has established new relationships with man into which we have been brought through wondrous grace, and those relationships are relationships of nearness, but they must be suited to Himself."
+     "speaker": "AMcK",
+     "text": [
+      "This was addressed to the youths who were under Moses. There is no direction for this, is there? It seems to be spontaneous from the side of Moses. It is before what was official was set up, but there are youths under the direction of Moses, that is, persons who are available to Christ in view of service Godward, is it not?"
+     ]
     },
     {
-     "text": "J.S-n. Is it instructive in the context of fellowship that the blood should be brought to bear on us, obviously, as you say, to have a moral effect on us governing our links in fellowship."
+     "speaker": "PM",
+     "text": [
+      "Yes, over against the elders that we have in the first verse of this chapter, there are the youths, suggesting youthful energy and committal to what is for God."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It must do that, and our links together are both inclusive and exclusive; the blood has its bearing on both. We may be going on together, and let us thank God that we are, but let our links be in relation to the blood of Jesus. The fellowship is not just an outward ordinance without a moral foundation. There must be a moral foundation that is suited to God. I fear - I say it for myself - the danger of being in fellowship and outwardly con forming to what is required without the moral foundation that would be suited to God."
+     "speaker": "DTP",
+     "text": [
+      "Would you say a word further as to that as to what they offer, burnt-offerings and peaceofferings?"
+     ]
     },
     {
-     "text": "D.McG. Do you think that is why it is brought out in the Acts in chapter 15 and chapter 21 that there should be the reassertion of the four necessary things amongst which the matter of blood was brought in, not just so much the individual side but what God had in view, viewing it for His own joy and pleasure."
+     "speaker": "PM",
+     "text": [
+      "I would like to hear what you say."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, and God viewing it knowing that He was securing a universe that would be in conformity to all that that blood spoke of morally - a wonderful thing that that is, the attractiveness of it, the preciousness of it. You can understand God committing Himself to covenant relationships with His people because of the attractiveness of that blood. Let us bathe our souls in the covenant relationships that God has taken up. It involves obedience on our side, it involves learning, learning what we are, learning what God is. That is what the people had to learn here. In type they first learned what they were, then they learned what the perfection of Christ was, then they came to learn what God was. How wondrous to come into relationships where we can learn who God is."
+     "speaker": "DTP",
+     "text": [
+      "I was thinking of what these offerings represent. There is a glory of what is for God in the burnt-offering, the presentation of that aspect of Christ, and then something must have been morally wrought that they are able to offer peace-offerings, which shows that there is a state there that is responding Godward."
+     ]
     },
     {
-     "text": "A.McB. The apostle says in 1 Corinthians 10, \"I speak as to intelligent persons\" (v 15). Does that involve that the bearing of all that we are saying has got into our souls?"
+     "speaker": "PM",
+     "text": [
+      "In one sense does not the burnt-offering coming first in Leviticus underlie the appreciation of every other offering, but it leads on here to our relations collectively in the peace-offering, that where Christ becomes the centre of our appreciation there is peace in our relationships with one another and God receives His portion. It is a great thing in the local company to have settled relation ships where everyone is occupied with Christ."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is helpful, showing that teaching leading to moral formation has taken place in the soul. We will not get on without the teaching. We had an old brother local when I was a boy and he used to say, 'You young people say that teaching is dry. The teaching isn't dry, it is the teachers that are dry'. Oh for the ability to be able to set out the teaching so that it does not appear to be dry to our young people!"
+     "speaker": "TDB",
+     "text": [
+      "Peter at one point said he would die, but in his epistle he has a deeper appreciation of Christ, has he not? He speaks of \"precious blood, as of a lamb ...\" and so on. I was thinking of what we have been saying about coming through to things morally."
+     ]
     },
     {
-     "text": "A.McK. This was addressed to the youths who were under Moses. There is no direction for this, is there? It seems to be spontaneous from the side of Moses. It is before what was official was set up, but there are youths under the direction of Moses, that is, persons who are available to Christ in view of service Godward, is it not?"
+     "speaker": "PM",
+     "text": [
+      "Does not Peter in his epistles set before us what is real? He comes to it experimentally. He says, ye have been redeemed, not by corruptible things, things handed down in our vain conversation. We leave those things behind. In the second epistle it is not cleverly imagined fables, he is touching what is real. The word impressed me recently \"lay hold of what is really life\" (1 Tim. 6: 19). What is really life? Some of us have seen dear brethren who are suffering in their bodies, but what is really life is going through. What is here in the outward will pass, but Peter sets before us what is real. Let us go in for what is real.",
+      "I wondered if we might get a touch as to the blood in relation to the priesthood. I know the brethren are reaping in these fields in the mid-week reading and I was a bit hesitant to read them but I thought there might still be a few fresh ears of corn for us."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, over against the elders that we have in the first verse of this chapter, there are the youths, suggesting youthful energy and committal to what is for God."
+     "speaker": "AMcB",
+     "text": [
+      "Does John bring the two thoughts together when he refers to the Lord Jesus, \"To him who loves us, and has washed us from our sins in his blood, and made us a kingdom, priests to his God and Father\" (Revelation 1: 5,6)? That is what is in view that there are persons that are secured and free and at liberty before God."
+     ]
     },
     {
-     "speaker": "D.T.P.",
-     "text": "Would you say a word further as to that as to what they offer, burnt-offerings and peaceofferings?"
+     "speaker": "PM",
+     "text": [
+      "He has operated in such a way that we should all become priestly - \"made us a kingdom, priests to his God and Father\"."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I would like to hear what you say."
+     "speaker": "AMcB",
+     "text": [
+      "Do we not need to carry forward the thought of love that enters into it? The covenant involves the love of God. John says, \"To him who loves us\"; it gives a spring to the priesthood, does it?"
+     ]
     },
     {
-     "speaker": "D.T.P.",
-     "text": "I was thinking of what these offerings represent. There is a glory of what is for God in the burnt-offering, the presentation of that aspect of Christ, and then something must have been morally wrought that they are able to offer peace-offerings, which shows that there is a state there that is responding Godward."
+     "speaker": "PM",
+     "text": [
+      "That is very fine - and loved us so much that He \"has not spared his own Son\", the fulness of that love! He loved us in view of the fact that we should serve Him in nearness. The nearness comes out in chapter 24, it comes out with Moses; he goes up in the mountain to be there. Christ is there in the presence of God, how wondrous that is, but then the elders were to be there too, to come up into the mountain. But here in chapter 29 the priesthood is in view, and priesthood involves that God is served. We sometimes get a wrong impression of priesthood, maybe thinking that priesthood is putting things right that go wrong but that is a very small part of priesthood. A priest is one who is serving God."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "In one sense does not the burnt-offering coming first in Leviticus underlie the appreciation of every other offering, but it leads on here to our relations collectively in the peace-offering, that where Christ becomes the centre of our appreciation there is peace in our relationships with one another and God receives His portion. It is a great thing in the local company to have settled relation ships where everyone is occupied with Christ."
+     "speaker": "PB",
+     "text": [
+      "It refers to Aaron's sons - bring them near (see Exod 19: 8) - which I thought is applied to ourselves."
+     ]
     },
     {
-     "speaker": "T.D.B.",
-     "text": "Peter at one point said he would die, but in his epistle he has a deeper appreciation of Christ, has he not? He speaks of \"precious blood, as of a lamb ...\" and so on. I was thinking of what we have been saying about coming through to things morally."
+     "speaker": "PM",
+     "text": [
+      "Covenant relations would not have us left at a distance, would they? The love of God requires that we should be near. How wondrous to be near! It says they saw the God of Israel. How wondrous that is, no doubt relating to the way in which God had been made known in the Person of Jesus, coming freshly on to our view, the way in which God has been made known. It says, \"they saw the God of Israel\", they ate and drank in His presence."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Does not Peter in his epistles set before us what is real? He comes to it experimentally. He says, ye have been redeemed, not by corruptible things, things handed down in our vain conversation. We leave those things behind. In the second epistle it is not cleverly imagined fables, he is touching what is real. The word impressed me recently \"lay hold of what is really life\" (1 Tim. 6: 19). What is really life? Some of us have seen dear brethren who are suffering in their bodies, but what is really life is going through. What is here in the outward will pass, but Peter sets before us what is real. Let us go in for what is real."
+     "speaker": "PB",
+     "text": [
+      "It elevated their thoughts, they are called nobles."
+     ]
     },
     {
-     "text": "I wondered if we might get a touch as to the blood in relation to the priesthood. I know the brethren are reaping in these fields in the mid-week reading and I was a bit hesitant to read them but I thought there might still be a few fresh ears of corn for us."
+     "speaker": "PM",
+     "text": [
+      "Yes, \"And on the nobles of the children of Israel he laid not his hand\". We are ennobled in the presence of Christ, are we not, in association with Him? We are amongst heaven's nobility today. If we really appreciated that it would preserve us from dropping to anything of a lower level, but we are in the presence of heaven's nobility. Let us appreciate it, value it. The more the blood has value in our souls, the more we shall appreciate one another in the relationships into which we have been brought."
+     ]
     },
     {
-     "text": "A.McB. Does John bring the two thoughts together when he refers to the Lord Jesus, \"To him who loves us, and has washed us from our sins in his blood, and made us a kingdom, priests to his God and Father\" (Revelation 1: 5,6)? That is what is in view that there are persons that are secured and free and at liberty before God."
+     "speaker": "JM",
+     "text": [
+      "In Ephesians we are said to have once been afar off, and it goes onto say, \"are become nigh by the blood of the Christ\" (Ephesians 2: 13)."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "He has operated in such a way that we should all become priestly - \"made us a kingdom, priests to his God and Father\"."
+     "speaker": "PM",
+     "text": [
+      "Jew and Gentile (we who were afar off) are brought nigh, and He \"has made both one\", has slain the enmity. These things are to affect us. We do not have time to go into them even if we were able to, but there is no enmity, it has been slain. If only we could lay hold increasingly of all that is available to us through the death of Christ and in that Man who is now in the presence of God."
+     ]
     },
     {
-     "text": "A.McB. Do we not need to carry forward the thought of love that enters into it? The covenant involves the love of God. John says, \"To him who loves us\"; it gives a spring to the priesthood, does it?"
+     "speaker": "ACC",
+     "text": [
+      "When we were young, at the time of the Supper we were pretty much engaged with its effect upon us and what has been done for us, which is not a wrong thought, but your point is that we might be helped to see what that in the service means for the service of God. The emblems themselves bear on our availability and freeing us in view of being under the hand of Christ in view of the service of God. I might further say that in Hebrews 10, \"we have been sanctified through the offering of the body of Jesus Christ once for all\" (v 10). That was the object in that scripture of Him offering His body, that we might be sanctified, that is, a company set apart for the service of God. \"And how much rather\" - I thought we could do with something of that emphasis perhaps - \"how much rather shall the blood of the Christ ... purify your conscience from dead works to worship the living God?\" (Hebrews 9: 14). That is the object, not to relieve us, but to worship the living God."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That is very fine - and loved us so much that He \"has not spared his own Son\", the fulness of that love! He loved us in view of the fact that we should serve Him in nearness. The nearness comes out in chapter 24, it comes out with Moses; he goes up in the mountain to be there. Christ is there in the presence of God, how wondrous that is, but then the elders were to be there too, to come up into the mountain. But here in chapter 29 the priesthood is in view, and priesthood involves that God is served. We sometimes get a wrong impression of priesthood, maybe thinking that priesthood is putting things right that go wrong but that is a very small part of priesthood. A priest is one who is serving God."
+     "speaker": "PM",
+     "text": [
+      "We have not been the object in God's dealings, have we? We have been the subjects of His grace and His mercy, but God has always been His own object, and He has operated with each one of us that He might become our object and that we might know what it is, as you say, at the Supper to come under the influence of Christ. He would touch our affections as we look at the emblems - This is My body which was given for you; this is My blood which was poured out for you - the fulness of what has flowed from our Lord Jesus in order that we might be with Him in relationship as He leads on to the Father."
+     ]
     },
     {
-     "speaker": "P.B.",
-     "text": "It refers to Aaron's sons - bring them near (see Exod 19: 8) - which I thought is applied to ourselves."
+     "speaker": "JS",
+     "text": [
+      "Does the blood form the foundation for the establishment of these relationships? I was thinking of Aaron - he was first anointed without blood. He is unique in that, but do you think it is God's delight to bring us on to the same ground as Christ. The blood would be the basis for that."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Covenant relations would not have us left at a distance, would they? The love of God requires that we should be near. How wondrous to be near! It says they saw the God of Israel. How wondrous that is, no doubt relating to the way in which God had been made known in the Person of Jesus, coming freshly on to our view, the way in which God has been made known. It says, \"they saw the God of Israel\", they ate and drank in His presence."
+     "speaker": "PM",
+     "text": [
+      "It would, and to bring us to the greater appreciation of the perfection of what God has in that Man. There was what was always distinctive in Jesus. He was anointed without blood, the perfection of that blessed Man."
+     ]
     },
     {
-     "speaker": "P.B.",
-     "text": "It elevated their thoughts, they are called nobles."
+     "speaker": "JDG",
+     "text": [
+      "Would you open up for us a little more your thought as to Aaron and His sons being anointed (v 20,21)."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, \"And on the nobles of the children of Israel he laid not his hand\". We are ennobled in the presence of Christ, are we not, in association with Him? We are amongst heaven's nobility today. If we really appreciated that it would preserve us from dropping to anything of a lower level, but we are in the presence of heaven's nobility. Let us appreciate it, value it. The more the blood has value in our souls, the more we shall appreciate one another in the relationships into which we have been brought."
+     "speaker": "PM",
+     "text": [
+      "Well, there is the individual side first in verse 20 and then, \"and sprinkle it on Aaron, and on his garments, and on his sons, and on the garments of his sons with him\". There is what is applied to each one individually in the blood being placed on the tip of the right ear, and on the thumb of their right hand, and on the great toe of their right foot. Does it not involve that the whole person is secured for service Godward? I come to it practically that the death of Jesus has a bearing upon everything that I do and touch. Is this in keeping with His death? If it is not, I should leave it alone. Is this in keeping with the blood of Jesus? What I listen to - because it would affect my service Godward - is it in keeping with the blood of Jesus? If it is not, it will disqualify me from serving as a priest."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "In Ephesians we are said to have once been afar off, and it goes onto say, \"are become nigh by the blood of the Christ\" (Ephesians 2: 13)."
+     "speaker": "JDG",
+     "text": [
+      "Then there is the thought of, \"And thou shalt take of the blood that is upon the altar, and of the anointing oil, and sprinkle it on Aaron, and on his garments, and on his sons, and on the garments of his sons with him\". The whole environment of our lives comes under the blood and all its sobriety and also the dignity of the anointing. I think what you have said is helpful. You have to assess your course of life in relation to what we are committed to."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Jew and Gentile (we who were afar off) are brought nigh, and He \"has made both one\", has slain the enmity. These things are to affect us. We do not have time to go into them even if we were able to, but there is no enmity, it has been slain. If only we could lay hold increasingly of all that is available to us through the death of Christ and in that Man who is now in the presence of God."
+     "speaker": "PM",
+     "text": [
+      "Yes, the whole priestly company, God's intention is that that should include each one of us. There are those that are priestly, and we would value them, but it is not God's intention that there should be a class of priestly persons apart from the rest. His intention is that we should all be priestly, that the blood is placed there, and then there is the sprinkling as if to say that the whole system of the priestly activity is to come under the dignity of the anointing. Not only is the moral effect of the blood to be seen, but the dignity which marked the perfect footsteps of Jesus is to be seen in the priestly company."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "When we were young, at the time of the Supper we were pretty much engaged with its effect upon us and what has been done for us, which is not a wrong thought, but your point is that we might be helped to see what that in the service means for the service of God. The emblems themselves bear on our availability and freeing us in view of being under the hand of Christ in view of the service of God. I might further say that in Hebrews 10, \"we have been sanctified through the offering of the body of Jesus Christ once for all\" (v 10). That was the object in that scripture of Him offering His body, that we might be sanctified, that is, a company set apart for the service of God. \"And how much rather\" - I thought we could do with something of that emphasis perhaps - \"how much rather shall the blood of the Christ ... purify your conscience from dead works to worship the living God?\" (Hebrews 9: 14). That is the object, not to relieve us, but to worship the living God."
+     "speaker": "JDG",
+     "text": [
+      "We are perhaps not always gathered together serving God, but we are always really priests. Is that not right?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "We have not been the object in God's dealings, have we? We have been the subjects of His grace and His mercy, but God has always been His own object, and He has operated with each one of us that He might become our object and that we might know what it is, as you say, at the Supper to come under the influence of Christ. He would touch our affections as we look at the emblems - This is My body which was given for you; this is My blood which was poured out for you - the fulness of what has flowed from our Lord Jesus in order that we might be with Him in relationship as He leads on to the Father."
+     "speaker": "PM",
+     "text": [
+      "We are always priests; I may not always be priestly."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Does the blood form the foundation for the establishment of these relationships? I was thinking of Aaron - he was first anointed without blood. He is unique in that, but do you think it is God's delight to bring us on to the same ground as Christ. The blood would be the basis for that."
+     "speaker": "AMcK",
+     "text": [
+      "Why did you ask the references from verse 8 to be read?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "It would, and to bring us to the greater appreciation of the perfection of what God has in that Man. There was what was always distinctive in Jesus. He was anointed without blood, the perfection of that blessed Man."
+     "speaker": "PM",
+     "text": [
+      "I thought, going back to the first three verses too, there is the appreciation of Christ first. He had to ''take one young bullock, and two rams without blemish\", a bullock for the sin-offering. That must come in first, and then the rams and then unleavened bread would be a reference to the humanity of Jesus completely sin apart, another order of man. If God is to be served rightly, it must be in the light of the appreciation of the manhood that was sin apart. And then it says, \"and unleavened cakes mingled with oil\", perhaps we could get help as to that, \"and unleavened wafers anointed with oil\". It links with what was said as to the anointing, but this was seen perfectly in Jesus, was it not? Perhaps you could help us."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Would you open up for us a little more your thought as to Aaron and His sons being anointed (v 20,21)."
+     "speaker": "AMcK",
+     "text": [
+      "I thought you had something specific in mind when you read these verses. The mingled oil would involve the incarnation, would it not, what the Lord was in Himself? But it would involve the building of a priestly constitution in the priest, would it not?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Well, there is the individual side first in verse 20 and then, \"and sprinkle it on Aaron, and on his garments, and on his sons, and on the garments of his sons with him\". There is what is applied to each one individually in the blood being placed on the tip of the right ear, and on the thumb of their right hand, and on the great toe of their right foot. Does it not involve that the whole person is secured for service Godward? I come to it practically that the death of Jesus has a bearing upon everything that I do and touch. Is this in keeping with His death? If it is not, I should leave it alone. Is this in keeping with the blood of Jesus? What I listen to - because it would affect my service Godward - is it in keeping with the blood of Jesus? If it is not, it will disqualify me from serving as a priest."
+     "speaker": "PM",
+     "text": [
+      "Yes, that is what is in view in our reading this that a moral constitution is to be established, because if God is to be served rightly, it must be that the sin-offering has had its weight with us. There has to be an appreciation of it. All that the Lord Jesus has borne and removed, what He has measured as going into death in relation to the removal of the whole sin question - let me feed upon that, let my affections be occupied with it because we are in a scene where moral standards are sliding so rapidly that it may be that our moral standards may slide too if we are not careful, but let us place our hands on the head of the bullock."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Then there is the thought of, \"And thou shalt take of the blood that is upon the altar, and of the anointing oil, and sprinkle it on Aaron, and on his garments, and on his sons, and on the garments of his sons with him\". The whole environment of our lives comes under the blood and all its sobriety and also the dignity of the anointing. I think what you have said is helpful. You have to assess your course of life in relation to what we are committed to."
+     "speaker": "WW",
+     "text": [
+      "The oil is put on the blood, is that right? It is not put on man's flesh. The blood is basic to what has been secured for the service of God because the Spirit will never identify Himself with man after the flesh, will He? Something Mr Coates said struck me. He asked why did God send His Son into the world? It was that He might give us the Holy Spirit. Redemption was accomplished with that in view, so the Spirit is necessary in view of our serving God rightly."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Yes, the whole priestly company, God's intention is that that should include each one of us. There are those that are priestly, and we would value them, but it is not God's intention that there should be a class of priestly persons apart from the rest. His intention is that we should all be priestly, that the blood is placed there, and then there is the sprinkling as if to say that the whole system of the priestly activity is to come under the dignity of the anointing. Not only is the moral effect of the blood to be seen, but the dignity which marked the perfect footsteps of Jesus is to be seen in the priestly company."
+     "speaker": "PM",
+     "text": [
+      "And would not the Spirit constantly serve the believer that he should come back in his affections to the cost of the blood of Jesus that he should be here serving God? It is not only what He has delivered me from, great as that is, but the Spirit would serve us as we are at school or at work or wherever we are, if we put our hands to something, the Spirit would remind us that the blood of Jesus has secured me for service Godward, and I am to leave things that are not in keeping with that and move here in the dignity that was seen in the perfect life of Jesus. Something of that dignity is to mark us in our walk."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "We are perhaps not always gathered together serving God, but we are always really priests. Is that not right?"
+     "speaker": "DTP",
+     "text": [
+      "There is a wonderful gathering up in these first three verses in type of the glory of what God sees in that Person, and it has all been brought forward. It is all one thing, is it not, and yet it is so wide in its application. How much we need to feed on that. I was struck with the fact that all these things go into the one basket. We need to be drawn to it to find that it is all in Christ."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "We are always priests; I may not always be priestly."
+     "speaker": "PM",
+     "text": [
+      "We cannot divide the glories of Jesus, but the Spirit would help us to distinguish them, and we need to ponder that in our secret links with the Spirit, to ask Him to help us to distinguish the perfect glories of Jesus, that I might learn to come to a greater appreciation of one facet of His glory after another?"
+     ]
     },
     {
-     "text": "A.McK. Why did you ask the references from verse 8 to be read?"
+     "speaker": "JM",
+     "text": [
+      "In John 4 it speaks about true worshippers and the Father seeking such."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I thought, going back to the first three verses too, there is the appreciation of Christ first. He had to ''take one young bullock, and two rams without blemish\", a bullock for the sin-offering. That must come in first, and then the rams and then unleavened bread would be a reference to the humanity of Jesus completely sin apart, another order of man. If God is to be served rightly, it must be in the light of the appreciation of the manhood that was sin apart. And then it says, \"and unleavened cakes mingled with oil\", perhaps we could get help as to that, \"and unleavened wafers anointed with oil\". It links with what was said as to the anointing, but this was seen perfectly in Jesus, was it not? Perhaps you could help us."
-    },
-    {
-     "text": "A.McK. I thought you had something specific in mind when you read these verses. The mingled oil would involve the incarnation, would it not, what the Lord was in Himself? But it would involve the building of a priestly constitution in the priest, would it not?"
-    },
-    {
-     "speaker": "P.M.",
-     "text": "Yes, that is what is in view in our reading this that a moral constitution is to be established, because if God is to be served rightly, it must be that the sin-offering has had its weight with us. There has to be an appreciation of it. All that the Lord Jesus has borne and removed, what He has measured as going into death in relation to the removal of the whole sin question - let me feed upon that, let my affections be occupied with it because we are in a scene where moral standards are sliding so rapidly that it may be that our moral standards may slide too if we are not careful, but let us place our hands on the head of the bullock."
-    },
-    {
-     "speaker": "W.W.",
-     "text": "The oil is put on the blood, is that right? It is not put on man's flesh. The blood is basic to what has been secured for the service of God because the Spirit will never identify Himself with man after the flesh, will He? Something Mr Coates said struck me. He asked why did God send His Son into the world? It was that He might give us the Holy Spirit. Redemption was accomplished with that in view, so the Spirit is necessary in view of our serving God rightly."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "And would not the Spirit constantly serve the believer that he should come back in his affections to the cost of the blood of Jesus that he should be here serving God? It is not only what He has delivered me from, great as that is, but the Spirit would serve us as we are at school or at work or wherever we are, if we put our hands to something, the Spirit would remind us that the blood of Jesus has secured me for service Godward, and I am to leave things that are not in keeping with that and move here in the dignity that was seen in the perfect life of Jesus. Something of that dignity is to mark us in our walk."
-    },
-    {
-     "speaker": "D.T.P.",
-     "text": "There is a wonderful gathering up in these first three verses in type of the glory of what God sees in that Person, and it has all been brought forward. It is all one thing, is it not, and yet it is so wide in its application. How much we need to feed on that. I was struck with the fact that all these things go into the one basket. We need to be drawn to it to find that it is all in Christ."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "We cannot divide the glories of Jesus, but the Spirit would help us to distinguish them, and we need to ponder that in our secret links with the Spirit, to ask Him to help us to distinguish the perfect glories of Jesus, that I might learn to come to a greater appreciation of one facet of His glory after another?"
-    },
-    {
-     "speaker": "J.M.",
-     "text": "In John 4 it speaks about true worshippers and the Father seeking such."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "It is wonderful that we have part in the service of praise, and we are thankful for that. We are thankful for the youths referred to in Exodus and the youths that we have today, but let us be in exercise that there should be true worshippers, not true worship but true worshippers, persons who are in keeping with all that has been set out in the perfection of Jesus. The brethren will excuse me if I keep referring back to it, but let us never get away from the appreciation of the perfection of the manhood of Jesus. It would not only help us to move rightly but would help us to have the feelings that rightly belong to the movements of the priests."
+     "speaker": "PM",
+     "text": [
+      "It is wonderful that we have part in the service of praise, and we are thankful for that. We are thankful for the youths referred to in Exodus and the youths that we have today, but let us be in exercise that there should be true worshippers, not true worship but true worshippers, persons who are in keeping with all that has been set out in the perfection of Jesus. The brethren will excuse me if I keep referring back to it, but let us never get away from the appreciation of the perfection of the manhood of Jesus. It would not only help us to move rightly but would help us to have the feelings that rightly belong to the movements of the priests."
+     ]
     }
    ]
   },
@@ -515,6 +675,26 @@
      "text": "I refer briefly to these garments. There is a lot more in them that could be weighed over, but to think of the perfection of what was woven in the humanity of Jesus, to be conscious of having our part as touching the system of power that is drawing from an exalted Christ, to know what it is that our measure should be in keeping with what we hold, and to keep ourselves unspotted from the world. May the Lord help us. For His Name's sake."
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "WHAT THE BLOOD IS FOR GOD",
+   "kind": "not_a_name",
+   "detail": "\"n. J.Strachan\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "WHAT THE BLOOD IS FOR GOD",
+   "kind": "initials_before_name",
+   "detail": "15 entries written as initials then name (\"TDB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "WHAT THE BLOOD IS FOR GOD",
+   "kind": "speaker_not_in_key",
+   "detail": "PM (43 paragraphs)"
   }
  ]
 }

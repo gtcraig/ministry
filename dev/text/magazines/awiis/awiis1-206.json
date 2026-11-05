@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,29 +26,32 @@
    "place": "NEW YORK",
    "date": "4 September 1987",
    "speakers": [
-    "J.A.G.",
-    "J.A.P.",
-    "G.H.",
-    "J.R.C.",
-    "N.S.B.",
-    "C.F.D.",
-    "R.S.",
-    "E.F.C.",
-    "K.A.K.",
-    "T.E.D.",
-    "A R.S.",
-    "K.N.P.",
-    "A.S.H.",
-    "S.E.H.",
-    "C.S.E.",
-    "G.D.P.",
-    "K.A.O.",
-    "A.G.S."
+    "JAG",
+    "LMcF",
+    "JAP",
+    "JMcK",
+    "GH",
+    "JRC",
+    "NSB",
+    "CFD",
+    "RS",
+    "EFC",
+    "KAK",
+    "TED",
+    "ARS",
+    "KNP",
+    "ASH",
+    "SEH",
+    "CSE",
+    "GDP",
+    "KAO",
+    "AGS"
    ],
    "initials": [
     {
-     "initials": "NYGA",
-     "name": "New York if not otherwise stated G.Ashby"
+     "initials": "GA",
+     "name": "G.Ashby",
+     "place": "New York"
     },
     {
      "initials": "NSB",
@@ -77,7 +80,8 @@
     },
     {
      "initials": "CSE",
-     "name": "C.S.Elliott"
+     "name": "C.S.Elliott",
+     "place": "New York"
     },
     {
      "initials": "JAG",
@@ -86,7 +90,8 @@
     },
     {
      "initials": "ASH",
-     "name": "A.S.Hinkson"
+     "name": "A.S.Hinkson",
+     "place": "New York"
     },
     {
      "initials": "GH",
@@ -114,13 +119,14 @@
      "place": "Cape May"
     },
     {
-     "initials": "JM",
+     "initials": "JMcK",
      "name": "J.McKillop",
      "place": "Chicago"
     },
     {
-     "initials": "LM",
-     "name": "L.McFarlane"
+     "initials": "LMcF",
+     "name": "L.McFarlane",
+     "place": "New York"
     },
     {
      "initials": "KAO",
@@ -144,537 +150,797 @@
     },
     {
      "initials": "KNP",
-     "name": "K.N.Pye"
+     "name": "K.N.Pye",
+     "place": "New York"
     },
     {
      "initials": "LDP",
-     "name": "L.D.Phillips"
+     "name": "L.D.Phillips",
+     "place": "New York"
     },
     {
      "initials": "AGS",
-     "name": "A.G.Spooner"
+     "name": "A.G.Spooner",
+     "place": "New York"
     },
     {
      "initials": "ARS",
-     "name": "A.R.Stevens"
+     "name": "A.R.Stevens",
+     "place": "New York"
     },
     {
      "initials": "AS",
      "name": "A.Schubert",
      "place": "Cologne"
+    },
+    {
+     "initials": "RS",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials (five meetings)",
+   "initials_comment": "New York if not otherwise stated",
    "initials_text": [
     "New York if not otherwise stated",
     "G.Ashby; N.S.Brien, Toronto; E.F.Cary, Los Angeles; J.R.Cumming, Edinburgh; C.F.Dadd, Plainfield; T.E.Druckenmiller, Plainfield; C.S.Elliott; J.A.Gardiner, Aberdeen; A.S.Hinkson; G.Hesterman, Plainfield; R.N.Hesterman, Woodstock; S.E.Hesterman, Plainfield; K.A.Knauss, Indianapolis; S.E.MacCready, Cape May; J.McKillop, Chicago; L.McFarlane; K.A.Oberg, Villa Grove; Kevin A.Oberg, Villa Grove; G.D.Pfingst, Plainfield; J.A.Petersen, Plainfield; K.N.Pye; L.D.Phillips; A.G.Spooner; A.R.Stevens; A.Schubert, Cologne"
    ],
    "paragraphs": [
     {
-     "speaker": "J.A.G.",
-     "text": "We were thinking on the Lord's day about heaven and the blessedness of what is heavenly and what belongs to the heavenly realm, the heavenly system. In Exodus 24 we have what stands related to the world to come of which we speak, in Jeremiah 31 the recovery of Ephraim, and in Numbers 23 the finality of God's ways and the completion of His work. I thought perhaps we might get help in these meetings in thinking about our commonwealth. It is a very wonderful expression; we are to be ready for heaven. Our commonwealth has its existence, it says, in the heavens – 'associations of life': they are heavenly. We have in this epistle, as the brethren well know, heavenly persons upon earth manifesting the features of heaven; in that sense heaven will not be a strange place to us. It says in hymn 76 'There no stranger-God shall meet thee'; we are not to be strangers in the courts above. \"We await the Lord Jesus Christ as Saviour\"; that Person is known in the greatness of His glory dominically, I think, in the commonwealth. It is not exactly that we are waiting for the rapture, true as that is, but we are waiting for Him as Saviour who shall transform our bodies of humiliation into conformity to His body of glory, according to the power which He has even to subdue all things to Himself."
+     "speaker": "JAG",
+     "text": [
+      "We were thinking on the Lord's day about heaven and the blessedness of what is heavenly and what belongs to the heavenly realm, the heavenly system. In Exodus 24 we have what stands related to the world to come of which we speak, in Jeremiah 31 the recovery of Ephraim, and in Numbers 23 the finality of God's ways and the completion of His work. I thought perhaps we might get help in these meetings in thinking about our commonwealth. It is a very wonderful expression; we are to be ready for heaven. Our commonwealth has its existence, it says, in the heavens – 'associations of life': they are heavenly. We have in this epistle, as the brethren well know, heavenly persons upon earth manifesting the features of heaven; in that sense heaven will not be a strange place to us. It says in hymn 76 'There no stranger-God shall meet thee'; we are not to be strangers in the courts above. \"We await the Lord Jesus Christ as Saviour\"; that Person is known in the greatness of His glory dominically, I think, in the commonwealth. It is not exactly that we are waiting for the rapture, true as that is, but we are waiting for Him as Saviour who shall transform our bodies of humiliation into conformity to His body of glory, according to the power which He has even to subdue all things to Himself.",
+      "Romans 5 impresses us with the greatness of the favour; it says, \"Therefore having been justified on the principle of faith... we have also access by faith into this favour\"· and then with the greatness of the favour of the kingdom and wonderment of divine beneficence that comes out in the chapter.",
+      "In the scripture in Peter (not that I can say too much about it) I think we are touching the realm of divine communication in manifestation; it has been manifested to him it says, that he is to put off his tabernacle. I wondered if we could inquire on these lines. It is a very stimulating thing; there is great joy m this epistle to the Philippians."
+     ]
     },
     {
-     "text": "Romans 5 impresses us with the greatness of the favour; it says, \"Therefore having been justified on the principle of faith... we have also access by faith into this favour\"· and then with the greatness of the favour of the kingdom and wonderment of divine beneficence that comes out in the chapter."
+     "speaker": "LMcF",
+     "text": [
+      "We would be challenged at the very outset as to whether we are awaiting the coming of our Lord Jesus."
+     ]
     },
     {
-     "text": "In the scripture in Peter (not that I can say too much about it) I think we are touching the realm of divine communication in manifestation; it has been manifested to him it says, that he is to put off his tabernacle. I wondered if we could inquire on these lines. It is a very stimulating thing; there is great joy m this epistle to the Philippians."
+     "speaker": "JAG",
+     "text": [
+      "It would be a challenge, I suppose, as to whether we are in the full gain of the commonwealth, and I trust the Lord will help us into it over these days, because it seems to be the normal position that we await Him from heaven. \"From which also\" I think, refers to \"the heavens\". \"We await the Lord Jesus Christ as Saviour, who shall transform our body of humiliation into conformity to his body of glory\": what a change that is going to be! That is all the change that is needed; there is no need of moral adjustment or any doctrinal adjustment in this epistle; that is what the Philippians were waiting for. I think it belongs to the recovery of the truth."
+     ]
     },
     {
-     "text": "L.McF. We would be challenged at the very outset as to whether we are awaiting the coming of our Lord Jesus."
+     "speaker": "JAP",
+     "text": [
+      "You referred to three scriptures, Exodus 24, Jeremiah 31 and Numbers 23. I think we would like to know what you had in mind."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "It would be a challenge, I suppose, as to whether we are in the full gain of the commonwealth, and I trust the Lord will help us into it over these days, because it seems to be the normal position that we await Him from heaven. \"From which also\" I think, refers to \"the heavens\". \"We await the Lord Jesus Christ as Saviour, who shall transform our body of humiliation into conformity to his body of glory\": what a change that is going to be! That is all the change that is needed; there is no need of moral adjustment or any doctrinal adjustment in this epistle; that is what the Philippians were waiting for. I think it belongs to the recovery of the truth."
+     "speaker": "JAG",
+     "text": [
+      "I thought in Exodus 24 you go out in the power of the blood, the new covenant in principle is there, the Mediator is there. God says \"Go up to Jehovah\" (v 1), and seventy of the elders of Israel went up and they are at home in the heavenly scene. I suppose in principle the liberty of sonship is there; and there is a change because the elders become the nobles. Then there is the distinctiveness of Christ's position as Mediator, for God says to Moses, \"Come up to me into the mountain, and be there\" (v 12). Jeremiah 31, as you would know, is the great new covenant chapter. There is nothing like the new covenant for relaxing the brethren. There will come a day when the watchmen on mount Ephraim as recovered will say, \"Arise, and let us go up to Zion, unto Jehovah our God\" (v 6). The whole position stands related to what is universal, and I think the reference to the death of Christ in that chapter bears more upon the deep sleep of Genesis 2 than it does upon the side of suffering, so that the ultimate is that the glory of the Lord shall cover the earth as the waters cover the sea (see Hab 2: 14). In Numbers 23 it is the end of the wilderness journey, God's end is reached: \"At this time it shall be said of Jacob and of Israel, What hath God wrought!\" (v 23)."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "You referred to three scriptures, Exodus 24, Jeremiah 31 and Numbers 23. I think we would like to know what you had in mind."
+     "speaker": "JMcK",
+     "text": [
+      "Would you give us a touch as to the moral conditions that are manifest amongst the saints with regard to this commonwealth It is not public, as we know, but it is maintained and sustained in the saints by the power of the Spirit."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I thought in Exodus 24 you go out in the power of the blood, the new covenant in principle is there, the Mediator is there. God says \"Go up to Jehovah\" (v 1), and seventy of the elders of Israel went up and they are at home in the heavenly scene. I suppose in principle the liberty of sonship is there; and there is a change because the elders become the nobles. Then there is the distinctiveness of Christ's position as Mediator, for God says to Moses, \"Come up to me into the mountain, and be there\" (v 12). Jeremiah 31, as you would know, is the great new covenant chapter. There is nothing like the new covenant for relaxing the brethren. There will come a day when the watchmen on mount Ephraim as recovered will say, \"Arise, and let us go up to Zion, unto Jehovah our God\" (v 6). The whole position stands related to what is universal, and I think the reference to the death of Christ in that chapter bears more upon the deep sleep of Genesis 2 than it does upon the side of suffering, so that the ultimate is that the glory of the Lord shall cover the earth as the waters cover the sea (see Hab 2: 14). In Numbers 23 it is the end of the wilderness journey, God's end is reached: \"At this time it shall be said of Jacob and of Israel, What hath God wrought!\" (v 23)."
+     "speaker": "JAG",
+     "text": [
+      "Yes. I trust that the Lord will help us to see how these things are brought about as we proceed through the meetings."
+     ]
     },
     {
-     "text": "J.McK. Would you give us a touch as to the moral conditions that are manifest amongst the saints with regard to this commonwealth It is not public, as we know, but it is maintained and sustained in the saints by the power of the Spirit."
+     "speaker": "JMcK",
+     "text": [
+      "We hear so much at the present day of various kingdoms, upheavals and all that relates to man's administration, but here we have a kingdom that is morally sustained and maintained by the Spirit's power in the saints to the glory of God."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes. I trust that the Lord will help us to see how these things are brought about as we proceed through the meetings."
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think so. This is a very beautiful epistle and we would like to be in the gain of it. There is nothing official about Paul and Timotheus; they are bondmen. I think love is ruling and reigning here. The Philippians were also of that character."
+     ]
     },
     {
-     "text": "J.McK. We hear so much at the present day of various kingdoms, upheavals and all that relates to man's administration, but here we have a kingdom that is morally sustained and maintained by the Spirit's power in the saints to the glory of God."
+     "speaker": "JMcK",
+     "text": [
+      "You remarked about the moral state of the Philippian saints, how that brings out what is maintained inwardly; that should be an incentive to all of us who have tasted a little of the joy and the blessedness and the glory of that kingdom."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think so. This is a very beautiful epistle and we would like to be in the gain of it. There is nothing official about Paul and Timotheus; they are bondmen. I think love is ruling and reigning here. The Philippians were also of that character."
+     "speaker": "JAG",
+     "text": [
+      "I think so. The great desire is to gain Christ. The ultimate is the excellency of the knowledge of Christ Jesus my Lord; that was Paul's desire (see chap 3: 8). Nothing is going to hinder him; he is not allowing anything to come in the way of that which is of Christ, as He is and where He is. So that as in the commonwealth in one sense there is the fulness of knowledge; all that it will require is the transformation of the condition."
+     ]
     },
     {
-     "text": "J.McK. You remarked about the moral state of the Philippian saints, how that brings out what is maintained inwardly; that should be an incentive to all of us who have tasted a little of the joy and the blessedness and the glory of that kingdom."
+     "speaker": "GH",
+     "text": [
+      "The footnote reads, 'Commonwealth' does not satisfy me, but 'citizenship' gives a different idea. Would you say something about that."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so. The great desire is to gain Christ. The ultimate is the excellency of the knowledge of Christ Jesus my Lord; that was Paul's desire (see chap 3: 8). Nothing is going to hinder him; he is not allowing anything to come in the way of that which is of Christ, as He is and where He is. So that as in the commonwealth in one sense there is the fulness of knowledge; all that it will require is the transformation of the condition."
+     "speaker": "JAG",
+     "text": [
+      "I think it is the character of the thing. Mr Darby in that footnote uses the expression 'I am born an Englishman'. Englishmen are Englishmen wherever they go. So you carry the features of heaven. I think that is what is in mind. It brings out character and it brings out Christ in such a way that, instead of what Paul was (as we take the context of the chapter and all the things that he had), he becomes so enthralled by the wonderment of Christ Jesus his Lord that he is letting everything go. It is not that he counted but that he counts, it is a current thing with him in his affections that he might gain Christ. I suppose we could profitably spend some time inquiring how we may gain Christ. I think it is through committal, committal to the truth, committal to the gospel in allowing the truth of the glad tidings to have its way with us: and we find that it is practical, it works , it is a real thing. The Spirit of God is here, a divine Person, and He is working these things out in the hearts of the saints."
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "The footnote reads, 'Commonwealth' does not satisfy me, but 'citizenship' gives a different idea. Would you say something about that."
+     "speaker": "LMcF",
+     "text": [
+      "So that in two households at least in Philippi, those of Lydia and the jailor there would be this atmosphere household was, do you think? It says of him that he rejoiced household-wise. Are not these features related to the commonwealth and to be known in our dwellings?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think it is the character of the thing. Mr Darby in that footnote uses the expression 'I am born an Englishman'. Englishmen are Englishmen wherever they go. So you carry the features of heaven. I think that is what is in mind. It brings out character and it brings out Christ in such a way that, instead of what Paul was (as we take the context of the chapter and all the things that he had), he becomes so enthralled by the wonderment of Christ Jesus his Lord that he is letting everything go. It is not that he counted but that he counts, it is a current thing with him in his affections that he might gain Christ. I suppose we could profitably spend some time inquiring how we may gain Christ. I think it is through committal, committal to the truth, committal to the gospel in allowing the truth of the glad tidings to have its way with us: and we find that it is practical, it works , it is a real thing. The Spirit of God is here, a divine Person, and He is working these things out in the hearts of the saints."
+     "speaker": "JAG",
+     "text": [
+      "I think so. The first thing the jailor did- the proof of the fact that he was converted – was that he took them the same hour of the night and washed them from their stripes. He had put these stripes on them, but the man was converted through the presentation of Christ and he showed repentance in the fact that he was sorry for what he had done and he washed them from their stripes. Now he is on the right road and he rejoices household-wise."
+     ]
     },
     {
-     "text": "L.McF. So that in two households at least in Philippi, those of Lydia and the jailor there would be this atmosphere household was, do you think? It says of him that he rejoiced household-wise. Are not these features related to the commonwealth and to be known in our dwellings?"
+     "speaker": "JRC",
+     "text": [
+      "If you gain Christ other things will have to go."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so. The first thing the jailor did- the proof of the fact that he was converted – was that he took them the same hour of the night and washed them from their stripes. He had put these stripes on them, but the man was converted through the presentation of Christ and he showed repentance in the fact that he was sorry for what he had done and he washed them from their stripes. Now he is on the right road and he rejoices household-wise."
+     "speaker": "JAG",
+     "text": [
+      "That is the idea I think. We retain so many options, but to gain Christ means that you have one objective and whatever else may come in the way is secondary to that objective. Help us as to your impression."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "If you gain Christ other things will have to go."
+     "speaker": "JRC",
+     "text": [
+      "According to this scripture it is 'I count', so that there is everything to be gain ed in Christ; other things then become secondary to that altogether. Would that be the idea?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is the idea I think. We retain so many options, but to gain Christ means that you have one objective and whatever else may come in the way is secondary to that objective. Help us as to your impression."
+     "speaker": "JAG",
+     "text": [
+      "I think so. You might say, Well, he had already given up all things which he had counted on account of Christ loss (v 7), but he goes on to count them to be filth. What ever he had of material things or whatever else it might be, that was the attitude of Paul's mind and it is the force of the effect of Christ gglorifie. I think if once we saw the Lord Jesus in glory that would be the end of everything here."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "According to this scripture it is 'I count', so that there is everything to be gain ed in Christ; other things then become secondary to that altogether. Would that be the idea?"
+     "speaker": "NSB",
+     "text": [
+      "With reference to Mr Darby's note about an Englishman, the expression is sometimes used, 'the quintessential Englishman', a person who is the ultimate expression of the thing. Paul had been the quintessential Hebrew and Pharisee, a Hebrew of the Hebrews, a Pharisee of the Pharisees, but he lost that in order to gain Christ. He is, you might say, the quintessential heavenly man."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so. You might say, Well, he had already given up all things which he had counted on account of Christ loss (v 7), but he goes on to count them to be filth. What ever he had of material things or whatever else it might be, that was the attitude of Paul's mind and it is the force of the effect of Christ gglorifie. I think if once we saw the Lord Jesus in glory that would be the end of everything here."
+     "speaker": "JAG",
+     "text": [
+      "I think so; that is what it is. The thing is there in the man's being. It is further on, in a way, than \"Christ in you the hope of glory\", Col 1: 27. You might say as you looked at Paul, There is the evidence of flesh and bones. Would you agree?"
+     ]
     },
     {
-     "speaker": "N.S.B.",
-     "text": "With reference to Mr Darby's note about an Englishman, the expression is sometimes used, 'the quintessential Englishman', a person who is the ultimate expression of the thing. Paul had been the quintessential Hebrew and Pharisee, a Hebrew of the Hebrews, a Pharisee of the Pharisees, but he lost that in order to gain Christ. He is, you might say, the quintessential heavenly man."
+     "speaker": "CFD",
+     "text": [
+      "Therefore what Paul was in his person became expressed in his whole manner of life. Do you not think that the associations of life are tested in us by what we are every day, what we a re in relation to the saints. If we are attached to Christ, that will show in these relationships."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so; that is what it is. The thing is there in the man's being. It is further on, in a way, than \"Christ in you the hope of glory\", Col 1: 27. You might say as you looked at Paul, There is the evidence of flesh and bones. Would you agree?"
+     "speaker": "JAG",
+     "text": [
+      "I think that is the idea, that whatever it is it has to be related to Christ."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "Therefore what Paul was in his person became expressed in his whole manner of life. Do you not think that the associations of life are tested in us by what we are every day, what we a re in relation to the saints. If we are attached to Christ, that will show in these relationships."
+     "speaker": "RS",
+     "text": [
+      "Would it also to be the idea t hat we have all the rights of heaven? If we are citizens of a certain country we have the rights of that country. If you are an American you have the right to travel around the country and so on; so in this connection it would mean that we have the right to be in heaven."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think that is the idea, that whatever it is it has to be related to Christ."
+     "speaker": "JAG",
+     "text": [
+      "Yes, you have the right to it, but not only have you the right to it, you express the characteristics of it. There is the evidence of what is heavenly; it comes from another sphere. That was Christ here, His clothing was always blue. I think that is the idea – there was spread upon the ark a cloth of blue – wherever the Lord Jesus moved He was not earthly, He was heavenly. This is over against those who mind earthly things. Of Paul and his company you can say that is the fact, and that belongs to the revival; Paul and his company are characterised by what is heavenly."
+     ]
     },
     {
-     "speaker": "R.S.",
-     "text": "Would it also to be the idea t hat we have all the rights of heaven? If we are citizens of a certain country we have the rights of that country. If you are an American you have the right to travel around the country and so on; so in this connection it would mean that we have the right to be in heaven."
+     "speaker": "CFD",
+     "text": [
+      "Paul says as to himself, \"for me to live is Christ\" (Phil 1: 21), and he could appeal to them to be his imitators: \"be my imitators, even as I also am of Christ\", 1 Cor 11: 1. Is this the essence of the heavenly man coming into expression testimonially? ."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, you have the right to it, but not only have you the right to it, you express the characteristics of it. There is the evidence of what is heavenly; it comes from another sphere. That was Christ here, His clothing was always blue. I think that is the idea – there was spread upon the ark a cloth of blue – wherever the Lord Jesus moved He was not earthly, He was heavenly. This is over against those who mind earthly things. Of Paul and his company you can say that is the fact, and that belongs to the revival; Paul and his company are characterised by what is heavenly."
+     "speaker": "JAG",
+     "text": [
+      "That is exactly what it is. I think practically it is the expression of what the Lord said to Paul: \"why persecutest thou me?\" Acts 22: 7. There was what was heavenly in Damascus or wherever the saints were; it was the same thing, there was no difference. All that they will need is a little touch as to their bodies and the thing is perfect."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "Paul says as to himself, \"for me to live is Christ\" (Phil 1: 21), and he could appeal to them to be his imitators: \"be my imitators, even as I also am of Christ\", 1 Cor 11: 1. Is this the essence of the heavenly man coming into expression testimonially? ."
+     "speaker": "EFC",
+     "text": [
+      "Verse 17 which precedes this section would indicate that. It says, \"Be imitators all together of me, brethren, and fix your eyes on those walking thus as you have us for a model\". Those are the kind of citizens we need to be."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is exactly what it is. I think practically it is the expression of what the Lord said to Paul: \"why persecutest thou me?\" Acts 22: 7. There was what was heavenly in Damascus or wherever the saints were; it was the same thing, there was no difference. All that they will need is a little touch as to their bodies and the thing is perfect."
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think so. These are what we speak of as 'over-Jordan' persons, circumcision is in evidence, the reproach of Egypt is rolled away, it has gone. How would you like to meet somebody like this who had come from heaven? That is Paul and that is his company and we should desire to carry these features with us."
+     ]
     },
     {
-     "speaker": "E.F.C.",
-     "text": "Verse 17 which precedes this section would indicate that. It says, \"Be imitators all together of me, brethren, and fix your eyes on those walking thus as you have us for a model\". Those are the kind of citizens we need to be."
+     "speaker": "JAP",
+     "text": [
+      "The Lord's supper and the service of God give character thus to the Christians walk, in that we really come from a heavenly area of things as coming away from that occasion and these impressions stay with us."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think so. These are what we speak of as 'over-Jordan' persons, circumcision is in evidence, the reproach of Egypt is rolled away, it has gone. How would you like to meet somebody like this who had come from heaven? That is Paul and that is his company and we should desire to carry these features with us."
+     "speaker": "JAG",
+     "text": [
+      "I think that is one of the imports of the Lord's supper, that we go there and we are thinking about Him, we are considering for Him, we are concerned to express our affection for Him and remember Him, and from that we carry away the influence of His presence which is heavenly. There is a stamp upon you; you may go through New York but you will not find anybody who carries these features unless they have been in heaven. That is the import, the gain of the Lord’s supper, that you are affected by it, and that is involved in being changed from glory to glory. It is not exactly the rapture, which is wonderful, but you are awaiting Him, it is not the event, it is the Person.",
+      "K-n.A.O. Are our minds involved in this matter, too? It speaks at the end of verse 19 of those who mind earthly things; that was the bent of their minds. But the outlook that Paul had was heavenly and it characterised him."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "The Lord's supper and the service of God give character thus to the Christians walk, in that we really come from a heavenly area of things as coming away from that occasion and these impressions stay with us."
+     "speaker": "JAG",
+     "text": [
+      "Yes, exactly. I wondered if we should go to Abraham for the next reading; Lot was minding earthly things and the result is that he is carried away, he does not attain to the purpose of God. What God is going to display m that day, as we well know, is what He has had here in testimony. It is a tremendous thing if the Lord helps us to see it increasingly that what is here in heavenly worth amongst the brethren is equal to being displayed at any time."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think that is one of the imports of the Lord's supper, that we go there and we are thinking about Him, we are considering for Him, we are concerned to express our affection for Him and remember Him, and from that we carry away the influence of His presence which is heavenly. There is a stamp upon you; you may go through New York but you will not find anybody who carries these features unless they have been in heaven. That is the import, the gain of the Lord’s supper, that you are affected by it, and that is involved in being changed from glory to glory. It is not exactly the rapture, which is wonderful, but you are awaiting Him, it is not the event, it is the Person."
+     "speaker": "KAK",
+     "text": [
+      "Does the thought of masculine and feminine enter into this? Persons take character from their mother but they take their names from their father. It has been said that we derive our status from Christ. I was wondering about the commonwealth being more on the feminine side."
+     ]
     },
     {
-     "text": "K-n.A.O. Are our minds involved in this matter, too? It speaks at the end of verse 19 of those who mind earthly things; that was the bent of their minds. But the outlook that Paul had was heavenly and it characterised him."
+     "speaker": "JAG",
+     "text": [
+      "It involves brothers and sisters obviously. In this epistle there are two sisters mentioned, and also Epaphroditus, but the character, the quality of the thing, is heavenly."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, exactly. I wondered if we should go to Abraham for the next reading; Lot was minding earthly things and the result is that he is carried away, he does not attain to the purpose of God. What God is going to display m that day, as we well know, is what He has had here in testimony. It is a tremendous thing if the Lord helps us to see it increasingly that what is here in heavenly worth amongst the brethren is equal to being displayed at any time."
+     "speaker": "KAK",
+     "text": [
+      "I was wondering about the assembly in that regard."
+     ]
     },
     {
-     "speaker": "K.A.K.",
-     "text": "Does the thought of masculine and feminine enter into this? Persons take character from their mother but they take their names from their father. It has been said that we derive our status from Christ. I was wondering about the commonwealth being more on the feminine side."
+     "speaker": "JAG",
+     "text": [
+      "Well, the assembly is the full expression of it. But here in this epistle it is Christians men and women, in their ordinary ever day affairs and they are bearing the features of what is heavenly. They have come from another sphere, and that is a tremendous thing. As Paul has said in chapter 2, you are appearing among persons as lights; it is the antedating of the heavenly city. So that the light of the world to come is manifest in your office, or at your work-bench or wherever you are; you are carrying the stamp of heaven. When that happens the fragrance of it becomes evident because there is bound to be a diffusion of the Spirit of Christ."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "It involves brothers and sisters obviously. In this epistle there are two sisters mentioned, and also Epaphroditus, but the character, the quality of the thing, is heavenly."
+     "speaker": "KAK",
+     "text": [
+      "I was thinking of the commonwealth as being an out-of-the-world thing and that these features are seen in the assembly. How much has that to do with it?"
+     ]
     },
     {
-     "speaker": "K.A.K.",
-     "text": "I was wondering about the assembly in that regard."
+     "speaker": "JAG",
+     "text": [
+      "This is the commonwealth here in a way. The commonwealth is here, for it is our relationships of life, it is where we live as amongst the brethren, and there is the manifestation of it as the Lord comes into the meeting; there is the increase and development of what is heavenly. You get some touch in your heart from Christ, the Spirit makes it good to you and so you are regulated by that, your walk is just that little fraction more heavenly there is the commonwealth."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Well, the assembly is the full expression of it. But here in this epistle it is Christians men and women, in their ordinary ever day affairs and they are bearing the features of what is heavenly. They have come from another sphere, and that is a tremendous thing. As Paul has said in chapter 2, you are appearing among persons as lights; it is the antedating of the heavenly city. So that the light of the world to come is manifest in your office, or at your work-bench or wherever you are; you are carrying the stamp of heaven. When that happens the fragrance of it becomes evident because there is bound to be a diffusion of the Spirit of Christ."
+     "speaker": "TED",
+     "text": [
+      "You referred to the first verse of the epistle, \"Paul and Timotheus, bondmen\". It goes on, \"to all the saints... with the overseers and ministers\". I wondered if \"the overseers and ministers\" is not a reference to he nee of activity amongst us in our gatherings which would help the saints in view of the enjoyment of that commonwealth."
+     ]
     },
     {
-     "speaker": "K.A.K.",
-     "text": "I was thinking of the commonwealth as being an out-of-the-world thing and that these features are seen in the assembly. How much has that to do with it?"
+     "speaker": "JAG",
+     "text": [
+      "I think the older brothers and sisters – and that is how it would be in these days – are more responsible to see that these features of affection and care and consideration are maintained amongst the brethren. Timothy is the ideal in a way; it was a pity that Paul had to say that I have nobody else likeminded who will care with genuine feeling how ye get on. And how you get on is in the development of what is heavenly, what you enjoy m your soul of Christ where He is and the truth of eternal life. There is a tremendous field of things opened up to us and shortly we are going to be ushered into that in its fulness."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "This is the commonwealth here in a way. The commonwealth is here, for it is our relationships of life, it is where we live as amongst the brethren, and there is the manifestation of it as the Lord comes into the meeting; there is the increase and development of what is heavenly. You get some touch in your heart from Christ, the Spirit makes it good to you and so you are regulated by that, your walk is just that little fraction more heavenly there is the commonwealth."
+     "speaker": "ARS",
+     "text": [
+      "It has been said that the Philippians are practising Ephesians."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "You referred to the first verse of the epistle, \"Paul and Timotheus, bondmen\". It goes on, \"to all the saints... with the overseers and ministers\". I wondered if \"the overseers and ministers\" is not a reference to he nee of activity amongst us in our gatherings which would help the saints in view of the enjoyment of that commonwealth."
+     "speaker": "JAG",
+     "text": [
+      "Exactly. Mr Lyon said about this epistle that it is a tree planted upside down, the roots are in heaven and all the fruits are on earth and you can go and pick them any time you like. They are drawing their sap, their resource, from another sphere. There has never been another tree like this on earth. It has been well called normal Christian experience, not perhaps the normal experience of a Christian but it is normal Christian experience."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think the older brothers and sisters – and that is how it would be in these days – are more responsible to see that these features of affection and care and consideration are maintained amongst the brethren. Timothy is the ideal in a way; it was a pity that Paul had to say that I have nobody else likeminded who will care with genuine feeling how ye get on. And how you get on is in the development of what is heavenly, what you enjoy m your soul of Christ where He is and the truth of eternal life. There is a tremendous field of things opened up to us and shortly we are going to be ushered into that in its fulness."
+     "speaker": "JMcK",
+     "text": [
+      "It began to have its existence when Christ ascended to heaven and the Spirit came down. In this country we boast in a Constitution, in England they boast in the Magna Carta; we ought to boast in Christ Jesus from whom the law is maintained in spiritual power by the Spirit among us. There is a spiritual and moral result in the citizens of this commonwealth which has its existence in the heavens."
+     ]
     },
     {
-     "speaker": "A R.S.",
-     "text": "It has been said that the Philippians are practising Ephesians."
+     "speaker": "JAG",
+     "text": [
+      "I think so. There is the full expression in them of what is set out in the epistle to the Romans; the gospel is expressed in them. There are the boards of the tabernacle, they are standing up in their own responsibility, there is fulfilled responsibility in them."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly. Mr Lyon said about this epistle that it is a tree planted upside down, the roots are in heaven and all the fruits are on earth and you can go and pick them any time you like. They are drawing their sap, their resource, from another sphere. There has never been another tree like this on earth. It has been well called normal Christian experience, not perhaps the normal experience of a Christian but it is normal Christian experience."
+     "speaker": "JMcK",
+     "text": [
+      "The kingdom of God is the basis of the truth of Romans. But when we come to this position it has its origin from heaven, as you have been remarking, and the effect of it is that we are all governed by the one influence and the one loaf."
+     ]
     },
     {
-     "text": "J.McK. It began to have its existence when Christ ascended to heaven and the Spirit came down. In this country we boast in a Constitution, in England they boast in the Magna Carta; we ought to boast in Christ Jesus from whom the law is maintained in spiritual power by the Spirit among us. There is a spiritual and moral result in the citizens of this commonwealth which has its existence in the heavens."
+     "speaker": "JAG",
+     "text": [
+      "Exactly. We are all concerned to acquire \"the excellency of the knowledge of Christ Jesus my Lord\" and that is Christ where He is in glory. If we had seen a light above the brightness of the noonday sun what a change it would make in us, would it not? That comes to us in the gospel, and that is why I thought we should go to Romans because what you are impressed with is favour."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so. There is the full expression in them of what is set out in the epistle to the Romans; the gospel is expressed in them. There are the boards of the tabernacle, they are standing up in their own responsibility, there is fulfilled responsibility in them."
+     "speaker": "GH",
+     "text": [
+      "I would like to ask about the mind. Paul says \"I have no one like-minded who will ca e with genuine feeling how ye get on\", Phil 2: 20. Also it says in Colossians, \"have your mind on the things that are above\", chap 3: 2. Does that mean that by the help of the Spirit I control the mind?"
+     ]
     },
     {
-     "text": "J.McK. The kingdom of God is the basis of the truth of Romans. But when we come to this position it has its origin from heaven, as you have been remarking, and the effect of it is that we are all governed by the one influence and the one loaf."
+     "speaker": "JAG",
+     "text": [
+      "I think it is the bent, the desire, of your mind. He says, \"I have no one like minded... as a child a father, he has served with me in the work of the glad tidings\". Now pardon my saying this – I have said it many times – there is a tremendous need here and in every place for the brethren to look into and follow up Mr Taylor's ministry. It is not that the brethren do not want the truth, it is not that they are not pure, but to get the substance of the truth requires application to what has come out in that ministry. That is not asking much of a man at all, it is the Spirit's voice."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly. We are all concerned to acquire \"the excellency of the knowledge of Christ Jesus my Lord\" and that is Christ where He is in glory. If we had seen a light above the brightness of the noonday sun what a change it would make in us, would it not? That comes to us in the gospel, and that is why I thought we should go to Romans because what you are impressed with is favour."
+     "speaker": "GH",
+     "text": [
+      "Do you have in mind that it brought out what was practical?"
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "I would like to ask about the mind. Paul says \"I have no one like-minded who will ca e with genuine feeling how ye get on\", Phil 2: 20. Also it says in Colossians, \"have your mind on the things that are above\", chap 3: 2. Does that mean that by the help of the Spirit I control the mind?"
+     "speaker": "JAG",
+     "text": [
+      "Yes. As far as I can see, there are two things about the ministry; there is what regulates and adjusts and there is what sets out the glory and grandeur of the truth. One of the things said about three-day meetings was that they were like the university of the assembly. It is the opening up of the truth. The local meeting should be able to work out the regulatory features. To talk about tokens and sisters' hair and that sort of thing does not belong to three-day meetings exactly. I think it is the opening up of the scope and width and grandeur of the truth so that the brethren can see the greatness of their inheritance. The application of it and the working out of it stands related to local assemblies, and that is Paul's ministry."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think it is the bent, the desire, of your mind. He says, \"I have no one like minded... as a child a father, he has served with me in the work of the glad tidings\". Now pardon my saying this – I have said it many times – there is a tremendous need here and in every place for the brethren to look into and follow up Mr Taylor's ministry. It is not that the brethren do not want the truth, it is not that they are not pure, but to get the substance of the truth requires application to what has come out in that ministry. That is not asking much of a man at all, it is the Spirit's voice."
+     "speaker": "JMcK",
+     "text": [
+      "What Mr Taylor had in mind was the teaching character of things to bring out the truth and develop it in a three-day meeting."
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "Do you have in mind that it brought out what was practical?"
+     "speaker": "JAG",
+     "text": [
+      "That is exactly how it should be. When we come to Romans 5 we get a fine delineation, you might say, of the commonwealth, what the land is. Man has been recovered to God in chapter 3 – righteousness in the blood – and he has answered to it. It was a tremendous thing that Abraham answered to the word of God and it was reckoned to him as righteousness and he comes into justification. Now in this chapter he is coming into the greatness and grandeur of the kingdom."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes. As far as I can see, there are two things about the ministry; there is what regulates and adjusts and there is what sets out the glory and grandeur of the truth. One of the things said about three-day meetings was that they were like the university of the assembly. It is the opening up of the truth. The local meeting should be able to work out the regulatory features. To talk about tokens and sisters' hair and that sort of thing does not belong to three-day meetings exactly. I think it is the opening up of the scope and width and grandeur of the truth so that the brethren can see the greatness of their inheritance. The application of it and the working out of it stands related to local assemblies, and that is Paul's ministry."
+     "speaker": "LMcF",
+     "text": [
+      "I think we could develop the principle of faith a little."
+     ]
     },
     {
-     "text": "J.McK. What Mr Taylor had in mind was the teaching character of things to bring out the truth and develop it in a three-day meeting."
+     "speaker": "JAG",
+     "text": [
+      "Well, it is God's gift. The call has come to us and somebody has answered the call. It would go right down, I suppose, to the basics. He says \"I called him when he was alone and blessed him\" (Isa 51: 2) and he answered to the call. It is a tremendous thing that God is recovering man in Abraham."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is exactly how it should be. When we come to Romans 5 we get a fine delineation, you might say, of the commonwealth, what the land is. Man has been recovered to God in chapter 3 – righteousness in the blood – and he has answered to it. It was a tremendous thing that Abraham answered to the word of God and it was reckoned to him as righteousness and he comes into justification. Now in this chapter he is coming into the greatness and grandeur of the kingdom."
+     "speaker": "KNP",
+     "text": [
+      "I think that is good, because we have ever thing set out in this chapter, do we not, starting from the kingdom right through to the new covenant, the kingdom, reconciliation and eternal life?"
+     ]
     },
     {
-     "text": "L.McF. I think we could develop the principle of faith a little."
+     "speaker": "JAG",
+     "text": [
+      "Exactly. That is the whole thing, it goes right through to eternal life. It may be objective. but there it is; there is the grandeur of the thing set out in this chapter. \"We have through our Lord Jesus Christ; by whom we have also access by faith into this favour in which· we stand, and we boast in hope of the glory of God\". All that God is in His heart, the fulness of His love, is toward us."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Well, it is God's gift. The call has come to us and somebody has answered the call. It would go right down, I suppose, to the basics. He says \"I called him when he was alone and blessed him\" (Isa 51: 2) and he answered to the call. It is a tremendous thing that God is recovering man in Abraham."
+     "speaker": "JRC",
+     "text": [
+      "The record in Deuteronomy of Naphtali is that he was satisfied with favour (see chap 33: 23). I ofttimes wonder for myself whether I am really satisfied with what God has in mind for me."
+     ]
     },
     {
-     "speaker": "K.N.P.",
-     "text": "I think that is good, because we have ever thing set out in this chapter, do we not, starting from the kingdom right through to the new covenant, the kingdom, reconciliation and eternal life?"
+     "speaker": "JAG",
+     "text": [
+      "We get a measure of trepidation may-be we begin to think of God acting as we would act ourselves. But we need to get the divine word and the divine standard, and there is the greatness of it here, the wonder of it all that God is and what God has done that. We should be brought into the power of the life of Christ and into the greatness and glory of the kingdom. The whole of this chapter stands related to the commonwealth."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly. That is the whole thing, it goes right through to eternal life. It may be objective. but there it is; there is the grandeur of the thing set out in this chapter. \"We have through our Lord Jesus Christ; by whom we have also access by faith into this favour in which· we stand, and we boast in hope of the glory of God\". All that God is in His heart, the fulness of His love, is toward us."
+     "speaker": "JAP",
+     "text": [
+      "As to three-day meetings, in God's mind it would be favour. These meetings are favourable meetings, a time, generally speaking, for joy and the enjoyment of eternal life what divine Persons have secured for us. The brethren have given up a holiday weekend, that is a sacrifice, and God says, I have something that is very wonderful for you to come into. It is like the queen of Sheba, she enjoyed the favour of the king and rejoiced in it."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "The record in Deuteronomy of Naphtali is that he was satisfied with favour (see chap 33: 23). I ofttimes wonder for myself whether I am really satisfied with what God has in mind for me."
+     "speaker": "JAG",
+     "text": [
+      "This is a great thing to enjoy, to sit back and drink it in and enjoy it. We have been justified on the principle of faith, and we have peace towards God through our Lord Jesus Christ, through whom we have also access by faith into this favour in which we stand. We stand in the favour of the kingdom."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "We get a measure of trepidation may-be we begin to think of God acting as we would act ourselves. But we need to get the divine word and the divine standard, and there is the greatness of it here, the wonder of it all that God is and what God has done that. We should be brought into the power of the life of Christ and into the greatness and glory of the kingdom. The whole of this chapter stands related to the commonwealth."
+     "speaker": "JAP",
+     "text": [
+      "Even tribulation in this section it is to be favourable, working for the Christian by way of experience, so that he is growing in this favour, he is not overcome by the tribulation.",
+      "J.A.G.. That is right. This is going to work something and that is going to work something else, and hope does not make ashamed because the love of od is shed abroad in your heart. Well, that is very wonderful. You would be a very warm person, would you not, if the love of God were shed abroad in your heart?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "As to three-day meetings, in God's mind it would be favour. These meetings are favourable meetings, a time, generally speaking, for joy and the enjoyment of eternal life what divine Persons have secured for us. The brethren have given up a holiday weekend, that is a sacrifice, and God says, I have something that is very wonderful for you to come into. It is like the queen of Sheba, she enjoyed the favour of the king and rejoiced in it."
+     "speaker": "GH",
+     "text": [
+      "That expression \"And not only that\" occurs a couple of times in Romans. Does that bring out the glory and the wealth of the commonwealth?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "This is a great thing to enjoy, to sit back and drink it in and enjoy it. We have been justified on the principle of faith, and we have peace towards God through our Lord Jesus Christ, through whom we have also access by faith into this favour in which we stand. We stand in the favour of the kingdom."
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think it is bringing out the wealth of it: the wonder of it, that whatever happens it is going to work out something and that is going to work out something else, and that is going to work out something else. And the ultimate in the chapter is that you are coming through to the greatness of the position where grace reigns in your heart. Where sin reigned in the power of death, now grace is reigning. You have really reached something if you come to this, that grace reigns in your heart through righteousness to eternal life. There is the kingdom, you are reigning in life, there is a dominance there."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Even tribulation in this section it is to be favourable, working for the Christian by way of experience, so that he is growing in this favour, he is not overcome by the tribulation."
+     "speaker": "EFC",
+     "text": [
+      "Would the boasting that is referred to in this section three times be on positive lines? This is the kind of boasting that we are to be characterised by, is it not? – boasting in hope of the glory of God, then boasting in tribulations, and then making our boast in God through our Lord Jesus Christ."
+     ]
     },
     {
-     "text": "J.A.G.. That is right. This is going to work something and that is going to work something else, and hope does not make ashamed because the love of od is shed abroad in your heart. Well, that is very wonderful. You would be a very warm person, would you not, if the love of God were shed abroad in your heart?"
+     "speaker": "JAG",
+     "text": [
+      "That is the greatest boast. I would like to be able to boast in tribulations. It is so easy to get depressed, but you know t at tribulation works endurance, you are going to go through with it and you are not going to say, I am not coming back. That is the first thing that happens. Have you ever thought like that, I am not going back. No! Tribulation works endurance, there is a touch of the acacia-wood now, there is a touch of the manhood of Christ coming out, a touch of what is heavenly; God is going to put the gold on the wood that grew up here in the wilderness. That is the love of God shed abroad in our hearts."
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "That expression \"And not only that\" occurs a couple of times in Romans. Does that bring out the glory and the wealth of the commonwealth?"
+     "speaker": "CFD",
+     "text": [
+      "Endurance is a very much needed ingredient at the present time. Christ set on the idea of endurance Himself, He endured the cross, He endured everything. But then we are to endure; I suppose that the feature of a good kingdom man, which we get in the first short paragraph, would be that; the feature of endurance is in evidence and that is really the acacia-wood ready for dignity to be put on it."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think it is bringing out the wealth of it: the wonder of it, that whatever happens it is going to work out something and that is going to work out something else, and that is going to work out something else. And the ultimate in the chapter is that you are coming through to the greatness of the position where grace reigns in your heart. Where sin reigned in the power of death, now grace is reigning. You have really reached something if you come to this, that grace reigns in your heart through righteousness to eternal life. There is the kingdom, you are reigning in life, there is a dominance there."
+     "speaker": "JAG",
+     "text": [
+      "I think that is where we prove divine support, the love of God is going to be shed abroad in our hearts by the Holy Spirit which He has given to us. Then Paul brings in this other reasoning as to the tremendous fact that God has been for us all the time and God is always for us. It is easy to say we should end re through tribulation, it is a different thing when you are in it. It is a different thing when things go against you and you think you have got through it and then you get another load and maybe get another load; you are going to endure. Behind all this is the priesthood of Christ."
+     ]
     },
     {
-     "speaker": "E.F.C.",
-     "text": "Would the boasting that is referred to in this section three times be on positive lines? This is the kind of boasting that we are to be characterised by, is it not? – boasting in hope of the glory of God, then boasting in tribulations, and then making our boast in God through our Lord Jesus Christ."
+     "speaker": "ASH",
+     "text": [
+      "Tribulation is not native to us; we all come under a cloud when we get it. It is only by calling upon the Spirit that we can endure."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is the greatest boast. I would like to be able to boast in tribulations. It is so easy to get depressed, but you know t at tribulation works endurance, you are going to go through with it and you are not going to say, I am not coming back. That is the first thing that happens. Have you ever thought like that, I am not going back. No! Tribulation works endurance, there is a touch of the acacia-wood now, there is a touch of the manhood of Christ coming out, a touch of what is heavenly; God is going to put the gold on the wood that grew up here in the wilderness. That is the love of God shed abroad in our hearts."
+     "speaker": "JAG",
+     "text": [
+      "And to be with God in it and find support. and succour secretly so that you endure. You see the thing through. It says of Moses that he endured as seeing Him who is invisible (see Heb 11: 27); he was in touch with God. So that you get a bit of experience now, you begin to know the way that the Lord operates, which is wonderful thing."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "Endurance is a very much needed ingredient at the present time. Christ set on the idea of endurance Himself, He endured the cross, He endured everything. But then we are to endure; I suppose that the feature of a good kingdom man, which we get in the first short paragraph, would be that; the feature of endurance is in evidence and that is really the acacia-wood ready for dignity to be put on it."
+     "speaker": "ASH",
+     "text": [
+      "These things bring about enlargement David said, \"In pressure thou hast enlarged me”, Ps 4: 1."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think that is where we prove divine support, the love of God is going to be shed abroad in our hearts by the Holy Spirit which He has given to us. Then Paul brings in this other reasoning as to the tremendous fact that God has been for us all the time and God is always for us. It is easy to say we should end re through tribulation, it is a different thing when you are in it. It is a different thing when things go against you and you think you have got through it and then you get another load and maybe get another load; you are going to endure. Behind all this is the priesthood of Christ."
+     "speaker": "JAG",
+     "text": [
+      "You would think that in pressure you would get a bit compressed, but in pressure, he says, Thou hast enlarged me, because God as come into it and shown him the whole line of things that is superior to the world to Egypt and all that relates to it. Therefore as has been said, the saints are the ruling class."
+     ]
     },
     {
-     "speaker": "A.S.H.",
-     "text": "Tribulation is not native to us; we all come under a cloud when we get it. It is only by calling upon the Spirit that we can endure."
+     "speaker": "JMcK",
+     "text": [
+      "It shines out in a brilliant example in Caleb and Joshua enduring through to the very end, crossing the Jordan and coming into the enjoyment of the purpose of God."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "And to be with God in it and find support. and succour secretly so that you endure. You see the thing through. It says of Moses that he endured as seeing Him who is invisible (see Heb 11: 27); he was in touch with God. So that you get a bit of experience now, you begin to know the way that the Lord operates, which is wonderful thing."
+     "speaker": "JAG",
+     "text": [
+      "Yes, that is fine. They \"lived still\", Num 14: 38. God kept them alive – that is one side – but Caleb lived still, he maintained himself in life."
+     ]
     },
     {
-     "speaker": "A.S.H.",
-     "text": "These things bring about enlargement David said, \"In pressure thou hast enlarged me”, Ps 4: 1."
+     "speaker": "SEH",
+     "text": [
+      "We were speaking about tribulation working endurance and how the Holy Spirit would help a person in that; and then it speaks of the Holy Spirit which has been given to us. Could you say something as to whether a person has the Holy Spirit in this chapter and as to the help He would give in coming into this favour and going through these exercises in verses 3, 4 and 5."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "You would think that in pressure you would get a bit compressed, but in pressure, he says, Thou hast enlarged me, because God as come into it and shown him the whole line of things that is superior to the world to Egypt and all that relates to it. Therefore as has been said, the saints are the ruling class."
+     "speaker": "JAG",
+     "text": [
+      "I think he obviously has the Holy Spirit in this chapter because the love of God could not be shed abroad in his heart if he did not have it, although you come into it through the other chapters. But we are in the realm of divine affection, God speaking about His Son – reconciled to God through the death of His Son. I think this is the whole opening up of the favour in which we stand; the love of God is shed abroad in our hearts by the Holy Spirit which He has given to us. God is so anxious to commend Himself to us. When we were still sinners – God commends His love. He is anxious to be made known that we should enjoy the favour."
+     ]
     },
     {
-     "text": "J.McK. It shines out in a brilliant example in Caleb and Joshua enduring through to the very end, crossing the Jordan and coming into the enjoyment of the purpose of God."
+     "speaker": "SEH",
+     "text": [
+      "Access is by faith, but then the Spirit would enter into our enjoyment of this commonwealth."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, that is fine. They \"lived still\", Num 14: 38. God kept them alive – that is one side – but Caleb lived still, he maintained himself in life."
+     "speaker": "JAG",
+     "text": [
+      "I think so, because in the situation of these circumstances you go back to the cross and take reckonings from the cross. There was the commendation of God's love. While we were still sinners there was the manifestation of it, Christ died for us. Now that currently is maintained in your soul, maintained in your heart. It is not easy, it is not meant to be easy, but it is meant to prove the superiority and greatness of the love of God and the love of Christ."
+     ]
     },
     {
-     "speaker": "S.E.H.",
-     "text": "We were speaking about tribulation working endurance and how the Holy Spirit would help a person in that; and then it speaks of the Holy Spirit which has been given to us. Could you say something as to whether a person has the Holy Spirit in this chapter and as to the help He would give in coming into this favour and going through these exercises in verses 3, 4 and 5."
+     "speaker": "CSE",
+     "text": [
+      "Speaking of favour, would the experiences of Mephibosheth help us? He had no right to the enjoyment of anything, having been on the line of Saul, but David brought him in and he sat at the king's table. Then in David's absence how well he comported himself. Is the sense of mercy necessary in our hearts just to be in the enjoyment of this favour?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think he obviously has the Holy Spirit in this chapter because the love of God could not be shed abroad in his heart if he did not have it, although you come into it through the other chapters. But we are in the realm of divine affection, God speaking about His Son – reconciled to God through the death of His Son. I think this is the whole opening up of the favour in which we stand; the love of God is shed abroad in our hearts by the Holy Spirit which He has given to us. God is so anxious to commend Himself to us. When we were still sinners – God commends His love. He is anxious to be made known that we should enjoy the favour."
+     "speaker": "JAG",
+     "text": [
+      "I think so. Mephibosheth is a very good example of a person who was an enemy, you might say, at least as far as his lineage was concerned as of the house of Saul (although David never reckoned Saul amongst his enemies, which is a marvellous thing) but Mephibosheth shows us what it is to be \"saved in the power of his life\". There was all the dominance of what was apostate and antichristian in Absalom, and Mephibosheth is not affected by it one bit. The love of God is shed abroad in his heart, in principle, by the Holy Spirit. He is committed to the reproach of Christ and he shows the power ot that kingdom, that heavenly kingdom , in the presence of the anti-Christian rule and sway of Absalom who stole the hearts of the men of Israel (see 2 Sam 15: 6). Why? Because they were not in the gain of Romans 5. If the love of God is shed abroad in your heart, I do not think Absalom will have much chance with you."
+     ]
     },
     {
-     "speaker": "S.E.H.",
-     "text": "Access is by faith, but then the Spirit would enter into our enjoyment of this commonwealth."
+     "speaker": "GDP",
+     "text": [
+      "Later on Mephibosheth could say, Let Ziba take all (see 2 Sam 19: 30). He was in such enjoyment of the favour of being at the king's table and of such things that were in his favour that he could say, Let Ziba take all. That is love, is it not?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so, because in the situation of these circumstances you go back to the cross and take reckonings from the cross. There was the commendation of God's love. While we were still sinners there was the manifestation of it, Christ died for us. Now that currently is maintained in your soul, maintained in your heart. It is not easy, it is not meant to be easy, but it is meant to prove the superiority and greatness of the love of God and the love of Christ."
+     "speaker": "JAG",
+     "text": [
+      "That is right, exactly. He is reigning in life by the one Man Jesus Christ and that was the proof that the Absalom system was coming down, lock, stock and barrel, there was something superior to it that it could not overcome."
+     ]
     },
     {
-     "speaker": "C.S.E.",
-     "text": "Speaking of favour, would the experiences of Mephibosheth help us? He had no right to the enjoyment of anything, having been on the line of Saul, but David brought him in and he sat at the king's table. Then in David's absence how well he comported himself. Is the sense of mercy necessary in our hearts just to be in the enjoyment of this favour?"
+     "speaker": "JRC",
+     "text": [
+      "Sometimes we think of tribulation being what is exterior. What Caleb suffered was inward and he had to endure that."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so. Mephibosheth is a very good example of a person who was an enemy, you might say, at least as far as his lineage was concerned as of the house of Saul (although David never reckoned Saul amongst his enemies, which is a marvellous thing) but Mephibosheth shows us what it is to be \"saved in the power of his life\". There was all the dominance of what was apostate and antichristian in Absalom, and Mephibosheth is not affected by it one bit. The love of God is shed abroad in his heart, in principle, by the Holy Spirit. He is committed to the reproach of Christ and he shows the power ot that kingdom, that heavenly kingdom , in the presence of the anti-Christian rule and sway of Absalom who stole the hearts of the men of Israel (see 2 Sam 15: 6). Why? Because they were not in the gain of Romans 5. If the love of God is shed abroad in your heart, I do not think Absalom will have much chance with you."
+     "speaker": "JAG",
+     "text": [
+      "It must have been a very sorrowful position for Caleb and Joshua. No doubt they had great links with these other princes. They had gone up with them and would have talked at night about what they saw and what they thought about the land. Joshua and Caleb would say, Well, I think we should go on, and the other ten of them would be saying some thing different. They probably grew up with them in the meeting from boyhood, as the brethren have done, but there came a time when their ways parted and then they had to watch all the brethren dying in the wilderness through unbelief. How sorrowful that must have been! It did not in any sense dim in their hearts the force and attractiveness of the heavenly land; they never despised the pleasant land."
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "Later on Mephibosheth could say, Let Ziba take all (see 2 Sam 19: 30). He was in such enjoyment of the favour of being at the king's table and of such things that were in his favour that he could say, Let Ziba take all. That is love, is it not?"
+     "speaker": "GH",
+     "text": [
+      "The love of God has been shed abroad in our hearts. The wealth of it! The distance that has been covered! It is a beautiful expression."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is right, exactly. He is reigning in life by the one Man Jesus Christ and that was the proof that the Absalom system was coming down, lock, stock and barrel, there was something superior to it that it could not overcome."
+     "speaker": "JAG",
+     "text": [
+      "That is the land; that is the inheritance. If you get a heart and the love of God is shed abroad in it, that is the inheritance, that is eternal life."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Sometimes we think of tribulation being what is exterior. What Caleb suffered was inward and he had to endure that."
+     "speaker": "KAO",
+     "text": [
+      "I was wondering about what Peter says as to the calling and election being made sure (see 2 Pet 1: 10). Would that link on with this matter? I think we are in a day when there may be some questions in the minds of the saints."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "It must have been a very sorrowful position for Caleb and Joshua. No doubt they had great links with these other princes. They had gone up with them and would have talked at night about what they saw and what they thought about the land. Joshua and Caleb would say, Well, I think we should go on, and the other ten of them would be saying some thing different. They probably grew up with them in the meeting from boyhood, as the brethren have done, but there came a time when their ways parted and then they had to watch all the brethren dying in the wilderness through unbelief. How sorrowful that must have been! It did not in any sense dim in their hearts the force and attractiveness of the heavenly land; they never despised the pleasant land."
+     "speaker": "JAG",
+     "text": [
+      "I think it is good to call attention to that. It brings me back in my own mind to what I said earlier (and I am sure it will bear repeating again and maybe again) that there is great need for the brethren to be established in the ministries of Mr Darby, Mr Raven and Mr Taylor. It is a build up, it is the Spirit's voice to the assemblies. Light came through those vessels."
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "The love of God has been shed abroad in our hearts. The wealth of it! The distance that has been covered! It is a beautiful expression."
+     "speaker": "KAO",
+     "text": [
+      "What is accredited would come into mind, would it not, in relation to these matters. Mr Taylor said that we should know the legality of the position in which we stand and that would be involved in our calling and election being made sure."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "That is the land; that is the inheritance. If you get a heart and the love of God is shed abroad in it, that is the inheritance, that is eternal life."
+     "speaker": "JAG",
+     "text": [
+      "I am sure it is, because you have been called and you have been elected. These are two tremendous things. Now you have to search out and understand the whole business of the calling and the election. Therefore you read the Scriptures and you look into the truth and you find out what the Lord has supported in relation to it. There are other books abroad that are a waste of time looking at, religious books, other books too. But the Spirit of God has moved in that direction, it has obviously been of God, and as we follow it up we are bound to be established in the truth. What did Mr McCallum spend his life labouring at? The extension of that ministry."
+     ]
     },
     {
-     "speaker": "K.A.O.",
-     "text": "I was wondering about what Peter says as to the calling and election being made sure (see 2 Pet 1: 10). Would that link on with this matter? I think we are in a day when there may be some questions in the minds of the saints."
+     "speaker": "CFD",
+     "text": [
+      "I think what you are saying is very salutary because we can devote ourselves to reading various things which are made avail able to us. But Mr Taylor's one hundred volumes represent the accumulation of the recovery of the truth in our own dispensation. Therefore it seems to me that the light that comes in through that ministry is something we want to concentrate on because he brings in the finishing touches on the service of God, the truth of the Supper and the truth of assembly administration."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think it is good to call attention to that. It brings me back in my own mind to what I said earlier (and I am sure it will bear repeating again and maybe again) that there is great need for the brethren to be established in the ministries of Mr Darby, Mr Raven and Mr Taylor. It is a build up, it is the Spirit's voice to the assemblies. Light came through those vessels."
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think the whole thing is there. Can anybody beat it? Could you bring out something better? Has anybody anything better? I do not know of anything."
+     ]
     },
     {
-     "speaker": "K.A.O.",
-     "text": "What is accredited would come into mind, would it not, in relation to these matters. Mr Taylor said that we should know the legality of the position in which we stand and that would be involved in our calling and election being made sure."
+     "speaker": "JMcK",
+     "text": [
+      "Mr Taylor referred to Daniel's knowledge of the books and he said that that no doubt referred to Scripture, and that he would advise all of us to read the ministry belonging to the truth of the establishment of the body here and Christ as the Head in heaven and what flowed out from that; that was the solid basis of the Spirit's light in relation to what the saints were to be, what the assembly was to be for Christ and what the sons were to be for God."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I am sure it is, because you have been called and you have been elected. These are two tremendous things. Now you have to search out and understand the whole business of the calling and the election. Therefore you read the Scriptures and you look into the truth and you find out what the Lord has supported in relation to it. There are other books abroad that are a waste of time looking at, religious books, other books too. But the Spirit of God has moved in that direction, it has obviously been of God, and as we follow it up we are bound to be established in the truth. What did Mr McCallum spend his life labouring at? The extension of that ministry."
+     "speaker": "JAG",
+     "text": [
+      "We were saying something about that in Toronto last Saturday. Daniel understood by the books and then in Daniel 9 he says, I have not been in keeping with the books, I have· t o start confessing my sins and the sins of my people and I must bear the iniquity of the sanctuary. I am not blaming the brethren, he says, I am going to take the whole load on myself. Now he is getting help, a man flies swiftly and touches him. How would you like a touch from Gabriel, a touch from the Lord, at the time of the evening oblation?"
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "I think what you are saying is very salutary because we can devote ourselves to reading various things which are made avail able to us. But Mr Taylor's one hundred volumes represent the accumulation of the recovery of the truth in our own dispensation. Therefore it seems to me that the light that comes in through that ministry is something we want to concentrate on because he brings in the finishing touches on the service of God, the truth of the Supper and the truth of assembly administration."
+     "speaker": "JMcK",
+     "text": [
+      "I was thinking of what you said earlier about favour. When we think soberly of what it cost God to bring us into this favour it involves the pathway of the Lord's life here, His suffering and His death on the cross, His burial in the grave. But the glory of His resurrection and appearing to the saints gives us an insight into the fulness of this glory and this favour that God has for us."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think the whole thing is there. Can anybody beat it? Could you bring out something better? Has anybody anything better? I do not know of anything."
+     "speaker": "JAG",
+     "text": [
+      "I think that is very good. I am sure I need great grace and help to speak of these things in this chapter in the way that the Spirit would speak of them because we are in the realm of divine affection in its fulness, where love sacrificially has been set out in Jesus. He is referred to as God's Son – \"through the death of his Son\" – how precious that is! It requires maturity to impart to one another divine feelings and affections in relation to the work of divine Persons in view of the establishment of the kingdom so that we should be in this favour.",
+      "K-n.A.O. I would like to ask about this reference in Romans 5 to the life of Christ – \"saved in the power of his life\". Is that not something that is necessary, to have to do with Christ in relation to His present life as a risen and glorified Man?"
+     ]
     },
     {
-     "text": "J.McK. Mr Taylor referred to Daniel's knowledge of the books and he said that that no doubt referred to Scripture, and that he would advise all of us to read the ministry belonging to the truth of the establishment of the body here and Christ as the Head in heaven and what flowed out from that; that was the solid basis of the Spirit's light in relation to what the saints were to be, what the assembly was to be for Christ and what the sons were to be for God."
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think so. That is the relationship that exists in the commonwealth. You think of the forty days when the Lord was risen. There they were with Him. No doubt they had gone to their work and come home again, but the whole of the ardent bent of their being was another meeting, another manifestation. They were saved in the power of His life and nothing could intrude on it. It is the power of the Spirit to associate us with Christ and to maintain us in that association.",
+      "K-n.A.O. Is it only as we have to do with Him in that sphere that we can enjoy and know what our commonwealth is?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "We were saying something about that in Toronto last Saturday. Daniel understood by the books and then in Daniel 9 he says, I have not been in keeping with the books, I have· t o start confessing my sins and the sins of my people and I must bear the iniquity of the sanctuary. I am not blaming the brethren, he says, I am going to take the whole load on myself. Now he is getting help, a man flies swiftly and touches him. How would you like a touch from Gabriel, a touch from the Lord, at the time of the evening oblation?"
+     "speaker": "JAG",
+     "text": [
+      "I think so, and we must be on our guard lest we touch it, or seek to touch it, in any legal way. We might think we can know it superficially, but it springs from affections, it springs from God's love shed abroad in our hearts. It is a tremendous thing that we have been reconciled; enemies are reconciled, sinners are justified. \"We have been reconciled to God through the death of his Son, much rather, having been reconciled, we shall be saved in the power of his life\". Now we are entirely for God's pleasure.",
+      "K-n.A.O. We know quite a bit about the Lord's life here, how He moved and came in contact with men, but how much do we know about the Lord in relation to His present life in glory?"
+     ]
     },
     {
-     "text": "J.McK. I was thinking of what you said earlier about favour. When we think soberly of what it cost God to bring us into this favour it involves the pathway of the Lord's life here, His suffering and His death on the cross, His burial in the grave. But the glory of His resurrection and appearing to the saints gives us an insight into the fulness of this glory and this favour that God has for us."
+     "speaker": "JAG",
+     "text": [
+      "I think it goes back to what was said about the Supper. ‘''Tis thus we know Thee as Thou'rt known above, in heav'nly glory – home of perfect love' (hymn 84). We need to follow up the touches that we get at the Supper or in the meetings, and if we follow them up in dependence on the Spirit we will find that that relates to Christ’s present life which is the life which is in Christ Jesus."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think that is very good. I am sure I need great grace and help to speak of these things in this chapter in the way that the Spirit would speak of them because we are in the realm of divine affection in its fulness, where love sacrificially has been set out in Jesus. He is referred to as God's Son – \"through the death of his Son\" – how precious that is! It requires maturity to impart to one another divine feelings and affections in relation to the work of divine Persons in view of the establishment of the kingdom so that we should be in this favour."
+     "speaker": "JMcK",
+     "text": [
+      "Would you say that the Supper is for the saints in view of what the loaf and the cup are, the strengthening by the loaf and stimulating by the cup in view not only of the service of God but our continuance In the wilderness the following week. So the Supper actually is for the saints, but Christ gets the affections of the saints as we move in relation to Him."
+     ]
     },
     {
-     "text": "K-n.A.O. I would like to ask about this reference in Romans 5 to the life of Christ – \"saved in the power of his life\". Is that not something that is necessary, to have to do with Christ in relation to His present life as a risen and glorified Man?"
+     "speaker": "JAG",
+     "text": [
+      "Exactly, I think that is what it is for. He instituted the Supper. The authority for it is in Corinthians: \"I received from the Lord\" (1 Cor 11: 23); that is authoritative, but it is in the deepest affection. In the night in which the Lord Jesus was delivered up He was thinking about us that we might think about Him."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think so. That is the relationship that exists in the commonwealth. You think of the forty days when the Lord was risen. There they were with Him. No doubt they had gone to their work and come home again, but the whole of the ardent bent of their being was another meeting, another manifestation. They were saved in the power of His life and nothing could intrude on it. It is the power of the Spirit to associate us with Christ and to maintain us in that association."
+     "speaker": "JMcK",
+     "text": [
+      "How long could I live spiritually in the enjoyment of this commonwealth if I do not continue in the Lord's supper?"
+     ]
     },
     {
-     "text": "K-n.A.O. Is it only as we have to do with Him in that sphere that we can enjoy and know what our commonwealth is?"
+     "speaker": "JAG",
+     "text": [
+      "I do not know that you could, unless you might be laid aside under God's hand. But in normal everyday circumstances through wonderful love and grace the Supper is avail able on the very first day of the week. Every week there is the Lord's day but then there is the first day of the week. In a way it is a different thing, is it not? It is to give character to the whole week. God's will, God's pleasure and the love of God maintained amongst the brethren: now there is the commonwealth."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so, and we must be on our guard lest we touch it, or seek to touch it, in any legal way. We might think we can know it superficially, but it springs from affections, it springs from God's love shed abroad in our hearts. It is a tremendous thing that we have been reconciled; enemies are reconciled, sinners are justified. \"We have been reconciled to God through the death of his Son, much rather, having been reconciled, we shall be saved in the power of his life\". Now we are entirely for God's pleasure."
+     "speaker": "GDP",
+     "text": [
+      "We should not hold this in a legal manner. Was that the trouble with the Galatians? They were trying to get into these things without the real appreciation of God's love."
+     ]
     },
     {
-     "text": "K-n.A.O. We know quite a bit about the Lord's life here, how He moved and came in contact with men, but how much do we know about the Lord in relation to His present life in glory?"
+     "speaker": "JAG",
+     "text": [
+      "I think so; it is always a danger. Hence the importance of the teaching of the other three chapters – 6, 7 and 8 – where you come to the Spirit practically. Romans 7 is a necessity to find deliverance so that you come to the point of no condemnation. You know how to do things by the Spirit. The Spirit of God is here, a divine Person, right here now, just the same as Jesus was."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think it goes back to what was said about the Supper. ‘''Tis thus we know Thee as Thou'rt known above, in heav'nly glory – home of perfect love' (hymn 84). We need to follow up the touches that we get at the Supper or in the meetings, and if we follow them up in dependence on the Spirit we will find that that relates to Christ’s present life which is the life which is in Christ Jesus."
+     "speaker": "KAO",
+     "text": [
+      "It says, \"This is my body, which is for you\", 1 Cor 11: 24. Would it help our affections to be stimulated as we appropriate the great love which the Lord has demonstrated by delivering Himself up in death, giving His body? This would help us to be maintained in this area of things which the Supper affords. That is something for us to appropriate."
+     ]
     },
     {
-     "text": "J.McK. Would you say that the Supper is for the saints in view of what the loaf and the cup are, the strengthening by the loaf and stimulating by the cup in view not only of the service of God but our continuance In the wilderness the following week. So the Supper actually is for the saints, but Christ gets the affections of the saints as we move in relation to Him."
+     "speaker": "JAG",
+     "text": [
+      "I think that \"my body which is for you\" is specially for the assembly. The cup is not exactly special for the assembly, we are the custodians of it. Whilst I know He does say in Luke, This is My blood which is poured out for you (see chap 22: 20), in Corinthians He does not add \"for you\". I think it has a tremendous scope, it involves all who are redeemed; but My body for you is especially for the assembly. That is the personal love of Christ for the assembly and for every one of us."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Exactly, I think that is what it is for. He instituted the Supper. The authority for it is in Corinthians: \"I received from the Lord\" (1 Cor 11: 23); that is authoritative, but it is in the deepest affection. In the night in which the Lord Jesus was delivered up He was thinking about us that we might think about Him."
+     "speaker": "AGS",
+     "text": [
+      "Does not every believer in Christ belong to the assembly?"
+     ]
     },
     {
-     "text": "J.McK. How long could I live spiritually in the enjoyment of this commonwealth if I do not continue in the Lord's supper?"
+     "speaker": "JAG",
+     "text": [
+      "Every believer in Christ who has the Spirit belongs to the assembly. They are all there in the loaf, every one of them. What do you say?"
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I do not know that you could, unless you might be laid aside under God's hand. But in normal everyday circumstances through wonderful love and grace the Supper is avail able on the very first day of the week. Every week there is the Lord's day but then there is the first day of the week. In a way it is a different thing, is it not? It is to give character to the whole week. God's will, God's pleasure and the love of God maintained amongst the brethren: now there is the commonwealth."
+     "speaker": "AGS",
+     "text": [
+      "I agree with that. In my prayers I include every believer in Christ."
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "We should not hold this in a legal manner. Was that the trouble with the Galatians? They were trying to get into these things without the real appreciation of God's love."
+     "speaker": "JAG",
+     "text": [
+      "I think that is most important because, if we do not, we are in some measure sectional. He died for every one of them; He loves them the same as He loves you and me."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think so; it is always a danger. Hence the importance of the teaching of the other three chapters – 6, 7 and 8 – where you come to the Spirit practically. Romans 7 is a necessity to find deliverance so that you come to the point of no condemnation. You know how to do things by the Spirit. The Spirit of God is here, a divine Person, right here now, just the same as Jesus was."
+     "speaker": "JAP",
+     "text": [
+      "The word 'abroad' in verse 5 has been referred to in ministry as an Ephesian touch in Romans and therefore we need in our affections to go outside of the local position on the first day of the week. We start with what is local but we need to get beyond that and to understand what Paul says in Ephesians 3: \"to apprehend with all the saints\" (v 18); that is what 'abroad' would suggest. Have you not found it encouraging and stimulating to your heart to think of the thousands of the sons of God who are serving Him?"
+     ]
     },
     {
-     "speaker": "K.A.O.",
-     "text": "It says, \"This is my body, which is for you\", 1 Cor 11: 24. Would it help our affections to be stimulated as we appropriate the great love which the Lord has demonstrated by delivering Himself up in death, giving His body? This would help us to be maintained in this area of things which the Supper affords. That is something for us to appropriate."
+     "speaker": "JAG",
+     "text": [
+      "Yes, that is what happened in Jeremiah 31 when Ephraim gets recovered. In that day \"the watchmen upon mount Ephraim shall cry, Arise, and let us go up to Zion\" (v 6). He has the whole scope of things before him."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think that \"my body which is for you\" is specially for the assembly. The cup is not exactly special for the assembly, we are the custodians of it. Whilst I know He does say in Luke, This is My blood which is poured out for you (see chap 22: 20), in Corinthians He does not add \"for you\". I think it has a tremendous scope, it involves all who are redeemed; but My body for you is especially for the assembly. That is the personal love of Christ for the assembly and for every one of us."
+     "speaker": "JAP",
+     "text": [
+      "What then does it mean when the Lord Jesus said Himself, \"the Son of man who is in heaven\", John 3: 13? He was here when He said that. How do you understand that when He comes in into these occasions?"
+     ]
     },
     {
-     "speaker": "A.G.S.",
-     "text": "Does not every believer in Christ belong to the assembly?"
+     "speaker": "JAG",
+     "text": [
+      "What does it say? \"And no one has gone up into heaven, save he who came down out of heaven, the Son of man who is in heaven\"."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Every believer in Christ who has the Spirit belongs to the assembly. They are all there in the loaf, every one of them. What do you say?"
+     "speaker": "JAP",
+     "text": [
+      "It would cause us to bow in the sense of who it is that comes in."
+     ]
     },
     {
-     "speaker": "A.G.S.",
-     "text": "I agree with that. In my prayers I include every believer in Christ."
+     "speaker": "JAG",
+     "text": [
+      "He does not say 'the Son of God who is in heaven' but \"the Son of man who is in heaven\"."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "I think that is most important because, if we do not, we are in some measure sectional. He died for every one of them; He loves them the same as He loves you and me."
+     "speaker": "JAP",
+     "text": [
+      "Say more about that."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "The word 'abroad' in verse 5 has been referred to in ministry as an Ephesian touch in Romans and therefore we need in our affections to go outside of the local position on the first day of the week. We start with what is local but we need to get beyond that and to understand what Paul says in Ephesians 3: \"to apprehend with all the saints\" (v 18); that is what 'abroad' would suggest. Have you not found it encouraging and stimulating to your heart to think of the thousands of the sons of God who are serving Him?"
+     "speaker": "JAG",
+     "text": [
+      "It all bears on what we are saying. As the Son of man He is on man's side and yet in His Person He is always God; He is in heaven, that is where He lived, was it not? It is mystery, but the Lord referring here to Himself as the Son of man is bringing forward the glory of His Person in the Trinity, in the Godhead, and that , while He was in heaven, as the Son of man He was on earth. He never left the status of deity as to His Person. He maintained it there with regard to this as in Philippians 2 where it says that He emptied Himself taking the form of a bondman."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "Yes, that is what happened in Jeremiah 31 when Ephraim gets recovered. In that day \"the watchmen upon mount Ephraim shall cry, Arise, and let us go up to Zion\" (v 6). He has the whole scope of things before him."
+     "speaker": "NSB",
+     "text": [
+      "In Plainfield, Mr Meek quoted a comment in a similar connection that has remained with us, that someone asked Mr Taylor, when the Lord was in the grave who was on the throne? The answer was that He never left it. Do you recall that remark at your meetings?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "What then does it mean when the Lord Jesus said Himself, \"the Son of man who is in heaven\", John 3: 13? He was here when He said that. How do you understand that when He comes in into these occasions?"
+     "speaker": "CFD",
+     "text": [
+      "Yes, that is what was said. I think it helps us to see that He is omnipresent, for you cannot limit the Lord."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "What does it say? \"And no one has gone up into heaven, save he who came down out of heaven, the Son of man who is in heaven\"."
+     "speaker": "JAG",
+     "text": [
+      "Yes, I think He is trying to help Nicodemus into heavenly things and He is having a tremendous job getting him to understand earthly things."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "It would cause us to bow in the sense of who it is that comes in."
+     "speaker": "JMcK",
+     "text": [
+      "It has also been said as to what God has not been pleased to reveal in the writings in Scripture, let us accept what is written by the Spirit and be restful in our spirits and our minds, and not inquire into what God has not been pleased to reveal."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "He does not say 'the Son of God who is in heaven' but \"the Son of man who is in heaven\"."
+     "speaker": "JAG",
+     "text": [
+      "I would say that. And yet I suppose the Lord expected Nicodemus as a teacher in Israel to know some of these things – The Son of Man who is in heaven, He said."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Say more about that."
+     "speaker": "TED",
+     "text": [
+      "Is it not a strengthening point for me in my part of the commonwealth to realise He is there now and to be established in my links with Him? The One who is there was for me here."
+     ]
     },
     {
-     "speaker": "J.A.G.",
-     "text": "It all bears on what we are saying. As the Son of man He is on man's side and yet in His Person He is always God; He is in heaven, that is where He lived, was it not? It is mystery, but the Lord referring here to Himself as the Son of man is bringing forward the glory of His Person in the Trinity, in the Godhead, and that , while He was in heaven, as the Son of man He was on earth. He never left the status of deity as to His Person. He maintained it there with regard to this as in Philippians 2 where it says that He emptied Himself taking the form of a bondman."
-    },
-    {
-     "speaker": "N.S.B.",
-     "text": "In Plainfield, Mr Meek quoted a comment in a similar connection that has remained with us, that someone asked Mr Taylor, when the Lord was in the grave who was on the throne? The answer was that He never left it. Do you recall that remark at your meetings?"
-    },
-    {
-     "speaker": "C.F.D.",
-     "text": "Yes, that is what was said. I think it helps us to see that He is omnipresent, for you cannot limit the Lord."
-    },
-    {
-     "speaker": "J.A.G.",
-     "text": "Yes, I think He is trying to help Nicodemus into heavenly things and He is having a tremendous job getting him to understand earthly things."
-    },
-    {
-     "text": "J.McK. It has also been said as to what God has not been pleased to reveal in the writings in Scripture, let us accept what is written by the Spirit and be restful in our spirits and our minds, and not inquire into what God has not been pleased to reveal."
-    },
-    {
-     "speaker": "J.A.G.",
-     "text": "I would say that. And yet I suppose the Lord expected Nicodemus as a teacher in Israel to know some of these things – The Son of Man who is in heaven, He said."
-    },
-    {
-     "speaker": "T.E.D.",
-     "text": "Is it not a strengthening point for me in my part of the commonwealth to realise He is there now and to be established in my links with Him? The One who is there was for me here."
-    },
-    {
-     "speaker": "J.A.G.",
-     "text": "That is why I referred to 2 Peter because I think we have touched freely the area of divine communications, it has been manifest to me. We were saying in another place -and I believe it is right – that Mr Stoney said he did not think the Lord would come in his lifetime because He had not told him. You can say , Oh well, Peter knew that from John 21, but I would think the Lord was confirming things to him in his soul. And that is life in the commonwealth. It is not a dead system, it is marked by power and vital i ty and love and life."
+     "speaker": "JAG",
+     "text": [
+      "That is why I referred to 2 Peter because I think we have touched freely the area of divine communications, it has been manifest to me. We were saying in another place -and I believe it is right – that Mr Stoney said he did not think the Lord would come in his lifetime because He had not told him. You can say , Oh well, Peter knew that from John 21, but I would think the Lord was confirming things to him in his soul. And that is life in the commonwealth. It is not a dead system, it is marked by power and vital i ty and love and life."
+     ]
     }
    ]
   },
@@ -729,6 +995,38 @@
      "text": "On further thought about the placard on the railway platform I wished that I could put up beside it a similar one. It would have the same four short words but would read, 'God Must Have You'. It is a wonderful part of the Glad Tidings, and perhaps a more important one, that He who is our Creator should look for some response to Himself and should have an affectionate answer in giving His beloved Son for us. Jesus, when here on earth, was very interested in children. When some such were sent away by the disciples He was \"indignant\" and said, \"suffer little children, and do not hinder them from coming to me; for the kingdom of the heavens is of such\". Have you come to Him in your spirit and your prayers?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "\"OUR COMMONWEALTH\" – I",
+   "kind": "default_place",
+   "detail": "New York given to 8 names (\"New York if not otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "\"OUR COMMONWEALTH\" – I",
+   "kind": "possible_speaker",
+   "detail": "RS opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "\"OUR COMMONWEALTH\" – I",
+   "kind": "speaker_matched_loosely",
+   "detail": "LMcF used in the text for L.McFarlane (key gives LM)"
+  },
+  {
+   "article": 1,
+   "title": "\"OUR COMMONWEALTH\" – I",
+   "kind": "speaker_matched_loosely",
+   "detail": "JMcK used in the text for J.McKillop (key gives JM)"
+  },
+  {
+   "article": 1,
+   "title": "\"OUR COMMONWEALTH\" – I",
+   "kind": "speaker_not_in_key",
+   "detail": "RS (in the text)"
   }
  ]
 }

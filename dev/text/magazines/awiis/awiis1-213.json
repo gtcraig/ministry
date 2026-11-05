@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,33 +26,36 @@
    "place": "NEW YORK",
    "date": "16 June 1990",
    "speakers": [
-    "J.N.G.",
-    "J.A.P.",
-    "T.E.D.",
-    "S.E.H.",
-    "A.R.S.",
-    "G.H.",
-    "A.S.H.",
-    "G.D.P.",
-    "K.N.P.",
-    "L.D.P.",
-    "G.D.",
-    "T.B.",
-    "C.S.E."
+    "JNG",
+    "LMcF",
+    "JAP",
+    "TED",
+    "SEH",
+    "ARS",
+    "GH",
+    "ASH",
+    "GDP",
+    "KNP",
+    "LDP",
+    "GD",
+    "TB",
+    "CSE"
    ],
    "initials": [
     {
-     "initials": "NYGD",
-     "name": "(New York if not otherwise stated) G.Druckenmiller",
+     "initials": "GD",
+     "name": "G.Druckenmiller",
      "place": "Plainfield"
     },
     {
-     "initials": "TEDP",
-     "name": "T.E.Druckenmiller Plainfield"
+     "initials": "TED",
+     "name": "T. E. Druckenmiller",
+     "place": "Plainfield"
     },
     {
      "initials": "CSE",
-     "name": "C.S.Elliott"
+     "name": "C.S.Elliott",
+     "place": "New York"
     },
     {
      "initials": "JNG",
@@ -61,7 +64,8 @@
     },
     {
      "initials": "ASH",
-     "name": "A.S.Hinkson"
+     "name": "A.S.Hinkson",
+     "place": "New York"
     },
     {
      "initials": "GH",
@@ -74,8 +78,9 @@
      "place": "Plainfield"
     },
     {
-     "initials": "LM",
-     "name": "L.McFarlane"
+     "initials": "LMcF",
+     "name": "L.McFarlane",
+     "place": "New York"
     },
     {
      "initials": "GDP",
@@ -83,350 +88,534 @@
      "place": "Plainfield"
     },
     {
-     "initials": "JAPP",
-     "name": "J.A.Petersen Plainfield"
+     "initials": "JAP",
+     "name": "J. A. Petersen",
+     "place": "Plainfield"
     },
     {
      "initials": "KNP",
-     "name": "K.N.Pye"
+     "name": "K.N.Pye",
+     "place": "New York"
     },
     {
      "initials": "LDP",
-     "name": "L.D.Phillips"
+     "name": "L.D.Phillips",
+     "place": "New York"
     },
     {
      "initials": "ARS",
-     "name": "A.R.Steven"
+     "name": "A.R.Steven",
+     "place": "New York"
+    },
+    {
+     "initials": "TB",
+     "not_in_key": true
     }
    ],
    "initials_heading": "KEY TO INITIALS",
+   "initials_comment": "New York if not otherwise stated",
    "initials_text": [
     "(New York if not otherwise stated)",
     "G.Druckenmiller, Plainfield; T.E.Druckenmiller Plainfield; C.S.Elliott; J.N.Grace, Melbourne; A.S.Hinkson; G.Hesterman, Plainfield; S.E.Hesterman, Plainfield; L.McFarlane; G.D.Pfingst, Plainfield; J.A.Petersen Plainfield; K.N.Pye; L.D.Phillips; A.R.Steven"
    ],
    "paragraphs": [
     {
-     "speaker": "J.N.G.",
-     "text": "I have been impressed over the last weeks with the ministry of Elisha because it foreshadows the time we are in now. His was a time when those who were responsible in the public position in Israel and Judah failed, but God saw to it that, in the presence of Elisha and the extraordinary ministry which was able to meet any situation that might arise, there was provision for things to go on. I have the feeling that we are not just seized with the wonderful day in which we are. Apostasy has raised its head, there has been a scattering, we have to admit weakness on every hand, yet God has made provision in the presence of the Spirit so that the very best should be available and no situation can arise but what there is sufficient to meet it. Elisha, I would think, represents an excess of divine provision in a day of breakdown; in the presence of the Spirit, there is nothing wanting. In Elijah we have in type the ministry of Christ, the work of redemption, and His exaltation. But then the gift of the Spirit, represented in the double portion of Elijah's spirit, is what is available to us. Whether we realise it or make use of it is another matter."
+     "speaker": "JNG",
+     "text": [
+      "I have been impressed over the last weeks with the ministry of Elisha because it foreshadows the time we are in now. His was a time when those who were responsible in the public position in Israel and Judah failed, but God saw to it that, in the presence of Elisha and the extraordinary ministry which was able to meet any situation that might arise, there was provision for things to go on. I have the feeling that we are not just seized with the wonderful day in which we are. Apostasy has raised its head, there has been a scattering, we have to admit weakness on every hand, yet God has made provision in the presence of the Spirit so that the very best should be available and no situation can arise but what there is sufficient to meet it. Elisha, I would think, represents an excess of divine provision in a day of breakdown; in the presence of the Spirit, there is nothing wanting. In Elijah we have in type the ministry of Christ, the work of redemption, and His exaltation. But then the gift of the Spirit, represented in the double portion of Elijah's spirit, is what is available to us. Whether we realise it or make use of it is another matter."
+     ]
     },
     {
-     "text": "L.McF. I have the very same impression in my heart, that we are hardly awake to the day in which we are found."
+     "speaker": "LMcF",
+     "text": [
+      "I have the very same impression in my heart, that we are hardly awake to the day in which we are found."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "So often we get occupied with negatives and breakdowns and ignore or do not realise the wonder of a divine Person being here to see the dispensation through, not only in regard to our needs but on the divine level."
+     "speaker": "JNG",
+     "text": [
+      "So often we get occupied with negatives and breakdowns and ignore or do not realise the wonder of a divine Person being here to see the dispensation through, not only in regard to our needs but on the divine level."
+     ]
     },
     {
-     "text": "L.McF. So Elisha is marked by the spirit of the ascended Man, the double portion as you said. In other words, there is power here to meet every exigency."
+     "speaker": "LMcF",
+     "text": [
+      "So Elisha is marked by the spirit of the ascended Man, the double portion as you said. In other words, there is power here to meet every exigency."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "We need purpose of heart like Elisha he would not leave Elijah. Elijah said the Lord has sent me to Bethel but Elisha would not leave Elijah. Some of us are getting older - there is another generation, thank God, coming on: it would make way for the testimony if this purpose of heart was seen in an increased measure with us."
+     "speaker": "JNG",
+     "text": [
+      "We need purpose of heart like Elisha he would not leave Elijah. Elijah said the Lord has sent me to Bethel but Elisha would not leave Elijah. Some of us are getting older - there is another generation, thank God, coming on: it would make way for the testimony if this purpose of heart was seen in an increased measure with us."
+     ]
     },
     {
-     "text": "L.McF. So the word to Elisha was, \"if thou see me when I am taken from thee, it shall be so to thee\", chap 2: 10. Do you think we need our hearts and our eyes fixed in relation to the Man on high?"
+     "speaker": "LMcF",
+     "text": [
+      "So the word to Elisha was, \"if thou see me when I am taken from thee, it shall be so to thee\", chap 2: 10. Do you think we need our hearts and our eyes fixed in relation to the Man on high?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is exactly what was in mind. I think we can carry this forward into Paul's ministry, that we need to make way for the very best and there will be results. It may seem that things are going to die out; it did with this woman. Her husband is dead and the creditor is come; now what is going to happen? Elisha does not bring in anything fresh; he calls attention to what is there."
+     "speaker": "JNG",
+     "text": [
+      "That is exactly what was in mind. I think we can carry this forward into Paul's ministry, that we need to make way for the very best and there will be results. It may seem that things are going to die out; it did with this woman. Her husband is dead and the creditor is come; now what is going to happen? Elisha does not bring in anything fresh; he calls attention to what is there."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "He calls attention also to what is abroad: \"Go, borrow for thyself vessels abroad\"; it says in Romans 5 \"the love of God is shed abroad\" (v.5). We have been afflicted with brethrenism; we need to see what is available for the recovery."
+     "speaker": "JAP",
+     "text": [
+      "He calls attention also to what is abroad: \"Go, borrow for thyself vessels abroad\"; it says in Romans 5 \"the love of God is shed abroad\" (v.5). We have been afflicted with brethrenism; we need to see what is available for the recovery."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That helps, because we have been very narrowed up in our thoughts in relation to the work of God in the testimony. God is working in a wide field and we can thank Him for whatever is happening testimonially today of a positive nature. We may get overwhelmed with smallness of numbers and the fact that difficulties have appeared here and there, but let us not forget that there is a divine Person here and He is unchanged, His power is unchanged, the excessive grace that marks Him is unchanged. We have to make room for Him and make use of His service."
+     "speaker": "JNG",
+     "text": [
+      "That helps, because we have been very narrowed up in our thoughts in relation to the work of God in the testimony. God is working in a wide field and we can thank Him for whatever is happening testimonially today of a positive nature. We may get overwhelmed with smallness of numbers and the fact that difficulties have appeared here and there, but let us not forget that there is a divine Person here and He is unchanged, His power is unchanged, the excessive grace that marks Him is unchanged. We have to make room for Him and make use of His service."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "The Spirit is available on the principle of asking, desire."
+     "speaker": "TED",
+     "text": [
+      "The Spirit is available on the principle of asking, desire."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think that would be so. The Lord indicates that, does He not: \"Whatsoever ye shall ask the Father in my name\", John 16: 23."
+     "speaker": "JNG",
+     "text": [
+      "I think that would be so. The Lord indicates that, does He not: \"Whatsoever ye shall ask the Father in my name\", John 16: 23."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "I was thinking of Elisha's desire. Elijah says, \"Ask what I shall do for thee. And Elisha's desire was \"let a double portion of thy spirit be upon me\". Do you think we are a little reticent to ask, yet the Lord encouraged His disciples to ask of the Father?"
+     "speaker": "TED",
+     "text": [
+      "I was thinking of Elisha's desire. Elijah says, \"Ask what I shall do for thee. And Elisha's desire was \"let a double portion of thy spirit be upon me\". Do you think we are a little reticent to ask, yet the Lord encouraged His disciples to ask of the Father?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "He did. And so Elisha encourages this woman; \"What shall I do for thee? Tell me what hast thou in the house?\". Then later on thing are awakened with her and she says I perceive that this is a holy man of God let us do something about it. And then Elisha puts her to the test: \"Behold, thou hast been careful for us with all this care; what is to be done for thee?\" We are tested by that as to what our desires really are. I think you would agree that we are not enthusiastic enough about Christianity. We are in the very best day there has ever been, redemption has been accomplished and everything needed is to settle every liability and then the Spirit has come."
+     "speaker": "JNG",
+     "text": [
+      "He did. And so Elisha encourages this woman; \"What shall I do for thee? Tell me what hast thou in the house?\". Then later on thing are awakened with her and she says I perceive that this is a holy man of God let us do something about it. And then Elisha puts her to the test: \"Behold, thou hast been careful for us with all this care; what is to be done for thee?\" We are tested by that as to what our desires really are. I think you would agree that we are not enthusiastic enough about Christianity. We are in the very best day there has ever been, redemption has been accomplished and everything needed is to settle every liability and then the Spirit has come."
+     ]
     },
     {
-     "speaker": "S.E.H.",
-     "text": "In verse 13 of chapter 3 he speaks to the king of Israel, as having allied with the king of Judah and the king of Edom, and says, “What have I to do with thee?\" But in the chapter we have read, in the smallness of things and yet the area of things where the testimony is going on, he is very willing to help; he says, \"What shall I do for thee?\" What would you say about the contrast between these settings? Is there a certain element in Christendom in relation to which the Spirit is really not moving in a general sense?"
+     "speaker": "SEH",
+     "text": [
+      "In verse 13 of chapter 3 he speaks to the king of Israel, as having allied with the king of Judah and the king of Edom, and says, “What have I to do with thee?\" But in the chapter we have read, in the smallness of things and yet the area of things where the testimony is going on, he is very willing to help; he says, \"What shall I do for thee?\" What would you say about the contrast between these settings? Is there a certain element in Christendom in relation to which the Spirit is really not moving in a general sense?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "It may be. We need to keep our eyes open and our minds alert as to what is happening not only amongst those with whom we are able to walk. Take for instance what is happening in the Church of England, a new man being required to fill out a certain office, and what is happening in Roman Catholicism; God is not prospering these things. But He is providing the prophetic word for us in the power of the Spirit and as we make room for that we will see how the dispensation is being carried forward on the right level."
+     "speaker": "JNG",
+     "text": [
+      "It may be. We need to keep our eyes open and our minds alert as to what is happening not only amongst those with whom we are able to walk. Take for instance what is happening in the Church of England, a new man being required to fill out a certain office, and what is happening in Roman Catholicism; God is not prospering these things. But He is providing the prophetic word for us in the power of the Spirit and as we make room for that we will see how the dispensation is being carried forward on the right level."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "In verse 12 of chapter 3 Jehoshaphat said, \"The word of Jehovah is with him\", following upon the reference to Elisha pouring water on the hands of Elijah. Do you think there must be something of that feature with us if we are to be in the gain of the present moment?"
+     "speaker": "TED",
+     "text": [
+      "In verse 12 of chapter 3 Jehoshaphat said, \"The word of Jehovah is with him\", following upon the reference to Elisha pouring water on the hands of Elijah. Do you think there must be something of that feature with us if we are to be in the gain of the present moment?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think we might be inclined to be critical of one another a bit too much and not make the most of what is within our range. Just to pour water on a brother's hands - what a small thing that was, but it is positive. Make the most of what the Lord is giving us and be alert as to the voice of the Spirit at any time. John says, \"let him hear what the Spirit says to the assemblies\". It is not only a local matter, although it is a local matter, but it is a universal matter. We need to be alert as to what is happening generally in Christendom and wherever the Lord is working. Thank God, for instance, that He seems to have opened a door in eastern Europe to the gospel. Let us be alert that other influences do not take advantage of it."
+     "speaker": "JNG",
+     "text": [
+      "I think we might be inclined to be critical of one another a bit too much and not make the most of what is within our range. Just to pour water on a brother's hands - what a small thing that was, but it is positive. Make the most of what the Lord is giving us and be alert as to the voice of the Spirit at any time. John says, \"let him hear what the Spirit says to the assemblies\". It is not only a local matter, although it is a local matter, but it is a universal matter. We need to be alert as to what is happening generally in Christendom and wherever the Lord is working. Thank God, for instance, that He seems to have opened a door in eastern Europe to the gospel. Let us be alert that other influences do not take advantage of it."
+     ]
     },
     {
-     "text": "L.McF. So Elisha says here, \"Tell me, what hast thou in the house?\" That is the position we are in this morning - in the house. What possibilities there are as the Spirit has His way with each of us, do you think?"
+     "speaker": "LMcF",
+     "text": [
+      "So Elisha says here, \"Tell me, what hast thou in the house?\" That is the position we are in this morning - in the house. What possibilities there are as the Spirit has His way with each of us, do you think?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think so. You can bring that right down to every locality - what is in the house, what is available. We may be here and not appreciate it. It is a wonderful privilege for brethren to come together, as they do in the area that we are in; God has made way for these meetings that we can be together in liberty without any fear and we can draw upon one another. That is what I feel we need to do a bit more. Let us pray for the skill to draw upon the Spirit's work, the Spirit Himself resident in one another. He is not in the air, He is in persons."
+     "speaker": "JNG",
+     "text": [
+      "I think so. You can bring that right down to every locality - what is in the house, what is available. We may be here and not appreciate it. It is a wonderful privilege for brethren to come together, as they do in the area that we are in; God has made way for these meetings that we can be together in liberty without any fear and we can draw upon one another. That is what I feel we need to do a bit more. Let us pray for the skill to draw upon the Spirit's work, the Spirit Himself resident in one another. He is not in the air, He is in persons."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "We have here in Plainfield a concern about getting vessels, persons that the Spirit can fill. Elisha says, Not a few."
+     "speaker": "JAP",
+     "text": [
+      "We have here in Plainfield a concern about getting vessels, persons that the Spirit can fill. Elisha says, Not a few."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Well, can we appreciate the work of God - in others anywhere? Do we make room for it and yet be kept in the path of separation, free from the world and all that is involved in that, and yet appreciate and make room for the work of God in one another? I just feel the need for myself to have the skill needed to draw out what is available in the Spirit in these vessels. Elisha says, \"pour out into all those vessels, and set aside what is full\". Do you think that the exercises suggested in these chapters are rather intense?"
+     "speaker": "JNG",
+     "text": [
+      "Well, can we appreciate the work of God - in others anywhere? Do we make room for it and yet be kept in the path of separation, free from the world and all that is involved in that, and yet appreciate and make room for the work of God in one another? I just feel the need for myself to have the skill needed to draw out what is available in the Spirit in these vessels. Elisha says, \"pour out into all those vessels, and set aside what is full\". Do you think that the exercises suggested in these chapters are rather intense?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "I think what you say about separation would be in the instructions of the prophet in verse 4: \"and go in, and shut the door upon thee and upon thy sons\". It is not an unholy area here."
+     "speaker": "JAP",
+     "text": [
+      "I think what you say about separation would be in the instructions of the prophet in verse 4: \"and go in, and shut the door upon thee and upon thy sons\". It is not an unholy area here."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think if we really appreciated the presence of the Spirit amongst us, and the wonderful work of redemption that has been effected by Christ, we would be a lot m? re enthusiastic about Christianity, full of life, full of joy, and that in itself would affect others."
+     "speaker": "JNG",
+     "text": [
+      "I think if we really appreciated the presence of the Spirit amongst us, and the wonderful work of redemption that has been effected by Christ, we would be a lot m? re enthusiastic about Christianity, full of life, full of joy, and that in itself would affect others."
+     ]
     },
     {
-     "speaker": "A.R.S.",
-     "text": "I suppose the Lord Jesus had what you are saying in mind when He said to His disciples before leaving: \"It is profitable for you that I go away\", John 16: 7."
+     "speaker": "ARS",
+     "text": [
+      "I suppose the Lord Jesus had what you are saying in mind when He said to His disciples before leaving: \"It is profitable for you that I go away\", John 16: 7."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Yes, or the Comforter will not come. Where did He come from? He has come from a Man in final conditions in glory; there is nothing more that God had in mind. that is not expressed now in Jesus. The ministry of Paul has been given from that point. He has given us the very best and He has not changed. We have changed, we have to say that, but God has not changed, the Spirit has not changed, and He is available to strengthen our faith and our links with one another. Two or three it may be; God is not limited by numbers."
+     "speaker": "JNG",
+     "text": [
+      "Yes, or the Comforter will not come. Where did He come from? He has come from a Man in final conditions in glory; there is nothing more that God had in mind. that is not expressed now in Jesus. The ministry of Paul has been given from that point. He has given us the very best and He has not changed. We have changed, we have to say that, but God has not changed, the Spirit has not changed, and He is available to strengthen our faith and our links with one another. Two or three it may be; God is not limited by numbers."
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "It says about Saul of Tarsus And straightway in the synagogues he preached Jesus that he is the Son of God\", Acts 9: 20. He was enthusiastic."
+     "speaker": "GH",
+     "text": [
+      "It says about Saul of Tarsus And straightway in the synagogues he preached Jesus that he is the Son of God\", Acts 9: 20. He was enthusiastic."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "And John, too, was enthusiastic; he wrote in a day that really anticipates the day we are in. He said, \"And there are also many other things which Jesus did, the which if they were written one by one, I suppose that not even the world itself would contain the books written\", John 21: 25. Well, enthusiasm should enter into our gospel preachings We are not Just setting out matters of doctrine but we should be a bit more exclamatory, I think, like the little maid who brings the prophet to light for Naaman."
+     "speaker": "JNG",
+     "text": [
+      "And John, too, was enthusiastic; he wrote in a day that really anticipates the day we are in. He said, \"And there are also many other things which Jesus did, the which if they were written one by one, I suppose that not even the world itself would contain the books written\", John 21: 25. Well, enthusiasm should enter into our gospel preachings We are not Just setting out matters of doctrine but we should be a bit more exclamatory, I think, like the little maid who brings the prophet to light for Naaman."
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "So Peter says, \"Look on us, Acts 3: 4. I suppose the lame man saw the enthusiasm in those two men."
+     "speaker": "GH",
+     "text": [
+      "So Peter says, \"Look on us, Acts 3: 4. I suppose the lame man saw the enthusiasm in those two men."
+     ]
     },
     {
-     "speaker": "S.E.H.",
-     "text": "What is conveyed in her sons bringing the vessels to her and she pouring out?"
+     "speaker": "SEH",
+     "text": [
+      "What is conveyed in her sons bringing the vessels to her and she pouring out?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Does that not mean making use of the service of the Spirit - not only the presence of the Spirit but drawing on Him? It is only as do that that we find how inexhaustible He is in the way of supply of power."
+     "speaker": "JNG",
+     "text": [
+      "Does that not mean making use of the service of the Spirit - not only the presence of the Spirit but drawing on Him? It is only as do that that we find how inexhaustible He is in the way of supply of power."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "Is it like the local setting functioning? The local assembly is active. Then there are those within it that are supporting and subject to Christ's headship."
+     "speaker": "TED",
+     "text": [
+      "Is it like the local setting functioning? The local assembly is active. Then there are those within it that are supporting and subject to Christ's headship."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is right. What a transformation there could be in our own circumstances, our households or our localities according to this. Creditors have come in to take charge, two sons to be sold - poor soul, she had nothing - and yet at the end the prophet says, \"Go, sell the oil, and pay thy debt, and live thou and thy sons on the rest\". Think of the fulness of sonship coming in as a result of these exercises."
+     "speaker": "JNG",
+     "text": [
+      "That is right. What a transformation there could be in our own circumstances, our households or our localities according to this. Creditors have come in to take charge, two sons to be sold - poor soul, she had nothing - and yet at the end the prophet says, \"Go, sell the oil, and pay thy debt, and live thou and thy sons on the rest\". Think of the fulness of sonship coming in as a result of these exercises."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "The local assembly is a great thought and we want to be supportive of it, to be at all the occasions that are provided. Are we not tested in our circumstances sometimes to make way for what is of Christ in the local assembly?"
+     "speaker": "TED",
+     "text": [
+      "The local assembly is a great thought and we want to be supportive of it, to be at all the occasions that are provided. Are we not tested in our circumstances sometimes to make way for what is of Christ in the local assembly?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "So see what happens here; he passed to Shunem where was a wealthy woman. The wealth of the local position comes into view, and the workability of things."
+     "speaker": "JNG",
+     "text": [
+      "So see what happens here; he passed to Shunem where was a wealthy woman. The wealth of the local position comes into view, and the workability of things."
+     ]
     },
     {
-     "speaker": "A.S.H.",
-     "text": "We should put a value on what we have. This woman says, \"Thy handmaid has not anything at all in the house but a pot of oil\". We should value the Spirit who is ever present and able to supply all our needs."
+     "speaker": "ASH",
+     "text": [
+      "We should put a value on what we have. This woman says, \"Thy handmaid has not anything at all in the house but a pot of oil\". We should value the Spirit who is ever present and able to supply all our needs."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I am sure that is right. It is not a barrel of oil but a small vessel, but what can be done with that as she starts to pour out! There was no lack in the oil. They brought the vessels and she poured out into all the vessels and the vessels were full. \"She said to her son, Bring me yet a vessel. And he said to her, There is not a vessel more. And the oil stayed\". The end result is that they had freedom from debt, they had life in the Spirit, and sonship filled out by way of experience."
+     "speaker": "JNG",
+     "text": [
+      "I am sure that is right. It is not a barrel of oil but a small vessel, but what can be done with that as she starts to pour out! There was no lack in the oil. They brought the vessels and she poured out into all the vessels and the vessels were full. \"She said to her son, Bring me yet a vessel. And he said to her, There is not a vessel more. And the oil stayed\". The end result is that they had freedom from debt, they had life in the Spirit, and sonship filled out by way of experience."
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "In the New Testament the Lord says, Trade while I am coming\", Luke 19: 13. There would be increase, would there not?"
+     "speaker": "GDP",
+     "text": [
+      "In the New Testament the Lord says, Trade while I am coming\", Luke 19: 13. There would be increase, would there not?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is very good; that is what we look for and that is what we will get as we learn to make room for the Spirit."
+     "speaker": "JNG",
+     "text": [
+      "That is very good; that is what we look for and that is what we will get as we learn to make room for the Spirit."
+     ]
     },
     {
-     "text": "L.McF. How do we sell the oil? \"Go, sell the oil, and pay thy debt, and live thou and thy sons on the rest\". What struck me is the value. We have something very precious in our hands so we can turn it into what is very valuable for the testimony."
+     "speaker": "LMcF",
+     "text": [
+      "How do we sell the oil? \"Go, sell the oil, and pay thy debt, and live thou and thy sons on the rest\". What struck me is the value. We have something very precious in our hands so we can turn it into what is very valuable for the testimony."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "There is no idea of poverty in what belongs to the assembly in our own localities. We think of how things work out in other localities sometimes and how the brethren are getting on, but this is our own locality. We see the thing working, working with an appreciation of one another in our own setting."
+     "speaker": "JNG",
+     "text": [
+      "There is no idea of poverty in what belongs to the assembly in our own localities. We think of how things work out in other localities sometimes and how the brethren are getting on, but this is our own locality. We see the thing working, working with an appreciation of one another in our own setting."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Jeroboam rebelled against Solomon and David and set up the two kingdoms, but I notice that God had sent the prophets into the whole area of the twelve tribes and that Elijah and Elisha ministered in the ten-tribe area where there was rebellion. What do you think we have to learn from that?"
+     "speaker": "JAP",
+     "text": [
+      "Jeroboam rebelled against Solomon and David and set up the two kingdoms, but I notice that God had sent the prophets into the whole area of the twelve tribes and that Elijah and Elisha ministered in the ten-tribe area where there was rebellion. What do you think we have to learn from that?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Would not the sovereignty of God enter into that? He will see things through despite our failure. When Moses and Elijah appeared on the mount, would that not be a suggestion of how God has handled the whole period of Israel's testimony? The idea of Moses and Elias goes right through, the initial giving of the law opening up the mind of God and then in Elijah the thing Is earned through: the Lord refers to the spirit of Elijah does He not (see Luke1: 17). What we have in the ministry is from an ascended Man and that is all glorious. Many of the types in the Old Testament deal mainly with the course of things in the testimony on earth. You only get a suggestion; you do not get a full suggestion really until what came out by Paul as to the ascended Man. What do you say?"
+     "speaker": "JNG",
+     "text": [
+      "Would not the sovereignty of God enter into that? He will see things through despite our failure. When Moses and Elijah appeared on the mount, would that not be a suggestion of how God has handled the whole period of Israel's testimony? The idea of Moses and Elias goes right through, the initial giving of the law opening up the mind of God and then in Elijah the thing Is earned through: the Lord refers to the spirit of Elijah does He not (see Luke1: 17). What we have in the ministry is from an ascended Man and that is all glorious. Many of the types in the Old Testament deal mainly with the course of things in the testimony on earth. You only get a suggestion; you do not get a full suggestion really until what came out by Paul as to the ascended Man. What do you say?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Yes. There is a fulness in Christianity, as you say, that is not found anywhere else but in what comes from heaven. We spoke earlier of what is all around publicly - Rome and the Church of England and the Moslem resurgence and all these things - but ministry would meet all that amongst us. We are not ignoring the general breakdown as well as our own."
+     "speaker": "JAP",
+     "text": [
+      "Yes. There is a fulness in Christianity, as you say, that is not found anywhere else but in what comes from heaven. We spoke earlier of what is all around publicly - Rome and the Church of England and the Moslem resurgence and all these things - but ministry would meet all that amongst us. We are not ignoring the general breakdown as well as our own."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I do not think we have gone very far unless we take on in a priestly way the iniquity of the sanctuary involving, I think, all that is operating in Christendom. What you say is something to think over. We get so narrowed up in our ideas; even as to the truth, innately we take it up in regard to ourselves instead of thinking for God. He has the whole field under His eye, has He not? As the coming of the Lord draws nigh I think that we will be increasingly helped to take account of the whole of the work of God as it comes within our range and to pray accordingly. What do you say?"
+     "speaker": "JNG",
+     "text": [
+      "I do not think we have gone very far unless we take on in a priestly way the iniquity of the sanctuary involving, I think, all that is operating in Christendom. What you say is something to think over. We get so narrowed up in our ideas; even as to the truth, innately we take it up in regard to ourselves instead of thinking for God. He has the whole field under His eye, has He not? As the coming of the Lord draws nigh I think that we will be increasingly helped to take account of the whole of the work of God as it comes within our range and to pray accordingly. What do you say?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "The Spirit's operations are very extensive; is it for us to observe them as well as making room for them?"
+     "speaker": "JAP",
+     "text": [
+      "The Spirit's operations are very extensive; is it for us to observe them as well as making room for them?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "And to be available in relation to them. Take what has happened recently, a work of God has come to light in Denton and earlier in Vevey. I have been very interested in being over the other side to see how God is working in persons in the revival here and there, thank God: in the way of recovery. Well, that is only in relation to those that we know, thank God for it, but He is working on a larger scale than that. What is happening in eastern Europe and what is happening in persons who have become dissatisfied with the churches and are meeting in private houses - all these things indicate that the Spirit of God has the whole field of testimony in mmd and we need a little widening in our outlook; not in our walk which should be in the narrow path. If we depart from that we will be the losers. But then I think that if were with God, we would see that the very best is being earned through on the divine level in twos and threes by the presence of the Spirit of God. Do you agree with that?"
+     "speaker": "JNG",
+     "text": [
+      "And to be available in relation to them. Take what has happened recently, a work of God has come to light in Denton and earlier in Vevey. I have been very interested in being over the other side to see how God is working in persons in the revival here and there, thank God: in the way of recovery. Well, that is only in relation to those that we know, thank God for it, but He is working on a larger scale than that. What is happening in eastern Europe and what is happening in persons who have become dissatisfied with the churches and are meeting in private houses - all these things indicate that the Spirit of God has the whole field of testimony in mmd and we need a little widening in our outlook; not in our walk which should be in the narrow path. If we depart from that we will be the losers. But then I think that if were with God, we would see that the very best is being earned through on the divine level in twos and threes by the presence of the Spirit of God. Do you agree with that?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Yes, I think we are getting help."
+     "speaker": "JAP",
+     "text": [
+      "Yes, I think we are getting help."
+     ]
     },
     {
-     "speaker": "K.N.P.",
-     "text": "Nehemiah took on himself his own sins and the sins of the people, and that was the beginning, you may say, of the recovery (see Neh 1: 6)."
+     "speaker": "KNP",
+     "text": [
+      "Nehemiah took on himself his own sins and the sins of the people, and that was the beginning, you may say, of the recovery (see Neh 1: 6)."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Yes, and it was so in Daniel, he took the whole burden of things on himself. We should take the burden of things as to our own failures; we will never get anywhere unless we do, but then can we go further than that can we think for God? Think of how the Lord feels the present position with regard to the assembly. Think of the full truth as to the mystery, the great mystery as to Christ and the assembly. Do we consider how the Lord feels about the public position of the assembly? I think it would have a bigger effect upon us in relation to our own wives (see Eph 5: 28). If it did, the Lord could ensure that in some way and in someone the truth of Christ and the assembly is being maintained."
+     "speaker": "JNG",
+     "text": [
+      "Yes, and it was so in Daniel, he took the whole burden of things on himself. We should take the burden of things as to our own failures; we will never get anywhere unless we do, but then can we go further than that can we think for God? Think of how the Lord feels the present position with regard to the assembly. Think of the full truth as to the mystery, the great mystery as to Christ and the assembly. Do we consider how the Lord feels about the public position of the assembly? I think it would have a bigger effect upon us in relation to our own wives (see Eph 5: 28). If it did, the Lord could ensure that in some way and in someone the truth of Christ and the assembly is being maintained."
+     ]
     },
     {
-     "speaker": "L.D.P.",
-     "text": "The sisters have their own relations with divine Persons. Maybe sometimes, if brethren are taken to be with the Lord, their wives are confronted with problems because they have been standing under the shadow of their husbands. But here is a wife with some resource and apparently she had good relations with her neighbours; they provided the vessels. Would that fit in with what we are saying?"
+     "speaker": "LDP",
+     "text": [
+      "The sisters have their own relations with divine Persons. Maybe sometimes, if brethren are taken to be with the Lord, their wives are confronted with problems because they have been standing under the shadow of their husbands. But here is a wife with some resource and apparently she had good relations with her neighbours; they provided the vessels. Would that fit in with what we are saying?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "It does: that helps. I think we need expanding in every direction. I feel so straitened in my own soul in regard to divine things. You sit in the car with a brother and someone else comes along and sits in the back seat: it was a man in distress of soul who knew the Lord. He said, I want some help, and he sought out a brother to pray with him. He said, I feel God is not helping me. What can you say? These are very practical things. He had no links with Brethren at all, but he knew the Lord and he wanted to be right. Well, the Spirit is not given only to us, it is given to those who obey God (see Acts 5: 32)."
+     "speaker": "JNG",
+     "text": [
+      "It does: that helps. I think we need expanding in every direction. I feel so straitened in my own soul in regard to divine things. You sit in the car with a brother and someone else comes along and sits in the back seat: it was a man in distress of soul who knew the Lord. He said, I want some help, and he sought out a brother to pray with him. He said, I feel God is not helping me. What can you say? These are very practical things. He had no links with Brethren at all, but he knew the Lord and he wanted to be right. Well, the Spirit is not given only to us, it is given to those who obey God (see Acts 5: 32)."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Mention was made of Daniel; there was the secret side of Daniel towards Jerusalem which was in type the assembly side of things, but then he served Nebuchadnezzar, he served Darius, he served these men publicly and he brought in the great light of the prophetic word."
+     "speaker": "JAP",
+     "text": [
+      "Mention was made of Daniel; there was the secret side of Daniel towards Jerusalem which was in type the assembly side of things, but then he served Nebuchadnezzar, he served Darius, he served these men publicly and he brought in the great light of the prophetic word."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Yes he did. There is no reference to his being in the public revival of things under Ezra and Nehemiah but he was with God and he foretold it all; he had received a prophetic word about it. He stood faithful to the light that God gave him; he was a priest, was he not? The Old Testament Scriptures to me are opening up in a much wider way than they did; my mind was so narrow."
+     "speaker": "JNG",
+     "text": [
+      "Yes he did. There is no reference to his being in the public revival of things under Ezra and Nehemiah but he was with God and he foretold it all; he had received a prophetic word about it. He stood faithful to the light that God gave him; he was a priest, was he not? The Old Testament Scriptures to me are opening up in a much wider way than they did; my mind was so narrow."
+     ]
     },
     {
-     "text": "L.McF. Later on in this chapter we have a dead child, \"And he went in and shut the door upon them both, and prayed to Jehovah\". I wondered how we can be helped there."
+     "speaker": "LMcF",
+     "text": [
+      "Later on in this chapter we have a dead child, \"And he went in and shut the door upon them both, and prayed to Jehovah\". I wondered how we can be helped there."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "There is a need of our identifying ourselves with what has happened. We may stand aloof from Christendom and say that the trouble that has come in is terrible. How the name of the Lord has been blasphemed through what has happened in Christendom! But we must remember our own failure collective and personal - and responsibility because of the light we had. Now this prophet went in and shut the door and prayed to Jehovah, and \"lay upon the child, and put h! s mouth upon his mouth, and his eyes upon his eyes, and his hands upon his hands, and bent over him; and the flesh of the child grew warm\". And then we soon have the lad sneezing. We would like to see some life come into the younger ones. That is life, is it not, a sneeze?"
+     "speaker": "JNG",
+     "text": [
+      "There is a need of our identifying ourselves with what has happened. We may stand aloof from Christendom and say that the trouble that has come in is terrible. How the name of the Lord has been blasphemed through what has happened in Christendom! But we must remember our own failure collective and personal - and responsibility because of the light we had. Now this prophet went in and shut the door and prayed to Jehovah, and \"lay upon the child, and put h! s mouth upon his mouth, and his eyes upon his eyes, and his hands upon his hands, and bent over him; and the flesh of the child grew warm\". And then we soon have the lad sneezing. We would like to see some life come into the younger ones. That is life, is it not, a sneeze?"
+     ]
     },
     {
-     "text": "L.McF. Seven times."
+     "speaker": "LMcF",
+     "text": [
+      "Seven times."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "She took up her son. It is very interesting to see how these incidents finish - the full thought."
+     "speaker": "JNG",
+     "text": [
+      "She took up her son. It is very interesting to see how these incidents finish - the full thought."
+     ]
     },
     {
-     "speaker": "G.D.",
-     "text": "I would like some help as to this thought of shutting the door. We have it in verse 33 just quoted, and earlier, in verse 5, we also have the woman who shuts the door upon her and her sons."
+     "speaker": "GD",
+     "text": [
+      "I would like some help as to this thought of shutting the door. We have it in verse 33 just quoted, and earlier, in verse 5, we also have the woman who shuts the door upon her and her sons."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "It means simply that you are shut up to God. External things do not help. She shut out all the external things that could arise and came to the point where only God could help her. It is Romans 8 in a way, making room for the Spirit and recognizing the flesh as our hindrance; we are shut up to God and His operations through the Spirit while we maintain responsibilities. In this chapter we get the spirit of sonship - a full answer. We need to have our relations privately with God strengthened, and our relations with one another in our own localities too. That is another thing the enemy would try to do - interference in local gatherings; it only means that we come back to the fact that we must shut the door and have to do with the Lord Himself in respect to the local assembly because He is in control, and with the Lord Himself in our own circumstances. I think that in the 1960s we were weakened in our relations with the Lord personally; we went by rules and things like that."
+     "speaker": "JNG",
+     "text": [
+      "It means simply that you are shut up to God. External things do not help. She shut out all the external things that could arise and came to the point where only God could help her. It is Romans 8 in a way, making room for the Spirit and recognizing the flesh as our hindrance; we are shut up to God and His operations through the Spirit while we maintain responsibilities. In this chapter we get the spirit of sonship - a full answer. We need to have our relations privately with God strengthened, and our relations with one another in our own localities too. That is another thing the enemy would try to do - interference in local gatherings; it only means that we come back to the fact that we must shut the door and have to do with the Lord Himself in respect to the local assembly because He is in control, and with the Lord Himself in our own circumstances. I think that in the 1960s we were weakened in our relations with the Lord personally; we went by rules and things like that."
+     ]
     },
     {
-     "speaker": "T.B.",
-     "text": "In connection with local assemblies, the disciples shut the door through fear of the Jews (see John 20: 19) but the Lord still came into the midst, did He not?"
+     "speaker": "TB",
+     "text": [
+      "In connection with local assemblies, the disciples shut the door through fear of the Jews (see John 20: 19) but the Lord still came into the midst, did He not?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "He said, \"I have set before thee an opened door\", Rev 3: 8. I think our salvation lies in recognising what the assembly is and that the Lord has never relinquished control. We may try to interfere sometimes, which does not help. It does not mean we cannot state our exercises but under Paul's ministry there is a way of doing things."
+     "speaker": "JNG",
+     "text": [
+      "He said, \"I have set before thee an opened door\", Rev 3: 8. I think our salvation lies in recognising what the assembly is and that the Lord has never relinquished control. We may try to interfere sometimes, which does not help. It does not mean we cannot state our exercises but under Paul's ministry there is a way of doing things."
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "We know what confusion we went through in the sixties but do we need to be strengthened in our relations with the Lord; is that what you mean?"
+     "speaker": "GH",
+     "text": [
+      "We know what confusion we went through in the sixties but do we need to be strengthened in our relations with the Lord; is that what you mean?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is the point, our relations with the Lord. That applies to the individual, it applies to the household and it applies to the local assembly. The Lord is very jealous, I think, of His own rights, rights in myself and rights in the assembly. We sometimes think we are helping but we are just getting in the way."
+     "speaker": "JNG",
+     "text": [
+      "That is the point, our relations with the Lord. That applies to the individual, it applies to the household and it applies to the local assembly. The Lord is very jealous, I think, of His own rights, rights in myself and rights in the assembly. We sometimes think we are helping but we are just getting in the way."
+     ]
     },
     {
-     "speaker": "L.D.P.",
-     "text": "According to the law the woman that was caught in adultery should have been slain (see Lev 20: 10), but the current line of the Spirit is that mercy should be shown. Think of the Lord writing on the ground and then saying \"Neither do I condemn thee\", John 8: 11. Would that fit in with what you are saying as to our needing to know what the Lord's mind is?"
+     "speaker": "LDP",
+     "text": [
+      "According to the law the woman that was caught in adultery should have been slain (see Lev 20: 10), but the current line of the Spirit is that mercy should be shown. Think of the Lord writing on the ground and then saying \"Neither do I condemn thee\", John 8: 11. Would that fit in with what you are saying as to our needing to know what the Lord's mind is?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Yes; and I think that, in Elisha's ministry, the Lord is bent on blessing. How can we meet difficulties and problems and bring in food? I think that is why in chapter 4 they had been through some exercises that bear on the locality as well as the individual and the household, and then the man of God was equal to meeting the problems. But there is more than that, there is a touch of heaven in the last incident of the man from Baal shalishah who \"brought the man of God bread of the first-fruits, twenty loaves of barley, and fresh ears of corn in his sack\". That is how we help one another, to bring in some food; that is the divine answer."
+     "speaker": "JNG",
+     "text": [
+      "Yes; and I think that, in Elisha's ministry, the Lord is bent on blessing. How can we meet difficulties and problems and bring in food? I think that is why in chapter 4 they had been through some exercises that bear on the locality as well as the individual and the household, and then the man of God was equal to meeting the problems. But there is more than that, there is a touch of heaven in the last incident of the man from Baal shalishah who \"brought the man of God bread of the first-fruits, twenty loaves of barley, and fresh ears of corn in his sack\". That is how we help one another, to bring in some food; that is the divine answer."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "This very scripture (2 Kings 4) was used by Mr Taylor to show that a servant cannot deal with a local matter at a distance but that he must go and bring in life in a locality through ministry."
+     "speaker": "JAP",
+     "text": [
+      "This very scripture (2 Kings 4) was used by Mr Taylor to show that a servant cannot deal with a local matter at a distance but that he must go and bring in life in a locality through ministry."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is very helpful, not writing of letters or things like that. If you have an exercise, go to the locality and bring in a prophetic word if you can. What wisdom and skill that would require, because the lord's rights must be maintained in each locality. But then can we come from heaven with some food and finish up with the brethren eating, and leaving something too? I think Elisha's is a wonderful ministry, not only are needs met and problems settled but there was even something over. Would you not like to be like that?"
+     "speaker": "JNG",
+     "text": [
+      "That is very helpful, not writing of letters or things like that. If you have an exercise, go to the locality and bring in a prophetic word if you can. What wisdom and skill that would require, because the lord's rights must be maintained in each locality. But then can we come from heaven with some food and finish up with the brethren eating, and leaving something too? I think Elisha's is a wonderful ministry, not only are needs met and problems settled but there was even something over. Would you not like to be like that?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Who is the man from Baal-shalishah?"
+     "speaker": "JAP",
+     "text": [
+      "Who is the man from Baal-shalishah?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "It is a heavenly ministry, is it not - ministry from heaven? You can say it is Paul, if you like."
+     "speaker": "JNG",
+     "text": [
+      "It is a heavenly ministry, is it not - ministry from heaven? You can say it is Paul, if you like."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "How does that work out?"
+     "speaker": "JAP",
+     "text": [
+      "How does that work out?"
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think it is just Elisha's ministry. In the presence of the Spirit there is an answer not only to problems, be they individual or local, but there is something fresh from heaven. It is said of the Spirit that \"he receives of mine and shall announce it to you\", John 16: 15. That is a current thing, coming from heaven."
+     "speaker": "JNG",
+     "text": [
+      "I think it is just Elisha's ministry. In the presence of the Spirit there is an answer not only to problems, be they individual or local, but there is something fresh from heaven. It is said of the Spirit that \"he receives of mine and shall announce it to you\", John 16: 15. That is a current thing, coming from heaven."
+     ]
     },
     {
-     "speaker": "C.S.E.",
-     "text": "That is what results from shutting the door, being on the inside you may say, shut up to God; and the result is what comes in at the end of the chapter, we can bring something from heaven as we are with God."
+     "speaker": "CSE",
+     "text": [
+      "That is what results from shutting the door, being on the inside you may say, shut up to God; and the result is what comes in at the end of the chapter, we can bring something from heaven as we are with God."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "Yes, I think so. The death in the pot had to be met first of all; recourse is to the manhood of Christ. That is the answer to a good many of our problems of course - engage ourselves with the manhood of Jesus that one Man before God."
+     "speaker": "JNG",
+     "text": [
+      "Yes, I think so. The death in the pot had to be met first of all; recourse is to the manhood of Christ. That is the answer to a good many of our problems of course - engage ourselves with the manhood of Jesus that one Man before God."
+     ]
     },
     {
-     "text": "L.McF. What is evident here is that the supplies are fresh, they come from heaven."
+     "speaker": "LMcF",
+     "text": [
+      "What is evident here is that the supplies are fresh, they come from heaven."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "That is very good, \"fresh ears of corn in his sack\"."
+     "speaker": "JNG",
+     "text": [
+      "That is very good, \"fresh ears of corn in his sack\"."
+     ]
     },
     {
-     "text": "L.McF. That seems to be the meaning, that we make it our own."
+     "speaker": "LMcF",
+     "text": [
+      "That seems to be the meaning, that we make it our own."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I would think so. We were speaking about Paul; it is not only his ministry but it is the man himself; there is a pattern. I think that is a test for us, as to whether in our own ministry we are what we say."
+     "speaker": "JNG",
+     "text": [
+      "I would think so. We were speaking about Paul; it is not only his ministry but it is the man himself; there is a pattern. I think that is a test for us, as to whether in our own ministry we are what we say."
+     ]
     },
     {
-     "speaker": "A.S.H.",
-     "text": "I was wondering whether it is akin to what we have in the gospel, the idea of the fish and the loaves."
+     "speaker": "ASH",
+     "text": [
+      "I was wondering whether it is akin to what we have in the gospel, the idea of the fish and the loaves."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "What the Lord can do. It is not what there is in us but what the Lord can make of it in the temple and that means drawing on what is of the Spirit."
+     "speaker": "JNG",
+     "text": [
+      "What the Lord can do. It is not what there is in us but what the Lord can make of it in the temple and that means drawing on what is of the Spirit."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "This question in verse 43, \"How shall I set this before a hundred men?\": I suppose we can look at that, either that he is timid or that he is dependent. In a certain sense we need both as feeling our way in things with God, but then you are touching our hearts that we need reviving from the timid side to go forward dependently."
+     "speaker": "TED",
+     "text": [
+      "This question in verse 43, \"How shall I set this before a hundred men?\": I suppose we can look at that, either that he is timid or that he is dependent. In a certain sense we need both as feeling our way in things with God, but then you are touching our hearts that we need reviving from the timid side to go forward dependently."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think that is what we need. There is no need to fear all that has come in and all that may yet come in, because the enemy has not finished, he is relentless in his opposition to the truth, whether in our own souls or in our local companies. We need not fear because the Spirit is with us."
+     "speaker": "JNG",
+     "text": [
+      "I think that is what we need. There is no need to fear all that has come in and all that may yet come in, because the enemy has not finished, he is relentless in his opposition to the truth, whether in our own souls or in our local companies. We need not fear because the Spirit is with us."
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "We need to be more before the Lord as to what is happening in Europe; there is a stirring and people are turning to the Lord. The gospel is being preached and we need to be before the Lord that He will work freely amongst men."
+     "speaker": "GH",
+     "text": [
+      "We need to be more before the Lord as to what is happening in Europe; there is a stirring and people are turning to the Lord. The gospel is being preached and we need to be before the Lord that He will work freely amongst men."
+     ]
     },
     {
-     "speaker": "J.N.G.",
-     "text": "I think He is, but I think we need also to be before the Lord that the enemy does not get any advantage. I just wonder whether he will try and bring in some other influence from the east to nullify what the Spirit of God would do. We need to be alert, do you not think?"
+     "speaker": "JNG",
+     "text": [
+      "I think He is, but I think we need also to be before the Lord that the enemy does not get any advantage. I just wonder whether he will try and bring in some other influence from the east to nullify what the Spirit of God would do. We need to be alert, do you not think?"
+     ]
     }
    ]
   },
@@ -478,6 +667,44 @@
      "text": "Although there is only one reference in the Scriptures to \"jewels\" there are many diverse precious stones mentioned. Twelve, all different, were to be worn by the Jewish high-priest, while in the last book of the Bible twelve are also mentioned, some of course the same as those. For pearls and corals men have to dive deep in the ocean bed, while precious stones are won from the earth by miners as is described in such interesting detail in the book of Job, chapter 28. Read also the epistles of Peter and note the seven things that are described as \"precious\". Are you rich toward God?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "PRESENT RESOURCES",
+   "kind": "no_comma_before_place",
+   "detail": "\"T.E.Druckenmiller Plainfield\" read as T. E. Druckenmiller, Plainfield"
+  },
+  {
+   "article": 1,
+   "title": "PRESENT RESOURCES",
+   "kind": "no_comma_before_place",
+   "detail": "\"J.A.Petersen Plainfield\" read as J. A. Petersen, Plainfield"
+  },
+  {
+   "article": 1,
+   "title": "PRESENT RESOURCES",
+   "kind": "default_place",
+   "detail": "New York given to 6 names (\"New York if not otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "PRESENT RESOURCES",
+   "kind": "possible_speaker",
+   "detail": "TB opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "PRESENT RESOURCES",
+   "kind": "speaker_matched_loosely",
+   "detail": "LMcF used in the text for L.McFarlane (key gives LM)"
+  },
+  {
+   "article": 1,
+   "title": "PRESENT RESOURCES",
+   "kind": "speaker_not_in_key",
+   "detail": "TB (in the text)"
   }
  ]
 }

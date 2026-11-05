@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -73,55 +73,64 @@
    "place": "Grimsby",
    "date": "12 June 2022",
    "speakers": [
-    "A.M.B.",
-    "H.T.F.",
-    "P.M.",
-    "T.J.H.",
-    "E.J.M.",
-    "A.G.M.",
-    "J.B.I.",
-    "R.D.P.",
-    "G.J.R.",
-    "E.W.H.",
-    "R.G.",
-    "R.W."
+    "AMB",
+    "HTF",
+    "PM",
+    "TJH",
+    "EJM",
+    "AGM",
+    "JBI",
+    "RDP",
+    "GJR",
+    "EWH",
+    "RWMcC",
+    "RG",
+    "RW"
    ],
    "initials": [
     {
-     "initials": "AMBAMBL",
-     "name": "A.M.B Alistair M Brown Linlithgow"
+     "initials": "AMB",
+     "name": "Alistair M Brown",
+     "place": "Linlithgow"
     },
     {
-     "initials": "HTFHTFG",
-     "name": "H.T.F. H Tim Franklin Grimsby"
+     "initials": "HTF",
+     "name": "H Tim Franklin",
+     "place": "Grimsby"
     },
     {
-     "initials": "RGRGA",
-     "name": "R.G. Rob Gardiner Aberdeen"
+     "initials": "RG",
+     "name": "Rob Gardiner",
+     "place": "Aberdeen"
     },
     {
-     "initials": "TJHTJHEF",
-     "name": "T.J.H. Trevor J Harvey East Finchley"
+     "initials": "TJH",
+     "name": "Trevor J Harvey",
+     "place": "East Finchley"
     },
     {
-     "initials": "EWHEHG",
-     "name": "E.W.H. Ernest Hogan Grangemouth"
+     "initials": "EWH",
+     "name": "Ernest Hogan",
+     "place": "Grangemouth"
     },
     {
-     "initials": "JBIJBIM",
-     "name": "J.B.I. J Bruce Ikin Manchester"
+     "initials": "JBI",
+     "name": "J Bruce Ikin",
+     "place": "Manchester"
     },
     {
-     "initials": "AGMAGMC",
-     "name": "A.G.M. Alex G Mair Cullen"
+     "initials": "AGM",
+     "name": "Alex G Mair",
+     "place": "Cullen"
     },
     {
      "initials": "EJMEJMB",
      "name": "E.J M. Edward J Mair Buckie"
     },
     {
-     "initials": "PMPMC",
-     "name": "P.M. Paul Martin Colchester"
+     "initials": "PM",
+     "name": "Paul Martin",
+     "place": "Colchester"
     },
     {
      "initials": "RW",
@@ -129,53 +138,31 @@
      "place": "McC Robert W McClean Grimsby"
     },
     {
-     "initials": "RDPRDPB",
-     "name": "R.D.P. Ron D Plant Birmingham"
+     "initials": "RDP",
+     "name": "Ron D Plant",
+     "place": "Birmingham"
     },
     {
-     "initials": "GJRGJRM",
-     "name": "G.J.R. G John Richards Malvern"
+     "initials": "GJR",
+     "name": "G John Richards",
+     "place": "Malvern"
     },
     {
-     "initials": "RWRWS",
-     "name": "R.W. Russell Wallace Spaldwick"
+     "initials": "RW",
+     "name": "Russell Wallace",
+     "place": "Spaldwick"
     },
     {
-     "initials": "EJBPM",
-     "name": "Edited and published monthly by John Brown and Paul Martin"
+     "initials": "EJM",
+     "not_in_key": true
     },
     {
-     "initials": "A",
-     "name": "Additional copies are available",
-     "place": "free of charge, by emailing"
-    },
-    {
-     "initials": "",
-     "name": "notesofministry@virginmedia.com or paul@nofm.co.uk"
-    },
-    {
-     "initials": "LPLEA",
-     "name": "36 Laverock Park Linlithgow EH49 6AT"
-    },
-    {
-     "initials": "PCP",
-     "name": "Printed for 50 years by Crystal Print",
-     "place": "22 Western Road, Billericay, Essex CM12 9DZ"
-    },
-    {
-     "initials": "N",
-     "name": "Notes"
-    },
-    {
-     "initials": "",
-     "name": "[←1]"
-    },
-    {
-     "initials": "CACVOJG",
-     "name": "C.A. Coates Vol.29 (Outline of John’s Gospel) p.196"
+     "initials": "RWMcC",
+     "not_in_key": true
     }
    ],
    "initials_heading": "List of initials",
+   "initials_comment": "Edited and published monthly by John Brown and Paul Martin",
    "initials_text": [
     "A.M.B Alistair M Brown Linlithgow",
     "H.T.F. H Tim Franklin Grimsby",
@@ -201,404 +188,664 @@
    ],
    "paragraphs": [
     {
-     "speaker": "A.M.B.",
-     "text": "A wealth of thoughts and impressions came before us this morning. We were reminded of the blessedness of being in Christ, and what that means. We are accustomed to thinking of what it means for us, which is a great blessing."
+     "speaker": "AMB",
+     "text": [
+      "A wealth of thoughts and impressions came before us this morning. We were reminded of the blessedness of being in Christ, and what that means. We are accustomed to thinking of what it means for us, which is a great blessing.",
+      "In the passage in 2 Corinthians, there is something foundational: “If anyone be in Christ, there is a new creation”. What is old, that is of nature, is incapable of appreciating or responding to the greatness of the blessing that God has purposed in His heart for believers. He has brought in what is new, “in Christ”. What is old is taken away; we do not want to be occupied with that now, but we need to see what is new in Christ. God has removed the distance, He has reconciled us: “all things are of the God who has reconciled us to himself by Jesus Christ”. I wondered if we might speak a little about the blessing of reconciliation. It removes the distance and brings us near, and we enjoyed nearness this morning. I am not sure if the word was actually used, but that is what we were enjoying, we were enjoying nearness, in Christ.",
+      "The passage in Ephesians is very well known. It reminds us of the wealth of the blessings that God has for us, the “God and Father of our Lord Jesus Christ”, as taken into favour in the Beloved and being blessed with every spiritual blessing in Christ. Our blessings in Christ are wonderful; we speak about them often. It is wonderful to know God as the Father of our Lord Jesus Christ. What a blessed relationship! Every blessing is ours from the Father in Christ. Then we are to be “holy and blameless before him in love”. Everything that might stand in the way of our enjoyment of being in Christ and in the good of reconciliation and nearness to the Father is removed. We are viewed as being “holy and blameless” because we are so as being in Christ. What favour we are brought into! One of the results of our appreciation of the blessings and favour, of which the Father is the source, is that we are “to the praise of the glory of his grace”.",
+      "The passage in Revelation speaks of the holy city, new Jerusalem. It is a slightly different thought, but I was impressed again by the way that anything that could mar the enjoyment of the eternal day – God all in all and at rest – is wiped away. It is removed, and “the former things have passed away”. All things are new, there is nothing to hinder the perpetual fresh enjoyment of what God has purposed. He has brought about His own rest, but through His grace His rest will be with myriads of the redeemed who are in Christ. I hope that might be profitable."
+     ]
     },
     {
-     "text": "In the passage in 2 Corinthians, there is something foundational: “If anyone be in Christ, there is a new creation”. What is old, that is of nature, is incapable of appreciating or responding to the greatness of the blessing that God has purposed in His heart for believers. He has brought in what is new, “in Christ”. What is old is taken away; we do not want to be occupied with that now, but we need to see what is new in Christ. God has removed the distance, He has reconciled us: “all things are of the God who has reconciled us to himself by Jesus Christ”. I wondered if we might speak a little about the blessing of reconciliation. It removes the distance and brings us near, and we enjoyed nearness this morning. I am not sure if the word was actually used, but that is what we were enjoying, we were enjoying nearness, in Christ."
+     "speaker": "HTF",
+     "text": [
+      "It often impresses me when we are together for the service of God from a variety of places, that we have never all been together before, and we may never be together just like that again. Yet as we enjoy our common portion in Christ, in which God is served and blessed, we are touching what each one of us will take up again in His grace in eternity."
+     ]
     },
     {
-     "text": "The passage in Ephesians is very well known. It reminds us of the wealth of the blessings that God has for us, the “God and Father of our Lord Jesus Christ”, as taken into favour in the Beloved and being blessed with every spiritual blessing in Christ. Our blessings in Christ are wonderful; we speak about them often. It is wonderful to know God as the Father of our Lord Jesus Christ. What a blessed relationship! Every blessing is ours from the Father in Christ. Then we are to be “holy and blameless before him in love”. Everything that might stand in the way of our enjoyment of being in Christ and in the good of reconciliation and nearness to the Father is removed. We are viewed as being “holy and blameless” because we are so as being in Christ. What favour we are brought into! One of the results of our appreciation of the blessings and favour, of which the Father is the source, is that we are “to the praise of the glory of his grace”."
+     "speaker": "AMB",
+     "text": [
+      "Yes, we anticipate our blessings. We had that experience this morning. There was nothing to chill the joy; we were helped to rise above circumstances here and to have some experience of what is in God’s heart towards us that has been expressed in Christ, in the giving of Christ. We are assured of God’s love, and then we have some experience of His purposes which involve us, and He is the great object of them. He is delighted with Christ the Man of His choice, the Man who has made all of this possible."
+     ]
     },
     {
-     "text": "The passage in Revelation speaks of the holy city, new Jerusalem. It is a slightly different thought, but I was impressed again by the way that anything that could mar the enjoyment of the eternal day – God all in all and at rest – is wiped away. It is removed, and “the former things have passed away”. All things are new, there is nothing to hinder the perpetual fresh enjoyment of what God has purposed. He has brought about His own rest, but through His grace His rest will be with myriads of the redeemed who are in Christ. I hope that might be profitable."
+     "speaker": "PM",
+     "text": [
+      "Later in this book, Paul says, “I know a man in Christ” (2 Cor.12:2), and that man was caught up to the third heaven. He was not conscious of whether he was in the body or out of the body. We touched something of the character of that in the occasion that we have just had."
+     ]
     },
     {
-     "speaker": "H.T.F.",
-     "text": "It often impresses me when we are together for the service of God from a variety of places, that we have never all been together before, and we may never be together just like that again. Yet as we enjoy our common portion in Christ, in which God is served and blessed, we are touching what each one of us will take up again in His grace in eternity."
+     "speaker": "AMB",
+     "text": [
+      "I think that is so. Do you think the apostle’s experience was unique, but the character or spirit of it is what we enjoyed today? It is a real thing. It is good afterwards to go over again what we have enjoyed. You draw attention to the apostle being “in Christ”, that is he was deriving from Christ and his affections and attention were all caught up with that blessed Man. What more would you say about “in Christ” in that context?"
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes, we anticipate our blessings. We had that experience this morning. There was nothing to chill the joy; we were helped to rise above circumstances here and to have some experience of what is in God’s heart towards us that has been expressed in Christ, in the giving of Christ. We are assured of God’s love, and then we have some experience of His purposes which involve us, and He is the great object of them. He is delighted with Christ the Man of His choice, the Man who has made all of this possible."
+     "speaker": "PM",
+     "text": [
+      "I would like to hear what you say, but it just affected me that God has chosen us in the most loveable Man and in the Man of His purpose."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Later in this book, Paul says, “I know a man in Christ” (2 Cor.12:2), and that man was caught up to the third heaven. He was not conscious of whether he was in the body or out of the body. We touched something of the character of that in the occasion that we have just had."
+     "speaker": "AMB",
+     "text": [
+      "We experienced that this morning, how loveable He is and how the saints’ affections are drawn out to Him. Our voices merge. We sang that in our first hymn",
+      "‘Lord Jesus, come; with hearts and voices blending,’ (Hymn 113).",
+      "The effect of His attractiveness is to bring our hearts together, united in response to and affection for Him, which provides a very blessed bond among us. The key thing is to have that blessed One as the object of our affections."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "I think that is so. Do you think the apostle’s experience was unique, but the character or spirit of it is what we enjoyed today? It is a real thing. It is good afterwards to go over again what we have enjoyed. You draw attention to the apostle being “in Christ”, that is he was deriving from Christ and his affections and attention were all caught up with that blessed Man. What more would you say about “in Christ” in that context?"
+     "speaker": "TJH",
+     "text": [
+      "I noticed you were a little reticent to use the word nearness. When Jacob was going to bless the sons of Joseph, he did not say ‘bring them near to me’, he said “Bring them, I pray thee, to me”, Gen.48:9. In the chapter here it is “reconciled us to himself”; is it more than nearness? The children of Joseph were brought so near to Jacob that he could put both his hands on them, his hands on one and the other. I wondered if that is similar to the experience we had this morning."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I would like to hear what you say, but it just affected me that God has chosen us in the most loveable Man and in the Man of His purpose."
+     "speaker": "AMB",
+     "text": [
+      "It is the removal of all distance, and as you say, Jacob’s words, “Bring them ….. to me, that I may bless them”, speak of the Father’s heart. Joseph was there in that scripture; how great the actual experience of knowing nearness in Christ because He has removed all distance and brings us into the Father’s presence. That is to be enjoyed."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "We experienced that this morning, how loveable He is and how the saints’ affections are drawn out to Him. Our voices merge. We sang that in our first hymn"
+     "speaker": "EJM",
+     "text": [
+      "I was thinking of Mr Darby’s hymn;",
+      "‘Our God whom we have known,",
+      "Well known in Jesus’ love’ (Hymn 72).",
+      "We are reconciled to God in peace, and we are redeemed to God. We are not going to heaven empty. Our hands will be full of the appreciation of how God has brought us into His thoughts."
+     ]
     },
     {
-     "text": "‘Lord Jesus, come; with hearts and voices blending,’ (Hymn 113)."
+     "speaker": "AMB",
+     "text": [
+      "Yes. It is good to see that God has reconciled and redeemed us to Himself, and it is all done in Christ. The object is response to God, a full response to the revelation of Himself, which is wonderful. He has purposed this for His own glory and joy, and the saints are used in it."
+     ]
     },
     {
-     "text": "The effect of His attractiveness is to bring our hearts together, united in response to and affection for Him, which provides a very blessed bond among us. The key thing is to have that blessed One as the object of our affections."
+     "speaker": "EJM",
+     "text": [
+      "Yes, Hymn 125 says;",
+      "‘Thy delight in showing mercy,",
+      "Making grace abounding known.",
+      "Ever just are all Thy dealings …’",
+      "It covers a great scope!"
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "I noticed you were a little reticent to use the word nearness. When Jacob was going to bless the sons of Joseph, he did not say ‘bring them near to me’, he said “Bring them, I pray thee, to me”, Gen.48:9. In the chapter here it is “reconciled us to himself”; is it more than nearness? The children of Joseph were brought so near to Jacob that he could put both his hands on them, his hands on one and the other. I wondered if that is similar to the experience we had this morning."
+     "speaker": "AMB",
+     "text": [
+      "And God has given us to Christ to bring us home to Him. You can see how essential the work of Christ is in securing this blessing and a great answer for the Father and for God. The saints are brought into the centre of it."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "It is the removal of all distance, and as you say, Jacob’s words, “Bring them ….. to me, that I may bless them”, speak of the Father’s heart. Joseph was there in that scripture; how great the actual experience of knowing nearness in Christ because He has removed all distance and brings us into the Father’s presence. That is to be enjoyed."
+     "speaker": "AGM",
+     "text": [
+      "Can you say something about the thought of new creation, “So if any one be in Christ, there is a new creation”."
+     ]
     },
     {
-     "speaker": "E.J.M.",
-     "text": "I was thinking of Mr Darby’s hymn;"
+     "speaker": "AMB",
+     "text": [
+      "God has provided Himself with His ideal Man. The Lord Jesus was referred to this morning as the Head of a new race, of a heavenly race. By faith and by the Spirit, believers derive from Him. New creation is to characterise us as abiding in Christ, deriving from Him and living in Him."
+     ]
     },
     {
-     "text": "‘Our God whom we have known,"
+     "speaker": "AGM",
+     "text": [
+      "So “in Christ” is beyond breakdown, it is perfect. I wondered if new creation gives us the thought that God has that which is after His own heart, and everything previous to that has been dispensed with."
+     ]
     },
     {
-     "text": "Well known in Jesus’ love’ (Hymn 72)."
+     "speaker": "AMB",
+     "text": [
+      "What went before has failed and it is not mended; Christ supersedes it. What delight for God in Christ, and in those who belong to Him, as redeemed by Christ and reconciled by Him."
+     ]
     },
     {
-     "text": "We are reconciled to God in peace, and we are redeemed to God. We are not going to heaven empty. Our hands will be full of the appreciation of how God has brought us into His thoughts."
+     "speaker": "TJH",
+     "text": [
+      "As you said, we do not want to be occupied with what has passed away, but the Holy Spirit can only descend on that which is new creation, would you say? The Spirit descended as a dove upon Jesus in a unique way, but it descended upon those at Pentecost and is given to us in new creation. Would that be the point?"
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes. It is good to see that God has reconciled and redeemed us to Himself, and it is all done in Christ. The object is response to God, a full response to the revelation of Himself, which is wonderful. He has purposed this for His own glory and joy, and the saints are used in it."
+     "speaker": "AMB",
+     "text": [
+      "The Spirit comes into redeemed hearts who have the desire for Him and who are subject to Christ. These moral exercises are necessary to come into the good of this. What we enjoyed this morning can only be enjoyed as we are in Christ, and as such we are a new creation."
+     ]
     },
     {
-     "speaker": "E.J.M.",
-     "text": "Yes, Hymn 125 says;"
+     "speaker": "PM",
+     "text": [
+      "We were in Adam, in responsibility, and we failed and God dealt with that order of man in the death of Christ: “one died for all, then all have died”, 2 Cor.5:14. But when I put my faith in Christ, God has taken me up and views me now not as I was, as a poor wretched sinner, but in all the worth of that blessed Man. Is that something of what it means?"
+     ]
     },
     {
-     "text": "‘Thy delight in showing mercy,"
+     "speaker": "AMB",
+     "text": [
+      "That is very helpful. We have Christ as our righteousness. God does not look upon my righteousness. He could not, it has failed, and He looks upon Christ as my righteousness and I am accepted in Him, which is a wonderful truth. It is wonderful to have some experience of it."
+     ]
     },
     {
-     "text": "Making grace abounding known."
+     "speaker": "PM",
+     "text": [
+      "Paul says He has been made unto us “righteousness, and holiness and redemption”, 1 Cor.1:30. All is in that blessed One!"
+     ]
     },
     {
-     "text": "Ever just are all Thy dealings …’"
+     "speaker": "JBI",
+     "text": [
+      "The scripture says, “behold all things have become new”. Is it in the power of the Spirit that the reality of all these things comes to us, so that we experience them freshly?"
+     ]
     },
     {
-     "text": "It covers a great scope!"
+     "speaker": "AMB",
+     "text": [
+      "That is helpful. It must be, as you say, in the power of the Spirit that we experience these things, yet it is believers who are reconciled. It has often been said in relation to reconciliation that what is old cannot be reconciled, and what is new does not need to be reconciled, but we are. We thus come into the benefit and the joy of the removal of all distance."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "And God has given us to Christ to bring us home to Him. You can see how essential the work of Christ is in securing this blessing and a great answer for the Father and for God. The saints are brought into the centre of it."
+     "speaker": "HTF",
+     "text": [
+      "It is uniquely true as regards what we are speaking of that what has become new remains new. That could never be said of anything of the previous order, which deteriorates. What we are speaking of will always be new in eternity!"
+     ]
     },
     {
-     "speaker": "A.G.M.",
-     "text": "Can you say something about the thought of new creation, “So if any one be in Christ, there is a new creation”."
+     "speaker": "AMB",
+     "text": [
+      "We get that in the passage that we read in Revelation 21 – that what God has brought in in Christ is new. It is not like the old, nor will it become old: it is new and is maintained in perpetual freshness and vigour and life. Again I think we experienced something of that this morning; we enjoyed heavenly things, not by natural means at all, but in the power of the Spirit, and there was a sense of what is living and springing up. It is a real experience of eternal life."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "God has provided Himself with His ideal Man. The Lord Jesus was referred to this morning as the Head of a new race, of a heavenly race. By faith and by the Spirit, believers derive from Him. New creation is to characterise us as abiding in Christ, deriving from Him and living in Him."
+     "speaker": "RDP",
+     "text": [
+      "We might think this reference to “old things have passed away”, and to what it is to be “in Christ”, as meaning that our sins are set aside, because it says, “not reckoning to them their offences” (v.19). But it is much more. The whole environment in which we are, of responsibility, of what we understand as righteousness – all are old things that have passed away and the environment of this new creation is Christ, is it not?"
+     ]
     },
     {
-     "speaker": "A.G.M.",
-     "text": "So “in Christ” is beyond breakdown, it is perfect. I wondered if new creation gives us the thought that God has that which is after His own heart, and everything previous to that has been dispensed with."
+     "speaker": "AMB",
+     "text": [
+      "We have to come to it that what is old is useless in the things of God; we gladly accept that, and it sets us free. We are not disappointed by failure in ourselves, we are past that. We are drawing upon Christ by the Spirit. We enjoy things together especially, and we also enjoy impressions individually. To the natural man they mean nothing, but the believer in Christ is given the capacity and the desire to enjoy the things of heaven, the things of Christ, the things that “God has prepared for them that love him”, 1 Cor.2:9. What you say about the environment is true. The apostle Paul says of Christ, “who is our life” (Col.3:4). It is a challenge whether I can truly take these words on my lips, but to have Christ as our life changes everything, the whole environment as you say. And the person is changed – I am changed."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "What went before has failed and it is not mended; Christ supersedes it. What delight for God in Christ, and in those who belong to Him, as redeemed by Christ and reconciled by Him."
+     "speaker": "GJR",
+     "text": [
+      "I was just noting the double use of the word “so” (v.16); “So that we henceforth know no one according to flesh; but if even we have known Christ according to flesh, yet now we know him thus no longer. So if ...”. Are we to read this to mean that the superseding of the old is not because there was any failure in it, because for those who knew Christ after the flesh, that was a privilege, yet even they knew Him thus no longer. It belonged to the old, and new creation has no connection with the old, not because the old had become infected with sin – the knowledge of Christ according to flesh was apart from any sin or failure – but because it is superseded. Am I making too much of that word “So”?"
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "As you said, we do not want to be occupied with what has passed away, but the Holy Spirit can only descend on that which is new creation, would you say? The Spirit descended as a dove upon Jesus in a unique way, but it descended upon those at Pentecost and is given to us in new creation. Would that be the point?"
+     "speaker": "AMB",
+     "text": [
+      "I confess that I had not thought about that. The “old things have passed away”, it is not saying the old things have been condemned, but they no longer apply. Is that the sense that you are bringing out?"
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "The Spirit comes into redeemed hearts who have the desire for Him and who are subject to Christ. These moral exercises are necessary to come into the good of this. What we enjoyed this morning can only be enjoyed as we are in Christ, and as such we are a new creation."
+     "speaker": "GJR",
+     "text": [
+      "I am just asking, perhaps I am being influenced by the fact that most of the translations I have seen have ‘if any one be in Christ, he is a new creature’. Someone pointed out that a butterfly is a new creature, but it is not a new creation, it has the same nature in our language, it has the same DNA as the egg and the grub and the pupa. The idea of a new creation seems a little harder to grasp, that there is no connection with the old."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "We were in Adam, in responsibility, and we failed and God dealt with that order of man in the death of Christ: “one died for all, then all have died”, 2 Cor.5:14. But when I put my faith in Christ, God has taken me up and views me now not as I was, as a poor wretched sinner, but in all the worth of that blessed Man. Is that something of what it means?"
+     "speaker": "AMB",
+     "text": [
+      "Yes, it derives differently; it derives from Christ as the raised and heavenly Man. It is life in Christ as risen, and it is to Him in His new condition that we are linked by the Spirit. Christ now is of the same order as He was in flesh and blood, but in a new condition. He imparts His life to us by the Spirit."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "That is very helpful. We have Christ as our righteousness. God does not look upon my righteousness. He could not, it has failed, and He looks upon Christ as my righteousness and I am accepted in Him, which is a wonderful truth. It is wonderful to have some experience of it."
+     "speaker": "PM",
+     "text": [
+      "Is that why Mary was told by Jesus, “Touch me not”, John 20:17? She had known Him in flesh and blood, a wonderful privilege as the apostle John says, and He had met her need in that condition in which she was, but she was to learn Him now in the world of new creation."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Paul says He has been made unto us “righteousness, and holiness and redemption”, 1 Cor.1:30. All is in that blessed One!"
+     "speaker": "AMB",
+     "text": [
+      "That is helpful. What is being brought out is that there is a new condition entirely, the old is not only superseded but no longer subsists."
+     ]
     },
     {
-     "speaker": "J.B.I.",
-     "text": "The scripture says, “behold all things have become new”. Is it in the power of the Spirit that the reality of all these things comes to us, so that we experience them freshly?"
+     "speaker": "RDP",
+     "text": [
+      "It is very difficult for us to get into our minds. Our entire life is bounded by checks, balances, touchstones, responsibility, history. But it is all gone, and what replaces it? It is Christ that replaces it – what is for God. There is nothing else, there is no external agency or control: “the old things have passed away; behold all things have become new”."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "That is helpful. It must be, as you say, in the power of the Spirit that we experience these things, yet it is believers who are reconciled. It has often been said in relation to reconciliation that what is old cannot be reconciled, and what is new does not need to be reconciled, but we are. We thus come into the benefit and the joy of the removal of all distance."
+     "speaker": "AMB",
+     "text": [
+      "That “all things” includes persons, and that is the glory of it; God’s thoughts for man in Christ brought about in this new creation."
+     ]
     },
     {
-     "speaker": "H.T.F.",
-     "text": "It is uniquely true as regards what we are speaking of that what has become new remains new. That could never be said of anything of the previous order, which deteriorates. What we are speaking of will always be new in eternity!"
+     "speaker": "EWH",
+     "text": [
+      "So it is “all things have become new”, not exactly made new. Is it really what God has done?"
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "We get that in the passage that we read in Revelation 21 – that what God has brought in in Christ is new. It is not like the old, nor will it become old: it is new and is maintained in perpetual freshness and vigour and life. Again I think we experienced something of that this morning; we enjoyed heavenly things, not by natural means at all, but in the power of the Spirit, and there was a sense of what is living and springing up. It is a real experience of eternal life."
+     "speaker": "AMB",
+     "text": [
+      "Yes, it is what He has done in Christ, a real Man, and a Man raised from among the dead and glorified. For us to come into the good of this and the enjoyment of it, it must involve the gift of the Holy Spirit."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "We might think this reference to “old things have passed away”, and to what it is to be “in Christ”, as meaning that our sins are set aside, because it says, “not reckoning to them their offences” (v.19). But it is much more. The whole environment in which we are, of responsibility, of what we understand as righteousness – all are old things that have passed away and the environment of this new creation is Christ, is it not?"
+     "speaker": "RWMcC",
+     "text": [
+      "I was just reflecting that the death of Christ is a proof of what we are speaking of, that the old had to be removed."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "We have to come to it that what is old is useless in the things of God; we gladly accept that, and it sets us free. We are not disappointed by failure in ourselves, we are past that. We are drawing upon Christ by the Spirit. We enjoy things together especially, and we also enjoy impressions individually. To the natural man they mean nothing, but the believer in Christ is given the capacity and the desire to enjoy the things of heaven, the things of Christ, the things that “God has prepared for them that love him”, 1 Cor.2:9. What you say about the environment is true. The apostle Paul says of Christ, “who is our life” (Col.3:4). It is a challenge whether I can truly take these words on my lips, but to have Christ as our life changes everything, the whole environment as you say. And the person is changed – I am changed."
+     "speaker": "AMB",
+     "text": [
+      "Yes, as our brother said earlier, God has judged the old order of man in the death of Christ."
+     ]
     },
     {
-     "speaker": "G.J.R.",
-     "text": "I was just noting the double use of the word “so” (v.16); “So that we henceforth know no one according to flesh; but if even we have known Christ according to flesh, yet now we know him thus no longer. So if ...”. Are we to read this to mean that the superseding of the old is not because there was any failure in it, because for those who knew Christ after the flesh, that was a privilege, yet even they knew Him thus no longer. It belonged to the old, and new creation has no connection with the old, not because the old had become infected with sin – the knowledge of Christ according to flesh was apart from any sin or failure – but because it is superseded. Am I making too much of that word “So”?"
+     "speaker": "RWMcC",
+     "text": [
+      "I was particularly thinking that the condition in which Christ was here as a Man had to end as well. I wondered if that particular aspect of it was appropriate to what we are thinking of. It required a Man in resurrection, but the old had to pass away: “He takes away the first that he may establish the second”, Heb.10:9."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "I confess that I had not thought about that. The “old things have passed away”, it is not saying the old things have been condemned, but they no longer apply. Is that the sense that you are bringing out?"
+     "speaker": "AMB",
+     "text": [
+      "Yes, so it is “all things”. It is not that the life of Christ here is forgotten. We were remembering this morning the One who was here, and that order of manhood continues but the condition in which He was is ended.",
+      "We should speak about what that leads to; “all things have become new: and all things are of the God who has reconciled us to himself by Jesus Christ”. God now has a Man before Him, as well as those who have been redeemed and reconciled to God by that blessed One – through divine grace and mercy, we among them. Christ could not reconcile to God what was not new because it was impossible, it would be morally irreconcilable. But for those in Christ Jesus, there is no distance. I think we experienced that this morning, of being at liberty and in nearness in the presence of God."
+     ]
     },
     {
-     "speaker": "G.J.R.",
-     "text": "I am just asking, perhaps I am being influenced by the fact that most of the translations I have seen have ‘if any one be in Christ, he is a new creature’. Someone pointed out that a butterfly is a new creature, but it is not a new creation, it has the same nature in our language, it has the same DNA as the egg and the grub and the pupa. The idea of a new creation seems a little harder to grasp, that there is no connection with the old."
+     "speaker": "AGM",
+     "text": [
+      "This order of manhood in Christ was always in God’s mind. Man in Adam was a temporary thing in God’s workings but when we see God’s purpose, He had in mind that men in Christ should be before Him."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes, it derives differently; it derives from Christ as the raised and heavenly Man. It is life in Christ as risen, and it is to Him in His new condition that we are linked by the Spirit. Christ now is of the same order as He was in flesh and blood, but in a new condition. He imparts His life to us by the Spirit."
+     "speaker": "AMB",
+     "text": [
+      "Yes, God has always had that in mind; as you say, that is His purpose. What we are, the order of man in Adam, was not purposed for eternity. Christ is for eternity."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Is that why Mary was told by Jesus, “Touch me not”, John 20:17? She had known Him in flesh and blood, a wonderful privilege as the apostle John says, and He had met her need in that condition in which she was, but she was to learn Him now in the world of new creation."
+     "speaker": "RG",
+     "text": [
+      "There must be glory attached to this: “and all things are of the God who has reconciled us to himself”. What God has reconciled to Himself by Jesus Christ, as taken into favour in that blessed One, is all according to His own delight, all taking character from that blessed One."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "That is helpful. What is being brought out is that there is a new condition entirely, the old is not only superseded but no longer subsists."
+     "speaker": "AMB",
+     "text": [
+      "The One about whom God has expressed His delight so fully is the One in whom we are brought into favour. It would magnify in our souls the greatness of the favour and the blessing spoken of in the beginning of Ephesians; “every spiritual blessing in the heavenlies” is ours. Believers are blessed with these blessings in Christ, and we are brought into favour in the Beloved. God delights to bless those who are in Christ."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "It is very difficult for us to get into our minds. Our entire life is bounded by checks, balances, touchstones, responsibility, history. But it is all gone, and what replaces it? It is Christ that replaces it – what is for God. There is nothing else, there is no external agency or control: “the old things have passed away; behold all things have become new”."
+     "speaker": "RDP",
+     "text": [
+      "The apostle writes that “God was in Christ, reconciling the world to himself, not reckoning to them their offences”. It refers to when the Lord Jesus came here in manhood in this condition, taking on flesh. “God was in Christ”; this thought of reconciliation is a kind of core, a joy, a completely new condition was there in the whole of the gospel. Reconciliation is a part of the gospel that is purely for God. We come into the benefit of it but “God was in Christ” is a striking expression! It was surely enough that Christ was here, but God was in Him, the heart of God and the fulness of His thoughts were there in intelligence and in every word."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "That “all things” includes persons, and that is the glory of it; God’s thoughts for man in Christ brought about in this new creation."
+     "speaker": "AMB",
+     "text": [
+      "It gives you a sense of God’s delight in Christ, He Himself being God but as a Man here fulfilling all God’s purpose perfectly. God’s being in Christ, God manifest in flesh, would enhance Christ’s glory to us and also impart a sense of God’s satisfaction and joy in Him, and also His grace. God was reconciling the world to Himself, there was something going on in that life of Jesus that was having the effect of reconciling the world. It needed His death to complete the work."
+     ]
     },
     {
-     "speaker": "E.W.H.",
-     "text": "So it is “all things have become new”, not exactly made new. Is it really what God has done?"
+     "speaker": "RDP",
+     "text": [
+      "And God has put in us “the word of that reconciliation”. We may find it very difficult to consider anything except sins and the putting away of sins and the forgiveness of sins and so on and find it difficult to grasp. Luke 15 gives you a son who had gone away and we do not know the extent of his sin except that it says he lived in debauchery and wasted his whole living. But he comes back and there is no mention of that; his father says “this my son was dead and has come to life, was lost and has been found” (v.24). You may say, What about the other son? It was not that he was disregarded, that was met, but what comes out is the joy of the Father."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes, it is what He has done in Christ, a real Man, and a Man raised from among the dead and glorified. For us to come into the good of this and the enjoyment of it, it must involve the gift of the Holy Spirit."
+     "speaker": "AMB",
+     "text": [
+      "His delight in the relationship of sonship implies no distance, and Christ has accomplished that for the Father. We have insights into the Father’s delight in that One as we ourselves enjoy the result of reconciliation and nearness to the Father."
+     ]
     },
     {
-     "text": "R.W.McC. I was just reflecting that the death of Christ is a proof of what we are speaking of, that the old had to be removed."
+     "speaker": "RW",
+     "text": [
+      "In fact we are not only blameless but we are “holy and blameless before him in love”. Blameless we can understand by our sins being forgiven and Christ standing in our place, but then holiness is something that is alien to us naturally. It can only be known in new creation."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes, as our brother said earlier, God has judged the old order of man in the death of Christ."
+     "speaker": "AMB",
+     "text": [
+      "Yes, it is in Christ that this is known and there is the whole side of exercise as to it and the help of the Holy Spirit in these matters. But what is presented in Ephesians is an accomplished fact; it says, “according as he has chosen us in him before the world’s foundation, that we should be holy and blameless before him in love”. That was God’s choice, His purpose, and Christ is the One who has effected all that purpose. God is delighted with Him and we come into the blessing, which is a great matter for our souls to be bathed in."
+     ]
     },
     {
-     "text": "R.W.McC. I was particularly thinking that the condition in which Christ was here as a Man had to end as well. I wondered if that particular aspect of it was appropriate to what we are thinking of. It required a Man in resurrection, but the old had to pass away: “He takes away the first that he may establish the second”, Heb.10:9."
+     "speaker": "RDP",
+     "text": [
+      "It has been said that we were sons in purpose long before we were sinners in practice. That is very fine!"
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes, so it is “all things”. It is not that the life of Christ here is forgotten. We were remembering this morning the One who was here, and that order of manhood continues but the condition in which He was is ended."
+     "speaker": "AMB",
+     "text": [
+      "That was according to God’s heart, the purposes of His love, and it required the coming in of Christ and His work. The redemption work involving His death and the shedding of His blood is mentioned here. We get that in verse 7 so it is not forgotten, but what is before the writer is the blessings that God is able to confer in Christ."
+     ]
     },
     {
-     "text": "We should speak about what that leads to; “all things have become new: and all things are of the God who has reconciled us to himself by Jesus Christ”. God now has a Man before Him, as well as those who have been redeemed and reconciled to God by that blessed One – through divine grace and mercy, we among them. Christ could not reconcile to God what was not new because it was impossible, it would be morally irreconcilable. But for those in Christ Jesus, there is no distance. I think we experienced that this morning, of being at liberty and in nearness in the presence of God."
+     "speaker": "AGM",
+     "text": [
+      "It is not just a dead plan, it is “according to the good pleasure of his will”. That is what is going to be eventually. All of God’s feelings were involved in this and in the satisfaction of the Beloved."
+     ]
     },
     {
-     "speaker": "A.G.M.",
-     "text": "This order of manhood in Christ was always in God’s mind. Man in Adam was a temporary thing in God’s workings but when we see God’s purpose, He had in mind that men in Christ should be before Him."
+     "speaker": "AMB",
+     "text": [
+      "That is fine. As being in the good of this and being reconciled to God, we begin to appreciate His heart more and more, and we can see that what God has done in Christ is for the satisfaction and for the joy of His heart."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes, God has always had that in mind; as you say, that is His purpose. What we are, the order of man in Adam, was not purposed for eternity. Christ is for eternity."
+     "speaker": "RG",
+     "text": [
+      "The “good pleasure of his will’, He is delighting in it!"
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "There must be glory attached to this: “and all things are of the God who has reconciled us to himself”. What God has reconciled to Himself by Jesus Christ, as taken into favour in that blessed One, is all according to His own delight, all taking character from that blessed One."
+     "speaker": "AMB",
+     "text": [
+      "Yes; God’s joy is implied in that, do you think? And His will encompasses all of His purpose and counsel and how these purposes were to be fulfilled."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "The One about whom God has expressed His delight so fully is the One in whom we are brought into favour. It would magnify in our souls the greatness of the favour and the blessing spoken of in the beginning of Ephesians; “every spiritual blessing in the heavenlies” is ours. Believers are blessed with these blessings in Christ, and we are brought into favour in the Beloved. God delights to bless those who are in Christ."
+     "speaker": "HTF",
+     "text": [
+      "The cup of the new covenant includes the thought of blessing and joy that you are speaking of. The Lord set it on, and it is related to what is new."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "The apostle writes that “God was in Christ, reconciling the world to himself, not reckoning to them their offences”. It refers to when the Lord Jesus came here in manhood in this condition, taking on flesh. “God was in Christ”; this thought of reconciliation is a kind of core, a joy, a completely new condition was there in the whole of the gospel. Reconciliation is a part of the gospel that is purely for God. We come into the benefit of it but “God was in Christ” is a striking expression! It was surely enough that Christ was here, but God was in Him, the heart of God and the fulness of His thoughts were there in intelligence and in every word."
+     "speaker": "AMB",
+     "text": [
+      "Yes, the new covenant involves God providing from His own side, and that is new. The old system and the old covenant was based on ‘this do and thou shalt live’. There was a responsibility placed on man which he was unable to fulfil. But the new covenant brings out what God has done in Christ perfectly and eternally. So that we are set free, and I think we experienced that this morning. There was nearness and liberty, and the enjoyment of what it is to be marked out for adoption “through Jesus Christ to himself”, and to come into the experience of sonship. God as Father loves to open up His thoughts to His sons."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "It gives you a sense of God’s delight in Christ, He Himself being God but as a Man here fulfilling all God’s purpose perfectly. God’s being in Christ, God manifest in flesh, would enhance Christ’s glory to us and also impart a sense of God’s satisfaction and joy in Him, and also His grace. God was reconciling the world to Himself, there was something going on in that life of Jesus that was having the effect of reconciling the world. It needed His death to complete the work."
+     "speaker": "JBI",
+     "text": [
+      "He has “marked us out”."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "And God has put in us “the word of that reconciliation”. We may find it very difficult to consider anything except sins and the putting away of sins and the forgiveness of sins and so on and find it difficult to grasp. Luke 15 gives you a son who had gone away and we do not know the extent of his sin except that it says he lived in debauchery and wasted his whole living. But he comes back and there is no mention of that; his father says “this my son was dead and has come to life, was lost and has been found” (v.24). You may say, What about the other son? It was not that he was disregarded, that was met, but what comes out is the joy of the Father."
+     "speaker": "AMB",
+     "text": [
+      "The footnote says it involves purpose. So that it is God who has marked us out. He has not published a list of those that He has marked out, they are marked out in God’s mind and heart, and then Christ has brought that about; He has effected God’s purpose by the work that He has done. It means that God has had us in mind for blessing before time was, which would enrich our impression of what the heart of God is. What would you say?"
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "His delight in the relationship of sonship implies no distance, and Christ has accomplished that for the Father. We have insights into the Father’s delight in that One as we ourselves enjoy the result of reconciliation and nearness to the Father."
+     "speaker": "JBI",
+     "text": [
+      "It brings in a certainty as to the purpose of God."
+     ]
     },
     {
-     "speaker": "R.W.",
-     "text": "In fact we are not only blameless but we are “holy and blameless before him in love”. Blameless we can understand by our sins being forgiven and Christ standing in our place, but then holiness is something that is alien to us naturally. It can only be known in new creation."
+     "speaker": "AMB",
+     "text": [
+      "The purpose of God and the work of Christ are entirely unshakeable and unchangeable, indelible too."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes, it is in Christ that this is known and there is the whole side of exercise as to it and the help of the Holy Spirit in these matters. But what is presented in Ephesians is an accomplished fact; it says, “according as he has chosen us in him before the world’s foundation, that we should be holy and blameless before him in love”. That was God’s choice, His purpose, and Christ is the One who has effected all that purpose. God is delighted with Him and we come into the blessing, which is a great matter for our souls to be bathed in."
+     "speaker": "RG",
+     "text": [
+      "It seems to involve sonship in nearness too."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "It has been said that we were sons in purpose long before we were sinners in practice. That is very fine!"
+     "speaker": "AMB",
+     "text": [
+      "Yes, the core of this involves what He has done; “marked us out beforehand for adoption through Jesus Christ to himself”. So that God had in mind the blessing of sonship for man before Adam was introduced, before the worlds were. We might just get an impression, as I think we had this morning, of God’s delight in Christ who has effected these purposes of God’s. He is the Man of God’s purpose, and as in Him we come into the enjoyment of the blessings which God has purposed."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "That was according to God’s heart, the purposes of His love, and it required the coming in of Christ and His work. The redemption work involving His death and the shedding of His blood is mentioned here. We get that in verse 7 so it is not forgotten, but what is before the writer is the blessings that God is able to confer in Christ."
+     "speaker": "PM",
+     "text": [
+      "He has entered into the presence of God in all His own worth, needing no introduction, needing nothing to be added, but we come in in His worth. How wonderful that is, and we are made to feel as if we belong there, which we do because He is there!"
+     ]
     },
     {
-     "speaker": "A.G.M.",
-     "text": "It is not just a dead plan, it is “according to the good pleasure of his will”. That is what is going to be eventually. All of God’s feelings were involved in this and in the satisfaction of the Beloved."
+     "speaker": "AMB",
+     "text": [
+      "It is all grace from God’s side and every provision is made, there is nothing lacking. I had an impression of that this morning. The thought of reconciliation links to it; every hindrance is removed. There is no process involved in entering in with Christ into the Father’s presence; it is enough that we are in Him and with Him."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "That is fine. As being in the good of this and being reconciled to God, we begin to appreciate His heart more and more, and we can see that what God has done in Christ is for the satisfaction and for the joy of His heart."
+     "speaker": "TJH",
+     "text": [
+      "“Perfect love casts out fear”, 1 John 4:18."
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "The “good pleasure of his will’, He is delighting in it!"
+     "speaker": "AMB",
+     "text": [
+      "God wants it that way. He has purposed that, He wants us to be holy and blameless in love, and it is achieved by the work of Christ."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes; God’s joy is implied in that, do you think? And His will encompasses all of His purpose and counsel and how these purposes were to be fulfilled."
+     "speaker": "TJH",
+     "text": [
+      "So God’s rest must be the object of perfect love casting out fear."
+     ]
     },
     {
-     "speaker": "H.T.F.",
-     "text": "The cup of the new covenant includes the thought of blessing and joy that you are speaking of. The Lord set it on, and it is related to what is new."
+     "speaker": "AMB",
+     "text": [
+      "As brought into His presence through Christ and by the Spirit, what we enjoy is the Father’s favour in the Beloved, and relationship with Him in His rest."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes, the new covenant involves God providing from His own side, and that is new. The old system and the old covenant was based on ‘this do and thou shalt live’. There was a responsibility placed on man which he was unable to fulfil. But the new covenant brings out what God has done in Christ perfectly and eternally. So that we are set free, and I think we experienced that this morning. There was nearness and liberty, and the enjoyment of what it is to be marked out for adoption “through Jesus Christ to himself”, and to come into the experience of sonship. God as Father loves to open up His thoughts to His sons."
+     "speaker": "TJH",
+     "text": [
+      "“If therefore the Son shall set you free, ye shall be really free” (John 8:36). That freedom is to serve as we had this morning."
+     ]
     },
     {
-     "speaker": "J.B.I.",
-     "text": "He has “marked us out”."
+     "speaker": "AMB",
+     "text": [
+      "The liberty to respond to God as Father as knowing His affections as Father."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "The footnote says it involves purpose. So that it is God who has marked us out. He has not published a list of those that He has marked out, they are marked out in God’s mind and heart, and then Christ has brought that about; He has effected God’s purpose by the work that He has done. It means that God has had us in mind for blessing before time was, which would enrich our impression of what the heart of God is. What would you say?"
+     "speaker": "AGM",
+     "text": [
+      "And we have the feelings of sonship. He has given to us “the Spirit of his Son”, Gal.4:6. It is not only that we are brought near but we have got the very feelings of sonship, and that involves that God is fully satisfied."
+     ]
     },
     {
-     "speaker": "J.B.I.",
-     "text": "It brings in a certainty as to the purpose of God."
+     "speaker": "AMB",
+     "text": [
+      "Yes, He has many like Christ and, as you so helpfully bring out, like Christ in feelings by the Spirit in us. It is the Spirit of His Son and we cry ‘Abba Father’; we take on the very words that the Lord Jesus used. They imply intense affection."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "The purpose of God and the work of Christ are entirely unshakeable and unchangeable, indelible too."
+     "speaker": "AGM",
+     "text": [
+      "That is what I understand, and the Father’s delight is in the company of sons all like Christ. There are features formed in the saints coming into evidence in the service and it is all for His rest."
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "It seems to involve sonship in nearness too."
+     "speaker": "AMB",
+     "text": [
+      "We can have some impression too of the Father’s intense delight in Christ as the One who has secured and sustained this, and who gives character to all."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes, the core of this involves what He has done; “marked us out beforehand for adoption through Jesus Christ to himself”. So that God had in mind the blessing of sonship for man before Adam was introduced, before the worlds were. We might just get an impression, as I think we had this morning, of God’s delight in Christ who has effected these purposes of God’s. He is the Man of God’s purpose, and as in Him we come into the enjoyment of the blessings which God has purposed."
+     "speaker": "RWMcC",
+     "text": [
+      "I was thinking that it was God’s purpose to have man before Him and to enjoy the company in sonship before Him. Mr Coates said that it is a peculiar glory of the Son to give effect to the counsels of God1. You can well understand that that One transcends and really characterises all that has been secured."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "He has entered into the presence of God in all His own worth, needing no introduction, needing nothing to be added, but we come in in His worth. How wonderful that is, and we are made to feel as if we belong there, which we do because He is there!"
+     "speaker": "AMB",
+     "text": [
+      "Exactly, He gives character to everything that is for God’s pleasure and for His delight. He been introduced by God; He will be our eternal occupation and we will rejoice in Him.",
+      "In Revelation 21, the eternal day is explicitly in view. It would enhance to our minds and hearts the glory of the assembly which is spoken of as “the holy city, new Jerusalem, coming down out of the heaven from God”. She comes from the presence of God, proceeding from His heart and mind. It would help us to see that the assembly is, speaking reverently, a key part of the purpose of God Himself. It is in the assembly that He will tabernacle with men. The thought of tabernacling involves nearness and liberty and rest; “they shall be his people, and God himself shall be with them, their God”. I was impressed by verse 4; there is a service that God will undertake to all those who are in His presence. Everything that would cause any dimming of joy and of experience of God’s presence is wiped away."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "It is all grace from God’s side and every provision is made, there is nothing lacking. I had an impression of that this morning. The thought of reconciliation links to it; every hindrance is removed. There is no process involved in entering in with Christ into the Father’s presence; it is enough that we are in Him and with Him."
+     "speaker": "RWMcC",
+     "text": [
+      "It shows you how near He is to wipe away the tear."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "“Perfect love casts out fear”, 1 John 4:18."
+     "speaker": "AMB",
+     "text": [
+      "In the prophet Isaiah there is a reference to God wiping away every tear from all faces (Isa.25:8), but here it is from “their eyes”. There is not even any sign of sorrow or what has come in before; “death shall not exist any more, nor grief, nor cry, nor distress shall exist any more”. This is all things entirely new! Heaven and earth will be taken away and there will be a new heaven and a new earth, it will be a spiritual sphere in which everything will be entirely according to God."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "God wants it that way. He has purposed that, He wants us to be holy and blameless in love, and it is achieved by the work of Christ."
+     "speaker": "HTF",
+     "text": [
+      "How tender His hand is."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "So God’s rest must be the object of perfect love casting out fear."
+     "speaker": "AMB",
+     "text": [
+      "You refer to God wiping away every tear from their eyes?"
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "As brought into His presence through Christ and by the Spirit, what we enjoy is the Father’s favour in the Beloved, and relationship with Him in His rest."
+     "speaker": "TJH",
+     "text": [
+      "Would you say that what is new is not actually a new thought to God: He has always had this thought of tabernacling with men. The name Jehovah suggests that. We were speaking about the reference in Psalm 23 to “Jehovah is my shepherd”. I wonder if that is suggestive of what we have as to God’s desires to tabernacle with men, both in the Old testament times and in what is new in Revelation."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "“If therefore the Son shall set you free, ye shall be really free” (John 8:36). That freedom is to serve as we had this morning."
+     "speaker": "AMB",
+     "text": [
+      "The name Jehovah implies relationship with His people of old. Here we have God entering into relationship eternally with His creature and everything entirely according to Him and suitable for His ,and God all and in all. He is the object of all, and He will give character to all. He will have done that in Christ."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "The liberty to respond to God as Father as knowing His affections as Father."
+     "speaker": "EJM",
+     "text": [
+      "What do you think about the order here? It is eternal; the apostle begins with the eternal day and then he comes down to the present moment when there is a need for overcoming; “He that overcomes”. And then when he starts with verse 9 in the millennium, it is still a time scene although we will be in eternal conditions, a thousand years."
+     ]
     },
     {
-     "speaker": "A.G.M.",
-     "text": "And we have the feelings of sonship. He has given to us “the Spirit of his Son”, Gal.4:6. It is not only that we are brought near but we have got the very feelings of sonship, and that involves that God is fully satisfied."
+     "speaker": "AMB",
+     "text": [
+      "What is described from verse 9 onwards is the time scene, as you say. But the overcoming in verse 7 is for us in the present time being encouraged by God’s word to overcome and to hold God’s great thoughts, His final thoughts, thoughts of His rest in our minds. We have an objective in view, and a complete certainty that what God has set out in His purposes, He will secure. In His grace, God assures us. He assures us that because He has purposed it, it is as good as done."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "Yes, He has many like Christ and, as you so helpfully bring out, like Christ in feelings by the Spirit in us. It is the Spirit of His Son and we cry ‘Abba Father’; we take on the very words that the Lord Jesus used. They imply intense affection."
+     "speaker": "RG",
+     "text": [
+      "“And I heard a loud voice out of the heaven”, so it is clearly heard, “Behold the tabernacle of God is with men”. That involves nearness, does it not?"
+     ]
     },
     {
-     "speaker": "A.G.M.",
-     "text": "That is what I understand, and the Father’s delight is in the company of sons all like Christ. There are features formed in the saints coming into evidence in the service and it is all for His rest."
-    },
-    {
-     "speaker": "A.M.B.",
-     "text": "We can have some impression too of the Father’s intense delight in Christ as the One who has secured and sustained this, and who gives character to all."
-    },
-    {
-     "text": "R.W.McC. I was thinking that it was God’s purpose to have man before Him and to enjoy the company in sonship before Him. Mr Coates said that it is a peculiar glory of the Son to give effect to the counsels of God1. You can well understand that that One transcends and really characterises all that has been secured."
-    },
-    {
-     "speaker": "A.M.B.",
-     "text": "Exactly, He gives character to everything that is for God’s pleasure and for His delight. He been introduced by God; He will be our eternal occupation and we will rejoice in Him."
-    },
-    {
-     "text": "In Revelation 21, the eternal day is explicitly in view. It would enhance to our minds and hearts the glory of the assembly which is spoken of as “the holy city, new Jerusalem, coming down out of the heaven from God”. She comes from the presence of God, proceeding from His heart and mind. It would help us to see that the assembly is, speaking reverently, a key part of the purpose of God Himself. It is in the assembly that He will tabernacle with men. The thought of tabernacling involves nearness and liberty and rest; “they shall be his people, and God himself shall be with them, their God”. I was impressed by verse 4; there is a service that God will undertake to all those who are in His presence. Everything that would cause any dimming of joy and of experience of God’s presence is wiped away."
-    },
-    {
-     "text": "R.W.McC. It shows you how near He is to wipe away the tear."
-    },
-    {
-     "speaker": "A.M.B.",
-     "text": "In the prophet Isaiah there is a reference to God wiping away every tear from all faces (Isa.25:8), but here it is from “their eyes”. There is not even any sign of sorrow or what has come in before; “death shall not exist any more, nor grief, nor cry, nor distress shall exist any more”. This is all things entirely new! Heaven and earth will be taken away and there will be a new heaven and a new earth, it will be a spiritual sphere in which everything will be entirely according to God."
-    },
-    {
-     "speaker": "H.T.F.",
-     "text": "How tender His hand is."
-    },
-    {
-     "speaker": "A.M.B.",
-     "text": "You refer to God wiping away every tear from their eyes?"
-    },
-    {
-     "speaker": "T.J.H.",
-     "text": "Would you say that what is new is not actually a new thought to God: He has always had this thought of tabernacling with men. The name Jehovah suggests that. We were speaking about the reference in Psalm 23 to “Jehovah is my shepherd”. I wonder if that is suggestive of what we have as to God’s desires to tabernacle with men, both in the Old testament times and in what is new in Revelation."
-    },
-    {
-     "speaker": "A.M.B.",
-     "text": "The name Jehovah implies relationship with His people of old. Here we have God entering into relationship eternally with His creature and everything entirely according to Him and suitable for His ,and God all and in all. He is the object of all, and He will give character to all. He will have done that in Christ."
-    },
-    {
-     "speaker": "E.J.M.",
-     "text": "What do you think about the order here? It is eternal; the apostle begins with the eternal day and then he comes down to the present moment when there is a need for overcoming; “He that overcomes”. And then when he starts with verse 9 in the millennium, it is still a time scene although we will be in eternal conditions, a thousand years."
-    },
-    {
-     "speaker": "A.M.B.",
-     "text": "What is described from verse 9 onwards is the time scene, as you say. But the overcoming in verse 7 is for us in the present time being encouraged by God’s word to overcome and to hold God’s great thoughts, His final thoughts, thoughts of His rest in our minds. We have an objective in view, and a complete certainty that what God has set out in His purposes, He will secure. In His grace, God assures us. He assures us that because He has purposed it, it is as good as done."
-    },
-    {
-     "speaker": "R.G.",
-     "text": "“And I heard a loud voice out of the heaven”, so it is clearly heard, “Behold the tabernacle of God is with men”. That involves nearness, does it not?"
-    },
-    {
-     "speaker": "A.M.B.",
-     "text": "It is emphatic, that loud voice, there is no doubt about it. God has put the effecting of His desire to tabernacle with men, to dwell in nearness with man, into the hands of Christ. This beginning of the eternal day is when Christ will deliver up the kingdom to Him who is God and Father. Everything that Christ has done will be for God’s glory and rest and praise eternally."
+     "speaker": "AMB",
+     "text": [
+      "It is emphatic, that loud voice, there is no doubt about it. God has put the effecting of His desire to tabernacle with men, to dwell in nearness with man, into the hands of Christ. This beginning of the eternal day is when Christ will deliver up the kingdom to Him who is God and Father. Everything that Christ has done will be for God’s glory and rest and praise eternally."
+     ]
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alistair M Brown Linlithgow\" read as Alistair M Brown, Linlithgow"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"H Tim Franklin Grimsby\" read as H Tim Franklin, Grimsby"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"Rob Gardiner Aberdeen\" read as Rob Gardiner, Aberdeen"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"Trevor J Harvey East Finchley\" read as Trevor J Harvey, East Finchley"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"Ernest Hogan Grangemouth\" read as Ernest Hogan, Grangemouth"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"J Bruce Ikin Manchester\" read as J Bruce Ikin, Manchester"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alex G Mair Cullen\" read as Alex G Mair, Cullen"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"Paul Martin Colchester\" read as Paul Martin, Colchester"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"Ron D Plant Birmingham\" read as Ron D Plant, Birmingham"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"G John Richards Malvern\" read as G John Richards, Malvern"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "no_comma_before_place",
+   "detail": "\"Russell Wallace Spaldwick\" read as Russell Wallace, Spaldwick"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "not_a_name",
+   "detail": "\"Additional copies are available\" left out of the key"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "publisher_in_key",
+   "detail": "\"@virginmedia.com or paul@nofm.co.uk...\" ignored"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "not_a_name",
+   "detail": "\"notesofministry\" left out of the key"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "initials_before_name",
+   "detail": "11 entries written as initials then name (\"AMB ...\")"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "speaker_not_in_key",
+   "detail": "EJM (3 paragraphs)"
+  },
+  {
+   "article": 2,
+   "title": "ALL THINGS NEW",
+   "kind": "speaker_not_in_key",
+   "detail": "RWMcC (in the text)"
   }
  ]
 }

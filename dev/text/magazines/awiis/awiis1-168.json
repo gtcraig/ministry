@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,30 +26,31 @@
    "place": "LONDON",
    "date": "15 February 1986",
    "speakers": [
-    "R.D.P.",
-    "E.C.B.",
-    "J.C.E.",
-    "J.W.",
-    "S.D.K.R.",
-    "R.T.",
-    "J.M.",
-    "C.G.H.",
-    "H.A.H.",
-    "E.F.W.",
-    "W.J.R.B.",
-    "E.O.",
-    "P.S.W.",
-    "R.W.F.",
-    "W.H.S.",
-    "M.J.W.",
-    "P.M.",
-    "C.C.I.",
-    "R.E.T."
+    "RDP",
+    "ECB",
+    "JCE",
+    "JW",
+    "SDKR",
+    "RT",
+    "JM",
+    "CGH",
+    "HAH",
+    "EFW",
+    "WJRB",
+    "EO",
+    "PSW",
+    "RWF",
+    "WHS",
+    "MJW",
+    "PM",
+    "CCI",
+    "RET"
    ],
    "initials": [
     {
-     "initials": "LECB",
-     "name": "(all London unless otherwise indicated) E.C.Burr"
+     "initials": "ECB",
+     "name": "E.C.Burr",
+     "place": "London"
     },
     {
      "initials": "WJRB",
@@ -58,11 +59,13 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "London"
     },
     {
      "initials": "RWF",
-     "name": "R.W.Flowerdew"
+     "name": "R.W.Flowerdew",
+     "place": "London"
     },
     {
      "initials": "CGH",
@@ -71,7 +74,8 @@
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "London"
     },
     {
      "initials": "CC",
@@ -90,7 +94,8 @@
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "London"
     },
     {
      "initials": "RDP",
@@ -119,7 +124,8 @@
     },
     {
      "initials": "PSW",
-     "name": "P.S.Warren"
+     "name": "P.S.Warren",
+     "place": "London"
     },
     {
      "initials": "JW",
@@ -135,483 +141,707 @@
      "initials": "MJW",
      "name": "M.J.Welch",
      "place": "Sunbury"
+    },
+    {
+     "initials": "CCI",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "all London unless otherwise indicated",
    "initials_text": [
     "(all London unless otherwise indicated)",
     "E.C.Burr; W.J.R.Brodie, Ealing; J.C.Evershed; R.W.Flowerdew; C.G.Hitchcock, Ealing; H.A.Hutson; C.C.lkin, Southend; J.Mitchell, Bexley; P.Martin, Colchester; E.Oliver; R.D.Plant, Birmingham; S.D.K.Roberts, Croydon; W.H.Shephard, Bedford; R.Taylor, Barnet; R.E.Turner, Bexley; P.S.Warren; J.Wright, Redbridge; E.F.Woodford, Dorking; M.J.Welch, Sunbury;"
    ],
    "paragraphs": [
     {
-     "speaker": "R.D.P.",
-     "text": "I wondered if we might enquire about the meaning of the last part of verse 38 in John 7 \"out of his belly shall flow rivers of living water\". It is a very great exercise, is it not, as to what is flowing out from us? We know what flows out of the heart of man; we know what the works of the flesh are - Galatians gives us that, a long list of it. (Gal 6: 19-21). Paul learned at Jerusalem that sometimes not very much flowed out from the brethren; he says as to those who were conspicuous among them, \"to me they communicated nothing\" (Gal 2: 6). These are very searching things, beloved brethren, as a background to what I am saying. On the other hand in John's gospel the Lord says, \"out of his belly shall flow rivers of living water\". It is a lovely gospel, John's gospel - all about a Man, not about a system; it is about the Man whom God has chosen. It opens without preamble, without previous history or connection exactly with Israel, and introduces the One who is the Word. And one verse has arrested me. It says, \"In him was life\" (chap 1: 4); in Him is life, dear brethren. John's writing cuts through every kind of human organisation - remember that he is writing in a day when the first of Paul's assemblies had begun to break down - so that it is particularly appropriate to our day, and what he brings on to the view of the believer is Christ Himself. Sometimes our outlook becomes obscured because of pressure or sorrow and it is good to be reminded that the centre of everything for us is Jesus. \"In him was life\" - we shall be disappointed if we look for life anywhere else apart from Him. Throughout this gospel the glory of Christ is brought on to view. In this chapter, which is a scripture that particularly bears on our day because it refers to when the Spirit is come and Christ is glorified, there is controversy about what the truth was, and where the truth lay, and who He was, and what the leaders of the day had said and He cries - the Lord Jesus cries - \"If any one thirst, let him come to me and drink\". These are very fine things, beloved. Then He speaks about what is going to flow out of the believer, as coming to Him."
+     "speaker": "RDP",
+     "text": [
+      "I wondered if we might enquire about the meaning of the last part of verse 38 in John 7 \"out of his belly shall flow rivers of living water\". It is a very great exercise, is it not, as to what is flowing out from us? We know what flows out of the heart of man; we know what the works of the flesh are - Galatians gives us that, a long list of it. (Gal 6: 19-21). Paul learned at Jerusalem that sometimes not very much flowed out from the brethren; he says as to those who were conspicuous among them, \"to me they communicated nothing\" (Gal 2: 6). These are very searching things, beloved brethren, as a background to what I am saying. On the other hand in John's gospel the Lord says, \"out of his belly shall flow rivers of living water\". It is a lovely gospel, John's gospel - all about a Man, not about a system; it is about the Man whom God has chosen. It opens without preamble, without previous history or connection exactly with Israel, and introduces the One who is the Word. And one verse has arrested me. It says, \"In him was life\" (chap 1: 4); in Him is life, dear brethren. John's writing cuts through every kind of human organisation - remember that he is writing in a day when the first of Paul's assemblies had begun to break down - so that it is particularly appropriate to our day, and what he brings on to the view of the believer is Christ Himself. Sometimes our outlook becomes obscured because of pressure or sorrow and it is good to be reminded that the centre of everything for us is Jesus. \"In him was life\" - we shall be disappointed if we look for life anywhere else apart from Him. Throughout this gospel the glory of Christ is brought on to view. In this chapter, which is a scripture that particularly bears on our day because it refers to when the Spirit is come and Christ is glorified, there is controversy about what the truth was, and where the truth lay, and who He was, and what the leaders of the day had said and He cries - the Lord Jesus cries - \"If any one thirst, let him come to me and drink\". These are very fine things, beloved. Then He speaks about what is going to flow out of the believer, as coming to Him.",
+      "I believe that David sets out this feature; he made an impact as soon as he comes upon the scene; it says he was ruddy, of a beautiful countenance and of beautiful appearance. He had influence not because of what he was naturally but because of what he held inwardly, and he affected things amongst the brethren. The two chapters each side of chapter twentyfive set that out, so that the blessedness of what was coming out of David, the powerful rivers that were flowing, could even affect a Saul, a king Saul, and almost turn him from the evil course he was on. Here in chapter 25 David slips from that, from that wonderful influence of grace and power, and what I think is seen in that is that while the main opposition line of Saul is something which David is consistently able to meet in the powerful flow, an incidental thing like Nabal's treatment of him almost overcomes him. I think what comes in in Abigail is the effect the features of the assembly in the saints have upon one another in restoring the flow of the rivers that are to flow out of the belly of the believer."
+     ]
     },
     {
-     "text": "I believe that David sets out this feature; he made an impact as soon as he comes upon the scene; it says he was ruddy, of a beautiful countenance and of beautiful appearance. He had influence not because of what he was naturally but because of what he held inwardly, and he affected things amongst the brethren. The two chapters each side of chapter twentyfive set that out, so that the blessedness of what was coming out of David, the powerful rivers that were flowing, could even affect a Saul, a king Saul, and almost turn him from the evil course he was on. Here in chapter 25 David slips from that, from that wonderful influence of grace and power, and what I think is seen in that is that while the main opposition line of Saul is something which David is consistently able to meet in the powerful flow, an incidental thing like Nabal's treatment of him almost overcomes him. I think what comes in in Abigail is the effect the features of the assembly in the saints have upon one another in restoring the flow of the rivers that are to flow out of the belly of the believer."
+     "speaker": "ECB",
+     "text": [
+      "It is interesting that the scriptures begin and end with rivers that flow out; they flowed out of Eden, but a river of water of life, clear as crystal, flows out of the city. Would that be a way in which the characteristics of the assembly would be seen in one now as they flow out of his belly?"
+     ]
     },
     {
-     "text": "E.C.B It is interesting that the scriptures begin and end with rivers that flow out; they flowed out of Eden, but a river of water of life, clear as crystal, flows out of the city. Would that be a way in which the characteristics of the assembly would be seen in one now as they flow out of his belly?"
+     "speaker": "RDP",
+     "text": [
+      "Yes. As you would know, in the teaching, this scripture is linked with the river in Genesis. The river that flowed out of Eden watered the garden, and then it became influential throughout the whole (we may say) of the creation. Think of the tremendous character of that, and then, as you say, you have at the end the river as bright as crystal. For us it must involve the power of the Holy Spirit flowing out, but there is to be a flowing out."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes. As you would know, in the teaching, this scripture is linked with the river in Genesis. The river that flowed out of Eden watered the garden, and then it became influential throughout the whole (we may say) of the creation. Think of the tremendous character of that, and then, as you say, you have at the end the river as bright as crystal. For us it must involve the power of the Holy Spirit flowing out, but there is to be a flowing out."
+     "speaker": "ECB",
+     "text": [
+      "Another river that flows out in the scriptures is in Ezekiel, and everything lives where it comes."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Another river that flows out in the scriptures is in Ezekiel, and everything lives where it comes."
+     "speaker": "RDP",
+     "text": [
+      "Yes, everything lives where it comes. What a thing this is in our day, beloved brethren, that the Lord says, \"out of his belly shall flow rivers of living water\" - not flowing out of his head. It is not exactly that the testimony of the Man who is above, and the power of everything that is connected with Him, is flowing out of what you know; but it is flowing out of what you are. And the first place that the river waters is the garden. We often speak of testimony, but the first place, you may say, where what is flowing out is to be effectual is amongst the saints."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, everything lives where it comes. What a thing this is in our day, beloved brethren, that the Lord says, \"out of his belly shall flow rivers of living water\" - not flowing out of his head. It is not exactly that the testimony of the Man who is above, and the power of everything that is connected with Him, is flowing out of what you know; but it is flowing out of what you are. And the first place that the river waters is the garden. We often speak of testimony, but the first place, you may say, where what is flowing out is to be effectual is amongst the saints."
+     "speaker": "ECB",
+     "text": [
+      "Like Acts 2 - it filled all the house, and something was established there that has never needed to be done again, but it flowed out and everyone heard in their own tongue the great things of God."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Like Acts 2 - it filled all the house, and something was established there that has never needed to be done again, but it flowed out and everyone heard in their own tongue the great things of God."
+     "speaker": "RDP",
+     "text": [
+      "Yes, I think that is important. There is a concern amongst the saints as to the testimony, and rightly so. Many of the threeday meetings that we have had have been related to the testimony - the maintenance of the testimony in a broken day and so on. I think the saints are exercised about that, but surely, first of all, the place that the river waters is the garden, and how could it be otherwise? How could there be effectiveness in testimony if the garden is not watered first? How could there be something, you may say, which is lacking amongst the saints and then expect the testimony to flow out to men. The river waters the garden first."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, I think that is important. There is a concern amongst the saints as to the testimony, and rightly so. Many of the threeday meetings that we have had have been related to the testimony - the maintenance of the testimony in a broken day and so on. I think the saints are exercised about that, but surely, first of all, the place that the river waters is the garden, and how could it be otherwise? How could there be effectiveness in testimony if the garden is not watered first? How could there be something, you may say, which is lacking amongst the saints and then expect the testimony to flow out to men. The river waters the garden first."
+     "speaker": "JCE",
+     "text": [
+      "Abigail had evidently observed David very carefully. She said, he \"fights the battles of Jehovah\"; it was not just that he was a bright young man or anything of that kind. I wondered whether the water will not flow out unless it is there to flow, and hence the Lord speaks here as a herald of good news to be had from Him personally."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Abigail had evidently observed David very carefully. She said, he \"fights the battles of Jehovah\"; it was not just that he was a bright young man or anything of that kind. I wondered whether the water will not flow out unless it is there to flow, and hence the Lord speaks here as a herald of good news to be had from Him personally."
+     "speaker": "RDP",
+     "text": [
+      "The cries of Jesus are always interesting, are they not? - Here in John's gospel it is \"In the last, the great day of the feast\", and what the feast had brought out was that there was disappointment and insufficiency. What was to be the celebration of the gathering together of the saints, the people of God - the feast of tabernacles, was it not? - was really ending in confusion and doubts and murmurings and questionings, and all this kind of thing. Beloved, it is a day like ours and the answer to it is Jesus, and He stands and He cries. I really think that for myself I would like to get an impression of the feelings of Christ as to this present day in which we are and when there is so much potential. He stands and He cries, and He says there is going to be a flowing out, and it is going to flow out of the bellies of the saints. It is not going to be from our heads, beloved; there is the sympathetic, powerful flow of the Spirit that is to be involved in the testimony."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "The cries of Jesus are always interesting, are they not? - Here in John's gospel it is \"In the last, the great day of the feast\", and what the feast had brought out was that there was disappointment and insufficiency. What was to be the celebration of the gathering together of the saints, the people of God - the feast of tabernacles, was it not? - was really ending in confusion and doubts and murmurings and questionings, and all this kind of thing. Beloved, it is a day like ours and the answer to it is Jesus, and He stands and He cries. I really think that for myself I would like to get an impression of the feelings of Christ as to this present day in which we are and when there is so much potential. He stands and He cries, and He says there is going to be a flowing out, and it is going to flow out of the bellies of the saints. It is not going to be from our heads, beloved; there is the sympathetic, powerful flow of the Spirit that is to be involved in the testimony."
+     "speaker": "JW",
+     "text": [
+      "If I am to refresh others I must find my satisfaction in Jesus Himself. \"If any one thirst\". There is a need, is there not, and we find our satisfaction in Him?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "If I am to refresh others I must find my satisfaction in Jesus Himself. \"If any one thirst\". There is a need, is there not, and we find our satisfaction in Him?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, I think so. It is the affections. That is what comes out in John 4: the woman's affections are met. She had tried to satisfy her affections. Every one here has this basic need as to their affections being met, and what comes in in John 4 is that He meets that and He says, \"the water which I shall give him shall become in him a fountain of water, springing up into eternal life\" (v 14). That is what is proposed in the believer. In John 4, the waters spring up in the believer; in John 7 the waters flow out from the believer, and it is a day, surely, when there is to be a flowing out."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, I think so. It is the affections. That is what comes out in John 4: the woman's affections are met. She had tried to satisfy her affections. Every one here has this basic need as to their affections being met, and what comes in in John 4 is that He meets that and He says, \"the water which I shall give him shall become in him a fountain of water, springing up into eternal life\" (v 14). That is what is proposed in the believer. In John 4, the waters spring up in the believer; in John 7 the waters flow out from the believer, and it is a day, surely, when there is to be a flowing out."
+     "speaker": "SDKR",
+     "text": [
+      "The last day of the feast would have been following the day of atonement, would it not, and if that had been real there would have been liberty; we come in after that great work has been done."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "The last day of the feast would have been following the day of atonement, would it not, and if that had been real there would have been liberty; we come in after that great work has been done."
+     "speaker": "RDP",
+     "text": [
+      "That is very good; we come after that work has been done. John in his gospel brings in the Man who did the work. \"Behold the Lamb of God, who takes away the sin of the world\" (chap1: 29) - John's admiration for Christ. This book is written by a man who loves Him; one who admires Him, and there is no one can write an account better than a man who loves and admires the subject he is writing about, and he speaks of Him as One who takes away the sin of the world. So \"out of his belly shall flow rivers of living water\". It suggests to your mind something that is very attractive that is flowing out. Now you cannot stop a river; you do not switch a river off and on, do you? The river flows. If the source of the river is there nothing can stop its flow, and the source of the river in the believer, is, I suppose, the presence of the Holy Spirit."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "That is very good; we come after that work has been done. John in his gospel brings in the Man who did the work. \"Behold the Lamb of God, who takes away the sin of the world\" (chap1: 29) - John's admiration for Christ. This book is written by a man who loves Him; one who admires Him, and there is no one can write an account better than a man who loves and admires the subject he is writing about, and he speaks of Him as One who takes away the sin of the world. So \"out of his belly shall flow rivers of living water\". It suggests to your mind something that is very attractive that is flowing out. Now you cannot stop a river; you do not switch a river off and on, do you? The river flows. If the source of the river is there nothing can stop its flow, and the source of the river in the believer, is, I suppose, the presence of the Holy Spirit."
+     "speaker": "ECB",
+     "text": [
+      "Is there any link between this and 2 Corinthians 4: \"Who has shone in our hearts for the shining forth of the knowledge of the glory of God in the face of Jesus Christ\" (v.6)."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is there any link between this and 2 Corinthians 4: \"Who has shone in our hearts for the shining forth of the knowledge of the glory of God in the face of Jesus Christ\" (v.6)."
+     "speaker": "RDP",
+     "text": [
+      "Yes, I think so. There is something very attractive in that, is there not? By the end of the chapter in John 4, even from that woman the rivers were starting to flow out. She says, \"Come, see a man who told me all things I had ever done: is not he the Christ?\". The rivers were beginning to flow, and they would never stop in that sense. The testimony affects persons who previously had had no link with Christ; they come to believe for themselves and the rivers begin to flow. So, as you say, there is a shining out."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, I think so. There is something very attractive in that, is there not? By the end of the chapter in John 4, even from that woman the rivers were starting to flow out. She says, \"Come, see a man who told me all things I had ever done: is not he the Christ?\". The rivers were beginning to flow, and they would never stop in that sense. The testimony affects persons who previously had had no link with Christ; they come to believe for themselves and the rivers begin to flow. So, as you say, there is a shining out."
+     "speaker": "ECB",
+     "text": [
+      "The structure of this chapter in the part that we read is very interesting because Jesus says, I go away, and I think we can discern the feeling and disappointment, as it were, of the disciples; but He says there will be something else here. \"Greater things than these, because I go away to the Father\" is implied in this, is it?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The structure of this chapter in the part that we read is very interesting because Jesus says, I go away, and I think we can discern the feeling and disappointment, as it were, of the disciples; but He says there will be something else here. \"Greater things than these, because I go away to the Father\" is implied in this, is it?"
+     "speaker": "RDP",
+     "text": [
+      "I think that is right, and greater things even than this come on to view later in chapter 14 onwards, in relation to the Holy Spirit. There are great things in view, and what words they were in that hymn that we started with (No.267); the greatness of Christ is coming on to view, growing and growing."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think that is right, and greater things even than this come on to view later in chapter 14 onwards, in relation to the Holy Spirit. There are great things in view, and what words they were in that hymn that we started with (No.267); the greatness of Christ is coming on to view, growing and growing."
+     "speaker": "RT",
+     "text": [
+      "This experience starts by, Come to Me and drink, does it not? The previous part of the chapter is outside everything else, is it not? \"Ye shall seek me and shall not find me\" (v 34). Do we have to get clear of the dry system and find somebody who is in His own domain and what is flowing from Him?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "This experience starts by, Come to Me and drink, does it not? The previous part of the chapter is outside everything else, is it not? \"Ye shall seek me and shall not find me\" (v 34). Do we have to get clear of the dry system and find somebody who is in His own domain and what is flowing from Him?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, that is very helpful. As you say, the dry system means that we are disappointed. If we are disappointed amongst the saints, it is because we are connected with what is dry; there is no disappointment in Christ. I believe we need what is constructive as well as corrective. The constructive epistles, I suppose, are Romans, Colossians and Ephesians; this section links with Ephesians so that God would teach us and build us up in a system that is flowing, as over against the system that is dry."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, that is very helpful. As you say, the dry system means that we are disappointed. If we are disappointed amongst the saints, it is because we are connected with what is dry; there is no disappointment in Christ. I believe we need what is constructive as well as corrective. The constructive epistles, I suppose, are Romans, Colossians and Ephesians; this section links with Ephesians so that God would teach us and build us up in a system that is flowing, as over against the system that is dry."
+     "speaker": "RT",
+     "text": [
+      "You have to drink every day, have you not? You do not get a reservoir that keeps you going for a week or a month, but it is something every day?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "You have to drink every day, have you not? You do not get a reservoir that keeps you going for a week or a month, but it is something every day?"
+     "speaker": "RDP",
+     "text": [
+      "Yes - let him come to Me and drink. He that believes on Me. That is really where the rivers are going to flow, and I think we know in our own experience as our belief, our current belief, you may say, on the Lord Jesus wanes, so the rivers cease to flow in our experience and in our testimony. If you see a person who is in the constant appreciation of Christ, you are impressed with the way the waters flow. It is, He that comes to Me. In John's gospel everything is current, it is not historic."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes - let him come to Me and drink. He that believes on Me. That is really where the rivers are going to flow, and I think we know in our own experience as our belief, our current belief, you may say, on the Lord Jesus wanes, so the rivers cease to flow in our experience and in our testimony. If you see a person who is in the constant appreciation of Christ, you are impressed with the way the waters flow. It is, He that comes to Me. In John's gospel everything is current, it is not historic."
+     "speaker": "JCE",
+     "text": [
+      "Were these officers beginning on the right way; they say, \"Never man spoke thus, as this man speaks\". I would not say they were in the full gain of it but they were on the way."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Were these officers beginning on the right way; they say, \"Never man spoke thus, as this man speaks\". I would not say they were in the full gain of it but they were on the way."
+     "speaker": "RDP",
+     "text": [
+      "Yes, \"Never man spoke\". What a book this is; it is projecting one Man. John says, \"A Man comes after me who takes a place before me, because he was before me\" John 1: 30. Here they say, \"Never man spoke thus\". In John 5 the infirm man says, \"I have not a man,\" and the Man comes into his view. Later on in the book \"Behold the man\". John's gospel and Christianity are about Christ, not about any system. It is about that Man Himself."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, \"Never man spoke\". What a book this is; it is projecting one Man. John says, \"A Man comes after me who takes a place before me, because he was before me\" John 1: 30. Here they say, \"Never man spoke thus\". In John 5 the infirm man says, \"I have not a man,\" and the Man comes into his view. Later on in the book \"Behold the man\". John's gospel and Christianity are about Christ, not about any system. It is about that Man Himself."
+     "speaker": "ECB",
+     "text": [
+      "Do you think we tend to hold what the Lord says about the Spirit in chapters 14 to 16 in a sense too privately, as if the effect of it is limited to the company being guided into all the truth, but the Lord's closing word about the Spirit is that He will be a witness and you will be a witness?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think we tend to hold what the Lord says about the Spirit in chapters 14 to 16 in a sense too privately, as if the effect of it is limited to the company being guided into all the truth, but the Lord's closing word about the Spirit is that He will be a witness and you will be a witness?"
+     "speaker": "RDP",
+     "text": [
+      "That is good. So that the river that flowed out of Eden watered the garden, but then it parted; it became four main streams, and the brethren who have read the recent monthly book will have read something about that. The first river surrounds the land of Havilah where the gold is; that is the testimony. Is that what it is for you? You go out there and they say, Here is a man who reminds me of the place where the gold is. That is to be the testimony. The power of the flow of the influence of the Spirit through the believer is going to speak about the land where the gold is. It waters the garden but then it goes out and it parts and you get this tremendous sphere of influence. What influence it is going to be in our day and even beyond it, the flow of the river. The last river is Euphrates. It does not say anything about Euphrates; it just leaves it - it says, \"the fourth river, that is Euphrates\". Gen 2: 14. Euphrates usually speaks, I think, about the boundaries of what God is doing. Think of that, beloved brethren, there is going to be a time when this day of grace and of faith in which we are will be over, the fourth river is Euphrates."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "That is good. So that the river that flowed out of Eden watered the garden, but then it parted; it became four main streams, and the brethren who have read the recent monthly book will have read something about that. The first river surrounds the land of Havilah where the gold is; that is the testimony. Is that what it is for you? You go out there and they say, Here is a man who reminds me of the place where the gold is. That is to be the testimony. The power of the flow of the influence of the Spirit through the believer is going to speak about the land where the gold is. It waters the garden but then it goes out and it parts and you get this tremendous sphere of influence. What influence it is going to be in our day and even beyond it, the flow of the river. The last river is Euphrates. It does not say anything about Euphrates; it just leaves it - it says, \"the fourth river, that is Euphrates\". Gen 2: 14. Euphrates usually speaks, I think, about the boundaries of what God is doing. Think of that, beloved brethren, there is going to be a time when this day of grace and of faith in which we are will be over, the fourth river is Euphrates."
+     "speaker": "JM",
+     "text": [
+      "There is a certain link then with what the Spirit is doing objectively; we know that the Spirit in the book of Acts is in charge of the testimony and the gospel coming into Europe, but is there that inwardly in the vessels that has that direct link with what the Spirit is doing personally?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "There is a certain link then with what the Spirit is doing objectively; we know that the Spirit in the book of Acts is in charge of the testimony and the gospel coming into Europe, but is there that inwardly in the vessels that has that direct link with what the Spirit is doing personally?"
+     "speaker": "RDP",
+     "text": [
+      "That is very good. In that sense everything is held here in the Spirit, but there is to be this answer in the vessels. So the woman, in John 4, discards her water-pot; the waterpot could not contain what the Lord was speaking about, the gift that He would give to her, and she becomes the vessel. And the saints become the vessels where the testimony of the Spirit and of the influence of heaven is to be at the present time."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "That is very good. In that sense everything is held here in the Spirit, but there is to be this answer in the vessels. So the woman, in John 4, discards her water-pot; the waterpot could not contain what the Lord was speaking about, the gift that He would give to her, and she becomes the vessel. And the saints become the vessels where the testimony of the Spirit and of the influence of heaven is to be at the present time."
+     "speaker": "RT",
+     "text": [
+      "Do you think there is perhaps more to drinking than we think? In Exodus the rock was there but it was not till Numbers 21 that they really drank of it. We are slow to appreciate all that is there, and unless we drink of it there will be no testimony. They began to journey then, did they not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Do you think there is perhaps more to drinking than we think? In Exodus the rock was there but it was not till Numbers 21 that they really drank of it. We are slow to appreciate all that is there, and unless we drink of it there will be no testimony. They began to journey then, did they not?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, and the journey was quick. They seemed to have moved very rapidly from that point on, as they began to drink. In Corinthians Paul says that the Rock that followed them was the Christ (see 1 Cor 10: 4)."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, and the journey was quick. They seemed to have moved very rapidly from that point on, as they began to drink. In Corinthians Paul says that the Rock that followed them was the Christ (see 1 Cor 10: 4)."
+     "speaker": "RT",
+     "text": [
+      "That brought out the feelings you were talking about, the feelings of that Rock as it followed them through the wilderness journey with nobody really anxious to drink, but then they begin to drink and there is an expression of Christ in testimony, is there not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That brought out the feelings you were talking about, the feelings of that Rock as it followed them through the wilderness journey with nobody really anxious to drink, but then they begin to drink and there is an expression of Christ in testimony, is there not?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, that is good. So that in this gospel the background is occupation with outward religion. They were occupied with what the Pharisees and the rulers said and earlier in chapter 4, they were having a dispute as to how many persons the Lord rather than John had baptised. All this line of things, beloved brethren, is not life; life is in Jesus, and what Mr Taylor says is important that you learn what that life is only as you begin to drink, and the Lord says, \"let him come to me and drink\"."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, that is good. So that in this gospel the background is occupation with outward religion. They were occupied with what the Pharisees and the rulers said and earlier in chapter 4, they were having a dispute as to how many persons the Lord rather than John had baptised. All this line of things, beloved brethren, is not life; life is in Jesus, and what Mr Taylor says is important that you learn what that life is only as you begin to drink, and the Lord says, \"let him come to me and drink\"."
+     "speaker": "CGH",
+     "text": [
+      "You said earlier that the river comes out of the garden, which would indicate that God set the river in the garden. Would that show the importance of the Holy Spirit in relation to the garden? It seems to me that it is most important that we should be convinced of the importance of what God has here in the sense of the garden in the assembly."
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "You said earlier that the river comes out of the garden, which would indicate that God set the river in the garden. Would that show the importance of the Holy Spirit in relation to the garden? It seems to me that it is most important that we should be convinced of the importance of what God has here in the sense of the garden in the assembly."
+     "speaker": "RDP",
+     "text": [
+      "Well, I wondered that. It says that it flowed out of Eden, and it watered the garden. It was the place of delight. The first thing that it had to do with was the garden. It might suggest to us what there is amongst the saints in the assembly, and then it goes out in universal influence I think there may be something in that, that this tremendous influence and power that is flowing out is going to have an effect even to the boundaries of what God is doing. But in the first place, it watered the garden."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Well, I wondered that. It says that it flowed out of Eden, and it watered the garden. It was the place of delight. The first thing that it had to do with was the garden. It might suggest to us what there is amongst the saints in the assembly, and then it goes out in universal influence I think there may be something in that, that this tremendous influence and power that is flowing out is going to have an effect even to the boundaries of what God is doing. But in the first place, it watered the garden."
+     "speaker": "JM",
+     "text": [
+      "Paul in Corinthians - it is in a slightly different setting - speaks about spiritual things being communicated by spiritual means and that is really the effect we have on one another spiritually, is it not, that really arises from this passage?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Paul in Corinthians - it is in a slightly different setting - speaks about spiritual things being communicated by spiritual means and that is really the effect we have on one another spiritually, is it not, that really arises from this passage?"
+     "speaker": "RDP",
+     "text": [
+      "That is good, because, as I said at the beginning, Paul went to Jerusalem, and there were persons there who were conspicuous, and he says to me they communicated nothing. A very searching thing, is it not? Persons who were conspicuous who communicated nothing, and Paul has in his mind the communication of spiritual things by spiritual means. I do not think we want to be afraid of the word 'spiritual'."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "That is good, because, as I said at the beginning, Paul went to Jerusalem, and there were persons there who were conspicuous, and he says to me they communicated nothing. A very searching thing, is it not? Persons who were conspicuous who communicated nothing, and Paul has in his mind the communication of spiritual things by spiritual means. I do not think we want to be afraid of the word 'spiritual'."
+     "speaker": "JM",
+     "text": [
+      "The idea in Scripture of communication is not just that you say something, but there is some interaction between the persons, is there not? I think that relates to the watering of the garden first, what there is moving in the power of the Spirit between the saints, so that there is what is spiritual produced in one another."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "The idea in Scripture of communication is not just that you say something, but there is some interaction between the persons, is there not? I think that relates to the watering of the garden first, what there is moving in the power of the Spirit between the saints, so that there is what is spiritual produced in one another."
+     "speaker": "RDP",
+     "text": [
+      "Yes, what you say is very important because there is no way in which we are going to be able to grow together unless that is so. We shall not be able to grow and communicate spiritually only on knowledge; it must involve what there is inwardly in the believer, what is flowing out not from his head but from his belly, from that area that would speak of sympathy and deep feeling. That is the way I think in John that things are starting to be effectual in the testimony."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, what you say is very important because there is no way in which we are going to be able to grow together unless that is so. We shall not be able to grow and communicate spiritually only on knowledge; it must involve what there is inwardly in the believer, what is flowing out not from his head but from his belly, from that area that would speak of sympathy and deep feeling. That is the way I think in John that things are starting to be effectual in the testimony."
+     "speaker": "HAH",
+     "text": [
+      "Does the flowing out of Eden bear the suggestion of the area of the Father's delight in the Son, involving Jesus glorified? I was thinking of the ten days as to which we have been reminded that the three Persons of the Godhead were together in heaven. Going on to John 14 the Lord says, \"In that day ye shall know that I am in my Father, and ye in me, and I in you\" (v 20) and I wonder whether the area of delight for the divine pleasure is all centred in the Father's delight in the Son."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Does the flowing out of Eden bear the suggestion of the area of the Father's delight in the Son, involving Jesus glorified? I was thinking of the ten days as to which we have been reminded that the three Persons of the Godhead were together in heaven. Going on to John 14 the Lord says, \"In that day ye shall know that I am in my Father, and ye in me, and I in you\" (v 20) and I wonder whether the area of delight for the divine pleasure is all centred in the Father's delight in the Son."
+     "speaker": "RDP",
+     "text": [
+      "I am sure what you say is helpful and good - the Father's delight in the Son; that is what is seen in this book. At the end John says there are many other things that Jesus did, but he said if he wrote them down one by one the world would not contain the books that were written. It is a man who loves Christ, beloved, and he says the world would not contain the books written of Him, and the testimony is to flow out. I think John 17 involves testimony, but it is not just a testimony of words; it involves what is formed and done in persons."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I am sure what you say is helpful and good - the Father's delight in the Son; that is what is seen in this book. At the end John says there are many other things that Jesus did, but he said if he wrote them down one by one the world would not contain the books that were written. It is a man who loves Christ, beloved, and he says the world would not contain the books written of Him, and the testimony is to flow out. I think John 17 involves testimony, but it is not just a testimony of words; it involves what is formed and done in persons."
+     "speaker": "EFW",
+     "text": [
+      "Jesus glorified is to have a very great place in our belief in Him. These disputes were all about what He was here and where He was here, but Jesus glorified cannot be described with the natural mind, but it is a very elevated thought, is it not?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Jesus glorified is to have a very great place in our belief in Him. These disputes were all about what He was here and where He was here, but Jesus glorified cannot be described with the natural mind, but it is a very elevated thought, is it not?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, I thought so: Jesus glorified. That is why I said at the beginning that this section is really about our day. Not every part of the gospels directly refers to our day, but this scripture bears directly upon our day. It speaks of the time when the Spirit is given from a glorified Christ - that is today. He is glorified and God has given everything into His hand; all the work has been done; and Jesus sits at the right hand of God, and He is worthy of all our homage and praise. And from that place the Spirit has come and is the testimony in the believer of the Man who is glorified. Is that right?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, I thought so: Jesus glorified. That is why I said at the beginning that this section is really about our day. Not every part of the gospels directly refers to our day, but this scripture bears directly upon our day. It speaks of the time when the Spirit is given from a glorified Christ - that is today. He is glorified and God has given everything into His hand; all the work has been done; and Jesus sits at the right hand of God, and He is worthy of all our homage and praise. And from that place the Spirit has come and is the testimony in the believer of the Man who is glorified. Is that right?"
+     "speaker": "EFW",
+     "text": [
+      "That is right."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "That is right."
+     "speaker": "WJRB",
+     "text": [
+      "So the great day of the feast should have been one of satisfaction."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "So the great day of the feast should have been one of satisfaction."
+     "speaker": "RDP",
+     "text": [
+      "I think so. It would be a very sad thing if this day in which we are fell short of complete satisfaction. I do not think we should entertain disappointment in our meetings or disappointment in the company in this present day, because Christ is to be the attractive centre of our gatherings. The great day of the feast; there is no greater day than this. Let there be no disappointment in any of our hearts in it, beloved."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think so. It would be a very sad thing if this day in which we are fell short of complete satisfaction. I do not think we should entertain disappointment in our meetings or disappointment in the company in this present day, because Christ is to be the attractive centre of our gatherings. The great day of the feast; there is no greater day than this. Let there be no disappointment in any of our hearts in it, beloved."
+     "speaker": "EO",
+     "text": [
+      "Would you say this cry of Jesus being responded to would work out through what God can do in one believer?"
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Would you say this cry of Jesus being responded to would work out through what God can do in one believer?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, go on."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, go on."
+     "speaker": "EO",
+     "text": [
+      "We have referred to testimony flowing out, and the possibilities are just marvellous if this truth is taken on."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "We have referred to testimony flowing out, and the possibilities are just marvellous if this truth is taken on."
+     "speaker": "RDP",
+     "text": [
+      "This scripture is referring to you and me - \"out of his belly shall flow rivers of living water\". Is that how we are amongst the saints? Is that the way it is? You are not having a depressing influence amongst the saints because the Holy Spirit is there and He will never depress the saints. This river is flowing involving those four main heads, but it is flowing out from the belly of the believer."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "This scripture is referring to you and me - \"out of his belly shall flow rivers of living water\". Is that how we are amongst the saints? Is that the way it is? You are not having a depressing influence amongst the saints because the Holy Spirit is there and He will never depress the saints. This river is flowing involving those four main heads, but it is flowing out from the belly of the believer."
+     "speaker": "PSW",
+     "text": [
+      "Would the reference earlier to the woman who had to do with the Man who told her all things that she had ever done produce that brightness, that crystal clear water flowing out?"
+     ]
     },
     {
-     "speaker": "P.S.W.",
-     "text": "Would the reference earlier to the woman who had to do with the Man who told her all things that she had ever done produce that brightness, that crystal clear water flowing out?"
+     "speaker": "RDP",
+     "text": [
+      "What a lovely thought that is; right at the end in Revelation it speaks about bright as crystal (Rev 22: 1). Think of the flow there is in the Spirit involving the saints, and at the end, beloved, when this day is over, when what is beyond it is over, when you may say, what is final is coming on to view, is the water to be soiled or depleted? No it is bright as crystal because it comes from a glorified Man."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "What a lovely thought that is; right at the end in Revelation it speaks about bright as crystal (Rev 22: 1). Think of the flow there is in the Spirit involving the saints, and at the end, beloved, when this day is over, when what is beyond it is over, when you may say, what is final is coming on to view, is the water to be soiled or depleted? No it is bright as crystal because it comes from a glorified Man."
+     "speaker": "RWF",
+     "text": [
+      "The flow in the fourth chapter is upward, is it not, a fountain of water springing up to eternal life. Here it is outward. Do the two go along together?"
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "The flow in the fourth chapter is upward, is it not, a fountain of water springing up to eternal life. Here it is outward. Do the two go along together?"
+     "speaker": "RDP",
+     "text": [
+      "I think so, upward is Godward. That must come first before this. Is that what you mean?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think so, upward is Godward. That must come first before this. Is that what you mean?"
+     "speaker": "RWF",
+     "text": [
+      "Yes, I was thinking that. In a sense there is, if I may use the expression, a reversal of the force of nature; we might almost say that the flow goes up hill. Do you think we are to sense that in the gift of the Spirit from an ascended Christ? The Spirit has come down in order that there might be movement upward as well as movement outward."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Yes, I was thinking that. In a sense there is, if I may use the expression, a reversal of the force of nature; we might almost say that the flow goes up hill. Do you think we are to sense that in the gift of the Spirit from an ascended Christ? The Spirit has come down in order that there might be movement upward as well as movement outward."
+     "speaker": "RDP",
+     "text": [
+      "Yes, that is good. So that there are certain organs in our body which are automatic organs which we cannot affect. I think that really suggests the affections. You cannot for yourself satisfy your own affections. The only One who can satisfy them is Christ and He does that by giving the Holy Spirit, and through this gift the affections begin to spring up to God. Would that we all had that more!",
+      "Now to move on, David sets out something of what I have in mind. Wherever David went there was an influence. He influenced the men of Israel and the men of Judah towards him; they sang about him. I am not applying this to any one of us, but to the effect the influence of what is inward has. Could we refer first of all to the chapters that go before and after chapter 25 of 1 Samuel where we see that the power of the influence of the water flowing typically out of David almost turned Saul round from his relentless pursuit. Would we not like to be like that, beloved brethren; it almost turned him round? He says, \"Is this thy voice, my son David?\" Then, \"for thou hast rewarded me good, whereas I have rewarded thee evil\" (chap 24: 16,17). Think of the testimony here, beloved brethren, that where there was evil on every hand against him, David, in the midst of it, is seen with the rivers of living water typically flowing from him and Saul says, you have rewarded me good, when all I had for you was evil. He is almost turned round. If there is anything for God in a person the power of the water's flow will turn him, beloved brethren. I do not think there was anything really in Saul and so it had no lasting effect, but even temporarily it had an effect that softened him. That is the effect of the waters that flow out of the belly of the believer.",
+      "E.C.B. that If we think of David - and as you imply, he was not always up to this level - is it not true that he always knew what he ought to be?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, that is good. So that there are certain organs in our body which are automatic organs which we cannot affect. I think that really suggests the affections. You cannot for yourself satisfy your own affections. The only One who can satisfy them is Christ and He does that by giving the Holy Spirit, and through this gift the affections begin to spring up to God. Would that we all had that more!"
+     "speaker": "RDP",
+     "text": [
+      "Yes, he always knew what he ought to be, and was very quickly recovered. The basic thing with David was right because typically he had Christ in His heart; he always knew what he ought to be."
+     ]
     },
     {
-     "text": "Now to move on, David sets out something of what I have in mind. Wherever David went there was an influence. He influenced the men of Israel and the men of Judah towards him; they sang about him. I am not applying this to any one of us, but to the effect the influence of what is inward has. Could we refer first of all to the chapters that go before and after chapter 25 of 1 Samuel where we see that the power of the influence of the water flowing typically out of David almost turned Saul round from his relentless pursuit. Would we not like to be like that, beloved brethren; it almost turned him round? He says, \"Is this thy voice, my son David?\" Then, \"for thou hast rewarded me good, whereas I have rewarded thee evil\" (chap 24: 16,17). Think of the testimony here, beloved brethren, that where there was evil on every hand against him, David, in the midst of it, is seen with the rivers of living water typically flowing from him and Saul says, you have rewarded me good, when all I had for you was evil. He is almost turned round. If there is anything for God in a person the power of the water's flow will turn him, beloved brethren. I do not think there was anything really in Saul and so it had no lasting effect, but even temporarily it had an effect that softened him. That is the effect of the waters that flow out of the belly of the believer."
+     "speaker": "WJRB",
+     "text": [
+      "Was it the same with the apostle Paul. Agrippa said, Almost thou persuadest me to be a Christian?"
+     ]
     },
     {
-     "text": "E.C.B. that If we think of David - and as you imply, he was not always up to this level - is it not true that he always knew what he ought to be?"
+     "speaker": "RDP",
+     "text": [
+      "I think so. The waters were flowing from Paul there; they were flowing too as he left Ephesus. He had shown them all things, night and day with tears and temptations he had been there, and at the end of it they fell upon his neck and wept that they would not see him again. That is the influence, beloved brethren, of the power of the waters flowing. Is it in me? or am I occupied only with all the things that merely surround, live my life in mere outward religion and miss the Person? Paul did not miss the Person. He said, He loved me and gave Himself for me, and what flowed out of the belly of Paul, and flowed beneficially in the testimony, and certainly watered the garden, was the rivers of living water."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, he always knew what he ought to be, and was very quickly recovered. The basic thing with David was right because typically he had Christ in His heart; he always knew what he ought to be."
+     "speaker": "WHS",
+     "text": [
+      "Would it help us, young and old, if we realised the urgency, the anxiety - one might almost use that word as to the scripture you have earlier referred to - \"let him come to me\". He cries with that, as you said at the start, but it is the Lord's feelings. I can only speak for myself of the long time I have wasted not realising that the answer to so much is in what you are saying, I suppose the young people here would all agree it is so right, but how do we arrive at it? By coming to Him and answering His desires and making way for the Spirit?"
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "Was it the same with the apostle Paul. Agrippa said, Almost thou persuadest me to be a Christian?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, it is personal attraction to Christ in John's gospel, is it not? It is not in John's gospel exactly the Shepherd going after the sheep until He find it - that is a blessed side of His service and a blessed side of the truth, that Luke presents. Wherever you go He will follow you, and He will keep on while the gospel day lasts, beloved young one; Jesus will seek you until He find you, that is Luke's gospel - but in John's gospel it is the one who is the centre of the flock, and what keeps the flock together, beloved, is attraction to Christ."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think so. The waters were flowing from Paul there; they were flowing too as he left Ephesus. He had shown them all things, night and day with tears and temptations he had been there, and at the end of it they fell upon his neck and wept that they would not see him again. That is the influence, beloved brethren, of the power of the waters flowing. Is it in me? or am I occupied only with all the things that merely surround, live my life in mere outward religion and miss the Person? Paul did not miss the Person. He said, He loved me and gave Himself for me, and what flowed out of the belly of Paul, and flowed beneficially in the testimony, and certainly watered the garden, was the rivers of living water."
+     "speaker": "WHS",
+     "text": [
+      "Why do we not answer to it more?"
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "Would it help us, young and old, if we realised the urgency, the anxiety - one might almost use that word as to the scripture you have earlier referred to - \"let him come to me\". He cries with that, as you said at the start, but it is the Lord's feelings. I can only speak for myself of the long time I have wasted not realising that the answer to so much is in what you are saying, I suppose the young people here would all agree it is so right, but how do we arrive at it? By coming to Him and answering His desires and making way for the Spirit?"
+     "speaker": "RDP",
+     "text": [
+      "I can only speak for myself, but do we spend enough time in our relations with Him alone? We may spend a lot of time in gaining knowledge which is good and right, but I do not think we spend enough time with Him alone."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, it is personal attraction to Christ in John's gospel, is it not? It is not in John's gospel exactly the Shepherd going after the sheep until He find it - that is a blessed side of His service and a blessed side of the truth, that Luke presents. Wherever you go He will follow you, and He will keep on while the gospel day lasts, beloved young one; Jesus will seek you until He find you, that is Luke's gospel - but in John's gospel it is the one who is the centre of the flock, and what keeps the flock together, beloved, is attraction to Christ."
+     "speaker": "JM",
+     "text": [
+      "Is that not where it came into David's belly, you may say. The lion and the bear come for the sheep, but did not something come into his belly there, and neither Goliath nor anything else could hinder its flow."
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "Why do we not answer to it more?"
+     "speaker": "RDP",
+     "text": [
+      "It could not hinder the flow. That is very good, nothing can stop these rivers flowing. You get that long list in Hebrews, of persons from whom, in a certain sense, the rivers were flowing out (Heb 11: 32-38). They were stoned, sawn asunder, killed and so on but nothing could prevent the rivers flowing. Beloved, we have a part in it, and our day is too important to be wasted on peripheral things."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I can only speak for myself, but do we spend enough time in our relations with Him alone? We may spend a lot of time in gaining knowledge which is good and right, but I do not think we spend enough time with Him alone."
+     "speaker": "RWF",
+     "text": [
+      "Our experience practically is that there is often ebb as well as flow. What do you think is the secret of maintenance of this influence? We find that perhaps our stock becomes depleted; what is the secret of replenishment?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Is that not where it came into David's belly, you may say. The lion and the bear come for the sheep, but did not something come into his belly there, and neither Goliath nor anything else could hinder its flow."
+     "speaker": "RDP",
+     "text": [
+      "That is why I read these Scriptures about David. I suppose His failures are well catalogued in the Scriptures. I do not suppose there is any one here who would claim that this powerful influence is always with us, and with all of us it must be said that we ebb and flow; that is because of the condition in which we are. But I think as was said as to David that he quickly recovered himself, because basically he loved Christ. There is no way in which we will recover ourselves or be an influence for good amongst the saints and make testimony unless we really love Christ.",
+      "R.W F. Has it to do with what we were mentioning a moment ago, the Lord's word, Come to Me? He has in mind that we might stay, has He not?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "It could not hinder the flow. That is very good, nothing can stop these rivers flowing. You get that long list in Hebrews, of persons from whom, in a certain sense, the rivers were flowing out (Heb 11: 32-38). They were stoned, sawn asunder, killed and so on but nothing could prevent the rivers flowing. Beloved, we have a part in it, and our day is too important to be wasted on peripheral things."
+     "speaker": "RDP",
+     "text": [
+      "I think He has. There are times when we become attracted to Him - I like to think our meetings together are like that. So those persons earlier in John said, \"where abidest thou? He says to them, Come and see\" (John 1: 38,39). The more we really have to do with Him, the more we shall become attracted to Him."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Our experience practically is that there is often ebb as well as flow. What do you think is the secret of maintenance of this influence? We find that perhaps our stock becomes depleted; what is the secret of replenishment?"
+     "speaker": "SDKR",
+     "text": [
+      "Does it help to view Him as the revelation of the Father? I was thinking of the beginning of John's gospel - they contemplated One as an only begotten with a Father, Does that help to draw our affection to Christ?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "That is why I read these Scriptures about David. I suppose His failures are well catalogued in the Scriptures. I do not suppose there is any one here who would claim that this powerful influence is always with us, and with all of us it must be said that we ebb and flow; that is because of the condition in which we are. But I think as was said as to David that he quickly recovered himself, because basically he loved Christ. There is no way in which we will recover ourselves or be an influence for good amongst the saints and make testimony unless we really love Christ."
+     "speaker": "RDP",
+     "text": [
+      "I think it does. We generally lead busy lives, do we not, assembly lives too - but we must not miss what is really essential; they contemplated Him. John writes in his epistle \"that which we contemplated, and our hands handled, concerning the word of life\", 1 John 1: 1. He is writing about real things, the essence of things, and I believe I need help as to having more to do with the Lord Jesus. It may sound strange after twenty years in fellowship, but I think I need that at the present time, to have more to do with Christ."
+     ]
     },
     {
-     "text": "R.W F. Has it to do with what we were mentioning a moment ago, the Lord's word, Come to Me? He has in mind that we might stay, has He not?"
+     "speaker": "JM",
+     "text": [
+      "The flow is stopped in David, as you say, for the moment, but it is somewhere, is it not? That is very wonderful too."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think He has. There are times when we become attracted to Him - I like to think our meetings together are like that. So those persons earlier in John said, \"where abidest thou? He says to them, Come and see\" (John 1: 38,39). The more we really have to do with Him, the more we shall become attracted to Him."
+     "speaker": "RDP",
+     "text": [
+      "That is good. I thought that the expression of the assembly amongst us takes over. In a certain way if as has been suggested any one of us falls below this standard and we know we do, then in a certain way what there is amongst the saints of assembly features would have a restoring effect seen here in Abigail. Would that be right?"
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Does it help to view Him as the revelation of the Father? I was thinking of the beginning of John's gospel - they contemplated One as an only begotten with a Father, Does that help to draw our affection to Christ?"
+     "speaker": "JM",
+     "text": [
+      "I think so. Of course we must come into this individually, but I think we are really helped into it through spiritual actions in the assembly, that if we fall from it at the moment - and who of us does not - the flow does not stop nevertheless."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think it does. We generally lead busy lives, do we not, assembly lives too - but we must not miss what is really essential; they contemplated Him. John writes in his epistle \"that which we contemplated, and our hands handled, concerning the word of life\", 1 John 1: 1. He is writing about real things, the essence of things, and I believe I need help as to having more to do with the Lord Jesus. It may sound strange after twenty years in fellowship, but I think I need that at the present time, to have more to do with Christ."
+     "speaker": "RDP",
+     "text": [
+      "Yes, the flow does not stop. David generally sets out one from whom the rivers flow. He shines for instance when the evil spirit was upon Saul; he plays the harp and the evil spirit goes away. If we come together in the meeting Monday night, Tuesday night, perhaps feeling a bit down or irritable, then the playing - as you say, the beautiful playing - of David will soothe you. That is a very real thing, beloved brethren, - if you feel a bit down get out to the meeting, ask the Lord to bring something in that will lift you up, and it will happen. I have known it to happen, and David could play before Saul and the evil spirit could go, and the river was flowing there."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "The flow is stopped in David, as you say, for the moment, but it is somewhere, is it not? That is very wonderful too."
+     "speaker": "JM",
+     "text": [
+      "Nabal's young men say \"he is such a son of Belial, that one cannot speak to him\". But David listens to Abigail, does he not? That is our salvation, to subject ourselves to what is flowing spiritually in the assembly, is it not?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "That is good. I thought that the expression of the assembly amongst us takes over. In a certain way if as has been suggested any one of us falls below this standard and we know we do, then in a certain way what there is amongst the saints of assembly features would have a restoring effect seen here in Abigail. Would that be right?"
+     "speaker": "RDP",
+     "text": [
+      "I believe so. If that basic affection is there as it was with David, it will answer to what there is in the assembly. David seemed able to cope with the Saul line, the main stream of opposition and hatred really for Christ that marks the official religious thing. It is the incidental things that test us. It is the Nabals. It is the man who says, Who is David and who is the son of Jesse. He says, there are many servants who break away from their master today. That was a hurtful thing to say; David had protected these young men and he had ministered to them, and what Nabal said was manifestly unfair and unjust. Very often that is what provokes the flesh in us and David says, Gird ye on every man his sword. Beloved, when we start buckling on our swords, that is often when the troubles start. It only takes ten days to deal with Nabal here, but not with David's sword."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I think so. Of course we must come into this individually, but I think we are really helped into it through spiritual actions in the assembly, that if we fall from it at the moment - and who of us does not - the flow does not stop nevertheless."
+     "speaker": "RT",
+     "text": [
+      "It is good to see the unlikely quarters where the river is flowing; it is Nabal's wife, and there were these officers in John, \"Never man spake like this man\". We may get down, and yet God brings in uplift from an unlikely quarter. We need confidence in what He is doing, do we not, to rise above what may depress us at the moment. Everybody went to their own home, but Jesus went to the mount of Olives. There is a great stream flowing that would need faith to be linked with it."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, the flow does not stop. David generally sets out one from whom the rivers flow. He shines for instance when the evil spirit was upon Saul; he plays the harp and the evil spirit goes away. If we come together in the meeting Monday night, Tuesday night, perhaps feeling a bit down or irritable, then the playing - as you say, the beautiful playing - of David will soothe you. That is a very real thing, beloved brethren, - if you feel a bit down get out to the meeting, ask the Lord to bring something in that will lift you up, and it will happen. I have known it to happen, and David could play before Saul and the evil spirit could go, and the river was flowing there."
+     "speaker": "RDP",
+     "text": [
+      "I think that is right. David brings that in here, he has respect for the anointing; and we need respect for the anointing. The anointing represents that which God has committed Himself to, and in that sense what there is amongst the saints where Jesus is present in hearts, God has committed Himself to; the anointing is there. David always had respect for it. I like what you say about the most unlikely quarters; Abigail represents some one who has come through a very difficult period in her history and through it she has accumulated wealth. As recognised the weakness of the public position, but having the means that is going to carry the thing through."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Nabal's young men say \"he is such a son of Belial, that one cannot speak to him\". But David listens to Abigail, does he not? That is our salvation, to subject ourselves to what is flowing spiritually in the assembly, is it not?"
+     "speaker": "ECB",
+     "text": [
+      "There is a sphere in which the Spirit is always fully, that is the assembly?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I believe so. If that basic affection is there as it was with David, it will answer to what there is in the assembly. David seemed able to cope with the Saul line, the main stream of opposition and hatred really for Christ that marks the official religious thing. It is the incidental things that test us. It is the Nabals. It is the man who says, Who is David and who is the son of Jesse. He says, there are many servants who break away from their master today. That was a hurtful thing to say; David had protected these young men and he had ministered to them, and what Nabal said was manifestly unfair and unjust. Very often that is what provokes the flesh in us and David says, Gird ye on every man his sword. Beloved, when we start buckling on our swords, that is often when the troubles start. It only takes ten days to deal with Nabal here, but not with David's sword."
+     "speaker": "RDP",
+     "text": [
+      "I think so."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It is good to see the unlikely quarters where the river is flowing; it is Nabal's wife, and there were these officers in John, \"Never man spake like this man\". We may get down, and yet God brings in uplift from an unlikely quarter. We need confidence in what He is doing, do we not, to rise above what may depress us at the moment. Everybody went to their own home, but Jesus went to the mount of Olives. There is a great stream flowing that would need faith to be linked with it."
+     "speaker": "ECB",
+     "text": [
+      "Does Abigail represent that?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think that is right. David brings that in here, he has respect for the anointing; and we need respect for the anointing. The anointing represents that which God has committed Himself to, and in that sense what there is amongst the saints where Jesus is present in hearts, God has committed Himself to; the anointing is there. David always had respect for it. I like what you say about the most unlikely quarters; Abigail represents some one who has come through a very difficult period in her history and through it she has accumulated wealth. As recognised the weakness of the public position, but having the means that is going to carry the thing through."
+     "speaker": "RDP",
+     "text": [
+      "Yes, and that is to be maintained, that element is to be maintained amongst the saints. I think what was said is important, that if the river, in that sense is not flowing in me, it is always maintained somewhere; it is always maintained in the assembly."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "There is a sphere in which the Spirit is always fully, that is the assembly?"
+     "speaker": "RWF",
+     "text": [
+      "Does John's gospel bring out that if the flow is slack it can be restored by yet another flow? I was thinking of John 13 - feet-washing. The reason for the slackening may be defilement, but there can be feet-washing administered to one another for the removal of that defilement, for refreshment and restoration to the full flow?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think so."
+     "speaker": "RDP",
+     "text": [
+      "Very good. So He ungirds Himself and had to do with the feet of the disciples. Think of the effect these things have; He does not chide them, but the powerful influence of Christ is brought to bear upon them. At the end of the gospel they had gone away to fish. You may say has all his teaching been wasted upon these men. They come back to the shore and He says, Come and dine; the influence of Christ bathes them so that they are totally recovered. These are lovely things, beloved brethren."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does Abigail represent that?"
+     "speaker": "MJW",
+     "text": [
+      "I was thinking of 'another spirit'. One wonders at David. He shows a different character; he no doubt had the flesh in him very strongly as we all have, but what comes out in him is another spirit altogether; he really comes straight from God, he shows God's character. We may show the excellencies of Him that has called us out of darkness into His wonderful light. That is what I wonder at with David and whether that is seen with us enough, the character of God."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, and that is to be maintained, that element is to be maintained amongst the saints. I think what was said is important, that if the river, in that sense is not flowing in me, it is always maintained somewhere; it is always maintained in the assembly."
+     "speaker": "RDP",
+     "text": [
+      "Yes, so at the end when Saul is slain - a man who had constantly showed him inveterate hatred, who had tried to pin him to the wall with his spear - he speaks in his song about the beauty of Israel being slain. These are lovely things, beloved, this is the rivers flowing out of the belly. You may say that Saul was never a man who was real, he was a mere professor outwardly of things, and that would be true, but God can deal with that. Yet as far as David is concerned, he says, the beauty of Israel is slain upon thy high places, the shield of the mighty was vilely cast away, and he says, do not let the daughters of the Philistines rejoice. This is the rivers, beloved, the powerful rivers of the testimony that are going to carry through what is for Christ triumphantly. Will you and I have a part in it?"
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Does John's gospel bring out that if the flow is slack it can be restored by yet another flow? I was thinking of John 13 - feet-washing. The reason for the slackening may be defilement, but there can be feet-washing administered to one another for the removal of that defilement, for refreshment and restoration to the full flow?"
+     "speaker": "PM",
+     "text": [
+      "Was David's spiritual personality formed in secret alone? He had nothing else to rely on but his knowledge of God? When we are among the brethren we rely on our personality and a lot of other things, but in secret in the wilderness he relied alone on God as his source. Are we not to be brought back to that? To find that in God alone and in the blessed Spirit is the strength and supply for any action that the believer has to take?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Very good. So He ungirds Himself and had to do with the feet of the disciples. Think of the effect these things have; He does not chide them, but the powerful influence of Christ is brought to bear upon them. At the end of the gospel they had gone away to fish. You may say has all his teaching been wasted upon these men. They come back to the shore and He says, Come and dine; the influence of Christ bathes them so that they are totally recovered. These are lovely things, beloved brethren."
+     "speaker": "RDP",
+     "text": [
+      "That is very good. I like what you say about 'alone', because very often we are influenced for good and the right way as we are amongst the saints, but he had been alone with God. In chapter 24 (v 4) David cuts off the skirt of Saul's robe, he humiliated him really; it says, \"David's heart smote him\". Do we feel like that, beloved? Is there any one in this room who has not tried to, or delighted, in the humiliation of some one? The heart of a true lover of Christ would smite him about that. His men said, Now this is the time you have been waiting for all these years when things are going to be finished, but David says he will not put forth his hand against Jehovah's anointed."
+     ]
     },
     {
-     "speaker": "M.J.W.",
-     "text": "I was thinking of 'another spirit'. One wonders at David. He shows a different character; he no doubt had the flesh in him very strongly as we all have, but what comes out in him is another spirit altogether; he really comes straight from God, he shows God's character. We may show the excellencies of Him that has called us out of darkness into His wonderful light. That is what I wonder at with David and whether that is seen with us enough, the character of God."
+     "speaker": "PM",
+     "text": [
+      "What comes out later is, God says, I have found David, a man after my own heart. He found that character of man that had been formed in secret, and He could take it up because it spoke to him of Jesus."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, so at the end when Saul is slain - a man who had constantly showed him inveterate hatred, who had tried to pin him to the wall with his spear - he speaks in his song about the beauty of Israel being slain. These are lovely things, beloved, this is the rivers flowing out of the belly. You may say that Saul was never a man who was real, he was a mere professor outwardly of things, and that would be true, but God can deal with that. Yet as far as David is concerned, he says, the beauty of Israel is slain upon thy high places, the shield of the mighty was vilely cast away, and he says, do not let the daughters of the Philistines rejoice. This is the rivers, beloved, the powerful rivers of the testimony that are going to carry through what is for Christ triumphantly. Will you and I have a part in it?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, and so what comes from David in the psalms is a song for God; there is something for God that is going up, from every kind of circumstance. It is not just a formal taking part in the service of God, but what flowed out from him Godward is the real heart of the man in spiritual emotion."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Was David's spiritual personality formed in secret alone? He had nothing else to rely on but his knowledge of God? When we are among the brethren we rely on our personality and a lot of other things, but in secret in the wilderness he relied alone on God as his source. Are we not to be brought back to that? To find that in God alone and in the blessed Spirit is the strength and supply for any action that the believer has to take?"
+     "speaker": "JW",
+     "text": [
+      "Is one of the things that we learn in secret with God that we have not a source in ourselves, we have not a reservoir in ourselves, our springs are in God. As we are drawing on that source, do the rivers flow?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "That is very good. I like what you say about 'alone', because very often we are influenced for good and the right way as we are amongst the saints, but he had been alone with God. In chapter 24 (v 4) David cuts off the skirt of Saul's robe, he humiliated him really; it says, \"David's heart smote him\". Do we feel like that, beloved? Is there any one in this room who has not tried to, or delighted, in the humiliation of some one? The heart of a true lover of Christ would smite him about that. His men said, Now this is the time you have been waiting for all these years when things are going to be finished, but David says he will not put forth his hand against Jehovah's anointed."
+     "speaker": "RDP",
+     "text": [
+      "I believe so. The woman in John 4 carried her resources, her satisfaction in a water-pot, did she not? It had to keep being filled up; it was limited at best, it was limited by what she could carry, and it constantly needed filling up, and as you say, there is no source in ourselves of satisfaction. We were hearing in the preaching last week an old story about our hearts. Everybody knows what shape your heart is; even the young people here could draw the shape of a heart, and we were reminded that, if we took the world and were able to compress it down and put it inside the heart it would never fill it because it is the wrong shape, there would always be some part of your heart unfilled; that is the woman in John 4, He says, \"the water which I shall give him shall become in him a fountain of water, springing up into eternal life\" - total satisfaction in Him. I wish I knew more about that."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "What comes out later is, God says, I have found David, a man after my own heart. He found that character of man that had been formed in secret, and He could take it up because it spoke to him of Jesus."
+     "speaker": "CCI",
+     "text": [
+      "Does this flow link at all with the two words \"this life\" - \"all the words of this life\", and are we really at the finish of it? You have referred to testimony quite freely; the testimony is finishing, is that right?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, and so what comes from David in the psalms is a song for God; there is something for God that is going up, from every kind of circumstance. It is not just a formal taking part in the service of God, but what flowed out from him Godward is the real heart of the man in spiritual emotion."
+     "speaker": "RDP",
+     "text": [
+      "I believe this day in which we are is the last day of the feast; tomorrow they were all going home. Was it to be as unsatisfied, unfulfilled, or was there to be the completion and the fulness of everything in Him. \"In the last, the great day of the feast, Jesus stood and cried saying, If any one thirst, let him come to me and drink\"."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Is one of the things that we learn in secret with God that we have not a source in ourselves, we have not a reservoir in ourselves, our springs are in God. As we are drawing on that source, do the rivers flow?"
+     "speaker": "CCI",
+     "text": [
+      "Do we think enough about the testimony; there is going to be a display, but the testimony is very great, equal to the display."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I believe so. The woman in John 4 carried her resources, her satisfaction in a water-pot, did she not? It had to keep being filled up; it was limited at best, it was limited by what she could carry, and it constantly needed filling up, and as you say, there is no source in ourselves of satisfaction. We were hearing in the preaching last week an old story about our hearts. Everybody knows what shape your heart is; even the young people here could draw the shape of a heart, and we were reminded that, if we took the world and were able to compress it down and put it inside the heart it would never fill it because it is the wrong shape, there would always be some part of your heart unfilled; that is the woman in John 4, He says, \"the water which I shall give him shall become in him a fountain of water, springing up into eternal life\" - total satisfaction in Him. I wish I knew more about that."
+     "speaker": "RDP",
+     "text": [
+      "Yes. It is right to have an exercise about it; you cannot just go out and preach the gospel and be these things unless this inward side is attended to, that the garden is watered first; I believe we all might be exercised about that with a view to the enrichment of the testimony."
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Does this flow link at all with the two words \"this life\" - \"all the words of this life\", and are we really at the finish of it? You have referred to testimony quite freely; the testimony is finishing, is that right?"
+     "speaker": "RT",
+     "text": [
+      "Does the river have a long view? It is not just the particular day, but it says, when you come to the throne \"this shall be no stumbling-block to thee, nor offence of heart\". We need this kind of long view. The day may oppress us, but the flow of the river would come in and look on to the appearing, would it?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I believe this day in which we are is the last day of the feast; tomorrow they were all going home. Was it to be as unsatisfied, unfulfilled, or was there to be the completion and the fulness of everything in Him. \"In the last, the great day of the feast, Jesus stood and cried saying, If any one thirst, let him come to me and drink\"."
+     "speaker": "RDP",
+     "text": [
+      "Yes, I think so. The river that Ezekiel refers to flows out of the house and how attractive it is, flowing out, getting deeper, getting broader, and it is for refreshment and it is for life, and it becomes waters to swim in, a river that could not be passed through. It is a very long view. What a privileged time we are in, beloved brethren!",
+      "I would like to refer again to what Abigail sets out here, that element amongst the saints that would bring us all back into the good of what we are saying. That is the goodness of God; that is, the river itself would take up the very objects of it and bring them back into its flow."
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Do we think enough about the testimony; there is going to be a display, but the testimony is very great, equal to the display."
+     "speaker": "JM",
+     "text": [
+      "There was nothing wrong with David's exercises as to Nabal, was there? He had the same judgment as God had about Nabal; but what is important, and I think we may be learning this, is the way that we do things, and the way that God is represented. That is the point about coming to the throne. Was God represented in what was to be done?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes. It is right to have an exercise about it; you cannot just go out and preach the gospel and be these things unless this inward side is attended to, that the garden is watered first; I believe we all might be exercised about that with a view to the enrichment of the testimony."
+     "speaker": "RDP",
+     "text": [
+      "I think that is good. So that Abigail had a judgment of Nabal, and the young men had a judgment of Nabal One thing is noticeable in this chapter: there are young men, David's young men, and Nabal's young men, and there are young women at the end. The enemy is making a bid for the young people today, but they had a judgment here of Nabal, but what was the influence here that these young persons were being exposed to? Was it going to be David's sword? Was it going to be a war of attrition between David and Nabal or were they going to be affected by the powerful flow of the river of God? As you say, it is not that the judgment changed, and it is very quickly brought about by God; but how I am to be is the lesson, I suppose, for us. Is that what you mean?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Does the river have a long view? It is not just the particular day, but it says, when you come to the throne \"this shall be no stumbling-block to thee, nor offence of heart\". We need this kind of long view. The day may oppress us, but the flow of the river would come in and look on to the appearing, would it?"
+     "speaker": "JM",
+     "text": [
+      "Yes, I think, as you say, it is a question of sensitivity to what God is working through the saints in a person like Abigail, so that things are done spiritually, I think maybe we have to learn that, that there is a way to do things; as was referred to, there is another spirit and there is another way, and that is the way of the Spirit."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, I think so. The river that Ezekiel refers to flows out of the house and how attractive it is, flowing out, getting deeper, getting broader, and it is for refreshment and it is for life, and it becomes waters to swim in, a river that could not be passed through. It is a very long view. What a privileged time we are in, beloved brethren!"
+     "speaker": "RDP",
+     "text": [
+      "Yes, the way of the Spirit, and that would involve nearness to Christ, that we might know the way of the Spirit. So she comes, and she brings all these resources with her. The original cause of the complaint is met. It is important to see that the original offence was not ignored: it was met, she met it, she brings all this provision, ready dressed. Where did she get it from? I think we could in application say she got it from hundreds of meetings and gatherings and impressions among the saints; ready dressed. You come out and you pick up something. I could not open up all the suggestions there may be in these goods here, but it is ready dressed, it is parched corn, raisin cakes, fig cakes, it is what is substantial, it is what is stimulating, and she has gathered it all up. That is what there is in the assembly I think to meet a need and to fulfil it, and she says do not bring in discredit by what you may do; she says, you are bound up in the bundle of the living. I think it is a fine word."
+     ]
     },
     {
-     "text": "I would like to refer again to what Abigail sets out here, that element amongst the saints that would bring us all back into the good of what we are saying. That is the goodness of God; that is, the river itself would take up the very objects of it and bring them back into its flow."
+     "speaker": "ECB",
+     "text": [
+      "At the end of the chapter when David sent and communed with Abigail that was for his benefit."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "There was nothing wrong with David's exercises as to Nabal, was there? He had the same judgment as God had about Nabal; but what is important, and I think we may be learning this, is the way that we do things, and the way that God is represented. That is the point about coming to the throne. Was God represented in what was to be done?"
+     "speaker": "RDP",
+     "text": [
+      "Go on, that is good."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think that is good. So that Abigail had a judgment of Nabal, and the young men had a judgment of Nabal One thing is noticeable in this chapter: there are young men, David's young men, and Nabal's young men, and there are young women at the end. The enemy is making a bid for the young people today, but they had a judgment here of Nabal, but what was the influence here that these young persons were being exposed to? Was it going to be David's sword? Was it going to be a war of attrition between David and Nabal or were they going to be affected by the powerful flow of the river of God? As you say, it is not that the judgment changed, and it is very quickly brought about by God; but how I am to be is the lesson, I suppose, for us. Is that what you mean?"
+     "speaker": "ECB",
+     "text": [
+      "Well, I think we often regard it, and no doubt rightly, as a kind of interchange between them, and probably it was, but is not David drawing there on what was in Abigail?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes, I think, as you say, it is a question of sensitivity to what God is working through the saints in a person like Abigail, so that things are done spiritually, I think maybe we have to learn that, that there is a way to do things; as was referred to, there is another spirit and there is another way, and that is the way of the Spirit."
+     "speaker": "RDP",
+     "text": [
+      "Yes, I think that is very good, he was drawing on what was in her; he was drawing strength and resource so that in the next chapter, again you get a man who exhibits the rivers flowing; again you get Saul pursuing David, unreasonably. We were noticing somewhere the other week that Saul's pursuit of David is so extreme that he leaves his charge at home exposed to the attack of the enemy, and yet his hostility is renewed again but David had drawn from Abigail; and he is ready, you may say, again for the rivers to flow."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, the way of the Spirit, and that would involve nearness to Christ, that we might know the way of the Spirit. So she comes, and she brings all these resources with her. The original cause of the complaint is met. It is important to see that the original offence was not ignored: it was met, she met it, she brings all this provision, ready dressed. Where did she get it from? I think we could in application say she got it from hundreds of meetings and gatherings and impressions among the saints; ready dressed. You come out and you pick up something. I could not open up all the suggestions there may be in these goods here, but it is ready dressed, it is parched corn, raisin cakes, fig cakes, it is what is substantial, it is what is stimulating, and she has gathered it all up. That is what there is in the assembly I think to meet a need and to fulfil it, and she says do not bring in discredit by what you may do; she says, you are bound up in the bundle of the living. I think it is a fine word."
+     "speaker": "ECB",
+     "text": [
+      "After that David gets into very low water and goes down to the Philistines, but the rivers are back in operation, if I can use that word, after Ziklag, and with the Egyptian, and with the others that were exhausted, the rivers are back."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "At the end of the chapter when David sent and communed with Abigail that was for his benefit."
+     "speaker": "RDP",
+     "text": [
+      "Yes, and he has some provision for the Egyptian in the field. You may say what is the use of wasting your time upon a brother who has proved by his actions that he is unreliable, but David pours benefits upon him. That is a very important thing, beloved. Let us not fail in our day; it is the last day, the great day of the feast."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Go on, that is good."
+     "speaker": "PM",
+     "text": [
+      "Is there the witness of the river flowing in that they both met as they went down. Is that not the spirit of Christ as seen in the saints, that can go down in difficult circumstances and the situation is saved."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Well, I think we often regard it, and no doubt rightly, as a kind of interchange between them, and probably it was, but is not David drawing there on what was in Abigail?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, they both went down; they both met there and things were, as you say, resolved."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, I think that is very good, he was drawing on what was in her; he was drawing strength and resource so that in the next chapter, again you get a man who exhibits the rivers flowing; again you get Saul pursuing David, unreasonably. We were noticing somewhere the other week that Saul's pursuit of David is so extreme that he leaves his charge at home exposed to the attack of the enemy, and yet his hostility is renewed again but David had drawn from Abigail; and he is ready, you may say, again for the rivers to flow."
+     "speaker": "RET",
+     "text": [
+      "A change of heart here - I have ''accepted thy person\"."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "After that David gets into very low water and goes down to the Philistines, but the rivers are back in operation, if I can use that word, after Ziklag, and with the Egyptian, and with the others that were exhausted, the rivers are back."
+     "speaker": "RDP",
+     "text": [
+      "Yes, \"I have hearkened to thy voice, and have accepted thy person\". There is something coming out, almost you say, Ah, the water, there is the water coming again - \"I have hearkened to thy voice, and have accepted thy person\", and the waters begin to flow again. We must listen, we must listen to one another. We must respect the assembly."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, and he has some provision for the Egyptian in the field. You may say what is the use of wasting your time upon a brother who has proved by his actions that he is unreliable, but David pours benefits upon him. That is a very important thing, beloved. Let us not fail in our day; it is the last day, the great day of the feast."
+     "speaker": "WJRB",
+     "text": [
+      "The climax of what you are saying is seen in the Lord Himself on the cross, is it not, \"Father, forgive them, for they know not what they do\", Luke 23: 34."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Is there the witness of the river flowing in that they both met as they went down. Is that not the spirit of Christ as seen in the saints, that can go down in difficult circumstances and the situation is saved."
+     "speaker": "RDP",
+     "text": [
+      "That is the character and spirit of the day in which we live, that is why you and I are here at all."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, they both went down; they both met there and things were, as you say, resolved."
+     "speaker": "SDKR",
+     "text": [
+      "I was wondering whether the river would help us in the respect for the anointing, not only in connection with the Person, but in connection with the assembly; it speaks of it as 'the Christ', it is current today the thought of respecting the anointing."
+     ]
     },
     {
-     "speaker": "R.E.T.",
-     "text": "A change of heart here - I have ''accepted thy person\"."
-    },
-    {
-     "speaker": "R.D.P.",
-     "text": "Yes, \"I have hearkened to thy voice, and have accepted thy person\". There is something coming out, almost you say, Ah, the water, there is the water coming again - \"I have hearkened to thy voice, and have accepted thy person\", and the waters begin to flow again. We must listen, we must listen to one another. We must respect the assembly."
-    },
-    {
-     "speaker": "W.J.R.B.",
-     "text": "The climax of what you are saying is seen in the Lord Himself on the cross, is it not, \"Father, forgive them, for they know not what they do\", Luke 23: 34."
-    },
-    {
-     "speaker": "R.D.P.",
-     "text": "That is the character and spirit of the day in which we live, that is why you and I are here at all."
-    },
-    {
-     "speaker": "S.D.K.R.",
-     "text": "I was wondering whether the river would help us in the respect for the anointing, not only in connection with the Person, but in connection with the assembly; it speaks of it as 'the Christ', it is current today the thought of respecting the anointing."
-    },
-    {
-     "speaker": "R.D.P.",
-     "text": "Yes, I like that. The anointing suggests to me what God has committed Himself to; if God has committed Himself to it, we must respect it."
+     "speaker": "RDP",
+     "text": [
+      "Yes, I like that. The anointing suggests to me what God has committed Himself to; if God has committed Himself to it, we must respect it."
+     ]
     }
    ]
   },
@@ -685,6 +915,20 @@
      "text": "One of the verses in the very long Psalm reads, \"Thy word is a lamp unto my feet, and a light unto my path\". Thus the Scriptures are a guide to us in every step of our pathway, and will help us to discern the ways of God in our pathway. God is able to use a child to give guidance. Of Josiah, who was crowned king when only eight years old, it is recorded that \"while he was yet young\" he set an example to his people by seeking after God and the things pleasing to Him. The young king's guiding light became brighter and brighter. He was able to have God's house, the Temple, restored. Then by the finding of the book of the law a greater light was shed around and everyone had to be guided by God's word. Finally the king encouraged his people to serve God with the greatest assembly for many centuries. Do you seek Him in prayer?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "RIVERS OF LIVING WATER",
+   "kind": "default_place",
+   "detail": "London given to 6 names (\"all London unless otherwise indicated\")"
+  },
+  {
+   "article": 1,
+   "title": "RIVERS OF LIVING WATER",
+   "kind": "speaker_not_in_key",
+   "detail": "CCI (2 paragraphs)"
   }
  ]
 }

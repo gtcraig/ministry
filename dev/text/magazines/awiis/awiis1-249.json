@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,28 +26,30 @@
    "place": "LONDON",
    "date": "20 December 1992",
    "speakers": [
-    "W.D.",
-    "E.C.B.",
-    "D.J.H.",
-    "B.W.W.",
-    "M.A.J.T.",
-    "D.A.B.",
-    "J.C.E.",
-    "H.A.H.",
-    "E.O.P.M.",
-    "J.S.G.",
-    "J.A.B.",
-    "B.H.C.",
-    "I.L.B."
+    "WD",
+    "ECB",
+    "DJH",
+    "BWW",
+    "MAJT",
+    "DAB",
+    "JCE",
+    "HAH",
+    "EOPM",
+    "JSG",
+    "JAB",
+    "BHC",
+    "ILB"
    ],
    "initials": [
     {
-     "initials": "LDAB",
-     "name": "London unless otherwise stated D.A.Burr"
+     "initials": "DAB",
+     "name": "D.A.Burr",
+     "place": "London"
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "London"
     },
     {
      "initials": "ILB",
@@ -56,11 +58,13 @@
     },
     {
      "initials": "JAB",
-     "name": "J.A.Burnett"
+     "name": "J.A.Burnett",
+     "place": "London"
     },
     {
      "initials": "BHC",
-     "name": "B.H.Clark"
+     "name": "B.H.Clark",
+     "place": "London"
     },
     {
      "initials": "WD",
@@ -69,19 +73,23 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "London"
     },
     {
      "initials": "JSG",
-     "name": "J.S.Gray"
+     "name": "J.S.Gray",
+     "place": "London"
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "London"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "London"
     },
     {
      "initials": "EOPM",
@@ -90,397 +98,544 @@
     },
     {
      "initials": "MAJT",
-     "name": "M.A.J.Terry"
+     "name": "M.A.J.Terry",
+     "place": "London"
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "London"
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "London unless otherwise stated",
    "initials_text": [
     "London unless otherwise stated",
     "D.A.Burr; E.C.Burr; I.L.Barlow, Bexley; J.A.Burnett; B.H.Clark; W.Dickson, Edinburgh; J.C.Evershed; J.S.Gray; D.J.Hutson; H.A.Hutson; E.O.P.Mutton, Walton-on-the-Naze; M.A.J.Terry; B.W.Ward"
    ],
    "paragraphs": [
     {
-     "speaker": "W.D.",
-     "text": "These scriptures record the fact that the stone is rolled away, in Mark 16 and John 11 from the entrance to the tomb, and in Genesis 29 from the mouth of the well. It was the one in Mark 16 which set in movement with me the train of thought as to this enquiry. The hymn we had at the commencement of the Supper -"
+     "speaker": "WD",
+     "text": [
+      "These scriptures record the fact that the stone is rolled away, in Mark 16 and John 11 from the entrance to the tomb, and in Genesis 29 from the mouth of the well. It was the one in Mark 16 which set in movement with me the train of thought as to this enquiry. The hymn we had at the commencement of the Supper -",
+      "'Death had on Thee no claim' (No.152)",
+      "also affected me. The purpose of the stone being rolled away in Mark 16 was to demonstrate that fact to those who had come. As to the other two scriptures, the temple should open up what might be their significance, but certainly this one in Mark - “the sun having risen\" and the very great stone being rolled away - should enhance to us the glory of the One upon whom death had no claim."
+     ]
     },
     {
-     "text": "'Death had on Thee no claim' (No.152)"
+     "speaker": "ECB",
+     "text": [
+      "The rolling away of the stone in Mark has no reference to the release of Christ from death: it is only a demonstration. In John 11 it has in view the release of Lazarus, and in Genesis it has in view the release of the water, but in Mark 16 it is only a demonstration."
+     ]
     },
     {
-     "text": "also affected me. The purpose of the stone being rolled away in Mark 16 was to demonstrate that fact to those who had come. As to the other two scriptures, the temple should open up what might be their significance, but certainly this one in Mark - “the sun having risen\" and the very great stone being rolled away - should enhance to us the glory of the One upon whom death had no claim."
+     "speaker": "WD",
+     "text": [
+      "I think so, particularly if you take the first verse - these three sisters \"bought aromatic spices that they might come and embalm him\", an act of devotion but without the comfort of the precious light that death had no claim on the Lord."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The rolling away of the stone in Mark has no reference to the release of Christ from death: it is only a demonstration. In John 11 it has in view the release of Lazarus, and in Genesis it has in view the release of the water, but in Mark 16 it is only a demonstration."
+     "speaker": "DJH",
+     "text": [
+      "Reference was made in thanksgiving this morning to \"thou wilt not ... allow thy holy one to see corruption\" (Ps 16: 10), but of Lazarus it says, \"he stinks already\". There is a very great contrast, is there not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so, particularly if you take the first verse - these three sisters \"bought aromatic spices that they might come and embalm him\", an act of devotion but without the comfort of the precious light that death had no claim on the Lord."
+     "speaker": "WD",
+     "text": [
+      "That is so. As we come to John 11 we will see that others were instructed to roll away the stone but the demonstration that is given in Mark 16 of this fact is remarkable. Does it not underline the very precious thought that, as we enter on the privileges of the first day of the week, there is nothing to burden our spirits?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Reference was made in thanksgiving this morning to \"thou wilt not ... allow thy holy one to see corruption\" (Ps 16: 10), but of Lazarus it says, \"he stinks already\". There is a very great contrast, is there not?"
+     "speaker": "DJH",
+     "text": [
+      "Yes; it just says, \"they see that the stone has been rolled away\". It does not say who did it, but, as you say, everything is cleared out of the way."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is so. As we come to John 11 we will see that others were instructed to roll away the stone but the demonstration that is given in Mark 16 of this fact is remarkable. Does it not underline the very precious thought that, as we enter on the privileges of the first day of the week, there is nothing to burden our spirits?"
+     "speaker": "WD",
+     "text": [
+      "Yes. It is important, to me anyway, that in the gospels stress is laid on the resurrection, as if to bring out the glory of the Lord Jesus, that He entered into death so that there might be nothing to hinder the service of God proceeding. It is not exactly Mark's teaching, but I thought it was a fruitful scripture because it does emphasise that the stone, while it was very great, was nevertheless rolled away."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Yes; it just says, \"they see that the stone has been rolled away\". It does not say who did it, but, as you say, everything is cleared out of the way."
+     "speaker": "BWW",
+     "text": [
+      "Does it link with what you have in mind that it says immediately after that, \"And entering into the sepulchre, they saw a young man\"?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. It is important, to me anyway, that in the gospels stress is laid on the resurrection, as if to bring out the glory of the Lord Jesus, that He entered into death so that there might be nothing to hinder the service of God proceeding. It is not exactly Mark's teaching, but I thought it was a fruitful scripture because it does emphasise that the stone, while it was very great, was nevertheless rolled away."
+     "speaker": "WD",
+     "text": [
+      "Much enters into that, but apparently somebody was in the gain of the victory, and we have to profit from the fact that what the Lord has accomplished in breaking the power of death is to bring us into the gain of these things. It is a remarkable thing, particularly in the circumstances of the possibility of death coming in, that we have a link with One on whom it had no claim."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Does it link with what you have in mind that it says immediately after that, \"And entering into the sepulchre, they saw a young man\"?"
+     "speaker": "MAJT",
+     "text": [
+      "These sisters were worried about the stone being in the way. We have worries and troubles like a stone, but when we live near the Lord and look to Him our troubles are rolled away."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Much enters into that, but apparently somebody was in the gain of the victory, and we have to profit from the fact that what the Lord has accomplished in breaking the power of death is to bring us into the gain of these things. It is a remarkable thing, particularly in the circumstances of the possibility of death coming in, that we have a link with One on whom it had no claim."
+     "speaker": "WD",
+     "text": [
+      "Their enquiry is peculiar to Mark. It is important to grasp that the stone was not rolled away so that the exit from the tomb could be facilitated for the Lord. It was, as our brother said, a demonstration. The service of God is a very delicate thing and it calls for a certain leverage in our souls spiritually speaking. As we proceed in it we are conscious of the victory that the Lord has accomplished in order that the way might be made clear."
+     ]
     },
     {
-     "speaker": "M.A.J.T.",
-     "text": "These sisters were worried about the stone being in the way. We have worries and troubles like a stone, but when we live near the Lord and look to Him our troubles are rolled away."
+     "speaker": "DAB",
+     "text": [
+      "Matthew's gospel confirms what we are saying because he records that the women saw the stone being rolled away; but they did not see the Lord. The angel came and rolled the stone away in front of them. They did not see the Lord emerge, did they? It does say there that the angel sat on it. I wondered if that links with what we have in 1 Corinthians 15 that God gives us the victory, that in that sense we have a right to sit on the stone."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Their enquiry is peculiar to Mark. It is important to grasp that the stone was not rolled away so that the exit from the tomb could be facilitated for the Lord. It was, as our brother said, a demonstration. The service of God is a very delicate thing and it calls for a certain leverage in our souls spiritually speaking. As we proceed in it we are conscious of the victory that the Lord has accomplished in order that the way might be made clear."
+     "speaker": "WD",
+     "text": [
+      "Yes, undoubtedly. We must have the sense, as we gather for the Lord's supper, of a peace that comes from the knowledge that the One who is engaging our affections in the loaf and the cup has made the way clear for us to touch a deathless scene."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Matthew's gospel confirms what we are saying because he records that the women saw the stone being rolled away; but they did not see the Lord. The angel came and rolled the stone away in front of them. They did not see the Lord emerge, did they? It does say there that the angel sat on it. I wondered if that links with what we have in 1 Corinthians 15 that God gives us the victory, that in that sense we have a right to sit on the stone."
+     "speaker": "JCE",
+     "text": [
+      "When I was a boy, at the time of the Supper there might be one or two hymns or one or two prayers bringing out the Lord's sufferings maybe, leading up to the Supper in that way. That was not quite what you mean."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, undoubtedly. We must have the sense, as we gather for the Lord's supper, of a peace that comes from the knowledge that the One who is engaging our affections in the loaf and the cup has made the way clear for us to touch a deathless scene."
+     "speaker": "WD",
+     "text": [
+      "Well, we should be liberated in our spirits. At the Supper I do not like to dwell too much on my love for the Lord. I would like to say, 'I am here, Lord, because I love You and all here love You’, but it is a certain uplift in our spirits to get a sense of His love for us. It has been demonstrated in that He has gone into death, and one purpose of His overthrow of death is our liberty. He gives us a place with Him as beyond death, what liberty marks that position!"
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "When I was a boy, at the time of the Supper there might be one or two hymns or one or two prayers bringing out the Lord's sufferings maybe, leading up to the Supper in that way. That was not quite what you mean."
+     "speaker": "ECB",
+     "text": [
+      "It is important for all of us who are there to have in our spirits that it is a living Christ we recall. The Supper is not the remembrance of His death, it is calling \"me\" to mind."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, we should be liberated in our spirits. At the Supper I do not like to dwell too much on my love for the Lord. I would like to say, 'I am here, Lord, because I love You and all here love You’, but it is a certain uplift in our spirits to get a sense of His love for us. It has been demonstrated in that He has gone into death, and one purpose of His overthrow of death is our liberty. He gives us a place with Him as beyond death, what liberty marks that position!"
+     "speaker": "WD",
+     "text": [
+      "And so \"the sun having risen\" really reflects the setting amongst us, does it not? The light of resurrection shines over the scene."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is important for all of us who are there to have in our spirits that it is a living Christ we recall. The Supper is not the remembrance of His death, it is calling \"me\" to mind."
+     "speaker": "ECB",
+     "text": [
+      "I think we should all get very clearly in our souls that, if Christ were not raised from the dead, there would be no such thing as Christianity."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "And so \"the sun having risen\" really reflects the setting amongst us, does it not? The light of resurrection shines over the scene."
+     "speaker": "WD",
+     "text": [
+      "That is right. It is often said, and rightly, that the ascension is the great thought in Christianity, but what you said is important because I increasingly see that Colossians is the vital thing state-wise that governs the service of God."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think we should all get very clearly in our souls that, if Christ were not raised from the dead, there would be no such thing as Christianity."
+     "speaker": "DAB",
+     "text": [
+      "I never read this scripture without thinking of a brother who used to be in the city. Sometimes at the prayer meeting there would be a lot of prayer about difficulties, and we would wait quite a long time before he prayed, but on a number of occasions, after a lot of such prayers, he would pray that we might find that the stone had already been rolled away."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is right. It is often said, and rightly, that the ascension is the great thought in Christianity, but what you said is important because I increasingly see that Colossians is the vital thing state-wise that governs the service of God."
+     "speaker": "WD",
+     "text": [
+      "Well, Christianity is victory. Every cloud that hinders may find a place in our own hearts, and the victory of Christianity must be established in our hearts before it can be established collectively amongst the saints."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I never read this scripture without thinking of a brother who used to be in the city. Sometimes at the prayer meeting there would be a lot of prayer about difficulties, and we would wait quite a long time before he prayed, but on a number of occasions, after a lot of such prayers, he would pray that we might find that the stone had already been rolled away."
+     "speaker": "DAB",
+     "text": [
+      "Yes. Going back to what you were saying before, ascension is, I suppose, the answer to earthliness - it takes us off the earth - but resurrection is the answer to death, and that is a fundamental thing. We have nothing unless there is an answer to death."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, Christianity is victory. Every cloud that hinders may find a place in our own hearts, and the victory of Christianity must be established in our hearts before it can be established collectively amongst the saints."
+     "speaker": "WD",
+     "text": [
+      "So you would agree with what I said that Colossian teaching is a vital thing in Christianity? There was a reference this morning in thanksgiving - and others followed it up, rightly so - to quickening. There is no experience of quickening as such unless we come to it that a Man has risen from the dead."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes. Going back to what you were saying before, ascension is, I suppose, the answer to earthliness - it takes us off the earth - but resurrection is the answer to death, and that is a fundamental thing. We have nothing unless there is an answer to death."
+     "speaker": "HAH",
+     "text": [
+      "I was interested in your reference to Colossians because, when I was younger, there used to be words in the morning meeting on the ark going through the Jordan. We do not have them now, but that seemed to be the basis of our moving on in the service of God."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "So you would agree with what I said that Colossian teaching is a vital thing in Christianity? There was a reference this morning in thanksgiving - and others followed it up, rightly so - to quickening. There is no experience of quickening as such unless we come to it that a Man has risen from the dead."
+     "speaker": "WD",
+     "text": [
+      "That scripture as to the ark in the Jordan is a great help, but the ark reached the other side. There is the important thing. And all the people had reached the other side. So we come back to Colossians, that it is by faith, but that is not quickening. Is that right?"
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "I was interested in your reference to Colossians because, when I was younger, there used to be words in the morning meeting on the ark going through the Jordan. We do not have them now, but that seemed to be the basis of our moving on in the service of God."
+     "speaker": "EOPM",
+     "text": [
+      "Yes, quickening is the answer to embalming, is it not? As to what you were saying about our love for the Lord, we may seek to retain the Lord at the level of our appreciation of Him. Quickening would link us with Him where He is."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That scripture as to the ark in the Jordan is a great help, but the ark reached the other side. There is the important thing. And all the people had reached the other side. So we come back to Colossians, that it is by faith, but that is not quickening. Is that right?"
+     "speaker": "WD",
+     "text": [
+      "Yes, and quickening is the spiritual evidence that the truth of a risen Christ has penetrated through all that is natural and human in us that would hinder the expansion of the glories of Christ seen in Colossians 1 and 2."
+     ]
     },
     {
-     "speaker": "E.O.P.M.",
-     "text": "Yes, quickening is the answer to embalming, is it not? As to what you were saying about our love for the Lord, we may seek to retain the Lord at the level of our appreciation of Him. Quickening would link us with Him where He is."
+     "speaker": "EOPM",
+     "text": [
+      "Could you help us practically about this? What quickened you this morning?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, and quickening is the spiritual evidence that the truth of a risen Christ has penetrated through all that is natural and human in us that would hinder the expansion of the glories of Christ seen in Colossians 1 and 2."
+     "speaker": "WD",
+     "text": [
+      "It was the sense that the glory of the Person was before me right from the beginning, even before the intimations were given. I was sitting there with the beloved people of God: what affected me was the glory of the Person who could gather together loyal hearts in a scene of death. No other Person could do that. No other Person will ever do it. But the Lord of glory can do it!"
+     ]
     },
     {
-     "speaker": "E.O.P.M.",
-     "text": "Could you help us practically about this? What quickened you this morning?"
+     "speaker": "JSG",
+     "text": [
+      "It says here ''when they looked\". There were exchanges between themselves evidently: “they said to one another\". But then it says, \"And when they looked\". I wondered if looking is important. Is what you have in mind that, as looking and having faith, we should expect the Lord personally to move in our hearts to cause movements in us?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It was the sense that the glory of the Person was before me right from the beginning, even before the intimations were given. I was sitting there with the beloved people of God: what affected me was the glory of the Person who could gather together loyal hearts in a scene of death. No other Person could do that. No other Person will ever do it. But the Lord of glory can do it!"
+     "speaker": "WD",
+     "text": [
+      "Because you are in the realm of spiritual realities and you have to test them out for yourself. That is why I said that what is in your own heart has to be proved, so that the power of the Lord can help you to overcome and reach forward into the service of God."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "It says here ''when they looked\". There were exchanges between themselves evidently: “they said to one another\". But then it says, \"And when they looked\". I wondered if looking is important. Is what you have in mind that, as looking and having faith, we should expect the Lord personally to move in our hearts to cause movements in us?"
+     "speaker": "JAB",
+     "text": [
+      "I was interested in \"the sun having risen\". It has a liberating effect, has it not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Because you are in the realm of spiritual realities and you have to test them out for yourself. That is why I said that what is in your own heart has to be proved, so that the power of the Lord can help you to overcome and reach forward into the service of God."
+     "speaker": "WD",
+     "text": [
+      "It brings out the glory of the first day of the week. I wonder whether we could be more sanctified in our minds about the first day of the week. I would not be legal in any sense but I think the sunshine of another day would have a sanctifying effect upon our minds so that the reality of these divine truths we are speaking about would be deepened with us."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "I was interested in \"the sun having risen\". It has a liberating effect, has it not?"
+     "speaker": "ECB",
+     "text": [
+      "I m sure that all of us would feel the need of that. I was struck with this expression “the sun having risen\" because it introduces for us impressions of eternity, but it introduces the world to come: the whole earth will be lit up with His glory when the sun is risen. That is the world to come. But thinking of something else you said earlier, do you think we could have some greater impression of the bearing of the last enemy that has been destroyed? If the last enemy has been destroyed, every other hindrance has been taken out of the way because Christ is risen."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It brings out the glory of the first day of the week. I wonder whether we could be more sanctified in our minds about the first day of the week. I would not be legal in any sense but I think the sunshine of another day would have a sanctifying effect upon our minds so that the reality of these divine truths we are speaking about would be deepened with us."
+     "speaker": "WD",
+     "text": [
+      "I think so. Just to turn aside for a moment: at our meetings for burial, if I may say so, we should never leave without a deepened sense in our souls of what you have said. It is so important in meetings for burial that we grasp that, because that would be the intent of the Spirit in the saints being gathered together. We say, rightly, that it is a token of respect and affection for the one who has gone, but we should leave with something in our souls as to the Person we love and know, and our hope is based on Him in virtue of what He has done in overthrowing the power of death."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I m sure that all of us would feel the need of that. I was struck with this expression “the sun having risen\" because it introduces for us impressions of eternity, but it introduces the world to come: the whole earth will be lit up with His glory when the sun is risen. That is the world to come. But thinking of something else you said earlier, do you think we could have some greater impression of the bearing of the last enemy that has been destroyed? If the last enemy has been destroyed, every other hindrance has been taken out of the way because Christ is risen."
+     "speaker": "DJH",
+     "text": [
+      "There is something special about what the Lord would say on such an occasion, is there not? We have our meetings on the calendar - Monday, Tuesday, Wednesday, Thursday - but a burial is not pre-arranged, it is interposed, and the Lord would say something special and, particularly, in regard to this matter you are speaking of."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so. Just to turn aside for a moment: at our meetings for burial, if I may say so, we should never leave without a deepened sense in our souls of what you have said. It is so important in meetings for burial that we grasp that, because that would be the intent of the Spirit in the saints being gathered together. We say, rightly, that it is a token of respect and affection for the one who has gone, but we should leave with something in our souls as to the Person we love and know, and our hope is based on Him in virtue of what He has done in overthrowing the power of death."
+     "speaker": "WD",
+     "text": [
+      "Yes, well, the beloved one, brother or sister, whoever it may be, their portion is rich beyond all question. The occasion is an experience we pass through but it is not primarily for the comfort of the bereaved. It is to bring out the glory of the Son of God - there is an impression of One who can provide in His risen life what nature lost. Is that right?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "There is something special about what the Lord would say on such an occasion, is there not? We have our meetings on the calendar - Monday, Tuesday, Wednesday, Thursday - but a burial is not pre-arranged, it is interposed, and the Lord would say something special and, particularly, in regard to this matter you are speaking of."
+     "speaker": "DJH",
+     "text": [
+      "That is John 11 again, is it not? - \"This sickness is not unto death, but for the glory of God, that the Son of God may be glorified by it\" (v 4). In a sense every death that happens is with that in view."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, well, the beloved one, brother or sister, whoever it may be, their portion is rich beyond all question. The occasion is an experience we pass through but it is not primarily for the comfort of the bereaved. It is to bring out the glory of the Son of God - there is an impression of One who can provide in His risen life what nature lost. Is that right?"
+     "speaker": "ECB",
+     "text": [
+      "In regard to meetings of burial, it is important that we keep in mind that the meeting is for the living. 1 Corinthians 15 is not a funeral chapter; it is a chapter for the living. As was quoted before: He gives us (the living) the victory. Do we not also need to bear in mind that there is only one memorial meeting and that is the Supper? A burial is not a memorial meeting for the dead."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "That is John 11 again, is it not? - \"This sickness is not unto death, but for the glory of God, that the Son of God may be glorified by it\" (v 4). In a sense every death that happens is with that in view."
+     "speaker": "DAB",
+     "text": [
+      "It says here that the sabbath was passed."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "In regard to meetings of burial, it is important that we keep in mind that the meeting is for the living. 1 Corinthians 15 is not a funeral chapter; it is a chapter for the living. As was quoted before: He gives us (the living) the victory. Do we not also need to bear in mind that there is only one memorial meeting and that is the Supper? A burial is not a memorial meeting for the dead."
+     "speaker": "WD",
+     "text": [
+      "It is the termination of the old order. It may mean that what was connected with the Jewish order of things was over. The death and resurrection of Christ has opened up an entirely different area. In speaking about sanctified minds on the first day of the week, the violence and wickedness that marks the scene outside should not enter into our conversation on the first day of the week."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It says here that the sabbath was passed."
+     "speaker": "DAB",
+     "text": [
+      "The supper in John 12 was \"six days before the passover\". You could say for them the sabbath was passed. There was nothing of what was merely religious and nothing of the world. It was not the Lord's supper but perhaps it shows us how the day can be held for Him in that fragrant way."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is the termination of the old order. It may mean that what was connected with the Jewish order of things was over. The death and resurrection of Christ has opened up an entirely different area. In speaking about sanctified minds on the first day of the week, the violence and wickedness that marks the scene outside should not enter into our conversation on the first day of the week."
+     "speaker": "WD",
+     "text": [
+      "The first day of the week is peculiarly rich for us. What I had in mind in Genesis 29 was preparatory to John 11. The younger brethren may not have thought much about the fact that there is a purity about the observance of the Lord's supper and its environment which is peculiar to the light that the Lord has given by the Spirit in the times in which we live. The shepherds here were bound by tradition; they said, \"We cannot until all the flocks are gathered together\". The whole environment was governed by tradition. It was equivalent to what the Lord did in the recovery of the truth. When Rachel comes into view - the assembly in type - the necessity for the Spirit in type being recognised must come into effect. The Supper and the service of God as the brethren know it and practice it is not a man-made thing; it is divinely prescribed and has come under the direction and help of the Spirit over the years."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The supper in John 12 was \"six days before the passover\". You could say for them the sabbath was passed. There was nothing of what was merely religious and nothing of the world. It was not the Lord's supper but perhaps it shows us how the day can be held for Him in that fragrant way."
+     "speaker": "ECB",
+     "text": [
+      "It is interesting that the shepherds always put the stone back but Jacob did not. There is that liberty of the Spirit now, the church in view, and the stone cannot be put back."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "The first day of the week is peculiarly rich for us. What I had in mind in Genesis 29 was preparatory to John 11. The younger brethren may not have thought much about the fact that there is a purity about the observance of the Lord's supper and its environment which is peculiar to the light that the Lord has given by the Spirit in the times in which we live. The shepherds here were bound by tradition; they said, \"We cannot until all the flocks are gathered together\". The whole environment was governed by tradition. It was equivalent to what the Lord did in the recovery of the truth. When Rachel comes into view - the assembly in type - the necessity for the Spirit in type being recognised must come into effect. The Supper and the service of God as the brethren know it and practice it is not a man-made thing; it is divinely prescribed and has come under the direction and help of the Spirit over the years."
+     "speaker": "WD",
+     "text": [
+      "We rightly speak about the heritage that has come to us. I do not see the heritage exactly in what we have in our bookcases; it lies in what the Spirit of God has worked out in regard to the functioning of the assembly proceeding from the Lord's supper, the flow of the well when the assembly in type comes into view."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is interesting that the shepherds always put the stone back but Jacob did not. There is that liberty of the Spirit now, the church in view, and the stone cannot be put back."
+     "speaker": "DAB",
+     "text": [
+      "What you say is confirmed by another of Jacob's wells that is referred to in John 4. It says it was \"near to the land which Jacob gave to his son Joseph\" (v 5). That is the heritage, is it not? But then it says, \"Now a fountain of Jacob's was there\". The heritage is of no value without the fountain of Jacob."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "We rightly speak about the heritage that has come to us. I do not see the heritage exactly in what we have in our bookcases; it lies in what the Spirit of God has worked out in regard to the functioning of the assembly proceeding from the Lord's supper, the flow of the well when the assembly in type comes into view."
+     "speaker": "WD",
+     "text": [
+      "That confirms what is in mind."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "What you say is confirmed by another of Jacob's wells that is referred to in John 4. It says it was \"near to the land which Jacob gave to his son Joseph\" (v 5). That is the heritage, is it not? But then it says, \"Now a fountain of Jacob's was there\". The heritage is of no value without the fountain of Jacob."
+     "speaker": "BHC",
+     "text": [
+      "I was thinking of how the water is marked by life. The Spirit would bring in life, would He not? Quickening would relate to the Spirit's activity, would it not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That confirms what is in mind."
+     "speaker": "WD",
+     "text": [
+      "Yes, in view of the assembly. It was when Jacob saw Rachel that he acted. The touch that the Lord has given as to the assembly, her feminine aspect, needs to be furnished by the Spirit. Actually union is not much known amongst us."
+     ]
     },
     {
-     "speaker": "B.H.C.",
-     "text": "I was thinking of how the water is marked by life. The Spirit would bring in life, would He not? Quickening would relate to the Spirit's activity, would it not?"
+     "speaker": "BHC",
+     "text": [
+      "In regard to the address to Philadelphia it says, \"and he shall go no more at all out\", Rev 3: 12. Would the idea of quickening and union have the sense of going in?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, in view of the assembly. It was when Jacob saw Rachel that he acted. The touch that the Lord has given as to the assembly, her feminine aspect, needs to be furnished by the Spirit. Actually union is not much known amongst us."
+     "speaker": "WD",
+     "text": [
+      "Yes, undoubtedly. That promise will be fulfilled in a day to come, but the assurance to Philadelphia that \"he shall go no more at all out\" is the touch that is left on our spirits in the service of God."
+     ]
     },
     {
-     "speaker": "B.H.C.",
-     "text": "In regard to the address to Philadelphia it says, \"and he shall go no more at all out\", Rev 3: 12. Would the idea of quickening and union have the sense of going in?"
+     "speaker": "DAB",
+     "text": [
+      "Are you thinking here about the emphasis on the kindredship between Jacob and Rachel which underlay their union? Jacob embraced Rachel because she was his mother's brother 's daughter."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, undoubtedly. That promise will be fulfilled in a day to come, but the assurance to Philadelphia that \"he shall go no more at all out\" is the touch that is left on our spirits in the service of God."
+     "speaker": "WD",
+     "text": [
+      "This is a most interesting scripture compared to Genesis 24. The environment is the same there. Rebecca comes to the well, but it is the Spirit, typically, who is prominent, but here it is typically Christ that is so distinct. That distinction is helpful because it does bring out that the Lord wants to facilitate the development of the affections that are connected with union."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Are you thinking here about the emphasis on the kindredship between Jacob and Rachel which underlay their union? Jacob embraced Rachel because she was his mother's brother 's daughter."
+     "speaker": "ECB",
+     "text": [
+      "You say that union is not very much known among us: I think you are right. But what difference would it make to us if it were better known?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "This is a most interesting scripture compared to Genesis 24. The environment is the same there. Rebecca comes to the well, but it is the Spirit, typically, who is prominent, but here it is typically Christ that is so distinct. That distinction is helpful because it does bring out that the Lord wants to facilitate the development of the affections that are connected with union."
+     "speaker": "WD",
+     "text": [
+      "There would be a sense of being in concert with the mind of Christ."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "You say that union is not very much known among us: I think you are right. But what difference would it make to us if it were better known?"
+     "speaker": "ECB",
+     "text": [
+      "I think there would: and, if union were better known, sonship would be better understood."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "There would be a sense of being in concert with the mind of Christ."
+     "speaker": "WD",
+     "text": [
+      "That would be true. That is why I felt at liberty to interpose this scripture between Mark 16 and John 11."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think there would: and, if union were better known, sonship would be better understood."
+     "speaker": "ECB",
+     "text": [
+      "Perhaps we do not learn everything about this in the meeting, but seeds are planted in our minds, and when you come to another meeting a bit later on, you find that something has grown in you. These things are very important. I was struck - you come back to the well here - with the reference this morning to satisfaction. I thought we had some impression of that, that there is a place where every heart is satisfied."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That would be true. That is why I felt at liberty to interpose this scripture between Mark 16 and John 11."
+     "speaker": "WD",
+     "text": [
+      "Every heart is satisfied. That has the elements of union in it, has it not? Satisfaction is not a thing that you can define in terms."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Perhaps we do not learn everything about this in the meeting, but seeds are planted in our minds, and when you come to another meeting a bit later on, you find that something has grown in you. These things are very important. I was struck - you come back to the well here - with the reference this morning to satisfaction. I thought we had some impression of that, that there is a place where every heart is satisfied."
+     "speaker": "ECB",
+     "text": [
+      "In the hymn 'In heavenly love abiding' which was in the 1952 hymnbook and earlier books, it says,",
+      "'The bridegroom and the bride",
+      "Are seen in glory ever",
+      "And love is satisfied.'"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Every heart is satisfied. That has the elements of union in it, has it not? Satisfaction is not a thing that you can define in terms."
+     "speaker": "DAB",
+     "text": [
+      "There is a contrast in the Song of Songs. It presents at times love at a distance. There the spouse says, \"Oh that thou wert as my brother ... Should I find thee without, I would kiss thee; And they would not despise me\", chap 8: 1. But here we find that this association between Rachel and Jacob gives liberty for the expression of affection."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "In the hymn 'In heavenly love abiding' which was in the 1952 hymnbook and earlier books, it says,"
+     "speaker": "WD",
+     "text": [
+      "So the Song of Songs is a typical scripture which perhaps demonstrates what is being said, because the varying experiences of the spouse with her beloved reflect often our own experience. The first and second chapters indicate satisfaction, in chapter three decline comes in, but what brings the spouse back is the sense of the love of the beloved filling her heart. As we long for our Beloved, there is some experience of what we are saying."
+     ]
     },
     {
-     "text": "'The bridegroom and the bride"
+     "speaker": "ILB",
+     "text": [
+      "We started our meeting this morning with the hymn:",
+      "'Lord Jesus, come' (No.274)",
+      "and at the end of that hymn we get",
+      "'Spirit and bride",
+      "... say, Come!'.",
+      "How are we to experience these things in a greater way?"
+     ]
     },
     {
-     "text": "Are seen in glory ever"
+     "speaker": "WD",
+     "text": [
+      "I would say in the development by the Spirit of the affections that will underlie that cry. What we are referring to in Genesis 29 with Jacob and Rachel is as if the Lord is saying, 'The great matter before Me is the development of affections by the Spirit amongst the saints to facilitate My movements amongst them'. Rachel is not strictly a type of the assembly but the way Jacob served for her for fourteen years - two periods of seven years - shows in type the depth of the love that the Lord had for the assembly. The stone was rolled away - a remarkable stark contrast to the ritualism in the established church and in what Rome practises. The Lord in His sovereign movements rolled the stone away and set on course the whole thought of the service of God. And the word to us, beloved brethren, is to be always in the gain of the Spirit so that we do not in any way inhibit the Spirit's movements by the restraint of tradition."
+     ]
     },
     {
-     "text": "And love is satisfied.'"
+     "speaker": "ILB",
+     "text": [
+      "I was thinking when he \"lifted up his voice and wept\" of the strong emotions there, and that is to be reciprocal. That is not traditional but the real experience of emotions."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "There is a contrast in the Song of Songs. It presents at times love at a distance. There the spouse says, \"Oh that thou wert as my brother ... Should I find thee without, I would kiss thee; And they would not despise me\", chap 8: 1. But here we find that this association between Rachel and Jacob gives liberty for the expression of affection."
+     "speaker": "WD",
+     "text": [
+      "Have you ever wept for joy? One of the choicest experiences you can have is to weep for joy. In weeping for joy, in these days of darkness and departure, you get some impression of how much the assembly means to Christ. So in John 11 Jesus says \"Take away the stone\". Then Martha intervenes, and then the Lord speaks about the glory of God and \"They took therefore the stone away\". What do you think would be the point of that?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "So the Song of Songs is a typical scripture which perhaps demonstrates what is being said, because the varying experiences of the spouse with her beloved reflect often our own experience. The first and second chapters indicate satisfaction, in chapter three decline comes in, but what brings the spouse back is the sense of the love of the beloved filling her heart. As we long for our Beloved, there is some experience of what we are saying."
+     "speaker": "ECB",
+     "text": [
+      "Immediately, of course, it was to release Lazarus, but I wondered whether there should not be ability among us to take away the stone so that the liberty of the occasion is thoroughly enjoyed."
+     ]
     },
     {
-     "speaker": "I.L.B.",
-     "text": "We started our meeting this morning with the hymn:"
+     "speaker": "WD",
+     "text": [
+      "It is as if the Lord would encourage us to take on the experimental side as to realising what His death has accomplished so that the glory of God might be manifest. The Lord could have done it Himself but there would have been a void on the experimental side with them. They acted in faith, and faith is an element that we need at the Supper as much as at any other time. It makes way for the experimental side and the Lord acted on that, and there was somebody brought forth in Lazarus that was for the glory of God in chapter 12."
+     ]
     },
     {
-     "text": "'Lord Jesus, come' (No.274)"
+     "speaker": "ECB",
+     "text": [
+      "That experimental side would be before we come to the meeting so that there is liberty for the glory of God to be manifested in the meeting, whether that glory is in the Father, the Son or the Spirit."
+     ]
     },
     {
-     "text": "and at the end of that hymn we get"
+     "speaker": "WD",
+     "text": [
+      "Well, that must be something that becomes manifest. If there is not some evident touch as to the glory of a divine Person, there is something incomplete."
+     ]
     },
     {
-     "text": "'Spirit and bride"
+     "speaker": "DJH",
+     "text": [
+      "Does this experimental side relate among other things to how we view one another as we come to the Supper? We might view one another with thoughts in relation to the natural order of things, but we are to take that away so that there is liberty for all in view of the service of God."
+     ]
     },
     {
-     "text": "... say, Come!'."
+     "speaker": "WD",
+     "text": [
+      "Well, your viewpoint of the saints as you gather for the Supper must of necessity be an abstract one. The experimental side is necessary to support that abstract view of things. Would you say that?"
+     ]
     },
     {
-     "text": "How are we to experience these things in a greater way?"
+     "speaker": "DJH",
+     "text": [
+      "That is what I was thinking. We take away what would hinder that abstract view."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I would say in the development by the Spirit of the affections that will underlie that cry. What we are referring to in Genesis 29 with Jacob and Rachel is as if the Lord is saying, 'The great matter before Me is the development of affections by the Spirit amongst the saints to facilitate My movements amongst them'. Rachel is not strictly a type of the assembly but the way Jacob served for her for fourteen years - two periods of seven years - shows in type the depth of the love that the Lord had for the assembly. The stone was rolled away - a remarkable stark contrast to the ritualism in the established church and in what Rome practises. The Lord in His sovereign movements rolled the stone away and set on course the whole thought of the service of God. And the word to us, beloved brethren, is to be always in the gain of the Spirit so that we do not in any way inhibit the Spirit's movements by the restraint of tradition."
+     "speaker": "WD",
+     "text": [
+      "I think so. Take John 12; the \"much fruit\" was the product of the death of Christ: \"Except the grain of wheat falling into the ground die, it abides alone; but if it die, it bears much fruit\" (v 24). The experimental side gives you, as apprehending that, to clothe the beloved saints in the full light of the abstract thought."
+     ]
     },
     {
-     "speaker": "I.L.B.",
-     "text": "I was thinking when he \"lifted up his voice and wept\" of the strong emotions there, and that is to be reciprocal. That is not traditional but the real experience of emotions."
+     "speaker": "HAH",
+     "text": [
+      "Is there a link between Martha's interpolation here and Nicodemus's natural thinking about a man entering into the womb of his mother a second time? It would help us to have spiritual thoughts: \"that which is born of the Spirit is spirit\", John 3: 6."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Have you ever wept for joy? One of the choicest experiences you can have is to weep for joy. In weeping for joy, in these days of darkness and departure, you get some impression of how much the assembly means to Christ. So in John 11 Jesus says \"Take away the stone\". Then Martha intervenes, and then the Lord speaks about the glory of God and \"They took therefore the stone away\". What do you think would be the point of that?"
+     "speaker": "WD",
+     "text": [
+      "I think so."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Immediately, of course, it was to release Lazarus, but I wondered whether there should not be ability among us to take away the stone so that the liberty of the occasion is thoroughly enjoyed."
+     "speaker": "ECB",
+     "text": [
+      "I was thinking of two other lines of the hymn to which you have already referred which we had at the beginning this morning:",
+      "'Out of Thy death has sprung",
+      "A wondrous living throng'.",
+      "That experimental side is over, and you are looking round, as was said, at the wondrous living throng and in your mind you see it all. Would you say that?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is as if the Lord would encourage us to take on the experimental side as to realising what His death has accomplished so that the glory of God might be manifest. The Lord could have done it Himself but there would have been a void on the experimental side with them. They acted in faith, and faith is an element that we need at the Supper as much as at any other time. It makes way for the experimental side and the Lord acted on that, and there was somebody brought forth in Lazarus that was for the glory of God in chapter 12."
+     "speaker": "WD",
+     "text": [
+      "Well, what I meant by linking the experimental side with that is that you take that view; - and then you say to yourself, How has that come about? You could not put that dress on the saints by a human appraisement. You have to say, How has that come about? It has come about because the Lord Jesus has broken the power of death and something has been secured for the glory of God. Eventually that is how they will all be in the divine thoughts."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "That experimental side would be before we come to the meeting so that there is liberty for the glory of God to be manifested in the meeting, whether that glory is in the Father, the Son or the Spirit."
+     "speaker": "DAB",
+     "text": [
+      "There was a reference earlier to looking into the tomb of Jesus which was empty, but there was no question of looking into the tomb of Lazarus while he was still there. It is very interesting that they rolled away the stone and Jesus looked up to heaven. He did not look into the tomb, as if to be in accord with the heavenly view of the matter, and Lazarus is first seen living, is he not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, that must be something that becomes manifest. If there is not some evident touch as to the glory of a divine Person, there is something incomplete."
+     "speaker": "WD",
+     "text": [
+      "Yes; then he comes forth and he is \"bound feet and hands with graveclothes, and his face was bound round with a handkerchief. Jesus says to them, Loose him and let him go\". The Lord by His death has removed every encumbrance and we have in our thoughts to do the same. A person with his feet and hands bound with graveclothes and face bound round with a handkerchief could not possibly serve in the service of God."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Does this experimental side relate among other things to how we view one another as we come to the Supper? We might view one another with thoughts in relation to the natural order of things, but we are to take that away so that there is liberty for all in view of the service of God."
+     "speaker": "EOPM",
+     "text": [
+      "I have often been impressed with this scripture that the Lord does not do it Himself. I would love to have the ability to do this to free some of our brethren, those we know in system as we say, bound with graveclothes, but even one another too. We all get tied up in knots at times, do we not? It is ability amongst the saints to unloose one another: the spirit of heaviness turns into a garment of praise (see Isa 61: 3)."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, your viewpoint of the saints as you gather for the Supper must of necessity be an abstract one. The experimental side is necessary to support that abstract view of things. Would you say that?"
+     "speaker": "WD",
+     "text": [
+      "You cannot do these things by human means, no matter how you try. You might look at a brother and you might say, Well, he must have some good point in him somewhere, I shall try and find it. But that is not the force of the scripture here but that he is so because the Lord Jesus has broken the power of death, and the new generation has come forth and that is what you proceed with in the service of God."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "That is what I was thinking. We take away what would hinder that abstract view."
+     "speaker": "DJH",
+     "text": [
+      "Would you say it is like Paul embracing Eutychus and saying \"his life is in him\" and then they broke bread?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so. Take John 12; the \"much fruit\" was the product of the death of Christ: \"Except the grain of wheat falling into the ground die, it abides alone; but if it die, it bears much fruit\" (v 24). The experimental side gives you, as apprehending that, to clothe the beloved saints in the full light of the abstract thought."
+     "speaker": "WD",
+     "text": [
+      "Yes; but what we are speaking about is not deep Christianity but the truth of resurrection. You cannot proceed into the depths of divine service unless the power of death is removed from your spirit."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Is there a link between Martha's interpolation here and Nicodemus's natural thinking about a man entering into the womb of his mother a second time? It would help us to have spiritual thoughts: \"that which is born of the Spirit is spirit\", John 3: 6."
-    },
-    {
-     "speaker": "W.D.",
-     "text": "I think so."
-    },
-    {
-     "speaker": "E.C.B.",
-     "text": "I was thinking of two other lines of the hymn to which you have already referred which we had at the beginning this morning:"
-    },
-    {
-     "text": "'Out of Thy death has sprung"
-    },
-    {
-     "text": "A wondrous living throng'."
-    },
-    {
-     "text": "That experimental side is over, and you are looking round, as was said, at the wondrous living throng and in your mind you see it all. Would you say that?"
-    },
-    {
-     "speaker": "W.D.",
-     "text": "Well, what I meant by linking the experimental side with that is that you take that view; - and then you say to yourself, How has that come about? You could not put that dress on the saints by a human appraisement. You have to say, How has that come about? It has come about because the Lord Jesus has broken the power of death and something has been secured for the glory of God. Eventually that is how they will all be in the divine thoughts."
-    },
-    {
-     "speaker": "D.A.B.",
-     "text": "There was a reference earlier to looking into the tomb of Jesus which was empty, but there was no question of looking into the tomb of Lazarus while he was still there. It is very interesting that they rolled away the stone and Jesus looked up to heaven. He did not look into the tomb, as if to be in accord with the heavenly view of the matter, and Lazarus is first seen living, is he not?"
-    },
-    {
-     "speaker": "W.D.",
-     "text": "Yes; then he comes forth and he is \"bound feet and hands with graveclothes, and his face was bound round with a handkerchief. Jesus says to them, Loose him and let him go\". The Lord by His death has removed every encumbrance and we have in our thoughts to do the same. A person with his feet and hands bound with graveclothes and face bound round with a handkerchief could not possibly serve in the service of God."
-    },
-    {
-     "speaker": "E.O.P.M.",
-     "text": "I have often been impressed with this scripture that the Lord does not do it Himself. I would love to have the ability to do this to free some of our brethren, those we know in system as we say, bound with graveclothes, but even one another too. We all get tied up in knots at times, do we not? It is ability amongst the saints to unloose one another: the spirit of heaviness turns into a garment of praise (see Isa 61: 3)."
-    },
-    {
-     "speaker": "W.D.",
-     "text": "You cannot do these things by human means, no matter how you try. You might look at a brother and you might say, Well, he must have some good point in him somewhere, I shall try and find it. But that is not the force of the scripture here but that he is so because the Lord Jesus has broken the power of death, and the new generation has come forth and that is what you proceed with in the service of God."
-    },
-    {
-     "speaker": "D.J.H.",
-     "text": "Would you say it is like Paul embracing Eutychus and saying \"his life is in him\" and then they broke bread?"
-    },
-    {
-     "speaker": "W.D.",
-     "text": "Yes; but what we are speaking about is not deep Christianity but the truth of resurrection. You cannot proceed into the depths of divine service unless the power of death is removed from your spirit."
-    },
-    {
-     "speaker": "D.J.H.",
-     "text": "I think what we have had these two days is very helpful in that regard. Yesterday, you cannot proceed in the testimony without it; but today, you cannot proceed in the service of God without it."
+     "speaker": "DJH",
+     "text": [
+      "I think what we have had these two days is very helpful in that regard. Yesterday, you cannot proceed in the testimony without it; but today, you cannot proceed in the service of God without it."
+     ]
     }
    ]
   },
@@ -610,6 +765,14 @@
      "text": "When Jesus was in Cana of Galilee there came to Him the father of a sick boy, asking the Master to come down and heal the invalid. Jesus in doing so must have felt in His spirit the burden of that which He graciously, and with few words removed. One result of this incident was that a whole houseful believed on the Lord Jesus. Do you believe on Him too?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE STONE ROLLED AWAY",
+   "kind": "default_place",
+   "detail": "London given to 10 names (\"London unless otherwise stated\")"
   }
  ]
 }

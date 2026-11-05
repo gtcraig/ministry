@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -72,100 +72,105 @@
    "place": "MAIDSTONE",
    "date": "28 August 1982",
    "speakers": [
-    "A.J.E.W.",
-    "G.A.P.",
-    "F.M.K.",
-    "F.C.M.",
-    "R.L.",
-    "E.F.W.",
-    "F.G.M.",
-    "L.A.B.",
-    "G.W.E.",
-    "C.C.I.",
-    "F.N.S.",
-    "H.P.W.",
-    "D.E.B.",
-    "H.J.T.",
-    "C.B.",
-    "V.E.W."
+    "AJEW",
+    "GAP",
+    "FMK",
+    "FCM",
+    "RL",
+    "EFW",
+    "FGM",
+    "LAB",
+    "GWE",
+    "CCI",
+    "FNS",
+    "HPW",
+    "DEB",
+    "HJT",
+    "CB",
+    "VEW"
    ],
    "initials": [
     {
-     "initials": "CBCB",
-     "name": "C.B. C.Beale",
+     "initials": "CB",
+     "name": "C.Beale",
      "place": "London"
     },
     {
-     "initials": "DEBDEB",
+     "initials": "DEB",
      "name": "D.E B. D.E.Burr",
      "place": "Redbridge"
     },
     {
-     "initials": "LABLAB",
-     "name": "L.A.B. L.A.Barlow",
+     "initials": "LAB",
+     "name": "L.A.Barlow",
      "place": "Bexley"
     },
     {
-     "initials": "GWEGWE",
-     "name": "G.W.E. G.W.Easton",
+     "initials": "GWE",
+     "name": "G.W.Easton",
      "place": "Redbridge"
     },
     {
-     "initials": "CCICC",
-     "name": "C.C.I. C.C.lkin",
+     "initials": "CCI",
+     "name": "C.C.lkin",
      "place": "Southend"
     },
     {
-     "initials": "FMKFMK",
-     "name": "F.M.K. F.M.Knappett",
+     "initials": "FMK",
+     "name": "F.M.Knappett",
      "place": "Maidstone"
     },
     {
-     "initials": "RLRL",
-     "name": "R.L. R.Lawrence",
+     "initials": "RL",
+     "name": "R.Lawrence",
      "place": "Maidstone"
     },
     {
-     "initials": "FCMFCMR",
-     "name": "F.C.M. F.C.Mutton Redbridge"
-    },
-    {
-     "initials": "FGMFGM",
-     "name": "F.G.M. F.G.May",
-     "place": "Maidstone"
-    },
-    {
-     "initials": "GAPGAP",
-     "name": "G.A.P. G.A.Palmer",
-     "place": "London"
-    },
-    {
-     "initials": "FNSFNS",
-     "name": "F.N.S. F.N.Stickland",
+     "initials": "FCM",
+     "name": "F. C. Mutton",
      "place": "Redbridge"
     },
     {
-     "initials": "HJTHJTL",
-     "name": "H.J.T. H.J.Taylor: London"
+     "initials": "FGM",
+     "name": "F.G.May",
+     "place": "Maidstone"
     },
     {
-     "initials": "AJEWAJEW",
-     "name": "A.J.E.W. A.J.E.Welch",
+     "initials": "GAP",
+     "name": "G.A.Palmer",
      "place": "London"
     },
     {
-     "initials": "EFWEFW",
-     "name": "E.F.W. E.F.Woodford",
+     "initials": "FNS",
+     "name": "F.N.Stickland",
+     "place": "Redbridge"
+    },
+    {
+     "initials": "HJT",
+     "name": "H.J.Taylor"
+    },
+    {
+     "initials": "L",
+     "name": "London"
+    },
+    {
+     "initials": "AJEW",
+     "name": "A.J.E.Welch",
+     "place": "London"
+    },
+    {
+     "initials": "EFW",
+     "name": "E.F.Woodford",
      "place": "Dorking"
     },
     {
-     "initials": "HPWHPW",
-     "name": "H.P.W. H.P.Wright",
+     "initials": "HPW",
+     "name": "H.P.Wright",
      "place": "Gillingham"
     },
     {
-     "initials": "VEWVEW",
-     "name": "V.E.W. V.E.Wraighte",
+     "initials": "VEW",
+     "name": "V.E.Wraighte",
      "place": "Gillingham"
     }
    ],
@@ -175,371 +180,537 @@
    ],
    "paragraphs": [
     {
-     "speaker": "A.J.E.W.",
-     "text": "I feel that the Spirit would have to say to us about the heavenly administration which should be apprehended by us, and in which the assembly has a unique place, involving, as his must, the glory of Christ as the great administrator, One who administers not, as alas men do, on the basis of immediate expediency, but who embraces the whole scope of activity as beloved of the Father. The Father loves the Son and has given all things to be in His hand, as John tells us (see John 3: 35). The \"all things... in his hand\" is a reference, not developed in that scripture, to what is under Christ and can be affected and used by Him, and is secured in the widest way for the Father's pleasure. I gain the impression that we need an enlarged view of the glory of this administration so that, morally equipped to have embraced a part in it, we might not be lacking in having our own place."
+     "speaker": "AJEW",
+     "text": [
+      "I feel that the Spirit would have to say to us about the heavenly administration which should be apprehended by us, and in which the assembly has a unique place, involving, as his must, the glory of Christ as the great administrator, One who administers not, as alas men do, on the basis of immediate expediency, but who embraces the whole scope of activity as beloved of the Father. The Father loves the Son and has given all things to be in His hand, as John tells us (see John 3: 35). The \"all things... in his hand\" is a reference, not developed in that scripture, to what is under Christ and can be affected and used by Him, and is secured in the widest way for the Father's pleasure. I gain the impression that we need an enlarged view of the glory of this administration so that, morally equipped to have embraced a part in it, we might not be lacking in having our own place.",
+      "Matthew emphasises to us in chapter 5 that the Lord went up into the mountain, and the note reminds us helpfully that the intention, in the original, is to mark a contrast between the mountain and the plain from which He came. It is to emphasise for us the position of elevation from which He speaks. We know that the rich instruction which we have had speaks of this as the mount of legislation. That enters into our administration under Christ, because it seems that He proceeds, we could say, quickly, relatively early in His service to set out a great range of principles. Hence the expression, the mount of legislation, involving the authority that the Lord Jesus has to set forth principles, and to take whatever measures the administration requires to ensure that there is no departure from those principles. The principles are very attractive, beginning with blessing and the basis for it, going on to impress upon us, in contrast to what there had been in Judaism, what the Lord Jesus has to say: \"I say unto you\". I thought we might therefore, all of us having some appreciation of the structure, so to speak, of these chapters running on to the end of chapter 7, get some fresh impression of the basis in legislation and principle under the authority of Christ, upon which the course of His administration here, anyway, must depend."
+     ]
     },
     {
-     "text": "Matthew emphasises to us in chapter 5 that the Lord went up into the mountain, and the note reminds us helpfully that the intention, in the original, is to mark a contrast between the mountain and the plain from which He came. It is to emphasise for us the position of elevation from which He speaks. We know that the rich instruction which we have had speaks of this as the mount of legislation. That enters into our administration under Christ, because it seems that He proceeds, we could say, quickly, relatively early in His service to set out a great range of principles. Hence the expression, the mount of legislation, involving the authority that the Lord Jesus has to set forth principles, and to take whatever measures the administration requires to ensure that there is no departure from those principles. The principles are very attractive, beginning with blessing and the basis for it, going on to impress upon us, in contrast to what there had been in Judaism, what the Lord Jesus has to say: \"I say unto you\". I thought we might therefore, all of us having some appreciation of the structure, so to speak, of these chapters running on to the end of chapter 7, get some fresh impression of the basis in legislation and principle under the authority of Christ, upon which the course of His administration here, anyway, must depend."
+     "speaker": "GAP",
+     "text": [
+      "Is it a characteristic feature that His disciples come to Him? He says of others \"ye will not come to me that ye might have life\", John 5: 40."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Is it a characteristic feature that His disciples come to Him? He says of others \"ye will not come to me that ye might have life\", John 5: 40."
+     "speaker": "AJEW",
+     "text": [
+      "That is in contrast, it seems, to the crowds that He saw. Crowds in general in Scripture are never to be relied upon; the present time would bring that out in our experiences. \"His disciples came to him\" involves that they had some impression of the elevated point from which He would set forth the elevation. It is a wonderful thing to get an immediate impression of Christ in that sense, to find not only the position that He occupies but the manifest authority with which He speaks, which is right at the heart of our subject."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is in contrast, it seems, to the crowds that He saw. Crowds in general in Scripture are never to be relied upon; the present time would bring that out in our experiences. \"His disciples came to him\" involves that they had some impression of the elevated point from which He would set forth the elevation. It is a wonderful thing to get an immediate impression of Christ in that sense, to find not only the position that He occupies but the manifest authority with which He speaks, which is right at the heart of our subject."
+     "speaker": "GAP",
+     "text": [
+      "That opens the way for the teaching and for us to be found in it."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "That opens the way for the teaching and for us to be found in it."
+     "speaker": "AJEW",
+     "text": [
+      "Just so, because it is not just the letter of the teaching, it is the word of the Teacher; and what a glorious teacher! Matthew brings out the side of Emmanuel, God with us, leaving us some impression very early of the glory of His Person. It is good to think not just of the letter of the teaching, which of course is needful, but to see it as the expression of the mind of One so glorious as Jesus, taking up at once a distinct and definite position of an administrative kind to secure what is for God's pleasure. This kingdom side is necessary as a basis of all that follows in reference to the assembly, and the administration from heaven into which we are brought."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Just so, because it is not just the letter of the teaching, it is the word of the Teacher; and what a glorious teacher! Matthew brings out the side of Emmanuel, God with us, leaving us some impression very early of the glory of His Person. It is good to think not just of the letter of the teaching, which of course is needful, but to see it as the expression of the mind of One so glorious as Jesus, taking up at once a distinct and definite position of an administrative kind to secure what is for God's pleasure. This kingdom side is necessary as a basis of all that follows in reference to the assembly, and the administration from heaven into which we are brought."
+     "speaker": "FMK",
+     "text": [
+      "The disciples came to Him as seeing the dignified way in which He went up to the mountain and having sat down. Did they get an impression of Him and the way He was setting this administration on?"
+     ]
     },
     {
-     "speaker": "F.M.K.",
-     "text": "The disciples came to Him as seeing the dignified way in which He went up to the mountain and having sat down. Did they get an impression of Him and the way He was setting this administration on?"
+     "speaker": "AJEW",
+     "text": [
+      "I am glad you express that because a sense of the dignity of things in relation to Christ and to the assembly is something we need to maintain. We know that in the scene around us there is little by way of respect active among men, but the dignity of the glorious legislator here is to lift our minds to the proper level from which His administration springs, and also to give us a touch of the dignity that would mark us as we assemble, as the assembly in that sense becomes practical in expression among us in the places where we are, or indeed in a meeting like this."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I am glad you express that because a sense of the dignity of things in relation to Christ and to the assembly is something we need to maintain. We know that in the scene around us there is little by way of respect active among men, but the dignity of the glorious legislator here is to lift our minds to the proper level from which His administration springs, and also to give us a touch of the dignity that would mark us as we assemble, as the assembly in that sense becomes practical in expression among us in the places where we are, or indeed in a meeting like this."
+     "speaker": "FMK",
+     "text": [
+      "It is seen also in Solomon and in men of God who have been used to bring the word to us."
+     ]
     },
     {
-     "speaker": "F.M.K.",
-     "text": "It is seen also in Solomon and in men of God who have been used to bring the word to us."
+     "speaker": "AJEW",
+     "text": [
+      "Yes, and of course the queen of Sheba takes account of it in Solomon's servants and those who wait upon him. It is a very significant thing that they had a bearing, personally it seems, that attracted the attention of one who came to see something of Solomon's wonderful administrative order."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes, and of course the queen of Sheba takes account of it in Solomon's servants and those who wait upon him. It is a very significant thing that they had a bearing, personally it seems, that attracted the attention of one who came to see something of Solomon's wonderful administrative order."
+     "speaker": "FCM",
+     "text": [
+      "You get the words 'deportment' and 'order', and then the thought of his ascent; all these are here really expressed in perfection in the movements of Jesus. So even His physical movements are called attention to, that \"he went up into the mountain and having sat down... and, having opened his mouth” - the perfect expression in the Administrator of what His disciples are to be conformed to."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "You get the words 'deportment' and 'order', and then the thought of his ascent; all these are here really expressed in perfection in the movements of Jesus. So even His physical movements are called attention to, that \"he went up into the mountain and having sat down... and, having opened his mouth” - the perfect expression in the Administrator of what His disciples are to be conformed to."
+     "speaker": "AJEW",
+     "text": [
+      "Showing among other things that the Lord Jesus as the glorious administrator has an immediate appreciation and valuation of the administration as a whole and those in it. He has great regard for his beloved disciples as coming to Him. All that you say about deportment and suchlike is enlarged to us in the Pauline epistles, is it not? It is very noticeable how after covering the spiritual level of things at such elevation in the first three chapters of Ephesians, including the part we read, we come down to practical injunctions, involving what you speak of as our deportment. This must reflect the character and dignity of the kingdom and the administration to which we belong."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Showing among other things that the Lord Jesus as the glorious administrator has an immediate appreciation and valuation of the administration as a whole and those in it. He has great regard for his beloved disciples as coming to Him. All that you say about deportment and suchlike is enlarged to us in the Pauline epistles, is it not? It is very noticeable how after covering the spiritual level of things at such elevation in the first three chapters of Ephesians, including the part we read, we come down to practical injunctions, involving what you speak of as our deportment. This must reflect the character and dignity of the kingdom and the administration to which we belong."
+     "speaker": "RL",
+     "text": [
+      "The Lord valued the committal of His own, did He not? He says in Luke \"But ye are they who have persevered with me in my temptations\", chap 22: 28. We might have thought of a good deal of failure with them, but the Lord valued their committal, and that would be more than just their presence with Him; they persevered with Him."
+     ]
     },
     {
-     "speaker": "R.L.",
-     "text": "The Lord valued the committal of His own, did He not? He says in Luke \"But ye are they who have persevered with me in my temptations\", chap 22: 28. We might have thought of a good deal of failure with them, but the Lord valued their committal, and that would be more than just their presence with Him; they persevered with Him."
+     "speaker": "AJEW",
+     "text": [
+      "That is a fine beginning. That committal to Him, and the setting of what we have read and of this whole section, really calls attention to that, that there is on the part of the disciples at least, distinct as they are from the crowd, an element of committal such that the Lord is free to unfold exhaustively the great principles relating to the kingdom. I call attention to the exhaustive character of what is here because, speaking reverently, the words of the Lord Jesus were never wasted; He did not address Himself to persons who were not, some of them at least, competent to carry forward and to hold dear what He addressed to them. The words of Jesus are so precious that we need to see that they were never uttered without the expectation that there would be some distinctive answer in those who heard Him. That brings a very distinctive appeal as to an occasion like this. Is the Lord speaking to us? If He speaks to us He relies upon us that there shall be some at least, indeed I trust all, that furnish the answer He seeks, not only in word but in substance, to His teaching among us.",
+      "E.F.W. ls that seen in the number of times that the Lord refers to what is being said, and then adds \"but I say unto you\"? I wondered if that might be a particular need amongst us at the present time as persons may say one thing or another, but do we need to hear \"but I say unto you\"?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is a fine beginning. That committal to Him, and the setting of what we have read and of this whole section, really calls attention to that, that there is on the part of the disciples at least, distinct as they are from the crowd, an element of committal such that the Lord is free to unfold exhaustively the great principles relating to the kingdom. I call attention to the exhaustive character of what is here because, speaking reverently, the words of the Lord Jesus were never wasted; He did not address Himself to persons who were not, some of them at least, competent to carry forward and to hold dear what He addressed to them. The words of Jesus are so precious that we need to see that they were never uttered without the expectation that there would be some distinctive answer in those who heard Him. That brings a very distinctive appeal as to an occasion like this. Is the Lord speaking to us? If He speaks to us He relies upon us that there shall be some at least, indeed I trust all, that furnish the answer He seeks, not only in word but in substance, to His teaching among us."
+     "speaker": "AJEW",
+     "text": [
+      "I am glad you extend that because it was very much in mind, the emphasis on \"but I say unto you\". That very distinctly calls attention to Him as the glorious instructor, the glorious teacher, but a teacher not only glorious but glorious in the total authority He possesses in reference to the teaching; and I wonder if there may be a need with us, particularly as we are younger, to see that authority lies behind the instruction that is in such a section as this. We must never leave out of mind the authority that is placed in the hands of Jesus."
+     ]
     },
     {
-     "text": "E.F.W. ls that seen in the number of times that the Lord refers to what is being said, and then adds \"but I say unto you\"? I wondered if that might be a particular need amongst us at the present time as persons may say one thing or another, but do we need to hear \"but I say unto you\"?"
+     "speaker": "EFW",
+     "text": [
+      "Is there always a danger, when things in the world are as they are, with the overthrow of authority, that the tendency may affect some of us; but your stress that this is still a time of authority is I think very timely."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I am glad you extend that because it was very much in mind, the emphasis on \"but I say unto you\". That very distinctly calls attention to Him as the glorious instructor, the glorious teacher, but a teacher not only glorious but glorious in the total authority He possesses in reference to the teaching; and I wonder if there may be a need with us, particularly as we are younger, to see that authority lies behind the instruction that is in such a section as this. We must never leave out of mind the authority that is placed in the hands of Jesus."
+     "speaker": "AJEW",
+     "text": [
+      "But when we think of that authority let us stop a little and ponder the glory of the Person in whom God has vested it, even Jesus. Let us remember what we owe to Him. Would we desire to come under authority in any other? Never! There is no authority to match the authority of the Lord Jesus Christ, and it operates for the blessing of those under it, and for the increase and prospering of what is of God Himself in an unqualified way. The authority of Christ has an unqualified way of operation, to secure a fruitful answer in which God is glorified and yet in which the saints come into the choicest and best of divine thoughts. The authority is clothed in that sense with attractiveness in which authority is found nowhere else."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Is there always a danger, when things in the world are as they are, with the overthrow of authority, that the tendency may affect some of us; but your stress that this is still a time of authority is I think very timely."
+     "speaker": "FGM",
+     "text": [
+      "And yet it is a very practical matter, do you think? The Lord says \"for your heavenly Father knows that ye have need of these things. But seek ye first the kingdom of God\" (Matt 6: 32,33); it is very practical in every detail."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "But when we think of that authority let us stop a little and ponder the glory of the Person in whom God has vested it, even Jesus. Let us remember what we owe to Him. Would we desire to come under authority in any other? Never! There is no authority to match the authority of the Lord Jesus Christ, and it operates for the blessing of those under it, and for the increase and prospering of what is of God Himself in an unqualified way. The authority of Christ has an unqualified way of operation, to secure a fruitful answer in which God is glorified and yet in which the saints come into the choicest and best of divine thoughts. The authority is clothed in that sense with attractiveness in which authority is found nowhere else."
+     "speaker": "AJEW",
+     "text": [
+      "And, of course, you are touching something which extends over the whole of this glorious administration, that it is practical, it is real; it does touch and provide for the immediate detail of circumstances in which the saints may be placed, but does so from what we could speak of as the heavenly level. So that the simple practical things, which I have little doubt were in mind in the reference to the deportment, all come in. You might say that is a detail, but the dignity and heavenly character of an administration with its centre in Christ in glory is to come out in the very detail of the way in which those who love Him deport themselves down here. Was that in your mind?"
+     ]
     },
     {
-     "speaker": "F.G.M.",
-     "text": "And yet it is a very practical matter, do you think? The Lord says \"for your heavenly Father knows that ye have need of these things. But seek ye first the kingdom of God\" (Matt 6: 32,33); it is very practical in every detail."
+     "speaker": "FCM",
+     "text": [
+      "Very much so, whether it be personally or as set together; and your stress on the authority of the Teacher personally is so important. Many things have come to us in valued ministry, but if they are the truth, which they are, I am to regard them as the authoritative pronouncement of the great Administrator. Therefore in love they are to be binding upon me."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "And, of course, you are touching something which extends over the whole of this glorious administration, that it is practical, it is real; it does touch and provide for the immediate detail of circumstances in which the saints may be placed, but does so from what we could speak of as the heavenly level. So that the simple practical things, which I have little doubt were in mind in the reference to the deportment, all come in. You might say that is a detail, but the dignity and heavenly character of an administration with its centre in Christ in glory is to come out in the very detail of the way in which those who love Him deport themselves down here. Was that in your mind?"
+     "speaker": "AJEW",
+     "text": [
+      "I am thankful you set that out; it is very much what is in my own mind, and I believe we need to see how those who have helped us, if we examine their ministry not in the spirit of criticism but as looking for what lies behind it, we see that they have held to the authority of Christ, and have held indeed too to the authority of the Scriptures, which is one aspect in which that authority is to be known."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Very much so, whether it be personally or as set together; and your stress on the authority of the Teacher personally is so important. Many things have come to us in valued ministry, but if they are the truth, which they are, I am to regard them as the authoritative pronouncement of the great Administrator. Therefore in love they are to be binding upon me."
+     "speaker": "LAB",
+     "text": [
+      "I was thinking of your reference earlier to John's gospel and especially to that note in chapter 3: 36 (see note 'e'): it is submission to His Person. Is that not really the secret of these things? They are not just what is said, speaking reverently, but they involve subjection to such a glorious Person."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I am thankful you set that out; it is very much what is in my own mind, and I believe we need to see how those who have helped us, if we examine their ministry not in the spirit of criticism but as looking for what lies behind it, we see that they have held to the authority of Christ, and have held indeed too to the authority of the Scriptures, which is one aspect in which that authority is to be known."
+     "speaker": "AJEW",
+     "text": [
+      "I am glad you put it that way, subjection to such a glorious Person, because, if we just pause to ponder who He is, what is our attitude going to be to what He may bring in by way of commandment and instruction and guiding?"
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "I was thinking of your reference earlier to John's gospel and especially to that note in chapter 3: 36 (see note 'e'): it is submission to His Person. Is that not really the secret of these things? They are not just what is said, speaking reverently, but they involve subjection to such a glorious Person."
+     "speaker": "GWE",
+     "text": [
+      "Would each answering to the authority set on the greatness of the administration, and then set forward the glory of the Administrator in administration?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I am glad you put it that way, subjection to such a glorious Person, because, if we just pause to ponder who He is, what is our attitude going to be to what He may bring in by way of commandment and instruction and guiding?"
+     "speaker": "AJEW",
+     "text": [
+      "That would lend distinctive character and definiteness to all that is done; and as the authority of Christ is answered to the whole scene of activity will fit as being one; there will be no part out of joint because the authority is in one glorious Person. We might also say, in relation to Ephesians, that there is headship operating in one glorious Person, and that governs everything in the assembly as rightly undertaken. So that the administration is never marked by disputes or differences within itself. Alas, in governments among men in these days, we find constant friction between elements of those governments, I suppose never more manifest than at the present moment. One does not speak derogatorily of the powers that be, but the fact remains that among companies of men there is continual disagreement and friction, but never in the heavenly authority in which Christ is supreme."
+     ]
     },
     {
-     "speaker": "G.W.E.",
-     "text": "Would each answering to the authority set on the greatness of the administration, and then set forward the glory of the Administrator in administration?"
+     "speaker": "CCI",
+     "text": [
+      "Does Matthew have in mind, among other things, that there is going to be severe opposition? I was wondering whether this section is completed with a man who had his house upon the rock, and the winds came and it withstood the pressures. Would that be in the Lord's mind that there is something here stable and firm that the enemy cannot overturn?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That would lend distinctive character and definiteness to all that is done; and as the authority of Christ is answered to the whole scene of activity will fit as being one; there will be no part out of joint because the authority is in one glorious Person. We might also say, in relation to Ephesians, that there is headship operating in one glorious Person, and that governs everything in the assembly as rightly undertaken. So that the administration is never marked by disputes or differences within itself. Alas, in governments among men in these days, we find constant friction between elements of those governments, I suppose never more manifest than at the present moment. One does not speak derogatorily of the powers that be, but the fact remains that among companies of men there is continual disagreement and friction, but never in the heavenly authority in which Christ is supreme."
+     "speaker": "AJEW",
+     "text": [
+      "Hence it is Matthew who speaks of hades' gates. That would indicate the elements of opposition that you speak of, and you might say the root of them all; but the Lord says, they shall not prevail. He does not say that they will not be active but that they shall not prevail."
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Does Matthew have in mind, among other things, that there is going to be severe opposition? I was wondering whether this section is completed with a man who had his house upon the rock, and the winds came and it withstood the pressures. Would that be in the Lord's mind that there is something here stable and firm that the enemy cannot overturn?"
+     "speaker": "CCI",
+     "text": [
+      "In that section, too, we get the thought of the rock; that is, it is stable and cannot be shaken. Is it going right through to the finish? We are right at the end of the dispensation. The Lord says \"I am with you all the days, until the completion of the age\", Matt. 28: 20."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Hence it is Matthew who speaks of hades' gates. That would indicate the elements of opposition that you speak of, and you might say the root of them all; but the Lord says, they shall not prevail. He does not say that they will not be active but that they shall not prevail."
+     "speaker": "AJEW",
+     "text": [
+      "Now what do we need to ensure this stability? How do we build our house on the rock?"
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "In that section, too, we get the thought of the rock; that is, it is stable and cannot be shaken. Is it going right through to the finish? We are right at the end of the dispensation. The Lord says \"I am with you all the days, until the completion of the age\", Matt. 28: 20."
+     "speaker": "CCI",
+     "text": [
+      "Is it just what is in the Lord's mind in this legislation that is being administered?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Now what do we need to ensure this stability? How do we build our house on the rock?"
+     "speaker": "AJEW",
+     "text": [
+      "I think it would be right to say that the legislation calls for a moral foundation in the souls of those who come under it; rather on the line that you are speaking, something is being built into us. We speak a good deal of the light and the principles of the truth - what is to be spoken of and needed to be spoken of and asserted - but they are to bring something of a substantial character among the beloved people of God, individually and as they gather, something that is morally formed and is not to be shaken."
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Is it just what is in the Lord's mind in this legislation that is being administered?"
+     "speaker": "FNS",
+     "text": [
+      "Would the Lord have in mind, as recorded in the very last verses of this gospel, that if the disciples and those by extension down to this day taught what He had enjoined, there would be a moral foundation built, and there would be no differences in itself essentially?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I think it would be right to say that the legislation calls for a moral foundation in the souls of those who come under it; rather on the line that you are speaking, something is being built into us. We speak a good deal of the light and the principles of the truth - what is to be spoken of and needed to be spoken of and asserted - but they are to bring something of a substantial character among the beloved people of God, individually and as they gather, something that is morally formed and is not to be shaken."
+     "speaker": "AJEW",
+     "text": [
+      "Very much: \"Go therefore and make disciples\", Matt 28: 19. That conveys something of a formative character working; it really visualises this great administration operating down here in the time of the Lord's absence, but contemplates, certainly by implication, the availability of power to give effect to that. You cannot have an administration working without power. There may be something, as among men set up on an official line, and it may not, alas, function for want of power; but the administration of heaven carries every element of power that is needful for its objects to be achieved. \"All power has been given me\", the Lord says, \"in heaven and upon earth”."
+     ]
     },
     {
-     "speaker": "F.N.S.",
-     "text": "Would the Lord have in mind, as recorded in the very last verses of this gospel, that if the disciples and those by extension down to this day taught what He had enjoined, there would be a moral foundation built, and there would be no differences in itself essentially?"
+     "speaker": "FNS",
+     "text": [
+      "And there is, of course, a heavy responsibility on those who essay to teach, that if they teach whatever He had enjoined there would be the building up on a oral basis and a structure that is going to be fruitful for divine pleasure."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Very much: \"Go therefore and make disciples\", Matt 28: 19. That conveys something of a formative character working; it really visualises this great administration operating down here in the time of the Lord's absence, but contemplates, certainly by implication, the availability of power to give effect to that. You cannot have an administration working without power. There may be something, as among men set up on an official line, and it may not, alas, function for want of power; but the administration of heaven carries every element of power that is needful for its objects to be achieved. \"All power has been given me\", the Lord says, \"in heaven and upon earth”."
+     "speaker": "AJEW",
+     "text": [
+      "Hence the need of holding dear every divine principle. They enter into the constitution of the whole administration that is operating and will be seen, of course, in the world to come in its excellence down here. I always remember a word of Mr Taylor, that in the world to come God will produce His best in relation to the condition of things in this order in which we are. We shall then see the best of which this scene of things is capable. Another scene of things, a new heavens and a new earth, is to be ushered in, but God will show that, by His administration of things, He can secure the very best in the very scene in which evil has done its worst. I think that enlarges the scope of our outlook and gives us perhaps a greater sense of what faith would apprehend as before us in its reality."
+     ]
     },
     {
-     "speaker": "F.N.S.",
-     "text": "And there is, of course, a heavy responsibility on those who essay to teach, that if they teach whatever He had enjoined there would be the building up on a oral basis and a structure that is going to be fruitful for divine pleasure."
+     "speaker": "HPW",
+     "text": [
+      "Pilate thought that he had some authority, did he not? In John 19 he speaks to the Lord as though he had authority, but the impact of the authority that was vested in Christ Himself just showed where he stood, and that no authority can be had unless it be given."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Hence the need of holding dear every divine principle. They enter into the constitution of the whole administration that is operating and will be seen, of course, in the world to come in its excellence down here. I always remember a word of Mr Taylor, that in the world to come God will produce His best in relation to the condition of things in this order in which we are. We shall then see the best of which this scene of things is capable. Another scene of things, a new heavens and a new earth, is to be ushered in, but God will show that, by His administration of things, He can secure the very best in the very scene in which evil has done its worst. I think that enlarges the scope of our outlook and gives us perhaps a greater sense of what faith would apprehend as before us in its reality."
+     "speaker": "AJEW",
+     "text": [
+      "The Lord reminds Pilate that if he had authority it was given to him, which is very salutary because, you might say, the divine administration embodies all these things, the powers that be included in the providential sense; it is operating for the furtherance of the interests of Christ and the strengthening of those who would stand faithfully in those interests. It is favourable to us. It is a great thing to see that whilst kingdom truth comes out in Matthew's gospel it is favourable to us; it is not in view of our condemnation, it is in view of a stabilised position in which we can be, knowing that God is favourable to us in all that He is working out.",
+      "Now I think we should pass on to Chronicles because the detail there is most instructive: \"when the queen of Sheba saw the wisdom of Solomon\". Well, how do we see wisdom? It would mean that there is something at once substantially apparent that reflects the wisdom of the One who is over it all, in this case Solomon. Most interesting history precedes all this, involving the preciousness of what is in view in David and the preciousness to God Himself of David's initial conception of the house, thinking for God as David did, and accepting the word from God that he should not build but that his son should build. Now we come to Solomon having built the house and the glory having come in, and we might say the service of God, what is peculiarly precious Godward, secured in activity, and we find Solomon with his peculiarly attractive and powerful administration at work, embracing all that has been effected. It is good to see the way that the person at the head of everything is emphasised. The house that he had built, his table, his servants, his attendants, his cupbearers, his ascent: all these things turn us back to Solomon, as if to show that the glory of the working administration reflects back upon the person who is at the head of it; and that is peculiarly true as calling attention to Christ."
+     ]
     },
     {
-     "speaker": "H.P.W.",
-     "text": "Pilate thought that he had some authority, did he not? In John 19 he speaks to the Lord as though he had authority, but the impact of the authority that was vested in Christ Himself just showed where he stood, and that no authority can be had unless it be given."
+     "speaker": "FMK",
+     "text": [
+      "Wisdom seems to have a great place here with Solomon; he asked for wisdom, God gave it to him. I was thinking of the wisdom given to Paul that the administration of the assembly might find a practical expression."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The Lord reminds Pilate that if he had authority it was given to him, which is very salutary because, you might say, the divine administration embodies all these things, the powers that be included in the providential sense; it is operating for the furtherance of the interests of Christ and the strengthening of those who would stand faithfully in those interests. It is favourable to us. It is a great thing to see that whilst kingdom truth comes out in Matthew's gospel it is favourable to us; it is not in view of our condemnation, it is in view of a stabilised position in which we can be, knowing that God is favourable to us in all that He is working out."
+     "speaker": "AJEW",
+     "text": [
+      "That is good; if there is one thing that we constantly need, especially in working out difficult matters that may come under our notice, is wisdom. I was very much stimulated and affected by a brief reference by Mr Raven to the Lord Jesus in which he spoke of Him as wisdom incarnate; that is to say, the whole supply and force of wisdom is in that glorious Person personally, in manhood. So that every element of wisdom in that sense can be learnt from Him - a wonderful thing which other scriptures confirm. But she saw his wisdom. I believe that is a great matter in the assembly, that things are working, and we see that wisdom is operating, and we trace it back to the glory of Christ as the great administrator over everything."
+     ]
     },
     {
-     "text": "Now I think we should pass on to Chronicles because the detail there is most instructive: \"when the queen of Sheba saw the wisdom of Solomon\". Well, how do we see wisdom? It would mean that there is something at once substantially apparent that reflects the wisdom of the One who is over it all, in this case Solomon. Most interesting history precedes all this, involving the preciousness of what is in view in David and the preciousness to God Himself of David's initial conception of the house, thinking for God as David did, and accepting the word from God that he should not build but that his son should build. Now we come to Solomon having built the house and the glory having come in, and we might say the service of God, what is peculiarly precious Godward, secured in activity, and we find Solomon with his peculiarly attractive and powerful administration at work, embracing all that has been effected. It is good to see the way that the person at the head of everything is emphasised. The house that he had built, his table, his servants, his attendants, his cupbearers, his ascent: all these things turn us back to Solomon, as if to show that the glory of the working administration reflects back upon the person who is at the head of it; and that is peculiarly true as calling attention to Christ."
+     "speaker": "DEB",
+     "text": [
+      "She says \"Happy are thy men\"; she recognises the feature of manhood operating in such an administration. Do you think that is something that we need to have in greater evidence? Things happen sometimes which, frankly, are a little childish, but that is not proper to the administration of heaven, is it?"
+     ]
     },
     {
-     "speaker": "F.M.K.",
-     "text": "Wisdom seems to have a great place here with Solomon; he asked for wisdom, God gave it to him. I was thinking of the wisdom given to Paul that the administration of the assembly might find a practical expression."
+     "speaker": "AJEW",
+     "text": [
+      "It certainly is not, and therefore - I feel for myself, and it is something I have had to learn by reality of experience - we need to measure our words, and we need to touch these things as recognising the greatness of that to which they relate, and of the One to whom they relate. It would keep us very dependent in having to do, for example in our care meetings, with testing matters that sometimes come up. Let us keep the sense of what would belong to one of Solomon's men. The word 'men' which you emphasise is a fine word to use. They are not exactly called officials here, they are not ministers of the realm, so to speak, they are his men, and that is a very significant thing."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is good; if there is one thing that we constantly need, especially in working out difficult matters that may come under our notice, is wisdom. I was very much stimulated and affected by a brief reference by Mr Raven to the Lord Jesus in which he spoke of Him as wisdom incarnate; that is to say, the whole supply and force of wisdom is in that glorious Person personally, in manhood. So that every element of wisdom in that sense can be learnt from Him - a wonderful thing which other scriptures confirm. But she saw his wisdom. I believe that is a great matter in the assembly, that things are working, and we see that wisdom is operating, and we trace it back to the glory of Christ as the great administrator over everything."
+     "speaker": "HJT",
+     "text": [
+      "Is there something for us in the note to the word men? They are weak, mortal, Enosh, and yet that kind of man is happy in this glorious system. Would it help us to keep humble and yet be in the conscious dignity of manhood in the assembly?"
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "She says \"Happy are thy men\"; she recognises the feature of manhood operating in such an administration. Do you think that is something that we need to have in greater evidence? Things happen sometimes which, frankly, are a little childish, but that is not proper to the administration of heaven, is it?"
+     "speaker": "AJEW",
+     "text": [
+      "Yes. I think that is a very fine point, that the balance in that sense is kept, that our own outlook and bearing is marked by humility, and yet along with that God is able to take a humble man and bring him into a glorious administration, effectively and as perfectly suited to be part of it. That is a very wonderful thing and calls attention really to the truth of the glad tidings and the effective operation of the glad tidings in persons so that all that is immaterial to this glorious administration is shut out. You feel the need of the moral course of things in persons which Scripture sets out so clearly, and which those who have helped us have taken up so clearly and pursued amongst the saints, that these things all contribute to what was referred to - Solomon's men. David had his men too, but those were more the militant men, but these are men in the sense that they can do things in a way that depicts an administration of such glory."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It certainly is not, and therefore - I feel for myself, and it is something I have had to learn by reality of experience - we need to measure our words, and we need to touch these things as recognising the greatness of that to which they relate, and of the One to whom they relate. It would keep us very dependent in having to do, for example in our care meetings, with testing matters that sometimes come up. Let us keep the sense of what would belong to one of Solomon's men. The word 'men' which you emphasise is a fine word to use. They are not exactly called officials here, they are not ministers of the realm, so to speak, they are his men, and that is a very significant thing."
+     "speaker": "LAB",
+     "text": [
+      "Did not Mr Raven say that he viewed wisdom as resource? And is that not the secret of it, that what is seen operating can be traced back to the source from which it comes? I thought that was seen here in these men: you might say what kind of men they were. Reference was made to what we are as weak mortal men and that is right, but what is coming into expression is the character of the men set out in perfection in Christ personally, do you think?"
+     ]
     },
     {
-     "speaker": "H.J.T.",
-     "text": "Is there something for us in the note to the word men? They are weak, mortal, Enosh, and yet that kind of man is happy in this glorious system. Would it help us to keep humble and yet be in the conscious dignity of manhood in the assembly?"
+     "speaker": "AJEW",
+     "text": [
+      "Yes; and of course the humble way in which the beloved apostle Paul refers to himself from time to time would abundantly show this. He says \"less than the least of all saints\" (Eph 3: 8), and yet in what context does that come? The most glorious expressions of the divine mind; there is the man who can take his place as one of Christ's men in the sense that you are speaking. Of course he had his apostleship too, the official side was there. When you come to Paul you get an impression not just of what he was as an apostle but what the man was as formed of God."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes. I think that is a very fine point, that the balance in that sense is kept, that our own outlook and bearing is marked by humility, and yet along with that God is able to take a humble man and bring him into a glorious administration, effectively and as perfectly suited to be part of it. That is a very wonderful thing and calls attention really to the truth of the glad tidings and the effective operation of the glad tidings in persons so that all that is immaterial to this glorious administration is shut out. You feel the need of the moral course of things in persons which Scripture sets out so clearly, and which those who have helped us have taken up so clearly and pursued amongst the saints, that these things all contribute to what was referred to - Solomon's men. David had his men too, but those were more the militant men, but these are men in the sense that they can do things in a way that depicts an administration of such glory."
+     "speaker": "LAB",
+     "text": [
+      "So that alongside of that he could say \"Be my imitators, even as I also am of Christ\", 1 Cor 11: 1. You asked where wisdom was seen, and all this is very challenging, at least I find it so, as to what is demonstrated; it is easy enough to see it not demonstrated in others but what is being demonstrated in me is the real test of it."
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "Did not Mr Raven say that he viewed wisdom as resource? And is that not the secret of it, that what is seen operating can be traced back to the source from which it comes? I thought that was seen here in these men: you might say what kind of men they were. Reference was made to what we are as weak mortal men and that is right, but what is coming into expression is the character of the men set out in perfection in Christ personally, do you think?"
+     "speaker": "AJEW",
+     "text": [
+      "I am glad you speak of this as challenging. We need to be ready for the challenge of the truth and realise that unless we accept the challenge we shall never get the benefit of what the truth has in mmd to convey to us."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes; and of course the humble way in which the beloved apostle Paul refers to himself from time to time would abundantly show this. He says \"less than the least of all saints\" (Eph 3: 8), and yet in what context does that come? The most glorious expressions of the divine mind; there is the man who can take his place as one of Christ's men in the sense that you are speaking. Of course he had his apostleship too, the official side was there. When you come to Paul you get an impression not just of what he was as an apostle but what the man was as formed of God."
+     "speaker": "RL",
+     "text": [
+      "It will cause us to ask, will it not? If any lack wisdom, ask (see Jas 1: 5). So if we feel the need of it we are cast dependently on the source."
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "So that alongside of that he could say \"Be my imitators, even as I also am of Christ\", 1 Cor 11: 1. You asked where wisdom was seen, and all this is very challenging, at least I find it so, as to what is demonstrated; it is easy enough to see it not demonstrated in others but what is being demonstrated in me is the real test of it."
+     "speaker": "AJEW",
+     "text": [
+      "If there is a challenge which is of God we can be absolutely assured that there is like resource with God to meet it."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I am glad you speak of this as challenging. We need to be ready for the challenge of the truth and realise that unless we accept the challenge we shall never get the benefit of what the truth has in mmd to convey to us."
+     "speaker": "CCI",
+     "text": [
+      "Would it be right to connect the scripture, Christ, as Son over his house, whose house are we\" (Heb 3: 5), with this section in Chronicles?"
+     ]
     },
     {
-     "speaker": "R.L.",
-     "text": "It will cause us to ask, will it not? If any lack wisdom, ask (see Jas 1: 5). So if we feel the need of it we are cast dependently on the source."
+     "speaker": "AJEW",
+     "text": [
+      "Yes; now tell us more about it."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "If there is a challenge which is of God we can be absolutely assured that there is like resource with God to meet it."
+     "speaker": "CCI",
+     "text": [
+      "I was wondering whether the Lord has certain rights which He can assert at any time anywhere; those rights would be respected by us as the dignity of Who He is as Son is being asserted. Would that be right?"
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Would it be right to connect the scripture, Christ, as Son over his house, whose house are we\" (Heb 3: 5), with this section in Chronicles?"
+     "speaker": "AJEW",
+     "text": [
+      "And, of course, He is Son over God's house. It stands related to God in His dwelling among His beloved people. It is what Solomon's house set forth. \"The settled place of thy dwelling\" (2 Chron 6: 30) - a fine remark which I often come back to as to Solomon's temple as we speak of it sometimes. Think of God having that in which He can dwell, not in any passing sense but in a settled place! I suppose, in the ultimate application, it calls attention to what is secured in the world to come and yet it has a real bearing upon us at the present time."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes; now tell us more about it."
+     "speaker": "FMK",
+     "text": [
+      "All these things that are seen express Solomon's wisdom - the food of his table, the deportment of his servants, the order of service of his attendants, their apparel, his cupbearers and their apparel, and his ascent, all culminating in the house of Jehovah. Is that a challenge as to how we hold things and do things and speak of things, because it has this end in view?"
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "I was wondering whether the Lord has certain rights which He can assert at any time anywhere; those rights would be respected by us as the dignity of Who He is as Son is being asserted. Would that be right?"
+     "speaker": "AJEW",
+     "text": [
+      "Yes; it is interesting as to that how very much in recent times the Lord's supper has gained a place among those who love Christ; it always has had a place through the revival but it is most noticeable to me that in recent times covering the past few years, we have come to value the Lord's supper more than ever and to be expectant of what may flow out of it for the pleasure of God and for His glory; and I believe the Lord in His love would not allow us to be careless as to what enters into the Lord's supper. And when the Scripture says \"But let a man prove himself, and thus eat... and drink\" (1 Cor 11: 28), let us regard that in the sober way that love would give us to regard it; that we just get on our knees and see where we stand in relation to the Father, the Son, the Spirit and the assembly, and all that is proceeding in the Spirit here below. I think the proving of ourselves must involve that."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "And, of course, He is Son over God's house. It stands related to God in His dwelling among His beloved people. It is what Solomon's house set forth. \"The settled place of thy dwelling\" (2 Chron 6: 30) - a fine remark which I often come back to as to Solomon's temple as we speak of it sometimes. Think of God having that in which He can dwell, not in any passing sense but in a settled place! I suppose, in the ultimate application, it calls attention to what is secured in the world to come and yet it has a real bearing upon us at the present time."
+     "speaker": "EFW",
+     "text": [
+      "I was wondering whether the position that the queen of Sheba takes up would help her to see these things. We may ask, How do I see these things clearly? She comes to Jerusalem, but then it adds \"and she came to Solomon, and spoke with him\", not to him but with him. Is that something that would help us all to see these things clearly? We cannot see them from a distance."
+     ]
     },
     {
-     "speaker": "F.M.K.",
-     "text": "All these things that are seen express Solomon's wisdom - the food of his table, the deportment of his servants, the order of service of his attendants, their apparel, his cupbearers and their apparel, and his ascent, all culminating in the house of Jehovah. Is that a challenge as to how we hold things and do things and speak of things, because it has this end in view?"
+     "speaker": "AJEW",
+     "text": [
+      "That is helpful, and in a way, if I may use the word, very simple. How simple, in one sense it is, just to look to the Lord Jesus and come into His presence and ask Him things, and get answers. We find how real the wisdom is. Have we not had experience of this sometimes in very practical ways? I am thinking of young people who may, for example, face employment problems which are very much in evidence at the present time, and such things. Can we not prove the wisdom of which we can have free disposal as we get into the presence of the Lord Jesus? I would like the simple, practical character of that just to get hold of us and affect the younger ones and the older ones - the older ones need it - that we know what the presence of Jesus means as profiting from all that is vested gloriously in Him by way of resource, as was said, in wisdom."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes; it is interesting as to that how very much in recent times the Lord's supper has gained a place among those who love Christ; it always has had a place through the revival but it is most noticeable to me that in recent times covering the past few years, we have come to value the Lord's supper more than ever and to be expectant of what may flow out of it for the pleasure of God and for His glory; and I believe the Lord in His love would not allow us to be careless as to what enters into the Lord's supper. And when the Scripture says \"But let a man prove himself, and thus eat... and drink\" (1 Cor 11: 28), let us regard that in the sober way that love would give us to regard it; that we just get on our knees and see where we stand in relation to the Father, the Son, the Spirit and the assembly, and all that is proceeding in the Spirit here below. I think the proving of ourselves must involve that."
+     "speaker": "HPW",
+     "text": [
+      "Would the Supper help us therefore, as you have indicated, to open up to our view the half that we have not really appreciated or known about? We might have known something about it in our short or long experience, but is the Supper the gateway which opens up the other half which is so blessed and glorious?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "I was wondering whether the position that the queen of Sheba takes up would help her to see these things. We may ask, How do I see these things clearly? She comes to Jerusalem, but then it adds \"and she came to Solomon, and spoke with him\", not to him but with him. Is that something that would help us all to see these things clearly? We cannot see them from a distance."
+     "speaker": "AJEW",
+     "text": [
+      "There is an expression which comes into a hymn: 'Higher and higher yet' (No.427), and that is something we can link with the Supper; we get something that elevates us more than ever before, and this is to be for God's pleasure, and it will be for God's pleasure as we find, through help in our souls, the substance that answers to what is ·opened up to us in Christ. The preciousness to heaven of what is formed after Christ in the saints by all the wonderful means that have been given us in the Spirit here, calling attention to the exalted Man, and in the experiences we have in the Spirit, and in the movements of Jesus: all these things are to be peculiarly formative in a positive sense. I am not speaking just of the repression of what is not in accord with the formation but the preciousness of what is after Christ being effectively formed in the people of God. Is that not a great matter at the present time?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is helpful, and in a way, if I may use the word, very simple. How simple, in one sense it is, just to look to the Lord Jesus and come into His presence and ask Him things, and get answers. We find how real the wisdom is. Have we not had experience of this sometimes in very practical ways? I am thinking of young people who may, for example, face employment problems which are very much in evidence at the present time, and such things. Can we not prove the wisdom of which we can have free disposal as we get into the presence of the Lord Jesus? I would like the simple, practical character of that just to get hold of us and affect the younger ones and the older ones - the older ones need it - that we know what the presence of Jesus means as profiting from all that is vested gloriously in Him by way of resource, as was said, in wisdom."
+     "speaker": "HPW",
+     "text": [
+      "I am sure it is, a most important one that we all should have our part in, young and old."
+     ]
     },
     {
-     "speaker": "H.P.W.",
-     "text": "Would the Supper help us therefore, as you have indicated, to open up to our view the half that we have not really appreciated or known about? We might have known something about it in our short or long experience, but is the Supper the gateway which opens up the other half which is so blessed and glorious?"
+     "speaker": "CB",
+     "text": [
+      "What does it mean: \"there was no more spirit in her\"?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "There is an expression which comes into a hymn: 'Higher and higher yet' (No.427), and that is something we can link with the Supper; we get something that elevates us more than ever before, and this is to be for God's pleasure, and it will be for God's pleasure as we find, through help in our souls, the substance that answers to what is ·opened up to us in Christ. The preciousness to heaven of what is formed after Christ in the saints by all the wonderful means that have been given us in the Spirit here, calling attention to the exalted Man, and in the experiences we have in the Spirit, and in the movements of Jesus: all these things are to be peculiarly formative in a positive sense. I am not speaking just of the repression of what is not in accord with the formation but the preciousness of what is after Christ being effectively formed in the people of God. Is that not a great matter at the present time?"
+     "speaker": "AJEW",
+     "text": [
+      "It would mean that all that that woman had relied on was exposed to her. We do things sometimes without thinking of the basis on which we do them, but the basis needs to be laid bare, and she would go back to her ruling position with some understanding that all the premises, so to speak, all the basic things that she had relied on in her administration needed to be brought under review, and maybe abandonment or at least revision."
+     ]
     },
     {
-     "speaker": "H.P.W.",
-     "text": "I am sure it is, a most important one that we all should have our part in, young and old."
+     "speaker": "GAP",
+     "text": [
+      "Would she require another spirit? Would that be the Holy Spirit as we apply it?"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "What does it mean: \"there was no more spirit in her\"?"
+     "speaker": "AJEW",
+     "text": [
+      "As we apply it that would be the answer, and of course this resource in wisdom in Christ previously referred to."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It would mean that all that that woman had relied on was exposed to her. We do things sometimes without thinking of the basis on which we do them, but the basis needs to be laid bare, and she would go back to her ruling position with some understanding that all the premises, so to speak, all the basic things that she had relied on in her administration needed to be brought under review, and maybe abandonment or at least revision."
+     "speaker": "CB",
+     "text": [
+      "Henceforth she would listen and believe true reports only."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Would she require another spirit? Would that be the Holy Spirit as we apply it?"
+     "speaker": "AJEW",
+     "text": [
+      "Yes; we get reports in character, maybe we get a word in ministry, we read a word in ministry, we read something in the letter of it. Now, what does that report convey to me? What does that report secure in me? Is it to remain in cold print? Because ministry in the Spirit is not intended to be that way. You get it sometimes in black and white and you are very thankful for it, but the answer is, What does that become in me? Is there something by way of substance that God would secure in me by that word? This is the way, I believe, the queen of Sheba would be challenged, not perhaps overmuch affected, but she was challenged."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "As we apply it that would be the answer, and of course this resource in wisdom in Christ previously referred to."
+     "speaker": "FMK",
+     "text": [
+      "Instead of enigmas she said \"Blessed be Jehovah thy God\". That was something to take back to her ruling position, was it not?"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Henceforth she would listen and believe true reports only."
+     "speaker": "AJEW",
+     "text": [
+      "That is right."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes; we get reports in character, maybe we get a word in ministry, we read a word in ministry, we read something in the letter of it. Now, what does that report convey to me? What does that report secure in me? Is it to remain in cold print? Because ministry in the Spirit is not intended to be that way. You get it sometimes in black and white and you are very thankful for it, but the answer is, What does that become in me? Is there something by way of substance that God would secure in me by that word? This is the way, I believe, the queen of Sheba would be challenged, not perhaps overmuch affected, but she was challenged."
+     "speaker": "CCI",
+     "text": [
+      "We get the thought in Ephesians of what is far exceedingly above all which we ask or think according to the power which works in us (see chap 3: 20). Would the queen of Sheba have a sense that there was something beyond what she had already experienced? Do you think the great service of the Son is to open out a realm of affections of which He is the centre?"
+     ]
     },
     {
-     "speaker": "F.M.K.",
-     "text": "Instead of enigmas she said \"Blessed be Jehovah thy God\". That was something to take back to her ruling position, was it not?"
+     "speaker": "AJEW",
+     "text": [
+      "Yes indeed. I think that is well put for us, to give us some impression of how the Lord might affect us this morning as to the glory of His heavenly administration of things which is in movement, effectively in movement, not a moment of time being lost. But then, shall we find our part and place in it as these different persons did that are referred to, these men as have been spoken of?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is right."
+     "speaker": "LAB",
+     "text": [
+      "Do you think practically that we need to look at things more from the standpoint of the Supper in this regard?"
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "We get the thought in Ephesians of what is far exceedingly above all which we ask or think according to the power which works in us (see chap 3: 20). Would the queen of Sheba have a sense that there was something beyond what she had already experienced? Do you think the great service of the Son is to open out a realm of affections of which He is the centre?"
+     "speaker": "AJEW",
+     "text": [
+      "Give us some examples."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes indeed. I think that is well put for us, to give us some impression of how the Lord might affect us this morning as to the glory of His heavenly administration of things which is in movement, effectively in movement, not a moment of time being lost. But then, shall we find our part and place in it as these different persons did that are referred to, these men as have been spoken of?"
+     "speaker": "LAB",
+     "text": [
+      "Well, I always find the saints at their best on that occasion, and I always find that what comes from the saints is the best. Whether we know what it is to relate to one another in our operations practically in administration to what is best is a challenge."
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "Do you think practically that we need to look at things more from the standpoint of the Supper in this regard?"
+     "speaker": "AJEW",
+     "text": [
+      "That is a fine point because sometimes, toward the end of the week, we examine ourselves under the Lord's touch. and we find that things are dropping a bit."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Give us some examples."
+     "speaker": "LAB",
+     "text": [
+      "I believe if the Lord does come in amongst us on the Lord's day morning it is intended to give character to the week that follows. We need not try and remember what was said but have hearts that can be affected by the way He presents Himself. Should we not in that sense move throughout the week in that direction?",
+      "A.J E.W. And the fact that is so prominent as He comes in of who He is, and what in the glory of His sonship He expresses, is such that it is beyond words, it is beyond an act of remembrance in the mind, it is a question of the thing being spiritually reached and held all the time, is it not?"
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "Well, I always find the saints at their best on that occasion, and I always find that what comes from the saints is the best. Whether we know what it is to relate to one another in our operations practically in administration to what is best is a challenge."
+     "speaker": "LAB",
+     "text": [
+      "And as you said, it is at that point that we touch what is so expansive. Our administration so often gets down to almost points, if I can use that expression. The great thing is to have in our hearts the expansion of the glory of which He is the centre, do you not think?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is a fine point because sometimes, toward the end of the week, we examine ourselves under the Lord's touch. and we find that things are dropping a bit."
+     "speaker": "AJEW",
+     "text": [
+      "I do not want, in speaking of it in the way I did, to make this difficult for the youngest lover of Christ here, but for each to get an impression of how glorious a Person He is - that would be something."
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "I believe if the Lord does come in amongst us on the Lord's day morning it is intended to give character to the week that follows. We need not try and remember what was said but have hearts that can be affected by the way He presents Himself. Should we not in that sense move throughout the week in that direction?"
+     "speaker": "LAB",
+     "text": [
+      "Going back to Matthew, persons are to have to do with the Father in secret. That is simple, is it not? You just go in and shut your door and have to do with the Father in secret. The power for everything that is outward is what belongs to what is inward and secret, and therefore you would encourage young persons to develop on that line of things, having their own secret links with Christ and with the Father, do you think?"
+     ]
     },
     {
-     "text": "A.J E.W. And the fact that is so prominent as He comes in of who He is, and what in the glory of His sonship He expresses, is such that it is beyond words, it is beyond an act of remembrance in the mind, it is a question of the thing being spiritually reached and held all the time, is it not?"
+     "speaker": "AJEW",
+     "text": [
+      "That very much belongs to our subject, because the Lord in those remarks emphasises the need of definiteness as to it; that is, you are to go into your closet and close the door; you shut out what might in some sense interrupt or hinder, and then speak to Him. That is something we all need because time is very demanding these days, and we may have something in our minds that needs to be done and, I find anyway, it tends to disturb your liberty to go in to speak to the Lord and get impressions from Him."
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "And as you said, it is at that point that we touch what is so expansive. Our administration so often gets down to almost points, if I can use that expression. The great thing is to have in our hearts the expansion of the glory of which He is the centre, do you not think?"
+     "speaker": "CB",
+     "text": [
+      "Solomon's reign is characterised by peace, but initially when he was confronted with a problem he asked for a sword but he did not use it. We have had the favour of fifty years of good teaching but do we still need to retain the sword to maintain the truth?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I do not want, in speaking of it in the way I did, to make this difficult for the youngest lover of Christ here, but for each to get an impression of how glorious a Person He is - that would be something."
+     "speaker": "AJEW",
+     "text": [
+      "Yes. How much do we value the good teaching and that to which it leads us, and that which is really the theme of it all? What good teaching there has been! But I think there is a greater need to value it and to put ourselves in the way of absorbing it. Let us be definite in reading Scripture, reading what the Spirit of God has caused to be set out concerning Scripture, and find the substance that would result as it is worked out in our souls."
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "Going back to Matthew, persons are to have to do with the Father in secret. That is simple, is it not? You just go in and shut your door and have to do with the Father in secret. The power for everything that is outward is what belongs to what is inward and secret, and therefore you would encourage young persons to develop on that line of things, having their own secret links with Christ and with the Father, do you think?"
+     "speaker": "VEW",
+     "text": [
+      "This queen was brought to a beautiful conclusion: \"Because thy God loved Israel, to establish them for ever\"."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That very much belongs to our subject, because the Lord in those remarks emphasises the need of definiteness as to it; that is, you are to go into your closet and close the door; you shut out what might in some sense interrupt or hinder, and then speak to Him. That is something we all need because time is very demanding these days, and we may have something in our minds that needs to be done and, I find anyway, it tends to disturb your liberty to go in to speak to the Lord and get impressions from Him."
+     "speaker": "AJEW",
+     "text": [
+      "That is a fine conclusion. You long to feel that the working of administration in this order of things, in what we do together, has some such result as that. There is also the very interesting point: \"Blessed be Jehovah thy God, who delighted in thee, to set thee on his throne, to be king to Jehovah thy God!\" In the account in Kings that piece is not in, it is not there \"to be king to Jehovah thy God!\"; that is a distinctive Chronicles touch, if I may call it, emphasising that Solomon was under the eye of God Himself, as a fruitful one in His hand to take an administration so glorious. It calls attention to Christ, what is found in Him Godward, and that is very precious.",
+      "Now we might have a brief word on Ephesians 3. It is quite familiar ground, but it is needed as to what is established with the assembly manifestly in mind. The total administration is much wider, but the active point of it at the present time is the assembly, the Spirit here in the assembly. We often come back to verse 10: \"in order that now\" - the word 'now' is to be emphasised - \"to the principalities and authorities in the heavenlies might be made known through the assembly the all-various wisdom of God\". We are in such immense circumstances in the assembly. It would be right to add to what we have said previously from Matthew, the point that the Lord's place as Head of the assembly must be kept in view in this epistle at this point. We prove the gain of His headship, not just of His authority which is there, but His headship, the intimacy of communication as well as the resource in wisdom that we have spoken of, available to us to give character to what is found among us. I speak the more definitely as to that because I look back on a period of time when really the headship of Christ was sadly neglected by us. Love for Him would have us get back into the full experience of the Head of the body and all that it means in the working of that out."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Solomon's reign is characterised by peace, but initially when he was confronted with a problem he asked for a sword but he did not use it. We have had the favour of fifty years of good teaching but do we still need to retain the sword to maintain the truth?"
+     "speaker": "FMK",
+     "text": [
+      "Would men, and manhood, make way for that in the assembly at the present time? The apostle called over men, elders, who could carry this matter (see Acts 20: 17)."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes. How much do we value the good teaching and that to which it leads us, and that which is really the theme of it all? What good teaching there has been! But I think there is a greater need to value it and to put ourselves in the way of absorbing it. Let us be definite in reading Scripture, reading what the Spirit of God has caused to be set out concerning Scripture, and find the substance that would result as it is worked out in our souls."
+     "speaker": "AJEW",
+     "text": [
+      "Yes; what those men must have gone over in their minds! I have often thought of those men, and Paul spoke to them as if to say, Now the position rests in your hands. And there is a sense in which we need a word like that. Some of our companies are small but we need to remember that we have a responsible part in reference to an administration which has its origins, its seat, in Christ in glory, and it is given efficacy by the presence of the Spirit here. There is something on that basis for even the angelic hosts to see, and that is a magnificent thing."
+     ]
     },
     {
-     "speaker": "V.E.W.",
-     "text": "This queen was brought to a beautiful conclusion: \"Because thy God loved Israel, to establish them for ever\"."
+     "speaker": "CCI",
+     "text": [
+      "What does the expression mean: \"the administration of the mystery\"?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is a fine conclusion. You long to feel that the working of administration in this order of things, in what we do together, has some such result as that. There is also the very interesting point: \"Blessed be Jehovah thy God, who delighted in thee, to set thee on his throne, to be king to Jehovah thy God!\" In the account in Kings that piece is not in, it is not there \"to be king to Jehovah thy God!\"; that is a distinctive Chronicles touch, if I may call it, emphasising that Solomon was under the eye of God Himself, as a fruitful one in His hand to take an administration so glorious. It calls attention to Christ, what is found in Him Godward, and that is very precious."
+     "speaker": "AJEW",
+     "text": [
+      "Does it not mean that the mystery is a divine conception, a range of divine thoughts of the most superlative kind, but which has to be brought into effect in something that is manifest and substantial under the eye of God? It is the administration that assures that, is it not?"
+     ]
     },
     {
-     "text": "Now we might have a brief word on Ephesians 3. It is quite familiar ground, but it is needed as to what is established with the assembly manifestly in mind. The total administration is much wider, but the active point of it at the present time is the assembly, the Spirit here in the assembly. We often come back to verse 10: \"in order that now\" - the word 'now' is to be emphasised - \"to the principalities and authorities in the heavenlies might be made known through the assembly the all-various wisdom of God\". We are in such immense circumstances in the assembly. It would be right to add to what we have said previously from Matthew, the point that the Lord's place as Head of the assembly must be kept in view in this epistle at this point. We prove the gain of His headship, not just of His authority which is there, but His headship, the intimacy of communication as well as the resource in wisdom that we have spoken of, available to us to give character to what is found among us. I speak the more definitely as to that because I look back on a period of time when really the headship of Christ was sadly neglected by us. Love for Him would have us get back into the full experience of the Head of the body and all that it means in the working of that out."
+     "speaker": "CCI",
+     "text": [
+      "I should like more help because we have the idea of Paul's understanding of the mystery. Is the administration of the mystery something that is functioning? It is active; it is not just an idea which gloriously, objectively, we can all understand through the Spirit, but it is something that is active under the Lord's own peculiar administration."
+     ]
     },
     {
-     "speaker": "F.M.K.",
-     "text": "Would men, and manhood, make way for that in the assembly at the present time? The apostle called over men, elders, who could carry this matter (see Acts 20: 17)."
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "Yes; what those men must have gone over in their minds! I have often thought of those men, and Paul spoke to them as if to say, Now the position rests in your hands. And there is a sense in which we need a word like that. Some of our companies are small but we need to remember that we have a responsible part in reference to an administration which has its origins, its seat, in Christ in glory, and it is given efficacy by the presence of the Spirit here. There is something on that basis for even the angelic hosts to see, and that is a magnificent thing."
-    },
-    {
-     "speaker": "C.C.I.",
-     "text": "What does the expression mean: \"the administration of the mystery\"?"
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "Does it not mean that the mystery is a divine conception, a range of divine thoughts of the most superlative kind, but which has to be brought into effect in something that is manifest and substantial under the eye of God? It is the administration that assures that, is it not?"
-    },
-    {
-     "speaker": "C.C.I.",
-     "text": "I should like more help because we have the idea of Paul's understanding of the mystery. Is the administration of the mystery something that is functioning? It is active; it is not just an idea which gloriously, objectively, we can all understand through the Spirit, but it is something that is active under the Lord's own peculiar administration."
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "I am glad you set that out: you did it better than I did, because that is exactly what I intended to convey. It seems to me to be a magnificent thing to realise that in some sense so precious a matter as the mystery can be working among us at the present time, and yielding something for the pleasure of God and for the hosts of heaven to discern."
+     "speaker": "AJEW",
+     "text": [
+      "I am glad you set that out: you did it better than I did, because that is exactly what I intended to convey. It seems to me to be a magnificent thing to realise that in some sense so precious a matter as the mystery can be working among us at the present time, and yielding something for the pleasure of God and for the hosts of heaven to discern."
+     ]
     }
    ]
   },
@@ -561,6 +732,26 @@
      "text": "Martin Luther is recorded as saying once that 'Christianity is a matter of personal pronouns'. Older children will know from their grammar lessons what this means and it is true as far as it goes. Luther meant that it is not just that all people are sinners - but that I am a sinner: it is not only that Jesus is a Saviour - but that Jesus is my Saviour. If you have by faith made it a personal matter in this way then your soul is saved for time and eternity. But you will always need a Saviour in respect of spirit, soul and body. Have you committed yourself to Him?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 2,
+   "title": "HEAVENLY ADMINISTRATION",
+   "kind": "no_comma_before_place",
+   "detail": "\"F.C.Mutton Redbridge\" read as F. C. Mutton, Redbridge"
+  },
+  {
+   "article": 2,
+   "title": "HEAVENLY ADMINISTRATION",
+   "kind": "initials_before_name",
+   "detail": "15 entries written as initials then name (\"CB ...\")"
+  },
+  {
+   "article": 2,
+   "title": "HEAVENLY ADMINISTRATION",
+   "kind": "speaker_matched_loosely",
+   "detail": "DEB used in the text for D.E B. D.E.Burr (key gives DEBDEB)"
   }
  ]
 }

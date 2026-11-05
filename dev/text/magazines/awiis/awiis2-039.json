@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -32,6 +32,7 @@
     "RDP",
     "BWB",
     "RWF",
+    "JMcK",
     "DJW",
     "JAT",
     "MJW",
@@ -39,6 +40,7 @@
     "WG",
     "AEM",
     "BCB",
+    "QAP",
     "JCG",
     "RJF",
     "AG",
@@ -97,7 +99,7 @@
      "place": "St Ives"
     },
     {
-     "initials": "JM",
+     "initials": "JMcK",
      "name": "J McKay",
      "place": "Witney"
     },
@@ -117,7 +119,7 @@
      "place": "Birmingham"
     },
     {
-     "initials": "QP",
+     "initials": "QAP",
      "name": "Q Poore",
      "place": "Swanage"
     },
@@ -144,394 +146,570 @@
    "paragraphs": [
     {
      "speaker": "RDP",
-     "text": "I have been thinking of the need for the preservation of God's people in this present time, and the appeal to them in Hebrews 3; and I notice that the whole section as to this is prefaced with the verse, “even, as says the Holy Spirit”, verse 7. There is an appeal in those chapters which is headed up and addressed by the Holy Spirit. “As says the Holy Spirit - not ‘as said the Holy Spirit’ but, “as says the Holy Spirit”. I think that the service of the Holy Spirit is always current. I do not think it is ever historical, and today I thought we could concentrate on the blessedness of the gift of the Holy Spirit, and what is involved in it, and particularly the presentation we get in Titus which speaks about the “renewal of the Holy Spirit”."
-    },
-    {
-     "text": "It is possible that we speak about the Holy Spirit in a kind of academic way. You speak to the older brethren as to the ministry of the Spirit, and they often refer back to the conflict as to the addressing of the Holy Spirit, but, beloved brethren, the conflict is today; the conflict in relation to the Holy Spirit is today. It is not historical. We do not speak as much as I think we might as to the power and presence of the Holy Spirit of God. In the addresses to the seven assemblies in Revelation 2 and 3 it is the Lord who speaks to them. But at the end of each of them He does not say, ‘He that has an ear, let him hear what the Lord says to the assemblies but, “He that has an ear, let him hear what the Spirit says to the assemblies”. Now, you have the detail of what the Lord says and it is very compelling, but the appeal to you and me is to “hear what the Spirit says to the assemblies”. It is not what the Spirit had said or would say, because it is always current, “what the Spirit says to the assemblies”. What the Spirit says is always current and will always be relevant to the environment in which we are at any one time. Any idea really that ministry and our meetings will only be confined to a kind of reiteration of well-known truth is not really honouring to the Holy Spirit. I think we should be looking more, beloved brethren, for the freshness and the power and the vitality of the Holy Spirit now."
-    },
-    {
-     "text": "God has given us His Spirit. Think of that! When the Spirit came in Acts, it said “there came ... a sound out of heaven as a violent impetuous blowing”, Acts 2: 2. It was almost as if the breath of God was being communicated, and the Spirit was coming here to dwell in men, to take His abode, and He was not going to depart. Think of that! Yet how much do we speak of the Holy Spirit? How many times, for instance, do we read the eighth chapter of Romans? Not all that often, I would suggest, and I wondered if we might today speak of His Person and service."
-    },
-    {
-     "text": "This reference first of all in Titus is that “he saved us through the washing of regeneration and renewal of the Holy Spirit”. You might say, 'Well, I thought we had been saved by the precious work of Christ'. Of course, we have, beloved brethren. We have been saved by His work, by His precious blood, following God’s work in us of new birth. Yet here, in Titus, it says, “he saved us through the washing of regeneration and renewal of the Holy Spirit”. What does that mean? It is said in a place which in those days was a very difficult area, Crete. Paul speaks of the Cretans as by nature “evil wild beasts, lazy gluttons”, chap 1: 12. Yet he says here in this setting, “he saved us through the washing of regeneration and renewal of the Holy Spirit”. I think that is a beautiful touch."
-    },
-    {
-     "text": "I read about the woman in 2 Kings 4. There you have a widow, her husband was dead, and she was almost destitute. How can we conceive, beloved brethren, that as believers here in this course of things in which we are, in which God has left us - He has not taken us straight to glory - that He would leave us here without resources, in poverty? We may, however, look to the Lord to bring in resource, and He may say to us, “What hast thou in the house?” What she had got was something she had not appreciated. It was a pot of oil - a typical reference to the Holy Spirit."
-    },
-    {
-     "text": "I read just those few verses in Romans. In that chapter you get an exposition of the gift of the Holy Spirit. Marvellous! I think there are eighteen references to the Holy Spirit in Romans 8. We shall not cover them all today, of course, but what you find there is what that woman had when she said, 'I have nothing whatever ...'. Go to Romans 8 and find out the wealth and the riches of the Holy Spirit, that are suggested in it and which are available to us, beloved brethren."
-    },
-    {
-     "text": "In Numbers 21 they are coming to the end of the journey. The Canaanites are pressing on, the peoples of the land, the obstacles at the end of their journey, are all pressing on them everywhere (you know the history of chapter 21) and they come to this point where there is water everywhere - another type of the Holy Spirit - and they rise up and they sing to the well. This is not a token response to the Holy Spirit, but it is hearts that are moved in relation to the blessedness of that gift, and they “sing unto it”."
+     "text": [
+      "I have been thinking of the need for the preservation of God's people in this present time, and the appeal to them in Hebrews 3; and I notice that the whole section as to this is prefaced with the verse, “even, as says the Holy Spirit”, verse 7. There is an appeal in those chapters which is headed up and addressed by the Holy Spirit. “As says the Holy Spirit - not ‘as said the Holy Spirit’ but, “as says the Holy Spirit”. I think that the service of the Holy Spirit is always current. I do not think it is ever historical, and today I thought we could concentrate on the blessedness of the gift of the Holy Spirit, and what is involved in it, and particularly the presentation we get in Titus which speaks about the “renewal of the Holy Spirit”.",
+      "It is possible that we speak about the Holy Spirit in a kind of academic way. You speak to the older brethren as to the ministry of the Spirit, and they often refer back to the conflict as to the addressing of the Holy Spirit, but, beloved brethren, the conflict is today; the conflict in relation to the Holy Spirit is today. It is not historical. We do not speak as much as I think we might as to the power and presence of the Holy Spirit of God. In the addresses to the seven assemblies in Revelation 2 and 3 it is the Lord who speaks to them. But at the end of each of them He does not say, ‘He that has an ear, let him hear what the Lord says to the assemblies but, “He that has an ear, let him hear what the Spirit says to the assemblies”. Now, you have the detail of what the Lord says and it is very compelling, but the appeal to you and me is to “hear what the Spirit says to the assemblies”. It is not what the Spirit had said or would say, because it is always current, “what the Spirit says to the assemblies”. What the Spirit says is always current and will always be relevant to the environment in which we are at any one time. Any idea really that ministry and our meetings will only be confined to a kind of reiteration of well-known truth is not really honouring to the Holy Spirit. I think we should be looking more, beloved brethren, for the freshness and the power and the vitality of the Holy Spirit now.",
+      "God has given us His Spirit. Think of that! When the Spirit came in Acts, it said “there came ... a sound out of heaven as a violent impetuous blowing”, Acts 2: 2. It was almost as if the breath of God was being communicated, and the Spirit was coming here to dwell in men, to take His abode, and He was not going to depart. Think of that! Yet how much do we speak of the Holy Spirit? How many times, for instance, do we read the eighth chapter of Romans? Not all that often, I would suggest, and I wondered if we might today speak of His Person and service.",
+      "This reference first of all in Titus is that “he saved us through the washing of regeneration and renewal of the Holy Spirit”. You might say, 'Well, I thought we had been saved by the precious work of Christ'. Of course, we have, beloved brethren. We have been saved by His work, by His precious blood, following God’s work in us of new birth. Yet here, in Titus, it says, “he saved us through the washing of regeneration and renewal of the Holy Spirit”. What does that mean? It is said in a place which in those days was a very difficult area, Crete. Paul speaks of the Cretans as by nature “evil wild beasts, lazy gluttons”, chap 1: 12. Yet he says here in this setting, “he saved us through the washing of regeneration and renewal of the Holy Spirit”. I think that is a beautiful touch.",
+      "I read about the woman in 2 Kings 4. There you have a widow, her husband was dead, and she was almost destitute. How can we conceive, beloved brethren, that as believers here in this course of things in which we are, in which God has left us - He has not taken us straight to glory - that He would leave us here without resources, in poverty? We may, however, look to the Lord to bring in resource, and He may say to us, “What hast thou in the house?” What she had got was something she had not appreciated. It was a pot of oil - a typical reference to the Holy Spirit.",
+      "I read just those few verses in Romans. In that chapter you get an exposition of the gift of the Holy Spirit. Marvellous! I think there are eighteen references to the Holy Spirit in Romans 8. We shall not cover them all today, of course, but what you find there is what that woman had when she said, 'I have nothing whatever ...'. Go to Romans 8 and find out the wealth and the riches of the Holy Spirit, that are suggested in it and which are available to us, beloved brethren.",
+      "In Numbers 21 they are coming to the end of the journey. The Canaanites are pressing on, the peoples of the land, the obstacles at the end of their journey, are all pressing on them everywhere (you know the history of chapter 21) and they come to this point where there is water everywhere - another type of the Holy Spirit - and they rise up and they sing to the well. This is not a token response to the Holy Spirit, but it is hearts that are moved in relation to the blessedness of that gift, and they “sing unto it”."
+     ]
     },
     {
      "speaker": "BWB",
-     "text": "Does the “renewal of the Holy Spirit” mean there is a basic change in the whole mind and outlook of the believer? It is a change really from the bottom right through. You begin to think and live in a different way by virtue of the indwelling power of the Spirit of God."
+     "text": [
+      "Does the “renewal of the Holy Spirit” mean there is a basic change in the whole mind and outlook of the believer? It is a change really from the bottom right through. You begin to think and live in a different way by virtue of the indwelling power of the Spirit of God."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think so. It seems to me that this is part of the great truth of the gospel, that God is not only operating in us sovereignly as to the forgiveness of our sins but He has fitted us through that same salvation for being here in the power of a new life in the wilderness, in the place where we dishonoured God. That same salvation has opened up the power to live here where we once sinned."
+     "text": [
+      "I think so. It seems to me that this is part of the great truth of the gospel, that God is not only operating in us sovereignly as to the forgiveness of our sins but He has fitted us through that same salvation for being here in the power of a new life in the wilderness, in the place where we dishonoured God. That same salvation has opened up the power to live here where we once sinned."
+     ]
     },
     {
      "speaker": "BWB",
-     "text": "That too is a far-reaching thing, is it not? This act of cleansing and “the washing of water by the word” (Eph 5: 26) is refreshing. It has been said to be preservative. It preserves really what is for Christ in the saints. Then the Spirit brings in the other side of what springs up from within, does it?"
+     "text": [
+      "That too is a far-reaching thing, is it not? This act of cleansing and “the washing of water by the word” (Eph 5: 26) is refreshing. It has been said to be preservative. It preserves really what is for Christ in the saints. Then the Spirit brings in the other side of what springs up from within, does it?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Yes, and you see in this scripture the essential character of the Holy Spirit in relation to the gospel. I could not define what people should say in the preaching, but this is part of the gospel, the wonderful gift of the Spirit, regeneration. It has been likened in ministry to when the immigrants went to America, to New York, when they all were landed at Ellis Island, just off Manhattan, and there they were processed. They did not leave there until they received help as to what they would need in the new life to which they had come. They were given education; they were given instructions in citizenship; they were given training and all kinds of things. They were being fitted, beloved brethren, for another world. Now through the glad tidings God is fitting us in relation to a new sphere of things. We are still here literally in the flesh, but there is a whole area of things which He has established in His Spirit and a new life, a whole state of things which is different in which the believer not only has light, but is given power to live. So God does not take us to glory straight away. He could have done, but He leaves us here - He leaves His people here as a testimony."
+     "text": [
+      "Yes, and you see in this scripture the essential character of the Holy Spirit in relation to the gospel. I could not define what people should say in the preaching, but this is part of the gospel, the wonderful gift of the Spirit, regeneration. It has been likened in ministry to when the immigrants went to America, to New York, when they all were landed at Ellis Island, just off Manhattan, and there they were processed. They did not leave there until they received help as to what they would need in the new life to which they had come. They were given education; they were given instructions in citizenship; they were given training and all kinds of things. They were being fitted, beloved brethren, for another world. Now through the glad tidings God is fitting us in relation to a new sphere of things. We are still here literally in the flesh, but there is a whole area of things which He has established in His Spirit and a new life, a whole state of things which is different in which the believer not only has light, but is given power to live. So God does not take us to glory straight away. He could have done, but He leaves us here - He leaves His people here as a testimony."
+     ]
     },
     {
      "speaker": "RWF",
-     "text": "Regeneration implies some gift. You speak of it as established in us if the Spirit indwells."
+     "text": [
+      "Regeneration implies some gift. You speak of it as established in us if the Spirit indwells."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think so. That is good. It is established in us by the Spirit, and the renewal of the Holy Spirit seems to indicate that it was not only once and for all, but there is the continual maintenance of the means of life in relation to that new area so when I am converted, it is not only that I am going to heaven when I die (though that is not exactly a scriptural thought but we know what is meant) but “the washing of regeneration and renewal of the Holy Spirit” is that you are fitted to remain here and live in the power and strength of a new place whilst still literally on the earth, and you have a new breath and a new means of life."
+     "text": [
+      "I think so. That is good. It is established in us by the Spirit, and the renewal of the Holy Spirit seems to indicate that it was not only once and for all, but there is the continual maintenance of the means of life in relation to that new area so when I am converted, it is not only that I am going to heaven when I die (though that is not exactly a scriptural thought but we know what is meant) but “the washing of regeneration and renewal of the Holy Spirit” is that you are fitted to remain here and live in the power and strength of a new place whilst still literally on the earth, and you have a new breath and a new means of life."
+     ]
     },
     {
-     "text": "JMcK So the Spirit is here in the scene of testimony. The speaking of the Spirit is therefore a great resource."
+     "speaker": "JMcK",
+     "text": [
+      "So the Spirit is here in the scene of testimony. The speaking of the Spirit is therefore a great resource."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I believe so. Say more, please."
+     "text": [
+      "I believe so. Say more, please."
+     ]
     },
     {
-     "text": "JMcK Well, “he may be with you for ever”. That is John 14 which goes on to refer to Him as “the Spirit of truth” (v 16), but He is close to us. It is not only that the saints are in the scene of testimony, but the Spirit is also."
+     "speaker": "JMcK",
+     "text": [
+      "Well, “he may be with you for ever”. That is John 14 which goes on to refer to Him as “the Spirit of truth” (v 16), but He is close to us. It is not only that the saints are in the scene of testimony, but the Spirit is also."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "So the Lord tells us in John 14, “he will give you another Comforter, that he may be with you” (v 16) and “shall be in you”, v 17. Think of the power of these things, beloved. God has given us His Spirit. This is greater than the millennial view, I believe, when He will pour out of His Spirit upon all flesh, Acts 2: 17. What God did in the bringing in of the Holy Spirit at Pentecost was greater than that, because it is not only the thought of pouring it out upon all flesh, but His breath, His very inwards are involved, we might say. That is a greater thought than what will be in the millennium. How much, beloved brethren, do we think of the glory of it that God’s Spirit dwells in us? Paul speaks of it, “if indeed God’s Spirit dwell in you”, Rom 8: 9."
+     "text": [
+      "So the Lord tells us in John 14, “he will give you another Comforter, that he may be with you” (v 16) and “shall be in you”, v 17. Think of the power of these things, beloved. God has given us His Spirit. This is greater than the millennial view, I believe, when He will pour out of His Spirit upon all flesh, Acts 2: 17. What God did in the bringing in of the Holy Spirit at Pentecost was greater than that, because it is not only the thought of pouring it out upon all flesh, but His breath, His very inwards are involved, we might say. That is a greater thought than what will be in the millennium. How much, beloved brethren, do we think of the glory of it that God’s Spirit dwells in us? Paul speaks of it, “if indeed God’s Spirit dwell in you”, Rom 8: 9."
+     ]
     },
     {
      "speaker": "DJW",
-     "text": "Is there a moral order in this verse? Is this verse not dealing with recovery? It is interesting to see the character of discipleship extending to recovery? There is “righteousness” and “mercy”, and then “regeneration” and “renewal”. It seems to me it is a transformation of what already exists."
+     "text": [
+      "Is there a moral order in this verse? Is this verse not dealing with recovery? It is interesting to see the character of discipleship extending to recovery? There is “righteousness” and “mercy”, and then “regeneration” and “renewal”. It seems to me it is a transformation of what already exists."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think that is right; so it is really the territory of the epistle to the Romans. In Romans the believer comes under the wonderful power of the gospel and the word of Christ, and he comes back into the scene of things where he lives and where he has sinned. He is not translated to heaven; he is left here. But he is different because his whole outlook, his citizenship and everything, is different, and God gives you the power to live there."
+     "text": [
+      "I think that is right; so it is really the territory of the epistle to the Romans. In Romans the believer comes under the wonderful power of the gospel and the word of Christ, and he comes back into the scene of things where he lives and where he has sinned. He is not translated to heaven; he is left here. But he is different because his whole outlook, his citizenship and everything, is different, and God gives you the power to live there."
+     ]
     },
     {
      "speaker": "BWB",
-     "text": "He is ready to go. Mr Stoney said those ready to go are most useful to stay to help the saints, vol 2 p64. It is a great thing that the Spirit would keep us very close to the Man in the glory."
+     "text": [
+      "He is ready to go. Mr Stoney said those ready to go are most useful to stay to help the saints, vol 2 p64. It is a great thing that the Spirit would keep us very close to the Man in the glory."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Very fine. He would always point to Christ. Every part of the Spirit’s service would always point to Christ, and that is another blessed thing, but I do think this is important at the present time, beloved, because we do not want to perish in the wilderness. You may say, 'How could that possibly be?'. Persons, you may say, have known what it was to come out of Egypt, but they have come under the influence of the old sphere where they were before, and they sink under the weight of it and they perish. They become murmurers, and bitter in their spirit and outlook. They become poverty-stricken in relation to their spiritual life. We recognise these things. The answer to it, beloved, is availing ourselves of this Gift. We have the Gift. The believer has the Gift. When you receive Christ, it says, “ye have been sealed with the Holy Spirit of promise”, Eph 1: 13. That is from God’s side. But the reception of the Holy Spirit, it seems to me, involves that we come into the benefit and appreciation and resource of this wonderful Gift."
+     "text": [
+      "Very fine. He would always point to Christ. Every part of the Spirit’s service would always point to Christ, and that is another blessed thing, but I do think this is important at the present time, beloved, because we do not want to perish in the wilderness. You may say, 'How could that possibly be?'. Persons, you may say, have known what it was to come out of Egypt, but they have come under the influence of the old sphere where they were before, and they sink under the weight of it and they perish. They become murmurers, and bitter in their spirit and outlook. They become poverty-stricken in relation to their spiritual life. We recognise these things. The answer to it, beloved, is availing ourselves of this Gift. We have the Gift. The believer has the Gift. When you receive Christ, it says, “ye have been sealed with the Holy Spirit of promise”, Eph 1: 13. That is from God’s side. But the reception of the Holy Spirit, it seems to me, involves that we come into the benefit and appreciation and resource of this wonderful Gift."
+     ]
     },
     {
-     "text": "JMcK Is the word “richly” in verse 6 key to this passage? It implies an infinite resource: “which he poured out on us richly through Jesus Christ our Saviour”. The testimony is not going through with a power that is just adequate, but with an immense resource that is divine, and that is what we are in the light of."
+     "speaker": "JMcK",
+     "text": [
+      "Is the word “richly” in verse 6 key to this passage? It implies an infinite resource: “which he poured out on us richly through Jesus Christ our Saviour”. The testimony is not going through with a power that is just adequate, but with an immense resource that is divine, and that is what we are in the light of."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think the second scripture we read indicates that: the oil stayed only when there were no more vessels to contain it. It did not stay because there was no more oil; it stayed because there were no more vessels to contain it. And so, “he poured out on us richly”. What a wonderful thing, the gift of the Holy Spirit. It is an “unspeakable free gift”, 2 Cor 9: 15. I think that would include the gift of Christ, but it would also certainly include the gift of the Holy Spirit."
+     "text": [
+      "I think the second scripture we read indicates that: the oil stayed only when there were no more vessels to contain it. It did not stay because there was no more oil; it stayed because there were no more vessels to contain it. And so, “he poured out on us richly”. What a wonderful thing, the gift of the Holy Spirit. It is an “unspeakable free gift”, 2 Cor 9: 15. I think that would include the gift of Christ, but it would also certainly include the gift of the Holy Spirit."
+     ]
     },
     {
      "speaker": "RWF",
-     "text": "“Richly” suggests to me what was pent up. I wondered if it would help us to reflect, to understand, that the gift of the Spirit was always in God‘s mind for man. If you go back to Genesis - although Paul speaks of Adam as “the figure of him to come” (Rom 5: 14), speaking of Christ - as to Adam himself God “breathed into his nostrils the breath of life”, Gen 2: 7. Does that not speak of the Spirit yet to be given? How great it is!"
+     "text": [
+      "“Richly” suggests to me what was pent up. I wondered if it would help us to reflect, to understand, that the gift of the Spirit was always in God‘s mind for man. If you go back to Genesis - although Paul speaks of Adam as “the figure of him to come” (Rom 5: 14), speaking of Christ - as to Adam himself God “breathed into his nostrils the breath of life”, Gen 2: 7. Does that not speak of the Spirit yet to be given? How great it is!"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "It is, and I am just impressed with the greatness of it in the Christian dispensation. “I will pour out of my Spirit upon all flesh” (Acts 2: 17) would refer literally, I suppose, to what is millennial and that seems a very great thing, but I think the gift of the Spirit, the indwelling Spirit, is a greater thought because it involves the breath of God. Think of that! It says there was “a sound ... as of a violent impetuous blowing” ‘as of hard breathing‘, Act 2: 2 note. There was a sound out of heaven, beloved brethren. That was something distinct. It has been said that heaven asserted its right to be heard. How much has the glory of these things affected my soul although I am in a sphere of testimony where sometimes, I admit, I become overcome with circumstances? God has given me the power not only to meet things, but to meet them richly, and that power is in the Holy Spirit."
-    },
-    {
-     "text": "RDP-r “Even as he walked, himself also so to walk”, 1 John 2: 6. Is it in view of our walk here: “as he walked”."
-    },
-    {
-     "speaker": "RDP",
-     "text": "Yes, I think it is in view of our walk. I think this aspect of the gospel is in view of our walk here, what is external, and I think the thought of eternal life here is limited. We have been taught that. This is not exactly eternal life as you get it in John’s gospel, which involves the heavenlies. This involves, I think, the appreciation of the deliverance and the blessing of what God has provided in a scene like we are in. That is what is in mind, I think."
-    },
-    {
-     "text": "RDP-r So there might be pleasure for God in our walk as a result. I was thinking it is not just for our blessing, but it is in view of God being able to look down and see persons walking here in the power of the Holy Spirit in the same walk as Jesus walked here."
+     "text": [
+      "It is, and I am just impressed with the greatness of it in the Christian dispensation. “I will pour out of my Spirit upon all flesh” (Acts 2: 17) would refer literally, I suppose, to what is millennial and that seems a very great thing, but I think the gift of the Spirit, the indwelling Spirit, is a greater thought because it involves the breath of God. Think of that! It says there was “a sound ... as of a violent impetuous blowing” ‘as of hard breathing‘, Act 2: 2 note. There was a sound out of heaven, beloved brethren. That was something distinct. It has been said that heaven asserted its right to be heard. How much has the glory of these things affected my soul although I am in a sphere of testimony where sometimes, I admit, I become overcome with circumstances? God has given me the power not only to meet things, but to meet them richly, and that power is in the Holy Spirit.",
+      "RDP-r “Even as he walked, himself also so to walk”, 1 John 2: 6. Is it in view of our walk here: “as he walked”."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Yes, that is very good, and it is a subject that is far beyond our capacity here to comprehend. It is so great, the whole subject of the Spirit’s service in its vastness. We can only touch a very small part of it, but we can do so. It is very blessed, and it is a beginning, and there are a lot of young people here, and I would like to encourage everyone of us as to receiving the Spirit."
+     "text": [
+      "Yes, I think it is in view of our walk. I think this aspect of the gospel is in view of our walk here, what is external, and I think the thought of eternal life here is limited. We have been taught that. This is not exactly eternal life as you get it in John’s gospel, which involves the heavenlies. This involves, I think, the appreciation of the deliverance and the blessing of what God has provided in a scene like we are in. That is what is in mind, I think.",
+      "RDP-r So there might be pleasure for God in our walk as a result. I was thinking it is not just for our blessing, but it is in view of God being able to look down and see persons walking here in the power of the Holy Spirit in the same walk as Jesus walked here."
+     ]
+    },
+    {
+     "speaker": "RDP",
+     "text": [
+      "Yes, that is very good, and it is a subject that is far beyond our capacity here to comprehend. It is so great, the whole subject of the Spirit’s service in its vastness. We can only touch a very small part of it, but we can do so. It is very blessed, and it is a beginning, and there are a lot of young people here, and I would like to encourage everyone of us as to receiving the Spirit."
+     ]
     },
     {
      "speaker": "JAT",
-     "text": "With that in view, ought we to appreciate the disposition of God and this thought of giving the Spirit? I wondered whether that is important because this is no ordinary gift; but it shows the disposition of the Giver. He wants to give the Spirit, and yet we are entreated to ask. Is that so that we might value what is in the mind of the Giver in giving the Holy Spirit?"
+     "text": [
+      "With that in view, ought we to appreciate the disposition of God and this thought of giving the Spirit? I wondered whether that is important because this is no ordinary gift; but it shows the disposition of the Giver. He wants to give the Spirit, and yet we are entreated to ask. Is that so that we might value what is in the mind of the Giver in giving the Holy Spirit?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think so. We may refer to the young people receiving the Spirit, and the evidence of it ,and the older ones may speak about the ministry that came in as to the service of the Spirit and so on, but it is a subject of such glory, the giving of the Holy Spirit. The giving of Christ is the subject of such glory, and yet the fulness of that we should never understand unless we had received the Holy Spirit because He shall take of the things of Christ “and shall announce it to you”, John 16: 14."
+     "text": [
+      "I think so. We may refer to the young people receiving the Spirit, and the evidence of it ,and the older ones may speak about the ministry that came in as to the service of the Spirit and so on, but it is a subject of such glory, the giving of the Holy Spirit. The giving of Christ is the subject of such glory, and yet the fulness of that we should never understand unless we had received the Holy Spirit because He shall take of the things of Christ “and shall announce it to you”, John 16: 14."
+     ]
     },
     {
      "speaker": "JAT",
-     "text": "I was just thinking, it is important to get what is in the mind and heart of the Giver? I think what you are saying it is very helpful to all of us. Sometimes we lose that vitality; so we have to be recalled or renewed, but the initial thing in itself is wonderful. Samson called on Jehovah at a certain juncture and was given water, typical of the Spirit, Judg 15: 18, 19,"
+     "text": [
+      "I was just thinking, it is important to get what is in the mind and heart of the Giver? I think what you are saying it is very helpful to all of us. Sometimes we lose that vitality; so we have to be recalled or renewed, but the initial thing in itself is wonderful. Samson called on Jehovah at a certain juncture and was given water, typical of the Spirit, Judg 15: 18, 19,"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "He did, and I think the word “renewal” conveys that. Such is our condition that we become defiled. We do not like that word. I must admit I struggle with it, but as being here in this scene of things, you become defiled, but there is power so that we are able to deal with that whole matter, and it is the side of the “renewal”, “the washing”. It speaks here of “washing”. When the Lord speaks to Nicodemus, He speaks of being born anew. You will not see the kingdom unless you are born anew, and then He goes on to say that to enter the kingdom you must be “born of water and of Spirit”, John 3: 3-5. What does that mean? It was as if the Lord there brings these two aspects in. You must be born anew. Unless that sovereign operation of God is there with us, there is no salvation, but as we have appreciated it, He then says, “Except any one be born of water and of Spirit, he cannot enter into the kingdom of God”."
+     "text": [
+      "He did, and I think the word “renewal” conveys that. Such is our condition that we become defiled. We do not like that word. I must admit I struggle with it, but as being here in this scene of things, you become defiled, but there is power so that we are able to deal with that whole matter, and it is the side of the “renewal”, “the washing”. It speaks here of “washing”. When the Lord speaks to Nicodemus, He speaks of being born anew. You will not see the kingdom unless you are born anew, and then He goes on to say that to enter the kingdom you must be “born of water and of Spirit”, John 3: 3-5. What does that mean? It was as if the Lord there brings these two aspects in. You must be born anew. Unless that sovereign operation of God is there with us, there is no salvation, but as we have appreciated it, He then says, “Except any one be born of water and of Spirit, he cannot enter into the kingdom of God”."
+     ]
     },
     {
      "speaker": "JAT",
-     "text": "We know the restoring love and power of the Lord Jesus interceding for us before that, but could we link that with the love of the Spirit? As you say we become defiled and the enemy would say, 'Well, that is it', but would the Spirit be involved also in our recovery if we have availed ourselves of His service? He is available immediately but I am just wondering whether we need that aspect with the Holy Spirit of asking."
+     "text": [
+      "We know the restoring love and power of the Lord Jesus interceding for us before that, but could we link that with the love of the Spirit? As you say we become defiled and the enemy would say, 'Well, that is it', but would the Spirit be involved also in our recovery if we have availed ourselves of His service? He is available immediately but I am just wondering whether we need that aspect with the Holy Spirit of asking."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Well, that is good. There is another generation coming on now, and I would like them to be aware of the importance of receiving the Holy Spirit. As believers, we may say, the Spirit’s work is there in you. If you are a believer at all, if you have that wonderful touch from God, He has affirmed that work in you by the gift of His Spirit, but you may not be aware of the greatness of that, and the receiving of the Holy Spirit is a wonderful thing. I would like to encourage all of us, especially the young here, to seek the understanding and the appreciation of the Holy Spirit and enter into a response in relation to the Holy Spirit, because there is the power for the dispensation."
+     "text": [
+      "Well, that is good. There is another generation coming on now, and I would like them to be aware of the importance of receiving the Holy Spirit. As believers, we may say, the Spirit’s work is there in you. If you are a believer at all, if you have that wonderful touch from God, He has affirmed that work in you by the gift of His Spirit, but you may not be aware of the greatness of that, and the receiving of the Holy Spirit is a wonderful thing. I would like to encourage all of us, especially the young here, to seek the understanding and the appreciation of the Holy Spirit and enter into a response in relation to the Holy Spirit, because there is the power for the dispensation."
+     ]
     },
     {
      "speaker": "BWB",
-     "text": "Is it interesting as to the two who did not perish in the wilderness, that Caleb had another spirit in him, and he was as fresh at eighty-five as he had been when he was delivered from Egypt?"
+     "text": [
+      "Is it interesting as to the two who did not perish in the wilderness, that Caleb had another spirit in him, and he was as fresh at eighty-five as he had been when he was delivered from Egypt?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "That is very striking, as you say, that it says of Caleb, “he hath another spirit in him” (Num 14: 24); and I think also it says of Joshua “in whom is the Spirit”, Num 27: 18. So the two men who come through from that generation, both of them are marked out by what suggests the presence of the Holy Spirit."
+     "text": [
+      "That is very striking, as you say, that it says of Caleb, “he hath another spirit in him” (Num 14: 24); and I think also it says of Joshua “in whom is the Spirit”, Num 27: 18. So the two men who come through from that generation, both of them are marked out by what suggests the presence of the Holy Spirit."
+     ]
     },
     {
      "speaker": "BWB",
-     "text": "And they got into the land. That is the great objective for every one of us."
+     "text": [
+      "And they got into the land. That is the great objective for every one of us."
+     ]
     },
     {
      "speaker": "DJW",
-     "text": "Does this verse mean that today should be our brightest?"
+     "text": [
+      "Does this verse mean that today should be our brightest?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Yes, go on."
+     "text": [
+      "Yes, go on."
+     ]
     },
     {
      "speaker": "DJW",
-     "text": "This passage has in view the recovery to that. It might be difficult to grasp it today."
+     "text": [
+      "This passage has in view the recovery to that. It might be difficult to grasp it today."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think things grow old. If we are honest, everything in relation to our condition in the flesh grows old, and the Holy Spirit is the power for the continual refreshment of what we have and Christianity is to be marked by that. They grew old in the wilderness. It says “that which grows old and aged is near disappearing” (Heb 8: 13), but in the Spirit is the power by which things are maintained at the highest and freshest level of all."
+     "text": [
+      "I think things grow old. If we are honest, everything in relation to our condition in the flesh grows old, and the Holy Spirit is the power for the continual refreshment of what we have and Christianity is to be marked by that. They grew old in the wilderness. It says “that which grows old and aged is near disappearing” (Heb 8: 13), but in the Spirit is the power by which things are maintained at the highest and freshest level of all."
+     ]
     },
     {
      "speaker": "MJW",
-     "text": "We speak about “old”, but then I take a book off the shelf and the renewal of the Holy Spirit means that that is as fresh today. It might have been ministered today. That is what renewal of the Holy Spirit is, and yet it has power in my soul."
+     "text": [
+      "We speak about “old”, but then I take a book off the shelf and the renewal of the Holy Spirit means that that is as fresh today. It might have been ministered today. That is what renewal of the Holy Spirit is, and yet it has power in my soul."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Very good. That scripture in Numbers speaks about the brooks of Arnon. It says they are recorded “in the book of the wars of Jehovah”, v 14. You thank God for what has flowed out in the Spirit, but you cannot exactly live in that, however good it is. You need the present touch of the Holy Spirit, relative to what we have today, and the circumstances in which we live, and the conditions in which we are, He will give you a touch today that will lead to what the brooks of Arnon meant. Beloved brethren, this is essential that we might not grow tired and drop out, or, as the Hebrews had to be warned about, “slip away”, Heb 2: 1. There is a danger in the present conditions in the wilderness of just slipping away."
+     "text": [
+      "Very good. That scripture in Numbers speaks about the brooks of Arnon. It says they are recorded “in the book of the wars of Jehovah”, v 14. You thank God for what has flowed out in the Spirit, but you cannot exactly live in that, however good it is. You need the present touch of the Holy Spirit, relative to what we have today, and the circumstances in which we live, and the conditions in which we are, He will give you a touch today that will lead to what the brooks of Arnon meant. Beloved brethren, this is essential that we might not grow tired and drop out, or, as the Hebrews had to be warned about, “slip away”, Heb 2: 1. There is a danger in the present conditions in the wilderness of just slipping away."
+     ]
     },
     {
      "speaker": "RH",
-     "text": "Would there be an antidote to the falling in the wilderness? Would enjoyment of the land be an antidote to that? I was just thinking really of how we can make room for this precious Gift that we have. It surely is this thought of enjoyment of the land."
+     "text": [
+      "Would there be an antidote to the falling in the wilderness? Would enjoyment of the land be an antidote to that? I was just thinking really of how we can make room for this precious Gift that we have. It surely is this thought of enjoyment of the land."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think so. In Romans 8, which we shall not have time to go into in all its detail, there are many references to the Spirit and you see the varied ways in which the Holy Spirit is to the believer. It is not only in relation to the paying of debts, but He is there in relation to the experience of the sons of God. He is there in relation to life in Christ. There are so many references to the Spirit because the Spirit is always leading to Christ."
+     "text": [
+      "I think so. In Romans 8, which we shall not have time to go into in all its detail, there are many references to the Spirit and you see the varied ways in which the Holy Spirit is to the believer. It is not only in relation to the paying of debts, but He is there in relation to the experience of the sons of God. He is there in relation to life in Christ. There are so many references to the Spirit because the Spirit is always leading to Christ."
+     ]
     },
     {
      "speaker": "RH",
-     "text": "We are not a wilderness people. If we are going to be in the enjoyment of the realm of the Spirit, it behoves us to be available to the Spirit that we might be in the enjoyment of Christ where He is. Would that be right?"
+     "text": [
+      "We are not a wilderness people. If we are going to be in the enjoyment of the realm of the Spirit, it behoves us to be available to the Spirit that we might be in the enjoyment of Christ where He is. Would that be right?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I am sure what you say is right. My exercise and concern in this meeting is limited in its scope. This is initial. What we are speaking about is ministry that belongs to Romans. It belongs to the early part of the believer’s history, but it is vital: it is the springboard to everything. We have been taught that a good Roman, someone who is steeped in the truth of Romans, can go anywhere in the truth because all the springs are there. I do believe we need this, and a new generation coming along needs to realise there is power, not only to meet the requirements of the day, but to live in a rich way in relation to all the thoughts of God."
+     "text": [
+      "I am sure what you say is right. My exercise and concern in this meeting is limited in its scope. This is initial. What we are speaking about is ministry that belongs to Romans. It belongs to the early part of the believer’s history, but it is vital: it is the springboard to everything. We have been taught that a good Roman, someone who is steeped in the truth of Romans, can go anywhere in the truth because all the springs are there. I do believe we need this, and a new generation coming along needs to realise there is power, not only to meet the requirements of the day, but to live in a rich way in relation to all the thoughts of God."
+     ]
     },
     {
      "speaker": "WG",
-     "text": "I have a question. Who is the Spirit?"
+     "text": [
+      "I have a question. Who is the Spirit?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Well, we know that the Holy Spirit is God. God has been revealed to us in the Father and the Son and the Holy Spirit. It is not three gods. We do not worship three gods. That is sometimes said. There is one God, but God has been made known to us in three Persons, and the Holy Spirit is no less God because He takes that lowly place of service in what we call the economy, the arrangement in which God has made Himself known. And we come into the light. Wonderful thing! God was not known like this of old. He was not fully known in the Old Testament. They approached the mountain where God was and it was all on fire, Heb 12: 18. If they touched it, they were destroyed, but God has come out in a special way as Jesus goes into death. Everything that has been revealed really has been revealed in our Lord Jesus Christ."
+     "text": [
+      "Well, we know that the Holy Spirit is God. God has been revealed to us in the Father and the Son and the Holy Spirit. It is not three gods. We do not worship three gods. That is sometimes said. There is one God, but God has been made known to us in three Persons, and the Holy Spirit is no less God because He takes that lowly place of service in what we call the economy, the arrangement in which God has made Himself known. And we come into the light. Wonderful thing! God was not known like this of old. He was not fully known in the Old Testament. They approached the mountain where God was and it was all on fire, Heb 12: 18. If they touched it, they were destroyed, but God has come out in a special way as Jesus goes into death. Everything that has been revealed really has been revealed in our Lord Jesus Christ."
+     ]
     },
     {
      "speaker": "BWB",
-     "text": "In answer to the question, the Lord says in John 14, “but ye know him”, v 17. So that the believer through experience knows who the Spirit is. He helps me. He helps you to see the truth and to be in the current of what divine Persons are doing."
+     "text": [
+      "In answer to the question, the Lord says in John 14, “but ye know him”, v 17. So that the believer through experience knows who the Spirit is. He helps me. He helps you to see the truth and to be in the current of what divine Persons are doing."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Yes, so that salvation involves the Holy Spirit. I suppose the work of new birth really involves the Spirit. We are not aware of it. The sealing of our salvation involves that we have been “sealed with the Holy Spirit of promise”, Eph 1: 13. What we are speaking of now is the development of who the Spirit is. Perhaps it is a good question you ask as to who the Holy Spirit is."
+     "text": [
+      "Yes, so that salvation involves the Holy Spirit. I suppose the work of new birth really involves the Spirit. We are not aware of it. The sealing of our salvation involves that we have been “sealed with the Holy Spirit of promise”, Eph 1: 13. What we are speaking of now is the development of who the Spirit is. Perhaps it is a good question you ask as to who the Holy Spirit is."
+     ]
     },
     {
-     "text": "JMcK I suppose the way the disciples knew the Spirit was that He was in Jesus; “Ye know him” was in the context of the fact that they had been close to the Man of the gospels, John 14: 17. I wondered whether the element of dignity relates to the presence of the Spirit. The tabernacle system was in wilderness circumstances, but the whole system was anointed, and I wondered whether the outpouring on us, as distinct from pouring into us, involves that in spite of the outward obscurity of the testimony in these days, dignity does not lack."
+     "speaker": "JMcK",
+     "text": [
+      "I suppose the way the disciples knew the Spirit was that He was in Jesus; “Ye know him” was in the context of the fact that they had been close to the Man of the gospels, John 14: 17. I wondered whether the element of dignity relates to the presence of the Spirit. The tabernacle system was in wilderness circumstances, but the whole system was anointed, and I wondered whether the outpouring on us, as distinct from pouring into us, involves that in spite of the outward obscurity of the testimony in these days, dignity does not lack."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think it may also link with washing, “washing of regeneration”. These persons spoken of here in Titus had outward characteristics which were to be rebuked, and Paul is writing as to a company amid such conditions, and there was to be a change. It is interesting that the eunuch, as receiving the glad tidings, says, “what hinders my being baptised?” (Acts 8: 36), as if he sees the need for a change of environment. Baptism links with this, beloved brethren, and what comes in is a sense of the need for change, for dignity, and that is in view in the believer. You will find that in everyone who is a Christian there is something within that moves that way in relation to what is dignified. The anointing oil came upon everything. It is really like the presence of God in circumstances that might be adverse; a sense of the presence of God is there."
+     "text": [
+      "I think it may also link with washing, “washing of regeneration”. These persons spoken of here in Titus had outward characteristics which were to be rebuked, and Paul is writing as to a company amid such conditions, and there was to be a change. It is interesting that the eunuch, as receiving the glad tidings, says, “what hinders my being baptised?” (Acts 8: 36), as if he sees the need for a change of environment. Baptism links with this, beloved brethren, and what comes in is a sense of the need for change, for dignity, and that is in view in the believer. You will find that in everyone who is a Christian there is something within that moves that way in relation to what is dignified. The anointing oil came upon everything. It is really like the presence of God in circumstances that might be adverse; a sense of the presence of God is there."
+     ]
     },
     {
      "speaker": "RWF",
-     "text": "I wondered if this might take us back in our minds to the question raised as to the inheritance. It is sometimes said that Christianity has a civilising influence, but the influence and the effect of the Spirit is far greater. The passage in Titus 3 runs on with “through Jesus Christ our Saviour; that, having been justified by his grace, we should become heirs according to the hope of eternal life”. Now that is what is ahead of us; it is glorious; but the Spirit helps us into the understanding and practice of that. The next verse goes on to practice."
+     "text": [
+      "I wondered if this might take us back in our minds to the question raised as to the inheritance. It is sometimes said that Christianity has a civilising influence, but the influence and the effect of the Spirit is far greater. The passage in Titus 3 runs on with “through Jesus Christ our Saviour; that, having been justified by his grace, we should become heirs according to the hope of eternal life”. Now that is what is ahead of us; it is glorious; but the Spirit helps us into the understanding and practice of that. The next verse goes on to practice."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "If we could go on to Kings, I think it may link with that. This is a remarkable chapter in the Old Testament. I think it has been said it gives in type the development of the Christian’s life all the way through from Romans to Ephesians. And it has been suggested in ministry that the widow woman, morally, becomes the great woman. That is underlying what you are saying. If so, she changes from being someone who was looking for patronage, looking for help and support, to one who says, “I dwell among mine own people”. The prophet says to her, “what is to be done for thee? wouldest thou be spoken for to the king, or to the captain of the host?”, and possibly if he had said that to the widow in chapter 4, she would have seized on that to get some help, some support. But now the wealthy woman says, “I dwell among mine own people”. There is a dignity in that. Now that represents the very beginning of Christian life in the Spirit, not the end of it. From the beginning she has a sense typically that there is no need for any support from the world that crucified Christ. There is what is sufficient, not only to pay her debts, but to live. I just think that scripture is very well used; it is the ministry of Elisha. Elijah represents the rights of God, and you can read of that, but when you come to Elisha, the character of his ministry is different. It begins with the new cruse, chap 2: 20. There is a new vessel, and a new source of life; and here it leads on to this. I think that the characteristic of Elisha’s ministry was new, and he sees this woman struggling as maybe younger persons are struggling. They are believers and they know what it is to have received Christ as Saviour, but daily life seems to be full of real pressures. How can I serve God, how can I meet what is due to God and meet what I have to do in my life? How can I do it as a believer? These things are real, beloved older brethren, for the young ones. How can I do it?"
+     "text": [
+      "If we could go on to Kings, I think it may link with that. This is a remarkable chapter in the Old Testament. I think it has been said it gives in type the development of the Christian’s life all the way through from Romans to Ephesians. And it has been suggested in ministry that the widow woman, morally, becomes the great woman. That is underlying what you are saying. If so, she changes from being someone who was looking for patronage, looking for help and support, to one who says, “I dwell among mine own people”. The prophet says to her, “what is to be done for thee? wouldest thou be spoken for to the king, or to the captain of the host?”, and possibly if he had said that to the widow in chapter 4, she would have seized on that to get some help, some support. But now the wealthy woman says, “I dwell among mine own people”. There is a dignity in that. Now that represents the very beginning of Christian life in the Spirit, not the end of it. From the beginning she has a sense typically that there is no need for any support from the world that crucified Christ. There is what is sufficient, not only to pay her debts, but to live. I just think that scripture is very well used; it is the ministry of Elisha. Elijah represents the rights of God, and you can read of that, but when you come to Elisha, the character of his ministry is different. It begins with the new cruse, chap 2: 20. There is a new vessel, and a new source of life; and here it leads on to this. I think that the characteristic of Elisha’s ministry was new, and he sees this woman struggling as maybe younger persons are struggling. They are believers and they know what it is to have received Christ as Saviour, but daily life seems to be full of real pressures. How can I serve God, how can I meet what is due to God and meet what I have to do in my life? How can I do it as a believer? These things are real, beloved older brethren, for the young ones. How can I do it?"
+     ]
     },
     {
      "speaker": "MJW",
-     "text": "So what is the selling? We have got the pot of oil. What does it mean to sell?"
+     "text": [
+      "So what is the selling? We have got the pot of oil. What does it mean to sell?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Well, first of all I think you have to appreciate its value. It is not apparently even a large vessel; it is just a pot, a pot of oil. How much do those of us who are younger think about the possession of the Holy Spirit? And yet there is for us the wealth of God, ready to be tapped. We have it. Now to sell it means I have to bring it into circulation. I have to use it. I have to be able to use what I have to secure what is more, what is needed for life."
+     "text": [
+      "Well, first of all I think you have to appreciate its value. It is not apparently even a large vessel; it is just a pot, a pot of oil. How much do those of us who are younger think about the possession of the Holy Spirit? And yet there is for us the wealth of God, ready to be tapped. We have it. Now to sell it means I have to bring it into circulation. I have to use it. I have to be able to use what I have to secure what is more, what is needed for life."
+     ]
     },
     {
      "speaker": "MJW",
-     "text": "It would involve a whole range of Christian disciplines: prayer, reading the scriptures, maybe reading old ministry and new ministry, because what the Spirit says to the assemblies involves what is fresh and what is new. Do you think the whole range of Christian disciplines is included in this selling?"
+     "text": [
+      "It would involve a whole range of Christian disciplines: prayer, reading the scriptures, maybe reading old ministry and new ministry, because what the Spirit says to the assemblies involves what is fresh and what is new. Do you think the whole range of Christian disciplines is included in this selling?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think so. And she has to get vessels, some capacity. That is the first thing. This is very well known, of course, but she has to make some room in her life. There might be persons here like I was who find it difficult to confess the Lord’s Name. Brethren speak about confessing the Lord’s Name as if it is something they do commonly. Yet many people struggle with confessing the Lord’s Name. They may be believers but they find difficulty doing it and, because they cannot do it, they feel they are becoming impoverished. You are really getting hemmed in. These are real things, and how can you give God what is due? Maybe it is difficulty in breaking through in the service of God, or so many other things. The answer lies in the Holy Spirit. The power and help for that is in the Holy Spirit and we need to make some room, allow the Spirit room to fill the vessels that have been provided."
+     "text": [
+      "I think so. And she has to get vessels, some capacity. That is the first thing. This is very well known, of course, but she has to make some room in her life. There might be persons here like I was who find it difficult to confess the Lord’s Name. Brethren speak about confessing the Lord’s Name as if it is something they do commonly. Yet many people struggle with confessing the Lord’s Name. They may be believers but they find difficulty doing it and, because they cannot do it, they feel they are becoming impoverished. You are really getting hemmed in. These are real things, and how can you give God what is due? Maybe it is difficulty in breaking through in the service of God, or so many other things. The answer lies in the Holy Spirit. The power and help for that is in the Holy Spirit and we need to make some room, allow the Spirit room to fill the vessels that have been provided."
+     ]
     },
     {
      "speaker": "AEM",
-     "text": "I wonder if you could say something about the idea of filling. Right from Pentecost the thought was that vessels should be filled, not just the house with the sound, but the persons there were filled, and regeneration and renewal is that we are, in that sense, re-filled. Something else is displaced; then what you get here is that these vessels get filled. What would you say?"
+     "text": [
+      "I wonder if you could say something about the idea of filling. Right from Pentecost the thought was that vessels should be filled, not just the house with the sound, but the persons there were filled, and regeneration and renewal is that we are, in that sense, re-filled. Something else is displaced; then what you get here is that these vessels get filled. What would you say?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Yes. Every vessel that she could provide, every area of life, the Holy Spirit is relevant in relation to and will fill it richly, but we do need to provide the space and the only way to this, beloved brethren, is that we must make space if we are to experience the power and blessing and riches of the Holy Spirit. We must make space. I will deliberately act in my life to make some room for the Spirit. It may be in the simple things. It may be like a determination to make myself available for and in the meetings, or making the time for reading the scriptures, or whatever it is. I will do it. Make some room for Him, and prove that He will fill it. And when you make some more space, He will fill that too. You will only find this, beloved brethren, by doing it. This all happens within a closed door. You cannot do this in fellowship meetings. This is in your life. You need to close a door on all that is about you and have to do with the Spirit of God. Is that right?"
+     "text": [
+      "Yes. Every vessel that she could provide, every area of life, the Holy Spirit is relevant in relation to and will fill it richly, but we do need to provide the space and the only way to this, beloved brethren, is that we must make space if we are to experience the power and blessing and riches of the Holy Spirit. We must make space. I will deliberately act in my life to make some room for the Spirit. It may be in the simple things. It may be like a determination to make myself available for and in the meetings, or making the time for reading the scriptures, or whatever it is. I will do it. Make some room for Him, and prove that He will fill it. And when you make some more space, He will fill that too. You will only find this, beloved brethren, by doing it. This all happens within a closed door. You cannot do this in fellowship meetings. This is in your life. You need to close a door on all that is about you and have to do with the Spirit of God. Is that right?"
+     ]
     },
     {
      "speaker": "DJW",
-     "text": "Is it not a fact that you do not know what is in the pot until you start pouring? Does that involve my faith? You come into circumstances in your life , and you say, 'How am I going to meet this - I am not adequate for it?', but you do not know what is in the pot until you use it."
+     "text": [
+      "Is it not a fact that you do not know what is in the pot until you start pouring? Does that involve my faith? You come into circumstances in your life , and you say, 'How am I going to meet this - I am not adequate for it?', but you do not know what is in the pot until you use it."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Yes. That is right. “And she poured out”. It must have been a wonderful experience. This pot of oil, she poured it out into these vessels, and it kept coming. The previous reference which is very similar to this in 1 Kings refers to the fact that the oil did not fail (chap 17: 16), but here you get the impression that there was more and more and more."
+     "text": [
+      "Yes. That is right. “And she poured out”. It must have been a wonderful experience. This pot of oil, she poured it out into these vessels, and it kept coming. The previous reference which is very similar to this in 1 Kings refers to the fact that the oil did not fail (chap 17: 16), but here you get the impression that there was more and more and more."
+     ]
     },
     {
-     "text": "JMcK What is the force of the word, “let it not be few”?"
+     "speaker": "JMcK",
+     "text": [
+      "What is the force of the word, “let it not be few”?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Say on."
+     "text": [
+      "Say on."
+     ]
     },
     {
-     "text": "JMcK Well, we might be satisfied with a little more, as you have been saying, but the word here is “let it not be few”. The Spirit not only supplies what we need but He connects us with the whole area in which He Himself is operating."
+     "speaker": "JMcK",
+     "text": [
+      "Well, we might be satisfied with a little more, as you have been saying, but the word here is “let it not be few”. The Spirit not only supplies what we need but He connects us with the whole area in which He Himself is operating."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Well, I would like to link in that way with Romans 8, which sets out for you something of the enormous scope that lies in the Holy Spirit. I would encourage all, especially the younger ones, to read Romans 8, in fact to read the whole of the book of Romans, because you get tremendous help. It is the teaching of the gospel. It speaks at least eighteen times of the Holy Spirit in Romans 8. You could say it is all about the Spirit; it is what God has done. You are a believer in the Lord Jesus Christ; He has sealed you with His Spirit; and He has established in you the basis and means of a new life, and a new breath, and a new impetus. Just as Adam had breathed into him the breath of life in relation to early human life in Genesis, so in this new thing God has given us the basis, the means, of new life. And if you read through this, it says, “For the law of the Spirit of life in Christ Jesus has set me free from the law of sin and of death”. “The law of the Spirit of life in Christ Jesus” - what a marvellous expression! “The law of the Spirit of life in Christ Jesus”. That is what He has given me, that in me, in whom previously there was sin and nothing but sin, God has wrought and He has put His Spirit there, and it is the Spirit of life. And He “has set me free from the law of sin and of death”. You are free of it. There is no condemnation. The believer no longer lives in the sphere of things where he can ever be condemned. He lives in an area where he is free. Marvellous! This is said at the beginning, and then you find, as it says, “that the righteous requirement of the law should be fulfilled in us, who do not walk according to flesh but according to Spirit”. That is what this woman found: she found she could pay her debts."
+     "text": [
+      "Well, I would like to link in that way with Romans 8, which sets out for you something of the enormous scope that lies in the Holy Spirit. I would encourage all, especially the younger ones, to read Romans 8, in fact to read the whole of the book of Romans, because you get tremendous help. It is the teaching of the gospel. It speaks at least eighteen times of the Holy Spirit in Romans 8. You could say it is all about the Spirit; it is what God has done. You are a believer in the Lord Jesus Christ; He has sealed you with His Spirit; and He has established in you the basis and means of a new life, and a new breath, and a new impetus. Just as Adam had breathed into him the breath of life in relation to early human life in Genesis, so in this new thing God has given us the basis, the means, of new life. And if you read through this, it says, “For the law of the Spirit of life in Christ Jesus has set me free from the law of sin and of death”. “The law of the Spirit of life in Christ Jesus” - what a marvellous expression! “The law of the Spirit of life in Christ Jesus”. That is what He has given me, that in me, in whom previously there was sin and nothing but sin, God has wrought and He has put His Spirit there, and it is the Spirit of life. And He “has set me free from the law of sin and of death”. You are free of it. There is no condemnation. The believer no longer lives in the sphere of things where he can ever be condemned. He lives in an area where he is free. Marvellous! This is said at the beginning, and then you find, as it says, “that the righteous requirement of the law should be fulfilled in us, who do not walk according to flesh but according to Spirit”. That is what this woman found: she found she could pay her debts."
+     ]
     },
     {
      "speaker": "BCB",
-     "text": "I was thinking about what was said about all the vessels. It speaks here about “the things of the Spirit”, v 5. Once we start enjoying what the Spirit has, we realise He has more and more of them. I was just interested by these many vessels. We might think the Spirit is there to help me in one set of circumstances. I was just impressed by this, “the things of the Spirit”. How wide that is. How can we limit that?"
+     "text": [
+      "I was thinking about what was said about all the vessels. It speaks here about “the things of the Spirit”, v 5. Once we start enjoying what the Spirit has, we realise He has more and more of them. I was just interested by these many vessels. We might think the Spirit is there to help me in one set of circumstances. I was just impressed by this, “the things of the Spirit”. How wide that is. How can we limit that?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "That is right. If you go down Romans 8, you will see some of “the things of the Spirit: “they that are according to Spirit, the things of the Spirit” (v 5); “but the mind of the Spirit life and peace” (v 6); “if indeed God’s Spirit dwell in you” (v 9); “but if any one has not the Spirit of Christ he is not of him”, v 9. There is an interesting thing, that when God operates in you through the glad tidings, something of the Spirit of Christ is put in you. I think it links a little with this thought of dignity, something of the Spirit of Christ is there, and it says, “but if anyone has not the spirit of Christ he is not of him”, a very interesting thing. Then it goes on to, “for as many as are led by the Spirit of God, these are sons of God” (v 14), and putting to death the deeds of the body by the Spirit (v 13), and suddenly you think, 'Can I find some more vessels, can I find some more areas, in which I can prove the power of this glorious gift?'."
+     "text": [
+      "That is right. If you go down Romans 8, you will see some of “the things of the Spirit: “they that are according to Spirit, the things of the Spirit” (v 5); “but the mind of the Spirit life and peace” (v 6); “if indeed God’s Spirit dwell in you” (v 9); “but if any one has not the Spirit of Christ he is not of him”, v 9. There is an interesting thing, that when God operates in you through the glad tidings, something of the Spirit of Christ is put in you. I think it links a little with this thought of dignity, something of the Spirit of Christ is there, and it says, “but if anyone has not the spirit of Christ he is not of him”, a very interesting thing. Then it goes on to, “for as many as are led by the Spirit of God, these are sons of God” (v 14), and putting to death the deeds of the body by the Spirit (v 13), and suddenly you think, 'Can I find some more vessels, can I find some more areas, in which I can prove the power of this glorious gift?'."
+     ]
     },
     {
-     "text": "JMcK So “according to Spirit” is the maintenance of the divine standard. It is not “according to flesh but according to Spirit”. This is not a question of lowering the standards or meeting human circumstances, but the maintenance of what is of God, and it is divine power that is doing it."
+     "speaker": "JMcK",
+     "text": [
+      "So “according to Spirit” is the maintenance of the divine standard. It is not “according to flesh but according to Spirit”. This is not a question of lowering the standards or meeting human circumstances, but the maintenance of what is of God, and it is divine power that is doing it."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "And the believer, although in conditions of flesh here, is no longer governed by them. I am no longer bound to that life, where I have no power to do anything, and continually fall into sin. I am not bound to that. There is a new life in which I can live, and live according to Spirit. I wish I knew more about this. Christianity is not to be some continuous struggle to survive. The richness of heaven and the richness of God is attached to our journey here through the wilderness. Oh that we could grasp this!"
+     "text": [
+      "And the believer, although in conditions of flesh here, is no longer governed by them. I am no longer bound to that life, where I have no power to do anything, and continually fall into sin. I am not bound to that. There is a new life in which I can live, and live according to Spirit. I wish I knew more about this. Christianity is not to be some continuous struggle to survive. The richness of heaven and the richness of God is attached to our journey here through the wilderness. Oh that we could grasp this!"
+     ]
     },
     {
      "speaker": "RWF",
-     "text": "In connection with what has been said about the standard, can you give us your thoughts about what was in the apostle‘s mind in the use of the word “law”? In Romans 7 we have “the law” and “the commandment”, and then before this reference to deliverance it speaks of “the law of God”, Rom 7: 22. The apostle seems to be progressing in his mind. Then he speaks of “the law of the Spirit of life in Christ Jesus has set me free from the law of sin and of death”. Then of course there is “the righteous requirement of the law”. There is something it seems to me developing in the mind of the apostle which I wonder if is perhaps fundamental to what you are stressing as to the Spirit."
+     "text": [
+      "In connection with what has been said about the standard, can you give us your thoughts about what was in the apostle‘s mind in the use of the word “law”? In Romans 7 we have “the law” and “the commandment”, and then before this reference to deliverance it speaks of “the law of God”, Rom 7: 22. The apostle seems to be progressing in his mind. Then he speaks of “the law of the Spirit of life in Christ Jesus has set me free from the law of sin and of death”. Then of course there is “the righteous requirement of the law”. There is something it seems to me developing in the mind of the apostle which I wonder if is perhaps fundamental to what you are stressing as to the Spirit."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "The law of God is a very wonderful thing. I think that it is more than the ten commandments. The law of God was there before they were given. I think the believer, as having the Spirit, becomes aware of the law of God and he becomes governed by it. He is not lawless. He is “not under law” (Rom 6: 14, 15) means he is not under the law that marked Judaism. He is not under that law but he is governed by the law of God and the Spirit would bring you to the consciousness of the law of God. The believer therefore becomes a person who is totally under the control of God. Would you agree with that?"
+     "text": [
+      "The law of God is a very wonderful thing. I think that it is more than the ten commandments. The law of God was there before they were given. I think the believer, as having the Spirit, becomes aware of the law of God and he becomes governed by it. He is not lawless. He is “not under law” (Rom 6: 14, 15) means he is not under the law that marked Judaism. He is not under that law but he is governed by the law of God and the Spirit would bring you to the consciousness of the law of God. The believer therefore becomes a person who is totally under the control of God. Would you agree with that?"
+     ]
     },
     {
      "speaker": "RWF",
-     "text": "Yes. We sometimes hear a reference to the principles, divine principles; and perhaps when we are younger we think that there are no longer the ten commandments, but we ought to observe divine principles, and then the question is, what are the principles? But we have a reference here in Romans 8 to something which is sublime, “the law of the Spirit of life in Christ Jesus”. I do not know if we could define what divine principles are. That would need another meeting, but we come on to new ground, and there is a principle of life in the Spirit, and it seems that opens the door to what is immense, beyond our measure."
+     "text": [
+      "Yes. We sometimes hear a reference to the principles, divine principles; and perhaps when we are younger we think that there are no longer the ten commandments, but we ought to observe divine principles, and then the question is, what are the principles? But we have a reference here in Romans 8 to something which is sublime, “the law of the Spirit of life in Christ Jesus”. I do not know if we could define what divine principles are. That would need another meeting, but we come on to new ground, and there is a principle of life in the Spirit, and it seems that opens the door to what is immense, beyond our measure."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I believe so. Romans 5 gives us the fulness of God’s presentation to man, the gospel in its fulness; then in Romans 6 you begin to get an answer; there is something there. It raises the question as to how the believer should proceed. “Should we continue in sin that grace may abound?” and the response, “Far be the thought” (v 1, 2), and the law of God is beginning to operate, do you think? And Paul reasons that even as he had given the members of his body, perhaps his hands or his feet, given them in the past in bondage to sin - and we all know what it is to yield our members in bondage to sin - now he will yield them in bondage to righteousness, Rom 6: 19. Now that is the operating of the law of God. Where does it require that in the scripture? Where does it say that the members of your body are to be devoted to God? It is something, we may say, that develops as the work of the Spirit begins to operate. Would you agree with that? We know the believer here finds he has no power to do it, but that is a further subject. You find that power is in the Spirit, but the impulse is there."
+     "text": [
+      "I believe so. Romans 5 gives us the fulness of God’s presentation to man, the gospel in its fulness; then in Romans 6 you begin to get an answer; there is something there. It raises the question as to how the believer should proceed. “Should we continue in sin that grace may abound?” and the response, “Far be the thought” (v 1, 2), and the law of God is beginning to operate, do you think? And Paul reasons that even as he had given the members of his body, perhaps his hands or his feet, given them in the past in bondage to sin - and we all know what it is to yield our members in bondage to sin - now he will yield them in bondage to righteousness, Rom 6: 19. Now that is the operating of the law of God. Where does it require that in the scripture? Where does it say that the members of your body are to be devoted to God? It is something, we may say, that develops as the work of the Spirit begins to operate. Would you agree with that? We know the believer here finds he has no power to do it, but that is a further subject. You find that power is in the Spirit, but the impulse is there."
+     ]
     },
     {
-     "text": "QAP Is it very affecting the way that Paul speaks of the death of Christ here: “in likeness of flesh of sin, and for sin, has condemned sin in the flesh”. I am just thinking, as we feed on that, that Paul speaks elsewhere of “being conformed to his death”, Phil 3: 10. So there is a moral conformity. Is this really the way into the appreciation of the Spirit?"
+     "speaker": "QAP",
+     "text": [
+      "Is it very affecting the way that Paul speaks of the death of Christ here: “in likeness of flesh of sin, and for sin, has condemned sin in the flesh”. I am just thinking, as we feed on that, that Paul speaks elsewhere of “being conformed to his death”, Phil 3: 10. So there is a moral conformity. Is this really the way into the appreciation of the Spirit?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "“For what the law could not do, in that it was weak through the flesh, God, having sent his own Son, in likeness of flesh of sin, and for sin, has condemned sin in the flesh”. That is more than sins. It involves the whole entity. That involved all that Christ was, the brazen serpent typically, lifted up, “in likeness of flesh of sin”. The serpent of brass that was lifted up was different in that sense. It was like the serpents that bite, but there was no poison in it, and Jesus was here “in likeness of flesh of sin” and God has condemned in that way sin in the flesh, Num 21: 9. The whole thing is finished there. There could be nothing there."
+     "text": [
+      "“For what the law could not do, in that it was weak through the flesh, God, having sent his own Son, in likeness of flesh of sin, and for sin, has condemned sin in the flesh”. That is more than sins. It involves the whole entity. That involved all that Christ was, the brazen serpent typically, lifted up, “in likeness of flesh of sin”. The serpent of brass that was lifted up was different in that sense. It was like the serpents that bite, but there was no poison in it, and Jesus was here “in likeness of flesh of sin” and God has condemned in that way sin in the flesh, Num 21: 9. The whole thing is finished there. There could be nothing there."
+     ]
     },
     {
      "speaker": "DJW",
-     "text": "This is the chapter that introduces the thought of “The Spirit itself”, v 16."
+     "text": [
+      "This is the chapter that introduces the thought of “The Spirit itself”, v 16."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Go on."
+     "text": [
+      "Go on."
+     ]
     },
     {
      "speaker": "DJW",
-     "text": "Well, I wonder sometimes whether we understand the awesome character of the Person who is working, who joins His help to our weakness, v 26."
+     "text": [
+      "Well, I wonder sometimes whether we understand the awesome character of the Person who is working, who joins His help to our weakness, v 26."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "It is really part of my exercise that the truth of the Spirit of God should not just be a nominal truth amongst us, that we might enter feelingly into the reception of the Spirit in the appreciation of it, and that the service of the Spirit, the worship of the Spirit, would be affected in reality by that. In John’s gospel you find the Spirit is personified. It refers to “he” in chapters 14, 15 and 16 of John‘s gospel. In other places you might almost think the Spirit is an influence. It has been spoken of in that way, but you go to John and you find that the Spirit is a Person: “he shall guide you into all the truth” (chap 16: 13), personally; so the Holy Spirit is not just an influence; He is a Person."
+     "text": [
+      "It is really part of my exercise that the truth of the Spirit of God should not just be a nominal truth amongst us, that we might enter feelingly into the reception of the Spirit in the appreciation of it, and that the service of the Spirit, the worship of the Spirit, would be affected in reality by that. In John’s gospel you find the Spirit is personified. It refers to “he” in chapters 14, 15 and 16 of John‘s gospel. In other places you might almost think the Spirit is an influence. It has been spoken of in that way, but you go to John and you find that the Spirit is a Person: “he shall guide you into all the truth” (chap 16: 13), personally; so the Holy Spirit is not just an influence; He is a Person."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "Do you think that if we reach this invigoration of life by the Spirit, we will be ready to be led by the Spirit? Because later in the chapter it says “but if, by the Spirit, ye put to death the deeds of the body, ye shall live: for as many as are led by the Spirit of God, these are sons of God”, v 13, 14. It is important that we should have a direction, that we are going into the enjoyment of the inheritance in the purpose of God, do you think?"
+     "text": [
+      "Do you think that if we reach this invigoration of life by the Spirit, we will be ready to be led by the Spirit? Because later in the chapter it says “but if, by the Spirit, ye put to death the deeds of the body, ye shall live: for as many as are led by the Spirit of God, these are sons of God”, v 13, 14. It is important that we should have a direction, that we are going into the enjoyment of the inheritance in the purpose of God, do you think?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think so."
+     "text": [
+      "I think so."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "The brethren used to say that a good Roman could go anywhere, but it has also been said that a good Roman needs somewhere to go, and the purpose of God has in mind that the Spirit is leading us there."
+     "text": [
+      "The brethren used to say that a good Roman could go anywhere, but it has also been said that a good Roman needs somewhere to go, and the purpose of God has in mind that the Spirit is leading us there."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "In this chapter, the widow woman leads on to the wealthy woman, the Shunammite. You find that she then provides an area for the prophet. She provides an area where one with the divine word, the vessel of the testimony, can stay; she provides an area of things where she invites him to stay. Now you are starting to increase in your area of interest. It is almost as if she invites some fresh revelations and, as you say, somewhere to go, but we do need this truth of Romans. We cannot miss out on this basic truth because when this woman had not got enough to live on, she was going to die of starvation, she could not think of anything else. So we first need to learn the Spirit as the means whereby we can live and meet our debts, and then learn what life is."
+     "text": [
+      "In this chapter, the widow woman leads on to the wealthy woman, the Shunammite. You find that she then provides an area for the prophet. She provides an area where one with the divine word, the vessel of the testimony, can stay; she provides an area of things where she invites him to stay. Now you are starting to increase in your area of interest. It is almost as if she invites some fresh revelations and, as you say, somewhere to go, but we do need this truth of Romans. We cannot miss out on this basic truth because when this woman had not got enough to live on, she was going to die of starvation, she could not think of anything else. So we first need to learn the Spirit as the means whereby we can live and meet our debts, and then learn what life is."
+     ]
     },
     {
      "speaker": "RJF",
-     "text": "One of the things we see about the wealthy woman is that she has perception: “I perceive that this is a holy man of God”."
+     "text": [
+      "One of the things we see about the wealthy woman is that she has perception: “I perceive that this is a holy man of God”."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think so. It is a bit like the line that has been referred to, that there is a development in sensitivity: “I perceive that this is a holy man of God”. It is a type so we cannot make too much of it, but she provides a chamber with basic essentials. Do we do that? In other words, we want to know more; we want to provide an area where the prophet can stay. And then she comes out with this lovely expression, “I dwell among mine own people”. She is someone who has become independent of the world around her. From being a pauper she now has sufficient to meet her debts and she has the means to live. Beloved brethren, God has provided us with the means to live in the Holy Spirit, and we must not neglect it, because this is His wonderful gift."
+     "text": [
+      "I think so. It is a bit like the line that has been referred to, that there is a development in sensitivity: “I perceive that this is a holy man of God”. It is a type so we cannot make too much of it, but she provides a chamber with basic essentials. Do we do that? In other words, we want to know more; we want to provide an area where the prophet can stay. And then she comes out with this lovely expression, “I dwell among mine own people”. She is someone who has become independent of the world around her. From being a pauper she now has sufficient to meet her debts and she has the means to live. Beloved brethren, God has provided us with the means to live in the Holy Spirit, and we must not neglect it, because this is His wonderful gift."
+     ]
     },
     {
      "speaker": "AG",
-     "text": "I just feel exercised for myself: how do we drink of one Spirit? “We … have all been given to drink of one Spirit”, 1 Cor 12: 13."
+     "text": [
+      "I just feel exercised for myself: how do we drink of one Spirit? “We … have all been given to drink of one Spirit”, 1 Cor 12: 13."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Well, we are moving on a bit now. We are speaking about what is basic, the acquaintance of the Holy Spirit. “We …have all been given to drink of one Spirit”. That is moving on. You come on to the company. You come into the collective side of things, which we have not really touched. We have been speaking about what is individual, but we have all been given to drink into it. That is a rich thought. You say a bit more about what you have in mind."
+     "text": [
+      "Well, we are moving on a bit now. We are speaking about what is basic, the acquaintance of the Holy Spirit. “We …have all been given to drink of one Spirit”. That is moving on. You come on to the company. You come into the collective side of things, which we have not really touched. We have been speaking about what is individual, but we have all been given to drink into it. That is a rich thought. You say a bit more about what you have in mind."
+     ]
     },
     {
      "speaker": "AG",
-     "text": "I was just asking because I feel how much has been lost, and how much departure there has been in my life as a result of not doing that. I just feel it is what is needed at the present time."
+     "text": [
+      "I was just asking because I feel how much has been lost, and how much departure there has been in my life as a result of not doing that. I just feel it is what is needed at the present time."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Well, we all speak about our wretchedness and so on, but the renewal of the Holy Spirit means you can have it now. You are not bound by that condition. There is no condemnation for the believer. He enters now freshly, fully. The power of the Spirit is now, and we can know what it is “to drink of one Spirit”. That brings in the greatness of the Christian company, and the greatness of what is the centre of it."
-    },
-    {
-     "text": "RDP-r We often desire that our occasions might be under the control of the Spirit and that the Spirit might be free, but underlying that what is seen is individual, the communion with the Spirit and the knowledge of the Spirit in our lives. Is that right?"
+     "text": [
+      "Well, we all speak about our wretchedness and so on, but the renewal of the Holy Spirit means you can have it now. You are not bound by that condition. There is no condemnation for the believer. He enters now freshly, fully. The power of the Spirit is now, and we can know what it is “to drink of one Spirit”. That brings in the greatness of the Christian company, and the greatness of what is the centre of it.",
+      "RDP-r We often desire that our occasions might be under the control of the Spirit and that the Spirit might be free, but underlying that what is seen is individual, the communion with the Spirit and the knowledge of the Spirit in our lives. Is that right?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I think so. They are together in Numbers 21, and they are moving now. They had been wandering for all these years, and now they are beginning to journey, “from thence to Beer: that is the well of which Jehovah spoke to Moses, Assemble the people, and I will give them water. Then Israel sang this song”. There is water everywhere in this chapter. The brooks are there: “Vaheb in Suphah, and the brooks of Arnon; And the stream of the brooks which turneth to the dwelling of Ar”, and it says, “it is said in the book of the wars of Jehovah”, v 14 - 15. There you have the experiences of the freshness of the Holy Spirit that has come out in the lives of countless thousands and thousands of believers, the brooks of Arnon, but now they are joining in. And then it says, “from thence to Beer: that is the well”, and they sing to it. These are persons who have become acquainted with all that lies in the Spirit, and they worked together: “Well which princes digged, which the nobles of the people hollowed out”. They work at it, and they hollow out the well, and they sing to it. I know this scripture was used in ministry as to the response in the service of God to the Holy Spirit, which is important truth, but the general aspect here is the way, we may say, that the saints unitedly are rejoicing in what there is in the Spirit. This is the well. It is what is within. There is something beginning to rise and they are working at it collectively."
+     "text": [
+      "I think so. They are together in Numbers 21, and they are moving now. They had been wandering for all these years, and now they are beginning to journey, “from thence to Beer: that is the well of which Jehovah spoke to Moses, Assemble the people, and I will give them water. Then Israel sang this song”. There is water everywhere in this chapter. The brooks are there: “Vaheb in Suphah, and the brooks of Arnon; And the stream of the brooks which turneth to the dwelling of Ar”, and it says, “it is said in the book of the wars of Jehovah”, v 14 - 15. There you have the experiences of the freshness of the Holy Spirit that has come out in the lives of countless thousands and thousands of believers, the brooks of Arnon, but now they are joining in. And then it says, “from thence to Beer: that is the well”, and they sing to it. These are persons who have become acquainted with all that lies in the Spirit, and they worked together: “Well which princes digged, which the nobles of the people hollowed out”. They work at it, and they hollow out the well, and they sing to it. I know this scripture was used in ministry as to the response in the service of God to the Holy Spirit, which is important truth, but the general aspect here is the way, we may say, that the saints unitedly are rejoicing in what there is in the Spirit. This is the well. It is what is within. There is something beginning to rise and they are working at it collectively."
+     ]
     },
     {
      "speaker": "JAT",
-     "text": "So it says, “Israel sang this song”. For us it is the saints of the assembly. Israel‘s voice will yet be heard again in song. That will be beautiful, unitedly. It is a great thing to be united in the Spirit."
+     "text": [
+      "So it says, “Israel sang this song”. For us it is the saints of the assembly. Israel‘s voice will yet be heard again in song. That will be beautiful, unitedly. It is a great thing to be united in the Spirit."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "It is."
+     "text": [
+      "It is."
+     ]
     },
     {
      "speaker": "PWB",
-     "text": "This should really mark us. We should walk as different people under the Spirit. I was just thinking with reference to the spirit of the man in the beginning of Acts. He was leaping. He was springing up. Sometimes, you may say, we trudge through the wilderness, but while the life of the Spirit does not overlook the sorrows of the path, there is a spring of joy, and there should be a spring in our step, do you think, walking in the power and the joy of the Spirit?"
+     "text": [
+      "This should really mark us. We should walk as different people under the Spirit. I was just thinking with reference to the spirit of the man in the beginning of Acts. He was leaping. He was springing up. Sometimes, you may say, we trudge through the wilderness, but while the life of the Spirit does not overlook the sorrows of the path, there is a spring of joy, and there should be a spring in our step, do you think, walking in the power and the joy of the Spirit?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Exactly. Take a man like John on the Island of Patmos. We can only imagine what the conditions were like but probably they were quite grim. Yet he says, “I became in the Spirit” and you get the sense that he moves into a completely different area of things. He was still there on the island of Patmos. He probably stayed there for the rest of his life, but he moves into a completely different area: “I became in the Spirit on the Lord’s day”, Rev 1: 10. These are very real things."
+     "text": [
+      "Exactly. Take a man like John on the Island of Patmos. We can only imagine what the conditions were like but probably they were quite grim. Yet he says, “I became in the Spirit” and you get the sense that he moves into a completely different area of things. He was still there on the island of Patmos. He probably stayed there for the rest of his life, but he moves into a completely different area: “I became in the Spirit on the Lord’s day”, Rev 1: 10. These are very real things."
+     ]
     },
     {
      "speaker": "PJA",
-     "text": "At the end of Galatians we have the fruit of the Spirit: “love, joy, peace” and so on, chap 5: 22."
+     "text": [
+      "At the end of Galatians we have the fruit of the Spirit: “love, joy, peace” and so on, chap 5: 22."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Yes, I think that is what this woman had, the great woman. She had “love, joy, peace ...”. These are the fruits of the Spirit. There is something coming out. I commend that chapter to the young ones. It always appealed to me. By the time you come to the end of the chapter you have the man from Baal-shalishah, v 42. This is part of the teaching, but he was like a man from another place. It is really like the teaching of Ephesians. The wealthy woman there needs an object for her heart, and she seeks a son, and you see how in the type Christ comes to light, and how Christ is appropriated only through death."
+     "text": [
+      "Yes, I think that is what this woman had, the great woman. She had “love, joy, peace ...”. These are the fruits of the Spirit. There is something coming out. I commend that chapter to the young ones. It always appealed to me. By the time you come to the end of the chapter you have the man from Baal-shalishah, v 42. This is part of the teaching, but he was like a man from another place. It is really like the teaching of Ephesians. The wealthy woman there needs an object for her heart, and she seeks a son, and you see how in the type Christ comes to light, and how Christ is appropriated only through death."
+     ]
     },
     {
      "speaker": "RH",
-     "text": "I was just thinking “I dwell among my own people” is very beautiful. Someone in the good of Romans like this great woman would not be individualistic, would she? “I dwell among my own people”. It is our privilege to have brethren with us to trade one with the other."
+     "text": [
+      "I was just thinking “I dwell among my own people” is very beautiful. Someone in the good of Romans like this great woman would not be individualistic, would she? “I dwell among my own people”. It is our privilege to have brethren with us to trade one with the other."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Very good. I think that is right. The Spirit is always going to lead that way."
+     "text": [
+      "Very good. I think that is right. The Spirit is always going to lead that way."
+     ]
     }
    ]
   },
@@ -626,5 +804,19 @@
  "back_matter": [
   "Edited and Published by",
   "David Brown and Andrew Burr 81 Roxburgh Road. West Norwood. London. SE27 OLE"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE RENEWAL OF THE HOLY SPIRIT",
+   "kind": "speaker_matched_loosely",
+   "detail": "QAP used in the text for Q Poore (key gives QP)"
+  },
+  {
+   "article": 1,
+   "title": "THE RENEWAL OF THE HOLY SPIRIT",
+   "kind": "speaker_matched_loosely",
+   "detail": "JMcK used in the text for J McKay (key gives JM)"
+  }
  ]
 }
