@@ -28,7 +28,7 @@ Four data sets, from the `dev/text/` folders of the repository.
 
 | Folder | Contents | Files | Size |
 |---|---|---|---|
-| `ministry/` | 388 volumes of ministry text, 13,600 articles, `index.json`, `authors.json`, `scribes.json` | 389 `.txt` + indexes | ~219 MB |
+| `ministry/` | 388 volumes of ministry text, 13,600 articles, `index.json`, `authors.json`, `jt_initials.json` | 389 `.txt` + indexes | ~219 MB |
 | `magazines/` | 1,293 magazine issues — *A Word in its Season* (644) and *Notes of Ministry* (649) | 1,293 `.json` | ~75 MB |
 | `bible/` | KJV and Darby verse text, with `expand.py` | 2 JSON + 2 folders | ~22 MB |
 | `hymns/` | 456 hymns in EN/DE/IT/NL, index, `hymns.py` | 2 files + 1 index | ~3 MB |
@@ -97,7 +97,7 @@ the one that matches the work in hand. Paths are relative to `dev/rool/instructi
 | Document | Read it for |
 |---|---|
 | `Scripture Text.md` | `bible/` — the KJV and Darby files, the `@` citation syntax, and every flag of `expand.py` |
-| `Ministry Texts.md` | `ministry/` — file structure, article headings, page numbers, `index.json`, `scribes.json`, volume initials |
+| `Ministry Texts.md` | `ministry/` — file structure, article headings, page numbers, `index.json`, `jt_initials.json`, volume initials |
 | `Hymns.md` | `hymns/` — the 13 tables in `hymns.json`, hymn citation syntax, and every flag of `hymns.py` |
 | `magazines.md` | `magazines/` — the schema of the issue files. Written by the repository owner; not reproduced here |
 | `prompts/` | Stand-alone prompts that rebuild each data set on a machine that has none of these files |
@@ -108,10 +108,10 @@ the one that matches the work in hand. Paths are relative to `dev/rool/instructi
 The installer runs these itself at the end of a build. They can be run by hand:
 
 ```bash
-find /rool-drive/ministry -name '*.txt' | wc -l                        # 381
-jq '[.[] | .articles | length] | add' /rool-drive/ministry/index.json  # 13448
-jq 'length' /rool-drive/ministry/index.json                            # 380
-jq 'length' /rool-drive/ministry/scribes.json                          # 8969
+find /rool-drive/ministry -name '*.txt' | wc -l                        # 389
+jq '[.[] | .articles | length] | add' /rool-drive/ministry/index.json  # 13600
+jq 'length' /rool-drive/ministry/index.json                            # 388
+jq '.sheets.entries | length' /rool-drive/ministry/jt_initials.json    # 8969
 ls /rool-drive/magazines/*/*.json | wc -l                              # 1293
 python3 /rool-drive/hymns/hymns.py --hymn 272                          # When I survey
 python3 /rool-drive/bible/expand.py --trans Darby "@John 3: 16"        # For God so loved
@@ -136,15 +136,21 @@ that they hold in every conversation, including one where nobody mentions them.
 - **Never guess a reference.** If a lookup returns nothing, give the article
   file and line and quote what the text actually says.
 - **Cite the place.** Article title, file, page number. A quotation from these
-  volumes without its page is not much use to a preacher or a student.
+  volumes without its page is not much use to a preacher or a student. Quote the
+  page without braces — "page 23" or "p. 23", never `{23}`. In `gvw` the `{N}`
+  markers are article numbers, not printed pages: cite the volume and article
+  title instead.
 - **Name the servants with honour.** Brother, or brothers; never "man" or "men".
-  Honorific and surname every time — Mr Spurgeon, Mr Lloyd-Jones, Mr Packer —
-  never the bare surname and never the first name alone. After the full name,
+  Always "Mr Surname" — Mr Taylor, Mr Coates, Mr Gardiner — never the bare
+  surname, in prose, citations and summaries alike, and never the first name
+  alone. After the full name,
   "the brother" may be used. For a sister, Mrs, Miss or Sister with the surname.
 - **Initials in dialogue are rendered without dots and in bold**: **JT**: …
 - **Identify a speaker by volume, then initial.** The volume is the number in the
-  filename (`jt27` is Volume 27); look that volume up in `scribes.json` and match
-  the initials to get the name and locality.
+  filename (`jt27` is Volume 27); look that volume up in `jt_initials.json` and
+  match the initials to get the name and locality. `jt_initials.json` is the
+  initials index for the JT volumes and applies only to `jt/` — for any other
+  folder, the speaker is the writer whose folder the file sits in.
 - **Do not blend traditions.** Note the stream a source speaks from; where
   servants genuinely disagree, set out the positions fairly.
 
@@ -152,9 +158,6 @@ that they hold in every conversation, including one where nobody mentions them.
 
 Not faults, and not to be "fixed":
 
-- **`jr/` is not a Scribe volume.** `jr1.txt` and `jr2.txt` are *First Things and
-  Other Ministry* by Jim Renton. `scribes.json` covers the `jt/` volumes 1–100
-  only and does not apply to them.
 - **Page numbers are at the start of a page**, as `{N}`; a volume title appears as
   `{#…}`.
 - **Hymn references** are written with a backtick, number, colon, verse and a
@@ -164,7 +167,7 @@ Not faults, and not to be "fixed":
   resolve. The forty-one that do not are prose that happens to begin with `@`, or
   genuine misprints such as `@2 Cor 2:20-22` — 2 Corinthians has thirteen
   chapters. Report them with the file; do not invent a reference.
-- **The article header volume is not the scribe volume.** `jt27` may show
+- **The article header volume is not the JT initials volume.** `jt27` may show
   "Volume 87" in its header — that is the Ministry-series numbering. For speakers,
   use the filename number.
 
