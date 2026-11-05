@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -26,120 +26,146 @@
    "place": "Glasgow",
    "date": "22 October 2022",
    "speakers": [
-    "P.A.G.",
-    "N.J.H.",
-    "W.M.P.",
-    "A.M.B.",
-    "J.T.B.",
-    "G.B.G.",
-    "P.J.W.",
-    "Q.A.P.",
-    "R.D.P.",
-    "T.W.L.",
-    "A.R.H.",
-    "D.C.B.",
-    "H.T.F.",
-    "R.H.B.",
-    "K.R.O.",
-    "R.B.",
-    "B.W.L.",
-    "J.B.I.",
-    "T.J.H.",
-    "T.R.C."
+    "PAG",
+    "NJH",
+    "WMP",
+    "AMB",
+    "JTB",
+    "GBG",
+    "PJW",
+    "QAP",
+    "RDP",
+    "TWL",
+    "RWMcC",
+    "ARH",
+    "DCB",
+    "HTF",
+    "NCMcK",
+    "RHB",
+    "KRO",
+    "RB",
+    "WWL",
+    "JBI",
+    "TJH",
+    "DMcF",
+    "TRC"
    ],
    "initials": [
     {
-     "initials": "AMBAMBL",
-     "name": "A.M.B. Alistair M Brown Linlithgow"
+     "initials": "AMB",
+     "name": "Alistair M Brown",
+     "place": "Linlithgow"
     },
     {
-     "initials": "DCBDCBE",
-     "name": "D.C.B. David C Brown Edinburgh"
+     "initials": "DCB",
+     "name": "David C Brown",
+     "place": "Edinburgh"
     },
     {
-     "initials": "JTBJTBE",
-     "name": "J.T.B. Jim T Brown Edinburgh"
+     "initials": "JTB",
+     "name": "Jim T Brown",
+     "place": "Edinburgh"
     },
     {
-     "initials": "RBRBL",
-     "name": "R.B. Rodney Brown Linlithgow"
+     "initials": "RB",
+     "name": "Rodney Brown",
+     "place": "Linlithgow"
     },
     {
-     "initials": "RHBRHBM",
-     "name": "R.H.B. Roland H Brown Maidstone"
+     "initials": "RHB",
+     "name": "Roland H Brown",
+     "place": "Maidstone"
     },
     {
-     "initials": "TRCTRCG",
-     "name": "T.R.C. Trevor R Campbell Glasgow"
+     "initials": "TRC",
+     "name": "Trevor R Campbell",
+     "place": "Glasgow"
     },
     {
-     "initials": "HTFHTFG",
-     "name": "H.T.F. H Tim Franklin Grimsby"
+     "initials": "HTF",
+     "name": "H Tim Franklin",
+     "place": "Grimsby"
     },
     {
-     "initials": "GBGGBGD",
-     "name": "G.B.G. G Bruce Grant Dundee"
+     "initials": "GBG",
+     "name": "G Bruce Grant",
+     "place": "Dundee"
     },
     {
-     "initials": "PAGPAGL",
-     "name": "P.A.G. Paul A. Gray Linlithgow"
+     "initials": "PAG",
+     "name": "Paul A. Gray",
+     "place": "Linlithgow"
     },
     {
-     "initials": "ARHARHG",
-     "name": "A.R.H. Alec R Henry Glasgow"
+     "initials": "ARH",
+     "name": "Alec R Henry",
+     "place": "Glasgow"
     },
     {
-     "initials": "NJHNJHG",
-     "name": "N.J.H. Norman J Henry Glasgow"
+     "initials": "NJH",
+     "name": "Norman J Henry",
+     "place": "Glasgow"
     },
     {
-     "initials": "TJHTJHEF",
-     "name": "T.J.H. Trevor J Harvey E. Finchley"
+     "initials": "TJH",
+     "name": "Trevor J Harvey",
+     "place": "E. Finchley"
     },
     {
-     "initials": "JBIJBIM",
-     "name": "J.B.I. J Bruce Ikin Manchester"
+     "initials": "JBI",
+     "name": "J Bruce Ikin",
+     "place": "Manchester"
     },
     {
-     "initials": "BWLBWLA",
-     "name": "B.W.L. Bill W Lovie Aberdeen"
+     "initials": "WWL",
+     "name": "Bill W Lovie",
+     "place": "Aberdeen"
     },
     {
-     "initials": "TWLTWLE",
-     "name": "T.W.L. Terry W Lock Edinburgh"
+     "initials": "TWL",
+     "name": "Terry W Lock",
+     "place": "Edinburgh"
     },
     {
-     "initials": "RWMRWMG",
-     "name": "R.W.McC. Robert W McClean Grimsby"
+     "initials": "RWMcC",
+     "name": "Robert W McClean Grimsby"
     },
     {
-     "initials": "DMDMNY",
-     "name": "D.McF. David McFarlane New York"
+     "initials": "DMcF",
+     "name": "David McFarlane New York"
     },
     {
      "initials": "NCMNCMG",
      "name": "N.C.McK Neil C McKay Glasgow"
     },
     {
-     "initials": "KROKROD",
-     "name": "K.R.O. Kevin R Oliver Denton",
-     "place": "US"
+     "initials": "KRO",
+     "name": "Kevin R Oliver",
+     "place": "Denton, US"
     },
     {
-     "initials": "WMPWMPG",
-     "name": "W.M.P. Walter M Patterson Glasgow"
+     "initials": "WMP",
+     "name": "Walter M Patterson",
+     "place": "Glasgow"
     },
     {
-     "initials": "RDPRDPB",
-     "name": "R.D.P. Ron D Plant Birmingham"
+     "initials": "RDP",
+     "name": "Ron D Plant",
+     "place": "Birmingham"
     },
     {
-     "initials": "QAPQAPS",
-     "name": "Q.A.P. Quentin A Poore Swanage"
+     "initials": "QAP",
+     "name": "Quentin A Poore",
+     "place": "Swanage"
     },
     {
-     "initials": "PJWPJWS",
-     "name": "P.J.W. Phil J Walkinshaw Strood"
+     "initials": "PJW",
+     "name": "Phil J Walkinshaw",
+     "place": "Strood"
+    },
+    {
+     "initials": "NCMcK",
+     "not_in_key": true
     }
    ],
    "initials_heading": "KEY TO INITIALS",
@@ -170,361 +196,493 @@
    ],
    "paragraphs": [
     {
-     "speaker": "P.A.G.",
-     "text": "We began this morning with hymn 298 which includes the verse:"
+     "speaker": "PAG",
+     "text": [
+      "We began this morning with hymn 298 which includes the verse:",
+      "‘None could follow there, blest Saviour,",
+      "When Thou didst for sins atone;",
+      "For those suff’rings, deep, unfathomed,",
+      "Were, Lord Jesus, Thine alone!’",
+      "Towards the end of the meeting we sang hymn 125:",
+      "‘Praise to Thee, our God, belongeth,",
+      "Worship from the creature Thine;",
+      "Thou art mighty, glorious ever,",
+      "Great in majesty divine!’",
+      "The worship that flows to God is a direct result of the sufferings of Christ, and the fruit and product of them. I wondered if we could enquire together about the sufferings of Christ and the results they produce. There will be things that will touch our hearts and cause us to be expanded in our appreciation of Christ. I believe His sufferings have a refining effect upon us as we contemplate the way that He went. We can take account of His suffering for righteousness. In measure the believer may suffer for righteousness, but suffering for sin was His and His alone for none of us could have borne it. Yet not only did He bear our sins “in his body on the tree” (1 Pet.2:24), but He was made sin for us in order that “we might become God’s righteousness in him”, 2 Cor.5:21. And having become God’s righteousness in Him, believers form part of that which responds to God now and will do so eternally. The sufferings of Christ have produced an eternal result. There are generations referred to in this psalm who “shall come, and shall declare his righteousness unto a people that shall be born, that he hath done it”. It is still being declared and it is still the same, and Israel will come into it in a day to come. Can we enquire soberly and quietly together about the sufferings of Christ and what they produce?"
+     ]
     },
     {
-     "text": "‘None could follow there, blest Saviour,"
+     "speaker": "NJH",
+     "text": [
+      "It is a very deep and essential matter for believers to occupy themselves with. The reference to God dwelling amidst the praises of Israel (v.2) no doubt surpassed what was there in Israel before, but in the later reference (v.22), it is the assembly that is a result of His sufferings: “in the midst of the congregation will I praise thee”. It involved the assembly."
+     ]
     },
     {
-     "text": "When Thou didst for sins atone;"
+     "speaker": "PAG",
+     "text": [
+      "When the Lord appeared to His own in the record in John 20 it says, “he shewed to them his hands and his side” (v.20). His hands would be a testimony to the fact that He had done a work and it had involved suffering. But although the assembly is not mentioned officially in John, we remember that the woman was taken out of the side of the man. He showed them His side, He showed them what was in view, that those persons into whom He breathed the Holy Spirit and to whom He said, “as the Father sent me forth, I also send you” (v.21), would become the nucleus of the assembly which was being formed and is still being formed as we speak. So it was all there in view."
+     ]
     },
     {
-     "text": "For those suff’rings, deep, unfathomed,"
+     "speaker": "WMP",
+     "text": [
+      "There is no evidence of suffering in Genesis 2, so why then is suffering essential for this particular result?"
+     ]
     },
     {
-     "text": "Were, Lord Jesus, Thine alone!’"
+     "speaker": "PAG",
+     "text": [
+      "The bride is the Lamb’s wife, and the Lamb is the One that suffered. He was as “a Lamb standing, as slain”, Rev.5:6. He went the way of suffering and death. He came out of it, He stood and, like Joseph’s sheaf, He rose up and He remained standing (Gen.37:7). He will never go back into death again – He has conquered it. But the suffering Lamb has a counterpart that answers to His sufferings."
+     ]
     },
     {
-     "text": "Towards the end of the meeting we sang hymn 125:"
+     "speaker": "WMP",
+     "text": [
+      "There must be a certain answer in that vessel to His suffering, in what she is in herself."
+     ]
     },
     {
-     "text": "‘Praise to Thee, our God, belongeth,"
+     "speaker": "PAG",
+     "text": [
+      "In John’s gospel the record suggests that the first person the Lord spoke to out of death was Mary, so that the woman was coming into view. Mary means bitterness; that is the meaning of her name, Mara. The assembly is formed in suffering – not only in suffering, but the suffering forms the saints of the assembly in order to bring about likeness to Christ. It says explicitly in the scripture “if we endure, we shall also reign together”, 2 Tim.2:12."
+     ]
     },
     {
-     "text": "Worship from the creature Thine;"
+     "speaker": "AMB",
+     "text": [
+      "The Lord Jesus used the words in the first verse of this psalm on the cross. We would be affected by His forsaking. He was forsaken by His God, He was truly alone, as we sometimes sing (Hymn 268). You are bringing before us that out of His sufferings, He has a counterpart, and we can say simply that He will never be alone again. But there was a time when He was entirely alone; I wondered if you could say something for our edification about the forsaking."
+     ]
     },
     {
-     "text": "Thou art mighty, glorious ever,"
+     "speaker": "PAG",
+     "text": [
+      "I would be glad of your help and the help of the brethren. He was forsaken because He was made sin, and we know from the scripture that God is “of purer eyes than to behold evil”, Hab.1:13. God is so pure that He cannot look on evil. The Lord was made sin in order that sin might be condemned. Sins are forgiven, the acts are forgiven, and He “bore our sins in his body on the tree”, 1 Pet.2:24. But sin is condemned, so “God, having sent his own Son, in likeness of flesh of sin, and for sin, has condemned sin in the flesh” (Rom.8:3), and that condemnation involved the forsaking. It required that the Lord should confess publicly that He had been forsaken. What makes that so great and so awful is that He had never been alone before. Some of us may have had the experience of being alone, and we may have had the experience as believers of distance from God because of our state. But the Lord had enjoyed, throughout His lifetime as Man, perfect unbroken communion with God. Not only was He made what He abhorred, but He had to bear that alone. We cannot really enter into it, but we can contemplate it."
+     ]
     },
     {
-     "text": "Great in majesty divine!’"
+     "speaker": "AMB",
+     "text": [
+      "I think what you said is very helpful. We remember that there was darkness at that time which meant that man’s eye could not look upon the Lord’s suffering as the forsaken One. But He endured that. It would also remind us of what it cost God to forsake that blessed One who so delighted Him."
+     ]
     },
     {
-     "text": "The worship that flows to God is a direct result of the sufferings of Christ, and the fruit and product of them. I wondered if we could enquire together about the sufferings of Christ and the results they produce. There will be things that will touch our hearts and cause us to be expanded in our appreciation of Christ. I believe His sufferings have a refining effect upon us as we contemplate the way that He went. We can take account of His suffering for righteousness. In measure the believer may suffer for righteousness, but suffering for sin was His and His alone for none of us could have borne it. Yet not only did He bear our sins “in his body on the tree” (1 Pet.2:24), but He was made sin for us in order that “we might become God’s righteousness in him”, 2 Cor.5:21. And having become God’s righteousness in Him, believers form part of that which responds to God now and will do so eternally. The sufferings of Christ have produced an eternal result. There are generations referred to in this psalm who “shall come, and shall declare his righteousness unto a people that shall be born, that he hath done it”. It is still being declared and it is still the same, and Israel will come into it in a day to come. Can we enquire soberly and quietly together about the sufferings of Christ and what they produce?"
+     "speaker": "PAG",
+     "text": [
+      "We sang hymn 330 this morning:",
+      "‘Great the cost to Thee, blest Father’",
+      "We should be clear that it was not exactly the Father that forsook Him but God who forsook Him: “My God, my God, why hast thou forsaken me?” It was Man speaking to God conscious of distance, conscious of the absence of communion."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "It is a very deep and essential matter for believers to occupy themselves with. The reference to God dwelling amidst the praises of Israel (v.2) no doubt surpassed what was there in Israel before, but in the later reference (v.22), it is the assembly that is a result of His sufferings: “in the midst of the congregation will I praise thee”. It involved the assembly."
+     "speaker": "JTB",
+     "text": [
+      "Yet the fact that the conscious sense of His relationship with His Father was broken must have been a matter of intense agony to Him."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "When the Lord appeared to His own in the record in John 20 it says, “he shewed to them his hands and his side” (v.20). His hands would be a testimony to the fact that He had done a work and it had involved suffering. But although the assembly is not mentioned officially in John, we remember that the woman was taken out of the side of the man. He showed them His side, He showed them what was in view, that those persons into whom He breathed the Holy Spirit and to whom He said, “as the Father sent me forth, I also send you” (v.21), would become the nucleus of the assembly which was being formed and is still being formed as we speak. So it was all there in view."
+     "speaker": "PAG",
+     "text": [
+      "That is what I feel; He was not free at that moment to say ‘Father’, He could not say it because the relationship was not available. What it is to consider the absence of a relationship that had been enjoyed in perfection at the time of His deepest suffering."
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "There is no evidence of suffering in Genesis 2, so why then is suffering essential for this particular result?"
+     "speaker": "GBG",
+     "text": [
+      "Is this what is involved in the cup: “if it be possible let this cup pass from me”, Matt.26:39? The Lord did not go into any detail as to what that cup involved, but He knew and the Father knew. I think that is very affecting – He knew and the Father knew."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "The bride is the Lamb’s wife, and the Lamb is the One that suffered. He was as “a Lamb standing, as slain”, Rev.5:6. He went the way of suffering and death. He came out of it, He stood and, like Joseph’s sheaf, He rose up and He remained standing (Gen.37:7). He will never go back into death again – He has conquered it. But the suffering Lamb has a counterpart that answers to His sufferings."
+     "speaker": "PAG",
+     "text": [
+      "I speak carefully but I do not suppose that He could have explained it to us, not because He is not capable of anything, He is capable of any act, but because we could not take it in. We could not take in what it was for Him to be forsaken. It was between Him and the Father at that point, “this cup”, such a cup! We have a “cup of blessing which we bless”, 1 Cor.10:16. He took a cup of bitterest woe and the symbol or analogy of a cup means that He drank it. It entered into His being. There could be an external recognition that He was suffering, but this involved His inwards."
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "There must be a certain answer in that vessel to His suffering, in what she is in herself."
+     "speaker": "PJW",
+     "text": [
+      "Could you help us about His going through it with His Father before He experienced it actually?"
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "In John’s gospel the record suggests that the first person the Lord spoke to out of death was Mary, so that the woman was coming into view. Mary means bitterness; that is the meaning of her name, Mara. The assembly is formed in suffering – not only in suffering, but the suffering forms the saints of the assembly in order to bring about likeness to Christ. It says explicitly in the scripture “if we endure, we shall also reign together”, 2 Tim.2:12."
+     "speaker": "PAG",
+     "text": [
+      "It was an act of subjection on His part to take the cup, “My Father, if it be possible let this cup pass from me; but not as I will, but as thou wilt”, Matt.26:39. It was an act of subjection. What this cup involved was so awful that He could not as Man take it willingly, it would not be righteous for Him to take it thus, but it was righteous for Him to receive it because it came from His Father. What do you say?"
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "The Lord Jesus used the words in the first verse of this psalm on the cross. We would be affected by His forsaking. He was forsaken by His God, He was truly alone, as we sometimes sing (Hymn 268). You are bringing before us that out of His sufferings, He has a counterpart, and we can say simply that He will never be alone again. But there was a time when He was entirely alone; I wondered if you could say something for our edification about the forsaking."
+     "speaker": "PJW",
+     "text": [
+      "I was thinking of a remark that was once made that Christ rose up in triumph after He said, “but then, not my will, but thine be done”, Luke 22:42. It was said that He rose up in triumph after having demonstrated to the whole universe His perfect obedience to His Father1, as though in one sense the whole matter was settled there, although He still had to go through the agony."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "I would be glad of your help and the help of the brethren. He was forsaken because He was made sin, and we know from the scripture that God is “of purer eyes than to behold evil”, Hab.1:13. God is so pure that He cannot look on evil. The Lord was made sin in order that sin might be condemned. Sins are forgiven, the acts are forgiven, and He “bore our sins in his body on the tree”, 1 Pet.2:24. But sin is condemned, so “God, having sent his own Son, in likeness of flesh of sin, and for sin, has condemned sin in the flesh” (Rom.8:3), and that condemnation involved the forsaking. It required that the Lord should confess publicly that He had been forsaken. What makes that so great and so awful is that He had never been alone before. Some of us may have had the experience of being alone, and we may have had the experience as believers of distance from God because of our state. But the Lord had enjoyed, throughout His lifetime as Man, perfect unbroken communion with God. Not only was He made what He abhorred, but He had to bear that alone. We cannot really enter into it, but we can contemplate it."
+     "speaker": "PAG",
+     "text": [
+      "It says in verse 24 of Psalm 22 “For he hath not despised nor abhorred the affliction of the afflicted; neither hath he hid his face from him: but when he cried unto him, he heard”. The forsaking involves that, at that moment, His cry was not heard, so how can the psalmist write this, “when he cried unto him, he heard”? The Lord rose up from accepting the cup from His Father, as you say, in triumph and in perfect certainty that He would be heard. He was answered “from the horns of the buffaloes” so although the forsaking took place in all its reality, the Lord remained confident that He would be heard. It says, “having been heard because of his piety” (Heb.5:7); His confidence was in God. The scripture in Isaiah 53 is perhaps on the face of it a little difficult to understand when it says, “Yet it pleased Jehovah to bruise him” (v.10); how could that be? What I think is suggested in it is that the good pleasure of God was in a Man who was perfectly conformed to His will, cost what it might: “it pleased Jehovah to bruise him”. At that moment a fragrance ascended to God from the earth that had never been before."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "I think what you said is very helpful. We remember that there was darkness at that time which meant that man’s eye could not look upon the Lord’s suffering as the forsaken One. But He endured that. It would also remind us of what it cost God to forsake that blessed One who so delighted Him."
+     "speaker": "NJH",
+     "text": [
+      "It was at Gethsemane that the Lord Jesus received the cup from the hand of the Father. This was all in mind in His coming into manhood; the whole matter was to be resolved. He was in total and full communion with His Father until the forsaking, where as Man He could say “My God, my God”."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "We sang hymn 330 this morning:"
+     "speaker": "PAG",
+     "text": [
+      "It says of Him in Matthew when He was born: “thou shalt call his name Jesus, for he shall save his people from their sins”, Matt.1:21. \"His people” were Israel, but it was in God’s mind from the outset that salvation for all would be available in Christ. The fact is that God has chosen us in Christ before the world’s foundation (Eph.1:4), and in that same chapter it says, “in whom we have redemption through his blood, the forgiveness of offences” (v.7). That reminds us that the death of Christ was not a reaction to something that had to be corrected. It was part of the purpose of God."
+     ]
     },
     {
-     "text": "‘Great the cost to Thee, blest Father’"
+     "speaker": "QAP",
+     "text": [
+      "According to Luke’s account, just before He died, the Lord Jesus said, “Father, into thy hands I commit my spirit”, Luke 23:46. Do you have an impression about how that relates to what we are speaking about?"
+     ]
     },
     {
-     "text": "We should be clear that it was not exactly the Father that forsook Him but God who forsook Him: “My God, my God, why hast thou forsaken me?” It was Man speaking to God conscious of distance, conscious of the absence of communion."
+     "speaker": "PAG",
+     "text": [
+      "He was free to say it, although there was not at that moment an answer. The answer came “from the horns of the buffaloes”, and just to be clear, what that suggests is that the answer came in resurrection. The horns of the buffaloes speak typically of the greatest power known against Christ, and that is where He was answered. He was answered in death, He was answered when He was raised from the dead by the glory of the Father. I think there was a certain completion on the cross; He said, “It is finished” (John 19:30), but the answer came in resurrection."
+     ]
     },
     {
-     "speaker": "J.T.B.",
-     "text": "Yet the fact that the conscious sense of His relationship with His Father was broken must have been a matter of intense agony to Him."
+     "speaker": "RDP",
+     "text": [
+      "You made reference to the fact that Jesus said, “My God, my God, why hast thou forsaken me?”, Matt.27:46. When the Lord ascended, He said, “I ascend to my Father and your Father, and to my God and your God”, John 20:17. Could you say more about the fact that His forsaking was by ‘His God’, and He was not heard?"
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "That is what I feel; He was not free at that moment to say ‘Father’, He could not say it because the relationship was not available. What it is to consider the absence of a relationship that had been enjoyed in perfection at the time of His deepest suffering."
+     "speaker": "PAG",
+     "text": [
+      "As our brother has reminded us, because He was forsaken, the conscious relationship with His Father was broken for the moment. But as Man He always had a God: “my God and your God”. We cannot really take account of His person as Man and His person as God simultaneously because we would become confused, but as Man He could always say, “my God”. He remained subject. The scripture has been quoted over the weekend, “I was not rebellious”, Isa.50:5. This is the most perfect and affecting example of One who was not rebellious; even in that extremity of suffering He still says, “my God”."
+     ]
     },
     {
-     "speaker": "G.B.G.",
-     "text": "Is this what is involved in the cup: “if it be possible let this cup pass from me”, Matt.26:39? The Lord did not go into any detail as to what that cup involved, but He knew and the Father knew. I think that is very affecting – He knew and the Father knew."
+     "speaker": "RDP",
+     "text": [
+      "This relationship with His Father was so precious in His life. As ascended, it was “to my Father and your Father, and to my God and your God”. I am thankful for what you said."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "I speak carefully but I do not suppose that He could have explained it to us, not because He is not capable of anything, He is capable of any act, but because we could not take it in. We could not take in what it was for Him to be forsaken. It was between Him and the Father at that point, “this cup”, such a cup! We have a “cup of blessing which we bless”, 1 Cor.10:16. He took a cup of bitterest woe and the symbol or analogy of a cup means that He drank it. It entered into His being. There could be an external recognition that He was suffering, but this involved His inwards."
+     "speaker": "PAG",
+     "text": [
+      "It is a wonderful thing to consider that the Lord in resurrection brings His own into relationships that they had not enjoyed before. His ascension is necessarily in view because the appreciation of it would involve the gift of the Spirit, but He says, “my Father and your Father”; He is bringing His own in, “my God and your God”. He is “firstborn among many brethren”, Rom.8:29. He says, “go to my brethren”, so He introduces the thought of His brethren. He is “not ashamed to call them brethren” (Heb.2:11), and He brings them in to these distinctive relationships. We are speaking about the sufferings and what they produce: they produce conditions in which these distinctive relationships, “my Father and your Father”, “my God and your God”, can be entered into. His relationship with His Father is unique as is His relationship with His God, but He can say “my Father and your Father, and to my God and your God”."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "Could you help us about His going through it with His Father before He experienced it actually?"
+     "speaker": "TWL",
+     "text": [
+      "Is the depth of that relationship in relation to the sufferings seen at the end of John 14 where He says, “that the world may know that I love the Father … Rise up, let us go hence” (v.31)? That was on His way to the cross. Would that enter into what you are saying in relation to His sufferings? One of the things that the consideration of His sufferings produces is the ability to take some account of the relationship between the Father and the Son."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "It was an act of subjection on His part to take the cup, “My Father, if it be possible let this cup pass from me; but not as I will, but as thou wilt”, Matt.26:39. It was an act of subjection. What this cup involved was so awful that He could not as Man take it willingly, it would not be righteous for Him to take it thus, but it was righteous for Him to receive it because it came from His Father. What do you say?"
+     "speaker": "PAG",
+     "text": [
+      "Yes, “that the world may know that I love the Father, and as the Father has commanded me, thus I do”. There was no hesitation, no conditionality, “as the Father has commanded me, thus I do. Rise up, let us go hence.” Then He says at the end of John 17 “And I have made known to them thy name, and will make it known” (v.26), and He is continuing to make it known that “the love with which thou hast loved me may be in them and I in them”. The Father’s love was constant towards Christ. He said, “On this account the Father loves me, because I lay down my life that I may take it again”, John 10:17. The Father knew what would be involved as Christ knew, as our brother has pointed out; it was between Him and His Father that the cup was taken, and the Father loved Him."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "I was thinking of a remark that was once made that Christ rose up in triumph after He said, “but then, not my will, but thine be done”, Luke 22:42. It was said that He rose up in triumph after having demonstrated to the whole universe His perfect obedience to His Father1, as though in one sense the whole matter was settled there, although He still had to go through the agony."
+     "speaker": "GBG",
+     "text": [
+      "In John 20 when He says “my God and your God”, it is that order of manhood for the pleasure of God and, as you say, it is through the sufferings of Christ that others partake of that order of manhood for God’s pleasure."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "It says in verse 24 of Psalm 22 “For he hath not despised nor abhorred the affliction of the afflicted; neither hath he hid his face from him: but when he cried unto him, he heard”. The forsaking involves that, at that moment, His cry was not heard, so how can the psalmist write this, “when he cried unto him, he heard”? The Lord rose up from accepting the cup from His Father, as you say, in triumph and in perfect certainty that He would be heard. He was answered “from the horns of the buffaloes” so although the forsaking took place in all its reality, the Lord remained confident that He would be heard. It says, “having been heard because of his piety” (Heb.5:7); His confidence was in God. The scripture in Isaiah 53 is perhaps on the face of it a little difficult to understand when it says, “Yet it pleased Jehovah to bruise him” (v.10); how could that be? What I think is suggested in it is that the good pleasure of God was in a Man who was perfectly conformed to His will, cost what it might: “it pleased Jehovah to bruise him”. At that moment a fragrance ascended to God from the earth that had never been before."
+     "speaker": "PAG",
+     "text": [
+      "Only as a result of the sufferings and death of Christ could the order of manhood which belonged to Him come to us. It would not have been possible before death because the death of Christ has to apply to us in order to dispense with the first order of man. The old man has been crucified. He had to die and we have to accept that. The hymnwriter says;",
+      "‘For me, Lord Jesus, Thou hast died,",
+      "And I have died with Thee;’ Hymn 415",
+      "It is not a collective matter, it is an individual matter to die with Him, to recognise that His death applies to me. We could not have borne the suffering, but we can apply His death to ourselves and on the other side of death and in indissoluble life we have access to relationships that are eternal."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "It was at Gethsemane that the Lord Jesus received the cup from the hand of the Father. This was all in mind in His coming into manhood; the whole matter was to be resolved. He was in total and full communion with His Father until the forsaking, where as Man He could say “My God, my God”."
+     "speaker": "RWMcC",
+     "text": [
+      "We speak of His journey from the manger to the cross, but it has been suggested we should think of His journey from the manger to the holy mountain which gives us the Father’s delight, and then from the mountain to the cross. I wondered if that linked with what you were saying about that relationship."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "It says of Him in Matthew when He was born: “thou shalt call his name Jesus, for he shall save his people from their sins”, Matt.1:21. \"His people” were Israel, but it was in God’s mind from the outset that salvation for all would be available in Christ. The fact is that God has chosen us in Christ before the world’s foundation (Eph.1:4), and in that same chapter it says, “in whom we have redemption through his blood, the forgiveness of offences” (v.7). That reminds us that the death of Christ was not a reaction to something that had to be corrected. It was part of the purpose of God."
+     "speaker": "PAG",
+     "text": [
+      "That is true – you are thinking of the mount of transfiguration: “This is my beloved Son: hear him”, Mark 9:7. There are steps on the journey – the manger, the waters of baptism, the mount of transfiguration, the cross. But then as raised from the dead by the glory of the Father, there is His ascension, “whom heaven indeed must receive”, Acts 3:21. God took account of it and each step gave Him fresh delight. Christ is still delighting His Father now and He is delighting Him in those that He brings with Him."
+     ]
     },
     {
-     "speaker": "Q.A.P.",
-     "text": "According to Luke’s account, just before He died, the Lord Jesus said, “Father, into thy hands I commit my spirit”, Luke 23:46. Do you have an impression about how that relates to what we are speaking about?"
+     "speaker": "ARH",
+     "text": [
+      "Should it freshly affect us that, as you have already said, there was a point when He could not be heard even though He was so pleasurable to God?"
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "He was free to say it, although there was not at that moment an answer. The answer came “from the horns of the buffaloes”, and just to be clear, what that suggests is that the answer came in resurrection. The horns of the buffaloes speak typically of the greatest power known against Christ, and that is where He was answered. He was answered in death, He was answered when He was raised from the dead by the glory of the Father. I think there was a certain completion on the cross; He said, “It is finished” (John 19:30), but the answer came in resurrection."
+     "speaker": "PAG",
+     "text": [
+      "The burnt-offering does not exactly touch on the side of suffering but what scripture does say is that “the sons of Aaron the priest shall put fire on the altar, and lay wood in order on the fire; and Aaron’s sons, the priests, shall lay the pieces, the head, and the fat, in order on the wood that is on the fire which is on the altar; but its inwards and its legs shall he wash in water; and the priest shall burn all on the altar, a burnt-offering, an offering by fire to Jehovah of a sweet odour”, Lev.1:7-9. It was all for Jehovah, but it was all in order. It was in the ordering of God that this should happen; it was all in order. The priest took account of every detail of it in ways which in a sense we cannot, but we can contemplate that he should “lay wood in order”, the manhood of Christ in all its blessed perfection laid in order on the altar, every step of His laid on the altar in order that God might be satisfied. And Aaron’s sons the priests, the wider company, were brought in to lay the pieces, the head and the fat. Brothers giving thanks in the service of God this morning were, as it were, laying out these pieces, the impression they had of Christ, and it is all laid out in perfect order. The head, the glory of the blessed Man who bowed His head and died, and delivered up His spirit, and the fat, the essence of what was perfect in the sight of God and for God and God alone, were in order on the wood. He never ceased to be Man in that time of deepest suffering. As God He could have dispelled it in an instant, but as Man He went through with it in perfection; “its inwards and its legs shall he wash in water”. The inwards really were known to God alone and yet they were available, the feelings that were there, when He says in John 12: “Now is my soul troubled, and what shall I say? Father, save me from this hour. But on account of this have I come to this hour” (v.27). That was the inwards being laid out for our admiring, adoring appreciation. Then it says, “and its legs”; the movements of love that you have referred to; “Rise up, let us go hence”. The legs were there, they were moving to Calvary’s cross without complaint and all that was for the pleasure of God."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "You made reference to the fact that Jesus said, “My God, my God, why hast thou forsaken me?”, Matt.27:46. When the Lord ascended, He said, “I ascend to my Father and your Father, and to my God and your God”, John 20:17. Could you say more about the fact that His forsaking was by ‘His God’, and He was not heard?"
+     "speaker": "NJH",
+     "text": [
+      "He justified God for the forsaking, did He not? He said, “thou art holy”. I was thinking that in His thirty-three and a half years, His relationship was perfect, a Son with a Father, Man with God, but when it came to that point, He sacrificially took the place of the sinner and sins to meet the whole matter. You can understand that the issue between man and God was resolved there."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "As our brother has reminded us, because He was forsaken, the conscious relationship with His Father was broken for the moment. But as Man He always had a God: “my God and your God”. We cannot really take account of His person as Man and His person as God simultaneously because we would become confused, but as Man He could always say, “my God”. He remained subject. The scripture has been quoted over the weekend, “I was not rebellious”, Isa.50:5. This is the most perfect and affecting example of One who was not rebellious; even in that extremity of suffering He still says, “my God”."
+     "speaker": "PAG",
+     "text": [
+      "That verse which was referred to yesterday has laid hold of me: “I was not rebellious”. Jesus said to God “thou art holy”. He justified God in what He did, He did not complain about it, He accepted it. But it is more than simply acquiescence; He glorified God in it."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "This relationship with His Father was so precious in His life. As ascended, it was “to my Father and your Father, and to my God and your God”. I am thankful for what you said."
+     "speaker": "DCB",
+     "text": [
+      "There are sufferings that we have been speaking of in the forsaking, and they would relate to the three hours. But there were earlier sufferings and interestingly the psalm goes back to them: these are sufferings for righteousness. I wondered if you could say something about the importance of these sufferings from the manger to the cross and up to the point of the darkness coming in."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "It is a wonderful thing to consider that the Lord in resurrection brings His own into relationships that they had not enjoyed before. His ascension is necessarily in view because the appreciation of it would involve the gift of the Spirit, but He says, “my Father and your Father”; He is bringing His own in, “my God and your God”. He is “firstborn among many brethren”, Rom.8:29. He says, “go to my brethren”, so He introduces the thought of His brethren. He is “not ashamed to call them brethren” (Heb.2:11), and He brings them in to these distinctive relationships. We are speaking about the sufferings and what they produce: they produce conditions in which these distinctive relationships, “my Father and your Father”, “my God and your God”, can be entered into. His relationship with His Father is unique as is His relationship with His God, but He can say “my Father and your Father, and to my God and your God”."
+     "speaker": "PAG",
+     "text": [
+      "One thing is that they are available for us as food. The various offerings from the oblation through the peace-offering and the trespass-offering are available to us as food. The burnt-offering could not be partaken of, it involves our acceptance – although the skin of the burnt-offering was for the priests, meaning that we are clothed in the worth of Christ, we are accepted in Him, but the offering itself was exclusively for God. But we can in principle partake of the other offerings except the sin-offering which was offered on the great day of atonement. In Leviticus 16, you will find the teaching of that; it was burnt entirely. But we can eat the offerings I referred to; that means we can participate in them. Believers participate in suffering for righteousness, but we are strengthened for it as we feed on Christ. The sufferings can be painful, but we are strengthened for them as we feed on Christ. You can help us."
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Is the depth of that relationship in relation to the sufferings seen at the end of John 14 where He says, “that the world may know that I love the Father … Rise up, let us go hence” (v.31)? That was on His way to the cross. Would that enter into what you are saying in relation to His sufferings? One of the things that the consideration of His sufferings produces is the ability to take some account of the relationship between the Father and the Son."
+     "speaker": "DCB",
+     "text": [
+      "I was wondering whether we can see that the offering that was offered for atonement in the three hours was an offering that had been tested in every possible way to show its excellence and its perfection through a pathway of suffering."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Yes, “that the world may know that I love the Father, and as the Father has commanded me, thus I do”. There was no hesitation, no conditionality, “as the Father has commanded me, thus I do. Rise up, let us go hence.” Then He says at the end of John 17 “And I have made known to them thy name, and will make it known” (v.26), and He is continuing to make it known that “the love with which thou hast loved me may be in them and I in them”. The Father’s love was constant towards Christ. He said, “On this account the Father loves me, because I lay down my life that I may take it again”, John 10:17. The Father knew what would be involved as Christ knew, as our brother has pointed out; it was between Him and His Father that the cup was taken, and the Father loved Him."
+     "speaker": "PAG",
+     "text": [
+      "Isaiah 53 tells us that He was a “man of sorrows, and acquainted with grief, and like one from whom men hide their faces” (v.3). That was not the cross exactly, that was the life of Jesus, “a man of sorrows, and acquainted with grief, and like one from whom men hide their faces”. No doubt it came to a head at the cross, but it was the whole of Jesus’ life of service here. He bore it with patience; but more than patience, He bore it with grace. He met circumstances of reviling and accusation and criticism. He spoke the truth and He spoke it clearly, but He proceeded in grace, and He prayed that even those who put Him on the cross might be forgiven. He was perfect in every step of His way, and He is available to us as such."
+     ]
     },
     {
-     "speaker": "G.B.G.",
-     "text": "In John 20 when He says “my God and your God”, it is that order of manhood for the pleasure of God and, as you say, it is through the sufferings of Christ that others partake of that order of manhood for God’s pleasure."
+     "speaker": "HTF",
+     "text": [
+      "I was thinking about the writer to the Hebrews saying “For consider well him who endured so great contradiction from sinners against himself, that ye be not weary”, Heb.12:3. There is the food for us."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Only as a result of the sufferings and death of Christ could the order of manhood which belonged to Him come to us. It would not have been possible before death because the death of Christ has to apply to us in order to dispense with the first order of man. The old man has been crucified. He had to die and we have to accept that. The hymnwriter says;"
+     "speaker": "PAG",
+     "text": [
+      "That is very good; “consider well” is not merely a passing matter. I speak carefully, but we cannot really consider the Lord’s sufferings in passing. I would just say humbly and simply they are worth more than that, they are worth our contemplation."
+     ]
     },
     {
-     "text": "‘For me, Lord Jesus, Thou hast died,"
+     "speaker": "NCMcK",
+     "text": [
+      "It was imperative that the will of God should be accomplished here on earth and that righteousness should be upheld, God’s rights maintained on earth. Could that have been secured without suffering?"
+     ]
     },
     {
-     "text": "And I have died with Thee;’ Hymn 415"
+     "speaker": "PAG",
+     "text": [
+      "It is the way that God chose to make known His love. It is a slightly different point, but God could have chosen to make known His rights and to exercise them in any way because He is God. But He chose to exercise His rights in mercy; that is what He chose to do. He chose to make known His love through suffering. What would you say?"
+     ]
     },
     {
-     "text": "It is not a collective matter, it is an individual matter to die with Him, to recognise that His death applies to me. We could not have borne the suffering, but we can apply His death to ourselves and on the other side of death and in indissoluble life we have access to relationships that are eternal."
+     "speaker": "NCMcK",
+     "text": [
+      "I am getting help on the enquiry. It says, “to make perfect the leader of their salvation through sufferings”, Heb.2:10. He has been made suitable to a position that He holds through sufferings that we may see that the way for us to be sons is that way."
+     ]
     },
     {
-     "text": "R.W.McC. We speak of His journey from the manger to the cross, but it has been suggested we should think of His journey from the manger to the holy mountain which gives us the Father’s delight, and then from the mountain to the cross. I wondered if that linked with what you were saying about that relationship."
+     "speaker": "PAG",
+     "text": [
+      "Yes, He is perfectly suited to His high priestly office because He has suffered as men suffer and, as we are contemplating, in a way that exceeds the way men suffer. The one thing to say is that His perfection did not involve the removal of defects. For us for anything to be made perfect may well mean the removal of what is sub-standard but with the Lord, perfection was seen fully in what was already there. In His place in deity, He had not suffered as Man; in His place in deity He had not been obedient as Man, but He came into a condition in which he could suffer and in which he displayed obedience even to death."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "That is true – you are thinking of the mount of transfiguration: “This is my beloved Son: hear him”, Mark 9:7. There are steps on the journey – the manger, the waters of baptism, the mount of transfiguration, the cross. But then as raised from the dead by the glory of the Father, there is His ascension, “whom heaven indeed must receive”, Acts 3:21. God took account of it and each step gave Him fresh delight. Christ is still delighting His Father now and He is delighting Him in those that He brings with Him."
+     "speaker": "TWL",
+     "text": [
+      "Going back to your opening comments as to what His sufferings produced, would it be right to say that that is seen particularly in what He is as Sanctifier? He sanctifies people for God and consequently there is the necessity for His sufferings on the line of what He has secured for God, not exactly in meeting what was contrary but in securing persons to produce a sanctified company for God."
+     ]
     },
     {
-     "speaker": "A.R.H.",
-     "text": "Should it freshly affect us that, as you have already said, there was a point when He could not be heard even though He was so pleasurable to God?"
+     "speaker": "PAG",
+     "text": [
+      "That is good. His sufferings have a separating effect on us. How could I go on with something for which Christ suffered? How could I find that pleasurable when He suffered for it?"
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "The burnt-offering does not exactly touch on the side of suffering but what scripture does say is that “the sons of Aaron the priest shall put fire on the altar, and lay wood in order on the fire; and Aaron’s sons, the priests, shall lay the pieces, the head, and the fat, in order on the wood that is on the fire which is on the altar; but its inwards and its legs shall he wash in water; and the priest shall burn all on the altar, a burnt-offering, an offering by fire to Jehovah of a sweet odour”, Lev.1:7-9. It was all for Jehovah, but it was all in order. It was in the ordering of God that this should happen; it was all in order. The priest took account of every detail of it in ways which in a sense we cannot, but we can contemplate that he should “lay wood in order”, the manhood of Christ in all its blessed perfection laid in order on the altar, every step of His laid on the altar in order that God might be satisfied. And Aaron’s sons the priests, the wider company, were brought in to lay the pieces, the head and the fat. Brothers giving thanks in the service of God this morning were, as it were, laying out these pieces, the impression they had of Christ, and it is all laid out in perfect order. The head, the glory of the blessed Man who bowed His head and died, and delivered up His spirit, and the fat, the essence of what was perfect in the sight of God and for God and God alone, were in order on the wood. He never ceased to be Man in that time of deepest suffering. As God He could have dispelled it in an instant, but as Man He went through with it in perfection; “its inwards and its legs shall he wash in water”. The inwards really were known to God alone and yet they were available, the feelings that were there, when He says in John 12: “Now is my soul troubled, and what shall I say? Father, save me from this hour. But on account of this have I come to this hour” (v.27). That was the inwards being laid out for our admiring, adoring appreciation. Then it says, “and its legs”; the movements of love that you have referred to; “Rise up, let us go hence”. The legs were there, they were moving to Calvary’s cross without complaint and all that was for the pleasure of God."
+     "speaker": "RHB",
+     "text": [
+      "I was hoping you would say some more about the answer. It says, “from the horns of the buffaloes hast thou answered me”. I would like to understand that. Is that a reference to the horns of the altar (Ps.118:27)? What is in your mind about that?"
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "He justified God for the forsaking, did He not? He said, “thou art holy”. I was thinking that in His thirty-three and a half years, His relationship was perfect, a Son with a Father, Man with God, but when it came to that point, He sacrificially took the place of the sinner and sins to meet the whole matter. You can understand that the issue between man and God was resolved there."
+     "speaker": "PAG",
+     "text": [
+      "Certainly there is that reference to the sacrifice being bound to the horns of the altar. I suppose what bound the Lord to the altar was His love; His love lay behind His obedience, He was bound there by love. He was not held on the cross by the nails, He was held on the cross by His love. He could have come down from it at any moment. The horns of the buffaloes, I think, involve a place of extremity; that is to say, in man’s mind the position could not be remedied. A person goes into death, that is a place of extremity from which there is no retrieval. The glory of the Father brought Him out of it. We should remember too that Jesus invaded its domain. It says in John that “having bowed his head, he delivered up his spirit”, John 19:30. If you think of death as being like a doorway, a portal, He was greater than the doorway because He made it, and in order to go in, He did not bow to death. He bowed His head in order to enter into that portal He had made, He bowed His head in subjection to the will of His God and Father and went that way and invaded death’s domain. Death did not take Him; He said “Father, into thy hands I commit my spirit”. He went into it as the only One who was His own Spirit; thus He is distinctive as the only One who had a right to give up what was His own. He gave it up and bowed His head at that point and invaded the domain. Having gone into it, He lay in the stillness of death. Death was real. “By the breath of God ice is given; and the breadth of the waters is straitened”, Job 37:10. Jesus lay in the stillness of death and He was raised from it, as a sign of the Father’s delight, by the glory of the Father. The Father’s love shone into that domain of darkness and claimed in resurrection the One whom He loved the most."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "That verse which was referred to yesterday has laid hold of me: “I was not rebellious”. Jesus said to God “thou art holy”. He justified God in what He did, He did not complain about it, He accepted it. But it is more than simply acquiescence; He glorified God in it."
+     "speaker": "RDP",
+     "text": [
+      "It is really affecting what you have said, that it was divine love that held Him to the cross and no matter what man inflicted upon Him, His sufferings could never have taken His life. No amount of suffering or indignity could have taken the life of Jesus; “I lay it down of myself”, John 10:18. He had commandment to lay it down. It is a very affecting thing to think of."
+     ]
     },
     {
-     "speaker": "D.C.B.",
-     "text": "There are sufferings that we have been speaking of in the forsaking, and they would relate to the three hours. But there were earlier sufferings and interestingly the psalm goes back to them: these are sufferings for righteousness. I wondered if you could say something about the importance of these sufferings from the manger to the cross and up to the point of the darkness coming in."
+     "speaker": "PAG",
+     "text": [
+      "“I have authority to lay it down and I have authority to take it again. I have received this commandment of my Father”. The same Father from whom He took the cup had given Him authority to lay down His life and authority to take it again. It was another reason why He proceeded in perfect confidence."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "One thing is that they are available for us as food. The various offerings from the oblation through the peace-offering and the trespass-offering are available to us as food. The burnt-offering could not be partaken of, it involves our acceptance – although the skin of the burnt-offering was for the priests, meaning that we are clothed in the worth of Christ, we are accepted in Him, but the offering itself was exclusively for God. But we can in principle partake of the other offerings except the sin-offering which was offered on the great day of atonement. In Leviticus 16, you will find the teaching of that; it was burnt entirely. But we can eat the offerings I referred to; that means we can participate in them. Believers participate in suffering for righteousness, but we are strengthened for it as we feed on Christ. The sufferings can be painful, but we are strengthened for them as we feed on Christ. You can help us."
+     "speaker": "RHB",
+     "text": [
+      "Your reference to the point of extremity is helpful. As to His dying, He said to John, “I became dead” (Rev.1:18); it was His own act. He said of His life, “No one takes it from me”. It looked as though His life was taken from Him, as though He was murdered by men, putting it simply, but it is important to grasp what you are saying that the giving up of His life was His own act in love to God and for us."
+     ]
     },
     {
-     "speaker": "D.C.B.",
-     "text": "I was wondering whether we can see that the offering that was offered for atonement in the three hours was an offering that had been tested in every possible way to show its excellence and its perfection through a pathway of suffering."
+     "speaker": "PAG",
+     "text": [
+      "We need to keep the two sides in our minds. Man remains guilty in respect of the death of Christ. That is what is said at the beginning of Acts: “ye, by the hand of lawless men, have crucified and slain”, Acts 2:23. That is man’s responsibility. But from the divine side no man took His life from Him. We need to have both in our minds in relation to the death of Christ. But to be very simple about it, I must not forget that in principle I was responsible for the death of Christ; He died for me and on my account."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Isaiah 53 tells us that He was a “man of sorrows, and acquainted with grief, and like one from whom men hide their faces” (v.3). That was not the cross exactly, that was the life of Jesus, “a man of sorrows, and acquainted with grief, and like one from whom men hide their faces”. No doubt it came to a head at the cross, but it was the whole of Jesus’ life of service here. He bore it with patience; but more than patience, He bore it with grace. He met circumstances of reviling and accusation and criticism. He spoke the truth and He spoke it clearly, but He proceeded in grace, and He prayed that even those who put Him on the cross might be forgiven. He was perfect in every step of His way, and He is available to us as such."
+     "speaker": "RHB",
+     "text": [
+      "That verse you have quoted also says that He was “given up by the determinate counsel and foreknowledge of God”. As you say, I was responsible for His death, but the determinate counsel and foreknowledge of God involved that He should die for me in order that God’s purpose for me might be reached."
+     ]
     },
     {
-     "speaker": "H.T.F.",
-     "text": "I was thinking about the writer to the Hebrews saying “For consider well him who endured so great contradiction from sinners against himself, that ye be not weary”, Heb.12:3. There is the food for us."
+     "speaker": "PAG",
+     "text": [
+      "His blood was foreknown before the foundation of the world, so that we need to understand both sides."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "That is very good; “consider well” is not merely a passing matter. I speak carefully, but we cannot really consider the Lord’s sufferings in passing. I would just say humbly and simply they are worth more than that, they are worth our contemplation."
+     "speaker": "KRO",
+     "text": [
+      "Say something more as to the internal side of His sufferings that you referred to. I am thinking of Isaiah 53 again, “the travail of his soul” (v.11). Verse 10 speaks as to subjecting Him to suffering. Would you say something more about that?"
+     ]
     },
     {
-     "text": "N.C.McK. It was imperative that the will of God should be accomplished here on earth and that righteousness should be upheld, God’s rights maintained on earth. Could that have been secured without suffering?"
+     "speaker": "PAG",
+     "text": [
+      "As Jesus anticipated what lay ahead of Him at the cross, it says that “his sweat became as great drops of blood, falling down upon the earth”, Luke 22:44. There was an intensity about His sufferings that is described to us as far as human language might go, but what He says even in this psalm: “my heart is become like wax; it is melted in the midst of my bowels” – there is an expression there of a depth of feeling, speaking carefully, that would have been beyond an ordinary man to bear; it would have crushed him. Speaking reverently, the Lord was not crushed. In every offering the thing offered was consumed or eaten, but this offering went through entire! The external sufferings were immense, and I would not seek to measure them, but the sufferings in His spirit went even beyond that."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "It is the way that God chose to make known His love. It is a slightly different point, but God could have chosen to make known His rights and to exercise them in any way because He is God. But He chose to exercise His rights in mercy; that is what He chose to do. He chose to make known His love through suffering. What would you say?"
+     "speaker": "KRO",
+     "text": [
+      "I wondered if the reference “He shall see of the fruit of the travail of his soul, and shall be satisfied” (Isa.53:11) brings us back to your introduction that there is what is ascending to God as a consequence of it?"
+     ]
     },
     {
-     "text": "N.C.McK. I am getting help on the enquiry. It says, “to make perfect the leader of their salvation through sufferings”, Heb.2:10. He has been made suitable to a position that He holds through sufferings that we may see that the way for us to be sons is that way."
+     "speaker": "PAG",
+     "text": [
+      "Yes, and when He said, “go to my brethren”, the Lord was beginning to see the fruit of the travail of His soul. What a wonderful word, “and shall be satisfied”! We are speaking about what is the fruit of the death of Christ and one fruit of the death of Christ is His own satisfaction."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Yes, He is perfectly suited to His high priestly office because He has suffered as men suffer and, as we are contemplating, in a way that exceeds the way men suffer. The one thing to say is that His perfection did not involve the removal of defects. For us for anything to be made perfect may well mean the removal of what is sub-standard but with the Lord, perfection was seen fully in what was already there. In His place in deity, He had not suffered as Man; in His place in deity He had not been obedient as Man, but He came into a condition in which he could suffer and in which he displayed obedience even to death."
+     "speaker": "RB",
+     "text": [
+      "I was glad of what our brother said as to how this leads us to worship. What you have touched on as to the Lord’s feelings and what He has gone through would affect us all, but how does it then lead to worship?"
+     ]
     },
     {
-     "speaker": "T.W.L.",
-     "text": "Going back to your opening comments as to what His sufferings produced, would it be right to say that that is seen particularly in what He is as Sanctifier? He sanctifies people for God and consequently there is the necessity for His sufferings on the line of what He has secured for God, not exactly in meeting what was contrary but in securing persons to produce a sanctified company for God."
+     "speaker": "PAG",
+     "text": [
+      "The scripture says, “Praise him in his mighty acts”, Ps.150:2. I think that worship goes beyond praising Him for His mighty acts. I think it involves some appreciation in our souls of who He is and that none but He could have gone through with this. It is not so much His acts we are thinking about, but the beauty and glory of His Person, the perfection of His Manhood. We could say how far beyond us it is and that would be true, but we should not put it so far beyond us that we cannot respond to it. It is there for us to respond to, and I think worship is the appropriate response."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "That is good. His sufferings have a separating effect on us. How could I go on with something for which Christ suffered? How could I find that pleasurable when He suffered for it?"
+     "speaker": "WWL",
+     "text": [
+      "Do you think the heading of this psalm, ‘According to the hind of the morning’, would link with what you are saying? In John 20, Mary went to the tomb; there was a response from her heart. I was thinking of the meetings that we have had. Mary said, “they have taken away my Lord” (v.13). There is a subjective answer."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "I was hoping you would say some more about the answer. It says, “from the horns of the buffaloes hast thou answered me”. I would like to understand that. Is that a reference to the horns of the altar (Ps.118:27)? What is in your mind about that?"
+     "speaker": "PAG",
+     "text": [
+      "There is, so in that sense there is something that is called out from our hearts and we want to be intelligent in these matters. But I would encourage everyone – do not wait for some perfect expression to come to mind. The Lord delights in even the briefest recognition of His Person, who He is as the Man out of death."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Certainly there is that reference to the sacrifice being bound to the horns of the altar. I suppose what bound the Lord to the altar was His love; His love lay behind His obedience, He was bound there by love. He was not held on the cross by the nails, He was held on the cross by His love. He could have come down from it at any moment. The horns of the buffaloes, I think, involve a place of extremity; that is to say, in man’s mind the position could not be remedied. A person goes into death, that is a place of extremity from which there is no retrieval. The glory of the Father brought Him out of it. We should remember too that Jesus invaded its domain. It says in John that “having bowed his head, he delivered up his spirit”, John 19:30. If you think of death as being like a doorway, a portal, He was greater than the doorway because He made it, and in order to go in, He did not bow to death. He bowed His head in order to enter into that portal He had made, He bowed His head in subjection to the will of His God and Father and went that way and invaded death’s domain. Death did not take Him; He said “Father, into thy hands I commit my spirit”. He went into it as the only One who was His own Spirit; thus He is distinctive as the only One who had a right to give up what was His own. He gave it up and bowed His head at that point and invaded the domain. Having gone into it, He lay in the stillness of death. Death was real. “By the breath of God ice is given; and the breadth of the waters is straitened”, Job 37:10. Jesus lay in the stillness of death and He was raised from it, as a sign of the Father’s delight, by the glory of the Father. The Father’s love shone into that domain of darkness and claimed in resurrection the One whom He loved the most."
+     "speaker": "JBI",
+     "text": [
+      "It is “in the midst of the congregation”. I was wondering if that is where Christ has His true place, in the heart of the assembly."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "It is really affecting what you have said, that it was divine love that held Him to the cross and no matter what man inflicted upon Him, His sufferings could never have taken His life. No amount of suffering or indignity could have taken the life of Jesus; “I lay it down of myself”, John 10:18. He had commandment to lay it down. It is a very affecting thing to think of."
+     "speaker": "PAG",
+     "text": [
+      "I think that, and there is no vessel that appreciates Christ like the assembly does. She has an appreciation of Him because the Spirit is free there and assembly response would exceed any other response."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "“I have authority to lay it down and I have authority to take it again. I have received this commandment of my Father”. The same Father from whom He took the cup had given Him authority to lay down His life and authority to take it again. It was another reason why He proceeded in perfect confidence."
+     "speaker": "JBI",
+     "text": [
+      "We can respond to all distance being removed because of what He has done in His sufferings, and to all that He has done in removing that distance."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "Your reference to the point of extremity is helpful. As to His dying, He said to John, “I became dead” (Rev.1:18); it was His own act. He said of His life, “No one takes it from me”. It looked as though His life was taken from Him, as though He was murdered by men, putting it simply, but it is important to grasp what you are saying that the giving up of His life was His own act in love to God and for us."
+     "speaker": "PAG",
+     "text": [
+      "Indeed, so that He can unite the assembly to Himself because all distance has been removed. We are not only brought near – we are united."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "We need to keep the two sides in our minds. Man remains guilty in respect of the death of Christ. That is what is said at the beginning of Acts: “ye, by the hand of lawless men, have crucified and slain”, Acts 2:23. That is man’s responsibility. But from the divine side no man took His life from Him. We need to have both in our minds in relation to the death of Christ. But to be very simple about it, I must not forget that in principle I was responsible for the death of Christ; He died for me and on my account."
+     "speaker": "RHB",
+     "text": [
+      "Luke’s gospel brings out the depth of His sufferings. You have spoken about His sweat becoming as “great drops of blood”, but it closes with “And they, having done him homage, returned to Jerusalem with great joy, and were continually in the temple praising and blessing God”, Luke 24:52,53. It reaches that point in the gospel that the fruit of all that pressure and suffering is testified to."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "That verse you have quoted also says that He was “given up by the determinate counsel and foreknowledge of God”. As you say, I was responsible for His death, but the determinate counsel and foreknowledge of God involved that He should die for me in order that God’s purpose for me might be reached."
+     "speaker": "PAG",
+     "text": [
+      "Well, we are sobered and humbled by the sufferings of Christ but the product of them is eternal joy, joy that we could not have known if He had not gone that way. He brings glory to God in the assembly."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "His blood was foreknown before the foundation of the world, so that we need to understand both sides."
+     "speaker": "RHB",
+     "text": [
+      "That is His joy as well as ours; “in view of the joy lying before him”."
+     ]
     },
     {
-     "speaker": "K.R.O.",
-     "text": "Say something more as to the internal side of His sufferings that you referred to. I am thinking of Isaiah 53 again, “the travail of his soul” (v.11). Verse 10 speaks as to subjecting Him to suffering. Would you say something more about that?"
+     "speaker": "PAG",
+     "text": [
+      "And think of the scope of His joy in that He would be able to say, “my Father and your Father” and “my God and your God”. The joy that He would have the assembly for Himself, the joy that He would have the assembly as a vessel of praise and response to God was all part of the extent of the joy that lay before Him."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "As Jesus anticipated what lay ahead of Him at the cross, it says that “his sweat became as great drops of blood, falling down upon the earth”, Luke 22:44. There was an intensity about His sufferings that is described to us as far as human language might go, but what He says even in this psalm: “my heart is become like wax; it is melted in the midst of my bowels” – there is an expression there of a depth of feeling, speaking carefully, that would have been beyond an ordinary man to bear; it would have crushed him. Speaking reverently, the Lord was not crushed. In every offering the thing offered was consumed or eaten, but this offering went through entire! The external sufferings were immense, and I would not seek to measure them, but the sufferings in His spirit went even beyond that."
+     "speaker": "TJH",
+     "text": [
+      "Can you help us about the title of the psalm, which the note tells us is feminine? I am thinking of that in relation to the enquiry as to the sanctuary and in Hebrews the reference to the assembly."
+     ]
     },
     {
-     "speaker": "K.R.O.",
-     "text": "I wondered if the reference “He shall see of the fruit of the travail of his soul, and shall be satisfied” (Isa.53:11) brings us back to your introduction that there is what is ascending to God as a consequence of it?"
+     "speaker": "PAG",
+     "text": [
+      "God said very early on that “It is not good that Man should be alone”, Gen.2:18. Here is the answer, it is in one who appreciates the way that He has been. When Adam and Eve were brought together, which is without doubt a type of Christ and the assembly, there was no history there and that is another aspect of Christ and the assembly. The assembly has no past history but in this setting what is involved is the appreciation of the Person and it is a feminine appreciation. That is what can be united to Christ so that the answer is in the appreciation which we can all enter into. We must have the Spirit. How can sisters enjoy the place of brethren or sons? How can brothers enter into the feminine response of the assembly? We all enter into it together by the power of the Spirit and it makes it very clear to us that this response that we are speaking of is an entirely spiritual matter."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Yes, and when He said, “go to my brethren”, the Lord was beginning to see the fruit of the travail of His soul. What a wonderful word, “and shall be satisfied”! We are speaking about what is the fruit of the death of Christ and one fruit of the death of Christ is His own satisfaction."
+     "speaker": "DMcF",
+     "text": [
+      "I was wondering about the thought of His hands being pierced and His feet but in John He draws attention to His side. I wondered if we could get help on that."
+     ]
     },
     {
-     "speaker": "R.B.",
-     "text": "I was glad of what our brother said as to how this leads us to worship. What you have touched on as to the Lord’s feelings and what He has gone through would affect us all, but how does it then lead to worship?"
+     "speaker": "PAG",
+     "text": [
+      "I suppose the piercing of His hands and feet was particularly related to the suffering for righteousness. Agony was inflicted upon Him, and it also involves the responsibility of those that participated; they pierced His hands and His feet. Israel will come to that, they will look on the One “whom they pierced”, Zech.12:10. The piercing of His side is not really related to suffering because He was by that time dead when the soldier with a spear pierced His side. The piercing of His side relates more to the purpose of God and the present power to maintain it because there is not only blood but there is water; there is what is available to believers to help maintain their state as well as to maintain righteousness. The Spirit and the water and the blood are presented together in John’s first epistle chapter 5, and we are told that “the three agree in one” (v.8); they bear witness but “the three agree in one”. The Spirit bears witness to life, the water bears witness to the fact that our state is dealt with and maintained, and the blood bears witness to righteousness, and they all point to Christ; “the three agree in one”."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "The scripture says, “Praise him in his mighty acts”, Ps.150:2. I think that worship goes beyond praising Him for His mighty acts. I think it involves some appreciation in our souls of who He is and that none but He could have gone through with this. It is not so much His acts we are thinking about, but the beauty and glory of His Person, the perfection of His Manhood. We could say how far beyond us it is and that would be true, but we should not put it so far beyond us that we cannot respond to it. It is there for us to respond to, and I think worship is the appropriate response."
+     "speaker": "TRC",
+     "text": [
+      "I was just thinking of the one pearl of great value, no doubt speaking to us of pressure and suffering, but the merchantman “sold all whatever he had” (Matt.13:46), which would involve the suffering of the Lord Jesus Himself."
+     ]
     },
     {
-     "speaker": "B.W.L.",
-     "text": "Do you think the heading of this psalm, ‘According to the hind of the morning’, would link with what you are saying? In John 20, Mary went to the tomb; there was a response from her heart. I was thinking of the meetings that we have had. Mary said, “they have taken away my Lord” (v.13). There is a subjective answer."
-    },
-    {
-     "speaker": "P.A.G.",
-     "text": "There is, so in that sense there is something that is called out from our hearts and we want to be intelligent in these matters. But I would encourage everyone – do not wait for some perfect expression to come to mind. The Lord delights in even the briefest recognition of His Person, who He is as the Man out of death."
-    },
-    {
-     "speaker": "J.B.I.",
-     "text": "It is “in the midst of the congregation”. I was wondering if that is where Christ has His true place, in the heart of the assembly."
-    },
-    {
-     "speaker": "P.A.G.",
-     "text": "I think that, and there is no vessel that appreciates Christ like the assembly does. She has an appreciation of Him because the Spirit is free there and assembly response would exceed any other response."
-    },
-    {
-     "speaker": "J.B.I.",
-     "text": "We can respond to all distance being removed because of what He has done in His sufferings, and to all that He has done in removing that distance."
-    },
-    {
-     "speaker": "P.A.G.",
-     "text": "Indeed, so that He can unite the assembly to Himself because all distance has been removed. We are not only brought near – we are united."
-    },
-    {
-     "speaker": "R.H.B.",
-     "text": "Luke’s gospel brings out the depth of His sufferings. You have spoken about His sweat becoming as “great drops of blood”, but it closes with “And they, having done him homage, returned to Jerusalem with great joy, and were continually in the temple praising and blessing God”, Luke 24:52,53. It reaches that point in the gospel that the fruit of all that pressure and suffering is testified to."
-    },
-    {
-     "speaker": "P.A.G.",
-     "text": "Well, we are sobered and humbled by the sufferings of Christ but the product of them is eternal joy, joy that we could not have known if He had not gone that way. He brings glory to God in the assembly."
-    },
-    {
-     "speaker": "R.H.B.",
-     "text": "That is His joy as well as ours; “in view of the joy lying before him”."
-    },
-    {
-     "speaker": "P.A.G.",
-     "text": "And think of the scope of His joy in that He would be able to say, “my Father and your Father” and “my God and your God”. The joy that He would have the assembly for Himself, the joy that He would have the assembly as a vessel of praise and response to God was all part of the extent of the joy that lay before Him."
-    },
-    {
-     "speaker": "T.J.H.",
-     "text": "Can you help us about the title of the psalm, which the note tells us is feminine? I am thinking of that in relation to the enquiry as to the sanctuary and in Hebrews the reference to the assembly."
-    },
-    {
-     "speaker": "P.A.G.",
-     "text": "God said very early on that “It is not good that Man should be alone”, Gen.2:18. Here is the answer, it is in one who appreciates the way that He has been. When Adam and Eve were brought together, which is without doubt a type of Christ and the assembly, there was no history there and that is another aspect of Christ and the assembly. The assembly has no past history but in this setting what is involved is the appreciation of the Person and it is a feminine appreciation. That is what can be united to Christ so that the answer is in the appreciation which we can all enter into. We must have the Spirit. How can sisters enjoy the place of brethren or sons? How can brothers enter into the feminine response of the assembly? We all enter into it together by the power of the Spirit and it makes it very clear to us that this response that we are speaking of is an entirely spiritual matter."
-    },
-    {
-     "text": "D.McF. I was wondering about the thought of His hands being pierced and His feet but in John He draws attention to His side. I wondered if we could get help on that."
-    },
-    {
-     "speaker": "P.A.G.",
-     "text": "I suppose the piercing of His hands and feet was particularly related to the suffering for righteousness. Agony was inflicted upon Him, and it also involves the responsibility of those that participated; they pierced His hands and His feet. Israel will come to that, they will look on the One “whom they pierced”, Zech.12:10. The piercing of His side is not really related to suffering because He was by that time dead when the soldier with a spear pierced His side. The piercing of His side relates more to the purpose of God and the present power to maintain it because there is not only blood but there is water; there is what is available to believers to help maintain their state as well as to maintain righteousness. The Spirit and the water and the blood are presented together in John’s first epistle chapter 5, and we are told that “the three agree in one” (v.8); they bear witness but “the three agree in one”. The Spirit bears witness to life, the water bears witness to the fact that our state is dealt with and maintained, and the blood bears witness to righteousness, and they all point to Christ; “the three agree in one”."
-    },
-    {
-     "speaker": "T.R.C.",
-     "text": "I was just thinking of the one pearl of great value, no doubt speaking to us of pressure and suffering, but the merchantman “sold all whatever he had” (Matt.13:46), which would involve the suffering of the Lord Jesus Himself."
-    },
-    {
-     "speaker": "P.A.G.",
-     "text": "The merchantman would be capable of being selective, he would know what was of superior quality, and such was the quality that Christ identified in His assembly that “he went and sold all whatever he had”. “Christ also loved the assembly, and has delivered himself up for it”, Eph.5:25. At the point when He gave Himself for the assembly, that love was anticipative. But now His love for the assembly is actual, and we have an opportunity to respond to it. The love that took Him the way that He went deserves an answer!"
+     "speaker": "PAG",
+     "text": [
+      "The merchantman would be capable of being selective, he would know what was of superior quality, and such was the quality that Christ identified in His assembly that “he went and sold all whatever he had”. “Christ also loved the assembly, and has delivered himself up for it”, Eph.5:25. At the point when He gave Himself for the assembly, that love was anticipative. But now His love for the assembly is actual, and we have an opportunity to respond to it. The love that took Him the way that He went deserves an answer!"
+     ]
     }
    ]
   },
@@ -594,9 +752,151 @@
     },
     {
      "speaker": "JT",
-     "text": "N.S. Vol 89 p.450"
+     "text": [
+      "N.S. Vol 89 p.450"
+     ]
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alistair M Brown Linlithgow\" read as Alistair M Brown, Linlithgow"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"David C Brown Edinburgh\" read as David C Brown, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Jim T Brown Edinburgh\" read as Jim T Brown, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Rodney Brown Linlithgow\" read as Rodney Brown, Linlithgow"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Roland H Brown Maidstone\" read as Roland H Brown, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Trevor R Campbell Glasgow\" read as Trevor R Campbell, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"H Tim Franklin Grimsby\" read as H Tim Franklin, Grimsby"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"G Bruce Grant Dundee\" read as G Bruce Grant, Dundee"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Paul A. Gray Linlithgow\" read as Paul A. Gray, Linlithgow"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alec R Henry Glasgow\" read as Alec R Henry, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Norman J Henry Glasgow\" read as Norman J Henry, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Trevor J Harvey E. Finchley\" read as Trevor J Harvey, E. Finchley"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"J Bruce Ikin Manchester\" read as J Bruce Ikin, Manchester"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Bill W Lovie Aberdeen\" read as Bill W Lovie, Aberdeen"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Terry W Lock Edinburgh\" read as Terry W Lock, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Kevin R Oliver Denton\" read as Kevin R Oliver, Denton"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Walter M Patterson Glasgow\" read as Walter M Patterson, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Ron D Plant Birmingham\" read as Ron D Plant, Birmingham"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Quentin A Poore Swanage\" read as Quentin A Poore, Swanage"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Phil J Walkinshaw Strood\" read as Phil J Walkinshaw, Strood"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "initials_before_name",
+   "detail": "22 entries written as initials then name (\"AMB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "speaker_not_in_key",
+   "detail": "NCMcK (in the text)"
+  },
+  {
+   "article": 1,
+   "title": "THE SUFFERINGS OF CHRIST AND THEIR RESULTS",
+   "kind": "person_fixed",
+   "detail": "BWL in the text -> WWL (Bill W. Lovie)"
   }
  ]
 }

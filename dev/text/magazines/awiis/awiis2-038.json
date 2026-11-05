@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -36,6 +36,7 @@
     "JRW",
     "RHB",
     "PM",
+    "QAP",
     "PJM",
     "MRC",
     "RDP",
@@ -110,7 +111,7 @@
      "place": "Yeovil"
     },
     {
-     "initials": "QP",
+     "initials": "QAP",
      "name": "Q Poore",
      "place": "Swanage"
     },
@@ -147,467 +148,648 @@
    "paragraphs": [
     {
      "speaker": "NJH",
-     "text": "I would like to take up the matter of the custom or practice of priesthood. It relates to the greatest part of a Christian’s life. Every person linked with Christ is part of the priestly family. Aaron’s sons were priests because of their relationship with him. Sonship underlies it. It is the highest part of any service that is left to us; it is greater than any other service that we take up. As we go through these scriptures we will find that every other service is governed by priesthood. Speaking simply, the priest was within. It raises the whole matter of our relations with God and, as we know from the scripture in Numbers, the Levite was given, united to the priests. So that any service that we do amongst the saints - or even manward - flows out from our relations with God. I think this is critical in the time we are in because if you separate the two you are going to lose the power of the truth. I am not saying that you will lose the truth, but the power of it is lost if it is not subordinate to a person’s direct relations with God."
-    },
-    {
-     "text": "While I want to carry all - especially our young - forward, the priestly side of a believer has enormous effect. If every brother and sister, young and old, exercised their priesthood before the meeting, it would advance the very atmosphere and power in the meeting itself. While we love doctrine and we love the truth, the persons that have opened up the truth for us - the accredited ministries - were persons who themselves were priests. They were near to God and they could bring what they had from God. The priest was in the presence of God and in the old system the Levite then took out that heavenly influence to the people. As these men of God ministered and laboured in the work, the first and prime thing was what they were in the priesthood Godward. If we do not hold to that - and it is searching for all of us - we will lose the effect of the truth in our souls and eventually the power of it over us, and we will drift as many of our dear brethren have done. It starts from within."
-    },
-    {
-     "text": "Therefore, I started in Hebrews 3. What overturning they had in their lives, these converted Hebrews saints. The writer goes through and uses the typical references from the Old Testament to strengthen them. You come to chapter 3 after such a worthy outline of the glory of the Lord Jesus as the Son in chapter 1, and he says, “consider the Apostle and High Priest of our confession” - our confession. That is how Christ stands related to us in our time, because while on earth He was not of the priestly family according to Israel. He did not go into the inner temple. The Lord recognised in His precious life that He was not of the tribe of Levi; He was of the tribe of Judah. It is sad of course that Judas went in (Matt 27: 5), but we are speaking of the “High Priest of our confession, Jesus”. What a Person He is, while not of the priestly family, or the tribe of Levi by birth! He had unique relations with His God, and liberty to draw near to God in priestly service. We have His prayer in John 17, pouring out His heart into the ear of the Father in the presence of His own. What a Person He was. We often use the expression that 'the approach is equal to the revelation' (F E Raven vol 2 p70). That was in Christ. The approach was in Christ and that is the liberty that He had like no other. He is brought before these Hebrews to say, “We have such a one high priest” (Heb 8: 1), and you have liberty that you never could have had in Israel, and they will not have in the millennium either. You have a liberty today, dear brother and sister, to draw into the very presence of God and that is your greatest service. You have your own knees: use them; it will give power to your local meetings, it will give freshness, and the brethren will look different to you if you do it."
-    },
-    {
-     "text": "The scripture in Numbers has reference to the gift - the priest was not given to the Levite, the Levite was given, or united to the priest. You see here the pre-eminence that is given to priesthood. Then it says, “behold, I have taken your brethren, the Levites, from among the children of Israel”. As we know, the Levites were taken up in place of the firstborn. The firstborn in Exodus 13: 2 was what God laid hold of, He claimed it, and then the Levites were taken up in Num 3: 12 in the place of the firstborn; and here they are given to the priestly family. What a matter it is. Nothing is to infringe on your relations with God. So the Levite is given to the priest."
-    },
-    {
-     "text": "In John 9 we have a man that is brought through to priesthood. I think the works of God manifest in a person must have to do with the priestly side of the person. He knew what it was to be cast out, every other support removed, and he came into the very presence of the Son of God; and he worshipped. Where did he get that? He had probably not heard of that before, he did not have the teaching of John 4, the teaching of worship; it is instinctive in the priest, and he worships the Son of God."
-    },
-    {
-     "text": "In Revelation it is a kingdom, “made us a kingdom, priests to his God and Father”. It involves protection in the presence of an evil world where sin pervades; that protection is there. It is “made us a kingdom”. Nothing is meant to interrupt priestly function."
-    },
-    {
-     "text": "In Nehemiah you have the high priest beginning the building. Young people, do not elect yourselves out of it, because joining the priest in the building were the men of Jericho. What a disadvantage you might say they would have, but there is no disadvantage here, they are following the priestly guidance in the building of the wall and every person is responsible for the protection of what belongs to God. The wall is everyone’s responsibility. You remember in Mr Raven’s outstanding address (vol 2 p268), that it is not just those who minister who are responsible to maintain the truth, but it is the responsibility of all. These men of Jericho came in right away, at no disadvantage. Young people, commit yourself in your daily life to protect what is of God in the principle of the wall in Nehemiah. We know in Ezra it is the elders that built the house, but in Nehemiah it goes down to persons like you and me that build the wall."
+     "text": [
+      "I would like to take up the matter of the custom or practice of priesthood. It relates to the greatest part of a Christian’s life. Every person linked with Christ is part of the priestly family. Aaron’s sons were priests because of their relationship with him. Sonship underlies it. It is the highest part of any service that is left to us; it is greater than any other service that we take up. As we go through these scriptures we will find that every other service is governed by priesthood. Speaking simply, the priest was within. It raises the whole matter of our relations with God and, as we know from the scripture in Numbers, the Levite was given, united to the priests. So that any service that we do amongst the saints - or even manward - flows out from our relations with God. I think this is critical in the time we are in because if you separate the two you are going to lose the power of the truth. I am not saying that you will lose the truth, but the power of it is lost if it is not subordinate to a person’s direct relations with God.",
+      "While I want to carry all - especially our young - forward, the priestly side of a believer has enormous effect. If every brother and sister, young and old, exercised their priesthood before the meeting, it would advance the very atmosphere and power in the meeting itself. While we love doctrine and we love the truth, the persons that have opened up the truth for us - the accredited ministries - were persons who themselves were priests. They were near to God and they could bring what they had from God. The priest was in the presence of God and in the old system the Levite then took out that heavenly influence to the people. As these men of God ministered and laboured in the work, the first and prime thing was what they were in the priesthood Godward. If we do not hold to that - and it is searching for all of us - we will lose the effect of the truth in our souls and eventually the power of it over us, and we will drift as many of our dear brethren have done. It starts from within.",
+      "Therefore, I started in Hebrews 3. What overturning they had in their lives, these converted Hebrews saints. The writer goes through and uses the typical references from the Old Testament to strengthen them. You come to chapter 3 after such a worthy outline of the glory of the Lord Jesus as the Son in chapter 1, and he says, “consider the Apostle and High Priest of our confession” - our confession. That is how Christ stands related to us in our time, because while on earth He was not of the priestly family according to Israel. He did not go into the inner temple. The Lord recognised in His precious life that He was not of the tribe of Levi; He was of the tribe of Judah. It is sad of course that Judas went in (Matt 27: 5), but we are speaking of the “High Priest of our confession, Jesus”. What a Person He is, while not of the priestly family, or the tribe of Levi by birth! He had unique relations with His God, and liberty to draw near to God in priestly service. We have His prayer in John 17, pouring out His heart into the ear of the Father in the presence of His own. What a Person He was. We often use the expression that 'the approach is equal to the revelation' (F E Raven vol 2 p70). That was in Christ. The approach was in Christ and that is the liberty that He had like no other. He is brought before these Hebrews to say, “We have such a one high priest” (Heb 8: 1), and you have liberty that you never could have had in Israel, and they will not have in the millennium either. You have a liberty today, dear brother and sister, to draw into the very presence of God and that is your greatest service. You have your own knees: use them; it will give power to your local meetings, it will give freshness, and the brethren will look different to you if you do it.",
+      "The scripture in Numbers has reference to the gift - the priest was not given to the Levite, the Levite was given, or united to the priest. You see here the pre-eminence that is given to priesthood. Then it says, “behold, I have taken your brethren, the Levites, from among the children of Israel”. As we know, the Levites were taken up in place of the firstborn. The firstborn in Exodus 13: 2 was what God laid hold of, He claimed it, and then the Levites were taken up in Num 3: 12 in the place of the firstborn; and here they are given to the priestly family. What a matter it is. Nothing is to infringe on your relations with God. So the Levite is given to the priest.",
+      "In John 9 we have a man that is brought through to priesthood. I think the works of God manifest in a person must have to do with the priestly side of the person. He knew what it was to be cast out, every other support removed, and he came into the very presence of the Son of God; and he worshipped. Where did he get that? He had probably not heard of that before, he did not have the teaching of John 4, the teaching of worship; it is instinctive in the priest, and he worships the Son of God.",
+      "In Revelation it is a kingdom, “made us a kingdom, priests to his God and Father”. It involves protection in the presence of an evil world where sin pervades; that protection is there. It is “made us a kingdom”. Nothing is meant to interrupt priestly function.",
+      "In Nehemiah you have the high priest beginning the building. Young people, do not elect yourselves out of it, because joining the priest in the building were the men of Jericho. What a disadvantage you might say they would have, but there is no disadvantage here, they are following the priestly guidance in the building of the wall and every person is responsible for the protection of what belongs to God. The wall is everyone’s responsibility. You remember in Mr Raven’s outstanding address (vol 2 p268), that it is not just those who minister who are responsible to maintain the truth, but it is the responsibility of all. These men of Jericho came in right away, at no disadvantage. Young people, commit yourself in your daily life to protect what is of God in the principle of the wall in Nehemiah. We know in Ezra it is the elders that built the house, but in Nehemiah it goes down to persons like you and me that build the wall."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "We are called into a living association with Christ and, having been called, we not only take character from Him, but we follow in the service that He carries on before God. I was thinking of the scripture, “Christ indeed has once suffered for sins, the just for the unjust, that he might bring us to God”, 1 Peter 3: 18. That was His objective."
+     "text": [
+      "We are called into a living association with Christ and, having been called, we not only take character from Him, but we follow in the service that He carries on before God. I was thinking of the scripture, “Christ indeed has once suffered for sins, the just for the unjust, that he might bring us to God”, 1 Peter 3: 18. That was His objective."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "He gives character to it. It always remains the high priest and the family. It is carried forward in Christ. God has never departed from it. While Aaron never regained ground after the occasion of the golden calf, Christ gives character to the family."
+     "text": [
+      "He gives character to it. It always remains the high priest and the family. It is carried forward in Christ. God has never departed from it. While Aaron never regained ground after the occasion of the golden calf, Christ gives character to the family."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "I think it is helpful to see the priesthood from this point of view because there is an administrative side to priesthood, the care of the lepers, and matters of judgment. They were in effect the judiciary in Israel, and maybe we are attracted to that side of things because we like administration; but they only did it as an adjunct to their service to God. Unless that is the bent and focus of our lives, it seems to me that our administration will not be rightly directed."
+     "text": [
+      "I think it is helpful to see the priesthood from this point of view because there is an administrative side to priesthood, the care of the lepers, and matters of judgment. They were in effect the judiciary in Israel, and maybe we are attracted to that side of things because we like administration; but they only did it as an adjunct to their service to God. Unless that is the bent and focus of our lives, it seems to me that our administration will not be rightly directed."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "In a certain sense, the way it is presented is that everything is going to be preserved in the priesthood. The Levite might go wrong, but according to how things are presented, what is priestly cannot go wrong. You might lose the power of it yourself, but the priestly character in the believer is very real and very safe. That is why I think the Levite becomes subservient or given to the priest."
+     "text": [
+      "In a certain sense, the way it is presented is that everything is going to be preserved in the priesthood. The Levite might go wrong, but according to how things are presented, what is priestly cannot go wrong. You might lose the power of it yourself, but the priestly character in the believer is very real and very safe. That is why I think the Levite becomes subservient or given to the priest."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "We are not to exclude ourselves from this. We cannot say it is just for certain ones, we are all in this. It is important to see that."
+     "text": [
+      "We are not to exclude ourselves from this. We cannot say it is just for certain ones, we are all in this. It is important to see that."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "We are all in it, and we need each other. We need to convey to all the sense of need. When it came to Corinth it became evident that those that had their own groups in Corinth had disregard for many of the brethren, those “who are little esteemed”, 1 Cor 6: 4. If we feel the responsibility of it, we will stimulate one another. I think if there is anything that we can do today, it is to stimulate priestliness in the coming generation. I am not saying it is not there, but stimulate it: your relations with God are the greatest privilege a creature can have."
+     "text": [
+      "We are all in it, and we need each other. We need to convey to all the sense of need. When it came to Corinth it became evident that those that had their own groups in Corinth had disregard for many of the brethren, those “who are little esteemed”, 1 Cor 6: 4. If we feel the responsibility of it, we will stimulate one another. I think if there is anything that we can do today, it is to stimulate priestliness in the coming generation. I am not saying it is not there, but stimulate it: your relations with God are the greatest privilege a creature can have."
+     ]
     },
     {
      "speaker": "JRW",
-     "text": "Did you say that the priesthood cannot go wrong?"
+     "text": [
+      "Did you say that the priesthood cannot go wrong?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "It did go wrong in Aaron, but we come into priesthood through Christ, and thus what is priestly cannot go wrong. We have got to be kept priestly; if that is maintained it cannot go wrong itself. It can take up administration; it can judge righteously, assembly meetings can be according to God and so on. I think what is priestly underlies that."
+     "text": [
+      "It did go wrong in Aaron, but we come into priesthood through Christ, and thus what is priestly cannot go wrong. We have got to be kept priestly; if that is maintained it cannot go wrong itself. It can take up administration; it can judge righteously, assembly meetings can be according to God and so on. I think what is priestly underlies that."
+     ]
     },
     {
      "speaker": "JRW",
-     "text": "It demonstrates what you said earlier, how important the priestly service is and as we maintain that in our own links with God we will be safe."
+     "text": [
+      "It demonstrates what you said earlier, how important the priestly service is and as we maintain that in our own links with God we will be safe."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, exactly - “if indeed we hold fast ... firm to the end”, Heb 3: 6. It is something to be maintained but if we are under Christ and absorbing His character that is given here in Hebrews 3 we cannot go wrong. I think that is how it is presented. Failure comes in; that is because we have departed from it, but it, in itself, is sterling clear."
+     "text": [
+      "Yes, exactly - “if indeed we hold fast ... firm to the end”, Heb 3: 6. It is something to be maintained but if we are under Christ and absorbing His character that is given here in Hebrews 3 we cannot go wrong. I think that is how it is presented. Failure comes in; that is because we have departed from it, but it, in itself, is sterling clear."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "You made a remark as to failure. If we think of Eli, the priests all failed, and the priesthood was carried through in Hannah and Ichabod's mother. Hannah maintained the service of praise, and Ichabod's mother preserved the rights of God in relation to the ark. It was the priestliness of those two women that brought the next generation through."
+     "text": [
+      "You made a remark as to failure. If we think of Eli, the priests all failed, and the priesthood was carried through in Hannah and Ichabod's mother. Hannah maintained the service of praise, and Ichabod's mother preserved the rights of God in relation to the ark. It was the priestliness of those two women that brought the next generation through."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is a good reference. These women were priestly. Zadok involves the safe priesthood. There is what has happened, persons may be committed in themselves yet lose their way because they have ceased being priestly. But Zadok carried it through. In Ezekiel 44: 15, when Israel turned aside, Zadok maintained it. That is the safe line as I understand it. There is a certain line which goes down through Zadok, a faithful line of priesthood."
+     "text": [
+      "That is a good reference. These women were priestly. Zadok involves the safe priesthood. There is what has happened, persons may be committed in themselves yet lose their way because they have ceased being priestly. But Zadok carried it through. In Ezekiel 44: 15, when Israel turned aside, Zadok maintained it. That is the safe line as I understand it. There is a certain line which goes down through Zadok, a faithful line of priesthood."
+     ]
     },
     {
      "speaker": "JRW",
-     "text": "It is interesting to see earlier on in Hebrews 2 it says, “that he might be a merciful and faithful high priest in things relating to God”, v 17. That is the line on which things are preserved. There is the mercy, but there is the faithfulness in things relating to God."
+     "text": [
+      "It is interesting to see earlier on in Hebrews 2 it says, “that he might be a merciful and faithful high priest in things relating to God”, v 17. That is the line on which things are preserved. There is the mercy, but there is the faithfulness in things relating to God."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is interesting because I think you will find in scripture that what is behind the references to faithfulness involves a priestly state in a person. It is to faithful men things are handed down. These men were priestly; it was not because of gift. I think that is why there is a pressure on us now to maintain real priestly practice and conduct amongst us."
+     "text": [
+      "That is interesting because I think you will find in scripture that what is behind the references to faithfulness involves a priestly state in a person. It is to faithful men things are handed down. These men were priestly; it was not because of gift. I think that is why there is a pressure on us now to maintain real priestly practice and conduct amongst us."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "When he addresses the saints in Colosse, they are addressed as “holy and faithful brethren” (Col 1: 2), but here “holy brethren”; but faithfulness is ascribed to Christ."
+     "text": [
+      "When he addresses the saints in Colosse, they are addressed as “holy and faithful brethren” (Col 1: 2), but here “holy brethren”; but faithfulness is ascribed to Christ."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Does that confirm that the family is taking character from Christ?"
+     "text": [
+      "Does that confirm that the family is taking character from Christ?"
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "There was a tendency among these persons to draw back. They are not saluted here as faithful brethren, but the faithfulness of Christ is referred to, “who is faithful to him … in all his house”. The faithfulness that is referred to is an essential feature of priesthood, that He comes out from the presence of God and He is faithful to what He has learnt there."
+     "text": [
+      "There was a tendency among these persons to draw back. They are not saluted here as faithful brethren, but the faithfulness of Christ is referred to, “who is faithful to him … in all his house”. The faithfulness that is referred to is an essential feature of priesthood, that He comes out from the presence of God and He is faithful to what He has learnt there."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is exactly what I was seeking to get at. Faithfulness is the characteristic of priestliness. Here he is bringing Christ before these Hebrews, and he is saying, such a One, “Jesus”, to draw their hearts away from all that they had learnt earlier as to failure and inability. Aaron’s departure at the golden calf was awful and it has been said that he never recovered the state of priesthood, but everything is taken up in Christ and here it is Jesus."
+     "text": [
+      "That is exactly what I was seeking to get at. Faithfulness is the characteristic of priestliness. Here he is bringing Christ before these Hebrews, and he is saying, such a One, “Jesus”, to draw their hearts away from all that they had learnt earlier as to failure and inability. Aaron’s departure at the golden calf was awful and it has been said that he never recovered the state of priesthood, but everything is taken up in Christ and here it is Jesus."
+     ]
     },
     {
      "speaker": "PM",
-     "text": "It is an affecting reference here, “who is faithful to him that has constituted him”: not only was He faithful in all His house, but He was faithful to Him. I thought it was to touch our affections that the One who is the centre of this priestly system is faithful to the One who constituted Him. Does that not underlie the relationship that each of us are to take up with God Himself?"
+     "text": [
+      "It is an affecting reference here, “who is faithful to him that has constituted him”: not only was He faithful in all His house, but He was faithful to Him. I thought it was to touch our affections that the One who is the centre of this priestly system is faithful to the One who constituted Him. Does that not underlie the relationship that each of us are to take up with God Himself?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "It is, faithful to Him. That is the kernel of continuity in the testimony. I cannot see how we are going to continue in the testimony without this living act of relationship with God. You might rely, as we did when we were younger, on the company - it is good to keep amongst good company, spiritual company, always seek it; but there is nothing like developing your relations with divine Persons."
+     "text": [
+      "It is, faithful to Him. That is the kernel of continuity in the testimony. I cannot see how we are going to continue in the testimony without this living act of relationship with God. You might rely, as we did when we were younger, on the company - it is good to keep amongst good company, spiritual company, always seek it; but there is nothing like developing your relations with divine Persons."
+     ]
     },
     {
-     "text": "QAP Is it instructive that the apostle is put first? I wondered whether there is preservation on our side in recognising the principle of authority in Christ and in His word."
+     "speaker": "QAP",
+     "text": [
+      "Is it instructive that the apostle is put first? I wondered whether there is preservation on our side in recognising the principle of authority in Christ and in His word."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "We all need it, but especially the Hebrews needed the reference to the authority of Christ being brought in. You have Moses and Aaron in the old system. Moses had greater liberty than Aaron in his relations with God, he had far more; but when you come to our day it is all in one glorious Person; so He starts with the true Moses and the true Aaron."
+     "text": [
+      "We all need it, but especially the Hebrews needed the reference to the authority of Christ being brought in. You have Moses and Aaron in the old system. Moses had greater liberty than Aaron in his relations with God, he had far more; but when you come to our day it is all in one glorious Person; so He starts with the true Moses and the true Aaron."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "Is the first thought of apostleship that he is sent? I wondered whether that linked with what you are saying, “He came out from God”. We see that in John 13 - that would be priestly service there - “knowing that ... he came out from God and was going to God”, v: 3. Is that the compass of priestly activity?"
+     "text": [
+      "Is the first thought of apostleship that he is sent? I wondered whether that linked with what you are saying, “He came out from God”. We see that in John 13 - that would be priestly service there - “knowing that ... he came out from God and was going to God”, v: 3. Is that the compass of priestly activity?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "What we have said about the revelation and the approach was all in Christ. The authority was bestowed on those of old and as Christ left He gave to His bondman the authority. He is now in the position of authority – He has been made Lord and Christ."
+     "text": [
+      "What we have said about the revelation and the approach was all in Christ. The authority was bestowed on those of old and as Christ left He gave to His bondman the authority. He is now in the position of authority – He has been made Lord and Christ."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "We get rather drawn out in Hebrews that the honour that Aaron had was conferred, but Jesus has always had a heavenly character. There is nothing in that sense conferred in relation to His character although He has office and honour that He has been given on account of what He has done; but the Man who is presented here has always had that heavenly character. He came out from heaven with it."
+     "text": [
+      "We get rather drawn out in Hebrews that the honour that Aaron had was conferred, but Jesus has always had a heavenly character. There is nothing in that sense conferred in relation to His character although He has office and honour that He has been given on account of what He has done; but the Man who is presented here has always had that heavenly character. He came out from heaven with it."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "What He was in Himself is in chapter 1, and then all the wealth that was in that Person is brought to us in chapter 3, it is made available. And it is not made available indiscriminately, but made available in the family. You could not speak about priesthood in relation to the world, it would be beyond them to take that in; but amongst persons who are related to Christ, we are brought into it and are meant to develop in it. Coming to a knowledge of the truth is a development of priesthood in the saints."
-    },
-    {
-     "text": "RDP-r Could you say something as to the partakers of it because that is where we come into this? We are partakers of something which is outside of this world, partakers of the heavenly calling; and that has to do with this heavenly line that you are referring to and it brings us into heavenly places where He is and where God is Himself."
+     "text": [
+      "What He was in Himself is in chapter 1, and then all the wealth that was in that Person is brought to us in chapter 3, it is made available. And it is not made available indiscriminately, but made available in the family. You could not speak about priesthood in relation to the world, it would be beyond them to take that in; but amongst persons who are related to Christ, we are brought into it and are meant to develop in it. Coming to a knowledge of the truth is a development of priesthood in the saints.",
+      "RDP-r Could you say something as to the partakers of it because that is where we come into this? We are partakers of something which is outside of this world, partakers of the heavenly calling; and that has to do with this heavenly line that you are referring to and it brings us into heavenly places where He is and where God is Himself."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "It is another source and another area to be productive in. You are to develop in it. It is going to change and then our relations will be perfect with God. The tabernacle of God will be with men, Rev 21: 3. I know we cannot take priesthood through, as we are speaking of it now, but the character of the person, what is formed in them, will go through in divine work."
+     "text": [
+      "It is another source and another area to be productive in. You are to develop in it. It is going to change and then our relations will be perfect with God. The tabernacle of God will be with men, Rev 21: 3. I know we cannot take priesthood through, as we are speaking of it now, but the character of the person, what is formed in them, will go through in divine work."
+     ]
     },
     {
      "speaker": "PJM",
-     "text": "The word “constituted him” is interesting. Is it not striking that God has chosen men for this relationship? It is not angels; we might think in a vague kind of way that God is served by the angels, and He is; but when it comes to priesthood it is men that He has chosen - Moses and Aaron are types; but the Lord Jesus Himself is “constituted”. He was morally equivalent, He was perfectly suited and fitted, but just as God acknowledges Him as His perfect Son at the baptism of John. There is only One who has really been constituted."
+     "text": [
+      "The word “constituted him” is interesting. Is it not striking that God has chosen men for this relationship? It is not angels; we might think in a vague kind of way that God is served by the angels, and He is; but when it comes to priesthood it is men that He has chosen - Moses and Aaron are types; but the Lord Jesus Himself is “constituted”. He was morally equivalent, He was perfectly suited and fitted, but just as God acknowledges Him as His perfect Son at the baptism of John. There is only One who has really been constituted."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "In chapter 1 He bypasses the angels. He does not take the angels by the hand. He bypasses the angels, He had men in mind. That is the purpose of God, and the purpose of God was that you and I might be related to Christ - “Predestinated to be conformed to the image of his Son, so that He should be the firstborn among many brethren”, Rom 8: 29. Predestination is for Christ first, and then it speaks of our part. We are brought into it, the priestly family. As we get in these scriptures, we are brought very close to Christ, and that is according to the purpose of God."
+     "text": [
+      "In chapter 1 He bypasses the angels. He does not take the angels by the hand. He bypasses the angels, He had men in mind. That is the purpose of God, and the purpose of God was that you and I might be related to Christ - “Predestinated to be conformed to the image of his Son, so that He should be the firstborn among many brethren”, Rom 8: 29. Predestination is for Christ first, and then it speaks of our part. We are brought into it, the priestly family. As we get in these scriptures, we are brought very close to Christ, and that is according to the purpose of God."
+     ]
     },
     {
      "speaker": "MRC",
-     "text": "From what you are saying it would appear to me that there is urgency about this matter. We cannot afford to put it off can we? The opportunity for this priestly service will soon be gone? The rapture will come, and we will be with the Lord in glory; and then the opportunity to be faithful and maintain what is due to Himself will have passed. So, is your exercise and burden therefore that we should not delay but take these things on vitally and livingly from this moment?"
+     "text": [
+      "From what you are saying it would appear to me that there is urgency about this matter. We cannot afford to put it off can we? The opportunity for this priestly service will soon be gone? The rapture will come, and we will be with the Lord in glory; and then the opportunity to be faithful and maintain what is due to Himself will have passed. So, is your exercise and burden therefore that we should not delay but take these things on vitally and livingly from this moment?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is the point in Hebrews; it speaks about how easy it could be to fall away. The reference to apostasy comes in. No true believer can be an apostate, but we might be marked by a certain spirit of going back in things. Knowledge will not hold us. Judas went out with the external knowledge of the Lord’s customs and places. We have to leave that there, but we need to be maintained ourselves in our link with this One, “Apostle and High Priest of our confession, Jesus”."
+     "text": [
+      "That is the point in Hebrews; it speaks about how easy it could be to fall away. The reference to apostasy comes in. No true believer can be an apostate, but we might be marked by a certain spirit of going back in things. Knowledge will not hold us. Judas went out with the external knowledge of the Lord’s customs and places. We have to leave that there, but we need to be maintained ourselves in our link with this One, “Apostle and High Priest of our confession, Jesus”."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "At Aaron’s failure at the calf, they had lost sight of Moses, “we do not know what is become of him!”, Exod 32: 1. They had forgotten him. But here it is all in one, “the Apostle and High Priest”. It is a remarkable combination: the One that inaugurated it, and then the One who sustains and maintains the working of it. But it is all in One, so that our eyes are to be fixed upon One."
+     "text": [
+      "At Aaron’s failure at the calf, they had lost sight of Moses, “we do not know what is become of him!”, Exod 32: 1. They had forgotten him. But here it is all in one, “the Apostle and High Priest”. It is a remarkable combination: the One that inaugurated it, and then the One who sustains and maintains the working of it. But it is all in One, so that our eyes are to be fixed upon One."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is very good, because the departure there was at the very most for forty days when Moses had gone up the mountain, and yet they fell away and said, “we do not know what is become of him!”. That has happened. Nearness to Christ is the way things are maintained. The faithful side is maintained in nearness to Christ - that is Hannah. With Eli, there is no reference to him praying, he sat in the temple but he did not seem to serve there. His sons were allowed to bring in the most awful corruption and theft of what belonged to God, but during that there was a priestly system: she was praying, 1 Sam 1: 10-14. She was accused for it. You might be misunderstood, young brother and sister, do not worry, heaven hears your supplication. Daniel had confirmation that his prayers were heard above, Dan 9: 23. Cornelius had confirmation that his prayers were heard above (Acts 10: 4) - keep going and you will get stamina, you will get solidity in your soul that you will be amazed at with God working."
+     "text": [
+      "That is very good, because the departure there was at the very most for forty days when Moses had gone up the mountain, and yet they fell away and said, “we do not know what is become of him!”. That has happened. Nearness to Christ is the way things are maintained. The faithful side is maintained in nearness to Christ - that is Hannah. With Eli, there is no reference to him praying, he sat in the temple but he did not seem to serve there. His sons were allowed to bring in the most awful corruption and theft of what belonged to God, but during that there was a priestly system: she was praying, 1 Sam 1: 10-14. She was accused for it. You might be misunderstood, young brother and sister, do not worry, heaven hears your supplication. Daniel had confirmation that his prayers were heard above, Dan 9: 23. Cornelius had confirmation that his prayers were heard above (Acts 10: 4) - keep going and you will get stamina, you will get solidity in your soul that you will be amazed at with God working."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "If we look at the tribe of Levi, you might say, I am either a Levite or I am not. Of course Levi was chosen for a reason, because he had been faithful in a difficult time. I wonder whether it would be right to say that that service comes, to an extent, on the principle of desire. I am not saying you should desire a particular character of service but a desire to serve the Lord is a right thing. The Lord would take account of someone like that and add them practically to the priestly family."
+     "text": [
+      "If we look at the tribe of Levi, you might say, I am either a Levite or I am not. Of course Levi was chosen for a reason, because he had been faithful in a difficult time. I wonder whether it would be right to say that that service comes, to an extent, on the principle of desire. I am not saying you should desire a particular character of service but a desire to serve the Lord is a right thing. The Lord would take account of someone like that and add them practically to the priestly family."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "I would take it up as if priesthood was there first, we are in the priestly family first."
+     "text": [
+      "I would take it up as if priesthood was there first, we are in the priestly family first."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "But, the preacher gave them desire."
+     "text": [
+      "But, the preacher gave them desire."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Mr Stoney says that if there is more devotion there would be more gift, vol 5 p139. Where did the gift come from? Gifts were brought down by the Spirit; when the Spirit came down He brought the gifts. If I am more devoted to the Spirit then there will be more gift."
+     "text": [
+      "Mr Stoney says that if there is more devotion there would be more gift, vol 5 p139. Where did the gift come from? Gifts were brought down by the Spirit; when the Spirit came down He brought the gifts. If I am more devoted to the Spirit then there will be more gift."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "I think that is right. If there was devotion and desire to serve the Lord, the Lord would answer that because He is looking for servants. He says, “The harvest is great and the workmen are few”, Matt 9: 37. He is looking for servants."
+     "text": [
+      "I think that is right. If there was devotion and desire to serve the Lord, the Lord would answer that because He is looking for servants. He says, “The harvest is great and the workmen are few”, Matt 9: 37. He is looking for servants."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "I do not want to set aside at all levitical service; that is essential to the promotion of the truth amongst us, and should be respected; those labouring in the work. You might think there would be days off in levitical service, but you never get days off in priestly service. There are no holidays for priestly service; priestly service is a continual matter Godward. You will be called upon, young brother, in gift in the preaching, but you retire from service into the presence of God."
+     "text": [
+      "I do not want to set aside at all levitical service; that is essential to the promotion of the truth amongst us, and should be respected; those labouring in the work. You might think there would be days off in levitical service, but you never get days off in priestly service. There are no holidays for priestly service; priestly service is a continual matter Godward. You will be called upon, young brother, in gift in the preaching, but you retire from service into the presence of God."
+     ]
     },
     {
      "speaker": "PJW",
-     "text": "I was wondering whether Isaiah was a priest before he said, “send me”, Isa 6: 8. He saw the Lord, “high and lifted up” (v 1), and he had to do with God as to his state, but after that he was able to say, “send me”."
+     "text": [
+      "I was wondering whether Isaiah was a priest before he said, “send me”, Isa 6: 8. He saw the Lord, “high and lifted up” (v 1), and he had to do with God as to his state, but after that he was able to say, “send me”."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "It was no doubt priestly discernment that said, “I am a man of unclean lips ,and I dwell among a people of unclean lips”, v 5. He must have felt that. The thought of what is priestly answers in the New Testament to what is spiritual, but we want to see what that service involves. I think the more priestly or spiritual we are the more aware we are of things that previously we tolerated. We might find now that we cannot proceed with that. I am not talking about anything immoral or anything wrong , but something that may just be a waste of time to you, instead of being before God."
+     "text": [
+      "It was no doubt priestly discernment that said, “I am a man of unclean lips ,and I dwell among a people of unclean lips”, v 5. He must have felt that. The thought of what is priestly answers in the New Testament to what is spiritual, but we want to see what that service involves. I think the more priestly or spiritual we are the more aware we are of things that previously we tolerated. We might find now that we cannot proceed with that. I am not talking about anything immoral or anything wrong , but something that may just be a waste of time to you, instead of being before God."
+     ]
     },
     {
      "speaker": "EOPM",
-     "text": "One thing about being in the presence of God - you made a reference to the fact that we all have a pair of knees - is that you see things, if you are honest in the presence of God, as God sees them. It is “our confession” here, not our profession, but our confession. I was thinking what we used to say to our children -"
-    },
-    {
-     "text": "Satan trembles when he sees"
-    },
-    {
-     "text": "The weakest saint upon his knees."
-    },
-    {
-     "text": "That is where everything in me that is going to be pleasing to God starts. If I am going to have power in any little service that I do then it begins on my knees. We can all do that, the simplest of us. We teach our young people to pray from a very early age, and maybe some of us have not been maintained in that and that is where we feel the weakness has come in."
+     "text": [
+      "One thing about being in the presence of God - you made a reference to the fact that we all have a pair of knees - is that you see things, if you are honest in the presence of God, as God sees them. It is “our confession” here, not our profession, but our confession. I was thinking what we used to say to our children -",
+      "Satan trembles when he sees",
+      "The weakest saint upon his knees.",
+      "That is where everything in me that is going to be pleasing to God starts. If I am going to have power in any little service that I do then it begins on my knees. We can all do that, the simplest of us. We teach our young people to pray from a very early age, and maybe some of us have not been maintained in that and that is where we feel the weakness has come in."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "What you say is very searching because it is the way for freshness to be maintained. I cannot see how we can remain fresh unless our relations with God are fresh."
+     "text": [
+      "What you say is very searching because it is the way for freshness to be maintained. I cannot see how we can remain fresh unless our relations with God are fresh."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "A brother advised me when I was younger that you may not always know what to say, but get on your knees, get before God, and you will find something imparted to you."
+     "text": [
+      "A brother advised me when I was younger that you may not always know what to say, but get on your knees, get before God, and you will find something imparted to you."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Romans 8 helps you as to that, that when you are in that priestly state you will find that the Holy Spirit comes in because “he who searches the hearts” - that is God - “knows what is the mind of the Spirit”, v 27. I know that Saul of Tarsus was praying before he got the Spirit, but it is normal practice in a person with the Spirit that if they pray in genuine dependence on God they will find that the Spirit comes in right away."
+     "text": [
+      "Romans 8 helps you as to that, that when you are in that priestly state you will find that the Holy Spirit comes in because “he who searches the hearts” - that is God - “knows what is the mind of the Spirit”, v 27. I know that Saul of Tarsus was praying before he got the Spirit, but it is normal practice in a person with the Spirit that if they pray in genuine dependence on God they will find that the Spirit comes in right away."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "It may not be necessary to make it clear, but we are including all in this, sisters as much as brothers."
+     "text": [
+      "It may not be necessary to make it clear, but we are including all in this, sisters as much as brothers."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Hannah was referred to earlier, she is priestly, she is thinking for God."
+     "text": [
+      "Hannah was referred to earlier, she is priestly, she is thinking for God."
+     ]
     },
     {
      "speaker": "PM",
-     "text": "Do we find the divine standard as we are on our knees? Does not God delight to show us what Christ is to Him and everything is measured in that light? I may not go into the divine presence because I have a problem, but I can go into the divine presence because God would delight to show me what Christ is to Him."
+     "text": [
+      "Do we find the divine standard as we are on our knees? Does not God delight to show us what Christ is to Him and everything is measured in that light? I may not go into the divine presence because I have a problem, but I can go into the divine presence because God would delight to show me what Christ is to Him."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is Hebrews 3; you find the glories of the Person coming before your soul and all your requests or needs are abundantly met."
+     "text": [
+      "That is Hebrews 3; you find the glories of the Person coming before your soul and all your requests or needs are abundantly met."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "Mr Ernest Palmer often used to recite a poem:"
-    },
-    {
-     "text": "And now the need is told"
-    },
-    {
-     "text": "That brought me to Thy knee,"
-    },
-    {
-     "text": "But here I linger still"
-    },
-    {
-     "text": "To worship Thee."
+     "text": [
+      "Mr Ernest Palmer often used to recite a poem:",
+      "And now the need is told",
+      "That brought me to Thy knee,",
+      "But here I linger still",
+      "To worship Thee."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "John 9 is going back to the works that are proceeding in the person, it is not only that he has been linked with Christ and brought into the priestly family, but he is actually constituted, he is brought into something formed by God for such a position. That is the man in John 9 - everything that he would rely on is gone, and what is left in principle is an innate desire that only God could fill and He did it in the Son of God."
+     "text": [
+      "John 9 is going back to the works that are proceeding in the person, it is not only that he has been linked with Christ and brought into the priestly family, but he is actually constituted, he is brought into something formed by God for such a position. That is the man in John 9 - everything that he would rely on is gone, and what is left in principle is an innate desire that only God could fill and He did it in the Son of God."
+     ]
     },
     {
      "speaker": "PJW",
-     "text": "We used to hear a lot about building up a priestly constitution."
+     "text": [
+      "We used to hear a lot about building up a priestly constitution."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "It must be in the presence of divine Persons. It is how God looks at us. Remember what has been said - I know it is not priestly food exactly but it helped me to know - that when God looks at a believer He never looks at him below sonship. When we look at ourselves we rarely look up above service; we think of our service. When you get into the presence of God you are formed constitutionally after the High Priest. John 9 - the works of God being manifested - I believe is taking on the character of the true High Priest."
+     "text": [
+      "It must be in the presence of divine Persons. It is how God looks at us. Remember what has been said - I know it is not priestly food exactly but it helped me to know - that when God looks at a believer He never looks at him below sonship. When we look at ourselves we rarely look up above service; we think of our service. When you get into the presence of God you are formed constitutionally after the High Priest. John 9 - the works of God being manifested - I believe is taking on the character of the true High Priest."
+     ]
     },
     {
      "speaker": "JRW",
-     "text": "It says that Jesus found him: the man was cast out, but Jesus found him. It is not exactly put that he found Jesus."
+     "text": [
+      "It says that Jesus found him: the man was cast out, but Jesus found him. It is not exactly put that he found Jesus."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "It was through his faithfulness he was put out to where Christ was. Christ was already outside; He was not accepted in any circle. His very mother and His brethren, He refused them, He looked at those who were morally brethren, “those who hear the word of God and do it”, Luke 8: 21. The man is cast out of the synagogue, he was cast out to where the Lord was and the Lord found him there."
+     "text": [
+      "It was through his faithfulness he was put out to where Christ was. Christ was already outside; He was not accepted in any circle. His very mother and His brethren, He refused them, He looked at those who were morally brethren, “those who hear the word of God and do it”, Luke 8: 21. The man is cast out of the synagogue, he was cast out to where the Lord was and the Lord found him there."
+     ]
     },
     {
      "speaker": "JRW",
-     "text": "As to the scripture in Numbers, what is your impression of the Levite being given to the priest?"
+     "text": [
+      "As to the scripture in Numbers, what is your impression of the Levite being given to the priest?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "If the priest was given to the Levite it would make too much of service manward. The Levite was to serve manward, but the priest was to serve Godward. I think that is a protective thought of God in His wisdom, that the Levite, in all that he was to face in carrying out heavenly influence amongst the people, would be subordinate to the priestly function."
+     "text": [
+      "If the priest was given to the Levite it would make too much of service manward. The Levite was to serve manward, but the priest was to serve Godward. I think that is a protective thought of God in His wisdom, that the Levite, in all that he was to face in carrying out heavenly influence amongst the people, would be subordinate to the priestly function."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "There is a New Testament example of that when Paul says, “For God is my witness, whom I serve in my spirit in the glad tidings of his Son”, Rom 1: 9. As he preached the gospel he was conscious first of all that he was serving God, there was a sweet savour of Christ arising. It had men in view, but God was served in the preaching of the gospel. It is a good thing to remember that as taking up that service."
+     "text": [
+      "There is a New Testament example of that when Paul says, “For God is my witness, whom I serve in my spirit in the glad tidings of his Son”, Rom 1: 9. As he preached the gospel he was conscious first of all that he was serving God, there was a sweet savour of Christ arising. It had men in view, but God was served in the preaching of the gospel. It is a good thing to remember that as taking up that service."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "In certain parts of scripture as to the priests and the Levite, it would be hard to tell who is being referred to; often it is the priest referred to as a Levite. Levitical service is a right one that we should thank God for: think of the ministry we have, and what is maintained amongst us. But I am pointing out that what lies behind it supremely is a person’s relations with God and the saints' relations with God. What would the point of this meeting be unless we are all related in our spirits to God? If we have the Holy Spirit we stand in relation to God. In the assembly we come together to be worked on by God. My spirit would have to be right for that."
+     "text": [
+      "In certain parts of scripture as to the priests and the Levite, it would be hard to tell who is being referred to; often it is the priest referred to as a Levite. Levitical service is a right one that we should thank God for: think of the ministry we have, and what is maintained amongst us. But I am pointing out that what lies behind it supremely is a person’s relations with God and the saints' relations with God. What would the point of this meeting be unless we are all related in our spirits to God? If we have the Holy Spirit we stand in relation to God. In the assembly we come together to be worked on by God. My spirit would have to be right for that."
+     ]
     },
     {
      "speaker": "JSG",
-     "text": "Could something be said as to what is instinctive in connection with this? The blind man and his separating from what he had been with seems to act instinctively. I wondered whether what you are speaking of rightly entered into would lead to a greater strength of discernment and consciousness of what is pleasing to God as holy."
+     "text": [
+      "Could something be said as to what is instinctive in connection with this? The blind man and his separating from what he had been with seems to act instinctively. I wondered whether what you are speaking of rightly entered into would lead to a greater strength of discernment and consciousness of what is pleasing to God as holy."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is an important thought to maintain. This man is stepping forward without presumption. He does not say he knows a lot; he has not read a lot; he says, “One thing I know”, verse 25. We will be more simple and deeper the more we relate to God. The man is going step by step."
+     "text": [
+      "That is an important thought to maintain. This man is stepping forward without presumption. He does not say he knows a lot; he has not read a lot; he says, “One thing I know”, verse 25. We will be more simple and deeper the more we relate to God. The man is going step by step."
+     ]
     },
     {
      "speaker": "PJM",
-     "text": "Verse 31 says, “if any one be God-fearing and do his will, him he hears”. It is almost as though the Father has chosen this man because he was fearing his God and seeking to do His will."
+     "text": [
+      "Verse 31 says, “if any one be God-fearing and do his will, him he hears”. It is almost as though the Father has chosen this man because he was fearing his God and seeking to do His will."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "The disciples thought they would make it a different issue at the beginning of the chapter, they thought of a different reason, but that is not the main reason with God. God will attend to that; He can deal with the moral side and it has been done, thank God, at the cross; and He does it in our lives, and thank God for it. It is not the work of God, it is the works of God here, every step is showing this person standing in relation instinctively with the light he was receiving."
+     "text": [
+      "The disciples thought they would make it a different issue at the beginning of the chapter, they thought of a different reason, but that is not the main reason with God. God will attend to that; He can deal with the moral side and it has been done, thank God, at the cross; and He does it in our lives, and thank God for it. It is not the work of God, it is the works of God here, every step is showing this person standing in relation instinctively with the light he was receiving."
+     ]
     },
     {
      "speaker": "PJM",
-     "text": "This man becomes more and more exposed. He would have been on the periphery of society and his parents back away from him, saying, 'We do not know anything, he is able to answer for himself'. Eventually he is excluded, but he is put in the middle, and he comes out with something which is profound."
+     "text": [
+      "This man becomes more and more exposed. He would have been on the periphery of society and his parents back away from him, saying, 'We do not know anything, he is able to answer for himself'. Eventually he is excluded, but he is put in the middle, and he comes out with something which is profound."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "He is thinking for God at that point. They said, “Thou hast been wholly born in sins, and thou teachest us?”, v 34. His instincts were there, that “if any one be God-fearing and does His will, him He hears”."
+     "text": [
+      "He is thinking for God at that point. They said, “Thou hast been wholly born in sins, and thou teachest us?”, v 34. His instincts were there, that “if any one be God-fearing and does His will, him He hears”."
+     ]
     },
     {
      "speaker": "PJM",
-     "text": "I often think of that, this man speaks five words with his understanding, “being blind now I see” (v 25) - explain it."
+     "text": [
+      "I often think of that, this man speaks five words with his understanding, “being blind now I see” (v 25) - explain it."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "They could not explain it, but he could. The Lord says, “Thou hast both seen him, and he that speaks with thee is he”."
+     "text": [
+      "They could not explain it, but he could. The Lord says, “Thou hast both seen him, and he that speaks with thee is he”."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "We have spoken about what is constitutional. This man’s environment included the Jews, his parents, and the Pharisees - we have an environment, the brethren, our parents. This is where he took all his bearings from and they are all taken away here because ultimately he proves that they will fail, that they will not be adequate. He is cast in upon himself, so that what is developed is something with himself and God. That is the priestly side. We are influenced, even in our Christian lives, by the environment we are in."
+     "text": [
+      "We have spoken about what is constitutional. This man’s environment included the Jews, his parents, and the Pharisees - we have an environment, the brethren, our parents. This is where he took all his bearings from and they are all taken away here because ultimately he proves that they will fail, that they will not be adequate. He is cast in upon himself, so that what is developed is something with himself and God. That is the priestly side. We are influenced, even in our Christian lives, by the environment we are in."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Exactly. The Pharisee is a person difficult to be helped. Nicodemus was one, and another was Saul of Tarsus. The Lord knew what would be needed: it would need such an intervention. What was needed to change us? Think of what salvation is, what change was needed in our lives which in a sense was unique to every person. The Lord puts His own stamp on every person that comes to Him. In this man the works are proceeding at every step."
+     "text": [
+      "Exactly. The Pharisee is a person difficult to be helped. Nicodemus was one, and another was Saul of Tarsus. The Lord knew what would be needed: it would need such an intervention. What was needed to change us? Think of what salvation is, what change was needed in our lives which in a sense was unique to every person. The Lord puts His own stamp on every person that comes to Him. In this man the works are proceeding at every step."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "We are all here, and we all come under influence. Maybe we lean upon it, depend upon it, but priestliness involves that we move away from that and we draw our reference and our strength from God and our links with God. That is what this man was brought into. A brother once said to me, 'If I had known of such and such conditions in a place I would have ministered on something differently'. I thought at the time, surely your service comes from your links with God, not from the external circumstances that might be perceived. The priest and the Levite together would be conscious of that. In the parable in Luke 10 the priest and the Levite were separate people, they had become divorced from each other. If levitical service becomes divorced from priesthood there will be no power, which is what you find there."
+     "text": [
+      "We are all here, and we all come under influence. Maybe we lean upon it, depend upon it, but priestliness involves that we move away from that and we draw our reference and our strength from God and our links with God. That is what this man was brought into. A brother once said to me, 'If I had known of such and such conditions in a place I would have ministered on something differently'. I thought at the time, surely your service comes from your links with God, not from the external circumstances that might be perceived. The priest and the Levite together would be conscious of that. In the parable in Luke 10 the priest and the Levite were separate people, they had become divorced from each other. If levitical service becomes divorced from priesthood there will be no power, which is what you find there."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "John himself in Revelation 1 had to turn round. John had to find out his relations with Christ, but in the first thing that was taken up in the book, he would get levitical wisdom. He would get help in the writing to the assemblies and so on. He would get the Lord’s assessment, but it starts with his own relations with the Lord, Rev 1: 12, 17. John is an example of what is constitutionally developed. John was formed in a priestly constitution so he accepted everything from the hand of Christ and he is taken through all those dark chapters of God’s ways with the world, and the winding up of everything including the universe of sin, and he comes to a view of the assembly probably like no other."
+     "text": [
+      "John himself in Revelation 1 had to turn round. John had to find out his relations with Christ, but in the first thing that was taken up in the book, he would get levitical wisdom. He would get help in the writing to the assemblies and so on. He would get the Lord’s assessment, but it starts with his own relations with the Lord, Rev 1: 12, 17. John is an example of what is constitutionally developed. John was formed in a priestly constitution so he accepted everything from the hand of Christ and he is taken through all those dark chapters of God’s ways with the world, and the winding up of everything including the universe of sin, and he comes to a view of the assembly probably like no other."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "He writes of himself not as an apostle or a servant, though he was that, but as “the disciple whom Jesus loved” (John 21: 20), and at one point as “the ... disciple, to whom Jesus was attached”, John 20: 2. It is a very blessed thing to be in the consciousness of that."
+     "text": [
+      "He writes of himself not as an apostle or a servant, though he was that, but as “the disciple whom Jesus loved” (John 21: 20), and at one point as “the ... disciple, to whom Jesus was attached”, John 20: 2. It is a very blessed thing to be in the consciousness of that."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "He did not need to be told to follow. Peter had to be told to follow, but John was instinctive. I think it goes back to the priestly side of the person; there are certain things you can rely on. Sometimes you refer to certain brethren as being “the salt of the earth” (Matt 5: 13); there are certain brethren who might be quietly going on, but there is something which is steady and firm with them which is needed in every place. Someone going on quietly in their relations with God; that is what I understand to be a priestly person."
+     "text": [
+      "He did not need to be told to follow. Peter had to be told to follow, but John was instinctive. I think it goes back to the priestly side of the person; there are certain things you can rely on. Sometimes you refer to certain brethren as being “the salt of the earth” (Matt 5: 13); there are certain brethren who might be quietly going on, but there is something which is steady and firm with them which is needed in every place. Someone going on quietly in their relations with God; that is what I understand to be a priestly person."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "You referred earlier to the works of God being manifest in this person, and that must begin in a sovereign way; but is there anything from our side which we can do to help it forward?"
+     "text": [
+      "You referred earlier to the works of God being manifest in this person, and that must begin in a sovereign way; but is there anything from our side which we can do to help it forward?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Do you think obedience would help?"
+     "text": [
+      "Do you think obedience would help?"
+     ]
     },
     {
      "speaker": "JW",
-     "text": "He was obedient, and then he was true to what he knew. We are no further on than the Spirit’s work in us in our souls. It must begin in a sovereign way, but if we are obedient to the truth, and we are true to what we know, that would help us work forward, would it?"
+     "text": [
+      "He was obedient, and then he was true to what he knew. We are no further on than the Spirit’s work in us in our souls. It must begin in a sovereign way, but if we are obedient to the truth, and we are true to what we know, that would help us work forward, would it?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "I think our will does more to hinder what God is operating in than we would admit, and our will so readily reappears. I might be getting on all right and then suddenly there is the awful evidence of my will. The man in John 9, his will was judged and dealt with, he was obedient and he went through true to the One who had taken him on and who was working in him."
+     "text": [
+      "I think our will does more to hinder what God is operating in than we would admit, and our will so readily reappears. I might be getting on all right and then suddenly there is the awful evidence of my will. The man in John 9, his will was judged and dealt with, he was obedient and he went through true to the One who had taken him on and who was working in him."
+     ]
     },
     {
      "speaker": "PJW",
-     "text": "Somebody said once there is more to be done in us than by us."
+     "text": [
+      "Somebody said once there is more to be done in us than by us."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That comes up to the constitutional side referred to earlier. We need to be built up in what is priestly in our relations with God. What goes through will be God’s work."
+     "text": [
+      "That comes up to the constitutional side referred to earlier. We need to be built up in what is priestly in our relations with God. What goes through will be God’s work."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "It is very rich that the work of God appeared in this man. It was not simply that the Lord found him and said, 'I will make you a disciple, and you follow'; but he is converging morally in his testimony on what had already been seen in Jesus, so that when they meet each other there is a correspondence."
+     "text": [
+      "It is very rich that the work of God appeared in this man. It was not simply that the Lord found him and said, 'I will make you a disciple, and you follow'; but he is converging morally in his testimony on what had already been seen in Jesus, so that when they meet each other there is a correspondence."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "And it is “the works of God”. We speak about the work of God in a person and there is a certain mystery about it. It is true, of course, and actual, but the works of God seem to be the development of something morally and spiritually in the person so that the light of the believer is personal. None are the same, but the same Person is doing the work, continually working and forming something that is delightful and finds an affinity with the Son of God."
+     "text": [
+      "And it is “the works of God”. We speak about the work of God in a person and there is a certain mystery about it. It is true, of course, and actual, but the works of God seem to be the development of something morally and spiritually in the person so that the light of the believer is personal. None are the same, but the same Person is doing the work, continually working and forming something that is delightful and finds an affinity with the Son of God."
+     ]
     },
     {
      "speaker": "PJM",
-     "text": "There is an interesting shift now. The Lord had done something for him, He had given him his sight and there is grace in that. “Thou hast both seen him”, you have seen Him, “and he that speaks with thee is he”; now there is a matter of relationship and forward movement has been highlighted, and he is going to be priestly. He has already been acting outside of his comfort zone, but now whilst grace has met him where he was, love wants him some place else."
+     "text": [
+      "There is an interesting shift now. The Lord had done something for him, He had given him his sight and there is grace in that. “Thou hast both seen him”, you have seen Him, “and he that speaks with thee is he”; now there is a matter of relationship and forward movement has been highlighted, and he is going to be priestly. He has already been acting outside of his comfort zone, but now whilst grace has met him where he was, love wants him some place else."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "He is introduced to the highest level because the highest relationship is association with the Son of God. That is the highest, it is greater than the thought of bride. The bride is a relationship with Christ, a glorious relationship, an eternal relationship; but association with the Son of God is the greatest thought and he is brought into that. It shows how the works of God are in this direction."
+     "text": [
+      "He is introduced to the highest level because the highest relationship is association with the Son of God. That is the highest, it is greater than the thought of bride. The bride is a relationship with Christ, a glorious relationship, an eternal relationship; but association with the Son of God is the greatest thought and he is brought into that. It shows how the works of God are in this direction."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Can you say something about the title of the Lord’s that is presented here - “the Son of God”? We think of the Son of God as the centre of another world where everything is for God’s pleasure and our association is to be with Him. It brings out the greatness of the Person, and also lifts us out of all that is around to another sphere."
+     "text": [
+      "Can you say something about the title of the Lord’s that is presented here - “the Son of God”? We think of the Son of God as the centre of another world where everything is for God’s pleasure and our association is to be with Him. It brings out the greatness of the Person, and also lifts us out of all that is around to another sphere."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "What did this world mean to this man? The world has influence over us, some feature of it. I am not speaking of immorality or anything like that, but the influence of the condition which we are passing through. There was no link between what Christ was presenting in Himself and what that man had proved here. He is weaned away from the world into another scene in which Christ is the centre - the Son of God. No wonder he worshipped."
+     "text": [
+      "What did this world mean to this man? The world has influence over us, some feature of it. I am not speaking of immorality or anything like that, but the influence of the condition which we are passing through. There was no link between what Christ was presenting in Himself and what that man had proved here. He is weaned away from the world into another scene in which Christ is the centre - the Son of God. No wonder he worshipped."
+     ]
     },
     {
      "speaker": "PM",
-     "text": "Was it not the culmination of priestly service that he became a worshipper? He had not only turned his back on the system here, but he became a worshipper of the Son of God."
+     "text": [
+      "Was it not the culmination of priestly service that he became a worshipper? He had not only turned his back on the system here, but he became a worshipper of the Son of God."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is glorious, caught in the whole theme, the whole world of response. That world is a world of response; and the more you are weaned away from this scene, even on your knees, waiting on God, you will find that some impression will come into your soul that becomes a bulwark. God imparts strength into the soul that you would never have found otherwise and you are linked with the Son of God."
-    },
-    {
-     "text": "RDP-r Is the wonder of this that the stimulus is love? It is not fear that causes the worship of God but love."
+     "text": [
+      "That is glorious, caught in the whole theme, the whole world of response. That world is a world of response; and the more you are weaned away from this scene, even on your knees, waiting on God, you will find that some impression will come into your soul that becomes a bulwark. God imparts strength into the soul that you would never have found otherwise and you are linked with the Son of God.",
+      "RDP-r Is the wonder of this that the stimulus is love? It is not fear that causes the worship of God but love."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is formation."
+     "text": [
+      "That is formation."
+     ]
     },
     {
      "speaker": "MRC",
-     "text": "The fact that He is the Son of God links us with the highest level of priesthood does it?"
+     "text": [
+      "The fact that He is the Son of God links us with the highest level of priesthood does it?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes. It is the soul's outpouring to God in worship. It has been said that in worship there is a movement, worship involves you are moving forward. The fact that he worships the Son of God shows he is moving in the right direction. He is not moving out of something, but he is moving into it. I think the thought here conveys that he is moving in his consciousness into the world in which Christ is the centre. What a height of service."
+     "text": [
+      "Yes. It is the soul's outpouring to God in worship. It has been said that in worship there is a movement, worship involves you are moving forward. The fact that he worships the Son of God shows he is moving in the right direction. He is not moving out of something, but he is moving into it. I think the thought here conveys that he is moving in his consciousness into the world in which Christ is the centre. What a height of service."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "In a sense there is more than just continuing. The wall that we have in Nehemiah represents what is substantially formed in the believer in that world of evil. So it is not simply that he has survived, but the contrary conditions in which he has been and the exercise that that has promoted, has produced something which is substantial and abiding. Is that what we see in the man in John 9; he is really like a stone in Nehemiah’s wall?"
+     "text": [
+      "In a sense there is more than just continuing. The wall that we have in Nehemiah represents what is substantially formed in the believer in that world of evil. So it is not simply that he has survived, but the contrary conditions in which he has been and the exercise that that has promoted, has produced something which is substantial and abiding. Is that what we see in the man in John 9; he is really like a stone in Nehemiah’s wall?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "He would not go back; he would not go back to the Pharisees and try to compromise and be friendly: he was now built into another system."
+     "text": [
+      "He would not go back; he would not go back to the Pharisees and try to compromise and be friendly: he was now built into another system."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "He would not only fit in a wall but in a gate too; so that this kind of person is what is needed in local meetings."
+     "text": [
+      "He would not only fit in a wall but in a gate too; so that this kind of person is what is needed in local meetings."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "It is needed in every local meeting, and it is the one work, but persons each having a part in it. I thought it was interesting in Nehemiah that, “the high priest rose up with his brethren the priests, and they built the sheep-gate. They hallowed it, and set up its doors”. You might say, 'I am not the same calibre', but that is not the point. Whatever disadvantage you might have in your mind, you cannot take it into what God has in mind. The men of Jericho previously had a wall to keep God out - that was the wall of Jericho. They were preserving an independence of God in the favoured area to keep God out. Here he is having part in what is protective of God, and the men in Jericho link on right away with the high priest. Coming down to localities I think it is the influence of priestly activity and customs. The apostle says, “we have no such customs” (1 Cor 11: 16), we are protected from that; why should we return to things we have left? Brethren, why should we drop the level? Men have laboured and laid down their lives for the testimony, they laboured and kept the city pure and the wall was built. You may say, ‘Things have changed, and today is not like those days’ - the wall is continuing to keep the city clean and pure, and the persons with the greatest disadvantage learn from the priestly persons."
+     "text": [
+      "It is needed in every local meeting, and it is the one work, but persons each having a part in it. I thought it was interesting in Nehemiah that, “the high priest rose up with his brethren the priests, and they built the sheep-gate. They hallowed it, and set up its doors”. You might say, 'I am not the same calibre', but that is not the point. Whatever disadvantage you might have in your mind, you cannot take it into what God has in mind. The men of Jericho previously had a wall to keep God out - that was the wall of Jericho. They were preserving an independence of God in the favoured area to keep God out. Here he is having part in what is protective of God, and the men in Jericho link on right away with the high priest. Coming down to localities I think it is the influence of priestly activity and customs. The apostle says, “we have no such customs” (1 Cor 11: 16), we are protected from that; why should we return to things we have left? Brethren, why should we drop the level? Men have laboured and laid down their lives for the testimony, they laboured and kept the city pure and the wall was built. You may say, ‘Things have changed, and today is not like those days’ - the wall is continuing to keep the city clean and pure, and the persons with the greatest disadvantage learn from the priestly persons."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "The note says as to ‘next to them’, ’next to him’, but it seems to be specifically related to the high priest, chap 2: 3."
+     "text": [
+      "The note says as to ‘next to them’, ’next to him’, but it seems to be specifically related to the high priest, chap 2: 3."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "The high priest gives character. Christ gives character to the family, and here it is in the building."
+     "text": [
+      "The high priest gives character. Christ gives character to the family, and here it is in the building."
+     ]
     },
     {
      "speaker": "EFW",
-     "text": "I feel very exercised as to how true these things are in me. Further on, in Nehemiah 4, the enemy increases his opposition, “And it came to pass, when Sanballat, and Tobijah, and the Arabians” and others all mass against it, v 7. It shows how vital it is that we maintain the link you have been speaking about even though we may feel so small. That link will never be broken."
+     "text": [
+      "I feel very exercised as to how true these things are in me. Further on, in Nehemiah 4, the enemy increases his opposition, “And it came to pass, when Sanballat, and Tobijah, and the Arabians” and others all mass against it, v 7. It shows how vital it is that we maintain the link you have been speaking about even though we may feel so small. That link will never be broken."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is true. Sanballat and Tobijah come in at the beginning, and if Nehemiah had somewhat placated them and had easy words with them, the work would not have proceeded as it did; but they come back again and again. It becomes more intense, but the wall was built and the doors were set up; there was everything there now to keep that element out."
+     "text": [
+      "That is true. Sanballat and Tobijah come in at the beginning, and if Nehemiah had somewhat placated them and had easy words with them, the work would not have proceeded as it did; but they come back again and again. It becomes more intense, but the wall was built and the doors were set up; there was everything there now to keep that element out."
+     ]
     },
     {
      "speaker": "JSG",
-     "text": "It says, “Then we prayed to our God”, chap 4: 9."
+     "text": [
+      "It says, “Then we prayed to our God”, chap 4: 9."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That priestly service comes in in this book. You see what the enemy is at, and then he says, 'Come on out; we will meet in the valley of Ono', chap 6: 2. He could not get in, so his desire all the time is to compromise the wall."
+     "text": [
+      "That priestly service comes in in this book. You see what the enemy is at, and then he says, 'Come on out; we will meet in the valley of Ono', chap 6: 2. He could not get in, so his desire all the time is to compromise the wall."
+     ]
     },
     {
      "speaker": "DH",
-     "text": "I was thinking of the bread of God; it is what is marked by life. It speaks of Himself but it is the appropriation."
+     "text": [
+      "I was thinking of the bread of God; it is what is marked by life. It speaks of Himself but it is the appropriation."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is how the constitution is built up by appropriation, and the oblation is the major diet of the priesthood; they are feeding on Christ."
+     "text": [
+      "That is how the constitution is built up by appropriation, and the oblation is the major diet of the priesthood; they are feeding on Christ."
+     ]
     },
     {
      "speaker": "DJW",
-     "text": "The collective side of things is only as strong as the individuals in it, so that everything proceeds from that. What you are in your life away from the brethren is dependent on your priestly links with God. You are guided in that and you maintain separation, yourself personally, if the testimony is to be maintained."
+     "text": [
+      "The collective side of things is only as strong as the individuals in it, so that everything proceeds from that. What you are in your life away from the brethren is dependent on your priestly links with God. You are guided in that and you maintain separation, yourself personally, if the testimony is to be maintained."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That also has a bearing on the meeting when we come together. You might by your actions somewhat rob the local meeting if you have not maintained things that you should have done, but if you use your knees before the meeting as a simple practice, and bring God in, you will find greater enrichment in the meeting. You will find the truth becomes more attractive to you, you will find everything for your well-being and satisfaction."
+     "text": [
+      "That also has a bearing on the meeting when we come together. You might by your actions somewhat rob the local meeting if you have not maintained things that you should have done, but if you use your knees before the meeting as a simple practice, and bring God in, you will find greater enrichment in the meeting. You will find the truth becomes more attractive to you, you will find everything for your well-being and satisfaction."
+     ]
     }
    ]
   },
@@ -693,5 +875,13 @@
  "back_matter": [
   "Edited and Published by",
   "David Brown and Andrew Burr 81 Roxburgh Road. West Norwood. London. SE27 OLE"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE PRACTICE OF PRIESTHOOD",
+   "kind": "speaker_matched_loosely",
+   "detail": "QAP used in the text for Q Poore (key gives QP)"
+  }
  ]
 }

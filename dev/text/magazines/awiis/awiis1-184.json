@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,40 +26,40 @@
    "place": "LONDON",
    "date": "19 December 1987",
    "speakers": [
-    "W.D.",
-    "E.C.B.",
-    "H.A.H.",
-    "C.C.I.",
-    "J.C.E.",
-    "E.O.",
-    "H.J.T.",
-    "D.E.R.",
-    "B.W.W.",
-    "J.M.",
-    "E.P.",
-    "W.J.R.B.",
-    "E.M.W.",
-    "D.J.H.",
-    "D.E.B.",
-    "S.D.K.R.",
-    "W.S.",
-    "S.B.H.",
-    "J.R.S.",
-    "W.D",
-    "V.E.W.",
-    "J.W.",
-    "D.A.B.",
-    "R.W.F."
+    "WD",
+    "ECB",
+    "HAH",
+    "CCI",
+    "JCE",
+    "EO",
+    "HJT",
+    "DER",
+    "BWW",
+    "JM",
+    "EP",
+    "WJRB",
+    "EMW",
+    "DJH",
+    "DEB",
+    "SDKR",
+    "WS",
+    "SBH",
+    "JRS",
+    "VEW",
+    "JW",
+    "DAB",
+    "RWF"
    ],
    "initials": [
     {
-     "initials": "AWJRB",
-     "name": "(All local unless otherwise stated) W.J.R.Brodie",
+     "initials": "WJRB",
+     "name": "W.J.R.Brodie",
      "place": "Ealing"
     },
     {
      "initials": "DAB",
-     "name": "D.A.Burr"
+     "name": "D.A.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "DEB",
@@ -68,7 +68,8 @@
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "WD",
@@ -77,11 +78,13 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "LONDON"
     },
     {
      "initials": "RWF",
-     "name": "R.W.Flowerdew"
+     "name": "R.W.Flowerdew",
+     "place": "LONDON"
     },
     {
      "initials": "SBH",
@@ -90,11 +93,13 @@
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "CC",
@@ -108,11 +113,13 @@
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "LONDON"
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "DER",
@@ -136,11 +143,13 @@
     },
     {
      "initials": "HJT",
-     "name": "H.J.Taylor"
+     "name": "H.J.Taylor",
+     "place": "LONDON"
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "LONDON"
     },
     {
      "initials": "EMW",
@@ -156,688 +165,1027 @@
      "initials": "VEW",
      "name": "V.E.Wraighte",
      "place": "Gillingham"
+    },
+    {
+     "initials": "CCI",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "W.J.R.Brodie, Ealing; D.A.Burr; D.E.Burr, Redbridge; E.C.Burr; W.Dickson, Edinburgh; J.C.Evershed; R.W.Flowerdew; S.B.Hewison, Dorking; D.J.Hutson; H.A.Hutson; C.C.lkin, Southend; J.Mitchell, Bexley; E.Oliver; E.Palmer; D.E.Remmington, St.Albans; S.D.K.Roberts, Croydon; J.R.Surtees, Buckhurst Hill; W.Shephard, Bedford; H.J.Taylor; B.W.Ward; E.M.Walkinshaw, Gillingham; J.Wright, Redbridge; V.E.Wraighte, Gillingham."
    ],
    "paragraphs": [
     {
-     "speaker": "W.D.",
-     "text": "It is in mind to consider how the ascension of our Lord Jesus gives character to Christianity. I feel led to this in view of the increasing falsification of Christianity publicly, which tends to dim in the eyes and minds of the younger brethren the true character of Christianity as formed by the revelation of God in Christ. While this passage in John 20 is largely, and rightly so, used in the development of the truth as to the service of God, I thought we might see also that it brings out in pattern the characteristics of the dispensation. That is what is in mind."
+     "speaker": "WD",
+     "text": [
+      "It is in mind to consider how the ascension of our Lord Jesus gives character to Christianity. I feel led to this in view of the increasing falsification of Christianity publicly, which tends to dim in the eyes and minds of the younger brethren the true character of Christianity as formed by the revelation of God in Christ. While this passage in John 20 is largely, and rightly so, used in the development of the truth as to the service of God, I thought we might see also that it brings out in pattern the characteristics of the dispensation. That is what is in mind."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think that is very good. As you say, there is great danger in the fundamental elements of Christianity being overborne in the present day, and unless there is a Man in heaven the substance of Christianity cannot be sustained."
+     "speaker": "ECB",
+     "text": [
+      "I think that is very good. As you say, there is great danger in the fundamental elements of Christianity being overborne in the present day, and unless there is a Man in heaven the substance of Christianity cannot be sustained."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is evidently true; resurrection does not give the full thought of Christianity. If the Lord is pleased to give us an element of teaching in our enquiry I hope it will not be amiss, because there is need for understanding that Christianity is distinctive."
+     "speaker": "WD",
+     "text": [
+      "That is evidently true; resurrection does not give the full thought of Christianity. If the Lord is pleased to give us an element of teaching in our enquiry I hope it will not be amiss, because there is need for understanding that Christianity is distinctive."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Is it in your mind that the presence of the Holy Spirit here is dependent upon the ascension and glorification of our Lord Jesus Christ?"
+     "speaker": "HAH",
+     "text": [
+      "Is it in your mind that the presence of the Holy Spirit here is dependent upon the ascension and glorification of our Lord Jesus Christ?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is so, that the Holy Spirit comes from a glorified Christ. That is one of the features which imparts its character to Christianity. Of course, the Lord in this passage has not actually ascended, but all that He says assumes that He has ascended, and one feature of glory which results from that is the presence of the Holy Spirit, and also the power that accompanies that presence."
+     "speaker": "WD",
+     "text": [
+      "That is so, that the Holy Spirit comes from a glorified Christ. That is one of the features which imparts its character to Christianity. Of course, the Lord in this passage has not actually ascended, but all that He says assumes that He has ascended, and one feature of glory which results from that is the presence of the Holy Spirit, and also the power that accompanies that presence."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it the case that, if Christ were not ascended, all we would have would be an earthly religion, but now there is a heavenly one?"
+     "speaker": "ECB",
+     "text": [
+      "Is it the case that, if Christ were not ascended, all we would have would be an earthly religion, but now there is a heavenly one?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is how the truth lies in Scripture. As we know, resurrection applies to other families. My exercise is simple, because we shall touch the moral side as the Spirit guides us in these other two passages. I think the resolution of much that exercises us in the testimony could be helpfully approached from the standpoint that we are speaking of at the present time."
+     "speaker": "WD",
+     "text": [
+      "That is how the truth lies in Scripture. As we know, resurrection applies to other families. My exercise is simple, because we shall touch the moral side as the Spirit guides us in these other two passages. I think the resolution of much that exercises us in the testimony could be helpfully approached from the standpoint that we are speaking of at the present time."
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Is this the answer to the tomb? It says, \"he ascended, what is it but that he also descended into the lower parts of the earth\", Eph 4: 9. He is above the highest heaven, and He has gone below the deepest depths."
+     "speaker": "CCI",
+     "text": [
+      "Is this the answer to the tomb? It says, \"he ascended, what is it but that he also descended into the lower parts of the earth\", Eph 4: 9. He is above the highest heaven, and He has gone below the deepest depths."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is His position and our hearts exult in it, but the purpose of the enquiry is to see how that brings its distinctive character to the system of Christianity, and governs our practice, our thoughts, our service and our relations with one another. There is a suggestion of a divine highway in this."
+     "speaker": "WD",
+     "text": [
+      "That is His position and our hearts exult in it, but the purpose of the enquiry is to see how that brings its distinctive character to the system of Christianity, and governs our practice, our thoughts, our service and our relations with one another. There is a suggestion of a divine highway in this."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "The Lord really sets us with Himself in this setting. In another setting He was placed on high by the Father, and it is His own personal place, but this would be that He would take us in our affections and spirit with Him."
+     "speaker": "JCE",
+     "text": [
+      "The Lord really sets us with Himself in this setting. In another setting He was placed on high by the Father, and it is His own personal place, but this would be that He would take us in our affections and spirit with Him."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "You are referring to the fact that He says \"I ascend\". What He says to Mary, \"Touch me not\", is very instructive. I have the impression that we perhaps look at that expression too much from the prohibitive side."
+     "speaker": "WD",
+     "text": [
+      "You are referring to the fact that He says \"I ascend\". What He says to Mary, \"Touch me not\", is very instructive. I have the impression that we perhaps look at that expression too much from the prohibitive side."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "In what He says, \"I ascend to my Father and your Father, and to my God and your God\", it is not quite the place that is in view but the Persons, and is not the essence of Christianity the knowledge of those Persons?"
+     "speaker": "EO",
+     "text": [
+      "In what He says, \"I ascend to my Father and your Father, and to my God and your God\", it is not quite the place that is in view but the Persons, and is not the essence of Christianity the knowledge of those Persons?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, it is a distinction that attaches to the revelation of God in Christ. That expression \"my Father and your Father\" is the keynote in regard to that matter. All ministry must in some sense relate to the revelation of God in Christ to be productive and formative and to enhance the glory of the testimony. The Spirit would continually impress it upon us."
+     "speaker": "WD",
+     "text": [
+      "Yes, it is a distinction that attaches to the revelation of God in Christ. That expression \"my Father and your Father\" is the keynote in regard to that matter. All ministry must in some sense relate to the revelation of God in Christ to be productive and formative and to enhance the glory of the testimony. The Spirit would continually impress it upon us."
+     ]
     },
     {
-     "speaker": "H.J.T.",
-     "text": "Have you something more in mind as to \"Touch me not\" being not merely negative?"
+     "speaker": "HJT",
+     "text": [
+      "Have you something more in mind as to \"Touch me not\" being not merely negative?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "We have commonly said - at least perhaps I have - that the prohibitive side was to impress upon Mary that she must not retain the Lord in her circumstances. But could I suggest that in saying it to her the Lord had in mind that He had greater things in view, not only the retention of Him in her circumstances (which, of course, would be implied in it) but \"Touch me not\" was something greater, more distinctive, than anything that attached to Him on this side of death."
+     "speaker": "WD",
+     "text": [
+      "We have commonly said - at least perhaps I have - that the prohibitive side was to impress upon Mary that she must not retain the Lord in her circumstances. But could I suggest that in saying it to her the Lord had in mind that He had greater things in view, not only the retention of Him in her circumstances (which, of course, would be implied in it) but \"Touch me not\" was something greater, more distinctive, than anything that attached to Him on this side of death."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "Many believers are thankful to be sheltered from the judgment to come, and thankful that Christ has been raised for our justification, they look forward to a 'sweet by and by', but they do not reach God's purpose for them, and that would be a challenge to us as to the extent to which we have reached His purpose for us at the present time."
+     "speaker": "DER",
+     "text": [
+      "Many believers are thankful to be sheltered from the judgment to come, and thankful that Christ has been raised for our justification, they look forward to a 'sweet by and by', but they do not reach God's purpose for them, and that would be a challenge to us as to the extent to which we have reached His purpose for us at the present time."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is right, and unless the distinctive character of Christianity is continually presented in ministry, we might be inclined to accept what is current religiously. Do you think so?"
+     "speaker": "WD",
+     "text": [
+      "That is right, and unless the distinctive character of Christianity is continually presented in ministry, we might be inclined to accept what is current religiously. Do you think so?"
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "That is always a danger, but God's purpose for us lies outside the realm of nature or this earth; it is related to the Lord where He is in glory."
+     "speaker": "DER",
+     "text": [
+      "That is always a danger, but God's purpose for us lies outside the realm of nature or this earth; it is related to the Lord where He is in glory."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, and that purpose (and this is the crux of what we are trying to get at this morning) is that it should characterise the testimony at the present time. There is little power in service apart from the lustre that this passage affords."
+     "speaker": "WD",
+     "text": [
+      "Yes, and that purpose (and this is the crux of what we are trying to get at this morning) is that it should characterise the testimony at the present time. There is little power in service apart from the lustre that this passage affords."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Is what you said about the prohibitive side confirmed in that there is only a comma there, the Lord immediately going on to something much more?"
+     "speaker": "BWW",
+     "text": [
+      "Is what you said about the prohibitive side confirmed in that there is only a comma there, the Lord immediately going on to something much more?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, I would not make too much of it but the Lord would have us, as He would have Mary, go onward and go upward. Somebody spoke at home this week of Mr Darby speaking to a brother; the brother said, You know, Mr Darby, I am looking up, and Mr Darby said, Well, I am looking up and looking down. That is the substance really of what we are trying to say."
+     "speaker": "WD",
+     "text": [
+      "Well, I would not make too much of it but the Lord would have us, as He would have Mary, go onward and go upward. Somebody spoke at home this week of Mr Darby speaking to a brother; the brother said, You know, Mr Darby, I am looking up, and Mr Darby said, Well, I am looking up and looking down. That is the substance really of what we are trying to say."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Does it involve association with Himself there? He says, \"Touch me not, for I have not yet ascended to my Father\", but there is association with Him there. Does that cover the whole of the testimony?"
+     "speaker": "JM",
+     "text": [
+      "Does it involve association with Himself there? He says, \"Touch me not, for I have not yet ascended to my Father\", but there is association with Him there. Does that cover the whole of the testimony?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "The way the passage unfolds would confirm that: \"When therefore it was evening on that day, which was the first day of the week, and the doors shut where the disciples were, through fear of the Jews\". Jewish thoughts and practices would tend to obscure that precious link which we have as associated with Him. Would you say so?"
+     "speaker": "WD",
+     "text": [
+      "The way the passage unfolds would confirm that: \"When therefore it was evening on that day, which was the first day of the week, and the doors shut where the disciples were, through fear of the Jews\". Jewish thoughts and practices would tend to obscure that precious link which we have as associated with Him. Would you say so?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes. As you say, that is the distinctive character of this dispensation, and those who are His need to hold on to that and not take lower ground."
+     "speaker": "JM",
+     "text": [
+      "Yes. As you say, that is the distinctive character of this dispensation, and those who are His need to hold on to that and not take lower ground."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "We want to keep as positive as the Lord and the Spirit may help us, but if any weakening comes in it is always on this line. As has been said in regard to Ephesus, it is always the top shoot that goes first. Current customs may affect us, such as Christmas; but what is Christmas? It is just human religion taken up under the guise of Christianity. We want the distinctiveness and the calling that comes from an ascended Christ to help us in these matters."
+     "speaker": "WD",
+     "text": [
+      "We want to keep as positive as the Lord and the Spirit may help us, but if any weakening comes in it is always on this line. As has been said in regard to Ephesus, it is always the top shoot that goes first. Current customs may affect us, such as Christmas; but what is Christmas? It is just human religion taken up under the guise of Christianity. We want the distinctiveness and the calling that comes from an ascended Christ to help us in these matters."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "His resurrection speaks of His victory, but His ascension speaks of His triumph. So it says that He has \"ascended up on high, he has led captivity captive\" (Eph 4: 8); that is triumph, is it not?"
+     "speaker": "EP",
+     "text": [
+      "His resurrection speaks of His victory, but His ascension speaks of His triumph. So it says that He has \"ascended up on high, he has led captivity captive\" (Eph 4: 8); that is triumph, is it not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is good. In consequence of that triumphant place that He occupies He is able to say \"Peace\". What a precious characteristic in a world of unrest, a world where peace is unknown! In the consciousness of our heavenly part we have peace to go on."
+     "speaker": "WD",
+     "text": [
+      "That is good. In consequence of that triumphant place that He occupies He is able to say \"Peace\". What a precious characteristic in a world of unrest, a world where peace is unknown! In the consciousness of our heavenly part we have peace to go on."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "We have spoken about being associated with Him. I find it is good to be associated with His victory, but the liberty that comes when you are associated with His triumph, and His place of triumph, is fine, because the victory is won and everything is clear. Why not enter into the triumph of Himself ascended?"
+     "speaker": "EP",
+     "text": [
+      "We have spoken about being associated with Him. I find it is good to be associated with His victory, but the liberty that comes when you are associated with His triumph, and His place of triumph, is fine, because the victory is won and everything is clear. Why not enter into the triumph of Himself ascended?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Exactly."
+     "speaker": "WD",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is a remarkable prophetic word in Psalm 68, is it not? \"Thou hast ascended on high\" (v 18). It is as if something of what God always had in view breaks through even into the earthly system of the Old Testament."
+     "speaker": "ECB",
+     "text": [
+      "It is a remarkable prophetic word in Psalm 68, is it not? \"Thou hast ascended on high\" (v 18). It is as if something of what God always had in view breaks through even into the earthly system of the Old Testament."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "All pointing forward to this time of which we are speaking. John's epistle makes much of \"Jesus Christ come in flesh\", and \"the Son of God has come\". These two statements are of tremendous moment, the fact that Jesus Christ has come. We say, He is the coming One, Jesus is coming, coming as the King. While the coming again is the bright hope of the church, Christianity lies in the fact that Jesus Christ has come, and as having come, having come, He is marked out in His glory and distinctiveness. John the baptist sent a message to the Lord: \"Art thou the coming one? or are we to wait for another?\", Matt 11: 3. The message the Lord sent back to John the baptist was that He had come. As to the future, nobody would weaken the bright hope of the church in regard to the coming of Christ, but John's teaching, in his epistles and his gospel, is that Jesus Christ has come. Involved in that is the revelation of God and the glory of Christ's ascension."
+     "speaker": "WD",
+     "text": [
+      "All pointing forward to this time of which we are speaking. John's epistle makes much of \"Jesus Christ come in flesh\", and \"the Son of God has come\". These two statements are of tremendous moment, the fact that Jesus Christ has come. We say, He is the coming One, Jesus is coming, coming as the King. While the coming again is the bright hope of the church, Christianity lies in the fact that Jesus Christ has come, and as having come, having come, He is marked out in His glory and distinctiveness. John the baptist sent a message to the Lord: \"Art thou the coming one? or are we to wait for another?\", Matt 11: 3. The message the Lord sent back to John the baptist was that He had come. As to the future, nobody would weaken the bright hope of the church in regard to the coming of Christ, but John's teaching, in his epistles and his gospel, is that Jesus Christ has come. Involved in that is the revelation of God and the glory of Christ's ascension."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "Is there some importance in the doors being shut for fear of the Jews?"
+     "speaker": "WJRB",
+     "text": [
+      "Is there some importance in the doors being shut for fear of the Jews?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "We have to have these doors shut continually, have we not? Tell us what your impression is."
+     "speaker": "WD",
+     "text": [
+      "We have to have these doors shut continually, have we not? Tell us what your impression is."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "It includes the whole of Christendom, does it not, at the present moment?"
+     "speaker": "WJRB",
+     "text": [
+      "It includes the whole of Christendom, does it not, at the present moment?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is why I made my passing remark, and we need to garrison our minds in regard to false teaching in that respect."
+     "speaker": "WD",
+     "text": [
+      "That is why I made my passing remark, and we need to garrison our minds in regard to false teaching in that respect."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "Perhaps you would tell us how we arrive at this character."
+     "speaker": "EMW",
+     "text": [
+      "Perhaps you would tell us how we arrive at this character."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well I think the main factor would relate to what we said earlier, that the Holy Spirit has come consequent upon the ascension of the Lord Jesus, because it is the indwelling presence of the Spirit in the assembly that is a characteristic feature of Christianity."
+     "speaker": "WD",
+     "text": [
+      "Well I think the main factor would relate to what we said earlier, that the Holy Spirit has come consequent upon the ascension of the Lord Jesus, because it is the indwelling presence of the Spirit in the assembly that is a characteristic feature of Christianity."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "The Lord breathes into them - that is intimate - and He says, \"Receive the Holy Spirit\". So that His character is to be our character; as it has often been said, Christianity is as Christ is."
+     "speaker": "EMW",
+     "text": [
+      "The Lord breathes into them - that is intimate - and He says, \"Receive the Holy Spirit\". So that His character is to be our character; as it has often been said, Christianity is as Christ is."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Exactly, and as having it, we are equipped for the administration of things on a level in keeping with His own thoughts. This is all anticipative of what took place historically at the beginning of the Acts; the disciples had not only a mandate from Christ but they had spiritual capacity and power by the Spirit to carry it out. Now that means, despite all the breakdown that has come in, at these two things remain; the mandate we have from Christ, and the Spirit through the inbreathing to carry out that mandate."
+     "speaker": "WD",
+     "text": [
+      "Exactly, and as having it, we are equipped for the administration of things on a level in keeping with His own thoughts. This is all anticipative of what took place historically at the beginning of the Acts; the disciples had not only a mandate from Christ but they had spiritual capacity and power by the Spirit to carry it out. Now that means, despite all the breakdown that has come in, at these two things remain; the mandate we have from Christ, and the Spirit through the inbreathing to carry out that mandate."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Is it seen typically in Genesis 24 where the servant brings in the negative: \"Do not hinder me\"? He follows it with \"seeing Jehovah has prospered my way\" (v 56); that is, he would not stop until there was a conscious link with the heavenly man."
+     "speaker": "DJH",
+     "text": [
+      "Is it seen typically in Genesis 24 where the servant brings in the negative: \"Do not hinder me\"? He follows it with \"seeing Jehovah has prospered my way\" (v 56); that is, he would not stop until there was a conscious link with the heavenly man."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is helpful and has a definite link with these early chapters of Acts of which we have spoken."
+     "speaker": "WD",
+     "text": [
+      "That is helpful and has a definite link with these early chapters of Acts of which we have spoken."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "You spoke of the way that John's gospel and John's epistles bear on Jesus Christ come. In the gospel Jesus also says again and again - I go away; what if ye see the Son of man ascend up where He was before; I leave the world; if I go not away the Comforter will not come. He has this position in view the whole time."
+     "speaker": "ECB",
+     "text": [
+      "You spoke of the way that John's gospel and John's epistles bear on Jesus Christ come. In the gospel Jesus also says again and again - I go away; what if ye see the Son of man ascend up where He was before; I leave the world; if I go not away the Comforter will not come. He has this position in view the whole time."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is right, in view the whole time. Early in John's gospel the woman in chapter 4 says to Him, \"when he comes he will tell us all things\", but \"Jesus says to her, I who speak to thee am he\" (vv 25,26). What a touch that was to that woman as He had just preceded it with the rightness of the worship of God!"
+     "speaker": "WD",
+     "text": [
+      "That is right, in view the whole time. Early in John's gospel the woman in chapter 4 says to Him, \"when he comes he will tell us all things\", but \"Jesus says to her, I who speak to thee am he\" (vv 25,26). What a touch that was to that woman as He had just preceded it with the rightness of the worship of God!"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The well of water springing up in the believer implies this position of Christ which you are bringing before us."
+     "speaker": "ECB",
+     "text": [
+      "The well of water springing up in the believer implies this position of Christ which you are bringing before us."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is right."
+     "speaker": "WD",
+     "text": [
+      "That is right."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "Would you explain a little more your reference to a mandate and a power to carry it out? I do not know that I have fully grasped your thought."
+     "speaker": "EMW",
+     "text": [
+      "Would you explain a little more your reference to a mandate and a power to carry it out? I do not know that I have fully grasped your thought."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "My thought as to the mandate is that the assembly, the kingdom here set up, is charged with the responsibility of the testimony. Is that right?"
+     "speaker": "WD",
+     "text": [
+      "My thought as to the mandate is that the assembly, the kingdom here set up, is charged with the responsibility of the testimony. Is that right?"
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "Yes."
+     "speaker": "EMW",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "But there are many persons charged with responsibility in regard to the testimony who do not have the power in the Spirit characteristically to discharge it. In Christianity we have through the inbreathing the characteristic gift of the Holy Spirit to administer as the Lord would have us administer. Have I clarified it at all?"
+     "speaker": "WD",
+     "text": [
+      "But there are many persons charged with responsibility in regard to the testimony who do not have the power in the Spirit characteristically to discharge it. In Christianity we have through the inbreathing the characteristic gift of the Holy Spirit to administer as the Lord would have us administer. Have I clarified it at all?"
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "Hence there is no power to put anything into effect for God except by the Spirit."
+     "speaker": "EMW",
+     "text": [
+      "Hence there is no power to put anything into effect for God except by the Spirit."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "None at all, and that lies in John's line of things, when the Corinthian public position can only be maintained in the light of 2 Timothy 2."
+     "speaker": "WD",
+     "text": [
+      "None at all, and that lies in John's line of things, when the Corinthian public position can only be maintained in the light of 2 Timothy 2."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Does the opening of the book of Acts help? \"Having by the Holy Spirit charged the apostles\" (v 2). Is that the mandate?"
+     "speaker": "HAH",
+     "text": [
+      "Does the opening of the book of Acts help? \"Having by the Holy Spirit charged the apostles\" (v 2). Is that the mandate?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes."
+     "speaker": "WD",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Then, \"but ye will receive power\" (v 8) - the note indicates that that is dynamic power of “the Holy Spirit having come\"."
+     "speaker": "HAH",
+     "text": [
+      "Then, \"but ye will receive power\" (v 8) - the note indicates that that is dynamic power of “the Holy Spirit having come\"."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Exactly."
+     "speaker": "WD",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "Association with the Man in glory must precede being for Him in this scene."
+     "speaker": "DER",
+     "text": [
+      "Association with the Man in glory must precede being for Him in this scene."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "As I have said, this passage is very profitably used in relation to the service of God, and we get an impression on the first day of the week as to these things, that we carry forward. That is the reality of the thing; we carry with us the glory of all that we touch into the sphere of the testimony."
+     "speaker": "WD",
+     "text": [
+      "As I have said, this passage is very profitably used in relation to the service of God, and we get an impression on the first day of the week as to these things, that we carry forward. That is the reality of the thing; we carry with us the glory of all that we touch into the sphere of the testimony."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "John's first epistle gives an impression of what the disciples saw in John 20. It says, \"That which was from the beginning ... which we have seen with our eyes ... and our hands handled\", chap 1: 1. There was something positive, was there not, as a result of this?"
+     "speaker": "WJRB",
+     "text": [
+      "John's first epistle gives an impression of what the disciples saw in John 20. It says, \"That which was from the beginning ... which we have seen with our eyes ... and our hands handled\", chap 1: 1. There was something positive, was there not, as a result of this?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "So we value what the twelve had."
+     "speaker": "WD",
+     "text": [
+      "So we value what the twelve had."
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Is the Lord's second coming to be very prominently in our minds? There is far more said about it than about the rapture, which is our ascension into heaven. A great point of the truth is what is coming out of heaven, down below here at the present moment."
+     "speaker": "CCI",
+     "text": [
+      "Is the Lord's second coming to be very prominently in our minds? There is far more said about it than about the rapture, which is our ascension into heaven. A great point of the truth is what is coming out of heaven, down below here at the present moment."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is the important thing to grasp. What has distinguished the ministry of the last one hundred and fifty years is what we are saying here, and we are only going to help one another by insisting on this, and using ministry as much as the Lord gives us help to insist on it."
+     "speaker": "WD",
+     "text": [
+      "That is the important thing to grasp. What has distinguished the ministry of the last one hundred and fifty years is what we are saying here, and we are only going to help one another by insisting on this, and using ministry as much as the Lord gives us help to insist on it."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "Would you say a little more about where the Lord has ascended to - \"I ascend to my Father ... and to my God\"? We read in Hebrews that He has entered into heaven itself. Could you say something about the place where He is in view of its characterising things now?"
+     "speaker": "DEB",
+     "text": [
+      "Would you say a little more about where the Lord has ascended to - \"I ascend to my Father ... and to my God\"? We read in Hebrews that He has entered into heaven itself. Could you say something about the place where He is in view of its characterising things now?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think a place must be involved in it. That is confirmed in Ephesians; the first chapter involves place, and Paul's link with this is that Christ's place is our place. Is that right? Say more."
+     "speaker": "WD",
+     "text": [
+      "I think a place must be involved in it. That is confirmed in Ephesians; the first chapter involves place, and Paul's link with this is that Christ's place is our place. Is that right? Say more."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "Unless we know the place where Christ is we shall not know much about the effect of it, shall we?"
+     "speaker": "DEB",
+     "text": [
+      "Unless we know the place where Christ is we shall not know much about the effect of it, shall we?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think that there is a truism in that expression that we cannot neglect - 'Christ's place is our place' - and the service of God is carried on with that distinguishing feature."
+     "speaker": "WD",
+     "text": [
+      "I think that there is a truism in that expression that we cannot neglect - 'Christ's place is our place' - and the service of God is carried on with that distinguishing feature."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "What connection has the headship of Christ with what you are saying?"
+     "speaker": "SDKR",
+     "text": [
+      "What connection has the headship of Christ with what you are saying?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It says, He has ascended."
+     "speaker": "WD",
+     "text": [
+      "It says, He has ascended."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "It comes in from ascension level."
+     "speaker": "SDKR",
+     "text": [
+      "It comes in from ascension level."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "This service that we have spoken of, the disciples receiving the Holy Spirit, the breathing into them, is an act of His headship."
+     "speaker": "WD",
+     "text": [
+      "This service that we have spoken of, the disciples receiving the Holy Spirit, the breathing into them, is an act of His headship."
+     ]
     },
     {
-     "speaker": "W.S.",
-     "text": "Is the apostle Paul personally a delineation of what you have in mind? He had his own experience with a Man in the glory and his being caught up, and that colours his ministry all the way through. It is a delineation of this, is it not?"
+     "speaker": "WS",
+     "text": [
+      "Is the apostle Paul personally a delineation of what you have in mind? He had his own experience with a Man in the glory and his being caught up, and that colours his ministry all the way through. It is a delineation of this, is it not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Particularly in the Philippian epistle."
+     "speaker": "WD",
+     "text": [
+      "Particularly in the Philippian epistle."
+     ]
     },
     {
-     "speaker": "W.S.",
-     "text": "Why do you say that?"
+     "speaker": "WS",
+     "text": [
+      "Why do you say that?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, he has the object in front of him - a glorified Christ - and he is here with the full impress of that glorified Man upon his life."
+     "speaker": "WD",
+     "text": [
+      "Well, he has the object in front of him - a glorified Christ - and he is here with the full impress of that glorified Man upon his life."
+     ]
     },
     {
-     "speaker": "W.S.",
-     "text": "I asked that question because I was thinking of the Colossian epistle, and the greatness of the One who is the Head of the body, the assembly, and so on."
+     "speaker": "WS",
+     "text": [
+      "I asked that question because I was thinking of the Colossian epistle, and the greatness of the One who is the Head of the body, the assembly, and so on."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, but Colossians is on the way there, you are not there yet. There is quite a point in this, beloved brethren, because it is one of the things that Mr Taylor had to establish, that Colossians, risen with Christ, is not the full thought, it is on the way. You reach - I do not want to use the word 'terminus' - but you reach the position of ascension beyond resurrection, and so we are on real heavenly ground when we touch this."
+     "speaker": "WD",
+     "text": [
+      "Yes, but Colossians is on the way there, you are not there yet. There is quite a point in this, beloved brethren, because it is one of the things that Mr Taylor had to establish, that Colossians, risen with Christ, is not the full thought, it is on the way. You reach - I do not want to use the word 'terminus' - but you reach the position of ascension beyond resurrection, and so we are on real heavenly ground when we touch this."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "So it has been said that Paul does not assert his apostleship in the Philippians but writes as Paul the Christian; he really sets out what a Christian is. Is that what you are getting at?"
+     "speaker": "DJH",
+     "text": [
+      "So it has been said that Paul does not assert his apostleship in the Philippians but writes as Paul the Christian; he really sets out what a Christian is. Is that what you are getting at?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes."
+     "speaker": "WD",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does your remark about what the Lord has recovered in the last one hundred and sixty years bear on what you are saying, because one of the key elements of that was that there is a Head in heaven? We may perhaps sometimes lose sight of that; the Head of the assembly is in heaven."
+     "speaker": "ECB",
+     "text": [
+      "Does your remark about what the Lord has recovered in the last one hundred and sixty years bear on what you are saying, because one of the key elements of that was that there is a Head in heaven? We may perhaps sometimes lose sight of that; the Head of the assembly is in heaven."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "So we draw from Him continually."
+     "speaker": "WD",
+     "text": [
+      "So we draw from Him continually."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "In connection with the Lord being amongst His own as the One who was ascending, would there be what is private and also what is public? I was thinking that those doors that had to be shut had to be opened because the Lord sent them forth, but, before that, they had that wonderful experience of His showing to them His hands and His side."
+     "speaker": "JCE",
+     "text": [
+      "In connection with the Lord being amongst His own as the One who was ascending, would there be what is private and also what is public? I was thinking that those doors that had to be shut had to be opened because the Lord sent them forth, but, before that, they had that wonderful experience of His showing to them His hands and His side."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I am glad you call attention to that - the Lord coming in - because that is one thing currently that we have to be careful as to, the Jewish element. If what I have heard by way of report is true, and I have no reason to disbelieve it, the validity of the ministry which speaks of the Lord coming to His own at the Supper has been questioned. If you let that go, you let go the whole substance of the Christian position in that way. I say what I am saying soberly, because we have had some brethren recovered from a system of things which refutes that the Lord comes amongst His own. That He manifests Himself as He does is a feature of the truth which we must hold on to, and be exercised to detect any tendency to move away from it."
+     "speaker": "WD",
+     "text": [
+      "I am glad you call attention to that - the Lord coming in - because that is one thing currently that we have to be careful as to, the Jewish element. If what I have heard by way of report is true, and I have no reason to disbelieve it, the validity of the ministry which speaks of the Lord coming to His own at the Supper has been questioned. If you let that go, you let go the whole substance of the Christian position in that way. I say what I am saying soberly, because we have had some brethren recovered from a system of things which refutes that the Lord comes amongst His own. That He manifests Himself as He does is a feature of the truth which we must hold on to, and be exercised to detect any tendency to move away from it."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Is there a touch of majesty about the word - \"Jesus came\"? Then the testimony flows out from that; they go to Thomas and say, \"We have seen the Lord\". Would that not be so with us if in the consciousness of His coming we can say, We have seen the Lord?"
+     "speaker": "EP",
+     "text": [
+      "Is there a touch of majesty about the word - \"Jesus came\"? Then the testimony flows out from that; they go to Thomas and say, \"We have seen the Lord\". Would that not be so with us if in the consciousness of His coming we can say, We have seen the Lord?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is real, it is not something that is imagined. We want spiritual reality that the Lord comes to His own; He actually comes. Unless that vital truth is maintained we are going to lose one of the choicest characteristics of Christianity."
+     "speaker": "WD",
+     "text": [
+      "It is real, it is not something that is imagined. We want spiritual reality that the Lord comes to His own; He actually comes. Unless that vital truth is maintained we are going to lose one of the choicest characteristics of Christianity."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "That not only bears on the service of God which opens up from that, but it is confirmation also of the place that the saints have in the testimony, and helps us to maintain the heavenly level of things in the testimony here."
+     "speaker": "JM",
+     "text": [
+      "That not only bears on the service of God which opens up from that, but it is confirmation also of the place that the saints have in the testimony, and helps us to maintain the heavenly level of things in the testimony here."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. We may in a certain sense be insulated from many of these trends, but anybody who is wholly interested in the testimony would want to safeguard that truth. Would you say that?"
+     "speaker": "WD",
+     "text": [
+      "Yes. We may in a certain sense be insulated from many of these trends, but anybody who is wholly interested in the testimony would want to safeguard that truth. Would you say that?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I think that is absolutely vital. The other thing I was thinking is that association with Christ where He is would produce dignity among the saints, heavenly dignity. So in the hortatory part of Ephesians from chapter 4 onwards, Paul speaks of conduct that is not suited to that relationship, and of which we should be ashamed."
+     "speaker": "JM",
+     "text": [
+      "I think that is absolutely vital. The other thing I was thinking is that association with Christ where He is would produce dignity among the saints, heavenly dignity. So in the hortatory part of Ephesians from chapter 4 onwards, Paul speaks of conduct that is not suited to that relationship, and of which we should be ashamed."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "And that would bear on Exodus 24 which we should move on to unless anybody wants to say more about John 20 before we leave it."
+     "speaker": "WD",
+     "text": [
+      "And that would bear on Exodus 24 which we should move on to unless anybody wants to say more about John 20 before we leave it."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "I would like to say that it is by the Spirit that we apprehend the Lord's coming; it is not in imagination."
+     "speaker": "JCE",
+     "text": [
+      "I would like to say that it is by the Spirit that we apprehend the Lord's coming; it is not in imagination."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is by the Spirit."
+     "speaker": "WD",
+     "text": [
+      "It is by the Spirit."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "I was just thinking that in Colossians 2 it speaks of the combat the apostle had for the saints and those who had not seen his face in the flesh. You could not think that that would be without effect, could you?"
+     "speaker": "WJRB",
+     "text": [
+      "I was just thinking that in Colossians 2 it speaks of the combat the apostle had for the saints and those who had not seen his face in the flesh. You could not think that that would be without effect, could you?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "He said in that same epistle, \"according to his working which works in me in power\" (chap 1: 29), and the inward working of power in ministry is needful to establish what we are saying. Gift itself coming from an ascended Christ is essential for furnishing the assembly, but what we are saying is the need of inward working of power in the minister in order that what the Lord is seeking amongst His people be established. Prayer, as you say, but the inward working of power in the minister is required as well as gift."
+     "speaker": "WD",
+     "text": [
+      "He said in that same epistle, \"according to his working which works in me in power\" (chap 1: 29), and the inward working of power in ministry is needful to establish what we are saying. Gift itself coming from an ascended Christ is essential for furnishing the assembly, but what we are saying is the need of inward working of power in the minister in order that what the Lord is seeking amongst His people be established. Prayer, as you say, but the inward working of power in the minister is required as well as gift."
+     ]
     },
     {
-     "speaker": "S.B.H.",
-     "text": "Does association with Christ involve quickening?"
+     "speaker": "SBH",
+     "text": [
+      "Does association with Christ involve quickening?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is right, quickening is actual. Is that not so?"
+     "speaker": "WD",
+     "text": [
+      "That is right, quickening is actual. Is that not so?"
+     ]
     },
     {
-     "speaker": "S.B.H.",
-     "text": "I was thinking of Christ as the last Adam, a quickening spirit."
+     "speaker": "SBH",
+     "text": [
+      "I was thinking of Christ as the last Adam, a quickening spirit."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is 1 Corinthians 15; that is linked with this passage in John."
+     "speaker": "WD",
+     "text": [
+      "That is 1 Corinthians 15; that is linked with this passage in John.",
+      "C.C.I: \"Such as the heavenly one, such also the heavenly ones\" (1 Cor 15: 48); is that further on than the great subject - the resurrection - that that chapter opens up? Are we touching the Ephesian level in Corinthians? We have Him in our minds as the heavenly One."
+     ]
     },
     {
-     "text": "C.C.I: \"Such as the heavenly one, such also the heavenly ones\" (1 Cor 15: 48); is that further on than the great subject - the resurrection - that that chapter opens up? Are we touching the Ephesian level in Corinthians? We have Him in our minds as the heavenly One."
+     "speaker": "WD",
+     "text": [
+      "You get many touches in Corinthians as to the Ephesian line of things, just a golden thread running through. In Exodus 24 I thought of what was said as to dignity: \"And Moses and Aaron, Nadab and Abihu, and seventy of the elders of Israel went up\". They went up. Not only has the Lord ascended, but they went up and they saw the God of Israel; it is a very dignified scripture. It has been said that this was the highest point reached in the Old Testament, in a sense greater than what came out in Solomon's temple, because there is a nearness and a dignity attached to it that the other passages do not have."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "You get many touches in Corinthians as to the Ephesian line of things, just a golden thread running through. In Exodus 24 I thought of what was said as to dignity: \"And Moses and Aaron, Nadab and Abihu, and seventy of the elders of Israel went up\". They went up. Not only has the Lord ascended, but they went up and they saw the God of Israel; it is a very dignified scripture. It has been said that this was the highest point reached in the Old Testament, in a sense greater than what came out in Solomon's temple, because there is a nearness and a dignity attached to it that the other passages do not have."
+     "speaker": "JCE",
+     "text": [
+      "I was thinking that Moses had a place with the others in that section you read, but then he had a place which was very distinctive to himself in the next verse: \"Come up to me into the mountain, and be there\". He had come up with the others evidently. I think it is a very wonderful thing to know that we have a place with Christ."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "I was thinking that Moses had a place with the others in that section you read, but then he had a place which was very distinctive to himself in the next verse: \"Come up to me into the mountain, and be there\". He had come up with the others evidently. I think it is a very wonderful thing to know that we have a place with Christ."
+     "speaker": "WD",
+     "text": [
+      "Think of the holiness of the divine presence! That passage that we have read just impresses us with the moral dignity and the holiness that attaches to it."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Think of the holiness of the divine presence! That passage that we have read just impresses us with the moral dignity and the holiness that attaches to it."
+     "speaker": "JRS",
+     "text": [
+      "Mr Taylor said, in relation to what you have said about the highest point reached in the Old Testament, that it was collective worship."
+     ]
     },
     {
-     "speaker": "J.R.S.",
-     "text": "Mr Taylor said, in relation to what you have said about the highest point reached in the Old Testament, that it was collective worship."
+     "speaker": "WD",
+     "text": [
+      "This or Chronicles?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "This or Chronicles?"
+     "speaker": "JRS",
+     "text": [
+      "Here."
+     ]
     },
     {
-     "speaker": "J.R.S.",
-     "text": "Here."
+     "speaker": "WD",
+     "text": [
+      "That is helpful. You cannot always make distinctions of that kind but what marks Christianity is the nearness, intimacy and fellowship on a heavenly level that is enjoyed. That is what comes out in this passage in certain moral surroundings; they saw the God of Israel. How would you construe that in the light of the scripture that no man has seen God at any time?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is helpful. You cannot always make distinctions of that kind but what marks Christianity is the nearness, intimacy and fellowship on a heavenly level that is enjoyed. That is what comes out in this passage in certain moral surroundings; they saw the God of Israel. How would you construe that in the light of the scripture that no man has seen God at any time?"
+     "speaker": "WJRB",
+     "text": [
+      "The apostle connects it in 2 Corinthians 3 with beholding the glory of the Lord."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "The apostle connects it in 2 Corinthians 3 with beholding the glory of the Lord."
+     "speaker": "WD",
+     "text": [
+      "Yes, that is right."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, that is right."
+     "speaker": "ECB",
+     "text": [
+      "I noticed when it was read that it says, \"and they saw the God of Israel\", and I wondered if that implied that they were able to see and apprehend God as He was in relation to that nation."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I noticed when it was read that it says, \"and they saw the God of Israel\", and I wondered if that implied that they were able to see and apprehend God as He was in relation to that nation."
+     "speaker": "WD",
+     "text": [
+      "I think that is right. I have thought a little about it in the light of the question I asked. It would seem that they saw God morally in the light of His surroundings."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think that is right. I have thought a little about it in the light of the question I asked. It would seem that they saw God morally in the light of His surroundings."
+     "speaker": "ECB",
+     "text": [
+      "Did not Mr Taylor say they saw God in the circumstances to which He was accustomed."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Did not Mr Taylor say they saw God in the circumstances to which He was accustomed."
+     "speaker": "WD",
+     "text": [
+      "Under His feet the work of transparent sapphire, and the form of heaven for clearness, was an indication of what God was morally in His attributes. It is a very essential matter in the ascent not only to think of the place, as it has been referred to, but the moral surroundings that mark that place."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Under His feet the work of transparent sapphire, and the form of heaven for clearness, was an indication of what God was morally in His attributes. It is a very essential matter in the ascent not only to think of the place, as it has been referred to, but the moral surroundings that mark that place."
+     "speaker": "ECB",
+     "text": [
+      "Is it really a manifestation of what we might call intrinsic holiness?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it really a manifestation of what we might call intrinsic holiness?"
+     "speaker": "WD",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes."
+     "speaker": "ECB",
+     "text": [
+      "Would you connect \"And on the nobles of the children of Israel he laid not his hand\" with \"Peace be to you\"?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Would you connect \"And on the nobles of the children of Israel he laid not his hand\" with \"Peace be to you\"?"
+     "speaker": "WD",
+     "text": [
+      "There is a definite connection with John 20 in that way; and that added touch as to the nobles - \"the nobles of the children of Israel\" - agrees with what has been said as to dignity."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "There is a definite connection with John 20 in that way; and that added touch as to the nobles - \"the nobles of the children of Israel\" - agrees with what has been said as to dignity."
+     "speaker": "DJH",
+     "text": [
+      "Did you not say earlier something as to the grace of the ascended Christ relating to the revelation of God? Would that be this?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Did you not say earlier something as to the grace of the ascended Christ relating to the revelation of God? Would that be this?"
+     "speaker": "WD",
+     "text": [
+      ". It would be this, in that the revelation of God in Christ involves all that He is morally, and what He is in His nature. Paul speaks in Philippians about the things that are more excellent, and it is good in a world of degradation to accustom our thinking and affections to what is morally uplifting and connected with God."
+     ]
     },
     {
-     "speaker": "W.D",
-     "text": ". It would be this, in that the revelation of God in Christ involves all that He is morally, and what He is in His nature. Paul speaks in Philippians about the things that are more excellent, and it is good in a world of degradation to accustom our thinking and affections to what is morally uplifting and connected with God."
+     "speaker": "DJH",
+     "text": [
+      "Yes, I was thankful for the remark as to collective worship. It is something which is very close to us, a suggestion that what is collective in the way of experience is not possible now and that the Lord comes to individuals, but it is important to speak of the collective experience that we have. It is a very current matter with us."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Yes, I was thankful for the remark as to collective worship. It is something which is very close to us, a suggestion that what is collective in the way of experience is not possible now and that the Lord comes to individuals, but it is important to speak of the collective experience that we have. It is a very current matter with us."
+     "speaker": "WD",
+     "text": [
+      "Well, if you discounted His coming to us collectively you would relieve yourself of the obligation to provide a collective state."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, if you discounted His coming to us collectively you would relieve yourself of the obligation to provide a collective state."
+     "speaker": "VEW",
+     "text": [
+      "Is there a unity marking them in the ascent?"
+     ]
     },
     {
-     "speaker": "V.E.W.",
-     "text": "Is there a unity marking them in the ascent?"
+     "speaker": "WD",
+     "text": [
+      "Yes, they went up, seventy of the elders of Israel, as if they go up joyfully."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, they went up, seventy of the elders of Israel, as if they go up joyfully."
+     "speaker": "VEW",
+     "text": [
+      "I wondered too if underlying it all was the working out of exercises which God requires."
+     ]
     },
     {
-     "speaker": "V.E.W.",
-     "text": "I wondered too if underlying it all was the working out of exercises which God requires."
+     "speaker": "WD",
+     "text": [
+      "There is a strong moral line in it. For example, you think of the presence of Nadab and Abihu. What do you say about that? You know the history of things, what happened to them. Aaron had four sons - Nadab, Abihu, Eleazar and Ithamar - but he took these two up. Now the subsequent history brings out that it was possible for these two priests to be in the most elevated sphere in company with others and yet they had not taken on the glory to the extent that they were preserved in Leviticus 10. What do you say about that?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "There is a strong moral line in it. For example, you think of the presence of Nadab and Abihu. What do you say about that? You know the history of things, what happened to them. Aaron had four sons - Nadab, Abihu, Eleazar and Ithamar - but he took these two up. Now the subsequent history brings out that it was possible for these two priests to be in the most elevated sphere in company with others and yet they had not taken on the glory to the extent that they were preserved in Leviticus 10. What do you say about that?"
+     "speaker": "ECB",
+     "text": [
+      "I think it is very instructive, especially as even at the beginning of the chapter those two are designated. It says, \"And he said to Moses, Go up to Jehovah, thou and Aaron, Nadab and Abihu\". These went up; but is it not rather a sober word to us that we have had some experience of greatest privilege and yet failed by the introduction of what is natural?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think it is very instructive, especially as even at the beginning of the chapter those two are designated. It says, \"And he said to Moses, Go up to Jehovah, thou and Aaron, Nadab and Abihu\". These went up; but is it not rather a sober word to us that we have had some experience of greatest privilege and yet failed by the introduction of what is natural?"
+     "speaker": "WD",
+     "text": [
+      "What they did in Leviticus 10 was lawless and is to remind us how narrow the line is between our place of privilege and service and the lawlessness of our own wills."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "What they did in Leviticus 10 was lawless and is to remind us how narrow the line is between our place of privilege and service and the lawlessness of our own wills."
+     "speaker": "HAH",
+     "text": [
+      "Is there any connection in that (although it was personal to him) with Paul's experience? He had the greatest privilege, but he says that lest he should be exalted above measure, he had to have a thorn for the flesh. I wondered if that underlines what we may be capable of."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Is there any connection in that (although it was personal to him) with Paul's experience? He had the greatest privilege, but he says that lest he should be exalted above measure, he had to have a thorn for the flesh. I wondered if that underlines what we may be capable of."
+     "speaker": "WD",
+     "text": [
+      "So you have to guard your mind because, no matter how fixed your thoughts may be about any matter, always keep at the back of your mind the possibility that you might be wrong."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "So you have to guard your mind because, no matter how fixed your thoughts may be about any matter, always keep at the back of your mind the possibility that you might be wrong."
+     "speaker": "DEB",
+     "text": [
+      "The fact that we may have had the experience of the Lord coming to us last Lord's day is no guarantee in itself that we shall have it tomorrow."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "The fact that we may have had the experience of the Lord coming to us last Lord's day is no guarantee in itself that we shall have it tomorrow."
+     "speaker": "WD",
+     "text": [
+      "That is very exercising. We have the Spirit, the fruit of the ascension of Christ, and this would give us to be near the Lord so that there are conditions for Him to come. Someone has said that He comes to individuals, but it is undeniable that the richest experience in the service of God, and the height that can be touched in holy worship, relates to the collective side. Is that right?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is very exercising. We have the Spirit, the fruit of the ascension of Christ, and this would give us to be near the Lord so that there are conditions for Him to come. Someone has said that He comes to individuals, but it is undeniable that the richest experience in the service of God, and the height that can be touched in holy worship, relates to the collective side. Is that right?"
+     "speaker": "DEB",
+     "text": [
+      "And that is not maintained automatically, is it? Here it is what is under His feet; there needs to be a conformity with that."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "And that is not maintained automatically, is it? Here it is what is under His feet; there needs to be a conformity with that."
+     "speaker": "WD",
+     "text": [
+      "It is a great moral thought. I do not want to trade in terms that perhaps the younger brethren do not understand, but God is a moral Being, and our relations on the level of the ascension of Christ have to be fortified by the fact that our relations with God are also on a moral basis."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is a great moral thought. I do not want to trade in terms that perhaps the younger brethren do not understand, but God is a moral Being, and our relations on the level of the ascension of Christ have to be fortified by the fact that our relations with God are also on a moral basis."
+     "speaker": "JW",
+     "text": [
+      "Would you say that the greater the privilege the greater the responsibility?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Would you say that the greater the privilege the greater the responsibility?"
+     "speaker": "WD",
+     "text": [
+      "Undoubtedly and that is why the privilege of the ministry we have had for one hundred and fifty years, blessed as it is, has added to our responsibility."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Undoubtedly and that is why the privilege of the ministry we have had for one hundred and fifty years, blessed as it is, has added to our responsibility."
+     "speaker": "JW",
+     "text": [
+      "I wondered if these persons represented that, represented persons of responsibility; they saw the conditions, as you say, that God was accustomed to, that suited God, and then there would be the question of conditions here to be suitable for God, would you say?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "I wondered if these persons represented that, represented persons of responsibility; they saw the conditions, as you say, that God was accustomed to, that suited God, and then there would be the question of conditions here to be suitable for God, would you say?"
+     "speaker": "WD",
+     "text": [
+      "Yes. I have often thought that the tabernacle system, which began to evolve in chapter 25 onwards in the pattern of things given to Moses, could not in a sense have been established without the calling attention to the fact that the One who was to dwell in that system was a holy God."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. I have often thought that the tabernacle system, which began to evolve in chapter 25 onwards in the pattern of things given to Moses, could not in a sense have been established without the calling attention to the fact that the One who was to dwell in that system was a holy God."
+     "speaker": "JM",
+     "text": [
+      "Do you think that that is absolutely essential because in that system He was going to come down to the dust of the desert, and in the magnitude of His grace we should never leave out of our minds the holiness of His Person? Do you think that, even in intimacy with Christ and with God, that must always be carried in our minds?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Do you think that that is absolutely essential because in that system He was going to come down to the dust of the desert, and in the magnitude of His grace we should never leave out of our minds the holiness of His Person? Do you think that, even in intimacy with Christ and with God, that must always be carried in our minds?"
+     "speaker": "WD",
+     "text": [
+      "I think so, and in the addressing of divine Persons a holy reverence befits us according to the divine presence."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so, and in the addressing of divine Persons a holy reverence befits us according to the divine presence."
+     "speaker": "WJRB",
+     "text": [
+      "This is really the beginning of the opening up of the tabernacle system. In chapter 25 it is \"bring me a heave offering\" (v 1)."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "This is really the beginning of the opening up of the tabernacle system. In chapter 25 it is \"bring me a heave offering\" (v 1)."
+     "speaker": "CCI",
+     "text": [
+      "Does the reference by the Lord to righteous Father and Holy Father balance up the great truth of the Father which is one of intimacy and affection, but the moral side and the holiness - the attributes of God - are shining in that blessed Person before our hearts?"
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Does the reference by the Lord to righteous Father and Holy Father balance up the great truth of the Father which is one of intimacy and affection, but the moral side and the holiness - the attributes of God - are shining in that blessed Person before our hearts?"
+     "speaker": "WD",
+     "text": [
+      "It really enhances the service when these things are kept before us."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It really enhances the service when these things are kept before us."
+     "speaker": "ECB",
+     "text": [
+      "So that later, when God says to them \"be ye holy for I am holy\", there was already the knowledge among the people of what holiness was."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "So that later, when God says to them \"be ye holy for I am holy\", there was already the knowledge among the people of what holiness was."
+     "speaker": "WD",
+     "text": [
+      "Yes; and this passage that we are speaking about brings out the wonderful exactitude with which the truth is unfolded. God says, I am going to dwell amongst My people in this tabernacle, but it has to be clearly before this representative company, Moses and Aaron, Nadab and Abihu, and the seventy elders, that I am a holy God."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes; and this passage that we are speaking about brings out the wonderful exactitude with which the truth is unfolded. God says, I am going to dwell amongst My people in this tabernacle, but it has to be clearly before this representative company, Moses and Aaron, Nadab and Abihu, and the seventy elders, that I am a holy God."
+     "speaker": "DAB",
+     "text": [
+      "Would you say that what you are speaking of is one of the lessons that we learn from being occupied with Christ ascended, because He is in a moral glory in one sense, is He not?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Would you say that what you are speaking of is one of the lessons that we learn from being occupied with Christ ascended, because He is in a moral glory in one sense, is He not?"
+     "speaker": "WD",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes."
+     "speaker": "DAB",
+     "text": [
+      "And I wondered if the Holy Spirit would, in testifying to us, bring that glory and that character of glory before us."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "And I wondered if the Holy Spirit would, in testifying to us, bring that glory and that character of glory before us."
+     "speaker": "WD",
+     "text": [
+      "Yes. So in John 6 you see what Peter came to, the holy One of God."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. So in John 6 you see what Peter came to, the holy One of God."
+     "speaker": "DAB",
+     "text": [
+      "Is that really the point of the Psalm; “who shall stand in his holy place?\". We can see a Man who has, can we not?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Is that really the point of the Psalm; “who shall stand in his holy place?\". We can see a Man who has, can we not?"
+     "speaker": "WD",
+     "text": [
+      "Yes, that is good. It says, \"Who shall ascend into the mount of Jehovah? and who shall stand in his holy place? He that hath blameless hands and a pure heart\"."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, that is good. It says, \"Who shall ascend into the mount of Jehovah? and who shall stand in his holy place? He that hath blameless hands and a pure heart\"."
+     "speaker": "JCE",
+     "text": [
+      "The instruction of the Psalm is very beautiful. There is the moral road, as you say, but then the recompense for that is that the King of glory comes in."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "The instruction of the Psalm is very beautiful. There is the moral road, as you say, but then the recompense for that is that the King of glory comes in."
+     "speaker": "WD",
+     "text": [
+      "Yes - so \"The earth is Jehovah's, and the fulness thereof; the world, and they that dwell therein\". That coming in seems to indicate that we can leave the earth to God; let us concentrate on our heavenly portion. These two leaders in Washington recently (we pray for them): the gist of their conversation was undoubtedly who was going to own the title deeds of the earth. They need not have worried: there is one Man we know who has the title deeds of the earth. He established His right to these title deeds in His death, the shedding of His blood; they belong to Him. We accept all that is happening in the world, all the unrest, and we concentrate on this matter, the going up into the holy hill of God. I often wonder what is the most testing, the blameless hands or the pure heart."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes - so \"The earth is Jehovah's, and the fulness thereof; the world, and they that dwell therein\". That coming in seems to indicate that we can leave the earth to God; let us concentrate on our heavenly portion. These two leaders in Washington recently (we pray for them): the gist of their conversation was undoubtedly who was going to own the title deeds of the earth. They need not have worried: there is one Man we know who has the title deeds of the earth. He established His right to these title deeds in His death, the shedding of His blood; they belong to Him. We accept all that is happening in the world, all the unrest, and we concentrate on this matter, the going up into the holy hill of God. I often wonder what is the most testing, the blameless hands or the pure heart."
+     "speaker": "JCE",
+     "text": [
+      "I think the latter because otherwise it would be idolatry."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "I think the latter because otherwise it would be idolatry."
+     "speaker": "WD",
+     "text": [
+      "That was my thought, the pure heart is a bigger test than the blameless hands."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That was my thought, the pure heart is a bigger test than the blameless hands."
+     "speaker": "SDKR",
+     "text": [
+      "There was only One who fully answered to the Psalm, that is the Lord Jesus Himself."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "There was only One who fully answered to the Psalm, that is the Lord Jesus Himself."
+     "speaker": "WD",
+     "text": [
+      "Exclusively?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Exclusively?"
+     "speaker": "SDKR",
+     "text": [
+      "I would have thought so."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "I would have thought so."
+     "speaker": "DER",
+     "text": [
+      "Surely the point is that the encouragement would be that those moral features would mark us too, so that we should know what it is to ascend into the mountain of God's holiness."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "Surely the point is that the encouragement would be that those moral features would mark us too, so that we should know what it is to ascend into the mountain of God's holiness."
+     "speaker": "WD",
+     "text": [
+      "It just comes back to what we have been saying as to how we view the ascension. If you are sufficiently sensitive you could not think of going up into the holy place otherwise, and you test yourself - blameless hands, pure heart. What our brother said is the truth; you may say, I am perfectly clear in my associations, my hands are blameless. A pure heart: what about your relations with your brother, the brother you break bread with, the sister you break bread with, whether here or a hundred or a thousand miles away? A pure heart: that is the test."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It just comes back to what we have been saying as to how we view the ascension. If you are sufficiently sensitive you could not think of going up into the holy place otherwise, and you test yourself - blameless hands, pure heart. What our brother said is the truth; you may say, I am perfectly clear in my associations, my hands are blameless. A pure heart: what about your relations with your brother, the brother you break bread with, the sister you break bread with, whether here or a hundred or a thousand miles away? A pure heart: that is the test."
+     "speaker": "JCE",
+     "text": [
+      "As to claiming anything we would be slow, but we are exhorted to love one another out of a pure heart fervently (see 1 Pet 1: 22)."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "As to claiming anything we would be slow, but we are exhorted to love one another out of a pure heart fervently (see 1 Pet 1: 22)."
+     "speaker": "WD",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes."
+     "speaker": "EMW",
+     "text": [
+      "In connection with Dr Roberts' comment, that verse would be absolute as to Christ, but it is really the character for us, is it not?"
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "In connection with Dr Roberts' comment, that verse would be absolute as to Christ, but it is really the character for us, is it not?"
+     "speaker": "WD",
+     "text": [
+      "Undoubtedly; but you would know that it is a challenge to the remnant in a day to come. The King of glory in verse 7 and onwards contemplates the Lord's ultimate entrance into Jerusalem, but are they going to receive Him? Have the persons who receive Him a pure heart and blameless hands? That is contemplated as a result of the sufferings they go through. We go through a lot of discipline in our parts like other parts. It is an exercise as to what the Lord is working out morally amongst us through that discipline. I think that this matter of blameless hands and a pure heart is one of the ends that the Lord wants to reach in the discipline that He passes us through. Would you agree with that?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Undoubtedly; but you would know that it is a challenge to the remnant in a day to come. The King of glory in verse 7 and onwards contemplates the Lord's ultimate entrance into Jerusalem, but are they going to receive Him? Have the persons who receive Him a pure heart and blameless hands? That is contemplated as a result of the sufferings they go through. We go through a lot of discipline in our parts like other parts. It is an exercise as to what the Lord is working out morally amongst us through that discipline. I think that this matter of blameless hands and a pure heart is one of the ends that the Lord wants to reach in the discipline that He passes us through. Would you agree with that?"
+     "speaker": "EMW",
+     "text": [
+      "Yes, I would think that is right; as you say, it anticipates the remnant, has them in mind, but then we are something of that character in these days. I think what you are bringing before us is very searching. How far any of it is our experience is another question."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "Yes, I would think that is right; as you say, it anticipates the remnant, has them in mind, but then we are something of that character in these days. I think what you are bringing before us is very searching. How far any of it is our experience is another question."
+     "speaker": "WD",
+     "text": [
+      "Our experience collectively is so important (see Eph 1: 4) and we are assured that the Lord has something here. There was an address given in this city by Mr James Taylor fifty years ago - brethren can look it up - and I am not saying this because I think it is of any particular bearing on this city. The title of the address is 'What God can do through one believer' (see Vol. 44, p.553). It is very solemn what he said in that address. He refers to the crisis in the testimony a hundred and forty years ago - you know what I am referring to - and he said that unless there is incessant combat against the principles that the enemy subtly introduced in 1849, the Lord will leave us. The brethren can read that address for themselves."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Our experience collectively is so important (see Eph 1: 4) and we are assured that the Lord has something here. There was an address given in this city by Mr James Taylor fifty years ago - brethren can look it up - and I am not saying this because I think it is of any particular bearing on this city. The title of the address is 'What God can do through one believer' (see Vol. 44, p.553). It is very solemn what he said in that address. He refers to the crisis in the testimony a hundred and forty years ago - you know what I am referring to - and he said that unless there is incessant combat against the principles that the enemy subtly introduced in 1849, the Lord will leave us. The brethren can read that address for themselves."
+     "speaker": "EP",
+     "text": [
+      "That word was given, was it not, in relation to the word in Jeremiah as to an iron pillar and brazen walls? It is a challenge to us all, is it not? But then you referred to what the Lord is doing at the present time, and in the principle of it He is sitting as the refiner and the purifier of silver. The Levites are in mind so that God is to be served."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "That word was given, was it not, in relation to the word in Jeremiah as to an iron pillar and brazen walls? It is a challenge to us all, is it not? But then you referred to what the Lord is doing at the present time, and in the principle of it He is sitting as the refiner and the purifier of silver. The Levites are in mind so that God is to be served."
+     "speaker": "WD",
+     "text": [
+      "That is right. I am not in any way implying that the condition is such that the Lord would leave us - not at all - but I think sober-minded brethren would agree that we have to be exercised to preserve in holiness what the Lord has given us collectively."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is right. I am not in any way implying that the condition is such that the Lord would leave us - not at all - but I think sober-minded brethren would agree that we have to be exercised to preserve in holiness what the Lord has given us collectively."
+     "speaker": "EMW",
+     "text": [
+      "We cannot take for granted that the Lord will leave His testimony with us."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "We cannot take for granted that the Lord will leave His testimony with us."
+     "speaker": "WD",
+     "text": [
+      "No; we trust He will do, and we feel encouraged to think that He will do so, but our part is to be together, young and old alike, in this matter of walking in holiness as serving in the full light of Christianity."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "No; we trust He will do, and we feel encouraged to think that He will do so, but our part is to be together, young and old alike, in this matter of walking in holiness as serving in the full light of Christianity."
+     "speaker": "RWF",
+     "text": [
+      "The divine thought is, do you think, that we should answer to the challenge and continue? - \"This is the generation of them that seek unto him\"."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "The divine thought is, do you think, that we should answer to the challenge and continue? - \"This is the generation of them that seek unto him\"."
+     "speaker": "WD",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes."
+     "speaker": "SDKR",
+     "text": [
+      "The generation would mean that we would all seek to take character from that Man."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "The generation would mean that we would all seek to take character from that Man."
-    },
-    {
-     "speaker": "W.D.",
-     "text": "Yes. We want to help one another to enjoy what the Lord has given us, and let the Lord enjoy our company. The Spirit would give us in these days a profound sense of thankfulness that His presence is marked by a living ministry amongst God's people."
+     "speaker": "WD",
+     "text": [
+      "Yes. We want to help one another to enjoy what the Lord has given us, and let the Lord enjoy our company. The Spirit would give us in these days a profound sense of thankfulness that His presence is marked by a living ministry amongst God's people."
+     ]
     }
    ]
   },
@@ -870,6 +1218,20 @@
      "text": "I just want to come back in closing to the Ephesian overcomer, to point out that there is no word in Revelation 2 about the twelve fruits in twelve months. I would suggest that what the Ephesian overcomer can feast upon at this moment is eternal in character; eternal joys are ours, eternal blessing, precious access to such a sphere where our eternal portion will be, in the paradise of God! In the day in which we live, dear brethren, even in the midst of church ruin, the overcomer has access to eternal joys, can drink of life's perennial river and feed on life's perennial food. This is our portion, dear brethren. May we touch these things in an increasing measure, for His own Name's sake."
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "ASCENSION",
+   "kind": "default_place",
+   "detail": "LONDON given to 10 names (\"All local unless otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "ASCENSION",
+   "kind": "speaker_not_in_key",
+   "detail": "CCI (3 paragraphs)"
   }
  ]
 }

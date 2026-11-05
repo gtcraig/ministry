@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -26,10 +26,12 @@
    "place": "Kirkcaldy",
    "date": "31st May 2015",
    "speakers": [
+    "PAG",
     "RT",
     "MC",
     "RG",
     "TM",
+    "CS",
     "JAP",
     "AW",
     "HS",
@@ -39,66 +41,82 @@
    "initials": [
     {
      "initials": "TDB",
-     "name": "(local unless otherwise stated) T D Beveridge"
+     "name": "T D Beveridge",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "AB",
-     "name": "A Buchan"
+     "name": "A Buchan",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "MC",
-     "name": "M Cowan"
+     "name": "M Cowan",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "RG",
-     "name": "R Gardiner"
+     "name": "R Gardiner",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "PAGG",
-     "name": "P A Gray (Grangemouth)"
+     "initials": "PAG",
+     "name": "P A Gray",
+     "place": "Grangemouth"
     },
     {
      "initials": "TM",
-     "name": "T Mather"
+     "name": "T Mather",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "DM",
-     "name": "D Matthews jnr"
+     "name": "D Matthews Jnr",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "DM",
-     "name": "D Matthews snr"
+     "name": "D Matthews Snr",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "DTP",
-     "name": "D T Pye"
+     "name": "D T Pye",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "JAP",
-     "name": "J A Pye"
+     "name": "J A Pye",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "CSG",
-     "name": "C Seeley (Glasgow)"
+     "initials": "CS",
+     "name": "C Seeley",
+     "place": "Glasgow"
     },
     {
      "initials": "HS",
-     "name": "H Smith"
+     "name": "H Smith",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "RT",
-     "name": "R Taylor"
+     "name": "R Taylor",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "JT",
-     "name": "J Thompson"
+     "name": "J Thompson",
+     "place": "Kirkcaldy"
     },
     {
      "initials": "AW",
-     "name": "A Wilson"
+     "name": "A Wilson",
+     "place": "Kirkcaldy"
     }
    ],
    "initials_heading": "Key to initials:",
+   "initials_comment": "local unless otherwise stated",
    "initials_text": [
     "(local unless otherwise stated)",
     "T D Beveridge; A Buchan; M Cowan; R Gardiner; P A Gray (Grangemouth);",
@@ -107,409 +125,580 @@
    ],
    "paragraphs": [
     {
-     "text": "PAG When we were together this morning, the brother who gave thanks for the emblems made reference to the Lord speaking to the Father about “the glory which I had along with thee before the world was”, and the fact that the Lord now has other glories besides this glory. There is for example the glory of the Creator in Revelation 4, and the Redeemer in Revelation 5. Our brother referred to the glory of the “firstborn from among the dead” (Col 1: 18), and we know that the Lord is also “firstborn amongst many brethren”, Rom 8: 29: these belong to His exaltation as Man. I wondered therefore if we might enquire together as to glory that the Lord has which is further to what He had before the world was. The glory He refers to in verse 22 is the glory of sonship that He shares with us. But then there is glory which the Father has given Him, which we can behold but do not share. I wonder if we could get help in enquiring as to the Lord’s glory that He has won."
+     "speaker": "PAG",
+     "text": [
+      "When we were together this morning, the brother who gave thanks for the emblems made reference to the Lord speaking to the Father about “the glory which I had along with thee before the world was”, and the fact that the Lord now has other glories besides this glory. There is for example the glory of the Creator in Revelation 4, and the Redeemer in Revelation 5. Our brother referred to the glory of the “firstborn from among the dead” (Col 1: 18), and we know that the Lord is also “firstborn amongst many brethren”, Rom 8: 29: these belong to His exaltation as Man. I wondered therefore if we might enquire together as to glory that the Lord has which is further to what He had before the world was. The glory He refers to in verse 22 is the glory of sonship that He shares with us. But then there is glory which the Father has given Him, which we can behold but do not share. I wonder if we could get help in enquiring as to the Lord’s glory that He has won."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Is not the wonder of it that He now has the glory in verse 5 as Man?"
+     "text": [
+      "Is not the wonder of it that He now has the glory in verse 5 as Man?"
+     ]
     },
     {
-     "text": "PAG Yes. So we often say that He never ceased to be what He was in becoming Man, but having become Man He has added glory, do you think?"
+     "speaker": "PAG",
+     "text": [
+      "Yes. So we often say that He never ceased to be what He was in becoming Man, but having become Man He has added glory, do you think?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "The glory was impenetrable before, was it not, but now there is something available to us that never was before - shining in a Man - someone we know? Someone who died for us now has this glory."
+     "text": [
+      "The glory was impenetrable before, was it not, but now there is something available to us that never was before - shining in a Man - someone we know? Someone who died for us now has this glory."
+     ]
     },
     {
-     "text": "PAG So it says in Colossians that “in him dwells all the fulness of the Godhead bodily”, chap 2: 9. The fact that the reference there is to dwelling in Him bodily would suggest what is accessible to us; we can take account of it. Our brother in prayer at the beginning referred to seeing His face; that is by faith and by the Spirit. We are not just seeing something abstract as a range of glories come before us."
+     "speaker": "PAG",
+     "text": [
+      "So it says in Colossians that “in him dwells all the fulness of the Godhead bodily”, chap 2: 9. The fact that the reference there is to dwelling in Him bodily would suggest what is accessible to us; we can take account of it. Our brother in prayer at the beginning referred to seeing His face; that is by faith and by the Spirit. We are not just seeing something abstract as a range of glories come before us."
+     ]
     },
     {
      "speaker": "MC",
-     "text": "Glories are given to Him because of His worth. We have the passage in Hebrews which refers to Him being “made some little inferior to angels”, but it is immediately followed by “crowned him with glory and honour”, chap 2: 7."
+     "text": [
+      "Glories are given to Him because of His worth. We have the passage in Hebrews which refers to Him being “made some little inferior to angels”, but it is immediately followed by “crowned him with glory and honour”, chap 2: 7."
+     ]
     },
     {
-     "text": "PAG Yes. He has been proved to be morally suitable for the glory. Of course He is suitable personally as well, and He is suitable for the official glories that He has. In His person He is greater than any glory that can be conferred on Him. But still, God is justified in a Man who is morally equal to bearing the glory, do you think?"
+     "speaker": "PAG",
+     "text": [
+      "Yes. He has been proved to be morally suitable for the glory. Of course He is suitable personally as well, and He is suitable for the official glories that He has. In His person He is greater than any glory that can be conferred on Him. But still, God is justified in a Man who is morally equal to bearing the glory, do you think?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "We sometimes sing,"
+     "text": [
+      "We sometimes sing,",
+      "For Thou hast brought again to Him",
+      "More than by man He lost;",
+      "And in the very place of sin",
+      "We see his glory most.",
+      "(Hymn 431)",
+      "Is it not a wonderful triumph of divine power and love, that even in this condition in which we are, we can see His glory? We have seen something of it this morning at the breaking of bread, have we not?"
+     ]
     },
     {
-     "text": "For Thou hast brought again to Him"
-    },
-    {
-     "text": "More than by man He lost;"
-    },
-    {
-     "text": "And in the very place of sin"
-    },
-    {
-     "text": "We see his glory most."
-    },
-    {
-     "text": "(Hymn 431)"
-    },
-    {
-     "text": "Is it not a wonderful triumph of divine power and love, that even in this condition in which we are, we can see His glory? We have seen something of it this morning at the breaking of bread, have we not?"
-    },
-    {
-     "text": "PAG His glory has a transforming power, do you think? “We all, looking on the glory of the Lord, with unveiled face, are transformed …”, 2 Cor 3: 18. What a power there is! This is a glory that has a power all of its own, and it causes us to be changed, and to be brought into conformity to Him. There is a time coming when we will be like Him, 1 John 3: 2. We will have a new body not marked by failure. Paul speaks of our present condition as “our body of humiliation” (Phil 3: 21), but there is to be moral conformity to Him now, do you think?"
+     "speaker": "PAG",
+     "text": [
+      "His glory has a transforming power, do you think? “We all, looking on the glory of the Lord, with unveiled face, are transformed …”, 2 Cor 3: 18. What a power there is! This is a glory that has a power all of its own, and it causes us to be changed, and to be brought into conformity to Him. There is a time coming when we will be like Him, 1 John 3: 2. We will have a new body not marked by failure. Paul speaks of our present condition as “our body of humiliation” (Phil 3: 21), but there is to be moral conformity to Him now, do you think?"
+     ]
     },
     {
      "speaker": "TM",
-     "text": "In Luke 2: 9, just after the birth of Jesus, it says, “an angel of the Lord was there by them, and the glory of the Lord shone around them”; it is great material evidence of the glory of the Lord being revealed."
+     "text": [
+      "In Luke 2: 9, just after the birth of Jesus, it says, “an angel of the Lord was there by them, and the glory of the Lord shone around them”; it is great material evidence of the glory of the Lord being revealed."
+     ]
     },
     {
-     "text": "PAG So that would be a glory that shone from heaven, but in that Babe that was born there was capacity to “bear the glory”, Zech 6: 13. Reference is made to “the holy thing also which shall be born”, Luke 1: 35. That is a significant expression. It does not say, ‘the holy child’; it says, “the holy thing”. It suggests that there was something there that was substantial, and Christ in manhood is substantially able to bear the glory."
-    },
-    {
-     "speaker": "RT",
-     "text": "He says earlier in this chapter, “I have glorified thee on the earth”, John 17: 4. Does this enter into what you have in mind?"
-    },
-    {
-     "text": "PAG Yes. Say more for our help."
-    },
-    {
-     "speaker": "RT",
-     "text": "This could not have been in the Old Testament, could it? But there is a door opened in the work that Jesus has done. And God, who was largely unknown before, has been made known and glorified where man had disowned Him. Man had disqualified himself; there is a Man who has glorified God on the earth, and glory is now the answer."
-    },
-    {
-     "text": "PAG Yes; so there is a voice out of heaven in chapter 12, “I both have glorified and will glorify it again”, relating to the Father’s name, v 28. The Father’s name was glorified in a Man, and it would be glorified again at the cross, but then glorified too in the Lord’s resurrection. He was “raised up from among the dead by the glory of the Father”, Rom 6: 4."
+     "speaker": "PAG",
+     "text": [
+      "So that would be a glory that shone from heaven, but in that Babe that was born there was capacity to “bear the glory”, Zech 6: 13. Reference is made to “the holy thing also which shall be born”, Luke 1: 35. That is a significant expression. It does not say, ‘the holy child’; it says, “the holy thing”. It suggests that there was something there that was substantial, and Christ in manhood is substantially able to bear the glory."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Heaven is all the more a wonderful place than it was before."
+     "text": [
+      "He says earlier in this chapter, “I have glorified thee on the earth”, John 17: 4. Does this enter into what you have in mind?"
+     ]
     },
     {
-     "text": "PAG Yes. I do think that it is important that we see that God has been fully justified in a Man. All the men that went before failed. But God showed that He could have in a Man One who would do His will, and One who would glorify Him on the earth. It might have been one thing to glorify God in heaven, where everything is in order, but it is a greater matter to glorify Him on earth, where sin had come in."
+     "speaker": "PAG",
+     "text": [
+      "Yes. Say more for our help."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Man was cast out of Eden, was he not, but here He speaks of being received in glory?"
+     "text": [
+      "This could not have been in the Old Testament, could it? But there is a door opened in the work that Jesus has done. And God, who was largely unknown before, has been made known and glorified where man had disowned Him. Man had disqualified himself; there is a Man who has glorified God on the earth, and glory is now the answer."
+     ]
     },
     {
-     "text": "PAG That is very good. Something of that will be seen millennially too, “And I saw no temple in it; for the Lord God Almighty is its temple, and the Lamb”, Rev. 21: 22. It will be brought out in display then. So the whole universe shall see it, but God saw it when Christ was here."
+     "speaker": "PAG",
+     "text": [
+      "Yes; so there is a voice out of heaven in chapter 12, “I both have glorified and will glorify it again”, relating to the Father’s name, v 28. The Father’s name was glorified in a Man, and it would be glorified again at the cross, but then glorified too in the Lord’s resurrection. He was “raised up from among the dead by the glory of the Father”, Rom 6: 4."
+     ]
     },
     {
-     "text": "CS He not only glorified God but He said, “I have completed the work”, v 4. So He is the great Accomplisher, is He not? So there are glories that are added through what He has accomplished? For example, He now has glory as the Redeemer."
+     "speaker": "RT",
+     "text": [
+      "Heaven is all the more a wonderful place than it was before."
+     ]
     },
     {
-     "text": "PAG It is important for us to see that there was great cost involved in God being glorified. There was a work that had to be done; there was a work that man after nature could not do: and here was One who came in, and not only did it, but completed it. Many may begin a thing, but there is glory to God in completing it, and it says of the Lord in John 19, “When therefore Jesus had received the vinegar, he said, It is finished”, v 30. “It is finished”; well, God was glorified. You might say it was a scene of death, a scene of rejection, a scene of humiliation; that is man’s view of it, but God’s view is what matters."
+     "speaker": "PAG",
+     "text": [
+      "Yes. I do think that it is important that we see that God has been fully justified in a Man. All the men that went before failed. But God showed that He could have in a Man One who would do His will, and One who would glorify Him on the earth. It might have been one thing to glorify God in heaven, where everything is in order, but it is a greater matter to glorify Him on earth, where sin had come in."
+     ]
+    },
+    {
+     "speaker": "RT",
+     "text": [
+      "Man was cast out of Eden, was he not, but here He speaks of being received in glory?"
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "That is very good. Something of that will be seen millennially too, “And I saw no temple in it; for the Lord God Almighty is its temple, and the Lamb”, Rev. 21: 22. It will be brought out in display then. So the whole universe shall see it, but God saw it when Christ was here."
+     ]
+    },
+    {
+     "speaker": "CS",
+     "text": [
+      "He not only glorified God but He said, “I have completed the work”, v 4. So He is the great Accomplisher, is He not? So there are glories that are added through what He has accomplished? For example, He now has glory as the Redeemer."
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "It is important for us to see that there was great cost involved in God being glorified. There was a work that had to be done; there was a work that man after nature could not do: and here was One who came in, and not only did it, but completed it. Many may begin a thing, but there is glory to God in completing it, and it says of the Lord in John 19, “When therefore Jesus had received the vinegar, he said, It is finished”, v 30. “It is finished”; well, God was glorified. You might say it was a scene of death, a scene of rejection, a scene of humiliation; that is man’s view of it, but God’s view is what matters."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Is it not a remarkable thing that in verses 4 and 5 He says, “I have completed the work which thou gavest me that I should do it; and now glorify me, thou Father”? One who was co-equal, and is co-equal, with God, and now a Man, is a Man in sonship. There is something very wonderful about that, because “the glory which thou hast given me I have given them” refers to the glory of sonship, as we know. So, while He stands out unique because of the greatness of His Person, the glory of who He is and was and ever shall be, yet we are brought in alongside of Him to share in this glory."
+     "text": [
+      "Is it not a remarkable thing that in verses 4 and 5 He says, “I have completed the work which thou gavest me that I should do it; and now glorify me, thou Father”? One who was co-equal, and is co-equal, with God, and now a Man, is a Man in sonship. There is something very wonderful about that, because “the glory which thou hast given me I have given them” refers to the glory of sonship, as we know. So, while He stands out unique because of the greatness of His Person, the glory of who He is and was and ever shall be, yet we are brought in alongside of Him to share in this glory."
+     ]
     },
     {
-     "text": "PAG So there are added glories for the Lord, but there are added glories for the Father too. He has what He had not before. He has men in sonship who are like Christ, and God will dwell with men eternally, and it will be with men who are like Christ. God did not have that before, and now He does, and He always will."
+     "speaker": "PAG",
+     "text": [
+      "So there are added glories for the Lord, but there are added glories for the Father too. He has what He had not before. He has men in sonship who are like Christ, and God will dwell with men eternally, and it will be with men who are like Christ. God did not have that before, and now He does, and He always will."
+     ]
     },
     {
      "speaker": "JAP",
-     "text": "So “Israel loved Joseph more than all his sons … and he made him a vest of many colours”, Gen 37: 3. Is that something of “the glory that thou hast given me”?"
+     "text": [
+      "So “Israel loved Joseph more than all his sons … and he made him a vest of many colours”, Gen 37: 3. Is that something of “the glory that thou hast given me”?"
+     ]
     },
     {
-     "text": "PAG I was thinking of that; I am glad that you bring it in. That vest was one vest; it was not a selection of different pieces of material that might be brought out for one occasion or another. He always had the whole vest, but at the time of the service of praise there may be certain of the colours come before us in a particularly distinctive way on one occasion, and then different colours on another, do you think?"
+     "speaker": "PAG",
+     "text": [
+      "I was thinking of that; I am glad that you bring it in. That vest was one vest; it was not a selection of different pieces of material that might be brought out for one occasion or another. He always had the whole vest, but at the time of the service of praise there may be certain of the colours come before us in a particularly distinctive way on one occasion, and then different colours on another, do you think?"
+     ]
     },
     {
      "speaker": "JAP",
-     "text": "So we answer to the word as to David, “Arise, anoint him; for this is he”, 1 Sam 16: 12. It is appreciation that is drawn out in the souls of the saints, do you think?"
+     "text": [
+      "So we answer to the word as to David, “Arise, anoint him; for this is he”, 1 Sam 16: 12. It is appreciation that is drawn out in the souls of the saints, do you think?"
+     ]
     },
     {
-     "text": "PAG Yes, that is good. So that in the anointing of David by Samuel, God looks on the heart, v 7. He saw what was there morally in David, and he was a youth, “he was ruddy, and besides of a lovely countenance and beautiful appearance”. There had been other sons passed before Samuel, but they would not sit at table until he came, v 11. We cannot proceed in the service of praise until Christ comes in."
-    },
-    {
-     "speaker": "RT",
-     "text": "Are “the Apostle and High Priest of our confession” (Heb 3: 1) two of the glories the Lord Jesus has been given?"
-    },
-    {
-     "text": "PAG Yes, go on."
-    },
-    {
-     "speaker": "RT",
-     "text": "In the mystery of piety, “God has been manifested in flesh … received up in glory” (1 Tim 3: 16), and that has opened the door, has it not? John 17 has been spoken of as referring to our great High Priest. There is Somebody who maintains things in heaven for us, keeping us there, you may say. We are here in weakness, but He is there for us, is He not?"
-    },
-    {
-     "text": "PAG Yes. So the fact that He has “the priesthood unchangeable” (Heb 7: 24) means that the glory is always maintained at its height. There is no decline in the Person, and there is no decline in the glory do you think?"
+     "speaker": "PAG",
+     "text": [
+      "Yes, that is good. So that in the anointing of David by Samuel, God looks on the heart, v 7. He saw what was there morally in David, and he was a youth, “he was ruddy, and besides of a lovely countenance and beautiful appearance”. There had been other sons passed before Samuel, but they would not sit at table until he came, v 11. We cannot proceed in the service of praise until Christ comes in."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Yes. It is fine to get beyond the breakdown, is it not?"
+     "text": [
+      "Are “the Apostle and High Priest of our confession” (Heb 3: 1) two of the glories the Lord Jesus has been given?"
+     ]
     },
     {
-     "text": "PAG It is. We can go into the holiest at any time. It takes us out of the area of breakdown."
+     "speaker": "PAG",
+     "text": [
+      "Yes, go on."
+     ]
+    },
+    {
+     "speaker": "RT",
+     "text": [
+      "In the mystery of piety, “God has been manifested in flesh … received up in glory” (1 Tim 3: 16), and that has opened the door, has it not? John 17 has been spoken of as referring to our great High Priest. There is Somebody who maintains things in heaven for us, keeping us there, you may say. We are here in weakness, but He is there for us, is He not?"
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "Yes. So the fact that He has “the priesthood unchangeable” (Heb 7: 24) means that the glory is always maintained at its height. There is no decline in the Person, and there is no decline in the glory do you think?"
+     ]
+    },
+    {
+     "speaker": "RT",
+     "text": [
+      "Yes. It is fine to get beyond the breakdown, is it not?"
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "It is. We can go into the holiest at any time. It takes us out of the area of breakdown."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "I was just thinking of that quotation that you made. He has “neither beginning of days nor end of life”, Heb 7: 3. That was true of Him before time. It is still true of Him as a Man, and that adds to His glory, does it not?"
+     "text": [
+      "I was just thinking of that quotation that you made. He has “neither beginning of days nor end of life”, Heb 7: 3. That was true of Him before time. It is still true of Him as a Man, and that adds to His glory, does it not?"
+     ]
     },
     {
-     "text": "PAG It is “power of indissoluble life”, v 16. It is life that does not ebb and flow, and it cannot change. It is not a question of whether it might change or might not; it is unchangeable. The priesthood is unchangeable; the life is unchangeable; the glory is unchangeable. We sing hymns, and we greatly value them, but I wonder how much they really mean to us in their familiarity."
-    },
-    {
-     "text": "Unchanging glory fills the place,"
-    },
-    {
-     "text": "Where Jesus dwells on high,"
-    },
-    {
-     "text": "(Hymn 26)."
-    },
-    {
-     "text": "Well, it does, but is it real to me?"
+     "speaker": "PAG",
+     "text": [
+      "It is “power of indissoluble life”, v 16. It is life that does not ebb and flow, and it cannot change. It is not a question of whether it might change or might not; it is unchangeable. The priesthood is unchangeable; the life is unchangeable; the glory is unchangeable. We sing hymns, and we greatly value them, but I wonder how much they really mean to us in their familiarity.",
+      "Unchanging glory fills the place,",
+      "Where Jesus dwells on high,",
+      "(Hymn 26).",
+      "Well, it does, but is it real to me?"
+     ]
     },
     {
      "speaker": "AW",
-     "text": "This is all connected with the Father loving the Son, is it not? Can you say something to encourage us in that?"
+     "text": [
+      "This is all connected with the Father loving the Son, is it not? Can you say something to encourage us in that?"
+     ]
     },
     {
-     "text": "PAG Well, it is very important to grasp that what lies behind all this is love, and love in its fullest expression. “The love with which thou hast loved me may be in them and I in them”. God’s motive, I think we can safely say, in securing through Christ men for His presence eternally, was love, and it is His nature. Say something as to your own impression."
+     "speaker": "PAG",
+     "text": [
+      "Well, it is very important to grasp that what lies behind all this is love, and love in its fullest expression. “The love with which thou hast loved me may be in them and I in them”. God’s motive, I think we can safely say, in securing through Christ men for His presence eternally, was love, and it is His nature. Say something as to your own impression."
+     ]
     },
     {
      "speaker": "AW",
-     "text": "I just feel that we need to get some impression of this interaction between the Father and the Son. “Thou hast loved me”; that is what we come into. It is the same characteristics that we can enjoy, and that is because we have a link with this One, is it not?"
+     "text": [
+      "I just feel that we need to get some impression of this interaction between the Father and the Son. “Thou hast loved me”; that is what we come into. It is the same characteristics that we can enjoy, and that is because we have a link with this One, is it not?"
+     ]
     },
     {
-     "text": "PAG Yes. Christ was loved as Man; and it was love that was known in an atmosphere in which there was nothing to hinder or spoil it. It would relate to what our brother said about taking us beyond the breakdown. This was a love that had never known breakdown."
+     "speaker": "PAG",
+     "text": [
+      "Yes. Christ was loved as Man; and it was love that was known in an atmosphere in which there was nothing to hinder or spoil it. It would relate to what our brother said about taking us beyond the breakdown. This was a love that had never known breakdown.",
+      "DM snr Do you think Stephen saw something of this in the Acts 7, when he was being stoned? “He saw the glory of God, and Jesus”, v 55. He saw a Man there in righteousness and holiness – the beauty of the One that he was going to be with, do you think?"
+     ]
     },
     {
-     "text": "DM snr Do you think Stephen saw something of this in the Acts 7, when he was being stoned? “He saw the glory of God, and Jesus”, v 55. He saw a Man there in righteousness and holiness – the beauty of the One that he was going to be with, do you think?"
+     "speaker": "PAG",
+     "text": [
+      "Well, it is a thing to take account of. He recognised Him; “he saw the glory of God, and Jesus”. When we see Him we will be like Him, 1 John 3: 2. But will we recognise Him? I think we will; it will not be a stranger that we see: it will be One whom we know. And what will we recognise? Well, we will see His face but we will see His glory too.",
+      "DM snr This might be included in John’s contemplation in chapter 1: 14. These chapters that he has written are a contemplation of His glory."
+     ]
     },
     {
-     "text": "PAG Well, it is a thing to take account of. He recognised Him; “he saw the glory of God, and Jesus”. When we see Him we will be like Him, 1 John 3: 2. But will we recognise Him? I think we will; it will not be a stranger that we see: it will be One whom we know. And what will we recognise? Well, we will see His face but we will see His glory too."
-    },
-    {
-     "text": "DM snr This might be included in John’s contemplation in chapter 1: 14. These chapters that he has written are a contemplation of His glory."
-    },
-    {
-     "text": "PAG I think that bears helpfully on what our brother just said. “A glory as of an only-begotten with a father”. If it was written as a natural man might edit a passage, one might ask what is meant by glory as of an only-begotten with a father. There could not be an only-begotten if there was not a father; so why add that? Well, the Spirit adds it because I think it shows that we are being drawn into a sphere of affection: “an only-begotten with a father”."
+     "speaker": "PAG",
+     "text": [
+      "I think that bears helpfully on what our brother just said. “A glory as of an only-begotten with a father”. If it was written as a natural man might edit a passage, one might ask what is meant by glory as of an only-begotten with a father. There could not be an only-begotten if there was not a father; so why add that? Well, the Spirit adds it because I think it shows that we are being drawn into a sphere of affection: “an only-begotten with a father”."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "The Lord now knew a relationship as a Man, as a Son before the Father. That is wonderful is it not?"
+     "text": [
+      "The Lord now knew a relationship as a Man, as a Son before the Father. That is wonderful is it not?"
+     ]
     },
     {
-     "text": "PAG It is good to remind ourselves of these things. There was something taken up that had not been before. “Coming into the world he says …”; so there was a point in time in which God’s counsels were taken up. And it was new."
+     "speaker": "PAG",
+     "text": [
+      "It is good to remind ourselves of these things. There was something taken up that had not been before. “Coming into the world he says …”; so there was a point in time in which God’s counsels were taken up. And it was new."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "It has been said, I think rightly, that Christendom largely knows a historical Jesus; but what we are to know is a glorified Jesus. The only Jesus we may know vitally is a glorified One. I think it is important that young people should get the grasp of that, because largely they are taught, if they are taught anything at school, about a historical Jesus. But He is a Man who has been glorified, and that is the only Jesus we have, and we have a link with Him eternally."
+     "text": [
+      "It has been said, I think rightly, that Christendom largely knows a historical Jesus; but what we are to know is a glorified Jesus. The only Jesus we may know vitally is a glorified One. I think it is important that young people should get the grasp of that, because largely they are taught, if they are taught anything at school, about a historical Jesus. But He is a Man who has been glorified, and that is the only Jesus we have, and we have a link with Him eternally."
+     ]
     },
     {
-     "text": "PAG Yes. So it is interesting that when you get the expression as to the Supper in 1 Cor. 11 the word in verse 24 is, “This is my body, which is for you: this do in remembrance of me.” Now we might think that remembrance involves something in the past; you remember something in the past. But the note is important; it says, “’For the calling of me to mind.’ The word translated ‘remembrance’ has an active signification of ‘recalling’, or ‘calling to mind’, as a memorial”. If you go then to Exodus 3 you get the name brought in, “I AM THAT I AM” (v 14), but it says, “Jehovah, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, hath sent me unto you. This is my name for ever, and this is my memorial unto all generations”, v 15. His Name is His memorial. Now that means that we are remembering Someone who is alive, not someone who is dead. And even as to the expression “the God of Abraham, the God of Isaac, and the God of Jacob” the Lord reminded persons when He was here that God is “not the God of the dead but of the living”, Mark 12: 27. So it is living persons who remember a living Man, not living persons who remember a dead man."
+     "speaker": "PAG",
+     "text": [
+      "Yes. So it is interesting that when you get the expression as to the Supper in 1 Cor. 11 the word in verse 24 is, “This is my body, which is for you: this do in remembrance of me.” Now we might think that remembrance involves something in the past; you remember something in the past. But the note is important; it says, “’For the calling of me to mind.’ The word translated ‘remembrance’ has an active signification of ‘recalling’, or ‘calling to mind’, as a memorial”. If you go then to Exodus 3 you get the name brought in, “I AM THAT I AM” (v 14), but it says, “Jehovah, the God of your fathers, the God of Abraham, the God of Isaac, and the God of Jacob, hath sent me unto you. This is my name for ever, and this is my memorial unto all generations”, v 15. His Name is His memorial. Now that means that we are remembering Someone who is alive, not someone who is dead. And even as to the expression “the God of Abraham, the God of Isaac, and the God of Jacob” the Lord reminded persons when He was here that God is “not the God of the dead but of the living”, Mark 12: 27. So it is living persons who remember a living Man, not living persons who remember a dead man."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Our remembrance is of a Man in the glory. So we call Him to mind as a memorial. It is a wonderful thought that we have Spirit-given power to be able to call Him to mind where He is, do you think?"
+     "text": [
+      "Our remembrance is of a Man in the glory. So we call Him to mind as a memorial. It is a wonderful thought that we have Spirit-given power to be able to call Him to mind where He is, do you think?"
+     ]
     },
     {
-     "text": "PAG Would what John says in his first epistle bear on it? ”That which we have seen and heard we report to you, that ye also may have fellowship with us; and our fellowship is indeed with the Father, and with his Son Jesus Christ”, chap 1: 3. Now when John wrote that, his fellowship was with Christ in glory. And he says, “And these things write we to you that your joy may be full”, v 4. That has to be present joy in a living Man. There is only so much you can gain from remembering what is past. But to know Christ as He is, is really what will occupy us eternally."
+     "speaker": "PAG",
+     "text": [
+      "Would what John says in his first epistle bear on it? ”That which we have seen and heard we report to you, that ye also may have fellowship with us; and our fellowship is indeed with the Father, and with his Son Jesus Christ”, chap 1: 3. Now when John wrote that, his fellowship was with Christ in glory. And he says, “And these things write we to you that your joy may be full”, v 4. That has to be present joy in a living Man. There is only so much you can gain from remembering what is past. But to know Christ as He is, is really what will occupy us eternally."
+     ]
     },
     {
      "speaker": "HS",
-     "text": "The Spirit is very active here, is He not? He is the One who can communicate these things. Would you say a little as to that so that we may understand it better?"
+     "text": [
+      "The Spirit is very active here, is He not? He is the One who can communicate these things. Would you say a little as to that so that we may understand it better?"
+     ]
     },
     {
-     "text": "PAG Well, the Spirit provides a living link with a living Man so that the Lord says in chapter 16 verse 14, “He” - the Spirit - “shall glorify me”. “He shall glorify me, for he shall receive of mine and shall announce it to you”. Everything that is to be known of Christ is already under the Spirit’s hand, but “he shall receive of mine and announce it to you” means that the Spirit brings forward at any time particular glories of Christ that are suited to the moment."
+     "speaker": "PAG",
+     "text": [
+      "Well, the Spirit provides a living link with a living Man so that the Lord says in chapter 16 verse 14, “He” - the Spirit - “shall glorify me”. “He shall glorify me, for he shall receive of mine and shall announce it to you”. Everything that is to be known of Christ is already under the Spirit’s hand, but “he shall receive of mine and announce it to you” means that the Spirit brings forward at any time particular glories of Christ that are suited to the moment."
+     ]
     },
     {
      "speaker": "HS",
-     "text": "My current understanding of this has to be by the Spirit; the Lord Himself says that here."
+     "text": [
+      "My current understanding of this has to be by the Spirit; the Lord Himself says that here."
+     ]
     },
     {
-     "text": "PAG Yes, it must be. Well, you could read the whole of the Bible without the Spirit and it would just be a history book. The Spirit would show us that “the glory which thou hast given me I have given them” is the glory we have in sonship. It is something we have been taught, but we have been taught by the Spirit to enquire in the temple what these things mean. If it was not for the Spirit we would have no access to glory. We need to have that clear in our minds."
+     "speaker": "PAG",
+     "text": [
+      "Yes, it must be. Well, you could read the whole of the Bible without the Spirit and it would just be a history book. The Spirit would show us that “the glory which thou hast given me I have given them” is the glory we have in sonship. It is something we have been taught, but we have been taught by the Spirit to enquire in the temple what these things mean. If it was not for the Spirit we would have no access to glory. We need to have that clear in our minds."
+     ]
     },
     {
      "speaker": "MC",
-     "text": "It is a living experience, is it not, and by the Spirit we get fresh impressions? These can accumulate in our hearts and produce more by way of depth, do you think?"
+     "text": [
+      "It is a living experience, is it not, and by the Spirit we get fresh impressions? These can accumulate in our hearts and produce more by way of depth, do you think?"
+     ]
     },
     {
-     "text": "PAG I am struck by how often we will hear a scripture read and someone will say, ‘It never quite struck me before’. Now you might have heard it or read it many times, but the Spirit brings out something distinctive on that day, some fresh feature. The active, living power of the Spirit gives us a fresh impression. And sometimes He will bring to our minds an impression that we have had before and it takes on a new significance. So that is all to do with the present service of the Spirit, I believe."
+     "speaker": "PAG",
+     "text": [
+      "I am struck by how often we will hear a scripture read and someone will say, ‘It never quite struck me before’. Now you might have heard it or read it many times, but the Spirit brings out something distinctive on that day, some fresh feature. The active, living power of the Spirit gives us a fresh impression. And sometimes He will bring to our minds an impression that we have had before and it takes on a new significance. So that is all to do with the present service of the Spirit, I believe."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Is that not borne out by where you read at the end of the chapter. “I have made known to them thy name, and will make it known”. You were asking just now how we know that “the glory which thou hast given me I have given them” relates to the glory of sonship?”. “I have made known to them thy name”, that is the Father’s Name and that brings in the glory of sonship. “And will make it known”: is something that is being unveiled for us that the Lord delights to open up to us in relation to the Father. And that then gives the Lord added glory, does it not?"
+     "text": [
+      "Is that not borne out by where you read at the end of the chapter. “I have made known to them thy name, and will make it known”. You were asking just now how we know that “the glory which thou hast given me I have given them” relates to the glory of sonship?”. “I have made known to them thy name”, that is the Father’s Name and that brings in the glory of sonship. “And will make it known”: is something that is being unveiled for us that the Lord delights to open up to us in relation to the Father. And that then gives the Lord added glory, does it not?"
+     ]
     },
     {
-     "text": "PAG It is as well for us, do you think, to understand that the glories added in the souls of the saints in this dispensation are cumulative? It is not that each generation gets an impression, and then that passes away, and another generation gets another impression and it passes away. As to nature that is so, but as to glory it is not. The glory that the disciples appreciated, and those appreciated by everyone that forms part of the assembly, will form part of the assembly eternally. There is the glory of all these centuries of time that perhaps we do not know very much about. Bernard of Clairvaux wrote in the eleventh or twelfth century,"
-    },
-    {
-     "text": "Jesus! the very thought of Thee"
-    },
-    {
-     "text": "(Hymn 279)."
-    },
-    {
-     "text": "That is all added. The man who wrote it has been gone nearly a thousand years, but the glory remains and it will come out in display."
-    },
-    {
-     "speaker": "RT",
-     "text": "Christ has entered “into heaven itself, now to appear before the face of God for us”, Heb 9: 24. What a touch of His love there is in that. We may limit His love to the cross. He died for us, that is true, but this gives a sense of more being added to that, and it is eternal?"
-    },
-    {
-     "text": "PAG I have been thinking about that a little. The love remains; the Lord’s service - the washing of water by the word (Eph 5: 26) - is His present love. That is not a historical love. “Christ also loved the assembly, and has delivered himself up for it” (v 25); there is a work already done. But then the present service of the washing of water by the word involves, I think, conformity to the glory."
+     "speaker": "PAG",
+     "text": [
+      "It is as well for us, do you think, to understand that the glories added in the souls of the saints in this dispensation are cumulative? It is not that each generation gets an impression, and then that passes away, and another generation gets another impression and it passes away. As to nature that is so, but as to glory it is not. The glory that the disciples appreciated, and those appreciated by everyone that forms part of the assembly, will form part of the assembly eternally. There is the glory of all these centuries of time that perhaps we do not know very much about. Bernard of Clairvaux wrote in the eleventh or twelfth century,",
+      "Jesus! the very thought of Thee",
+      "(Hymn 279).",
+      "That is all added. The man who wrote it has been gone nearly a thousand years, but the glory remains and it will come out in display."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "That is here in the verse, “I sanctify myself for them”, John 17: 18. It has often been said that the assembly is His occupation in the time of His absence, is it not? The world goes on; it does not interfere exactly: His occupation is the assembly."
+     "text": [
+      "Christ has entered “into heaven itself, now to appear before the face of God for us”, Heb 9: 24. What a touch of His love there is in that. We may limit His love to the cross. He died for us, that is true, but this gives a sense of more being added to that, and it is eternal?"
+     ]
     },
     {
-     "text": "PAG Yes, and to think that One so great would sanctify Himself for us, set Himself apart in that sense, that we might be brought in to the fulness of the things that God has prepared for those that love Him."
+     "speaker": "PAG",
+     "text": [
+      "I have been thinking about that a little. The love remains; the Lord’s service - the washing of water by the word (Eph 5: 26) - is His present love. That is not a historical love. “Christ also loved the assembly, and has delivered himself up for it” (v 25); there is a work already done. But then the present service of the washing of water by the word involves, I think, conformity to the glory."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "The whole world will bow before Him; praise the Lamb! But here is something that is present and to be enjoyed."
+     "text": [
+      "That is here in the verse, “I sanctify myself for them”, John 17: 18. It has often been said that the assembly is His occupation in the time of His absence, is it not? The world goes on; it does not interfere exactly: His occupation is the assembly."
+     ]
     },
     {
-     "text": "PAG Yes. So we have the earnest by the Spirit, but we should not forget that divine Persons have now a foretaste of what They will have eternally. That is in a sense a greater thing. We could narrow it down to what we appreciate and enjoy, but think of what the Lord is receiving and the Father is receiving."
+     "speaker": "PAG",
+     "text": [
+      "Yes, and to think that One so great would sanctify Himself for us, set Himself apart in that sense, that we might be brought in to the fulness of the things that God has prepared for those that love Him."
+     ]
+    },
+    {
+     "speaker": "RT",
+     "text": [
+      "The whole world will bow before Him; praise the Lamb! But here is something that is present and to be enjoyed."
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "Yes. So we have the earnest by the Spirit, but we should not forget that divine Persons have now a foretaste of what They will have eternally. That is in a sense a greater thing. We could narrow it down to what we appreciate and enjoy, but think of what the Lord is receiving and the Father is receiving."
+     ]
     },
     {
      "speaker": "DTP",
-     "text": "I was thinking of John in the Revelation; he distinctly got a touch as to the Lord’s glory. He had never seen it that way before, and we should get touches of that too, because it leads onto the Lord’s opening up the revelation as to the churches and what is going through."
+     "text": [
+      "I was thinking of John in the Revelation; he distinctly got a touch as to the Lord’s glory. He had never seen it that way before, and we should get touches of that too, because it leads onto the Lord’s opening up the revelation as to the churches and what is going through."
+     ]
     },
     {
-     "text": "PAG That is good. So John begins with his present enjoyment of the love: “To him who loves us, and has washed us from our sins in his blood, and made us a kingdom, priests to his God and Father” (Rev. 1: 5,6), but then he gets a view of the glory. And it is so different from the glory He had previously seen. He says, “I fell at his feet as dead”, v17. But then the Lord lays His right hand upon John and says, “Fear not”. We may have to take account of the Lord’s judicial glory, and it is real and it is necessary, but in giving us that view He says to those whom He loves, “Fear not”."
+     "speaker": "PAG",
+     "text": [
+      "That is good. So John begins with his present enjoyment of the love: “To him who loves us, and has washed us from our sins in his blood, and made us a kingdom, priests to his God and Father” (Rev. 1: 5,6), but then he gets a view of the glory. And it is so different from the glory He had previously seen. He says, “I fell at his feet as dead”, v17. But then the Lord lays His right hand upon John and says, “Fear not”. We may have to take account of the Lord’s judicial glory, and it is real and it is necessary, but in giving us that view He says to those whom He loves, “Fear not”."
+     ]
     },
     {
      "speaker": "JT",
-     "text": "“The glory which thou hast given me I have given them, that they may be one, as we are one” really brings out freshness, and sonship brings out the place that we have in divine affections: the Father’s affections and the Son’s affections."
+     "text": [
+      "“The glory which thou hast given me I have given them, that they may be one, as we are one” really brings out freshness, and sonship brings out the place that we have in divine affections: the Father’s affections and the Son’s affections."
+     ]
     },
     {
-     "text": "PAG That is helpful. So these ones who were given, He did not have them before but now He does. And I think an added glory here is “that they may be one as we are one”. We know that God is One. But now He is producing a company that is one; there is testimony in that. There is testimony in the fact that God has at the present time on earth what is marked by oneness. Again, that is apart from the breakdown. But He did not have that before."
-    },
-    {
-     "speaker": "RT",
-     "text": "Unity at this level is something to be coveted at the present time. Can you say something about that?"
-    },
-    {
-     "text": "PAG I do think it is most important because we can see that one of the things that the enemy is set against is unity. He will bring in division and distraction, and he will bring in difficulties in the spirits of the saints that cause them to diverge from one another. Divine glory properly appreciated always has a unifying effect; I think I can say that from Scripture. If a problem comes in, the answer is a view of the glory of Christ. Certain issues may arise, but the answer is going to be some view of the glory of Christ, and it will have a unifying effect."
-    },
-    {
-     "speaker": "RT",
-     "text": "That is right, and much needed because we try to get unity at a lower level and it will never work. So it says here, “sanctify them by the truth”, v 17. This level of things is going to hold us together in an unbreakable bond, is it not?"
-    },
-    {
-     "text": "PAG Well, that is another matter to think of. Paul says in Ephesians 4, “as the truth is in Jesus”, v 21. So there is the Person, and there is the standard. If the truth is to be available to us, we see it objectively in Christ, and it is formed in us subjectively by the Spirit. The truth is our bond, and that is what holds us together. Now you might say, ‘Is love our bond?’. Well, love is the bond of perfectness. That is to say that if we do not hold the truth in love then we will not hold it in a complete way, but the truth is our bond. It is essential that we grasp that, because it means that we are operating in relation to the divine standard set out in a Man. And again, God did not have that before. If you look at the old dispensation there was the law, but there was no one who exemplified it; but Christ fulfilled the law. He magnified the law and made it honourable."
+     "speaker": "PAG",
+     "text": [
+      "That is helpful. So these ones who were given, He did not have them before but now He does. And I think an added glory here is “that they may be one as we are one”. We know that God is One. But now He is producing a company that is one; there is testimony in that. There is testimony in the fact that God has at the present time on earth what is marked by oneness. Again, that is apart from the breakdown. But He did not have that before."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Unless we enjoy our privilege we will never fulfil our responsibility. Is that right?"
+     "text": [
+      "Unity at this level is something to be coveted at the present time. Can you say something about that?"
+     ]
     },
     {
-     "text": "PAG Well, that is another important matter. There is an address by Mr F E Raven, on ‘Fellowship, Privilege and Testimony’ (vol 1 p58), and that is the order. You cannot go out in testimony without the enjoyment of privilege, because then, what are you testifying to? And what are you seeking to bring people into? You want to bring persons into the privilege that we enjoy. Why? Because it is for the glory of God."
+     "speaker": "PAG",
+     "text": [
+      "I do think it is most important because we can see that one of the things that the enemy is set against is unity. He will bring in division and distraction, and he will bring in difficulties in the spirits of the saints that cause them to diverge from one another. Divine glory properly appreciated always has a unifying effect; I think I can say that from Scripture. If a problem comes in, the answer is a view of the glory of Christ. Certain issues may arise, but the answer is going to be some view of the glory of Christ, and it will have a unifying effect."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "They took knowledge of the apostles because they had been with Jesus, Acts 4: 13."
+     "text": [
+      "That is right, and much needed because we try to get unity at a lower level and it will never work. So it says here, “sanctify them by the truth”, v 17. This level of things is going to hold us together in an unbreakable bond, is it not?"
+     ]
     },
     {
-     "text": "PAG Yes. Really the testimony of the word of God which we preach has to be the testimony of Jesus. We can only bear testimony effectively to someone we have been with. It is spoken of in Isaiah 53 and also in Romans 10 as a report. How would you bring back a report of something you had not seen?"
+     "speaker": "PAG",
+     "text": [
+      "Well, that is another matter to think of. Paul says in Ephesians 4, “as the truth is in Jesus”, v 21. So there is the Person, and there is the standard. If the truth is to be available to us, we see it objectively in Christ, and it is formed in us subjectively by the Spirit. The truth is our bond, and that is what holds us together. Now you might say, ‘Is love our bond?’. Well, love is the bond of perfectness. That is to say that if we do not hold the truth in love then we will not hold it in a complete way, but the truth is our bond. It is essential that we grasp that, because it means that we are operating in relation to the divine standard set out in a Man. And again, God did not have that before. If you look at the old dispensation there was the law, but there was no one who exemplified it; but Christ fulfilled the law. He magnified the law and made it honourable."
+     ]
+    },
+    {
+     "speaker": "RT",
+     "text": [
+      "Unless we enjoy our privilege we will never fulfil our responsibility. Is that right?"
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "Well, that is another important matter. There is an address by Mr F E Raven, on ‘Fellowship, Privilege and Testimony’ (vol 1 p58), and that is the order. You cannot go out in testimony without the enjoyment of privilege, because then, what are you testifying to? And what are you seeking to bring people into? You want to bring persons into the privilege that we enjoy. Why? Because it is for the glory of God."
+     ]
+    },
+    {
+     "speaker": "RT",
+     "text": [
+      "They took knowledge of the apostles because they had been with Jesus, Acts 4: 13."
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "Yes. Really the testimony of the word of God which we preach has to be the testimony of Jesus. We can only bear testimony effectively to someone we have been with. It is spoken of in Isaiah 53 and also in Romans 10 as a report. How would you bring back a report of something you had not seen?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "“How shall they preach unless they have been sent” (Romans 10: 15), and you are not sent by a communication through the air. You are sent by a personal transaction and experience of His presence, and that is how you give something that He has given you, do you think?"
+     "text": [
+      "“How shall they preach unless they have been sent” (Romans 10: 15), and you are not sent by a communication through the air. You are sent by a personal transaction and experience of His presence, and that is how you give something that He has given you, do you think?"
+     ]
     },
     {
-     "text": "PAG Well, that is as it should be. There are younger brothers here who might be asked to preach. All I would say is this: you only need one impression of Christ because He is so great. The Spirit is God, and infinite in power, and, if we have an impression, the Spirit can help us to fill it out. It does not depend on me."
+     "speaker": "PAG",
+     "text": [
+      "Well, that is as it should be. There are younger brothers here who might be asked to preach. All I would say is this: you only need one impression of Christ because He is so great. The Spirit is God, and infinite in power, and, if we have an impression, the Spirit can help us to fill it out. It does not depend on me."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "The Spirit can tell you whether it is a right impression or not. How important the Spirit is. If we all have the Spirit, and there is only one Spirit, He would not be saying one thing to you and another thing to me. The truth is under His hand, and it comes to us all from the Spirit."
+     "text": [
+      "The Spirit can tell you whether it is a right impression or not. How important the Spirit is. If we all have the Spirit, and there is only one Spirit, He would not be saying one thing to you and another thing to me. The truth is under His hand, and it comes to us all from the Spirit."
+     ]
     },
     {
-     "text": "PAG Well, Paul says to the Ephesians saints, “There is one body and one Spirit …. one Lord, one faith, one baptism; one God and Father of all, who is over all, and through all …”, Eph 4: 4-6 This thought of oneness pervades the divine system. It was typified in the tabernacle system, where everything was anointed with oil. The tabernacle was one whole. That was a physical manifestation of it, “figures of the true” (Heb 9: 24), but now we are in the true. And the true is marked by oneness."
+     "speaker": "PAG",
+     "text": [
+      "Well, Paul says to the Ephesians saints, “There is one body and one Spirit …. one Lord, one faith, one baptism; one God and Father of all, who is over all, and through all …”, Eph 4: 4-6 This thought of oneness pervades the divine system. It was typified in the tabernacle system, where everything was anointed with oil. The tabernacle was one whole. That was a physical manifestation of it, “figures of the true” (Heb 9: 24), but now we are in the true. And the true is marked by oneness."
+     ]
     },
     {
      "speaker": "MC",
-     "text": "God has revealed Himself in Father, Son and Spirit, and we have come to understand what that means, and the love that exists between divine Persons themselves. It is a very wonderful privilege that we have any insight into that, but it has been made very manifest, has it not? I was thinking of what it says here about oneness, and the standard being the same oneness that marks divine Persons themselves which is a very wonderful thing that we should be able to touch it at all, do you think? But we have been given that glory. That is a marvellous privilege, do you think?"
+     "text": [
+      "God has revealed Himself in Father, Son and Spirit, and we have come to understand what that means, and the love that exists between divine Persons themselves. It is a very wonderful privilege that we have any insight into that, but it has been made very manifest, has it not? I was thinking of what it says here about oneness, and the standard being the same oneness that marks divine Persons themselves which is a very wonderful thing that we should be able to touch it at all, do you think? But we have been given that glory. That is a marvellous privilege, do you think?"
+     ]
     },
     {
-     "text": "PAG I do. It certainly has helped me to think of it in this way, that what the Lord unites to Himself is one. It is not just individuals -, “he that is joined to the Lord is one Spirit”, (1 Cor 6: 17); there is also one body in Christ. So that what is united to the Lord is one. And I have a part in that; but He then leads His own into the presence of the Father where we are associated with Him in sonship. It is the same persons, but viewed from a different standpoint. But we really come from the enjoyment of oneness into the presence of the Father where we see that divine Persons are one. But we touch it in spirit as united to Christ."
+     "speaker": "PAG",
+     "text": [
+      "I do. It certainly has helped me to think of it in this way, that what the Lord unites to Himself is one. It is not just individuals -, “he that is joined to the Lord is one Spirit”, (1 Cor 6: 17); there is also one body in Christ. So that what is united to the Lord is one. And I have a part in that; but He then leads His own into the presence of the Father where we are associated with Him in sonship. It is the same persons, but viewed from a different standpoint. But we really come from the enjoyment of oneness into the presence of the Father where we see that divine Persons are one. But we touch it in spirit as united to Christ."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Divine Persons are one; I like that: you could never think about the Lord taking disparity into heaven. Where there is oneness, there has always been oneness and always will be oneness."
+     "text": [
+      "Divine Persons are one; I like that: you could never think about the Lord taking disparity into heaven. Where there is oneness, there has always been oneness and always will be oneness."
+     ]
     },
     {
-     "text": "PAG What you say is borne out by what Paul says in 1 Thess 4, “the dead in Christ shall rise first; then we, the living who remain, shall be caught up together” with them in the clouds”, v 16, 17. The whole church will go up together. And whatever distance or fracture there may have been, it is all removed then."
+     "speaker": "PAG",
+     "text": [
+      "What you say is borne out by what Paul says in 1 Thess 4, “the dead in Christ shall rise first; then we, the living who remain, shall be caught up together” with them in the clouds”, v 16, 17. The whole church will go up together. And whatever distance or fracture there may have been, it is all removed then.",
+      "DM jnr It speaks of the Lord’s body of glory. It says that our bodies will be brought “into conformity to his body of glory”, Phil 3: 21. So the thought of oneness is there, but the body of glory that the Lord has now is something that He did not have in eternity past. Can you help us with that?"
+     ]
     },
     {
-     "text": "DM jnr It speaks of the Lord’s body of glory. It says that our bodies will be brought “into conformity to his body of glory”, Phil 3: 21. So the thought of oneness is there, but the body of glory that the Lord has now is something that He did not have in eternity past. Can you help us with that?"
+     "speaker": "PAG",
+     "text": [
+      "Well, I think it goes back to what our brother said at the beginning; it involves His manhood. So that is a position He did not have, but then it says in John’s first epistle, “Beloved, now are we children of God” (chap 3: 2); that is what we are at the present time. “And what we shall be has not yet been manifested; we know that if it is manifested we shall be like him, for we shall see him as he is”. So what He is in His present condition is going to be manifested, but when we see Him we will be like Him. That must be related to His manhood, because we cannot see what is impenetrable in relation to deity. Do you not think that will be a wonderful thing? We will see the Lord in actuality in glory as He is, and there will be nothing about you or me to hinder the enjoyment of what we see.",
+      "DM jnr The hymn puts it,",
+      "Sin-soiled feet have never trod;",
+      "(Hymn 206).",
+      "So we are morally suited to the glory of God there."
+     ]
     },
     {
-     "text": "PAG Well, I think it goes back to what our brother said at the beginning; it involves His manhood. So that is a position He did not have, but then it says in John’s first epistle, “Beloved, now are we children of God” (chap 3: 2); that is what we are at the present time. “And what we shall be has not yet been manifested; we know that if it is manifested we shall be like him, for we shall see him as he is”. So what He is in His present condition is going to be manifested, but when we see Him we will be like Him. That must be related to His manhood, because we cannot see what is impenetrable in relation to deity. Do you not think that will be a wonderful thing? We will see the Lord in actuality in glory as He is, and there will be nothing about you or me to hinder the enjoyment of what we see."
-    },
-    {
-     "text": "DM jnr The hymn puts it,"
-    },
-    {
-     "text": "Sin-soiled feet have never trod;"
-    },
-    {
-     "text": "(Hymn 206)."
-    },
-    {
-     "text": "So we are morally suited to the glory of God there."
-    },
-    {
-     "text": "PAG I think that. We are so used to conditions that are mixed. Even in times of highest privilege we can sometimes find ourselves distracted. It might even be something legitimate comes into our mind, but we need the Spirit’s help to concentrate. But then all these things will be gone; all the distractions will have been removed. We shall know even as we have been known, 1 Cor 13: 12."
+     "speaker": "PAG",
+     "text": [
+      "I think that. We are so used to conditions that are mixed. Even in times of highest privilege we can sometimes find ourselves distracted. It might even be something legitimate comes into our mind, but we need the Spirit’s help to concentrate. But then all these things will be gone; all the distractions will have been removed. We shall know even as we have been known, 1 Cor 13: 12."
+     ]
     },
     {
      "speaker": "MC",
-     "text": "We will have the capacity to take it all in. What a wonderful thing to have a body of glory like his own body of glory! I was thinking of the way that we will be sustained."
+     "text": [
+      "We will have the capacity to take it all in. What a wonderful thing to have a body of glory like his own body of glory! I was thinking of the way that we will be sustained."
+     ]
     },
     {
-     "text": "PAG We will be sustained eternally. We will still be in a mediatorial system, of course. The Spirit will be there, in power. We will remain creatures eternally. If you look at the variety of creation, all that we can see, the detail, what we know about the structure of the material world, even down to the level of atoms and smaller particles than that; all that is really the handiwork of God. Now the new creation will be more wonderful than that. I cannot say what it will be, but it will be more wonderful than that. There will be variety; there will be life: it will be inexhaustible. And we will be sustained in power forever. That is what God has in mind for us. Christ will be at the centre of it, and everything will be conformed to Him."
-    },
-    {
-     "speaker": "RT",
-     "text": "The new creation’s stainless joy"
-    },
-    {
-     "text": "Shines through the present gloom;"
-    },
-    {
-     "text": "That world of bliss without alloy,"
-    },
-    {
-     "text": "The saints’ eternal home”"
-    },
-    {
-     "text": "(Hymn 81)"
-    },
-    {
-     "text": "PAG Yes, we touch something of it; we do. I was thinking this morning at the service of God of Mr J N Darby’s hymn:"
-    },
-    {
-     "text": "Like Jesus! Grace supreme!"
-    },
-    {
-     "text": "Like Him before Thy face;"
-    },
-    {
-     "text": "Like Him, to know that glory beam"
-    },
-    {
-     "text": "Unhindered, face to face!"
-    },
-    {
-     "text": "(Hymn 72)"
-    },
-    {
-     "text": "There is no better thought for us."
+     "speaker": "PAG",
+     "text": [
+      "We will be sustained eternally. We will still be in a mediatorial system, of course. The Spirit will be there, in power. We will remain creatures eternally. If you look at the variety of creation, all that we can see, the detail, what we know about the structure of the material world, even down to the level of atoms and smaller particles than that; all that is really the handiwork of God. Now the new creation will be more wonderful than that. I cannot say what it will be, but it will be more wonderful than that. There will be variety; there will be life: it will be inexhaustible. And we will be sustained in power forever. That is what God has in mind for us. Christ will be at the centre of it, and everything will be conformed to Him."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "All that we are given is not for information; it is for formation."
+     "text": [
+      "The new creation’s stainless joy",
+      "Shines through the present gloom;",
+      "That world of bliss without alloy,",
+      "The saints’ eternal home”",
+      "(Hymn 81)"
+     ]
     },
     {
-     "text": "PAG Exactly. I remember you said a good few years ago in an address, as to being transformed according to the same image, it is a permanent change: something added every day for the glory of God eternally."
+     "speaker": "PAG",
+     "text": [
+      "Yes, we touch something of it; we do. I was thinking this morning at the service of God of Mr J N Darby’s hymn:",
+      "Like Jesus! Grace supreme!",
+      "Like Him before Thy face;",
+      "Like Him, to know that glory beam",
+      "Unhindered, face to face!",
+      "(Hymn 72)",
+      "There is no better thought for us."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "It makes the present time very important. There is something to be formed now. We are not going to grow in eternity, but there is something being formed now that will be at home in eternity."
+     "text": [
+      "All that we are given is not for information; it is for formation."
+     ]
     },
     {
-     "text": "PAG Yes, so we should desire to be formed in greater capacity now to take it in. It is not that we will see nothing new in eternity - it is a new creation. But our capacity, our measure, that is what is formed in time."
+     "speaker": "PAG",
+     "text": [
+      "Exactly. I remember you said a good few years ago in an address, as to being transformed according to the same image, it is a permanent change: something added every day for the glory of God eternally."
+     ]
+    },
+    {
+     "speaker": "RT",
+     "text": [
+      "It makes the present time very important. There is something to be formed now. We are not going to grow in eternity, but there is something being formed now that will be at home in eternity."
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "Yes, so we should desire to be formed in greater capacity now to take it in. It is not that we will see nothing new in eternity - it is a new creation. But our capacity, our measure, that is what is formed in time."
+     ]
     }
    ]
   },
@@ -683,6 +872,14 @@
      "text": "81 Roxburgh Road."
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "GLORIES GIVEN TO THE LORD",
+   "kind": "default_place",
+   "detail": "Kirkcaldy given to 13 names (\"local unless otherwise stated\")"
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,25 +26,27 @@
    "place": "New York",
    "date": "October 2000",
    "speakers": [
-    "J.D.G.",
-    "H.G.H.",
-    "J.A.P.",
-    "C.F.D.",
-    "G.D.R.",
-    "R.G.",
-    "J.G.",
-    "H.J.G.",
-    "L.D.P.",
-    "E.F.C.",
-    "T.V.",
-    "J.R.C.",
-    "A.S.H.",
-    "K.N.P."
+    "JDG",
+    "LMcF",
+    "HGH",
+    "JAP",
+    "CFD",
+    "GDR",
+    "RG",
+    "JG",
+    "WMcK",
+    "HJG",
+    "LDP",
+    "EFC",
+    "TV",
+    "JRC",
+    "ASH",
+    "KNP"
    ],
    "initials": [
     {
-     "initials": "NYJRC",
-     "name": "(New York unless otherwise shown) J.R.Cumming",
+     "initials": "JRC",
+     "name": "J.R.Cumming",
      "place": "Edinburgh"
     },
     {
@@ -64,7 +66,8 @@
     },
     {
      "initials": "ASH",
-     "name": "A.S.Hinkson"
+     "name": "A.S.Hinkson",
+     "place": "New York"
     },
     {
      "initials": "HGH",
@@ -72,11 +75,12 @@
      "place": "Wheaton"
     },
     {
-     "initials": "LM",
-     "name": "L.McFarlane"
+     "initials": "LMcF",
+     "name": "L.McFarlane",
+     "place": "New York"
     },
     {
-     "initials": "WM",
+     "initials": "WMcK",
      "name": "W.McKillop",
      "place": "Ormond Beach"
     },
@@ -87,11 +91,13 @@
     },
     {
      "initials": "LNP",
-     "name": "L.N.Phillips"
+     "name": "L.N.Phillips",
+     "place": "New York"
     },
     {
      "initials": "KNP",
-     "name": "K.N.Pye"
+     "name": "K.N.Pye",
+     "place": "New York"
     },
     {
      "initials": "GDR",
@@ -102,480 +108,743 @@
      "initials": "TV",
      "name": "T.VanderHoek",
      "place": "Denton"
+    },
+    {
+     "initials": "HJG",
+     "not_in_key": true
+    },
+    {
+     "initials": "JG",
+     "not_in_key": true
+    },
+    {
+     "initials": "LDP",
+     "not_in_key": true
+    },
+    {
+     "initials": "EFC",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to Initials",
+   "initials_comment": "New York unless otherwise shown",
    "initials_text": [
     "(New York unless otherwise shown)",
     "J.R.Cumming, Edinburgh; C.F.Dadd, Plainfield; R.Gardiner, Kirkcaldy; J.D.Gray, Edinburgh; A.S.Hinkson; H.G.Holt, Wheaton; L.McFarlane; W.McKillop, Ormond Beach; J.A.Petersen, Plainfield; L.N.Phillips; K.N.Pye; G.D.Rosenberry, San Francisco; T.VanderHoek, Denton"
    ],
    "paragraphs": [
     {
-     "speaker": "J.D.G.",
-     "text": "What has been suggested has sprung, as the brethren would understand, from impressions gained at the Lord’s Supper. I was quite impressed by the gathering of the saints to remember the Lord Jesus. It turned my mind to this scripture about the large upper room, the guest-chamber. I thought to read from Mark’s gospel, it says, “Where is my guest-chamber where I may eat the passover with my disciples?” It is a large upper room – which has its applications morally and spiritually – which should be made ready for the Lord to come among us. I read in 2 Corinthians 3 because of the setting as the brethren came in, what was manifest was Christ’s epistle. I think that was something to take account of before the Lord came in amongst us; what was present in the room to me was a manifestation of Christ’s epistle, written; something that is permanent, written there in the hearts of the saints. It says, “manifested to be Christ’s epistle ministered by us, written, not with ink, but the Spirit of the living God; not on stone tables, but on fleshy tables of the heart”. Something written, permanent, the work of God in the saints as they gather. So the room is furnished when the Lord comes in. I thought there was some indication, maybe more than an indication, in John 14 of His intention and the application of it; “I go to prepare you a place” – in His Father’s house – “and if I go and shall prepare you a place, I am coming again and shall receive you to myself, that where I am ye also may be”. He has His own place and His dignity and His Person and His own part in the service and the Spirit’s portion. However, I think there is an indication here of what His object is, if I can use the word rightly, and that is to take us to the place He has in the Father’s presence. And that is what led me to Ephesians 1 because “Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenlies in Christ; according as he has chosen us in him”; we are going into the presence of the Father, the One who has chosen us in Him. We are brought in in holy accord with the God into whose presence we are brought, “we should be holy and blameless before him in love”. And then He would give us a sense of the sovereignty of His will, “having marked us out beforehand for adoption through Jesus Christ to himself”, which as has been pointed out is to emphasise His pleasure in having us in His presence “through Jesus Christ to himself”. It is our joy to be there; our joy is full and filled with the divine presence because there is impartation of the Father’s love. And then just to touch on chapter 3: “to be strengthened with power by his Spirit in the inner man”. To know certain things – one thing that is wonderful, “to know the love of the Christ which surpasses knowledge; that ye may be filled even to all the fullness of God”. The saints are in that realm, not only the realm of the Father’s love, but the love of the Christ which, as Mr Darby points out somewhere, is an anchor to the soul in a scene where otherwise we might be overcome or overwhelmed by the grandeur of it. These are the thoughts I had in mind for the time we are together. I trust they will be profitable."
+     "speaker": "JDG",
+     "text": [
+      "What has been suggested has sprung, as the brethren would understand, from impressions gained at the Lord’s Supper. I was quite impressed by the gathering of the saints to remember the Lord Jesus. It turned my mind to this scripture about the large upper room, the guest-chamber. I thought to read from Mark’s gospel, it says, “Where is my guest-chamber where I may eat the passover with my disciples?” It is a large upper room – which has its applications morally and spiritually – which should be made ready for the Lord to come among us. I read in 2 Corinthians 3 because of the setting as the brethren came in, what was manifest was Christ’s epistle. I think that was something to take account of before the Lord came in amongst us; what was present in the room to me was a manifestation of Christ’s epistle, written; something that is permanent, written there in the hearts of the saints. It says, “manifested to be Christ’s epistle ministered by us, written, not with ink, but the Spirit of the living God; not on stone tables, but on fleshy tables of the heart”. Something written, permanent, the work of God in the saints as they gather. So the room is furnished when the Lord comes in. I thought there was some indication, maybe more than an indication, in John 14 of His intention and the application of it; “I go to prepare you a place” – in His Father’s house – “and if I go and shall prepare you a place, I am coming again and shall receive you to myself, that where I am ye also may be”. He has His own place and His dignity and His Person and His own part in the service and the Spirit’s portion. However, I think there is an indication here of what His object is, if I can use the word rightly, and that is to take us to the place He has in the Father’s presence. And that is what led me to Ephesians 1 because “Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenlies in Christ; according as he has chosen us in him”; we are going into the presence of the Father, the One who has chosen us in Him. We are brought in in holy accord with the God into whose presence we are brought, “we should be holy and blameless before him in love”. And then He would give us a sense of the sovereignty of His will, “having marked us out beforehand for adoption through Jesus Christ to himself”, which as has been pointed out is to emphasise His pleasure in having us in His presence “through Jesus Christ to himself”. It is our joy to be there; our joy is full and filled with the divine presence because there is impartation of the Father’s love. And then just to touch on chapter 3: “to be strengthened with power by his Spirit in the inner man”. To know certain things – one thing that is wonderful, “to know the love of the Christ which surpasses knowledge; that ye may be filled even to all the fullness of God”. The saints are in that realm, not only the realm of the Father’s love, but the love of the Christ which, as Mr Darby points out somewhere, is an anchor to the soul in a scene where otherwise we might be overcome or overwhelmed by the grandeur of it. These are the thoughts I had in mind for the time we are together. I trust they will be profitable."
+     ]
     },
     {
-     "text": "L.McF. Very timely. “A man shall meet you carrying a pitcher of water”. Who would that man represent?"
+     "speaker": "LMcF",
+     "text": [
+      "Very timely. “A man shall meet you carrying a pitcher of water”. Who would that man represent?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "You help us as to that."
+     "speaker": "JDG",
+     "text": [
+      "You help us as to that."
+     ]
     },
     {
-     "text": "L.McF. It has been thought it is a spiritual lead. It is like Simeon coming into the temple in the Spirit, do you think?"
+     "speaker": "LMcF",
+     "text": [
+      "It has been thought it is a spiritual lead. It is like Simeon coming into the temple in the Spirit, do you think?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes. It reminds you of that hymn:"
+     "speaker": "JDG",
+     "text": [
+      "Yes. It reminds you of that hymn:",
+      "Oft has the Comforter spoken of Thee (Hymn 4)",
+      "It would draw our hearts into the realm where Christ can manifest Himself, gather the saints together. He leads to the guest-chamber, “my guest-chamber”; it is a very fine word that, it is suggestive. I suppose this was the guest-chamber where He disclosed all that was in His heart in John’s gospel chapters 14 through to 17."
+     ]
     },
     {
-     "text": "Oft has the Comforter spoken of Thee (Hymn 4)"
+     "speaker": "LMcF",
+     "text": [
+      "There would be dignity connected with it, do you think?"
+     ]
     },
     {
-     "text": "It would draw our hearts into the realm where Christ can manifest Himself, gather the saints together. He leads to the guest-chamber, “my guest-chamber”; it is a very fine word that, it is suggestive. I suppose this was the guest-chamber where He disclosed all that was in His heart in John’s gospel chapters 14 through to 17."
+     "speaker": "JDG",
+     "text": [
+      "Yes. The place belongs to Him, He said, it is where manifestations take place. “Shew you a large upper room furnished” is suggestive of where He is going to expand for us in our affections the divine thoughts. We are to make ready there; it is interesting it says, “furnished ready” and then “there make ready for us”. The place is furnished by the saints, I think."
+     ]
     },
     {
-     "text": "L.McF. There would be dignity connected with it, do you think?"
+     "speaker": "LMcF",
+     "text": [
+      "That is the present time. The saints are the appropriate furnishings of this upper room?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes. The place belongs to Him, He said, it is where manifestations take place. “Shew you a large upper room furnished” is suggestive of where He is going to expand for us in our affections the divine thoughts. We are to make ready there; it is interesting it says, “furnished ready” and then “there make ready for us”. The place is furnished by the saints, I think."
+     "speaker": "JDG",
+     "text": [
+      "Yes. I think it is interesting to take account of this. Sometimes you get a fresh touch of it in your affections. Today as gathered in this place, the saints gathering from a city that surrounds us where man is largely neglectful of God, are persons coming up to celebrate the Supper. It is really Christ’s epistle; you can read something of Christ in the saints – manifest, he says, “manifested to be Christ’s epistle”."
+     ]
     },
     {
-     "text": "L.McF. That is the present time. The saints are the appropriate furnishings of this upper room?"
+     "speaker": "HGH",
+     "text": [
+      "It is the Teacher; would there be the thought of having been taught, the intelligent side?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes. I think it is interesting to take account of this. Sometimes you get a fresh touch of it in your affections. Today as gathered in this place, the saints gathering from a city that surrounds us where man is largely neglectful of God, are persons coming up to celebrate the Supper. It is really Christ’s epistle; you can read something of Christ in the saints – manifest, he says, “manifested to be Christ’s epistle”."
+     "speaker": "JDG",
+     "text": [
+      "Yes, “The Teacher says, Where is my guest-chamber”. The One from whom they had learned things as the Teacher, now they are going to know Him perhaps in a more intimate way. The Lord comes among us not exactly as a Teacher; He still is that but He does not come in that way, He comes in in the glory of His Person; He comes in as attracted to the personnel that are there, it is His epistle."
+     ]
     },
     {
-     "speaker": "H.G.H.",
-     "text": "It is the Teacher; would there be the thought of having been taught, the intelligent side?"
+     "speaker": "JAP",
+     "text": [
+      "What you say about enlargement is very interesting: I think that is good, that when the Lord Jesus went to heaven and the Spirit came the Supper was enlarged in 1 Corinthians 11. Would you agree that perhaps the passage in Acts 20, “we being assembled to break bread” (v.7), is what came out of that?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes, “The Teacher says, Where is my guest-chamber”. The One from whom they had learned things as the Teacher, now they are going to know Him perhaps in a more intimate way. The Lord comes among us not exactly as a Teacher; He still is that but He does not come in that way, He comes in in the glory of His Person; He comes in as attracted to the personnel that are there, it is His epistle."
+     "speaker": "JDG",
+     "text": [
+      "It is very fine to take account of the “we”, “we being assembled”. That is what I was impressed with in this scripture in Mark’s gospel that the upper room was furnished ready. They were ready for Him, there was a sphere where He would come to; love’s hands lay the table. The saints gathered together become the furnishings. I think we should take account of what is in the saints. Who are these persons that gather in this city and other cities too? They come up and sit down as brethren to celebrate the Lord’s Supper."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "What you say about enlargement is very interesting: I think that is good, that when the Lord Jesus went to heaven and the Spirit came the Supper was enlarged in 1 Corinthians 11. Would you agree that perhaps the passage in Acts 20, “we being assembled to break bread” (v.7), is what came out of that?"
+     "speaker": "CFD",
+     "text": [
+      "Is the idea of “furnished” a moral and spiritual idea?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "It is very fine to take account of the “we”, “we being assembled”. That is what I was impressed with in this scripture in Mark’s gospel that the upper room was furnished ready. They were ready for Him, there was a sphere where He would come to; love’s hands lay the table. The saints gathered together become the furnishings. I think we should take account of what is in the saints. Who are these persons that gather in this city and other cities too? They come up and sit down as brethren to celebrate the Lord’s Supper."
+     "speaker": "JDG",
+     "text": [
+      "Yes, I would think so, would you not? I think of it a moral and spiritual idea, the place is furnished; before we meet the Lord we meet the brethren. That is not original to me as the brethren know, but from time to time you get a fresh impression of it."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "Is the idea of “furnished” a moral and spiritual idea?"
+     "speaker": "GDR",
+     "text": [
+      "You are encouraged not to be afraid of the suggestion of what is exclusive. Do you not think that this is written over this whole matter “my guest-chamber”? It is His Supper and He knows who is there. He is not going everywhere, is He?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes, I would think so, would you not? I think of it a moral and spiritual idea, the place is furnished; before we meet the Lord we meet the brethren. That is not original to me as the brethren know, but from time to time you get a fresh impression of it."
+     "speaker": "JDG",
+     "text": [
+      "No. The Lord has rights that we cannot interrupt or interfere with but we are speaking about what we know and those who assemble, that first of all in them there is a manifestation. When we come together there is an atmosphere suitable for Christ to come in and for a manifestation. Before even He comes in, if we have eyes to see, there is a manifestation of Christ’s epistle here present among us."
+     ]
     },
     {
-     "speaker": "G.D.R.",
-     "text": "You are encouraged not to be afraid of the suggestion of what is exclusive. Do you not think that this is written over this whole matter “my guest-chamber”? It is His Supper and He knows who is there. He is not going everywhere, is He?"
+     "speaker": "CFD",
+     "text": [
+      "So the idea of “there make ready” involves how we proceed before we come up. Do you think as having to do with divine Persons before we come we are providing something in the way of furnishings?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "No. The Lord has rights that we cannot interrupt or interfere with but we are speaking about what we know and those who assemble, that first of all in them there is a manifestation. When we come together there is an atmosphere suitable for Christ to come in and for a manifestation. Before even He comes in, if we have eyes to see, there is a manifestation of Christ’s epistle here present among us."
+     "speaker": "JDG",
+     "text": [
+      "Coming up from glory to glory. “Whither the tribes go up, the tribes of Jah” (Ps. 122: 4); you are coming up from glory to glory, are you not?"
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "So the idea of “there make ready” involves how we proceed before we come up. Do you think as having to do with divine Persons before we come we are providing something in the way of furnishings?"
+     "speaker": "RG",
+     "text": [
+      "The Lord moved through the world but was never tainted by it, the man with the pitcher of water went through and was never tainted by it, and now the disciples had moved through and were not tainted by it. So it is from glory into the upper room to glory, is it?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Coming up from glory to glory. “Whither the tribes go up, the tribes of Jah” (Ps. 122: 4); you are coming up from glory to glory, are you not?"
+     "speaker": "JDG",
+     "text": [
+      "That is right. It is not from degradation to glory but from glory to glory, there is something about the saints that is glorious as they move in dignity, moral dignity. Even in coming up to the meting there is moral dignity in the movements of the saints."
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "The Lord moved through the world but was never tainted by it, the man with the pitcher of water went through and was never tainted by it, and now the disciples had moved through and were not tainted by it. So it is from glory into the upper room to glory, is it?"
+     "speaker": "JG",
+     "text": [
+      "I was wondering about the man with the pitcher of water. He suggests maturity, does he not, it suggests dignity, and I wondered if that would link with Christ’s epistle, if this man would represent something of that. There would have been exercises completed in him would you think?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "That is right. It is not from degradation to glory but from glory to glory, there is something about the saints that is glorious as they move in dignity, moral dignity. Even in coming up to the meting there is moral dignity in the movements of the saints."
+     "speaker": "JDG",
+     "text": [
+      "It is a good suggestion in relation to the man, he is mature. That would mark the saints as they come up, maturity and dignity, moral dignity, something that is different from the world around. The Lord would have us take account of it that they have had experience with Himself. There is a history with God entered into with persons who gather to the name of the Lord Jesus, they have had to do with Him not just historically but currently."
+     ]
     },
     {
-     "speaker": "J.G.",
-     "text": "I was wondering about the man with the pitcher of water. He suggests maturity, does he not, it suggests dignity, and I wondered if that would link with Christ’s epistle, if this man would represent something of that. There would have been exercises completed in him would you think?"
+     "speaker": "WMcK",
+     "text": [
+      "Do you think spiritual personality comes out in regard to the saints as you take account of them? Here they are not named; they are in Luke and in Acts 20 you have a number of them named. So as we regard one another from the standpoint of having been written upon, spiritual personality comes into evidence."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "It is a good suggestion in relation to the man, he is mature. That would mark the saints as they come up, maturity and dignity, moral dignity, something that is different from the world around. The Lord would have us take account of it that they have had experience with Himself. There is a history with God entered into with persons who gather to the name of the Lord Jesus, they have had to do with Him not just historically but currently."
+     "speaker": "JDG",
+     "text": [
+      "Yes, that is good. We can take account of that as the saints gather together. You can look around and see what is there and with knowledge of one another; you know something of the spiritual personality that is there."
+     ]
     },
     {
-     "text": "W.McK. Do you think spiritual personality comes out in regard to the saints as you take account of them? Here they are not named; they are in Luke and in Acts 20 you have a number of them named. So as we regard one another from the standpoint of having been written upon, spiritual personality comes into evidence."
+     "speaker": "WMcK",
+     "text": [
+      "So you remarked in giving thanks that we are of no account religiously in this great metropolis but what is to be seen by those who have eyes to see it is spiritual personality."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes, that is good. We can take account of that as the saints gather together. You can look around and see what is there and with knowledge of one another; you know something of the spiritual personality that is there."
+     "speaker": "JDG",
+     "text": [
+      "Something of full growth there, that is in the saints. That is the touch I had in my spirit, I trust we will be helped as we move on in the reading. Corinthians has been covered, as the brethren have gathered it was linked on with Mark 14. In John’s gospel the Lord Jesus is indicating something of His desire to proceed."
+     ]
     },
     {
-     "text": "W.McK. So you remarked in giving thanks that we are of no account religiously in this great metropolis but what is to be seen by those who have eyes to see it is spiritual personality."
+     "speaker": "WMcK",
+     "text": [
+      "Before we go on to that, referring to Corinthians, the Spirit of the living God would save us from formality. There would be a question of life and intelligence and affection coming into operation."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Something of full growth there, that is in the saints. That is the touch I had in my spirit, I trust we will be helped as we move on in the reading. Corinthians has been covered, as the brethren have gathered it was linked on with Mark 14. In John’s gospel the Lord Jesus is indicating something of His desire to proceed."
+     "speaker": "JDG",
+     "text": [
+      "Yes. “Not with ink, but the Spirit of the living God”; there would be persons responsive, the living God. There is evidence of life there that has been stimulated and imparted by the living God. The whole thing suggests something beautiful and there is a permanency about it, what is written, that will go through into eternity and maintain the living freshness by the Spirit over against the deadness that marked the tables of stone."
+     ]
     },
     {
-     "text": "W.McK. Before we go on to that, referring to Corinthians, the Spirit of the living God would save us from formality. There would be a question of life and intelligence and affection coming into operation."
+     "speaker": "GDR",
+     "text": [
+      "In relation to the suggestion earlier, “Whither the tribes go up, the tribes of Jah”, are we not entitled to think of divine Persons viewing the saints as coming up? It just comes to mind that divine Persons also have joy seeing the gathering of the saints at such an occasion."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes. “Not with ink, but the Spirit of the living God”; there would be persons responsive, the living God. There is evidence of life there that has been stimulated and imparted by the living God. The whole thing suggests something beautiful and there is a permanency about it, what is written, that will go through into eternity and maintain the living freshness by the Spirit over against the deadness that marked the tables of stone."
+     "speaker": "JDG",
+     "text": [
+      "I think the Lord takes account of us gathering together and He knows our places where we gather, but He comes to us. He finds something there that is suitable for His manifestation."
+     ]
     },
     {
-     "speaker": "G.D.R.",
-     "text": "In relation to the suggestion earlier, “Whither the tribes go up, the tribes of Jah”, are we not entitled to think of divine Persons viewing the saints as coming up? It just comes to mind that divine Persons also have joy seeing the gathering of the saints at such an occasion."
+     "speaker": "HJG",
+     "text": [
+      "You are making a present bearing of John 14 where He says, “and shall receive you to myself”? Do you think that comes into the present bearing of it?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I think the Lord takes account of us gathering together and He knows our places where we gather, but He comes to us. He finds something there that is suitable for His manifestation."
+     "speaker": "JDG",
+     "text": [
+      "Yes, I thought so. I wanted to make that application of it. What I felt was that as the saints are gathered together the Lord comes there. So the Lord comes to where the saints are gathered, where the upper room is furnished. It says that in the passage, it says, “he comes with the twelve”; He comes to that place. So He has something in His mind to take us to an area of looking on the Lord with unveiled face. We read that in the house this morning, “But we all, looking on the glory of the Lord, with unveiled face”, 2 Cor 3: 18. He has in mind to take us, you might say, to where He abides. Do you think that is right?"
+     ]
     },
     {
-     "speaker": "H.J.G.",
-     "text": "You are making a present bearing of John 14 where He says, “and shall receive you to myself”? Do you think that comes into the present bearing of it?"
+     "speaker": "HJG",
+     "text": [
+      "Yes, we see that He comes as we gather to take us from our circumstances into His, but it is very practical and very real when we understand His words, “shall receive you to myself”. It is very real, is it not?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes, I thought so. I wanted to make that application of it. What I felt was that as the saints are gathered together the Lord comes there. So the Lord comes to where the saints are gathered, where the upper room is furnished. It says that in the passage, it says, “he comes with the twelve”; He comes to that place. So He has something in His mind to take us to an area of looking on the Lord with unveiled face. We read that in the house this morning, “But we all, looking on the glory of the Lord, with unveiled face”, 2 Cor 3: 18. He has in mind to take us, you might say, to where He abides. Do you think that is right?"
+     "speaker": "JDG",
+     "text": [
+      "What was in my heart was, and I believe the Lord would impart to us, that He has the Father in mind. He has the Father’s service in mind, the Father’s house, the Father’s heart being satisfied. That is not to set aside the portion that the Lord receives as He comes among us; He must have the first place in all things as coming in, it is His Supper. Then His joy in the holy association with Him as His brethren; then the holy joy of union as responding to Him as His assembly; and expressing our appreciation of the Holy Spirit who He is. I think this scripture is indicative of what is really in His heart, in fullness, is the Father’s portion. Someone remarked this morning, source of all blessing, the source of everything is the Father."
+     ]
     },
     {
-     "speaker": "H.J.G.",
-     "text": "Yes, we see that He comes as we gather to take us from our circumstances into His, but it is very practical and very real when we understand His words, “shall receive you to myself”. It is very real, is it not?"
+     "speaker": "RG",
+     "text": [
+      "Does He have the good pleasure of the Father’s will in mind, preparing a place? Reference has been made to the distinctiveness of the saints and the dignity. I was thinking “for I go to prepare you a place” would bring out the distinctiveness of those of the assembly as over against the many other families named of the Father which would link with the many abodes."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "What was in my heart was, and I believe the Lord would impart to us, that He has the Father in mind. He has the Father’s service in mind, the Father’s house, the Father’s heart being satisfied. That is not to set aside the portion that the Lord receives as He comes among us; He must have the first place in all things as coming in, it is His Supper. Then His joy in the holy association with Him as His brethren; then the holy joy of union as responding to Him as His assembly; and expressing our appreciation of the Holy Spirit who He is. I think this scripture is indicative of what is really in His heart, in fullness, is the Father’s portion. Someone remarked this morning, source of all blessing, the source of everything is the Father."
+     "speaker": "JDG",
+     "text": [
+      "Yes, that is helpful. “In my Father’s house there are many abodes”; we would rejoice in that, that there are many abodes, that the Father has many families. It is not appropriate to go into them all today but we know some of them anyway. But the Lord goes to prepare a place for you, that is a special place for the saints of the present dispensation. It would seem to me that it is in the Father’s house, so He has the Father in mind. He has a place there, Christ has, “where I am ye also may be”; it must involve the Father’s affections. Do you think so?"
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "Does He have the good pleasure of the Father’s will in mind, preparing a place? Reference has been made to the distinctiveness of the saints and the dignity. I was thinking “for I go to prepare you a place” would bring out the distinctiveness of those of the assembly as over against the many other families named of the Father which would link with the many abodes."
+     "speaker": "RG",
+     "text": [
+      "The good pleasure of the Father’s will."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes, that is helpful. “In my Father’s house there are many abodes”; we would rejoice in that, that there are many abodes, that the Father has many families. It is not appropriate to go into them all today but we know some of them anyway. But the Lord goes to prepare a place for you, that is a special place for the saints of the present dispensation. It would seem to me that it is in the Father’s house, so He has the Father in mind. He has a place there, Christ has, “where I am ye also may be”; it must involve the Father’s affections. Do you think so?"
+     "speaker": "JDG",
+     "text": [
+      "That is the sovereign will of God, the sovereign will of the Father – sovereignty. We will go on to that in a minute."
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "The good pleasure of the Father’s will."
+     "speaker": "GDR",
+     "text": [
+      "Not only is He preparing a place but He is preparing the persons for the place; “prepare you a place”. Could you enlarge that a bit?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "That is the sovereign will of God, the sovereign will of the Father – sovereignty. We will go on to that in a minute."
+     "speaker": "JDG",
+     "text": [
+      "I think the way we are following it He has already prepared vessels. Those that are “manifested to be Christ’s epistle” are prepared vessels, they have had a history with God, you might say. We are gathered together – just to catch on to what we are seeking to suggest – suitably for the remembrance of the Lord Jesus, there are vessels that are morally in accord with Himself, so He can come and take His place there. But what complacency there was when He came in! I am speaking about the Passover time just as an illustration, what complacency there was in Christ’s heart coming in there and then particularly after Judas goes out. He says, “Now is the Son of man glorified, and God is glorified in him. If God be glorified in him, God also shall glorify him in himself”, John 13: 31,32. What an opening up of the divine thoughts. The vessels were suitable vessels for those manifestations. Is that right?"
+     ]
     },
     {
-     "speaker": "G.D.R.",
-     "text": "Not only is He preparing a place but He is preparing the persons for the place; “prepare you a place”. Could you enlarge that a bit?"
+     "speaker": "WMcK",
+     "text": [
+      "Really vessels of mercy prepared for glory, are they not?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I think the way we are following it He has already prepared vessels. Those that are “manifested to be Christ’s epistle” are prepared vessels, they have had a history with God, you might say. We are gathered together – just to catch on to what we are seeking to suggest – suitably for the remembrance of the Lord Jesus, there are vessels that are morally in accord with Himself, so He can come and take His place there. But what complacency there was when He came in! I am speaking about the Passover time just as an illustration, what complacency there was in Christ’s heart coming in there and then particularly after Judas goes out. He says, “Now is the Son of man glorified, and God is glorified in him. If God be glorified in him, God also shall glorify him in himself”, John 13: 31,32. What an opening up of the divine thoughts. The vessels were suitable vessels for those manifestations. Is that right?"
+     "speaker": "JDG",
+     "text": [
+      "Vessels of mercy prepared for glory. Preparation had gone on beforehand, they are immediately suitable."
+     ]
     },
     {
-     "text": "W.McK. Really vessels of mercy prepared for glory, are they not?"
+     "speaker": "GDR",
+     "text": [
+      "Does the continuation of what has come from an ascended Christ at the present time involve continued formation in us? I appreciate what you say as to His distinctive coming in; it is in view of what is perfect in His own sight."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Vessels of mercy prepared for glory. Preparation had gone on beforehand, they are immediately suitable."
+     "speaker": "JDG",
+     "text": [
+      "I do not deny there is continued formation as long as we are here, but as coming in at that time the Lord would regard His work as perfect in us. He would regard it that way at the moment of His manifestation. Would that be right?"
+     ]
     },
     {
-     "speaker": "G.D.R.",
-     "text": "Does the continuation of what has come from an ascended Christ at the present time involve continued formation in us? I appreciate what you say as to His distinctive coming in; it is in view of what is perfect in His own sight."
+     "speaker": "WMcK",
+     "text": [
+      "I think it is. So He says, “Thou art all fair, my love; And there is no spot in thee”, SoS 4: 7. There is nothing that is imperfect or deficient and the Lord regards us from that point of view."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I do not deny there is continued formation as long as we are here, but as coming in at that time the Lord would regard His work as perfect in us. He would regard it that way at the moment of His manifestation. Would that be right?"
+     "speaker": "JDG",
+     "text": [
+      "I think that is what is borne out in Ephesians 1, “holy and blameless before him in love”. It must not be viewed as future entirely; it may have a future bearing in one sense, but it must have a present bearing now."
+     ]
     },
     {
-     "text": "W.McK. I think it is. So He says, “Thou art all fair, my love; And there is no spot in thee”, SoS 4: 7. There is nothing that is imperfect or deficient and the Lord regards us from that point of view."
+     "speaker": "WMcK",
+     "text": [
+      "Ephesians 2 would confirm that, “we are his workmanship, having been created in Christ Jesus” (v.10). You could not attach anything except perfection to that."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I think that is what is borne out in Ephesians 1, “holy and blameless before him in love”. It must not be viewed as future entirely; it may have a future bearing in one sense, but it must have a present bearing now."
+     "speaker": "JDG",
+     "text": [
+      "It is a view taken by the Lord in His manifestation of Himself."
+     ]
     },
     {
-     "text": "W.McK. Ephesians 2 would confirm that, “we are his workmanship, having been created in Christ Jesus” (v.10). You could not attach anything except perfection to that."
+     "speaker": "LDP",
+     "text": [
+      "In John 17 the Lord says, “Thou hast loved them as thou hast love me” (v.23). Does this fit in with what we are reading now?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "It is a view taken by the Lord in His manifestation of Himself."
+     "speaker": "JDG",
+     "text": [
+      "Yes. “Thou hast loved them as thou hast love me”. “That the love with which thou hast loved me may be in them and I in them” (v.26); it is a holy environment of love, the Father’s love, the Father’s love for Christ. So He comes to them. In this passage there is movement in mind: “I am coming again and shall receive you to myself, that where I am ye also may be”, there is movement in mind. So the Lord has spiritual movement in mind for us as He comes among us."
+     ]
     },
     {
-     "speaker": "L.D.P.",
-     "text": "In John 17 the Lord says, “Thou hast loved them as thou hast love me” (v.23). Does this fit in with what we are reading now?"
+     "speaker": "EFC",
+     "text": [
+      "He is coming for us in the first part of the chapter and then in the middle of the chapter He says, “I will not leave you orphans, I am coming to you” (v.18). Is that not a test to us as to whether we really experience His coming among us and whether we discern that it is Himself, not just a theory?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes. “Thou hast loved them as thou hast love me”. “That the love with which thou hast loved me may be in them and I in them” (v.26); it is a holy environment of love, the Father’s love, the Father’s love for Christ. So He comes to them. In this passage there is movement in mind: “I am coming again and shall receive you to myself, that where I am ye also may be”, there is movement in mind. So the Lord has spiritual movement in mind for us as He comes among us."
+     "speaker": "JDG",
+     "text": [
+      "“Receive you to myself”, He has the power to effect transportation spiritually. “Receive you to myself”, so you have a sense of being received by Him. And then He says, “where I am”, He has in mind another sphere for us, where He is. “Receive you to myself” as to the Person, “that were I am”; then you find where He abode. The two disciples said, “where abidest thou?”, John 1: 38."
+     ]
     },
     {
-     "speaker": "E.F.C.",
-     "text": "He is coming for us in the first part of the chapter and then in the middle of the chapter He says, “I will not leave you orphans, I am coming to you” (v.18). Is that not a test to us as to whether we really experience His coming among us and whether we discern that it is Himself, not just a theory?"
+     "speaker": "RG",
+     "text": [
+      "Do you think at the point when He receives us to Himself He sees what is of Himself and like Himself?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "“Receive you to myself”, He has the power to effect transportation spiritually. “Receive you to myself”, so you have a sense of being received by Him. And then He says, “where I am”, He has in mind another sphere for us, where He is. “Receive you to myself” as to the Person, “that were I am”; then you find where He abode. The two disciples said, “where abidest thou?”, John 1: 38."
+     "speaker": "JDG",
+     "text": [
+      "Yes, I think He sees what is morally suitable to the presence of God; that is Ephesians 1, “holy and blameless before him in love”. I often wondered about that scripture in the past, what the setting was, but I think it is persons who are morally in accord with the divine nature, holy and blameless they can be in the presence of God."
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "Do you think at the point when He receives us to Himself He sees what is of Himself and like Himself?"
+     "speaker": "RG",
+     "text": [
+      "I wondered if it was the Benjamin side in relation to Joseph. He was never blameworthy, “blameless before him in love”; like Joseph taken into the presence of God."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes, I think He sees what is morally suitable to the presence of God; that is Ephesians 1, “holy and blameless before him in love”. I often wondered about that scripture in the past, what the setting was, but I think it is persons who are morally in accord with the divine nature, holy and blameless they can be in the presence of God."
+     "speaker": "JDG",
+     "text": [
+      "Yes. It says, “who has blessed us with every spiritual blessing in the heavenlies in Christ; according as he has chosen us in him before the world’s foundation, that we should be holy and blameless before him in love”. I think those are the persons who have gathered to remember the Lord Jesus, that have been manifested to be Christ’s epistle. They are suitable to be in the presence of God. It is not only the Father, but God is stressed."
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "I wondered if it was the Benjamin side in relation to Joseph. He was never blameworthy, “blameless before him in love”; like Joseph taken into the presence of God."
+     "speaker": "TV",
+     "text": [
+      "Do you think that may be anticipated when the Lord says in John 20, “go to my brethren and say to them, I ascend to my Father and your Father, and to my God and your God”, (v.17)? He does not take them up or take us up in imperfection but they are to be with Him before God."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes. It says, “who has blessed us with every spiritual blessing in the heavenlies in Christ; according as he has chosen us in him before the world’s foundation, that we should be holy and blameless before him in love”. I think those are the persons who have gathered to remember the Lord Jesus, that have been manifested to be Christ’s epistle. They are suitable to be in the presence of God. It is not only the Father, but God is stressed."
+     "speaker": "JDG",
+     "text": [
+      "Yes. We are viewing ourselves as chosen in Christ. We are not in a perfect state in our bodies yet – do not let us misunderstand one another – but the work of God is perfect and it is viewed as in perfection in the persons. So the persons are suitable because they are holy and blameless before God and they can be there in love. What a thing that God can bring man into His presence, those that He had chosen in Christ before the world’s foundation! But note He is able to do it, bring them into His presence holy and blameless."
+     ]
     },
     {
-     "speaker": "T.V.",
-     "text": "Do you think that may be anticipated when the Lord says in John 20, “go to my brethren and say to them, I ascend to my Father and your Father, and to my God and your God”, (v.17)? He does not take them up or take us up in imperfection but they are to be with Him before God."
+     "speaker": "CFD",
+     "text": [
+      "And as brought into His presence we are clothed with the perfection of Christ. So there is nothing out of order at all."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes. We are viewing ourselves as chosen in Christ. We are not in a perfect state in our bodies yet – do not let us misunderstand one another – but the work of God is perfect and it is viewed as in perfection in the persons. So the persons are suitable because they are holy and blameless before God and they can be there in love. What a thing that God can bring man into His presence, those that He had chosen in Christ before the world’s foundation! But note He is able to do it, bring them into His presence holy and blameless."
+     "speaker": "JDG",
+     "text": [
+      "You can understand how, in the parable when the son comes back, there is nothing but joy. He is clothed with the best robe, he is suitable for going into the house; the ring on his hand and sandals on his feet, there is nothing but joy in mind. God is rejoicing over us."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "And as brought into His presence we are clothed with the perfection of Christ. So there is nothing out of order at all."
+     "speaker": "CFD",
+     "text": [
+      "Divine Persons have a right to view us apart from sin, clothed in all the perfection of Christ."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "You can understand how, in the parable when the son comes back, there is nothing but joy. He is clothed with the best robe, he is suitable for going into the house; the ring on his hand and sandals on his feet, there is nothing but joy in mind. God is rejoicing over us."
+     "speaker": "JDG",
+     "text": [
+      "That is helpful to remark. That is how they view us in the sphere of privilege. Is that not true?"
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "Divine Persons have a right to view us apart from sin, clothed in all the perfection of Christ."
+     "speaker": "JAP",
+     "text": [
+      "The father says there, “it is right to make merry” (Luke 15: 32), righteousness entered into that: “it is right” that we should do it."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "That is helpful to remark. That is how they view us in the sphere of privilege. Is that not true?"
+     "speaker": "JDG",
+     "text": [
+      "It is in accord with the environment that we are in for God to rejoice, is it not? It is a happy state for us so, there is release of affections to that God, the God whom we have known, made known in Jesus. So His purposes are secured."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "The father says there, “it is right to make merry” (Luke 15: 32), righteousness entered into that: “it is right” that we should do it."
+     "speaker": "GDR",
+     "text": [
+      "It seems to add force to the expression you quoted earlier that we come together to meet the brethren first. I wondered if in our contemplation of brethren as they come in there is a certain appropriation which really delights the heart. And that really all flows out as we proceed in relation to divine Persons."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "It is in accord with the environment that we are in for God to rejoice, is it not? It is a happy state for us so, there is release of affections to that God, the God whom we have known, made known in Jesus. So His purposes are secured."
+     "speaker": "JDG",
+     "text": [
+      "It brings out that those persons that we gather with are persons we are going to be with in heaven, the persons who are suitable to be holy and blameless before God. Think of being in the presence of God and being happy there, of His nature. These matters, as I understand it, holy and blameless, relate to the nature of God; He is that kind of Person. I want to use the word respectfully."
+     ]
     },
     {
-     "speaker": "G.D.R.",
-     "text": "It seems to add force to the expression you quoted earlier that we come together to meet the brethren first. I wondered if in our contemplation of brethren as they come in there is a certain appropriation which really delights the heart. And that really all flows out as we proceed in relation to divine Persons."
+     "speaker": "LMcF",
+     "text": [
+      "So we were in His presence this morning as clothed; we had a word on that, clothed in the best robe. So the whole environment speaks of Christ."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "It brings out that those persons that we gather with are persons we are going to be with in heaven, the persons who are suitable to be holy and blameless before God. Think of being in the presence of God and being happy there, of His nature. These matters, as I understand it, holy and blameless, relate to the nature of God; He is that kind of Person. I want to use the word respectfully."
+     "speaker": "JDG",
+     "text": [
+      "Yes. What clothing there is as moving in to the area of privilege. Then it says, “marked us out beforehand for adoption through Jesus Christ to himself”, that is the Father. It was mentioned earlier, “according to the good pleasure of his will”, that is divine sovereignty, is it not? It has been said that choice is not exactly sovereign will, but He has chosen us in relation to what He is in His nature to be in His presence; but sonship is according to His will. Can you help us on that?"
+     ]
     },
     {
-     "text": "L.McF. So we were in His presence this morning as clothed; we had a word on that, clothed in the best robe. So the whole environment speaks of Christ."
+     "speaker": "WMcK",
+     "text": [
+      "I think what you are saying is right. “Holy and blameless before him in love” is necessary because God is love, that is His nature, but in His sovereignty He has brought us into the same relationship as Christ is in sonship."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes. What clothing there is as moving in to the area of privilege. Then it says, “marked us out beforehand for adoption through Jesus Christ to himself”, that is the Father. It was mentioned earlier, “according to the good pleasure of his will”, that is divine sovereignty, is it not? It has been said that choice is not exactly sovereign will, but He has chosen us in relation to what He is in His nature to be in His presence; but sonship is according to His will. Can you help us on that?"
+     "speaker": "JDG",
+     "text": [
+      "It is because His desire was to have man in sonship. Mr. Darby remarked somewhere, He may have angels as His servants but He is going to have man in sonship in His presence to satisfy the affections of His heart."
+     ]
     },
     {
-     "text": "W.McK. I think what you are saying is right. “Holy and blameless before him in love” is necessary because God is love, that is His nature, but in His sovereignty He has brought us into the same relationship as Christ is in sonship."
+     "speaker": "WMcK",
+     "text": [
+      "Angels are sons creationally but you could not say that they are made partakers of His nature; they are obedient creatures. But here you have persons who are formed by the love of God and who enjoy it and respond to Him in relationship of sonship as affected by what He is in His nature."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "It is because His desire was to have man in sonship. Mr. Darby remarked somewhere, He may have angels as His servants but He is going to have man in sonship in His presence to satisfy the affections of His heart."
+     "speaker": "JDG",
+     "text": [
+      "So you can understand how by the Spirit we are really given to know and appreciate such a love in reality in the service of God because the communications are spiritual. I was thinking of the reality to divine Persons as the saints are assembled in a suitable environment for the realisation of these blessed experiences spiritually, and to know something in our hearts and spirits of God being satisfied as having persons in His presence suitable to His nature and then the Father rejoicing over the relationships we have with Him in sonship and the Spirit imparting those affections to us as the Spirit of adoption, and Christ there too rejoicing as well."
+     ]
     },
     {
-     "text": "W.McK. Angels are sons creationally but you could not say that they are made partakers of His nature; they are obedient creatures. But here you have persons who are formed by the love of God and who enjoy it and respond to Him in relationship of sonship as affected by what He is in His nature."
+     "speaker": "JRC",
+     "text": [
+      "We come together in that way; the divine view of the saints should colour my outlook on the saints as well."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "So you can understand how by the Spirit we are really given to know and appreciate such a love in reality in the service of God because the communications are spiritual. I was thinking of the reality to divine Persons as the saints are assembled in a suitable environment for the realisation of these blessed experiences spiritually, and to know something in our hearts and spirits of God being satisfied as having persons in His presence suitable to His nature and then the Father rejoicing over the relationships we have with Him in sonship and the Spirit imparting those affections to us as the Spirit of adoption, and Christ there too rejoicing as well."
+     "speaker": "JDG",
+     "text": [
+      "Yes. You are, I was going to say, surprised sometimes with what is expressed in a brother and contributed in the spirits of the sisters in such an environment that takes us beyond really where we are in ourselves in relation to the mysteries attached to God’s revelation."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "We come together in that way; the divine view of the saints should colour my outlook on the saints as well."
+     "speaker": "JRC",
+     "text": [
+      "We seek to credit one another in regard to the position that we occupy."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes. You are, I was going to say, surprised sometimes with what is expressed in a brother and contributed in the spirits of the sisters in such an environment that takes us beyond really where we are in ourselves in relation to the mysteries attached to God’s revelation."
+     "speaker": "JDG",
+     "text": [
+      "Well, credit them when we come back into the area of responsibility. I think while we are in the sphere of privilege we are astounded by the fact of what is present."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "We seek to credit one another in regard to the position that we occupy."
+     "speaker": "WMcK",
+     "text": [
+      "We do not leave the satins behind as we proceed from glory to glory. We might begin very simply as disciples as in Mark, but when you come to this line it is sons and we have been raised up together and made to sit down together. The sons are all together, they are not left behind. Each one appears before God in Zion (see Ps 84: 7)."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Well, credit them when we come back into the area of responsibility. I think while we are in the sphere of privilege we are astounded by the fact of what is present."
+     "speaker": "JDG",
+     "text": [
+      "I think that should be understood by us, we are all moving together. In the midst of the assembly will I hymn Thee (see Heb 2: 12), is the assembly in sonship. It is the masculine thought there. What a glorious host, we touch something of it in our spirits by the Holy Spirit, that is the Spirit of adoption. Divine experiences are real; we await the actuality of the thing in its fullness but we touch something of the reality of it. In Ephesians 3 it continues really to enlarge on the same realm that we have been speaking about. It touches again, “of whom every family in the heavens and on earth is named”. It brings out the substantiality of what is there. We have been speaking about that in the saints. We are strengthened by the Spirit in the inner man. Is the inner man collective?"
+     ]
     },
     {
-     "text": "W.McK. We do not leave the satins behind as we proceed from glory to glory. We might begin very simply as disciples as in Mark, but when you come to this line it is sons and we have been raised up together and made to sit down together. The sons are all together, they are not left behind. Each one appears before God in Zion (see Ps 84: 7)."
+     "speaker": "WMcK",
+     "text": [
+      "Yes. It really refers to the totality of the work of God in the saints. And if we think of it in it fullness it would include all the work of the Spirit from Pentecost to the rapture. The inner man is an immense thought, is it not?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I think that should be understood by us, we are all moving together. In the midst of the assembly will I hymn Thee (see Heb 2: 12), is the assembly in sonship. It is the masculine thought there. What a glorious host, we touch something of it in our spirits by the Holy Spirit, that is the Spirit of adoption. Divine experiences are real; we await the actuality of the thing in its fullness but we touch something of the reality of it. In Ephesians 3 it continues really to enlarge on the same realm that we have been speaking about. It touches again, “of whom every family in the heavens and on earth is named”. It brings out the substantiality of what is there. We have been speaking about that in the saints. We are strengthened by the Spirit in the inner man. Is the inner man collective?"
+     "speaker": "JDG",
+     "text": [
+      "That is good. Strengthened, so we are participating in that; just as we do in the new man we spoke of yesterday, we are participating in the inner man so there is something in each one of us that is wrought of God that can be strengthened to take account of these things."
+     ]
     },
     {
-     "text": "W.McK. Yes. It really refers to the totality of the work of God in the saints. And if we think of it in it fullness it would include all the work of the Spirit from Pentecost to the rapture. The inner man is an immense thought, is it not?"
+     "speaker": "WMcK",
+     "text": [
+      "It conveys the thought, does it not, of great spiritual capacity inwardly, the inner man? When John saw the holy city he saw no temple in it, God and the Lamb are the temple. The inner man is Paul’s way of presenting that. And think of the immense capacity that has been formed that it can be filled even to all the fullness of God."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "That is good. Strengthened, so we are participating in that; just as we do in the new man we spoke of yesterday, we are participating in the inner man so there is something in each one of us that is wrought of God that can be strengthened to take account of these things."
+     "speaker": "JDG",
+     "text": [
+      "I noticed just in the interval that Mr. Darby speaks about the centre, but there is no circle to limit its view; it is lost in the infinitude that God alone fills. What a sphere we touch in our spirits. There is no hard and fast line between finite and infinite, we are touching a sphere that God fills, “filled even to all the fullness of God”. But the persons are made equal to that, not by our own power but by what God has wrought in us."
+     ]
     },
     {
-     "text": "W.McK. It conveys the thought, does it not, of great spiritual capacity inwardly, the inner man? When John saw the holy city he saw no temple in it, God and the Lamb are the temple. The inner man is Paul’s way of presenting that. And think of the immense capacity that has been formed that it can be filled even to all the fullness of God."
+     "speaker": "JAP",
+     "text": [
+      "We can learn from the great skill of the apostle. I notice that you took up yesterday this book and we went into the practical side to walk as a Christian. It comes in chapters 4, 5 and 6 of this book. But the early chapters are dealing with what we are in Christ and in God. Why did he begin that way and did not use the reverse way?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I noticed just in the interval that Mr. Darby speaks about the centre, but there is no circle to limit its view; it is lost in the infinitude that God alone fills. What a sphere we touch in our spirits. There is no hard and fast line between finite and infinite, we are touching a sphere that God fills, “filled even to all the fullness of God”. But the persons are made equal to that, not by our own power but by what God has wrought in us."
+     "speaker": "JDG",
+     "text": [
+      "I think we can see something of the spiritual suggestion in the large upper room coming on to our view as the matter expands under Christ’s touch. We come into this realm we are speaking about now spiritually. We are still in the faith period, we are still here in that sense in our bodies, but we are able to expand in our affections and our minds to take account of this realm. I suppose it is related to the Father’s house. As far as I understand it the Lord is bringing us into the Father’s house and this scene opens that up to us."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "We can learn from the great skill of the apostle. I notice that you took up yesterday this book and we went into the practical side to walk as a Christian. It comes in chapters 4, 5 and 6 of this book. But the early chapters are dealing with what we are in Christ and in God. Why did he begin that way and did not use the reverse way?"
+     "speaker": "RG",
+     "text": [
+      "Is “receive you to myself” in John 14 commensurate with “that he may give you according to the riches of his glory”? There are other abodes. It says here, “of whom every family in the heavens and on earth is named”, but then immediately it comes to the saints, “in order that he may give you according to the riches of his glory”. It says in John 14, “and shall receive you to myself”, and immediately you are in an area of Him providing us with the riches of His glory."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I think we can see something of the spiritual suggestion in the large upper room coming on to our view as the matter expands under Christ’s touch. We come into this realm we are speaking about now spiritually. We are still in the faith period, we are still here in that sense in our bodies, but we are able to expand in our affections and our minds to take account of this realm. I suppose it is related to the Father’s house. As far as I understand it the Lord is bringing us into the Father’s house and this scene opens that up to us."
+     "speaker": "JDG",
+     "text": [
+      "Yes, an area where you see Christ’s glory shine in the Father’s presence, “to know the love of the Christ which surpasses knowledge”. It is His own environment."
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "Is “receive you to myself” in John 14 commensurate with “that he may give you according to the riches of his glory”? There are other abodes. It says here, “of whom every family in the heavens and on earth is named”, but then immediately it comes to the saints, “in order that he may give you according to the riches of his glory”. It says in John 14, “and shall receive you to myself”, and immediately you are in an area of Him providing us with the riches of His glory."
+     "speaker": "RG",
+     "text": [
+      "So we are led into the area of infinitude that we are speaking about."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes, an area where you see Christ’s glory shine in the Father’s presence, “to know the love of the Christ which surpasses knowledge”. It is His own environment."
+     "speaker": "JDG",
+     "text": [
+      "That is right. You touch something in your heart. We sang the hymn:",
+      "O how inscrutable,",
+      "Yea, how unsearchable",
+      "Art Thou, O God! (Hymn 48)"
+     ]
     },
     {
-     "speaker": "R.G.",
-     "text": "So we are led into the area of infinitude that we are speaking about."
+     "speaker": "ASH",
+     "text": [
+      "The inscrutableness of the occasion at that time made me think that hymn would be appropriate. I was thinking a little earlier as to the large upper room and the bigness or the greatness that is in God’s heart. It is not a small room, and then it is furnished. There is room for capacity, there is room for movement. Would that enter into it?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "That is right. You touch something in your heart. We sang the hymn:"
+     "speaker": "JDG",
+     "text": [
+      "That is what we are seeking to do, to show how it commenced there, but as the Lord comes in the whole matter expands as we have been speaking about it. So He brings us over to where He is, where He abides, which is in the Father’s presence. He has a distinctive place there but we are brought into the place He has as it says in chapter 1, “for adoption through Jesus Christ to himself”, the Father brings us to Himself because He has personal joy in the results of the activity of His sovereign will in bringing men into His presence in sonship."
+     ]
     },
     {
-     "text": "O how inscrutable,"
+     "speaker": "ASH",
+     "text": [
+      "“I and the Father are one”, John 10: 30. Think of the oneness that exists between the Father and the Son."
+     ]
     },
     {
-     "text": "Yea, how unsearchable"
+     "speaker": "JDG",
+     "text": [
+      "That would be true; and the Lord rejoicing in the Father’s joy and the Father rejoicing in Christ’s joy, the Spirit too rejoicing in the securing of the purpose of God in man."
+     ]
     },
     {
-     "text": "Art Thou, O God! (Hymn 48)"
+     "speaker": "GDR",
+     "text": [
+      "Spiritual intelligence would underlie all this, do you think? I noticed our brother’s expression this morning in relation to our intelligence along with what is known but us, but it is inward formation, spiritual intelligence. He says In John 14: 4 “ye know”; in 2 Corinthians 3 the transformation comes in early, it should come in early in our experience on Lord’s day morning."
+     ]
     },
     {
-     "speaker": "A.S.H.",
-     "text": "The inscrutableness of the occasion at that time made me think that hymn would be appropriate. I was thinking a little earlier as to the large upper room and the bigness or the greatness that is in God’s heart. It is not a small room, and then it is furnished. There is room for capacity, there is room for movement. Would that enter into it?"
+     "speaker": "JDG",
+     "text": [
+      "I am sure intelligence goes along with it. Sonship involves affection but intelligence too."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "That is what we are seeking to do, to show how it commenced there, but as the Lord comes in the whole matter expands as we have been speaking about it. So He brings us over to where He is, where He abides, which is in the Father’s presence. He has a distinctive place there but we are brought into the place He has as it says in chapter 1, “for adoption through Jesus Christ to himself”, the Father brings us to Himself because He has personal joy in the results of the activity of His sovereign will in bringing men into His presence in sonship."
+     "speaker": "KNP",
+     "text": [
+      "I was wondering if a link with the Spirit as we go in is necessary, “strengthened with power by his Spirit”? It is something that we cannot neglect as we move forward in the service, do you think?"
+     ]
     },
     {
-     "speaker": "A.S.H.",
-     "text": "“I and the Father are one”, John 10: 30. Think of the oneness that exists between the Father and the Son."
+     "speaker": "JDG",
+     "text": [
+      "It is necessary on our side to be strengthened. We would not be equal to it on our own, we might say, but the Spirit strengthens us, what is spiritually in accord with that realm; we have been speaking about the inner man, the capacity to move in a realm where response to God is there."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "That would be true; and the Lord rejoicing in the Father’s joy and the Father rejoicing in Christ’s joy, the Spirit too rejoicing in the securing of the purpose of God in man."
+     "speaker": "KNP",
+     "text": [
+      "It is not something that is transformed or changed; what is there is according to Christ but it needs to be strengthened."
+     ]
     },
     {
-     "speaker": "G.D.R.",
-     "text": "Spiritual intelligence would underlie all this, do you think? I noticed our brother’s expression this morning in relation to our intelligence along with what is known but us, but it is inward formation, spiritual intelligence. He says In John 14: 4 “ye know”; in 2 Corinthians 3 the transformation comes in early, it should come in early in our experience on Lord’s day morning."
+     "speaker": "JDG",
+     "text": [
+      "Yes, in this realm, that would be right."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I am sure intelligence goes along with it. Sonship involves affection but intelligence too."
+     "speaker": "HGH",
+     "text": [
+      "It is something we experience."
+     ]
     },
     {
-     "speaker": "K.N.P.",
-     "text": "I was wondering if a link with the Spirit as we go in is necessary, “strengthened with power by his Spirit”? It is something that we cannot neglect as we move forward in the service, do you think?"
+     "speaker": "JDG",
+     "text": [
+      "Yes, that is what we are seeking to speak about, is it not, our experience together and how our hearts and minds are carried forward in that spiritual realm. It may be beyond our own capacity, but still by the Spirit you are strengthened at that time to take account of these matters, the glory of that realm and the satisfaction and pleasure of divine Persons in that realm and the persons who are there."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "It is necessary on our side to be strengthened. We would not be equal to it on our own, we might say, but the Spirit strengthens us, what is spiritually in accord with that realm; we have been speaking about the inner man, the capacity to move in a realm where response to God is there."
+     "speaker": "HGH",
+     "text": [
+      "It is in the inner man, it is spiritual."
+     ]
     },
     {
-     "speaker": "K.N.P.",
-     "text": "It is not something that is transformed or changed; what is there is according to Christ but it needs to be strengthened."
+     "speaker": "JDG",
+     "text": [
+      "Yes it is. It is not related to flesh and blood condition at all."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes, in this realm, that would be right."
+     "speaker": "LMcF",
+     "text": [
+      "So the father went out in Luke 15 and besought the older son to come in. These things are available to us all, it is the question whether we are enjoying them do you think?"
+     ]
     },
     {
-     "speaker": "H.G.H.",
-     "text": "It is something we experience."
+     "speaker": "JDG",
+     "text": [
+      "Well, in the realm we are speaking about we are all within, brought there by Christ and the Spirit strengthening our hearts we touch that realm."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes, that is what we are seeking to speak about, is it not, our experience together and how our hearts and minds are carried forward in that spiritual realm. It may be beyond our own capacity, but still by the Spirit you are strengthened at that time to take account of these matters, the glory of that realm and the satisfaction and pleasure of divine Persons in that realm and the persons who are there."
+     "speaker": "HGH",
+     "text": [
+      "We will not enjoy it without love, “being rooted and founded in love”."
+     ]
     },
     {
-     "speaker": "H.G.H.",
-     "text": "It is in the inner man, it is spiritual."
+     "speaker": "JDG",
+     "text": [
+      "I think you experience something of that love in the realm we are speaking about anyway. We know it in Christ. You are thankful for men who have experiences greater than yourself, who are a pattern to you, “to know the love of the Christ”; a man who could touch that realm and say this. What an anchor to the soul, a known love in the realm of glory that could maybe overwhelm us."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Yes it is. It is not related to flesh and blood condition at all."
+     "speaker": "WMcK",
+     "text": [
+      "So would you say that sovereign love has brought us into this relation of sonship and divine work has given us a nature suited to that relationship? But in this realm we need power as well and so we have “according to the power which works in us”. And that would touch our hearts because we should never lose sight of the fact that Christ is mediator and the Spirit as on our side is the Spirit of adoption and they are always active so that we might be sustained Godward in this realm of glory."
+     ]
     },
     {
-     "text": "L.McF. So the father went out in Luke 15 and besought the older son to come in. These things are available to us all, it is the question whether we are enjoying them do you think?"
+     "speaker": "JDG",
+     "text": [
+      "“The power which works in us” I suppose would be the idea of quickening by the Spirit to maintain us responsive in the realm in which we are. Do you think so?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "Well, in the realm we are speaking about we are all within, brought there by Christ and the Spirit strengthening our hearts we touch that realm."
+     "speaker": "WMcK",
+     "text": [
+      "That is what I thought, and it involves that two divine Persons are on our side continually and They are sustaining us in view of this response to God; “to him be glory in the assembly in Christ Jesus”."
+     ]
     },
     {
-     "speaker": "H.G.H.",
-     "text": "We will not enjoy it without love, “being rooted and founded in love”."
+     "speaker": "JDG",
+     "text": [
+      "That is helpful, because it is working out of what we have had in mind, that God the Father is the object that is in the mind of divine Persons to minister to through us."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "I think you experience something of that love in the realm we are speaking about anyway. We know it in Christ. You are thankful for men who have experiences greater than yourself, who are a pattern to you, “to know the love of the Christ”; a man who could touch that realm and say this. What an anchor to the soul, a known love in the realm of glory that could maybe overwhelm us."
+     "speaker": "WMcK",
+     "text": [
+      "It is striking that in one place Mr. Taylor says that God is the supreme object both to Christ and to the Spirit, viewing Them as on our side mediatorially – God Himself is the object to Them and to us."
+     ]
     },
     {
-     "text": "W.McK. So would you say that sovereign love has brought us into this relation of sonship and divine work has given us a nature suited to that relationship? But in this realm we need power as well and so we have “according to the power which works in us”. And that would touch our hearts because we should never lose sight of the fact that Christ is mediator and the Spirit as on our side is the Spirit of adoption and they are always active so that we might be sustained Godward in this realm of glory."
+     "speaker": "JDG",
+     "text": [
+      "That is very fine. We have to ponder these things; these are holy things we are speaking about. Because the Persons in themselves are God but still They have been a place of service – through Christ and by one Spirit we have access to the Father, would bear that out. So that would always be true, would it not?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "“The power which works in us” I suppose would be the idea of quickening by the Spirit to maintain us responsive in the realm in which we are. Do you think so?"
+     "speaker": "JDG",
+     "text": [
+      "Yes. It is the vessel of His praise. John says it is His tabernacle."
+     ]
     },
     {
-     "text": "W.McK. That is what I thought, and it involves that two divine Persons are on our side continually and They are sustaining us in view of this response to God; “to him be glory in the assembly in Christ Jesus”."
+     "speaker": "JAP",
+     "text": [
+      "It is the setting of the Lord’s Supper as I understand it; the Lord’s Supper has been put in the setting of the assembly by Paul, and then the service of God finishes in the assembly, glory to God in the assembly."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "That is helpful, because it is working out of what we have had in mind, that God the Father is the object that is in the mind of divine Persons to minister to through us."
+     "speaker": "JDG",
+     "text": [
+      "We have to distinguish the two, the Supper is set in the assembly in the wilderness, and this is the service of God in the heavenlies."
+     ]
     },
     {
-     "text": "W.McK. It is striking that in one place Mr. Taylor says that God is the supreme object both to Christ and to the Spirit, viewing Them as on our side mediatorially – God Himself is the object to Them and to us."
+     "speaker": "JAP",
+     "text": [
+      "I see that. It is the same vessel, is it not?"
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "That is very fine. We have to ponder these things; these are holy things we are speaking about. Because the Persons in themselves are God but still They have been a place of service – through Christ and by one Spirit we have access to the Father, would bear that out. So that would always be true, would it not?"
-    },
-    {
-     "speaker": "J.D.G.",
-     "text": "Yes. It is the vessel of His praise. John says it is His tabernacle."
-    },
-    {
-     "speaker": "J.A.P.",
-     "text": "It is the setting of the Lord’s Supper as I understand it; the Lord’s Supper has been put in the setting of the assembly by Paul, and then the service of God finishes in the assembly, glory to God in the assembly."
-    },
-    {
-     "speaker": "J.D.G.",
-     "text": "We have to distinguish the two, the Supper is set in the assembly in the wilderness, and this is the service of God in the heavenlies."
-    },
-    {
-     "speaker": "J.A.P.",
-     "text": "I see that. It is the same vessel, is it not?"
-    },
-    {
-     "speaker": "J.D.G.",
-     "text": "Well, it is the same persons. I suppose it is the same vessel but seen in a different setting; seen in its own setting here, seen in finality. The other is its temporary setting – the Supper set in the assembly in the wilderness is its temporary setting, but here it is finality, is it not, the tabernacle of God is with men, it is His dwelling place and there is glory to Him in the assembly in this setting. These are the thoughts we had in mind and trust they have been of some value."
+     "speaker": "JDG",
+     "text": [
+      "Well, it is the same persons. I suppose it is the same vessel but seen in a different setting; seen in its own setting here, seen in finality. The other is its temporary setting – the Supper set in the assembly in the wilderness is its temporary setting, but here it is finality, is it not, the tabernacle of God is with men, it is His dwelling place and there is glory to Him in the assembly in this setting. These are the thoughts we had in mind and trust they have been of some value."
+     ]
     }
    ]
   },
@@ -617,6 +886,68 @@
      "text": "Well, I trust these few words will stimulate a measure of exercise in our hearts and souls, give us encouragement to see there is a viewpoint for one who has judged himself and who seeks to walk in the power of the Spirit to ascend to a point where he can view the whole history of himself and his brethren from the divine viewpoint where everything else is nullified. He gets a view of the saints as those in whom God has wrought and there is preciousness there that is going to be housed with a house from heaven and, as this scripture says, have a body of glory. May the Lord bless us for His Name’s sake."
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "“A LARGE UPPER ROOM”",
+   "kind": "default_place",
+   "detail": "New York given to 4 names (\"New York unless otherwise shown\")"
+  },
+  {
+   "article": 1,
+   "title": "“A LARGE UPPER ROOM”",
+   "kind": "possible_speaker",
+   "detail": "EFC opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "“A LARGE UPPER ROOM”",
+   "kind": "speaker_not_in_key",
+   "detail": "HJG (2 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "“A LARGE UPPER ROOM”",
+   "kind": "possible_speaker",
+   "detail": "JG opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "“A LARGE UPPER ROOM”",
+   "kind": "possible_speaker",
+   "detail": "LDP opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "“A LARGE UPPER ROOM”",
+   "kind": "speaker_matched_loosely",
+   "detail": "LMcF used in the text for L.McFarlane (key gives LM)"
+  },
+  {
+   "article": 1,
+   "title": "“A LARGE UPPER ROOM”",
+   "kind": "speaker_not_in_key",
+   "detail": "JG (in the text)"
+  },
+  {
+   "article": 1,
+   "title": "“A LARGE UPPER ROOM”",
+   "kind": "speaker_matched_loosely",
+   "detail": "WMcK used in the text for W.McKillop (key gives WM)"
+  },
+  {
+   "article": 1,
+   "title": "“A LARGE UPPER ROOM”",
+   "kind": "speaker_not_in_key",
+   "detail": "LDP (in the text)"
+  },
+  {
+   "article": 1,
+   "title": "“A LARGE UPPER ROOM”",
+   "kind": "speaker_not_in_key",
+   "detail": "EFC (in the text)"
   }
  ]
 }

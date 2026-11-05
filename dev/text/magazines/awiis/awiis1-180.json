@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,21 +26,22 @@
    "place": "NEW YORK",
    "date": "20 April 1980",
    "speakers": [
-    "A.J.E.W.",
-    "F.A.",
-    "C.S.E.",
-    "E.E.H.",
-    "A.B.P.",
-    "A.S.H.",
-    "C.C.G.",
-    "A.G.S.",
-    "A.R.S."
+    "AJEW",
+    "FA",
+    "CSE",
+    "EEH",
+    "ABP",
+    "ASH",
+    "LMacF",
+    "CCG",
+    "AGS",
+    "ARS"
    ],
    "initials": [
     {
-     "initials": "AAJEW",
-     "name": "(All local except A.J.E.Welch",
-     "place": "London) F.Ashby"
+     "initials": "FA",
+     "name": "F.Ashby",
+     "place": "NEW YORK"
     },
     {
      "initials": "CS",
@@ -49,281 +50,386 @@
     },
     {
      "initials": "CCG",
-     "name": "C.C.Greenidge"
+     "name": "C.C.Greenidge",
+     "place": "NEW YORK"
     },
     {
      "initials": "ASH",
-     "name": "A.S.Hinkson"
+     "name": "A.S.Hinkson",
+     "place": "NEW YORK"
     },
     {
      "initials": "EEH",
-     "name": "E.E.Hoyte"
+     "name": "E.E.Hoyte",
+     "place": "NEW YORK"
     },
     {
      "initials": "AM",
-     "name": "A.Macdonald"
+     "name": "A.Macdonald",
+     "place": "NEW YORK"
     },
     {
-     "initials": "LM",
-     "name": "L.MacFarlane"
+     "initials": "LMacF",
+     "name": "L.MacFarlane",
+     "place": "NEW YORK"
     },
     {
      "initials": "ABP",
-     "name": "A.B.Parker"
+     "name": "A.B.Parker",
+     "place": "NEW YORK"
     },
     {
      "initials": "AGS",
-     "name": "A.G.Spooner"
+     "name": "A.G.Spooner",
+     "place": "NEW YORK"
     },
     {
      "initials": "ARS",
-     "name": "A.R.Stevens"
+     "name": "A.R.Stevens",
+     "place": "NEW YORK"
     },
     {
      "initials": "AJEW",
-     "name": "A.J.E.Welch"
+     "name": "A.J.E.Welch",
+     "place": "NEW YORK"
+    },
+    {
+     "initials": "CSE",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local except A.J.E.Welch, London",
    "initials_text": [
     "(All local except A.J.E.Welch, London)",
     "F.Ashby; C.S,Elliott; C.C.Greenidge; A.S.Hinkson; E.E.Hoyte; A.Macdonald; L.MacFarlane; A.B.Parker; A.G.Spooner; A.R.Stevens; A.J.E.Welch"
    ],
    "paragraphs": [
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is a matter of real experience that there are limitations attaching to the present character of the testimony, limitations that may prove irksome to us sometimes. Something impressed me this morning which leads to the suggestion of these scriptures. We gather for the Lord's supper in our several local gatherings, where the numbers may be small, which in a certain sense is a limitation; we think of our brethren all over the world who seek to walk in the precious truth, widely scattered, and their companies often small, with persons who are in those companies perhaps frail. Yet as the Lord came in this morning, the sense of limitation was lost, and what we entered upon together, and what we normally and rightly do enter upon together, is the place and portion of the assembly entire. I expect that we have all experienced that the sense of locality is quickly lost as the Son of God comes into His place in the midst, and the answer under the Spirit's touch then furnished to Him is from the assembly known not in a sub-divided condition, but as one vessel precious to His heart. It might be said that we enter upon that in each of our several localities, but in Spirit we touch complete thoughts, though not encroaching upon what is inscrutable. We have to accept that in what is to be known of God and His actions we must always allow in our minds for the inscrutable. It struck me that it would be good to inquire about this and perhaps give the Lord opportunity to free us from a sense of burden under current limitations a burden which the glorious activity of God’s beloved Son and the sustaining power of the Spirit in the assembly are in divine love designed to meet."
+     "speaker": "AJEW",
+     "text": [
+      "It is a matter of real experience that there are limitations attaching to the present character of the testimony, limitations that may prove irksome to us sometimes. Something impressed me this morning which leads to the suggestion of these scriptures. We gather for the Lord's supper in our several local gatherings, where the numbers may be small, which in a certain sense is a limitation; we think of our brethren all over the world who seek to walk in the precious truth, widely scattered, and their companies often small, with persons who are in those companies perhaps frail. Yet as the Lord came in this morning, the sense of limitation was lost, and what we entered upon together, and what we normally and rightly do enter upon together, is the place and portion of the assembly entire. I expect that we have all experienced that the sense of locality is quickly lost as the Son of God comes into His place in the midst, and the answer under the Spirit's touch then furnished to Him is from the assembly known not in a sub-divided condition, but as one vessel precious to His heart. It might be said that we enter upon that in each of our several localities, but in Spirit we touch complete thoughts, though not encroaching upon what is inscrutable. We have to accept that in what is to be known of God and His actions we must always allow in our minds for the inscrutable. It struck me that it would be good to inquire about this and perhaps give the Lord opportunity to free us from a sense of burden under current limitations a burden which the glorious activity of God’s beloved Son and the sustaining power of the Spirit in the assembly are in divine love designed to meet.",
+      "The first scripture was read because the Lord's supper is of such importance as the doorway into experience in these things. What is particularly noticeable is the care that the apostle takes to see that the Lord's supper is apprehended in its proper place, so that he says \"I received from the Lord, that which I also delivered to you\". It is something specific in character which he himself had received from the Lord and which, discerning evidently its specific character, he had delivered to the saints; he conveys that this is a matter in the truth which is of the first import for us, that we take the Lord's supper and take it rightly. This scripture embraces the point that we take it rightly or worthily and not just as a kind of religious ordinance as sorrowfully it is with some.",
+      "In a day when the limited side is particularly in the experience of the dear brethren everywhere, I gain the impression that the Spirit would extend our view to complete things, final things, and give us to realise that saints gathered in the light of what the local assembly is according to God, provide a sphere of things in which the sense of limitation can be for the time removed and the saints brought into consciousness of what is complete and full according to God's mind."
+     ]
     },
     {
-     "text": "The first scripture was read because the Lord's supper is of such importance as the doorway into experience in these things. What is particularly noticeable is the care that the apostle takes to see that the Lord's supper is apprehended in its proper place, so that he says \"I received from the Lord, that which I also delivered to you\". It is something specific in character which he himself had received from the Lord and which, discerning evidently its specific character, he had delivered to the saints; he conveys that this is a matter in the truth which is of the first import for us, that we take the Lord's supper and take it rightly. This scripture embraces the point that we take it rightly or worthily and not just as a kind of religious ordinance as sorrowfully it is with some."
+     "speaker": "FA",
+     "text": [
+      "There has to be a suitable state with us, so that we are restful in the assembly to take the Supper."
+     ]
     },
     {
-     "text": "In a day when the limited side is particularly in the experience of the dear brethren everywhere, I gain the impression that the Spirit would extend our view to complete things, final things, and give us to realise that saints gathered in the light of what the local assembly is according to God, provide a sphere of things in which the sense of limitation can be for the time removed and the saints brought into consciousness of what is complete and full according to God's mind."
+     "speaker": "AJEW",
+     "text": [
+      "That is the import of what is here; this account comes to each one of us: \"let a man prove himself, and thus eat of the bread, and drink of the cup\". Of course the sisters too are embraced in that; it does not apply just on the masculine side. The Supper becomes the proving point in a positive sense as to furnishing those conditions of which you speak. The proving is not to exclude but to give us the realisation of going to God about matters so that we may rightly eat and drink. It is a proof of a peculiarly constructive kind to ensure that as each of us proceeds to the Supper, things are right and there is the condition that you speak of for the Lord to come into."
+     ]
     },
     {
-     "speaker": "F.A.",
-     "text": "There has to be a suitable state with us, so that we are restful in the assembly to take the Supper."
+     "speaker": "CSE",
+     "text": [
+      "I was affected as you said that, when the Lord comes in, all sense of limitation disappears. I was impressed this morning with two lines of hymn 339:",
+      "'Thy peace, Thy joy Thou bringest here,",
+      "Our souls to bless, our hearts to cheer'.",
+      "One of the first things the Lord said to the disciples according to John 20 is \"Peace be to you\" (v 19); He Himself would be immediately the object before their hearts. That would help to set us free."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is the import of what is here; this account comes to each one of us: \"let a man prove himself, and thus eat of the bread, and drink of the cup\". Of course the sisters too are embraced in that; it does not apply just on the masculine side. The Supper becomes the proving point in a positive sense as to furnishing those conditions of which you speak. The proving is not to exclude but to give us the realisation of going to God about matters so that we may rightly eat and drink. It is a proof of a peculiarly constructive kind to ensure that as each of us proceeds to the Supper, things are right and there is the condition that you speak of for the Lord to come into."
+     "speaker": "AJEW",
+     "text": [
+      "I think that is important, because in chapter 20 of John He speaks peace to them three times, twice on the first occasion and once on the second occasion; \"Peace be to you\". That is a vital point because there is much to disturb our minds; it may be in the circumstances of the world at large, the conditions in fact in which the testimony continues, or it may be in oppressive personal circumstances which in the wisdom of divine chastening in love we know, but the Lord's word is \"Peace be to you\". It is a very important point that the Lord is able in that sense to secure a secluded scene of things where He can produce the best and the richest in view of what was expressed in prayer, that there is currently an answer to the heart of God; that is a wonderful thing. It seems so pointed that in epistles which are particularly concerned with the testimony and the service of God in a locality, there is so much that lies outside the limitations of a locality and relates to the general position. The last verse we read is of that character; the concern of the apostle was to present those in Corinth (\"present you\" he says) a chaste virgin to Christ. The idea of the chaste virgin to Christ in the full sense can only attach to the assembly complete and entire and yet the concern of the apostle Is to work out something in Corinth which in the fullest sense belongs to that, and bears the characters which belong to the whole glorious divine thought of such a vessel for Christ as a chaste virgin."
+     ]
     },
     {
-     "speaker": "C.S.E.",
-     "text": "I was affected as you said that, when the Lord comes in, all sense of limitation disappears. I was impressed this morning with two lines of hymn 339:"
+     "speaker": "EEH",
+     "text": [
+      "I was thinking of this idea of limitation. Do you think the Lord would give us a suggestion of it as He instituted the Supper after they sang a hymn and went to the mount of Olives? Would the mount of Olives involve release of limitations?"
+     ]
     },
     {
-     "text": "'Thy peace, Thy joy Thou bringest here,"
+     "speaker": "AJEW",
+     "text": [
+      "Tell us where you see the release."
+     ]
     },
     {
-     "text": "Our souls to bless, our hearts to cheer'."
+     "speaker": "EEH",
+     "text": [
+      "They sang a hymn, that is something beyond the idea of suffering and sorrow and death and then they went to the mount of Olives, beyond the scene of death; it is a new sphere of things, is it not?"
+     ]
     },
     {
-     "text": "One of the first things the Lord said to the disciples according to John 20 is \"Peace be to you\" (v 19); He Himself would be immediately the object before their hearts. That would help to set us free."
+     "speaker": "AJEW",
+     "text": [
+      "I think that touches exactly what we are speaking about. It would help us in our experiences because the atmosphere of hatred to Christ was strong at that point, and yet what is done seems to be free of the immediate effect of that atmosphere. And much that you get in John 13 and onwards can be looked at in a similar way. Think of all that was building up in antagonism to Christ. Think of the traitorous betraying action of Judas going out, and all that was there among the Jews to kill Him. Yet the Lord in perfect composure sets out the most wonderful review of what belongs to this time of the Spirit, not allowing the contrarieties to hinder Him in the very least in what He brings in for the glory of God and the benefit of His lovers. I think the Supper is to become yet greater to us. I say 'yet greater' because the Lord's supper always had a prime place in the instruction given us by those whom God has helped. It impresses me with what I mentioned, that these verses in 1 Corinthians 11 are not just in the general course of the epistle; it is a specific subject which seems to be laid upon the heart of the beloved apostle to bring before the saints in Corinth in a fresh way, to remind them of their responsibilities in respect of it. He had committed it to them, and being committed to them it became a question of how they would regard and maintain the Lord's supper. I believe this is the clearest possible indication to us of the divinely-afforded doorway into the unlimited order of things in which the operations of God lie, and in which the divine affections are engaged; and the assembly belongs there. Sons belong there and we are brought through adoption into sonship, which is a proper portion for us. The doorway in is so often the Lord's supper. Do you find that?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I think that is important, because in chapter 20 of John He speaks peace to them three times, twice on the first occasion and once on the second occasion; \"Peace be to you\". That is a vital point because there is much to disturb our minds; it may be in the circumstances of the world at large, the conditions in fact in which the testimony continues, or it may be in oppressive personal circumstances which in the wisdom of divine chastening in love we know, but the Lord's word is \"Peace be to you\". It is a very important point that the Lord is able in that sense to secure a secluded scene of things where He can produce the best and the richest in view of what was expressed in prayer, that there is currently an answer to the heart of God; that is a wonderful thing. It seems so pointed that in epistles which are particularly concerned with the testimony and the service of God in a locality, there is so much that lies outside the limitations of a locality and relates to the general position. The last verse we read is of that character; the concern of the apostle was to present those in Corinth (\"present you\" he says) a chaste virgin to Christ. The idea of the chaste virgin to Christ in the full sense can only attach to the assembly complete and entire and yet the concern of the apostle Is to work out something in Corinth which in the fullest sense belongs to that, and bears the characters which belong to the whole glorious divine thought of such a vessel for Christ as a chaste virgin."
+     "speaker": "ABP",
+     "text": [
+      "Yes. I was thinking that the feelings of God find such detailed expression in the present period, but those feelings were there in relation to His people in limited conditions in the Old Testament when He spoke of Himself as Jehovah of hosts."
+     ]
     },
     {
-     "speaker": "E.E.H.",
-     "text": "I was thinking of this idea of limitation. Do you think the Lord would give us a suggestion of it as He instituted the Supper after they sang a hymn and went to the mount of Olives? Would the mount of Olives involve release of limitations?"
+     "speaker": "AJEW",
+     "text": [
+      "Quite so. That is a delightful touch; the prophets particularly refer to Jehovah of hosts. It is as if the prophet as with God gets a touch from Him to relieve the sense of limitation under which the prophets, very largely, were serving. Think of Ezekiel among the captives; the sense of limitation is there but he rises above the limitation."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Tell us where you see the release."
+     "speaker": "ASH",
+     "text": [
+      "\"But let a man prove himself\": would the perishing Aramaean (Deut 26: 5) have any bearing on that?"
+     ]
     },
     {
-     "speaker": "E.E.H.",
-     "text": "They sang a hymn, that is something beyond the idea of suffering and sorrow and death and then they went to the mount of Olives, beyond the scene of death; it is a new sphere of things, is it not?"
+     "speaker": "AJEW",
+     "text": [
+      "Deuteronomy 26 is a very instructive scripture to bring in because the offerer has to go over the ground. We have to go over the ground repeatedly. The man sets down his basket and then he has to cover the history, so to speak; he presents his basket eventually and he speaks to God himself, not by way of the priest. An important outcome of that presentation is that the man with the basket of first-fruits finishes up the transaction by speaking to God himself, not by the intervention of the priest but with his own voice. It relates very much to what we are saying. In going over the ground, \"A perishing Aramaean was my father\", we realise where our origins were and how God reached us in those origins, and how He blessed us and brought us through. Maybe it was a long road of blessing, but He saw us through at every point. That is intended continually to affect the heart, and that Godward; the assembly is the sphere of things in which all these precious matters are to be entered into for God's pleasure."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I think that touches exactly what we are speaking about. It would help us in our experiences because the atmosphere of hatred to Christ was strong at that point, and yet what is done seems to be free of the immediate effect of that atmosphere. And much that you get in John 13 and onwards can be looked at in a similar way. Think of all that was building up in antagonism to Christ. Think of the traitorous betraying action of Judas going out, and all that was there among the Jews to kill Him. Yet the Lord in perfect composure sets out the most wonderful review of what belongs to this time of the Spirit, not allowing the contrarieties to hinder Him in the very least in what He brings in for the glory of God and the benefit of His lovers. I think the Supper is to become yet greater to us. I say 'yet greater' because the Lord's supper always had a prime place in the instruction given us by those whom God has helped. It impresses me with what I mentioned, that these verses in 1 Corinthians 11 are not just in the general course of the epistle; it is a specific subject which seems to be laid upon the heart of the beloved apostle to bring before the saints in Corinth in a fresh way, to remind them of their responsibilities in respect of it. He had committed it to them, and being committed to them it became a question of how they would regard and maintain the Lord's supper. I believe this is the clearest possible indication to us of the divinely-afforded doorway into the unlimited order of things in which the operations of God lie, and in which the divine affections are engaged; and the assembly belongs there. Sons belong there and we are brought through adoption into sonship, which is a proper portion for us. The doorway in is so often the Lord's supper. Do you find that?"
+     "speaker": "LMacF",
+     "text": [
+      "So on the provisional side the Lord's Day is available to us. It says of John that he became in the Spirit on the Lord's Day (see Rev 1: 10), suggesting that that day was set apart. But then it is intended to get us in spirit into a sphere outside of time. I think we might need help as to that. Precious as the day is, we get beyond that, do you think?"
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "Yes. I was thinking that the feelings of God find such detailed expression in the present period, but those feelings were there in relation to His people in limited conditions in the Old Testament when He spoke of Himself as Jehovah of hosts."
+     "speaker": "AJEW",
+     "text": [
+      "There is a lot that could help us based on what you are saying. I do believe we need rightly to value the first day of the week; I am emphasising this in view of its positive character, that we may value the Lord's Day. Let us cherish with feelings according to God what that day is, a day which the Lord claims as being His, a day which being the first of the week is a day out of which other things spring. There is a certain originating character in the Lord's Day as to the assembly week and what may richly engage us - if I could use the word that is often used in natural things, that is to be exploited - that is to say we need to realise the possibilities and pursue them, and not let the day pass and engage our minds with the things of the week, overlooking what the Lord's Day has meant. The Spirit would help us in those things."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so. That is a delightful touch; the prophets particularly refer to Jehovah of hosts. It is as if the prophet as with God gets a touch from Him to relieve the sense of limitation under which the prophets, very largely, were serving. Think of Ezekiel among the captives; the sense of limitation is there but he rises above the limitation."
+     "speaker": "ABP",
+     "text": [
+      "Do you not think there is an indication publicly of that being set aside? We received a calendar at the beginning of last year from Europe and the Lord's Day was at the end of each week instead of the beginning."
+     ]
     },
     {
-     "speaker": "A.S.H.",
-     "text": "\"But let a man prove himself\": would the perishing Aramaean (Deut 26: 5) have any bearing on that?"
+     "speaker": "AJEW",
+     "text": [
+      "It is often so, in Britain anyway, that calendars are presented that way, that is, the first day of each week is put as Monday. You have probably observed in reading airline timetables that day one is always Monday. It is just confirmatory of what you are saying that the preciousness of the first of the week is being set aside."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Deuteronomy 26 is a very instructive scripture to bring in because the offerer has to go over the ground. We have to go over the ground repeatedly. The man sets down his basket and then he has to cover the history, so to speak; he presents his basket eventually and he speaks to God himself, not by way of the priest. An important outcome of that presentation is that the man with the basket of first-fruits finishes up the transaction by speaking to God himself, not by the intervention of the priest but with his own voice. It relates very much to what we are saying. In going over the ground, \"A perishing Aramaean was my father\", we realise where our origins were and how God reached us in those origins, and how He blessed us and brought us through. Maybe it was a long road of blessing, but He saw us through at every point. That is intended continually to affect the heart, and that Godward; the assembly is the sphere of things in which all these precious matters are to be entered into for God's pleasure."
+     "speaker": "ABP",
+     "text": [
+      "I feel it is timely that we should be exhorted in relation to that to hold tenaciously to it.",
+      "A.Macd. Paul refers to \"the Lord Jesus\" before he introduces the thought of the Supper, as though he is fully maintaining and holding in his affections the rights of the Lord."
+     ]
     },
     {
-     "text": "L.MacF. So on the provisional side the Lord's Day is available to us. It says of John that he became in the Spirit on the Lord's Day (see Rev 1: 10), suggesting that that day was set apart. But then it is intended to get us in spirit into a sphere outside of time. I think we might need help as to that. Precious as the day is, we get beyond that, do you think?"
+     "speaker": "AJEW",
+     "text": [
+      "And in maintaining those rights, the rights of the One whom God has made both Lord and Christ (as Peter would tell us) the personal loveliness that is His, Jesus, is included a wonderful blend, I think. It has often been spoken of rightly as an assembly expression, but it is very touching that there is allusion to His place of authority and pre eminence, but also to the place in which we know Him very near in the sweetness of experience as the lowly Jesus, the Jesus that the disciples knew moving among them with such simplicity and yet with such grace and power - Jesus. That is to arrest and stimulate the affections of the saints. The scene around us is terribly hardening. A good many of us here still go to work and there are inevitable contacts (I would use the word carefully) with that scene of things and they would always tend to dull our affections and sensibilities. But the Lord's supper and all that springs out of it is intended to build up those affections and sensibilities, which really are necessary to the full flow of assembly response, a magnificent thing, whether it is for Christ in answer to a heart that finds in the assembly a vessel that is perfectly suited to respond to it, or whether it be to the Father in the company of myriad sons in unison under the leading touch of the Lord Himself, the One who is supreme in His sonship; whichever it be the active affections that the Spirit maintains are necessary if God is to have what is His due."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "There is a lot that could help us based on what you are saying. I do believe we need rightly to value the first day of the week; I am emphasising this in view of its positive character, that we may value the Lord's Day. Let us cherish with feelings according to God what that day is, a day which the Lord claims as being His, a day which being the first of the week is a day out of which other things spring. There is a certain originating character in the Lord's Day as to the assembly week and what may richly engage us - if I could use the word that is often used in natural things, that is to be exploited - that is to say we need to realise the possibilities and pursue them, and not let the day pass and engage our minds with the things of the week, overlooking what the Lord's Day has meant. The Spirit would help us in those things."
+     "speaker": "CCG",
+     "text": [
+      "I think it is wonderful to know that we are moving on with the Lord, and when He comes to us on the first day of the week He can say to us, \"Have ye anything here to eat?\" (Luke 24: 41), and there is something for Him."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "Do you not think there is an indication publicly of that being set aside? We received a calendar at the beginning of last year from Europe and the Lord's Day was at the end of each week instead of the beginning."
+     "speaker": "AJEW",
+     "text": [
+      "That is very interesting, \"Have ye anything here to eat?\", the Lord suggesting that something is to be appropriated by Him for His own pleasure."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is often so, in Britain anyway, that calendars are presented that way, that is, the first day of each week is put as Monday. You have probably observed in reading airline timetables that day one is always Monday. It is just confirmatory of what you are saying that the preciousness of the first of the week is being set aside."
+     "speaker": "AGS",
+     "text": [
+      "The Lord has made allowance for us if our ox fall into the pit, to take him out, but in the main we should refrain from commercialism on the Lord's Day, should we not? That should not mark the brethren in a general way. There are times when there may be emergencies but our outlook should not be joined with that of the merchants."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "I feel it is timely that we should be exhorted in relation to that to hold tenaciously to it."
+     "speaker": "AJEW",
+     "text": [
+      "The Lord will give grace in the working out of such a matter in detail, but let us remember that the day is His, and let the dear young people in a simple way regard that day as belonging to the Lord who is their Saviour, the One whom they have confessed and in whom they find true satisfaction for their hearts. Such an One claims that day; He would say, That day is Mine."
+     ]
     },
     {
-     "text": "A.Macd. Paul refers to \"the Lord Jesus\" before he introduces the thought of the Supper, as though he is fully maintaining and holding in his affections the rights of the Lord."
+     "speaker": "ARS",
+     "text": [
+      "The expression of divine love in the Supper is calculated to nourish our affections and build us up,"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "And in maintaining those rights, the rights of the One whom God has made both Lord and Christ (as Peter would tell us) the personal loveliness that is His, Jesus, is included a wonderful blend, I think. It has often been spoken of rightly as an assembly expression, but it is very touching that there is allusion to His place of authority and pre eminence, but also to the place in which we know Him very near in the sweetness of experience as the lowly Jesus, the Jesus that the disciples knew moving among them with such simplicity and yet with such grace and power - Jesus. That is to arrest and stimulate the affections of the saints. The scene around us is terribly hardening. A good many of us here still go to work and there are inevitable contacts (I would use the word carefully) with that scene of things and they would always tend to dull our affections and sensibilities. But the Lord's supper and all that springs out of it is intended to build up those affections and sensibilities, which really are necessary to the full flow of assembly response, a magnificent thing, whether it is for Christ in answer to a heart that finds in the assembly a vessel that is perfectly suited to respond to it, or whether it be to the Father in the company of myriad sons in unison under the leading touch of the Lord Himself, the One who is supreme in His sonship; whichever it be the active affections that the Spirit maintains are necessary if God is to have what is His due."
+     "speaker": "AJEW",
+     "text": [
+      "And it acts by way of our minds. The remembrance is very important because the affections are in a certain sense reached by way of our minds and hold our minds, and the remembrance in that sense is something which is specially to attach itself to our affections, affections that are eager, affections, if you like, that are pent up. We have been with the Lord personally through the week, looking on to this occasion which His love provided in such moving circumstances. On His way into death He tarried to give His beloved disciples the Supper to run right down through this day of the Spirit and become what we are speaking about this afternoon, the doorway into what is not subject to the defilements and limitations of the scene in which the testimony is, but stands related to the divine thoughts in all their fulness, particularly concerning the assembly.",
+      "The second passage was read because of the scope of it and the parenthetic way in which it is put, as if the beloved writer has an urge from the Spirit to make a most distinctive disclosure."
+     ]
     },
     {
-     "speaker": "C.C.G.",
-     "text": "I think it is wonderful to know that we are moving on with the Lord, and when He comes to us on the first day of the week He can say to us, \"Have ye anything here to eat?\" (Luke 24: 41), and there is something for Him."
+     "speaker": "ABP",
+     "text": [
+      "Does he not open up in this parenthesis the assurance he had in his own soul as he realised the possibilities that lay ahead of him as a Pharisee of the Pharisees? He set aside everything that he might win Christ; if Christ be not raised then we are of all men the most miserable; he had lost everything. 'But I have not lost everything' would be the parenthesis, would it?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is very interesting, \"Have ye anything here to eat?\", the Lord suggesting that something is to be appropriated by Him for His own pleasure."
+     "speaker": "AJEW",
+     "text": [
+      "That is a very fine way to put it. The chapter is a long one and a very rich one, and it seems extended in a way that would impress the dear brethren at Corinth: This is your proper portion, this is your proper engagement of mind and heart. The things that have had to be set aside, the things that the cross and the preaching of the cross have laid bare, what are they in relation to the divine glory and majesty which is disclosed in such a passage as this where the very power of language itself almost seems strained because of the vastness of what is before us? This is the portion of the assembly. You could not read this with any sense of limitation lingering in your mind. You might have to go back to the limitation and face it in a right way with God, but the character of what is here is outside all the limitation."
+     ]
     },
     {
-     "speaker": "A.G.S.",
-     "text": "The Lord has made allowance for us if our ox fall into the pit, to take him out, but in the main we should refrain from commercialism on the Lord's Day, should we not? That should not mark the brethren in a general way. There are times when there may be emergencies but our outlook should not be joined with that of the merchants."
+     "speaker": "ABP",
+     "text": [
+      "The Father embracing Christ out of death was prepared to wait all those days before receiving Him up in glory so that the saints might get a confirmation of the resurrection."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The Lord will give grace in the working out of such a matter in detail, but let us remember that the day is His, and let the dear young people in a simple way regard that day as belonging to the Lord who is their Saviour, the One whom they have confessed and in whom they find true satisfaction for their hearts. Such an One claims that day; He would say, That day is Mine."
+     "speaker": "AJEW",
+     "text": [
+      "Quite so. Hence the emphasis later in the history on witnesses, which is strong in the early chapters of the Acts \"This Jesus has God raised up, whereof we all are witnesses\", chap 2: 32. That rightly enters into our assembly relations, I believe, because persons are affected in the sense of being able to witness to something, and being able to receive a witness to something, too."
+     ]
     },
     {
-     "speaker": "A.R.S.",
-     "text": "The expression of divine love in the Supper is calculated to nourish our affections and build us up,"
+     "speaker": "ABP",
+     "text": [
+      "This is not just opening up doctrine; this is a confirmation of experience."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "And it acts by way of our minds. The remembrance is very important because the affections are in a certain sense reached by way of our minds and hold our minds, and the remembrance in that sense is something which is specially to attach itself to our affections, affections that are eager, affections, if you like, that are pent up. We have been with the Lord personally through the week, looking on to this occasion which His love provided in such moving circumstances. On His way into death He tarried to give His beloved disciples the Supper to run right down through this day of the Spirit and become what we are speaking about this afternoon, the doorway into what is not subject to the defilements and limitations of the scene in which the testimony is, but stands related to the divine thoughts in all their fulness, particularly concerning the assembly."
+     "speaker": "AJEW",
+     "text": [
+      "Exactly so."
+     ]
     },
     {
-     "text": "The second passage was read because of the scope of it and the parenthetic way in which it is put, as if the beloved writer has an urge from the Spirit to make a most distinctive disclosure."
+     "speaker": "EEH",
+     "text": [
+      "What we have in Acts 1 is therefore very important, the writer, Luke the physician, bringing in that the Lord appeared after He had suffered. It is very instructive to read that: \"I composed the first discourse, O Theophilus, concerning all things which Jesus began both to do and to teach, until that day in which, having by the Holy Spirit charged the apostles whom he had chosen he was taken up; to whom also he presented himself living, after he had suffered with many proofs; being seen by them during forty days, and speaking of the things which concern the kingdom of God\", (vv 1-3). For forty days they had opportunities of being with the Lord."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "Does he not open up in this parenthesis the assurance he had in his own soul as he realised the possibilities that lay ahead of him as a Pharisee of the Pharisees? He set aside everything that he might win Christ; if Christ be not raised then we are of all men the most miserable; he had lost everything. 'But I have not lost everything' would be the parenthesis, would it?"
+     "speaker": "AJEW",
+     "text": [
+      "That would be largely experience in seclusion. Judaism is not in view in those forty days, Judaism is not raising its head against Christ; He is free, and you might say He comes and goes as He pleases. So that the later scripture in chapter 1 speaks of \"the time in which the Lord Jesus came in and went out among us, beginning from the baptism of John until the day in which he was taken up from us\", inclusive of the forty days that you speak of."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is a very fine way to put it. The chapter is a long one and a very rich one, and it seems extended in a way that would impress the dear brethren at Corinth: This is your proper portion, this is your proper engagement of mind and heart. The things that have had to be set aside, the things that the cross and the preaching of the cross have laid bare, what are they in relation to the divine glory and majesty which is disclosed in such a passage as this where the very power of language itself almost seems strained because of the vastness of what is before us? This is the portion of the assembly. You could not read this with any sense of limitation lingering in your mind. You might have to go back to the limitation and face it in a right way with God, but the character of what is here is outside all the limitation."
+     "speaker": "EEH",
+     "text": [
+      "Witness is what I had in mind, by persons who are able to give an account of the Lord after His death and resurrection."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "The Father embracing Christ out of death was prepared to wait all those days before receiving Him up in glory so that the saints might get a confirmation of the resurrection."
+     "speaker": "AJEW",
+     "text": [
+      "Have not the forty days been spoken of as tending to promote spirituality? You feel that is something that enters so much into what we are saying; the Lord would give us the most favourable experiences to develop what is spiritual, in which what is of Him and what is for Him is to be entered upon.",
+      "A.Macd. The Lord's appearing to Paul would be a further proof. It fits in with what is being said about witness and proof. Paul himself had the living proof right there before him."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so. Hence the emphasis later in the history on witnesses, which is strong in the early chapters of the Acts \"This Jesus has God raised up, whereof we all are witnesses\", chap 2: 32. That rightly enters into our assembly relations, I believe, because persons are affected in the sense of being able to witness to something, and being able to receive a witness to something, too."
+     "speaker": "EEH",
+     "text": [
+      "\"Have I not seen Jesus our Lord?\", 1 Cor 9: 1."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "This is not just opening up doctrine; this is a confirmation of experience."
+     "speaker": "AJEW",
+     "text": [
+      "What a proof that becomes when you think of what Paul had been against Christ! Think of the expression the scripture uses of him: \"breathing out threatenings and slaughter\", Acts 9: 1. That is what he had been; and you see what he became. It is witness to the power of the things of which we are speaking. It is such a man who is used of God to complete His word, that is to bring out and set forth for us the truth of the mystery of God \"in which are hid all the treasures of wisdom and of knowledge\", Col 2: 3."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Exactly so."
+     "speaker": "EEH",
+     "text": [
+      "Paul gives us the facts of these appearings of the Lord in 1 Cor 15: 5-8. There are appearings to this one and that one, and last of all, as he says, to me also."
+     ]
     },
     {
-     "speaker": "E.E.H.",
-     "text": "What we have in Acts 1 is therefore very important, the writer, Luke the physician, bringing in that the Lord appeared after He had suffered. It is very instructive to read that: \"I composed the first discourse, O Theophilus, concerning all things which Jesus began both to do and to teach, until that day in which, having by the Holy Spirit charged the apostles whom he had chosen he was taken up; to whom also he presented himself living, after he had suffered with many proofs; being seen by them during forty days, and speaking of the things which concern the kingdom of God\", (vv 1-3). For forty days they had opportunities of being with the Lord."
+     "speaker": "AJEW",
+     "text": [
+      "Those appearings would have been so different, not a repetition of the same character of things but something fresh in each appearing. If I can use a very simple word to encourage the younger ones, it makes the assembly so interesting, the deepest interest of love. What is the Lord going to say to us tonight? What shall we learn of Jesus tonight? What shall we learn tonight of this order of things in the Spirit in which we can lose sight of the limitations? What keenness of expectancy these questions would arouse!"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That would be largely experience in seclusion. Judaism is not in view in those forty days, Judaism is not raising its head against Christ; He is free, and you might say He comes and goes as He pleases. So that the later scripture in chapter 1 speaks of \"the time in which the Lord Jesus came in and went out among us, beginning from the baptism of John until the day in which he was taken up from us\", inclusive of the forty days that you speak of."
+     "speaker": "EEH",
+     "text": [
+      "That would be the way to come to the meeting - in expectation."
+     ]
     },
     {
-     "speaker": "E.E.H.",
-     "text": "Witness is what I had in mind, by persons who are able to give an account of the Lord after His death and resurrection."
+     "speaker": "AJEW",
+     "text": [
+      "We need that, I believe. Of course, to speak simply, there is the side of limitation which tends to impinge upon it; you have a busy day at work and you come home and you have a lot of puzzles in your mind that have come across the day with you and it becomes a test; but you look to the Lord and you look to the Spirit and you find that you get a touch of peace, .and now you are ready for the assembly."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Have not the forty days been spoken of as tending to promote spirituality? You feel that is something that enters so much into what we are saying; the Lord would give us the most favourable experiences to develop what is spiritual, in which what is of Him and what is for Him is to be entered upon."
+     "speaker": "ARS",
+     "text": [
+      "How would Paul's abstraction be entered upon? Mr Taylor and others have spoken of the power of abstraction."
+     ]
     },
     {
-     "text": "A.Macd. The Lord's appearing to Paul would be a further proof. It fits in with what is being said about witness and proof. Paul himself had the living proof right there before him."
+     "speaker": "AJEW",
+     "text": [
+      "I have often thought of Peter, who at a certain time in the day went up to the housetop to pray while the food was being prepared (see Acts 10). The touch as to the food makes it very practical; there were certain things in the day that were needful circumstantially, he had to eat and so forth. But while the food was being prepared he went on the housetop to pray. That is a kind of inlet to the power of abstraction; you take yourself away from the distracting circumstances and you look to the Lord in a definite way, and it is remarkable what you get. Do you not think so?"
+     ]
     },
     {
-     "speaker": "E.E.H.",
-     "text": "\"Have I not seen Jesus our Lord?\", 1 Cor 9: 1."
+     "speaker": "ARS",
+     "text": [
+      "We need the Spirit's help for that."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "What a proof that becomes when you think of what Paul had been against Christ! Think of the expression the scripture uses of him: \"breathing out threatenings and slaughter\", Acts 9: 1. That is what he had been; and you see what he became. It is witness to the power of the things of which we are speaking. It is such a man who is used of God to complete His word, that is to bring out and set forth for us the truth of the mystery of God \"in which are hid all the treasures of wisdom and of knowledge\", Col 2: 3."
+     "speaker": "AJEW",
+     "text": [
+      "And that help would make us deliberate and definite about it. That is what is needed to be deliberate and definite about it; there is a crowd of things waiting to be done, but you say, No, there is something else to be done first. You do not want to make it a legal matter, but a matter of the liberty we want to enter upon and enjoy in the Spirit with the Father and with the Lord in the access that we have by one Spirit to the Father."
+     ]
     },
     {
-     "speaker": "E.E.H.",
-     "text": "Paul gives us the facts of these appearings of the Lord in 1 Cor 15: 5-8. There are appearings to this one and that one, and last of all, as he says, to me also."
+     "speaker": "CSE",
+     "text": [
+      "In chapter 15 it says, \"Then the end, when he gives up the kingdom to him who is God and Father; when he shall have annulled all rule and all authority and power\". What time is that referring to?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Those appearings would have been so different, not a repetition of the same character of things but something fresh in each appearing. If I can use a very simple word to encourage the younger ones, it makes the assembly so interesting, the deepest interest of love. What is the Lord going to say to us tonight? What shall we learn of Jesus tonight? What shall we learn tonight of this order of things in the Spirit in which we can lose sight of the limitations? What keenness of expectancy these questions would arouse!"
+     "speaker": "AJEW",
+     "text": [
+      "I suppose it is defined by the expression in verse 24; \"then the end\". It seems to involve the ushering in of eternal conditions. The expression 'then the end' is without qualification, as if it signifies the finalising of the current order of things and the establishing of one that is altogether new and according to God."
+     ]
     },
     {
-     "speaker": "E.E.H.",
-     "text": "That would be the way to come to the meeting - in expectation."
+     "speaker": "ABP",
+     "text": [
+      "Would that be the end of God's ways?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "We need that, I believe. Of course, to speak simply, there is the side of limitation which tends to impinge upon it; you have a busy day at work and you come home and you have a lot of puzzles in your mind that have come across the day with you and it becomes a test; but you look to the Lord and you look to the Spirit and you find that you get a touch of peace, .and now you are ready for the assembly."
+     "speaker": "AJEW",
+     "text": [
+      "Yes, so that the outcome of them might appear in its glory. That last scripture could fitly just affect us a moment because it discloses to my mind a kind of background in the personal concern of the beloved apostle: \"I have espoused you unto one man, to present you a chaste virgin to Christ\". The chaste virgin is the assembly complete, entire, but the chaste virgin would have the features of virgin affection and chastity which attach to the assembly in the divine mind. The labour of Paul would have been to establish the rights of Christ in this connection and so endear Christ to the saints that these features would appear, and that what came to light in Corinth would be fitting in such a vessel as this. But he does not fall short in his mind of the full divine thought in the completeness of it - \"a chaste virgin\"."
+     ]
     },
     {
-     "speaker": "A.R.S.",
-     "text": "How would Paul's abstraction be entered upon? Mr Taylor and others have spoken of the power of abstraction."
+     "speaker": "ABP",
+     "text": [
+      "It is the same thing in Ephesians; is it not, \"the fulness of him who fills all in all\", chap 1: 23? That must be the assembly complete."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I have often thought of Peter, who at a certain time in the day went up to the housetop to pray while the food was being prepared (see Acts 10). The touch as to the food makes it very practical; there were certain things in the day that were needful circumstantially, he had to eat and so forth. But while the food was being prepared he went on the housetop to pray. That is a kind of inlet to the power of abstraction; you take yourself away from the distracting circumstances and you look to the Lord in a definite way, and it is remarkable what you get. Do you not think so?"
+     "speaker": "AJEW",
+     "text": [
+      "Yes, indeed. I am glad you speak of that because if we think around the epistle to the Ephesians and the Spirit helps us, we see that again we have, addressed to a particular locality where certain conditions had existed and had been met, elements of the truth which really belong to an unlimited scene of things. It is a fresh proof of what the Spirit is able for, not only in the ministry of the word, but in the souls of the saints, to engage us with what is outside the immediateness of limitations. All this has in mind, as was said in prayer, at the beginning, that there should be currently an answer to the heart of God: \"to him be glory in the assembly in Christ Jesus unto all generations of the age of ages\", Eph 3: 21."
+     ]
     },
     {
-     "speaker": "A.R.S.",
-     "text": "We need the Spirit's help for that."
+     "speaker": "ABP",
+     "text": [
+      "The \"chaste virgin\" calls for chastity which is maintained through constant concern with one object in view, the Man that she is espoused to."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "And that help would make us deliberate and definite about it. That is what is needed to be deliberate and definite about it; there is a crowd of things waiting to be done, but you say, No, there is something else to be done first. You do not want to make it a legal matter, but a matter of the liberty we want to enter upon and enjoy in the Spirit with the Father and with the Lord in the access that we have by one Spirit to the Father."
-    },
-    {
-     "speaker": "C.S.E.",
-     "text": "In chapter 15 it says, \"Then the end, when he gives up the kingdom to him who is God and Father; when he shall have annulled all rule and all authority and power\". What time is that referring to?"
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "I suppose it is defined by the expression in verse 24; \"then the end\". It seems to involve the ushering in of eternal conditions. The expression 'then the end' is without qualification, as if it signifies the finalising of the current order of things and the establishing of one that is altogether new and according to God."
-    },
-    {
-     "speaker": "A.B.P.",
-     "text": "Would that be the end of God's ways?"
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "Yes, so that the outcome of them might appear in its glory. That last scripture could fitly just affect us a moment because it discloses to my mind a kind of background in the personal concern of the beloved apostle: \"I have espoused you unto one man, to present you a chaste virgin to Christ\". The chaste virgin is the assembly complete, entire, but the chaste virgin would have the features of virgin affection and chastity which attach to the assembly in the divine mind. The labour of Paul would have been to establish the rights of Christ in this connection and so endear Christ to the saints that these features would appear, and that what came to light in Corinth would be fitting in such a vessel as this. But he does not fall short in his mind of the full divine thought in the completeness of it - \"a chaste virgin\"."
-    },
-    {
-     "speaker": "A.B.P.",
-     "text": "It is the same thing in Ephesians; is it not, \"the fulness of him who fills all in all\", chap 1: 23? That must be the assembly complete."
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "Yes, indeed. I am glad you speak of that because if we think around the epistle to the Ephesians and the Spirit helps us, we see that again we have, addressed to a particular locality where certain conditions had existed and had been met, elements of the truth which really belong to an unlimited scene of things. It is a fresh proof of what the Spirit is able for, not only in the ministry of the word, but in the souls of the saints, to engage us with what is outside the immediateness of limitations. All this has in mind, as was said in prayer, at the beginning, that there should be currently an answer to the heart of God: \"to him be glory in the assembly in Christ Jesus unto all generations of the age of ages\", Eph 3: 21."
-    },
-    {
-     "speaker": "A.B.P.",
-     "text": "The \"chaste virgin\" calls for chastity which is maintained through constant concern with one object in view, the Man that she is espoused to."
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "Exactly."
+     "speaker": "AJEW",
+     "text": [
+      "Exactly."
+     ]
     }
    ]
   },
@@ -432,6 +538,26 @@
      "text": "It is assumed that the boy Eutychus at Troas was a believer and desired to break bread with the assembled company gathered there on the first day of the week and including Paul. His name means 'fortunate'. He may have been inattentive at the meeting or more likely had given up a good seat for a hazardous one and, in the warmth of many lights and after a long day's activity, he went to sleep. Then in the mysterious ways of God, that which would be otherwise called an accident in the outside darkness, led to Eutychus receiving a lovegiven and life-giving embrace by the great apostle. This shows us that, however young and well-meaning we may be, we need the transforming and affectionate touch of Paul's ministry. Do you read his epistles?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "SPIRITUALITY MEETING LIMITATIONS",
+   "kind": "default_place",
+   "detail": "NEW YORK given to 10 names (\"All local except A.J.E.Welch, London\")"
+  },
+  {
+   "article": 1,
+   "title": "SPIRITUALITY MEETING LIMITATIONS",
+   "kind": "speaker_not_in_key",
+   "detail": "CSE (2 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "SPIRITUALITY MEETING LIMITATIONS",
+   "kind": "speaker_matched_loosely",
+   "detail": "LMacF used in the text for L.MacFarlane (key gives LM)"
   }
  ]
 }

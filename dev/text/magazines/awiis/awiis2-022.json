@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -34,6 +34,7 @@
     "TJH",
     "AM",
     "PM",
+    "AJMcS",
     "EOPM",
     "DJW",
     "PJW",
@@ -95,7 +96,7 @@
      "place": "Colchester"
     },
     {
-     "initials": "AJM",
+     "initials": "AJMcS",
      "name": "A J McSeveney",
      "place": "Twickenham"
     },
@@ -142,494 +143,681 @@
    "paragraphs": [
     {
      "speaker": "DCB",
-     "text": "I wondered if we could have help together in considering “the word of the cross”. Each one of us who has trusted the Lord Jesus has had an appreciation of the cross. We have come there, we could say, as sinners, and found relief. But “the word of the cross” would apply to us as believers. I think the Spirit of God would lead us to the cross, so that “the word of the cross” applies to persons who are believers and who have the Spirit. So “the word of the cross” is to have its result and effect with us. There were particular challenges, as we know, in Corinth. Paul had experience there, and we know from chapter 2, verse 2, his experience among them; he said, “I did not judge it well to know anything among you save Jesus Christ, and him crucified”. It is not just 'Jesus Christ crucified'; it is the Person Himself in His attractiveness. But then, anticipating the conditions to arise in Corinth, he knew the need was “him crucified”. In the crucifixion there was an end of what was according to us and according to man and flesh. So that he could say in chapter 1, verse 23, of the preaching, “but we preach Christ crucified”. His preaching related to that Man, and what that means is that what there was that was characteristic of Jew or Greek was ended. “Jews indeed ask for signs, and Greeks seek wisdom.” There was something that was not going to satisfy Jews in seeking signs, or Greeks seeking wisdom, but something that is a different line finishing what there is of these natural tendencies: “Christ, God’s power and God’s wisdom”. It was needed in the condition of things in Corinth, and it is needed to meet that for God’s glory. Having brought that in, and given a basis in his service in these epistles to Corinth in the cross, he progresses, moves on, and does not directly refer to the cross again until at the very end of the second epistle. In 2 Corinthians 13 he makes reference to the fact that “he has been crucified in weakness”, verse 4. So the whole of the ministry to the Corinthians is contained within these references to the crucifixion of Christ, and that in particular in weakness."
-    },
-    {
-     "text": "Now he has a different challenge in Galatians, and again, and you could say even more extensively, he applies “the word of the cross”. But before looking at that I think something of the progression in his soul comes in. You think of the one direct reference in Romans. It is quite remarkable to me that there is only one reference to the crucifixion in the epistle to the Romans. You would think that as it is the gospel epistle there would be other references. But where it comes in is even after the division in Romans 5: 12, when the epistle begins to speak of the need of dealing with the matter of sin. So that it comes in in Romans 6, “For if we are become identified with him in the likeness of his death, so also we shall be of his resurrection; knowing this, that our old man has been crucified with him, that the body of sin might be annulled, that we should no longer serve sin”, v 5, 6. And Romans, of course, brings matters to our experience. This is something of what God has done, that “our old man has been crucified”. What there was that served and was associated with sin has been finished there, and that really is a background to the way in which Paul approaches matters in Galatians. It is one thing, you could say, to say, “our old man has been crucified”; but what he says when he comes to Galatians is, 'I am crucified'. “I am crucified with Christ, and no longer live, I, but Christ lives in me; but in that I now live in flesh, I live by faith, the faith of the Son of God, who has loved me and given himself for me”, Gal 2: 20. And that was to such an extent in Paul that he could, as I understand it, suggest that “Jesus Christ has been portrayed, crucified among you”, in himself, chap 3: 1. They could see the effect of the crucifixion. Think of what Paul was according to the flesh, and the abilities and the place that he had, Pharisee of the Pharisees, and all these kind of things, and it is crucified. And again applying the matter, he says something interesting in chapter 5, verse 24, “they that are of the Christ have crucified the flesh”, that is they themselves doing something. “But they that are of the Christ have crucified the flesh with the passions and the lusts”, a necessary matter; and he would say as he goes on , “the world is crucified to me, and I to the world”, Gal 6: 14. Another feature that he brings in in Galatians is “the scandal of the cross”, chap 5: 11. There was weakness in the cross, there was scandal in the cross: what it meant to the believers to be associated with a crucified Man! He was concerned about “the scandal of the cross”, that the whole scope of reproach should not be done away. The Galatians would have made something of man as he is."
-    },
-    {
-     "text": "Now there are touches in the other epistles. Philippians brings us that very blessedly familiar scripture where he speaks of the Lord Jesus “becoming obedient even unto death, and that the death of the cross” (chap 2: 8), the severity and depth of it. And along with that Colossians makes the reference to the cross, “having made peace by the blood of his cross” (chap 1: 20); these two features of the blood and the cross brought together, which would help us in what has been brought before us in the hymn, No 155, which suggests that love is the motive in all actions of divine Persons. We can get technical or complex about some of these things in doctrine but there is nothing that is purely doctrinal in Christianity; everything is a matter of affection. “The blood of his cross” suggests the depth of affection that was there; “That the death of the cross” that there is a Person who has loved us so much that He has gone to the cross for us. How that should affect our spirits as we consider the matter."
-    },
-    {
-     "text": "For a final reference, Ephesians brings the cross in once. The cross is to have an effect, ”might reconcile both”, that is Jew and Gentile, “in one body to God by the cross, having by it slain the enmity”. Chap 2: 16. The cross is to have that effect, that what there is that would cause disparity or diversion has been removed because both these persons and characters, the Jew and the Gentile, have been removed, so that we can have a new walk that is according to God. These are not all, but they are most of, the references in Paul’s ministry to the cross or to what is crucified. It is not something which he dwells on extensively, but he brings it in because there is a constant need, whatever our condition is, for us to be brought back to - or never to leave - the cross of our Lord Jesus Christ. Perhaps we could have help in considering it together."
+     "text": [
+      "I wondered if we could have help together in considering “the word of the cross”. Each one of us who has trusted the Lord Jesus has had an appreciation of the cross. We have come there, we could say, as sinners, and found relief. But “the word of the cross” would apply to us as believers. I think the Spirit of God would lead us to the cross, so that “the word of the cross” applies to persons who are believers and who have the Spirit. So “the word of the cross” is to have its result and effect with us. There were particular challenges, as we know, in Corinth. Paul had experience there, and we know from chapter 2, verse 2, his experience among them; he said, “I did not judge it well to know anything among you save Jesus Christ, and him crucified”. It is not just 'Jesus Christ crucified'; it is the Person Himself in His attractiveness. But then, anticipating the conditions to arise in Corinth, he knew the need was “him crucified”. In the crucifixion there was an end of what was according to us and according to man and flesh. So that he could say in chapter 1, verse 23, of the preaching, “but we preach Christ crucified”. His preaching related to that Man, and what that means is that what there was that was characteristic of Jew or Greek was ended. “Jews indeed ask for signs, and Greeks seek wisdom.” There was something that was not going to satisfy Jews in seeking signs, or Greeks seeking wisdom, but something that is a different line finishing what there is of these natural tendencies: “Christ, God’s power and God’s wisdom”. It was needed in the condition of things in Corinth, and it is needed to meet that for God’s glory. Having brought that in, and given a basis in his service in these epistles to Corinth in the cross, he progresses, moves on, and does not directly refer to the cross again until at the very end of the second epistle. In 2 Corinthians 13 he makes reference to the fact that “he has been crucified in weakness”, verse 4. So the whole of the ministry to the Corinthians is contained within these references to the crucifixion of Christ, and that in particular in weakness.",
+      "Now he has a different challenge in Galatians, and again, and you could say even more extensively, he applies “the word of the cross”. But before looking at that I think something of the progression in his soul comes in. You think of the one direct reference in Romans. It is quite remarkable to me that there is only one reference to the crucifixion in the epistle to the Romans. You would think that as it is the gospel epistle there would be other references. But where it comes in is even after the division in Romans 5: 12, when the epistle begins to speak of the need of dealing with the matter of sin. So that it comes in in Romans 6, “For if we are become identified with him in the likeness of his death, so also we shall be of his resurrection; knowing this, that our old man has been crucified with him, that the body of sin might be annulled, that we should no longer serve sin”, v 5, 6. And Romans, of course, brings matters to our experience. This is something of what God has done, that “our old man has been crucified”. What there was that served and was associated with sin has been finished there, and that really is a background to the way in which Paul approaches matters in Galatians. It is one thing, you could say, to say, “our old man has been crucified”; but what he says when he comes to Galatians is, 'I am crucified'. “I am crucified with Christ, and no longer live, I, but Christ lives in me; but in that I now live in flesh, I live by faith, the faith of the Son of God, who has loved me and given himself for me”, Gal 2: 20. And that was to such an extent in Paul that he could, as I understand it, suggest that “Jesus Christ has been portrayed, crucified among you”, in himself, chap 3: 1. They could see the effect of the crucifixion. Think of what Paul was according to the flesh, and the abilities and the place that he had, Pharisee of the Pharisees, and all these kind of things, and it is crucified. And again applying the matter, he says something interesting in chapter 5, verse 24, “they that are of the Christ have crucified the flesh”, that is they themselves doing something. “But they that are of the Christ have crucified the flesh with the passions and the lusts”, a necessary matter; and he would say as he goes on , “the world is crucified to me, and I to the world”, Gal 6: 14. Another feature that he brings in in Galatians is “the scandal of the cross”, chap 5: 11. There was weakness in the cross, there was scandal in the cross: what it meant to the believers to be associated with a crucified Man! He was concerned about “the scandal of the cross”, that the whole scope of reproach should not be done away. The Galatians would have made something of man as he is.",
+      "Now there are touches in the other epistles. Philippians brings us that very blessedly familiar scripture where he speaks of the Lord Jesus “becoming obedient even unto death, and that the death of the cross” (chap 2: 8), the severity and depth of it. And along with that Colossians makes the reference to the cross, “having made peace by the blood of his cross” (chap 1: 20); these two features of the blood and the cross brought together, which would help us in what has been brought before us in the hymn, No 155, which suggests that love is the motive in all actions of divine Persons. We can get technical or complex about some of these things in doctrine but there is nothing that is purely doctrinal in Christianity; everything is a matter of affection. “The blood of his cross” suggests the depth of affection that was there; “That the death of the cross” that there is a Person who has loved us so much that He has gone to the cross for us. How that should affect our spirits as we consider the matter.",
+      "For a final reference, Ephesians brings the cross in once. The cross is to have an effect, ”might reconcile both”, that is Jew and Gentile, “in one body to God by the cross, having by it slain the enmity”. Chap 2: 16. The cross is to have that effect, that what there is that would cause disparity or diversion has been removed because both these persons and characters, the Jew and the Gentile, have been removed, so that we can have a new walk that is according to God. These are not all, but they are most of, the references in Paul’s ministry to the cross or to what is crucified. It is not something which he dwells on extensively, but he brings it in because there is a constant need, whatever our condition is, for us to be brought back to - or never to leave - the cross of our Lord Jesus Christ. Perhaps we could have help in considering it together."
+     ]
     },
     {
      "speaker": "JSG",
-     "text": "I wanted to ask why in the scripture read in 1 Corinthians 1, wisdom and understanding, and the scribe and the wise and the wisdom of the world are immediately referred to in the context of its being brought in, v 19, 20."
+     "text": [
+      "I wanted to ask why in the scripture read in 1 Corinthians 1, wisdom and understanding, and the scribe and the wise and the wisdom of the world are immediately referred to in the context of its being brought in, v 19, 20."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "We began with the reference to Paul's preaching, “to preach glad tidings; not in wisdom of word”. I suppose we would all tend to wish to add something of ourselves and our own ability if we are engaged in speaking. It is the natural tendency and he has to present to us that nothing of human ability, nothing of human wisdom, is going to add anything to the glory of what God has done in the cross of Christ. But you have an impression yourself."
+     "text": [
+      "We began with the reference to Paul's preaching, “to preach glad tidings; not in wisdom of word”. I suppose we would all tend to wish to add something of ourselves and our own ability if we are engaged in speaking. It is the natural tendency and he has to present to us that nothing of human ability, nothing of human wisdom, is going to add anything to the glory of what God has done in the cross of Christ. But you have an impression yourself."
+     ]
     },
     {
      "speaker": "JSG",
-     "text": "What you say helps. He is addressing those who walked in the light of the assembly of God, and he is speaking therefore, is he not, of the conduct that is to mark such, and how they are to be governed by this gospel truth?"
+     "text": [
+      "What you say helps. He is addressing those who walked in the light of the assembly of God, and he is speaking therefore, is he not, of the conduct that is to mark such, and how they are to be governed by this gospel truth?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, that is right. So I suppose they were introducing human wisdom into the assembly, were they not? They were introducing something that would aggrandise themselves, or various party leaders, and so on, and he had to say, 'This is finished, and it is not only finished but it is finished according to the severity that is suggested in the cross'."
+     "text": [
+      "Yes, that is right. So I suppose they were introducing human wisdom into the assembly, were they not? They were introducing something that would aggrandise themselves, or various party leaders, and so on, and he had to say, 'This is finished, and it is not only finished but it is finished according to the severity that is suggested in the cross'."
+     ]
     },
     {
      "speaker": "JSG",
-     "text": "In some of the later verses he suggests that there is something that is better, which seems to me to help us. What is of God is better. “The foolishness of God is wiser than men, and the weakness of God is stronger than men” (v 25); so there is an advantage in this."
+     "text": [
+      "In some of the later verses he suggests that there is something that is better, which seems to me to help us. What is of God is better. “The foolishness of God is wiser than men, and the weakness of God is stronger than men” (v 25); so there is an advantage in this."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, it is helpful to see that. You see God’s wisdom in allowing the cross. It brings in what is superior. It opens up what is superior in Christ coming before us, One who has reached us in our affections."
+     "text": [
+      "Yes, it is helpful to see that. You see God’s wisdom in allowing the cross. It brings in what is superior. It opens up what is superior in Christ coming before us, One who has reached us in our affections."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "So Paul speaks much in chapter 2 about the wisdom of this world, “God’s wisdom in a mystery, that hidden wisdom … which none of the princes of this age knew, (for had they known, they would not have crucified the Lord of glory)”, v 7, 8. It seems as though this matter of crucifixion is completely foreign to the human mind."
+     "text": [
+      "So Paul speaks much in chapter 2 about the wisdom of this world, “God’s wisdom in a mystery, that hidden wisdom … which none of the princes of this age knew, (for had they known, they would not have crucified the Lord of glory)”, v 7, 8. It seems as though this matter of crucifixion is completely foreign to the human mind."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes. I think that is important, that the human mind really has come to an end. We remember that where He was crucified was at Golgotha, place of a skull. That is the human mind in all the best that it can bring in. It is not going to add anything; it is not going to do anything to come into what belongs to God. We are dependent, therefore, and we can be thankful for the divine wisdom that comes in."
+     "text": [
+      "Yes. I think that is important, that the human mind really has come to an end. We remember that where He was crucified was at Golgotha, place of a skull. That is the human mind in all the best that it can bring in. It is not going to add anything; it is not going to do anything to come into what belongs to God. We are dependent, therefore, and we can be thankful for the divine wisdom that comes in."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "So they had no appreciation at all, did they, of the wisdom of God that was there in Jesus? They crucified Him. It is a terrible contrast really."
+     "text": [
+      "So they had no appreciation at all, did they, of the wisdom of God that was there in Jesus? They crucified Him. It is a terrible contrast really."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, it was confirming to be reading in Luke 23 in our local reading on Wednesday night, and we were affected by that. There was the crowd shouting, “Crucify, crucify him”, v 21. They did not simply say, “Away with this man” (Luke 23: 18), as they did otherwise, or that He should be killed, but to crucify Him. There were the priests, who should really have been the best there was of mankind then. You would have expected that in the Jew who had had all these centuries of help from God, who claimed Abraham as their father, and so on. Yet their attitude is, “Crucify, crucify him”. And the princes of the world, Herod and Pilate and others there, they were not appreciating such a Man; they would do away with Him. But God had in His mind and wisdom to show that in fact it is the world that has been crucified, is it not?"
+     "text": [
+      "Yes, it was confirming to be reading in Luke 23 in our local reading on Wednesday night, and we were affected by that. There was the crowd shouting, “Crucify, crucify him”, v 21. They did not simply say, “Away with this man” (Luke 23: 18), as they did otherwise, or that He should be killed, but to crucify Him. There were the priests, who should really have been the best there was of mankind then. You would have expected that in the Jew who had had all these centuries of help from God, who claimed Abraham as their father, and so on. Yet their attitude is, “Crucify, crucify him”. And the princes of the world, Herod and Pilate and others there, they were not appreciating such a Man; they would do away with Him. But God had in His mind and wisdom to show that in fact it is the world that has been crucified, is it not?"
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "Does that come out in the Lord speaking about His being lifted up, “and I, if I be lifted up out of the earth, will draw all to me” (John 12: 32), that what seemed to be outwardly the end in defeat has been the basis of everything for God? Is that what you had in mind?"
+     "text": [
+      "Does that come out in the Lord speaking about His being lifted up, “and I, if I be lifted up out of the earth, will draw all to me” (John 12: 32), that what seemed to be outwardly the end in defeat has been the basis of everything for God? Is that what you had in mind?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "That is very fine and very helpful, that we should be drawn in affection, “draw all to me”. It is drawing all the work of God, is it not, that really is in mind there? He is drawing all in affection towards Him as the One who has gone that way, and has gone that way for us, so that we are dependent on a Man who has gone that way for us."
+     "text": [
+      "That is very fine and very helpful, that we should be drawn in affection, “draw all to me”. It is drawing all the work of God, is it not, that really is in mind there? He is drawing all in affection towards Him as the One who has gone that way, and has gone that way for us, so that we are dependent on a Man who has gone that way for us."
+     ]
     },
     {
      "speaker": "JRW",
-     "text": "Could you say something in that connection about what is said in verse 25, “the foolishness of God is wiser than men, and the weakness of God is stronger than men”? The cross seems to demonstrate that, does it?"
+     "text": [
+      "Could you say something in that connection about what is said in verse 25, “the foolishness of God is wiser than men, and the weakness of God is stronger than men”? The cross seems to demonstrate that, does it?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, there is a way in which really God is deriding the best that there is in man. So that He says, 'I will demonstrate My love, I will demonstrate My heart towards you in a place of utter weakness, at the cross'. And that will defeat the whole gathering together of men, it will defeat “Sodom and Egypt, where also our Lord was crucified”, Rev 11: 8. But say more of your own impression."
+     "text": [
+      "Yes, there is a way in which really God is deriding the best that there is in man. So that He says, 'I will demonstrate My love, I will demonstrate My heart towards you in a place of utter weakness, at the cross'. And that will defeat the whole gathering together of men, it will defeat “Sodom and Egypt, where also our Lord was crucified”, Rev 11: 8. But say more of your own impression."
+     ]
     },
     {
      "speaker": "JRW",
-     "text": "I am very interested in what you have brought before us, and just seeking to draw out what is in your mind. I was interested in your reference in chapter 2, to knowing “Jesus Christ, and him crucified”. My mind went to the first record of Paul’s preaching which is, “he preached Jesus that he is the Son of God”, Acts 9: 20. I wondered whether that impression really never left him. It was Him; it was that Person that was crucified, and that seems to be the key, do you think, to what you are bringing before us?"
+     "text": [
+      "I am very interested in what you have brought before us, and just seeking to draw out what is in your mind. I was interested in your reference in chapter 2, to knowing “Jesus Christ, and him crucified”. My mind went to the first record of Paul’s preaching which is, “he preached Jesus that he is the Son of God”, Acts 9: 20. I wondered whether that impression really never left him. It was Him; it was that Person that was crucified, and that seems to be the key, do you think, to what you are bringing before us?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes. We do have to bear that in mind to run through all we are saying, because we can occupy ourselves with the cross almost to the exclusion of Christ if we take it in a purely doctrinal view. But here is a Man who is to affect our hearts. We are presenting a Man in perfection and in glory, a Man who has been for the pleasure of God, but then He has been the way of the cross, “him”. The world’s view of Him, and our view of Him according to the old man, is, 'Away with Him'. But He is to reach our hearts in affection as the crucified One."
+     "text": [
+      "Yes. We do have to bear that in mind to run through all we are saying, because we can occupy ourselves with the cross almost to the exclusion of Christ if we take it in a purely doctrinal view. But here is a Man who is to affect our hearts. We are presenting a Man in perfection and in glory, a Man who has been for the pleasure of God, but then He has been the way of the cross, “him”. The world’s view of Him, and our view of Him according to the old man, is, 'Away with Him'. But He is to reach our hearts in affection as the crucified One."
+     ]
     },
     {
      "speaker": "TJH",
-     "text": "Through weakness and defeat"
-    },
-    {
-     "text": "He won the meed and crown"
-    },
-    {
-     "text": "(Hymn 24)"
-    },
-    {
-     "text": "To win something must mean that the opponent is defeated, must it not? It would fit in with what you are saying."
+     "text": [
+      "Through weakness and defeat",
+      "He won the meed and crown",
+      "(Hymn 24)",
+      "To win something must mean that the opponent is defeated, must it not? It would fit in with what you are saying."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, well you can see that. Of course Satan thought, and the rulers of the world thought, at the cross, that they had the mastery. They thought “Away with this man” (Luke 23: 18); - 'we have finished with this Man; He is not going to trouble us any more; we have got rid of this Prophet or supposed Prophet'. That is the world’s and Satan’s view, and really we see how Satan was bruised, Satan was defeated there, and the whole range of the power of what was against God was defeated there at the cross, yet in a Man as crucified in weakness. Raised by God’s power, of course, that is all part of the whole transaction, but it is by that way of going in weakness."
-    },
-    {
-     "text": "RDP-r Do we need to see the essential necessity of the cross in order for God to secure His purpose?"
-    },
-    {
-     "speaker": "DCB",
-     "text": "Yes, “given up by the determinate counsel and foreknowledge of God, ye, by the hand of lawless men, have crucified and slain”, Acts 2: 23."
-    },
-    {
-     "text": "RDP-r Yes, I was thinking of what had come into God’s universe. The cross is the answer to that in order that God might secure His end, which is man for Himself."
+     "text": [
+      "Yes, well you can see that. Of course Satan thought, and the rulers of the world thought, at the cross, that they had the mastery. They thought “Away with this man” (Luke 23: 18); - 'we have finished with this Man; He is not going to trouble us any more; we have got rid of this Prophet or supposed Prophet'. That is the world’s and Satan’s view, and really we see how Satan was bruised, Satan was defeated there, and the whole range of the power of what was against God was defeated there at the cross, yet in a Man as crucified in weakness. Raised by God’s power, of course, that is all part of the whole transaction, but it is by that way of going in weakness.",
+      "RDP-r Do we need to see the essential necessity of the cross in order for God to secure His purpose?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, how wonderful it is that God has come in, and you can see how it does away with the whole range of human wisdom. Human wisdom would never have envisaged such a way, but God has envisaged such a way. Through what was foolish to men, through what was weak to men, He is securing all that is for His own glory and pleasure eternally."
-    },
-    {
-     "text": "RDP-r So nothing would stand in God’s way in securing His end, even the cross."
+     "text": [
+      "Yes, “given up by the determinate counsel and foreknowledge of God, ye, by the hand of lawless men, have crucified and slain”, Acts 2: 23.",
+      "RDP-r Yes, I was thinking of what had come into God’s universe. The cross is the answer to that in order that God might secure His end, which is man for Himself."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes."
+     "text": [
+      "Yes, how wonderful it is that God has come in, and you can see how it does away with the whole range of human wisdom. Human wisdom would never have envisaged such a way, but God has envisaged such a way. Through what was foolish to men, through what was weak to men, He is securing all that is for His own glory and pleasure eternally.",
+      "RDP-r So nothing would stand in God’s way in securing His end, even the cross."
+     ]
+    },
+    {
+     "speaker": "DCB",
+     "text": [
+      "Yes."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Not only has God overcome everything that might have stood in the way, but He has expressed Himself at the cross, has He not, so that we should know Him? We see divine power, it is God’s power, as it says here, but we also learn all that God is. We see that God’s heart is expressed there, is it not? What He is is expressed at the cross."
+     "text": [
+      "Not only has God overcome everything that might have stood in the way, but He has expressed Himself at the cross, has He not, so that we should know Him? We see divine power, it is God’s power, as it says here, but we also learn all that God is. We see that God’s heart is expressed there, is it not? What He is is expressed at the cross."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, that is right. So that if there is anything that is for God it has its origin in the cross. What there is in active response to the heart of God has been secured at the cross and from the cross."
+     "text": [
+      "Yes, that is right. So that if there is anything that is for God it has its origin in the cross. What there is in active response to the heart of God has been secured at the cross and from the cross."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "The angel identifies Him as “Jesus the crucified one”, “I know that ye seek Jesus the crucified one” (Matt 28: 5), and the personal name is given. I was thinking of what you were saying as to the need for our affections to be touched by that. It is almost a designation of the Lord, is it not, “the crucified one”?"
+     "text": [
+      "The angel identifies Him as “Jesus the crucified one”, “I know that ye seek Jesus the crucified one” (Matt 28: 5), and the personal name is given. I was thinking of what you were saying as to the need for our affections to be touched by that. It is almost a designation of the Lord, is it not, “the crucified one”?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, and I suppose you can understand what a reproach it was for someone to be seeking a “crucified one”. That is not how they would execute a noble. It was for the lowest persons; they reserved the cross for those who were low. The Lord Jesus has gone that way. Think of the reproach that would have been for such a man as Joseph of Arimathæa. He would go and seek for the body of One who had been crucified. Here He is, and God, in speaking through the angel you referred to, designating and glorifying the whole thought of the One who was “the crucified one”."
+     "text": [
+      "Yes, and I suppose you can understand what a reproach it was for someone to be seeking a “crucified one”. That is not how they would execute a noble. It was for the lowest persons; they reserved the cross for those who were low. The Lord Jesus has gone that way. Think of the reproach that would have been for such a man as Joseph of Arimathæa. He would go and seek for the body of One who had been crucified. Here He is, and God, in speaking through the angel you referred to, designating and glorifying the whole thought of the One who was “the crucified one”."
+     ]
     },
     {
      "speaker": "TJH",
-     "text": "That would be the condition which Nicodemus identified himself with - the Lord Jesus as crucified. He did not seem to be identified with Him before, but he seemed to be identified with Him in His death, do you think?"
+     "text": [
+      "That would be the condition which Nicodemus identified himself with - the Lord Jesus as crucified. He did not seem to be identified with Him before, but he seemed to be identified with Him in His death, do you think?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, there was that work of God with him, was there not? The work of God, “It is needful that ye should be born anew” (John 3: 7), but there was not a breaking through to an identification with Christ until his heart was affected by Him as crucified. There was something secured there, was there not? Our hearts are to be moved. Therefore that would be what would dissociate Joseph from the council, and that would be what would dissociate Nicodemus from the Pharisees that he belonged to, and that would dissociate each one of us from what is natural to us. The cross is therefore to have what we would call a moral effect. It is an actual change in our condition, is it not?"
+     "text": [
+      "Yes, there was that work of God with him, was there not? The work of God, “It is needful that ye should be born anew” (John 3: 7), but there was not a breaking through to an identification with Christ until his heart was affected by Him as crucified. There was something secured there, was there not? Our hearts are to be moved. Therefore that would be what would dissociate Joseph from the council, and that would be what would dissociate Nicodemus from the Pharisees that he belonged to, and that would dissociate each one of us from what is natural to us. The cross is therefore to have what we would call a moral effect. It is an actual change in our condition, is it not?"
+     ]
     },
     {
      "speaker": "PM",
-     "text": "Is there the side of the curse related to the cross?"
+     "text": [
+      "Is there the side of the curse related to the cross?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, say more about that."
+     "text": [
+      "Yes, say more about that."
+     ]
     },
     {
      "speaker": "PM",
-     "text": "Well, I was just thinking of what our brother said, that at that very point where man was exposed for what he was, Christ vicariously becoming the curse, God’s heart was made known.."
+     "text": [
+      "Well, I was just thinking of what our brother said, that at that very point where man was exposed for what he was, Christ vicariously becoming the curse, God’s heart was made known.."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, “Christ has redeemed us out of the curse of the law”, Gal 3: 13. Think of the whole opening up of what there is as a redeemed people, because He has gone that way and taken on something so severe as the curse. “Cursed is every one hanged upon a tree”; I think that is Paul’s only reference to the tree, but there is something distinct about the tree as well, that that curse attaches to it."
+     "text": [
+      "Yes, “Christ has redeemed us out of the curse of the law”, Gal 3: 13. Think of the whole opening up of what there is as a redeemed people, because He has gone that way and taken on something so severe as the curse. “Cursed is every one hanged upon a tree”; I think that is Paul’s only reference to the tree, but there is something distinct about the tree as well, that that curse attaches to it."
+     ]
     },
     {
      "speaker": "PM",
-     "text": "I wondered if it was necessary that He should go out of this world by way of the cross, going out that way vicariously, in view of man being exposed and God made known. What Paul goes on to in chapter 2 is the things that the Spirit of God makes known, which that order of man that had to be removed could never know; but God was making known a new order of life and relationship. Would that be right?"
+     "text": [
+      "I wondered if it was necessary that He should go out of this world by way of the cross, going out that way vicariously, in view of man being exposed and God made known. What Paul goes on to in chapter 2 is the things that the Spirit of God makes known, which that order of man that had to be removed could never know; but God was making known a new order of life and relationship. Would that be right?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "That would be right. There was something brought in in newness. “Newness of life” comes in and that is an effect of the cross, is it not? There is something that is going forward that is according to the divine heart and mind because what there was that was contrary has been dealt with."
+     "text": [
+      "That would be right. There was something brought in in newness. “Newness of life” comes in and that is an effect of the cross, is it not? There is something that is going forward that is according to the divine heart and mind because what there was that was contrary has been dealt with."
+     ]
     },
     {
-     "text": "AJMcS Just in line with what our brother said as to Nicodemus, in Romans 6, our old man has been crucified with him (v 6), and we are therefore buried with him, v 4. Really it is the effect of the affections going out to Christ in what He has suffered that helps us to accept that in our own moral being, do you think?"
+     "speaker": "AJMcS",
+     "text": [
+      "Just in line with what our brother said as to Nicodemus, in Romans 6, our old man has been crucified with him (v 6), and we are therefore buried with him, v 4. Really it is the effect of the affections going out to Christ in what He has suffered that helps us to accept that in our own moral being, do you think?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes. Is there something of our minds coming into this, the appreciation and the acceptance of that fact. Because in one sense it has been done but then if we are going to come into liberty, which is what Romans 6 has in mind, we have to know that what we are, what would naturally be under the dominion of sin, has been dealt with and finished. The old man has been crucified and, as you emphasise, has been crucified with Him."
+     "text": [
+      "Yes. Is there something of our minds coming into this, the appreciation and the acceptance of that fact. Because in one sense it has been done but then if we are going to come into liberty, which is what Romans 6 has in mind, we have to know that what we are, what would naturally be under the dominion of sin, has been dealt with and finished. The old man has been crucified and, as you emphasise, has been crucified with Him."
+     ]
     },
     {
      "speaker": "EOPM",
-     "text": "The scripture in verse 18 would make sense in English if it said, ‘the cross is to them that perish foolishness, but to us that are saved it is God’s power’. Do you think the thought you bring before us, ‘the word of the cross’ means that we get beyond what is historical and come in our minds to think through what it actually means? It has often impressed me, this expression that you are helpfully bringing before us, 'the word of the cross'. Many believers seem to stop at the cross as an object in itself. That in one sense is an historic event, but the word of the cross means that what it means has entered into my mind and heart and soul."
+     "text": [
+      "The scripture in verse 18 would make sense in English if it said, ‘the cross is to them that perish foolishness, but to us that are saved it is God’s power’. Do you think the thought you bring before us, ‘the word of the cross’ means that we get beyond what is historical and come in our minds to think through what it actually means? It has often impressed me, this expression that you are helpfully bringing before us, 'the word of the cross'. Many believers seem to stop at the cross as an object in itself. That in one sense is an historic event, but the word of the cross means that what it means has entered into my mind and heart and soul."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "That is right. I suppose that is essentially what we would desire from a time like this. We are thankful for every one who has an appreciation of the cross of Christ, but then it is to have an effect so that our way of life changes, our behaviour changes. So that there is a word, the ‘logos’, there is a setting forth of the cross in a teaching that is going to meet Corinthian conditions, that is going to meet Galatian conditions, and you could say almost more basically is going to meet my condition, and your condition, as it is presented in Romans 6."
+     "text": [
+      "That is right. I suppose that is essentially what we would desire from a time like this. We are thankful for every one who has an appreciation of the cross of Christ, but then it is to have an effect so that our way of life changes, our behaviour changes. So that there is a word, the ‘logos’, there is a setting forth of the cross in a teaching that is going to meet Corinthian conditions, that is going to meet Galatian conditions, and you could say almost more basically is going to meet my condition, and your condition, as it is presented in Romans 6."
+     ]
     },
     {
      "speaker": "EOPM",
-     "text": "So it is important to see it is the present tense, to us that are saved it is God’s power, not it was. We know that in one sense what happened at the cross was a great demonstration of power by which we have been secured through grace and mercy to come into the great things of God, but the word of the cross is God’s power to us."
+     "text": [
+      "So it is important to see it is the present tense, to us that are saved it is God’s power, not it was. We know that in one sense what happened at the cross was a great demonstration of power by which we have been secured through grace and mercy to come into the great things of God, but the word of the cross is God’s power to us."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, so that it is not to be left behind, and you see why Paul brings it into almost all of his epistles. He would bring it in to touch of affections. A touch too of the severity of it should be kept before our souls."
+     "text": [
+      "Yes, so that it is not to be left behind, and you see why Paul brings it into almost all of his epistles. He would bring it in to touch of affections. A touch too of the severity of it should be kept before our souls."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "So when it says, “to us that are saved”, that is very wide that word “saved”. It is not simply initially having our sins forgiven, but saved; that would be saved from that old man that has been crucified, would it?"
+     "text": [
+      "So when it says, “to us that are saved”, that is very wide that word “saved”. It is not simply initially having our sins forgiven, but saved; that would be saved from that old man that has been crucified, would it?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, that is right. There is an opening out of persons yielding their members instruments of righteousness, Rom 6: 19. That would be part of what it is to be saved, would it not? And there is what is working according to Him. It is not referred to, but Romans 8 so strongly would imply the cross. “For what the law could not do, in that it was weak through the flesh, God, having sent his own Son, in likeness of flesh of sin, and for sin, has condemned sin in the flesh, in order that the righteous requirement of the law should be fulfilled”, v 3, 4. There is a very strong implication there of the cross, what has been condemned there, so that there should be those “who do not walk according to flesh but according to Spirit”."
+     "text": [
+      "Yes, that is right. There is an opening out of persons yielding their members instruments of righteousness, Rom 6: 19. That would be part of what it is to be saved, would it not? And there is what is working according to Him. It is not referred to, but Romans 8 so strongly would imply the cross. “For what the law could not do, in that it was weak through the flesh, God, having sent his own Son, in likeness of flesh of sin, and for sin, has condemned sin in the flesh, in order that the righteous requirement of the law should be fulfilled”, v 3, 4. There is a very strong implication there of the cross, what has been condemned there, so that there should be those “who do not walk according to flesh but according to Spirit”."
+     ]
     },
     {
      "speaker": "EOPM",
-     "text": "Would you see any link with this thought of “the word of the cross” and the Supper?"
+     "text": [
+      "Would you see any link with this thought of “the word of the cross” and the Supper?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Well, is not the whole of this beginning of Corinthians leading up to what there is at the Supper as we have opened up in 1 Corinthians 11 especially? There is something that has been awakened, something that has been given as a grounding, so that we can have our part then, and take our part together at the Supper. But you have something."
+     "text": [
+      "Well, is not the whole of this beginning of Corinthians leading up to what there is at the Supper as we have opened up in 1 Corinthians 11 especially? There is something that has been awakened, something that has been given as a grounding, so that we can have our part then, and take our part together at the Supper. But you have something."
+     ]
     },
     {
      "speaker": "EOPM",
-     "text": "Just following up what is being said, that as our minds at the Supper are directed to the loaf and the cup, they must necessarily bring to mind the time when that body was given, and when that blood was shed, which was at the cross. But “the word of the cross” seems to me to perhaps include the fulness of what that remembrance each week would bring into our hearts, what has come in for God through that wonderful sacrifice."
+     "text": [
+      "Just following up what is being said, that as our minds at the Supper are directed to the loaf and the cup, they must necessarily bring to mind the time when that body was given, and when that blood was shed, which was at the cross. But “the word of the cross” seems to me to perhaps include the fulness of what that remembrance each week would bring into our hearts, what has come in for God through that wonderful sacrifice."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, that is interesting. This wonderful consummation of the affection of God as seen in Christ was at the cross, and while in a certain sense we are not remembering a dead Christ, the affection has been shown there at the cross, and it is there that that precious blood was shed. So it must be in our hearts and affections as we are gathered, must it not?"
+     "text": [
+      "Yes, that is interesting. This wonderful consummation of the affection of God as seen in Christ was at the cross, and while in a certain sense we are not remembering a dead Christ, the affection has been shown there at the cross, and it is there that that precious blood was shed. So it must be in our hearts and affections as we are gathered, must it not?"
+     ]
     },
     {
      "speaker": "TJH",
-     "text": "Is God’s power, which is referred to, known and experienced in the occasion of the Supper? If you left out some of it you could say, “the word of the cross ... is God’s power”. You could put it that way. Would that be experienced today in the occasion of the Lord’s supper? I was thinking of Joseph and Nicodemus. We are not told, but no doubt they would have been there in the upper room. That is not the Supper of course, but God’s power was certainly seen there, and is God’s power not known among us at the occasion of the Lord’s supper, the assembly occasion?"
+     "text": [
+      "Is God’s power, which is referred to, known and experienced in the occasion of the Supper? If you left out some of it you could say, “the word of the cross ... is God’s power”. You could put it that way. Would that be experienced today in the occasion of the Lord’s supper? I was thinking of Joseph and Nicodemus. We are not told, but no doubt they would have been there in the upper room. That is not the Supper of course, but God’s power was certainly seen there, and is God’s power not known among us at the occasion of the Lord’s supper, the assembly occasion?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, that is right. So there is power. In a certain sense the power here is to meet challenges. I think the way in which it is presented here in Corinth is to meet challenges that were coming in, in persons setting themselves up, and persons taking a worldly position, and all this, but the power is going to go through so that there is an opening up of what there is in the Supper as persons are gathered together, having an experience in their souls of the power that has its effect on them proving themselves."
+     "text": [
+      "Yes, that is right. So there is power. In a certain sense the power here is to meet challenges. I think the way in which it is presented here in Corinth is to meet challenges that were coming in, in persons setting themselves up, and persons taking a worldly position, and all this, but the power is going to go through so that there is an opening up of what there is in the Supper as persons are gathered together, having an experience in their souls of the power that has its effect on them proving themselves."
+     ]
     },
     {
      "speaker": "DJW",
-     "text": "Would the effect of keeping it up to date in ourselves be that I do not demonstrate the features of the flesh that came under judgement at the cross, but rather the features of the One who suffered vicariously there, do you think?"
+     "text": [
+      "Would the effect of keeping it up to date in ourselves be that I do not demonstrate the features of the flesh that came under judgement at the cross, but rather the features of the One who suffered vicariously there, do you think?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, so again that is really the way in which matters work out in Romans 6, is it not, that we should no longer serve sin. Sin has had dominion over the soul. It has almost had a rightful dominion over our soul. Perhaps that goes too far, but certainly the natural position of the sinner is that sin has its dominion, and here there is a right not to serve it any longer. There is the right to “yield your members instruments of righteousness”, v 13. There is the right to act in a way that is according to the divine mind."
+     "text": [
+      "Yes, so again that is really the way in which matters work out in Romans 6, is it not, that we should no longer serve sin. Sin has had dominion over the soul. It has almost had a rightful dominion over our soul. Perhaps that goes too far, but certainly the natural position of the sinner is that sin has its dominion, and here there is a right not to serve it any longer. There is the right to “yield your members instruments of righteousness”, v 13. There is the right to act in a way that is according to the divine mind."
+     ]
     },
     {
      "speaker": "PJW",
-     "text": "The cross really is the dividing line, is it? I was thinking that man as such utterly rejected God and His Man, and God has utterly rejected man after the flesh. Would that be right?"
+     "text": [
+      "The cross really is the dividing line, is it? I was thinking that man as such utterly rejected God and His Man, and God has utterly rejected man after the flesh. Would that be right?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, we sing that,"
-    },
-    {
-     "text": "… Thy death we deem"
-    },
-    {
-     "text": "Our point of severance from this scene"
-    },
-    {
-     "text": "(Hymn 192)"
-    },
-    {
-     "text": "That of course is the death of the cross. There is a point of severance, there is something that divides. One other feature which comes in, and perhaps it goes before what we have been thinking about as to the Supper, in the other Christian ordinance of baptism, where we are aware that there is a difference to us as baptised, and “We have been buried therefore with him by baptism unto death, in order that, even as Christ has been raised up from among the dead by the glory of the Father, so we also should walk in newness of life”, Rom 6: 4. The actuality and the whole principle of baptism has its application to us. There is that difference that would allow us to walk forward in newness of life so that we can have our part properly in Christian life and behaviour."
+     "text": [
+      "Yes, we sing that,",
+      "… Thy death we deem",
+      "Our point of severance from this scene",
+      "(Hymn 192)",
+      "That of course is the death of the cross. There is a point of severance, there is something that divides. One other feature which comes in, and perhaps it goes before what we have been thinking about as to the Supper, in the other Christian ordinance of baptism, where we are aware that there is a difference to us as baptised, and “We have been buried therefore with him by baptism unto death, in order that, even as Christ has been raised up from among the dead by the glory of the Father, so we also should walk in newness of life”, Rom 6: 4. The actuality and the whole principle of baptism has its application to us. There is that difference that would allow us to walk forward in newness of life so that we can have our part properly in Christian life and behaviour."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "In considering the cross, and “the word of the cross”, does it bring home to us the intensity of the Lord’s sufferings and His humiliation? I wondered if the consideration of that is calculated to win our hearts for Him."
+     "text": [
+      "In considering the cross, and “the word of the cross”, does it bring home to us the intensity of the Lord’s sufferings and His humiliation? I wondered if the consideration of that is calculated to win our hearts for Him."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, I think that is to be kept in our hearts and minds as we consider these passages. It is our affections that are to be changed. He has been to the place of the most intense suffering, and He has been there vicariously, simply He has been for us, and our hearts are attracted to Him as the One who has been in that place. And you can see how it would condemn what we are naturally that has rejected Him, and would give us to live in newness of life as having a new origin in the cross. But say more."
+     "text": [
+      "Yes, I think that is to be kept in our hearts and minds as we consider these passages. It is our affections that are to be changed. He has been to the place of the most intense suffering, and He has been there vicariously, simply He has been for us, and our hearts are attracted to Him as the One who has been in that place. And you can see how it would condemn what we are naturally that has rejected Him, and would give us to live in newness of life as having a new origin in the cross. But say more."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "What you say is right. It is really the place that Christ has in my affections that is the impetus in me not to allow the old man, the first man, is it not? But Christ really supersedes everyone else, everything else."
+     "text": [
+      "What you say is right. It is really the place that Christ has in my affections that is the impetus in me not to allow the old man, the first man, is it not? But Christ really supersedes everyone else, everything else."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, to go back to that hymn,"
+     "text": [
+      "Yes, to go back to that hymn,",
+      "By love constrained, Thy death we deem",
+      "Our point of severance from this scene.",
+      "The fulness, the outshining, of His love and grace that is seen at the cross would draw us away from what we were, draw us in that He should be increasingly magnified to our hearts."
+     ]
     },
     {
-     "text": "By love constrained, Thy death we deem"
-    },
-    {
-     "text": "Our point of severance from this scene."
-    },
-    {
-     "text": "The fulness, the outshining, of His love and grace that is seen at the cross would draw us away from what we were, draw us in that He should be increasingly magnified to our hearts."
-    },
-    {
-     "text": "AJMcS Do you think in the typical teaching we feed on the lamb roast with fire before the passage of the Red Sea, Exod 12: 8. In other words, we are affected by what He suffered vicariously, and as we feed on Him it builds up our moral constitution as prepared to accept the truth of baptism, do you think?"
+     "speaker": "AJMcS",
+     "text": [
+      "Do you think in the typical teaching we feed on the lamb roast with fire before the passage of the Red Sea, Exod 12: 8. In other words, we are affected by what He suffered vicariously, and as we feed on Him it builds up our moral constitution as prepared to accept the truth of baptism, do you think?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, it is important, is it not, to see that as well as the blood outside, there is the feasting inside. Many believers you could say are sheltered by the blood but not sufficiently feeding within. I think “the word of the cross” would bring that to us, to feast upon the Man who was of such infinite pleasure to God that He has taken His place there for us."
+     "text": [
+      "Yes, it is important, is it not, to see that as well as the blood outside, there is the feasting inside. Many believers you could say are sheltered by the blood but not sufficiently feeding within. I think “the word of the cross” would bring that to us, to feast upon the Man who was of such infinite pleasure to God that He has taken His place there for us."
+     ]
     },
     {
      "speaker": "RMB",
-     "text": "As to some of the lessons that we can draw from the cross which have a practical bearing on us today, I wondered whether one of them is that, in thinking about the cross it changes our view of the world around us? I am thinking in particular of the reference to it at the end of Galatians as to boasting “in the cross of our Lord Jesus Christ” and the world being “crucified to me, and I to the world” (Gal 6:14)."
+     "text": [
+      "As to some of the lessons that we can draw from the cross which have a practical bearing on us today, I wondered whether one of them is that, in thinking about the cross it changes our view of the world around us? I am thinking in particular of the reference to it at the end of Galatians as to boasting “in the cross of our Lord Jesus Christ” and the world being “crucified to me, and I to the world” (Gal 6:14)."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, the cross is to make the difference in these various aspects, is it not? And one very important one is, it is the world that has crucified our Lord and Saviour. The world's view and attitude is the same as it was two thousand years ago, and the way in which Paul puts it is therefore important, “through whom the world is crucified to me”, that is one and an important side that you see. Well, I am not going to have to do with that world that has so rejected my Saviour, but then, along with that “I to the world”. That is, I am taking that place in a sense along with the Lord Jesus. The world rejected Him and it rejected me too; I am not seeking a place in it, I am not seeking a way in it, I am not seeking the pleasures that are in it. Say more."
+     "text": [
+      "Yes, the cross is to make the difference in these various aspects, is it not? And one very important one is, it is the world that has crucified our Lord and Saviour. The world's view and attitude is the same as it was two thousand years ago, and the way in which Paul puts it is therefore important, “through whom the world is crucified to me”, that is one and an important side that you see. Well, I am not going to have to do with that world that has so rejected my Saviour, but then, along with that “I to the world”. That is, I am taking that place in a sense along with the Lord Jesus. The world rejected Him and it rejected me too; I am not seeking a place in it, I am not seeking a way in it, I am not seeking the pleasures that are in it. Say more."
+     ]
     },
     {
      "speaker": "RMB",
-     "text": "Yes, I was thinking that, because as we grow up in the world, on the surface it seems to have a lot of possibilities, does it not, and many things in it that naturally we find appealing? But would “the word of the cross” lead us to think more deeply about this world in which we are living, and to think more deeply about what its moral character is, and therefore what place it must have for me, do you think?"
+     "text": [
+      "Yes, I was thinking that, because as we grow up in the world, on the surface it seems to have a lot of possibilities, does it not, and many things in it that naturally we find appealing? But would “the word of the cross” lead us to think more deeply about this world in which we are living, and to think more deeply about what its moral character is, and therefore what place it must have for me, do you think?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, so there is a whole system that is set up that is contrary to God. I have to do my work, I have to do various duties in it, I have to meet righteousness, as we put it, but am I trying to build up the world’s system in what I am doing? Well I should not; I should be regarding it as a condemned place that I would touch as lightly as possible."
+     "text": [
+      "Yes, so there is a whole system that is set up that is contrary to God. I have to do my work, I have to do various duties in it, I have to meet righteousness, as we put it, but am I trying to build up the world’s system in what I am doing? Well I should not; I should be regarding it as a condemned place that I would touch as lightly as possible."
+     ]
     },
     {
      "speaker": "EOPM",
-     "text": "I was helped by Mr Fred Trussler when I was quite young. In one of his preachings he said, 'If a believer goes back into the world he has to go by the cross, because that is where God condemned it'. It would be a very sobering thing, would it not, if I am minded to go into the world, as a believer I will have to go there via the cross? God would remind me what He thinks of the world on my way back to it, do you think?"
+     "text": [
+      "I was helped by Mr Fred Trussler when I was quite young. In one of his preachings he said, 'If a believer goes back into the world he has to go by the cross, because that is where God condemned it'. It would be a very sobering thing, would it not, if I am minded to go into the world, as a believer I will have to go there via the cross? God would remind me what He thinks of the world on my way back to it, do you think?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes. It is an interesting and sobering thought that really if you are in the world, if you have your part in the world, you really are in the crowd shouting, “Crucify him”. Well that is a very serious and sober thought. Of course we know our own nature and our propensities, which is why we have to have this “word of the cross” constantly brought before us; and why the cross needs to be brought before us week by week in the preaching. How important it is that believers should hear and listen to the preaching, and that the facts of the gospel should be brought before us."
+     "text": [
+      "Yes. It is an interesting and sobering thought that really if you are in the world, if you have your part in the world, you really are in the crowd shouting, “Crucify him”. Well that is a very serious and sober thought. Of course we know our own nature and our propensities, which is why we have to have this “word of the cross” constantly brought before us; and why the cross needs to be brought before us week by week in the preaching. How important it is that believers should hear and listen to the preaching, and that the facts of the gospel should be brought before us."
+     ]
     },
     {
      "speaker": "JRW",
-     "text": "You have mentioned the word ‘severity’ several times in relation to the cross, and I wonder in view of what we are saying if you would open up a little more what is in your mind in relation to that."
+     "text": [
+      "You have mentioned the word ‘severity’ several times in relation to the cross, and I wonder in view of what we are saying if you would open up a little more what is in your mind in relation to that."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Well, that is the way that it is mentioned in scripture. The death of the cross is brought before us. It is not the death of a noble; the Romans would have executed their nobles with the sword, but here is something they intended to be an ignominious, and severe, and long drawn out punishment and death. And of course that means that if we are going to take it on, as Paul is when he says, “I am crucified” (Gal 2: 20), we have to appreciate the seriousness and the severity of it. If he is saying “the world is crucified to me” (Gal 6: 14), again it is according to that standard of severity. And if he is saying, “they that are of the Christ have crucified the flesh” - they have done it themselves - “with the passions and the lusts” (Gal 5:24), he is treating them with that degree of seriousness. But say on."
+     "text": [
+      "Well, that is the way that it is mentioned in scripture. The death of the cross is brought before us. It is not the death of a noble; the Romans would have executed their nobles with the sword, but here is something they intended to be an ignominious, and severe, and long drawn out punishment and death. And of course that means that if we are going to take it on, as Paul is when he says, “I am crucified” (Gal 2: 20), we have to appreciate the seriousness and the severity of it. If he is saying “the world is crucified to me” (Gal 6: 14), again it is according to that standard of severity. And if he is saying, “they that are of the Christ have crucified the flesh” - they have done it themselves - “with the passions and the lusts” (Gal 5:24), he is treating them with that degree of seriousness. But say on."
+     ]
     },
     {
      "speaker": "JRW",
-     "text": "I am interested in the way in which you used that word in relation to it. I think we feel, or I feel, very shallow in relation to what our brother has brought in as to our view of the world, and the more we appreciate the severity of what happened at the cross, the severity of what the Lord Jesus went through, the severity of what was accomplished there in relation to God having rejected the old order of man completely, the more our view of the world will condemn it really, will it not?"
+     "text": [
+      "I am interested in the way in which you used that word in relation to it. I think we feel, or I feel, very shallow in relation to what our brother has brought in as to our view of the world, and the more we appreciate the severity of what happened at the cross, the severity of what the Lord Jesus went through, the severity of what was accomplished there in relation to God having rejected the old order of man completely, the more our view of the world will condemn it really, will it not?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, because we are able to be rather light with ourselves. We may appreciate there is what is wrong, and so on, but not deal with it. We speak about self-judgement, and I do not think it is a scriptural term, but we should realise that self-judgement is not really my judgement of myself, it is really coming to God’s judgement of myself, which is what was seen at the cross of Christ."
-    },
-    {
-     "text": "RDP-r So it says that “by the cross of Jesus stood” certain ones, John 19: 25. Is that where we need to take our stand now?"
-    },
-    {
-     "speaker": "DCB",
-     "text": "That is right, and that of course was a public place that they took in relation to the cross and the shame and all that would attach to it. It was only affection that could bring them there."
-    },
-    {
-     "text": "RDP-r I was thinking that. It is affection for the Person that is going to change us. It is not exactly just the cross, it is the Person that was there, why He was there. And affection for Him is going to influence us in our judgement of the world and how it treated Him, but there is a testimonial side to it as well, is there not, “by the cross of Jesus”?"
+     "text": [
+      "Yes, because we are able to be rather light with ourselves. We may appreciate there is what is wrong, and so on, but not deal with it. We speak about self-judgement, and I do not think it is a scriptural term, but we should realise that self-judgement is not really my judgement of myself, it is really coming to God’s judgement of myself, which is what was seen at the cross of Christ.",
+      "RDP-r So it says that “by the cross of Jesus stood” certain ones, John 19: 25. Is that where we need to take our stand now?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, so there is that testimony; there are persons who can be seen as standing by the cross. Well that would be for me, I would say, a test - do persons know that is where I am standing?"
+     "text": [
+      "That is right, and that of course was a public place that they took in relation to the cross and the shame and all that would attach to it. It was only affection that could bring them there.",
+      "RDP-r I was thinking that. It is affection for the Person that is going to change us. It is not exactly just the cross, it is the Person that was there, why He was there. And affection for Him is going to influence us in our judgement of the world and how it treated Him, but there is a testimonial side to it as well, is there not, “by the cross of Jesus”?"
+     ]
+    },
+    {
+     "speaker": "DCB",
+     "text": [
+      "Yes, so there is that testimony; there are persons who can be seen as standing by the cross. Well that would be for me, I would say, a test - do persons know that is where I am standing?"
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "The passage our brother refers to indicates that persons standing there have new affinities together. The Lord drew attention to a new relationship, did He not? He saw the disciple whom He loved standing by, and His mother, and He said, “behold thy son … Behold thy mother”, John 19: 26, 27. I was thinking that while the cross of Christ severs us from one order of association, it opens up a new one, does it not? The apostle speaks of “the enemies of the cross of Christ” in Philippians, but he goes on to speak about “our commonwealth has its existence in the heavens”, Phil 3: 18, 20."
+     "text": [
+      "The passage our brother refers to indicates that persons standing there have new affinities together. The Lord drew attention to a new relationship, did He not? He saw the disciple whom He loved standing by, and His mother, and He said, “behold thy son … Behold thy mother”, John 19: 26, 27. I was thinking that while the cross of Christ severs us from one order of association, it opens up a new one, does it not? The apostle speaks of “the enemies of the cross of Christ” in Philippians, but he goes on to speak about “our commonwealth has its existence in the heavens”, Phil 3: 18, 20."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, well it is fine to see that. Our links together are as persons who have had that association together. How we can be thankful as we gather together in such a company as this. What are the links? What are the associations we have? Well, the very origin of them is that we have all come to the cross, we have appreciated the cross. But then the matters are going to be enjoyed more fully, and newness of life would be enjoyed really, as we would move forward together, as we are associated with those who appreciate what has been secured and done in the cross of Christ."
+     "text": [
+      "Yes, well it is fine to see that. Our links together are as persons who have had that association together. How we can be thankful as we gather together in such a company as this. What are the links? What are the associations we have? Well, the very origin of them is that we have all come to the cross, we have appreciated the cross. But then the matters are going to be enjoyed more fully, and newness of life would be enjoyed really, as we would move forward together, as we are associated with those who appreciate what has been secured and done in the cross of Christ."
+     ]
     },
     {
      "speaker": "RWF",
-     "text": "The chapter from which we have read is the chapter that also gives one of the clearest statements in scripture as to the meaning of fellowship, “God is faithful, by whom ye have been called into the fellowship of his Son Jesus Christ our Lord”, v 9. I was thinking in connection with what our brother has remarked, that it is almost as if the apostle goes to the root of matters in his references to the cross so that we might know what fellowship really is."
+     "text": [
+      "The chapter from which we have read is the chapter that also gives one of the clearest statements in scripture as to the meaning of fellowship, “God is faithful, by whom ye have been called into the fellowship of his Son Jesus Christ our Lord”, v 9. I was thinking in connection with what our brother has remarked, that it is almost as if the apostle goes to the root of matters in his references to the cross so that we might know what fellowship really is."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, and we see that. It is suggested too in the reference in Ephesians, which takes it to a height there, “making peace; and might reconcile both”, Jew and Gentile, but it is not just Jew and Gentile, it is you and me, it is wherever there is a disparity, which is what there is naturally. “And might reconcile both in one body to God by the cross, having by it slain the enmity”, Eph 2: 16. How wonderful that everything that might cause a difference and a distinction has been removed. There is the reference there that “he is our peace” (v 14), so that there is enjoyment of fellowship together."
+     "text": [
+      "Yes, and we see that. It is suggested too in the reference in Ephesians, which takes it to a height there, “making peace; and might reconcile both”, Jew and Gentile, but it is not just Jew and Gentile, it is you and me, it is wherever there is a disparity, which is what there is naturally. “And might reconcile both in one body to God by the cross, having by it slain the enmity”, Eph 2: 16. How wonderful that everything that might cause a difference and a distinction has been removed. There is the reference there that “he is our peace” (v 14), so that there is enjoyment of fellowship together."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "The severity that our brother was referring to is seen very powerfully in Psalm 22, is it not, the severity of what the cross meant for the Lord? We have been speaking of it but the psalm shows His own feelings. We were looking at it last Lord’s day locally and were reminded that there are verses in that psalm that literally portray the agony of crucifixion. It is affecting to read that psalm in the light of that, the literal severity of it for Christ; and if that does not touch our affections you wonder what will."
+     "text": [
+      "The severity that our brother was referring to is seen very powerfully in Psalm 22, is it not, the severity of what the cross meant for the Lord? We have been speaking of it but the psalm shows His own feelings. We were looking at it last Lord’s day locally and were reminded that there are verses in that psalm that literally portray the agony of crucifixion. It is affecting to read that psalm in the light of that, the literal severity of it for Christ; and if that does not touch our affections you wonder what will."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes. He has been there, He has gone that way for us; and if we speak of severity, actually all the severity was borne by Him. However we might regard it as appropriate to judge the flesh, or the lusts or the passions of the world, the actual enduring was all His."
+     "text": [
+      "Yes. He has been there, He has gone that way for us; and if we speak of severity, actually all the severity was borne by Him. However we might regard it as appropriate to judge the flesh, or the lusts or the passions of the world, the actual enduring was all His."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "That would go through to the six hours on the cross, would it? I was just thinking of the severity. There is the public side, and then it refers to “the death of the cross”, that has in view the public side, does it not? But then while He was there, there were sufferings unfathomed by us, but they all entered into the severity because it was there that God judged that man that put Him there."
+     "text": [
+      "That would go through to the six hours on the cross, would it? I was just thinking of the severity. There is the public side, and then it refers to “the death of the cross”, that has in view the public side, does it not? But then while He was there, there were sufferings unfathomed by us, but they all entered into the severity because it was there that God judged that man that put Him there."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, that is right. It is helpful to see that. You see man’s view and what man would do at the cross, and it is important that we actually do see that, what brings us into blessing and liberty is that He has dealt with matters before God at the cross."
+     "text": [
+      "Yes, that is right. It is helpful to see that. You see man’s view and what man would do at the cross, and it is important that we actually do see that, what brings us into blessing and liberty is that He has dealt with matters before God at the cross."
+     ]
     },
     {
      "speaker": "RWF",
-     "text": "In connection with what was demonstrated at the cross, perhaps we might say what was established, could you tell us a little of God’s power, how much that thought embraces?"
+     "text": [
+      "In connection with what was demonstrated at the cross, perhaps we might say what was established, could you tell us a little of God’s power, how much that thought embraces?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Well, it is interesting that God’s power and God’s wisdom are Christ crucified; of course it is the Person, but the Person crucified was the power. Really there is a whole universe for God, is there not, that is established and strengthened on the basis of that work? All that could be contrary to God’s way and will has been overthrown, and here everything goes forward in triumph. He has led captivity captive, has he not? But you have your own impression."
+     "text": [
+      "Well, it is interesting that God’s power and God’s wisdom are Christ crucified; of course it is the Person, but the Person crucified was the power. Really there is a whole universe for God, is there not, that is established and strengthened on the basis of that work? All that could be contrary to God’s way and will has been overthrown, and here everything goes forward in triumph. He has led captivity captive, has he not? But you have your own impression."
+     ]
     },
     {
      "speaker": "RWF",
-     "text": "Well I would like my impressions to be enlarged. It says, “to us that are saved it is God’s power”. Now one can take what I might speak of as a personal view of that. Sometimes we feel in ourselves a lack of power, and the reason for that might be that we have not accepted the truth and the bearing and reality of the word of the cross, but it seems to suggest, the way the apostle words it, very much more than that: a whole scene established for God’s pleasure. We might have thought that power relates more to resurrection, but here he associates it with the cross."
+     "text": [
+      "Well I would like my impressions to be enlarged. It says, “to us that are saved it is God’s power”. Now one can take what I might speak of as a personal view of that. Sometimes we feel in ourselves a lack of power, and the reason for that might be that we have not accepted the truth and the bearing and reality of the word of the cross, but it seems to suggest, the way the apostle words it, very much more than that: a whole scene established for God’s pleasure. We might have thought that power relates more to resurrection, but here he associates it with the cross."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, I was wondering about that. We had a word on Tuesday which really more related to the power of resurrection; clearly the power of defeating death."
+     "text": [
+      "Yes, I was wondering about that. We had a word on Tuesday which really more related to the power of resurrection; clearly the power of defeating death."
+     ]
     },
     {
      "speaker": "JSG",
-     "text": "There is a further reference to God’s power in verse 24, “to those that are called, both Jews and Greeks, Christ God’s power and God’s wisdom”. I would like further help as to the working of that out. What are the signs of power from God? How do we judge and discern it?"
+     "text": [
+      "There is a further reference to God’s power in verse 24, “to those that are called, both Jews and Greeks, Christ God’s power and God’s wisdom”. I would like further help as to the working of that out. What are the signs of power from God? How do we judge and discern it?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Well, there is a power within that the believer has to move forward, because there is a power to deal with what is according to this world and its ways. It would come out in our flesh, and what is natural to us, but then there is power to secure that universe for God on the basis of what was endured here at the cross. Say on."
+     "text": [
+      "Well, there is a power within that the believer has to move forward, because there is a power to deal with what is according to this world and its ways. It would come out in our flesh, and what is natural to us, but then there is power to secure that universe for God on the basis of what was endured here at the cross. Say on."
+     ]
     },
     {
      "speaker": "JSG",
-     "text": "Would verse 30 help as to it, “of him are ye in Christ Jesus”? Everything has its source in that One if it is to be for the pleasure of God, and especially in the house of God, do you think?"
+     "text": [
+      "Would verse 30 help as to it, “of him are ye in Christ Jesus”? Everything has its source in that One if it is to be for the pleasure of God, and especially in the house of God, do you think?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, and I suppose we have to see that His position there at the right hand of God is as “having made by himself the purification for sins”, Heb 1: 3. If the power comes from Him in resurrection and in glory and ascension, and even the power of the Spirit has to be active in showing it, it all depends on His having gone this way of the cross."
+     "text": [
+      "Yes, and I suppose we have to see that His position there at the right hand of God is as “having made by himself the purification for sins”, Heb 1: 3. If the power comes from Him in resurrection and in glory and ascension, and even the power of the Spirit has to be active in showing it, it all depends on His having gone this way of the cross."
+     ]
     },
     {
      "speaker": "JSG",
-     "text": "It seems that Paul’s way of presenting the gospel from the first paragraph of chapter 2 had this as one of its principal objectives, that what was accomplished should stand in God’s power, do you think?"
+     "text": [
+      "It seems that Paul’s way of presenting the gospel from the first paragraph of chapter 2 had this as one of its principal objectives, that what was accomplished should stand in God’s power, do you think?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, so he is a person who is educated, trained at the feet of Gamaliel, and all there was that would have come in in natural wisdom, natural power at its best, and it is finished, it is done. And he is coming before a cultured company in Corinth, what there would be of Jew and Greek in Corinth, and he is not going to build up either of these, Jew or Greek. He is going to build up what is according to “Jesus Christ, and him crucified”."
+     "text": [
+      "Yes, so he is a person who is educated, trained at the feet of Gamaliel, and all there was that would have come in in natural wisdom, natural power at its best, and it is finished, it is done. And he is coming before a cultured company in Corinth, what there would be of Jew and Greek in Corinth, and he is not going to build up either of these, Jew or Greek. He is going to build up what is according to “Jesus Christ, and him crucified”."
+     ]
     },
     {
      "speaker": "PM",
-     "text": "Is it a help in our soul exercises, not only when we are younger but as we go on as well, to see that there are certain things that God in His power has already finished with, and that power becomes available to me as in exercise I seek to align myself with what God has done?"
+     "text": [
+      "Is it a help in our soul exercises, not only when we are younger but as we go on as well, to see that there are certain things that God in His power has already finished with, and that power becomes available to me as in exercise I seek to align myself with what God has done?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, so that the old man has been crucified with Him. That is a finished matter, but then Paul comes into I am crucified. He aligns himself there really with what God has done and finished in severity in disposing of the old man."
+     "text": [
+      "Yes, so that the old man has been crucified with Him. That is a finished matter, but then Paul comes into I am crucified. He aligns himself there really with what God has done and finished in severity in disposing of the old man."
+     ]
     },
     {
      "speaker": "RJF",
-     "text": "In relation to this question of God’s power, the veil of the temple was rent while the Lord was still on the cross."
+     "text": [
+      "In relation to this question of God’s power, the veil of the temple was rent while the Lord was still on the cross."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Say more."
+     "text": [
+      "Say more."
+     ]
     },
     {
      "speaker": "RJF",
-     "text": "I think a brother referred earlier on to the removal of man; Matthew 27 also refers to it (v 51), signifying that God had come out. We can see in that God coming out in power, and not only the possibility but the actuality."
+     "text": [
+      "I think a brother referred earlier on to the removal of man; Matthew 27 also refers to it (v 51), signifying that God had come out. We can see in that God coming out in power, and not only the possibility but the actuality."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, it is interesting to see that; God can come out. He has a right and a basis in righteousness to come out and to act in power. Even that initial, literal, rather mysterious, reference that “many bodies of the saints fallen asleep arose” comes in there, that God has acted in the cross. The Lord Jesus had not yet risen, but there was power that would affect persons in their tombs."
+     "text": [
+      "Yes, it is interesting to see that; God can come out. He has a right and a basis in righteousness to come out and to act in power. Even that initial, literal, rather mysterious, reference that “many bodies of the saints fallen asleep arose” comes in there, that God has acted in the cross. The Lord Jesus had not yet risen, but there was power that would affect persons in their tombs."
+     ]
     },
     {
-     "text": "AJMcS I just wanted to ask you, would you say whether “the word of the cross” has any bearing on open air preaching?"
+     "speaker": "AJMcS",
+     "text": [
+      "I just wanted to ask you, would you say whether “the word of the cross” has any bearing on open air preaching?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Well that is a test. Certainly as there is open air preaching, there is something of the standing by the cross, is there not? However I have not done that for some years now; so perhaps I had better not say too much more about it. There certainly is something of a right testimony that has to go out, and perhaps we should all be exercised about it."
+     "text": [
+      "Well that is a test. Certainly as there is open air preaching, there is something of the standing by the cross, is there not? However I have not done that for some years now; so perhaps I had better not say too much more about it. There certainly is something of a right testimony that has to go out, and perhaps we should all be exercised about it."
+     ]
     },
     {
      "speaker": "BES",
-     "text": "I was just wondering where it would fit in that the Lord said that we are to take up our cross and follow Him, Luke 9: 23."
+     "text": [
+      "I was just wondering where it would fit in that the Lord said that we are to take up our cross and follow Him, Luke 9: 23."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, well it is interesting, is it not, that there was a person who was brought in to carry the Lord’s cross, Simon, Luke 23: 26? His cross was unique. What a glory and a privilege that was that someone should take His cross. But then I suppose, as Paul speaks of it, “I am crucified”, he must have appreciated that he had a cross himself. Say more."
+     "text": [
+      "Yes, well it is interesting, is it not, that there was a person who was brought in to carry the Lord’s cross, Simon, Luke 23: 26? His cross was unique. What a glory and a privilege that was that someone should take His cross. But then I suppose, as Paul speaks of it, “I am crucified”, he must have appreciated that he had a cross himself. Say more."
+     ]
     },
     {
      "speaker": "BES",
-     "text": "It is something active, is it not? It is something we are to take up, not just to let it happen, so to speak, and it involves accepting the condemnation. “The death of the cross” is not just death and suffering, it is condemnation, is it not?"
+     "text": [
+      "It is something active, is it not? It is something we are to take up, not just to let it happen, so to speak, and it involves accepting the condemnation. “The death of the cross” is not just death and suffering, it is condemnation, is it not?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes. So “they that are of the Christ have crucified the flesh with the passions and the lusts” (Gal 5: 24), but in a certain sense that is a continuing matter, is it not? But there is what has been done; so we would take that place; and of course it would mean taking up a place of reproach, would it not? There is reproach, and our reproach should be associated with us. There was “the scandal of the cross” in relation to Christ’s cross. There must be a scandal related to any cross as far as this world is concerned. The believer’s position is something that reproaches the world to the degree that we are faithful."
+     "text": [
+      "Yes. So “they that are of the Christ have crucified the flesh with the passions and the lusts” (Gal 5: 24), but in a certain sense that is a continuing matter, is it not? But there is what has been done; so we would take that place; and of course it would mean taking up a place of reproach, would it not? There is reproach, and our reproach should be associated with us. There was “the scandal of the cross” in relation to Christ’s cross. There must be a scandal related to any cross as far as this world is concerned. The believer’s position is something that reproaches the world to the degree that we are faithful."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "So that makes what our brother refers to very personal, does it not? But I have to see that there is that in me to which the cross applies in that way. So really taking up the cross, would it be right to say, is something like you referred to as to self-judgement; that is, that it is what I find in myself that the cross applies to?"
+     "text": [
+      "So that makes what our brother refers to very personal, does it not? But I have to see that there is that in me to which the cross applies in that way. So really taking up the cross, would it be right to say, is something like you referred to as to self-judgement; that is, that it is what I find in myself that the cross applies to?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, we need to be continued in it. It is daily, is it not, taking up the cross? There is something that is done, something finished blessedly at the cross at Golgotha, but there is something that is to be continued in exercise to be faithful to God, to be faithful during the time of the Lord’s absence."
+     "text": [
+      "Yes, we need to be continued in it. It is daily, is it not, taking up the cross? There is something that is done, something finished blessedly at the cross at Golgotha, but there is something that is to be continued in exercise to be faithful to God, to be faithful during the time of the Lord’s absence."
+     ]
     },
     {
      "speaker": "RWF",
-     "text": "Is it to help us in connection with the gospel to reflect that Christ, in accepting the crucifixion that was His lot according to men’s judgement, took the criminal’s place? It was not the death of a noble, as someone has remarked earlier, but He went to the lowest point. I wondered if that helps us in evangelical activity because He has gone to the lowest point in order that the lowest in society might be reached, the whole of society but including the lowest."
+     "text": [
+      "Is it to help us in connection with the gospel to reflect that Christ, in accepting the crucifixion that was His lot according to men’s judgement, took the criminal’s place? It was not the death of a noble, as someone has remarked earlier, but He went to the lowest point. I wondered if that helps us in evangelical activity because He has gone to the lowest point in order that the lowest in society might be reached, the whole of society but including the lowest."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, which brings in the glory of that initial work that there was. One of the malefactors by Him was convicted that he was rightly being crucified, affected by the grace of God as seen in the Lord Jesus by him on the cross, Luke 23: 41."
+     "text": [
+      "Yes, which brings in the glory of that initial work that there was. One of the malefactors by Him was convicted that he was rightly being crucified, affected by the grace of God as seen in the Lord Jesus by him on the cross, Luke 23: 41."
+     ]
     },
     {
      "speaker": "RWF",
-     "text": "Paul was prepared to accept that he was “the offscouring of the world”, 1 Cor 4: 13. So “the word of the cross” had been accepted by him and was expressed in him."
+     "text": [
+      "Paul was prepared to accept that he was “the offscouring of the world”, 1 Cor 4: 13. So “the word of the cross” had been accepted by him and was expressed in him."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes."
+     "text": [
+      "Yes."
+     ]
     },
     {
      "speaker": "JSG",
-     "text": "I was thinking as to what has just been said that Paul was following in the steps of the one who became “obedient even unto death, and that the death of the cross”, Phil 2: 8. It is presented there, is it not, as if this was man’s worst, which was accepted in the obedience of the perfect Man according to the will of God?"
+     "text": [
+      "I was thinking as to what has just been said that Paul was following in the steps of the one who became “obedient even unto death, and that the death of the cross”, Phil 2: 8. It is presented there, is it not, as if this was man’s worst, which was accepted in the obedience of the perfect Man according to the will of God?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, so we see man’s worst in the scandalous character of it, in the reproach, in the weakness. All these things that man would do to inflict upon Christ, and He would accept it, He would go that way that we should be brought into the fulness of blessing."
+     "text": [
+      "Yes, so we see man’s worst in the scandalous character of it, in the reproach, in the weakness. All these things that man would do to inflict upon Christ, and He would accept it, He would go that way that we should be brought into the fulness of blessing."
+     ]
     },
     {
      "speaker": "RMB",
-     "text": "It says, “If any one will come after me, let him deny himself and take up his cross daily”. So it is not “the cross of Christ” exactly, it is his cross, it is personal to that individual. Would that suggest that there may be things that an individual might be specially called on to bear in a particular circumstance?"
+     "text": [
+      "It says, “If any one will come after me, let him deny himself and take up his cross daily”. So it is not “the cross of Christ” exactly, it is his cross, it is personal to that individual. Would that suggest that there may be things that an individual might be specially called on to bear in a particular circumstance?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, I think you would see that; that it is individual. Even while we are all of the one nature according to what we are in the flesh, yet there are different propensities in it so that what attracts one may not attract another. So it needs to be looked at, that it is particular and individual to deal with my own tendencies, and to be very careful therefore in how you would look at your brother. He has his own cross. Not that we would not be together and helping one another, and realising, as we have said, that there is the same nature, but still it is very much to be taken to myself. I think there is something for our continued consideration."
+     "text": [
+      "Yes, I think you would see that; that it is individual. Even while we are all of the one nature according to what we are in the flesh, yet there are different propensities in it so that what attracts one may not attract another. So it needs to be looked at, that it is particular and individual to deal with my own tendencies, and to be very careful therefore in how you would look at your brother. He has his own cross. Not that we would not be together and helping one another, and realising, as we have said, that there is the same nature, but still it is very much to be taken to myself. I think there is something for our continued consideration."
+     ]
     }
    ]
   },
@@ -736,5 +924,13 @@
  "back_matter": [
   "Edited and Published by",
   "David Brown and Andrew Burr 81 Roxburgh Road. West Norwood. London. SE27 OLE"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE WORD OF THE CROSS",
+   "kind": "speaker_matched_loosely",
+   "detail": "AJMcS used in the text for A J McSeveney (key gives AJM)"
+  }
  ]
 }

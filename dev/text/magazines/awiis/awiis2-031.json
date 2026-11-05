@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -34,6 +34,7 @@
     "DJR",
     "JW",
     "QAP",
+    "AJMcS",
     "AAC",
     "EFW",
     "AM",
@@ -104,12 +105,12 @@
      "place": "Buckhurst Hill"
     },
     {
-     "initials": "AJM",
+     "initials": "AJMcS",
      "name": "A J McSeveney",
      "place": "Twickenham"
     },
     {
-     "initials": "TASO",
+     "initials": "TAOTSO",
      "name": "T A S Oberg",
      "place": "Villa Grove"
     },
@@ -156,455 +157,674 @@
    "paragraphs": [
     {
      "speaker": "JD",
-     "text": "I wondered if in this reading we could look into what we value. A scripture in Luke we have not read but which has been on my mind says, “For where your treasure is, there also will your heart be”, Luke 12: 34. What we value becomes manifest and begins to demonstrate itself in our lives. When we think of what we value there is much to consider. We would not have had time to read enough scriptures that bear on everything that we value. If we think of what we value, I suppose most of us would initially think of the blood; how much we value the blood of Jesus Christ, “the blood of Jesus Christ his Son cleanses us from all sin”, 1 John 1: 7. This is fundamental in the believer’s life, to value of the blood of Christ. Then there is also one another; perhaps that is another thing that would come into our minds quite quickly as we think of what we value, the blood and then one another. We see that in Acts when Peter and John had been roughly handled, it says when they were let go, “they came to their own”, Acts 4: 23. What a precious thing that is. Paul too enumerates certain things at the end of Hebrews, certain things we have come to, things that we value; and then he mentions, “the blood of sprinkling, speaking better than Abel”, Heb 12: 24. There is the valuation, not only of the blood of Christ in relation to our sins, but as a wonderful matter as having secured the universe for God. Then we can think especially of what we value as coming from an ascended Christ, the blood giving us access into the holiest. There are all these matters which we can value and gather up in our affections."
-    },
-    {
-     "text": "In the scriptures that we have read, the first one refers typically to the Holy Spirit. What a wonderful matter it is to have an appreciation and a valuation of this unspeakable free gift which has been given to us. Then the second scripture we read is related to having an evaluation of the truth, valuing the truth; and the last scripture gathers up what we have and value in Christianity. It speaks of the first day of the week, which we know is slightly different from the thought presented in the Lord’s day. There is not quite the same thought of history attached to it, but there we have a pattern because Christ comes in. We value His presence more than anything, the current presence of Christ. He comes in. The saints are together, and then Christ comes in and the Spirit is there. We know that Christ in that scripture is literally in resurrection but He comes in as the ascended Man, and He breathes into them. That is a wonderful matter, it is an impartation, and it is behind closed doors; there is a pattern there for what Christianity really involves and how things can then unfold, and then they are sent out. There is what is specific to the disciples, but nonetheless it is the character of the spirit of Christianity gathered up in the scripture."
-    },
-    {
-     "text": "I wondered too whether the scriptures that we have read would also help us in relation to working these things out. It is not simply that we value things in an abstract way. Things start to work out in our lives, as we see in this widow woman in 2 Kings 4. She goes in and shuts the door, and again in John 20 the doors are closed through fear of the Jews. There are certain things currently taking place behind closed doors and, to get a true valuation of divine things, I think it is essential that we work things out in that sense behind closed doors. This involves exercise. It is not simply that we have some abstract value but we know from experience, and from what is worked out subjectively in our hearts, the value of what has come to us through the place that Christ now has."
-    },
-    {
-     "speaker": "DAB",
-     "text": "I was thinking that this widow must have had valuables because the creditor would not have come if there was nothing to take. But, closing the door enabled her to take stock of what she really valued. It seems to me that what she lacked was the means to hold on to what she valued. The Holy Spirit would give us the means to hold and use what God has given us?"
-    },
-    {
-     "speaker": "JD",
-     "text": "That is helpful. You use the words ‘to take stock’ and - not that we want to be topical - we know in current conditions in the world at large, that men are having to take stock as to what is of value, and of course their valuations are quite different from ours. But as a believer, sometimes we need to take stock as to what we value and how we value things. Here she is asked, “What shall I do for thee? Tell me, what hast thou in the house? And she said, Thy handmaid has not anything at all in the house but a pot of oil”, 2 Kings 4: 2. She recognised that she had something, but she did not recognise the value of it."
+     "text": [
+      "I wondered if in this reading we could look into what we value. A scripture in Luke we have not read but which has been on my mind says, “For where your treasure is, there also will your heart be”, Luke 12: 34. What we value becomes manifest and begins to demonstrate itself in our lives. When we think of what we value there is much to consider. We would not have had time to read enough scriptures that bear on everything that we value. If we think of what we value, I suppose most of us would initially think of the blood; how much we value the blood of Jesus Christ, “the blood of Jesus Christ his Son cleanses us from all sin”, 1 John 1: 7. This is fundamental in the believer’s life, to value of the blood of Christ. Then there is also one another; perhaps that is another thing that would come into our minds quite quickly as we think of what we value, the blood and then one another. We see that in Acts when Peter and John had been roughly handled, it says when they were let go, “they came to their own”, Acts 4: 23. What a precious thing that is. Paul too enumerates certain things at the end of Hebrews, certain things we have come to, things that we value; and then he mentions, “the blood of sprinkling, speaking better than Abel”, Heb 12: 24. There is the valuation, not only of the blood of Christ in relation to our sins, but as a wonderful matter as having secured the universe for God. Then we can think especially of what we value as coming from an ascended Christ, the blood giving us access into the holiest. There are all these matters which we can value and gather up in our affections.",
+      "In the scriptures that we have read, the first one refers typically to the Holy Spirit. What a wonderful matter it is to have an appreciation and a valuation of this unspeakable free gift which has been given to us. Then the second scripture we read is related to having an evaluation of the truth, valuing the truth; and the last scripture gathers up what we have and value in Christianity. It speaks of the first day of the week, which we know is slightly different from the thought presented in the Lord’s day. There is not quite the same thought of history attached to it, but there we have a pattern because Christ comes in. We value His presence more than anything, the current presence of Christ. He comes in. The saints are together, and then Christ comes in and the Spirit is there. We know that Christ in that scripture is literally in resurrection but He comes in as the ascended Man, and He breathes into them. That is a wonderful matter, it is an impartation, and it is behind closed doors; there is a pattern there for what Christianity really involves and how things can then unfold, and then they are sent out. There is what is specific to the disciples, but nonetheless it is the character of the spirit of Christianity gathered up in the scripture.",
+      "I wondered too whether the scriptures that we have read would also help us in relation to working these things out. It is not simply that we value things in an abstract way. Things start to work out in our lives, as we see in this widow woman in 2 Kings 4. She goes in and shuts the door, and again in John 20 the doors are closed through fear of the Jews. There are certain things currently taking place behind closed doors and, to get a true valuation of divine things, I think it is essential that we work things out in that sense behind closed doors. This involves exercise. It is not simply that we have some abstract value but we know from experience, and from what is worked out subjectively in our hearts, the value of what has come to us through the place that Christ now has."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "I was thinking that maybe that is an exercise that would do some of us good, to imagine what we have that we might lose if we did not have the power to hold it: Would we miss it, and how long would it be before we miss it? I was thinking of the Scripture when the Lord says, “and having shut thy door, pray to thy Father who is in secret” (Matt 6: 6), not ‘the’ Father, but “thy Father”. That access is something that we have."
+     "text": [
+      "I was thinking that this widow must have had valuables because the creditor would not have come if there was nothing to take. But, closing the door enabled her to take stock of what she really valued. It seems to me that what she lacked was the means to hold on to what she valued. The Holy Spirit would give us the means to hold and use what God has given us?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "We also speak about what is stripped away and it causes you to think of Peter and John in Acts, “Silver and gold I have not”, chap 3: 6. It is a challenge to us that if these peripheral things were stripped away, what would we have that remains that we could then offer? These men in Acts were in the gain of John 20; they had received an impartation, they had something and they were able to offer it, “Silver and gold I have not; but what I have, this give I to thee: In the name of Jesus Christ the Nazaraean rise up and walk”. Think of what they had in the way of faith in that Name, that Person. This would challenge us as to how we value things. I thought too that perhaps we could get some help in relation to having the gift of the Spirit, and for the young ones and the children it becomes an exercise. The Lord is working, thankfully we can say in His sovereign goodness, amongst the children, and many have given their hearts to the Lord as their Saviour, but then there comes a time when we need to be exercised and appreciate and ask for the gift of the Holy Spirit."
+     "text": [
+      "That is helpful. You use the words ‘to take stock’ and - not that we want to be topical - we know in current conditions in the world at large, that men are having to take stock as to what is of value, and of course their valuations are quite different from ours. But as a believer, sometimes we need to take stock as to what we value and how we value things. Here she is asked, “What shall I do for thee? Tell me, what hast thou in the house? And she said, Thy handmaid has not anything at all in the house but a pot of oil”, 2 Kings 4: 2. She recognised that she had something, but she did not recognise the value of it."
+     ]
+    },
+    {
+     "speaker": "DAB",
+     "text": [
+      "I was thinking that maybe that is an exercise that would do some of us good, to imagine what we have that we might lose if we did not have the power to hold it: Would we miss it, and how long would it be before we miss it? I was thinking of the Scripture when the Lord says, “and having shut thy door, pray to thy Father who is in secret” (Matt 6: 6), not ‘the’ Father, but “thy Father”. That access is something that we have."
+     ]
+    },
+    {
+     "speaker": "JD",
+     "text": [
+      "We also speak about what is stripped away and it causes you to think of Peter and John in Acts, “Silver and gold I have not”, chap 3: 6. It is a challenge to us that if these peripheral things were stripped away, what would we have that remains that we could then offer? These men in Acts were in the gain of John 20; they had received an impartation, they had something and they were able to offer it, “Silver and gold I have not; but what I have, this give I to thee: In the name of Jesus Christ the Nazaraean rise up and walk”. Think of what they had in the way of faith in that Name, that Person. This would challenge us as to how we value things. I thought too that perhaps we could get some help in relation to having the gift of the Spirit, and for the young ones and the children it becomes an exercise. The Lord is working, thankfully we can say in His sovereign goodness, amongst the children, and many have given their hearts to the Lord as their Saviour, but then there comes a time when we need to be exercised and appreciate and ask for the gift of the Holy Spirit."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "Do we realise the tremendous potential that there is at that great point? The woman spoke of it just as a pot of oil, but not realising the potential. We have to realise what potential there is in having the Spirit."
+     "text": [
+      "Do we realise the tremendous potential that there is at that great point? The woman spoke of it just as a pot of oil, but not realising the potential. We have to realise what potential there is in having the Spirit."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "That is very helpful because I was meaning to draw attention at the beginning of the reading that, although we have read verses 1 to 7, we should really keep in our minds and affections this whole chapter because there is something worked out. It might be said to be the same person who becomes the wealthy woman and then goes through the exercise of receiving her son back from the dead. It is resurrection, and then there is the man from Baal-shalishah. We have been taught that we have Romans, Colossians and Ephesians all in this chapter. In Ephesians the Spirit is the “earnest of our inheritance” (chap 1: 14) which would link with the fulness of the thought."
+     "text": [
+      "That is very helpful because I was meaning to draw attention at the beginning of the reading that, although we have read verses 1 to 7, we should really keep in our minds and affections this whole chapter because there is something worked out. It might be said to be the same person who becomes the wealthy woman and then goes through the exercise of receiving her son back from the dead. It is resurrection, and then there is the man from Baal-shalishah. We have been taught that we have Romans, Colossians and Ephesians all in this chapter. In Ephesians the Spirit is the “earnest of our inheritance” (chap 1: 14) which would link with the fulness of the thought."
+     ]
     },
     {
      "speaker": "DJR",
-     "text": "Do you think the enemy would like to take the younger persons in bondage? You have spoken of them, and the creditor is going to take them as bondman; he has no valuation of the pot of oil."
+     "text": [
+      "Do you think the enemy would like to take the younger persons in bondage? You have spoken of them, and the creditor is going to take them as bondman; he has no valuation of the pot of oil."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "It is a sobering thing. You may say the creditor is at your door, and that is a real thing in your exercises. The brethren know the teaching of this better than I do, but it is how it is worked out practically in experience. In Romans the creditor starts to knock at the door and the flesh tries to impose its obligations upon us, but how are we going to meet that circumstance? We know from the working out of Romans; and through into chapter 8 we find that we are no longer debtors to the flesh. We have a resource which allows us to judge the flesh and be delivered from it, and then to meet every obligation that may come upon us. Then the younger ones may wonder why we need the gift of the Holy Spirit. It is a very simple matter. It would be normal that we pray with our children before they go to sleep, and then there comes a time when they pray on their own, and then they become exercised about what they pray for. Maybe they find that they pray for the same things every night - some of us who are older do that also, but they perhaps feel the need to be able to pray for other things. Maybe they feel they need some help at school, or as they begin to become more aware and read and see things. As you drive through a city, you may see things that are displayed and you need help by the Holy Spirit to discern, and to be protected from what comes into your view. The gift of the Holy Spirit then becomes a very simple and a very blessed and real thing for the believer as he makes room for Him in his heart."
+     "text": [
+      "It is a sobering thing. You may say the creditor is at your door, and that is a real thing in your exercises. The brethren know the teaching of this better than I do, but it is how it is worked out practically in experience. In Romans the creditor starts to knock at the door and the flesh tries to impose its obligations upon us, but how are we going to meet that circumstance? We know from the working out of Romans; and through into chapter 8 we find that we are no longer debtors to the flesh. We have a resource which allows us to judge the flesh and be delivered from it, and then to meet every obligation that may come upon us. Then the younger ones may wonder why we need the gift of the Holy Spirit. It is a very simple matter. It would be normal that we pray with our children before they go to sleep, and then there comes a time when they pray on their own, and then they become exercised about what they pray for. Maybe they find that they pray for the same things every night - some of us who are older do that also, but they perhaps feel the need to be able to pray for other things. Maybe they feel they need some help at school, or as they begin to become more aware and read and see things. As you drive through a city, you may see things that are displayed and you need help by the Holy Spirit to discern, and to be protected from what comes into your view. The gift of the Holy Spirit then becomes a very simple and a very blessed and real thing for the believer as he makes room for Him in his heart."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "Do you think we appreciate the value of the Spirit as we make use of Him, do things by the Spirit?"
+     "text": [
+      "Do you think we appreciate the value of the Spirit as we make use of Him, do things by the Spirit?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "That is almost a principle of Christianity, that as we prove something the appreciation comes out."
+     "text": [
+      "That is almost a principle of Christianity, that as we prove something the appreciation comes out."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "It says in Romans 8, “if, by the Spirit, ye put to death the deeds of the body, ye shall live”, v 13. The most exalted thing would be worship by the Spirit. We need to make use of the Spirit and do things by the Spirit."
+     "text": [
+      "It says in Romans 8, “if, by the Spirit, ye put to death the deeds of the body, ye shall live”, v 13. The most exalted thing would be worship by the Spirit. We need to make use of the Spirit and do things by the Spirit."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "We are getting into the realm where we start to experience things, experience the help of the Spirit by using Him. You feel guarded in speaking about a divine Person by saying ‘using Him’, but I noticed that the term is used in accredited ministry and we can say carefully and reverently that we need to use the Holy Spirit in our lives."
+     "text": [
+      "We are getting into the realm where we start to experience things, experience the help of the Spirit by using Him. You feel guarded in speaking about a divine Person by saying ‘using Him’, but I noticed that the term is used in accredited ministry and we can say carefully and reverently that we need to use the Holy Spirit in our lives."
+     ]
     },
     {
      "speaker": "QAP",
-     "text": "It says of Esther that “she required nothing but what Hegai the king’s chamberlain, keeper of the women, appointed”, Esther 2: 15. Paul says to the Corinthians, “thus also the things of God knows no one except the Spirit of God”, 1 Cor 2: 11. Do you think it is not just that we need the Spirit but that we do not really need anything else?"
+     "text": [
+      "It says of Esther that “she required nothing but what Hegai the king’s chamberlain, keeper of the women, appointed”, Esther 2: 15. Paul says to the Corinthians, “thus also the things of God knows no one except the Spirit of God”, 1 Cor 2: 11. Do you think it is not just that we need the Spirit but that we do not really need anything else?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "Perhaps we will get help on that as we progress to the other scriptures, when we come to the Spirit of truth. Our attention has been drawn to the fact that the truth is all held subjectively in the Spirit of truth here, although that matter is then to be worked out in us as individuals and collectively. The Spirit is here in the assembly in a complete way."
+     "text": [
+      "Perhaps we will get help on that as we progress to the other scriptures, when we come to the Spirit of truth. Our attention has been drawn to the fact that the truth is all held subjectively in the Spirit of truth here, although that matter is then to be worked out in us as individuals and collectively. The Spirit is here in the assembly in a complete way."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "It is wonderful that such a One who has this place in the Godhead should be available to us to use. These things are amazing, and something that we should contemplate worshipfully, do you think?"
+     "text": [
+      "It is wonderful that such a One who has this place in the Godhead should be available to us to use. These things are amazing, and something that we should contemplate worshipfully, do you think?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "I think that is helpful. In grace, divine Persons are helping us in our circumstances, but nonetheless we should never forget, as you draw attention to, as to just who They are, the place that They have taken, especially when we think of the Son and the Spirit in the economy which we can read of in John’s gospel, “the Spirit …whatsoever he shall hear he shall speak; and he will announce to you what is coming”, John 16: 13. He is not even speaking from Himself; He has taken a subordinate place in relation to the economy."
+     "text": [
+      "I think that is helpful. In grace, divine Persons are helping us in our circumstances, but nonetheless we should never forget, as you draw attention to, as to just who They are, the place that They have taken, especially when we think of the Son and the Spirit in the economy which we can read of in John’s gospel, “the Spirit …whatsoever he shall hear he shall speak; and he will announce to you what is coming”, John 16: 13. He is not even speaking from Himself; He has taken a subordinate place in relation to the economy."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "I have often thought of that, “whatsoever he shall hear he shall speak”, the place He has taken in that way as hearing Himself what is proceeding in heaven and bringing it to us."
+     "text": [
+      "I have often thought of that, “whatsoever he shall hear he shall speak”, the place He has taken in that way as hearing Himself what is proceeding in heaven and bringing it to us."
+     ]
     },
     {
-     "text": "AJMcS Do we need to be exercised as to what we are seeking support from, whether we are relying on the world for help or whether we are relying on the Holy Spirit for help? I notice here that it is the children who will be taken into bondage. I think that is a salutary word for us, that if we give ourselves over to the world for the world’s help and support, then ultimately the children will be taken away."
+     "speaker": "AJMcS",
+     "text": [
+      "Do we need to be exercised as to what we are seeking support from, whether we are relying on the world for help or whether we are relying on the Holy Spirit for help? I notice here that it is the children who will be taken into bondage. I think that is a salutary word for us, that if we give ourselves over to the world for the world’s help and support, then ultimately the children will be taken away."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "That is a very solemn word. It is your thought then that those of us who have responsibility have to demonstrate the resources that we have in the Holy Spirit to be free from the obligations that the world would seek to put upon us, demonstrating that we have another resource. Elsewhere reference is made to the caller’s spring (Jud 15: 19, note) and the springing well; there is this resource that we have in this wonderful divine Person."
+     "text": [
+      "That is a very solemn word. It is your thought then that those of us who have responsibility have to demonstrate the resources that we have in the Holy Spirit to be free from the obligations that the world would seek to put upon us, demonstrating that we have another resource. Elsewhere reference is made to the caller’s spring (Jud 15: 19, note) and the springing well; there is this resource that we have in this wonderful divine Person."
+     ]
     },
     {
-     "text": "AJMcS I did wonder that. I know what we mean when we say the creditor is knocking at the door, but the fact is the door was open. It was open to the influences of the world, so the door had to be shut. Of course that requires the power of the Holy Spirit to do that. The positive side would be that when we do that, not only do we get the blessing of it, but the blessing spreads out to the children as well."
+     "speaker": "AJMcS",
+     "text": [
+      "I did wonder that. I know what we mean when we say the creditor is knocking at the door, but the fact is the door was open. It was open to the influences of the world, so the door had to be shut. Of course that requires the power of the Holy Spirit to do that. The positive side would be that when we do that, not only do we get the blessing of it, but the blessing spreads out to the children as well."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "That is very helpful, and so in John’s gospel it speaks about what the Spirit shall become, “shall become in him a foundation of water, springing up into eternal life”, John 4: 14. And then later on it says, “out of his belly shall flow rivers of living water”, John 7: 38. That would be something of the influence of someone who has the Spirit in liberty in his own heart."
+     "text": [
+      "That is very helpful, and so in John’s gospel it speaks about what the Spirit shall become, “shall become in him a foundation of water, springing up into eternal life”, John 4: 14. And then later on it says, “out of his belly shall flow rivers of living water”, John 7: 38. That would be something of the influence of someone who has the Spirit in liberty in his own heart."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "It seems as though quite a few things might have gone out from this open door already, so that she only had the pot of oil and her two sons left. The creditor is an insidious person. It is very helpful to bring in what is practical because the world claims your time, claims young people’s time. It claims them when they have the facility to learn. It is something that young people may not realise, that you do not retain the facility to learn that you have when you are young, and it is in those practical things that you need to say, 'I have come to the point now, nothing else is going out through this door; and I am going to find some other way to meet my obligations'."
+     "text": [
+      "It seems as though quite a few things might have gone out from this open door already, so that she only had the pot of oil and her two sons left. The creditor is an insidious person. It is very helpful to bring in what is practical because the world claims your time, claims young people’s time. It claims them when they have the facility to learn. It is something that young people may not realise, that you do not retain the facility to learn that you have when you are young, and it is in those practical things that you need to say, 'I have come to the point now, nothing else is going out through this door; and I am going to find some other way to meet my obligations'."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "The creditor here is not having to knock on the door because the door is open; so the first thing that the Spirit is going to help us do is to close the door."
+     "text": [
+      "The creditor here is not having to knock on the door because the door is open; so the first thing that the Spirit is going to help us do is to close the door."
+     ]
     },
     {
      "speaker": "AAC",
-     "text": "I was noticing in a reading that a brother asked Mr Taylor a question: ‘What is going down to Egypt?’ and his response was, ‘It is turning to the world for support’ (vol 84 p4), and that is exactly what this woman had done; and the result was she had a debt which she could not pay. But as soon as she turns to the man of God, she finds that there is a completely different resource and she values something totally different, and she finds that the debt has already been paid. It is very practical but very attractive."
+     "text": [
+      "I was noticing in a reading that a brother asked Mr Taylor a question: ‘What is going down to Egypt?’ and his response was, ‘It is turning to the world for support’ (vol 84 p4), and that is exactly what this woman had done; and the result was she had a debt which she could not pay. But as soon as she turns to the man of God, she finds that there is a completely different resource and she values something totally different, and she finds that the debt has already been paid. It is very practical but very attractive."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "It is, and I trust that this will be an encouragement to the younger ones. There is help available to close the door on these other influences and to confide and seek help from the Holy Spirit. Galatians helps us in that too, “the flesh lusts against the Spirit, and the Spirit against the flesh” (Gal 5: 17), and the way that is worked out in our soul’s history is something to arrive at."
+     "text": [
+      "It is, and I trust that this will be an encouragement to the younger ones. There is help available to close the door on these other influences and to confide and seek help from the Holy Spirit. Galatians helps us in that too, “the flesh lusts against the Spirit, and the Spirit against the flesh” (Gal 5: 17), and the way that is worked out in our soul’s history is something to arrive at."
+     ]
     },
     {
      "speaker": "EFW",
-     "text": "In the scripture quoted earlier on as to praying to your Father, the word is to “enter into thy chamber, and having shut thy door, pray to thy Father”, Matt 6: 6. I wondered whether that is an individual exercise to close the door before we even ask, so that we ask rightly."
+     "text": [
+      "In the scripture quoted earlier on as to praying to your Father, the word is to “enter into thy chamber, and having shut thy door, pray to thy Father”, Matt 6: 6. I wondered whether that is an individual exercise to close the door before we even ask, so that we ask rightly."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "That is helpful because it may be that there are young, or not so young, ones who maybe ask for the gift of the Spirit and are not conscious that they have it. I know in my own history I may have had the Holy Spirit for quite some time, just as this woman did typically. And maybe perhaps my answer was the same, 'I do not have anything but a pot of oil'. I think what you draw attention to is that there are conditions that need to exist to empower the asking and the receiving."
+     "text": [
+      "That is helpful because it may be that there are young, or not so young, ones who maybe ask for the gift of the Spirit and are not conscious that they have it. I know in my own history I may have had the Holy Spirit for quite some time, just as this woman did typically. And maybe perhaps my answer was the same, 'I do not have anything but a pot of oil'. I think what you draw attention to is that there are conditions that need to exist to empower the asking and the receiving."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "What she found was that there was not only the means to pay her debt but the resource to live."
+     "text": [
+      "What she found was that there was not only the means to pay her debt but the resource to live."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "Yes, excess is brought in. I was thinking earlier as to the door being open and what was going out of the door, maybe her possessions were being taken away and she had less and less left to pay the creditor; and became more and more in earnest about it. I was thinking of the woman with the flux of blood, life was oozing out of her and she became exercised. She had to do, in that instance, with Christ, but then there would be an impartation; it is not just that debt is met but there is a resource to live on, Luke 8: 43."
+     "text": [
+      "Yes, excess is brought in. I was thinking earlier as to the door being open and what was going out of the door, maybe her possessions were being taken away and she had less and less left to pay the creditor; and became more and more in earnest about it. I was thinking of the woman with the flux of blood, life was oozing out of her and she became exercised. She had to do, in that instance, with Christ, but then there would be an impartation; it is not just that debt is met but there is a resource to live on, Luke 8: 43."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "It seems that at the end of this she becomes a woman with resource rather than one who is searching for a means of escape from the creditor. She is now a woman with resource of her own; she and her sons have the ability to live."
+     "text": [
+      "It seems that at the end of this she becomes a woman with resource rather than one who is searching for a means of escape from the creditor. She is now a woman with resource of her own; she and her sons have the ability to live."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "We have been taught (CAC vol 8 p64) that in Romans perhaps the first reference to the Holy Spirit is an indirect one, “Blessed they whose lawlessnesses have been forgiven, and whose sins have been covered”, chap 4: 7. That would be elementary in the believer’s heart, that the Spirit would maintain us in the blessedness of our sins being forgiven. But then it speaks of “the love of God is shed abroad in our hearts by the Holy Spirit“, chap 5: 5. So He is not only anticipating our need being met, but there is a certain assurance coming into the believer’s heart. Then when we come to chapter 8 we have certain obligations met and we are led by the Spirit of God."
+     "text": [
+      "We have been taught (CAC vol 8 p64) that in Romans perhaps the first reference to the Holy Spirit is an indirect one, “Blessed they whose lawlessnesses have been forgiven, and whose sins have been covered”, chap 4: 7. That would be elementary in the believer’s heart, that the Spirit would maintain us in the blessedness of our sins being forgiven. But then it speaks of “the love of God is shed abroad in our hearts by the Holy Spirit“, chap 5: 5. So He is not only anticipating our need being met, but there is a certain assurance coming into the believer’s heart. Then when we come to chapter 8 we have certain obligations met and we are led by the Spirit of God."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "Before she shuts the door she is told what vessels are to be brought in. There is not only what goes out but what comes in."
+     "text": [
+      "Before she shuts the door she is told what vessels are to be brought in. There is not only what goes out but what comes in."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "It is notable that it is “empty vessels”: do you think it relates to exercise on our part linked to the door being closed? It also says that once the door is closed she refers to those with her not as children but as “sons”."
+     "text": [
+      "It is notable that it is “empty vessels”: do you think it relates to exercise on our part linked to the door being closed? It also says that once the door is closed she refers to those with her not as children but as “sons”."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "I was thinking of the environment that there would be in the house, the empty vessel, and the sons."
+     "text": [
+      "I was thinking of the environment that there would be in the house, the empty vessel, and the sons."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "I think that is helpful and links on with what we had earlier. We would think of this in relation to individuals but then it is also how this is worked out in our households. We often think of our households, and rightly so, in relation to the Lord and His rights in our households, but then too this matter of the Spirit. Something of this should be pervading our households so that there are resources."
-    },
-    {
-     "text": "TAO TSO There was no alternative for this woman; she was in a very vulnerable position; and there is no alternative for us. If we are to go through, if we are to be maintained, it must be through the power of the Spirit."
+     "text": [
+      "I think that is helpful and links on with what we had earlier. We would think of this in relation to individuals but then it is also how this is worked out in our households. We often think of our households, and rightly so, in relation to the Lord and His rights in our households, but then too this matter of the Spirit. Something of this should be pervading our households so that there are resources.",
+      "TAO TSO There was no alternative for this woman; she was in a very vulnerable position; and there is no alternative for us. If we are to go through, if we are to be maintained, it must be through the power of the Spirit."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "There is no alternative. So the Holy Spirit here has been described as 'our best Friend on earth', JT vol 32 p140. He is already here as having come in at Pentecost, coming upon them as parted tongues of fire (Acts 2: 3), and now available as a gift for the believer."
+     "text": [
+      "There is no alternative. So the Holy Spirit here has been described as 'our best Friend on earth', JT vol 32 p140. He is already here as having come in at Pentecost, coming upon them as parted tongues of fire (Acts 2: 3), and now available as a gift for the believer."
+     ]
     },
     {
      "speaker": "PJW",
-     "text": "So John says, “out of his belly shall flow rivers of living water. But this he said concerning the Spirit”, John 7: 38, 39. I wondered whether that would link with your thought that there is expansion from these exercises."
+     "text": [
+      "So John says, “out of his belly shall flow rivers of living water. But this he said concerning the Spirit”, John 7: 38, 39. I wondered whether that would link with your thought that there is expansion from these exercises."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "There is a whole testimony starting to be borne by those in whom this is taking place. It links on with what we value becoming manifest, “where your treasure is, there also will your heart be”, Luke 12: 34. We can say that we value certain things but it will evidence itself in our manner of life. I have heard it was said many years ago that there will come a time when people will be valued more by what they have than what they are, and I suppose that is society as we know it now. But the believer would be different from that, it is what the believer is, and then there is what he has, but there is what he is and what can flow out of him, “rivers of living water”."
+     "text": [
+      "There is a whole testimony starting to be borne by those in whom this is taking place. It links on with what we value becoming manifest, “where your treasure is, there also will your heart be”, Luke 12: 34. We can say that we value certain things but it will evidence itself in our manner of life. I have heard it was said many years ago that there will come a time when people will be valued more by what they have than what they are, and I suppose that is society as we know it now. But the believer would be different from that, it is what the believer is, and then there is what he has, but there is what he is and what can flow out of him, “rivers of living water”."
+     ]
     },
     {
      "speaker": "PJW",
-     "text": "I was thinking of the references to Acts, and whether it was worked out there in a special way. We see the rivers of living water that flowed out and on and so many were secured and brought in."
+     "text": [
+      "I was thinking of the references to Acts, and whether it was worked out there in a special way. We see the rivers of living water that flowed out and on and so many were secured and brought in."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "It is wonderful because there you find it is irrepressible; there were so many obstacles put in the way of the testimony but still it went forth despite the increase in suffering and so on, the testimony continued to flow, those “rivers of living water”. It is wonderful to think that there is something irresistible to the individual and irrepressible in relation to the testimony that can flow out."
+     "text": [
+      "It is wonderful because there you find it is irrepressible; there were so many obstacles put in the way of the testimony but still it went forth despite the increase in suffering and so on, the testimony continued to flow, those “rivers of living water”. It is wonderful to think that there is something irresistible to the individual and irrepressible in relation to the testimony that can flow out."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "What has been referred to reminds me of the difference between Romans 5 and Romans 8. I suppose, as we all are bound to, the woman underestimated what might flow. In Romans 5 it says, “the love of God is shed abroad in our hearts by the Holy Spirit”, v 5. We might think, 'That is very well, I brought the vessel in and it is full and I might be satisfied'. In chapter 8, we have “the love of God, which is in Christ Jesus our Lord” (v 39); you cannot measure that in vessels exactly. That gives you some sense of the scope of the divine resource."
+     "text": [
+      "What has been referred to reminds me of the difference between Romans 5 and Romans 8. I suppose, as we all are bound to, the woman underestimated what might flow. In Romans 5 it says, “the love of God is shed abroad in our hearts by the Holy Spirit”, v 5. We might think, 'That is very well, I brought the vessel in and it is full and I might be satisfied'. In chapter 8, we have “the love of God, which is in Christ Jesus our Lord” (v 39); you cannot measure that in vessels exactly. That gives you some sense of the scope of the divine resource."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "It reminds you of the man where the waters were to the ankles and then to the knees, then to the loins, and then “waters to swim in”, Ezek 47: 5. It is the wonderful potential that we have to enter into things by the power of the Holy Spirit."
+     "text": [
+      "It reminds you of the man where the waters were to the ankles and then to the knees, then to the loins, and then “waters to swim in”, Ezek 47: 5. It is the wonderful potential that we have to enter into things by the power of the Holy Spirit."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "The verse in Romans 5 says, “for we being still without strength”, v 6. I wondered if we have to come to that in our souls before we value what is available to us in the Spirit? If we are living in the flesh there will not be that valuation, but the consciousness of an inability to fulfil righteousness is what makes us greatly value the abiding presence of the Spirit in us."
+     "text": [
+      "The verse in Romans 5 says, “for we being still without strength”, v 6. I wondered if we have to come to that in our souls before we value what is available to us in the Spirit? If we are living in the flesh there will not be that valuation, but the consciousness of an inability to fulfil righteousness is what makes us greatly value the abiding presence of the Spirit in us."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "If we live in the flesh we cannot truly value the Holy Spirit, but then we also cannot live in a vacuum; we require a Person to fill our hearts and the Spirit helps us in that. It is very blessed that chapter 5 comes in before the exercise of chapter 6, sin in the world, and then chapter 7, sin in the flesh, as if there is an assurance given to the believer before we go through these exercises. Certain things will have to be put out and then we can come into the fulness of things in chapter 8 leading onto the love of God which is in Christ Jesus our Lord."
+     "text": [
+      "If we live in the flesh we cannot truly value the Holy Spirit, but then we also cannot live in a vacuum; we require a Person to fill our hearts and the Spirit helps us in that. It is very blessed that chapter 5 comes in before the exercise of chapter 6, sin in the world, and then chapter 7, sin in the flesh, as if there is an assurance given to the believer before we go through these exercises. Certain things will have to be put out and then we can come into the fulness of things in chapter 8 leading onto the love of God which is in Christ Jesus our Lord."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "It says, “to walk and please God” (1 Thess 4: 1); the only power to do that is in the power of the Spirit."
+     "text": [
+      "It says, “to walk and please God” (1 Thess 4: 1); the only power to do that is in the power of the Spirit."
+     ]
     },
     {
      "speaker": "DH",
-     "text": "Would you say more about the vessels? I was thinking of 2 Timothy 2, “If therefore one shall have purified himself from these, in separating himself from them, he shall be a vessel to honour, sanctified, serviceable to the Master, prepared for every good work”, v 21. It is something that holds the line of preciousness and value."
+     "text": [
+      "Would you say more about the vessels? I was thinking of 2 Timothy 2, “If therefore one shall have purified himself from these, in separating himself from them, he shall be a vessel to honour, sanctified, serviceable to the Master, prepared for every good work”, v 21. It is something that holds the line of preciousness and value."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "We have this treasure in earthen vessels and despite our own frailty there is God’s work in our hearts. We can say that humbly without claiming anything, but from God’s side He has worked, and it gives the Spirit a basis to come in. There is a vessel that has capacity for the Spirit’s presence."
+     "text": [
+      "We have this treasure in earthen vessels and despite our own frailty there is God’s work in our hearts. We can say that humbly without claiming anything, but from God’s side He has worked, and it gives the Spirit a basis to come in. There is a vessel that has capacity for the Spirit’s presence."
+     ]
     },
     {
-     "text": "AJMcS In 2 Timothy 1 we have to “Keep, by the Holy Spirit … the good deposit entrusted”, v 14. The exercise in chapter 2 is to “pursue righteousness, faith, love, peace, with those that call upon the Lord out of a pure heart” (v 22); this can only be taken up in persons in whom the Spirit is free."
+     "speaker": "AJMcS",
+     "text": [
+      "In 2 Timothy 1 we have to “Keep, by the Holy Spirit … the good deposit entrusted”, v 14. The exercise in chapter 2 is to “pursue righteousness, faith, love, peace, with those that call upon the Lord out of a pure heart” (v 22); this can only be taken up in persons in whom the Spirit is free."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "That is helpful, “Keep, by the Holy Spirit … the good deposit entrusted”. There has been much said as to what that may be, one of the suggestions being holding to the truth of the one body, holding to the truth of the house of God. But as you draw attention to, the point is that it is “by the Holy Spirit” that we need to do these things and hold them in our hearts, and then it has a practical effect in 2 Timothy 2 as to where our feet lead us."
+     "text": [
+      "That is helpful, “Keep, by the Holy Spirit … the good deposit entrusted”. There has been much said as to what that may be, one of the suggestions being holding to the truth of the one body, holding to the truth of the house of God. But as you draw attention to, the point is that it is “by the Holy Spirit” that we need to do these things and hold them in our hearts, and then it has a practical effect in 2 Timothy 2 as to where our feet lead us."
+     ]
     },
     {
-     "text": "AJMcS I think we need help to see that 2 Timothy 2 is the working out of Christianity as God would have it to be worked out in the last days. It is nothing less than that. Separation is involved, in fact it is essential in that setting, but it is much more than that; it is Christianity according to God’s standard."
+     "speaker": "AJMcS",
+     "text": [
+      "I think we need help to see that 2 Timothy 2 is the working out of Christianity as God would have it to be worked out in the last days. It is nothing less than that. Separation is involved, in fact it is essential in that setting, but it is much more than that; it is Christianity according to God’s standard."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "These exercises - “withdraw from iniquity” (v 19) - are practical and for many brethren have involved suffering as well, but worked out from the basis of the “good deposit entrusted”, worked out from having an appreciation of the blessedness of Christianity. It is not in an arbitrary way but as knowing how precious divine things are as holding them by the Holy Spirit. The affections are moved in a certain way that affects our pathway."
+     "text": [
+      "These exercises - “withdraw from iniquity” (v 19) - are practical and for many brethren have involved suffering as well, but worked out from the basis of the “good deposit entrusted”, worked out from having an appreciation of the blessedness of Christianity. It is not in an arbitrary way but as knowing how precious divine things are as holding them by the Holy Spirit. The affections are moved in a certain way that affects our pathway."
+     ]
     },
     {
      "speaker": "DSB",
-     "text": "Do we get progression in relation to the Spirit? I was thinking you referred to Romans 8, being “led by the Spirit” (v 14), and in Galatians we get, “Walk in the Spirit”, Gal 5: 16. I wondered whether this woman went through such an experience in this chapter - she had a little, she then appreciated it and she was able to provide something for the prophet."
+     "text": [
+      "Do we get progression in relation to the Spirit? I was thinking you referred to Romans 8, being “led by the Spirit” (v 14), and in Galatians we get, “Walk in the Spirit”, Gal 5: 16. I wondered whether this woman went through such an experience in this chapter - she had a little, she then appreciated it and she was able to provide something for the prophet."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "I feel the exercise in my own heart as to how much I may have progressed in my own links with the Holy Spirit, making more room, learning how to make more room, learning how the Spirit may operate. If we think of the type in Genesis, of the dove, it suggests what is sensitive. Do you think that should be part of how we progress, being sensitive as to the Spirit’s feelings?"
+     "text": [
+      "I feel the exercise in my own heart as to how much I may have progressed in my own links with the Holy Spirit, making more room, learning how to make more room, learning how the Spirit may operate. If we think of the type in Genesis, of the dove, it suggests what is sensitive. Do you think that should be part of how we progress, being sensitive as to the Spirit’s feelings?"
+     ]
     },
     {
      "speaker": "DSB",
-     "text": "I wondered whether there was that need of progression. The Spirit is always going to lead us to Christ and if I let Him there will be a result, and if we follow His leading and His prompting we will be filled with Him and He will fill us with Christ."
+     "text": [
+      "I wondered whether there was that need of progression. The Spirit is always going to lead us to Christ and if I let Him there will be a result, and if we follow His leading and His prompting we will be filled with Him and He will fill us with Christ."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "The onus is on us to do that, to enable it to happen. I think it is right to say, although we must always remember that He is a divine Person and part of the Godhead, that in the economy the Spirit does not exactly impose Himself. It is upon us to make way as this woman does; she starts to appreciate what she has and makes these vessels available."
-    },
-    {
-     "text": "I wondered if we could get some help in John 16 - again it is the Spirit who is referred to as the One who “shall guide you into all the truth”. In chapter 14 the Spirit is referred to as the “Comforter”, and the Lord speaks of Him, “but the Comforter, the Holy Spirit, whom the Father will send in my name, he shall teach you all things” (v 26); then in chapter 15, “But when the Comforter is come, whom I will send to you from the Father, the Spirit of truth who goes forth from with the Father” (v 26), and then when we come to chapter 16 it is, “the Spirit of truth, he shall guide you into all the truth”. I think it has been said (JT vol 11 p167) that chapter 14 is John’s ministry, and chapter 15 has been likened to Peter’s ministry and chapter 16 to Paul’s ministry - I do not really understand why that has been said, but I can understand that when it says, “he shall guide you into all the truth” it is a reference to how the truth has been opened up from an ascended Christ, and how it was given to Paul to complete the word of God. One of the things that we can value is the truth as it has come to us and to value all the truth. That would be another exercise because in John’s gospel the soldiers parted the Lord’s clothing, John 19: 23. There are various schisms that go on with part of the truth, and there is also an official system which may claim to have the body-coat, but the desire would be that we are able to hold in our affections all the truth."
+     "text": [
+      "The onus is on us to do that, to enable it to happen. I think it is right to say, although we must always remember that He is a divine Person and part of the Godhead, that in the economy the Spirit does not exactly impose Himself. It is upon us to make way as this woman does; she starts to appreciate what she has and makes these vessels available.",
+      "I wondered if we could get some help in John 16 - again it is the Spirit who is referred to as the One who “shall guide you into all the truth”. In chapter 14 the Spirit is referred to as the “Comforter”, and the Lord speaks of Him, “but the Comforter, the Holy Spirit, whom the Father will send in my name, he shall teach you all things” (v 26); then in chapter 15, “But when the Comforter is come, whom I will send to you from the Father, the Spirit of truth who goes forth from with the Father” (v 26), and then when we come to chapter 16 it is, “the Spirit of truth, he shall guide you into all the truth”. I think it has been said (JT vol 11 p167) that chapter 14 is John’s ministry, and chapter 15 has been likened to Peter’s ministry and chapter 16 to Paul’s ministry - I do not really understand why that has been said, but I can understand that when it says, “he shall guide you into all the truth” it is a reference to how the truth has been opened up from an ascended Christ, and how it was given to Paul to complete the word of God. One of the things that we can value is the truth as it has come to us and to value all the truth. That would be another exercise because in John’s gospel the soldiers parted the Lord’s clothing, John 19: 23. There are various schisms that go on with part of the truth, and there is also an official system which may claim to have the body-coat, but the desire would be that we are able to hold in our affections all the truth."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "What those systems do not have or do not seek is the Head, the Head in heaven. The Spirit has come from an exalted Christ and that completes the work of God, Christ is exalted and the Spirit has come to bring a testimony to that so that the truth at the present time has that distinctive, heavenly, out of the world, character."
+     "text": [
+      "What those systems do not have or do not seek is the Head, the Head in heaven. The Spirit has come from an exalted Christ and that completes the work of God, Christ is exalted and the Spirit has come to bring a testimony to that so that the truth at the present time has that distinctive, heavenly, out of the world, character."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "In the ways of God there was evidently what was here when Christ ministered, and the company at the beginning of the Acts would be a direct result of Christ’s own ministry to which the Spirit was free to come at Pentecost. But then it was left until the Lord was not only risen, but ascended, and as such it was that He should appear to Paul. Paul was not disobedient to the heavenly vision, which I suppose involves not only the ministry of the assembly, but also the ministry of the gospel. We perhaps understandably think of it more as the ministry of the assembly but it would include both."
+     "text": [
+      "In the ways of God there was evidently what was here when Christ ministered, and the company at the beginning of the Acts would be a direct result of Christ’s own ministry to which the Spirit was free to come at Pentecost. But then it was left until the Lord was not only risen, but ascended, and as such it was that He should appear to Paul. Paul was not disobedient to the heavenly vision, which I suppose involves not only the ministry of the assembly, but also the ministry of the gospel. We perhaps understandably think of it more as the ministry of the assembly but it would include both."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "I am interested to see the connection of what was given to Paul and what was the spring and inspiration of the recovery of the truth, that there was an apprehension that there was a Man in glory and His body here. That is the crux of what the Spirit is ministering at the present time."
+     "text": [
+      "I am interested to see the connection of what was given to Paul and what was the spring and inspiration of the recovery of the truth, that there was an apprehension that there was a Man in glory and His body here. That is the crux of what the Spirit is ministering at the present time."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "It says, “But when he is come, the Spirit of truth, he shall guide you into all the truth”. The word ‘teach’ is not used here; it is, we trust, how something of the truth is being opened up today in this occasion. We get help from one another, guided into things. That can only be truly realised or occur where the truth of the body is held."
+     "text": [
+      "It says, “But when he is come, the Spirit of truth, he shall guide you into all the truth”. The word ‘teach’ is not used here; it is, we trust, how something of the truth is being opened up today in this occasion. We get help from one another, guided into things. That can only be truly realised or occur where the truth of the body is held."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "You made emphasis on “all the truth” - Mr Raven said that there is no such thing as ‘truths’, he spoke of the truth as one whole (vol 3 p167). We need to see how one feature of the truth fits in with another and not to give any feature of it up."
+     "text": [
+      "You made emphasis on “all the truth” - Mr Raven said that there is no such thing as ‘truths’, he spoke of the truth as one whole (vol 3 p167). We need to see how one feature of the truth fits in with another and not to give any feature of it up."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "We would feel in our affections the desire not to place one part of the truth against another but to value and to hold all the truth. We may, especially when we are young, seek to put the truth into pigeon-holes and that is understandable when we perhaps do not understand much. But when we understand a little more we may still seek to do this and say, “I understand that now”. Then you perhaps go to the meeting and an older brother says something and you think, 'Perhaps I do not understand that after all, or at least not quite as well as I thought!'. The truth is a living thing; we cannot segment it. The church publicly has sought to do that and has introduced catechisms and creeds but the truth is a living thing, “as the truth is in Jesus” Eph 4: 21. It is really in Him that we have the fulness of the matter."
+     "text": [
+      "We would feel in our affections the desire not to place one part of the truth against another but to value and to hold all the truth. We may, especially when we are young, seek to put the truth into pigeon-holes and that is understandable when we perhaps do not understand much. But when we understand a little more we may still seek to do this and say, “I understand that now”. Then you perhaps go to the meeting and an older brother says something and you think, 'Perhaps I do not understand that after all, or at least not quite as well as I thought!'. The truth is a living thing; we cannot segment it. The church publicly has sought to do that and has introduced catechisms and creeds but the truth is a living thing, “as the truth is in Jesus” Eph 4: 21. It is really in Him that we have the fulness of the matter."
+     ]
     },
     {
      "speaker": "PMW",
-     "text": "Is that one of the ends of the glad tidings, “our Saviour God, who desires that all men should be saved and come to the knowledge of the truth”, 1 Tim 2: 4? It is a whole, and it is a knowledge that we should have and value."
+     "text": [
+      "Is that one of the ends of the glad tidings, “our Saviour God, who desires that all men should be saved and come to the knowledge of the truth”, 1 Tim 2: 4? It is a whole, and it is a knowledge that we should have and value."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "We know the truth of the assembly is not opened up in Romans, but Paul ends the epistle by speaking about that, “as to which silence has been kept in the times of the ages, but which has now been made manifest, and by prophetic scriptures, according to commandment of the eternal God”, Rom 16: 25, 26. It suggests to the believer that, as having come to know God’s glad tidings the truth of the assembly is not optional, that God intends through the “commandment of the eternal God” that we should come into the light of the assembly and not stop short."
+     "text": [
+      "We know the truth of the assembly is not opened up in Romans, but Paul ends the epistle by speaking about that, “as to which silence has been kept in the times of the ages, but which has now been made manifest, and by prophetic scriptures, according to commandment of the eternal God”, Rom 16: 25, 26. It suggests to the believer that, as having come to know God’s glad tidings the truth of the assembly is not optional, that God intends through the “commandment of the eternal God” that we should come into the light of the assembly and not stop short."
+     ]
     },
     {
      "speaker": "PMW",
-     "text": "The Spirit guides us into the truth; His power is essential for that."
+     "text": [
+      "The Spirit guides us into the truth; His power is essential for that."
+     ]
     },
     {
      "speaker": "MRC",
-     "text": "How do we come to value the truth? Paul speaks of, “as the truth is in Jesus”. Do we have to see that it is attractive?"
+     "text": [
+      "How do we come to value the truth? Paul speaks of, “as the truth is in Jesus”. Do we have to see that it is attractive?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "Yes. I was thinking earlier, Pilate asks the question, “What is truth?” John 18: 38. I wondered if I was asked the question, ‘What is truth’ what my reply would be. I think the essence of it is what you draw attention to, what is in Jesus, but I think too that we have to work this thing out. We would say, from a responsible point of view, coming to an appreciation of the truth begins in Romans 3, “let God be true, and every man false” (v 4); that is the germ of the believer who has started to appreciate the truth. But from the divine side in John 1 it says, “for of his fulness we all have received, and grace upon grace. For the law was given by Moses: grace and truth subsists through Jesus Christ”, v 16, 17. The footnote there is very helpful, ‘but grace and truth actually commenced to be, not in God’s mind of course, but in revelation and actual existence down here. But its so taking place supposes its continuance’. There is what we would start to arrive at in the way of valuing the truth through responsible exercise. That only occurs because of the wonderful revelation there has been in Jesus, in Christ, and in the economy in which God has been pleased to make the truth known."
+     "text": [
+      "Yes. I was thinking earlier, Pilate asks the question, “What is truth?” John 18: 38. I wondered if I was asked the question, ‘What is truth’ what my reply would be. I think the essence of it is what you draw attention to, what is in Jesus, but I think too that we have to work this thing out. We would say, from a responsible point of view, coming to an appreciation of the truth begins in Romans 3, “let God be true, and every man false” (v 4); that is the germ of the believer who has started to appreciate the truth. But from the divine side in John 1 it says, “for of his fulness we all have received, and grace upon grace. For the law was given by Moses: grace and truth subsists through Jesus Christ”, v 16, 17. The footnote there is very helpful, ‘but grace and truth actually commenced to be, not in God’s mind of course, but in revelation and actual existence down here. But its so taking place supposes its continuance’. There is what we would start to arrive at in the way of valuing the truth through responsible exercise. That only occurs because of the wonderful revelation there has been in Jesus, in Christ, and in the economy in which God has been pleased to make the truth known."
+     ]
     },
     {
      "speaker": "DJW",
-     "text": "The truth has also been opened up in temple enquiry. I wondered whether one function of the Spirit today for us, in view of what has come in, in the past, would be to keep that truth in our hearts in a fresh and living way."
+     "text": [
+      "The truth has also been opened up in temple enquiry. I wondered whether one function of the Spirit today for us, in view of what has come in, in the past, would be to keep that truth in our hearts in a fresh and living way."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "Temple enquiry is a very blessed thing to prove. We referred at the outset to valuing one another; it says, “they came to their own”, and that is what we come to, these conditions, temple conditions, where there are believers gathered who have the gift of the Holy Spirit, and the body functions, and the Spirit has liberty. These conditions facilitate the opening up of the truth. The truth is not preserved simply on our book shelves, or some of us may now have the ministry on a computer disc, which is a wonderful resource, but it is only information unless the thing is worked out and the truth is actually preserved in our hearts and in our affections, involving formation."
+     "text": [
+      "Temple enquiry is a very blessed thing to prove. We referred at the outset to valuing one another; it says, “they came to their own”, and that is what we come to, these conditions, temple conditions, where there are believers gathered who have the gift of the Holy Spirit, and the body functions, and the Spirit has liberty. These conditions facilitate the opening up of the truth. The truth is not preserved simply on our book shelves, or some of us may now have the ministry on a computer disc, which is a wonderful resource, but it is only information unless the thing is worked out and the truth is actually preserved in our hearts and in our affections, involving formation."
+     ]
     },
     {
      "speaker": "PJW",
-     "text": "Do you think subjection is vital? “The Spirit of truth, he shall guide you”; you cannot guide a wilful or insubject person."
+     "text": [
+      "Do you think subjection is vital? “The Spirit of truth, he shall guide you”; you cannot guide a wilful or insubject person."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "That is helpful. We need to be subject to the Lord, and then to the Spirit’s leading. There is a certain sensitivity to the Spirit’s operations which means that we need to take account of that and make way for Him. As we know, we can quite easily grieve the Holy Spirit."
+     "text": [
+      "That is helpful. We need to be subject to the Lord, and then to the Spirit’s leading. There is a certain sensitivity to the Spirit’s operations which means that we need to take account of that and make way for Him. As we know, we can quite easily grieve the Holy Spirit."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "Do these activities go on until the Lord comes, guiding, speaking and announcing?"
+     "text": [
+      "Do these activities go on until the Lord comes, guiding, speaking and announcing?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "What wonderful grace that they do go on, and that they are still available to the overcomer. How blessed to know these matters of guiding, speaking and announcing. I suppose we see something of it in Genesis 24 when the servant leads Rebecca to Isaac; how well he can speak of his master and that continues. The Spirit would magnify Christ. It says in 2 Corinthians when we come to the new covenant, “but where the Spirit of the Lord is, there is liberty”, 2 Cor 3: 17. It is not that there may be liberty, but “there is liberty”. It is wonderful what we have in the Spirit."
+     "text": [
+      "What wonderful grace that they do go on, and that they are still available to the overcomer. How blessed to know these matters of guiding, speaking and announcing. I suppose we see something of it in Genesis 24 when the servant leads Rebecca to Isaac; how well he can speak of his master and that continues. The Spirit would magnify Christ. It says in 2 Corinthians when we come to the new covenant, “but where the Spirit of the Lord is, there is liberty”, 2 Cor 3: 17. It is not that there may be liberty, but “there is liberty”. It is wonderful what we have in the Spirit."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "I was thinking of the Lord’s words to the churches, “He that has an ear, let him hear what the Spirit says to the assemblies”, Rev 2: 11. Having an ear for what the Spirit is saying, not only what He has said, would express our valuation of that divine Person. It would exercise us as to what the Spirit is saying today, not only what He has said."
+     "text": [
+      "I was thinking of the Lord’s words to the churches, “He that has an ear, let him hear what the Spirit says to the assemblies”, Rev 2: 11. Having an ear for what the Spirit is saying, not only what He has said, would express our valuation of that divine Person. It would exercise us as to what the Spirit is saying today, not only what He has said."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "I think that is critical and the devil has subtly used that in previous conflicts, to engage the brethren with what was right but what had been said previously. It is not that anything that is said now would not be in keeping with that, but there is the Spirit’s current voice and the imperative is to know the Spirit’s current speaking to us and to be able to hear. Hearing is another sensitive matter. It is easy not to hear and not to hear rightly. Paul heard things, “heard unspeakable things said which it is not allowed to man to utter” (2 Cor 12: 4) and we have something of the flavour of those things in Ephesians. But the Spirit continues to speak and bring to us things from such an exalted sphere from where Christ is in the Father’s presence."
+     "text": [
+      "I think that is critical and the devil has subtly used that in previous conflicts, to engage the brethren with what was right but what had been said previously. It is not that anything that is said now would not be in keeping with that, but there is the Spirit’s current voice and the imperative is to know the Spirit’s current speaking to us and to be able to hear. Hearing is another sensitive matter. It is easy not to hear and not to hear rightly. Paul heard things, “heard unspeakable things said which it is not allowed to man to utter” (2 Cor 12: 4) and we have something of the flavour of those things in Ephesians. But the Spirit continues to speak and bring to us things from such an exalted sphere from where Christ is in the Father’s presence."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "The note is interesting for, “he will announce to you”. The end of it says, ‘Here I conceive because it is a message brought from another’. It is wonderful that the Lord Jesus, speaking simply, would send messages to us by the Spirit. It is a very simple expression but very profound."
+     "text": [
+      "The note is interesting for, “he will announce to you”. The end of it says, ‘Here I conceive because it is a message brought from another’. It is wonderful that the Lord Jesus, speaking simply, would send messages to us by the Spirit. It is a very simple expression but very profound."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "I think it links with what we have said earlier, a Head in heaven and the body here. We speak often of the Lord nourishing and cherishing the assembly; this is partly how it would work out."
+     "text": [
+      "I think it links with what we have said earlier, a Head in heaven and the body here. We speak often of the Lord nourishing and cherishing the assembly; this is partly how it would work out."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "It has often been said of this divine Person that “he shall not speak from himself”."
+     "text": [
+      "It has often been said of this divine Person that “he shall not speak from himself”."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "It is what we thought of earlier, the glory that belongs to the Holy Spirit in relation to the place that He has taken in the economy, a subordinate place. He is not speaking from Himself but what He hears He speaks, and His delight too in doing that and magnifying Christ in our hearts and bringing us to the Father. It would link with the part and place that the Spirit has in the service of God."
+     "text": [
+      "It is what we thought of earlier, the glory that belongs to the Holy Spirit in relation to the place that He has taken in the economy, a subordinate place. He is not speaking from Himself but what He hears He speaks, and His delight too in doing that and magnifying Christ in our hearts and bringing us to the Father. It would link with the part and place that the Spirit has in the service of God."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "It is to give character to the speaking in the assembly. If a divine Person has taken that place that “he shall not speak from himself”, none of us have, in that sense, the right to do that. What proceeds is to be under His impulse and direction only. Peter says, “If any one speak - as oracles of God; if any one minister - as of strength which God supplies”, 1 Peter 4: 11."
+     "text": [
+      "It is to give character to the speaking in the assembly. If a divine Person has taken that place that “he shall not speak from himself”, none of us have, in that sense, the right to do that. What proceeds is to be under His impulse and direction only. Peter says, “If any one speak - as oracles of God; if any one minister - as of strength which God supplies”, 1 Peter 4: 11."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "It thus brings out the greatness of the answer there is to Christ in glory in the assembly and in the body. The body has been described as the vessel of His - the Spirit’s - manifestation, CAC vol 25 p69. It is a remarkable expression. So the Spirit does not speak from Himself, but there is, as a result of His activities, a wonderful vessel that He delights to have, in all its glory and detail, for the pleasure of divine Persons, the Father and the Son."
+     "text": [
+      "It thus brings out the greatness of the answer there is to Christ in glory in the assembly and in the body. The body has been described as the vessel of His - the Spirit’s - manifestation, CAC vol 25 p69. It is a remarkable expression. So the Spirit does not speak from Himself, but there is, as a result of His activities, a wonderful vessel that He delights to have, in all its glory and detail, for the pleasure of divine Persons, the Father and the Son."
+     ]
     },
     {
      "speaker": "QAP",
-     "text": "So the Lord Jesus says something very similar, even of Himself, “The Son can do nothing of himself save whatever he sees the Father doing”, John 5: 19."
+     "text": [
+      "So the Lord Jesus says something very similar, even of Himself, “The Son can do nothing of himself save whatever he sees the Father doing”, John 5: 19."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "When we are speaking of the economy; it is the place that the Son and the Spirit have taken, the Father remaining in supremacy. That should affect our spirits. We have been speaking of the Holy Spirit, but then there are our spirits. That is another thing that has been said as to the body, it is not a congregation of individual spirits, there is one body and one Spirit and that involves our own spirits being formed by these things. That links on with what we said at the outset, we can claim to value certain matters but as we do value certain matters it has an effect upon us, it becomes demonstrated by the type of persons we are."
+     "text": [
+      "When we are speaking of the economy; it is the place that the Son and the Spirit have taken, the Father remaining in supremacy. That should affect our spirits. We have been speaking of the Holy Spirit, but then there are our spirits. That is another thing that has been said as to the body, it is not a congregation of individual spirits, there is one body and one Spirit and that involves our own spirits being formed by these things. That links on with what we said at the outset, we can claim to value certain matters but as we do value certain matters it has an effect upon us, it becomes demonstrated by the type of persons we are."
+     ]
     },
     {
      "speaker": "QAP",
-     "text": "Did you have any impression as to this particular title, “the Spirit of truth”?"
+     "text": [
+      "Did you have any impression as to this particular title, “the Spirit of truth”?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "Not really except attention has been drawn to the truth being seen by us in Christ objectively, but then the Spirit of truth having come, the Spirit will never be without witness and the testimony will continue as we know because the Spirit is here, despite the failings of those of us who are in the testimony. But the truth is also held subjectively in the Spirit of truth. It also involves what is characteristic. I think as we make way for the Spirit and value Him, and value the truth, there then becomes what is characteristic in us that is of the truth."
+     "text": [
+      "Not really except attention has been drawn to the truth being seen by us in Christ objectively, but then the Spirit of truth having come, the Spirit will never be without witness and the testimony will continue as we know because the Spirit is here, despite the failings of those of us who are in the testimony. But the truth is also held subjectively in the Spirit of truth. It also involves what is characteristic. I think as we make way for the Spirit and value Him, and value the truth, there then becomes what is characteristic in us that is of the truth."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "It shows how deeply the one is identified with the other and that it then becomes the source for us of guidance into “all the truth”."
+     "text": [
+      "It shows how deeply the one is identified with the other and that it then becomes the source for us of guidance into “all the truth”."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "I was thinking of the Spirit not speaking from Himself but as He hears. The Spirit speaking requires vessels, and do you think these vessels take character from that; they do not speak for themselves but before they speak they hear?"
+     "text": [
+      "I was thinking of the Spirit not speaking from Himself but as He hears. The Spirit speaking requires vessels, and do you think these vessels take character from that; they do not speak for themselves but before they speak they hear?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "There is a common expression 'to think before we speak', but we need to hear before we speak, especially in the meeting and in the assembly. That would be a habitual thing for a spiritual person that they would hear before they speak. That would test us as to how current our hearing is and our speaking is, whether we are in communion. I suppose that is what underlies all of this, communion with the Lord and with the Spirit which is a searching thing as to how constant our communion may be."
+     "text": [
+      "There is a common expression 'to think before we speak', but we need to hear before we speak, especially in the meeting and in the assembly. That would be a habitual thing for a spiritual person that they would hear before they speak. That would test us as to how current our hearing is and our speaking is, whether we are in communion. I suppose that is what underlies all of this, communion with the Lord and with the Spirit which is a searching thing as to how constant our communion may be."
+     ]
     },
     {
      "speaker": "JSG",
-     "text": "Would the reference in verse 13, “whatsoever he shall hear he shall speak”, also gives us to value how immediate the availability of the Spirit’s voice is, because circumstances are changing, conditions are changing; but this is abiding?"
+     "text": [
+      "Would the reference in verse 13, “whatsoever he shall hear he shall speak”, also gives us to value how immediate the availability of the Spirit’s voice is, because circumstances are changing, conditions are changing; but this is abiding?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "That is very encouraging; despite what may belong to the wilderness path and the changing circumstances of the testimony there is a constancy that remains with the place and position that divine Persons have taken up to support it."
+     "text": [
+      "That is very encouraging; despite what may belong to the wilderness path and the changing circumstances of the testimony there is a constancy that remains with the place and position that divine Persons have taken up to support it."
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "It says, “he will announce to you what is coming” - what is your impression as to that?"
+     "text": [
+      "It says, “he will announce to you what is coming” - what is your impression as to that?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "I do not know whether it would simply have reference to what yet lies ahead in relation to the Lord, but I am sure there is more to it than that?"
+     "text": [
+      "I do not know whether it would simply have reference to what yet lies ahead in relation to the Lord, but I am sure there is more to it than that?"
+     ]
     },
     {
      "speaker": "RHB",
-     "text": "It seems to include the great scope of what is eternal which is about to be displayed. Perhaps in our conversation we spend a lot of time speaking about what is past, but the Spirit is announcing what is coming. That is particularly true when failure has come into the church publicly. The view is forward to what is to be so shortly brought out publicly, but the secret of it lies with those who have an ear."
+     "text": [
+      "It seems to include the great scope of what is eternal which is about to be displayed. Perhaps in our conversation we spend a lot of time speaking about what is past, but the Spirit is announcing what is coming. That is particularly true when failure has come into the church publicly. The view is forward to what is to be so shortly brought out publicly, but the secret of it lies with those who have an ear."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "That is very precious. So, it is one of the Spirit’s services, “the Spirit of truth, he shall guide you into all the truth … and he will announce to you what is coming”. He gives us to have to do with what is eternal now. We can come into a sphere which has the characteristics of eternity attaching to it, which is a wonderful thing. That is something else to value. We live in a world that is passing but we have to do with what is eternal."
-    },
-    {
-     "text": "That leads us on to John 20 because the Lord comes in and says, “Peace be to you” (v 19), and then again “Peace be to you” (v 21), as if He would bring in confirmation as to matters. I think the Lord was seeking that they should be confirmed in relation to what was going to be eternal in its character."
+     "text": [
+      "That is very precious. So, it is one of the Spirit’s services, “the Spirit of truth, he shall guide you into all the truth … and he will announce to you what is coming”. He gives us to have to do with what is eternal now. We can come into a sphere which has the characteristics of eternity attaching to it, which is a wonderful thing. That is something else to value. We live in a world that is passing but we have to do with what is eternal.",
+      "That leads us on to John 20 because the Lord comes in and says, “Peace be to you” (v 19), and then again “Peace be to you” (v 21), as if He would bring in confirmation as to matters. I think the Lord was seeking that they should be confirmed in relation to what was going to be eternal in its character."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "If you look from the point of view of the juncture at which the Lord said this in chapter 16, “he will announce to you what is coming” it would encompass the present day. It is not only future. Some very profound changes were about to take place, Man was about to go into heaven, the Holy Spirit was to come, and I wondered whether the Lord takes that up in John 20, “I ascend”, v 17. That was one of the things that was coming, and then that was going to affect not only the source and power of faith here, but it was to have the profoundest effect on the way that things were administered here as well. The whole thing was going to come under the influence of His having gone above. Only the Spirit could bring us into the good of that."
+     "text": [
+      "If you look from the point of view of the juncture at which the Lord said this in chapter 16, “he will announce to you what is coming” it would encompass the present day. It is not only future. Some very profound changes were about to take place, Man was about to go into heaven, the Holy Spirit was to come, and I wondered whether the Lord takes that up in John 20, “I ascend”, v 17. That was one of the things that was coming, and then that was going to affect not only the source and power of faith here, but it was to have the profoundest effect on the way that things were administered here as well. The whole thing was going to come under the influence of His having gone above. Only the Spirit could bring us into the good of that."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "So that in the context of when the Lord spoke about these matters in chapter 16, He had yet to rise and yet to ascend, and we know there were the forty days in which the Lord helped the disciples to become acquainted with a spiritual condition. Then there were ten days in which the Father and the Son and the Holy Spirit were together, and then the Spirit comes from such a sphere; and they were going to be able to bear these things. The Lord says, “I have yet many things to say to you, but ye cannot bear them now”, which has also been linked with chapter 17 and the wonderful things the Lord speaks to the Father about in relation to His own."
+     "text": [
+      "So that in the context of when the Lord spoke about these matters in chapter 16, He had yet to rise and yet to ascend, and we know there were the forty days in which the Lord helped the disciples to become acquainted with a spiritual condition. Then there were ten days in which the Father and the Son and the Holy Spirit were together, and then the Spirit comes from such a sphere; and they were going to be able to bear these things. The Lord says, “I have yet many things to say to you, but ye cannot bear them now”, which has also been linked with chapter 17 and the wonderful things the Lord speaks to the Father about in relation to His own."
+     ]
     },
     {
-     "text": "AJMcS Mr Taylor said that “what is coming” relates to Paul’s ministry, vol 52 p173."
+     "speaker": "AJMcS",
+     "text": [
+      "Mr Taylor said that “what is coming” relates to Paul’s ministry, vol 52 p173."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "It links again with, “guide you into all the truth”, and it being given to Paul to complete the word of God. We have been taught (and it is easy to say these things and it is horrible to think we may sound academic), that there were four ministries given to Paul; the ministry of the gospel, the ministry of the new covenant, the ministry of reconciliation, and the ministry of the mystery. It is wonderful to think of all this being part of “what is coming”. We were reading Acts locally and it was mentioned that Peter lays the tracks for Paul’s train, and Paul’s train is coming we may say with those wonderful ‘carriages’; with only first class passengers because of the ministry he has. He is a competent new covenant minister and is going to introduce what abounds and subsists in glory."
+     "text": [
+      "It links again with, “guide you into all the truth”, and it being given to Paul to complete the word of God. We have been taught (and it is easy to say these things and it is horrible to think we may sound academic), that there were four ministries given to Paul; the ministry of the gospel, the ministry of the new covenant, the ministry of reconciliation, and the ministry of the mystery. It is wonderful to think of all this being part of “what is coming”. We were reading Acts locally and it was mentioned that Peter lays the tracks for Paul’s train, and Paul’s train is coming we may say with those wonderful ‘carriages’; with only first class passengers because of the ministry he has. He is a competent new covenant minister and is going to introduce what abounds and subsists in glory."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "All that would have a practical affect in the Christian company. It is of the essence of Paul’s ministry that it related to the ‘me’ (Acts 9: 4); that was to be the repository of all these things. The Lord establishes here the atmosphere in which the Christian company is to subsist, an atmosphere of grace. It seems a very wonderful thing to me that he should do that here. He does not lay out doctrine or anything official but he sees to the spirit of the company."
+     "text": [
+      "All that would have a practical affect in the Christian company. It is of the essence of Paul’s ministry that it related to the ‘me’ (Acts 9: 4); that was to be the repository of all these things. The Lord establishes here the atmosphere in which the Christian company is to subsist, an atmosphere of grace. It seems a very wonderful thing to me that he should do that here. He does not lay out doctrine or anything official but he sees to the spirit of the company."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "One of the things Paul does in Acts is that he helps in the establishment of local assemblies. What helps local assemblies to function is atmosphere. That is another thing that particularly the Spirit of God would have to do with, that the atmosphere should be such that there can be a manifestation of Christ. The Lord comes in here and makes Himself known and then He breathes into them; there is an impartation, the whole thing becomes very wonderful. You can see then how this has been linked with what should characterise the Christian company."
+     "text": [
+      "One of the things Paul does in Acts is that he helps in the establishment of local assemblies. What helps local assemblies to function is atmosphere. That is another thing that particularly the Spirit of God would have to do with, that the atmosphere should be such that there can be a manifestation of Christ. The Lord comes in here and makes Himself known and then He breathes into them; there is an impartation, the whole thing becomes very wonderful. You can see then how this has been linked with what should characterise the Christian company."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "The temple is a place of function, but in order to function there has to be a certain number of people there. It has been pointed out that a meeting for enquiry is an important part of temple activity. You cannot have enquiry without two people, and you cannot take the Supper very easily either below a certain number. There are one or two with whom we have fellowship who are on their own and the young people need to reflect what a privilege the access they have to Christian company really is, because it gives them entrance, they are brought and have been brought all their lives, into this environment."
+     "text": [
+      "The temple is a place of function, but in order to function there has to be a certain number of people there. It has been pointed out that a meeting for enquiry is an important part of temple activity. You cannot have enquiry without two people, and you cannot take the Supper very easily either below a certain number. There are one or two with whom we have fellowship who are on their own and the young people need to reflect what a privilege the access they have to Christian company really is, because it gives them entrance, they are brought and have been brought all their lives, into this environment."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "Again, when they were let go in Acts the first thing they did was that they came to their own, they had no thoughts to go anywhere else. It is a challenge then when we are set free from our responsible affairs whether the first thing on our minds and affections is to come to our own, which would involve coming to the meetings, and then we find that the thing is functioning. We may say, 'Why do we not sit at home and read a ministry book?'. How wonderful the ministry is, but then there is something current and particularly special and precious as we prove the currency of these things and what we have been referring to as the temple functioning. It is linked to what we hear currently, not simply what is past, but what we hear currently."
+     "text": [
+      "Again, when they were let go in Acts the first thing they did was that they came to their own, they had no thoughts to go anywhere else. It is a challenge then when we are set free from our responsible affairs whether the first thing on our minds and affections is to come to our own, which would involve coming to the meetings, and then we find that the thing is functioning. We may say, 'Why do we not sit at home and read a ministry book?'. How wonderful the ministry is, but then there is something current and particularly special and precious as we prove the currency of these things and what we have been referring to as the temple functioning. It is linked to what we hear currently, not simply what is past, but what we hear currently."
+     ]
     },
     {
      "speaker": "PJW",
-     "text": "Do you think Paul’s practical ministry that he speaks of in Acts 20 amongst the Ephesians showed his valuation of the saints? Would that be something for us to think about?"
+     "text": [
+      "Do you think Paul’s practical ministry that he speaks of in Acts 20 amongst the Ephesians showed his valuation of the saints? Would that be something for us to think about?"
+     ]
     },
     {
      "speaker": "JD",
-     "text": "Yes, that is very helpful and links on with our scriptures because there he moved in and out of the households of the saints and he did not shrink from announcing all the counsel of God, v 20, 27. That would be part of the Spirit’s operations through Paul. It involved something being established that would be a demonstration of the truth being worked out at its highest height."
+     "text": [
+      "Yes, that is very helpful and links on with our scriptures because there he moved in and out of the households of the saints and he did not shrink from announcing all the counsel of God, v 20, 27. That would be part of the Spirit’s operations through Paul. It involved something being established that would be a demonstration of the truth being worked out at its highest height."
+     ]
     },
     {
-     "text": "AJMcS He descended and he enfolded Eutychus, v 10. I wondered whether the in-breathing here represents the Lord’s life and character. It gives character to the saints so much so that remission comes before retention."
+     "speaker": "AJMcS",
+     "text": [
+      "He descended and he enfolded Eutychus, v 10. I wondered whether the in-breathing here represents the Lord’s life and character. It gives character to the saints so much so that remission comes before retention."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "That is helpful. There were many lights in the upper room, but there was more than light there and you see that in Paul’s activity, the spirit of the thing, the life of Christ was manifest in him and he was able to enfold. Here in John’s gospel there is an impartation from Christ, He breathes into them, but Paul had also received from Christ and he is able to impart something to Eutychus that there might be restoration. It says, “ye who are spiritual restore such a one” (Gal 6: 1), and that is a great test, but it is not a theory, it is worked out practically in what we value. And as we depend upon Christ and the Spirit, and one another, these things take place and there is an atmosphere of life and an area where life is preserved, where practical salvation can be known."
+     "text": [
+      "That is helpful. There were many lights in the upper room, but there was more than light there and you see that in Paul’s activity, the spirit of the thing, the life of Christ was manifest in him and he was able to enfold. Here in John’s gospel there is an impartation from Christ, He breathes into them, but Paul had also received from Christ and he is able to impart something to Eutychus that there might be restoration. It says, “ye who are spiritual restore such a one” (Gal 6: 1), and that is a great test, but it is not a theory, it is worked out practically in what we value. And as we depend upon Christ and the Spirit, and one another, these things take place and there is an atmosphere of life and an area where life is preserved, where practical salvation can be known."
+     ]
     },
     {
-     "text": "AJMcS I think it has been pointed out that John writes after the church had broken down publicly and he also provides the means whereby things can be settled ecclesiastically, meaning that the remission before the retention not only relates to what is moral but it relates to what is ecclesiastical as well. There is a way out."
+     "speaker": "AJMcS",
+     "text": [
+      "I think it has been pointed out that John writes after the church had broken down publicly and he also provides the means whereby things can be settled ecclesiastically, meaning that the remission before the retention not only relates to what is moral but it relates to what is ecclesiastical as well. There is a way out."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "There is. There is a way through, and we often speak about not becoming over engaged with the breakdown, but there are resources to meet it. None of the conditions now have caught divine Persons short. In that sense they were anticipated and there are more than adequate resources to meet the current day."
+     "text": [
+      "There is. There is a way through, and we often speak about not becoming over engaged with the breakdown, but there are resources to meet it. None of the conditions now have caught divine Persons short. In that sense they were anticipated and there are more than adequate resources to meet the current day."
+     ]
     },
     {
      "speaker": "PFE",
-     "text": "The Lord comes and stands in the midst and says these words and, where we first read it says, “the doors shut … through fear of the Jews”. He stood in the midst; all could see Him and He brings in what is most needed and imparts the Spirit."
+     "text": [
+      "The Lord comes and stands in the midst and says these words and, where we first read it says, “the doors shut … through fear of the Jews”. He stood in the midst; all could see Him and He brings in what is most needed and imparts the Spirit."
+     ]
     },
     {
      "speaker": "JD",
-     "text": "I think it is an exercise that the woman in 2 Kings shut the door, and here the doors are shut. We might say what a reward for perhaps not the most attractive exercise, especially when we are young, being in an area where the door is closed. We would perhaps like to see a bit more of what is out there, but what recompense! He comes and takes His place in the midst. It has been said, 'He stood there as the divine centre of the spiritual universe', JT vol 77 p222."
+     "text": [
+      "I think it is an exercise that the woman in 2 Kings shut the door, and here the doors are shut. We might say what a reward for perhaps not the most attractive exercise, especially when we are young, being in an area where the door is closed. We would perhaps like to see a bit more of what is out there, but what recompense! He comes and takes His place in the midst. It has been said, 'He stood there as the divine centre of the spiritual universe', JT vol 77 p222."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "There is a place where the ascended Man has breathed, and we look round on the brethren who are passing on and think, they have kept the door closed and retained an atmosphere. Would any of us dare to defile it or associate anything with it that was incompatible with that sanctified condition?"
+     "text": [
+      "There is a place where the ascended Man has breathed, and we look round on the brethren who are passing on and think, they have kept the door closed and retained an atmosphere. Would any of us dare to defile it or associate anything with it that was incompatible with that sanctified condition?"
+     ]
     }
    ]
   },
@@ -686,5 +906,19 @@
  "back_matter": [
   "Edited and Published by",
   "David Brown and Andrew Burr 81 Roxburgh Road. West Norwood. London. SE27 OLE"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "WHAT WE VALUE",
+   "kind": "speaker_matched_loosely",
+   "detail": "TAOTSO used in the text for T A S Oberg (key gives TASO)"
+  },
+  {
+   "article": 1,
+   "title": "WHAT WE VALUE",
+   "kind": "speaker_matched_loosely",
+   "detail": "AJMcS used in the text for A J McSeveney (key gives AJM)"
+  }
  ]
 }

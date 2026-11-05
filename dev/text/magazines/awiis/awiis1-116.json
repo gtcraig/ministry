@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,40 +26,47 @@
    "place": "GRANGEMOUTH",
    "date": "22 November 1981",
    "speakers": [
-    "J.M.",
-    "Jas.M.",
-    "Jas.B.",
-    "H.F.",
-    "J.S.",
-    "W.H.",
-    "A.A.B.",
-    "T.M.",
-    "A.D.M."
+    "JM",
+    "JasM",
+    "AMcB",
+    "JasB",
+    "HF",
+    "JS",
+    "WH",
+    "AAB",
+    "TM",
+    "ADM"
    ],
    "initials": [
     {
-     "initials": "AAAB",
-     "name": "(All local unless otherwise stated) A.A.Brown"
+     "initials": "AAB",
+     "name": "A.A.Brown",
+     "place": "GRANGEMOUTH"
     },
     {
      "initials": "JB",
-     "name": "Jas.Brown"
+     "name": "Jas.Brown",
+     "place": "GRANGEMOUTH"
     },
     {
      "initials": "HF",
-     "name": "H.Fentiman"
+     "name": "H.Fentiman",
+     "place": "GRANGEMOUTH"
     },
     {
-     "initials": "WHG",
-     "name": "W.Haldane Glasgow"
+     "initials": "WH",
+     "name": "W. Haldane",
+     "place": "Glasgow"
     },
     {
-     "initials": "AM",
-     "name": "A.McBride"
+     "initials": "AMcB",
+     "name": "A.McBride",
+     "place": "GRANGEMOUTH"
     },
     {
      "initials": "JM",
-     "name": "Jas.Mitchell"
+     "name": "Jas.Mitchell",
+     "place": "GRANGEMOUTH"
     },
     {
      "initials": "JM",
@@ -68,281 +75,424 @@
     },
     {
      "initials": "ADM",
-     "name": "A.D.Munro"
+     "name": "A.D.Munro",
+     "place": "GRANGEMOUTH"
     },
     {
      "initials": "JM",
-     "name": "Jas.Munro"
+     "name": "Jas.Munro",
+     "place": "GRANGEMOUTH"
     },
     {
      "initials": "TM",
-     "name": "T.Munro"
+     "name": "T.Munro",
+     "place": "GRANGEMOUTH"
     },
     {
      "initials": "J",
      "name": "J",
      "place": "Spinks"
+    },
+    {
+     "initials": "JS",
+     "not_in_key": true
+    },
+    {
+     "initials": "JasM",
+     "not_in_key": true
+    },
+    {
+     "initials": "JasB",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "A.A.Brown; Jas.Brown; H.Fentiman; W.Haldane Glasgow; A.McBride; Jas.Mitchell; J.Mitchell, Bexley; A.D.Munro; Jas.Munro; T.Munro; J,Spinks"
    ],
    "paragraphs": [
     {
-     "speaker": "J.M.",
-     "text": "I thought we might look at the thought of 'the Christ'. It comes into each of these passages. The Spirit would help us to expand our knowledge of the Christ. It involves the anointed Man, God's ideal. I think it is related to the question of God and men. The Son generally is related to the Father and I judge that the Christ is related to God. I think that in the thought of 'the Christ' there is concentrated the thought of man, so that everything that is for men is seen in Him, in that blessed Person. That is what is in mind in the passage in Luke 2, though perhaps we might not be justified in confining it to t hat. In chapter 24 we have the great thought of Christ glorified: \"Ought not the Christ to have suffered these things and to enter into his glory? \" Divine righteousness enters into the glorification of Christ, but we might see in His glorification the great system that is in the divine mind for God's pleasure, involving men. In Ephesians 3 we have the thought of the Christ dwelling through faith in our hearts, and then to know the love of the Christ which passeth knowledge. Both references are very profound, particularly the latter, involving, as it does, that which surpasses knowledge. Yet something is there which is to be known, and if we think of 'the Christ' we think of what He is in relation to God. It might be profitable to feel after what is involved in the expression 'the love of the Christ'. \"That the Christ may dwell, through faith, in your hearts\" means that He has a settled place in our affections. It is safe to say that God has a settled place in the affections of the Christ. The idea of 'the Christ' brings that out, the perfection of man in relation to God, and that God would have a settled place in the affections of the Christ. The love of the Christ would really involve that, but it is that that blessed Person has a settled place in our affections in order that we may be drawn into this great system of divine glory, divine affection, which is for God's pleasure."
+     "speaker": "JM",
+     "text": [
+      "I thought we might look at the thought of 'the Christ'. It comes into each of these passages. The Spirit would help us to expand our knowledge of the Christ. It involves the anointed Man, God's ideal. I think it is related to the question of God and men. The Son generally is related to the Father and I judge that the Christ is related to God. I think that in the thought of 'the Christ' there is concentrated the thought of man, so that everything that is for men is seen in Him, in that blessed Person. That is what is in mind in the passage in Luke 2, though perhaps we might not be justified in confining it to t hat. In chapter 24 we have the great thought of Christ glorified: \"Ought not the Christ to have suffered these things and to enter into his glory? \" Divine righteousness enters into the glorification of Christ, but we might see in His glorification the great system that is in the divine mind for God's pleasure, involving men. In Ephesians 3 we have the thought of the Christ dwelling through faith in our hearts, and then to know the love of the Christ which passeth knowledge. Both references are very profound, particularly the latter, involving, as it does, that which surpasses knowledge. Yet something is there which is to be known, and if we think of 'the Christ' we think of what He is in relation to God. It might be profitable to feel after what is involved in the expression 'the love of the Christ'. \"That the Christ may dwell, through faith, in your hearts\" means that He has a settled place in our affections. It is safe to say that God has a settled place in the affections of the Christ. The idea of 'the Christ' brings that out, the perfection of man in relation to God, and that God would have a settled place in the affections of the Christ. The love of the Christ would really involve that, but it is that that blessed Person has a settled place in our affections in order that we may be drawn into this great system of divine glory, divine affection, which is for God's pleasure."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "Reference was made yesterday to Acts 2: 36: \"God has made... Jesus... both Lord and Christ\". 'The Christ' would be another thought than 'the Lord'. It is something that He has been made. We have been taught that He is Lord in His own right (although as it says He is made Lord), and that He has been made Christ."
+     "speaker": "JasM",
+     "text": [
+      "Reference was made yesterday to Acts 2: 36: \"God has made... Jesus... both Lord and Christ\". 'The Christ' would be another thought than 'the Lord'. It is something that He has been made. We have been taught that He is Lord in His own right (although as it says He is made Lord), and that He has been made Christ."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "That brings out the great place He has as the administrator of all that God is towards men. The woman in John 4 says \"Come, see a man who told me all things I had ever done: is not he the Christ?\" (v 29). That would particularly come home to her in that He was the administrator or the giver of the Holy Spirit, which would have a strong connection with the beginning of the Acts. It would also relate to the way in which He was leading her in her affect ions into the service of God."
+     "speaker": "JM",
+     "text": [
+      "That brings out the great place He has as the administrator of all that God is towards men. The woman in John 4 says \"Come, see a man who told me all things I had ever done: is not he the Christ?\" (v 29). That would particularly come home to her in that He was the administrator or the giver of the Holy Spirit, which would have a strong connection with the beginning of the Acts. It would also relate to the way in which He was leading her in her affect ions into the service of God."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "She would understand that as He goes on to speak about God in that section."
+     "speaker": "JasM",
+     "text": [
+      "She would understand that as He goes on to speak about God in that section."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "\"God is a spirit; and they who worship him must worship him in spirit and truth”. Underlying what we say, of course, is the necessity for the Holy Spirit, but if we are rightly to enter into the service of God it is necessary to know the Christ."
+     "speaker": "JM",
+     "text": [
+      "\"God is a spirit; and they who worship him must worship him in spirit and truth”. Underlying what we say, of course, is the necessity for the Holy Spirit, but if we are rightly to enter into the service of God it is necessary to know the Christ."
+     ]
     },
     {
-     "text": "A.McB. Would you say more about the thought of the Christ being related to God and man. In the epistle to the Hebrews, for instance, the writer speaks a great deal of 'the Christ'."
+     "speaker": "AMcB",
+     "text": [
+      "Would you say more about the thought of the Christ being related to God and man. In the epistle to the Hebrews, for instance, the writer speaks a great deal of 'the Christ'."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I cannot say very much but I have the distinct impression that the Christ sets out the thought of man. I think what is stressed is His humanity and the perfection of His humanity, so that what is set out in the Christ is what God really desires to see in man, and that it is related to God rather than to the Father. It is not exactly the idea of family relationships; it is a question, if I have understood it rightly, of men and God. It is not that sonship is not an eternal thought, it is; but finally the tabernacle of God is with men. I think 'the Christ' comes into that line of consideration."
+     "speaker": "JM",
+     "text": [
+      "I cannot say very much but I have the distinct impression that the Christ sets out the thought of man. I think what is stressed is His humanity and the perfection of His humanity, so that what is set out in the Christ is what God really desires to see in man, and that it is related to God rather than to the Father. It is not exactly the idea of family relationships; it is a question, if I have understood it rightly, of men and God. It is not that sonship is not an eternal thought, it is; but finally the tabernacle of God is with men. I think 'the Christ' comes into that line of consideration."
+     ]
     },
     {
-     "text": "A.McB. I think that is very suggestive. One thinks of the anointed vessel being spoken of as the Christ. That would relate to the testimonial sphere, would it not?"
+     "speaker": "AMcB",
+     "text": [
+      "I think that is very suggestive. One thinks of the anointed vessel being spoken of as the Christ. That would relate to the testimonial sphere, would it not?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "That is right. There is a vessel here which is morally like the blessed Man who is in the presence of God and is glorified there, a vessel in which every thought of God is seen. The thought of 'the Christ' as related to the assembly in the Corinthian epistle is that she can be representative of God. We see in Christ personally a Man under the divine eye who is entirely for the pleasure of God. He sets out fully and uniquely what God has in His thoughts in relation to men."
+     "speaker": "JM",
+     "text": [
+      "That is right. There is a vessel here which is morally like the blessed Man who is in the presence of God and is glorified there, a vessel in which every thought of God is seen. The thought of 'the Christ' as related to the assembly in the Corinthian epistle is that she can be representative of God. We see in Christ personally a Man under the divine eye who is entirely for the pleasure of God. He sets out fully and uniquely what God has in His thoughts in relation to men."
+     ]
     },
     {
-     "text": "A.McB. Is it intended then to affect us that Simeon saw a babe but he saw the Lord's Christ? Does that show how attractive the idea of the Christ is?"
+     "speaker": "AMcB",
+     "text": [
+      "Is it intended then to affect us that Simeon saw a babe but he saw the Lord's Christ? Does that show how attractive the idea of the Christ is?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "It does, and he was able to look on in anticipation in his affections to what would be there for men. He speaks of Him as \"a light for revelation of the Gentiles and the glory of thy people Israel\". In Simeon there is also some thought of the consecration of the priesthood. His hands and arms were full, full of the fine flour. The Christ had a place in Simeon's affections by the Spirit. Luke develops the idea of what is priestly in the service of God."
+     "speaker": "JM",
+     "text": [
+      "It does, and he was able to look on in anticipation in his affections to what would be there for men. He speaks of Him as \"a light for revelation of the Gentiles and the glory of thy people Israel\". In Simeon there is also some thought of the consecration of the priesthood. His hands and arms were full, full of the fine flour. The Christ had a place in Simeon's affections by the Spirit. Luke develops the idea of what is priestly in the service of God."
+     ]
     },
     {
-     "speaker": "Jas.B.",
-     "text": "Later in the gospel Peter says, in reply to the Lord's question, \"But ye, who do ye say that I am?\", \"The Christ of God\", Luke 9: 20. Do you think that bears on it?"
+     "speaker": "JasB",
+     "text": [
+      "Later in the gospel Peter says, in reply to the Lord's question, \"But ye, who do ye say that I am?\", \"The Christ of God\", Luke 9: 20. Do you think that bears on it?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "It does; it is the Christ of God. That emphasises what we are saying, that it is really a Man for God. He sets out, as far as God is concerned, the thought of man fully. I sometimes wonder whether we sufficiently appreciate the reality of the humanity of that glorious Man and how as man He answered in His affections to God."
+     "speaker": "JM",
+     "text": [
+      "It does; it is the Christ of God. That emphasises what we are saying, that it is really a Man for God. He sets out, as far as God is concerned, the thought of man fully. I sometimes wonder whether we sufficiently appreciate the reality of the humanity of that glorious Man and how as man He answered in His affections to God."
+     ]
     },
     {
-     "speaker": "H.F.",
-     "text": "Would you just say what is the difference between 'Christ' and 'the Christ'. Christ has become a name but 'the Christ' carries something more."
+     "speaker": "HF",
+     "text": [
+      "Would you just say what is the difference between 'Christ' and 'the Christ'. Christ has become a name but 'the Christ' carries something more."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes it does. I hesitate to use the word but it is an \"official\" position from a certain point of view. We want to be careful as to that but I think 'the Christ' becomes the administrator of all that God is towards men. That is what the woman in John 4 came into: \"is not he the Christ?\" (v 29). He brought God and all that God was towards mankind into the soul of that woman. The result is that He leads that woman on to the service of God. That is the idea of 'the Christ'."
+     "speaker": "JM",
+     "text": [
+      "Yes it does. I hesitate to use the word but it is an \"official\" position from a certain point of view. We want to be careful as to that but I think 'the Christ' becomes the administrator of all that God is towards men. That is what the woman in John 4 came into: \"is not he the Christ?\" (v 29). He brought God and all that God was towards mankind into the soul of that woman. The result is that He leads that woman on to the service of God. That is the idea of 'the Christ'."
+     ]
     },
     {
-     "speaker": "H.F.",
-     "text": "That is helpful, and it does not detract from affections for the Lord. As the hymn says, 'In Him, Thy Christ, Thine own anointed One' (No.119). It does not diminish any affection for Christ to see Him thus, does it?"
+     "speaker": "HF",
+     "text": [
+      "That is helpful, and it does not detract from affections for the Lord. As the hymn says, 'In Him, Thy Christ, Thine own anointed One' (No.119). It does not diminish any affection for Christ to see Him thus, does it?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I do not think it does. The position He occupies as the great administrator is a position of tremendous affection. Ephesians speaks of \"the love of the Christ\". In a certain sense I do not think there can be a greater expression than that. Mr Hibbert helped us some years ago in Maidstone as to a descending and an ascending love. The way love is presented in Scripture is generally as coming down, but I noticed that Mr Taylor refers to the water as rising to its own source; that is, the love that has come down must ascend, and I think that in Christ we see both sides of it. We see what has come down from God, but gloriously we see also what is returning to God. It is in the latter consideration that one finds one's own deficiency."
+     "speaker": "JM",
+     "text": [
+      "I do not think it does. The position He occupies as the great administrator is a position of tremendous affection. Ephesians speaks of \"the love of the Christ\". In a certain sense I do not think there can be a greater expression than that. Mr Hibbert helped us some years ago in Maidstone as to a descending and an ascending love. The way love is presented in Scripture is generally as coming down, but I noticed that Mr Taylor refers to the water as rising to its own source; that is, the love that has come down must ascend, and I think that in Christ we see both sides of it. We see what has come down from God, but gloriously we see also what is returning to God. It is in the latter consideration that one finds one's own deficiency."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Does the anointing then involve God's pleasure? As you say, 'the Christ' is somewhat an official position, but it is what the Lord is morally that has brought it out. The heavens opened upon such a One and heaven declared its delight. What shone in Christ morally gave God a basis for the anointing, did it not?"
+     "speaker": "JS",
+     "text": [
+      "Does the anointing then involve God's pleasure? As you say, 'the Christ' is somewhat an official position, but it is what the Lord is morally that has brought it out. The heavens opened upon such a One and heaven declared its delight. What shone in Christ morally gave God a basis for the anointing, did it not?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes, the Person who fills that official position is Himself glorious, morally glorious, and that enhances the official position that He fills. In the thought of 'the Christ' we must see what Christ is personally. In Luke 24 where we read, divine righteousness enters into His glorification. Mr Taylor goes as far as to say that God would not have been God if He had not raised and glorified Jesus because of what He was morally."
+     "speaker": "JM",
+     "text": [
+      "Yes, the Person who fills that official position is Himself glorious, morally glorious, and that enhances the official position that He fills. In the thought of 'the Christ' we must see what Christ is personally. In Luke 24 where we read, divine righteousness enters into His glorification. Mr Taylor goes as far as to say that God would not have been God if He had not raised and glorified Jesus because of what He was morally."
+     ]
     },
     {
-     "speaker": "W.H.",
-     "text": "Simeon says \"for mine eyes have seen thy salvation\". \"Thy salvation\" is Christ, is it not?"
+     "speaker": "WH",
+     "text": [
+      "Simeon says \"for mine eyes have seen thy salvation\". \"Thy salvation\" is Christ, is it not?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "That is right. He is the One who is taking up everything for God and for men. Luke presents Him in relation to the whole race, all mankind. That is why I say that the Christ is related to God and men."
+     "speaker": "JM",
+     "text": [
+      "That is right. He is the One who is taking up everything for God and for men. Luke presents Him in relation to the whole race, all mankind. That is why I say that the Christ is related to God and men."
+     ]
     },
     {
-     "speaker": "W.H.",
-     "text": "He is \"a light for revelation of the Gentiles and the glory of... Israel\"."
+     "speaker": "WH",
+     "text": [
+      "He is \"a light for revelation of the Gentiles and the glory of... Israel\"."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes. He will be known as the Messiah. There is a close connection between the Messiah and the Christ. That is what the woman raises in John 4. She says \"I know that Messias is coming\" but He says \"I who speak to thee am he\" (vv 25,26). When she speaks to the men she does not say she has found the Messiah but \"is not he the Christ?\". I think 'the Christ' goes wider. The Messiah is particularly related to Israel but there is a close connection between the two thoughts, and I think it is as the Christ that He fills the office of the Messiah."
+     "speaker": "JM",
+     "text": [
+      "Yes. He will be known as the Messiah. There is a close connection between the Messiah and the Christ. That is what the woman raises in John 4. She says \"I know that Messias is coming\" but He says \"I who speak to thee am he\" (vv 25,26). When she speaks to the men she does not say she has found the Messiah but \"is not he the Christ?\". I think 'the Christ' goes wider. The Messiah is particularly related to Israel but there is a close connection between the two thoughts, and I think it is as the Christ that He fills the office of the Messiah."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "The men say \"the Saviour of the world\" (v 42). It is how God has come out. He has come out fully in Christ. I was thinking of the expression \"before he should see the Lord's Christ\"."
+     "speaker": "AAB",
+     "text": [
+      "The men say \"the Saviour of the world\" (v 42). It is how God has come out. He has come out fully in Christ. I was thinking of the expression \"before he should see the Lord's Christ\"."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes, Jehovah's Christ. Finally that is what it will be, God and men. \"The tabernacle of God is with men\", Rev 21: 3. That thought would involve that this glorious Person has come in as the Christ and that He is glorified as the Christ. I think both sides are in that."
+     "speaker": "JM",
+     "text": [
+      "Yes, Jehovah's Christ. Finally that is what it will be, God and men. \"The tabernacle of God is with men\", Rev 21: 3. That thought would involve that this glorious Person has come in as the Christ and that He is glorified as the Christ. I think both sides are in that."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "The revelation is within the realm of the Holy Spirit in this setting, is it not?"
+     "speaker": "JasM",
+     "text": [
+      "The revelation is within the realm of the Holy Spirit in this setting, is it not?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I think it is. We need to be more dependent on the Spirit that we might have greater penetration into what is involved in 'the Christ'. I would like to encourage every one of us just to contemplate what that blessed Man means to God. God has found a Man in whom He is fully satisfied and who is the answer to every desire on the part of God Himself. That is the Christ. As the Christ He brings persons into this great sphere of glory and affection that they should be for God's pleasure."
+     "speaker": "JM",
+     "text": [
+      "I think it is. We need to be more dependent on the Spirit that we might have greater penetration into what is involved in 'the Christ'. I would like to encourage every one of us just to contemplate what that blessed Man means to God. God has found a Man in whom He is fully satisfied and who is the answer to every desire on the part of God Himself. That is the Christ. As the Christ He brings persons into this great sphere of glory and affection that they should be for God's pleasure."
+     ]
     },
     {
-     "text": "A.McB. I wondered if that very affecting verse in Hebrews 9, \"the blood of the Christ, who by the eternal Spirit offered himself spotless to God\" (v 14), would connect with what you are saying?"
+     "speaker": "AMcB",
+     "text": [
+      "I wondered if that very affecting verse in Hebrews 9, \"the blood of the Christ, who by the eternal Spirit offered himself spotless to God\" (v 14), would connect with what you are saying?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "That is a very fine reference: \"the blood of the Christ\". I understand that is the burnt-offering. Mr Darby says very touchingly that it is the culmination of a life of entire devotedness to God. Every moment of the Lord's life here was filled out for God's pleasure - what He had in a Man in the Christ here apart from the need for the settlement of the moral question! It is a fact that that life was terminated by His offering Himself without spot to God. God made him a sinoffering, but primarily it is not the sin-offering, it is the burnt-offering. It is presented in its purity as apart altogether from the need to settle the moral question. Is that how you understand it?"
+     "speaker": "JM",
+     "text": [
+      "That is a very fine reference: \"the blood of the Christ\". I understand that is the burnt-offering. Mr Darby says very touchingly that it is the culmination of a life of entire devotedness to God. Every moment of the Lord's life here was filled out for God's pleasure - what He had in a Man in the Christ here apart from the need for the settlement of the moral question! It is a fact that that life was terminated by His offering Himself without spot to God. God made him a sinoffering, but primarily it is not the sin-offering, it is the burnt-offering. It is presented in its purity as apart altogether from the need to settle the moral question. Is that how you understand it?"
+     ]
     },
     {
-     "text": "A.McB. Yes; the fire for the burnt-offering was never to go out; it was perpetuated for the pleasure of God."
+     "speaker": "AMcB",
+     "text": [
+      "Yes; the fire for the burnt-offering was never to go out; it was perpetuated for the pleasure of God."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes. We often think of what was in such a Person here and it is right to contemplate it, but think of what God has in that blessed Man now! That is one of the points of the epistle to the Hebrews."
+     "speaker": "JM",
+     "text": [
+      "Yes. We often think of what was in such a Person here and it is right to contemplate it, but think of what God has in that blessed Man now! That is one of the points of the epistle to the Hebrews."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "The fact that the Gentiles are put before Israel would show that by the Spirit Simeon had a wider outlook. The Messiah, as you were saying, is primarily for the Jews, whereas the Christ would involve the whole human race."
+     "speaker": "JasM",
+     "text": [
+      "The fact that the Gentiles are put before Israel would show that by the Spirit Simeon had a wider outlook. The Messiah, as you were saying, is primarily for the Jews, whereas the Christ would involve the whole human race."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes; and, as we know, Luke is very much influenced in his writing by Paul; so I have no doubt that the development of the thought of the Christ is through Paul. It really involves the assembly and the whole system of glory which God has secured for Himself centred in that Man."
+     "speaker": "JM",
+     "text": [
+      "Yes; and, as we know, Luke is very much influenced in his writing by Paul; so I have no doubt that the development of the thought of the Christ is through Paul. It really involves the assembly and the whole system of glory which God has secured for Himself centred in that Man."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "In John 20 when He says \"to my God and your God\" (v 17), is it as the Christ that He is speaking? I am thinking of those final conditions you have referred to, God and man."
+     "speaker": "AAB",
+     "text": [
+      "In John 20 when He says \"to my God and your God\" (v 17), is it as the Christ that He is speaking? I am thinking of those final conditions you have referred to, God and man."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I have often wondered about that. There are also the promises to the overcomer in Philadelphia (see Rev 3: 12) which link with that. The hymn writer has transposed that to 'The city of Christ's God' (Hymn 221), which is an expression I have thought much about. I would judge that what you say in regard to John 20 is right."
+     "speaker": "JM",
+     "text": [
+      "I have often wondered about that. There are also the promises to the overcomer in Philadelphia (see Rev 3: 12) which link with that. The hymn writer has transposed that to 'The city of Christ's God' (Hymn 221), which is an expression I have thought much about. I would judge that what you say in regard to John 20 is right."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "The word that is given to Mary is \"my Father and your Father, and to my God and your God\". It is, as you were saying earlier, the ascending line. There is One being made known, Christ's God."
+     "speaker": "AAB",
+     "text": [
+      "The word that is given to Mary is \"my Father and your Father, and to my God and your God\". It is, as you were saying earlier, the ascending line. There is One being made known, Christ's God."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "It is always well to keep simple, because if we become too analytical we might sometimes lose the beauty of Scripture. I have a distinct impression that when it is a question of the Father it is a question of sonship. Therefore John, who deals very much with the family side of things, stresses the sonship of Christ. When it is a question of God it seems to me that it is a question of the Christ. It is my impression that when the Lord says \"my Father and your Father\" and \"my God and your God\", in the latter connection He would be thinking, if I may use that expression, as to the Christ. Hymns are of course not scripture; nevertheless they express the experiences of spiritual men and men of maturity and it has always affected me that it has been transposed in that hymn to be 'The city of Christ's God'. I think that opens up a wonderful range of things seen in this blessed Man, a Man in relation to His God. That I understand is the thought of the Christ."
+     "speaker": "JM",
+     "text": [
+      "It is always well to keep simple, because if we become too analytical we might sometimes lose the beauty of Scripture. I have a distinct impression that when it is a question of the Father it is a question of sonship. Therefore John, who deals very much with the family side of things, stresses the sonship of Christ. When it is a question of God it seems to me that it is a question of the Christ. It is my impression that when the Lord says \"my Father and your Father\" and \"my God and your God\", in the latter connection He would be thinking, if I may use that expression, as to the Christ. Hymns are of course not scripture; nevertheless they express the experiences of spiritual men and men of maturity and it has always affected me that it has been transposed in that hymn to be 'The city of Christ's God'. I think that opens up a wonderful range of things seen in this blessed Man, a Man in relation to His God. That I understand is the thought of the Christ."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "That is helpful; it is like final conditions, God tabernacling with men."
+     "speaker": "AAB",
+     "text": [
+      "That is helpful; it is like final conditions, God tabernacling with men."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "My impression is, speaking carefully, that the more the brethren understand union, what it is to be united to that glorious One, the more we will understand what Christ's God really involves. I think that is what is involved in the passage in Ephesians: \"to know the love of the Christ\". I think it is the love of a perfect Man for His God, and that what you say in regard to John 20 is right."
+     "speaker": "JM",
+     "text": [
+      "My impression is, speaking carefully, that the more the brethren understand union, what it is to be united to that glorious One, the more we will understand what Christ's God really involves. I think that is what is involved in the passage in Ephesians: \"to know the love of the Christ\". I think it is the love of a perfect Man for His God, and that what you say in regard to John 20 is right."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Joseph is spoken of as a fruitful bough whose branches shoot over the wall (see Gen 49: 22). Would that carry the thought somewhat? Also in his history there is his personal affection, and he carries the thought of the great administrator to which you referred earlier. It is not confined to Israel but would extend universally, yet there is his personal love."
+     "speaker": "JS",
+     "text": [
+      "Joseph is spoken of as a fruitful bough whose branches shoot over the wall (see Gen 49: 22). Would that carry the thought somewhat? Also in his history there is his personal affection, and he carries the thought of the great administrator to which you referred earlier. It is not confined to Israel but would extend universally, yet there is his personal love."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes, Joseph is really Christ among the Gentiles. As you say, what comes out in him is tremendous affection. In the type of Joseph there are two sides, and we must understand both. Pharaoh is generally a type of God and Jacob is generally a type of the Father. I think that bears on what was said as to \"my Father and your Father, and... my God and your God\". I wonder whether we can get an impression as to what that really means."
+     "speaker": "JM",
+     "text": [
+      "Yes, Joseph is really Christ among the Gentiles. As you say, what comes out in him is tremendous affection. In the type of Joseph there are two sides, and we must understand both. Pharaoh is generally a type of God and Jacob is generally a type of the Father. I think that bears on what was said as to \"my Father and your Father, and... my God and your God\". I wonder whether we can get an impression as to what that really means."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "What is the difference between 'the anointed Man' and 'the Man anointed'? The anointing involves His present position, does it not?"
+     "speaker": "JasM",
+     "text": [
+      "What is the difference between 'the anointed Man' and 'the Man anointed'? The anointing involves His present position, does it not?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes it does. The idea of the anointed Man in a certain sense brings in His official position, but the Man anointed is more what He is morally. That is one of the choicest thoughts in this consideration, what Christ was and is as a Man in relation to God Himself, what is in His affections. There are some very fine touches for instance in the epistle to the Romans. It is in a slightly different connection, but there we have \"in that he lives, he lives to God\", chap 6: 10. What a wonderful thing to think of a Man who is entirely living to God! I think that is involved in 'the Man anointed'."
+     "speaker": "JM",
+     "text": [
+      "Yes it does. The idea of the anointed Man in a certain sense brings in His official position, but the Man anointed is more what He is morally. That is one of the choicest thoughts in this consideration, what Christ was and is as a Man in relation to God Himself, what is in His affections. There are some very fine touches for instance in the epistle to the Romans. It is in a slightly different connection, but there we have \"in that he lives, he lives to God\", chap 6: 10. What a wonderful thing to think of a Man who is entirely living to God! I think that is involved in 'the Man anointed'."
+     ]
     },
     {
-     "speaker": "T.M.",
-     "text": "The fact that Simeon was not to see death before he should see the Lord's Christ would show the importance in the divine mind that he should see this and receive it too; would it not?"
+     "speaker": "TM",
+     "text": [
+      "The fact that Simeon was not to see death before he should see the Lord's Christ would show the importance in the divine mind that he should see this and receive it too; would it not?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "That is the exercise for us that we should see it. \"He should not see death before he should see the Lord's Christ\": it is almost as though his life would not have been complete had he not seen the Lord's Christ, because immediately he sees Him he says \"Lord, now thou lettest thy bondman go... in peace; for mine eyes have seen thy salvation\". It should exercise us therefore that we might get a view of the Lord's Christ. I think we might all agree that in the service of God we are very much affected by our own portion and the blessed relationships into which we have been brought, but the Spirit would help us to develop in something of what God really has in man. That is seen supremely in Christ and then there is the extension of that to men like ourselves. We could well exercise ourselves to be with the Spirit because we need His help in order that we might enter affectionately into what He has in His own mind in relation to Christ."
+     "speaker": "JM",
+     "text": [
+      "That is the exercise for us that we should see it. \"He should not see death before he should see the Lord's Christ\": it is almost as though his life would not have been complete had he not seen the Lord's Christ, because immediately he sees Him he says \"Lord, now thou lettest thy bondman go... in peace; for mine eyes have seen thy salvation\". It should exercise us therefore that we might get a view of the Lord's Christ. I think we might all agree that in the service of God we are very much affected by our own portion and the blessed relationships into which we have been brought, but the Spirit would help us to develop in something of what God really has in man. That is seen supremely in Christ and then there is the extension of that to men like ourselves. We could well exercise ourselves to be with the Spirit because we need His help in order that we might enter affectionately into what He has in His own mind in relation to Christ."
+     ]
     },
     {
-     "text": "A.McB. You spoke about the experience of union as bearing on this and helping us. Would you say more as to that because we need help by the Spirit to carry forward these thoughts as the service proceeds? He never, as the service proceeds, gives up the thought of His bride."
+     "speaker": "AMcB",
+     "text": [
+      "You spoke about the experience of union as bearing on this and helping us. Would you say more as to that because we need help by the Spirit to carry forward these thoughts as the service proceeds? He never, as the service proceeds, gives up the thought of His bride."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "No. Someone a few years ago sought to say that the idea of brethren and the idea of union and even sonship were temporal thoughts, but that is not so. If we are before God as men we are before God as the persons who are united to the Christ. Union goes through. Where union helps us in regard to the thought of 'the Christ', and particularly the love of the Christ, is, as I understand it, that you love the way that Christ loves. It says for instance \"we have the mind of Christ\", 1 Cor 2: 16. We generally relate that to the area of administration and I am not going to say anything against that, but I would think that \"we have the mind of Christ\" really springs from union; that is, that the assembly is united to Christ and she is so in the affections of that blessed Man that she thinks the way that He thinks. One was struck a few months ago at the Supper with the way in which the assembly loves as Christ loves. It is immediately from that point that there seems to be some direction from Him as Head in relation to the Father and to God."
+     "speaker": "JM",
+     "text": [
+      "No. Someone a few years ago sought to say that the idea of brethren and the idea of union and even sonship were temporal thoughts, but that is not so. If we are before God as men we are before God as the persons who are united to the Christ. Union goes through. Where union helps us in regard to the thought of 'the Christ', and particularly the love of the Christ, is, as I understand it, that you love the way that Christ loves. It says for instance \"we have the mind of Christ\", 1 Cor 2: 16. We generally relate that to the area of administration and I am not going to say anything against that, but I would think that \"we have the mind of Christ\" really springs from union; that is, that the assembly is united to Christ and she is so in the affections of that blessed Man that she thinks the way that He thinks. One was struck a few months ago at the Supper with the way in which the assembly loves as Christ loves. It is immediately from that point that there seems to be some direction from Him as Head in relation to the Father and to God."
+     ]
     },
     {
-     "text": "A.McB. I think that is very attractive. Joseph goes out over the land of Egypt immediately following the reference to his being given the daughter of Potipherah as wife."
+     "speaker": "AMcB",
+     "text": [
+      "I think that is very attractive. Joseph goes out over the land of Egypt immediately following the reference to his being given the daughter of Potipherah as wife."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I was thinking of that, Asnath the daughter of Potipherah the priest in On. What could you say as to the priest in On? It is a mysterious reference, but you have to take Scripture in its simplicity. I think it indicates that there was what was priestly in Asnath and she would then understand what was the mind of Joseph. That is a great thing and it lies at the crux of the service of God, that the assembly is so in the affections of Christ that she appreciates what is in His heart towards His God. I think it is on that basis that the service of God proceeds. It is not a question of the clock or a question even of the order (and I am not saying anything against the order in which we have been so much instructed) but I think the service of God proceeds in the sensitivity of the Spirit of God helping us powerfully in union with the Christ. I think that is really the basis of the service."
+     "speaker": "JM",
+     "text": [
+      "I was thinking of that, Asnath the daughter of Potipherah the priest in On. What could you say as to the priest in On? It is a mysterious reference, but you have to take Scripture in its simplicity. I think it indicates that there was what was priestly in Asnath and she would then understand what was the mind of Joseph. That is a great thing and it lies at the crux of the service of God, that the assembly is so in the affections of Christ that she appreciates what is in His heart towards His God. I think it is on that basis that the service of God proceeds. It is not a question of the clock or a question even of the order (and I am not saying anything against the order in which we have been so much instructed) but I think the service of God proceeds in the sensitivity of the Spirit of God helping us powerfully in union with the Christ. I think that is really the basis of the service.",
+      "In the scripture in Luke 24 the idea of Him being glorified, \"Ought not the Christ to have suffered these things and to enter into his glory?\", involves divine righteousness. That that Person should be glorified relates back to what was said at the beginning of the reading, that God has made Him both Lord and Christ. I think 'glorified' has in mind that He becomes the centre of a system of glory for God's pleasure. Luke's gospel is the priestly gospel and what is immediately in mind in Luke is the service of God. The Lord says \"O senseless and slow of heart to believe\". They were looking for the setting up of a system of things down here, but what He was indicating was that there is a system centred in Himself on the other side of death in this ascended and glorious position which is for God's pleasure. I think that emphasises His own place as Man.",
+      "Perhaps we might just think a little of \"the love of the Christ\". It springs from \"that the Christ may dwell, through faith, in your hearts, being rooted and founded in love\". It speaks there of \"the breadth and length and depth and height\"; then it adds \"and to know the love of the Christ which surpasses knowledge\". The thought of surpassing knowledge would bring in His own uniqueness. As we mentioned, it is \"my Father and your Father... my God and your God\", not 'our' God, so that He has His own unique knowledge of God which far surpasses what any one of us can have. We need to keep that in our minds."
+     ]
     },
     {
-     "text": "In the scripture in Luke 24 the idea of Him being glorified, \"Ought not the Christ to have suffered these things and to enter into his glory?\", involves divine righteousness. That that Person should be glorified relates back to what was said at the beginning of the reading, that God has made Him both Lord and Christ. I think 'glorified' has in mind that He becomes the centre of a system of glory for God's pleasure. Luke's gospel is the priestly gospel and what is immediately in mind in Luke is the service of God. The Lord says \"O senseless and slow of heart to believe\". They were looking for the setting up of a system of things down here, but what He was indicating was that there is a system centred in Himself on the other side of death in this ascended and glorious position which is for God's pleasure. I think that emphasises His own place as Man."
+     "speaker": "JasM",
+     "text": [
+      "Would the expression \"the Beloved\" in chapter 1 (v 6) involve the unique position He is in?"
+     ]
     },
     {
-     "text": "Perhaps we might just think a little of \"the love of the Christ\". It springs from \"that the Christ may dwell, through faith, in your hearts, being rooted and founded in love\". It speaks there of \"the breadth and length and depth and height\"; then it adds \"and to know the love of the Christ which surpasses knowledge\". The thought of surpassing knowledge would bring in His own uniqueness. As we mentioned, it is \"my Father and your Father... my God and your God\", not 'our' God, so that He has His own unique knowledge of God which far surpasses what any one of us can have. We need to keep that in our minds."
+     "speaker": "JM",
+     "text": [
+      "Yes, that must always be carried reverently in our spirits. But it says \"to know the love of the Christ\"; that is, there is something that the assembly is peculiarly to enter into as appreciating fully what really is in His heart as Man. That, I think, involves not only His love for the assembly, which undoubtedly would be in it, but primarily His love for His God."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "Would the expression \"the Beloved\" in chapter 1 (v 6) involve the unique position He is in?"
+     "speaker": "JS",
+     "text": [
+      "Would that help us to be more extensive in our thoughts and expressions at the end of the service?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes, that must always be carried reverently in our spirits. But it says \"to know the love of the Christ\"; that is, there is something that the assembly is peculiarly to enter into as appreciating fully what really is in His heart as Man. That, I think, involves not only His love for the assembly, which undoubtedly would be in it, but primarily His love for His God."
+     "speaker": "JM",
+     "text": [
+      "I think it would, although in the experience of it we are always challenged. It comes back to what we know of union. The whole idea of union is that the spouse is to enter feelingly into the affections of the husband. I think then the assembly is entering feelingly into the affections of the Christ, particularly His affections Godward. Therefore we are with Him in what He is proceeding in in the service."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Would that help us to be more extensive in our thoughts and expressions at the end of the service?"
+     "speaker": "ADM",
+     "text": [
+      "I was thinking this morning as to that expression, \"upon thy right hand doth stand the queen in gold of Ophir\", Ps 45: 9. I sometimes wonder if it is right to speak of equality. We speak of the assembly being equal to Christ. I wonder whether it is right to use that expression. I suppose we would have to qualify it slightly."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I think it would, although in the experience of it we are always challenged. It comes back to what we know of union. The whole idea of union is that the spouse is to enter feelingly into the affections of the husband. I think then the assembly is entering feelingly into the affections of the Christ, particularly His affections Godward. Therefore we are with Him in what He is proceeding in in the service."
+     "speaker": "JM",
+     "text": [
+      "Well, she is certainly united to Him; that is safe. We do need expansion on that line. What was said earlier about carrying these things forward in our spirits as we proceed in the service is important so that as we come to what we speak of as the end of the service, the assembly is still united to Christ; she is still under His influence, she is still entering into what is in His affections. If we could get something of that it would greatly enrich the service of God. What is being expressed is not the measure but the character of affection, the character of love that Christ has for His God. What a thing that is! But I think that is the truth. As to our experience we would just have to be humble about it, but if we have the truth before us we can seek help from the Spirit that our experience might deepen."
+     ]
     },
     {
-     "speaker": "A.D.M.",
-     "text": "I was thinking this morning as to that expression, \"upon thy right hand doth stand the queen in gold of Ophir\", Ps 45: 9. I sometimes wonder if it is right to speak of equality. We speak of the assembly being equal to Christ. I wonder whether it is right to use that expression. I suppose we would have to qualify it slightly."
+     "speaker": "AAB",
+     "text": [
+      "Do you think then that the assembly would be able to know something of this love which surpasses knowledge, and that this should enter into our answer Godward?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Well, she is certainly united to Him; that is safe. We do need expansion on that line. What was said earlier about carrying these things forward in our spirits as we proceed in the service is important so that as we come to what we speak of as the end of the service, the assembly is still united to Christ; she is still under His influence, she is still entering into what is in His affections. If we could get something of that it would greatly enrich the service of God. What is being expressed is not the measure but the character of affection, the character of love that Christ has for His God. What a thing that is! But I think that is the truth. As to our experience we would just have to be humble about it, but if we have the truth before us we can seek help from the Spirit that our experience might deepen."
+     "speaker": "JM",
+     "text": [
+      "Yes, I think it should, and therefore the great need to be strengthened with power by the Father's Spirit in the inner man. In chapter 10 of Daniel it is not so much Daniel's own sin that makes him feel his weakness, it is rather the greatness of the things of God that are brought on to his view. He recognises that these things are so great and he has so little power that it really calls for a power that is outside of himself. That is like \"strengthened with power by his Spirit in the inner man\". There is great need of the Spirit strengthening us in view of our entering into union, and if that be so the service of God will be greatly enriched. You can see the rightness of what we have been led to as to the appropriate time in which to have a portion for the Spirit. I think it follows from the experience of union with Christ."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "Do you think then that the assembly would be able to know something of this love which surpasses knowledge, and that this should enter into our answer Godward?"
+     "speaker": "AAB",
+     "text": [
+      "We have an appreciation of the Spirit as having made everything living. \"To know the love of the Christ which surpasses knowledge\" is the kernel of it. It is not exactly intelligence, although that comes through love. Would that link with Mary in John 20?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes, I think it should, and therefore the great need to be strengthened with power by the Father's Spirit in the inner man. In chapter 10 of Daniel it is not so much Daniel's own sin that makes him feel his weakness, it is rather the greatness of the things of God that are brought on to his view. He recognises that these things are so great and he has so little power that it really calls for a power that is outside of himself. That is like \"strengthened with power by his Spirit in the inner man\". There is great need of the Spirit strengthening us in view of our entering into union, and if that be so the service of God will be greatly enriched. You can see the rightness of what we have been led to as to the appropriate time in which to have a portion for the Spirit. I think it follows from the experience of union with Christ."
+     "speaker": "JM",
+     "text": [
+      "That is really the secret of it. We need to develop in intelligent affection. The basis is really affection. The power of what is in the divine system, and the glory of the assembly being united to the glorious Man, and the Spirit working inwardly in us strengthening us in power, is all very wonderful and yet very practical. That is how the service of God proceeds. It is not in mere intelligence, but it is dependent upon the place that the Christ has in the affections of the saints."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "We have an appreciation of the Spirit as having made everything living. \"To know the love of the Christ which surpasses knowledge\" is the kernel of it. It is not exactly intelligence, although that comes through love. Would that link with Mary in John 20?"
+     "speaker": "AAB",
+     "text": [
+      "In Revelation 21, where \"the tabernacle of God is with men\" (v 3), it is not that the mediatorial system is set aside, but it is not stressed exactly. Does that have a bearing on what we are speaking of?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "That is really the secret of it. We need to develop in intelligent affection. The basis is really affection. The power of what is in the divine system, and the glory of the assembly being united to the glorious Man, and the Spirit working inwardly in us strengthening us in power, is all very wonderful and yet very practical. That is how the service of God proceeds. It is not in mere intelligence, but it is dependent upon the place that the Christ has in the affections of the saints."
+     "speaker": "JM",
+     "text": [
+      "Yes. Language fails because if we use the word 'immediate', it means that it is not mediatorial, and that is not quite right. The mediatorial position must be there, otherwise where would we be? We would have no place. But that is not stressed in that opening section of Revelation 21. In fact you get rather the opposite impression of the blessed nearness. \"That the Christ may dwell, through faith, in your hearts\" indicates that we are still in this time scene. The Christ dwelling in your hearts becomes the basis to proceed in the service of God and what we come to finally is the tabernacle of God with men.",
+      "Well, these things are very wonderful. As to our experience, we are humbled, but let us not give up because we may not have entered into it in the way in which we should have. There is power on our side. I think \"the love of the Christ\" involves His love for His God but it also involves His love for the assembly. That love is to help us and then there is also the power of the Spirit. Strengthened with power by the Father's Spirit shows that there is adequate power to bring us into the glory of these things so that God may be rightly served."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "In Revelation 21, where \"the tabernacle of God is with men\" (v 3), it is not that the mediatorial system is set aside, but it is not stressed exactly. Does that have a bearing on what we are speaking of?"
+     "speaker": "HF",
+     "text": [
+      "It is very interesting to find how wide the thought of 'the Christ' is, even as we have been speaking about it at His birth, and as Man, and in His offering of Himself. The appearing is also connected with the Christ, is it not? \"Then those that are the Christ's at his coming\", 1 Cor 15: 23."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Yes. Language fails because if we use the word 'immediate', it means that it is not mediatorial, and that is not quite right. The mediatorial position must be there, otherwise where would we be? We would have no place. But that is not stressed in that opening section of Revelation 21. In fact you get rather the opposite impression of the blessed nearness. \"That the Christ may dwell, through faith, in your hearts\" indicates that we are still in this time scene. The Christ dwelling in your hearts becomes the basis to proceed in the service of God and what we come to finally is the tabernacle of God with men."
-    },
-    {
-     "text": "Well, these things are very wonderful. As to our experience, we are humbled, but let us not give up because we may not have entered into it in the way in which we should have. There is power on our side. I think \"the love of the Christ\" involves His love for His God but it also involves His love for the assembly. That love is to help us and then there is also the power of the Spirit. Strengthened with power by the Father's Spirit shows that there is adequate power to bring us into the glory of these things so that God may be rightly served."
-    },
-    {
-     "speaker": "H.F.",
-     "text": "It is very interesting to find how wide the thought of 'the Christ' is, even as we have been speaking about it at His birth, and as Man, and in His offering of Himself. The appearing is also connected with the Christ, is it not? \"Then those that are the Christ's at his coming\", 1 Cor 15: 23."
-    },
-    {
-     "speaker": "J.M.",
-     "text": "You sometimes get an impression of divine patience and divine feelings too. Think of God waiting all through the history of man for the Christ to come on to view - man after man after man. Of course it is said of David \"a man after his own heart\", 1 Sam 13: 14. God would say that that man is to come on to view in Christ, and He would wait. Think of His feelings all through that period of time in the histories of men! Now in our time that glorious Person has come on to view, and not only so, but He is installed in His office up there and we are associated with Him. It is a wonderful thing."
+     "speaker": "JM",
+     "text": [
+      "You sometimes get an impression of divine patience and divine feelings too. Think of God waiting all through the history of man for the Christ to come on to view - man after man after man. Of course it is said of David \"a man after his own heart\", 1 Sam 13: 14. God would say that that man is to come on to view in Christ, and He would wait. Think of His feelings all through that period of time in the histories of men! Now in our time that glorious Person has come on to view, and not only so, but He is installed in His office up there and we are associated with Him. It is a wonderful thing."
+     ]
     }
    ]
   },
@@ -422,6 +572,44 @@
      "text": "Paul, thinking as he often seems to have done of the athletic games, wrote of his hope of a crown of righteousness. It would be a true answer to the agony of his contests against evil and to the steadiness of his Christian life. It was laid up ready to be displayed when the Lord will appear again in His glory and all those who long for His appearing will receive it. These must include many boys and girls who have Him for their righteousness and honour Him in their lives. Are you amongst them?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"W.Haldane Glasgow\" read as W. Haldane, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE CHRIST",
+   "kind": "default_place",
+   "detail": "GRANGEMOUTH given to 8 names (\"All local unless otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "THE CHRIST",
+   "kind": "speaker_not_in_key",
+   "detail": "JS (3 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "THE CHRIST",
+   "kind": "speaker_not_in_key",
+   "detail": "JasM (in the text)"
+  },
+  {
+   "article": 1,
+   "title": "THE CHRIST",
+   "kind": "speaker_matched_loosely",
+   "detail": "AMcB used in the text for A.McBride (key gives AM)"
+  },
+  {
+   "article": 1,
+   "title": "THE CHRIST",
+   "kind": "speaker_not_in_key",
+   "detail": "JasB (in the text)"
   }
  ]
 }

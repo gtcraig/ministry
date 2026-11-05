@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -189,7 +189,7 @@
    "number": 5,
    "title": "EDITOR’S NOTE",
    "speakers": [
-    "F.E."
+    "FE"
    ],
    "paragraphs": [
     {
@@ -226,8 +226,10 @@
      "text": "[←2]"
     },
     {
-     "speaker": "F.E.",
-     "text": "Raven Vol.1 p.307"
+     "speaker": "FE",
+     "text": [
+      "Raven Vol.1 p.307"
+     ]
     }
    ]
   }

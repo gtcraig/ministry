@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,22 +26,23 @@
    "place": "DENTON",
    "date": "20 April 2003",
    "speakers": [
-    "P.L.J.",
-    "D.M.W.",
-    "G.R.",
-    "J.A.P.",
-    "S.D.",
-    "L.B.",
-    "M.N.",
-    "K.N.P.",
-    "J.B.",
-    "E.F.C.",
-    "P.H.",
-    "T.V.D.H."
+    "WMcK",
+    "PLJ",
+    "DMW",
+    "GR",
+    "JAP",
+    "SD",
+    "LB",
+    "MN",
+    "KNP",
+    "JB",
+    "EFC",
+    "PH",
+    "TVDH"
    ],
    "initials": [
     {
-     "initials": "JRB",
+     "initials": "JB",
      "name": "J.R.Bellamy",
      "place": "Vancouver"
     },
@@ -71,7 +72,7 @@
      "place": "Denton"
     },
     {
-     "initials": "WM",
+     "initials": "WMcK",
      "name": "W.McKillop",
      "place": "Ormond Beach/Bunnell"
     },
@@ -91,7 +92,7 @@
      "place": "San Francisco"
     },
     {
-     "initials": "TH",
+     "initials": "TVDH",
      "name": "T.v.d.Hoek",
      "place": "Denton"
     },
@@ -99,6 +100,10 @@
      "initials": "DMW",
      "name": "D.M.Welch",
      "place": "Denton"
+    },
+    {
+     "initials": "MN",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
@@ -107,359 +112,558 @@
    ],
    "paragraphs": [
     {
-     "text": "W.McK. I thought we might consider the service of song and the Lord’s part in it. It is clear that the Lord Himself sang while here on earth, “And having sung a hymn, they went out to the mount of Olives”, Matt 26: 30. No doubt the Lord sang with them and undoubtedly He would have enjoyed the singing more than any. What we shall see in these scriptures would set before us that one objective that the Lord had in mind in His service in ministry on earth was not only to confirm the promises to the fathers, but also that service Godward should be extended among the nations. I think we could say rightly that this was part of the joy that was set before Him as is mentioned in Hebrews 12 (v.2). “That the nations should glorify God for mercy … For this cause I will … sing to thy name”, Rom. 15: 9. We might think about that objective which the Lord had in His heart."
+     "speaker": "WMcK",
+     "text": [
+      "I thought we might consider the service of song and the Lord’s part in it. It is clear that the Lord Himself sang while here on earth, “And having sung a hymn, they went out to the mount of Olives”, Matt 26: 30. No doubt the Lord sang with them and undoubtedly He would have enjoyed the singing more than any. What we shall see in these scriptures would set before us that one objective that the Lord had in mind in His service in ministry on earth was not only to confirm the promises to the fathers, but also that service Godward should be extended among the nations. I think we could say rightly that this was part of the joy that was set before Him as is mentioned in Hebrews 12 (v.2). “That the nations should glorify God for mercy … For this cause I will … sing to thy name”, Rom. 15: 9. We might think about that objective which the Lord had in His heart.",
+      "Hebrews 2 would help us to understand the spiritual, out-of-the world area in which He carries on the service of song Godward, “in the midst of the assembly will I sing thy praises”. We sometimes sing:",
+      "Yet wider praise in Zion waits for Thee (Hymn 75)",
+      "That has in view that there will be an earthly song. Revelation speaks about a number of songs, but the special matter of the present time is the service of song set on by Christ in the midst of the assembly.",
+      "2 Chronicles 29 was read to bring before us the moral conditions that are required for the song of Jehovah. We might come to that and see what was involved in the recovery and revival under Hezekiah, which led to the song of Jehovah."
+     ]
     },
     {
-     "text": "Hebrews 2 would help us to understand the spiritual, out-of-the world area in which He carries on the service of song Godward, “in the midst of the assembly will I sing thy praises”. We sometimes sing:"
+     "speaker": "PLJ",
+     "text": [
+      "What would you say as to the distinction between singing and speaking? Would singing involve more the affections?"
+     ]
     },
     {
-     "text": "Yet wider praise in Zion waits for Thee (Hymn 75)"
+     "speaker": "WMcK",
+     "text": [
+      "Probably so, certainly it is more musical and it brings out our feelings more."
+     ]
     },
     {
-     "text": "That has in view that there will be an earthly song. Revelation speaks about a number of songs, but the special matter of the present time is the service of song set on by Christ in the midst of the assembly."
+     "speaker": "PLJ",
+     "text": [
+      "That is what I was thinking, feelings of affection which is not just intelligence or knowledge, but the feelings are there. There are those in Christendom who have exaggerated that, but on the other hand there is place for feelings."
+     ]
     },
     {
-     "text": "2 Chronicles 29 was read to bring before us the moral conditions that are required for the song of Jehovah. We might come to that and see what was involved in the recovery and revival under Hezekiah, which led to the song of Jehovah."
+     "speaker": "WMcK",
+     "text": [
+      "And also for understanding, “I will sing with the spirit, but I will sing also with the understanding”, 1 Cor 14: 15. So that in the assembly we are not governed by mentality or sentimentality but spirituality."
+     ]
     },
     {
-     "speaker": "P.L.J.",
-     "text": "What would you say as to the distinction between singing and speaking? Would singing involve more the affections?"
+     "speaker": "PLJ",
+     "text": [
+      "So that is why there should be exercise. I think the brethren have been exercised. We have a hymn book; but there are many hymns elsewhere which are not according to spiritual or scriptural understanding."
+     ]
     },
     {
-     "text": "W.McK. Probably so, certainly it is more musical and it brings out our feelings more."
+     "speaker": "WMcK",
+     "text": [
+      "That is right. As Mr Darby noted long ago when he revised the hymn book, that there were hymns which did not bring out the believer’s true place with the Father or an understanding of the Father’s place in the economy and so he had to do a good deal of work in the revision that he undertook. It is interesting that in one comment he makes, which shows the point of 2 Chronicles, he says, ‘You often find the loudest singers is where the conscience is least reached’. Not that he meant that we should murmur – that is not the point – but holy affection and spiritual understanding. Of course we have hymns in the book which have been carried down for a long time. But I thought we should see that the Lord, who in His own ministry, although it was to confirm the promises to the fathers, and it was for the truth of God, he really was thinking about more. He was looking on to the present moment when the service of God is among the nations, “that the nations should glorify God for mercy”. As the nations, we were entitled to nothing and in mercy God has taken us up and given us everything."
+     ]
     },
     {
-     "speaker": "P.L.J.",
-     "text": "That is what I was thinking, feelings of affection which is not just intelligence or knowledge, but the feelings are there. There are those in Christendom who have exaggerated that, but on the other hand there is place for feelings."
+     "speaker": "DMW",
+     "text": [
+      "It is stimulating to see that through mercy God had something in mind for He has met our need. That would be mercy, something in mind as for Himself. The Lord Jesus had that in mind."
+     ]
     },
     {
-     "text": "W.McK. And also for understanding, “I will sing with the spirit, but I will sing also with the understanding”, 1 Cor 14: 15. So that in the assembly we are not governed by mentality or sentimentality but spirituality."
+     "speaker": "WMcK",
+     "text": [
+      "Yes. So, “for this cause I will confess to thee among the nations”. I referred to Hebrews 12, “in view of the joy lying before him”. It should touch our hearts that among many things which we might say are included in that joy, was this particular item that the service of song should be among the nations in the assembly."
+     ]
     },
     {
-     "speaker": "P.L.J.",
-     "text": "So that is why there should be exercise. I think the brethren have been exercised. We have a hymn book; but there are many hymns elsewhere which are not according to spiritual or scriptural understanding."
+     "speaker": "GR",
+     "text": [
+      "Would you say that in the whole of the service of God the Lord is also, as in the midst, leading the praise? We also participate in the selection of what is suitable at any given time?"
+     ]
     },
     {
-     "text": "W.McK. That is right. As Mr Darby noted long ago when he revised the hymn book, that there were hymns which did not bring out the believer’s true place with the Father or an understanding of the Father’s place in the economy and so he had to do a good deal of work in the revision that he undertook. It is interesting that in one comment he makes, which shows the point of 2 Chronicles, he says, ‘You often find the loudest singers is where the conscience is least reached’. Not that he meant that we should murmur – that is not the point – but holy affection and spiritual understanding. Of course we have hymns in the book which have been carried down for a long time. But I thought we should see that the Lord, who in His own ministry, although it was to confirm the promises to the fathers, and it was for the truth of God, he really was thinking about more. He was looking on to the present moment when the service of God is among the nations, “that the nations should glorify God for mercy”. As the nations, we were entitled to nothing and in mercy God has taken us up and given us everything."
+     "speaker": "WMcK",
+     "text": [
+      "I think that is where spiritual understanding comes into it. We make spiritual use of the hymn book, and generally the brethren do. The hymns given out are good and helpful, they help forward the service of God, but perhaps we could get an impression that, as Man on the earth, although the Lord in His ministry did not go outside of Israel, in His mind He was looking on to something that now exists here in the power of the Spirit in the assembly."
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "It is stimulating to see that through mercy God had something in mind for He has met our need. That would be mercy, something in mind as for Himself. The Lord Jesus had that in mind."
+     "speaker": "JAP",
+     "text": [
+      "Would you say that the Lord’s general burden with the woman in Samaria was this that you are speaking about? First of all our affections through the gospel, then “for also the Father seeks such as his worshippers” (see John 4: 23). That was outside of Israel, outside of Jerusalem, the Lord unburdening Himself as to what is due to God, outside of Judaism."
+     ]
     },
     {
-     "text": "W.McK. Yes. So, “for this cause I will confess to thee among the nations”. I referred to Hebrews 12, “in view of the joy lying before him”. It should touch our hearts that among many things which we might say are included in that joy, was this particular item that the service of song should be among the nations in the assembly."
+     "speaker": "WMcK",
+     "text": [
+      "Yes, I would say that because there is no reference that the Lord spoke about those matters in Israel, but outside of Israel, and what He said to the woman would enter into this, “For this cause I will confess to thee among the nations”. In a certain sense you can see that the germ of the thing was there in His dealings with the Samaritan woman because He is bringing God before her and even the Father. We will see how that was to widen out and in our time it has come to the uttermost parts of the earth. If we think of this continent and Australia, the service of song which the Lord envisaged has been carried on."
+     ]
     },
     {
-     "speaker": "G.R.",
-     "text": "Would you say that in the whole of the service of God the Lord is also, as in the midst, leading the praise? We also participate in the selection of what is suitable at any given time?"
+     "speaker": "DMW",
+     "text": [
+      "The Lord spoke of many widows, and then He spoke of one widow outside the confines of Israel; then He spoke of many lepers and then He spoke of one leper, Naaman, outside the confines of Israel. Do you think that what He had in mind was this great matter of bringing persons in?"
+     ]
     },
     {
-     "text": "W.McK. I think that is where spiritual understanding comes into it. We make spiritual use of the hymn book, and generally the brethren do. The hymns given out are good and helpful, they help forward the service of God, but perhaps we could get an impression that, as Man on the earth, although the Lord in His ministry did not go outside of Israel, in His mind He was looking on to something that now exists here in the power of the Spirit in the assembly."
+     "speaker": "WMcK",
+     "text": [
+      "I am sure it was. So He says, “But I have a baptism to be baptised with, and how am I straitened until it shall have been accomplished!”, Luke 12: 50. The Lord, so to speak, in His love was driven in on Himself except in these isolated instances until His death. That opened up the floodgates of divine love and in resurrection He has a free hand and especially as gone into heaven and sending down the Spirit. You can see that things were not long confined to Jerusalem, they soon moved out, and brought out governmentally in order to spread things and not just the gospel. I am sure what was in view was that the service of song should be spread. There was to be expansion."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Would you say that the Lord’s general burden with the woman in Samaria was this that you are speaking about? First of all our affections through the gospel, then “for also the Father seeks such as his worshippers” (see John 4: 23). That was outside of Israel, outside of Jerusalem, the Lord unburdening Himself as to what is due to God, outside of Judaism."
+     "speaker": "DMW",
+     "text": [
+      "Our brother [yesterday] spoke of the expansion of the gospel and he included the truth of the assembly and the gift of the Holy Spirit. These matters are very necessary, especially at the end, and largely the gospel is preached in view of what is termed the great house, so that persons can get free for the service of God."
+     ]
     },
     {
-     "text": "W.McK. Yes, I would say that because there is no reference that the Lord spoke about those matters in Israel, but outside of Israel, and what He said to the woman would enter into this, “For this cause I will confess to thee among the nations”. In a certain sense you can see that the germ of the thing was there in His dealings with the Samaritan woman because He is bringing God before her and even the Father. We will see how that was to widen out and in our time it has come to the uttermost parts of the earth. If we think of this continent and Australia, the service of song which the Lord envisaged has been carried on."
+     "speaker": "WMcK",
+     "text": [
+      "So there would be a certain bearing in what is said to you. “And again, Praise the Lord, all ye nations” – if you look at the footnote the translation points out that praise is what is current. It is not another tense which has another meaning, but it is what is going on currently. So the Lord was looking on to what is going on in our localities at the present moment in the way of the service of song. That should touch our hearts and lead us to think as we reach it about maintaining conditions that are appropriate for this service of song."
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "The Lord spoke of many widows, and then He spoke of one widow outside the confines of Israel; then He spoke of many lepers and then He spoke of one leper, Naaman, outside the confines of Israel. Do you think that what He had in mind was this great matter of bringing persons in?"
+     "speaker": "SD",
+     "text": [
+      "Just a little further down where you did not read, Paul had his objective in ministry as “carrying on as a sacrificial service the message of the glad tidings of God, in order that the offering up of the nations might be acceptable, sanctified by the Holy Spirit” (v.16)."
+     ]
     },
     {
-     "text": "W.McK. I am sure it was. So He says, “But I have a baptism to be baptised with, and how am I straitened until it shall have been accomplished!”, Luke 12: 50. The Lord, so to speak, in His love was driven in on Himself except in these isolated instances until His death. That opened up the floodgates of divine love and in resurrection He has a free hand and especially as gone into heaven and sending down the Spirit. You can see that things were not long confined to Jerusalem, they soon moved out, and brought out governmentally in order to spread things and not just the gospel. I am sure what was in view was that the service of song should be spread. There was to be expansion."
+     "speaker": "WMcK",
+     "text": [
+      "That shows that he was moving in the light in which the Lord moved here, and what was in his mind in this is a burnt-offering character of things, a sacrificial service and the offering up of the nations, “might be acceptable, sanctified by the Holy Spirit”. So, the working out of what was in the Lord’s mind and heart involved not only the service of the twelve but especially that of Paul that the great thought of the service of God was set out among the gentiles and greatly expanded through Paul’s service."
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "Our brother [yesterday] spoke of the expansion of the gospel and he included the truth of the assembly and the gift of the Holy Spirit. These matters are very necessary, especially at the end, and largely the gospel is preached in view of what is termed the great house, so that persons can get free for the service of God."
+     "speaker": "SD",
+     "text": [
+      "The matter of acceptability involves God’s pleasure in what is being offered. He uses the same wording as Romans 12, “acceptable”."
+     ]
     },
     {
-     "text": "W.McK. So there would be a certain bearing in what is said to you. “And again, Praise the Lord, all ye nations” – if you look at the footnote the translation points out that praise is what is current. It is not another tense which has another meaning, but it is what is going on currently. So the Lord was looking on to what is going on in our localities at the present moment in the way of the service of song. That should touch our hearts and lead us to think as we reach it about maintaining conditions that are appropriate for this service of song."
+     "speaker": "WMcK",
+     "text": [
+      "Yes, and the acceptance lies in the fact that it is through Christ and the sanctifying by the Holy Spirit."
+     ]
     },
     {
-     "speaker": "S.D.",
-     "text": "Just a little further down where you did not read, Paul had his objective in ministry as “carrying on as a sacrificial service the message of the glad tidings of God, in order that the offering up of the nations might be acceptable, sanctified by the Holy Spirit” (v.16)."
+     "speaker": "LB",
+     "text": [
+      "I was just thinking that God is enriched through His Son, He is enriched through worship, of course, because worship rises to God, as in the hymn:",
+      "Now praise thy glorious Name in song."
+     ]
     },
     {
-     "text": "W.McK. That shows that he was moving in the light in which the Lord moved here, and what was in his mind in this is a burnt-offering character of things, a sacrificial service and the offering up of the nations, “might be acceptable, sanctified by the Holy Spirit”. So, the working out of what was in the Lord’s mind and heart involved not only the service of the twelve but especially that of Paul that the great thought of the service of God was set out among the gentiles and greatly expanded through Paul’s service."
+     "speaker": "WMcK",
+     "text": [
+      "We had several hymns that referred to the service of song. It shows that this is working in the saints, the brethren as together and coming under the hand of Christ as He manifests Himself to us, leads to this great thought of spiritual song Godward."
+     ]
     },
     {
-     "speaker": "S.D.",
-     "text": "The matter of acceptability involves God’s pleasure in what is being offered. He uses the same wording as Romans 12, “acceptable”."
+     "speaker": "GR",
+     "text": [
+      "You were speaking earlier as to the Lord’s looking at us in relation to each local assembly, you referred in thanksgiving to the Lord being with us in the testimonial position. He has been with us in that testimonial position through the week. As we come up, He is looking for conditions suitable for Himself?"
+     ]
     },
     {
-     "text": "W.McK. Yes, and the acceptance lies in the fact that it is through Christ and the sanctifying by the Holy Spirit."
+     "speaker": "WMcK",
+     "text": [
+      "Exactly, so that as we assemble, gathered to His Name to break bread on the first day of the week, the Lord finds great pleasure in that and as we assemble to break bread He is not far away. We know that personally He is in heaven, but then He is not far away because He is here by the Spirit testimonially and that should always lead us to look for a fresh manifestation and to understand that the Lord and the Spirit both have service Godward before them."
+     ]
     },
     {
-     "speaker": "L.B.",
-     "text": "I was just thinking that God is enriched through His Son, He is enriched through worship, of course, because worship rises to God, as in the hymn:"
+     "speaker": "MN",
+     "text": [
+      "Did the Lord look forward to this when He spoke to the Samaritan woman at Sychar’s well? I was thinking that He spoke of living waters flowing out. Would that have a link here?"
+     ]
     },
     {
-     "text": "Now praise thy glorious Name in song."
+     "speaker": "WMcK",
+     "text": [
+      "It is essential to the service of song being carried out spiritually. So she said, “and ye say that in Jerusalem is the place where one must worship” (John 4: 20), and then she claims without any right to do so that Jacob was ‘our father’. It suggests the mixed up condition that exists in Christendom; persons are looking at things in a muddled way and certain things they connect with Jerusalem and other things they connect with Jacob, without ever seeing what God’s centre is or establishing their genealogy."
+     ]
     },
     {
-     "text": "W.McK. We had several hymns that referred to the service of song. It shows that this is working in the saints, the brethren as together and coming under the hand of Christ as He manifests Himself to us, leads to this great thought of spiritual song Godward."
+     "speaker": "PLJ",
+     "text": [
+      "In Romans we have, I would say, the personnel of the assembly. Before you can have proper assembly function the personnel have to be established, do you think?"
+     ]
     },
     {
-     "speaker": "G.R.",
-     "text": "You were speaking earlier as to the Lord’s looking at us in relation to each local assembly, you referred in thanksgiving to the Lord being with us in the testimonial position. He has been with us in that testimonial position through the week. As we come up, He is looking for conditions suitable for Himself?"
+     "speaker": "WMcK",
+     "text": [
+      "Yes, so that Romans gathers the personnel through the glad tidings and by the gift of the Spirit and then through Paul’s teaching: before the epistle ends, he speaks about the mystery. Well, God being before our souls as the subjects of the work of God, we can understand when the Lord says, “I will confess to thee among the nations”, it does not mean that that is something carried on anywhere. That was the point in reading Hebrews 2, that the area where the Lord carries on the service of song is in the midst of the assembly."
+     ]
     },
     {
-     "text": "W.McK. Exactly, so that as we assemble, gathered to His Name to break bread on the first day of the week, the Lord finds great pleasure in that and as we assemble to break bread He is not far away. We know that personally He is in heaven, but then He is not far away because He is here by the Spirit testimonially and that should always lead us to look for a fresh manifestation and to understand that the Lord and the Spirit both have service Godward before them."
+     "speaker": "DMW",
+     "text": [
+      "Perhaps for the understanding of some our younger ones here, the divine centre is the assembly. That is what we are speaking about. In Christendom the divine centre is all muddled up. We want to proceed on so that the service of song can be expressed rightly with the Lord Jesus as our leader in the area that has been established as the divine centre."
+     ]
     },
     {
-     "speaker": "M.N.",
-     "text": "Did the Lord look forward to this when He spoke to the Samaritan woman at Sychar’s well? I was thinking that He spoke of living waters flowing out. Would that have a link here?"
+     "speaker": "WMcK",
+     "text": [
+      "So that being subjects of mercy as Romans says, “that the nations should glorify God for mercy”, means that there are all these feelings in us as being the subjects of mercy and then our minds, as taught by the Spirit, would be enquiring, if we had not already reached it, where is the service to be carried on? Hebrews tells us that it is in the midst of the assembly."
+     ]
     },
     {
-     "text": "W.McK. It is essential to the service of song being carried out spiritually. So she said, “and ye say that in Jerusalem is the place where one must worship” (John 4: 20), and then she claims without any right to do so that Jacob was ‘our father’. It suggests the mixed up condition that exists in Christendom; persons are looking at things in a muddled way and certain things they connect with Jerusalem and other things they connect with Jacob, without ever seeing what God’s centre is or establishing their genealogy."
+     "speaker": "KNP",
+     "text": [
+      "I was thinking about the completion of things in Nehemiah’s day. It was not until the city was rebuilt that the singers went around and sang. I wondered whether there was a link with that, and that things had been reconstructed and there was then room made for the singing to come out. They were to be heard; the joy of Jerusalem was heard afar off (see Neh 12:43). I wondered if that would be something that we could apply to what you are speaking about?"
+     ]
     },
     {
-     "speaker": "P.L.J.",
-     "text": "In Romans we have, I would say, the personnel of the assembly. Before you can have proper assembly function the personnel have to be established, do you think?"
+     "speaker": "WMcK",
+     "text": [
+      "It would. So in Ezra they set the altar on its base and then in Nehemiah’s day the wall was built. That is, the altar would allude to how the saints were relating themselves to the death of Christ, but also to how it is that we approach God now. It would link with Hebrews – through the veil, that is to say His flesh. The next thing is that there must be a protective area and the wall therefore was to exclude certain things, but to include what was precious to God-like the principles of the fellowship. The principles of the fellowship are not only intended to protect what is of God within, but to exclude all that is not of God without. That being established as it was in the recovery of the truth, there is a sanctified area where the Lord can operate. So in the revival under Hezekiah, the first thing he did was open the doors of the house of Jehovah and the next thing was that the priests and the Levites cleanse the whole system. That has been going on in the recovery to the truth."
+     ]
     },
     {
-     "text": "W.McK. Yes, so that Romans gathers the personnel through the glad tidings and by the gift of the Spirit and then through Paul’s teaching: before the epistle ends, he speaks about the mystery. Well, God being before our souls as the subjects of the work of God, we can understand when the Lord says, “I will confess to thee among the nations”, it does not mean that that is something carried on anywhere. That was the point in reading Hebrews 2, that the area where the Lord carries on the service of song is in the midst of the assembly."
+     "speaker": "LB",
+     "text": [
+      "Where we read in Hebrews, it speaks of sanctification, “he that sanctifies and those sanctified are all of one” and then he goes on to the singing, so it is set apart."
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "Perhaps for the understanding of some our younger ones here, the divine centre is the assembly. That is what we are speaking about. In Christendom the divine centre is all muddled up. We want to proceed on so that the service of song can be expressed rightly with the Lord Jesus as our leader in the area that has been established as the divine centre."
+     "speaker": "WMcK",
+     "text": [
+      "Yes. So that these persons have that character, “he that sanctifies” would be the Lord Jesus and the means that He uses is the Holy Spirit Who operates through the word of God. These persons are suitable because it is not a question, as the footnote says, of doing, it is rather their character, “all of one”, who are of the same order of humanity as Christ. So, the Lord has spoken. He calls them His brethren, He reveals the Father’s Name, and then He has the joy of his heart singing in the midst of the assembly. It is a very touching and precious matter."
+     ]
     },
     {
-     "text": "W.McK. So that being subjects of mercy as Romans says, “that the nations should glorify God for mercy”, means that there are all these feelings in us as being the subjects of mercy and then our minds, as taught by the Spirit, would be enquiring, if we had not already reached it, where is the service to be carried on? Hebrews tells us that it is in the midst of the assembly."
+     "speaker": "JAP",
+     "text": [
+      "I am very glad you mentioned it to us all. The hymn book is written by one Spirit, but the index would show us that there are brethren in many countries that have contributed and in the same theme. I think it is a wonderful thing, the hymn book. We come to the meetings with two books – one is the scriptures, which are by themselves, but we bring the hymn book and that is a contribution."
+     ]
     },
     {
-     "speaker": "K.N.P.",
-     "text": "I was thinking about the completion of things in Nehemiah’s day. It was not until the city was rebuilt that the singers went around and sang. I wondered whether there was a link with that, and that things had been reconstructed and there was then room made for the singing to come out. They were to be heard; the joy of Jerusalem was heard afar off (see Neh 12:43). I wondered if that would be something that we could apply to what you are speaking about?"
+     "speaker": "WMcK",
+     "text": [
+      "As Mr. Darby says in his introduction, “praise be ever His, who giveth songs in the night”. Things are working in the saints during this dark period, the night in which our Lord was delivered up, but think of the quality and think how pleasurable to the heart of God is this service of song in the midst of the assembly. That is an above-the-earth condition, but it is in persons."
+     ]
     },
     {
-     "text": "W.McK. It would. So in Ezra they set the altar on its base and then in Nehemiah’s day the wall was built. That is, the altar would allude to how the saints were relating themselves to the death of Christ, but also to how it is that we approach God now. It would link with Hebrews – through the veil, that is to say His flesh. The next thing is that there must be a protective area and the wall therefore was to exclude certain things, but to include what was precious to God-like the principles of the fellowship. The principles of the fellowship are not only intended to protect what is of God within, but to exclude all that is not of God without. That being established as it was in the recovery of the truth, there is a sanctified area where the Lord can operate. So in the revival under Hezekiah, the first thing he did was open the doors of the house of Jehovah and the next thing was that the priests and the Levites cleanse the whole system. That has been going on in the recovery to the truth."
+     "speaker": "JB",
+     "text": [
+      "I was just thinking of the place this had in the affections of the Lord as coming out of death. In Psalm 22 it is immediately following the verse, “Yea, from the horns of the buffaloes hast thou answered me. I will declare thy name unto my brethren, in the midst of the congregation will I praise thee” (vv.21,22), as though that had the first priority as out of death, that is what He had in mind."
+     ]
     },
     {
-     "speaker": "L.B.",
-     "text": "Where we read in Hebrews, it speaks of sanctification, “he that sanctifies and those sanctified are all of one” and then he goes on to the singing, so it is set apart."
+     "speaker": "WMcK",
+     "text": [
+      "It was. These persons, His brethren, were immediately in view that the Father’s Name should be fully declared to them, and that meant that they were in the same relation of sonship as He was, keeping in mind that there is always a uniqueness about the Lord as the Son of God. But thinking firstly about those persons and making sure that He could convey to them the Father’s Name and what that meant."
+     ]
     },
     {
-     "text": "W.McK. Yes. So that these persons have that character, “he that sanctifies” would be the Lord Jesus and the means that He uses is the Holy Spirit Who operates through the word of God. These persons are suitable because it is not a question, as the footnote says, of doing, it is rather their character, “all of one”, who are of the same order of humanity as Christ. So, the Lord has spoken. He calls them His brethren, He reveals the Father’s Name, and then He has the joy of his heart singing in the midst of the assembly. It is a very touching and precious matter."
+     "speaker": "DMW",
+     "text": [
+      "The midst was mentioned in the previous reading, but it refers, not just to persons in the rooms, it is an out of the world area."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "I am very glad you mentioned it to us all. The hymn book is written by one Spirit, but the index would show us that there are brethren in many countries that have contributed and in the same theme. I think it is a wonderful thing, the hymn book. We come to the meetings with two books – one is the scriptures, which are by themselves, but we bring the hymn book and that is a contribution."
+     "speaker": "WMcK",
+     "text": [
+      "There was a conflict about whether the Lord is always “in the midst”, and that I think the Lord clarified it, because it is a position the Lord takes up on the first day of the week, “Behold, I am with you all the days” (Matt 28: 20), is not the Lord in the midst; the Lord is with us testimonially all the days, but He takes up this peculiar place on the first day of the week, “in the midst of the assembly”, and as I remarked, it is an out-of-the-world, above-the-earth, spiritual condition that is referred to."
+     ]
     },
     {
-     "text": "W.McK. As Mr. Darby says in his introduction, “praise be ever His, who giveth songs in the night”. Things are working in the saints during this dark period, the night in which our Lord was delivered up, but think of the quality and think how pleasurable to the heart of God is this service of song in the midst of the assembly. That is an above-the-earth condition, but it is in persons."
+     "speaker": "DMW",
+     "text": [
+      "It is not really time and sense; it is intelligence. Is that right?"
+     ]
     },
     {
-     "speaker": "J.B.",
-     "text": "I was just thinking of the place this had in the affections of the Lord as coming out of death. In Psalm 22 it is immediately following the verse, “Yea, from the horns of the buffaloes hast thou answered me. I will declare thy name unto my brethren, in the midst of the congregation will I praise thee” (vv.21,22), as though that had the first priority as out of death, that is what He had in mind."
+     "speaker": "WMcK",
+     "text": [
+      "Yes, it is not a question of time with geography. A few years ago in three days’ meetings elsewhere, a brother had a good deal of difficulty when we were speaking about this because he wanted to relate it somehow to the position of the saints geographically, and how could the Lord be in the midst when we break bread at different times and in different time zones. But this has nothing to do with time or with geography, it is a spiritual and heavenly order of things and it is outside of time and geography. So, whether they have broken bread hours before in Australia, does not affect what this passage says. It tests our spirituality to take these things in and look at them as they are presented in scripture because we are so accustomed to relating things to ourselves."
+     ]
     },
     {
-     "text": "W.McK. It was. These persons, His brethren, were immediately in view that the Father’s Name should be fully declared to them, and that meant that they were in the same relation of sonship as He was, keeping in mind that there is always a uniqueness about the Lord as the Son of God. But thinking firstly about those persons and making sure that He could convey to them the Father’s Name and what that meant."
+     "speaker": "PLJ",
+     "text": [
+      "People take them up humanly."
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "The midst was mentioned in the previous reading, but it refers, not just to persons in the rooms, it is an out of the world area."
+     "speaker": "WMcK",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "text": "W.McK. There was a conflict about whether the Lord is always “in the midst”, and that I think the Lord clarified it, because it is a position the Lord takes up on the first day of the week, “Behold, I am with you all the days” (Matt 28: 20), is not the Lord in the midst; the Lord is with us testimonially all the days, but He takes up this peculiar place on the first day of the week, “in the midst of the assembly”, and as I remarked, it is an out-of-the-world, above-the-earth, spiritual condition that is referred to."
+     "speaker": "DMW",
+     "text": [
+      "Not to be critical here because certainly one’s own experience ought to underlie what we are saying, but even referring as we proceed to “this morning” is not exactly intelligent, is it?"
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "It is not really time and sense; it is intelligence. Is that right?"
+     "speaker": "WMcK",
+     "text": [
+      "It is not really because if we are outside of time and geography and are consciously having part in this order of service in the heavenlies, it is not ‘this morning’, ‘this place’, or anything like that."
+     ]
     },
     {
-     "text": "W.McK. Yes, it is not a question of time with geography. A few years ago in three days’ meetings elsewhere, a brother had a good deal of difficulty when we were speaking about this because he wanted to relate it somehow to the position of the saints geographically, and how could the Lord be in the midst when we break bread at different times and in different time zones. But this has nothing to do with time or with geography, it is a spiritual and heavenly order of things and it is outside of time and geography. So, whether they have broken bread hours before in Australia, does not affect what this passage says. It tests our spirituality to take these things in and look at them as they are presented in scripture because we are so accustomed to relating things to ourselves."
+     "speaker": "SD",
+     "text": [
+      "It involves experiencing something of leaving the wilderness. Sometimes we are tested as to that."
+     ]
     },
     {
-     "speaker": "P.L.J.",
-     "text": "People take them up humanly."
+     "speaker": "WMcK",
+     "text": [
+      "Yes we are. We say, quite rightly, that we break bread in the wilderness, but then for some reason often we like to stay there and the Lord is waiting to get us up out of the wilderness – “Who is this that cometh up from the wilderness, Leaning upon her beloved?”, Song of Songs 8: 5. The Lord is carrying us up in spiritual power as we make way for Him."
+     ]
     },
     {
-     "text": "W.McK. Yes."
+     "speaker": "SD",
+     "text": [
+      "It is interesting that the Lord in the midst of his discourse in John following the Supper, says, “Rise up, let us go hence”, John 14: 31."
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "Not to be critical here because certainly one’s own experience ought to underlie what we are saying, but even referring as we proceed to “this morning” is not exactly intelligent, is it?"
+     "speaker": "WMcK",
+     "text": [
+      "The Lord would impress us with that early in the meeting when He has shown Himself to us, saying, “I am thinking about the Father”. As we touch what is due to the Spirit worshipfully, He would remind us that He is thinking about the Father.",
+      "T.v.d.H. So is that why He starts with, “I will declare thy name to my brethren; in the midst of the assembly will I sing thy praises”? So we are introduced to the Father, we are brought into this inner circle outside of any influences?"
+     ]
     },
     {
-     "text": "W.McK. It is not really because if we are outside of time and geography and are consciously having part in this order of service in the heavenlies, it is not ‘this morning’, ‘this place’, or anything like that."
+     "speaker": "WMcK",
+     "text": [
+      "Yes, and the Lord loves to be free and move quickly into this realm. So, as I referred to, “And having sung a hymn, they went out to the mount of Olives”, Matt. 26: 30. That is, the hymn after the Supper should help us to get into the Spirit’s realm and then the Lord can proceed with us, having His own time with the assembly and giving us to recognise the Spirit of God on the way, but both these divine Persons are thinking about what there is for God."
+     ]
     },
     {
-     "speaker": "S.D.",
-     "text": "It involves experiencing something of leaving the wilderness. Sometimes we are tested as to that."
+     "speaker": "LB",
+     "text": [
+      "It is an elevated sphere you want to take us to."
+     ]
     },
     {
-     "text": "W.McK. Yes we are. We say, quite rightly, that we break bread in the wilderness, but then for some reason often we like to stay there and the Lord is waiting to get us up out of the wilderness – “Who is this that cometh up from the wilderness, Leaning upon her beloved?”, Song of Songs 8: 5. The Lord is carrying us up in spiritual power as we make way for Him."
+     "speaker": "WMcK",
+     "text": [
+      "Yes, exactly."
+     ]
     },
     {
-     "speaker": "S.D.",
-     "text": "It is interesting that the Lord in the midst of his discourse in John following the Supper, says, “Rise up, let us go hence”, John 14: 31."
+     "speaker": "JAP",
+     "text": [
+      "Mr. Darby said in the full preface to the hymn book that there was a shortage of hymns to the Father, so that he himself undertook from his own side to add to that. What has marked so much ministry in the revival, is that the Father might be supreme in the worship, the service to the Father was the great thought in the assembly."
+     ]
     },
     {
-     "text": "W.McK. The Lord would impress us with that early in the meeting when He has shown Himself to us, saying, “I am thinking about the Father”. As we touch what is due to the Spirit worshipfully, He would remind us that He is thinking about the Father."
+     "speaker": "WMcK",
+     "text": [
+      "We should have in mind that, as in the midst, the Lord is thinking about the Father because He says, “in the midst of the assembly will I sing thy praises”. Think of the Lord’s feelings as Man in sonship singing to the Father. The song is His, but it includes us because the Lord’s singing is through the members of His body. We have a hymn which says:",
+      "The voice of Christ is hear o’er all (Hymn 237)",
+      "But I do think the voice of Christ is heard through all. The Lord is singing through persons. That is the import of the body being His as head."
+     ]
     },
     {
-     "text": "T.v.d.H. So is that why He starts with, “I will declare thy name to my brethren; in the midst of the assembly will I sing thy praises”? So we are introduced to the Father, we are brought into this inner circle outside of any influences?"
+     "speaker": "DMW",
+     "text": [
+      "So, the manifestation that we look for as we give thanks for the bread and the cup comes out and it is going to come out through the persons, it is not some thing they were dreaming about, it is a real matter."
+     ]
     },
     {
-     "text": "W.McK. Yes, and the Lord loves to be free and move quickly into this realm. So, as I referred to, “And having sung a hymn, they went out to the mount of Olives”, Matt. 26: 30. That is, the hymn after the Supper should help us to get into the Spirit’s realm and then the Lord can proceed with us, having His own time with the assembly and giving us to recognise the Spirit of God on the way, but both these divine Persons are thinking about what there is for God."
+     "speaker": "WMcK",
+     "text": [
+      "It is a real spiritual matter. It is not mystical and it is not something that we have to work up in our minds, it is experience by the Spirit as we are with Christ."
+     ]
     },
     {
-     "speaker": "L.B.",
-     "text": "It is an elevated sphere you want to take us to."
+     "speaker": "DMW",
+     "text": [
+      "Would you say just from a practical perspective that the preparation for the Supper might help us as we have something of the song in our heart, either in the house or on the way to the meeting, and the Lord takes account of that, I think. The breaking bread is our matter, but as we proceed it becomes His matter. Is that right to say?"
+     ]
     },
     {
-     "text": "W.McK. Yes, exactly."
+     "speaker": "WMcK",
+     "text": [
+      "Yes, because the breaking of bread makes way for the Lord to come in and manifest Himself, and having freshly attracted our affections, He would proceed with the great matter He has before Him, which is “in the midst of the assembly I will sing thy praises”.",
+      "The passage in 2 Chronicles bears on what you remarked as to conditions in our own souls individually and in our households and what is working in our minds and hearts as we come to the breaking of bread. We spoke about Hezekiah, “Hezekiah the king arose early, and gathered the princes of the city, and went up to the house of Jehovah” – the princes of the city would refer to the local brethren, they are marked by princeliness, spiritual royalty and wealth and they are under the authority of Christ. Then we have this very extensive matter of the burnt-offering and the sin-offering and we notice that it is seven in each case so that we are dealing with what, in the eye of God, involves perfection. So, “he commanded the priests the sons of Aaron to offer them upon the altar of Jehovah”; that is, what is before him is what is for God. On the “altar of Jehovah”, they slaughtered these things and sprinkled the blood; the creatures brought are instructive, seven bullocks which would be a large spiritual apprehension of Christ; seven rams, maturity and what is progenetive, and seven lambs what is intrinsically perfect, and then seven he-goats for a sin-offering. Notice it is for the kingdom and then for the sanctuary and for Judah. The whole position is to be held on the basis of the value of the sin-offering. So he says to them later, “to make an atonement for all Israel; because for all Israel, said the king, is the burnt-offering and the sin-offering”. As we proceed in the service of God we are thinking about the whole assembly. We sometimes refer to the bread as including all who have the Spirit and that is true, but in this priestly activity what is being said typically by Christ is that it is for all Israel, so we are keeping that view of the assembly in our minds even though we are in the midst of break-down."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Mr. Darby said in the full preface to the hymn book that there was a shortage of hymns to the Father, so that he himself undertook from his own side to add to that. What has marked so much ministry in the revival, is that the Father might be supreme in the worship, the service to the Father was the great thought in the assembly."
+     "speaker": "GR",
+     "text": [
+      "The ground is really held for God, the ground being maintained in that way."
+     ]
     },
     {
-     "text": "W.McK. We should have in mind that, as in the midst, the Lord is thinking about the Father because He says, “in the midst of the assembly will I sing thy praises”. Think of the Lord’s feelings as Man in sonship singing to the Father. The song is His, but it includes us because the Lord’s singing is through the members of His body. We have a hymn which says:"
+     "speaker": "WMcK",
+     "text": [
+      "Yes, and in an affectionate sympathetic sense we are holding it for those who are not walking with us, we are thinking about all Israel even though only Judah is represented here. So as we are in this feeling attitude, even as we take up the service of God, it may please God to bring persons in, saying those conditions should be added to by others."
+     ]
     },
     {
-     "text": "The voice of Christ is hear o’er all (Hymn 237)"
+     "speaker": "DMW",
+     "text": [
+      "Would you say the sin-offering here secures the ground for all? But there is the matter of the fellowship of His death. What would you say about it?"
+     ]
     },
     {
-     "text": "But I do think the voice of Christ is heard through all. The Lord is singing through persons. That is the import of the body being His as head."
+     "speaker": "WMcK",
+     "text": [
+      "That is right, the sin-offering, “the priests slaughtered them, and they made purification for sin with their blood upon the altar, to make an atonement for all Israel”, but then all Israel was not here and the clearing the rubbish out of the house of Jehovah would mean that there is a certain divine standard being maintained practically. The priests, the Levites are taking things out that do not belong there and the ground is being cleared morally. That is really what was referred to in the building of the wall, that there is a sanctified area that is protected by maintaining the principles of the fellowship."
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "So, the manifestation that we look for as we give thanks for the bread and the cup comes out and it is going to come out through the persons, it is not some thing they were dreaming about, it is a real matter."
+     "speaker": "KNP",
+     "text": [
+      "The importance of the burnt-offering, signifying what is wholly for God is seen here do you think? That is our objective is it not? We were speaking about the service of song, but the service of God has in mind that God receives His due. Is that the idea in the burnt-offering?"
+     ]
     },
     {
-     "text": "W.McK. It is a real spiritual matter. It is not mystical and it is not something that we have to work up in our minds, it is experience by the Spirit as we are with Christ."
+     "speaker": "WMcK",
+     "text": [
+      "It is. It is interesting that the burnt-offering and the song of Jehovah begin at the same time. The service of song continues until the burnt-offering was finished. That is, what is proceeding Godward in the way of song is in relation to the infinite acceptance of Christ by God. The burnt-offering is His infinite perfection offered to God, “who by the eternal Spirit offered himself spotless to God”, Heb 9: 14. That is the import of the burnt-offering for us and shows how the Spirit would help us, “By the eternal Spirit” refers to the character of the offering, its value lasts eternally, never needs to be repeated, unlike the Jewish offerings. These things are in our minds and hearts as the Lord takes His place in the midst of the assembly."
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "Would you say just from a practical perspective that the preparation for the Supper might help us as we have something of the song in our heart, either in the house or on the way to the meeting, and the Lord takes account of that, I think. The breaking bread is our matter, but as we proceed it becomes His matter. Is that right to say?"
+     "speaker": "GR",
+     "text": [
+      "We would be preserved from undue occupation with our blessings, which often comes in, but then if we are occupied with Christ in this character of things which you have spoken of, we would be occupied with Him in offering to God."
+     ]
     },
     {
-     "text": "W.McK. Yes, because the breaking of bread makes way for the Lord to come in and manifest Himself, and having freshly attracted our affections, He would proceed with the great matter He has before Him, which is “in the midst of the assembly I will sing thy praises”."
+     "speaker": "WMcK",
+     "text": [
+      "That is what the Lord indicates in Hebrews 2, “I will declare thy name to my brethren” (v.12). That is, we should be persons who are formed in the knowledge of the Father and of God as having come under the hand of Christ and then He says, “in the midst of the assembly will I sing thy praises”. I sometimes feel that the Lord would like to say to us, “I know you value your blessings, but do you understand that I am singing the Father’s praises?” We ought to keep in mind what has been said, that God is the supreme object to both Christ and the Spirit in assembly service. Our blessings in that sense are incidental, precious as they are to us, but far greater is what Christ is setting on through us of the praises of God. Mr Darby has a piece about the saints’ praise as led and perfected by Christ. It might be helpful to read that, because what has run through the great ministries of the recovery is the place that God is to have in the affections of His people."
+     ]
     },
     {
-     "text": "The passage in 2 Chronicles bears on what you remarked as to conditions in our own souls individually and in our households and what is working in our minds and hearts as we come to the breaking of bread. We spoke about Hezekiah, “Hezekiah the king arose early, and gathered the princes of the city, and went up to the house of Jehovah” – the princes of the city would refer to the local brethren, they are marked by princeliness, spiritual royalty and wealth and they are under the authority of Christ. Then we have this very extensive matter of the burnt-offering and the sin-offering and we notice that it is seven in each case so that we are dealing with what, in the eye of God, involves perfection. So, “he commanded the priests the sons of Aaron to offer them upon the altar of Jehovah”; that is, what is before him is what is for God. On the “altar of Jehovah”, they slaughtered these things and sprinkled the blood; the creatures brought are instructive, seven bullocks which would be a large spiritual apprehension of Christ; seven rams, maturity and what is progenetive, and seven lambs what is intrinsically perfect, and then seven he-goats for a sin-offering. Notice it is for the kingdom and then for the sanctuary and for Judah. The whole position is to be held on the basis of the value of the sin-offering. So he says to them later, “to make an atonement for all Israel; because for all Israel, said the king, is the burnt-offering and the sin-offering”. As we proceed in the service of God we are thinking about the whole assembly. We sometimes refer to the bread as including all who have the Spirit and that is true, but in this priestly activity what is being said typically by Christ is that it is for all Israel, so we are keeping that view of the assembly in our minds even though we are in the midst of break-down."
+     "speaker": "EFC",
+     "text": [
+      "I was impressed with this extensive account of Hezekiah’s recovery as though it was the greatest recovery among the many that took place."
+     ]
     },
     {
-     "speaker": "G.R.",
-     "text": "The ground is really held for God, the ground being maintained in that way."
+     "speaker": "WMcK",
+     "text": [
+      "It says, that there had been nothing like it since the days of Solomon. The revivals under Josiah and Nehemiah went further back. Josiah went back to the days of Samuel, and Nehemiah to the days of Joshua, but think of the quality that is in view here, that this goes back to the days of Solomon. And so, as matters proceed and the song goes on until the burnt-offering is finished, it leads to additional worship, “And when they had ended offering the burnt-offering, the king and all that were present with him bowed themselves and worshipped. And king Hezekiah and the princes commanded the Levites to sing praise to Jehovah”. That is, the song is taken up now and in a certain sense the very best comes forward, “with the words of David, and of Asaph the seer”. David, as we know is the greatest thought of refinement in the service of God in the Old Testament."
+     ]
     },
     {
-     "text": "W.McK. Yes, and in an affectionate sympathetic sense we are holding it for those who are not walking with us, we are thinking about all Israel even though only Judah is represented here. So as we are in this feeling attitude, even as we take up the service of God, it may please God to bring persons in, saying those conditions should be added to by others."
+     "speaker": "MN",
+     "text": [
+      "Can you say something about the instruments? The instruments would operate in harmony – there are several mentioned here – the cymbals, the lutes, the harps and the trumpets."
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "Would you say the sin-offering here secures the ground for all? But there is the matter of the fellowship of His death. What would you say about it?"
+     "speaker": "WMcK",
+     "text": [
+      "It refers to persons and that they come under the hand of Christ for formation. You will remember that in 1 Chronicles David says, “and four thousand praised Jehovah with the instruments which I made” (23: 5). We look at the brethren on Lord’s Day after the Supper as we are continuing in the meeting and you say, These are the instruments David has made. It is Christ viewed in that sense as bringing in the highest and most refined features of the service of song. Here are the instruments and he is acting through them by the Holy Spirit. So there are different kinds – cymbals, lutes and harps. It is “according to the commandment of David, and of Gad the king’s seer, and of Nathan the prophet; for the commandment was of Jehovah through his prophets”. It shows the value of prophetic service in amplifying and refining the service of song among us."
+     ]
     },
     {
-     "text": "W.McK. That is right, the sin-offering, “the priests slaughtered them, and they made purification for sin with their blood upon the altar, to make an atonement for all Israel”, but then all Israel was not here and the clearing the rubbish out of the house of Jehovah would mean that there is a certain divine standard being maintained practically. The priests, the Levites are taking things out that do not belong there and the ground is being cleared morally. That is really what was referred to in the building of the wall, that there is a sanctified area that is protected by maintaining the principles of the fellowship."
+     "speaker": "PLJ",
+     "text": [
+      "Could we say that these instruments should be in tune? If we are not in tune with the Lord we cannot provide the praise."
+     ]
     },
     {
-     "speaker": "K.N.P.",
-     "text": "The importance of the burnt-offering, signifying what is wholly for God is seen here do you think? That is our objective is it not? We were speaking about the service of song, but the service of God has in mind that God receives His due. Is that the idea in the burnt-offering?"
+     "speaker": "WMcK",
+     "text": [
+      "Exactly. So, how these are used is according to the commandment of these three persons, David, Gad and Nathan, but the commandment was of Jehovah through his prophets. Then the Levites stood with the instruments of David and the priests with the trumpets. There would be no false notes."
+     ]
     },
     {
-     "text": "W.McK. It is. It is interesting that the burnt-offering and the song of Jehovah begin at the same time. The service of song continues until the burnt-offering was finished. That is, what is proceeding Godward in the way of song is in relation to the infinite acceptance of Christ by God. The burnt-offering is His infinite perfection offered to God, “who by the eternal Spirit offered himself spotless to God”, Heb 9: 14. That is the import of the burnt-offering for us and shows how the Spirit would help us, “By the eternal Spirit” refers to the character of the offering, its value lasts eternally, never needs to be repeated, unlike the Jewish offerings. These things are in our minds and hearts as the Lord takes His place in the midst of the assembly."
+     "speaker": "PLJ",
+     "text": [
+      "Do you think that would be an exercise as to our manner of life and walk and ways that we would be instruments in tune that we can render to the Lord that which He desires?"
+     ]
     },
     {
-     "speaker": "G.R.",
-     "text": "We would be preserved from undue occupation with our blessings, which often comes in, but then if we are occupied with Christ in this character of things which you have spoken of, we would be occupied with Him in offering to God."
+     "speaker": "WMcK",
+     "text": [
+      "Quite so. That would be the value of the prophetic word that it keeps us in tune, keeps us right as to what is current on the part of divine Persons."
+     ]
     },
     {
-     "text": "W.McK. That is what the Lord indicates in Hebrews 2, “I will declare thy name to my brethren” (v.12). That is, we should be persons who are formed in the knowledge of the Father and of God as having come under the hand of Christ and then He says, “in the midst of the assembly will I sing thy praises”. I sometimes feel that the Lord would like to say to us, “I know you value your blessings, but do you understand that I am singing the Father’s praises?” We ought to keep in mind what has been said, that God is the supreme object to both Christ and the Spirit in assembly service. Our blessings in that sense are incidental, precious as they are to us, but far greater is what Christ is setting on through us of the praises of God. Mr Darby has a piece about the saints’ praise as led and perfected by Christ. It might be helpful to read that, because what has run through the great ministries of the recovery is the place that God is to have in the affections of His people."
+     "speaker": "DMW",
+     "text": [
+      "Going along with that, keeping in tune is that we are considering all the beloved brethren. I was thinking how the Lord went out of the temple, He overturned the money changers, but He did resort to Bethany where there seemed to be family conditions and love amongst those that were there so that He could continue in His desires for His people."
+     ]
     },
     {
-     "speaker": "E.F.C.",
-     "text": "I was impressed with this extensive account of Hezekiah’s recovery as though it was the greatest recovery among the many that took place."
+     "speaker": "WMcK",
+     "text": [
+      "It would mean that family conditions are maintained in our local experience and that would have in view that we can move quickly under the hand of the Lord on the next Lord’s Day. So they moved quickly here, the trumpets are sounded and the song of Jehovah is begun and they are accompanied by the instruments of David, and worship is going on, singers singing, trumpeters sounding, all related to the wondrous efficacy of Christ as the burnt-offering. It is all characterised by that."
+     ]
     },
     {
-     "text": "W.McK. It says, that there had been nothing like it since the days of Solomon. The revivals under Josiah and Nehemiah went further back. Josiah went back to the days of Samuel, and Nehemiah to the days of Joshua, but think of the quality that is in view here, that this goes back to the days of Solomon. And so, as matters proceed and the song goes on until the burnt-offering is finished, it leads to additional worship, “And when they had ended offering the burnt-offering, the king and all that were present with him bowed themselves and worshipped. And king Hezekiah and the princes commanded the Levites to sing praise to Jehovah”. That is, the song is taken up now and in a certain sense the very best comes forward, “with the words of David, and of Asaph the seer”. David, as we know is the greatest thought of refinement in the service of God in the Old Testament."
+     "speaker": "GR",
+     "text": [
+      "Mr. Darby must have had some impression as to the magnitude of what will proceed in heaven:",
+      "Hark! ten thousand voices crying",
+      "“Lamb of God!” (Hymn 14)",
+      "What is your impression as to the singing in the eternal state?"
+     ]
     },
     {
-     "speaker": "M.N.",
-     "text": "Can you say something about the instruments? The instruments would operate in harmony – there are several mentioned here – the cymbals, the lutes, the harps and the trumpets."
+     "speaker": "WMcK",
+     "text": [
+      "Probably it will be much better than it is now! Revelation is interesting, there are a number of songs there sung by heavenly and earthly families, but I think the thing is for us to see what we can enjoy now. We hardly know what things will be like in eternity. We know that certain things will not change, we will still have the Lord as mediator and head of the assembly, we will still have the Spirit as the Spirit of adoption, and of course, the Father will still be His Father and our Father, and God will be His God and our God, but what form the service Godward will take scripture does not say. There is something that we have to look forward to, but one thing we can be sure of is that it will always be in Spirit and truth."
+     ]
     },
     {
-     "text": "W.McK. It refers to persons and that they come under the hand of Christ for formation. You will remember that in 1 Chronicles David says, “and four thousand praised Jehovah with the instruments which I made” (23: 5). We look at the brethren on Lord’s Day after the Supper as we are continuing in the meeting and you say, These are the instruments David has made. It is Christ viewed in that sense as bringing in the highest and most refined features of the service of song. Here are the instruments and he is acting through them by the Holy Spirit. So there are different kinds – cymbals, lutes and harps. It is “according to the commandment of David, and of Gad the king’s seer, and of Nathan the prophet; for the commandment was of Jehovah through his prophets”. It shows the value of prophetic service in amplifying and refining the service of song among us."
+     "speaker": "DMW",
+     "text": [
+      "In that regard the millennium may be more important to us than we realise. Today is important for the millennium and opening up everything eternally, but the millennium may be important for us as well."
+     ]
     },
     {
-     "speaker": "P.L.J.",
-     "text": "Could we say that these instruments should be in tune? If we are not in tune with the Lord we cannot provide the praise."
+     "speaker": "WMcK",
+     "text": [
+      "Mr Raven emphasised that scripture as it comes before us, and truth, currently bears on the world to come and Mr Taylor thought that our experience after the rapture in the world to come is really preparation for eternal conditions. We are quite clear that we enter as to our bodies into eternal conditions at the rapture, but I think there may be things that enter into our experience in the world to come that will enrich what we shall be Godward eternally. There is not much we can say about that, but what we can enjoy currently is what we know and understand and have part with Christ in His service Godward in the midst of the assembly."
+     ]
     },
     {
-     "text": "W.McK. Exactly. So, how these are used is according to the commandment of these three persons, David, Gad and Nathan, but the commandment was of Jehovah through his prophets. Then the Levites stood with the instruments of David and the priests with the trumpets. There would be no false notes."
+     "speaker": "PH",
+     "text": [
+      "Many of the hymns, and in fact many of the songs in scripture too, are based on experience. I was wondering about the service of God eternally, as to whether experience would be involved in that?"
+     ]
     },
     {
-     "speaker": "P.L.J.",
-     "text": "Do you think that would be an exercise as to our manner of life and walk and ways that we would be instruments in tune that we can render to the Lord that which He desires?"
+     "speaker": "WMcK",
+     "text": [
+      "I think our experience enters into our preparation for that, and so current experience spiritually will enrich the service of song. If we think of ourselves individually, James says, “Is any happy? Let him sing psalms” (5: 13). That is there is an outlet for your affections."
+     ]
     },
     {
-     "text": "W.McK. Quite so. That would be the value of the prophetic word that it keeps us in tune, keeps us right as to what is current on the part of divine Persons."
+     "speaker": "PH",
+     "text": [
+      "I was thinking about Moses. The source of his song there was the victory that Jehovah had achieved over the Egyptians."
+     ]
     },
     {
-     "speaker": "D.M.W.",
-     "text": "Going along with that, keeping in tune is that we are considering all the beloved brethren. I was thinking how the Lord went out of the temple, He overturned the money changers, but He did resort to Bethany where there seemed to be family conditions and love amongst those that were there so that He could continue in His desires for His people."
+     "speaker": "WMcK",
+     "text": [
+      "Yes, and the song brought in light that they were not then equal to in their souls because it went right on to the abode of His holiness, which was the tabernacle in the wilderness; but then “Thou shalt bring them in, and plant them in the mountain of thine inheritance”, Exod 15: 17. That refers to the land and the land is a present thought, but what the land is substantially will be there eternally.",
+      "T.v.d.H Since all these songs have been mentioned, may I ask a question as to Colossians? It refers there to psalms and psalms and spiritual songs (see Col. 3: 16). Would you differentiate those please as to what you have had primarily in mind as to the service of praise."
+     ]
     },
     {
-     "text": "W.McK. It would mean that family conditions are maintained in our local experience and that would have in view that we can move quickly under the hand of the Lord on the next Lord’s Day. So they moved quickly here, the trumpets are sounded and the song of Jehovah is begun and they are accompanied by the instruments of David, and worship is going on, singers singing, trumpeters sounding, all related to the wondrous efficacy of Christ as the burnt-offering. It is all characterised by that."
+     "speaker": "WMcK",
+     "text": [
+      "Mr. Taylor says, psalms are experience, spiritual songs would be to the Lord and hymns would be to the Father. You might ask, Why did he say that? I thought about that for a long time and I concluded that it was based on Matthew 26 and Hebrews 2 that the Lord says to the Father, literally “I will hymn thee with singing”. I do not think that our brother intended what he said should be taken up in any rigid sense, but he was differentiating as not only a gifted man, but as a spiritual man could. Psalms are our experience, songs are to the Lord, but hymns are to the Father.",
+      "T.v.d.H. So what we have had before us in these three portions as to the service of praise we would be privileged to take up in the service of God, in that in assembly conditions time has no meaning and place has no meaning as has been pointed out. There are appropriate times for these other hymns that would bring in experience, and as we think of occasions as to the preaching of the gospel, the character of that type of hymn would be different from the character that we would have in the service of praise."
+     ]
     },
     {
-     "speaker": "G.R.",
-     "text": "Mr. Darby must have had some impression as to the magnitude of what will proceed in heaven:"
+     "speaker": "WMcK",
+     "text": [
+      "Yes, because in the hymns at the gospel we are seeking to affect the feelings and consciences of those who are present who may be singing without being in the gain of what they are singing, but we want them to come into it. The singing of a hymn at the gospel is like the mist going up from the earth and moistening the whole surface of the ground. Persons are being softened as to their consciences and their hearts and then the word of God is coming and the result of that is to be blessing."
+     ]
     },
     {
-     "text": "Hark! ten thousand voices crying"
+     "speaker": "TVDH",
+     "text": [
+      "The hymn book as been referred to as a treasure – how great it is that we have all of the variety there available to us, that we would be able to use those properly in the service of praise. It would be an exercise to us to take that up."
+     ]
     },
     {
-     "text": "“Lamb of God!” (Hymn 14)"
-    },
-    {
-     "text": "What is your impression as to the singing in the eternal state?"
-    },
-    {
-     "text": "W.McK. Probably it will be much better than it is now! Revelation is interesting, there are a number of songs there sung by heavenly and earthly families, but I think the thing is for us to see what we can enjoy now. We hardly know what things will be like in eternity. We know that certain things will not change, we will still have the Lord as mediator and head of the assembly, we will still have the Spirit as the Spirit of adoption, and of course, the Father will still be His Father and our Father, and God will be His God and our God, but what form the service Godward will take scripture does not say. There is something that we have to look forward to, but one thing we can be sure of is that it will always be in Spirit and truth."
-    },
-    {
-     "speaker": "D.M.W.",
-     "text": "In that regard the millennium may be more important to us than we realise. Today is important for the millennium and opening up everything eternally, but the millennium may be important for us as well."
-    },
-    {
-     "text": "W.McK. Mr Raven emphasised that scripture as it comes before us, and truth, currently bears on the world to come and Mr Taylor thought that our experience after the rapture in the world to come is really preparation for eternal conditions. We are quite clear that we enter as to our bodies into eternal conditions at the rapture, but I think there may be things that enter into our experience in the world to come that will enrich what we shall be Godward eternally. There is not much we can say about that, but what we can enjoy currently is what we know and understand and have part with Christ in His service Godward in the midst of the assembly."
-    },
-    {
-     "speaker": "P.H.",
-     "text": "Many of the hymns, and in fact many of the songs in scripture too, are based on experience. I was wondering about the service of God eternally, as to whether experience would be involved in that?"
-    },
-    {
-     "text": "W.McK. I think our experience enters into our preparation for that, and so current experience spiritually will enrich the service of song. If we think of ourselves individually, James says, “Is any happy? Let him sing psalms” (5: 13). That is there is an outlet for your affections."
-    },
-    {
-     "speaker": "P.H.",
-     "text": "I was thinking about Moses. The source of his song there was the victory that Jehovah had achieved over the Egyptians."
-    },
-    {
-     "text": "W.McK. Yes, and the song brought in light that they were not then equal to in their souls because it went right on to the abode of His holiness, which was the tabernacle in the wilderness; but then “Thou shalt bring them in, and plant them in the mountain of thine inheritance”, Exod 15: 17. That refers to the land and the land is a present thought, but what the land is substantially will be there eternally."
-    },
-    {
-     "text": "T.v.d.H Since all these songs have been mentioned, may I ask a question as to Colossians? It refers there to psalms and psalms and spiritual songs (see Col. 3: 16). Would you differentiate those please as to what you have had primarily in mind as to the service of praise."
-    },
-    {
-     "text": "W.McK. Mr. Taylor says, psalms are experience, spiritual songs would be to the Lord and hymns would be to the Father. You might ask, Why did he say that? I thought about that for a long time and I concluded that it was based on Matthew 26 and Hebrews 2 that the Lord says to the Father, literally “I will hymn thee with singing”. I do not think that our brother intended what he said should be taken up in any rigid sense, but he was differentiating as not only a gifted man, but as a spiritual man could. Psalms are our experience, songs are to the Lord, but hymns are to the Father."
-    },
-    {
-     "text": "T.v.d.H. So what we have had before us in these three portions as to the service of praise we would be privileged to take up in the service of God, in that in assembly conditions time has no meaning and place has no meaning as has been pointed out. There are appropriate times for these other hymns that would bring in experience, and as we think of occasions as to the preaching of the gospel, the character of that type of hymn would be different from the character that we would have in the service of praise."
-    },
-    {
-     "text": "W.McK. Yes, because in the hymns at the gospel we are seeking to affect the feelings and consciences of those who are present who may be singing without being in the gain of what they are singing, but we want them to come into it. The singing of a hymn at the gospel is like the mist going up from the earth and moistening the whole surface of the ground. Persons are being softened as to their consciences and their hearts and then the word of God is coming and the result of that is to be blessing."
-    },
-    {
-     "speaker": "T.V.D.H.",
-     "text": "The hymn book as been referred to as a treasure – how great it is that we have all of the variety there available to us, that we would be able to use those properly in the service of praise. It would be an exercise to us to take that up."
-    },
-    {
-     "text": "W.McK. It would. David took parts of certain songs and you find that that comes into his service of song. That would help us to see whether we would want to sing an entire hymn or whether we want to leave out a verse, because it alters what is before us. All these things are to bring out spirituality in the saints."
+     "speaker": "WMcK",
+     "text": [
+      "It would. David took parts of certain songs and you find that that comes into his service of song. That would help us to see whether we would want to sing an entire hymn or whether we want to leave out a verse, because it alters what is before us. All these things are to bring out spirituality in the saints."
+     ]
     }
    ]
   },
@@ -542,6 +746,32 @@
      "text": "The Present Testimony 1865"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE SERVICE OF SONG",
+   "kind": "speaker_matched_loosely",
+   "detail": "JB used in the text for J.R.Bellamy (key gives JRB)"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICE OF SONG",
+   "kind": "speaker_not_in_key",
+   "detail": "MN (2 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICE OF SONG",
+   "kind": "speaker_matched_loosely",
+   "detail": "TVDH used in the text for T.v.d.Hoek (key gives TH)"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICE OF SONG",
+   "kind": "speaker_matched_loosely",
+   "detail": "WMcK used in the text for W.McKillop (key gives WM)"
   }
  ]
 }

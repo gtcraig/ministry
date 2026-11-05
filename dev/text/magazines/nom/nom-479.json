@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -28,16 +28,23 @@
    "date": "19 February 2012",
    "speakers": [
     "RG",
+    "JTB(Gr)",
+    "JSp",
     "JAB",
     "GAB",
     "AMB",
+    "PAG",
+    "AMel",
     "RB",
     "DS",
     "ADM",
     "AP",
     "DAB",
     "DW",
+    "CSp",
+    "PH",
     "JSS",
+    "DSp",
     "MG"
    ],
    "initials": [
@@ -58,7 +65,7 @@
      "name": "D. A. Brown"
     },
     {
-     "initials": "AG",
+     "initials": "PAG",
      "name": "A. Gray"
     },
     {
@@ -74,12 +81,13 @@
      "name": "R. Gray"
     },
     {
-     "initials": "CS",
+     "initials": "CSp",
      "name": "C. Spinks"
     },
     {
-     "initials": "JTBG",
-     "name": "J. T. Brown (Gr.)"
+     "initials": "JTB(Gr)",
+     "name": "J. T. Brown",
+     "place": "Gr"
     },
     {
      "initials": "H",
@@ -94,11 +102,11 @@
      "name": "J. A. Brown"
     },
     {
-     "initials": "AM",
+     "initials": "AMel",
      "name": "A. Melville"
     },
     {
-     "initials": "JS",
+     "initials": "JSp",
      "name": "J. Spinks"
     },
     {
@@ -112,6 +120,14 @@
     {
      "initials": "DW",
      "name": "D. Walker"
+    },
+    {
+     "initials": "PH",
+     "not_in_key": true
+    },
+    {
+     "initials": "DSp",
+     "not_in_key": true
     }
    ],
    "initials_heading": "KEY TO INITIALS",
@@ -138,382 +154,581 @@
    "paragraphs": [
     {
      "speaker": "RG",
-     "text": "We had a distinct impression of the glories of Christ this morning where we were, including the fact that He is the Creator and everything that has existence and lives, lives because of Him. That is suggested here; “all things have been created by him and for him”. Perhaps we could enquire together as to the thought that Christ is the bearer of these glories and God would have our thoughts centred on Him. We know that there are no quotations from the Old Testament in this epistle, and no references to the Holy Spirit except the one in verse 8, so Christ is evidently to be the centre of our thoughts in regard to the teaching of this epistle; not just the teaching but the experience. I hope what has been said would be sufficient basis to work out the truth together."
+     "text": [
+      "We had a distinct impression of the glories of Christ this morning where we were, including the fact that He is the Creator and everything that has existence and lives, lives because of Him. That is suggested here; “all things have been created by him and for him”. Perhaps we could enquire together as to the thought that Christ is the bearer of these glories and God would have our thoughts centred on Him. We know that there are no quotations from the Old Testament in this epistle, and no references to the Holy Spirit except the one in verse 8, so Christ is evidently to be the centre of our thoughts in regard to the teaching of this epistle; not just the teaching but the experience. I hope what has been said would be sufficient basis to work out the truth together."
+     ]
     },
     {
-     "text": "JTB(Gr) Well it is a very important epistle. It does not quite get to the height of Ephesians, but the headship of Christ is stressed. I have often been impressed by the fact that you get so many references in this epistle to knowledge, which involves the fulness of conscious knowledge, does it not?"
-    },
-    {
-     "speaker": "RG",
-     "text": "That is interesting. All the epistles are important obviously, but a distinctiveness attaches to this one because it involves the transition from our place in responsibility here, as to which Romans would teach us, to our fixed place in the purpose of God as to which Ephesians would enlighten us. This one involves that we follow Christ as set out typically in the early chapters of Joshua and come to the fulness of God’s thoughts. We have not quite come to them in this epistle, is that what is in your mind?"
-    },
-    {
-     "text": "JTB(Gr) Following what you said at the outset, in chapter 3 we have reference to “Christ is everything, and in all” (Colossians 3: 11), do you think that must be the objective that we have in mind in going through this epistle, Christ is everything to us, and in everything we say and do?"
-    },
-    {
-     "speaker": "RG",
-     "text": "Yes and that is experimental. In a certain sense it is abstract, but we have to come to some experience of that. Ephesians brings us to the fact that God is going to head up all things in the Christ, that is the final full thought, but this epistle really is a very experimental one if we can understand that."
-    },
-    {
-     "text": "JSp Several times He is referred to as the firstborn, and you see the force of that; “firstborn of all creation”, “firstborn from among the dead”, “firstborn among many brethren” (Romans 8: 29); could you say something about that?"
+     "speaker": "JTB(Gr)",
+     "text": [
+      "Well it is a very important epistle. It does not quite get to the height of Ephesians, but the headship of Christ is stressed. I have often been impressed by the fact that you get so many references in this epistle to knowledge, which involves the fulness of conscious knowledge, does it not?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Do you think, if we could use simple language, God is giving Him His rightful place, I say reverently? All the other great beings, even the authorities and principalities and so on, are set aside because Christ is first in every sphere which He occupies."
+     "text": [
+      "That is interesting. All the epistles are important obviously, but a distinctiveness attaches to this one because it involves the transition from our place in responsibility here, as to which Romans would teach us, to our fixed place in the purpose of God as to which Ephesians would enlighten us. This one involves that we follow Christ as set out typically in the early chapters of Joshua and come to the fulness of God’s thoughts. We have not quite come to them in this epistle, is that what is in your mind?"
+     ]
     },
     {
-     "text": "JSp That is helpful."
+     "speaker": "JTB(Gr)",
+     "text": [
+      "Following what you said at the outset, in chapter 3 we have reference to “Christ is everything, and in all” (Colossians 3: 11), do you think that must be the objective that we have in mind in going through this epistle, Christ is everything to us, and in everything we say and do?"
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "Yes and that is experimental. In a certain sense it is abstract, but we have to come to some experience of that. Ephesians brings us to the fact that God is going to head up all things in the Christ, that is the final full thought, but this epistle really is a very experimental one if we can understand that."
+     ]
+    },
+    {
+     "speaker": "JSp",
+     "text": [
+      "Several times He is referred to as the firstborn, and you see the force of that; “firstborn of all creation”, “firstborn from among the dead”, “firstborn among many brethren” (Romans 8: 29); could you say something about that?"
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "Do you think, if we could use simple language, God is giving Him His rightful place, I say reverently? All the other great beings, even the authorities and principalities and so on, are set aside because Christ is first in every sphere which He occupies."
+     ]
+    },
+    {
+     "speaker": "JSp",
+     "text": [
+      "That is helpful."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "Could you say more please about the use of the word that has been asked about, “firstborn”, because it does not mean born first? What is the meaning of the word “firstborn” in this context?"
+     "text": [
+      "Could you say more please about the use of the word that has been asked about, “firstborn”, because it does not mean born first? What is the meaning of the word “firstborn” in this context?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "The thing we have to see is that He was first in God’s thoughts. God would establish that, that He is first with Him; that is with God. I think we would then see that, in the offices and positions that He holds, we have to begin with Him, to that extent He is Firstborn in our eyes."
+     "text": [
+      "The thing we have to see is that He was first in God’s thoughts. God would establish that, that He is first with Him; that is with God. I think we would then see that, in the offices and positions that He holds, we have to begin with Him, to that extent He is Firstborn in our eyes."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I feel it is good to get behind the meanings of words in Scripture, because Cain was the first person who was ever born on this earth according to the beginning of Genesis. Would it be right that if we do not come to it that the Lord Jesus is first in God’s thoughts, then we will fall away to the man who was actually first born in this creation? There are two lines in Scripture, there is Cain’s line and then there is the line of the Firstborn, Christ the One that we are speaking about, and there is nothing really in between."
+     "text": [
+      "I feel it is good to get behind the meanings of words in Scripture, because Cain was the first person who was ever born on this earth according to the beginning of Genesis. Would it be right that if we do not come to it that the Lord Jesus is first in God’s thoughts, then we will fall away to the man who was actually first born in this creation? There are two lines in Scripture, there is Cain’s line and then there is the line of the Firstborn, Christ the One that we are speaking about, and there is nothing really in between."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "I think that what you say is helpful. There are two lines and there always will be two lines as long as the present dispensation goes on. But our salvation lies in seeing that Christ is first in God’s thoughts, and I think the idea of firstborn must also involve affection. It is so as to God in bringing His Firstborn into the world, He said “let all God’s angels worship him”, Hebrews 1: 6. This epistle has in view that He, Christ, is first not only as a matter of rule, although that is necessary, but first in our hearts."
+     "text": [
+      "I think that what you say is helpful. There are two lines and there always will be two lines as long as the present dispensation goes on. But our salvation lies in seeing that Christ is first in God’s thoughts, and I think the idea of firstborn must also involve affection. It is so as to God in bringing His Firstborn into the world, He said “let all God’s angels worship him”, Hebrews 1: 6. This epistle has in view that He, Christ, is first not only as a matter of rule, although that is necessary, but first in our hearts."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "When David was anointed in the midst of his brethren was he really given the firstborn place? He was not that naturally but he takes the place of pre-eminence. All these other men had to go completely out of sight that he might have first place in all things."
+     "text": [
+      "When David was anointed in the midst of his brethren was he really given the firstborn place? He was not that naturally but he takes the place of pre-eminence. All these other men had to go completely out of sight that he might have first place in all things."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "That is helpful. God made him firstborn in that sense although he was the youngest. We have been reading in Genesis in Linlithgow locally and we have seen the same with Ephraim and Manasseh. Manasseh in fact was the first born, but God said no, we will have Ephraim as firstborn. That brings in another point as to this; it is sovereign."
+     "text": [
+      "That is helpful. God made him firstborn in that sense although he was the youngest. We have been reading in Genesis in Linlithgow locally and we have seen the same with Ephraim and Manasseh. Manasseh in fact was the first born, but God said no, we will have Ephraim as firstborn. That brings in another point as to this; it is sovereign."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "Is another matter relating to this, that He becomes the pattern, there are going to be many like Him? If He is the firstborn God clearly has in mind that there are going to be many like Him, would you say?"
+     "text": [
+      "Is another matter relating to this, that He becomes the pattern, there are going to be many like Him? If He is the firstborn God clearly has in mind that there are going to be many like Him, would you say?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes that is distinctly helpful. Perhaps you could enlarge on that?"
+     "text": [
+      "Yes that is distinctly helpful. Perhaps you could enlarge on that?"
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "The brethren would all have impressions as to that, that He stands alone in His uniqueness and distinctiveness, but God is so pleased with Him that He has purposed to have many like Christ. And that is why He has become incarnate, that is why we have the whole blessed story of redemption. Christ coming here to fulfil all the work that was laid upon Him, to fulfil all God’s will, so that there should be many like Him. Do you not think the fact of His securing myriads like Him, and uniting them into one is a tremendous glory of His? It can only be His."
+     "text": [
+      "The brethren would all have impressions as to that, that He stands alone in His uniqueness and distinctiveness, but God is so pleased with Him that He has purposed to have many like Christ. And that is why He has become incarnate, that is why we have the whole blessed story of redemption. Christ coming here to fulfil all the work that was laid upon Him, to fulfil all God’s will, so that there should be many like Him. Do you not think the fact of His securing myriads like Him, and uniting them into one is a tremendous glory of His? It can only be His."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Your reference to the Lord’s work is helpful because He is firstborn as we have remarked in God’s heart. It is not an automatic thing with us. He becomes that to us as our affections grow, do you think? And I think what we had a few weeks back about “growing by the true knowledge of God” would enter into that."
+     "text": [
+      "Your reference to the Lord’s work is helpful because He is firstborn as we have remarked in God’s heart. It is not an automatic thing with us. He becomes that to us as our affections grow, do you think? And I think what we had a few weeks back about “growing by the true knowledge of God” would enter into that."
+     ]
     },
     {
-     "text": "PAG Would that then be why it says at the beginning of John’s gospel, “as many as received him, to them gave he the right to be children of God” (John 1: 12). In that section you get the three firstborn lines set aside, “not of blood”, which is Cain, “nor of flesh’s will”, which is Ishmael, “nor of man’s will”, which is Esau, (John 1: 13); they were all set aside and what was of God took its place, but it involves receiving Christ."
-    },
-    {
-     "speaker": "RG",
-     "text": "Yes that is helpful, and so we are coming now to what is experimental. We are not made naturally to appreciate Christ, we are not fashioned so that we would appreciate Him, the flesh never would, but what we do have to come to is that He is first, and it is a matter of God’s delight that He is first."
-    },
-    {
-     "text": "PAG Could I just ask you about that word, ‘experimental’, because when I was young I thought it meant that you tried things out to see what happened, but that is not what experimental means in the way you are using it, just help us as to what is meant by it."
-    },
-    {
-     "speaker": "RG",
-     "text": "Well we want to make it as simple as possible. There is a side of the truth that we speak of as abstract, that is what God has set out and what will be true whatever happens. It is there, it exists, it is the truth. But I might not be in the good of it. But then what is experimental in this sense, involves if I may use a very common expression, ‘hands on’, that is I know by experience how this works out and I am committed to it, is that any help?"
-    },
-    {
-     "text": "AMel In Genesis 37; “These are the generations of Jacob, Joseph, being seventeen years old” (Genesis 37: 2). Do you think that would give the idea of the firstborn?"
+     "speaker": "PAG",
+     "text": [
+      "Would that then be why it says at the beginning of John’s gospel, “as many as received him, to them gave he the right to be children of God” (John 1: 12). In that section you get the three firstborn lines set aside, “not of blood”, which is Cain, “nor of flesh’s will”, which is Ishmael, “nor of man’s will”, which is Esau, (John 1: 13); they were all set aside and what was of God took its place, but it involves receiving Christ."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes that is a helpful reference. The Spirit of God is behind what is written in Scripture, it is not merely a logical matter, but it is the divine sovereign choice. And if you go to 1 Chronicles 5 it says “the birthright was Joseph’s” (1 Chronicles 5: 2)."
+     "text": [
+      "Yes that is helpful, and so we are coming now to what is experimental. We are not made naturally to appreciate Christ, we are not fashioned so that we would appreciate Him, the flesh never would, but what we do have to come to is that He is first, and it is a matter of God’s delight that He is first."
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "Could I just ask you about that word, ‘experimental’, because when I was young I thought it meant that you tried things out to see what happened, but that is not what experimental means in the way you are using it, just help us as to what is meant by it."
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "Well we want to make it as simple as possible. There is a side of the truth that we speak of as abstract, that is what God has set out and what will be true whatever happens. It is there, it exists, it is the truth. But I might not be in the good of it. But then what is experimental in this sense, involves if I may use a very common expression, ‘hands on’, that is I know by experience how this works out and I am committed to it, is that any help?"
+     ]
+    },
+    {
+     "speaker": "AMel",
+     "text": [
+      "In Genesis 37; “These are the generations of Jacob, Joseph, being seventeen years old” (Genesis 37: 2). Do you think that would give the idea of the firstborn?"
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "Yes that is a helpful reference. The Spirit of God is behind what is written in Scripture, it is not merely a logical matter, but it is the divine sovereign choice. And if you go to 1 Chronicles 5 it says “the birthright was Joseph’s” (1 Chronicles 5: 2)."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "In Romans we have that they should be “conformed to the image of his Son, so that he should be the firstborn among many brethren” (Romans 8: 29). Is that confirming what you have in mind as to what is experimental, as to how things are worked out in line with God’s purpose?"
+     "text": [
+      "In Romans we have that they should be “conformed to the image of his Son, so that he should be the firstborn among many brethren” (Romans 8: 29). Is that confirming what you have in mind as to what is experimental, as to how things are worked out in line with God’s purpose?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "That is helpful, because we have to carry in our thoughts all the time the teaching of verse 12; “giving thanks to the Father, who has made us fit for sharing the portion of the saints in light”. Now that is God the Father’s work, but we begin to grow as we are in line with these thoughts by the Holy Spirit and take our part in them."
+     "text": [
+      "That is helpful, because we have to carry in our thoughts all the time the teaching of verse 12; “giving thanks to the Father, who has made us fit for sharing the portion of the saints in light”. Now that is God the Father’s work, but we begin to grow as we are in line with these thoughts by the Holy Spirit and take our part in them."
+     ]
     },
     {
      "speaker": "DS",
-     "text": "Could you say something more as to the thought of “firstborn of all creation”? The Lord was not a created being, help us as to that please."
+     "text": [
+      "Could you say something more as to the thought of “firstborn of all creation”? The Lord was not a created being, help us as to that please."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "What you are touching on now takes us into deep waters. It is important first to say that He is not a creature. He was not made. In His manhood condition it says “the Word became flesh”, John 1: 14. But I think “firstborn of all creation” must involve that God has patterned everything after Him. He is the model if you like, but I would be glad of the help of the brethren."
+     "text": [
+      "What you are touching on now takes us into deep waters. It is important first to say that He is not a creature. He was not made. In His manhood condition it says “the Word became flesh”, John 1: 14. But I think “firstborn of all creation” must involve that God has patterned everything after Him. He is the model if you like, but I would be glad of the help of the brethren."
+     ]
     },
     {
-     "text": "JSp I think that is right. It would take us into the thought of new creation. The first creation is a fallen one, it will never be restored, but there is what God has begun again and it takes us onto the line of new creation, does it not?"
+     "speaker": "JSp",
+     "text": [
+      "I think that is right. It would take us into the thought of new creation. The first creation is a fallen one, it will never be restored, but there is what God has begun again and it takes us onto the line of new creation, does it not?"
+     ]
     },
     {
-     "text": "JTB(Gr) Is that a similar thought to His presentation to Laodicea as “the beginning of the creation of God”, Rev 3: 14?"
-    },
-    {
-     "speaker": "RG",
-     "text": "Yes, that helps. I want to clarify what I said earlier. One of the glories of Christ is as Creator. Now that literally refers to the present creation. He made everything that we see and know about. But God is not exactly working in that sphere, He is working in the saints in new creation conditions; that is what He is working in, would that be right?"
-    },
-    {
-     "text": "JTB(Gr) And that is a work of formation."
-    },
-    {
-     "speaker": "RG",
-     "text": "Yes it is. We used to hear often when we were children that it took six days to make the world and two thousand years, more or less, to make the assembly; and that involves formation. We can see what a mighty work God is going on with."
-    },
-    {
-     "text": "JSp “So if any one be in Christ, there is a new creation”, 2 Corinthians 5: 17. There is something there that is completely patterned after Christ. He was first in the purpose of God; He was the Firstborn, everything is patterned after Him. In every believer what there is of God, of Christ, is of the character of new creation, is it?"
+     "speaker": "JTB(Gr)",
+     "text": [
+      "Is that a similar thought to His presentation to Laodicea as “the beginning of the creation of God”, Rev 3: 14?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes, that is helpful. And it is helpful to have it fixed in our minds; that God is not working in relation to the first order of man, that is condemned, the whole work of God is now going forward in the new creation sphere."
+     "text": [
+      "Yes, that helps. I want to clarify what I said earlier. One of the glories of Christ is as Creator. Now that literally refers to the present creation. He made everything that we see and know about. But God is not exactly working in that sphere, He is working in the saints in new creation conditions; that is what He is working in, would that be right?"
+     ]
+    },
+    {
+     "speaker": "JTB(Gr)",
+     "text": [
+      "And that is a work of formation."
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "Yes it is. We used to hear often when we were children that it took six days to make the world and two thousand years, more or less, to make the assembly; and that involves formation. We can see what a mighty work God is going on with."
+     ]
+    },
+    {
+     "speaker": "JSp",
+     "text": [
+      "“So if any one be in Christ, there is a new creation”, 2 Corinthians 5: 17. There is something there that is completely patterned after Christ. He was first in the purpose of God; He was the Firstborn, everything is patterned after Him. In every believer what there is of God, of Christ, is of the character of new creation, is it?"
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "Yes, that is helpful. And it is helpful to have it fixed in our minds; that God is not working in relation to the first order of man, that is condemned, the whole work of God is now going forward in the new creation sphere."
+     ]
     },
     {
      "speaker": "ADM",
-     "text": "So this is not beyond any of us, is it? It is great, it relates to the purpose of God, new creation that has been referred to. But do you think the reference in verse 4, “having heard of your faith in Christ Jesus, and the love which ye have towards all the saints”, would help to bring us all in? We would trust that everyone in this room has made that step, has faith in Christ, and it really brings you on to a new platform, with a new vista. We had quite an impression this morning as to what was enlarged. There was reference made to the winding stairs and to the house having width upward (Ezekiel 41: 7), but do you think the reference as to faith in Christ, if I can use a homely expression, is the first rung of the ladder? We all have to begin there do we not? But it then immediately says, “on account of the hope which is laid up for you in the heavens”; our vision is immediately transferred from what is earthly to what is heavenly. Is that where the Colossian epistle would come in, in our experience, do you think?"
+     "text": [
+      "So this is not beyond any of us, is it? It is great, it relates to the purpose of God, new creation that has been referred to. But do you think the reference in verse 4, “having heard of your faith in Christ Jesus, and the love which ye have towards all the saints”, would help to bring us all in? We would trust that everyone in this room has made that step, has faith in Christ, and it really brings you on to a new platform, with a new vista. We had quite an impression this morning as to what was enlarged. There was reference made to the winding stairs and to the house having width upward (Ezekiel 41: 7), but do you think the reference as to faith in Christ, if I can use a homely expression, is the first rung of the ladder? We all have to begin there do we not? But it then immediately says, “on account of the hope which is laid up for you in the heavens”; our vision is immediately transferred from what is earthly to what is heavenly. Is that where the Colossian epistle would come in, in our experience, do you think?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "What you say is helpful, so the youngest child who says ‘the Lord Jesus is my Saviour’, is at the beginning, although he may not be conscious of it, of an ascription of praise, and he is on this line, this new creation line. What is in view here is heaven. We do not arrive at the full thought of Ephesian teaching, but we are on the way to it. According to the type we are as far as Gilgal, across the Jordan."
+     "text": [
+      "What you say is helpful, so the youngest child who says ‘the Lord Jesus is my Saviour’, is at the beginning, although he may not be conscious of it, of an ascription of praise, and he is on this line, this new creation line. What is in view here is heaven. We do not arrive at the full thought of Ephesian teaching, but we are on the way to it. According to the type we are as far as Gilgal, across the Jordan."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "In your opening remarks you spoke about the Lord Jesus bearing these glories, what did you mean by that?"
+     "text": [
+      "In your opening remarks you spoke about the Lord Jesus bearing these glories, what did you mean by that?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Well there is a verse that says “he shall bear the glory” (Zechariah 6: 13); I think it is a reference to His moral worth. I mean there are persons in the world with quite remarkable titles and morally they are not equal to them. But “he shall bear the glory” I think is confirmed by the hymn which says,"
-    },
-    {
-     "text": "‘Thou art greater, glorious Saviour,"
-    },
-    {
-     "text": "Than the glory Thou hast won’ (Hymn 181)"
-    },
-    {
-     "text": "So He carries it, but He carries it fittingly."
+     "text": [
+      "Well there is a verse that says “he shall bear the glory” (Zechariah 6: 13); I think it is a reference to His moral worth. I mean there are persons in the world with quite remarkable titles and morally they are not equal to them. But “he shall bear the glory” I think is confirmed by the hymn which says,",
+      "‘Thou art greater, glorious Saviour,",
+      "Than the glory Thou hast won’ (Hymn 181)",
+      "So He carries it, but He carries it fittingly."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I was just thinking about what was said about someone who has faith in Christ Jesus, and some appreciation of others who have faith in Christ Jesus, that is love flowing out horizontally as we speak of it. We might not know about all the glories of Christ, presumably any believer would know about some of them, but we start with the One who bears them all. I thought it was very attractive, because if you take the President of the United States, that is a glorious title, but hardly anybody actually knows the man very well. They start with the glory, and as you get nearer to him you get to know the man, but with the Lord Jesus it is the other way round, is it not? You start with the Man and then you get to know the glories."
+     "text": [
+      "I was just thinking about what was said about someone who has faith in Christ Jesus, and some appreciation of others who have faith in Christ Jesus, that is love flowing out horizontally as we speak of it. We might not know about all the glories of Christ, presumably any believer would know about some of them, but we start with the One who bears them all. I thought it was very attractive, because if you take the President of the United States, that is a glorious title, but hardly anybody actually knows the man very well. They start with the glory, and as you get nearer to him you get to know the man, but with the Lord Jesus it is the other way round, is it not? You start with the Man and then you get to know the glories."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes and it is part of the wonder of the gospel, that God would reach out to needy sinners and appeal to their affections. He shows them the Man. The Ethiopian eunuch says to Philip, “concerning whom does the prophet say this? of himself or of some other?” And he “announced the glad tidings of Jesus to him”, Acts 8: 34, 35. Colossians tells us eventually that we are complete in Him (Colossians 2: 10); that seems to suggest that we do begin to appreciate the scope of His glory."
+     "text": [
+      "Yes and it is part of the wonder of the gospel, that God would reach out to needy sinners and appeal to their affections. He shows them the Man. The Ethiopian eunuch says to Philip, “concerning whom does the prophet say this? of himself or of some other?” And he “announced the glad tidings of Jesus to him”, Acts 8: 34, 35. Colossians tells us eventually that we are complete in Him (Colossians 2: 10); that seems to suggest that we do begin to appreciate the scope of His glory."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "As we get to know Him we cannot help but get to know the scope of the glories. It is not that we have to read a lot of ministry, understand a lot of complex names of all the glories, but as we get to know Jesus better, it just happens does it not?"
+     "text": [
+      "As we get to know Him we cannot help but get to know the scope of the glories. It is not that we have to read a lot of ministry, understand a lot of complex names of all the glories, but as we get to know Jesus better, it just happens does it not?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "I think that is important. I have the impression that heaven will be very simple. The glories will all be there of course, but there will be no conflicting or distracting matters, so as we see Him we will appreciate what is there."
+     "text": [
+      "I think that is important. I have the impression that heaven will be very simple. The glories will all be there of course, but there will be no conflicting or distracting matters, so as we see Him we will appreciate what is there."
+     ]
     },
     {
      "speaker": "AP",
-     "text": "Could you open up verse 19, “for in him all the fulness of the Godhead was pleased to dwell”?"
+     "text": [
+      "Could you open up verse 19, “for in him all the fulness of the Godhead was pleased to dwell”?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Do you think that there is some suggestion in this that when the Lord spoke to the disciples about the Father, one of them said “shew us the Father and it suffices us” (John 14: 8), and the Lord says, “He that has seen me has seen the Father” (John 14: 9). And also He said of the Holy Spirit, “but ye know him” (John 14: 17). Now the only way they could have known the Spirit was in Christ. So that all that is to be known of God is there, but I would be very glad of the help of the brethren in the matter."
+     "text": [
+      "Do you think that there is some suggestion in this that when the Lord spoke to the disciples about the Father, one of them said “shew us the Father and it suffices us” (John 14: 8), and the Lord says, “He that has seen me has seen the Father” (John 14: 9). And also He said of the Holy Spirit, “but ye know him” (John 14: 17). Now the only way they could have known the Spirit was in Christ. So that all that is to be known of God is there, but I would be very glad of the help of the brethren in the matter."
+     ]
     },
     {
      "speaker": "AP",
-     "text": "It was a genuine question. And so there is something which is inscrutable and unsearchable about the Person is there?"
+     "text": [
+      "It was a genuine question. And so there is something which is inscrutable and unsearchable about the Person is there?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes it is good to bring that out, but there is the side that everything that God is as towards us, is there in that Man, and we may have access to it."
+     "text": [
+      "Yes it is good to bring that out, but there is the side that everything that God is as towards us, is there in that Man, and we may have access to it."
+     ]
     },
     {
-     "text": "PAG Does the thought of being pleased to dwell come out in the reference to the Spirit descending in bodily form as a dove, there was nothing to repel? When the Spirit came in the Acts it says “parted tongues, as of fire” (Acts 2: 3), so there was something to be dealt with, but in the case of the Lord everything was suitable; “the fulness of the Godhead was pleased to dwell”, it was delightful to divine Persons to be thus associated with One Another, do you think?"
+     "speaker": "PAG",
+     "text": [
+      "Does the thought of being pleased to dwell come out in the reference to the Spirit descending in bodily form as a dove, there was nothing to repel? When the Spirit came in the Acts it says “parted tongues, as of fire” (Acts 2: 3), so there was something to be dealt with, but in the case of the Lord everything was suitable; “the fulness of the Godhead was pleased to dwell”, it was delightful to divine Persons to be thus associated with One Another, do you think?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes, I am sure that is so, and we have to remember, and I would speak carefully, this was something that God had never had before; complacency in a Man, so you can understand something of the fact that also “was pleased to dwell”. This was part of the filling out of God’s purpose, that He was dwelling in and with a Man in such conditions."
+     "text": [
+      "Yes, I am sure that is so, and we have to remember, and I would speak carefully, this was something that God had never had before; complacency in a Man, so you can understand something of the fact that also “was pleased to dwell”. This was part of the filling out of God’s purpose, that He was dwelling in and with a Man in such conditions."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "Does it also mean that there is nothing hidden? It is “the fulness of the Godhead”. It brings out the substantiality of what there is in the Godhead, it brings out the oneness of operation in the Godhead, and as has been said, it brings out the delight and the affection that there is in the Godhead, in order that really everything may be brought out in the person of Christ. Would it be right to say that?"
+     "text": [
+      "Does it also mean that there is nothing hidden? It is “the fulness of the Godhead”. It brings out the substantiality of what there is in the Godhead, it brings out the oneness of operation in the Godhead, and as has been said, it brings out the delight and the affection that there is in the Godhead, in order that really everything may be brought out in the person of Christ. Would it be right to say that?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes, I do not think I can add to that, I go with it fully. So we would be encouraged at the present time by the fact that all the wealth and power and grace and wisdom and love of the Godhead are available to us in the present exercises."
+     "text": [
+      "Yes, I do not think I can add to that, I go with it fully. So we would be encouraged at the present time by the fact that all the wealth and power and grace and wisdom and love of the Godhead are available to us in the present exercises."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "Exactly, and I am thinking that for those who are younger, this is all in a Man who is Jesus the Saviour. We do not exactly work up to these things; they are all there for our affections and for our desire, in that Man."
+     "text": [
+      "Exactly, and I am thinking that for those who are younger, this is all in a Man who is Jesus the Saviour. We do not exactly work up to these things; they are all there for our affections and for our desire, in that Man."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes, that is just the point, and God would occupy us from our early years with this Man, in this setting, to the exclusion of all else; because this is the Man, the Person, whom we are going to have to follow in circumstances, in a path that we have never been in before; that is across Jordan typically."
+     "text": [
+      "Yes, that is just the point, and God would occupy us from our early years with this Man, in this setting, to the exclusion of all else; because this is the Man, the Person, whom we are going to have to follow in circumstances, in a path that we have never been in before; that is across Jordan typically."
+     ]
     },
     {
      "speaker": "DW",
-     "text": "So it says here, “who has delivered us from the authority of darkness, and translated us into the kingdom of the Son of his love”. It is a great area to be brought into. If we give Christ the first place there is a great development and sense of enlargement in our appreciation of such a One, is there not? We could not help but to give glory to such a One."
+     "text": [
+      "So it says here, “who has delivered us from the authority of darkness, and translated us into the kingdom of the Son of his love”. It is a great area to be brought into. If we give Christ the first place there is a great development and sense of enlargement in our appreciation of such a One, is there not? We could not help but to give glory to such a One."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "I think that is good. If we enter into these matters with our hearts open, what we find as we come into them is that, not only is God’s love towards Christ, He is the Firstborn, but we are in an atmosphere of love, divine love, that is operative and would enfold us as the hymn tells us,"
+     "text": [
+      "I think that is good. If we enter into these matters with our hearts open, what we find as we come into them is that, not only is God’s love towards Christ, He is the Firstborn, but we are in an atmosphere of love, divine love, that is operative and would enfold us as the hymn tells us,",
+      "‘Now that changeless love enfolds us,",
+      "All its wealth on us bestows’ (Hymn 2)"
+     ]
     },
     {
-     "text": "‘Now that changeless love enfolds us,"
-    },
-    {
-     "text": "All its wealth on us bestows’ (Hymn 2)"
-    },
-    {
-     "text": "JTB(Gr) Linked with that is the fact that the Father has “made us fit for sharing the portion of the saints in light”. It is good to get a view of the greatness of the inheritance into which God has brought us; “the portion of the saints in light”."
-    },
-    {
-     "speaker": "RG",
-     "text": "It is something I would like help on too, the Father’s work in this respect, “giving thanks to the Father, who has made us fit for sharing the portion of the saints in light, who has delivered us from the authority of darkness, and translated us into the kingdom of the Son of his love”. Could you say more as to your thought?"
-    },
-    {
-     "text": "JTB(Gr) I was thinking of Luke 15, the father made the son “fit for sharing the portion of the saints in light”, did he not? Do you think the gospel brings us into that in its fulness?"
+     "speaker": "JTB(Gr)",
+     "text": [
+      "Linked with that is the fact that the Father has “made us fit for sharing the portion of the saints in light”. It is good to get a view of the greatness of the inheritance into which God has brought us; “the portion of the saints in light”."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "That scripture was running through my mind as you spoke. And “translated us”, this person who had come from feeding swine was now dignified, conscious of the father’s love, and in an environment where it could be enjoyed; that is translation is it not?"
+     "text": [
+      "It is something I would like help on too, the Father’s work in this respect, “giving thanks to the Father, who has made us fit for sharing the portion of the saints in light, who has delivered us from the authority of darkness, and translated us into the kingdom of the Son of his love”. Could you say more as to your thought?"
+     ]
     },
     {
-     "text": "CSp Do you think it would help us if we realised the Father’s pleasure is involved in this? I was thinking of Jeremiah chapter 18 as to the potter it says, “as seemed good to the potter” (Jeremiah 18: 4), and the Father’s delight is involved in securing persons. It says also, “each one resembled the sons of a king”, Judges 8: 18. There was dignity, but the Father’s pleasure is behind it, is that right?"
+     "speaker": "JTB(Gr)",
+     "text": [
+      "I was thinking of Luke 15, the father made the son “fit for sharing the portion of the saints in light”, did he not? Do you think the gospel brings us into that in its fulness?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes. The word you used is important, that is ‘realised’. You know all these things are around us, they are towards us, they are for us, and for myself I speak about them and wonder sometimes how much they really affect me; actually affect my heart, because if it does affect my heart, it will affect my feet, that is my walk."
+     "text": [
+      "That scripture was running through my mind as you spoke. And “translated us”, this person who had come from feeding swine was now dignified, conscious of the father’s love, and in an environment where it could be enjoyed; that is translation is it not?"
+     ]
     },
     {
-     "text": "CSp This morning we had a fine thanksgiving, it really searched us, and then there was a reference made to the joy of the Lord, the joy of the Spirit, and the joy of the Father, it is like Luke 15, it is a joyous occasion really is it not?"
+     "speaker": "CSp",
+     "text": [
+      "Do you think it would help us if we realised the Father’s pleasure is involved in this? I was thinking of Jeremiah chapter 18 as to the potter it says, “as seemed good to the potter” (Jeremiah 18: 4), and the Father’s delight is involved in securing persons. It says also, “each one resembled the sons of a king”, Judges 8: 18. There was dignity, but the Father’s pleasure is behind it, is that right?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Well what that tells me is that you got away from your own concerns and matters, I do not mean you personally, but the saints as together, and really began to see things as God sees them, and feel them in measure as God feels them; that is real experience."
+     "text": [
+      "Yes. The word you used is important, that is ‘realised’. You know all these things are around us, they are towards us, they are for us, and for myself I speak about them and wonder sometimes how much they really affect me; actually affect my heart, because if it does affect my heart, it will affect my feet, that is my walk."
+     ]
+    },
+    {
+     "speaker": "CSp",
+     "text": [
+      "This morning we had a fine thanksgiving, it really searched us, and then there was a reference made to the joy of the Lord, the joy of the Spirit, and the joy of the Father, it is like Luke 15, it is a joyous occasion really is it not?"
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "Well what that tells me is that you got away from your own concerns and matters, I do not mean you personally, but the saints as together, and really began to see things as God sees them, and feel them in measure as God feels them; that is real experience."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "Is that really what was referred to earlier? Every person in this room and indeed every believer that has faith in Christ, has been made fit. The statement in verse 12 is absolute; “the Father, who has made us fit for sharing the portion of the saints in light”. But what God wants us to do is actually share it, and what has been spoken about is the experience of that, because sharing is something that you do. It cannot really be abstract, it either happens, you either have the experience that has been described, or you do not. Even though you are fit for it you might not have the experience of it. It is the result of real believers having experiences of what the Scriptures tell them they are fit for, is that right?"
+     "text": [
+      "Is that really what was referred to earlier? Every person in this room and indeed every believer that has faith in Christ, has been made fit. The statement in verse 12 is absolute; “the Father, who has made us fit for sharing the portion of the saints in light”. But what God wants us to do is actually share it, and what has been spoken about is the experience of that, because sharing is something that you do. It cannot really be abstract, it either happens, you either have the experience that has been described, or you do not. Even though you are fit for it you might not have the experience of it. It is the result of real believers having experiences of what the Scriptures tell them they are fit for, is that right?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes. But if you turn the coin round the other way, if we do not have such experiences we will not survive, because we cannot live on theory and abstractions. We must get a touch in our souls from time to time, and as we do, that is what keeps us alive."
+     "text": [
+      "Yes. But if you turn the coin round the other way, if we do not have such experiences we will not survive, because we cannot live on theory and abstractions. We must get a touch in our souls from time to time, and as we do, that is what keeps us alive."
+     ]
     },
     {
-     "text": "PH Following on from what has been said, it says in the first epistle of John, “But if we walk in the light as he is in the light, we have fellowship with one another” (1 John 1: 7), and the footnote says ‘In all these cases the verb is in the subjunctive, and puts the case of so doing’; it means that we actually do it."
+     "speaker": "PH",
+     "text": [
+      "Following on from what has been said, it says in the first epistle of John, “But if we walk in the light as he is in the light, we have fellowship with one another” (1 John 1: 7), and the footnote says ‘In all these cases the verb is in the subjunctive, and puts the case of so doing’; it means that we actually do it."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "I think what you say is practical and helpful; if we walk in the light as he is in the light”. It brings out another thing that there is only one standard and that is the divine standard."
+     "text": [
+      "I think what you say is practical and helpful; if we walk in the light as he is in the light”. It brings out another thing that there is only one standard and that is the divine standard."
+     ]
     },
     {
      "speaker": "JSS",
-     "text": "The way was open for all the tribes to go over Jordan into the land, but they did not all go over. So there is need for attraction to Christ do you think, to be drawn over? Their eye was to be on the ark."
+     "text": [
+      "The way was open for all the tribes to go over Jordan into the land, but they did not all go over. So there is need for attraction to Christ do you think, to be drawn over? Their eye was to be on the ark."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "The fact is that this first chapter has in mind that Christ should become great in our eyes, greater than any, but also our affections have to be involved. We not only love the Man, I say reverently, but we trust Him to be able to take us through the great matter of death."
+     "text": [
+      "The fact is that this first chapter has in mind that Christ should become great in our eyes, greater than any, but also our affections have to be involved. We not only love the Man, I say reverently, but we trust Him to be able to take us through the great matter of death."
+     ]
     },
     {
-     "text": "DSp So there is not only what is positional in Christianity, but there is what is operational. There is what is in Him, but there is what is done by Him. Every believer stands in Christ, but is it those that have come into the good of what is done by Him, who come into the experience of which we are speaking? So there is what is operational that we really enjoyed in our spirits this morning."
-    },
-    {
-     "speaker": "RG",
-     "text": "Yes, and I hope the young people are listening, because Christianity is experience or it is nothing. It is not like a science or mathematics where you read the rules, and if you write the right things you will get the right answers; it is not like that at all. Christianity involves that we are actually dealing with divine Persons and they are dealing with us. And the way that that comes about, is that our hearts become involved, they are captured, and we would follow this Man wherever He goes."
-    },
-    {
-     "text": "DSp I think it is attractive what you are bringing out, that the believer is initially drawn to Christ, as having affections he follows the Lord wherever He goes. It is an operational movement in order to bring us to where He is, and is that not the attractive thing about Christianity that the Lord’s desire is to bring us to where He is, and to the enjoyment of what He enjoys? There is no thought of putting things in boxes in Christianity, but God desires us to be brought into the very best where the Son is."
-    },
-    {
-     "speaker": "RG",
-     "text": "Your word operational is useful because one of the biggest operations of all will be the rapture; that will be operational, and things will then be finalised at the judgment seat of Christ as far as this present history is concerned. But I believe the Spirit of God is teaching us as to this matter of movement now. The Supper and the service of God involve that, that there is actual movement. We start off in the wilderness and we complete that journey in the Father’s house. We reach there by a road as to which we have been much taught, would you agree?"
-    },
-    {
-     "text": "JSp Is that really why the Spirit of God does not project Himself in this?"
+     "speaker": "DSp",
+     "text": [
+      "So there is not only what is positional in Christianity, but there is what is operational. There is what is in Him, but there is what is done by Him. Every believer stands in Christ, but is it those that have come into the good of what is done by Him, who come into the experience of which we are speaking? So there is what is operational that we really enjoyed in our spirits this morning."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "The characteristics that in this epistle are referred to as applying to the saints as part of their walk or way of life, in Ephesians are attributed to the Holy Spirit. But I think what is in mind here is that Christ should be everything. It is not an unbalanced view of things; it is just the way the Spirit of God presents things. In a sense verse 8, “who has also manifested to us your love in the Spirit”, reminds that He is still operating, but the point of issue at the moment is Christ; and Christ alone. What would you say?"
+     "text": [
+      "Yes, and I hope the young people are listening, because Christianity is experience or it is nothing. It is not like a science or mathematics where you read the rules, and if you write the right things you will get the right answers; it is not like that at all. Christianity involves that we are actually dealing with divine Persons and they are dealing with us. And the way that that comes about, is that our hearts become involved, they are captured, and we would follow this Man wherever He goes."
+     ]
     },
     {
-     "text": "JSp I cannot express myself very well, but that is what I feel, the Spirit is behind it all, but not in a projective way. He is working silently and quietly behind the scenes to bring Christ before the saints."
-    },
-    {
-     "speaker": "RG",
-     "text": "Yes. In a way the Spirit’s activities in this epistle and the fact that He does not draw attention to Himself would bring forth worship."
-    },
-    {
-     "text": "PH Could you say more about what we mean by spiritual movement? What actually is spiritual movement and how is it facilitated?"
-    },
-    {
-     "speaker": "RG",
-     "text": "Well the teaching of it typically is in Joshua, where they came to the bank of the Jordan and waited there three days, and one of the important things was that they had to prepare victuals for themselves (Joshua 1: 11). It means feeding on Christ, that is He fills the mind and heart, because let us be clear, the service of God is not a formality, or a light matter at all; it involves that we are taken in spirit from the position in which we are, strengthened by the Spirit, and taken over Jordan. That means in spirit we are together on the other side of death, with Christ."
-    },
-    {
-     "text": "PH So that therefore means we are taken beyond the present provisional scene, do you think? We are occupied with Christ where He is now."
+     "speaker": "DSp",
+     "text": [
+      "I think it is attractive what you are bringing out, that the believer is initially drawn to Christ, as having affections he follows the Lord wherever He goes. It is an operational movement in order to bring us to where He is, and is that not the attractive thing about Christianity that the Lord’s desire is to bring us to where He is, and to the enjoyment of what He enjoys? There is no thought of putting things in boxes in Christianity, but God desires us to be brought into the very best where the Son is."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "That is the truth. So one of the things we taste is liberty. We are not worrying about our sins or our state or even responsible matters. Our hearts are filled with Christ and we are before God, and He is delighted with Christ and with us, so we have full liberty."
+     "text": [
+      "Your word operational is useful because one of the biggest operations of all will be the rapture; that will be operational, and things will then be finalised at the judgment seat of Christ as far as this present history is concerned. But I believe the Spirit of God is teaching us as to this matter of movement now. The Supper and the service of God involve that, that there is actual movement. We start off in the wilderness and we complete that journey in the Father’s house. We reach there by a road as to which we have been much taught, would you agree?"
+     ]
+    },
+    {
+     "speaker": "JSp",
+     "text": [
+      "Is that really why the Spirit of God does not project Himself in this?"
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "The characteristics that in this epistle are referred to as applying to the saints as part of their walk or way of life, in Ephesians are attributed to the Holy Spirit. But I think what is in mind here is that Christ should be everything. It is not an unbalanced view of things; it is just the way the Spirit of God presents things. In a sense verse 8, “who has also manifested to us your love in the Spirit”, reminds that He is still operating, but the point of issue at the moment is Christ; and Christ alone. What would you say?"
+     ]
+    },
+    {
+     "speaker": "JSp",
+     "text": [
+      "I cannot express myself very well, but that is what I feel, the Spirit is behind it all, but not in a projective way. He is working silently and quietly behind the scenes to bring Christ before the saints."
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "Yes. In a way the Spirit’s activities in this epistle and the fact that He does not draw attention to Himself would bring forth worship."
+     ]
+    },
+    {
+     "speaker": "PH",
+     "text": [
+      "Could you say more about what we mean by spiritual movement? What actually is spiritual movement and how is it facilitated?"
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "Well the teaching of it typically is in Joshua, where they came to the bank of the Jordan and waited there three days, and one of the important things was that they had to prepare victuals for themselves (Joshua 1: 11). It means feeding on Christ, that is He fills the mind and heart, because let us be clear, the service of God is not a formality, or a light matter at all; it involves that we are taken in spirit from the position in which we are, strengthened by the Spirit, and taken over Jordan. That means in spirit we are together on the other side of death, with Christ."
+     ]
+    },
+    {
+     "speaker": "PH",
+     "text": [
+      "So that therefore means we are taken beyond the present provisional scene, do you think? We are occupied with Christ where He is now."
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "That is the truth. So one of the things we taste is liberty. We are not worrying about our sins or our state or even responsible matters. Our hearts are filled with Christ and we are before God, and He is delighted with Christ and with us, so we have full liberty."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "Neither are we worried about ourselves."
+     "text": [
+      "Neither are we worried about ourselves."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "A very salutary word, go on."
+     "text": [
+      "A very salutary word, go on."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "Well we might think that we are unable for these things, or that we might say something wrong as we are on our feet, but Christ is the Head and the Holy Spirit is available, and He would give us words to speak as we are on our feet do you think? And that is how we move in the service of God, do you think?"
+     "text": [
+      "Well we might think that we are unable for these things, or that we might say something wrong as we are on our feet, but Christ is the Head and the Holy Spirit is available, and He would give us words to speak as we are on our feet do you think? And that is how we move in the service of God, do you think?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes that is helpful. So faith enters into it. As following Christ we entrust ourselves to the Spirit, and when it is time to speak we speak, and when it is time to be quiet, we are quiet. That involves the control of the Spirit."
+     "text": [
+      "Yes that is helpful. So faith enters into it. As following Christ we entrust ourselves to the Spirit, and when it is time to speak we speak, and when it is time to be quiet, we are quiet. That involves the control of the Spirit."
+     ]
     },
     {
-     "text": "JTB(Gr) The weakness in Colosse was the operations of philosophy and vain deceit. Persons thought that they were able."
-    },
-    {
-     "speaker": "RG",
-     "text": "That is a good word. Paul does not speak here about vicious behaviour that he has to touch on in other epistles. This is the superiority of refined flesh at its very best, and it is a hindrance."
-    },
-    {
-     "text": "JSp I thought of the lines of the hymn;"
-    },
-    {
-     "text": "‘All thought of self is now for ever o’er!"
-    },
-    {
-     "text": "Christ, its unmingled Object fills the heart’ (Hymn 247)"
-    },
-    {
-     "text": "How many of us can reach that?"
+     "speaker": "JTB(Gr)",
+     "text": [
+      "The weakness in Colosse was the operations of philosophy and vain deceit. Persons thought that they were able."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "What you say just sums the whole matter up."
+     "text": [
+      "That is a good word. Paul does not speak here about vicious behaviour that he has to touch on in other epistles. This is the superiority of refined flesh at its very best, and it is a hindrance."
+     ]
+    },
+    {
+     "speaker": "JSp",
+     "text": [
+      "I thought of the lines of the hymn;",
+      "‘All thought of self is now for ever o’er!",
+      "Christ, its unmingled Object fills the heart’ (Hymn 247)",
+      "How many of us can reach that?"
+     ]
+    },
+    {
+     "speaker": "RG",
+     "text": [
+      "What you say just sums the whole matter up."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "Do you think the secret of movement and what we are speaking about comes into Joshua chapter 3, “When ye see the ark of the covenant of Jehovah your God ... then remove from your place and go after it” (Joshua 3: 3). We see Christ and we move with Him, do we not?"
+     "text": [
+      "Do you think the secret of movement and what we are speaking about comes into Joshua chapter 3, “When ye see the ark of the covenant of Jehovah your God ... then remove from your place and go after it” (Joshua 3: 3). We see Christ and we move with Him, do we not?"
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Yes that is good. And you may say, Will I recognise the ark when I see it? Well if we are in the good of this we will. Christ is everything to our hearts. We know what He looks like spiritually."
+     "text": [
+      "Yes that is good. And you may say, Will I recognise the ark when I see it? Well if we are in the good of this we will. Christ is everything to our hearts. We know what He looks like spiritually."
+     ]
     },
     {
      "speaker": "MG",
-     "text": "It says, “for in him all the fulness of the Godhead was pleased to dwell, and by him to reconcile all things to itself,” and so on, and then “yet now has it reconciled in the body of his flesh through death; to present you holy and unblamable and irreproachable before it”. I was just wondering about that, the truth of reconciliation. Divine Persons have worked, they have operated so that we might be in nearness to them. We have been reconciled, but we have to enjoy the reconciliation."
+     "text": [
+      "It says, “for in him all the fulness of the Godhead was pleased to dwell, and by him to reconcile all things to itself,” and so on, and then “yet now has it reconciled in the body of his flesh through death; to present you holy and unblamable and irreproachable before it”. I was just wondering about that, the truth of reconciliation. Divine Persons have worked, they have operated so that we might be in nearness to them. We have been reconciled, but we have to enjoy the reconciliation."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Well it is a subject in itself but what you say is good. I suppose the new covenant involves that we can be at home with God, and reconciliation enables God to be at home with us (J. Taylor Vol. 5, p.377). God has reconciled what pleases Him."
+     "text": [
+      "Well it is a subject in itself but what you say is good. I suppose the new covenant involves that we can be at home with God, and reconciliation enables God to be at home with us (J. Taylor Vol. 5, p.377). God has reconciled what pleases Him."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "It has been well said that reconciliation means that where there was distance there is not exactly nearness, but complacency. Nearness is implied I suppose, but complacency means that there is absolutely nothing to disturb the tranquillity of the whole scene."
+     "text": [
+      "It has been well said that reconciliation means that where there was distance there is not exactly nearness, but complacency. Nearness is implied I suppose, but complacency means that there is absolutely nothing to disturb the tranquillity of the whole scene."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Well that is very good and something that we can close on, that God is complacent when He takes account of Christ and His work."
+     "text": [
+      "Well that is very good and something that we can close on, that God is complacent when He takes account of Christ and His work."
+     ]
     }
    ]
   },
@@ -602,5 +817,49 @@
  "back_matter": [
   "Edited and Published by J. Strachan, 59 Frederick Street, Dundee, DD3 9DE, Scotland",
   "Printed by Crystal Stationery, 22 Western Road, Billericay, Essex CM12 9DZ, (T) (01277) 650661"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "SOME OF THE GLORIES OF CHRIST",
+   "kind": "speaker_second_name",
+   "detail": "PAG used in the text for A. Gray (key gives AG)"
+  },
+  {
+   "article": 1,
+   "title": "SOME OF THE GLORIES OF CHRIST",
+   "kind": "speaker_not_in_key",
+   "detail": "PH (3 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "SOME OF THE GLORIES OF CHRIST",
+   "kind": "speaker_matched_loosely",
+   "detail": "JTB(Gr) used in the text for J. T. Brown (key gives JTB)"
+  },
+  {
+   "article": 1,
+   "title": "SOME OF THE GLORIES OF CHRIST",
+   "kind": "speaker_matched_loosely",
+   "detail": "JSp used in the text for J. Spinks (key gives JS)"
+  },
+  {
+   "article": 1,
+   "title": "SOME OF THE GLORIES OF CHRIST",
+   "kind": "speaker_matched_loosely",
+   "detail": "AMel used in the text for A. Melville (key gives AM)"
+  },
+  {
+   "article": 1,
+   "title": "SOME OF THE GLORIES OF CHRIST",
+   "kind": "speaker_matched_loosely",
+   "detail": "CSp used in the text for C. Spinks (key gives CS)"
+  },
+  {
+   "article": 1,
+   "title": "SOME OF THE GLORIES OF CHRIST",
+   "kind": "speaker_not_in_key",
+   "detail": "DSp (in the text)"
+  }
  ]
 }

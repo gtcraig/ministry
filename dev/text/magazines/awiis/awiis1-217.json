@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,34 +26,35 @@
    "place": "LONDON",
    "date": "15 December 1990",
    "speakers": [
-    "J.S.G.",
-    "E.C.B.",
-    "J.C.E.",
-    "S.H.",
-    "R.T.",
-    "D.A.B.",
-    "E.O.P.M.",
-    "E.C.M.",
-    "P.M.",
-    "H.A.H.",
-    "J.M.",
-    "E.P.",
-    "D.E.R.",
-    "L.A.B.",
-    "W.H.S.",
-    "S.D.K.R.",
-    "E.C",
-    "E.C.",
-    "F.C.M."
+    "JSG",
+    "ECB",
+    "JCE",
+    "SH",
+    "RT",
+    "DAB",
+    "EOPM",
+    "ECM",
+    "PM",
+    "HAH",
+    "JM",
+    "EP",
+    "DER",
+    "LAB",
+    "WHS",
+    "SDKR",
+    "EC",
+    "FCM"
    ],
    "initials": [
     {
-     "initials": "LDAB",
-     "name": "(London if not otherwise stated) D.A.Burr"
+     "initials": "DAB",
+     "name": "D.A.Burr",
+     "place": "London"
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "London"
     },
     {
      "initials": "LAB",
@@ -67,15 +68,18 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "London"
     },
     {
      "initials": "JSG",
-     "name": "J.S.Gray"
+     "name": "J.S.Gray",
+     "place": "London"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "London"
     },
     {
      "initials": "SH",
@@ -114,7 +118,8 @@
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "London"
     },
     {
      "initials": "DER",
@@ -138,607 +143,896 @@
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "London if not otherwise stated",
    "initials_text": [
     "(London if not otherwise stated)",
     "D.A.Burr; E.C.Burr; L.A.Barlow, Bexley; E.Croot, Dorking; J.C.Evershed; J.S.Gray; H.A.Hutson; S.Hewison, Dorking; E.C.Muggleton, Colchester; E.O.P.Mutton, Walton; F.C.Mutton, Redbridge; J.Mitchell, Bexley; P.Martin, Colchester; T.Oberg, Villa Grove; E.Palmer; D.E.Remmington, St.Albans; S.D.K.Roberts, Croydon; W.H.Shephard, Bedford; R.Taylor, Barnet"
    ],
    "paragraphs": [
     {
-     "speaker": "J.S.G.",
-     "text": "I wondered if we might speak together a little, brethren, of the appreciation these persons had of Christ, and consider the effect which it had upon them. There are many titles of the Lord Jesus in this first chapter of John, but John the baptist seems to stand out as one who is continually calling attention to Christ, and he does so because he appreciates Him. We should think about that: in our gatherings together, in our household arrangements and all our conversations, our prime objective should be, beloved brethren, to speak of Jesus. If we appreciate Him, we will speak of Him. It is in this gospel that it is said of one: \"These things said Esaias because he saw his glory and spoke of him\", chap 12: 41. We have the thought in one of the gospels: \"What think ye concerning the Christ?\", Matt 22: 42. That is one thing; but then the Lord says to His own, \"But ye, who do ye say that I am?\" (Matt 16: 15); that is, that we are to be able to say something about the Lord Jesus. I am impressed with the fact that we may be on the very verge of eternity. The Lord's coming may be very near indeed, and we shall be introduced into eternal conditions, and we shall then be occupied with Jesus. Are we occupied with Him now? Can we speak of Him now? We shall be at home in heaven when we are with the Lord. We shall speak to Him and of Him, but I have the feeling that we should have before us that the assembly (and we can speak only of what is available to us in the way of practical links together and the much blessing we have assembling) - our gatherings in the light of the assembly - should in character be akin to what heaven will be. That involves that we should be occupied with the Lord Jesus and we should speak of Him. I wondered if we might think of that and the effect on these persons of speaking of Jesus. One effect of this on John the baptist was that he spoke less and less about himself, and in his service he diverted from himself and directed to Jesus. Another effect was that two of his own disciples left him and followed Jesus. What a great thing to have that result!"
+     "speaker": "JSG",
+     "text": [
+      "I wondered if we might speak together a little, brethren, of the appreciation these persons had of Christ, and consider the effect which it had upon them. There are many titles of the Lord Jesus in this first chapter of John, but John the baptist seems to stand out as one who is continually calling attention to Christ, and he does so because he appreciates Him. We should think about that: in our gatherings together, in our household arrangements and all our conversations, our prime objective should be, beloved brethren, to speak of Jesus. If we appreciate Him, we will speak of Him. It is in this gospel that it is said of one: \"These things said Esaias because he saw his glory and spoke of him\", chap 12: 41. We have the thought in one of the gospels: \"What think ye concerning the Christ?\", Matt 22: 42. That is one thing; but then the Lord says to His own, \"But ye, who do ye say that I am?\" (Matt 16: 15); that is, that we are to be able to say something about the Lord Jesus. I am impressed with the fact that we may be on the very verge of eternity. The Lord's coming may be very near indeed, and we shall be introduced into eternal conditions, and we shall then be occupied with Jesus. Are we occupied with Him now? Can we speak of Him now? We shall be at home in heaven when we are with the Lord. We shall speak to Him and of Him, but I have the feeling that we should have before us that the assembly (and we can speak only of what is available to us in the way of practical links together and the much blessing we have assembling) - our gatherings in the light of the assembly - should in character be akin to what heaven will be. That involves that we should be occupied with the Lord Jesus and we should speak of Him. I wondered if we might think of that and the effect on these persons of speaking of Jesus. One effect of this on John the baptist was that he spoke less and less about himself, and in his service he diverted from himself and directed to Jesus. Another effect was that two of his own disciples left him and followed Jesus. What a great thing to have that result!",
+      "Then we find that the effect on Peter was that he was prepared to go on in spite of diversion. And Mary was really brought to worship, (I suppose we could think of it in that way) she is so appreciative of the One who was to give everything for her. We can speak about the detail of it perhaps a little, but she was brought to lavish everything upon the One whom she loved. We have been well instructed as to our links with the Lord Jesus, that they begin with attraction and go on to attachment and finally reach affection. I wonder if just a hint of that would be in these three passages, but the brethren can bring out more of the wealth of these scriptures."
+     ]
     },
     {
-     "text": "Then we find that the effect on Peter was that he was prepared to go on in spite of diversion. And Mary was really brought to worship, (I suppose we could think of it in that way) she is so appreciative of the One who was to give everything for her. We can speak about the detail of it perhaps a little, but she was brought to lavish everything upon the One whom she loved. We have been well instructed as to our links with the Lord Jesus, that they begin with attraction and go on to attachment and finally reach affection. I wonder if just a hint of that would be in these three passages, but the brethren can bring out more of the wealth of these scriptures."
+     "speaker": "ECB",
+     "text": [
+      "I think what you are suggesting is vital to us all; in fact, I myself have found it extraordinarily refreshing to speak to others and find readiness to speak about the Lord. It is interesting that in John 1 the appreciation rests on seeing Him; in John 6 it seems to rest on hearing Him - \" thou hast words\". Is there something in that?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think what you are suggesting is vital to us all; in fact, I myself have found it extraordinarily refreshing to speak to others and find readiness to speak about the Lord. It is interesting that in John 1 the appreciation rests on seeing Him; in John 6 it seems to rest on hearing Him - \" thou hast words\". Is there something in that?"
+     "speaker": "JSG",
+     "text": [
+      "That is very good. John had this word; \"he who sent me to baptise with water, he said to me, Upon whom thou shalt see\"; that is to say, he had a word. I think we ought to try and carry one another along. It is a concern to me that we should all be together in the appreciation of the Lord Jesus personally. Our appreciation may be different, but, as you say, it is vital that we should have a view of Him in the way that divine appreciation is expressed."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very good. John had this word; \"he who sent me to baptise with water, he said to me, Upon whom thou shalt see\"; that is to say, he had a word. I think we ought to try and carry one another along. It is a concern to me that we should all be together in the appreciation of the Lord Jesus personally. Our appreciation may be different, but, as you say, it is vital that we should have a view of Him in the way that divine appreciation is expressed."
+     "speaker": "ECB",
+     "text": [
+      "Do you have in mind that we can multiply this by communicating to one another what our personal appreciation is?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you have in mind that we can multiply this by communicating to one another what our personal appreciation is?"
+     "speaker": "JSG",
+     "text": [
+      "There is bound to be an effect; I think that is a good way to put it, that there is a multiplying effect. It is easy to see that a living appreciation of the Lord Jesus in one and another will soon spread."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "There is bound to be an effect; I think that is a good way to put it, that there is a multiplying effect. It is easy to see that a living appreciation of the Lord Jesus in one and another will soon spread."
+     "speaker": "JCE",
+     "text": [
+      "It soon spread in the case of Mary; it says \"the house was filled with the odour of the ointment\". Does that show the multiplication of things when we exchange impressions of the Lord Jesus?"
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "It soon spread in the case of Mary; it says \"the house was filled with the odour of the ointment\". Does that show the multiplication of things when we exchange impressions of the Lord Jesus?"
+     "speaker": "JSG",
+     "text": [
+      "Yes, that is very good to have before us as something in view. We could draw one another along by considering that these things start, perhaps in a small way, with each of us being attracted to Jesus. We may be attracted to Him by what He has done for us, but we are to be attracted to Him, too, by what He is personally. This chapter brings that out."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Yes, that is very good to have before us as something in view. We could draw one another along by considering that these things start, perhaps in a small way, with each of us being attracted to Jesus. We may be attracted to Him by what He has done for us, but we are to be attracted to Him, too, by what He is personally. This chapter brings that out."
+     "speaker": "SH",
+     "text": [
+      "I was thinking of John the baptist's appreciation of Christ as the \"Lamb of God, who takes away the sin of the world\". Are we not taught that that goes on to new heavens and a new earth?"
+     ]
     },
     {
-     "speaker": "S.H.",
-     "text": "I was thinking of John the baptist's appreciation of Christ as the \"Lamb of God, who takes away the sin of the world\". Are we not taught that that goes on to new heavens and a new earth?"
+     "speaker": "JSG",
+     "text": [
+      "I think that would be right. Who else could take away the sin of the world? Another world must be in view, must it not? That is one effect of appreciating Jesus in this sacrificial way, that we see that He is the One who is to introduce an entirely new system, a new world for God, and we are to find our way into it now."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I think that would be right. Who else could take away the sin of the world? Another world must be in view, must it not? That is one effect of appreciating Jesus in this sacrificial way, that we see that He is the One who is to introduce an entirely new system, a new world for God, and we are to find our way into it now."
+     "speaker": "RT",
+     "text": [
+      "Does John show us power in service without anything official? Would that be a feature of being drawn to Christ like this?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Does John show us power in service without anything official? Would that be a feature of being drawn to Christ like this?"
+     "speaker": "JSG",
+     "text": [
+      "That is something we should seek, I am sure. The power would hang upon our being personally drawn to this wonderful Person who is presented in this chapter in the glory of who He is personally, His deity, and then as a Man."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is something we should seek, I am sure. The power would hang upon our being personally drawn to this wonderful Person who is presented in this chapter in the glory of who He is personally, His deity, and then as a Man."
+     "speaker": "RT",
+     "text": [
+      "Affection for the Lord may wane a bit and we fall back on status or what is official or something. That is just what has happened publicly and it is a very great danger, whereas the freshness of affection does not promote self at all, but we are able to speak in power about this blessed One."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Affection for the Lord may wane a bit and we fall back on status or what is official or something. That is just what has happened publicly and it is a very great danger, whereas the freshness of affection does not promote self at all, but we are able to speak in power about this blessed One."
+     "speaker": "JSG",
+     "text": [
+      "That is very good. I think it is the line of this gospel that John the apostle has taken account of public breakdown and he is saying to the saints that what is going to carry us through, what is going to maintain us in permanency, is an appreciation of the Son of God."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very good. I think it is the line of this gospel that John the apostle has taken account of public breakdown and he is saying to the saints that what is going to carry us through, what is going to maintain us in permanency, is an appreciation of the Son of God."
+     "speaker": "DAB",
+     "text": [
+      "We sometimes rather discount the two going to Emmaus, but when they were asked the subject of their conversation they said, \"The things concerning Jesus\" (Luke 24: 19), and that led directly into a unique manifestation of Himself. I wondered if such an experience is open to us this morning, if we follow the subject of their conversation."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "We sometimes rather discount the two going to Emmaus, but when they were asked the subject of their conversation they said, \"The things concerning Jesus\" (Luke 24: 19), and that led directly into a unique manifestation of Himself. I wondered if such an experience is open to us this morning, if we follow the subject of their conversation."
+     "speaker": "JSG",
+     "text": [
+      "Do you not think that the possibility exists today too, that just as they had a conversation on the way, when they came into the company they found there were others there who were saying, \"The Lord is indeed risen and has appeared to Simon\", Luke 24: 34? That leads on to expansion of what they had had for themselves but in a wider circle."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Do you not think that the possibility exists today too, that just as they had a conversation on the way, when they came into the company they found there were others there who were saying, \"The Lord is indeed risen and has appeared to Simon\", Luke 24: 34? That leads on to expansion of what they had had for themselves but in a wider circle."
+     "speaker": "DAB",
+     "text": [
+      "Yes, that sequence appears twice in this chapter - that there is conversation about Jesus, followed by a manifestation of Himself. I wondered if that is something we might in faith look for even in this conversation, that there might be a manifestation of Himself."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, that sequence appears twice in this chapter - that there is conversation about Jesus, followed by a manifestation of Himself. I wondered if that is something we might in faith look for even in this conversation, that there might be a manifestation of Himself."
+     "speaker": "JSG",
+     "text": [
+      "That is very helpful. That is what we look for."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very helpful. That is what we look for."
+     "speaker": "EOPM",
+     "text": [
+      "So they were in the same position as these people here: \"In the midst of you stands, whom ye do not know\". We may be coming to the meetings, we may be in the place where the Lord is manifesting Himself, and yet we may not know Him. You were speaking earlier as to encouraging one another. Maybe we need to pray, as the prophet did for the young man: \"open his eyes\" (2 Kings 6: 17), that we might know the Lord and see Him in the midst."
+     ]
     },
     {
-     "speaker": "E.O.P.M.",
-     "text": "So they were in the same position as these people here: \"In the midst of you stands, whom ye do not know\". We may be coming to the meetings, we may be in the place where the Lord is manifesting Himself, and yet we may not know Him. You were speaking earlier as to encouraging one another. Maybe we need to pray, as the prophet did for the young man: \"open his eyes\" (2 Kings 6: 17), that we might know the Lord and see Him in the midst."
+     "speaker": "JSG",
+     "text": [
+      "Very good. We might today become like one of these two disciples who followed Jesus, perhaps for the first time or in a fresh way. It is the effect of someone calling attention to Christ."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Very good. We might today become like one of these two disciples who followed Jesus, perhaps for the first time or in a fresh way. It is the effect of someone calling attention to Christ."
+     "speaker": "ECM",
+     "text": [
+      "The spreading effect is most attractive. Verse 41: \"We have found the Messias\" verse 45: We have found him of whom Moses wrote in the law, and the prophets\". That is a personal discovery in the affections of the believer which he can pass on as his own property."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "The spreading effect is most attractive. Verse 41: \"We have found the Messias\" verse 45: We have found him of whom Moses wrote in the law, and the prophets\". That is a personal discovery in the affections of the believer which he can pass on as his own property."
+     "speaker": "JSG",
+     "text": [
+      "That is very good, and I think it contrasts with what was just referred to. The practical question for us is whether we will find the Lord, whether we find Him in the ministry, whether we find Him in the Scriptures. I take it we all read the Scriptures: I am sure that as we commit ourselves to reading the word and look for Christ in it, we shall find expansion.",
+      "T.O. Would there be some suggestion of the passover lamb in what John is bringing out here as to the Lamb of God? As the lamb was brought into the house fora period of time, there would have been attraction and attachment to the lamb."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very good, and I think it contrasts with what was just referred to. The practical question for us is whether we will find the Lord, whether we find Him in the ministry, whether we find Him in the Scriptures. I take it we all read the Scriptures: I am sure that as we commit ourselves to reading the word and look for Christ in it, we shall find expansion."
+     "speaker": "JSG",
+     "text": [
+      "That is a good thought. The record of Jesus in the gospels is linked with what is presented there, that the lamb was in the house four days. The disciples were surrounding Jesus and they became very attached to Him. Peter speaks of that: \"Lord, to whom shall we go? thou hast words of life eternal\". They came to the point where they wondered how they would do without Him. I did wonder whether the reference here to \"the Lamb of God, who takes away the sin of the world\" would involve, too, what we have in Genesis 22, that is, \"God will provide himself with the sheep\" (v 8). Would it be right to say \"the Lamb of God\" would involve the Lamb provided by God in view of the great sacrif1c1al work that was needed?"
+     ]
     },
     {
-     "text": "T.O. Would there be some suggestion of the passover lamb in what John is bringing out here as to the Lamb of God? As the lamb was brought into the house fora period of time, there would have been attraction and attachment to the lamb."
+     "speaker": "ECB",
+     "text": [
+      "The Lamb of God: that is what God Himself has provided. I was thinking, as that was referred to, that this was an immediate impression of John. He did not have all the doctrine and teaching about it that we have. We immediately speak about the new heavens and earth, but John did not see all that. What John had was a personal impression of a Man."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is a good thought. The record of Jesus in the gospels is linked with what is presented there, that the lamb was in the house four days. The disciples were surrounding Jesus and they became very attached to Him. Peter speaks of that: \"Lord, to whom shall we go? thou hast words of life eternal\". They came to the point where they wondered how they would do without Him. I did wonder whether the reference here to \"the Lamb of God, who takes away the sin of the world\" would involve, too, what we have in Genesis 22, that is, \"God will provide himself with the sheep\" (v 8). Would it be right to say \"the Lamb of God\" would involve the Lamb provided by God in view of the great sacrif1c1al work that was needed?"
+     "speaker": "JSG",
+     "text": [
+      "He was occupied with death in the figure of it - baptising - but, as you say, what came before him in a living way was this wonderful Person in manhood."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The Lamb of God: that is what God Himself has provided. I was thinking, as that was referred to, that this was an immediate impression of John. He did not have all the doctrine and teaching about it that we have. We immediately speak about the new heavens and earth, but John did not see all that. What John had was a personal impression of a Man."
+     "speaker": "ECB",
+     "text": [
+      "Perhaps that kind of thing shows us how the Sprit will help to develop the fulness of our first impressions."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "He was occupied with death in the figure of it - baptising - but, as you say, what came before him in a living way was this wonderful Person in manhood."
+     "speaker": "JSG",
+     "text": [
+      "I am sure that is so, but the first impressions themselves are important. It is simple to say, but you cannot develop something that does not exist, and it is for all of us, however young or old we might be, to take and appropriate the precious impressions that are available of the Lord Jesus personally."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Perhaps that kind of thing shows us how the Sprit will help to develop the fulness of our first impressions."
+     "speaker": "PM",
+     "text": [
+      "Does John have a view, not only of what the Lord was able to do for him but of what He was doing for God? Does that help us to get a wide view of the glory of the Person? It is not just limited to myself."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I am sure that is so, but the first impressions themselves are important. It is simple to say, but you cannot develop something that does not exist, and it is for all of us, however young or old we might be, to take and appropriate the precious impressions that are available of the Lord Jesus personally."
+     "speaker": "JSG",
+     "text": [
+      "That is good. We sometimes distinguish - and rightly - between what he says in the early part about the sacrificial side and then his statement in verse 36. I was struck by the fact that his statement \"Behold the Lamb of God\" is like a spontaneous expression of adoration. He is so occupied with this Person as he sees Him walking, that he bursts out in this adoration."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Does John have a view, not only of what the Lord was able to do for him but of what He was doing for God? Does that help us to get a wide view of the glory of the Person? It is not just limited to myself."
+     "speaker": "HAH",
+     "text": [
+      "Why is John's first impression \"Behold the Lamb of God, who takes away the sin of the world\"? It is clear from the previous part of the chapter that he had had other impressions conveyed to him when he was sent on his mission. Do you think it lay in what you said as to his having to do with death in a figure, and that, if men were to be secured for God, it must be on a sacrificial basis?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is good. We sometimes distinguish - and rightly - between what he says in the early part about the sacrificial side and then his statement in verse 36. I was struck by the fact that his statement \"Behold the Lamb of God\" is like a spontaneous expression of adoration. He is so occupied with this Person as he sees Him walking, that he bursts out in this adoration."
+     "speaker": "JSG",
+     "text": [
+      "I think that would be the teaching of it. As was said, it is a question how much John understood, but I think that would be involved in it. John personally, while he fulfils the service he knew was committed to him, was occupied with the glory of the Person who was there. He sees Jesus coming to him - I suppose this was the Lord coming to him to be baptised - and he is just full of the glory of the Person who is approaching him."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Why is John's first impression \"Behold the Lamb of God, who takes away the sin of the world\"? It is clear from the previous part of the chapter that he had had other impressions conveyed to him when he was sent on his mission. Do you think it lay in what you said as to his having to do with death in a figure, and that, if men were to be secured for God, it must be on a sacrificial basis?"
+     "speaker": "HAH",
+     "text": [
+      "So whatever we may have in the way of service in preaching the gospel or whatever, our minds should be open all the time to receive some fresh impression."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I think that would be the teaching of it. As was said, it is a question how much John understood, but I think that would be involved in it. John personally, while he fulfils the service he knew was committed to him, was occupied with the glory of the Person who was there. He sees Jesus coming to him - I suppose this was the Lord coming to him to be baptised - and he is just full of the glory of the Person who is approaching him."
+     "speaker": "JSG",
+     "text": [
+      "I think that is good. We should have faith for what God is able to bring in. It is striking that John speaks of himself earlier as \"the voice\" (v 23). I have been struck with the fact - as has, of course, been called attention to - that we do not have in John's gospel the Father's voice at the baptism, but what we have is John the baptist as a voice down here expressing appreciation of the One who was in the mind of heaven. Would you say that?"
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "So whatever we may have in the way of service in preaching the gospel or whatever, our minds should be open all the time to receive some fresh impression."
+     "speaker": "HAH",
+     "text": [
+      "That is very fine."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I think that is good. We should have faith for what God is able to bring in. It is striking that John speaks of himself earlier as \"the voice\" (v 23). I have been struck with the fact - as has, of course, been called attention to - that we do not have in John's gospel the Father's voice at the baptism, but what we have is John the baptist as a voice down here expressing appreciation of the One who was in the mind of heaven. Would you say that?"
+     "speaker": "RT",
+     "text": [
+      "It says, \"because he was before me\"; is that referring to His deity?"
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "That is very fine."
+     "speaker": "JSG",
+     "text": [
+      "I think it is, and do you not think that is the vital starting point? You can have a link with every true Christian on the ground of what Jesus is personally in this way. It is a privilege, but is it not a test, as to a link with every Christian? But if you presented the wonderful truth of the opening of this chapter, you would soon find a true believer, would you not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It says, \"because he was before me\"; is that referring to His deity?"
+     "speaker": "JM",
+     "text": [
+      "Because of His deity, when He comes into manhood He must take precedence over every other man. Is that not an important thing to realise?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I think it is, and do you not think that is the vital starting point? You can have a link with every true Christian on the ground of what Jesus is personally in this way. It is a privilege, but is it not a test, as to a link with every Christian? But if you presented the wonderful truth of the opening of this chapter, you would soon find a true believer, would you not?"
+     "speaker": "JSG",
+     "text": [
+      "Very important indeed. That is one of the main things about John the baptist - \"He was before me\"; and the effect on him was that he just wanted to be out of sight to make way for this wonderful Person. They ask him about himself, but his words are fewer and fewer each time."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Because of His deity, when He comes into manhood He must take precedence over every other man. Is that not an important thing to realise?"
+     "speaker": "DAB",
+     "text": [
+      "Would you say something more about the Father's voice? That is a fresh thought to me. Is it in your mind that although the Father had spoken, that speaking had had an effect in John?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Very important indeed. That is one of the main things about John the baptist - \"He was before me\"; and the effect on him was that he just wanted to be out of sight to make way for this wonderful Person. They ask him about himself, but his words are fewer and fewer each time."
+     "speaker": "JSG",
+     "text": [
+      "That is one of the points in mind. I wondered if it would show us how the Father is looking for the development of this appreciation on our side, to consider that in this record we do not actually have the Father' s voice in expression although, of course, it was there, as you say; but we have a man, not only in the personal appreciation of the One who was the Lamb of God and the Son of God, but expressing it, and, obviously, by the result, seeking that it might have an effect on others."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Would you say something more about the Father's voice? That is a fresh thought to me. Is it in your mind that although the Father had spoken, that speaking had had an effect in John?"
+     "speaker": "EP",
+     "text": [
+      "It is a remarkable thing that John says, \"A man comes after me”, and then he says, \"who takes a place before me, because he was before me\". It is a Man, and I wondered if that would help us to see how available such an one as Jesus is to each one of us."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is one of the points in mind. I wondered if it would show us how the Father is looking for the development of this appreciation on our side, to consider that in this record we do not actually have the Father' s voice in expression although, of course, it was there, as you say; but we have a man, not only in the personal appreciation of the One who was the Lamb of God and the Son of God, but expressing it, and, obviously, by the result, seeking that it might have an effect on others."
+     "speaker": "JSG",
+     "text": [
+      "Very good. How gracious of Jesus to be there in the midst of persons, although personally so great yet prepared to be unknown! \"He came to his own, and his own received him not\" (v 11). As you say, he says, \"A man comes after me who takes a place before me\". Well, this is the Man whom God appreciates and He is the One who is the source of interest and appreciation for us."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "It is a remarkable thing that John says, \"A man comes after me”, and then he says, \"who takes a place before me, because he was before me\". It is a Man, and I wondered if that would help us to see how available such an one as Jesus is to each one of us."
+     "speaker": "EP",
+     "text": [
+      "I am affected by a deepening impression of who He is, yet at the same time we can have a sense of real liberty in having to do with Him, even the youngest. He is a Man who has the feelings and affections and, I suppose we could say, the moral beauty of a Man who is unique. That just impresses me, that such a One as He is available to us here today."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Very good. How gracious of Jesus to be there in the midst of persons, although personally so great yet prepared to be unknown! \"He came to his own, and his own received him not\" (v 11). As you say, he says, \"A man comes after me who takes a place before me\". Well, this is the Man whom God appreciates and He is the One who is the source of interest and appreciation for us."
+     "speaker": "JSG",
+     "text": [
+      "John says - it is interesting to me. I think the young people should be interested in this - \"the thong of whose sandal I am not worthy to unloose\". Of the least service you can think of, John says, I am not really worthy to perform that service to this glorious Person, He is so great."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I am affected by a deepening impression of who He is, yet at the same time we can have a sense of real liberty in having to do with Him, even the youngest. He is a Man who has the feelings and affections and, I suppose we could say, the moral beauty of a Man who is unique. That just impresses me, that such a One as He is available to us here today."
+     "speaker": "ECB",
+     "text": [
+      "In regard again to what you said as to the Father's voice not being here, do you think it is of interest (John's gospel, as we understand, being the last part of Scripture written) that it really brings out the test to us, not what is the Father saying about Christ, but what are we saying about Christ?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "John says - it is interesting to me. I think the young people should be interested in this - \"the thong of whose sandal I am not worthy to unloose\". Of the least service you can think of, John says, I am not really worthy to perform that service to this glorious Person, He is so great."
+     "speaker": "JSG",
+     "text": [
+      "That is what is in mind I think, and we are tested as you say - I am tested - but the Spirit is available. We have an array of titles in this chapter to show that there is infinite variety in the beauty and perfection of Jesus for us to explore, and the Spirit is always ready."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "In regard again to what you said as to the Father's voice not being here, do you think it is of interest (John's gospel, as we understand, being the last part of Scripture written) that it really brings out the test to us, not what is the Father saying about Christ, but what are we saying about Christ?"
+     "speaker": "ECB",
+     "text": [
+      "I was wondering if there was any connection with the beginning of Hebrews, that in these last days God \"has spoken to us in the person of the Son\", chap 1: 2. So it becomes a question of how much you appreciate the Son."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is what is in mind I think, and we are tested as you say - I am tested - but the Spirit is available. We have an array of titles in this chapter to show that there is infinite variety in the beauty and perfection of Jesus for us to explore, and the Spirit is always ready."
+     "speaker": "JSG",
+     "text": [
+      "Quite so, and that chapter goes on to contrast the Son personally with angels; he says \"as to the Son\" (v 8). What can we say as to the Son? Is that your point?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I was wondering if there was any connection with the beginning of Hebrews, that in these last days God \"has spoken to us in the person of the Son\", chap 1: 2. So it becomes a question of how much you appreciate the Son."
+     "speaker": "ECB",
+     "text": [
+      "Yes. Perhaps I can ask another question, because I am sure we all feel the need of considerable help in these things. Can you help us, even from your own experience, as to how we catch impressions of Christ?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Quite so, and that chapter goes on to contrast the Son personally with angels; he says \"as to the Son\" (v 8). What can we say as to the Son? Is that your point?"
+     "speaker": "JSG",
+     "text": [
+      "Well, the older brethren would be better ones to speak about that, but - perhaps it is too simple to say - I do not think we should limit our thought of receiving impressions and be ready at any time. I think impressions of Christ are received when our affections are ready for movement. Is that any help?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes. Perhaps I can ask another question, because I am sure we all feel the need of considerable help in these things. Can you help us, even from your own experience, as to how we catch impressions of Christ?"
+     "speaker": "ECB",
+     "text": [
+      "I am sure that is right. One thing that will hinder us is becoming self-conscious about it, but we need that spirit of receptiveness which is very closely connected with faith, is it not?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Well, the older brethren would be better ones to speak about that, but - perhaps it is too simple to say - I do not think we should limit our thought of receiving impressions and be ready at any time. I think impressions of Christ are received when our affections are ready for movement. Is that any help?"
+     "speaker": "JSG",
+     "text": [
+      "I think it is."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I am sure that is right. One thing that will hinder us is becoming self-conscious about it, but we need that spirit of receptiveness which is very closely connected with faith, is it not?"
+     "speaker": "DER",
+     "text": [
+      "And with the Spirit, because what we are saying challenges each one of us as to how free the Spirit is with us, because He will occupy us with Christ. That is the service He loves to render."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I think it is."
+     "speaker": "JSG",
+     "text": [
+      "That is right. I think that would link with what we have here as to the Spirit's activity. Here is One on whom the Spirit can descend as a dove and abide upon Him. He is the One with whom the Spirit is continually seeking to engage the saints, but, as you say, on our side liberty with the Spirit must enter into our readiness to receive divine impressions."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "And with the Spirit, because what we are saying challenges each one of us as to how free the Spirit is with us, because He will occupy us with Christ. That is the service He loves to render."
+     "speaker": "LAB",
+     "text": [
+      "While we do not get the Father's voice here, there is stress laid on the Spirit, that is, the Spirit descending as a dove, and the Lord as the One who baptises with the Holy Spirit. In John's gospel, as the Lord leaves the saints, He lays considerable stress on the Spirit, as though that is the secret, because the Spirit appreciates Christ, and He would help us practically in our appreciation of Him."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is right. I think that would link with what we have here as to the Spirit's activity. Here is One on whom the Spirit can descend as a dove and abide upon Him. He is the One with whom the Spirit is continually seeking to engage the saints, but, as you say, on our side liberty with the Spirit must enter into our readiness to receive divine impressions."
+     "speaker": "JSG",
+     "text": [
+      "That is good. I am sure we should lay hold of that, that there is a sphere in which the Holy Spirit is active now. If we have faith we shall apprehend it, and then, as you say, ourselves make room for the Holy Spirit's liberty in each of us, so that as together - these occasions of being together are great privileges - the Spirit might be free to increase our apprehension of the glory of this Person."
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "While we do not get the Father's voice here, there is stress laid on the Spirit, that is, the Spirit descending as a dove, and the Lord as the One who baptises with the Holy Spirit. In John's gospel, as the Lord leaves the saints, He lays considerable stress on the Spirit, as though that is the secret, because the Spirit appreciates Christ, and He would help us practically in our appreciation of Him."
+     "speaker": "WHS",
+     "text": [
+      "Verse 33 stresses what has just been said: \"Upon whom thou shall see\" – thou shalt see. Will not the Spirit always engage us with Christ if we have liberty with Him, and does that not involve what our links are with the Holy Spirit personally and privately, young and old?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is good. I am sure we should lay hold of that, that there is a sphere in which the Holy Spirit is active now. If we have faith we shall apprehend it, and then, as you say, ourselves make room for the Holy Spirit's liberty in each of us, so that as together - these occasions of being together are great privileges - the Spirit might be free to increase our apprehension of the glory of this Person."
+     "speaker": "JSG",
+     "text": [
+      "It does raise that question; but we prove, do we not, that the Spirit prompts us and guides us? We may say, Well, I thought of that scripture before; but I think the way Old Testament scriptures are brought in in quotation in the New is to show among other things that you can have a fresh view, and the Spirit is ready to give us a fresh view. I think that is where liberty with the Spirit will help us towards this thought of expansion that has been referred to."
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "Verse 33 stresses what has just been said: \"Upon whom thou shall see\" – thou shalt see. Will not the Spirit always engage us with Christ if we have liberty with Him, and does that not involve what our links are with the Holy Spirit personally and privately, young and old?"
+     "speaker": "WHS",
+     "text": [
+      "You would not restrict these impressions to what we get in the meetings only, would you?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "It does raise that question; but we prove, do we not, that the Spirit prompts us and guides us? We may say, Well, I thought of that scripture before; but I think the way Old Testament scriptures are brought in in quotation in the New is to show among other things that you can have a fresh view, and the Spirit is ready to give us a fresh view. I think that is where liberty with the Spirit will help us towards this thought of expansion that has been referred to."
+     "speaker": "JSG",
+     "text": [
+      "Not at all."
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "You would not restrict these impressions to what we get in the meetings only, would you?"
+     "speaker": "WHS",
+     "text": [
+      "I believe Mr Lyon used to say that our conversations in the home should not be all that different from a reading meeting. What do you say about that?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Not at all."
+     "speaker": "JSG",
+     "text": [
+      "What I would say is that we are being attracted into what the Spirit has in mind. Let us keep it before us!"
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "I believe Mr Lyon used to say that our conversations in the home should not be all that different from a reading meeting. What do you say about that?"
+     "speaker": "PM",
+     "text": [
+      "We spoke at the beginning of the effect of a view of Christ. Would an impression received by the Spirit in exercise produce an effect? We would become conformed to the One whom we behold. It can only be by the Spirit that we behold Him, and only by the Spirit that we are affected by Him."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "What I would say is that we are being attracted into what the Spirit has in mind. Let us keep it before us!"
+     "speaker": "JSG",
+     "text": [
+      "I am sure it is the Spirit's work. There is no doubt about that."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "We spoke at the beginning of the effect of a view of Christ. Would an impression received by the Spirit in exercise produce an effect? We would become conformed to the One whom we behold. It can only be by the Spirit that we behold Him, and only by the Spirit that we are affected by Him."
+     "speaker": "DAB",
+     "text": [
+      "Really the greatness lies not in my impression, which might be limited to my measure, but in the One of whom it is an impression."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I am sure it is the Spirit's work. There is no doubt about that."
+     "speaker": "JSG",
+     "text": [
+      "Quite so. He is the Son of God. Wonderful thing! I suppose that refers to His deity primarily here, does it not?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Really the greatness lies not in my impression, which might be limited to my measure, but in the One of whom it is an impression."
+     "speaker": "ECB",
+     "text": [
+      "I think so. We have had teaching as to the Lord's titles and names but I think that is what John has in mind. As to the Spirit, I was thinking of the reference in chapter 16: \"He shall glorify me, for he shall receive of mine and shall announce it to you\" (v 14). I wondered, even for myself - although I have had impressions of that scripture which bear on what spiritual blessings are communicated to us - whether \"he shall receive of mine\" is the whole range of titles of the glory of Christ as glorified."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Quite so. He is the Son of God. Wonderful thing! I suppose that refers to His deity primarily here, does it not?"
+     "speaker": "JSG",
+     "text": [
+      "Quite so; John writes his gospel in the light of Christ glorified. But that scripture you refer to involves that, while the truth is revealed, yet the Spirit is available for the unfolding of further glories in our apprehension."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think so. We have had teaching as to the Lord's titles and names but I think that is what John has in mind. As to the Spirit, I was thinking of the reference in chapter 16: \"He shall glorify me, for he shall receive of mine and shall announce it to you\" (v 14). I wondered, even for myself - although I have had impressions of that scripture which bear on what spiritual blessings are communicated to us - whether \"he shall receive of mine\" is the whole range of titles of the glory of Christ as glorified."
+     "speaker": "ECB",
+     "text": [
+      "Yes, and it says, \"he will announce to you what is coming\" (v 13). Now what is coming for the believer is the public manifestation of the glory of Jesus."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Quite so; John writes his gospel in the light of Christ glorified. But that scripture you refer to involves that, while the truth is revealed, yet the Spirit is available for the unfolding of further glories in our apprehension."
+     "speaker": "JSG",
+     "text": [
+      "Is that in our hearts?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, and it says, \"he will announce to you what is coming\" (v 13). Now what is coming for the believer is the public manifestation of the glory of Jesus."
+     "speaker": "ECB",
+     "text": [
+      "It is the morning star, is it not?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Is that in our hearts?"
+     "speaker": "JSG",
+     "text": [
+      "Quite so. What I was thinking was that, if our hearts are affected by the prospect of the glory of Christ publicly, then there will be an effect in us."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is the morning star, is it not?"
+     "speaker": "SDKR",
+     "text": [
+      "If we loved a person, we would like to speak about them: it would not be difficult. Now, what would help us in real affection for Christ?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Quite so. What I was thinking was that, if our hearts are affected by the prospect of the glory of Christ publicly, then there will be an effect in us."
+     "speaker": "JSG",
+     "text": [
+      "You are going on to chapter 12, I think. Give us an impression yourself."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "If we loved a person, we would like to speak about them: it would not be difficult. Now, what would help us in real affection for Christ?"
+     "speaker": "SDKR",
+     "text": [
+      "Would it be occupation by the Spirit, as we have been saying, with His love for us?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "You are going on to chapter 12, I think. Give us an impression yourself."
+     "speaker": "JSG",
+     "text": [
+      "I think it would be. In chapter 6 Peter does not simply say, 'We have believed'; he says, \"we have believed and known\". Now that was experimental, was it not? He had found that here was One who had \"words of life eternal\". The things that Jesus spoke were in relation to another scene entirely, a scene to which He was leading. I suppose it was the scene to which Jesus was walking in chapter 1. We do not want to stretch the scripture, but we want to think of what John has in mind in calling attention to Jesus walking and the Baptist saying \"Behold the Lamb of God\"."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Would it be occupation by the Spirit, as we have been saying, with His love for us?"
+     "speaker": "ECB",
+     "text": [
+      "I do not think that is too much of a stretch; in fact I find it very interesting. It bears on chapter 10, that where He leads the sheep is into eternal life and the knowledge of the unity of the Father and the Son."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I think it would be. In chapter 6 Peter does not simply say, 'We have believed'; he says, \"we have believed and known\". Now that was experimental, was it not? He had found that here was One who had \"words of life eternal\". The things that Jesus spoke were in relation to another scene entirely, a scene to which He was leading. I suppose it was the scene to which Jesus was walking in chapter 1. We do not want to stretch the scripture, but we want to think of what John has in mind in calling attention to Jesus walking and the Baptist saying \"Behold the Lamb of God\"."
+     "speaker": "JSG",
+     "text": [
+      "Well, what is it that is going to cause us to have affection for the Lord Jesus? One thing is what He has done for us. John says \"Behold the Lamb of God, who takes away the sin of the world\". That has an effect on me. That is one thing. And then what He is personally as here for God is another; and then He is walking. He has a sphere of blessing and abiding in view. These things would attract us to have affection for Him."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I do not think that is too much of a stretch; in fact I find it very interesting. It bears on chapter 10, that where He leads the sheep is into eternal life and the knowledge of the unity of the Father and the Son."
+     "speaker": "RT",
+     "text": [
+      "It would encourage us that the whole Trinity is active in relation to our being developed in affection for Christ. What we have here is the Father drawing persons to Christ, and the Spirit descending on Christ to mark Him out in His lowly manhood here, to magnify Him in our eyes. The whole Trinity is active in order that we may be drawn into this realm of things."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Well, what is it that is going to cause us to have affection for the Lord Jesus? One thing is what He has done for us. John says \"Behold the Lamb of God, who takes away the sin of the world\". That has an effect on me. That is one thing. And then what He is personally as here for God is another; and then He is walking. He has a sphere of blessing and abiding in view. These things would attract us to have affection for Him."
+     "speaker": "JSG",
+     "text": [
+      "That is good. I think it would be good if we had a deeper impression of the holiness of the activities of the Persons of the Trinity, so that we might not be casual as to our assemblings or what takes place in them."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It would encourage us that the whole Trinity is active in relation to our being developed in affection for Christ. What we have here is the Father drawing persons to Christ, and the Spirit descending on Christ to mark Him out in His lowly manhood here, to magnify Him in our eyes. The whole Trinity is active in order that we may be drawn into this realm of things."
+     "speaker": "RT",
+     "text": [
+      "A great deal lies behind our being drawn to Christ that we had no hand in or knew anything about: \"The wind blows where it will\", John 3: 8. We do not know whence it comes or where it goes, the Father's actions even before we were born. All this entering into these things should soften us and prevent us from being fashioned after things around us, do you think?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is good. I think it would be good if we had a deeper impression of the holiness of the activities of the Persons of the Trinity, so that we might not be casual as to our assemblings or what takes place in them."
+     "speaker": "JSG",
+     "text": [
+      "Yes, that is very good. \"I knew him not, but he who sent me to baptise with water, he said to me\". John was sure about this Person because he had had a divine communication."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "A great deal lies behind our being drawn to Christ that we had no hand in or knew anything about: \"The wind blows where it will\", John 3: 8. We do not know whence it comes or where it goes, the Father's actions even before we were born. All this entering into these things should soften us and prevent us from being fashioned after things around us, do you think?"
+     "speaker": "JM",
+     "text": [
+      "It seems clear from that chapter that there was a tremendous amount of communication to John, so that things are clarified to him, and not only clarified, but they are cumulative. I think that, as one impression is received, the Father and the Spirit are ready to give further impressions and to clarify matters so that our view of Christ is clear. That is what comes on to view in chapter 1."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Yes, that is very good. \"I knew him not, but he who sent me to baptise with water, he said to me\". John was sure about this Person because he had had a divine communication."
+     "speaker": "JSG",
+     "text": [
+      "That is very good. It links with what we have said earlier as to multiplication, that as we are dependent on the Spirit and put ourselves in this line, there is no saying what expansion can take place."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "It seems clear from that chapter that there was a tremendous amount of communication to John, so that things are clarified to him, and not only clarified, but they are cumulative. I think that, as one impression is received, the Father and the Spirit are ready to give further impressions and to clarify matters so that our view of Christ is clear. That is what comes on to view in chapter 1."
+     "speaker": "JM",
+     "text": [
+      "In chapter 6 Peter says \"words of life eternal\". That must have been something inward in him; but then he goes on to say, \"We have believed and known that thou art the holy one of God\". What would you say about the \"holy one of God\"?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very good. It links with what we have said earlier as to multiplication, that as we are dependent on the Spirit and put ourselves in this line, there is no saying what expansion can take place."
+     "speaker": "JSG",
+     "text": [
+      "Well, we should enquire together. There are others who can say a great deal about it, but the holy, - \"the holy one of God\" - should affect us. Peter was clearly moved by this strong impression · no doubt it was the teaching of Jesus and the way He spoke that had affected him. As to the teaching of it, I suppose that we could link it with the address to the church in Philadelphia where we have, \"These things saith the holy, the true; he that has the key of David\", Rev 3: 7. It seems to me that the thought of \"the holy one of God\" is connected, if we link scriptures together, with the Lord having service towards God before Him. I think the \"key of David\" in Philadelphia would perhaps confirm that. What would you say?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "In chapter 6 Peter says \"words of life eternal\". That must have been something inward in him; but then he goes on to say, \"We have believed and known that thou art the holy one of God\". What would you say about the \"holy one of God\"?"
+     "speaker": "JM",
+     "text": [
+      "That helps. It has been linked with the true Aaron, which I think would bear on what you say, the breast plate. It is the ability not only to maintain the saints here in testimony but to carry them into the service of God."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Well, we should enquire together. There are others who can say a great deal about it, but the holy, - \"the holy one of God\" - should affect us. Peter was clearly moved by this strong impression · no doubt it was the teaching of Jesus and the way He spoke that had affected him. As to the teaching of it, I suppose that we could link it with the address to the church in Philadelphia where we have, \"These things saith the holy, the true; he that has the key of David\", Rev 3: 7. It seems to me that the thought of \"the holy one of God\" is connected, if we link scriptures together, with the Lord having service towards God before Him. I think the \"key of David\" in Philadelphia would perhaps confirm that. What would you say?"
+     "speaker": "EC",
+     "text": [
+      "B. The Psalm says, \"Thou spakest in vision of thy Holy One\", Ps 89: 19. I thought that connected with what you said earlier as to the way in which things are brought forward from the Old Testament into another context, but they show that God always had them in mind. Genesis 22 has been referred to in regard to the Lamb of God; \"thou spakest in vision of thy Holy One\" is as if God always had in mind that there would be a Man here of whom He could thus speak."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "That helps. It has been linked with the true Aaron, which I think would bear on what you say, the breast plate. It is the ability not only to maintain the saints here in testimony but to carry them into the service of God."
+     "speaker": "JSG",
+     "text": [
+      "That is very good. Are there other examples in the New Testament of how the glory of Christ is brought forward?"
+     ]
     },
     {
-     "speaker": "E.C",
-     "text": "B. The Psalm says, \"Thou spakest in vision of thy Holy One\", Ps 89: 19. I thought that connected with what you said earlier as to the way in which things are brought forward from the Old Testament into another context, but they show that God always had them in mind. Genesis 22 has been referred to in regard to the Lamb of God; \"thou spakest in vision of thy Holy One\" is as if God always had in mind that there would be a Man here of whom He could thus speak."
+     "speaker": "ECB",
+     "text": [
+      "Hebrews 1 already referred to brings out how thoughts as to Christ in the Old Testament prophetically are enlarged once He has come into manhood in order to be the expression of these thoughts. But I was thinking, \"thou spakest in vision\", that is, God could always see His Holy One, but here He is."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very good. Are there other examples in the New Testament of how the glory of Christ is brought forward?"
+     "speaker": "JSG",
+     "text": [
+      "It must have been a great pleasure to the Father to see, even in a small circle, appreciation of the One whom He had always had before Him and who had now come into manhood - and appreciation expressed."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Hebrews 1 already referred to brings out how thoughts as to Christ in the Old Testament prophetically are enlarged once He has come into manhood in order to be the expression of these thoughts. But I was thinking, \"thou spakest in vision\", that is, God could always see His Holy One, but here He is."
+     "speaker": "ECB",
+     "text": [
+      "I was thinking of the earlier verse in chapter 6: \"No one can come to me except the Father who has sent me draw him \" (v 44). It is not the Father's compelling - although there is compulsion in it - but the Father draws people into an appreciation of the Son which He has Himself."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "It must have been a great pleasure to the Father to see, even in a small circle, appreciation of the One whom He had always had before Him and who had now come into manhood - and appreciation expressed."
+     "speaker": "JSG",
+     "text": [
+      "Very good; and according to Matthew the Lord says to Peter - I suppose it might have been a different occasion from this - \"Flesh and blood has not revealed it to thee, but my Father\", chap 16: 17."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I was thinking of the earlier verse in chapter 6: \"No one can come to me except the Father who has sent me draw him \" (v 44). It is not the Father's compelling - although there is compulsion in it - but the Father draws people into an appreciation of the Son which He has Himself."
+     "speaker": "ECM",
+     "text": [
+      "It is His distinctive glory that affects our hearts, what is distinctive in Christ."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Very good; and according to Matthew the Lord says to Peter - I suppose it might have been a different occasion from this - \"Flesh and blood has not revealed it to thee, but my Father\", chap 16: 17."
+     "speaker": "JSG",
+     "text": [
+      "Yes, quite so, there was no one like Him."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "It is His distinctive glory that affects our hearts, what is distinctive in Christ."
+     "speaker": "ECM",
+     "text": [
+      "I thought of your reference to Him \"who takes away the sin of the world\"; no one else could do that."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Yes, quite so, there was no one like Him."
+     "speaker": "JSG",
+     "text": [
+      "Who else could do it? And Peter says, \"to whom shall we go?\". Who has words of eternal life like Jesus? Who has teaching of this character? Who is a holy Person such as this, \"the holy one of God\"?"
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "I thought of your reference to Him \"who takes away the sin of the world\"; no one else could do that."
+     "speaker": "DAB",
+     "text": [
+      "The reference in Psalm 89 is related to the anointing of David, is it not? \"Then Thou spakest.\" I was wondering if we could say that it is characteristic of God that He speaks as looking on Jesus; that is, that every word He speaks is coloured by the glorious Person who fills His heart, so that He says, \"Arise, anoint him; for this is he\", 1 Sam 16: 12. Samuel was looking at David, but God was really looking at Christ."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Who else could do it? And Peter says, \"to whom shall we go?\". Who has words of eternal life like Jesus? Who has teaching of this character? Who is a holy Person such as this, \"the holy one of God\"?"
+     "speaker": "JSG",
+     "text": [
+      "That is very good. It would link with what God presents in the figure in the tabernacle system as to the ark, that God is looking down upon the ark, and communicates there; \"there will I meet with thee, and will speak with thee\", Exod 25: 22. Every communication from God to the people was in connection with the ark. Would that link?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The reference in Psalm 89 is related to the anointing of David, is it not? \"Then Thou spakest.\" I was wondering if we could say that it is characteristic of God that He speaks as looking on Jesus; that is, that every word He speaks is coloured by the glorious Person who fills His heart, so that He says, \"Arise, anoint him; for this is he\", 1 Sam 16: 12. Samuel was looking at David, but God was really looking at Christ."
+     "speaker": "DAB",
+     "text": [
+      "The tabernacle system was something for the wilderness, but the pattern from which it was built was in heaven. The thing itself was above and it was really God looking at Christ in the midst of His saints, was it not? He describes this plan that was built in the wilderness but the real thing was Christ in the midst of His people."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very good. It would link with what God presents in the figure in the tabernacle system as to the ark, that God is looking down upon the ark, and communicates there; \"there will I meet with thee, and will speak with thee\", Exod 25: 22. Every communication from God to the people was in connection with the ark. Would that link?"
+     "speaker": "JSG",
+     "text": [
+      "Yes, very good. Do you not think we should consider, in the light of these things, and as those upon whom the ends of the ages have come, what appreciation we have of all that has come out?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The tabernacle system was something for the wilderness, but the pattern from which it was built was in heaven. The thing itself was above and it was really God looking at Christ in the midst of His saints, was it not? He describes this plan that was built in the wilderness but the real thing was Christ in the midst of His people."
+     "speaker": "ECB",
+     "text": [
+      "I think that one of the principle questions of the present moment of the testimony is, what appreciation do people have of Christ? I refer to what was said earlier that these are not only things we get in the' meeting. I find I get most impressions by conversation with another believer."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Yes, very good. Do you not think we should consider, in the light of these things, and as those upon whom the ends of the ages have come, what appreciation we have of all that has come out?"
+     "speaker": "JSG",
+     "text": [
+      "That is very good; that is what we should look for. I think we should consider this question of \"we have believed and known\". What is our experience with the Lord Jesus personally? However small it may appear to be, let us discover from our own experience with Him that He is the holy one of God\". He has holy things in mind on God's behalf, and He is ready to lead us into them if we are ready to go."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think that one of the principle questions of the present moment of the testimony is, what appreciation do people have of Christ? I refer to what was said earlier that these are not only things we get in the' meeting. I find I get most impressions by conversation with another believer."
+     "speaker": "RT",
+     "text": [
+      "Peter's first word in regard to his question is \"Lord\". Does that not show that his appreciation had become formative in his soul?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very good; that is what we should look for. I think we should consider this question of \"we have believed and known\". What is our experience with the Lord Jesus personally? However small it may appear to be, let us discover from our own experience with Him that He is the holy one of God\". He has holy things in mind on God's behalf, and He is ready to lead us into them if we are ready to go."
+     "speaker": "JSG",
+     "text": [
+      "Very good. That was the Person they had companied with. That was the Person whose teaching they had listened to, the One who had been despised all through, especially according to this gospel, and He was the One whose words had been considered hard; but Peter says, These words of Jesus are words of life eternal."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Peter's first word in regard to his question is \"Lord\". Does that not show that his appreciation had become formative in his soul?"
+     "speaker": "WHS",
+     "text": [
+      "I wondered if what is said in chapter 3 has a bearing on what we are speaking about: \"He who comes out of heaven is above all, and what he has seen and has heard this he testifies\" (vv 31, 32). We were speaking of the Father's appreciation of Christ; a Man has come in who, if I may say reverently, has an understanding of what is completely above, what is heavenly: \"what he has seen and has heard, this he testifies\"."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Very good. That was the Person they had companied with. That was the Person whose teaching they had listened to, the One who had been despised all through, especially according to this gospel, and He was the One whose words had been considered hard; but Peter says, These words of Jesus are words of life eternal."
+     "speaker": "JSG",
+     "text": [
+      "Who is greater than the One who comes out of heaven? He is above all."
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "I wondered if what is said in chapter 3 has a bearing on what we are speaking about: \"He who comes out of heaven is above all, and what he has seen and has heard this he testifies\" (vv 31, 32). We were speaking of the Father's appreciation of Christ; a Man has come in who, if I may say reverently, has an understanding of what is completely above, what is heavenly: \"what he has seen and has heard, this he testifies\"."
+     "speaker": "WHS",
+     "text": [
+      "Does that lie behind these words of life eternal, so to speak - One who has come in and understands all that relates to the Father's affections and the Father's sphere and where He abode? Reference was made to that at the beginning of the meeting: \"where abidest thou? \""
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Who is greater than the One who comes out of heaven? He is above all."
+     "speaker": "JSG",
+     "text": [
+      "Quite so, I am sure that would enter into it. The teaching is demanding in this chapter, but the Lord is ready if we are ready. I think \"the words\" would involve detail, the unfolding of teaching, detailed teaching from the Lord Jesus which He is prepared to unfold to us step by step."
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "Does that lie behind these words of life eternal, so to speak - One who has come in and understands all that relates to the Father's affections and the Father's sphere and where He abode? Reference was made to that at the beginning of the meeting: \"where abidest thou? \""
+     "speaker": "RT",
+     "text": [
+      "It would be every day, would it not? You would not get the \"words of life eternal\" anywhere else, but there would be something there every day that held them in this affection because affection needs nourishing, and it is nourished in company."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Quite so, I am sure that would enter into it. The teaching is demanding in this chapter, but the Lord is ready if we are ready. I think \"the words\" would involve detail, the unfolding of teaching, detailed teaching from the Lord Jesus which He is prepared to unfold to us step by step."
+     "speaker": "JSG",
+     "text": [
+      "What you are saying links with what Peter is saying, \"To whom shall we go?\". Is there anything that we find more attractive outside the Lord Jesus Himself and His teaching?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It would be every day, would it not? You would not get the \"words of life eternal\" anywhere else, but there would be something there every day that held them in this affection because affection needs nourishing, and it is nourished in company."
+     "speaker": "EC",
+     "text": [
+      "As to that expression \"holy one of God\" Mr Darby has a very fine note in which he refers to the holiness of Christ as One 'in whom all gracious qualities are concentrated, as well as perfect piety', (see Heb 7: 26). I wonder if that helps us to realise who He is."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "What you are saying links with what Peter is saying, \"To whom shall we go?\". Is there anything that we find more attractive outside the Lord Jesus Himself and His teaching?"
+     "speaker": "JSG",
+     "text": [
+      "That is very good. We must look at that. That is very precious, the appreciation which God had of that One in manhood. Well, it is great grace that things are put on record and brought into expression for us to apprehend, but the appreciation that God had of Christ is always beyond ours."
+     ]
     },
     {
-     "speaker": "E.C.",
-     "text": "As to that expression \"holy one of God\" Mr Darby has a very fine note in which he refers to the holiness of Christ as One 'in whom all gracious qualities are concentrated, as well as perfect piety', (see Heb 7: 26). I wonder if that helps us to realise who He is."
+     "speaker": "DER",
+     "text": [
+      "While this is personal, the attachment is to the Person, not to a company, or anything else. You might like to say something as to that."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very good. We must look at that. That is very precious, the appreciation which God had of that One in manhood. Well, it is great grace that things are put on record and brought into expression for us to apprehend, but the appreciation that God had of Christ is always beyond ours."
+     "speaker": "JSG",
+     "text": [
+      "That is very important and quite right. If we link the thought of attachment with this section in chapter 6, as you say, it is not a question of companies or anything else like that but of personal attachment to Him. Of course, it involves that we will know where to go because we are following Jesus, and the reason for that is that He has the words that we need, the words that the Father is unfolding through Him; but what you say is very important, it must be attachment to Him personally."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "While this is personal, the attachment is to the Person, not to a company, or anything else. You might like to say something as to that."
+     "speaker": "DAB",
+     "text": [
+      "It is not 'to whom shall I go?'; it is, to whom shall we go?\". This is the basis of true fellowship with one another, that we have found Somebody who is the centre of everything for God and that we have been attracted to Him and attached to Him."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very important and quite right. If we link the thought of attachment with this section in chapter 6, as you say, it is not a question of companies or anything else like that but of personal attachment to Him. Of course, it involves that we will know where to go because we are following Jesus, and the reason for that is that He has the words that we need, the words that the Father is unfolding through Him; but what you say is very important, it must be attachment to Him personally."
+     "speaker": "JSG",
+     "text": [
+      "Very good; so Peter is speaking for others in saying that about Jesus, is he not?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It is not 'to whom shall I go?'; it is, to whom shall we go?\". This is the basis of true fellowship with one another, that we have found Somebody who is the centre of everything for God and that we have been attracted to Him and attached to Him."
+     "speaker": "LAB",
+     "text": [
+      "I think he had also appreciated that there were others with him in the way in which he was moving, and it is good to credit one another on those grounds. So far as I see, every title of the Lord which comes forward involves not only His own greatness but the fact that He is the centre of another world for the pleasure of God. The Son of God is the centre of another world. The Person referred to here is the One who takes up everything for the pleasure of God. I think that is practically how we are bound together, as appreciating His glories, and thus we are brought over almost unconsciously into a system of things that is for the pleasure of God."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Very good; so Peter is speaking for others in saying that about Jesus, is he not?"
+     "speaker": "JSG",
+     "text": [
+      "I am sure that is right. We would encourage one another to speak on this line, \"Lord, to whom shall we go? thou hast words of life eternal\"."
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "I think he had also appreciated that there were others with him in the way in which he was moving, and it is good to credit one another on those grounds. So far as I see, every title of the Lord which comes forward involves not only His own greatness but the fact that He is the centre of another world for the pleasure of God. The Son of God is the centre of another world. The Person referred to here is the One who takes up everything for the pleasure of God. I think that is practically how we are bound together, as appreciating His glories, and thus we are brought over almost unconsciously into a system of things that is for the pleasure of God."
+     "speaker": "PM",
+     "text": [
+      "So while He becomes the centre of the company, is the character of the speaking reflected in the words of the Lord Jesus, \"words of life eternal\"? Would you not look for that in every gathering - the character of life eternal?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I am sure that is right. We would encourage one another to speak on this line, \"Lord, to whom shall we go? thou hast words of life eternal\"."
+     "speaker": "JSG",
+     "text": [
+      "Yes, they were connected with a scene which was outside of things here, a scene where the glory of Christ expands and where the Father's thoughts as to Him and as to the saints' association with Him are unfolded."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "So while He becomes the centre of the company, is the character of the speaking reflected in the words of the Lord Jesus, \"words of life eternal\"? Would you not look for that in every gathering - the character of life eternal?"
+     "speaker": "PM",
+     "text": [
+      "I was thinking that. He is leading His own out of this world - we come to that later on in this gospel. He was going out of the world to the Father, and He is leading His own out of the world, away from all that marks it, by \"words of life eternal\"."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Yes, they were connected with a scene which was outside of things here, a scene where the glory of Christ expands and where the Father's thoughts as to Him and as to the saints' association with Him are unfolded."
+     "speaker": "ECB",
+     "text": [
+      "Perhaps we ought to go on to chapter 12, but it is of interest that in chapter 17 Jesus says, \"And this is the eternal life, that they should know thee, the only true God, and Jesus Christ whom thou hast sent\" (v 3). I am connecting that with what you said as to Peter saying, \"we have believed and known”, and in John 17 eternal life is not 'an out- ofthe-world condition of relationship and being'; it is the knowledge of God and of Jesus Christ."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I was thinking that. He is leading His own out of this world - we come to that later on in this gospel. He was going out of the world to the Father, and He is leading His own out of the world, away from all that marks it, by \"words of life eternal\"."
+     "speaker": "JSG",
+     "text": [
+      "I cannot say much about it, but it would encourage us to seek to move forward in that direction, to develop links with the Lord Jesus and preparedness to give time to be with Him alone and to get to know Him better."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Perhaps we ought to go on to chapter 12, but it is of interest that in chapter 17 Jesus says, \"And this is the eternal life, that they should know thee, the only true God, and Jesus Christ whom thou hast sent\" (v 3). I am connecting that with what you said as to Peter saying, \"we have believed and known”, and in John 17 eternal life is not 'an out- ofthe-world condition of relationship and being'; it is the knowledge of God and of Jesus Christ."
+     "speaker": "FCM",
+     "text": [
+      "As to the emphasis we are having now on the word 'know', our minds, renewed minds, have a very important bearing on our affections, do they not? I find that what my mind is engaged with commands my affections, and the more our minds are engaged with Christ, the more our affections expand and are enriched."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I cannot say much about it, but it would encourage us to seek to move forward in that direction, to develop links with the Lord Jesus and preparedness to give time to be with Him alone and to get to know Him better."
+     "speaker": "JSG",
+     "text": [
+      "I am sure that is very important. The teaching of Romans shows what a great place the mind has with the believer, and it is most important to cultivate the mind in right directions so that the Spirit may be free.",
+      "Chapter 12 is a section where perhaps by its very nature we cannot say so much as the other sections. The occasion is marked off by its silence; but I wondered if we might have a few thoughts as to the expression of concentrated appreciation of the Lord Jesus in the love which Mary had for Him being poured out, lavished upon Him. It was the result, no doubt, of all that the family had been through (no doubt there were others present as well as the three in the family, \"Lazarus was one of those at table with him\") but Mary takes the opportunity to bring this most precious ointment and anoint His feet."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "As to the emphasis we are having now on the word 'know', our minds, renewed minds, have a very important bearing on our affections, do they not? I find that what my mind is engaged with commands my affections, and the more our minds are engaged with Christ, the more our affections expand and are enriched."
+     "speaker": "SH",
+     "text": [
+      "Would the appreciation of Mary and other women here speak of the appreciation of the assembly for Christ?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I am sure that is very important. The teaching of Romans shows what a great place the mind has with the believer, and it is most important to cultivate the mind in right directions so that the Spirit may be free."
+     "speaker": "JSG",
+     "text": [
+      "We could think of that entering into it, surely. The thoughts of formation and sensitiveness and affection are often brought in through the use of women in Scripture are they not? I think what you say would be right."
+     ]
     },
     {
-     "text": "Chapter 12 is a section where perhaps by its very nature we cannot say so much as the other sections. The occasion is marked off by its silence; but I wondered if we might have a few thoughts as to the expression of concentrated appreciation of the Lord Jesus in the love which Mary had for Him being poured out, lavished upon Him. It was the result, no doubt, of all that the family had been through (no doubt there were others present as well as the three in the family, \"Lazarus was one of those at table with him\") but Mary takes the opportunity to bring this most precious ointment and anoint His feet."
+     "speaker": "SH",
+     "text": [
+      "I was thinking of Luke 7 where the woman came in and wiped His feet with her hair. This feminine appreciation is something special."
+     ]
     },
     {
-     "speaker": "S.H.",
-     "text": "Would the appreciation of Mary and other women here speak of the appreciation of the assembly for Christ?"
+     "speaker": "JSG",
+     "text": [
+      "I am sure it is. It is not to be limited to the sisters, but the feminine thought that. you have in mind is that formed affections are to come into expression in appreciation of this glorious Person."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "We could think of that entering into it, surely. The thoughts of formation and sensitiveness and affection are often brought in through the use of women in Scripture are they not? I think what you say would be right."
+     "speaker": "JCE",
+     "text": [
+      "She has really subjected her own glories to the Person of the Lord, for her hair was her glory. That is an important point."
+     ]
     },
     {
-     "speaker": "S.H.",
-     "text": "I was thinking of Luke 7 where the woman came in and wiped His feet with her hair. This feminine appreciation is something special."
+     "speaker": "JSG",
+     "text": [
+      "It is indeed important. We should be ready, therefore, to submit all that we are and have to lavish it upon this Person."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I am sure it is. It is not to be limited to the sisters, but the feminine thought that. you have in mind is that formed affections are to come into expression in appreciation of this glorious Person."
+     "speaker": "EP",
+     "text": [
+      "In Psalm 103 there is an expression which seems to touch what happens here: \"All that is within me, bless his holy name\" (v 1). I think this is coming from within."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "She has really subjected her own glories to the Person of the Lord, for her hair was her glory. That is an important point."
+     "speaker": "JSG",
+     "text": [
+      "That is very good. The simple impression I have about it is as to concentration. The fact that it is a pound would encourage us to be definite and specific in the expression of what is affecting us. I speak for myself, I tend to be lengthy sometimes, but true appreciation of Jesus personally and a view of Him, especially in a holy circle like this, would cause measured but definite and affectionate appreciation of Him."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "It is indeed important. We should be ready, therefore, to submit all that we are and have to lavish it upon this Person."
+     "speaker": "RT",
+     "text": [
+      "It has often been said that this is a resurrection scene. We may say that very formally, but the truth of that is what underlies our being together and Christ having this liberty and our having liberty with Him."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "In Psalm 103 there is an expression which seems to touch what happens here: \"All that is within me, bless his holy name\" (v 1). I think this is coming from within."
+     "speaker": "JSG",
+     "text": [
+      "That is good. Perhaps you have more to say about that, but here was Lazarus, \"the dead man Lazarus, whom Jesus raised from among the dead ... Lazarus was one of those at table with him\"; that is the character of the scene. Say more."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very good. The simple impression I have about it is as to concentration. The fact that it is a pound would encourage us to be definite and specific in the expression of what is affecting us. I speak for myself, I tend to be lengthy sometimes, but true appreciation of Jesus personally and a view of Him, especially in a holy circle like this, would cause measured but definite and affectionate appreciation of Him."
+     "speaker": "RT",
+     "text": [
+      "A lot of history had gone before. They maybe had troubles, quarrels, all that kind of thing, but resurrection ends all that; the flesh has no part here. They are occupied and gathered together in a scene where death has worked, and now affections and what has been treasured up can flow freely."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It has often been said that this is a resurrection scene. We may say that very formally, but the truth of that is what underlies our being together and Christ having this liberty and our having liberty with Him."
+     "speaker": "JSG",
+     "text": [
+      "Very good, and the One who had said, \"I am the resurrection and the life\" (chap 11: 25) was here in that circle. He was the One on whom all the precious ointment was poured."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is good. Perhaps you have more to say about that, but here was Lazarus, \"the dead man Lazarus, whom Jesus raised from among the dead ... Lazarus was one of those at table with him\"; that is the character of the scene. Say more."
+     "speaker": "RT",
+     "text": [
+      "It would affect us in our gatherings together. We bring in troubles and things that have been in the past, and things that may still be current, but we come together with death having worked and we are drawn together to a Man who has finished that order of things completely, and He is the centre and the object for our affections."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "A lot of history had gone before. They maybe had troubles, quarrels, all that kind of thing, but resurrection ends all that; the flesh has no part here. They are occupied and gathered together in a scene where death has worked, and now affections and what has been treasured up can flow freely."
+     "speaker": "JSG",
+     "text": [
+      "That is very affecting. He could enter into the tears in chapter 11, but He seeks to have us with Him in the sphere that is beyond death, as you say."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Very good, and the One who had said, \"I am the resurrection and the life\" (chap 11: 25) was here in that circle. He was the One on whom all the precious ointment was poured."
+     "speaker": "JM",
+     "text": [
+      "Is it not that everything here is in its own place, its right place in relation to Christ - Lazarus \"one of those\", Martha serving, and that makes room for what is distinctive in Mary?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It would affect us in our gatherings together. We bring in troubles and things that have been in the past, and things that may still be current, but we come together with death having worked and we are drawn together to a Man who has finished that order of things completely, and He is the centre and the object for our affections."
+     "speaker": "JSG",
+     "text": [
+      "Very good."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is very affecting. He could enter into the tears in chapter 11, but He seeks to have us with Him in the sphere that is beyond death, as you say."
+     "speaker": "DAB",
+     "text": [
+      "It says, \"therefore they made him a supper\". I thought it was interesting that they chose to do that to express their appreciation of all He had done for them. I wondered if it would give a new impetus to the arrangement of meetings, which can easily become a routine kind of thing. If we saw that the One who had done so much for us would be magnified in an assembling of His people, we would \"therefore\" arrange a supper like this."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Is it not that everything here is in its own place, its right place in relation to Christ - Lazarus \"one of those\", Martha serving, and that makes room for what is distinctive in Mary?"
+     "speaker": "JSG",
+     "text": [
+      "That is good. What better cause for a meeting than to seek the glory of Christ? I think the \"therefore\" would also emphasise the background of hostility in the Pharisees here which really magnifies the concentrated expression of this appreciation."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Very good."
+     "speaker": "ECB",
+     "text": [
+      "I think it has been said that in chapter 11 Jesus is just a friend of the family, but in this chapter it is something different: He and they are all bound together. In regard to what was just said, you do not have to bring Luke's writing about Martha into John 12, do you?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It says, \"therefore they made him a supper\". I thought it was interesting that they chose to do that to express their appreciation of all He had done for them. I wondered if it would give a new impetus to the arrangement of meetings, which can easily become a routine kind of thing. If we saw that the One who had done so much for us would be magnified in an assembling of His people, we would \"therefore\" arrange a supper like this."
+     "speaker": "JSG",
+     "text": [
+      "No, quite so. You might have Jesus in the family, but the assembly is a different matter. The assembly is a dignified matter, and the Lord Jesus in the resurrection circle is a matter of great privilege and blessing."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "That is good. What better cause for a meeting than to seek the glory of Christ? I think the \"therefore\" would also emphasise the background of hostility in the Pharisees here which really magnifies the concentrated expression of this appreciation."
+     "speaker": "ECM",
+     "text": [
+      "What we have in John 12 is \"life and incorruptibility\" (2 Tim 1: 10), is it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think it has been said that in chapter 11 Jesus is just a friend of the family, but in this chapter it is something different: He and they are all bound together. In regard to what was just said, you do not have to bring Luke's writing about Martha into John 12, do you?"
-    },
-    {
-     "speaker": "J.S.G.",
-     "text": "No, quite so. You might have Jesus in the family, but the assembly is a different matter. The assembly is a dignified matter, and the Lord Jesus in the resurrection circle is a matter of great privilege and blessing."
-    },
-    {
-     "speaker": "E.C.M.",
-     "text": "What we have in John 12 is \"life and incorruptibility\" (2 Tim 1: 10), is it not?"
-    },
-    {
-     "speaker": "J.S.G.",
-     "text": "Very good. You certainly have \"life\" in the dead man raised and \"incorruptibility\" in the expression of affection towards Him."
+     "speaker": "JSG",
+     "text": [
+      "Very good. You certainly have \"life\" in the dead man raised and \"incorruptibility\" in the expression of affection towards Him."
+     ]
     }
    ]
   },
@@ -835,6 +1129,14 @@
      "text": "There are other instances. Can you find them?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "APPRECIATION OF CHRIST",
+   "kind": "default_place",
+   "detail": "London given to 6 names (\"London if not otherwise stated\")"
   }
  ]
 }

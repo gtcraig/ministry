@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -30,12 +30,14 @@
    "date": "27th March 2019",
    "speakers": [
     "PAG",
+    "AMB",
     "ADM",
     "ASP",
     "EWH",
     "DAB",
     "JTB",
     "MG",
+    "GAB",
     "MB",
     "JSS",
     "JAB",
@@ -45,24 +47,29 @@
    ],
    "initials": [
     {
-     "initials": "GAMB",
-     "name": "(Grangemouth unless otherwise stated): A M Brown"
+     "initials": "AMB",
+     "name": "A M Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "DAB",
-     "name": "D A Brown"
+     "name": "D A Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "JAB",
-     "name": "J A Brown"
+     "name": "J A Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "JTB",
-     "name": "J T Brown"
+     "name": "J T Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "RB",
-     "name": "R Brown"
+     "name": "R Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "MB",
@@ -71,38 +78,51 @@
     },
     {
      "initials": "MG",
-     "name": "M Grant"
+     "name": "M Grant",
+     "place": "Grangemouth"
     },
     {
      "initials": "PAG",
-     "name": "P A Gray"
+     "name": "P A Gray",
+     "place": "Grangemouth"
     },
     {
      "initials": "EWH",
-     "name": "E W Hogan"
+     "name": "E W Hogan",
+     "place": "Grangemouth"
     },
     {
      "initials": "ADM",
-     "name": "A D Munro"
+     "name": "A D Munro",
+     "place": "Grangemouth"
     },
     {
      "initials": "AM",
-     "name": "A Melville"
+     "name": "A Melville",
+     "place": "Grangemouth"
     },
     {
      "initials": "ASP",
-     "name": "A S Pittman"
+     "name": "A S Pittman",
+     "place": "Grangemouth"
     },
     {
      "initials": "JWP",
-     "name": "J W Pittman"
+     "name": "J W Pittman",
+     "place": "Grangemouth"
     },
     {
      "initials": "JSS",
-     "name": "J S Speirs"
+     "name": "J S Speirs",
+     "place": "Grangemouth"
+    },
+    {
+     "initials": "GAB",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to Initials",
+   "initials_comment": "Grangemouth unless otherwise stated",
    "initials_text": [
     "(Grangemouth unless otherwise stated):",
     "A M Brown; D A Brown; J A Brown; J T Brown; R Brown; M Buchan, Peterhead; M Grant; P A Gray; E W Hogan; A D Munro; A Melville; A S Pittman; J W Pittman; J S Speirs"
@@ -110,361 +130,495 @@
    "paragraphs": [
     {
      "speaker": "PAG",
-     "text": "My exercise is that we might consider the subject of spiritual order. I have in mind that we should take up the scriptures we have read as they relate to the time of the breaking of bread and the service of praise which flows from that. But in order to set out that what we enjoy is not simply formulaic or automatic, I thought that it would be helpful to remind ourselves of the scriptural grounds on which we proceed. So, on the first day of the week, the Lord’s day, we assemble to break bread: the scripture says so. Then, having done so, it is a question of what proceeds and in Hebrews we see that the thought of brethren comes into prominence, and then the thought of the assembly. Then in Ephesians, having ministered to Christ, and being conscious of His presence, the scripture applies, “through him we have both access by one Spirit to the Father”. (The “both” is both Jew and Gentile.) The Spirit is not an incidental part of the service of praise. Response to the Spirit is an integral part of the service of praise, “through” Christ and “by one Spirit”, and the order is set out there: Christ and the Spirit and the Father. But then the thought is also that there should be response to God. That requires care in how we may speak of it, for there are three Persons of the Godhead, the Father and the Son and the Holy Spirit, but there is the specific reference in John that “God is a spirit; and they who worship him …”; so there is a direct reference to the worship of God Himself. This may appear familiar to many, but I felt that there would be benefit for our souls in going over the truth. I was encouraged in taking this up by the hymn that we sang at the start of the meeting:"
+     "text": [
+      "My exercise is that we might consider the subject of spiritual order. I have in mind that we should take up the scriptures we have read as they relate to the time of the breaking of bread and the service of praise which flows from that. But in order to set out that what we enjoy is not simply formulaic or automatic, I thought that it would be helpful to remind ourselves of the scriptural grounds on which we proceed. So, on the first day of the week, the Lord’s day, we assemble to break bread: the scripture says so. Then, having done so, it is a question of what proceeds and in Hebrews we see that the thought of brethren comes into prominence, and then the thought of the assembly. Then in Ephesians, having ministered to Christ, and being conscious of His presence, the scripture applies, “through him we have both access by one Spirit to the Father”. (The “both” is both Jew and Gentile.) The Spirit is not an incidental part of the service of praise. Response to the Spirit is an integral part of the service of praise, “through” Christ and “by one Spirit”, and the order is set out there: Christ and the Spirit and the Father. But then the thought is also that there should be response to God. That requires care in how we may speak of it, for there are three Persons of the Godhead, the Father and the Son and the Holy Spirit, but there is the specific reference in John that “God is a spirit; and they who worship him …”; so there is a direct reference to the worship of God Himself. This may appear familiar to many, but I felt that there would be benefit for our souls in going over the truth. I was encouraged in taking this up by the hymn that we sang at the start of the meeting:",
+      "What raised the wondrous thought,",
+      "Or who did it suggest … ?",
+      "(Hymn 92).",
+      "We did not suggest these thoughts; these are God’s thoughts."
+     ]
     },
     {
-     "text": "What raised the wondrous thought,"
-    },
-    {
-     "text": "Or who did it suggest … ?"
-    },
-    {
-     "text": "(Hymn 92)."
-    },
-    {
-     "text": "We did not suggest these thoughts; these are God’s thoughts."
-    },
-    {
-     "text": "AMB I think it is very helpful to go over that ground. In one sense it is well-known and well-experienced, but it is important to see the scriptural basis of the order of the service of God and get help as to it. I was struck by the words that Luke uses in Acts 20: 7, “we being assembled to break bread”. There is something dignified about that, and that is according to God’s ordering, the assembling of those that love the Lord Jesus and desire to remember Him."
+     "speaker": "AMB",
+     "text": [
+      "I think it is very helpful to go over that ground. In one sense it is well-known and well-experienced, but it is important to see the scriptural basis of the order of the service of God and get help as to it. I was struck by the words that Luke uses in Acts 20: 7, “we being assembled to break bread”. There is something dignified about that, and that is according to God’s ordering, the assembling of those that love the Lord Jesus and desire to remember Him."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Yes, you could say more for our help. As we come together, we are still in the wilderness, but in assembling to break bread we are, as it were, turning our backs on the wilderness setting, and our first thought would be that we would see one another. That is what assembling would involve, but then we would have one focus of our minds."
+     "text": [
+      "Yes, you could say more for our help. As we come together, we are still in the wilderness, but in assembling to break bread we are, as it were, turning our backs on the wilderness setting, and our first thought would be that we would see one another. That is what assembling would involve, but then we would have one focus of our minds."
+     ]
     },
     {
-     "text": "AMB What you are saying is right. The thought of assembling conveys to my mind the parts coming together to form a whole. When we come together on a Lord’s day morning, there is something special about it. We form a circle of affection and loyalty to the Lord Jesus and we desire that He would come in and fill our hearts with the sense of His presence. It is a very dignified and blessed matter. It lifts us above all that is around, including the moral chaos that exists, so that we are not occupied with that; we are occupied with Him."
+     "speaker": "AMB",
+     "text": [
+      "What you are saying is right. The thought of assembling conveys to my mind the parts coming together to form a whole. When we come together on a Lord’s day morning, there is something special about it. We form a circle of affection and loyalty to the Lord Jesus and we desire that He would come in and fill our hearts with the sense of His presence. It is a very dignified and blessed matter. It lifts us above all that is around, including the moral chaos that exists, so that we are not occupied with that; we are occupied with Him."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "And “being assembled to break bread”: it is not that the act of breaking bread brings us together. We come together in view of breaking bread. I feel that it is important to have that in our minds, that the assembling takes place and then the breaking of bread takes place: one follows the other. We might think of the great uniting effect of the Supper, and that is true, but the intention is that we are united before we take it, not as taking it; we are united beforehand."
+     "text": [
+      "And “being assembled to break bread”: it is not that the act of breaking bread brings us together. We come together in view of breaking bread. I feel that it is important to have that in our minds, that the assembling takes place and then the breaking of bread takes place: one follows the other. We might think of the great uniting effect of the Supper, and that is true, but the intention is that we are united before we take it, not as taking it; we are united beforehand."
+     ]
     },
     {
      "speaker": "ADM",
-     "text": "Would you see any significance that it says here “the first day of the week” as distinct from the Lord’s day, bearing in mind what we have recently gone over here as to order?"
+     "text": [
+      "Would you see any significance that it says here “the first day of the week” as distinct from the Lord’s day, bearing in mind what we have recently gone over here as to order?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I think it is the Holy Spirit’s emphasis on what should come first in our weeks. Weeks relate to the assembly calendar; days relate to testimony. So the first day of the assembly calendar is to be characterised initially by the breaking of bread."
+     "text": [
+      "I think it is the Holy Spirit’s emphasis on what should come first in our weeks. Weeks relate to the assembly calendar; days relate to testimony. So the first day of the assembly calendar is to be characterised initially by the breaking of bread."
+     ]
     },
     {
      "speaker": "ADM",
-     "text": "I just thought there was probably some significance in it, so that what we had recently as to order externally lies behind that. These things relating to moral order have been attended to so that there is liberty to gather and proceed in divine service."
+     "text": [
+      "I just thought there was probably some significance in it, so that what we had recently as to order externally lies behind that. These things relating to moral order have been attended to so that there is liberty to gather and proceed in divine service."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I do feel that the breaking of bread and what flows from it should really cast its influence over the whole of the week. Another has said that you are either going to the Supper or you are coming from it: that is really the walk of the believer."
+     "text": [
+      "I do feel that the breaking of bread and what flows from it should really cast its influence over the whole of the week. Another has said that you are either going to the Supper or you are coming from it: that is really the walk of the believer."
+     ]
     },
     {
      "speaker": "ASP",
-     "text": "Why do we not formally announce the Supper?"
+     "text": [
+      "Why do we not formally announce the Supper?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I suppose, in one sense, it was announced from the glory. Paul says, “For I received from the Lord, that which I also delivered to you …”, 1 Cor 11: 23. It was announced from the glory. I think the announcements are covered by the anointing but they relate to the gatherings of the saints; but we might see that there is something distinct about assembling for the Supper. (As remarked this is something which we are specifically asked to do - thus we assemble in view of it; whereas the other meetings in the assembly calendar are more characterised by the thought of gathering, which is what the Lord would do - He would gather us together: hence the thought of the anointing and of His authority attaching to the announcements). I know there may be in exceptional cases other ‘meetings of assembly character’ that are announced as a matter of dignity and order, but I think this is love’s call. I think it is a helpful matter to bring up. My exercise in bringing these scriptures up is that we should not just accept all that we do as automatic but rather that we should understand it."
+     "text": [
+      "I suppose, in one sense, it was announced from the glory. Paul says, “For I received from the Lord, that which I also delivered to you …”, 1 Cor 11: 23. It was announced from the glory. I think the announcements are covered by the anointing but they relate to the gatherings of the saints; but we might see that there is something distinct about assembling for the Supper. (As remarked this is something which we are specifically asked to do - thus we assemble in view of it; whereas the other meetings in the assembly calendar are more characterised by the thought of gathering, which is what the Lord would do - He would gather us together: hence the thought of the anointing and of His authority attaching to the announcements). I know there may be in exceptional cases other ‘meetings of assembly character’ that are announced as a matter of dignity and order, but I think this is love’s call. I think it is a helpful matter to bring up. My exercise in bringing these scriptures up is that we should not just accept all that we do as automatic but rather that we should understand it."
+     ]
     },
     {
      "speaker": "ASP",
-     "text": "I think that is helpful and I do accept it. I am just interested to learn more as to your thought of order in view of it not being announced. 1 Corinthians 11 has often been said is to be the highest presentation of the Supper: it is from the glory."
+     "text": [
+      "I think that is helpful and I do accept it. I am just interested to learn more as to your thought of order in view of it not being announced. 1 Corinthians 11 has often been said is to be the highest presentation of the Supper: it is from the glory."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, it was the Lord Himself who set it on. He said, “this do” (1 Cor 11: 24); so the Lord has, in that sense, given us the instruction as to it, and it is really the only occasion that is so fully and formally described in Scripture. The rest is left to spiritual judgment, although there is a certain amount of guidance given in Scripture."
+     "text": [
+      "Well, it was the Lord Himself who set it on. He said, “this do” (1 Cor 11: 24); so the Lord has, in that sense, given us the instruction as to it, and it is really the only occasion that is so fully and formally described in Scripture. The rest is left to spiritual judgment, although there is a certain amount of guidance given in Scripture."
+     ]
     },
     {
      "speaker": "EWH",
-     "text": "It says here, “we being assembled to break bread”. It does not say ‘we being assembled to remember the Lord’, which is what we do. Would assembling to remember the Lord be a more individual thing on the basis of the Lord’s appeal to our affections?"
+     "text": [
+      "It says here, “we being assembled to break bread”. It does not say ‘we being assembled to remember the Lord’, which is what we do. Would assembling to remember the Lord be a more individual thing on the basis of the Lord’s appeal to our affections?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "The Lord says, as we have in 1 Corinthians 11, “This is my body, which is for you: this do in remembrance of me”; so we assemble to do something and what do we assemble to do? We assemble to break bread. I think the individual side of it takes place before that, “But let a man prove himself” (v 28), but I think assembling immediately draws us onto collective ground. You cannot break bread on your own."
+     "text": [
+      "The Lord says, as we have in 1 Corinthians 11, “This is my body, which is for you: this do in remembrance of me”; so we assemble to do something and what do we assemble to do? We assemble to break bread. I think the individual side of it takes place before that, “But let a man prove himself” (v 28), but I think assembling immediately draws us onto collective ground. You cannot break bread on your own."
+     ]
     },
     {
      "speaker": "EWH",
-     "text": "It concerns me somewhat when brethren say they are going to stop breaking bread. You understand what I mean. In actual fact they are stopping remembering the Lord."
+     "text": [
+      "It concerns me somewhat when brethren say they are going to stop breaking bread. You understand what I mean. In actual fact they are stopping remembering the Lord."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "That is the thing. The Lord says as to the breaking of bread, “this do in remembrance of me”. He says, “this do”, and it is intended to be preserved to us and intended to be a preservative. If I felt there was a reason I could not break bread, really I should be putting that right before the Supper if at all possible: that would be normal. There are of course circumstances - rare and exceptional - in which it is necessary to stop breaking bread. Those who do so would feel it exceedingly, and it is never a matter of expediency."
+     "text": [
+      "That is the thing. The Lord says as to the breaking of bread, “this do in remembrance of me”. He says, “this do”, and it is intended to be preserved to us and intended to be a preservative. If I felt there was a reason I could not break bread, really I should be putting that right before the Supper if at all possible: that would be normal. There are of course circumstances - rare and exceptional - in which it is necessary to stop breaking bread. Those who do so would feel it exceedingly, and it is never a matter of expediency."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "The breaking of bread makes way for the Lord to come in amongst us. I am thinking of what has just been said: it is an opportunity for the Lord to manifest Himself in the breaking of bread. That is when the Lord comes in and, through the eyes of faith, we see Him and we love Him and behold Him and respond to Him in this way. That is why we break bread at the beginning, is it not?"
+     "text": [
+      "The breaking of bread makes way for the Lord to come in amongst us. I am thinking of what has just been said: it is an opportunity for the Lord to manifest Himself in the breaking of bread. That is when the Lord comes in and, through the eyes of faith, we see Him and we love Him and behold Him and respond to Him in this way. That is why we break bread at the beginning, is it not?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I think that is another important point as to order. The first day of the week we assemble to break bread, and the immediate focus is to do the thing we assembled to do. We assemble to break bread."
+     "text": [
+      "I think that is another important point as to order. The first day of the week we assemble to break bread, and the immediate focus is to do the thing we assembled to do. We assemble to break bread."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "When we come together, as you say, we are set together in our spirits, and the hymn helps us also in setting the spirits of the saints together, and then we are looking for the Lord to come in amongst us and manifest Himself in all His glories."
+     "text": [
+      "When we come together, as you say, we are set together in our spirits, and the hymn helps us also in setting the spirits of the saints together, and then we are looking for the Lord to come in amongst us and manifest Himself in all His glories."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "Does the word ‘assemble’ imply perfect unity?"
+     "text": [
+      "Does the word ‘assemble’ imply perfect unity?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I would say that. I think the word ‘perfect’ that you use is important. That would involve what is complete. The Lord would help us, and the Spirit would help us. Although we may be small and reduced in number, the Lord would help us to regard what is there as complete in His eyes."
+     "text": [
+      "I would say that. I think the word ‘perfect’ that you use is important. That would involve what is complete. The Lord would help us, and the Spirit would help us. Although we may be small and reduced in number, the Lord would help us to regard what is there as complete in His eyes."
+     ]
     },
     {
      "speaker": "MG",
-     "text": "You quoted 1 Corinthians 11 already. It also says there, “ye announce the death of the Lord, until he come”, v 26. Could you say something about how the death of Christ applies to us at that time?"
+     "text": [
+      "You quoted 1 Corinthians 11 already. It also says there, “ye announce the death of the Lord, until he come”, v 26. Could you say something about how the death of Christ applies to us at that time?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I think that is the public aspect of it. As we remarked and have been taught, we break bread in the wilderness - that is, in testimony to a world from which the Lord is absent and rejected. The presentation of the breaking of bread given in Corinthians is to the assembly in the wilderness, and therefore we assemble to break bread - that is one side of it - but the other side of it is we are saying to the world that we are identifying ourselves with the One who died here. The world has no knowledge of Christ where He is, but we can say that the Man that was put to death in the world and by the world is the Man that we are here to remember. Of course, we call Him to mind where He is, but the world does not know that; so we show forth His death until He comes, and then the world will see Him, and we will be with Him."
+     "text": [
+      "I think that is the public aspect of it. As we remarked and have been taught, we break bread in the wilderness - that is, in testimony to a world from which the Lord is absent and rejected. The presentation of the breaking of bread given in Corinthians is to the assembly in the wilderness, and therefore we assemble to break bread - that is one side of it - but the other side of it is we are saying to the world that we are identifying ourselves with the One who died here. The world has no knowledge of Christ where He is, but we can say that the Man that was put to death in the world and by the world is the Man that we are here to remember. Of course, we call Him to mind where He is, but the world does not know that; so we show forth His death until He comes, and then the world will see Him, and we will be with Him."
+     ]
     },
     {
      "speaker": "MG",
-     "text": "That is helpful. There is that side, as you said, that the world is not aware of what we are doing. I wondered too whether in doing that, the individual side that you mentioned in preparation would that have a bearing on us as well. If that is what we are going to do, then the death of Christ has a bearing on me individually."
+     "text": [
+      "That is helpful. There is that side, as you said, that the world is not aware of what we are doing. I wondered too whether in doing that, the individual side that you mentioned in preparation would that have a bearing on us as well. If that is what we are going to do, then the death of Christ has a bearing on me individually."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "The hymn puts it very clearly:"
+     "text": [
+      "The hymn puts it very clearly:",
+      "By love constrained, Thy death we deem",
+      "Our point of severance from this scene",
+      "Where man thy rights did spurn",
+      "(Hymn 192).",
+      "That is how we are regarding the matter. And the other thing about showing forth His death is this: the emblems are on the table and even an unspiritual person could see that, and the only way that you could have a loaf and a cup separate would be if the Person had died. So to that extent His death is publicly attested to in the way that the emblems are presented to us. Is that suitable?"
+     ]
     },
     {
-     "text": "By love constrained, Thy death we deem"
-    },
-    {
-     "text": "Our point of severance from this scene"
-    },
-    {
-     "text": "Where man thy rights did spurn"
-    },
-    {
-     "text": "(Hymn 192)."
-    },
-    {
-     "text": "That is how we are regarding the matter. And the other thing about showing forth His death is this: the emblems are on the table and even an unspiritual person could see that, and the only way that you could have a loaf and a cup separate would be if the Person had died. So to that extent His death is publicly attested to in the way that the emblems are presented to us. Is that suitable?"
-    },
-    {
-     "text": "GAB The eating of the bread is for our stimulation, and enables us to enter into the spiritual side of things."
+     "speaker": "GAB",
+     "text": [
+      "The eating of the bread is for our stimulation, and enables us to enter into the spiritual side of things."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "So in that sense there is what the Lord made available to us in His death. It is quite a thought that we can actually lay hands on that. I just feel the importance of that entering into our souls, that the Lord made Himself available in a way that we could actually lay hands on."
+     "text": [
+      "So in that sense there is what the Lord made available to us in His death. It is quite a thought that we can actually lay hands on that. I just feel the importance of that entering into our souls, that the Lord made Himself available in a way that we could actually lay hands on."
+     ]
     },
     {
      "speaker": "MB",
-     "text": "If the participation in the breaking of bread is the shewing forth of His death, are the persons gathered the showing forth of His life?"
+     "text": [
+      "If the participation in the breaking of bread is the shewing forth of His death, are the persons gathered the showing forth of His life?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, they are the persons, you might say, who have been “saved in the power of his life”, Rom 5: 10. That is His present life; not only saved from sins or sin, but “saved in the power of his life”. Are you thinking in a sense that there is a testimony not only to the fact that He died, but in those who are assembled there is a testimony to the fact that He now lives?"
+     "text": [
+      "Well, they are the persons, you might say, who have been “saved in the power of his life”, Rom 5: 10. That is His present life; not only saved from sins or sin, but “saved in the power of his life”. Are you thinking in a sense that there is a testimony not only to the fact that He died, but in those who are assembled there is a testimony to the fact that He now lives?"
+     ]
     },
     {
      "speaker": "MB",
-     "text": "I was thinking that “this do in remembrance of me” does not just cover the Lord when He was on the earth but our present relationship with Him too. That would be before us at the Supper, would it not?"
+     "text": [
+      "I was thinking that “this do in remembrance of me” does not just cover the Lord when He was on the earth but our present relationship with Him too. That would be before us at the Supper, would it not?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "It would. I think what has been said about His death having its bearing on us before we come together is important because, while we should never overlook His death, what is before us is what we are brought into. I think that is really what is in mind in the second scripture. The thought of His brethren and His assembly would quickly come before us, and that is a living response."
+     "text": [
+      "It would. I think what has been said about His death having its bearing on us before we come together is important because, while we should never overlook His death, what is before us is what we are brought into. I think that is really what is in mind in the second scripture. The thought of His brethren and His assembly would quickly come before us, and that is a living response."
+     ]
     },
     {
-     "text": "AMB Identification with Him, identifying ourselves with Christ’s death and showing forth His death, should be consistent with how we are morally during the week. It is not something we put on on a Lord’s day morning. But that prepares the way for enjoying the power of His life that our brother refers to. In divine things life comes out of death, as far as we are concerned, I mean."
+     "speaker": "AMB",
+     "text": [
+      "Identification with Him, identifying ourselves with Christ’s death and showing forth His death, should be consistent with how we are morally during the week. It is not something we put on on a Lord’s day morning. But that prepares the way for enjoying the power of His life that our brother refers to. In divine things life comes out of death, as far as we are concerned, I mean."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Yes, His relations with His brethren and with His assembly are taken up out of death. It is striking in John 20 that He speaks of His brethren (v 17) and then He shows them His hands and His side, v 20. His side reminds us of Adam and was where the rib was taken out, Gen 2: 21. Although the assembly is not officially mentioned in John, the thought is there and it is out of death."
+     "text": [
+      "Yes, His relations with His brethren and with His assembly are taken up out of death. It is striking in John 20 that He speaks of His brethren (v 17) and then He shows them His hands and His side, v 20. His side reminds us of Adam and was where the rib was taken out, Gen 2: 21. Although the assembly is not officially mentioned in John, the thought is there and it is out of death."
+     ]
     },
     {
      "speaker": "JSS",
-     "text": "Would you say some more about this matter of announcing the death of the Lord? We sometimes say, ‘showing forth’, but the word here is, “ye announce the death of the Lord”, 1 Cor 11: 26. What does that mean? Who is it announced to?"
+     "text": [
+      "Would you say some more about this matter of announcing the death of the Lord? We sometimes say, ‘showing forth’, but the word here is, “ye announce the death of the Lord”, 1 Cor 11: 26. What does that mean? Who is it announced to?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "As I understand it, it is announced to the world. The breaking of bread is not a private meeting. If anyone wished to come to it, they would be free to do so. We are taught that believers participate in the breaking of bread with those with whom they enjoy fellowship but anyone would be free to come and they could look on. It is possibly a matter that is less emphasised in the thanksgiving on the grounds that generally speaking, although not always, those who are there are there to break bread and maybe the children of the saints. Say more as to what is in your mind."
+     "text": [
+      "As I understand it, it is announced to the world. The breaking of bread is not a private meeting. If anyone wished to come to it, they would be free to do so. We are taught that believers participate in the breaking of bread with those with whom they enjoy fellowship but anyone would be free to come and they could look on. It is possibly a matter that is less emphasised in the thanksgiving on the grounds that generally speaking, although not always, those who are there are there to break bread and maybe the children of the saints. Say more as to what is in your mind."
+     ]
     },
     {
      "speaker": "JSS",
-     "text": "Others may not actually see what we do, generally, at the breaking of bread, which is why I am just wondering about it."
+     "text": [
+      "Others may not actually see what we do, generally, at the breaking of bread, which is why I am just wondering about it."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, the other side of this is it is “as often”. They do see what we do often. When my family were children, one of their friends asked why we went out every Lord’s day morning. They asked why we did it, and whether we had to go. That was an interesting question. But there was an element at least, I believe, of announcement in that, something that the world could see."
+     "text": [
+      "Well, the other side of this is it is “as often”. They do see what we do often. When my family were children, one of their friends asked why we went out every Lord’s day morning. They asked why we did it, and whether we had to go. That was an interesting question. But there was an element at least, I believe, of announcement in that, something that the world could see."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I understand that there was an instance when a newspaper reporter became interested in what was done. He and a colleague came and sat behind during the morning meeting and then he wrote a report and published it. He said he could understand how these people participated in the breaking of bread and drinking of the cup because it is understandable, but he said, ‘After that point we could not follow where they went’. The breaking of bread is a public matter. There was no opposition from these men - but it was a matter of public notice that the brethren did that."
+     "text": [
+      "I understand that there was an instance when a newspaper reporter became interested in what was done. He and a colleague came and sat behind during the morning meeting and then he wrote a report and published it. He said he could understand how these people participated in the breaking of bread and drinking of the cup because it is understandable, but he said, ‘After that point we could not follow where they went’. The breaking of bread is a public matter. There was no opposition from these men - but it was a matter of public notice that the brethren did that."
+     ]
     },
     {
-     "text": "GAB There is also the side that the principalities and authorities in heaven take account of that too."
+     "speaker": "GAB",
+     "text": [
+      "There is also the side that the principalities and authorities in heaven take account of that too."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "They certainly do, so that “the all-various wisdom of God” (Eph 3: 10) is seen in the assembly and, if I may say, although it would not be a prominent thought in our minds, the “spiritual power of wickedness in the heavenlies” (Eph 6: 12) see it too, and they see that, despite their efforts, the Lord has maintained what He set on and will do inviolate until He comes."
+     "text": [
+      "They certainly do, so that “the all-various wisdom of God” (Eph 3: 10) is seen in the assembly and, if I may say, although it would not be a prominent thought in our minds, the “spiritual power of wickedness in the heavenlies” (Eph 6: 12) see it too, and they see that, despite their efforts, the Lord has maintained what He set on and will do inviolate until He comes."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Would the assembling really involve intelligence? In 1 Corinthians 10 it says, “I speak as to intelligent persons” (v 15), so really the teaching of 1 Corinthians 10 and 11 would underlie the assembling?"
+     "text": [
+      "Would the assembling really involve intelligence? In 1 Corinthians 10 it says, “I speak as to intelligent persons” (v 15), so really the teaching of 1 Corinthians 10 and 11 would underlie the assembling?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "That is helpful. I think it does. Assembling suggests a deliberate action on the part of a person who understands what he or she is doing. Now, we bring our children, and it is right that we should, but it is not a haphazard matter; it is an orderly and dignified matter."
+     "text": [
+      "That is helpful. I think it does. Assembling suggests a deliberate action on the part of a person who understands what he or she is doing. Now, we bring our children, and it is right that we should, but it is not a haphazard matter; it is an orderly and dignified matter."
+     ]
     },
     {
      "speaker": "JSS",
-     "text": "I was thinking about the queen of Sheba and what she saw when she came to Solomon. She saw “the deportment of his servants, and the order of service of his attendants”, 1 Kings 10: 5. Those would be those that listened to Solomon and would be influenced by him. There is “their apparel”, perhaps their associations, and then there is “his ascent”, orderly progress, you might say, from that atmosphere."
+     "text": [
+      "I was thinking about the queen of Sheba and what she saw when she came to Solomon. She saw “the deportment of his servants, and the order of service of his attendants”, 1 Kings 10: 5. Those would be those that listened to Solomon and would be influenced by him. There is “their apparel”, perhaps their associations, and then there is “his ascent”, orderly progress, you might say, from that atmosphere."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Yes, and one of her impressions was, “Happy are thy men! happy are these thy servants, who stand continually before thee, who hear thy wisdom!”, v 8. There was restfulness, but there was joy in it too. I believe that part of the value of spiritual order is that the brethren’s spirits are set free to rejoice. We are not hesitant or wondering what might happen, or unsure. We do not know exactly what will happen but we know that there will be an order in it, and that the Lord is \"minister of the holy place”, Heb 8: 1. We can be confident in that."
+     "text": [
+      "Yes, and one of her impressions was, “Happy are thy men! happy are these thy servants, who stand continually before thee, who hear thy wisdom!”, v 8. There was restfulness, but there was joy in it too. I believe that part of the value of spiritual order is that the brethren’s spirits are set free to rejoice. We are not hesitant or wondering what might happen, or unsure. We do not know exactly what will happen but we know that there will be an order in it, and that the Lord is \"minister of the holy place”, Heb 8: 1. We can be confident in that."
+     ]
     },
     {
-     "text": "AMB Those who assemble form a sanctified company. The individuals must know about sanctification. I am just thinking about your scripture in Hebrews 2, “For both he that sanctifies and those sanctified”. That in itself is a very dignified matter and would indicate that the company takes character from Christ Himself and therefore “he is not ashamed to call them brethren”."
+     "speaker": "AMB",
+     "text": [
+      "Those who assemble form a sanctified company. The individuals must know about sanctification. I am just thinking about your scripture in Hebrews 2, “For both he that sanctifies and those sanctified”. That in itself is a very dignified matter and would indicate that the company takes character from Christ Himself and therefore “he is not ashamed to call them brethren”."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "It takes character from Christ and also, would you say, from God, for they are “all of one”? It does not say they are all one although that would be true, but it says they are “all of one”. Really all that we are speaking about has its root, its source, in God Himself. Is that suitable?"
+     "text": [
+      "It takes character from Christ and also, would you say, from God, for they are “all of one”? It does not say they are all one although that would be true, but it says they are “all of one”. Really all that we are speaking about has its root, its source, in God Himself. Is that suitable?"
+     ]
     },
     {
-     "text": "AMB It has often been remarked that the writer does not say “all of one” what; “all of one” is really source, is it not? What you are drawing attention to is that “those sanctified” have their origin, their source, in God. It is His work. Christ is perfect, but we are brought into His order."
+     "speaker": "AMB",
+     "text": [
+      "It has often been remarked that the writer does not say “all of one” what; “all of one” is really source, is it not? What you are drawing attention to is that “those sanctified” have their origin, their source, in God. It is His work. Christ is perfect, but we are brought into His order."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "We speak about kindred. I used to wonder what kindred meant, because it is not a word we see much used elsewhere, but “all of one” would involve what is kindred. It is the same in order and character."
+     "text": [
+      "We speak about kindred. I used to wonder what kindred meant, because it is not a word we see much used elsewhere, but “all of one” would involve what is kindred. It is the same in order and character."
+     ]
     },
     {
-     "text": "AMB And so we get the word “brethren” used, which expresses kindred, does it not?"
+     "speaker": "AMB",
+     "text": [
+      "And so we get the word “brethren” used, which expresses kindred, does it not?"
+     ]
     },
     {
      "speaker": "ASP",
-     "text": "Can you say something about the singing and the order of response in Hebrews 2: “in the midst of the assembly will I sing thy praises”? That would refer to the Lord, would it? In Matthew 26 it says, “And having sung a hymn, they went out to the mount of Olives” (v 30); so Jesus would have been singing that hymn with them, would He? Can you help us as to His place in the service and also what it means as to Minister of the holy places?"
+     "text": [
+      "Can you say something about the singing and the order of response in Hebrews 2: “in the midst of the assembly will I sing thy praises”? That would refer to the Lord, would it? In Matthew 26 it says, “And having sung a hymn, they went out to the mount of Olives” (v 30); so Jesus would have been singing that hymn with them, would He? Can you help us as to His place in the service and also what it means as to Minister of the holy places?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "What I had in mind in this scripture is just simply that it would establish us that the thought of brethren precedes - I do not mean in terms of greatness but in terms of place and time - the thought of the assembly, so the Lord has the response of His brethren, and then these brethren form His assembly and He has their response. “Having sung a hymn they went out to the mount of Olives”, suggests leaving behind the wilderness scene and going onto what is spiritual. The mount of Olives would suggest that movement after we break bread in the wilderness, and I would not make a rule at all, but I do think it would be normal to have a hymn immediately after the Supper has been taken because a hymn sets us together in spiritual movement. But the Lord having had His portion, what is then to happen? He has His assembly as a vessel of praise and He declares His Father’s name to them, and then sings His praises “in the midst of the assembly”. He sings in the midst as leading. Now you asked about the “minister of the holy places”, but that is the Lord’s place as prime or leading in what proceeds in the sanctuary as the high priest did in the tabernacle system of old."
+     "text": [
+      "What I had in mind in this scripture is just simply that it would establish us that the thought of brethren precedes - I do not mean in terms of greatness but in terms of place and time - the thought of the assembly, so the Lord has the response of His brethren, and then these brethren form His assembly and He has their response. “Having sung a hymn they went out to the mount of Olives”, suggests leaving behind the wilderness scene and going onto what is spiritual. The mount of Olives would suggest that movement after we break bread in the wilderness, and I would not make a rule at all, but I do think it would be normal to have a hymn immediately after the Supper has been taken because a hymn sets us together in spiritual movement. But the Lord having had His portion, what is then to happen? He has His assembly as a vessel of praise and He declares His Father’s name to them, and then sings His praises “in the midst of the assembly”. He sings in the midst as leading. Now you asked about the “minister of the holy places”, but that is the Lord’s place as prime or leading in what proceeds in the sanctuary as the high priest did in the tabernacle system of old."
+     ]
     },
     {
      "speaker": "ASP",
-     "text": "That is helpful; so He has that office in the service of God as minister of the holy places. Without being prescriptive, but would that be from the response onwards after the assembly’s response?"
+     "text": [
+      "That is helpful; so He has that office in the service of God as minister of the holy places. Without being prescriptive, but would that be from the response onwards after the assembly’s response?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "It is when He comes in. The order of the response, which we may touch on in Ephesians, is set out for us, but the whole of the service of praise takes place before the face of the Father, and the Spirit is there throughout. Each has their portion as it proceeds, but when I was young I used to think the service was in stages almost like going from one room to another, but that is not how I understand it now. It is the assembly that is responding to the Holy Spirit under the Lord’s direction. We do not - speaking reverently - become detached from the Lord in responding to the Spirit. Is that helpful?"
+     "text": [
+      "It is when He comes in. The order of the response, which we may touch on in Ephesians, is set out for us, but the whole of the service of praise takes place before the face of the Father, and the Spirit is there throughout. Each has their portion as it proceeds, but when I was young I used to think the service was in stages almost like going from one room to another, but that is not how I understand it now. It is the assembly that is responding to the Holy Spirit under the Lord’s direction. We do not - speaking reverently - become detached from the Lord in responding to the Spirit. Is that helpful?"
+     ]
     },
     {
      "speaker": "ASP",
-     "text": "That is very helpful, and so while we would be responding to the Lord, for example, straight after the Supper, although we are then primarily for Him, the Father would have a distinctive enjoyment as hearing that."
+     "text": [
+      "That is very helpful, and so while we would be responding to the Lord, for example, straight after the Supper, although we are then primarily for Him, the Father would have a distinctive enjoyment as hearing that."
+     ]
     },
     {
-     "text": "AMB What is coming in is helpful. In a sense the service is cumulative and we carry forward impressions we had in worshipping the Lord, and expressing our affection for Him, into the service to the Spirit, and into the Father’s presence too, do we not? It is in order to speak to the Lord about what He means to the Father and what He has done for the Father. These are aspects of the glories of the Lord that we can praise Him for."
-    },
-    {
-     "speaker": "PAG",
-     "text": "And sometimes - again these are not rules - something that the brother has said in thanksgiving for the loaf or the cup may come up again in response to the Father, when some feature of Christ that has been of particular preciousness to us is brought into the response. Thus the Father’s heart is delighted with the saints’ appreciation of Christ."
-    },
-    {
-     "text": "AMB Would you say too that we experience the liberty and power and help of the Holy Spirit in the service, so that leads to a freshness and spontaneity of response, and we need to be ready for that from our side?"
-    },
-    {
-     "speaker": "PAG",
-     "text": "We do. I commend a good knowledge of the hymn book, which also helps in filling out the service. I trust what I say is right and that we might be all in liberty, but, if one or two verses from a hymn meet the need of the moment, it is not necessary always to sing the whole hymn. You can pick out what would suit. The Lord selected verses from Scripture."
-    },
-    {
-     "text": "GAB The Lord’s first communication as coming out of death to Mary was, “go to my brethren” - that was the first thing - “and say to them, I ascend to my Father and your Father, and to my God and your God”, John 20:17. Really it is all one thing, is it not?"
+     "speaker": "AMB",
+     "text": [
+      "What is coming in is helpful. In a sense the service is cumulative and we carry forward impressions we had in worshipping the Lord, and expressing our affection for Him, into the service to the Spirit, and into the Father’s presence too, do we not? It is in order to speak to the Lord about what He means to the Father and what He has done for the Father. These are aspects of the glories of the Lord that we can praise Him for."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I do think that, and it bears on what was said earlier about the ascent by which king Solomon went up. He did not go from one house to another. He was in his house and there was an ascent in it."
+     "text": [
+      "And sometimes - again these are not rules - something that the brother has said in thanksgiving for the loaf or the cup may come up again in response to the Father, when some feature of Christ that has been of particular preciousness to us is brought into the response. Thus the Father’s heart is delighted with the saints’ appreciation of Christ."
+     ]
+    },
+    {
+     "speaker": "AMB",
+     "text": [
+      "Would you say too that we experience the liberty and power and help of the Holy Spirit in the service, so that leads to a freshness and spontaneity of response, and we need to be ready for that from our side?"
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "We do. I commend a good knowledge of the hymn book, which also helps in filling out the service. I trust what I say is right and that we might be all in liberty, but, if one or two verses from a hymn meet the need of the moment, it is not necessary always to sing the whole hymn. You can pick out what would suit. The Lord selected verses from Scripture."
+     ]
+    },
+    {
+     "speaker": "GAB",
+     "text": [
+      "The Lord’s first communication as coming out of death to Mary was, “go to my brethren” - that was the first thing - “and say to them, I ascend to my Father and your Father, and to my God and your God”, John 20:17. Really it is all one thing, is it not?"
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "I do think that, and it bears on what was said earlier about the ascent by which king Solomon went up. He did not go from one house to another. He was in his house and there was an ascent in it."
+     ]
     },
     {
      "speaker": "JWP",
-     "text": "I was thinking of what you were speaking of as to singing. Job 38: 7 speaks of “When the morning stars sang together, and all the sons of God shouted for joy”. That is Jehovah speaking to Job. Would that refer to the singing? I do not understand quite what the morning stars might be."
+     "text": [
+      "I was thinking of what you were speaking of as to singing. Job 38: 7 speaks of “When the morning stars sang together, and all the sons of God shouted for joy”. That is Jehovah speaking to Job. Would that refer to the singing? I do not understand quite what the morning stars might be."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "That was at the time of the creation, was it not? I think the morning stars refer to the saints. It says on the fourth day of creation that “God made the two great lights, the great light to rule the day, and the small light to rule the night”, and then it says, “- and the stars”, Gen 1: 16. I think that looks on to the saints. Paul himself says “for star differs from star in glory”, 1 Cor 15: 41. He is referring to saints; so the stars in that sense - and they are all morning stars - have taken character from Christ in resurrection. “The sons of God shouted for joy” I think would be the angelic hosts; so while they do not participate in what we are speaking of here, they nevertheless participate in praise Godward. They “shouted for joy”. They acknowledged His creatorial greatness and found joy in it and the saints of the assembly can do so too."
+     "text": [
+      "That was at the time of the creation, was it not? I think the morning stars refer to the saints. It says on the fourth day of creation that “God made the two great lights, the great light to rule the day, and the small light to rule the night”, and then it says, “- and the stars”, Gen 1: 16. I think that looks on to the saints. Paul himself says “for star differs from star in glory”, 1 Cor 15: 41. He is referring to saints; so the stars in that sense - and they are all morning stars - have taken character from Christ in resurrection. “The sons of God shouted for joy” I think would be the angelic hosts; so while they do not participate in what we are speaking of here, they nevertheless participate in praise Godward. They “shouted for joy”. They acknowledged His creatorial greatness and found joy in it and the saints of the assembly can do so too."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "So while you are stressing order, there is also liberty brought in. Would you allow that divine Persons also have liberty with One Another? I am thinking of the expression, “in the midst of the assembly will I sing thy praises”. That is the Father’s praises, sung by Christ, in the assembly. Help us as to that expression."
+     "text": [
+      "So while you are stressing order, there is also liberty brought in. Would you allow that divine Persons also have liberty with One Another? I am thinking of the expression, “in the midst of the assembly will I sing thy praises”. That is the Father’s praises, sung by Christ, in the assembly. Help us as to that expression."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, I thought as you have been speaking that singing would involve what we can do together; so we can be united with Christ, not only as His assembly in response to Him, but we can be united with Him in response to the Father. I do not want to confuse anyone. We are responding as sons in the Father’s presence, but we are one with Christ in doing so."
+     "text": [
+      "Well, I thought as you have been speaking that singing would involve what we can do together; so we can be united with Christ, not only as His assembly in response to Him, but we can be united with Him in response to the Father. I do not want to confuse anyone. We are responding as sons in the Father’s presence, but we are one with Christ in doing so."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "Exactly, so the same personnel who are brethren are merged together in the assembly and these same persons are then brought through in the power of the Holy Spirit to respond as sons. They are not different persons. It is very blessed, is it not, “in the midst of the assembly will I sing thy praises”, as if the Lord has the liberty in that area to sing the Father’s praises? Our brother has referred to John 20. Do you think this very matter was really in the Lord’s mind as He came out of death?"
+     "text": [
+      "Exactly, so the same personnel who are brethren are merged together in the assembly and these same persons are then brought through in the power of the Holy Spirit to respond as sons. They are not different persons. It is very blessed, is it not, “in the midst of the assembly will I sing thy praises”, as if the Lord has the liberty in that area to sing the Father’s praises? Our brother has referred to John 20. Do you think this very matter was really in the Lord’s mind as He came out of death?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I think it was, and the matter of liberty is important. I know the setting is a little different but the scripture says, “And at the moment the burnt-offering began, the song of Jehovah began”, 2 Chron 29: 27. That is almost like the Supper. Whenever it is set on, the song of praise begins. It does not say anything about it ending."
+     "text": [
+      "I think it was, and the matter of liberty is important. I know the setting is a little different but the scripture says, “And at the moment the burnt-offering began, the song of Jehovah began”, 2 Chron 29: 27. That is almost like the Supper. Whenever it is set on, the song of praise begins. It does not say anything about it ending."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "I would like some more help about this verse that our brother has referred to, “declare thy name” and then, “sing thy praises”. It has been suggested, I think, that Christ does that through the assembly, but we also speak about Him leading the praise, which I can see, in some of our hymns, for example,"
-    },
-    {
-     "text": "The voice of Christ is heard o’er all"
-    },
-    {
-     "text": "In accents sweet and clear"
-    },
-    {
-     "text": "(Hymn 237)"
-    },
-    {
-     "text": "Can you say more about the way in which He leads and sings the Father’s praises?"
+     "text": [
+      "I would like some more help about this verse that our brother has referred to, “declare thy name” and then, “sing thy praises”. It has been suggested, I think, that Christ does that through the assembly, but we also speak about Him leading the praise, which I can see, in some of our hymns, for example,",
+      "The voice of Christ is heard o’er all",
+      "In accents sweet and clear",
+      "(Hymn 237)",
+      "Can you say more about the way in which He leads and sings the Father’s praises?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, He is the Head of the assembly and therefore she is not going to move or act without His impulse, and all the more so in a spiritual sphere such as we are speaking of. Now, as we have already guarded, the thought of sons would be what is prominent, but it is the personnel of the assembly, and I do feel that it has been emphasised in my spirit as we have been speaking of it, that the more we are attached to divine Persons, the more real this becomes to us, to the impulses coming from Christ."
+     "text": [
+      "Well, He is the Head of the assembly and therefore she is not going to move or act without His impulse, and all the more so in a spiritual sphere such as we are speaking of. Now, as we have already guarded, the thought of sons would be what is prominent, but it is the personnel of the assembly, and I do feel that it has been emphasised in my spirit as we have been speaking of it, that the more we are attached to divine Persons, the more real this becomes to us, to the impulses coming from Christ."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "What you have said is helpful; so in reality this works through what we participate in together, what one or another gives voice to, or gives out a hymn, for example. That is the way in which this operates in reality, but you can detect the Lord’s leading in the matter and you can also experience His joy in doing so, would you say?"
+     "text": [
+      "What you have said is helpful; so in reality this works through what we participate in together, what one or another gives voice to, or gives out a hymn, for example. That is the way in which this operates in reality, but you can detect the Lord’s leading in the matter and you can also experience His joy in doing so, would you say?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I think you can. It may happen when we are young and another brother gives out a hymn that we had been going to give out, we might be disappointed because it had probably taken a while to think about it, and we might not very sure anyway; but now if that happens to me, I am very pleased. It does not matter who gives out the hymn; what matters is that it is sung. To me it is a sign of the working of the Spirit. Sometimes a sister will say after the meeting about a hymn that has been given out, ‘I was thinking of that too’. Well, that is a very blessed thing. It shows that this matter of \"in the midst of the assembly will I sing thy praises” is not just a formula; it is a real thing that works."
+     "text": [
+      "I think you can. It may happen when we are young and another brother gives out a hymn that we had been going to give out, we might be disappointed because it had probably taken a while to think about it, and we might not very sure anyway; but now if that happens to me, I am very pleased. It does not matter who gives out the hymn; what matters is that it is sung. To me it is a sign of the working of the Spirit. Sometimes a sister will say after the meeting about a hymn that has been given out, ‘I was thinking of that too’. Well, that is a very blessed thing. It shows that this matter of \"in the midst of the assembly will I sing thy praises” is not just a formula; it is a real thing that works."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "Thinking of the part that the Holy Spirit plays in all of this, I have been looking at what the apostle writes in Romans 8, “but ye have received a spirit of adoption”, v 15. It is a small ‘s’ there, but the Holy Spirit is the Spirit of adoption too. The previous verse says, “for as many as are led by the Spirit of God, these are sons of God”, v 14. I completely and gladly accept the way in which it has been said of the Lord Jesus, according to Scripture, that He is the “minister of the holy places”, but the Spirit has an important part in what proceeds too, has He not, and in how it proceeds?"
+     "text": [
+      "Thinking of the part that the Holy Spirit plays in all of this, I have been looking at what the apostle writes in Romans 8, “but ye have received a spirit of adoption”, v 15. It is a small ‘s’ there, but the Holy Spirit is the Spirit of adoption too. The previous verse says, “for as many as are led by the Spirit of God, these are sons of God”, v 14. I completely and gladly accept the way in which it has been said of the Lord Jesus, according to Scripture, that He is the “minister of the holy places”, but the Spirit has an important part in what proceeds too, has He not, and in how it proceeds?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "That is why I was keen to touch on Ephesians. These words “by one Spirit”, through Christ, so, you might say, Christ is there mediatorially in all His blessedness, but there needs to be power, “by one Spirit”. Would that be in line with your impression?"
+     "text": [
+      "That is why I was keen to touch on Ephesians. These words “by one Spirit”, through Christ, so, you might say, Christ is there mediatorially in all His blessedness, but there needs to be power, “by one Spirit”. Would that be in line with your impression?"
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "Yes, I take it “by one Spirit” is the word for ‘in the power of’, but the Holy Spirit is the power for our adoration of the Lord Jesus; He is the power for our worship of God. Without the Holy Spirit being at liberty, the whole thing would just be a formality. That is a testing thing because other brethren in the room might be enjoying the power of the Holy Spirit, and I might just be singing the hymns and listening to the words and not be in that myself. There is an important subjective aspect to this that we are speaking about, is there not?"
+     "text": [
+      "Yes, I take it “by one Spirit” is the word for ‘in the power of’, but the Holy Spirit is the power for our adoration of the Lord Jesus; He is the power for our worship of God. Without the Holy Spirit being at liberty, the whole thing would just be a formality. That is a testing thing because other brethren in the room might be enjoying the power of the Holy Spirit, and I might just be singing the hymns and listening to the words and not be in that myself. There is an important subjective aspect to this that we are speaking about, is there not?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "There certainly is and again, even if we have not got off on a very good footing, we can ask the Spirit to help us. He can steady us in our minds. I do not want in any way to undermine the point about “let a man prove himself, and thus eat”. That is absolutely necessary. There may be times when someone has come into the meeting room, and seen the brethren and the emblems, and in doing so has realised there was something still to adjust before the Lord. The Spirit would help us even in the recognition of what would be suitable, and if our mind wanders in the course of the service of praise, we can ask the Spirit to bring us back again. I wonder if I sometimes overlook the fact we are actually speaking to and about a divine Person. His power is infinite."
+     "text": [
+      "There certainly is and again, even if we have not got off on a very good footing, we can ask the Spirit to help us. He can steady us in our minds. I do not want in any way to undermine the point about “let a man prove himself, and thus eat”. That is absolutely necessary. There may be times when someone has come into the meeting room, and seen the brethren and the emblems, and in doing so has realised there was something still to adjust before the Lord. The Spirit would help us even in the recognition of what would be suitable, and if our mind wanders in the course of the service of praise, we can ask the Spirit to bring us back again. I wonder if I sometimes overlook the fact we are actually speaking to and about a divine Person. His power is infinite."
+     ]
     },
     {
      "speaker": "EWH",
-     "text": "Do you think, among other things of course, that recognising the Spirit’s service in relation to the Lord would draw us towards the worship of the Spirit? We had to be helped to see that there is liberty to worship the Spirit, but there is a very clear basis in Scripture for worshipping the Spirit, and it is important that we recognise that, do you think?"
+     "text": [
+      "Do you think, among other things of course, that recognising the Spirit’s service in relation to the Lord would draw us towards the worship of the Spirit? We had to be helped to see that there is liberty to worship the Spirit, but there is a very clear basis in Scripture for worshipping the Spirit, and it is important that we recognise that, do you think?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "There is. When the truth as to worshipping the Spirit was brought out, I heard directly from one brother that help came in when a brother simply asked as to the Spirit, ‘Is He God or is He not?’. A brother agreed that of course the Holy Spirit is God, and the brethren who were enquiring at the time were helped to see that as God, He was worthy of response. Help came in through enquiry into the Scriptures, and through soul exercise in dependence on the Lord. I also think it involves subjection to the Lord at the present time. It is the Lord who directs us towards the Spirit."
+     "text": [
+      "There is. When the truth as to worshipping the Spirit was brought out, I heard directly from one brother that help came in when a brother simply asked as to the Spirit, ‘Is He God or is He not?’. A brother agreed that of course the Holy Spirit is God, and the brethren who were enquiring at the time were helped to see that as God, He was worthy of response. Help came in through enquiry into the Scriptures, and through soul exercise in dependence on the Lord. I also think it involves subjection to the Lord at the present time. It is the Lord who directs us towards the Spirit.",
+      "I just want to mention the last scripture in John. It is a very blessed thing to be able to recognise the greatness of God. We can never compass it, but “God is a spirit; and they who worship him must worship him in spirit” so the Spirit’s power is essential, but “and truth”. That involves something that can be known. It does not mean we know everything but to “be filled even to all the fulness of God” (Eph 3: 19) would involve that there is something that can be known and responded to."
+     ]
     },
     {
-     "text": "I just want to mention the last scripture in John. It is a very blessed thing to be able to recognise the greatness of God. We can never compass it, but “God is a spirit; and they who worship him must worship him in spirit” so the Spirit’s power is essential, but “and truth”. That involves something that can be known. It does not mean we know everything but to “be filled even to all the fulness of God” (Eph 3: 19) would involve that there is something that can be known and responded to."
-    },
-    {
-     "text": "AMB When we worship God, the three Persons are in our minds and they are often referred to by name, and it is one Name. There is what is beyond us, but the Lord made this known, and it was with a view to God being worshipped. It has often been said that when we worship God, we are not going higher than when we worship the Father but we are going, as it were, wider because all three Persons are in our minds as we worship that blessed One."
+     "speaker": "AMB",
+     "text": [
+      "When we worship God, the three Persons are in our minds and they are often referred to by name, and it is one Name. There is what is beyond us, but the Lord made this known, and it was with a view to God being worshipped. It has often been said that when we worship God, we are not going higher than when we worship the Father but we are going, as it were, wider because all three Persons are in our minds as we worship that blessed One."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Yes, it is well for us to remember that the Father is supreme in the economy. We cannot go higher than that. There is no higher to go, but the scope of our thoughts can be enlarged. We often sing hymn number 3:"
-    },
-    {
-     "text": "As Head, O God, exalted Thou"
-    },
-    {
-     "text": "but then -"
-    },
-    {
-     "text": "God - Father, Son, and Holy Ghost."
-    },
-    {
-     "text": "The Lord did say to this woman, “we worship what we know”, John 4: 22. This is not an abstract being that we are responding to because we feel we ought to. This is a God known in the way that He has revealed Himself."
+     "text": [
+      "Yes, it is well for us to remember that the Father is supreme in the economy. We cannot go higher than that. There is no higher to go, but the scope of our thoughts can be enlarged. We often sing hymn number 3:",
+      "As Head, O God, exalted Thou",
+      "but then -",
+      "God - Father, Son, and Holy Ghost.",
+      "The Lord did say to this woman, “we worship what we know”, John 4: 22. This is not an abstract being that we are responding to because we feel we ought to. This is a God known in the way that He has revealed Himself."
+     ]
     }
    ]
   },
@@ -684,5 +838,19 @@
  "back_matter": [
   "Edited and Published by David Brown and Andrew Burr",
   "81 Roxburgh Road. West Norwood. London. SE27 OLE"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "SPIRITUAL ORDER",
+   "kind": "default_place",
+   "detail": "Grangemouth given to 13 names (\"Grangemouth unless otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "SPIRITUAL ORDER",
+   "kind": "speaker_not_in_key",
+   "detail": "GAB (3 paragraphs)"
+  }
  ]
 }

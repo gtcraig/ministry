@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,39 +26,34 @@
    "place": "LONDON",
    "date": "15 October 1977",
    "speakers": [
-    "A.J.E.W.",
-    "E.C.B.",
-    "R.H.",
-    "E.M.W.",
-    "R.T.",
-    "J.L.",
-    "C.R.B.",
-    "C.F.D.",
-    "F.R.T.",
-    "P.J.H.",
-    "J.W.",
-    "AJ.E.W.",
-    "E.C.M.",
-    "D.E.R.",
-    "G.T.P.",
-    "E.P.",
-    "E.J.J.",
-    "G.A.P.",
-    "R.E.T.",
-    "W.D.",
-    "W.T.A.",
-    "D.E.B."
+    "AJEW",
+    "ECB",
+    "RH",
+    "EMW",
+    "RT",
+    "JL",
+    "CRB",
+    "CFD",
+    "FRT",
+    "PJH",
+    "JW",
+    "ECM",
+    "DER",
+    "GTP",
+    "EP",
+    "EJJ",
+    "GAP",
+    "RET",
+    "GTMcC",
+    "WD",
+    "WTA",
+    "DEB"
    ],
    "initials": [
     {
      "initials": "WTA",
      "name": "W.T.Abbott",
      "place": "London"
-    },
-    {
-     "initials": "AAB",
-     "name": "y.- A.A.Bellamy",
-     "place": "Buckhurst Hill"
     },
     {
      "initials": "CRB",
@@ -76,19 +71,14 @@
      "place": "London"
     },
     {
-     "initials": "PBPB",
-     "name": "P.v.d.B.- P.van den Berg",
+     "initials": "PvdB",
+     "name": "P.van den Berg",
      "place": "The Hague"
     },
     {
-     "initials": "ACC",
-     "name": "g.- A.C.Craig",
+     "initials": "ACCg",
+     "name": "A.C.Craig",
      "place": "Airdrie"
-    },
-    {
-     "initials": "ACC",
-     "name": "m.- A.C.Clapham",
-     "place": "Manchester"
     },
     {
      "initials": "CFD",
@@ -101,14 +91,19 @@
      "place": "Edinburgh"
     },
     {
-     "initials": "RHRH",
-     "name": "R.H. R.Hibbert",
+     "initials": "RH",
+     "name": "R.Hibbert",
      "place": "Calgary"
     },
     {
      "initials": "PJH",
      "name": "P.J.Herbert",
-     "place": "Cardiff: E.J.J.- E.J.Jarvis, Torbay"
+     "place": "Cardiff"
+    },
+    {
+     "initials": "EJJ",
+     "name": "E.J.Jarvis",
+     "place": "Torbay"
     },
     {
      "initials": "JL",
@@ -118,7 +113,12 @@
     {
      "initials": "ECM",
      "name": "E.C.Muggleton",
-     "place": "Croydon: G.T.McC.- G.T.McCrone, Toronto"
+     "place": "Croydon"
+    },
+    {
+     "initials": "GTMcC",
+     "name": "G.T.McCrone",
+     "place": "Toronto"
     },
     {
      "initials": "EP",
@@ -181,433 +181,600 @@
    ],
    "paragraphs": [
     {
-     "speaker": "A.J.E.W.",
-     "text": "We were speaking yesterday of the manner in which God secures His great ends through recovery and through the faithful maintaining of what is established in recovery. We spoke of Moses and the way in which his action in pitching the tent of meeting far from the camp, and his faithfulness in readiness to be blotted out of God's book, made a basis for the tabernacle to be set up and completed, affording God the point of dwelling, the sanctuary, of which He spoke to Moses at first. Then we spoke of David and the way the house was set on and a basis established for it, the restoring of the ark to a fitting place, Christ typically being enshrined in supremacy in the hearts of His lovers."
+     "speaker": "AJEW",
+     "text": [
+      "We were speaking yesterday of the manner in which God secures His great ends through recovery and through the faithful maintaining of what is established in recovery. We spoke of Moses and the way in which his action in pitching the tent of meeting far from the camp, and his faithfulness in readiness to be blotted out of God's book, made a basis for the tabernacle to be set up and completed, affording God the point of dwelling, the sanctuary, of which He spoke to Moses at first. Then we spoke of David and the way the house was set on and a basis established for it, the restoring of the ark to a fitting place, Christ typically being enshrined in supremacy in the hearts of His lovers.",
+      "We then went on to speak of the way in which the Lord Jesus personally is in surpassing grace able to conduct us through moral history with recovery for God in mind. We touched the case of the woman of John 4, showing how the Lord served in the days of His flesh, and the two who went to Emmaus in Luke 24, showing how the Lord came into that remarkable period of instruction and adjustment, leading to a new order, as He was out of death. Then we dwelt on Saul of Tarsus and the skill and the power in which the Lord laid hold of that dear man on the Damascus road. That led us to speak, particularly at the end of our readings, of the energy that marked Paul and characterised his service; and the way in which the needed energy is drawn to the notice of Timothy in his letter to Timothy, reminding us of the vigour that is called for in a recovered situation, stimulating us to Pauline devotion; taking Paul, not just as a pattern of gift of apostleship, but seizing the total devotion to God which is peculiarly manifest with him.",
+      "It was thought that we should follow up this Pauline line and consider together the two local assemblies in which he was particularly active, that is Corinth and Ephesus. He remained in both places for a fairly protracted period, affording much opportunity for a certain course of teaching. He was assured by the Lord according to the history in the Acts as he was in Corinth that the Lord had much people in that city. Therefore I suggest that we think of these scriptures and of the scope of the Corinthian letters, to get some sense of how Paul laboured to reach conditions in a local assembly, to bring the needed touch of recovery in from a situation which presents so many features which would provide a challenge to a heart true to Christ, particularly the point which he quickly comes to in this first chapter, that there was a divided condition there, some saying \"I am of Paul\", and others \"I of Apollos\", \"I of Cephas\", \"I of Christ\". But he proceeds to meet the whole condition of things in Corinth with remarkable manifest power. We have to think, not just of the individual side which we had yesterday afternoon, but the way in which conditions of local assemblies may be touched and what is due to Christ stood for and established. Then when we come to Ephesus the point is rather more the maintenance of what had been brought in in Pauline teaching, and the necessity in that maintenance for responsible persons to hold ground which is of God and stand firm in it, a point which is specially brought out in the way that the beloved apostle addresses the Ephesian elders. We have a wide scope before us in that sense, but such meetings as these should give us occasion to regard the truth in wider scope than we perhaps can in other lesser occasions. It becomes an opportunity to enquire together in this context of local assembly conditions and how the Lord is able by the positive assertion of the truth in the Spirit of Christ, to reach those conditions and bring in the elements of recovery that will establish what is proper to the assembly, what is precious to Christ, what is approved of God. So that the address is a very dignified one: \"to the assembly of God which is in Corinth\". A need maybe is with us to get some fresh impression of the dignity in the sight of heaven of what belongs in the sight of God to the local assembly."
+     ]
     },
     {
-     "text": "We then went on to speak of the way in which the Lord Jesus personally is in surpassing grace able to conduct us through moral history with recovery for God in mind. We touched the case of the woman of John 4, showing how the Lord served in the days of His flesh, and the two who went to Emmaus in Luke 24, showing how the Lord came into that remarkable period of instruction and adjustment, leading to a new order, as He was out of death. Then we dwelt on Saul of Tarsus and the skill and the power in which the Lord laid hold of that dear man on the Damascus road. That led us to speak, particularly at the end of our readings, of the energy that marked Paul and characterised his service; and the way in which the needed energy is drawn to the notice of Timothy in his letter to Timothy, reminding us of the vigour that is called for in a recovered situation, stimulating us to Pauline devotion; taking Paul, not just as a pattern of gift of apostleship, but seizing the total devotion to God which is peculiarly manifest with him."
+     "speaker": "ECB",
+     "text": [
+      "I wondered if you could say something about the two objectives, not altogether different, that he seems to have in Corinth. In chapter 15 from which you have read, there is eternity with God all in all, but in the second epistle there is a chaste virgin to Christ. I wondered whether the second also had some practical current bearing on us."
+     ]
     },
     {
-     "text": "It was thought that we should follow up this Pauline line and consider together the two local assemblies in which he was particularly active, that is Corinth and Ephesus. He remained in both places for a fairly protracted period, affording much opportunity for a certain course of teaching. He was assured by the Lord according to the history in the Acts as he was in Corinth that the Lord had much people in that city. Therefore I suggest that we think of these scriptures and of the scope of the Corinthian letters, to get some sense of how Paul laboured to reach conditions in a local assembly, to bring the needed touch of recovery in from a situation which presents so many features which would provide a challenge to a heart true to Christ, particularly the point which he quickly comes to in this first chapter, that there was a divided condition there, some saying \"I am of Paul\", and others \"I of Apollos\", \"I of Cephas\", \"I of Christ\". But he proceeds to meet the whole condition of things in Corinth with remarkable manifest power. We have to think, not just of the individual side which we had yesterday afternoon, but the way in which conditions of local assemblies may be touched and what is due to Christ stood for and established. Then when we come to Ephesus the point is rather more the maintenance of what had been brought in in Pauline teaching, and the necessity in that maintenance for responsible persons to hold ground which is of God and stand firm in it, a point which is specially brought out in the way that the beloved apostle addresses the Ephesian elders. We have a wide scope before us in that sense, but such meetings as these should give us occasion to regard the truth in wider scope than we perhaps can in other lesser occasions. It becomes an opportunity to enquire together in this context of local assembly conditions and how the Lord is able by the positive assertion of the truth in the Spirit of Christ, to reach those conditions and bring in the elements of recovery that will establish what is proper to the assembly, what is precious to Christ, what is approved of God. So that the address is a very dignified one: \"to the assembly of God which is in Corinth\". A need maybe is with us to get some fresh impression of the dignity in the sight of heaven of what belongs in the sight of God to the local assembly."
+     "speaker": "AJEW",
+     "text": [
+      "I hoped we should touch that. With a wide area before us it is tempting to read a lot of scripture, but we can quote scripture and read it together as we are, and that was one passage very much in my mind, because it discloses the depth of underlying concern in the heart of Paul himself and the clarity of the objective that he had in that sense. I think that is a little like what we noticed in both Moses and David, that they had a pattern, and the Lord had brought into Paul's heart something by nature of a pattern, that is a chaste virgin for Christ. The word 'chaste' is particularly to be noticed as standing related to the whole moral course of things in Corinth, that he is seeking a chaste virgin for Christ. But you would say more."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I wondered if you could say something about the two objectives, not altogether different, that he seems to have in Corinth. In chapter 15 from which you have read, there is eternity with God all in all, but in the second epistle there is a chaste virgin to Christ. I wondered whether the second also had some practical current bearing on us."
+     "speaker": "ECB",
+     "text": [
+      "I was only thinking of the suggestions in what you said as to what was of current concern to us. Every believer, no doubt, would look for his part in 1 Corinthians 15, \"those that are the Christ's at his coming\" (v 23), and then eternity when, to refer to what you referred to, every division will be ended - 'when all the strife is over, And all Thy saints, now scattered far and wide\" (hymn 421). But I wondered whether the present test is not the chaste virgin."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I hoped we should touch that. With a wide area before us it is tempting to read a lot of scripture, but we can quote scripture and read it together as we are, and that was one passage very much in my mind, because it discloses the depth of underlying concern in the heart of Paul himself and the clarity of the objective that he had in that sense. I think that is a little like what we noticed in both Moses and David, that they had a pattern, and the Lord had brought into Paul's heart something by nature of a pattern, that is a chaste virgin for Christ. The word 'chaste' is particularly to be noticed as standing related to the whole moral course of things in Corinth, that he is seeking a chaste virgin for Christ. But you would say more."
+     "speaker": "AJEW",
+     "text": [
+      "We should enquire on that line, because it reaches very deeply into conditions among us and raises a challenge whether the positive side of that is present. We find the tendency to get into a kind of religious course. It is a grievous thing, but we find in our own activity and history how easy it is to drop into a certain course of meetings and such like, when the inward spring is what God would get at and when the divine ideals and the divine standards are constantly to be held in our minds and affections; and whether in the matters that arise we are marked by heart for Christ, as to where He stands and as to what is due to Himself, peculiarly in view of the way in which He has caused His beloved ones to be recovered to the truth. How much has been spent from the divine side in the course of what we often speak of as the revival or the recovery! What divine expenditure there has been! How the love of Christ in all its intensity in reference to the assembly has been at work that what is proper to the assembly in response and in testimony should be established in local companies! What divine expenditure, dear brethren, there has been! The challenge to us immediately is whether we have seized the objectives which are the divine objectives and are working to them in the Pauline sense. Is that right?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I was only thinking of the suggestions in what you said as to what was of current concern to us. Every believer, no doubt, would look for his part in 1 Corinthians 15, \"those that are the Christ's at his coming\" (v 23), and then eternity when, to refer to what you referred to, every division will be ended - 'when all the strife is over, And all Thy saints, now scattered far and wide\" (hymn 421). But I wondered whether the present test is not the chaste virgin."
+     "speaker": "ECB",
+     "text": [
+      "Yes. The injunction to the elders of Ephesus in Acts 20 particularly bears on that, and Timothy's personal service at Ephesus bears on it as well. As Paul says: \"I begged thee to remain in Ephesus, when I was going to Macedonia, that thou mightest enjoin some not to teach other doctrines\" (1 Tim 1: 3); that is Paul was now regarding Timothy in the light you might say of an Ephesian elder who was able to maintain things and protect the chastity of the assembly."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "We should enquire on that line, because it reaches very deeply into conditions among us and raises a challenge whether the positive side of that is present. We find the tendency to get into a kind of religious course. It is a grievous thing, but we find in our own activity and history how easy it is to drop into a certain course of meetings and such like, when the inward spring is what God would get at and when the divine ideals and the divine standards are constantly to be held in our minds and affections; and whether in the matters that arise we are marked by heart for Christ, as to where He stands and as to what is due to Himself, peculiarly in view of the way in which He has caused His beloved ones to be recovered to the truth. How much has been spent from the divine side in the course of what we often speak of as the revival or the recovery! What divine expenditure there has been! How the love of Christ in all its intensity in reference to the assembly has been at work that what is proper to the assembly in response and in testimony should be established in local companies! What divine expenditure, dear brethren, there has been! The challenge to us immediately is whether we have seized the objectives which are the divine objectives and are working to them in the Pauline sense. Is that right?"
+     "speaker": "AJEW",
+     "text": [
+      "That would be quite a heavy commission for Timothy and we must be ready for heavy commissions; that is, the Lord may propose things which we feel to be beyond us; but that is perhaps the point that enters into times of recovery. We must know how to seek out and find the divine provision in grace that is necessary for whatever may be laid upon us. That was something definitely laid by the beloved apostle on his beloved child, and Timothy would take a very serious view of that - he would certainly not pass it by in any light sense; and yet he would feel that it was a very considerable commission from Paul to hold things in a right sense at Ephesus. Are we ready for these things, or are we stopping short; are we hanging back, may I say to speak plainly, in fleshly modesty, when devotion to Christ is the governing feature that would hold us in the current of what the Lord is doing?",
+      "A.A.B-y. In the way the apostle addresses his letter to this local assembly, does he show that notwithstanding much that was questionable amongst them, the dignity, the augustness, of that vessel was not impaired in his mind? That is what has been referred to, I think, as the abstract view."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes. The injunction to the elders of Ephesus in Acts 20 particularly bears on that, and Timothy's personal service at Ephesus bears on it as well. As Paul says: \"I begged thee to remain in Ephesus, when I was going to Macedonia, that thou mightest enjoin some not to teach other doctrines\" (1 Tim 1: 3); that is Paul was now regarding Timothy in the light you might say of an Ephesian elder who was able to maintain things and protect the chastity of the assembly."
+     "speaker": "AJEW",
+     "text": [
+      "That is very important, because we hear it said sometimes that we cannot look for this in a time of breakdown - things like that are said as to happenings and as to a certain relinquishing of what is due to Christ in the truth. But that is not the view the beloved apostle takes here, nor is it the view that the Lord would have us to take. These divine standards remain, the assembly remains, what the assembly is in the sight of God, and what is proper to the assembly in a locality is something that stands, and to which every heart that loves Christ would continually revert."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That would be quite a heavy commission for Timothy and we must be ready for heavy commissions; that is, the Lord may propose things which we feel to be beyond us; but that is perhaps the point that enters into times of recovery. We must know how to seek out and find the divine provision in grace that is necessary for whatever may be laid upon us. That was something definitely laid by the beloved apostle on his beloved child, and Timothy would take a very serious view of that - he would certainly not pass it by in any light sense; and yet he would feel that it was a very considerable commission from Paul to hold things in a right sense at Ephesus. Are we ready for these things, or are we stopping short; are we hanging back, may I say to speak plainly, in fleshly modesty, when devotion to Christ is the governing feature that would hold us in the current of what the Lord is doing?"
+     "speaker": "RH",
+     "text": [
+      "Would you say that while the application of things in Corinthians is modified by 2 Timothy, yet Corinthians stands?"
+     ]
     },
     {
-     "text": "A.A.B-y. In the way the apostle addresses his letter to this local assembly, does he show that notwithstanding much that was questionable amongst them, the dignity, the augustness, of that vessel was not impaired in his mind? That is what has been referred to, I think, as the abstract view."
+     "speaker": "AJEW",
+     "text": [
+      "That was asserted clearly around 1920 in this very hall, that whilst the way of approach is by way of 2 Timothy and what we speak of as 'withdrawing from iniquity', the end reached corresponds with what we have in 1 Corinthians 5."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is very important, because we hear it said sometimes that we cannot look for this in a time of breakdown - things like that are said as to happenings and as to a certain relinquishing of what is due to Christ in the truth. But that is not the view the beloved apostle takes here, nor is it the view that the Lord would have us to take. These divine standards remain, the assembly remains, what the assembly is in the sight of God, and what is proper to the assembly in a locality is something that stands, and to which every heart that loves Christ would continually revert."
+     "speaker": "EMW",
+     "text": [
+      "It would be right to say that there was breakdown in Corinth, there was division without open separation. What we have had to face in the course of history is not only division but open separation, but it does not alter God's standards. Is that the point you are making?"
+     ]
     },
     {
-     "speaker": "R.H.",
-     "text": "Would you say that while the application of things in Corinthians is modified by 2 Timothy, yet Corinthians stands?"
+     "speaker": "AJEW",
+     "text": [
+      "Quite so. And, of course, the fact that, as Mr Bellamy brings in, this clinging to the thought of the local assembly is so abundantly brought out by the way in which the apostle asserts positive truth - glorious matters - in this letter. He brings home the truth as to the cross; \"Jesus Christ, and him crucified\", 1 Cor 2: 2; he reverts to his own preaching of the cross, that is the total removal of the man in which God's pleasure could never subsist and the bringing in of a new order of man, the Man Christ Jesus; and he touches particularly the Spirit: \"for the Spirit searches all things, even the depths of God\" (1 Cor 2: 10); as if all the time, though he faces difficult conditions, we might almost say sordid conditions in a certain sense, yet he is clinging to the divine thoughts in their own excellence. They are constantly, so to speak, showing through as he touches the matters which are of concern to him. I believe that is a very fine thing if, as we take up matters in our localities, the positive side of the truth, the glorious side of the truth, is constantly showing through in what we may say and do, because it shows that the outlook of our minds is akin to that that Paul had in cherishing a chaste virgin for Christ.",
+      "P.v.d.B. Paul's great concern was that the assembly might be for Christ. Do we not have the trial of jealousy here in the way Paul was jealous with a jealousy that was of God? In view of that has not the recovery been the Lord's jealousy that He might yet in the present time have an answer to His own thought in relation to the assembly, worked out in local assemblies?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That was asserted clearly around 1920 in this very hall, that whilst the way of approach is by way of 2 Timothy and what we speak of as 'withdrawing from iniquity', the end reached corresponds with what we have in 1 Corinthians 5."
+     "speaker": "AJEW",
+     "text": [
+      "The introduction of jealousy is a very fine point; it is a strong word, yet his jealousy, as he says, was of God; it was no fleshly jealousy of any kind. It points to very deep, constant feelings as to what there was in Corinth, looking at it from the positive side, that is cherishing the objective which is in the divine mind, cherishing the divine thought of the assembly which never changes. What holy depths of resolve and of conviction as to what is due to Christ this produces! That is what the Spirit of God would get at among us today, I believe."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "It would be right to say that there was breakdown in Corinth, there was division without open separation. What we have had to face in the course of history is not only division but open separation, but it does not alter God's standards. Is that the point you are making?"
+     "speaker": "RT",
+     "text": [
+      "Is it important that he not only begins with those divine objectives, but he interweaves them through every chapter?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so. And, of course, the fact that, as Mr Bellamy brings in, this clinging to the thought of the local assembly is so abundantly brought out by the way in which the apostle asserts positive truth - glorious matters - in this letter. He brings home the truth as to the cross; \"Jesus Christ, and him crucified\", 1 Cor 2: 2; he reverts to his own preaching of the cross, that is the total removal of the man in which God's pleasure could never subsist and the bringing in of a new order of man, the Man Christ Jesus; and he touches particularly the Spirit: \"for the Spirit searches all things, even the depths of God\" (1 Cor 2: 10); as if all the time, though he faces difficult conditions, we might almost say sordid conditions in a certain sense, yet he is clinging to the divine thoughts in their own excellence. They are constantly, so to speak, showing through as he touches the matters which are of concern to him. I believe that is a very fine thing if, as we take up matters in our localities, the positive side of the truth, the glorious side of the truth, is constantly showing through in what we may say and do, because it shows that the outlook of our minds is akin to that that Paul had in cherishing a chaste virgin for Christ."
+     "speaker": "AJEW",
+     "text": [
+      "The word 'interweaves' is a good word to describe it, because you constantly see those glories - and the word 'glories' fits them - appearing as you read this letter."
+     ]
     },
     {
-     "text": "P.v.d.B. Paul's great concern was that the assembly might be for Christ. Do we not have the trial of jealousy here in the way Paul was jealous with a jealousy that was of God? In view of that has not the recovery been the Lord's jealousy that He might yet in the present time have an answer to His own thought in relation to the assembly, worked out in local assemblies?"
+     "speaker": "RT",
+     "text": [
+      "We often begin with the objective, but as we touch the state we lose sight of it; but it comes through in every chapter: \"ye have been washed, but ye have been sanctified\" (1 Cor 6: 11) and so on."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The introduction of jealousy is a very fine point; it is a strong word, yet his jealousy, as he says, was of God; it was no fleshly jealousy of any kind. It points to very deep, constant feelings as to what there was in Corinth, looking at it from the positive side, that is cherishing the objective which is in the divine mind, cherishing the divine thought of the assembly which never changes. What holy depths of resolve and of conviction as to what is due to Christ this produces! That is what the Spirit of God would get at among us today, I believe."
+     "speaker": "AJEW",
+     "text": [
+      "What is going to help us to touch the state?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Is it important that he not only begins with those divine objectives, but he interweaves them through every chapter?"
+     "speaker": "RT",
+     "text": [
+      "I think that love for Christ and love for the saints, that they belong to Him."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The word 'interweaves' is a good word to describe it, because you constantly see those glories - and the word 'glories' fits them - appearing as you read this letter."
+     "speaker": "AJEW",
+     "text": [
+      "That is it."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "We often begin with the objective, but as we touch the state we lose sight of it; but it comes through in every chapter: \"ye have been washed, but ye have been sanctified\" (1 Cor 6: 11) and so on."
+     "speaker": "JL",
+     "text": [
+      "Do you think that, while Paul speaks in this abstract way in the opening of the first letter, there was some expression of what was true to that in the place? So he can refer to the house of Chloe and the godly concern that they had as to divine interests there, and there was what could be appealed to by Paul in view of an assembly conscience appearing in the local meeting."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "What is going to help us to touch the state?"
+     "speaker": "AJEW",
+     "text": [
+      "I am sure that is important. Thank God that can normally be looked for. He speaks with such appreciation of the house of Chloe who had shewn him things: \"it has been shewn to me concerning you, my brethren, by those of the house of Chloe\" (v 11). This was no matter of just a current report, although there were current reports, but it was shewn to him by the house of Chloe. It is very fine when there is a household, even one in the place, that can shew things as they are in the sight of God. That appears to be the way in which Chloe shewed things."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think that love for Christ and love for the saints, that they belong to Him."
+     "speaker": "CRB",
+     "text": [
+      "Is the true light of God's thoughts as to every local assembly intended to govern us in our customs and judgments and approach to every matter?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is it."
+     "speaker": "AJEW",
+     "text": [
+      "Is not that vital, that we do not slip into saying that this no longer applies, or that no longer applies, or that we do not withdraw from people these days, and some of these statements that, alas, one hears from time to time? It is as the truth of what the assembly is to be in the sight of God holds us that we shall be ab le to bring in the power that meets the conditions, I believe."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Do you think that, while Paul speaks in this abstract way in the opening of the first letter, there was some expression of what was true to that in the place? So he can refer to the house of Chloe and the godly concern that they had as to divine interests there, and there was what could be appealed to by Paul in view of an assembly conscience appearing in the local meeting."
+     "speaker": "CRB",
+     "text": [
+      "Do you think we need to be strengthened in our understanding of the holiness that is related to the assembly of God? And if we have had sorrowfully to withdraw from persons, whether of recent years or earlier, we have to honour that, otherwise we may be hindering God in His great work of recovery."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I am sure that is important. Thank God that can normally be looked for. He speaks with such appreciation of the house of Chloe who had shewn him things: \"it has been shewn to me concerning you, my brethren, by those of the house of Chloe\" (v 11). This was no matter of just a current report, although there were current reports, but it was shewn to him by the house of Chloe. It is very fine when there is a household, even one in the place, that can shew things as they are in the sight of God. That appears to be the way in which Chloe shewed things."
+     "speaker": "AJEW",
+     "text": [
+      "That was somewhat in my mind in running on to verse 9 which speaks of \"the fellowship of his Son Jesus Christ our Lord\". The truth related to the fellowship stands. The fellowship is peculiarly protective of what is for God as it is rightly understood, and I believe the valuation of our links in fellowship is vital to the coherence and continuance of the recovery. The fellowship is brought in here in a very distinct way, as if to remind us that the recovery involves that we are true to what belongs to the fellowship of God's Son. We cannot claim to be it, but at the same time the fellowship of God's Son is the subsisting thing and we are to see what belongs to it and support what belongs to it and reject what does not belong to it."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Is the true light of God's thoughts as to every local assembly intended to govern us in our customs and judgments and approach to every matter?"
+     "speaker": "CFD",
+     "text": [
+      "Do you think the disregard or the watering down of the authority of the assembly, as it has had to come into expression as to an assembly judgment, gives the enemy a handle to move and get us to water down and weaken other principles as they are amongst us, which gradually brings in this declension which seemed to be evident at Corinth."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Is not that vital, that we do not slip into saying that this no longer applies, or that no longer applies, or that we do not withdraw from people these days, and some of these statements that, alas, one hears from time to time? It is as the truth of what the assembly is to be in the sight of God holds us that we shall be ab le to bring in the power that meets the conditions, I believe."
+     "speaker": "AJEW",
+     "text": [
+      "I am thankful you express that so clearly and positively."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Do you think we need to be strengthened in our understanding of the holiness that is related to the assembly of God? And if we have had sorrowfully to withdraw from persons, whether of recent years or earlier, we have to honour that, otherwise we may be hindering God in His great work of recovery."
+     "speaker": "CFD",
+     "text": [
+      "There seems to be a tendency to feel that, inasmuch as breakdown and division have come in amongst us, the authority vested in the assembly has been weakened or that the thoughts of the Lord as to it have been changed; but the fact of the matter is that the authority that the Lord has invested in the assembly remains unchanged, does it not? Therefore what the assembly does should be honoured by us. The breakdown in relationship or the weakening of the principle of separation which comes in as the result of assembly action is something which I feel needs to be updated in our own minds and given the place that the Lord intends it to have, that things might not be weakened in our thoughts."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That was somewhat in my mind in running on to verse 9 which speaks of \"the fellowship of his Son Jesus Christ our Lord\". The truth related to the fellowship stands. The fellowship is peculiarly protective of what is for God as it is rightly understood, and I believe the valuation of our links in fellowship is vital to the coherence and continuance of the recovery. The fellowship is brought in here in a very distinct way, as if to remind us that the recovery involves that we are true to what belongs to the fellowship of God's Son. We cannot claim to be it, but at the same time the fellowship of God's Son is the subsisting thing and we are to see what belongs to it and support what belongs to it and reject what does not belong to it."
+     "speaker": "AJEW",
+     "text": [
+      "I think that is of vital importance and it is appropriate to point out that respect for the assembly is a most important part of the Lord's own instruction to His own in Matthew 18; that is, whilst the development of it is very largely in the Pauline ministry, the basis of it is in the specific teaching of the Lord Jesus in the gospel, which brings it forward in its authoritative place in respect of things. So that looseness in this matter is really derogatory to Christ. The practical things that come up, such as shaking hands with persons for example, are all to be governed by the truth that you are speaking of."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "Do you think the disregard or the watering down of the authority of the assembly, as it has had to come into expression as to an assembly judgment, gives the enemy a handle to move and get us to water down and weaken other principles as they are amongst us, which gradually brings in this declension which seemed to be evident at Corinth."
+     "speaker": "CFD",
+     "text": [
+      "Do you think as we go back over the years, especially in the ministry of Mr Taylor during that period of time when the Lord did so much in the recovery of the truth of assembly administration, that the interpretation which was referred to yesterday in Luke, the interpretation of these things came forward and they are there for us, and to disregard them now is to bring in a weakening of things amongst us."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I am thankful you express that so clearly and positively."
+     "speaker": "AJEW",
+     "text": [
+      "A very grave weakening: and that is to be stated in the plainest terms. I am thankful for the plainness with which you speak because this is greatly needed to protect what is precious to Christ. It is not a question of standing for our own personal rights or for any particular person or set of views; it is a question of holding firm what is precious in the sight of God and what belongs in the vessel that is for the heart of Christ and His satisfaction."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "There seems to be a tendency to feel that, inasmuch as breakdown and division have come in amongst us, the authority vested in the assembly has been weakened or that the thoughts of the Lord as to it have been changed; but the fact of the matter is that the authority that the Lord has invested in the assembly remains unchanged, does it not? Therefore what the assembly does should be honoured by us. The breakdown in relationship or the weakening of the principle of separation which comes in as the result of assembly action is something which I feel needs to be updated in our own minds and given the place that the Lord intends it to have, that things might not be weakened in our thoughts."
+     "speaker": "FRT",
+     "text": [
+      "Does John's epistle support this as to \"love in truth\", 2 John 1? The well known note is 'there can be no truly loving but in the truth. It is the character of the love; it was love in truth'. Does not that support what Mr Byng said as to abiding by every assembly judgment?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I think that is of vital importance and it is appropriate to point out that respect for the assembly is a most important part of the Lord's own instruction to His own in Matthew 18; that is, whilst the development of it is very largely in the Pauline ministry, the basis of it is in the specific teaching of the Lord Jesus in the gospel, which brings it forward in its authoritative place in respect of things. So that looseness in this matter is really derogatory to Christ. The practical things that come up, such as shaking hands with persons for example, are all to be governed by the truth that you are speaking of."
+     "speaker": "AJEW",
+     "text": [
+      "It does indeed, and of course, he speaks in his letters of those who walk in truth; that is a fine thing. He also speaks of our fellowship as being in the light; that is another of the powerful references of scripture to this point of fellowship, that we have fellowship with one another as in the light, the light of God in Christ."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "Do you think as we go back over the years, especially in the ministry of Mr Taylor during that period of time when the Lord did so much in the recovery of the truth of assembly administration, that the interpretation which was referred to yesterday in Luke, the interpretation of these things came forward and they are there for us, and to disregard them now is to bring in a weakening of things amongst us."
+     "speaker": "PJH",
+     "text": [
+      "Is it what Paul draws attention to in 1 Corinthians 10 when he says, in relation to the cup of blessing and the bread which we break, \"is it not the communion of the blood of the Christ?\" and \"is it not the communion of the body of the Christ\", (v 16). I was much struck by those words, \"is it not the communion\": it is the same word as fellowship. Is it placing the appeal to our affections on the high level of what we owe to the Lord?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "A very grave weakening: and that is to be stated in the plainest terms. I am thankful for the plainness with which you speak because this is greatly needed to protect what is precious to Christ. It is not a question of standing for our own personal rights or for any particular person or set of views; it is a question of holding firm what is precious in the sight of God and what belongs in the vessel that is for the heart of Christ and His satisfaction."
+     "speaker": "AJEW",
+     "text": [
+      "The way he puts that implies at once that this had been a matter of teaching among them; that is, he puts it as something which they must, or should, have known. We are in just that position, that is these matters have been matters of positive teaching in the power of the Spirit, matters that have come up in enquiry in the temple and have been manifestly established of God. We should know them. The question then comes, Is it not this? Is it not this? It is as if Paul would say, Did you not realise from what was taught among you that this is the position? It may be that we need in our prayerful consideration of the truth to go back to some of these basic points and see how they have been established and stood for, and conflict maintained for them, in the course of what we speak of as the recovery."
+     ]
     },
     {
-     "speaker": "F.R.T.",
-     "text": "Does John's epistle support this as to \"love in truth\", 2 John 1? The well known note is 'there can be no truly loving but in the truth. It is the character of the love; it was love in truth'. Does not that support what Mr Byng said as to abiding by every assembly judgment?"
+     "speaker": "ECB",
+     "text": [
+      "In regard to the importance of what Mr Dadd said, how categorically and solemnly the next verse bears on it! \"Now I exhort you, brethren, by the name of our Lord Jesus Christ, that ye all say the same thing\" (v 10). Does that not underline what you were saying as to the need for that to be put into practice?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It does indeed, and of course, he speaks in his letters of those who walk in truth; that is a fine thing. He also speaks of our fellowship as being in the light; that is another of the powerful references of scripture to this point of fellowship, that we have fellowship with one another as in the light, the light of God in Christ."
+     "speaker": "JW",
+     "text": [
+      "How would you honour an assembly judgment where persons were withdrawn from for being in a divided house?"
+     ]
     },
     {
-     "speaker": "P.J.H.",
-     "text": "Is it what Paul draws attention to in 1 Corinthians 10 when he says, in relation to the cup of blessing and the bread which we break, \"is it not the communion of the blood of the Christ?\" and \"is it not the communion of the body of the Christ\", (v 16). I was much struck by those words, \"is it not the communion\": it is the same word as fellowship. Is it placing the appeal to our affections on the high level of what we owe to the Lord?"
+     "speaker": "AJEW",
+     "text": [
+      "Well, of course, an assembly judgment is right if it is right. I do not know if I get your meaning rightly, but an assembly judgment has that character if it is right. It might be called by some an assembly judgment and it might be wrong. That possibility exists, because we are not beyond failure in these things, as our experience and our acknowledged experience would make plain; but an assembly judgment, if it is an assembly judgment in true character, will be right."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The way he puts that implies at once that this had been a matter of teaching among them; that is, he puts it as something which they must, or should, have known. We are in just that position, that is these matters have been matters of positive teaching in the power of the Spirit, matters that have come up in enquiry in the temple and have been manifestly established of God. We should know them. The question then comes, Is it not this? Is it not this? It is as if Paul would say, Did you not realise from what was taught among you that this is the position? It may be that we need in our prayerful consideration of the truth to go back to some of these basic points and see how they have been established and stood for, and conflict maintained for them, in the course of what we speak of as the recovery."
+     "speaker": "ECB",
+     "text": [
+      "And the principle which we have been taught is that an assembly judgment is respected by all the brethren until it is demonstrated to be wrong."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "In regard to the importance of what Mr Dadd said, how categorically and solemnly the next verse bears on it! \"Now I exhort you, brethren, by the name of our Lord Jesus Christ, that ye all say the same thing\" (v 10). Does that not underline what you were saying as to the need for that to be put into practice?"
+     "speaker": "AJEW",
+     "text": [
+      "Quite so; that is very important.",
+      "A.A.B-y. Could I go back to Mr Burr's earlier comment regarding verse 10 - \"that ye all say the same thing\"? I would like to raise a question, because of its importance in regard of invitations to special meetings such as the present, in which there appears to be a variation in thought; that is to say, inviting brethren from one locality and not another, or inviting brethren from neither, or inviting brethren from both. The importance of this matter is underlined by the fact that there are brethren in a locality represented here who are desirous of having such meetings and are held up somewhat at the moment in regard of uncertainty as to this. Could you help us in regard of it?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "How would you honour an assembly judgment where persons were withdrawn from for being in a divided house?"
+     "speaker": "AJEW",
+     "text": [
+      "I suppose the wisdom that is needed in working out these matters is something that the Lord could give to those who are responsible in the place for arranging such occasions. It would be clear there should be no variation of practice of a kind that stands related to principles. But we cannot exactly legislate in a meeting like this for what is to be done by localities in regard of the occasions they propose.",
+      "A.A.B-y. No, one fully understands that. What was in mind was the dignity of a local assembly and whether that would warrant the recognition of what is faithful in it, maybe by way of selective invitation without exception of locality."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Well, of course, an assembly judgment is right if it is right. I do not know if I get your meaning rightly, but an assembly judgment has that character if it is right. It might be called by some an assembly judgment and it might be wrong. That possibility exists, because we are not beyond failure in these things, as our experience and our acknowledged experience would make plain; but an assembly judgment, if it is an assembly judgment in true character, will be right."
+     "speaker": "AJEW",
+     "text": [
+      "I feel the need of wisdom working in such things, and wisdom is a most important ingredient in regard to our administrative matters, as this very chapter indicates, that Christ is \"made to us wisdom from God\" (v 30). Wisdom is needed as having the divine principles before us, to work them out in a way that God will support."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "And the principle which we have been taught is that an assembly judgment is respected by all the brethren until it is demonstrated to be wrong."
+     "speaker": "RH",
+     "text": [
+      "Does not the word of the cross apply to divisiveness just the same as it does to what is corrupt, for instance as in chapter 5? As you said in your introductory remarks, the epistle has to do with this matter of division."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so; that is very important."
+     "speaker": "AJEW",
+     "text": [
+      "Quite so. The word of the cross is something peculiarly powerful in such a situation. They had had the word of the cross in Corinth and we have had the word of the cross often. You feel that the need is to maintain it and to be true to it."
+     ]
     },
     {
-     "text": "A.A.B-y. Could I go back to Mr Burr's earlier comment regarding verse 10 - \"that ye all say the same thing\"? I would like to raise a question, because of its importance in regard of invitations to special meetings such as the present, in which there appears to be a variation in thought; that is to say, inviting brethren from one locality and not another, or inviting brethren from neither, or inviting brethren from both. The importance of this matter is underlined by the fact that there are brethren in a locality represented here who are desirous of having such meetings and are held up somewhat at the moment in regard of uncertainty as to this. Could you help us in regard of it?"
+     "speaker": "ECM",
+     "text": [
+      "Do you think that much weakness has come in because of a lack of loyalty to assembly judgments? Mr Taylor used to press the thought of being loyal to assembly judgments."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I suppose the wisdom that is needed in working out these matters is something that the Lord could give to those who are responsible in the place for arranging such occasions. It would be clear there should be no variation of practice of a kind that stands related to principles. But we cannot exactly legislate in a meeting like this for what is to be done by localities in regard of the occasions they propose."
+     "speaker": "AJEW",
+     "text": [
+      "I think what Mr Burr has said is worthy of emphasis, that an assembly judgment is respected until it can be shown to be wrong. And the showing to be wrong must be on a solid footing of facts and of the truth governing the situation. We have to respect these judgments."
+     ]
     },
     {
-     "text": "A.A.B-y. No, one fully understands that. What was in mind was the dignity of a local assembly and whether that would warrant the recognition of what is faithful in it, maybe by way of selective invitation without exception of locality."
+     "speaker": "CRB",
+     "text": [
+      "Is the word of the cross needed to help us to understand the working of divine grace? We might maintain friendly links with persons who are under discipline and think we are showing grace, but the word of the cross would keep us faithful to assembly judgments and preserve us from those links which will do nothing but harm and will weaken such persons in their valuation of assembly judgments. Divine grace is waiting to act as the word of the cross is honoured, is it not?"
+     ]
     },
     {
-     "speaker": "AJ.E.W.",
-     "text": "I feel the need of wisdom working in such things, and wisdom is a most important ingredient in regard to our administrative matters, as this very chapter indicates, that Christ is \"made to us wisdom from God\" (v 30). Wisdom is needed as having the divine principles before us, to work them out in a way that God will support."
+     "speaker": "AJEW",
+     "text": [
+      "I am sure that is right. In what spot was grace ever more richly demonstrated than at the cross? It was there that the full extent of divine grace was brought out in a manifest way, but it stood related to the necessary judgment of evil and the rejection of what is not in any sense of God."
+     ]
     },
     {
-     "speaker": "R.H.",
-     "text": "Does not the word of the cross apply to divisiveness just the same as it does to what is corrupt, for instance as in chapter 5? As you said in your introductory remarks, the epistle has to do with this matter of division."
+     "speaker": "DER",
+     "text": [
+      "Mr Raven points out in one of his letters that what marks off those walking in the truth from Bethesda is not doctrine but the acknowledgment of the truth as to the fellowship and that our links are with those with whom we are in fellowship and not with those outside of it."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so. The word of the cross is something peculiarly powerful in such a situation. They had had the word of the cross in Corinth and we have had the word of the cross often. You feel that the need is to maintain it and to be true to it."
+     "speaker": "AJEW",
+     "text": [
+      "All that is supported by the simplicity of true faithfulness to Christ. I long that we may get this right into our moral beings, that what we are speaking of is not a question of views of a sectarian kind, as they are sometimes alleged to be, but a question of what is due to the glory of Christ, what is due to One who has secured at such cost a vessel that answers to His own heart, in the full gain and expression of which He would have us to be. It comes back to my mind so often to the simple question: Are we heartless or have we heart as to Christ?"
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "Do you think that much weakness has come in because of a lack of loyalty to assembly judgments? Mr Taylor used to press the thought of being loyal to assembly judgments."
+     "speaker": "GTP",
+     "text": [
+      "Would it be right to say that the basis for universal fellowship is the maintenance of these things that are due to the Lord in our localities?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I think what Mr Burr has said is worthy of emphasis, that an assembly judgment is respected until it can be shown to be wrong. And the showing to be wrong must be on a solid footing of facts and of the truth governing the situation. We have to respect these judgments."
+     "speaker": "AJEW",
+     "text": [
+      "They have to be maintained in our localities; that is where we have to maintain them. We have a responsibility in respect of our own locality to maintain these things rightly and according to God.",
+      "A.C.C-g. Must the inter-relations between localities in the working out of fellowship always be subservient to the Lord's direct links with the assembly? I suppose fellowship between different places does not in any way set aside the Lord's direct links with the assembly."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Is the word of the cross needed to help us to understand the working of divine grace? We might maintain friendly links with persons who are under discipline and think we are showing grace, but the word of the cross would keep us faithful to assembly judgments and preserve us from those links which will do nothing but harm and will weaken such persons in their valuation of assembly judgments. Divine grace is waiting to act as the word of the cross is honoured, is it not?"
+     "speaker": "AJEW",
+     "text": [
+      "In no sense. The links are there, the Lords rights in the local assembly are to be held in a definite way. This is a point which is peculiarly brought out by the addresses to the seven assemblies in the book of Revelation where the Lord clearly takes up His rights in respect of the seven and speaks to each of the seven in a specific sense in relation to what was current there; and there is no question of any interrelation between them in His mind, they are just standing in their own responsibility to the Lord. So that at no point in the teaching of these letters do these difficult questions at Corinth involve other local assemblies. There were others no doubt that had prayerful concern as to what was current at Corinth, but at no point is there the introduction of any other local assembly in respect of the matters that are being worked out."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I am sure that is right. In what spot was grace ever more richly demonstrated than at the cross? It was there that the full extent of divine grace was brought out in a manifest way, but it stood related to the necessary judgment of evil and the rejection of what is not in any sense of God."
+     "speaker": "EMW",
+     "text": [
+      "I was going to ask about that, because Cenchrea was on their borders, but there is no suggestion, expressed or implied, that Cenchrea should have had anything to say to the matters in Corinth, although the conditions in Corinth were very bad."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "Mr Raven points out in one of his letters that what marks off those walking in the truth from Bethesda is not doctrine but the acknowledgment of the truth as to the fellowship and that our links are with those with whom we are in fellowship and not with those outside of it."
+     "speaker": "AJEW",
+     "text": [
+      "Quite so."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "All that is supported by the simplicity of true faithfulness to Christ. I long that we may get this right into our moral beings, that what we are speaking of is not a question of views of a sectarian kind, as they are sometimes alleged to be, but a question of what is due to the glory of Christ, what is due to One who has secured at such cost a vessel that answers to His own heart, in the full gain and expression of which He would have us to be. It comes back to my mind so often to the simple question: Are we heartless or have we heart as to Christ?"
+     "speaker": "ECB",
+     "text": [
+      "Then there are in this city, as you know, those who take the ground of having withdrawn from us and the only right thing for us to do is to treat them on the ground they take, is it not? So that if persons take the ground of having withdrawn from the brethren, we do not receive them into our houses or to the meetings unless they acknowledge they were wrong in the ground they took. Is that right?"
+     ]
     },
     {
-     "speaker": "G.T.P.",
-     "text": "Would it be right to say that the basis for universal fellowship is the maintenance of these things that are due to the Lord in our localities?"
+     "speaker": "AJEW",
+     "text": [
+      "It is right. It is important for these things to be plainly asserted and fully maintained for the protection of what is for Christ and for God in the assembly. That is the great end in view."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "They have to be maintained in our localities; that is where we have to maintain them. We have a responsibility in respect of our own locality to maintain these things rightly and according to God."
+     "speaker": "EMW",
+     "text": [
+      "What is being said is I feel of the utmost importance at this juncture, because we have all heard the simple expression, 'the swing of the pendulum’; but the issue really is the truth, is it not?"
+     ]
     },
     {
-     "text": "A.C.C-g. Must the inter-relations between localities in the working out of fellowship always be subservient to the Lord's direct links with the assembly? I suppose fellowship between different places does not in any way set aside the Lord's direct links with the assembly."
+     "speaker": "AJEW",
+     "text": [
+      "It is not as if these matters that we have touched on specifically are matters of recent introduction, because they are not; they go right back to what we could speak of as the life-springs of the recovery as we know it and it is important to see that. It is sometimes overlooked that that is the case. The suggestion is made that this and this came in in the 1960s. That is not the case in respect of these things of which we are speaking; they belong to the life-stream and spring of the recovery as God in sovereign power and grace brought it about."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "In no sense. The links are there, the Lords rights in the local assembly are to be held in a definite way. This is a point which is peculiarly brought out by the addresses to the seven assemblies in the book of Revelation where the Lord clearly takes up His rights in respect of the seven and speaks to each of the seven in a specific sense in relation to what was current there; and there is no question of any interrelation between them in His mind, they are just standing in their own responsibility to the Lord. So that at no point in the teaching of these letters do these difficult questions at Corinth involve other local assemblies. There were others no doubt that had prayerful concern as to what was current at Corinth, but at no point is there the introduction of any other local assembly in respect of the matters that are being worked out."
+     "speaker": "EMW",
+     "text": [
+      "I am sure a little research will prove that to any godly exercised enquirer."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I was going to ask about that, because Cenchrea was on their borders, but there is no suggestion, expressed or implied, that Cenchrea should have had anything to say to the matters in Corinth, although the conditions in Corinth were very bad."
+     "speaker": "ECB",
+     "text": [
+      "The expression you used as to these things being in the life-springs of the recovery is very remarkably illustrated in Mr Stoney's ministry which is so distinctly heavenly and out of the world. It relates to union with Christ, yet his teaching as to the bearing of assembly discipline is probably the most severe there is amongst us."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so."
+     "speaker": "AJEW",
+     "text": [
+      "Well, that is a very salutary point to bring in.",
+      "Now all this, I think, carries forward into the remarkable power of that parenthesis from which we read in chapter 15, to bring the minds and hearts of the saints through to what he speaks of as the end: \"Then the end, when he gives up the kingdom\", as if the beloved writer in the midst of the first epistle (not the second epistle where there are elements which he can thank God for in the way of recovery of things at Corinth) engages the saints with the ultimate triumph and supremacy of God. This is to have a very definite effect upon us. It is in a parenthesis, as if the beloved writer was moved of the Spirit as he wrote to turn aside for a little to the glorious triumph that is ahead, and as if he would crown the teaching in a certain sense by this reference to God all in all and the final end of all when the divine supremacy is in glorious expression and when the wonderful fruits of the operation of what we speak of as the economy are manifest. To have these things in our hearts, and to have them governing us and lifting our spirits and giving us holy boldness to meet the foes which we have to meet, is singularly corrective of such conditions as were found at Corinth."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Then there are in this city, as you know, those who take the ground of having withdrawn from us and the only right thing for us to do is to treat them on the ground they take, is it not? So that if persons take the ground of having withdrawn from the brethren, we do not receive them into our houses or to the meetings unless they acknowledge they were wrong in the ground they took. Is that right?"
+     "speaker": "CRB",
+     "text": [
+      "Would you open up ''all in all\" a little."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is right. It is important for these things to be plainly asserted and fully maintained for the protection of what is for Christ and for God in the assembly. That is the great end in view."
+     "speaker": "AJEW",
+     "text": [
+      "I have often wondered about that and what I have always come back to is that those words themselves just have to stand in our minds: \"all in all\"; that is, to whichever point you might direct attention, God is all. Whatever matter may come up, you have to say that as to that matter God is all, He is all in all. It is a most glorious expression, you might say testing the powers of language, and yet it conveys, I suppose, in the richest sense, the full supremacy and glory of God."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "What is being said is I feel of the utmost importance at this juncture, because we have all heard the simple expression, 'the swing of the pendulum’; but the issue really is the truth, is it not?"
+     "speaker": "CRB",
+     "text": [
+      "Does it stand related to what was being said yesterday as to inward formation as related to new creation? Is it not a wonderful matter that, whilst everything is new in divine power, it is experienced, and will be to eternity, in persons who have been formed by their knowledge of God in the infinite greatness of His own love?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is not as if these matters that we have touched on specifically are matters of recent introduction, because they are not; they go right back to what we could speak of as the life-springs of the recovery as we know it and it is important to see that. It is sometimes overlooked that that is the case. The suggestion is made that this and this came in in the 1960s. That is not the case in respect of these things of which we are speaking; they belong to the life-stream and spring of the recovery as God in sovereign power and grace brought it about."
+     "speaker": "AJEW",
+     "text": [
+      "That is most enlarging to us and it calls to my mind again the need to point out that the moral exercises which enter into recovery are being used of God to establish in the saints something in the way of substance which alone the facing of moral issues could fitly effect. I think it touches the point, which is the basic point in my mind in all these readings, that God effects His greatest thoughts by way of recovery. And by way of recovery He forges something in His own work in the souls of those who love Him which is unique through the facing of the moral issues that come."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I am sure a little research will prove that to any godly exercised enquirer."
+     "speaker": "EP",
+     "text": [
+      "Does it seem that the way of it is by being in subjection to Him? Then later it says \"that God may be all in all\". I wondered whether it helps to see the way that this is brought to pass, because if we are not subject to the Lord, whatever it may be, including the things that we have been speaking about, we shall know nothing about this, shall we?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The expression you used as to these things being in the life-springs of the recovery is very remarkably illustrated in Mr Stoney's ministry which is so distinctly heavenly and out of the world. It relates to union with Christ, yet his teaching as to the bearing of assembly discipline is probably the most severe there is amongst us."
+     "speaker": "AJEW",
+     "text": [
+      "I thought that was one very strong bearing of this passage on the whole course of the letter. Do we understand subjection? Do we understand functioning in a subject relation to Christ? Is the Lord's authority real to us and operative with us in our local assemblies, so that what is of Him is maintained?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Well, that is a very salutary point to bring in."
+     "speaker": "EP",
+     "text": [
+      "When the authority of His name is asserted, the apostle says in the early chapters, our Lord Jesus Christ. He does not say the Lord Jesus Christ. It is not the cold formality of an assertion of authority, but it is an affectionate reference."
+     ]
     },
     {
-     "text": "Now all this, I think, carries forward into the remarkable power of that parenthesis from which we read in chapter 15, to bring the minds and hearts of the saints through to what he speaks of as the end: \"Then the end, when he gives up the kingdom\", as if the beloved writer in the midst of the first epistle (not the second epistle where there are elements which he can thank God for in the way of recovery of things at Corinth) engages the saints with the ultimate triumph and supremacy of God. This is to have a very definite effect upon us. It is in a parenthesis, as if the beloved writer was moved of the Spirit as he wrote to turn aside for a little to the glorious triumph that is ahead, and as if he would crown the teaching in a certain sense by this reference to God all in all and the final end of all when the divine supremacy is in glorious expression and when the wonderful fruits of the operation of what we speak of as the economy are manifest. To have these things in our hearts, and to have them governing us and lifting our spirits and giving us holy boldness to meet the foes which we have to meet, is singularly corrective of such conditions as were found at Corinth."
+     "speaker": "AJEW",
+     "text": [
+      "It is referred to as \"the fellowship of his Son Jesus Christ our Lord\". The basis of the fellowship is that He is Lord to us; to you and to me and to all of us who stand related to this precious fellowship; that is the basic thing. It is the fellowship of God's Son, which brings a touch of dignity and glory to the whole character of what is being maintained, but He is our Lord Jesus Christ."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Would you open up ''all in all\" a little."
+     "speaker": "EJJ",
+     "text": [
+      "Does recovery lead on to something greater and divinely grander than what has been known before?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I have often wondered about that and what I have always come back to is that those words themselves just have to stand in our minds: \"all in all\"; that is, to whichever point you might direct attention, God is all. Whatever matter may come up, you have to say that as to that matter God is all, He is all in all. It is a most glorious expression, you might say testing the powers of language, and yet it conveys, I suppose, in the richest sense, the full supremacy and glory of God."
+     "speaker": "AJEW",
+     "text": [
+      "We need to be careful that we do not overlook the pristine side of what was secured under the Lord's hand at the beginning. I do not think we can claim too much in that respect, because God's great thoughts were asserted at the beginning and He brings us back in the grace of recovery into some understanding and enjoyment of them. I believe we need to see how things were established of God at the beginning; that provides a certain basis and standard for what He recovers."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Does it stand related to what was being said yesterday as to inward formation as related to new creation? Is it not a wonderful matter that, whilst everything is new in divine power, it is experienced, and will be to eternity, in persons who have been formed by their knowledge of God in the infinite greatness of His own love?"
+     "speaker": "GAP",
+     "text": [
+      "Would \"brought into subjection to him\" involve a process? And is that the process of recovery in the way of working out these issues that you speak of?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is most enlarging to us and it calls to my mind again the need to point out that the moral exercises which enter into recovery are being used of God to establish in the saints something in the way of substance which alone the facing of moral issues could fitly effect. I think it touches the point, which is the basic point in my mind in all these readings, that God effects His greatest thoughts by way of recovery. And by way of recovery He forges something in His own work in the souls of those who love Him which is unique through the facing of the moral issues that come."
+     "speaker": "AJEW",
+     "text": [
+      "So there are the enemies. \"He must reign until he put all enemies under his feet\". Not only 'an enemy' but 'enemies'. It is necessary that they all be dealt with, and that occasions, as you say, a process."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Does it seem that the way of it is by being in subjection to Him? Then later it says \"that God may be all in all\". I wondered whether it helps to see the way that this is brought to pass, because if we are not subject to the Lord, whatever it may be, including the things that we have been speaking about, we shall know nothing about this, shall we?"
+     "speaker": "ECB",
+     "text": [
+      "Does the simple person or unbeliever in the previous chapter get some impression of a sphere where these things are anticipated?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I thought that was one very strong bearing of this passage on the whole course of the letter. Do we understand subjection? Do we understand functioning in a subject relation to Christ? Is the Lord's authority real to us and operative with us in our local assemblies, so that what is of Him is maintained?"
+     "speaker": "AJEW",
+     "text": [
+      "I believe that is important. I was going to comment earlier on the very expression, \"the assembly of God... in Corinth\"; that is, the glory of God is in question there in the local assembly and this is where we expect God in every sense to be reverenced in the glory that belongs uniquely to Himself. You feel that that enters into what you are saying as to the previous chapter, that somebody comes in - \"God is indeed amongst you\" (v 25). It is manifest that what is here is not of man, it is not in the current of a world that has rejected Christ; what is here is in relation to God in His own supremacy. That is what is to be held in every local assembly."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "When the authority of His name is asserted, the apostle says in the early chapters, our Lord Jesus Christ. He does not say the Lord Jesus Christ. It is not the cold formality of an assertion of authority, but it is an affectionate reference."
+     "speaker": "RT",
+     "text": [
+      "As he begins the parenthesis he says \"But now\", as if to suggest that God has already effected the recovery, that we should be carried through to eternal thoughts."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is referred to as \"the fellowship of his Son Jesus Christ our Lord\". The basis of the fellowship is that He is Lord to us; to you and to me and to all of us who stand related to this precious fellowship; that is the basic thing. It is the fellowship of God's Son, which brings a touch of dignity and glory to the whole character of what is being maintained, but He is our Lord Jesus Christ."
+     "speaker": "AJEW",
+     "text": [
+      "Very good. Yet it maintains a rightly positive view in our hearts as to what is transpiring. The enemy would in some way divert us, occupy us with negatives, occupy us by suggestions that this was wrong and that was wrong and so forth, but let us see the clear view ahead, let us see what is really in view before God and stand by that in the firmness that love would assure."
+     ]
     },
     {
-     "speaker": "E.J.J.",
-     "text": "Does recovery lead on to something greater and divinely grander than what has been known before?"
+     "speaker": "RET",
+     "text": [
+      "Do we get the same thought in Hebrews 3 where Paul makes it very attractive, speaking of \"holy brethren, partakers of the heavenly calling\" (v 1). He would give us the dignity and make things attractive so that we would be in the moral power that you have been speaking of."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "We need to be careful that we do not overlook the pristine side of what was secured under the Lord's hand at the beginning. I do not think we can claim too much in that respect, because God's great thoughts were asserted at the beginning and He brings us back in the grace of recovery into some understanding and enjoyment of them. I believe we need to see how things were established of God at the beginning; that provides a certain basis and standard for what He recovers."
+     "speaker": "AJEW",
+     "text": [
+      "Partakers of it: that involves experience and understanding of what is current, I believe. Have we really seized that the calling is heavenly? I remember beloved Mr Taylor in this city in 1945 referring to the sheet that was let down thrice in Peter's vision. It came from heaven and it went back to heaven, and he said we may need to make a re-evaluation of what is current among us in the light of this remarkable vision that Peter had (see Vol. 60, p.1). It is a question of what comes from heaven and goes back to heaven; the calling is a heavenly calling.",
+      "A.C.C-m. Would the thought of God all in all involve God objectively and in the saints subjectively and His love filling the whole atmosphere?"
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Would \"brought into subjection to him\" involve a process? And is that the process of recovery in the way of working out these issues that you speak of?"
+     "speaker": "AJEW",
+     "text": [
+      "I think you have that side: but the subjective side is here now. We have to remember how the Spirit is in us now. Mr Burr spoke of an anticipation in some sense in the assembly of this thing. We know in that sense God as in us in the Spirit, so that that is true now and you feel that the scene here is such that the subjective and the objective are really so closely linked together that we cannot distinguish them very much.",
+      "A.C.C-m. We experience it in the assembly occasion, do we not, towards, as we say, the end of the service?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "So there are the enemies. \"He must reign until he put all enemies under his feet\". Not only 'an enemy' but 'enemies'. It is necessary that they all be dealt with, and that occasions, as you say, a process."
+     "speaker": "AJEW",
+     "text": [
+      "We do; may we experience it more."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does the simple person or unbeliever in the previous chapter get some impression of a sphere where these things are anticipated?"
+     "speaker": "CRB",
+     "text": [
+      "Would this strengthen us in the assurance of the rightness of our liberty of speaking to the Spirit? It seems to be a matter to enter into our prayers that some with whom we were previously in fellowship seem to have gone back on that and are hindered in being recovered to the truth because they are not free as to speaking to the Spirit. Do you think we should ourselves be by experience assured that it is of God, so that in our prayers we may have moral power so that others may be brought back to recognise the truth?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I believe that is important. I was going to comment earlier on the very expression, \"the assembly of God... in Corinth\"; that is, the glory of God is in question there in the local assembly and this is where we expect God in every sense to be reverenced in the glory that belongs uniquely to Himself. You feel that that enters into what you are saying as to the previous chapter, that somebody comes in - \"God is indeed amongst you\" (v 25). It is manifest that what is here is not of man, it is not in the current of a world that has rejected Christ; what is here is in relation to God in His own supremacy. That is what is to be held in every local assembly."
+     "speaker": "AJEW",
+     "text": [
+      "I think you discern that this was one thing in mind in what was said at the last meeting yesterday, that we come more into the knowledge of the blessed Spirit, which involves that liberty to address Him; one could speak of a conversation - I use that expression because there was such between the servant and Rebecca. There is a holy interchange between each of us and the blessed Spirit Himself. We speak to Him, He speaks to us. It is surpassing grace, but it is real in experience and it is right. There is nothing in the scriptures of truth to suggest that it is anything but right in the sight of God."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "As he begins the parenthesis he says \"But now\", as if to suggest that God has already effected the recovery, that we should be carried through to eternal thoughts."
+     "speaker": "GTMcC",
+     "text": [
+      "I wondered about this expression that Paul uses in relation to Corinth: \"unimpeachable in the day of our Lord Jesus Christ\", and the way that the lord speaks to Peter in relation to the assembly: \"hades' gates shall not prevail against it\" (Matt 16: 18); these involve that what has been held will be assailed. Do we not find comfort in the fact that He will put all things under His feet?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Very good. Yet it maintains a rightly positive view in our hearts as to what is transpiring. The enemy would in some way divert us, occupy us with negatives, occupy us by suggestions that this was wrong and that was wrong and so forth, but let us see the clear view ahead, let us see what is really in view before God and stand by that in the firmness that love would assure."
+     "speaker": "AJEW",
+     "text": [
+      "That is very appropriate, keeping the positive thing in view and just seeing how the lord would hold us to it.",
+      "P.v.d.B. In relation to what Mr Byng said as to response to the Holy Spirit, the response will be an eternal response. There will be an eternal response to the Father, the Son and the Holy Spirit.",
+      "A.A.B-y. Would the thought of subjection in this passage at all touch on the obedience of subjection to the Person of Christ as at the end of John 3, which is a further thought to the obedience to Him as lord in the recognition of His commandments?"
+     ]
     },
     {
-     "speaker": "R.E.T.",
-     "text": "Do we get the same thought in Hebrews 3 where Paul makes it very attractive, speaking of \"holy brethren, partakers of the heavenly calling\" (v 1). He would give us the dignity and make things attractive so that we would be in the moral power that you have been speaking of."
+     "speaker": "AJEW",
+     "text": [
+      "I thought this whole section in chapter 15 that we read is to bring out the vital quality of subjection, just as Philippians 2 brings out the peculiar quality in God's sight of subjection. Wherever subjection is enjoined upon us and laid down in principle, how attractive it is in the sight of God when that subject relation is rightly entered into. I believe subjection is something which is peculiarly precious in the sight of heaven. There is nothing akin to it in the great system of things around us under Satan's hand.",
+      "A.A.B-y. And therefore it must involve the relationships into which we have been brought with divine Persons and with one another and the affections proper to those relationships; \"the Father loves the Son\"."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Partakers of it: that involves experience and understanding of what is current, I believe. Have we really seized that the calling is heavenly? I remember beloved Mr Taylor in this city in 1945 referring to the sheet that was let down thrice in Peter's vision. It came from heaven and it went back to heaven, and he said we may need to make a re-evaluation of what is current among us in the light of this remarkable vision that Peter had (see Vol. 60, p.1). It is a question of what comes from heaven and goes back to heaven; the calling is a heavenly calling."
+     "speaker": "WD",
+     "text": [
+      "One of the glories of David's kingdom after 1 Chronicles 16 was his power to subjugate his enemies as in chapter 18, and we are thankful that we have all been subjugated, not annihilated, and brought into this wonderful sphere of things."
+     ]
     },
     {
-     "text": "A.C.C-m. Would the thought of God all in all involve God objectively and in the saints subjectively and His love filling the whole atmosphere?"
+     "speaker": "AJEW",
+     "text": [
+      "That is a good point; and what has it cost to bring any one of us into subjection? It has cost the dying of Jesus, the cross of shame, to bring every one of us into subjection to Him, and that is fundamental to what is current for His pleasure.",
+      "We ought just to refer as we close, necessarily briefly, to Ephesus, because this side is the side that one spoke of as maintenance of what has been committed to the saints. The apostle speaks to these elders of what he had taught among them, that he had \"not shrunk from announcing to you all the counsel of God\". He goes in that way over the ground of his three years, as he later says, \"three years, night and day, I ceased not admonishing each one of you with tears\". What a course of divine instruction! It might test our spiritual stamina a good deal, and yet here it is, and the record is in scripture, that in that city he laboured three years night and day, bringing out the great and glorious matters of Christ and of the assembly. Now he is laying it upon these men that this is to be maintained, and the principle on which it is to be maintained is by the acceptance of responsibility on their part in the city of Ephesus. I believe that is an injunction the Lord would leave with us this morning, that the maintenance of what is dear to Christ, the maintenance of what is according to God and for His pleasure, depends on the acceptance of responsibility rightly in the place where God has set us."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I think you have that side: but the subjective side is here now. We have to remember how the Spirit is in us now. Mr Burr spoke of an anticipation in some sense in the assembly of this thing. We know in that sense God as in us in the Spirit, so that that is true now and you feel that the scene here is such that the subjective and the objective are really so closely linked together that we cannot distinguish them very much."
+     "speaker": "WTA",
+     "text": [
+      "You say responsibility; but in Acts 20 the responsibility is given in regard of the Holy Spirit; it is the Holy Spirit that operates, is it not? Does that make it an important matter for those who are raised up as shepherds?"
+     ]
     },
     {
-     "text": "A.C.C-m. We experience it in the assembly occasion, do we not, towards, as we say, the end of the service?"
+     "speaker": "AJEW",
+     "text": [
+      "Yes. Of course they were the elders that were called over from Ephesus, that is they had an acknowledged, responsible place in that city under the Lord and he lays it upon them as to their relations with the Holy Spirit, which I think would only enforce what we have been saying as to the place that the Spirit is to have among us in all these matters. But they were the elders from Ephesus already and that is recognised in what is said, so that they were no doubt in Pauline times ordained elders or overseers. But, of course, there still needs to be oversight, care still needs to be exercised among the brethren, there still needs to be the exercise of right authority of a moral kind to hold what is precious to Christ."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "We do; may we experience it more."
+     "speaker": "DEB",
+     "text": [
+      "Does the fact that there is an overcomer in Ephesus show that this principle of recovery is not a once for all thing, that it goes right on to the end?"
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Would this strengthen us in the assurance of the rightness of our liberty of speaking to the Spirit? It seems to be a matter to enter into our prayers that some with whom we were previously in fellowship seem to have gone back on that and are hindered in being recovered to the truth because they are not free as to speaking to the Spirit. Do you think we should ourselves be by experience assured that it is of God, so that in our prayers we may have moral power so that others may be brought back to recognise the truth?"
+     "speaker": "AJEW",
+     "text": [
+      "That is a very interesting point and we might come back to it. But this Ephesian situation is greatly to affect us, because the choicest part, I suppose, of the Pauline labours is represented by these labours at Ephesus; the wealth that came out there can only be assessed as we read of the labours and get some sense from the epistle of what the Ephesian saints stood for in his mind and heart."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I think you discern that this was one thing in mind in what was said at the last meeting yesterday, that we come more into the knowledge of the blessed Spirit, which involves that liberty to address Him; one could speak of a conversation - I use that expression because there was such between the servant and Rebecca. There is a holy interchange between each of us and the blessed Spirit Himself. We speak to Him, He speaks to us. It is surpassing grace, but it is real in experience and it is right. There is nothing in the scriptures of truth to suggest that it is anything but right in the sight of God."
+     "speaker": "ECB",
+     "text": [
+      "Would this injunction to the Ephesian elders be represented also in the Lord's word to Philadelphia; \"hold fast what thou hast, that no one take thy crown\", Rev 3: 11? Is not the truth that is brought out in Acts 20 of the nature of the crown, and that is what is in danger? One hesitates to distinguish levels of the truth, but it is rarely Christ as Saviour that is in contention, but what relates to the heavenly order of things and what Christ has outside the world."
+     ]
     },
     {
-     "text": "G.T.McC. I wondered about this expression that Paul uses in relation to Corinth: \"unimpeachable in the day of our Lord Jesus Christ\", and the way that the lord speaks to Peter in relation to the assembly: \"hades' gates shall not prevail against it\" (Matt 16: 18); these involve that what has been held will be assailed. Do we not find comfort in the fact that He will put all things under His feet?"
+     "speaker": "AJEW",
+     "text": [
+      "It is indeed. That would hold us, I think, to what we speak of as the Pauline side of the truth. We are to get a negative indication from the viciousness with which the enemy attacks it, that this is indeed the most precious in the sight of God. Let us hold it, dear brethren, at all cost."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is very appropriate, keeping the positive thing in view and just seeing how the lord would hold us to it."
+     "speaker": "CRB",
+     "text": [
+      "So the reference here is to the disciples, persons who are following in the heavenly way. Mr Taylor referred to John as being a permanent follower. Do we not need, if the maintenance of things is going to be rightly held, to desire help to be perm anent followers and disciples in relation to the heavenly way?"
+     ]
     },
     {
-     "text": "P.v.d.B. In relation to what Mr Byng said as to response to the Holy Spirit, the response will be an eternal response. There will be an eternal response to the Father, the Son and the Holy Spirit."
-    },
-    {
-     "text": "A.A.B-y. Would the thought of subjection in this passage at all touch on the obedience of subjection to the Person of Christ as at the end of John 3, which is a further thought to the obedience to Him as lord in the recognition of His commandments?"
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "I thought this whole section in chapter 15 that we read is to bring out the vital quality of subjection, just as Philippians 2 brings out the peculiar quality in God's sight of subjection. Wherever subjection is enjoined upon us and laid down in principle, how attractive it is in the sight of God when that subject relation is rightly entered into. I believe subjection is something which is peculiarly precious in the sight of heaven. There is nothing akin to it in the great system of things around us under Satan's hand."
-    },
-    {
-     "text": "A.A.B-y. And therefore it must involve the relationships into which we have been brought with divine Persons and with one another and the affections proper to those relationships; \"the Father loves the Son\"."
-    },
-    {
-     "speaker": "W.D.",
-     "text": "One of the glories of David's kingdom after 1 Chronicles 16 was his power to subjugate his enemies as in chapter 18, and we are thankful that we have all been subjugated, not annihilated, and brought into this wonderful sphere of things."
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "That is a good point; and what has it cost to bring any one of us into subjection? It has cost the dying of Jesus, the cross of shame, to bring every one of us into subjection to Him, and that is fundamental to what is current for His pleasure."
-    },
-    {
-     "text": "We ought just to refer as we close, necessarily briefly, to Ephesus, because this side is the side that one spoke of as maintenance of what has been committed to the saints. The apostle speaks to these elders of what he had taught among them, that he had \"not shrunk from announcing to you all the counsel of God\". He goes in that way over the ground of his three years, as he later says, \"three years, night and day, I ceased not admonishing each one of you with tears\". What a course of divine instruction! It might test our spiritual stamina a good deal, and yet here it is, and the record is in scripture, that in that city he laboured three years night and day, bringing out the great and glorious matters of Christ and of the assembly. Now he is laying it upon these men that this is to be maintained, and the principle on which it is to be maintained is by the acceptance of responsibility on their part in the city of Ephesus. I believe that is an injunction the Lord would leave with us this morning, that the maintenance of what is dear to Christ, the maintenance of what is according to God and for His pleasure, depends on the acceptance of responsibility rightly in the place where God has set us."
-    },
-    {
-     "speaker": "W.T.A.",
-     "text": "You say responsibility; but in Acts 20 the responsibility is given in regard of the Holy Spirit; it is the Holy Spirit that operates, is it not? Does that make it an important matter for those who are raised up as shepherds?"
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "Yes. Of course they were the elders that were called over from Ephesus, that is they had an acknowledged, responsible place in that city under the Lord and he lays it upon them as to their relations with the Holy Spirit, which I think would only enforce what we have been saying as to the place that the Spirit is to have among us in all these matters. But they were the elders from Ephesus already and that is recognised in what is said, so that they were no doubt in Pauline times ordained elders or overseers. But, of course, there still needs to be oversight, care still needs to be exercised among the brethren, there still needs to be the exercise of right authority of a moral kind to hold what is precious to Christ."
-    },
-    {
-     "speaker": "D.E.B.",
-     "text": "Does the fact that there is an overcomer in Ephesus show that this principle of recovery is not a once for all thing, that it goes right on to the end?"
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "That is a very interesting point and we might come back to it. But this Ephesian situation is greatly to affect us, because the choicest part, I suppose, of the Pauline labours is represented by these labours at Ephesus; the wealth that came out there can only be assessed as we read of the labours and get some sense from the epistle of what the Ephesian saints stood for in his mind and heart."
-    },
-    {
-     "speaker": "E.C.B.",
-     "text": "Would this injunction to the Ephesian elders be represented also in the Lord's word to Philadelphia; \"hold fast what thou hast, that no one take thy crown\", Rev 3: 11? Is not the truth that is brought out in Acts 20 of the nature of the crown, and that is what is in danger? One hesitates to distinguish levels of the truth, but it is rarely Christ as Saviour that is in contention, but what relates to the heavenly order of things and what Christ has outside the world."
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "It is indeed. That would hold us, I think, to what we speak of as the Pauline side of the truth. We are to get a negative indication from the viciousness with which the enemy attacks it, that this is indeed the most precious in the sight of God. Let us hold it, dear brethren, at all cost."
-    },
-    {
-     "speaker": "C.R.B.",
-     "text": "So the reference here is to the disciples, persons who are following in the heavenly way. Mr Taylor referred to John as being a permanent follower. Do we not need, if the maintenance of things is going to be rightly held, to desire help to be perm anent followers and disciples in relation to the heavenly way?"
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "Very fine."
+     "speaker": "AJEW",
+     "text": [
+      "Very fine."
+     ]
     }
    ]
   },
@@ -620,515 +787,726 @@
    "place": "LONDON",
    "date": "16 January 1977",
    "speakers": [
-    "R.T.",
-    "E.C.B.",
-    "D.J.H.",
-    "A.J.E.W.",
-    "J.C.E.",
-    "C.R.B.",
-    "G.A.P.",
-    "W.E.E.",
-    "B.W.W.",
-    "W.T.A.",
-    "E.P.",
-    "E.O.",
-    "A.B.",
-    "E.C.",
-    "D.A.B."
+    "RT",
+    "ECB",
+    "DJH",
+    "AJEW",
+    "JCE",
+    "CRB",
+    "GAP",
+    "WEE",
+    "BWW",
+    "WTA",
+    "EP",
+    "EO",
+    "AB",
+    "EC",
+    "DAB"
    ],
    "initials": [
     {
-     "initials": "WTAWTA",
-     "name": "W.T.A. - W.T.Abbott"
+     "initials": "WTA",
+     "name": "W.T.Abbott",
+     "place": "LONDON"
     },
     {
-     "initials": "ABAB",
-     "name": "A.B. - A.Butt"
+     "initials": "AB",
+     "name": "A.Butt",
+     "place": "LONDON"
     },
     {
-     "initials": "CRBCRB",
-     "name": "C.R.B. - C.R.Byng"
+     "initials": "CRB",
+     "name": "C.R.Byng",
+     "place": "LONDON"
     },
     {
-     "initials": "DABDAB",
-     "name": "D.A.B. - D.A.Burr"
+     "initials": "DAB",
+     "name": "D.A.Burr",
+     "place": "LONDON"
     },
     {
-     "initials": "ECBECB",
-     "name": "E.C.B. - E.C.Burr"
+     "initials": "ECB",
+     "name": "E.C.Burr",
+     "place": "LONDON"
     },
     {
-     "initials": "ECEC",
-     "name": "E.C. - E.Croot"
+     "initials": "EC",
+     "name": "E.Croot",
+     "place": "LONDON"
     },
     {
-     "initials": "JCEJCE",
-     "name": "J.C.E. - J.C.Evershed"
+     "initials": "JCE",
+     "name": "J.C.Evershed",
+     "place": "LONDON"
     },
     {
-     "initials": "WEEWEE",
-     "name": "W.E.E. - W.E.Ellis"
+     "initials": "WEE",
+     "name": "W.E.Ellis",
+     "place": "LONDON"
     },
     {
-     "initials": "DJHDJH",
-     "name": "D.J. H. - D.J.Hutson"
+     "initials": "DJH",
+     "name": "D. J. H. -",
+     "place": "LONDON"
     },
     {
-     "initials": "EOEO",
-     "name": "E.O. - E.Oliver"
+     "initials": "DJH",
+     "name": "D. J. Hutson",
+     "place": "LONDON"
     },
     {
-     "initials": "EPEP",
-     "name": "E.P. - E.Palmer"
+     "initials": "EO",
+     "name": "E.Oliver",
+     "place": "LONDON"
     },
     {
-     "initials": "GAPGAP",
-     "name": "G.A.P.- G.A.Palmer"
+     "initials": "EP",
+     "name": "E.Palmer",
+     "place": "LONDON"
     },
     {
-     "initials": "RTRT",
-     "name": "R.T.- R.Taylor"
+     "initials": "GAP",
+     "name": "G.A.Palmer",
+     "place": "LONDON"
+    },
+    {
+     "initials": "RT",
+     "name": "R.Taylor",
+     "place": "LONDON"
     },
     {
      "initials": "AJEW",
-     "name": "A.J. E. Welch"
+     "name": "A.J. E. Welch",
+     "place": "LONDON"
     },
     {
-     "initials": "BWWBWW",
-     "name": "B.W.W.- B.W.Ward"
-    },
-    {
-     "initials": "ARTB",
-     "name": "(All local except R.T. - Barnet)"
+     "initials": "BWW",
+     "name": "B.W.Ward",
+     "place": "LONDON"
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local except R.T. - Barnet",
    "initials_text": [
     "W.T.A. - W.T.Abbott; A.B. - A.Butt; C.R.B. - C.R.Byng; D.A.B. - D.A.Burr; E.C.B. - E.C.Burr; E.C. - E.Croot; J.C.E. - J.C.Evershed; W.E.E. - W.E.Ellis; D.J. H. - D.J.Hutson; E.O. - E.Oliver; E.P. - E.Palmer; G.A.P.- G.A.Palmer; R.T.- R.Taylor; A.J.E.W. - A.J. E. Welch; B.W.W.- B.W.Ward; (All local except R.T. - Barnet)"
    ],
    "paragraphs": [
     {
-     "speaker": "R.T.",
-     "text": "I had a fresh impression this morning as to the way the assembly was enriched and adorned in view of Christ's joy. I wondered if we could be helped to be freshly impressed by and take on that adornment. As you think of the Spirit's movements, what beauty and fine features He is producing. \"By his Spirit the heavens are adorned\", it says, Job 26: 13. It is the idea of what is beautiful and attractive in what the Spirit does. There was a tremendous beauty in the wilderness and the system that was there. From one point of view it looked dull, the badgers' skins as a covering, but underneath what adornment there was blue and gold, and even on the hems of their garments there were tassels of blue, something very beautiful, something that caught the eye. There was something in the tassels that was to attract their attention from one to the other they saw that tassel of blue: something beautiful about the saints. I think it catches Christ's eye too, what He wrought, what the Spirit has wrought that satisfies Him."
+     "speaker": "RT",
+     "text": [
+      "I had a fresh impression this morning as to the way the assembly was enriched and adorned in view of Christ's joy. I wondered if we could be helped to be freshly impressed by and take on that adornment. As you think of the Spirit's movements, what beauty and fine features He is producing. \"By his Spirit the heavens are adorned\", it says, Job 26: 13. It is the idea of what is beautiful and attractive in what the Spirit does. There was a tremendous beauty in the wilderness and the system that was there. From one point of view it looked dull, the badgers' skins as a covering, but underneath what adornment there was blue and gold, and even on the hems of their garments there were tassels of blue, something very beautiful, something that caught the eye. There was something in the tassels that was to attract their attention from one to the other they saw that tassel of blue: something beautiful about the saints. I think it catches Christ's eye too, what He wrought, what the Spirit has wrought that satisfies Him.",
+      "There is a background of orphanage in these scriptures in Esther and the Psalm, and in Ephesians too the background was that they were strangers, disqualified. I think the sense of that would help us to take on more quickly the features the Spirit would impart. That is our position too: publicly we are disowned. There is nothing that we can claim. The sense of mercy can deepen with us, and it makes room for divine activities. Esther must have had it, and God's people in Esther must have had it. I think it has been remarked that in Esther there is no ark, there is no priest, there is no Levite: there is none of that kind of feature. The background is one of orphanage, but there is something there that makes room for the Spirit and as we rely on it what comes in is beauty which the king appreciates. There is movement in these scriptures: she went in. That is what we experience as together, that we are going in, but we go in adorned and embroidered; there is something that catches and satisfies Christ's eye. As we speak together we will be helped to take on those features and to think of the need of taking them on, and be with the Spirit to take them on.",
+      "Genesis 24 would always come into our minds as we speak of the Spirit, and in going into the country it says, \"all the treasure of his master was under his hand\" (v 10). The Spirit has come from a glorified Jesus and has brought the wealth of heaven with Him to adorn us with it. We would be exercised that there is with us the impressionable state that can take on these fine features that are for the divine pleasure."
+     ]
     },
     {
-     "text": "There is a background of orphanage in these scriptures in Esther and the Psalm, and in Ephesians too the background was that they were strangers, disqualified. I think the sense of that would help us to take on more quickly the features the Spirit would impart. That is our position too: publicly we are disowned. There is nothing that we can claim. The sense of mercy can deepen with us, and it makes room for divine activities. Esther must have had it, and God's people in Esther must have had it. I think it has been remarked that in Esther there is no ark, there is no priest, there is no Levite: there is none of that kind of feature. The background is one of orphanage, but there is something there that makes room for the Spirit and as we rely on it what comes in is beauty which the king appreciates. There is movement in these scriptures: she went in. That is what we experience as together, that we are going in, but we go in adorned and embroidered; there is something that catches and satisfies Christ's eye. As we speak together we will be helped to take on those features and to think of the need of taking them on, and be with the Spirit to take them on."
+     "speaker": "ECB",
+     "text": [
+      "Are these spiritual adornments going to be displayed materially in the city? No doubt the city in the world to come is itself a spiritual idea, but it is presented to us in a great detail of material things, which rather suggests that as it were the spiritual adornment has been made good."
+     ]
     },
     {
-     "text": "Genesis 24 would always come into our minds as we speak of the Spirit, and in going into the country it says, \"all the treasure of his master was under his hand\" (v 10). The Spirit has come from a glorified Jesus and has brought the wealth of heaven with Him to adorn us with it. We would be exercised that there is with us the impressionable state that can take on these fine features that are for the divine pleasure."
+     "speaker": "RT",
+     "text": [
+      "Yes, there is going to be a wonderful display of it; but in the meantime we touch something of the inside idea, that Christ is satisfied with the beauty and attractiveness He sees in the assembly."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Are these spiritual adornments going to be displayed materially in the city? No doubt the city in the world to come is itself a spiritual idea, but it is presented to us in a great detail of material things, which rather suggests that as it were the spiritual adornment has been made good."
+     "speaker": "DJH",
+     "text": [
+      "I was thinking of that this morning. It comes out in display, as Mr Burr says, in the city that comes down, but it is there all the time; and though that relates to one particular aspect, yet it is there; it is there, as you say, inside for Christ, and it is there as the vessel of God's praise. That beauty that is displayed is there all the time, is it not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, there is going to be a wonderful display of it; but in the meantime we touch something of the inside idea, that Christ is satisfied with the beauty and attractiveness He sees in the assembly."
+     "speaker": "RT",
+     "text": [
+      "It is the time now for taking it on. Esther, as going in, said she \"required nothing but what Hegai the king's chamberlain, keeper of the women, appointed\". We may tend to turn to other things, but this would be something of what we were speaking of yesterday, she would have confidence in him, that she required nothing but what he appointed. There is nothing else will satisfy the divine eye but what the Spirit has furnished us with."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "I was thinking of that this morning. It comes out in display, as Mr Burr says, in the city that comes down, but it is there all the time; and though that relates to one particular aspect, yet it is there; it is there, as you say, inside for Christ, and it is there as the vessel of God's praise. That beauty that is displayed is there all the time, is it not?"
+     "speaker": "AJEW",
+     "text": [
+      "The things that the servant brought forth for Rebecca had a certain weight of gold, and the 45th Psalm brings in the wrought gold. It is a touch of divine glory, not seen so much in the divine Persons Themselves but seen in what Their labours (speaking simply) have yielded. Is that the point?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It is the time now for taking it on. Esther, as going in, said she \"required nothing but what Hegai the king's chamberlain, keeper of the women, appointed\". We may tend to turn to other things, but this would be something of what we were speaking of yesterday, she would have confidence in him, that she required nothing but what he appointed. There is nothing else will satisfy the divine eye but what the Spirit has furnished us with."
+     "speaker": "RT",
+     "text": [
+      "Yes, I think that is very beautiful. It says too that they gave her clothing. Do you think that, having accepted what the Spirit had brought, Rebecca had to move? What the Spirit brought to her was for another country, it was for another Man. And what the Spirit has brought to us in the ministry creates movement. What He has brought is wealth from heaven, and as we taste those features and take them on it creates movement that brings us into the joy of union with Christ."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The things that the servant brought forth for Rebecca had a certain weight of gold, and the 45th Psalm brings in the wrought gold. It is a touch of divine glory, not seen so much in the divine Persons Themselves but seen in what Their labours (speaking simply) have yielded. Is that the point?"
+     "speaker": "JCE",
+     "text": [
+      "It is good to see that these things are given to us 'for keeps'. They are not just for a time or for any particular moment of service, but they belong to us. I was thinking of the sons being heirs (see Gal 4: 7); they have everything but they have it rightly, and they have it as sons."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think that is very beautiful. It says too that they gave her clothing. Do you think that, having accepted what the Spirit had brought, Rebecca had to move? What the Spirit brought to her was for another country, it was for another Man. And what the Spirit has brought to us in the ministry creates movement. What He has brought is wealth from heaven, and as we taste those features and take them on it creates movement that brings us into the joy of union with Christ."
+     "speaker": "RT",
+     "text": [
+      "Yes, they are given us to make us at home in the divine presence, and that we have a sense of divine pleasure in the saints. \"Because ye are sons, God has sent out the Spirit of his Son into our hearts\". That is a touch to make us at home in that area. But to think of a divine Person coming into a position that He might adorn the saints! It would have our eyes and our affections expanded toward Him, that we may readily take on, and take on nothing else but what He imparts."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "It is good to see that these things are given to us 'for keeps'. They are not just for a time or for any particular moment of service, but they belong to us. I was thinking of the sons being heirs (see Gal 4: 7); they have everything but they have it rightly, and they have it as sons."
+     "speaker": "ECB",
+     "text": [
+      "It would be in thought here that Esther knew that she would satisfy the king, because the extra things given to them were what they desired and she desired nothing. Is that something that we ought to have impressions of, that the assembly knows that she satisfies Christ?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, they are given us to make us at home in the divine presence, and that we have a sense of divine pleasure in the saints. \"Because ye are sons, God has sent out the Spirit of his Son into our hearts\". That is a touch to make us at home in that area. But to think of a divine Person coming into a position that He might adorn the saints! It would have our eyes and our affections expanded toward Him, that we may readily take on, and take on nothing else but what He imparts."
+     "speaker": "RT",
+     "text": [
+      "Yes, I think we get a sense of that. I felt a sense of it this morning, that He was satisfied with what the Spirit had wrought in the saints. It is nothing that we have brought, but it would connect with what we were saying yesterday as to confidence in the Spirit, and making room for the impressions He would impart and the embroidering He would do, and the sense of Christ's satisfaction in what the Spirit has wrought."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It would be in thought here that Esther knew that she would satisfy the king, because the extra things given to them were what they desired and she desired nothing. Is that something that we ought to have impressions of, that the assembly knows that she satisfies Christ?"
+     "speaker": "ECB",
+     "text": [
+      "It brings out how unnecessary all that is ecclesiastical is for Christ."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think we get a sense of that. I felt a sense of it this morning, that He was satisfied with what the Spirit had wrought in the saints. It is nothing that we have brought, but it would connect with what we were saying yesterday as to confidence in the Spirit, and making room for the impressions He would impart and the embroidering He would do, and the sense of Christ's satisfaction in what the Spirit has wrought."
+     "speaker": "RT",
+     "text": [
+      "In the kind of conditions we are in, what is around us (when we are younger we may turn to some of these things), what a system has developed: music and architecture, and all these things. They have displaced the Spirit of God. Here you get an impression of something very simple about Esther; you think of her as a plain kind of person (I use the word 'plain' in a right sense) something like what Peter speaks about: \"the incorruptible ornament of a meek and quiet spirit\" (1 Pet 3: 4), something that is spiritually and divinely wrought that satisfies Christ. I think as we go on we get a sense of what Christ really appreciates."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It brings out how unnecessary all that is ecclesiastical is for Christ."
+     "speaker": "CRB",
+     "text": [
+      "It says that the king loved her above all the women. There is only one that is suitable to Christ, is there not? He presents her to Himself glorious (see Eph 5: 27): is that the thought? There is only one that is suitable to Him, and the Spirit's operations enter into it."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "In the kind of conditions we are in, what is around us (when we are younger we may turn to some of these things), what a system has developed: music and architecture, and all these things. They have displaced the Spirit of God. Here you get an impression of something very simple about Esther; you think of her as a plain kind of person (I use the word 'plain' in a right sense) something like what Peter speaks about: \"the incorruptible ornament of a meek and quiet spirit\" (1 Pet 3: 4), something that is spiritually and divinely wrought that satisfies Christ. I think as we go on we get a sense of what Christ really appreciates."
+     "speaker": "RT",
+     "text": [
+      "What a thing it is that there is a creature vessel that has taken on divine work and is suited to be at home in the presence of divine Persons."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "It says that the king loved her above all the women. There is only one that is suitable to Christ, is there not? He presents her to Himself glorious (see Eph 5: 27): is that the thought? There is only one that is suitable to Him, and the Spirit's operations enter into it."
+     "speaker": "GAP",
+     "text": [
+      "Would the king's chamberlain be fully aware of what was suited to the king? And also, as keeper of the women, Esther would have been aware of his service in that way, do you think?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "What a thing it is that there is a creature vessel that has taken on divine work and is suited to be at home in the presence of divine Persons."
+     "speaker": "RT",
+     "text": [
+      "Yes. The Spirit only operates in the area of what has come out of the death of Christ. Esther would suggest that: she is cast out, she is orphan, she has no title at all; and that is our position, there is something wrought in us through the work of Christ that creates suitable material, a suitable area for the Spirit to work in, and what He produces is something that He can love. He loved her. It is a very fine thing to get a sense of that."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Would the king's chamberlain be fully aware of what was suited to the king? And also, as keeper of the women, Esther would have been aware of his service in that way, do you think?"
+     "speaker": "WEE",
+     "text": [
+      "Would you say that there should be a right state on our side if this adornment is to take place? I was noticing that she obtained grace and favour in his sight more than all the virgins, suggesting virgin affection for Christ; and in the previous chapter we get the idea of purification coming in."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. The Spirit only operates in the area of what has come out of the death of Christ. Esther would suggest that: she is cast out, she is orphan, she has no title at all; and that is our position, there is something wrought in us through the work of Christ that creates suitable material, a suitable area for the Spirit to work in, and what He produces is something that He can love. He loved her. It is a very fine thing to get a sense of that."
+     "speaker": "RT",
+     "text": [
+      "Yes; I thought that the exercises we mentioned yesterday would make us impressionable material: \"fleshy tables of the heart\" (2 Cor 3: 3), impressionable material that could take on the adornment that the Spirit is so ready to impart. We were remarking yesterday that we may detain the Spirit so long on the other side, but I thought this was the normal movement of the Spirit, that He comes to something that is impressionable, something that can be adorned, something that takes shape, you may say, that is entirely suitable to be at home in the divine presence."
+     ]
     },
     {
-     "speaker": "W.E.E.",
-     "text": "Would you say that there should be a right state on our side if this adornment is to take place? I was noticing that she obtained grace and favour in his sight more than all the virgins, suggesting virgin affection for Christ; and in the previous chapter we get the idea of purification coming in."
+     "speaker": "BWW",
+     "text": [
+      "You have referred to Genesis 24; would the servant have full knowledge of the Father's desires as well as the excellencies of the Son?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes; I thought that the exercises we mentioned yesterday would make us impressionable material: \"fleshy tables of the heart\" (2 Cor 3: 3), impressionable material that could take on the adornment that the Spirit is so ready to impart. We were remarking yesterday that we may detain the Spirit so long on the other side, but I thought this was the normal movement of the Spirit, that He comes to something that is impressionable, something that can be adorned, something that takes shape, you may say, that is entirely suitable to be at home in the divine presence."
+     "speaker": "RT",
+     "text": [
+      "Yes, he went out charged, did he not? We say that respectfully, that he went out charged, she was to be a woman of Abraham's own lineage, his own order; he did not create her exactly. Something existed that has come out of the death of Christ that can be wrought upon and can take on divine impressions, and as such is suited to be brought in. I was impressed with that in these scriptures, that we are brought in, and as brought in there is joy and love at home. That she obtained grace and favour in his sight would emphasise what we have been saying, there is a sense of Christ's satisfaction. It is a wonderful thing to think of a glorified Man being satisfied with a creature vessel, but a creature vessel that has taken on divine impress, a vessel that is a product of divine workmanship; and there is nothing more, it is a touch of finality in a sense. He loved her, and more than all the virgins, set the royal crown upon her head and made her queen; she is installed. It is almost a touch of a final position reached that she is entirely able for."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "You have referred to Genesis 24; would the servant have full knowledge of the Father's desires as well as the excellencies of the Son?"
+     "speaker": "CRB",
+     "text": [
+      "Would you say something more about being brought out of the death of Christ."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, he went out charged, did he not? We say that respectfully, that he went out charged, she was to be a woman of Abraham's own lineage, his own order; he did not create her exactly. Something existed that has come out of the death of Christ that can be wrought upon and can take on divine impressions, and as such is suited to be brought in. I was impressed with that in these scriptures, that we are brought in, and as brought in there is joy and love at home. That she obtained grace and favour in his sight would emphasise what we have been saying, there is a sense of Christ's satisfaction. It is a wonderful thing to think of a glorified Man being satisfied with a creature vessel, but a creature vessel that has taken on divine impress, a vessel that is a product of divine workmanship; and there is nothing more, it is a touch of finality in a sense. He loved her, and more than all the virgins, set the royal crown upon her head and made her queen; she is installed. It is almost a touch of a final position reached that she is entirely able for."
+     "speaker": "RT",
+     "text": [
+      "I heard Mr Taylor once and it left an impression on me. He said that the Spirit had not come to the world; it is not right to say the Spirit had come to the earth, He has come into the assembly. There are certain areas that we may get into in which we could not expect the Spirit, but He has come to the assembly, He has come into an area that is the product of Christ's sufferings, do you think? Esther may represent something like that; she is not a worldly person but she is a person that is publicly disowned, you may say, but there is something of the right origin about her."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Would you say something more about being brought out of the death of Christ."
+     "speaker": "CRB",
+     "text": [
+      "Would you connect it particularly with the presentation of the death of Christ according to John? \"Not of the world\" , John 17: 16. It is related, is it not, to the love that took Christ into death? It is not the side of the clearance of sin, indispensable as that is; it is more the side of love as entering into death. Is that what you have in mind?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I heard Mr Taylor once and it left an impression on me. He said that the Spirit had not come to the world; it is not right to say the Spirit had come to the earth, He has come into the assembly. There are certain areas that we may get into in which we could not expect the Spirit, but He has come to the assembly, He has come into an area that is the product of Christ's sufferings, do you think? Esther may represent something like that; she is not a worldly person but she is a person that is publicly disowned, you may say, but there is something of the right origin about her."
+     "speaker": "RT",
+     "text": [
+      "I think that is very good; and the Lord says too, \"if my kingdom were of this world, my servants had fought\", John 18: 36. So it is not worldly ideas that govern us but we are of the family. In John's line we are of the family, and as of the family the Spirit would impart family features, family feelings and family joys into our affections that make us entirely suitable to be at home in the divine presence."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Would you connect it particularly with the presentation of the death of Christ according to John? \"Not of the world\" , John 17: 16. It is related, is it not, to the love that took Christ into death? It is not the side of the clearance of sin, indispensable as that is; it is more the side of love as entering into death. Is that what you have in mind?"
+     "speaker": "WTA",
+     "text": [
+      "In Acts the apostle speaks of \"the assembly of God, which he has purchased with the blood of his own\", chap 20: 28. That is the cost to which God has gone, would you say, in relation to the assembly , which is for His joy?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think that is very good; and the Lord says too, \"if my kingdom were of this world, my servants had fought\", John 18: 36. So it is not worldly ideas that govern us but we are of the family. In John's line we are of the family, and as of the family the Spirit would impart family features, family feelings and family joys into our affections that make us entirely suitable to be at home in the divine presence."
+     "speaker": "RT",
+     "text": [
+      "Yes; \"the assembly of God\" would allude to the dignity of it, that it belongs to Him, it is His assembly. It would be seen, and is to be seen, in the public order of things. What we were thinking of in Esther is the joy that the Lord has in it, the counterpart; 'Thy like, Thy counterpart', we sometimes sing. The Spirit has produced something that is entirely suitable in every way to rejoice His heart, and do we not get a sense sometimes of the Lord's joy? \"Who is this?\" Song of Sol 3: 6. These expressions in the Song, such as \"Thou hast ravished my heart with one of thine eyes\" (chap 4: 9), give some sense of the joy and satisfaction that the Lord has in what the Spirit has wrought in the assembly."
+     ]
     },
     {
-     "speaker": "W.T.A.",
-     "text": "In Acts the apostle speaks of \"the assembly of God, which he has purchased with the blood of his own\", chap 20: 28. That is the cost to which God has gone, would you say, in relation to the assembly , which is for His joy?"
+     "speaker": "AJEW",
+     "text": [
+      "In the type in Genesis 2 there is no question of Eve being adorned; you might say she is constitutionally suited to the man. I wondered whether that underlies what we are saying as to the assembly; and yet as we come into the full glory of the economy of love the idea of adornment is added as if there is something that God delights to work on in this great matter of the assembly for Christ. Would that enter into the adorning?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes; \"the assembly of God\" would allude to the dignity of it, that it belongs to Him, it is His assembly. It would be seen, and is to be seen, in the public order of things. What we were thinking of in Esther is the joy that the Lord has in it, the counterpart; 'Thy like, Thy counterpart', we sometimes sing. The Spirit has produced something that is entirely suitable in every way to rejoice His heart, and do we not get a sense sometimes of the Lord's joy? \"Who is this?\" Song of Sol 3: 6. These expressions in the Song, such as \"Thou hast ravished my heart with one of thine eyes\" (chap 4: 9), give some sense of the joy and satisfaction that the Lord has in what the Spirit has wrought in the assembly."
+     "speaker": "RT",
+     "text": [
+      "Do you think that as we take on a sense of the adorning we realise it is for another country; like the tassels of blue in the wilderness; they showed that they really belonged to another country. As the Spirit brings these glories to us and weaves them into the structure of the assembly, woven in and made part of the assembly, does it show that we belong somewhere else and to Someone else? They are for another eye, are they not?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "In the type in Genesis 2 there is no question of Eve being adorned; you might say she is constitutionally suited to the man. I wondered whether that underlies what we are saying as to the assembly; and yet as we come into the full glory of the economy of love the idea of adornment is added as if there is something that God delights to work on in this great matter of the assembly for Christ. Would that enter into the adorning?"
+     "speaker": "EP",
+     "text": [
+      "Does that mean that the work of the Spirit is to come into substantial expression? It is not something that is hidden up, although it may be to the world."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Do you think that as we take on a sense of the adorning we realise it is for another country; like the tassels of blue in the wilderness; they showed that they really belonged to another country. As the Spirit brings these glories to us and weaves them into the structure of the assembly, woven in and made part of the assembly, does it show that we belong somewhere else and to Someone else? They are for another eye, are they not?"
+     "speaker": "RT",
+     "text": [
+      "Yes, I think we should be conscious of it conscious of dignity. In years gone by we become very undignified about certain things, but I think that as having to do with the Spirit we would be conscious of dignity and of something that is royal - clothing of wrought gold, raiment of embroidery, brought in with joy and gladness. It would give us a sense that it is not worldly features; Vashti took things and put them all on herself, and it brought in pride. The sense of mercy would be in our spirits, particularly in the days we are in, so that these things would be taken on but they are for Christ's eye and His pleasure.",
+      "G.A P. In Genesis 24 it says \"the servant told Isaac all things that he had done\" (v 66). Would that be in keeping with what you are saying, there is something that has been effected for Isaac, the heavenly man?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Does that mean that the work of the Spirit is to come into substantial expression? It is not something that is hidden up, although it may be to the world."
+     "speaker": "RT",
+     "text": [
+      "You would have liked to have heard that conversation, would you not? I think he would tell him, too, what grace he had found in Rebecca, the way that she so willingly drew water and how ready she was to take on other features. Our readiness to take on these finer features is something we should be exercised about."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think we should be conscious of it conscious of dignity. In years gone by we become very undignified about certain things, but I think that as having to do with the Spirit we would be conscious of dignity and of something that is royal - clothing of wrought gold, raiment of embroidery, brought in with joy and gladness. It would give us a sense that it is not worldly features; Vashti took things and put them all on herself, and it brought in pride. The sense of mercy would be in our spirits, particularly in the days we are in, so that these things would be taken on but they are for Christ's eye and His pleasure."
+     "speaker": "ECB",
+     "text": [
+      "Is it necessary that we should have a better understanding than we perhaps have of the origins of the assembly? Much of what we say would suggest that we think that the assembly is something that has been discovered out of the ruin, but it has its origin, as you said, in Christ's death, and then in the Spirit coming. Having its origin there it can only be perfect, and it is what is perfect that is adorned."
+     ]
     },
     {
-     "text": "G.A P. In Genesis 24 it says \"the servant told Isaac all things that he had done\" (v 66). Would that be in keeping with what you are saying, there is something that has been effected for Isaac, the heavenly man?"
+     "speaker": "RT",
+     "text": [
+      "It also has its origin in the purpose of God. Say something about that please."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "You would have liked to have heard that conversation, would you not? I think he would tell him, too, what grace he had found in Rebecca, the way that she so willingly drew water and how ready she was to take on other features. Our readiness to take on these finer features is something we should be exercised about."
+     "speaker": "ECB",
+     "text": [
+      "I think that bears on what has been said earlier, indeed in regard to what Mr Abbott said, that divine affections are involved in bringing the assembly to Christ. Even in the formation there is the feeling of God for man; but then for that particular Man, that is the Man Christ Jesus, that He should have the assembly. It is very interesting how the idea of the counterpart comes into these scriptures. In Psalm 45 it is \"forget... thy father's house\" (v 10), and that is what Joseph said: \"God has made me forget... all my father's house\", Gen 41: 51. She is his counterpart in that. And \"Ye... shall leave me alone\" (John 16: 32); these scriptures, as you said, have the idea of orphanage. There is the sense in which the assembly is His counterpart in all these things."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it necessary that we should have a better understanding than we perhaps have of the origins of the assembly? Much of what we say would suggest that we think that the assembly is something that has been discovered out of the ruin, but it has its origin, as you said, in Christ's death, and then in the Spirit coming. Having its origin there it can only be perfect, and it is what is perfect that is adorned."
+     "speaker": "RT",
+     "text": [
+      "Yes. It is fine to get beyond the moral question. It is something that we need to think about. We love Him because of what He has done, glorious Saviour! but there is something more than that: the vessel, the assembly, fruit of His work, but thought of in divine purpose; sonship too, brought to light through His death indeed, but conceived in divine purpose. Think of loving Christ because of His own beauty, not only on account of what He did for us. I think there is something of that in the royal apartment, loving Him because of His own precious worth. We come to it because of what He has done and the way He has gone, but we come to appreciate the One who did those things."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It also has its origin in the purpose of God. Say something about that please."
+     "speaker": "ECB",
+     "text": [
+      "Does \"having long spoken until daybreak\" in Acts 20 (v 11) bear on that side of things; that is, it is conversation in relation to things beyond the moral issue? Paul spoke till midnight, but then they conversed till daybreak and is that not beyond the moral questions? It involves the unfolding of the truth that he so fully sets out in his speaking to the elders of Ephesus-as if it was freshly in his mind."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think that bears on what has been said earlier, indeed in regard to what Mr Abbott said, that divine affections are involved in bringing the assembly to Christ. Even in the formation there is the feeling of God for man; but then for that particular Man, that is the Man Christ Jesus, that He should have the assembly. It is very interesting how the idea of the counterpart comes into these scriptures. In Psalm 45 it is \"forget... thy father's house\" (v 10), and that is what Joseph said: \"God has made me forget... all my father's house\", Gen 41: 51. She is his counterpart in that. And \"Ye... shall leave me alone\" (John 16: 32); these scriptures, as you said, have the idea of orphanage. There is the sense in which the assembly is His counterpart in all these things."
+     "speaker": "RT",
+     "text": [
+      "That is very suggestive. I had always thought of Acts 20 as correcting a state, but yes, the conversation, as you say, is very instructive, so that that is the higher level. There is room for us to think; you referred in the meetings here in October to the need for thinking, and there is; we get into grooves so readily. I do not want to speak against the moral idea; it is a wonderful thing, the Saviour we have; but think of who He is; and within the royal apartments His own preciousness would absorb our attention."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. It is fine to get beyond the moral question. It is something that we need to think about. We love Him because of what He has done, glorious Saviour! but there is something more than that: the vessel, the assembly, fruit of His work, but thought of in divine purpose; sonship too, brought to light through His death indeed, but conceived in divine purpose. Think of loving Christ because of His own beauty, not only on account of what He did for us. I think there is something of that in the royal apartment, loving Him because of His own precious worth. We come to it because of what He has done and the way He has gone, but we come to appreciate the One who did those things."
+     "speaker": "CRB",
+     "text": [
+      "Our experience as following the Supper is not what we experience with Jesus as here upon earth; it is what we enter into with Him in His own sphere, is it not, where every moral question has been eternally resolved?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does \"having long spoken until daybreak\" in Acts 20 (v 11) bear on that side of things; that is, it is conversation in relation to things beyond the moral issue? Paul spoke till midnight, but then they conversed till daybreak and is that not beyond the moral questions? It involves the unfolding of the truth that he so fully sets out in his speaking to the elders of Ephesus-as if it was freshly in his mind."
+     "speaker": "RT",
+     "text": [
+      "Yes, and it is what it will be eternally. The eternal idea will not be the moral thing exactly; it is what has come out of it, but it is the intrinsic worth of Christ and the intrinsic worth, you may say, of the assembly."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That is very suggestive. I had always thought of Acts 20 as correcting a state, but yes, the conversation, as you say, is very instructive, so that that is the higher level. There is room for us to think; you referred in the meetings here in October to the need for thinking, and there is; we get into grooves so readily. I do not want to speak against the moral idea; it is a wonderful thing, the Saviour we have; but think of who He is; and within the royal apartments His own preciousness would absorb our attention."
+     "speaker": "CRB",
+     "text": [
+      "What we experience at the Supper will be pretty much the same at the rapture, will it not? There will not be much difference."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Our experience as following the Supper is not what we experience with Jesus as here upon earth; it is what we enter into with Him in His own sphere, is it not, where every moral question has been eternally resolved?"
+     "speaker": "RT",
+     "text": [
+      "Yes; then it will be sustained. It is an outstanding feature of our times that we touch something that is eternal. There are other things to take place, other prophetic things to be fulfilled, but this family can touch, after the Supper, something that is to be our eternal portion. The question is, Do I have an appetite for that kind of thing? Do I have desires or longings that the Spirit can create and embroider, so that we take these things on more quickly?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, and it is what it will be eternally. The eternal idea will not be the moral thing exactly; it is what has come out of it, but it is the intrinsic worth of Christ and the intrinsic worth, you may say, of the assembly."
+     "speaker": "WTA",
+     "text": [
+      "In Revelation it says that the city comes down \"having the glory of God\", chap 21: 10. Do you mean that it is possible to know something of that now?"
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "What we experience at the Supper will be pretty much the same at the rapture, will it not? There will not be much difference."
+     "speaker": "RT",
+     "text": [
+      "Oh, surely. Our experience is \"from glory to glory\" - \"transformed... from glory to glory, even as by the Lord the Spirit\", 2 Cor 3: 18. That should be formative, something embroidered into persons; and it is there all the time. So she is brought in to the king. \"With joy and gladness shall they be brought\". What a scene of jubilation we come into!"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes; then it will be sustained. It is an outstanding feature of our times that we touch something that is eternal. There are other things to take place, other prophetic things to be fulfilled, but this family can touch, after the Supper, something that is to be our eternal portion. The question is, Do I have an appetite for that kind of thing? Do I have desires or longings that the Spirit can create and embroider, so that we take these things on more quickly?"
+     "speaker": "EO",
+     "text": [
+      "Mr Taylor made a remark that might bear on what we are saying, and that is in relation to John 13: 32: \"God also shall glorify him in himself, and shall glorify him immediately\". He said that would be in relation to the assembly, and added that Christ has had that every day since (see Vol. 80, p.161). Do you think we need to be on that line of reality and seeing that there is this substantial answer in us?"
+     ]
     },
     {
-     "speaker": "W.T.A.",
-     "text": "In Revelation it says that the city comes down \"having the glory of God\", chap 21: 10. Do you mean that it is possible to know something of that now?"
+     "speaker": "RT",
+     "text": [
+      "Yes, we need to be in faith about that, that the Spirit has come to see that Christ has the assembly and through grace I have been brought to have part in it. So am I taking on assembly features? We sometimes think of that in the outward side of things but what we are speaking of today is, Are we taking on assembly features that rejoice the heart of Christ? \"With joy and gladness shall they be brought\". A sense of triumph that we touch in our spirits on Lord's day, as was said, will be our eternal portion."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Oh, surely. Our experience is \"from glory to glory\" - \"transformed... from glory to glory, even as by the Lord the Spirit\", 2 Cor 3: 18. That should be formative, something embroidered into persons; and it is there all the time. So she is brought in to the king. \"With joy and gladness shall they be brought\". What a scene of jubilation we come into!"
+     "speaker": "JCE",
+     "text": [
+      "There is no sense of question or wonder whether persons will be suitable, or whether the queen will be suitable. We had a sense of that this morning, that as the Lord came in in His glory there was no incompatibility with us, because as having the Spirit we are glorified and suited to Him."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Mr Taylor made a remark that might bear on what we are saying, and that is in relation to John 13: 32: \"God also shall glorify him in himself, and shall glorify him immediately\". He said that would be in relation to the assembly, and added that Christ has had that every day since (see Vol. 80, p.161). Do you think we need to be on that line of reality and seeing that there is this substantial answer in us?"
+     "speaker": "RT",
+     "text": [
+      "\"All glorious\", it says, \"is the king's daughter within\". 'Where every whit Thy glory tells' (hymn No.237). All the scene expresses divine workmanship, and a creature vessel is at home there."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, we need to be in faith about that, that the Spirit has come to see that Christ has the assembly and through grace I have been brought to have part in it. So am I taking on assembly features? We sometimes think of that in the outward side of things but what we are speaking of today is, Are we taking on assembly features that rejoice the heart of Christ? \"With joy and gladness shall they be brought\". A sense of triumph that we touch in our spirits on Lord's day, as was said, will be our eternal portion."
+     "speaker": "AB",
+     "text": [
+      "What is the thought in the reference to 'companions' in verse 14?"
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "There is no sense of question or wonder whether persons will be suitable, or whether the queen will be suitable. We had a sense of that this morning, that as the Lord came in in His glory there was no incompatibility with us, because as having the Spirit we are glorified and suited to Him."
+     "speaker": "RT",
+     "text": [
+      "\"Her companions, shall be brought in unto thee\": the dominant thought is that she \"shall be brought unto the king in raiment of embroidery; the virgins behind her, her companions, shall be brought in unto thee\". It suggests that there are other families, maybe other features, but they only enhance the 'she' at the beginning of the verse."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "\"All glorious\", it says, \"is the king's daughter within\". 'Where every whit Thy glory tells' (hymn No.237). All the scene expresses divine workmanship, and a creature vessel is at home there."
+     "speaker": "ECB",
+     "text": [
+      "Is it to accentuate the feminine side in its purity? Esther was given virgins also. It is a matter of that thought being extended; and what Paul says to the Corinthians about espousing them as \"a chaste virgin to Christ\" (2 Cor 11: 2) would help us to see in a sense how wide that thought is."
+     ]
     },
     {
-     "speaker": "A.B.",
-     "text": "What is the thought in the reference to 'companions' in verse 14?"
+     "speaker": "RT",
+     "text": [
+      "Yes. I was thinking too of what you have remarked before, that the whole scene will be spiritual, that Israel will become spiritual."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "\"Her companions, shall be brought in unto thee\": the dominant thought is that she \"shall be brought unto the king in raiment of embroidery; the virgins behind her, her companions, shall be brought in unto thee\". It suggests that there are other families, maybe other features, but they only enhance the 'she' at the beginning of the verse."
+     "speaker": "ECB",
+     "text": [
+      "I think Mr Taylor said that, that after the world to come the whole sphere in eternity is spiritual, because \"flesh and blood cannot inherit God's kingdom\", 1 Cor 15: 50. Israel will have its portion on the earth in the millennium, but in the final condition everything is spiritual, and everything then is of God who is a Spirit."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it to accentuate the feminine side in its purity? Esther was given virgins also. It is a matter of that thought being extended; and what Paul says to the Corinthians about espousing them as \"a chaste virgin to Christ\" (2 Cor 11: 2) would help us to see in a sense how wide that thought is."
+     "speaker": "RT",
+     "text": [
+      "So it is fine to be taking that on now. There is something taken on now that does not have its origin in flesh and blood. It is being worked out in that condition, but what is being worked out is spiritual and is suit able to be at home eternally in the divine presence. I think if we have a sense of Christ's joy in what the Spirit has wrought in the assembly it would encourage us to be more with the Spirit, to take on more those features that He alone can furnish us with that rejoice Christ's heart."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. I was thinking too of what you have remarked before, that the whole scene will be spiritual, that Israel will become spiritual."
+     "speaker": "EP",
+     "text": [
+      "It is significant that it is included in the service of God. I mean, this is a psalm, and it says in the heading that it is a song. Do you think that the appreciation of this finds a real response (in the Spirit's power, but a real response) in the hearts of the saints as gathered in the light of the assembly?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think Mr Taylor said that, that after the world to come the whole sphere in eternity is spiritual, because \"flesh and blood cannot inherit God's kingdom\", 1 Cor 15: 50. Israel will have its portion on the earth in the millennium, but in the final condition everything is spiritual, and everything then is of God who is a Spirit."
+     "speaker": "RT",
+     "text": [
+      "Yes. In verse 6 it is Christ: \"Thy throne, O God, is or ever and ever\", and in the verses we are reading it 1s someone that is made suitable to be with Him in that scene of glory. So there is in the psalm Christ in His own uniqueness and beauty and then there is brought in a counterpart who can be with Him and for Him."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "So it is fine to be taking that on now. There is something taken on now that does not have its origin in flesh and blood. It is being worked out in that condition, but what is being worked out is spiritual and is suit able to be at home eternally in the divine presence. I think if we have a sense of Christ's joy in what the Spirit has wrought in the assembly it would encourage us to be more with the Spirit, to take on more those features that He alone can furnish us with that rejoice Christ's heart."
+     "speaker": "CRB",
+     "text": [
+      "Whilst other things may have to come in during the week on other occasions, do you think something of this experience should be preserved in our spirits through every other occasion?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "It is significant that it is included in the service of God. I mean, this is a psalm, and it says in the heading that it is a song. Do you think that the appreciation of this finds a real response (in the Spirit's power, but a real response) in the hearts of the saints as gathered in the light of the assembly?"
+     "speaker": "RT",
+     "text": [
+      "Well, if other things come in, we turn aside. That remark has been made and I think it is good to remember, that if we deal with other things we turn aside, and we only turn aside because it is to guard what is precious to Christ. Is that right?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes. In verse 6 it is Christ: \"Thy throne, O God, is or ever and ever\", and in the verses we are reading it 1s someone that is made suitable to be with Him in that scene of glory. So there is in the psalm Christ in His own uniqueness and beauty and then there is brought in a counterpart who can be with Him and for Him."
+     "speaker": "CRB",
+     "text": [
+      "Yes, I am sure that is important. We do not work through to this during the week; this is the way we would be preserved normally. As you say, we may have to turn aside to deal with other things, but that would be unusual."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Whilst other things may have to come in during the week on other occasions, do you think something of this experience should be preserved in our spirits through every other occasion?"
+     "speaker": "RT",
+     "text": [
+      "I think, because of the kind of persons we are we try too much to work up to things; but it is wonderful grace that in Christianity we work out from the inside - \"because ye are sons\". I remember being helped by a remark of Mr Hammond's. He said, No state could warrant the divine pleasure. You could never work up to or create a state that would warrant the divine pleasure. I think our state is affected through grace and through the touches of divine love that become imparted to us. Do you think that?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Well, if other things come in, we turn aside. That remark has been made and I think it is good to remember, that if we deal with other things we turn aside, and we only turn aside because it is to guard what is precious to Christ. Is that right?"
+     "speaker": "CRB",
+     "text": [
+      "Yes. The great matter is to be occupied with divine Persons and divine thoughts, and the Spirit helps us to be in accord with that."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Yes, I am sure that is important. We do not work through to this during the week; this is the way we would be preserved normally. As you say, we may have to turn aside to deal with other things, but that would be unusual."
+     "speaker": "RT",
+     "text": [
+      "I think there is a need to think positively all the time, and that applies throughout life, but specially so in these things because the Spirit of God is going on to positive things. We may detain Him, but that is to our loss. He came in at Pentecost and is carrying things through to the rapture. I think we should be exercised to be with Him today in what He is doing, and that is sustaining things suitable to Christ. He is doing it in some small localities, with brethren, ones and twos, meeting in isolation week after week. What is there? you may say. The Spirit of God is there to sustain something that cheers the heart of Christ in these isolated parts.",
+      "Now what is said in Galatians is that He has sent the Spirit of his Son into our hearts\". It brings something of sonship's feelings, sonship's affections, into us so that we respond intelligently; we are there in dignity and in full conscious intelligence of what is suitable to the Father. I think \"the Spirit of his Son\" would suggest that."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think, because of the kind of persons we are we try too much to work up to things; but it is wonderful grace that in Christianity we work out from the inside - \"because ye are sons\". I remember being helped by a remark of Mr Hammond's. He said, No state could warrant the divine pleasure. You could never work up to or create a state that would warrant the divine pleasure. I think our state is affected through grace and through the touches of divine love that become imparted to us. Do you think that?"
+     "speaker": "DJH",
+     "text": [
+      "We begin with that, do we not? One of the first things the son in Luke 15 hears is \"this my son was dead and has come to life, was lost and has been found\" (v 24). Should \"this my son\" stay with us?"
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Yes. The great matter is to be occupied with divine Persons and divine thoughts, and the Spirit helps us to be in accord with that."
+     "speaker": "RT",
+     "text": [
+      "Yes, it is what you are. It is striking how much Paul emphasises it to these Galatians: \"because ye are sons\". There is divine purpose, there are divine thoughts. We have too, in Ephesians, strangers and foreigners; that is what the outward position is, but the divine idea is that we are sons. Now to fill out that place in fulness, that it should not be an empty thing, He has sent the Spirit of His Son into our hearts."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think there is a need to think positively all the time, and that applies throughout life, but specially so in these things because the Spirit of God is going on to positive things. We may detain Him, but that is to our loss. He came in at Pentecost and is carrying things through to the rapture. I think we should be exercised to be with Him today in what He is doing, and that is sustaining things suitable to Christ. He is doing it in some small localities, with brethren, ones and twos, meeting in isolation week after week. What is there? you may say. The Spirit of God is there to sustain something that cheers the heart of Christ in these isolated parts."
+     "speaker": "ECB",
+     "text": [
+      "That ends the orphan condition, does it not?"
+     ]
     },
     {
-     "text": "Now what is said in Galatians is that He has sent the Spirit of his Son into our hearts\". It brings something of sonship's feelings, sonship's affections, into us so that we respond intelligently; we are there in dignity and in full conscious intelligence of what is suitable to the Father. I think \"the Spirit of his Son\" would suggest that."
+     "speaker": "RT",
+     "text": [
+      "Yes, it has gone for ever; we are owned here. It is a fine thing to get a sense of that. As we are out there we have a sense of the orphan condition, and we should feel it, should we not? But a sense of this ends it, as you say, and it sustains us when we have to touch earthly surroundings."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "We begin with that, do we not? One of the first things the son in Luke 15 hears is \"this my son was dead and has come to life, was lost and has been found\" (v 24). Should \"this my son\" stay with us?"
+     "speaker": "AJEW",
+     "text": [
+      "This cry is very brief: \"Abba, Father\"; yet how concentrated and wealthy it is! There is something peculiarly potent about the brief touches of the Spirit."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, it is what you are. It is striking how much Paul emphasises it to these Galatians: \"because ye are sons\". There is divine purpose, there are divine thoughts. We have too, in Ephesians, strangers and foreigners; that is what the outward position is, but the divine idea is that we are sons. Now to fill out that place in fulness, that it should not be an empty thing, He has sent the Spirit of His Son into our hearts."
+     "speaker": "RT",
+     "text": [
+      "That is very good, and it would encourage us to say just what the Spirit may give us to say. Some of us sometimes sit on our seat and think there is not enough to say. These thoughts come into younger minds, there is not enough to say, and we have only a few words, but I think this would encourage us to say them. What you find is, once you say those words, other words come into your mouth. It is the Spirit of His Son, is it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "That ends the orphan condition, does it not?"
+     "speaker": "AJEW",
+     "text": [
+      "It gives emphasis to the precious and holy relationship itself. There is much that can be added as to the detail of it, but does it not help us just to think of the preciousness of this relationship in what it means to God?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, it has gone for ever; we are owned here. It is a fine thing to get a sense of that. As we are out there we have a sense of the orphan condition, and we should feel it, should we not? But a sense of this ends it, as you say, and it sustains us when we have to touch earthly surroundings."
+     "speaker": "RT",
+     "text": [
+      "I think that is very fine. Think of the Father, what He finds in hearing this from His sons."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "This cry is very brief: \"Abba, Father\"; yet how concentrated and wealthy it is! There is something peculiarly potent about the brief touches of the Spirit."
+     "speaker": "EC",
+     "text": [
+      "Could you open up a little the thought of being heirs also. We often arrive at sonship; we do not say very much about being heirs and about enjoying the inheritance."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "That is very good, and it would encourage us to say just what the Spirit may give us to say. Some of us sometimes sit on our seat and think there is not enough to say. These thoughts come into younger minds, there is not enough to say, and we have only a few words, but I think this would encourage us to say them. What you find is, once you say those words, other words come into your mouth. It is the Spirit of His Son, is it not?"
+     "speaker": "RT",
+     "text": [
+      "I think this is to fill out heirship. Heirship would be the title to it. \"The Spirit of his Son\" is more than title, it gives you power to fill out the title; the title is not empty. Mr Evershed, you had some thought about heirship."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It gives emphasis to the precious and holy relationship itself. There is much that can be added as to the detail of it, but does it not help us just to think of the preciousness of this relationship in what it means to God?"
+     "speaker": "JCE",
+     "text": [
+      "It was just that we are, as you say, not only given the position of sons but there is the means to keep it up, and to have the permanent enjoyment of these things as our own. I have always felt that there is a great sense of urgency in this section, because \"God sent forth his son\" and \"has sent out the Spirit of his Son\", and the Spirit cries this brief cry, as if it is all very urgent."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think that is very fine. Think of the Father, what He finds in hearing this from His sons."
+     "speaker": "RT",
+     "text": [
+      "Well, we are in this now; \"when the fulness of the time was come\". Things have been partial and there has been something different before, but we are now in the fulness of time and the only thing that is in the divine mind now is sonship. It is for all believers."
+     ]
     },
     {
-     "speaker": "E.C.",
-     "text": "Could you open up a little the thought of being heirs also. We often arrive at sonship; we do not say very much about being heirs and about enjoying the inheritance."
+     "speaker": "JCE",
+     "text": [
+      "I would like to enquire why he goes into the individual: \"thou art no longer bondman, but son; but if son, heir also\"."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think this is to fill out heirship. Heirship would be the title to it. \"The Spirit of his Son\" is more than title, it gives you power to fill out the title; the title is not empty. Mr Evershed, you had some thought about heirship."
+     "speaker": "RT",
+     "text": [
+      "I think he is trying to encourage the Galatians. They were falling back to something below the dignity of sonship. As we so often do, they were tending to be governed by another principle. So I think that in that verse, \"thou art no longer bondman\", he is saying, You are acting as if you were a bondman but you are not that in God's sight. He is coming down to try to lift them up from these other principles."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "It was just that we are, as you say, not only given the position of sons but there is the means to keep it up, and to have the permanent enjoyment of these things as our own. I have always felt that there is a great sense of urgency in this section, because \"God sent forth his son\" and \"has sent out the Spirit of his Son\", and the Spirit cries this brief cry, as if it is all very urgent."
+     "speaker": "WTA",
+     "text": [
+      "It says in the note, 'God himself has made us heirs'. What do we come into?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Well, we are in this now; \"when the fulness of the time was come\". Things have been partial and there has been something different before, but we are now in the fulness of time and the only thing that is in the divine mind now is sonship. It is for all believers."
+     "speaker": "RT",
+     "text": [
+      "\"Things which eye has not seen, and ear not heard and which have not come into man's heart, which God has prepared for them that love him\", 1 Cor 2: 9. I could not define what we come into, but we come into something that is divine. We are still creature, never out of those limitations, but we come into an area where everything is for God, the sons are for God."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "I would like to enquire why he goes into the individual: \"thou art no longer bondman, but son; but if son, heir also\"."
+     "speaker": "GAP",
+     "text": [
+      "So does the Spirit give us the consciousness of that and the ability to respond?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think he is trying to encourage the Galatians. They were falling back to something below the dignity of sonship. As we so often do, they were tending to be governed by another principle. So I think that in that verse, \"thou art no longer bondman\", he is saying, You are acting as if you were a bondman but you are not that in God's sight. He is coming down to try to lift them up from these other principles."
+     "speaker": "RT",
+     "text": [
+      "Yes, He has come to fill out what is for the Father's pleasure: \"the Spirit of his Son into our hearts, crying, Abba, Father\". It means that we are made to feel at home in the divine presence."
+     ]
     },
     {
-     "speaker": "W.T.A.",
-     "text": "It says in the note, 'God himself has made us heirs'. What do we come into?"
+     "speaker": "ECB",
+     "text": [
+      "The Spirit fully understands heirship, does He not? He would make it good to us as sent forth into our heart s. The servant in Genesis 24 says of Isaac, \"Unto him has he given all that he has\" (v 36). The Spirit would teach us what heirship involves, would He not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "\"Things which eye has not seen, and ear not heard and which have not come into man's heart, which God has prepared for them that love him\", 1 Cor 2: 9. I could not define what we come into, but we come into something that is divine. We are still creature, never out of those limitations, but we come into an area where everything is for God, the sons are for God."
+     "speaker": "RT",
+     "text": [
+      "Yes, and He would impress on us that it is for another land; we are not heirs for something here. He would bring to us a sense that it is another land and He would create desires and longings to go in for it in another country."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "So does the Spirit give us the consciousness of that and the ability to respond?"
+     "speaker": "ECB",
+     "text": [
+      "That leads us to say \"Give me this mountain\" (Josh 14: 12), does it not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, He has come to fill out what is for the Father's pleasure: \"the Spirit of his Son into our hearts, crying, Abba, Father\". It means that we are made to feel at home in the divine presence."
+     "speaker": "RT",
+     "text": [
+      "Yes, that is very good."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The Spirit fully understands heirship, does He not? He would make it good to us as sent forth into our heart s. The servant in Genesis 24 says of Isaac, \"Unto him has he given all that he has\" (v 36). The Spirit would teach us what heirship involves, would He not?"
+     "speaker": "EC",
+     "text": [
+      "Must it not be that it is God's desire for us to enjoy all that is His with Him?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, and He would impress on us that it is for another land; we are not heirs for something here. He would bring to us a sense that it is another land and He would create desires and longings to go in for it in another country."
+     "speaker": "RT",
+     "text": [
+      "Well, we would be lost without the Spirit. A divine Person, the Spirit of God, has come that we may not be lost but be perfectly at home in an area that is sustained for God. It says \"we have access\"."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "That leads us to say \"Give me this mountain\" (Josh 14: 12), does it not?"
+     "speaker": "CRB",
+     "text": [
+      "\"Crying, Abba, Father\" involves that we are just taken up with the Person, not exactly with all He has done and all He is going to do, and all He is going to give us and all He is giving us; we are just taken up with the Person Himself, do you think?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, that is very good."
+     "speaker": "RT",
+     "text": [
+      "'Absorbed in favour all divine' (hymn No 116). You get some impression that David had that when he went in and sat before Jehovah; he had a sense of how large God's thoughts were compared with his thoughts: \"thou hast spoken of thy servant's house for a great while to come\", 1 Chron 17: 17. I think what you say is good, that we become absorbed with the Person and we find that He has thought about us before time began and has destined us for glory, and to be held in glory in suited relationship with Himself."
+     ]
     },
     {
-     "speaker": "E.C.",
-     "text": "Must it not be that it is God's desire for us to enjoy all that is His with Him?"
+     "speaker": "DAB",
+     "text": [
+      "It has been remarked as to the scripture in Ephesians, \"the earnest of our inheritance\" (chap 1: 14), that the Earnest we have is greater than the inheritance itself. I wondered if that showed that while the inheritance might relate from our side to the sphere of bliss into which we are brought, the Spirit gives us title to sonship, which is something for God and is in answer to God's desires."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Well, we would be lost without the Spirit. A divine Person, the Spirit of God, has come that we may not be lost but be perfectly at home in an area that is sustained for God. It says \"we have access\"."
+     "speaker": "RT",
+     "text": [
+      "Yes, I think that is full of interest, that we have that now. As remarked already, what we touch in the service of God is linked on with the rapture. There are eternal things tasted to create an appetite in us, to give us to be what we have said, absorbed with divine Persons. What an occupation! to be there at home, absorbed with the Father, absorbed with Christ."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "\"Crying, Abba, Father\" involves that we are just taken up with the Person, not exactly with all He has done and all He is going to do, and all He is going to give us and all He is giving us; we are just taken up with the Person Himself, do you think?"
+     "speaker": "DAB",
+     "text": [
+      "The greatest things we have are what we are for God."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "'Absorbed in favour all divine' (hymn No 116). You get some impression that David had that when he went in and sat before Jehovah; he had a sense of how large God's thoughts were compared with his thoughts: \"thou hast spoken of thy servant's house for a great while to come\", 1 Chron 17: 17. I think what you say is good, that we become absorbed with the Person and we find that He has thought about us before time began and has destined us for glory, and to be held in glory in suited relationship with Himself."
+     "speaker": "RT",
+     "text": [
+      "Indeed, that is the Spirit's mission; it is what He has come to do, to create affections that are suitable to God but to bring in persons. \"We have access to the Father\". The idea of access is like coming into a new country, surveying that vista in all its glory and splendour. It fills us with a sense of divine majesty, and yet we are held sustained in divine power to be at home in it."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It has been remarked as to the scripture in Ephesians, \"the earnest of our inheritance\" (chap 1: 14), that the Earnest we have is greater than the inheritance itself. I wondered if that showed that while the inheritance might relate from our side to the sphere of bliss into which we are brought, the Spirit gives us title to sonship, which is something for God and is in answer to God's desires."
+     "speaker": "ECB",
+     "text": [
+      "We should understand that remark just quoted because the basis of it is that a divine Person is always greater than any inheritance, and it is the Spirit who is the Earnest."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, I think that is full of interest, that we have that now. As remarked already, what we touch in the service of God is linked on with the rapture. There are eternal things tasted to create an appetite in us, to give us to be what we have said, absorbed with divine Persons. What an occupation! to be there at home, absorbed with the Father, absorbed with Christ."
+     "speaker": "RT",
+     "text": [
+      "So that it connects with what we have come to - to Jesus, to God: we have come to divine Persons (see Heb 12: 23,24). The inheritance is the area in which we know Them, but what we know is the Persons Themselves. We have access to the Father."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The greatest things we have are what we are for God."
+     "speaker": "ECB",
+     "text": [
+      "What Mr Byng said is parallel to that. You cry, Abba, Father. You are just engaged with the Father for what He is in Himself, greater than any inheritance."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Indeed, that is the Spirit's mission; it is what He has come to do, to create affections that are suitable to God but to bring in persons. \"We have access to the Father\". The idea of access is like coming into a new country, surveying that vista in all its glory and splendour. It fills us with a sense of divine majesty, and yet we are held sustained in divine power to be at home in it."
+     "speaker": "RT",
+     "text": [
+      "Yes, that develops sonship's feelings in us, does it not? We are absorbed with the Father. Think of being absorbed with Him! We think of our blessings, and when we are younger they loom large; how wonderful spiritual blessings are! but they only serve as an area in which we are brought to know divine Persons. We have access to the Father, a Person, a Person well-known in grace. We sometimes sing 'Well known in Jesus' love' (hymn No 72), but we are brought to be before Him suitably, and sustained before Him in the Spirit's power. These things would help us as to what we remarked yesterday, they would enrich us in our worship to the Spirit."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "We should understand that remark just quoted because the basis of it is that a divine Person is always greater than any inheritance, and it is the Spirit who is the Earnest."
+     "speaker": "CRB",
+     "text": [
+      "Several of the doxologies refer to 'only God', - \"the only wise God\" (Rom 16: 27), \"only Ruler\", 1 Tim 6: 15. Does that connect with what we are saying?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "So that it connects with what we have come to - to Jesus, to God: we have come to divine Persons (see Heb 12: 23,24). The inheritance is the area in which we know Them, but what we know is the Persons Themselves. We have access to the Father."
+     "speaker": "RT",
+     "text": [
+      "Well, say some more."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "What Mr Byng said is parallel to that. You cry, Abba, Father. You are just engaged with the Father for what He is in Himself, greater than any inheritance."
+     "speaker": "CRB",
+     "text": [
+      "You are just so taken up with divine Persons, God Himself, that you are conscious that there is noone else to be occupied with, you might say. I say that reverently. He is the only God."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Yes, that develops sonship's feelings in us, does it not? We are absorbed with the Father. Think of being absorbed with Him! We think of our blessings, and when we are younger they loom large; how wonderful spiritual blessings are! but they only serve as an area in which we are brought to know divine Persons. We have access to the Father, a Person, a Person well-known in grace. We sometimes sing 'Well known in Jesus' love' (hymn No 72), but we are brought to be before Him suitably, and sustained before Him in the Spirit's power. These things would help us as to what we remarked yesterday, they would enrich us in our worship to the Spirit."
+     "speaker": "RT",
+     "text": [
+      "That is very fine; it will be our eternal occupation to be occupied with God. Well, the Spirit of his Son in our hearts, having access by one Spirit: think of a divine Person being on our side, to use that expression, that we are not lost but are held at home as occupied with God."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Several of the doxologies refer to 'only God', - \"the only wise God\" (Rom 16: 27), \"only Ruler\", 1 Tim 6: 15. Does that connect with what we are saying?"
+     "speaker": "EP",
+     "text": [
+      "Would \"the Spirit of his Son\" bring in intelligence in relation to that love, and sensitiveness too?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Well, say some more."
-    },
-    {
-     "speaker": "C.R.B.",
-     "text": "You are just so taken up with divine Persons, God Himself, that you are conscious that there is noone else to be occupied with, you might say. I say that reverently. He is the only God."
-    },
-    {
-     "speaker": "R.T.",
-     "text": "That is very fine; it will be our eternal occupation to be occupied with God. Well, the Spirit of his Son in our hearts, having access by one Spirit: think of a divine Person being on our side, to use that expression, that we are not lost but are held at home as occupied with God."
-    },
-    {
-     "speaker": "E.P.",
-     "text": "Would \"the Spirit of his Son\" bring in intelligence in relation to that love, and sensitiveness too?"
-    },
-    {
-     "speaker": "R.T.",
-     "text": "Yes, you cannot think of any disparity there, any weakness or failure or short-coming. The response, it has been remarked, will be equal to the revelation. What has been revealed is treasured in the Spirit. What shone out in Christ in His manhood is treasured by the Spirit and wrought out in the saints so that it is held in relation to the divine pleasure and will be eternally. These things should quicken our affections."
-    },
-    {
-     "text": "I think that the Spirit is specially occupied in quickening our affections and that produces formation with us."
+     "speaker": "RT",
+     "text": [
+      "Yes, you cannot think of any disparity there, any weakness or failure or short-coming. The response, it has been remarked, will be equal to the revelation. What has been revealed is treasured in the Spirit. What shone out in Christ in His manhood is treasured by the Spirit and wrought out in the saints so that it is held in relation to the divine pleasure and will be eternally. These things should quicken our affections.",
+      "I think that the Spirit is specially occupied in quickening our affections and that produces formation with us."
+     ]
     }
    ]
   },
@@ -1150,6 +1528,50 @@
      "text": "Scripture shows that the young ones can be very early taught to praise the Lord. An example of this was when the children cried \"Hosanna\" in the presence of Jesus in the temple. The word they used showed that they rejoiced in Him as Saviour. They may of course have learned it through their elders who had been crying the same thing as Jesus entered into the city of Jerusalem. But the Lord showed to the proud unbelievers that even these children and infants had learned perfectly a lesson which they themselves had not learned at all. Do you find that the more you say 'Hosanna', or 'Save now', the more you can say 'Hallelujah' - 'Praise the Lord'?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "RECOVERY TO AND MAINTENANCE OF THE TRUTH: CORINTH AND EPHESUS",
+   "kind": "not_a_name",
+   "detail": "\"y.- A.A.Bellamy\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "RECOVERY TO AND MAINTENANCE OF THE TRUTH: CORINTH AND EPHESUS",
+   "kind": "not_a_name",
+   "detail": "\"m.- A.C.Clapham\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "RECOVERY TO AND MAINTENANCE OF THE TRUTH: CORINTH AND EPHESUS",
+   "kind": "initials_before_name",
+   "detail": "24 entries written as initials then name (\"WTA ...\")"
+  },
+  {
+   "article": 2,
+   "title": "THE ASSEMBLY CHRIST'S JOY",
+   "kind": "no_comma_before_place",
+   "detail": "\"D.J. H. - D.J.Hutson\" read as D. J. H. -, D. J. Hutson"
+  },
+  {
+   "article": 2,
+   "title": "THE ASSEMBLY CHRIST'S JOY",
+   "kind": "comma_for_semicolon",
+   "detail": "\"D. J. H. - D. J. Hutson\" read as two people"
+  },
+  {
+   "article": 2,
+   "title": "THE ASSEMBLY CHRIST'S JOY",
+   "kind": "initials_before_name",
+   "detail": "14 entries written as initials then name (\"WTA ...\")"
+  },
+  {
+   "article": 2,
+   "title": "THE ASSEMBLY CHRIST'S JOY",
+   "kind": "default_place",
+   "detail": "LONDON given to 16 names (\"All local except R.T. - Barnet\")"
   }
  ]
 }

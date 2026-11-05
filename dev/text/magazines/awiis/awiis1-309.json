@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,29 +26,31 @@
    "place": "REDBRIDGE",
    "date": "18 April 1998",
    "speakers": [
-    "D.E.B.",
-    "J.W.",
-    "E.C.B.",
-    "D.E.R.",
-    "D.J.W.",
-    "E.O.",
-    "P.M.",
-    "P.J.W.",
-    "D.J.H.",
-    "J.R.W.",
-    "V.E.W.",
-    "R.M.B.",
-    "L.W.B.",
-    "H.A.H.",
-    "A.L.",
-    "S.H.",
-    "M.W.",
-    "A.G.S."
+    "LMcF",
+    "DEB",
+    "JW",
+    "ECB",
+    "DER",
+    "DJW",
+    "EO",
+    "PM",
+    "PJW",
+    "DJH",
+    "JRW",
+    "VEW",
+    "RMB",
+    "LWB",
+    "HAH",
+    "AL",
+    "SH",
+    "MW",
+    "AGS"
    ],
    "initials": [
     {
-     "initials": "LDEB",
-     "name": "(Local if not otherwise indicated) D.E.Burr"
+     "initials": "DEB",
+     "name": "D.E.Burr",
+     "place": "REDBRIDGE"
     },
     {
      "initials": "ECB",
@@ -78,7 +80,12 @@
     {
      "initials": "SH",
      "name": "S.Hewison",
-     "place": "Dorking, A.Lidbeck., Gothenburg"
+     "place": "Dorking"
+    },
+    {
+     "initials": "AL",
+     "name": "A.Lidbeck",
+     "place": "Gothenburg"
     },
     {
      "initials": "LM",
@@ -92,7 +99,8 @@
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "REDBRIDGE"
     },
     {
      "initials": "DER",
@@ -106,11 +114,13 @@
     },
     {
      "initials": "DJW",
-     "name": "D.J.Wright"
+     "name": "D.J.Wright",
+     "place": "REDBRIDGE"
     },
     {
      "initials": "JW",
-     "name": "J.Wright"
+     "name": "J.Wright",
+     "place": "REDBRIDGE"
     },
     {
      "initials": "JRW",
@@ -131,9 +141,14 @@
      "initials": "VEW",
      "name": "V.E.Wraighte",
      "place": "Gillingham"
+    },
+    {
+     "initials": "LMcF",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "Local if not otherwise indicated",
    "initials_text": [
     "(Local if not otherwise indicated)",
     "D.E.Burr; E.C.Burr, London; L.W.Burton, Merton Park; R.M.Brown, East Finchley;",
@@ -141,362 +156,602 @@
    ],
    "paragraphs": [
     {
-     "text": "L.McF. Having in mind particularly the fact that many are getting on in years, I thought we might consider that we should be vigorous in old age. I think the state of localities to a large extent depends on the lead the elders would give. The younger generation will undoubtedly be helped as those who have known the Lord from the beginning set on the pace in the locality."
+     "speaker": "LMcF",
+     "text": [
+      "Having in mind particularly the fact that many are getting on in years, I thought we might consider that we should be vigorous in old age. I think the state of localities to a large extent depends on the lead the elders would give. The younger generation will undoubtedly be helped as those who have known the Lord from the beginning set on the pace in the locality.",
+      "I read about these elders. We had the three men in the gospel last week, and here we have three men. As to the Psalm we might say that to be vigorous in old age, from one's own experience, involves that our roots are right, roots that go down deep. The Lord Jesus was in the heart of the earth for three days and three nights. The death of Christ and His risen life involves where our roots are. What would result is life: that is John's gospel, evidence of life among us. These persons are still vigorous in old age. The blessed Spirit of course would be the source of this energy we are speaking of: it has to be in the Spirit. We thank God for the light we have, for the books on our shelves, but the service of the Spirit is most essential if we are to rise up. What marks Abraham and Elijah is that they are still able to run. It is an unusual thing for old men, but it brings out this feature of spiritual energy. Thank God for the elders in Israel here today and the example they afford the younger men. All this is essential to growth among the young: they have a pattern in the older ones. Hence we feel the responsibility to the Lord and to the testimony to follow in the steps of our mother Sarah, an old sister in Hebrews 11. It is in that scripture that the husband and the wife are given the place that belongs to them: it says \"by faith Abraham\". It is followed by \"by faith Sarah\" (vv 8,11). These examples in Scripture are for us, that is the husband and the wife are one in the testimony of our Lord.",
+      "Then we are affected by the way Elijah was able to deal with the legal system - one man. He could speak of \"Jehovah before whom I stand\". I am stressing, no doubt, the individual side of things, and yet it is an essential service in our localities to be energetic in relation to the testimony and for the preservation of life."
+     ]
     },
     {
-     "text": "I read about these elders. We had the three men in the gospel last week, and here we have three men. As to the Psalm we might say that to be vigorous in old age, from one's own experience, involves that our roots are right, roots that go down deep. The Lord Jesus was in the heart of the earth for three days and three nights. The death of Christ and His risen life involves where our roots are. What would result is life: that is John's gospel, evidence of life among us. These persons are still vigorous in old age. The blessed Spirit of course would be the source of this energy we are speaking of: it has to be in the Spirit. We thank God for the light we have, for the books on our shelves, but the service of the Spirit is most essential if we are to rise up. What marks Abraham and Elijah is that they are still able to run. It is an unusual thing for old men, but it brings out this feature of spiritual energy. Thank God for the elders in Israel here today and the example they afford the younger men. All this is essential to growth among the young: they have a pattern in the older ones. Hence we feel the responsibility to the Lord and to the testimony to follow in the steps of our mother Sarah, an old sister in Hebrews 11. It is in that scripture that the husband and the wife are given the place that belongs to them: it says \"by faith Abraham\". It is followed by \"by faith Sarah\" (vv 8,11). These examples in Scripture are for us, that is the husband and the wife are one in the testimony of our Lord."
+     "speaker": "DEB",
+     "text": [
+      "I note the use of the word \"still\" in your Psalm - \"they are still vigorous\", or the note says, 'shall still bear fruit'. It is not something that suddenly happens in old age. There has been a life-time of devoted committal. What you are saying would stimulate the youngest to make a start, so that as they advance they can still be vigorous."
+     ]
     },
     {
-     "text": "Then we are affected by the way Elijah was able to deal with the legal system - one man. He could speak of \"Jehovah before whom I stand\". I am stressing, no doubt, the individual side of things, and yet it is an essential service in our localities to be energetic in relation to the testimony and for the preservation of life."
+     "speaker": "LMcF",
+     "text": [
+      "That is very helpful. David speaks of when he was young - \"I have been young, but now am old\" (Ps 37: 25). If we are to be useable in the testimony - and it is a right desire that every young person here should have, to become useable - it involves that we begin in our youth. Scripture supports that. David began as a shepherd-boy as a youth, he was always with the sheep. The time came when Jehovah took him from the sheepfolds (Ps 78: 70). The experiences we go through help us to honour God. That is the word of the man of God, Eli, \"them that honour me, I will honour'' (1 Sam 2: 30). Let us begin from our youth to honour God. Joseph is another young man who honoured God and God honoured him. It is to encourage us, each one, to commit ourselves."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "I note the use of the word \"still\" in your Psalm - \"they are still vigorous\", or the note says, 'shall still bear fruit'. It is not something that suddenly happens in old age. There has been a life-time of devoted committal. What you are saying would stimulate the youngest to make a start, so that as they advance they can still be vigorous."
+     "speaker": "JW",
+     "text": [
+      "Could you say what place righteousness has in this? The Psalm refers to the righteous and these things that are mentioned are spoken of as righteousness."
+     ]
     },
     {
-     "text": "L.McF. That is very helpful. David speaks of when he was young - \"I have been young, but now am old\" (Ps 37: 25). If we are to be useable in the testimony - and it is a right desire that every young person here should have, to become useable - it involves that we begin in our youth. Scripture supports that. David began as a shepherd-boy as a youth, he was always with the sheep. The time came when Jehovah took him from the sheepfolds (Ps 78: 70). The experiences we go through help us to honour God. That is the word of the man of God, Eli, \"them that honour me, I will honour'' (1 Sam 2: 30). Let us begin from our youth to honour God. Joseph is another young man who honoured God and God honoured him. It is to encourage us, each one, to commit ourselves."
+     "speaker": "LMcF",
+     "text": [
+      "Honour God is really the definition of righteousness. You walk here in the fear of God, doing what is right, right in the sight of God like these godly persons in the Old Testament. The last verse of the Psalm says \"to show that Jehovah is upright: he is my rock and there is no unrighteousness in Him\". We think of the Lord Jesus: He is the righteous One, and we are to take character from Him."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Could you say what place righteousness has in this? The Psalm refers to the righteous and these things that are mentioned are spoken of as righteousness."
+     "speaker": "ECB",
+     "text": [
+      "Isaiah chapter 40 says \"even the youths shall faint and shall tire ... but they that wait upon Jehovah shall renew their strength\" (v 40). Does that connect with what you are saying about when we are young?"
+     ]
     },
     {
-     "text": "L.McF. Honour God is really the definition of righteousness. You walk here in the fear of God, doing what is right, right in the sight of God like these godly persons in the Old Testament. The last verse of the Psalm says \"to show that Jehovah is upright: he is my rock and there is no unrighteousness in Him\". We think of the Lord Jesus: He is the righteous One, and we are to take character from Him."
+     "speaker": "LMcF",
+     "text": [
+      "Yes. \"Even the youths shall faint and shall tire, but they that wait upon Jehovah shall renew their strength\". That is your experience, I am sure, learning to wait on Jehovah, dependent.",
+      "That takes us to Genesis. Here is the beloved Abraham at the oaks of Mamre. He sat at the tent door in the heat of the day. What an attitude! He is waiting. As Mr Raven says, he was here waiting for light, what he should do. He sat at his tent door in the heat of the day, waiting for divine direction. We need that. We have been speaking a lot about activity, but the balance is that we learn to wait for divine guidance and help. So he lifted up his eyes and he saw these three men. These three men are the three I had in mind in reading these scriptures. Here they are divine Persons, a divine visitation."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Isaiah chapter 40 says \"even the youths shall faint and shall tire ... but they that wait upon Jehovah shall renew their strength\" (v 40). Does that connect with what you are saying about when we are young?"
+     "speaker": "JW",
+     "text": [
+      "You said he was waiting for light, divine direction. In the previous chapter he had been obedient to the light that came to him as to circumcision. Do you think we need to be obedient to the light we have if we are to receive more light?"
+     ]
     },
     {
-     "text": "L.McF. Yes. \"Even the youths shall faint and shall tire, but they that wait upon Jehovah shall renew their strength\". That is your experience, I am sure, learning to wait on Jehovah, dependent."
+     "speaker": "LMcF",
+     "text": [
+      "Exactly. Here he is ninety nine years old, and he was still waiting for the promised seed. He is not saying, Well, that is impossible. He is ninety nine; he is not saying it is impossible, he is waiting for light from God. He got the light, \"Sarah thy wife shall have a son\"."
+     ]
     },
     {
-     "text": "That takes us to Genesis. Here is the beloved Abraham at the oaks of Mamre. He sat at the tent door in the heat of the day. What an attitude! He is waiting. As Mr Raven says, he was here waiting for light, what he should do. He sat at his tent door in the heat of the day, waiting for divine direction. We need that. We have been speaking a lot about activity, but the balance is that we learn to wait for divine guidance and help. So he lifted up his eyes and he saw these three men. These three men are the three I had in mind in reading these scriptures. Here they are divine Persons, a divine visitation."
+     "speaker": "DEB",
+     "text": [
+      "He believed God and it was reckoned to him as righteousness."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "You said he was waiting for light, divine direction. In the previous chapter he had been obedient to the light that came to him as to circumcision. Do you think we need to be obedient to the light we have if we are to receive more light?"
+     "speaker": "LMcF",
+     "text": [
+      "Is that not a challenge to us?"
+     ]
     },
     {
-     "text": "L.McF. Exactly. Here he is ninety nine years old, and he was still waiting for the promised seed. He is not saying, Well, that is impossible. He is ninety nine; he is not saying it is impossible, he is waiting for light from God. He got the light, \"Sarah thy wife shall have a son\"."
+     "speaker": "DEB",
+     "text": [
+      "We are here as a company of believers, but our faith needs to be maintained and increased, and experience would work through to results so that belief in God is real and effective."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "He believed God and it was reckoned to him as righteousness."
+     "speaker": "LMcF",
+     "text": [
+      "That is righteousness that you are speaking of - he believed God. Abraham believed God, that God was able to do far more for him than he could do for himself. That is believing God. I live here in piety, counting on God to see me through. To this day the promises He made to Abraham are yet to be fulfilled, but God has not forgotten those promises."
+     ]
     },
     {
-     "text": "L.McF. Is that not a challenge to us?"
+     "speaker": "DER",
+     "text": [
+      "Conditions in Abraham's house were such that Jehovah and the two angels with Jehovah could be at home there. Is that a sign of the vigour that you are speaking about, that it will extend into the circumstances and surroundings of persons who are with God?"
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "We are here as a company of believers, but our faith needs to be maintained and increased, and experience would work through to results so that belief in God is real and effective."
+     "speaker": "LMcF",
+     "text": [
+      "That is right, how the household Is affected. Abraham and Sarah were yet waiting for this promise, \"in thy seed\". Jehovah said to him at the very outset, \"in thee shall all families of the earth be blessed\" (ch 12: 3)."
+     ]
     },
     {
-     "text": "L.McF. That is righteousness that you are speaking of - he believed God. Abraham believed God, that God was able to do far more for him than he could do for himself. That is believing God. I live here in piety, counting on God to see me through. To this day the promises He made to Abraham are yet to be fulfilled, but God has not forgotten those promises."
+     "speaker": "DJW",
+     "text": [
+      "Do you think that being restful is essential if we are to receive light from God? Abraham sat by the tent door suggesting restfulness and it was at the oaks of Mamre, speaking of the stability of divine purpose."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "Conditions in Abraham's house were such that Jehovah and the two angels with Jehovah could be at home there. Is that a sign of the vigour that you are speaking about, that it will extend into the circumstances and surroundings of persons who are with God?"
+     "speaker": "LMcF",
+     "text": [
+      "That is good. We all know something about anxiety in the heat of the day. Young men no doubt have a job, difficult circumstances, and from experience we know that this is not easy. Yet we can confide in God and be assured that He will come to us. So that in our latter years the older ones look back and they marvel at the way God has brought them through, \"I have ... borne you on eagles' wings and brought you to myself' (Exod 19: 4). God is able for all that. For the younger people, do not be discouraged, the tests will come and you will admit as you go over them afterwards that they were very necessary. It was a necessary thing that I was out of a job, it taught me to pray more. We think of the Lord Jesus as a model, always found in prayer."
+     ]
     },
     {
-     "text": "L.McF. That is right, how the household Is affected. Abraham and Sarah were yet waiting for this promise, \"in thy seed\". Jehovah said to him at the very outset, \"in thee shall all families of the earth be blessed\" (ch 12: 3)."
+     "speaker": "ECB",
+     "text": [
+      "It says in Hebrews that Abraham dwelt in tents with Isaac and Jacob (Heb 11: 9). Does that bear on what you had in mind as to communication and things going from one generation to another?"
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "Do you think that being restful is essential if we are to receive light from God? Abraham sat by the tent door suggesting restfulness and it was at the oaks of Mamre, speaking of the stability of divine purpose."
+     "speaker": "LMcF",
+     "text": [
+      "Exactly. They dwelt in tents. We are not told that the patriarchs built houses, apart from Jacob, but they were sojourners - strangers and sojourners here - they lived that way, so you can understand what an example Abraham would be to his son and his grandson. That is something to be thankful for, beloved. We have the three generations in the testimony and we are to see something. In the book of Joshua the stones that were taken out of the Jordan were set up as a pillar so that when the young people enquired, What mean these stones? They were able to tell them what Jehovah had done. That is the thought in mind as to the elders, these stones, these persons who have had to do with God, persons who can speak about God, so that there are Isaac and Jacob and we see what is arrived at in the history of Jacob - the three patriarchs, Abraham, Isaac and Jacob, and Jacob as the greatest."
+     ]
     },
     {
-     "text": "L.McF. That is good. We all know something about anxiety in the heat of the day. Young men no doubt have a job, difficult circumstances, and from experience we know that this is not easy. Yet we can confide in God and be assured that He will come to us. So that in our latter years the older ones look back and they marvel at the way God has brought them through, \"I have ... borne you on eagles' wings and brought you to myself' (Exod 19: 4). God is able for all that. For the younger people, do not be discouraged, the tests will come and you will admit as you go over them afterwards that they were very necessary. It was a necessary thing that I was out of a job, it taught me to pray more. We think of the Lord Jesus as a model, always found in prayer."
+     "speaker": "ECB",
+     "text": [
+      "Had Abraham seen them right through he might have had cause to be disappointed in Isaac and Jacob - Isaac committed the same sin as his father, and Jacob had a very mixed history - but in the end they all came through for God. Does faith hold to that?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It says in Hebrews that Abraham dwelt in tents with Isaac and Jacob (Heb 11: 9). Does that bear on what you had in mind as to communication and things going from one generation to another?"
+     "speaker": "LMcF",
+     "text": [
+      "That is so. So they came through, but what was in mind in saying that Jacob was the greatest is that he arrived at the truth experimentally and that is a great thing in our histories. He could speak of the God who shepherded him all his life long to this day, the Angel that redeemed me from all evil (see Gen 48: 14). The younger people have to face difficulties in this life, but God uses it for your blessing. These persons all have a place in Hebrews 11; \"by faith\" they did certain things. We belong to that certain dispensation of faith. We have faith in a risen Christ. Our Lord Jesus has gone on high and He becomes the object of our faith."
+     ]
     },
     {
-     "text": "L.McF. Exactly. They dwelt in tents. We are not told that the patriarchs built houses, apart from Jacob, but they were sojourners - strangers and sojourners here - they lived that way, so you can understand what an example Abraham would be to his son and his grandson. That is something to be thankful for, beloved. We have the three generations in the testimony and we are to see something. In the book of Joshua the stones that were taken out of the Jordan were set up as a pillar so that when the young people enquired, What mean these stones? They were able to tell them what Jehovah had done. That is the thought in mind as to the elders, these stones, these persons who have had to do with God, persons who can speak about God, so that there are Isaac and Jacob and we see what is arrived at in the history of Jacob - the three patriarchs, Abraham, Isaac and Jacob, and Jacob as the greatest."
+     "speaker": "JW",
+     "text": [
+      "Jacob was certainly vigorous in old age, was he not? He was referred to as a worshipper and he was a blesser. He began as a supplanter. Do you think that was characteristic of him, although he did get away from it at times. Characteristically he was a supplanter. Was that a secret of his vigour in old age?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Had Abraham seen them right through he might have had cause to be disappointed in Isaac and Jacob - Isaac committed the same sin as his father, and Jacob had a very mixed history - but in the end they all came through for God. Does faith hold to that?"
+     "speaker": "LMcF",
+     "text": [
+      "Throughout the Psalms you have reference to the God of Jacob. We know well that his name was changed to Israel, a prince, but how God was in his difficult circumstances. The bereavement of Joseph, the death of Rachel and all these things entered into the life of Jacob, and finally it is said that Israel revived when he heard that Joseph was living. Jesus is living. That has to come into the soul of the believer in a real way. The Person we speak of so freely is living."
+     ]
     },
     {
-     "text": "L.McF. That is so. So they came through, but what was in mind in saying that Jacob was the greatest is that he arrived at the truth experimentally and that is a great thing in our histories. He could speak of the God who shepherded him all his life long to this day, the Angel that redeemed me from all evil (see Gen 48: 14). The younger people have to face difficulties in this life, but God uses it for your blessing. These persons all have a place in Hebrews 11; \"by faith\" they did certain things. We belong to that certain dispensation of faith. We have faith in a risen Christ. Our Lord Jesus has gone on high and He becomes the object of our faith."
+     "speaker": "EO",
+     "text": [
+      "Going back further, Abraham was taken out of his father's house, and he experienced God's care in that way which he never forgot. Would it mark him in his own conduct in expressing God's care?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Jacob was certainly vigorous in old age, was he not? He was referred to as a worshipper and he was a blesser. He began as a supplanter. Do you think that was characteristic of him, although he did get away from it at times. Characteristically he was a supplanter. Was that a secret of his vigour in old age?"
+     "speaker": "LMcF",
+     "text": [
+      "That is so. He moved in faith, he believed God. He was to leave his father's house and the activity and everything in that land to go to a place that God would show him. Abraham, our father, is a remarkable man; he obeyed. It says, \"having obeyed\". That is a feature that we need beloved, obedience to the truth, obedience to the word of God, and what follows that is blessing."
+     ]
     },
     {
-     "text": "L.McF. Throughout the Psalms you have reference to the God of Jacob. We know well that his name was changed to Israel, a prince, but how God was in his difficult circumstances. The bereavement of Joseph, the death of Rachel and all these things entered into the life of Jacob, and finally it is said that Israel revived when he heard that Joseph was living. Jesus is living. That has to come into the soul of the believer in a real way. The Person we speak of so freely is living."
+     "speaker": "PM",
+     "text": [
+      "Later in this chapter, Jehovah says as to him, \"I know him, that he will command his children and his household after him\". Is it an obedient man that can command his household and his children?"
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Going back further, Abraham was taken out of his father's house, and he experienced God's care in that way which he never forgot. Would it mark him in his own conduct in expressing God's care?"
+     "speaker": "LMcF",
+     "text": [
+      "I am sure that is so. If any man love God, he is known of Him. You get that in the New Testament (see 1 Cor 8: 3). Abraham was well known. Jehovah could say, \"I know him\". What a commendation! A divine commendation, he would command his house, and his children after him. I believe the secret of God knowing us is that in our measure we know Him."
+     ]
     },
     {
-     "text": "L.McF. That is so. He moved in faith, he believed God. He was to leave his father's house and the activity and everything in that land to go to a place that God would show him. Abraham, our father, is a remarkable man; he obeyed. It says, \"having obeyed\". That is a feature that we need beloved, obedience to the truth, obedience to the word of God, and what follows that is blessing."
+     "speaker": "DEB",
+     "text": [
+      "Did you have in mind to say any more about the three men?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Later in this chapter, Jehovah says as to him, \"I know him, that he will command his children and his household after him\". Is it an obedient man that can command his household and his children?"
+     "speaker": "LMcF",
+     "text": [
+      "Nothing more."
+     ]
     },
     {
-     "text": "L.McF. I am sure that is so. If any man love God, he is known of Him. You get that in the New Testament (see 1 Cor 8: 3). Abraham was well known. Jehovah could say, \"I know him\". What a commendation! A divine commendation, he would command his house, and his children after him. I believe the secret of God knowing us is that in our measure we know Him."
+     "speaker": "DEB",
+     "text": [
+      "You drew attention to them in your earlier remarks and I wondered if there was something there which you wanted to develop."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "Did you have in mind to say any more about the three men?"
+     "speaker": "LMcF",
+     "text": [
+      "More could be said. There are two or three in the testimony. But here we are speaking of divine Persons and they came down."
+     ]
     },
     {
-     "text": "L.McF. Nothing more."
+     "speaker": "PJW",
+     "text": [
+      "I was thinking of what you said as to God knowing Abraham. He says to Moses, \"I am ... the God of Abraham, the God of Isaac and the God of Jacob\" (Exod 3: 6). Would that repetition show that He knew the persons, and as you say it passes down the generations. They knew Him, but He knew them and acknowledged them as being their God."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "You drew attention to them in your earlier remarks and I wondered if there was something there which you wanted to develop."
+     "speaker": "LMcF",
+     "text": [
+      "That is fine. He knew them intimately."
+     ]
     },
     {
-     "text": "L.McF. More could be said. There are two or three in the testimony. But here we are speaking of divine Persons and they came down."
+     "speaker": "PJW",
+     "text": [
+      "He could have just said, I am the God of Abraham and Isaac and Jacob, but each time He says, the God of Abraham and so on."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "I was thinking of what you said as to God knowing Abraham. He says to Moses, \"I am ... the God of Abraham, the God of Isaac and the God of Jacob\" (Exod 3: 6). Would that repetition show that He knew the persons, and as you say it passes down the generations. They knew Him, but He knew them and acknowledged them as being their God."
+     "speaker": "LMcF",
+     "text": [
+      "That is good. We might go on to Caleb."
+     ]
     },
     {
-     "text": "L.McF. That is fine. He knew them intimately."
+     "speaker": "DJH",
+     "text": [
+      "Do you think these persons were characteristically planted in the house of Jehovah, that is that they characteristically resorted to His presence and this was the way in which He knew them. I was thinking of the reference in the Psalm - they were planted. That is, they are not easily moved, but it is characteristic of them that they were in the house of Jehovah, characteristically they resorted to His presence and He would know them because of the way in which they spoke with Him, prayed to Him, waited upon Him."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "He could have just said, I am the God of Abraham and Isaac and Jacob, but each time He says, the God of Abraham and so on."
+     "speaker": "LMcF",
+     "text": [
+      "I think that is very good. That is another feature, that we are planted in the house: that is agriculture."
+     ]
     },
     {
-     "text": "L.McF. That is good. We might go on to Caleb."
+     "speaker": "DJW",
+     "text": [
+      "God plants us in the very best environment in which we can grow, does He not?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Do you think these persons were characteristically planted in the house of Jehovah, that is that they characteristically resorted to His presence and this was the way in which He knew them. I was thinking of the reference in the Psalm - they were planted. That is, they are not easily moved, but it is characteristic of them that they were in the house of Jehovah, characteristically they resorted to His presence and He would know them because of the way in which they spoke with Him, prayed to Him, waited upon Him."
+     "speaker": "LMcF",
+     "text": [
+      "Absolutely. In the house."
+     ]
     },
     {
-     "text": "L.McF. I think that is very good. That is another feature, that we are planted in the house: that is agriculture."
+     "speaker": "JRW",
+     "text": [
+      "Do you think that one feature that marks these persons is that they considered for God? Abraham was concerned that he should provide what ministered to him; Caleb he says \"I wholly followed Jehovah my God\" (Josh 14: 8), that is what marked him; and Elijah was jealous as to what related to God."
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "God plants us in the very best environment in which we can grow, does He not?"
+     "speaker": "LMcF",
+     "text": [
+      "That is very helpful. So that Caleb wholly followed Jehovah his God. Consequently Jehovah kept him alive. \"Jehovah has kept me alive, as e said these forty-five years\". Jehovah delighted m that' man. Dear brethren, may the brethren's affections melt. Caleb had to suffer. Then what is particularly in mind in relation to Caleb is valuation of the inheritance."
+     ]
     },
     {
-     "text": "L.McF. Absolutely. In the house."
+     "speaker": "ECB",
+     "text": [
+      "His history so far as Numbers records is really secret. Does that bear on what you have in mind as to continuance?"
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "Do you think that one feature that marks these persons is that they considered for God? Abraham was concerned that he should provide what ministered to him; Caleb he says \"I wholly followed Jehovah my God\" (Josh 14: 8), that is what marked him; and Elijah was jealous as to what related to God."
+     "speaker": "LMcF",
+     "text": [
+      "That is a very important phase, that marked Elijah as well. He appeared on the scene abruptly. The secret history is what we need. It says that John the Baptist was in the wilderness until the time came when he was shown to Israel."
+     ]
     },
     {
-     "text": "L.McF. That is very helpful. So that Caleb wholly followed Jehovah his God. Consequently Jehovah kept him alive. \"Jehovah has kept me alive, as e said these forty-five years\". Jehovah delighted m that' man. Dear brethren, may the brethren's affections melt. Caleb had to suffer. Then what is particularly in mind in relation to Caleb is valuation of the inheritance."
+     "speaker": "JW",
+     "text": [
+      "Caleb had purpose. You spoke of his valuation of the inheritance. He had that before him to possess it. Do you think the years in the wilderness with Caleb would not have been years of wandering? The people wandered, but he followed Jehovah, as having that purpose before him."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "His history so far as Numbers records is really secret. Does that bear on what you have in mind as to continuance?"
+     "speaker": "LMcF",
+     "text": [
+      "He had been a spy in the land and Caleb had the land in his heart. That was the difference between that man and the others. \"That goodly land\" was in this man's heart and he had to go on with these unbelievers for a number of years. But God kept him alive and in the faithfulness of God, he is brought into the land. The brethren, all perished, carcasses fell in the wilderness."
+     ]
     },
     {
-     "text": "L.McF. That is a very important phase, that marked Elijah as well. He appeared on the scene abruptly. The secret history is what we need. It says that John the Baptist was in the wilderness until the time came when he was shown to Israel."
+     "speaker": "VEW",
+     "text": [
+      "With Caleb it was a heart matter. That is most important. I was thinking of what is said of David, God said \"he is a man after my own heart\". It would enter into what was just mentioned as to secret history."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Caleb had purpose. You spoke of his valuation of the inheritance. He had that before him to possess it. Do you think the years in the wilderness with Caleb would not have been years of wandering? The people wandered, but he followed Jehovah, as having that purpose before him."
+     "speaker": "LMcF",
+     "text": [
+      "I am sure that is so. The heart is a very important member in the body, the heart and the mind. He wholly followed Jehovah his God."
+     ]
     },
     {
-     "text": "L.McF. He had been a spy in the land and Caleb had the land in his heart. That was the difference between that man and the others. \"That goodly land\" was in this man's heart and he had to go on with these unbelievers for a number of years. But God kept him alive and in the faithfulness of God, he is brought into the land. The brethren, all perished, carcasses fell in the wilderness."
+     "speaker": "DEB",
+     "text": [
+      "The unbelievers here made the heart of the people to melt. That is in great distinction to what is being referred to."
+     ]
     },
     {
-     "speaker": "V.E.W.",
-     "text": "With Caleb it was a heart matter. That is most important. I was thinking of what is said of David, God said \"he is a man after my own heart\". It would enter into what was just mentioned as to secret history."
+     "speaker": "LMcF",
+     "text": [
+      "Here they brought back an evil report of the land, the ten spies. All this is challenging, the report we bring back. It was not only the report, but there were the grapes of Eschol, they brought them back, but even that did not convince some of them. We want to be kept alive, the Spirit of God having liberty in our souls. We are able to refresh the saints, life is to be evidenced in all our meetings. In the prayer meeting the priests are ready to get on their feet, praise God, thanksgiving and prayers, the priestly service. I think all this is intended to strengthen the younger people."
+     ]
     },
     {
-     "text": "L.McF. I am sure that is so. The heart is a very important member in the body, the heart and the mind. He wholly followed Jehovah his God."
+     "speaker": "ECB",
+     "text": [
+      "Do you think that Caleb's history shows that he accepted the ways of God? When the people were influenced by the evil report of the spies and God says 'turn and go round forty years', Caleb does not protest. He does not say we really ought to go or anything like that. He accepts the ways of God. Is that important as we grow old?"
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "The unbelievers here made the heart of the people to melt. That is in great distinction to what is being referred to."
+     "speaker": "LMcF",
+     "text": [
+      "Yes. I am sure that is so. The grace that was given to him, and Joshua too, to stay with the brethren despite all that had come in. They did not isolate themselves. And so it is in localities, we have to learn to wait, we have to learn to wait on our brethren at times. Some say, I cannot see this, I cannot see the other. This would be an example where we wait. As we know it is another generation that entered into the land, Caleb and Joshua being the only two of the old."
+     ]
     },
     {
-     "text": "L.McF. Here they brought back an evil report of the land, the ten spies. All this is challenging, the report we bring back. It was not only the report, but there were the grapes of Eschol, they brought them back, but even that did not convince some of them. We want to be kept alive, the Spirit of God having liberty in our souls. We are able to refresh the saints, life is to be evidenced in all our meetings. In the prayer meeting the priests are ready to get on their feet, praise God, thanksgiving and prayers, the priestly service. I think all this is intended to strengthen the younger people."
+     "speaker": "DJH",
+     "text": [
+      "Is it important to have an objective before us. We have spoken of the object; Christ would be our object, but then we have an objective. Paul speaks of the \"prize of the calling on high of God in Christ Jesus\" Phil 3: 14. Would the Holy Spirit being the earnest of our inheritance would help us? You might say, typically, that Caleb would have had the Holy Spirit as the earnest."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think that Caleb's history shows that he accepted the ways of God? When the people were influenced by the evil report of the spies and God says 'turn and go round forty years', Caleb does not protest. He does not say we really ought to go or anything like that. He accepts the ways of God. Is that important as we grow old?"
+     "speaker": "LMcF",
+     "text": [
+      "That helps, it implies that I am in the enjoyment of the inheritance now. The gift of the Spirit involves that."
+     ]
     },
     {
-     "text": "L.McF. Yes. I am sure that is so. The grace that was given to him, and Joshua too, to stay with the brethren despite all that had come in. They did not isolate themselves. And so it is in localities, we have to learn to wait, we have to learn to wait on our brethren at times. Some say, I cannot see this, I cannot see the other. This would be an example where we wait. As we know it is another generation that entered into the land, Caleb and Joshua being the only two of the old."
+     "speaker": "DER",
+     "text": [
+      "All of these persons who considered for God were brought into great blessing and privilege, which would be a stimulation that we too might consider for God."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Is it important to have an objective before us. We have spoken of the object; Christ would be our object, but then we have an objective. Paul speaks of the \"prize of the calling on high of God in Christ Jesus\" Phil 3: 14. Would the Holy Spirit being the earnest of our inheritance would help us? You might say, typically, that Caleb would have had the Holy Spirit as the earnest."
+     "speaker": "LMcF",
+     "text": [
+      "I think that is right."
+     ]
     },
     {
-     "text": "L.McF. That helps, it implies that I am in the enjoyment of the inheritance now. The gift of the Spirit involves that."
+     "speaker": "RMB",
+     "text": [
+      "I would like you to say something as to how we acquire moral power. We can remember those that have gone before as to what they have said, who had authority and weight, and they were able to influence us into the right path. What would you say as to how we would get that moral power?"
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "All of these persons who considered for God were brought into great blessing and privilege, which would be a stimulation that we too might consider for God."
+     "speaker": "LMcF",
+     "text": [
+      "You pray more. That is not knowledge. Moral power is not knowledge, nor light, but you keep near to God. I think if you go into the history of the persons you are referring to, that is where power lay. They were often found in prayer. Daniel, you will recall, prayed three times a day, with his window opened towards Jerusalem. He is another person we could have referred to, Abraham was by the oaks of Mamre, but his prayers are in relation to the purpose of God."
+     ]
     },
     {
-     "text": "L.McF. I think that is right."
+     "speaker": "DEB",
+     "text": [
+      "And Caleb wholly followed. That was a daily matter throughout his forty years, that he wholly followed."
+     ]
     },
     {
-     "speaker": "R.M.B.",
-     "text": "I would like you to say something as to how we acquire moral power. We can remember those that have gone before as to what they have said, who had authority and weight, and they were able to influence us into the right path. What would you say as to how we would get that moral power?"
+     "speaker": "LMcF",
+     "text": [
+      "So we speak of overcomers and we each of us should be that. In Revelation the word is to the overcomer. Caleb is such a man. Then he is ready for conflict, \"I am this day, eighty five years old, I am still as strong as in the day that Moses sent me as my strength was then, even so is my strength now, for war, both to go out and to come in\"."
+     ]
     },
     {
-     "text": "L.McF. You pray more. That is not knowledge. Moral power is not knowledge, nor light, but you keep near to God. I think if you go into the history of the persons you are referring to, that is where power lay. They were often found in prayer. Daniel, you will recall, prayed three times a day, with his window opened towards Jerusalem. He is another person we could have referred to, Abraham was by the oaks of Mamre, but his prayers are in relation to the purpose of God."
+     "speaker": "LWB",
+     "text": [
+      "He kept his eye on his Master and I think we need to tell God everything to be dependent and to tell Him everything and to trust Him in everything."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "And Caleb wholly followed. That was a daily matter throughout his forty years, that he wholly followed."
+     "speaker": "LMcF",
+     "text": [
+      "That is fine. That is the feature that marked him, he never came into prominence and I do not think he desired it, he was happy to be a follower."
+     ]
     },
     {
-     "text": "L.McF. So we speak of overcomers and we each of us should be that. In Revelation the word is to the overcomer. Caleb is such a man. Then he is ready for conflict, \"I am this day, eighty five years old, I am still as strong as in the day that Moses sent me as my strength was then, even so is my strength now, for war, both to go out and to come in\"."
+     "speaker": "PM",
+     "text": [
+      "Why does he say that he knows both how to go out and to come in?"
+     ]
     },
     {
-     "speaker": "L.W.B.",
-     "text": "He kept his eye on his Master and I think we need to tell God everything to be dependent and to tell Him everything and to trust Him in everything."
+     "speaker": "LMcF",
+     "text": [
+      "What does it says in Acts 1 as to the Lord Jesus, in relation to the disciple that was to take the place of Judas? \"It is necessary therefore, that of the men who have assembled with us all the time in which the Lord Jesus came in and went out among us\" (v 21). What does it say as to Caleb?"
+     ]
     },
     {
-     "text": "L.McF. That is fine. That is the feature that marked him, he never came into prominence and I do not think he desired it, he was happy to be a follower."
+     "speaker": "PM",
+     "text": [
+      "\"As my strength was then even so is my strength now for war, both to go out and to come in\". I wondered whether it was a sign of maturity with God, not only to know how to go out. Maybe when we are young we think we know how to go out, but is it a sign of maturity to know also how to come in?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Why does he say that he knows both how to go out and to come in?"
+     "speaker": "LMcF",
+     "text": [
+      "I am sure you are right."
+     ]
     },
     {
-     "text": "L.McF. What does it says in Acts 1 as to the Lord Jesus, in relation to the disciple that was to take the place of Judas? \"It is necessary therefore, that of the men who have assembled with us all the time in which the Lord Jesus came in and went out among us\" (v 21). What does it say as to Caleb?"
+     "speaker": "JW",
+     "text": [
+      "Would it mean that Caleb knew what it was to return to Jehovah? We are speaking of conflict here; he would know how to go out in conflict, but he would know how to get back into the presence of God."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "\"As my strength was then even so is my strength now for war, both to go out and to come in\". I wondered whether it was a sign of maturity with God, not only to know how to go out. Maybe when we are young we think we know how to go out, but is it a sign of maturity to know also how to come in?"
+     "speaker": "LMcF",
+     "text": [
+      "That is how we go out in conflict, but we bring back the saints, bring them back in. They are not lost. You are to know how to go out and how to come in. The Lord said, \"Not one of them has perished, but the son of perdition\" (see John 17: 12)."
+     ]
     },
     {
-     "text": "L.McF. I am sure you are right."
+     "speaker": "JW",
+     "text": [
+      "Was David like that? David is referred to as the one who led out and brought in Israel."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Would it mean that Caleb knew what it was to return to Jehovah? We are speaking of conflict here; he would know how to go out in conflict, but he would know how to get back into the presence of God."
+     "speaker": "LMcF",
+     "text": [
+      "What we are saying this morning has that in view, that the saints might be held together in love and that a way of life might contribute to that."
+     ]
     },
     {
-     "text": "L.McF. That is how we go out in conflict, but we bring back the saints, bring them back in. They are not lost. You are to know how to go out and how to come in. The Lord said, \"Not one of them has perished, but the son of perdition\" (see John 17: 12)."
+     "speaker": "ECB",
+     "text": [
+      "I wondered whether it bore on the way in which we are affected in our own spirits in conflict, whether the spirit in which we come in is not of vain-glory, but that it is that Jehovah had fought the battle. In Numbers 10 it is the ark that sets the pattern of this \"Rise up, Jehovah, and let thine enemies be scattered ... Return, Jehovah, unto the myriads of the thousands of Israel\" (vv 35,36)."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Was David like that? David is referred to as the one who led out and brought in Israel."
+     "speaker": "LMcF",
+     "text": [
+      "That helps. In the beginning of Joshua they have the man with the drawn sword. Joshua saw him. He was ready for conflict and would, as captain of Jehovah's army lead, I think, Joshua's exploits and his success was due to the fact that he followed that man. He followed that spiritual lead and that is so essential. The Spirit has His place with us, and we are not going by what we hear, but having recourse to the Spirit of God.",
+      "I refer now to energy that marked Elijah in dealing with the fallen system, then the authority. Our brother was enquiring as to how acquire this moral power. That was seen in Elijah. He could say \"as Jehovah the God of Israel liveth, before whom I stand, there shall not be dew nor rain these years except by my word\", 1 Kings 17: 1. What authority! James tells that he was \"a man of like passions to us\". It goes on to say \"the word of Jehovah came to him, Get thee eastward and hide thyself\". I think that relates to moral authority, meanwhile to hide ourselves. This man was with God. What he said came to pass."
+     ]
     },
     {
-     "text": "L.McF. What we are saying this morning has that in view, that the saints might be held together in love and that a way of life might contribute to that."
+     "speaker": "HAH",
+     "text": [
+      "It is only in James that we learn that he prayed before the drought. We get his second prayer here, but we have to wait until James to know that he had already prayed in relation to the shutting of the heavens."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I wondered whether it bore on the way in which we are affected in our own spirits in conflict, whether the spirit in which we come in is not of vain-glory, but that it is that Jehovah had fought the battle. In Numbers 10 it is the ark that sets the pattern of this \"Rise up, Jehovah, and let thine enemies be scattered ... Return, Jehovah, unto the myriads of the thousands of Israel\" (vv 35,36)."
+     "speaker": "LMcF",
+     "text": [
+      "He prayed with prayer. That supports what I said earlier, that the moral authority is 'prayed with prayer'."
+     ]
     },
     {
-     "text": "L.McF. That helps. In the beginning of Joshua they have the man with the drawn sword. Joshua saw him. He was ready for conflict and would, as captain of Jehovah's army lead, I think, Joshua's exploits and his success was due to the fact that he followed that man. He followed that spiritual lead and that is so essential. The Spirit has His place with us, and we are not going by what we hear, but having recourse to the Spirit of God."
+     "speaker": "DJW",
+     "text": [
+      "\"The fervent supplication of the righteous man has much power\". You have referred to righteousness earlier and I wondered whether it entered into the moral power that we are speaking of. Does God takes account of that?"
+     ]
     },
     {
-     "text": "I refer now to energy that marked Elijah in dealing with the fallen system, then the authority. Our brother was enquiring as to how acquire this moral power. That was seen in Elijah. He could say \"as Jehovah the God of Israel liveth, before whom I stand, there shall not be dew nor rain these years except by my word\", 1 Kings 17: 1. What authority! James tells that he was \"a man of like passions to us\". It goes on to say \"the word of Jehovah came to him, Get thee eastward and hide thyself\". I think that relates to moral authority, meanwhile to hide ourselves. This man was with God. What he said came to pass."
+     "speaker": "LMcF",
+     "text": [
+      "That is so. I think there is a footnote in that scripture in which the emphasis is on fervency. He kept at it. God was affected by this man and the fervency of his prayers."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "It is only in James that we learn that he prayed before the drought. We get his second prayer here, but we have to wait until James to know that he had already prayed in relation to the shutting of the heavens."
+     "speaker": "ECB",
+     "text": [
+      "That is to say that he had power with God. I think what our brother was asking about is how we get some power with one another. Elijah had power with God. Perhaps that is where we begin. In answer to him you referred to prayer."
+     ]
     },
     {
-     "text": "L.McF. He prayed with prayer. That supports what I said earlier, that the moral authority is 'prayed with prayer'."
+     "speaker": "LMcF",
+     "text": [
+      "It begins with God."
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "\"The fervent supplication of the righteous man has much power\". You have referred to righteousness earlier and I wondered whether it entered into the moral power that we are speaking of. Does God takes account of that?"
+     "speaker": "HAH",
+     "text": [
+      "That is what was said to Jacob, \"thou hast wrestled with God, and with men\" (see Gen 32: 28). I was only confirming what was said that we begin with God. God takes account of the power, the fervency, the insistence. Jacob says \"I will not let thee go except thou bless me\"."
+     ]
     },
     {
-     "text": "L.McF. That is so. I think there is a footnote in that scripture in which the emphasis is on fervency. He kept at it. God was affected by this man and the fervency of his prayers."
+     "speaker": "LMcF",
+     "text": [
+      "What you have said helps me. We need more fervency in prayer."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "That is to say that he had power with God. I think what our brother was asking about is how we get some power with one another. Elijah had power with God. Perhaps that is where we begin. In answer to him you referred to prayer."
+     "speaker": "AL",
+     "text": [
+      "Earlier it says, \"the word of Jehovah came to him\". Would that link on with a mutual thought between God and Elijah?"
+     ]
     },
     {
-     "text": "L.McF. It begins with God."
+     "speaker": "LMcF",
+     "text": [
+      "I am sure it would \"the word of Jehovah came to him\". God knew Elijah."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "That is what was said to Jacob, \"thou hast wrestled with God, and with men\" (see Gen 32: 28). I was only confirming what was said that we begin with God. God takes account of the power, the fervency, the insistence. Jacob says \"I will not let thee go except thou bless me\"."
+     "speaker": "DEB",
+     "text": [
+      "Elijah's servant says to him \"there is nothing\". Elijah says, Well, try seven times."
+     ]
     },
     {
-     "text": "L.McF. What you have said helps me. We need more fervency in prayer."
+     "speaker": "LMcF",
+     "text": [
+      "That is it, fervency. It says of Paul that he besought the Lord thrice, as to his thorn for the flesh. Seven times - I think that if we get nothing more out of this meeting it is the need of prayer."
+     ]
     },
     {
-     "speaker": "A.L.",
-     "text": "Earlier it says, \"the word of Jehovah came to him\". Would that link on with a mutual thought between God and Elijah?"
+     "speaker": "JW",
+     "text": [
+      "Elijah himself had to suffer as a result of his prayer that there might be no rain. It would be exercising to pray in relation to things from which we might suffer."
+     ]
     },
     {
-     "text": "L.McF. I am sure it would \"the word of Jehovah came to him\". God knew Elijah."
+     "speaker": "LMcF",
+     "text": [
+      "We should be prepared for the suffering, go through the thing ourselves. Daniel, a man greatly beloved - \"O man greatly beloved\" - known in heaven on account of his prayers."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "Elijah's servant says to him \"there is nothing\". Elijah says, Well, try seven times."
+     "speaker": "SH",
+     "text": [
+      "It says in Mark, \"All things whatsoever you pray for and ask, believe that ye shall receive it, and it shall come to pass for you\", Mark 11: 24. Elijah was like that was he not? But he says \"Jehovah hear me\"."
+     ]
     },
     {
-     "text": "L.McF. That is it, fervency. It says of Paul that he besought the Lord thrice, as to his thorn for the flesh. Seven times - I think that if we get nothing more out of this meeting it is the need of prayer."
+     "speaker": "LMcF",
+     "text": [
+      "That is so; he believed."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Elijah himself had to suffer as a result of his prayer that there might be no rain. It would be exercising to pray in relation to things from which we might suffer."
+     "speaker": "SH",
+     "text": [
+      "It would be a principle for our praying."
+     ]
     },
     {
-     "text": "L.McF. We should be prepared for the suffering, go through the thing ourselves. Daniel, a man greatly beloved - \"O man greatly beloved\" - known in heaven on account of his prayers."
+     "speaker": "LMcF",
+     "text": [
+      "That we believe. Some of us have been praying for certain things for a long time, and we might not get the answer in our lifetime. Nevertheless we believe that God will do it, believe God that He will answer those prayers."
+     ]
     },
     {
-     "speaker": "S.H.",
-     "text": "It says in Mark, \"All things whatsoever you pray for and ask, believe that ye shall receive it, and it shall come to pass for you\", Mark 11: 24. Elijah was like that was he not? But he says \"Jehovah hear me\"."
+     "speaker": "ECB",
+     "text": [
+      "What you have said is encouraging. You said you pray and pray, and you might not get the answer in your lifetime. We have known brethren who had much to pray for and longings, and they prayed and prayed; they were pious men and women, but maybe when they are with Christ an answer will come to what they prayed for. I think what you said is encouraging."
+     ]
     },
     {
-     "text": "L.McF. That is so; he believed."
+     "speaker": "LMcF",
+     "text": [
+      "In the wisdom of God we have to learn to wait. We have to wait upon Jehovah."
+     ]
     },
     {
-     "speaker": "S.H.",
-     "text": "It would be a principle for our praying."
+     "speaker": "LWB",
+     "text": [
+      "It says that we are to let our requests be made known to God, and the peace of God shall guard our hearts and thoughts by Christ Jesus. So if we are concerned about others and we pray for them in faith, we get an audience with God and He has heard and we have peace."
+     ]
     },
     {
-     "text": "L.McF. That we believe. Some of us have been praying for certain things for a long time, and we might not get the answer in our lifetime. Nevertheless we believe that God will do it, believe God that He will answer those prayers."
+     "speaker": "LMcF",
+     "text": [
+      "That is right."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "What you have said is encouraging. You said you pray and pray, and you might not get the answer in your lifetime. We have known brethren who had much to pray for and longings, and they prayed and prayed; they were pious men and women, but maybe when they are with Christ an answer will come to what they prayed for. I think what you said is encouraging."
+     "speaker": "MW",
+     "text": [
+      "You referred at the beginning to roots, and life which flows from roots. I was thinking of the reference, again in James, to Elijah's second prayer - again he prayed \"and the earth gave rain, and the earth caused its fruit to spring forth\". I wondered if there was a link with what you were saying earlier? ."
+     ]
     },
     {
-     "text": "L.McF. In the wisdom of God we have to learn to wait. We have to wait upon Jehovah."
+     "speaker": "LMcF",
+     "text": [
+      "That is good. Fruit - that is the ultimate of what is in mind. We have had some godly men in this area and I am sure I am looking at the fruit of their labours today. They are with Christ. That is before us, that there might be something for God."
+     ]
     },
     {
-     "speaker": "L.W.B.",
-     "text": "It says that we are to let our requests be made known to God, and the peace of God shall guard our hearts and thoughts by Christ Jesus. So if we are concerned about others and we pray for them in faith, we get an audience with God and He has heard and we have peace."
+     "speaker": "AGS",
+     "text": [
+      "Would that link with the palm tree and the cedar that are referred to in the Psalm. I was thinking of the cedar as the dignity of manhood before God and what is in evidence, the palm tree as the thought of fruit and victory. They are features that we, as younger persons, take account of in older brethren. Is that something that is worked out that is particularly pleasing to God?"
+     ]
     },
     {
-     "text": "L.McF. That is right."
+     "speaker": "LMcF",
+     "text": [
+      "I think that is right, the dignity relating to the fellowship. I will find that in the house of God. If the young people are taking account of things we might not think very important, they are rejoicing people, they are in victory - the palm tree. Deborah had her palm tree. We do not want to be giving the impression that we are depressed on account of the smallness of things, but the word is \"hope thou in God\"."
+     ]
     },
     {
-     "speaker": "M.W.",
-     "text": "You referred at the beginning to roots, and life which flows from roots. I was thinking of the reference, again in James, to Elijah's second prayer - again he prayed \"and the earth gave rain, and the earth caused its fruit to spring forth\". I wondered if there was a link with what you were saying earlier? ."
+     "speaker": "PM",
+     "text": [
+      "Peter speaks of the holy women who had their hope in God. I wondered if they showed the features that you are bringing out that they were persons who had nothing here, as everything for them was in God."
+     ]
     },
     {
-     "text": "L.McF. That is good. Fruit - that is the ultimate of what is in mind. We have had some godly men in this area and I am sure I am looking at the fruit of their labours today. They are with Christ. That is before us, that there might be something for God."
-    },
-    {
-     "speaker": "A.G.S.",
-     "text": "Would that link with the palm tree and the cedar that are referred to in the Psalm. I was thinking of the cedar as the dignity of manhood before God and what is in evidence, the palm tree as the thought of fruit and victory. They are features that we, as younger persons, take account of in older brethren. Is that something that is worked out that is particularly pleasing to God?"
-    },
-    {
-     "text": "L.McF. I think that is right, the dignity relating to the fellowship. I will find that in the house of God. If the young people are taking account of things we might not think very important, they are rejoicing people, they are in victory - the palm tree. Deborah had her palm tree. We do not want to be giving the impression that we are depressed on account of the smallness of things, but the word is \"hope thou in God\"."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "Peter speaks of the holy women who had their hope in God. I wondered if they showed the features that you are bringing out that they were persons who had nothing here, as everything for them was in God."
-    },
-    {
-     "text": "L.McF. And now it is the holy brethren. Peter speaks of that, holy brethren."
+     "speaker": "LMcF",
+     "text": [
+      "And now it is the holy brethren. Peter speaks of that, holy brethren."
+     ]
     }
    ]
   },
@@ -559,6 +814,26 @@
      "text": "Let us not draw back from this, but let us make our petitions, dear brethren, whether it be for ourselves, or for our localities, whatever it might be, let us put in these petitions and prove what God can be to us, for His Name's sake."
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "\"THE ELDERS WHICH ARE AMONG YOU\"",
+   "kind": "comma_for_semicolon",
+   "detail": "\"S.Hewison, Dorking, A.Lidbeck\" read as two people"
+  },
+  {
+   "article": 1,
+   "title": "\"THE ELDERS WHICH ARE AMONG YOU\"",
+   "kind": "default_place",
+   "detail": "REDBRIDGE given to 4 names (\"Local if not otherwise indicated\")"
+  },
+  {
+   "article": 1,
+   "title": "\"THE ELDERS WHICH ARE AMONG YOU\"",
+   "kind": "speaker_not_in_key",
+   "detail": "LMcF (in the text)"
   }
  ]
 }

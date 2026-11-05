@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -30,15 +30,19 @@
     "AM",
     "JCG",
     "AMB",
+    "JTB(Gr)",
     "JDG",
+    "JSp",
     "GAB",
     "JAB",
     "CKR",
+    "RGr",
     "GBG",
     "RDP",
     "JS",
     "DCB",
-    "DTP"
+    "DTP",
+    "AJMcS"
    ],
    "initials": [
     {
@@ -70,7 +74,7 @@
      "name": "G. A. Brown"
     },
     {
-     "initials": "RG",
+     "initials": "RGr",
      "name": "R. Gray"
     },
     {
@@ -82,16 +86,17 @@
      "name": "J. A. Brown"
     },
     {
-     "initials": "AJM",
+     "initials": "AJMcS",
      "name": "A. J. McSeveney"
     },
     {
-     "initials": "JS",
+     "initials": "JSp",
      "name": "J. Spinks"
     },
     {
-     "initials": "JTBG",
-     "name": "J. T. Brown (Gr)"
+     "initials": "JTB(Gr)",
+     "name": "J. T. Brown",
+     "place": "Gr"
     },
     {
      "initials": "AM",
@@ -128,444 +133,638 @@
    "paragraphs": [
     {
      "speaker": "AM",
-     "text": "The impression I have on my spirit is as to the activities of divine Persons in order that there should be that which satisfies the heart of Christ. We often think of man’s activities but divine Persons are very active. We may think of heaven as a place of rest and quietness, and there is an aspect of course in which that is true, but nevertheless divine Persons are active and their activity has an object in mind; and one object is that there should be that which is satisfying to the heart of Christ."
-    },
-    {
-     "text": "Now where we have read in Genesis chapter 2 we get the great initial thought of God, and we have what God has done in order that there should be an answer. Wonderful setting here, you might say an unspoiled earth. God had created it; everything was in its place. He had created man, He had formed him, in fact He had come so close to man, He breathed into him. Think of God in verse 7 “Jehovah Elohim”, think of the greatness of God, “formed Man, dust of the ground”, think of the material He took “and breathed into his nostrils the breath of life”. Think of the nearness to which God came to man showing how special man was; He did not do that to any of the beasts. How special man is, man has a relationship with God. He formed him in that way so that he has a relationship with God. We sometimes speak about man as a moral being, and really that is that he has a relationship with God, and he is set here to be in relation with God. But then everything had been good but God says there was one thing that was not good, “It is not good that Man should be alone”. This was not “not good” in the sense that there was anything faulty but that so far the scene was not complete, and He says he needs one who is like him, ‘a counterpart’. The footnote tells us that what he needed was ‘a counterpart’, one who was like him, and one who was like him can only be what was of himself. And God acted in this way, we get this wonderful figure of the deep sleep referring to the death of Jesus. Quite apart from any question of sin or suffering, the death of Jesus in this aspect, in order that there should be that which is to answer to His heart and to be of lasting satisfaction to Him."
-    },
-    {
-     "text": "Now in Genesis 24 we have this great magnificent chapter of the operations of the Holy Spirit; that is what it speaks to us of. One who in such lowly grace has been pleased to take the place of a servant, and work in unselfish devotion in order that there should be that secured for His master. Now it would not be right for Isaac to be presented with anyone, he had to be presented with one who really came of his own line. In all this chapter, you get the impression of the toil of the servant and yet he was pleased to do it. He was seeking out that which would answer to the heart of Isaac; something which would be like him, something which would suit him. All the treasure of his master was under his hand and Rebecca came to light. Now Rebecca did not know Isaac, but she came to light, there was something there, there was some work there that had begun and the servant would say, ‘this is the one, I am going to give her tokens of what belongs to Isaac’, he gave her the rings and so on, and then as the chapter proceeds we find that there is a committal. And I trust that every one of us here has had that experience in our soul, at some time we have made a committal and we have said ‘I will go with this man’. We have made a committal, and then he opens his treasures, he says ‘well this is what you will be experiencing’. He pulls out the gold and silver articles, the clothing, he would clothe Rebecca, he would give her all the adornment that she needed so she was able to appear in total suitability to Isaac a type of Christ. How wonderful that the assembly should be so clothed with the Holy Spirit’s work. That work is going on now, it is going on in individuals, but it is in view of a glorious answer to Christ."
-    },
-    {
-     "text": "Now in Ephesians we have the Lord Jesus and His own service. Think of His love for the assembly presented as a standard for us. He loved the assembly, He delivered Himself up for it, that was the great evidence of it. First He would acquire it, He gave Himself in order that the assembly should be His, and then that He should exercise that love in ministering to it, so that this great vessel should be perfectly holy, pure and spotless, “that he might sanctify it, purifying it by the washing of water by the word”. This service might take place in an occasion like this; the word comes, and it should have a sanctifying effect. When we take the word away with us after the meeting and get into the presence of the Lord, it is to have that sanctifying effect, so that there should be that which is pure being formed in the present time, which Christ can present to Himself glorious. Glorious, no diminution, no lack on her side but she is perfectly suited to Him. Now this is very basic, but these are the impressions I have if we can get some help as to them."
+     "text": [
+      "The impression I have on my spirit is as to the activities of divine Persons in order that there should be that which satisfies the heart of Christ. We often think of man’s activities but divine Persons are very active. We may think of heaven as a place of rest and quietness, and there is an aspect of course in which that is true, but nevertheless divine Persons are active and their activity has an object in mind; and one object is that there should be that which is satisfying to the heart of Christ.",
+      "Now where we have read in Genesis chapter 2 we get the great initial thought of God, and we have what God has done in order that there should be an answer. Wonderful setting here, you might say an unspoiled earth. God had created it; everything was in its place. He had created man, He had formed him, in fact He had come so close to man, He breathed into him. Think of God in verse 7 “Jehovah Elohim”, think of the greatness of God, “formed Man, dust of the ground”, think of the material He took “and breathed into his nostrils the breath of life”. Think of the nearness to which God came to man showing how special man was; He did not do that to any of the beasts. How special man is, man has a relationship with God. He formed him in that way so that he has a relationship with God. We sometimes speak about man as a moral being, and really that is that he has a relationship with God, and he is set here to be in relation with God. But then everything had been good but God says there was one thing that was not good, “It is not good that Man should be alone”. This was not “not good” in the sense that there was anything faulty but that so far the scene was not complete, and He says he needs one who is like him, ‘a counterpart’. The footnote tells us that what he needed was ‘a counterpart’, one who was like him, and one who was like him can only be what was of himself. And God acted in this way, we get this wonderful figure of the deep sleep referring to the death of Jesus. Quite apart from any question of sin or suffering, the death of Jesus in this aspect, in order that there should be that which is to answer to His heart and to be of lasting satisfaction to Him.",
+      "Now in Genesis 24 we have this great magnificent chapter of the operations of the Holy Spirit; that is what it speaks to us of. One who in such lowly grace has been pleased to take the place of a servant, and work in unselfish devotion in order that there should be that secured for His master. Now it would not be right for Isaac to be presented with anyone, he had to be presented with one who really came of his own line. In all this chapter, you get the impression of the toil of the servant and yet he was pleased to do it. He was seeking out that which would answer to the heart of Isaac; something which would be like him, something which would suit him. All the treasure of his master was under his hand and Rebecca came to light. Now Rebecca did not know Isaac, but she came to light, there was something there, there was some work there that had begun and the servant would say, ‘this is the one, I am going to give her tokens of what belongs to Isaac’, he gave her the rings and so on, and then as the chapter proceeds we find that there is a committal. And I trust that every one of us here has had that experience in our soul, at some time we have made a committal and we have said ‘I will go with this man’. We have made a committal, and then he opens his treasures, he says ‘well this is what you will be experiencing’. He pulls out the gold and silver articles, the clothing, he would clothe Rebecca, he would give her all the adornment that she needed so she was able to appear in total suitability to Isaac a type of Christ. How wonderful that the assembly should be so clothed with the Holy Spirit’s work. That work is going on now, it is going on in individuals, but it is in view of a glorious answer to Christ.",
+      "Now in Ephesians we have the Lord Jesus and His own service. Think of His love for the assembly presented as a standard for us. He loved the assembly, He delivered Himself up for it, that was the great evidence of it. First He would acquire it, He gave Himself in order that the assembly should be His, and then that He should exercise that love in ministering to it, so that this great vessel should be perfectly holy, pure and spotless, “that he might sanctify it, purifying it by the washing of water by the word”. This service might take place in an occasion like this; the word comes, and it should have a sanctifying effect. When we take the word away with us after the meeting and get into the presence of the Lord, it is to have that sanctifying effect, so that there should be that which is pure being formed in the present time, which Christ can present to Himself glorious. Glorious, no diminution, no lack on her side but she is perfectly suited to Him. Now this is very basic, but these are the impressions I have if we can get some help as to them."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "You say it may be basic, but it is very elevated and very fine, and it is very impressive what you have said and set out, concerning each divine Person being interested and concerned in relation to the helpmate; as you say in the type “helpmate his like”. It is very interesting that it uses the word “helpmate” as well as “like”, it would involve companionship would it?"
+     "text": [
+      "You say it may be basic, but it is very elevated and very fine, and it is very impressive what you have said and set out, concerning each divine Person being interested and concerned in relation to the helpmate; as you say in the type “helpmate his like”. It is very interesting that it uses the word “helpmate” as well as “like”, it would involve companionship would it?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes that is good, so that really the assembly is in the light of what is occupying the Lord, and she would be promoting what is occupying Him, she is a companion. Jehovah is not specifically bringing out the side of affection here, but a helpmate, one who can be with him in what he is doing."
+     "text": [
+      "Yes that is good, so that really the assembly is in the light of what is occupying the Lord, and she would be promoting what is occupying Him, she is a companion. Jehovah is not specifically bringing out the side of affection here, but a helpmate, one who can be with him in what he is doing."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "What do you say about the fact that God builds the helpmate?"
+     "text": [
+      "What do you say about the fact that God builds the helpmate?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "It seems to me that it is an evidence of God’s care, God’s work; it is His workmanship, the woman here was not created by a word of His power. The fact that there was to be a helpmate for the man, one who can appear with him in his place in headship is such an important thing that Jehovah attends to the detail of it in building this one. Now what do you say?"
+     "text": [
+      "It seems to me that it is an evidence of God’s care, God’s work; it is His workmanship, the woman here was not created by a word of His power. The fact that there was to be a helpmate for the man, one who can appear with him in his place in headship is such an important thing that Jehovah attends to the detail of it in building this one. Now what do you say?"
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "I think it is a fine thought that God should be so identified with this vessel that He is known as her Builder and Artificer. It all comes from His will, from His mind, He is the source and the origin of this wonderful concept, but He also builds as though He puts His hand to it."
+     "text": [
+      "I think it is a fine thought that God should be so identified with this vessel that He is known as her Builder and Artificer. It all comes from His will, from His mind, He is the source and the origin of this wonderful concept, but He also builds as though He puts His hand to it."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes that is good, He puts His hand to it. He is identified with what is built. As you say He is the Originator of this, it was not the man who said it is not good to be alone. I am sure that the man was constantly marvelling at the greatness of what God had produced in creation, but it was God who said, “It is not good that Man should be alone”, and as you say He put His hands to securing that answer."
+     "text": [
+      "Yes that is good, He puts His hand to it. He is identified with what is built. As you say He is the Originator of this, it was not the man who said it is not good to be alone. I am sure that the man was constantly marvelling at the greatness of what God had produced in creation, but it was God who said, “It is not good that Man should be alone”, and as you say He put His hands to securing that answer."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "Is it quite remarkable that the matter of the bringing forth of the woman comes in with so much detail following verse 27 in chapter 1, which says that God created Man “in the image of God created he him; male and female created he them”. But then you get all this detail showing that there was something special in the mind of God concerning a companion for Christ in the type of it, do you think?"
+     "text": [
+      "Is it quite remarkable that the matter of the bringing forth of the woman comes in with so much detail following verse 27 in chapter 1, which says that God created Man “in the image of God created he him; male and female created he them”. But then you get all this detail showing that there was something special in the mind of God concerning a companion for Christ in the type of it, do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I think so, this is before sin came in. It is really part of God’s purpose, is it not? That there should be, really Himself expressed in the man, and in the woman, that there should be the two, that His thought involved the two."
+     "text": [
+      "I think so, this is before sin came in. It is really part of God’s purpose, is it not? That there should be, really Himself expressed in the man, and in the woman, that there should be the two, that His thought involved the two."
+     ]
     },
     {
-     "text": "JTB(Gr) Does it bring out something of the feelings of God in relation to His creature? “It is not good that Man should be alone”. He was feeling for Man in his loneliness was He not, and He provided the answer to it."
+     "speaker": "JTB(Gr)",
+     "text": [
+      "Does it bring out something of the feelings of God in relation to His creature? “It is not good that Man should be alone”. He was feeling for Man in his loneliness was He not, and He provided the answer to it."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, in a sense God felt it more than man did. I mean if man felt it, he would have felt it from his point of view, but God felt it from the point of view, not only of His feelings for man, but also in relation to His ideal for man."
+     "text": [
+      "Yes, in a sense God felt it more than man did. I mean if man felt it, he would have felt it from his point of view, but God felt it from the point of view, not only of His feelings for man, but also in relation to His ideal for man."
+     ]
     },
     {
      "speaker": "JDG",
-     "text": "The link between Christ and the assembly, or man and woman here, is that man is alone, it is distinctive to that. Well you said in chapter 1 and rightly too, that likeness there involved a man and a woman which God has pleasure in, but this likeness in this chapter is distinctively with the man."
+     "text": [
+      "The link between Christ and the assembly, or man and woman here, is that man is alone, it is distinctive to that. Well you said in chapter 1 and rightly too, that likeness there involved a man and a woman which God has pleasure in, but this likeness in this chapter is distinctively with the man."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is right, the woman is to be his like, so the assembly takes character from Christ. And so fully does she take character from Christ that in a day to come He will be known by what will be expressed in her. “Her husband is known in the gates”, Proverbs 31: 23. What shines out in the assembly is what people take account of, and that is Christ, is that right?"
+     "text": [
+      "That is right, the woman is to be his like, so the assembly takes character from Christ. And so fully does she take character from Christ that in a day to come He will be known by what will be expressed in her. “Her husband is known in the gates”, Proverbs 31: 23. What shines out in the assembly is what people take account of, and that is Christ, is that right?"
+     ]
     },
     {
      "speaker": "JDG",
-     "text": "She is the fulness of Him."
+     "text": [
+      "She is the fulness of Him."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, the fulness, that is the full expression of Himself."
+     "text": [
+      "Yes, the fulness, that is the full expression of Himself."
+     ]
     },
     {
-     "text": "JSp Has the Father a special place in divine counsel? I am thinking especially about the Lord’s activities in John’s gospel, when every direction is coming from the Father, and He makes the comment, “My Father worketh hitherto and I work” (John 5: 17), but he traces everything back to the Father. I wondered if that would be implied in the Father’s thoughts of a counterpart for Christ."
+     "speaker": "JSp",
+     "text": [
+      "Has the Father a special place in divine counsel? I am thinking especially about the Lord’s activities in John’s gospel, when every direction is coming from the Father, and He makes the comment, “My Father worketh hitherto and I work” (John 5: 17), but he traces everything back to the Father. I wondered if that would be implied in the Father’s thoughts of a counterpart for Christ."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, that is helpful. I was thinking of John’s gospel. He says at one point the Son can do nothing but what He sees the Father doing (John 5: 19). The Father has that supreme place, and it brings out on the one hand the oneness of divine Persons in all their operations, but the Father is the source, the Father has the supreme place. Say some more about it."
+     "text": [
+      "Yes, that is helpful. I was thinking of John’s gospel. He says at one point the Son can do nothing but what He sees the Father doing (John 5: 19). The Father has that supreme place, and it brings out on the one hand the oneness of divine Persons in all their operations, but the Father is the source, the Father has the supreme place. Say some more about it."
+     ]
     },
     {
-     "text": "JSp Obviously three divine Persons were operating together. I am thinking of the feelings of God, “It is not good that Man should be alone”. And all His operations will go towards that end, especially that matter of, “My Father worketh hitherto and I work”, there is a great end in view is there not? There is this great vessel that is going to be produced for Christ."
+     "speaker": "JSp",
+     "text": [
+      "Obviously three divine Persons were operating together. I am thinking of the feelings of God, “It is not good that Man should be alone”. And all His operations will go towards that end, especially that matter of, “My Father worketh hitherto and I work”, there is a great end in view is there not? There is this great vessel that is going to be produced for Christ."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, and the Father has been working, the Father has operated in view of there being, you might say, an increase in what is seen in Christ. There is what is seen in Christ, and you might say He takes such pleasure in that, that He is going to have it increased."
+     "text": [
+      "Yes, and the Father has been working, the Father has operated in view of there being, you might say, an increase in what is seen in Christ. There is what is seen in Christ, and you might say He takes such pleasure in that, that He is going to have it increased."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "So it is in John’s gospel that the Lord shows them His hands and His side. It seems to me the consummation of what the Father’s activities had been; now on the other side of death He is able to show them where the assembly came from."
+     "text": [
+      "So it is in John’s gospel that the Lord shows them His hands and His side. It seems to me the consummation of what the Father’s activities had been; now on the other side of death He is able to show them where the assembly came from."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is interesting because He had come out of death and He had sent that wonderful message, “my Father and your Father”, John 20: 17. Now what was there for the pleasure of God in the disciples? They might have said it is men and women who are attached to Him, but it is more than that. He comes to them, He says, “Peace be to you” (John 20: 21), but then He shows them His side and says in effect, ‘You know what has been produced is a vessel that is going to answer to My heart for ever’."
+     "text": [
+      "That is interesting because He had come out of death and He had sent that wonderful message, “my Father and your Father”, John 20: 17. Now what was there for the pleasure of God in the disciples? They might have said it is men and women who are attached to Him, but it is more than that. He comes to them, He says, “Peace be to you” (John 20: 21), but then He shows them His side and says in effect, ‘You know what has been produced is a vessel that is going to answer to My heart for ever’."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I wondered if you would just open up a little more the thought of this being before sin came in, and how what was produced here was not as a result of suffering. I was thinking of the scripture that says, “He shall see of the fruit of the travail of his soul, and shall be satisfied”, Isaiah 53: 11. That is not quite the thought here, but could you just draw the distinction, because I think it is important for us to get a view of the glory of the assembly as entirely aside from the whole sin question, for us all to see her and to see what has been produced in that way; it is quite difficult to understand sometimes is it not?"
+     "text": [
+      "I wondered if you would just open up a little more the thought of this being before sin came in, and how what was produced here was not as a result of suffering. I was thinking of the scripture that says, “He shall see of the fruit of the travail of his soul, and shall be satisfied”, Isaiah 53: 11. That is not quite the thought here, but could you just draw the distinction, because I think it is important for us to get a view of the glory of the assembly as entirely aside from the whole sin question, for us all to see her and to see what has been produced in that way; it is quite difficult to understand sometimes is it not?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes it is. Well when you read these chapters and you think of all that comes out in them, it was in God’s mind that He should be represented in man and that man should have headship over the whole creation, that was one thought in God’s mind. But another thought in God’s mind was that the two should be united, man and woman should be united, that there should be unity, and union, and that was set out in this. Now in order to achieve that, man had to have a companion. God did not make the companion out of dust as He made man because that would have made two heads. He made the companion out of the man, so that the man is the head and he has one who is all of himself, his own order. In order to do that he had to have that deep sleep, he had to go through that experience and the result of that was that there was this wonderful vessel. Now you can enlarge on that I am sure."
+     "text": [
+      "Yes it is. Well when you read these chapters and you think of all that comes out in them, it was in God’s mind that He should be represented in man and that man should have headship over the whole creation, that was one thought in God’s mind. But another thought in God’s mind was that the two should be united, man and woman should be united, that there should be unity, and union, and that was set out in this. Now in order to achieve that, man had to have a companion. God did not make the companion out of dust as He made man because that would have made two heads. He made the companion out of the man, so that the man is the head and he has one who is all of himself, his own order. In order to do that he had to have that deep sleep, he had to go through that experience and the result of that was that there was this wonderful vessel. Now you can enlarge on that I am sure."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "No I could not, but it is good, what you have said is very helpful, to see that this is part of the glory of the assembly. We use phrases like the assembly has no past history. The personnel of the assembly do, we all know that, but this would give us a view of the glory of the assembly in relation to the purpose of God Himself, and then without bringing ourselves into it too much, if we are impressed by that glory it would help us to see what we are part of do you think?"
+     "text": [
+      "No I could not, but it is good, what you have said is very helpful, to see that this is part of the glory of the assembly. We use phrases like the assembly has no past history. The personnel of the assembly do, we all know that, but this would give us a view of the glory of the assembly in relation to the purpose of God Himself, and then without bringing ourselves into it too much, if we are impressed by that glory it would help us to see what we are part of do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes it would and I think we need to get that in our souls that the assembly is a glorious vessel. Now the company gathered here today is not the assembly, but it is part of it, and we have to see that what divine Persons are working towards is the coming day when that vessel in all its entirety will be shown in glorious display. The whole earth will be affected by it. It is wonderful! I sometimes think if you ever think things are getting too bad read Revelation 21 and 22. You see what will be displayed “Her shining was like a most precious stone, as a crystal-like jasper stone” (Revelation 21: 11), “And the nations shall walk by its light” (Revelation 21: 24), that is all being worked out today and that is what God had in mind."
+     "text": [
+      "Yes it would and I think we need to get that in our souls that the assembly is a glorious vessel. Now the company gathered here today is not the assembly, but it is part of it, and we have to see that what divine Persons are working towards is the coming day when that vessel in all its entirety will be shown in glorious display. The whole earth will be affected by it. It is wonderful! I sometimes think if you ever think things are getting too bad read Revelation 21 and 22. You see what will be displayed “Her shining was like a most precious stone, as a crystal-like jasper stone” (Revelation 21: 11), “And the nations shall walk by its light” (Revelation 21: 24), that is all being worked out today and that is what God had in mind."
+     ]
     },
     {
      "speaker": "CKR",
-     "text": "So then open up for us, “This time it is bone of my bones and flesh of my flesh”; that is an absolutely distinctive statement is it not?"
+     "text": [
+      "So then open up for us, “This time it is bone of my bones and flesh of my flesh”; that is an absolutely distinctive statement is it not?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes that is right. Well God had brought all the creation to man and he could have no intimate link with any of it, but when the woman was formed he said there is something here that is completely different. He said this time it is one who is entirely of myself, “bone of my bones and flesh of my flesh”. There is nothing in the woman that did not derive from the man. Now you can help us."
+     "text": [
+      "Yes that is right. Well God had brought all the creation to man and he could have no intimate link with any of it, but when the woman was formed he said there is something here that is completely different. He said this time it is one who is entirely of myself, “bone of my bones and flesh of my flesh”. There is nothing in the woman that did not derive from the man. Now you can help us."
+     ]
     },
     {
      "speaker": "CKR",
-     "text": "So you really have the secret of true union here in this statement. “This time it is bone of my bones and flesh of my flesh”. Think of the divine feeling that lies behind that statement which man makes, but as a result of God’s operations and through the deep sleep."
+     "text": [
+      "So you really have the secret of true union here in this statement. “This time it is bone of my bones and flesh of my flesh”. Think of the divine feeling that lies behind that statement which man makes, but as a result of God’s operations and through the deep sleep."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Now the Lord could never be united to anything that was not of Himself. How could it be? It would be totally incongruous. He has something, He has a vessel. Divine workmanship has produced something that He can say, ‘This is totally different’."
+     "text": [
+      "Now the Lord could never be united to anything that was not of Himself. How could it be? It would be totally incongruous. He has something, He has a vessel. Divine workmanship has produced something that He can say, ‘This is totally different’."
+     ]
     },
     {
-     "text": "RGr In the Old Testament, in the types, we largely get what God does, as we have here in this scripture, God’s operations. Do you think after the Spirit came that the saints are helped to see not only what He does, but how He does it? I am thinking of John 13 He says, ‘I have washed your feet, now you do the same’; so that would form part of the education of the assembly do you think?"
+     "speaker": "RGr",
+     "text": [
+      "In the Old Testament, in the types, we largely get what God does, as we have here in this scripture, God’s operations. Do you think after the Spirit came that the saints are helped to see not only what He does, but how He does it? I am thinking of John 13 He says, ‘I have washed your feet, now you do the same’; so that would form part of the education of the assembly do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "So that we can serve one another in that way you mean, so that should be our objective in our contacts with one another or whatever, that there should be something for Christ."
+     "text": [
+      "So that we can serve one another in that way you mean, so that should be our objective in our contacts with one another or whatever, that there should be something for Christ."
+     ]
     },
     {
      "speaker": "GBG",
-     "text": "It was in the divine mind in a past eternity that one of the Persons of the Godhead should come into manhood, would it be right to think also then it was also in the divine mind that that man should have this counterpart, this companion?"
+     "text": [
+      "It was in the divine mind in a past eternity that one of the Persons of the Godhead should come into manhood, would it be right to think also then it was also in the divine mind that that man should have this counterpart, this companion?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Well do you not think we can see from this passage that it was not good that the man should be alone, he needed a counterpart?"
+     "text": [
+      "Well do you not think we can see from this passage that it was not good that the man should be alone, he needed a counterpart?"
+     ]
     },
     {
      "speaker": "GBG",
-     "text": "Well that is a wonderful thing to get into our affections that this is related to divine purpose. And then this is a type is it not, the assembly was not actually begun to be built until the Spirit came, therefore is there an aspect of which we can think of the deep sleep as throughout the whole dispensation; because it has taken the whole dispensation to build the assembly?"
+     "text": [
+      "Well that is a wonderful thing to get into our affections that this is related to divine purpose. And then this is a type is it not, the assembly was not actually begun to be built until the Spirit came, therefore is there an aspect of which we can think of the deep sleep as throughout the whole dispensation; because it has taken the whole dispensation to build the assembly?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Well I think I see what is in your mind. I had been thinking of this as really presenting to us God’s great plan from the outset."
+     "text": [
+      "Well I think I see what is in your mind. I had been thinking of this as really presenting to us God’s great plan from the outset."
+     ]
     },
     {
      "speaker": "GBG",
-     "text": "It was Mr. Jim Renton that helped me as to it, how he applied it to the death of Christ; he said actually the death of Christ covers the whole dispensation, because that is the aspect publicly at the present time. We are in the time of the death of Christ."
+     "text": [
+      "It was Mr. Jim Renton that helped me as to it, how he applied it to the death of Christ; he said actually the death of Christ covers the whole dispensation, because that is the aspect publicly at the present time. We are in the time of the death of Christ."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Well thank you, that helps, publicly that is the aspect."
+     "text": [
+      "Well thank you, that helps, publicly that is the aspect."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "I just happened to read that this morning, something Mr. Taylor said, that in regard to Israel and the world Christ is aasleep at the present time, and the assembly is being builded. (See J. Taylor. New Series Vol. 20, p.357). Of course this is not the only application of this scripture."
+     "text": [
+      "I just happened to read that this morning, something Mr. Taylor said, that in regard to Israel and the world Christ is aasleep at the present time, and the assembly is being builded. (See J. Taylor. New Series Vol. 20, p.357). Of course this is not the only application of this scripture."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Certainly the Lord is not manifested publicly now. The day is coming when He will be and the assembly will be seen in its completeness. He “brought her to Man”; in a certain sense that will take place at the end of the dispensation."
-    },
-    {
-     "text": "Perhaps we should move on. In Genesis 24 I think we see the Holy Spirit’s service. There is what Christ has secured as a result of His death, there was that nucleus, but then there is the service of the Holy Spirit in the two thousand years since then; that work has grown. What has been secured for the Lord’s pleasure has been increased through the presence here of a divine Person. The servant sees Rebecca, one morally suited to Isaac. She has the features that would suit him. The Holy Spirit typically labours here in order that she should be detached from what is of nature, and that she should be adorned with heavenly beauty. And really that work is going on."
+     "text": [
+      "Certainly the Lord is not manifested publicly now. The day is coming when He will be and the assembly will be seen in its completeness. He “brought her to Man”; in a certain sense that will take place at the end of the dispensation.",
+      "Perhaps we should move on. In Genesis 24 I think we see the Holy Spirit’s service. There is what Christ has secured as a result of His death, there was that nucleus, but then there is the service of the Holy Spirit in the two thousand years since then; that work has grown. What has been secured for the Lord’s pleasure has been increased through the presence here of a divine Person. The servant sees Rebecca, one morally suited to Isaac. She has the features that would suit him. The Holy Spirit typically labours here in order that she should be detached from what is of nature, and that she should be adorned with heavenly beauty. And really that work is going on."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "The activity of the Holy Spirit that you refer to seems to find an answer in the activity of Rebecca here, the activity of the assembly."
+     "text": [
+      "The activity of the Holy Spirit that you refer to seems to find an answer in the activity of Rebecca here, the activity of the assembly."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes that is right, really her suitability to Isaac became apparent before her lineage was known, did it not? The servant might almost have said, ‘Well there is only one source that this could have come from—she is suited to Isaac’."
+     "text": [
+      "Yes that is right, really her suitability to Isaac became apparent before her lineage was known, did it not? The servant might almost have said, ‘Well there is only one source that this could have come from—she is suited to Isaac’."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "It led to the servant being “astonished”, that is the word that is used. It is a tremendous thing to realise that a creature vessel that has been the subject of divine conception and divine activity, should be able to evidence features that bring astonishment in that sense, pleasure, to the heart of, in this case, the Holy Spirit. We can apply that, can we not, to the activities that the Spirit can take account of, the response that the Spirit can take account of in the assembly now."
+     "text": [
+      "It led to the servant being “astonished”, that is the word that is used. It is a tremendous thing to realise that a creature vessel that has been the subject of divine conception and divine activity, should be able to evidence features that bring astonishment in that sense, pleasure, to the heart of, in this case, the Holy Spirit. We can apply that, can we not, to the activities that the Spirit can take account of, the response that the Spirit can take account of in the assembly now."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "The Holy Spirit had taken account of what was transpiring on the earth. At one point the word was, “My Spirit shall not always plead with Man” (Genesis 6: 3), and “for the thought of Man’s heart is evil from his youth”, Genesis 8: 21. And you might say that is really what could be seen on the earth, men whose thought was evil from their youth. But then something came to light, came to light in type through the death of Christ, it says the Spirit was “astonished at her”. Really what it means to divine Persons that there should be something so totally different, something which is all of God, which is all of Christ."
+     "text": [
+      "The Holy Spirit had taken account of what was transpiring on the earth. At one point the word was, “My Spirit shall not always plead with Man” (Genesis 6: 3), and “for the thought of Man’s heart is evil from his youth”, Genesis 8: 21. And you might say that is really what could be seen on the earth, men whose thought was evil from their youth. But then something came to light, came to light in type through the death of Christ, it says the Spirit was “astonished at her”. Really what it means to divine Persons that there should be something so totally different, something which is all of God, which is all of Christ."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "Kinship was basic to this was it not? She was to be of the same stock. But the Holy Spirit was looking for something additional. He was looking for characteristics. Could you say something on that?"
+     "text": [
+      "Kinship was basic to this was it not? She was to be of the same stock. But the Holy Spirit was looking for something additional. He was looking for characteristics. Could you say something on that?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I think that is very suggestive, when he prayed he does not say ‘Send me to the right house’, he said ‘Let it be someone who shows these characteristics’. Now these are the moral features which are suited to one who is going to be united to the heavenly Man."
+     "text": [
+      "I think that is very suggestive, when he prayed he does not say ‘Send me to the right house’, he said ‘Let it be someone who shows these characteristics’. Now these are the moral features which are suited to one who is going to be united to the heavenly Man."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "To use our language, he could have found out the address of Abraham’s family, but he did not do it that way, he identified the wife to be by the characteristics that marked her, and that is what brought out the wonderment."
+     "text": [
+      "To use our language, he could have found out the address of Abraham’s family, but he did not do it that way, he identified the wife to be by the characteristics that marked her, and that is what brought out the wonderment."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes so there is that which is an expression of Christ Himself, being formed today, and that is what He is looking for is it not?"
+     "text": [
+      "Yes so there is that which is an expression of Christ Himself, being formed today, and that is what He is looking for is it not?"
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "I was thinking of the first scripture. He built the rib, that would be similar to this, but then Man says “This time”, he saw something different. What the woman had been built from; there was some difference from all those animals, all those creatures, they had been formed, but the woman was built."
+     "text": [
+      "I was thinking of the first scripture. He built the rib, that would be similar to this, but then Man says “This time”, he saw something different. What the woman had been built from; there was some difference from all those animals, all those creatures, they had been formed, but the woman was built."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes and there was one here, she comes out with the features of the woman of worth (Proverbs 31: 10). Now the servant says ‘these are the features I am looking for’, it is really the woman of worth. She is not afraid of the coming day, she works, she is diligent, and the Holy Spirit would be looking to draw out these features."
+     "text": [
+      "Yes and there was one here, she comes out with the features of the woman of worth (Proverbs 31: 10). Now the servant says ‘these are the features I am looking for’, it is really the woman of worth. She is not afraid of the coming day, she works, she is diligent, and the Holy Spirit would be looking to draw out these features."
+     ]
     },
     {
      "speaker": "JDG",
-     "text": "So he went to the well. He does not go to the two rivers that were there, the centre of commerce in the city, he went to the well. Where would you find the well, in the local place? I think that is where you identify and locate it is it not?"
+     "text": [
+      "So he went to the well. He does not go to the two rivers that were there, the centre of commerce in the city, he went to the well. Where would you find the well, in the local place? I think that is where you identify and locate it is it not?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, that is right, the source where you can draw what is sustaining to life and draw refreshment. The well suggests the depths that you can draw from, he went to the well. We have these types, we have the camels, we have the well, we have the servant; three figures of the Holy Spirit, these are things which have often been said. But he went to this place where divine resources can be drawn from, and there was one who was drawing on them."
+     "text": [
+      "Yes, that is right, the source where you can draw what is sustaining to life and draw refreshment. The well suggests the depths that you can draw from, he went to the well. We have these types, we have the camels, we have the well, we have the servant; three figures of the Holy Spirit, these are things which have often been said. But he went to this place where divine resources can be drawn from, and there was one who was drawing on them."
+     ]
     },
     {
      "speaker": "JS",
-     "text": "As the believer is drawing characteristically on the Spirit, he becomes suitable material for the Spirit to take on in view of forming the assembly do you think?"
+     "text": [
+      "As the believer is drawing characteristically on the Spirit, he becomes suitable material for the Spirit to take on in view of forming the assembly do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I think so and the word that you used ‘characteristically’, I think is important. I mean we have occasions and we get stimulated and we say that was good, and we maybe think about them for a few days, but characteristically to be drawing from this well, to be amenable to the Holy Spirit’s operations, is what leads to formation."
+     "text": [
+      "I think so and the word that you used ‘characteristically’, I think is important. I mean we have occasions and we get stimulated and we say that was good, and we maybe think about them for a few days, but characteristically to be drawing from this well, to be amenable to the Holy Spirit’s operations, is what leads to formation."
+     ]
     },
     {
      "speaker": "JS",
-     "text": "It is really a daily exercise that has to be taken up by believers, so that we become suitable material for the Holy Spirit to work on in view of this great matter of the formation of the assembly."
+     "text": [
+      "It is really a daily exercise that has to be taken up by believers, so that we become suitable material for the Holy Spirit to work on in view of this great matter of the formation of the assembly."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Well it is a test to us is it not? How easy is it for the Holy Spirit to work with me? What space do I give Him, what place in my life do I give Him? so that He can work and secure that which His mission is for."
+     "text": [
+      "Well it is a test to us is it not? How easy is it for the Holy Spirit to work with me? What space do I give Him, what place in my life do I give Him? so that He can work and secure that which His mission is for."
+     ]
     },
     {
      "speaker": "CKR",
-     "text": "You are seeing this then as developing from the upper room, forward from the one hundred and twenty, then the Spirit coming, the gospel opening up, souls secured who then persevere in the teaching and fellowship of the apostles, breaking of bread and prayers? Are these the characteristics that are now beginning to develop, so that the Spirit has great pleasure in seeing these features developing, and then it all opens out throughout the whole period of the Acts and onward?"
+     "text": [
+      "You are seeing this then as developing from the upper room, forward from the one hundred and twenty, then the Spirit coming, the gospel opening up, souls secured who then persevere in the teaching and fellowship of the apostles, breaking of bread and prayers? Are these the characteristics that are now beginning to develop, so that the Spirit has great pleasure in seeing these features developing, and then it all opens out throughout the whole period of the Acts and onward?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Well those features came to light in the early part of Acts did they not? As you say they were developing, they were growing and then Paul came on to the scene, and you have in Paul’s ministry the development of the truth of the assembly and what it is, and he was putting it into context in the minds of the saints. There was what was there actually, but you see the great truth of it developing in Paul’s ministry."
+     "text": [
+      "Well those features came to light in the early part of Acts did they not? As you say they were developing, they were growing and then Paul came on to the scene, and you have in Paul’s ministry the development of the truth of the assembly and what it is, and he was putting it into context in the minds of the saints. There was what was there actually, but you see the great truth of it developing in Paul’s ministry."
+     ]
     },
     {
      "speaker": "CKR",
-     "text": "So that there was something special given to Paul was there not? And that was then particularly used, under the hand of the Spirit for the developing of the truth of the assembly, and the forming of that in localities and the continuation of that."
+     "text": [
+      "So that there was something special given to Paul was there not? And that was then particularly used, under the hand of the Spirit for the developing of the truth of the assembly, and the forming of that in localities and the continuation of that."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes indeed."
+     "text": [
+      "Yes indeed."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "So the assembly features are located today, not exactly by an address or by a church but by the characteristics that come out that are for Christ’s heart. And it affects our decisions in life too, marriage and so on. You may say there are others in this chapter who are kin, but they were not demonstrating the same characteristics that were an answer to Christ’s heart."
+     "text": [
+      "So the assembly features are located today, not exactly by an address or by a church but by the characteristics that come out that are for Christ’s heart. And it affects our decisions in life too, marriage and so on. You may say there are others in this chapter who are kin, but they were not demonstrating the same characteristics that were an answer to Christ’s heart."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Well, the natural mind—Laban and her mother they did not want Rebecca to go, why should she not stay for a few days? That is natural thinking, but it is delaying what is for the pleasure of Christ, and the more nature delays what is for the pleasure of Christ, the more it would tend to spoil it."
+     "text": [
+      "Well, the natural mind—Laban and her mother they did not want Rebecca to go, why should she not stay for a few days? That is natural thinking, but it is delaying what is for the pleasure of Christ, and the more nature delays what is for the pleasure of Christ, the more it would tend to spoil it."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "I was interested in your earlier references to John’s gospel where the assembly is not mentioned, but the characteristics are there, there is substance and there is reality. I was thinking too in this context that “out of his belly shall flow rivers of living water”, John 7: 38. There is someone who is affected inwardly. She must have been used to being affected inwardly by the Spirit so that she is usable, able to be directed by the Spirit externally."
+     "text": [
+      "I was interested in your earlier references to John’s gospel where the assembly is not mentioned, but the characteristics are there, there is substance and there is reality. I was thinking too in this context that “out of his belly shall flow rivers of living water”, John 7: 38. There is someone who is affected inwardly. She must have been used to being affected inwardly by the Spirit so that she is usable, able to be directed by the Spirit externally."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, there was something formed in her heart, so that when this challenge came nature had no claim upon her. She said, ‘There is one before me who has taken the place of a servant and he is serving a glorious master’, and she was so affected in herself she says, “I will go”. There was that in herself; morally she was suited anyway, she was a wonderful soul, the things that are said about her, but there was that that freed her from what was of nature, so that she was ready to go."
+     "text": [
+      "Yes, there was something formed in her heart, so that when this challenge came nature had no claim upon her. She said, ‘There is one before me who has taken the place of a servant and he is serving a glorious master’, and she was so affected in herself she says, “I will go”. There was that in herself; morally she was suited anyway, she was a wonderful soul, the things that are said about her, but there was that that freed her from what was of nature, so that she was ready to go."
+     ]
     },
     {
      "speaker": "DTP",
-     "text": "So the Spirit had really won her love. The servant had won her love had he not? And that really develops then the features that want to be with this one as He proceeds in service because it is leading to something far greater is it not?"
+     "text": [
+      "So the Spirit had really won her love. The servant had won her love had he not? And that really develops then the features that want to be with this one as He proceeds in service because it is leading to something far greater is it not?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "And at the end of the chapter she moves into that position, into Sarah’s tent. The Lord has what is greater than Israel at the present time. There is an aspect, you see it in type in Jacob later where he does not have what is looked for in Israel, but the assembly comes in in compensation. What the Lord has in the assembly is far greater than what He will ever have in Israel and that is what the Spirit is working to."
+     "text": [
+      "And at the end of the chapter she moves into that position, into Sarah’s tent. The Lord has what is greater than Israel at the present time. There is an aspect, you see it in type in Jacob later where he does not have what is looked for in Israel, but the assembly comes in in compensation. What the Lord has in the assembly is far greater than what He will ever have in Israel and that is what the Spirit is working to."
+     ]
     },
     {
      "speaker": "DTP",
-     "text": "As you say it really is far greater than He is ever going to have from Israel; so how precious really the assembly becomes in that character, so distinctive, and one that is relying on divine resources."
+     "text": [
+      "As you say it really is far greater than He is ever going to have from Israel; so how precious really the assembly becomes in that character, so distinctive, and one that is relying on divine resources."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes that is very good."
+     "text": [
+      "Yes that is very good."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "It is very interesting that while all this vital activity goes on by the servant there are resources of God behind, “all the treasure of his master”. Then there is communication between the servant and God, indicating that the Spirit is bringing heavenly communications from the Father and the Son in relation to what the assembly formation will be, and it is coming to light."
+     "text": [
+      "It is very interesting that while all this vital activity goes on by the servant there are resources of God behind, “all the treasure of his master”. Then there is communication between the servant and God, indicating that the Spirit is bringing heavenly communications from the Father and the Son in relation to what the assembly formation will be, and it is coming to light."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes and those communications have been brought down to us have they not? We can read them here, but more than that we can get some sense of the feelings of divine Persons in relation to what is being formed now."
+     "text": [
+      "Yes and those communications have been brought down to us have they not? We can read them here, but more than that we can get some sense of the feelings of divine Persons in relation to what is being formed now."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "I was thinking of the intense interest that God the Father has in relation to all the Spirit’s work in forming the saints in relation to the assembly now; making us assembly minded, and having an assembly outlook do you think?"
+     "text": [
+      "I was thinking of the intense interest that God the Father has in relation to all the Spirit’s work in forming the saints in relation to the assembly now; making us assembly minded, and having an assembly outlook do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes that is good."
+     "text": [
+      "Yes that is good."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "Rebecca was one who must have literally been at the well often, but in this chapter she drew frequently and deeply from its resources. That really is the great distinguishing feature of the assembly, and what marks it in this dispensation is that it is the vessel in which the Holy Spirit is able to operate, and to bring into expression what is pleasing to Christ."
+     "text": [
+      "Rebecca was one who must have literally been at the well often, but in this chapter she drew frequently and deeply from its resources. That really is the great distinguishing feature of the assembly, and what marks it in this dispensation is that it is the vessel in which the Holy Spirit is able to operate, and to bring into expression what is pleasing to Christ."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, and so the freer the Holy Spirit is with us the more He can communicate what is of Christ. We should be exercised that there should be that which is living, which is of Christ."
+     "text": [
+      "Yes, and so the freer the Holy Spirit is with us the more He can communicate what is of Christ. We should be exercised that there should be that which is living, which is of Christ."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "As you remarked earlier there are three types of the Holy Spirit in this chapter, there is the servant himself, and there is the well, and then there are the camels, but we can be flexible in our thinking about them. Rebecca was in relation to each of them was she not? Then she sprang off the camel, what do you say about that?"
+     "text": [
+      "As you remarked earlier there are three types of the Holy Spirit in this chapter, there is the servant himself, and there is the well, and then there are the camels, but we can be flexible in our thinking about them. Rebecca was in relation to each of them was she not? Then she sprang off the camel, what do you say about that?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Well she had one man before her did she not? What a moment! Think of it in its literality, what a moment that will be when the Holy Spirit’s work is complete. I remember a brother saying, ‘The Holy Spirit will be able to present to Christ the result of His work and He will say, ‘This is what I have wrought’’ and the Lord will look at it and He will say, ‘That is just perfect’."
+     "text": [
+      "Well she had one man before her did she not? What a moment! Think of it in its literality, what a moment that will be when the Holy Spirit’s work is complete. I remember a brother saying, ‘The Holy Spirit will be able to present to Christ the result of His work and He will say, ‘This is what I have wrought’’ and the Lord will look at it and He will say, ‘That is just perfect’."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "There is rest and there is peace but there is also movement. Movement comes in here and Rebecca is ready for that. Do you think something of what you have read of in Ephesians would also have that in mind? It is not a static thing, the “washing of water by the word” and then the “nourishing”. It is something that is in living movement towards Christ’s affections is it not?"
+     "text": [
+      "There is rest and there is peace but there is also movement. Movement comes in here and Rebecca is ready for that. Do you think something of what you have read of in Ephesians would also have that in mind? It is not a static thing, the “washing of water by the word” and then the “nourishing”. It is something that is in living movement towards Christ’s affections is it not?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes and I think it is movement away from what would hold us here. Remember the Israelites of old, they reached the springing well and then they stopped their wanderings they started moving forward; they had the land before them and nothing was going to stop them then. Once they reached that point nothing could stand in their way, and really that is what the Holy Spirit would be engaged in, moving us away from what would hold us here. We know there are things that are evil and we avoid them, but there is nature as well, there is what would hold us, and that has such a firm grip upon us that we need the power of a divine Person to help us in movement away from this to another sphere, a sphere where Jesus is."
+     "text": [
+      "Yes and I think it is movement away from what would hold us here. Remember the Israelites of old, they reached the springing well and then they stopped their wanderings they started moving forward; they had the land before them and nothing was going to stop them then. Once they reached that point nothing could stand in their way, and really that is what the Holy Spirit would be engaged in, moving us away from what would hold us here. We know there are things that are evil and we avoid them, but there is nature as well, there is what would hold us, and that has such a firm grip upon us that we need the power of a divine Person to help us in movement away from this to another sphere, a sphere where Jesus is."
+     ]
     },
     {
      "speaker": "JS",
-     "text": "Do you think in the camels we get the suggestion of the power of the Spirit, to cause us to merge together and move together in affection for the heavenly Man? It is a great matter that we are able to move in that unified way as merged together, so that there is something of true assembly affection that comes out for the heavenly Man."
+     "text": [
+      "Do you think in the camels we get the suggestion of the power of the Spirit, to cause us to merge together and move together in affection for the heavenly Man? It is a great matter that we are able to move in that unified way as merged together, so that there is something of true assembly affection that comes out for the heavenly Man."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes so it is not just an individual thing, there is the whole vessel, what is formed in the assembly is in movement to Him. It is wonderful to think of that, that the assembly’s affections are so bound up with Him by the Holy Spirit that she is drawn to Him, she is moving to Him."
+     "text": [
+      "Yes so it is not just an individual thing, there is the whole vessel, what is formed in the assembly is in movement to Him. It is wonderful to think of that, that the assembly’s affections are so bound up with Him by the Holy Spirit that she is drawn to Him, she is moving to Him."
+     ]
     },
     {
      "speaker": "CKR",
-     "text": "There is more than one reference in this chapter to Jehovah making his journey prosperous. Could you say something on that? You have already referred to “Wilt thou go with this man?” and “Do not hinder me, seeing Jehovah has prospered my way”, could you give us your impression of the prosperity that has characterised this dispensation. I may see breakdown and wonder if there has been any prosperity, but there is a glory and dignity about the Spirit’s operations through all of this is there not, that has secured an individual such as Rebecca."
+     "text": [
+      "There is more than one reference in this chapter to Jehovah making his journey prosperous. Could you say something on that? You have already referred to “Wilt thou go with this man?” and “Do not hinder me, seeing Jehovah has prospered my way”, could you give us your impression of the prosperity that has characterised this dispensation. I may see breakdown and wonder if there has been any prosperity, but there is a glory and dignity about the Spirit’s operations through all of this is there not, that has secured an individual such as Rebecca."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Absolutely, and you might say the glory side that will be seen publicly is future, but we can lay hold of that now, we must lay hold of that now, otherwise we will just see the church as it is publicly,"
+     "text": [
+      "Absolutely, and you might say the glory side that will be seen publicly is future, but we can lay hold of that now, we must lay hold of that now, otherwise we will just see the church as it is publicly,",
+      "‘Though with a scornful wonder",
+      "Men see her sore opprest,",
+      "By schisms rent asunder",
+      "By heresies distrest …",
+      "(from the hymn ‘The Church’s One Foundation’).",
+      "That is the public view of the church and we are ashamed of it. Brethren we must be ashamed of it because we have our part in it. It is not just something to sing about, it is something we are ashamed of, and yet, wonderful thing, there is no breakdown in divine workmanship, there is no breakdown in what the Spirit will do and it is being formed in the saints. We find it as we are together do we not, that what the Spirit has formed in you and what He has formed in me finds a link and there is movement towards Christ. There is a glorious end to it all and it is all His work."
+     ]
     },
     {
-     "text": "‘Though with a scornful wonder"
-    },
-    {
-     "text": "Men see her sore opprest,"
-    },
-    {
-     "text": "By schisms rent asunder"
-    },
-    {
-     "text": "By heresies distrest …"
-    },
-    {
-     "text": "(from the hymn ‘The Church’s One Foundation’)."
-    },
-    {
-     "text": "That is the public view of the church and we are ashamed of it. Brethren we must be ashamed of it because we have our part in it. It is not just something to sing about, it is something we are ashamed of, and yet, wonderful thing, there is no breakdown in divine workmanship, there is no breakdown in what the Spirit will do and it is being formed in the saints. We find it as we are together do we not, that what the Spirit has formed in you and what He has formed in me finds a link and there is movement towards Christ. There is a glorious end to it all and it is all His work."
-    },
-    {
-     "text": "JTB(Gr) Does it bring out something of the divine favour? It says Isaac was dwelling in the south country, dwelling in Beer-lahai-roi, ‘Well of the Living ... (or who reveals himself)’, (see note ‘c’ to Genesis 16: 14). Do you think he is really in the area of divine favour and the Spirit would take us towards that area do you think?"
+     "speaker": "JTB(Gr)",
+     "text": [
+      "Does it bring out something of the divine favour? It says Isaac was dwelling in the south country, dwelling in Beer-lahai-roi, ‘Well of the Living ... (or who reveals himself)’, (see note ‘c’ to Genesis 16: 14). Do you think he is really in the area of divine favour and the Spirit would take us towards that area do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes that is right. He had gone out to meditate, what was in his mind, as you say, is the sphere of divine favour. He lifted up his eyes. Rebecca lifted up her eyes. Think of the wonderful presentation that we have here, and you see the equivalence between Isaac and Rebecca and then she is completely for him. It says, “she sprang off the camel”, “then she covered herself”, and “Isaac led her”."
-    },
-    {
-     "text": "Well in Ephesians we have what the Lord Himself does. And here the Lord has acted in love for the assembly. The Holy Spirit is presented as acting in lowly grace and that is a blessed thing. God in Genesis 2 acted from His own side, in the greatness of His thoughts, but here the Lord Jesus is acting in love, and He is acting in order that there should be that which is pure, that which is holy. He has already secured it, He has laid the basis, He has done that in His death, He “loved the assembly, and has delivered himself up for it”, but there is a reason, “in order that”. The Lord’s love in securing the assembly in that sense was not sufficient, that love now delights to be exercised in ministering to the one that is secured in order that this state, this sanctified, holy state that is suited to Himself, should be produced."
+     "text": [
+      "Yes that is right. He had gone out to meditate, what was in his mind, as you say, is the sphere of divine favour. He lifted up his eyes. Rebecca lifted up her eyes. Think of the wonderful presentation that we have here, and you see the equivalence between Isaac and Rebecca and then she is completely for him. It says, “she sprang off the camel”, “then she covered herself”, and “Isaac led her”.",
+      "Well in Ephesians we have what the Lord Himself does. And here the Lord has acted in love for the assembly. The Holy Spirit is presented as acting in lowly grace and that is a blessed thing. God in Genesis 2 acted from His own side, in the greatness of His thoughts, but here the Lord Jesus is acting in love, and He is acting in order that there should be that which is pure, that which is holy. He has already secured it, He has laid the basis, He has done that in His death, He “loved the assembly, and has delivered himself up for it”, but there is a reason, “in order that”. The Lord’s love in securing the assembly in that sense was not sufficient, that love now delights to be exercised in ministering to the one that is secured in order that this state, this sanctified, holy state that is suited to Himself, should be produced."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "What is proceeding among believers at the present time is something that would be ready for translation do you think? The reference to “purifying it by the washing of water by the word”, the purifying effect by the word is to show that the Spirit and the bride can unitedly say ‘Come’, is it?"
+     "text": [
+      "What is proceeding among believers at the present time is something that would be ready for translation do you think? The reference to “purifying it by the washing of water by the word”, the purifying effect by the word is to show that the Spirit and the bride can unitedly say ‘Come’, is it?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes that is good, the bride. She kept herself, she is pure for Him, she is wholly in relation to Himself. So He sanctifies it, the word is applied, the water by the word, it is the washing effect. So we pick up pollution, we pick up what is not suited, there is that in our own hearts which is not suited; the word comes, engages us with Christ, engages us with the One who has so loved the assembly that He has acted in this way and it has a sanctifying effect upon us."
+     "text": [
+      "Yes that is good, the bride. She kept herself, she is pure for Him, she is wholly in relation to Himself. So He sanctifies it, the word is applied, the water by the word, it is the washing effect. So we pick up pollution, we pick up what is not suited, there is that in our own hearts which is not suited; the word comes, engages us with Christ, engages us with the One who has so loved the assembly that He has acted in this way and it has a sanctifying effect upon us."
+     ]
     },
     {
-     "text": "AJMcS Do you think this is a preventative service? Well you have drawn attention to the character of the assembly that cannot break down. We have divine Persons to thank for that. The assembly publicly as committed into the hands of men, fell very quickly at the beginning of the dispensation, but the aspect that you are bringing before us has never broken down, not because of our faithfulness, but because of divine Persons, do you think?"
+     "speaker": "AJMcS",
+     "text": [
+      "Do you think this is a preventative service? Well you have drawn attention to the character of the assembly that cannot break down. We have divine Persons to thank for that. The assembly publicly as committed into the hands of men, fell very quickly at the beginning of the dispensation, but the aspect that you are bringing before us has never broken down, not because of our faithfulness, but because of divine Persons, do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes it is what the Lord does, and it is His love behind it all, that He should have an answer to that love, that suits Himself. “Christ also loved the assembly, and has delivered himself up for it”, that is the past, “in order that he might sanctify it”, that is now, that is the present."
+     "text": [
+      "Yes it is what the Lord does, and it is His love behind it all, that He should have an answer to that love, that suits Himself. “Christ also loved the assembly, and has delivered himself up for it”, that is the past, “in order that he might sanctify it”, that is now, that is the present."
+     ]
     },
     {
      "speaker": "GBG",
-     "text": "It is wonderful to think that the Lord has such love that He is serving the assembly through the whole dispensation."
+     "text": [
+      "It is wonderful to think that the Lord has such love that He is serving the assembly through the whole dispensation."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, that is right, nourishing and cherishing it, what lovely expressions these are. I suppose we can remember that when we were little children our parents nourished us, they fed us, but then there was more than that, there was the cherishing as well. It was the expression of love. What wonderful expressions are used here, and the Lord is engaged in this kind of service. He loves to serve, it is not an arduous work for Him. He loves to do it, in order that He should have that object which is pure and holy, that “he might present the assembly to himself glorious, having no spot, or wrinkle, or any of such things; but that it might be holy and blameless”. RDP How does this “washing of water by the word” happen today?"
+     "text": [
+      "Yes, that is right, nourishing and cherishing it, what lovely expressions these are. I suppose we can remember that when we were little children our parents nourished us, they fed us, but then there was more than that, there was the cherishing as well. It was the expression of love. What wonderful expressions are used here, and the Lord is engaged in this kind of service. He loves to serve, it is not an arduous work for Him. He loves to do it, in order that He should have that object which is pure and holy, that “he might present the assembly to himself glorious, having no spot, or wrinkle, or any of such things; but that it might be holy and blameless”. RDP How does this “washing of water by the word” happen today?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I think the word comes and we receive it from Himself. We lay ourselves open to receive it. To receive the word from Himself and to be exercised by it, we find it has that cleansing, sanctifying effect, but it is Himself, we trace it to Him, He does it."
+     "text": [
+      "I think the word comes and we receive it from Himself. We lay ourselves open to receive it. To receive the word from Himself and to be exercised by it, we find it has that cleansing, sanctifying effect, but it is Himself, we trace it to Him, He does it."
+     ]
     },
     {
      "speaker": "RDP",
-     "text": "A brother said he thought of it like the action of the eyelid. You are not conscious of the fact that it is constantly going on. It is not exactly corrective, our brother said preventative, and so that you are almost not conscious of this. Even occasions like this, which is important why we have them, would have part in this do you think?"
+     "text": [
+      "A brother said he thought of it like the action of the eyelid. You are not conscious of the fact that it is constantly going on. It is not exactly corrective, our brother said preventative, and so that you are almost not conscious of this. Even occasions like this, which is important why we have them, would have part in this do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I think all of our occasions should be a part of this, and I think too our personal devotions and our links with one another, in serving one another as was referred to earlier, should all be part of this great service which is going on, and the Lord is over it all."
+     "text": [
+      "I think all of our occasions should be a part of this, and I think too our personal devotions and our links with one another, in serving one another as was referred to earlier, should all be part of this great service which is going on, and the Lord is over it all."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "Would it emphasise the importance of our gatherings therefore, that as far as we are able, we should be with the saints to find out what the Lord is saying, and what the Spirit may be giving in freshness?"
+     "text": [
+      "Would it emphasise the importance of our gatherings therefore, that as far as we are able, we should be with the saints to find out what the Lord is saying, and what the Spirit may be giving in freshness?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes I think so and to help us to view each gathering of the saints as an opportunity when the Lord will minister to us."
+     "text": [
+      "Yes I think so and to help us to view each gathering of the saints as an opportunity when the Lord will minister to us."
+     ]
     },
     {
      "speaker": "JDG",
-     "text": "There is a reference to the mind, the faculty of the believer, and the heart of the believer, “by the washing of water by the word”. I wondered if it would especially affect the mind of the believer and the affections."
+     "text": [
+      "There is a reference to the mind, the faculty of the believer, and the heart of the believer, “by the washing of water by the word”. I wondered if it would especially affect the mind of the believer and the affections."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes I think that is good, so that our minds become clear of the way in which men naturally think, but we think in relation to Christ, we think in relation to His interests. We prove the sanctifying effect of that."
+     "text": [
+      "Yes I think that is good, so that our minds become clear of the way in which men naturally think, but we think in relation to Christ, we think in relation to His interests. We prove the sanctifying effect of that."
+     ]
     },
     {
      "speaker": "CKR",
-     "text": "Why does he bring it into the marriage aspect? He seems to take opportunity. He is talking about “Husbands, love your own wives”, it is like his soul begins to open out with a fresh glory. I just wondered if you had any thought as to that."
+     "text": [
+      "Why does he bring it into the marriage aspect? He seems to take opportunity. He is talking about “Husbands, love your own wives”, it is like his soul begins to open out with a fresh glory. I just wondered if you had any thought as to that."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Well I do not know about you, but I feel very measured when I read this passage, because he is presenting Christ’s love for the assembly as a standard, is he not? “Husbands, love your own wives, even as the Christ also loved the assembly.” He devoted himself to the assembly, He gave Himself for it, He serves it, and Paul is saying this is the standard. There are relationships of life that are presented to us so that we should understand divine thoughts, but this is the other way round. This is divine thoughts presented as a standard for the relationships of life."
+     "text": [
+      "Well I do not know about you, but I feel very measured when I read this passage, because he is presenting Christ’s love for the assembly as a standard, is he not? “Husbands, love your own wives, even as the Christ also loved the assembly.” He devoted himself to the assembly, He gave Himself for it, He serves it, and Paul is saying this is the standard. There are relationships of life that are presented to us so that we should understand divine thoughts, but this is the other way round. This is divine thoughts presented as a standard for the relationships of life."
+     ]
     },
     {
      "speaker": "CKR",
-     "text": "It should be our prayers that marriages are held to that level and glory should it not? The enemy would seek to weaken it to man’s standard."
+     "text": [
+      "It should be our prayers that marriages are held to that level and glory should it not? The enemy would seek to weaken it to man’s standard."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes absolutely."
+     "text": [
+      "Yes absolutely."
+     ]
     },
     {
-     "text": "RGr Do you think then that it is a propitious time when our affections are awakened? There is no teacher like love. So when we are engaged at the Supper or the service of God it is not a time for ministry or teaching, but it is a time for learning, when we absorb impressions and our affections take them on readily."
+     "speaker": "RGr",
+     "text": [
+      "Do you think then that it is a propitious time when our affections are awakened? There is no teacher like love. So when we are engaged at the Supper or the service of God it is not a time for ministry or teaching, but it is a time for learning, when we absorb impressions and our affections take them on readily."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is good. These things react on one another do they not? I remember being struck by a remark of Mr Raven’s that intelligence is intended to increase our affection, and our affections will lead to greater intelligence."
+     "text": [
+      "That is good. These things react on one another do they not? I remember being struck by a remark of Mr Raven’s that intelligence is intended to increase our affection, and our affections will lead to greater intelligence."
+     ]
     },
     {
-     "text": "AJMcS Would you say that these chapters are very encouraging for us as to working out things in the natural sphere, because I think many of us feel measured and tested by what you have been saying about not being hindered by nature? That is very challenging to us. Do the last three chapters of Ephesians show particularly that we are not dead to nature, we can come back down into the realm of nature as heavenly persons, and work it out as God would have us to do."
+     "speaker": "AJMcS",
+     "text": [
+      "Would you say that these chapters are very encouraging for us as to working out things in the natural sphere, because I think many of us feel measured and tested by what you have been saying about not being hindered by nature? That is very challenging to us. Do the last three chapters of Ephesians show particularly that we are not dead to nature, we can come back down into the realm of nature as heavenly persons, and work it out as God would have us to do."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, so that it is extremely practical. Maybe some of the younger ones may not know that there was a time when there were those who said that we should be ‘dead to nature’ and it sounded very pious, but it was completely wrong. We are not dead to nature, but we hold nature in the light of divine thoughts, in the light of what we have in divine purpose. What is natural is to be held, nature in a sense is absolutely right, but it is not to hold us back, it is to be kept in its place."
+     "text": [
+      "Yes, so that it is extremely practical. Maybe some of the younger ones may not know that there was a time when there were those who said that we should be ‘dead to nature’ and it sounded very pious, but it was completely wrong. We are not dead to nature, but we hold nature in the light of divine thoughts, in the light of what we have in divine purpose. What is natural is to be held, nature in a sense is absolutely right, but it is not to hold us back, it is to be kept in its place."
+     ]
     }
    ]
   },
@@ -610,5 +809,31 @@
  "back_matter": [
   "Edited and Published by J. Strachan, 59 Frederick Street, Dundee, DD3 9DE, Scotland",
   "Printed by Crystal Stationery, 22 Western Road, Billericay, Essex CM12 9DZ, (T) (01277) 650661"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE ACTIVITIES OF DIVINE PERSONS IN ORDER THAT THE HEART OF CHRIST SHOULD BE SATISFIED",
+   "kind": "speaker_matched_loosely",
+   "detail": "JTB(Gr) used in the text for J. T. Brown (key gives JTB)"
+  },
+  {
+   "article": 1,
+   "title": "THE ACTIVITIES OF DIVINE PERSONS IN ORDER THAT THE HEART OF CHRIST SHOULD BE SATISFIED",
+   "kind": "speaker_matched_loosely",
+   "detail": "JSp used in the text for J. Spinks (key gives JS)"
+  },
+  {
+   "article": 1,
+   "title": "THE ACTIVITIES OF DIVINE PERSONS IN ORDER THAT THE HEART OF CHRIST SHOULD BE SATISFIED",
+   "kind": "speaker_matched_loosely",
+   "detail": "RGr used in the text for R. Gray (key gives RG)"
+  },
+  {
+   "article": 1,
+   "title": "THE ACTIVITIES OF DIVINE PERSONS IN ORDER THAT THE HEART OF CHRIST SHOULD BE SATISFIED",
+   "kind": "speaker_matched_loosely",
+   "detail": "AJMcS used in the text for A. J. McSeveney (key gives AJM)"
+  }
  ]
 }

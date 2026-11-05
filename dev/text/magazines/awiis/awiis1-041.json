@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,85 +26,85 @@
    "place": "GRANGEMOUTH",
    "date": "19 April 1975",
    "speakers": [
-    "J.L.",
-    "J.M.",
-    "R.S.R.",
-    "A.C.C.",
-    "J.R.",
-    "J.H.",
-    "A.F.",
-    "S.Y.",
-    "W.L.",
-    "J.D.G.",
-    "J.S.",
-    "J.N.",
-    "J.B."
+    "JL",
+    "JM",
+    "RSR",
+    "ACC",
+    "JR",
+    "JH",
+    "AF",
+    "SY",
+    "WL",
+    "JDG",
+    "JS",
+    "JN",
+    "JB"
    ],
    "initials": [
     {
-     "initials": "JBJBA",
-     "name": "J.B. J.Boyd Airdrie"
+     "initials": "JB",
+     "name": "J. Boyd",
+     "place": "Airdrie"
     },
     {
-     "initials": "AAB",
-     "name": "n. A.A.Brown Grangemouth"
+     "initials": "ACC",
+     "name": "A. C. Craig",
+     "place": "Airdrie"
     },
     {
-     "initials": "ACCACCA",
-     "name": "A.C.C. A.C.Craig Airdrie"
+     "initials": "AF",
+     "name": "A. Falconer",
+     "place": "Airdrie"
     },
     {
-     "initials": "AFAFA",
-     "name": "A.F. A.Falconer Airdrie"
+     "initials": "JDG",
+     "name": "J. D. Gray",
+     "place": "Edinburgh"
     },
     {
-     "initials": "JDGJDGE",
-     "name": "J.D.G. J.D.Gray Edinburgh"
+     "initials": "JH",
+     "name": "J. Harthill",
+     "place": "Glasgow"
     },
     {
-     "initials": "JHJHG",
-     "name": "J.H. J.Harthill Glasgow"
+     "initials": "WL",
+     "name": "W. Lamont",
+     "place": "Cumnock"
     },
     {
-     "initials": "WLWLC",
-     "name": "W.L. W.Lamont Cumnock"
+     "initials": "JL",
+     "name": "J. Lovie",
+     "place": "Macduff"
     },
     {
-     "initials": "JLJLM",
-     "name": "J.L. J.Lovie Macduff"
+     "initials": "JM",
+     "name": "James Munro",
+     "place": "Grangemouth"
     },
     {
-     "initials": "JMJMG",
-     "name": "J.M. James Munro Grangemouth"
+     "initials": "JN",
+     "name": "J. Newberry",
+     "place": "Coatbridge"
     },
     {
-     "initials": "J",
-     "name": "n.M. John Munro Grangemouth"
+     "initials": "JR",
+     "name": "J. Renton",
+     "place": "Edinburgh"
     },
     {
-     "initials": "JNJNC",
-     "name": "J.N. J.Newberry Coatbridge"
-    },
-    {
-     "initials": "JRJRE",
-     "name": "J.R. J.Renton Edinburgh"
-    },
-    {
-     "initials": "RSRRSRE",
-     "name": "R.S.R. R.S.Renton Edinburgh"
-    },
-    {
-     "initials": "JSJ",
-     "name": "J.S. J",
-     "place": "Spinks Grangemouth"
+     "initials": "RSR",
+     "name": "R. S. Renton",
+     "place": "Edinburgh"
     },
     {
      "initials": "JS",
-     "name": "n. J.Strachan Dundee"
+     "name": "J",
+     "place": "Spinks Grangemouth"
     },
     {
-     "initials": "SYSYL",
-     "name": "S.Y. S.Young Lochgelly"
+     "initials": "SY",
+     "name": "S. Young",
+     "place": "Lochgelly"
     }
    ],
    "initials_heading": "Key to initials",
@@ -113,467 +113,653 @@
    ],
    "paragraphs": [
     {
-     "speaker": "J.L.",
-     "text": "I wondered if we could, with the Lord's help, enquire together as to the expression in chapter 3 of Joshua, the instruction to the priests, \"Take up the ark of the covenant, and go over before the people\". It would be in view of the inheritance being entered upon, and involves priestly activity and laying hold of Christ as the One in whom every promise of God is made good. The exercise in chapter 3 of Joshua would bear on the Colossian letter; that is, the great thought of entering the inheritance. The Lord would have us take up our inheritance and enter upon it, and I think the need of the present time is that the brethren should go in for what is spiritual, go in for the inheritance; that is, seek to live in the light of God's purpose, in the consciousness of a link with Christ in heaven as the One in whom every promise of God is sustained. Simeon, as he takes the Child in his arms, is really taking up the ark of the covenant; he is embracing the great thought of divine love and purpose. Luke would suggest the ark of the covenant; that is, how God is coming out in His disposition and in His grace, and in the relations into which He has entered with men in view of blessing. Simeon is embracing that in a very wide way - \"a light for revelation of the Gentiles and the glory of thy people Israel\". Maybe we could be helped in enquiring as to how we can enter upon this priestly exercise in view of what is heavenly an d spiritual being enjoyed and sustained amongst us."
+     "speaker": "JL",
+     "text": [
+      "I wondered if we could, with the Lord's help, enquire together as to the expression in chapter 3 of Joshua, the instruction to the priests, \"Take up the ark of the covenant, and go over before the people\". It would be in view of the inheritance being entered upon, and involves priestly activity and laying hold of Christ as the One in whom every promise of God is made good. The exercise in chapter 3 of Joshua would bear on the Colossian letter; that is, the great thought of entering the inheritance. The Lord would have us take up our inheritance and enter upon it, and I think the need of the present time is that the brethren should go in for what is spiritual, go in for the inheritance; that is, seek to live in the light of God's purpose, in the consciousness of a link with Christ in heaven as the One in whom every promise of God is sustained. Simeon, as he takes the Child in his arms, is really taking up the ark of the covenant; he is embracing the great thought of divine love and purpose. Luke would suggest the ark of the covenant; that is, how God is coming out in His disposition and in His grace, and in the relations into which He has entered with men in view of blessing. Simeon is embracing that in a very wide way - \"a light for revelation of the Gentiles and the glory of thy people Israel\". Maybe we could be helped in enquiring as to how we can enter upon this priestly exercise in view of what is heavenly an d spiritual being enjoyed and sustained amongst us.",
+      "A.A.B-n. Would the place that Christ has in our affections have a bearing on it? \"In him is the yea, and in him the amen\" - the ark of the covenant. Would it be an appreciation of the One who as secured everything?"
+     ]
     },
     {
-     "text": "A.A.B-n. Would the place that Christ has in our affections have a bearing on it? \"In him is the yea, and in him the amen\" - the ark of the covenant. Would it be an appreciation of the One who as secured everything?"
+     "speaker": "JL",
+     "text": [
+      "Paul was setting that out in the second letter to Corinth and bringing Christ before the brethren as the One who is in Himself the verification of every thought of God for blessing in relation to His people. I think it is wonderful that we can appropriate Christ in this connection and see that He is the yea and amen; that is, He has not only set matters on but He has completed them, and He is in Himself the proof and witness and verification that every promise of God in relation to men is fulfilled.",
+      "A.A.B-n. In Joshua 3 there is an immediate answer: \"And they took up the ark of the covenant\". What would be in that?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Paul was setting that out in the second letter to Corinth and bringing Christ before the brethren as the One who is in Himself the verification of every thought of God for blessing in relation to His people. I think it is wonderful that we can appropriate Christ in this connection and see that He is the yea and amen; that is, He has not only set matters on but He has completed them, and He is in Himself the proof and witness and verification that every promise of God in relation to men is fulfilled."
+     "speaker": "JL",
+     "text": [
+      "I believe it is how we can appropriate Christ as the One in whom there is the fulfilment of every thought of God in relation to His covenant, which involves blessing for men; because, while there is no covenant made with the assembly, God will yet make a new covenant with Israel, and the cup to us is the witness that all that Israel will come into by way of blessing and covenant relations is conveyed to us now in the glad tidings; the cup, the blood of Christ, is the witness of that."
+     ]
     },
     {
-     "text": "A.A.B-n. In Joshua 3 there is an immediate answer: \"And they took up the ark of the covenant\". What would be in that?"
+     "speaker": "JM",
+     "text": [
+      "Entering into the inheritance involves exercise: “And Joshua rose early in the morning”. You cannot take up these matters in a slipshod way, can you?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "I believe it is how we can appropriate Christ as the One in whom there is the fulfilment of every thought of God in relation to His covenant, which involves blessing for men; because, while there is no covenant made with the assembly, God will yet make a new covenant with Israel, and the cup to us is the witness that all that Israel will come into by way of blessing and covenant relations is conveyed to us now in the glad tidings; the cup, the blood of Christ, is the witness of that."
+     "speaker": "JL",
+     "text": [
+      "You feel that. The people have come to a certain point. There has been the movement of energy in the Spirit, and certain enemies, Sihon and Og, overcome; and the movement in liberty as to the leading of the Spirit has been known. They come to the Jordan, and faith and a certain subjective state are needed for it. The reference to the Spirit in Colossians is a subjective reference - \"Your love in the Spirit\" (chap 1: 8); that is, it is the state subjectively of the brethren that is equal to entering. Along with that there is the teaching of circumcision."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Entering into the inheritance involves exercise: “And Joshua rose early in the morning”. You cannot take up these matters in a slipshod way, can you?"
+     "speaker": "RSR",
+     "text": [
+      "Would the victuals in chapter 1 give us a spiritual constitution to go over? Is it not strong food which we need constitutionally? The Man of the gospels is strong food."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "You feel that. The people have come to a certain point. There has been the movement of energy in the Spirit, and certain enemies, Sihon and Og, overcome; and the movement in liberty as to the leading of the Spirit has been known. They come to the Jordan, and faith and a certain subjective state are needed for it. The reference to the Spirit in Colossians is a subjective reference - \"Your love in the Spirit\" (chap 1: 8); that is, it is the state subjectively of the brethren that is equal to entering. Along with that there is the teaching of circumcision."
+     "speaker": "JL",
+     "text": [
+      "Surely. I think it is appropriating Christ in this connection. The manna was food for the wilderness. The young people amongst us should experience that, that in the wilderness life there is grace for every day in that lowly humanity that was here for the will of God. But food for entering the land, victuals as you say, is feeding on Christ as He comes on to view in the gospels, doing the will of God and carrying everything through for God.",
+      "A.A.B-n. When they come to the Jordan they have to lodge there before they pass over. Would these victuals strengthen us to appreciate the death of Christ in this particular way?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "Would the victuals in chapter 1 give us a spiritual constitution to go over? Is it not strong food which we need constitutionally? The Man of the gospels is strong food."
+     "speaker": "JL",
+     "text": [
+      "Yes, and too the Person of Christ, as Paul presents Him in Colossians. He is attracting the souls of the brethren by the greatness of who Christ is personally."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Surely. I think it is appropriating Christ in this connection. The manna was food for the wilderness. The young people amongst us should experience that, that in the wilderness life there is grace for every day in that lowly humanity that was here for the will of God. But food for entering the land, victuals as you say, is feeding on Christ as He comes on to view in the gospels, doing the will of God and carrying everything through for God."
+     "speaker": "ACC",
+     "text": [
+      "The priests are prominent here, not so much the Levitical side, in taking up the ark. Does that support your thought as to a subjective state ?"
+     ]
     },
     {
-     "text": "A.A.B-n. When they come to the Jordan they have to lodge there before they pass over. Would these victuals strengthen us to appreciate the death of Christ in this particular way?"
+     "speaker": "JL",
+     "text": [
+      "Yes, it is a priestly action; that is, the subjective state is seen in the brethren at Colosse, t he one reference to the Spirit being a subjective reference."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, and too the Person of Christ, as Paul presents Him in Colossians. He is attracting the souls of the brethren by the greatness of who Christ is personally."
+     "speaker": "ACC",
+     "text": [
+      "I see the importance of a priestly state in view of taking up the ark."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "The priests are prominent here, not so much the Levitical side, in taking up the ark. Does that support your thought as to a subjective state ?"
+     "speaker": "JR",
+     "text": [
+      "The priests are very closely associated with the ark; in fact they are required to complete the type. It says \"When ye see the ark of the covenant of Jehovah your God, and the priests the Levites bearing it, then remove from your place\". It shows the importance of priesthood."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, it is a priestly action; that is, the subjective state is seen in the brethren at Colosse, t he one reference to the Spirit being a subjective reference."
+     "speaker": "JL",
+     "text": [
+      "And the need for it in view of the inheritance being enjoyed. We speak much about the inheritance but I suppose it is really eternal life. The blessing that God has for men is bound up in the enjoyment of eternal life."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I see the importance of a priestly state in view of taking up the ark."
+     "speaker": "JM",
+     "text": [
+      "In Luke 2 it says of Sime on that \"the Holy Spirit was upon him\" as he received Him into his arms. Is that the state you are referring to?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The priests are very closely associated with the ark; in fact they are required to complete the type. It says \"When ye see the ark of the covenant of Jehovah your God, and the priests the Levites bearing it, then remove from your place\". It shows the importance of priesthood."
+     "speaker": "JL",
+     "text": [
+      "Yes, a man in Jerusalem. Paul said he did not use lightness; \"the Son of God... has been preached\", he says. That is the priestly state of things in the servant, and shows how closely he is identified with the ark of the covenant."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "And the need for it in view of the inheritance being enjoyed. We speak much about the inheritance but I suppose it is really eternal life. The blessing that God has for men is bound up in the enjoyment of eternal life."
+     "speaker": "ACC",
+     "text": [
+      "These early chapters in 2 Corinthians are largely for the ministers, but the over-riding thought is the priesthood. It is a priestly epistle"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "In Luke 2 it says of Sime on that \"the Holy Spirit was upon him\" as he received Him into his arms. Is that the state you are referring to?"
+     "speaker": "JL",
+     "text": [
+      "Yes; therefore it represents that state that is in all of us as having to do with God and the things of God. So it is the character of the ministers, \"ministers of the new covenant\" (2 Cor 3: 6); not exactly the ministry of the new covenant but the character of the thing in persons. It involves what is priestly.",
+      "J-n.M. It also says \"competent\", as if they were in the enjoyment of what they were setting out. Would that be the way in which others would be inclined to follow?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, a man in Jerusalem. Paul said he did not use lightness; \"the Son of God... has been preached\", he says. That is the priestly state of things in the servant, and shows how closely he is identified with the ark of the covenant."
+     "speaker": "JL",
+     "text": [
+      "Yes, they are fitted, in the sense of being qualified. \"Fitted to every good work\" (2 Tim 3: 17) is fitted in the sense that the person is qualified to take it up. It would be as having the Spirit."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "These early chapters in 2 Corinthians are largely for the ministers, but the over-riding thought is the priesthood. It is a priestly epistle"
+     "speaker": "JH",
+     "text": [
+      "We speak of going over by way of attraction. That would be what is here - \"When ye see the ark\"."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes; therefore it represents that state that is in all of us as having to do with God and the things of God. So it is the character of the ministers, \"ministers of the new covenant\" (2 Cor 3: 6); not exactly the ministry of the new covenant but the character of the thing in persons. It involves what is priestly."
+     "speaker": "JL",
+     "text": [
+      "That is very fine. These are some of the expressions that have come down to us, in the teaching of the truth, from our fathers. One of those expressions is that we are forced over the Red Sea, there is an enemy pursuing. But we are going over the Jordan in the power of attraction to Christ who has entered in, attracted into the heavenly land; and Paul is alluring the brethren into it in the way he speaks about Christ in the Colossian letter, because it is what He is personally that is engaging the soul."
+     ]
     },
     {
-     "text": "J-n.M. It also says \"competent\", as if they were in the enjoyment of what they were setting out. Would that be the way in which others would be inclined to follow?"
+     "speaker": "AF",
+     "text": [
+      "\"When ye see the ark\" - would that be spiritual and priestly concentration in relation to what was obtaining at the moment in the divine movements?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, they are fitted, in the sense of being qualified. \"Fitted to every good work\" (2 Tim 3: 17) is fitted in the sense that the person is qualified to take it up. It would be as having the Spirit."
+     "speaker": "JL",
+     "text": [
+      "Yes. Think of what can be seen in Christ in this connection as the ark of the covenant! It is not exactly the ark of the Lord of all, the earth, that is more Matthew's presentation. Mark is the ark of the testimony; Luke is more the ark of the covenant, what has come within our range in Christ position made known in Him."
+     ]
     },
     {
-     "speaker": "J.H.",
-     "text": "We speak of going over by way of attraction. That would be what is here - \"When ye see the ark\"."
+     "speaker": "AF",
+     "text": [
+      "The ark of the covenant - the faithfulness of God."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "That is very fine. These are some of the expressions that have come down to us, in the teaching of the truth, from our fathers. One of those expressions is that we are forced over the Red Sea, there is an enemy pursuing. But we are going over the Jordan in the power of attraction to Christ who has entered in, attracted into the heavenly land; and Paul is alluring the brethren into it in the way he speaks about Christ in the Colossian letter, because it is what He is personally that is engaging the soul."
+     "speaker": "JL",
+     "text": [
+      "That is beautiful. Where would we be apart from God's faithfulness?"
+     ]
     },
     {
-     "speaker": "A.F.",
-     "text": "\"When ye see the ark\" - would that be spiritual and priestly concentration in relation to what was obtaining at the moment in the divine movements?"
+     "speaker": "RSR",
+     "text": [
+      "You get the impression that the ark determines everything: \"When ye see the ark... then remove... and go after it\"."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes. Think of what can be seen in Christ in this connection as the ark of the covenant! It is not exactly the ark of the Lord of all, the earth, that is more Matthew's presentation. Mark is the ark of the testimony; Luke is more the ark of the covenant, what has come within our range in Christ position made known in Him."
+     "speaker": "JL",
+     "text": [
+      "Yes, that is energy in movement by the Spirit. Priestliness really means that we are spiritual."
+     ]
     },
     {
-     "speaker": "A.F.",
-     "text": "The ark of the covenant - the faithfulness of God."
+     "speaker": "SY",
+     "text": [
+      "Was it the heavenly Man that sustained Stephen?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "That is beautiful. Where would we be apart from God's faithfulness?"
+     "speaker": "JL",
+     "text": [
+      "Yes, he saw the glory of God and Jesus at the right hand of God."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "You get the impression that the ark determines everything: \"When ye see the ark... then remove... and go after it\"."
+     "speaker": "SY",
+     "text": [
+      "Mr Stoney said he had been into heaven and come out to face all that was against him."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, that is energy in movement by the Spirit. Priestliness really means that we are spiritual."
+     "speaker": "JL",
+     "text": [
+      "We would like to live like that. I am sure we would all like to live more in the blessedness of the purpose of God for men, to be true to it."
+     ]
     },
     {
-     "speaker": "S.Y.",
-     "text": "Was it the heavenly Man that sustained Stephen?"
+     "speaker": "JR",
+     "text": [
+      "Is not the ark related to the purpose of God and God's system of things, not so much related to our need? It is the centre of the divine system."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, he saw the glory of God and Jesus at the right hand of God."
+     "speaker": "JL",
+     "text": [
+      "Surely, the One in whom His testimony centres and the One through whom His thoughts of blessing are conveyed from the divine side, all in love's faithfulness."
+     ]
     },
     {
-     "speaker": "S.Y.",
-     "text": "Mr Stoney said he had been into heaven and come out to face all that was against him."
+     "speaker": "JR",
+     "text": [
+      "Later we have David's exercises regarding the ark, that there might be suited conditions for it. It was really priesthood on his part."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "We would like to live like that. I am sure we would all like to live more in the blessedness of the purpose of God for men, to be true to it."
+     "speaker": "JL",
+     "text": [
+      "Yes, the priest is thinking for God. Priestliness involves that persons are spiritual and thinking for God. Paul does not use the expression much, if at all, in his gentile epistles, but he does use the expression \"ye who are spiritual\" (Gal 6: 1) and that would be priestly. The expression as to what is priestly is used in the letter to the Hebrews but when he is writing to the gentile assemblies he uses the word spiritual."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Is not the ark related to the purpose of God and God's system of things, not so much related to our need? It is the centre of the divine system."
+     "speaker": "WL",
+     "text": [
+      "Would the measurement be a spiritual, priestly matter? It is not to be by guesswork but \"two thousand cubits by measure\"."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Surely, the One in whom His testimony centres and the One through whom His thoughts of blessing are conveyed from the divine side, all in love's faithfulness."
+     "speaker": "JL",
+     "text": [
+      "How unique and distinctive Christ is! The two thousand cubits involves that, that He is ever distinguished and unique. No matter how you see Him, no matter how close we can be alongside Him as in sonship, Christ is unique and distinct, and will be so eternally."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Later we have David's exercises regarding the ark, that there might be suited conditions for it. It was really priesthood on his part."
+     "speaker": "JDG",
+     "text": [
+      "In Colosse the danger was diversion. Yet the brethren were holy brethren. It would seem that there was a certain state there, as you have remarked, but as we have the Person of Christ before us does that preserve us from diversion?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, the priest is thinking for God. Priestliness involves that persons are spiritual and thinking for God. Paul does not use the expression much, if at all, in his gentile epistles, but he does use the expression \"ye who are spiritual\" (Gal 6: 1) and that would be priestly. The expression as to what is priestly is used in the letter to the Hebrews but when he is writing to the gentile assemblies he uses the word spiritual."
+     "speaker": "JL",
+     "text": [
+      "I think so. The danger was that human thinking - philosophy and vain deceit - would intrude. Yet they had received the Christ; that would be an affectionate reference. But there was what Paul could appeal to in the brethren at Colosse, and there was a state there to which he could present the attractiveness of Christ and what He is personally. In Colossians He is Head on personal grounds."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Would the measurement be a spiritual, priestly matter? It is not to be by guesswork but \"two thousand cubits by measure\"."
+     "speaker": "ACC",
+     "text": [
+      "We used to hear a good deal about Christ on God's side. I suppose the ark is largely that, if not altogether. It is a great comfort that everything is secure in Him in a day of breakdown, but your point is that everything is secure in Him in view of our enjoyment of the inheritance."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "How unique and distinctive Christ is! The two thousand cubits involves that, that He is ever distinguished and unique. No matter how you see Him, no matter how close we can be alongside Him as in sonship, Christ is unique and distinct, and will be so eternally."
+     "speaker": "JL",
+     "text": [
+      "Exactly, in view of our taking it up. So that from this viewpoint we can get as much of the inheritance as we go in for. We can have as much enjoyment of what is spiritual as we want because the Spirit will help us as far as we are prepared to go.",
+      "A.A.B-n. As these great purposes of God have a place in our affections and minds, and these suited conditions are brought about, there is something for God either in the individual or in the company, and in that there is enjoyment for us. God has His place as Christ is given His."
+     ]
     },
     {
-     "speaker": "J.D.G.",
-     "text": "In Colosse the danger was diversion. Yet the brethren were holy brethren. It would seem that there was a certain state there, as you have remarked, but as we have the Person of Christ before us does that preserve us from diversion?"
+     "speaker": "JL",
+     "text": [
+      "I am sure that is right. As we take it up, God gets His inheritance.",
+      "A.A.B-n. In Deuteronomy 8 Moses describes the land as \"a land of waterbrooks\"; it is attractively presented. Now Joshua is about to go over and take possession. The outlining of it by Moses is one thing, but now it is a matter of taking possession. Would you say something as to what the inheritance is. God's inheritance is in the saints. What is our inheritance?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "I think so. The danger was that human thinking - philosophy and vain deceit - would intrude. Yet they had received the Christ; that would be an affectionate reference. But there was what Paul could appeal to in the brethren at Colosse, and there was a state there to which he could present the attractiveness of Christ and what He is personally. In Colossians He is Head on personal grounds."
+     "speaker": "JL",
+     "text": [
+      "Christ is presented to us for our appropriation, but the inheritance as God's gift is that we should enjoy eternal life. What is the use of an inheritance unless we can take it up. A lot of people die and never gain their inheritance. But if we have an inheritance and it is a wealthy one, the need is to take it up, and that means that we come into the enjoyment of eternal life. I think Mr Taylor sen taught us that the inheritance is eternal life, the calling is sonship."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "We used to hear a good deal about Christ on God's side. I suppose the ark is largely that, if not altogether. It is a great comfort that everything is secure in Him in a day of breakdown, but your point is that everything is secure in Him in view of our enjoyment of the inheritance."
+     "speaker": "JR",
+     "text": [
+      "For saints of the present dispensation it would be of a heavenly order. We shall enter it when the Lord comes but what is heavenly is to be entered into and enjoyed now."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Exactly, in view of our taking it up. So that from this viewpoint we can get as much of the inheritance as we go in for. We can have as much enjoyment of what is spiritual as we want because the Spirit will help us as far as we are prepared to go."
+     "speaker": "JL",
+     "text": [
+      "That is, we are not waiting until the rapture to enjoy what is heavenly. The joy can be as great now as it will be eternally because we have the Spirit as the earnest. So that it is a present, living matter for faith."
+     ]
     },
     {
-     "text": "A.A.B-n. As these great purposes of God have a place in our affections and minds, and these suited conditions are brought about, there is something for God either in the individual or in the company, and in that there is enjoyment for us. God has His place as Christ is given His."
+     "speaker": "JR",
+     "text": [
+      "It is a great test as to what we know about this practically. I have no doubt we are meant to live in heaven and be visitors down here. We tend to live down here and visit heaven."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "I am sure that is right. As we take it up, God gets His inheritance."
+     "speaker": "JL",
+     "text": [
+      "Mr Lyon said that the Philippian saints had their roots in heaven and the foliage was down here, the tree upside down!"
+     ]
     },
     {
-     "text": "A.A.B-n. In Deuteronomy 8 Moses describes the land as \"a land of waterbrooks\"; it is attractively presented. Now Joshua is about to go over and take possession. The outlining of it by Moses is one thing, but now it is a matter of taking possession. Would you say something as to what the inheritance is. God's inheritance is in the saints. What is our inheritance?"
+     "speaker": "RSR",
+     "text": [
+      "Mr Raven mourned in his day that people did not cater for their own happiness. We get bogged down here so much that we do not really cater for spiritual things."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Christ is presented to us for our appropriation, but the inheritance as God's gift is that we should enjoy eternal life. What is the use of an inheritance unless we can take it up. A lot of people die and never gain their inheritance. But if we have an inheritance and it is a wealthy one, the need is to take it up, and that means that we come into the enjoyment of eternal life. I think Mr Taylor sen taught us that the inheritance is eternal life, the calling is sonship."
+     "speaker": "JL",
+     "text": [
+      "Well, it becomes a test as to what appeals to me. Mr Raven urged the brethren to pursue what would minister to their own happiness.",
+      "A.A.B-n. Do you think our tastes are sharpened and cultivated through the experience of the Supper and what flows from it? That really is the Christian’s life, so it would give a certain direction and tone for the rest of the week."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "For saints of the present dispensation it would be of a heavenly order. We shall enter it when the Lord comes but what is heavenly is to be entered into and enjoyed now."
+     "speaker": "JL",
+     "text": [
+      "So that the announcement, properly understood, shows that you are a witness to that, you are announcing His death till He come. Really the appearing is your soul, and you are announcing it publicly and declaring allegiance to Christ where He is, and are a traitor to this world."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "That is, we are not waiting until the rapture to enjoy what is heavenly. The joy can be as great now as it will be eternally because we have the Spirit as the earnest. So that it is a present, living matter for faith."
+     "speaker": "JS",
+     "text": [
+      "Would the announcing His death be like Hebrews 11: \"For they who say such things shew clearly that they seek their country\" (v 14)? It would be a plain matter."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is a great test as to what we know about this practically. I have no doubt we are meant to live in heaven and be visitors down here. We tend to live down here and visit heaven."
+     "speaker": "JL",
+     "text": [
+      "Abraham \"waited for the city which has foundations, of which God is the artificer and constructor\", Heb 11: 10. That is, the promises to Abraham were secured in Isaac, secured in Christ risen. So He is the yea and the amen."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Mr Lyon said that the Philippian saints had their roots in heaven and the foliage was down here, the tree upside down!"
+     "speaker": "JH",
+     "text": [
+      "Do we, in the service, actually take certain ground, by faith? \"Raised with him through faith\", Col 2: 12. We take that ground by faith and in the power of the Spirit in view of the service."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "Mr Raven mourned in his day that people did not cater for their own happiness. We get bogged down here so much that we do not really cater for spiritual things."
+     "speaker": "JL",
+     "text": [
+      "I would say that; quickening is in that connection. In Colossians we are buried with Him, raised with Him, and quickened together with Christ. The word \"together\" is there."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Well, it becomes a test as to what appeals to me. Mr Raven urged the brethren to pursue what would minister to their own happiness."
+     "speaker": "ACC",
+     "text": [
+      "What was quoted from Hebrews is interesting because it speaks of giving up our country for a better. That is our difficulty, we do not prefer the better."
+     ]
     },
     {
-     "text": "A.A.B-n. Do you think our tastes are sharpened and cultivated through the experience of the Supper and what flows from it? That really is the Christian’s life, so it would give a certain direction and tone for the rest of the week."
+     "speaker": "JL",
+     "text": [
+      "That is why I said I find I am tested by my preferences, by what appeals to me. It is so easy to live down here in our business or our family, and enjoy all the benefits that God brings to us on the wilderness side of the Jordan, and maybe not have the energy of faith and the Spirit to pursue what is to minister to and cater for our own happiness.",
+      "J.S-n. It says \"remove from your place, and go after it\". Is it a question of where Christ is? That really determines where I am going to be."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "So that the announcement, properly understood, shows that you are a witness to that, you are announcing His death till He come. Really the appearing is your soul, and you are announcing it publicly and declaring allegiance to Christ where He is, and are a traitor to this world."
+     "speaker": "JL",
+     "text": [
+      "Yes, we are attracted over. So the preaching of the Son of God is intended to attract us to where He is and the realm that He filIs.",
+      "A.A.B-n. That would be the only power to dispossess. We could not have anything unless we have the energy of faith in dispossessing so that the inheritance becomes ours."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Would the announcing His death be like Hebrews 11: \"For they who say such things shew clearly that they seek their country\" (v 14)? It would be a plain matter."
+     "speaker": "JL",
+     "text": [
+      "We get what we put our feet on."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Abraham \"waited for the city which has foundations, of which God is the artificer and constructor\", Heb 11: 10. That is, the promises to Abraham were secured in Isaac, secured in Christ risen. So He is the yea and the amen."
+     "speaker": "JR",
+     "text": [
+      "Christ, as the anti-type of the ark, has opened up territory beyond death. The way is open for us now. You mentioned the personal glories of Christ in Colossians. If He engages our affections and we are attracted to Him, we shall want to be where He is. He desires us to be where He is, which is, of course, a 'beyond death' order of things, a resurrection and heavenly order of things. We have to face death and burial here but it is in the glory of the place where Christ is."
+     ]
     },
     {
-     "speaker": "J.H.",
-     "text": "Do we, in the service, actually take certain ground, by faith? \"Raised with him through faith\", Col 2: 12. We take that ground by faith and in the power of the Spirit in view of the service."
+     "speaker": "JL",
+     "text": [
+      "Exactly. So that the reference to circumcision in Colossians is probably the most sweeping one in Scripture - \"the circumcision of the Christ\", chap 2: 11. That is how God terminated all that line of things - in Christ."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "I would say that; quickening is in that connection. In Colossians we are buried with Him, raised with Him, and quickened together with Christ. The word \"together\" is there."
+     "speaker": "JR",
+     "text": [
+      "We get a touch of it at the Supper, what it means to be over Jordan, beyond death, and have relationships with Christ and with one another beyond death. The exercise is to live in that through the week."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "What was quoted from Hebrews is interesting because it speaks of giving up our country for a better. That is our difficulty, we do not prefer the better."
+     "speaker": "JL",
+     "text": [
+      "Is not that really the enjoyment of eternal life, not as it will bear upon men in the millennium, but as it bears upon ourselves now, that we are living in the light of this order of things that is spiritual and heavenly and is connected with the Son of God and the world that He fills and of which He is the centre.",
+      "J-n.M. You referred to the sweeping character of the statement in Colossians. Is it not also a very attractive one, that the end in view would help us to face the exercise in view of being in the enjoyment of things in Christ's sphere?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "That is why I said I find I am tested by my preferences, by what appeals to me. It is so easy to live down here in our business or our family, and enjoy all the benefits that God brings to us on the wilderness side of the Jordan, and maybe not have the energy of faith and the Spirit to pursue what is to minister to and cater for our own happiness."
+     "speaker": "JL",
+     "text": [
+      "That is how we face the matter. In view of the inheritance the reproach of Egypt was to be rolled away. The exercise of Gilgal had to be gone through in that connection."
+     ]
     },
     {
-     "text": "J.S-n. It says \"remove from your place, and go after it\". Is it a question of where Christ is? That really determines where I am going to be."
+     "speaker": "AF",
+     "text": [
+      "Would you say that our enjoyment of the inheritance is in the measure that we are where the Father and the Son are? I am thinking of the Lord's words in John 17: \"this is the eternal life, that they should know thee, the only true God, and Jesus Christ whom thou hast sent\" (v 3). The enjoyment of the inheritance takes us over into the heavenly side of things, does it not?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, we are attracted over. So the preaching of the Son of God is intended to attract us to where He is and the realm that He filIs."
+     "speaker": "JL",
+     "text": [
+      "I think that expression shows how the enjoyment of eternal life is bound up with the knowledge of divine Persons. That is, eternal life is a sphere, an out-of-the-world, heavenly order of relationships and being in which the brethren can live in the light of Christ's present place exalted, and in the light of God's purpose for men, entered upon by the Spirit."
+     ]
     },
     {
-     "text": "A.A.B-n. That would be the only power to dispossess. We could not have anything unless we have the energy of faith in dispossessing so that the inheritance becomes ours."
+     "speaker": "WL",
+     "text": [
+      "The materialistic character of the present day seems to have played a large part in the lack of an ear for the gospel. Do you think it may also have a tendency to dull our tastes for what is heavenly?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "We get what we put our feet on."
+     "speaker": "JL",
+     "text": [
+      "We can speak each for ourselves. I think the Lord would continually keep the need of this side of things before our minds. It is possible to live where Christ is. So eternal life is an order of relationships among the brethren. In the midst of a scene of death, in the midst of a materialistic world in which we are, we can live in the light of what is heavenly and spiritual."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Christ, as the anti-type of the ark, has opened up territory beyond death. The way is open for us now. You mentioned the personal glories of Christ in Colossians. If He engages our affections and we are attracted to Him, we shall want to be where He is. He desires us to be where He is, which is, of course, a 'beyond death' order of things, a resurrection and heavenly order of things. We have to face death and burial here but it is in the glory of the place where Christ is."
+     "speaker": "JR",
+     "text": [
+      "Paul was living there in this first chapter of 2 Corinthians, was he not? There was intense suffering, despairing even of life - \"we ourselves had the sentence of death in ourselves\" (v 9) - but he had his life elsewhere."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Exactly. So that the reference to circumcision in Colossians is probably the most sweeping one in Scripture - \"the circumcision of the Christ\", chap 2: 11. That is how God terminated all that line of things - in Christ."
+     "speaker": "JL",
+     "text": [
+      "Is Paul really taking up the ark of the covenant in this chapter?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "We get a touch of it at the Supper, what it means to be over Jordan, beyond death, and have relationships with Christ and with one another beyond death. The exercise is to live in that through the week."
+     "speaker": "JR",
+     "text": [
+      "Well, he speaks of \"the Son of God, Jesus Christ\"."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Is not that really the enjoyment of eternal life, not as it will bear upon men in the millennium, but as it bears upon ourselves now, that we are living in the light of this order of things that is spiritual and heavenly and is connected with the Son of God and the world that He fills and of which He is the centre."
+     "speaker": "JL",
+     "text": [
+      "Yes, and he says that He was not yea and nay. Paul is, I think, showing the brethren the way into the land."
+     ]
     },
     {
-     "text": "J-n.M. You referred to the sweeping character of the statement in Colossians. Is it not also a very attractive one, that the end in view would help us to face the exercise in view of being in the enjoyment of things in Christ's sphere?"
+     "speaker": "JR",
+     "text": [
+      "He himself was consistent with that; he was not yea and nay either."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "That is how we face the matter. In view of the inheritance the reproach of Egypt was to be rolled away. The exercise of Gilgal had to be gone through in that connection."
+     "speaker": "JL",
+     "text": [
+      "No, he was not. That is where he was living, and that is where Simeon was living in Luke 2."
+     ]
     },
     {
-     "speaker": "A.F.",
-     "text": "Would you say that our enjoyment of the inheritance is in the measure that we are where the Father and the Son are? I am thinking of the Lord's words in John 17: \"this is the eternal life, that they should know thee, the only true God, and Jesus Christ whom thou hast sent\" (v 3). The enjoyment of the inheritance takes us over into the heavenly side of things, does it not?"
+     "speaker": "ACC",
+     "text": [
+      "As to things which might detain us on this side (we have referred to the materialistic kind of world we have to do with), a very simple evidence of it might be, a fellowship meeting within easy reach and just staying at home. We are tested by our tastes, as you said."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "I think that expression shows how the enjoyment of eternal life is bound up with the knowledge of divine Persons. That is, eternal life is a sphere, an out-of-the-world, heavenly order of relationships and being in which the brethren can live in the light of Christ's present place exalted, and in the light of God's purpose for men, entered upon by the Spirit."
+     "speaker": "JL",
+     "text": [
+      "That is a practical exercise."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "The materialistic character of the present day seems to have played a large part in the lack of an ear for the gospel. Do you think it may also have a tendency to dull our tastes for what is heavenly?"
+     "speaker": "JS",
+     "text": [
+      "Do you think that the working out of these inclinations you spoke of is seen in Romans 8: \"the mind of the flesh is death, but the mind of the Spirit life and peace\" (v 6)? Is that the inward working out of these inclinations that we find in ourselves? Would \"life and peace\" suggest what speaks of eternal life?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "We can speak each for ourselves. I think the Lord would continually keep the need of this side of things before our minds. It is possible to live where Christ is. So eternal life is an order of relationships among the brethren. In the midst of a scene of death, in the midst of a materialistic world in which we are, we can live in the light of what is heavenly and spiritual."
+     "speaker": "JL",
+     "text": [
+      "Yes, pursuing what would minister to our own happiness."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Paul was living there in this first chapter of 2 Corinthians, was he not? There was intense suffering, despairing even of life - \"we ourselves had the sentence of death in ourselves\" (v 9) - but he had his life elsewhere."
+     "speaker": "JH",
+     "text": [
+      "The preaching of the Son of God involves what you have in mind, another Man is another world. Our tastes should be directed that way."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Is Paul really taking up the ark of the covenant in this chapter?"
+     "speaker": "JL",
+     "text": [
+      "Yes, a Man who fills that world and fills it for God, the One in whom God's testimony and His covenant are sustained. That is, every blessing, every promise that God has for man, is fulfilled and witnessed to in Christ where He is. He is my righteousness, my peace, my justification before God. Eternal life is presented to us in Him where He is. John always presents eternal life as in the Son.",
+      "A.A.B-n. Our enjoyment of that is being at home with Him where He is, so that we would be at home amongst the brethren where He is loved and where His things have a place. Even in meetings such as these fellowship meetings there is something flowing, it is beyond what is local. The truth is valued amongst the brethren in a district and Christ is appreciated. It is developing and holding the saints in this line of the inheritance, is it not?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Well, he speaks of \"the Son of God, Jesus Christ\"."
+     "speaker": "JL",
+     "text": [
+      "Yes, and on that side we can get as much as we want to go in for, not on the basis of law but attracted into it."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, and he says that He was not yea and nay. Paul is, I think, showing the brethren the way into the land."
+     "speaker": "SY",
+     "text": [
+      "We need a spiritual appetite for these things."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "He himself was consistent with that; he was not yea and nay either."
+     "speaker": "JL",
+     "text": [
+      "Well, the lord would stimulate an appetite with us. I am sure it is there amongst the brethren but the Lord would continually stimulate it. So Simeon in Luke 2, as he takes the Child in his arms, says \"Lord, now thou lettest thy bondman go... in peace\". He is ready to go; he is there already in his spirit."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "No, he was not. That is where he was living, and that is where Simeon was living in Luke 2."
+     "speaker": "JN",
+     "text": [
+      "Do we get the thought of completeness in these three scriptures? It is one thing to have the inheritance, but the Spirit would bring us into the joy of it. So Simeon is complete now, he can go."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "As to things which might detain us on this side (we have referred to the materialistic kind of world we have to do with), a very simple evidence of it might be, a fellowship meeting within easy reach and just staying at home. We are tested by our tastes, as you said."
+     "speaker": "JL",
+     "text": [
+      "The Spirit is the power for our entrance into what is spiritual. From the brazen serpent there was movement right into the inheritance."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "That is a practical exercise."
+     "speaker": "JR",
+     "text": [
+      "The food of the 6th of John is important - eating His flesh and drinking His blood. That would save us from any materialistic outlook, would it not? He gave His life for the world."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Do you think that the working out of these inclinations you spoke of is seen in Romans 8: \"the mind of the flesh is death, but the mind of the Spirit life and peace\" (v 6)? Is that the inward working out of these inclinations that we find in ourselves? Would \"life and peace\" suggest what speaks of eternal life?"
+     "speaker": "JL",
+     "text": [
+      "Eating His flesh and drinking His blood is feeding on Christ as dead."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, pursuing what would minister to our own happiness."
+     "speaker": "JR",
+     "text": [
+      "It is food for our affections too."
+     ]
     },
     {
-     "speaker": "J.H.",
-     "text": "The preaching of the Son of God involves what you have in mind, another Man is another world. Our tastes should be directed that way."
+     "speaker": "JL",
+     "text": [
+      "It is. Then there is feeding on Him as He is - \"He also who eats me shall live also on account of me\" (v 57). I think Mr Taylor sen pointed out as to that, that Christ lived in His Father's interests and that He lived on account of the Father. As we commit ourselves to Him we feed on Christ, we live here in relation to His interests, because He lived in relation to His Father's interests."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, a Man who fills that world and fills it for God, the One in whom God's testimony and His covenant are sustained. That is, every blessing, every promise that God has for man, is fulfilled and witnessed to in Christ where He is. He is my righteousness, my peace, my justification before God. Eternal life is presented to us in Him where He is. John always presents eternal life as in the Son."
+     "speaker": "JR",
+     "text": [
+      "So an occasion like this belongs to His interests. We need to be saved, not only from the world, but from the earth and our own comforts. It is a heavenly calling we are called to."
+     ]
     },
     {
-     "text": "A.A.B-n. Our enjoyment of that is being at home with Him where He is, so that we would be at home amongst the brethren where He is loved and where His things have a place. Even in meetings such as these fellowship meetings there is something flowing, it is beyond what is local. The truth is valued amongst the brethren in a district and Christ is appreciated. It is developing and holding the saints in this line of the inheritance, is it not?"
+     "speaker": "JM",
+     "text": [
+      "Is that why Paul uses this reference to lightness?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Yes, and on that side we can get as much as we want to go in for, not on the basis of law but attracted into it."
+     "speaker": "JL",
+     "text": [
+      "There was sobriety in Paul's movements and ministry among them. He was concerned to get the brethren on to the level of what was spiritual because what was carnal and natural had been governing them."
+     ]
     },
     {
-     "speaker": "S.Y.",
-     "text": "We need a spiritual appetite for these things."
+     "speaker": "ACC",
+     "text": [
+      "No one could be light in the presence of the Jordan. In John 6 the emphasis is on the death of Christ as having finished with everything here. That is really the Jordan, not the Red Sea."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Well, the lord would stimulate an appetite with us. I am sure it is there amongst the brethren but the Lord would continually stimulate it. So Simeon in Luke 2, as he takes the Child in his arms, says \"Lord, now thou lettest thy bondman go... in peace\". He is ready to go; he is there already in his spirit."
+     "speaker": "JL",
+     "text": [
+      "We stand still at the Red Sea and see what God has done for us in the death of Christ, but the Jordan involves depth of the exercise, that we face death practically and face it actually finally."
+     ]
     },
     {
-     "speaker": "J.N.",
-     "text": "Do we get the thought of completeness in these three scriptures? It is one thing to have the inheritance, but the Spirit would bring us into the joy of it. So Simeon is complete now, he can go."
+     "speaker": "JR",
+     "text": [
+      "I thought Paul was facing it in this chapter (2 Cor 1): \"But we ourselves had the sentence of death in ourselves, that we should not have our trust in ourselves, but in God who raises the dead\" (v 9). It was a practical experience for Paul, was it not?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "The Spirit is the power for our entrance into what is spiritual. From the brazen serpent there was movement right into the inheritance."
+     "speaker": "JL",
+     "text": [
+      "That is very good. He demonstrated that among the brethren; they could see the quickened state of Paul's soul, the evidence of the quickening of the Spirit. So he refers later to \"the dying of Jesus\" (chap 4: 10), that was the committal of Christ from the mount of transfiguration to the cross, that period when the dying of Jesus was witnessed."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The food of the 6th of John is important - eating His flesh and drinking His blood. That would save us from any materialistic outlook, would it not? He gave His life for the world."
+     "speaker": "RSR",
+     "text": [
+      "He says \"did I then use lightness?\" Were not the Corinthians accusing Paul of vacillation in his movements?"
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "Eating His flesh and drinking His blood is feeding on Christ as dead."
+     "speaker": "JL",
+     "text": [
+      "Yes, and they were saying other things too about him. But his concern is that he should get them responding to the way he is taking up the ark of the covenant."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is food for our affections too."
+     "speaker": "JB",
+     "text": [
+      "\"Yea is in him\". The footnote says 'the verification of all divine truth is in the Person of Christ'."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "It is. Then there is feeding on Him as He is - \"He also who eats me shall live also on account of me\" (v 57). I think Mr Taylor sen pointed out as to that, that Christ lived in His Father's interests and that He lived on account of the Father. As we commit ourselves to Him we feed on Christ, we live here in relation to His interests, because He lived in relation to His Father's interests."
+     "speaker": "JL",
+     "text": [
+      "That is, He not only set things on but He completed them, and they are established in Him. What a feature of glory that is as attaching to Christ!"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "So an occasion like this belongs to His interests. We need to be saved, not only from the world, but from the earth and our own comforts. It is a heavenly calling we are called to."
+     "speaker": "JM",
+     "text": [
+      "As over against \"lightness\", Paul is showing the saints in Corinth that he is in the full enjoyment of what he is speaking about."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Is that why Paul uses this reference to lightness?"
+     "speaker": "JL",
+     "text": [
+      "And he wants them to be in it too; \"For whatever promises of God there are, in him is the yea, and in him the amen, for glory to God by us\". That is, the effect in the saints is to be for glory to God."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "There was sobriety in Paul's movements and ministry among them. He was concerned to get the brethren on to the level of what was spiritual because what was carnal and natural had been governing them."
+     "speaker": "JR",
+     "text": [
+      "Paul wants to take the saints with him - \"Now he that establishes us with you in Christ, and has anointed us, is God\"."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "No one could be light in the presence of the Jordan. In John 6 the emphasis is on the death of Christ as having finished with everything here. That is really the Jordan, not the Red Sea."
+     "speaker": "JL",
+     "text": [
+      "The anointing imparts dignity; there is the stamp of divine ownership put on the saints. Paul identifies himself with the brethren in this, as established, anointed and sealed \"and given the earnest of the Spirit\"."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "We stand still at the Red Sea and see what God has done for us in the death of Christ, but the Jordan involves depth of the exercise, that we face death practically and face it actually finally."
+     "speaker": "RSR",
+     "text": [
+      "What is your impression of a \"man in Jerusalem\"? Mr Taylor sen referred to Simeon as an assembly man who had an assembly outlook. Would that not govern us in all you have said today? If we are assembly-minded persons we would have no difficulty."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I thought Paul was facing it in this chapter (2 Cor 1): \"But we ourselves had the sentence of death in ourselves, that we should not have our trust in ourselves, but in God who raises the dead\" (v 9). It was a practical experience for Paul, was it not?"
+     "speaker": "JL",
+     "text": [
+      "\"A man in Jerusalem\", I think, is a man who is in touch with God and with His purpose. The assembly characteristically is governing him.",
+      "A.A.B-n. He had some understanding of what the gentiles were to come into."
+     ]
     },
     {
-     "speaker": "J.L.",
-     "text": "That is very good. He demonstrated that among the brethren; they could see the quickened state of Paul's soul, the evidence of the quickening of the Spirit. So he refers later to \"the dying of Jesus\" (chap 4: 10), that was the committal of Christ from the mount of transfiguration to the cross, that period when the dying of Jesus was witnessed."
+     "speaker": "JL",
+     "text": [
+      "Yes. It shows the width of divine blessing. Simeon is in the light of that. All is secured in that Babe in his arms. Simeon sees every purpose and promise of God established in Christ, and he is ready to go in the light of that, as if everything is then for him fulfilled in the light of God's salvation.",
+      "J-n.M. On that character of man Christ could write the name of the city of His God."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "He says \"did I then use lightness?\" Were not the Corinthians accusing Paul of vacillation in his movements?"
-    },
-    {
-     "speaker": "J.L.",
-     "text": "Yes, and they were saying other things too about him. But his concern is that he should get them responding to the way he is taking up the ark of the covenant."
-    },
-    {
-     "speaker": "J.B.",
-     "text": "\"Yea is in him\". The footnote says 'the verification of all divine truth is in the Person of Christ'."
-    },
-    {
-     "speaker": "J.L.",
-     "text": "That is, He not only set things on but He completed them, and they are established in Him. What a feature of glory that is as attaching to Christ!"
-    },
-    {
-     "speaker": "J.M.",
-     "text": "As over against \"lightness\", Paul is showing the saints in Corinth that he is in the full enjoyment of what he is speaking about."
-    },
-    {
-     "speaker": "J.L.",
-     "text": "And he wants them to be in it too; \"For whatever promises of God there are, in him is the yea, and in him the amen, for glory to God by us\". That is, the effect in the saints is to be for glory to God."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "Paul wants to take the saints with him - \"Now he that establishes us with you in Christ, and has anointed us, is God\"."
-    },
-    {
-     "speaker": "J.L.",
-     "text": "The anointing imparts dignity; there is the stamp of divine ownership put on the saints. Paul identifies himself with the brethren in this, as established, anointed and sealed \"and given the earnest of the Spirit\"."
-    },
-    {
-     "speaker": "R.S.R.",
-     "text": "What is your impression of a \"man in Jerusalem\"? Mr Taylor sen referred to Simeon as an assembly man who had an assembly outlook. Would that not govern us in all you have said today? If we are assembly-minded persons we would have no difficulty."
-    },
-    {
-     "speaker": "J.L.",
-     "text": "\"A man in Jerusalem\", I think, is a man who is in touch with God and with His purpose. The assembly characteristically is governing him."
-    },
-    {
-     "text": "A.A.B-n. He had some understanding of what the gentiles were to come into."
-    },
-    {
-     "speaker": "J.L.",
-     "text": "Yes. It shows the width of divine blessing. Simeon is in the light of that. All is secured in that Babe in his arms. Simeon sees every purpose and promise of God established in Christ, and he is ready to go in the light of that, as if everything is then for him fulfilled in the light of God's salvation."
-    },
-    {
-     "text": "J-n.M. On that character of man Christ could write the name of the city of His God."
-    },
-    {
-     "speaker": "J.L.",
-     "text": "Yes, that is very profound; \"and my new name\", Rev 3: 12. The overcomer in Philadelphia is material that can be divinely written upon. God's work in the saints is capable of taking on impressions that will be eternal."
+     "speaker": "JL",
+     "text": [
+      "Yes, that is very profound; \"and my new name\", Rev 3: 12. The overcomer in Philadelphia is material that can be divinely written upon. God's work in the saints is capable of taking on impressions that will be eternal."
+     ]
     }
    ]
   },
@@ -655,6 +841,104 @@
      "text": "Hundreds of years before, and on an anxious day of a very different kind, a little child named Joash was saved by being hidden with his nurse in the temple buildings. For six years he was protected in the house of God and at the age of seven was proclaimed king. Having had a good start - as so many children have in Christian households - he did what was right all the time that he paid attention to those who served God. Believers, however young, are always in God 's house which being a \"spiritual house\" is more real than one of brick or stone. As long as we attend to what is due to Him whose house it is, we shall be in salvation. David longed to dwell there for ever. Have you learned by heart his shepherd Psalm - number twenty-three?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"J.Boyd Airdrie\" read as J. Boyd, Airdrie"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "not_a_name",
+   "detail": "\"n. A.A.Brown Grangemouth\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"A.C.Craig Airdrie\" read as A. C. Craig, Airdrie"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"A.Falconer Airdrie\" read as A. Falconer, Airdrie"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"J.D.Gray Edinburgh\" read as J. D. Gray, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"J.Harthill Glasgow\" read as J. Harthill, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"W.Lamont Cumnock\" read as W. Lamont, Cumnock"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"J.Lovie Macduff\" read as J. Lovie, Macduff"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"James Munro Grangemouth\" read as James Munro, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "not_a_name",
+   "detail": "\"n.M. John Munro Grangemouth\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"J.Newberry Coatbridge\" read as J. Newberry, Coatbridge"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"J.Renton Edinburgh\" read as J. Renton, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"R.S.Renton Edinburgh\" read as R. S. Renton, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "not_a_name",
+   "detail": "\"n. J.Strachan Dundee\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "no_comma_before_place",
+   "detail": "\"S.Young Lochgelly\" read as S. Young, Lochgelly"
+  },
+  {
+   "article": 1,
+   "title": "\"TAKE UP THE ARK....... \"",
+   "kind": "initials_before_name",
+   "detail": "13 entries written as initials then name (\"JB ...\")"
   }
  ]
 }
