@@ -13,8 +13,8 @@ searchable.
 | `text/ministry/Index.md` | the same, readable, grouped by writer |
 | `text/ministry/authors.json` | writer folder → name: `{"smc": {"name": "S. McCallum", "fullname": "Stanley McCallum"}, ...}` |
 | `text/ministry/volume_titles.json` | fallback titles, from the goodteaching database, for volumes with no `{#...}` line |
-| `text/ministry/scribes.json` | the Scribe index: 8,969 entries, volumes 1–100 |
-| `text/ministry/Scribe Index Entries.xlsx` | the source spreadsheet for the above |
+| `text/ministry/jt_initials.json` | the JT initials index: 8,969 entries, volumes 1–100 |
+| `text/ministry/JT Initials Index Entries.xlsx` | the source spreadsheet for the above |
 | `text/ministry/dm/symbols/notes.txt` | the symbols used in the text; the one file absent from `index.json` |
 
 Folders: `ajg cac chm dm fer grc gvw jbs jgb jnd jr jt smc wj wjh`.
@@ -23,16 +23,17 @@ Folders: `ajg cac chm dm fer grc gvw jbs jgb jnd jr jt smc wj wjh`.
 short name used in `Index.md` and `index.json` and the full name. `jt` is
 James Taylor, Senior.
 
-`jr/` is not part of the Scribe series: `jr1.txt` and `jr2.txt` are *First Things
-and Other Ministry* by Jim Renton. `scribes.json` covers the `jt/` Scribe
-volumes 1–100 and does not apply to them.
+`jt_initials.json` is the initials index for the JT volumes and applies only
+to `jt/` — for any other folder, the speaker is the writer whose folder the
+file sits in.
 
 `gvw/` is G. V. Wigram: `gvw1`–`gvw3` *Memorials of the Ministry of G. V.
 Wigram* (vol. 3 is his letters, one article per letter), `gvw4`–`gvw6`
 *Gleanings* (first to third series), `gvw7` *Short Papers*, `gvw8` extracts
 from *Collectanea* and other papers. The source has no printed page numbers, so
 in `gvw` each article has its own `{N}`: the "page" is the article's number
-within the volume, not a printed page.
+within the volume, not a printed page. Cite `gvw` by volume and article title,
+not by page number.
 
 ## Text format
 
@@ -83,13 +84,13 @@ grepping titles, which recur across volumes.
 (`--check` reports what would change without writing). It applies the same
 rules as the goodteaching parser (`software/MseBuilder`).
 
-## `scribes.json`
+## `jt_initials.json`
 
 `{"source": …, "sheets": {"entries": [...], "volumes": [...], "legend": [...]}}`.
 Each entry: `index_page`, `volume`, `initials`, `name`, `locality`,
 `page_numbers`, `notes`. Blanks are `null`.
 
-How to use it:
+How to use it (for `jt/` only):
 
 - The volume number is the number in the **filename**: `jt27` is Volume 27.
   Look up Volume 27 in the index and match the speaker's initials to get the
@@ -109,9 +110,9 @@ How to use it:
 | articles | 13,600 |
 | `@` citation lines | 9,169 (9,128 resolving, 199,226 verses, measured with `expand.py` on 5 Nov 2026) |
 | hymn references | 512 (505 resolving) |
-| scribe entries | 8,969 |
-| scribe initials (distinct) | 1,549 |
-| scribe volumes | 100 |
+| JT initials entries | 8,969 |
+| JT initials (distinct) | 1,549 |
+| JT initials volumes | 100 |
 
 ## Commands
 
@@ -135,8 +136,13 @@ python3 rool/instructions/scripts/hymns.py --scan text/ministry/*/*.txt
 
 - Cite **file, article title and page number**. The page is what a reader can
   find in print; the line number is what a machine can find in the file.
+- Quote page numbers **without braces** — "page 23" or "p. 23", never `{23}`.
+  The braces are file markup, not part of the citation.
+- In `gvw` the `{N}` markers are article numbers, not printed pages. Cite the
+  volume and the article title, not a page number.
 - The texts were typed from printed volumes, and the typos are in the source.
   When a reference or a word looks wrong, check the context before correcting
   it, and say when you have corrected something.
-- Refer to the speakers as brothers, and name them with their honorific and
-  surname — Mr Taylor, Mr Coates, Mr Gardiner.
+- Refer to the speakers as brothers, and always name a brother as "Mr Surname"
+  — Mr Taylor, Mr Coates, Mr Gardiner — never the surname alone, in prose,
+  citations and summaries alike.

@@ -19,7 +19,7 @@ what makes the library searchable rather than merely readable.
 | `dev/rool/instructions/prompts/` | Stand-alone prompts that set a machine up from scratch, for people who cannot copy this repository. |
 | `dev/text/hymns/` | `hymns.json` (456 hymns, EN/DE/IT/NL, authors, metres, categories) and a readable index. |
 | `dev/text/bible/` | `KJV.json` and `Darby.json`, verse by verse, public domain. |
-| `dev/text/ministry/` | 389 text files, 388 volumes (13,600 articles), the article index, the volume index, the scribe index, and `authors.json` (writer names). |
+| `dev/text/ministry/` | 389 text files, 388 volumes (13,600 articles), the article index, the volume index, the JT initials index, and `authors.json` (writer names). |
 | `dev/text/magazines/` | 1,293 magazine issues — *A Word in its Season* and *Notes of Ministry*. See `dev/rool/instructions/magazines.md`. |
 
 ## Installing on a Rool Machine
