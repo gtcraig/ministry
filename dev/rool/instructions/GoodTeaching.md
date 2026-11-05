@@ -28,7 +28,7 @@ Four data sets, from the `dev/text/` folders of the repository.
 
 | Folder | Contents | Files | Size |
 |---|---|---|---|
-| `ministry/` | 380 volumes of ministry text, 13,448 articles, `index.json`, `scribes.json` | 381 `.txt` + indexes | ~215 MB |
+| `ministry/` | 388 volumes of ministry text, 13,600 articles, `index.json`, `authors.json`, `scribes.json` | 389 `.txt` + indexes | ~219 MB |
 | `magazines/` | 1,293 magazine issues — *A Word in its Season* (644) and *Notes of Ministry* (649) | 1,293 `.json` | ~75 MB |
 | `bible/` | KJV and Darby verse text, with `expand.py` | 2 JSON + 2 folders | ~22 MB |
 | `hymns/` | 456 hymns in EN/DE/IT/NL, index, `hymns.py` | 2 files + 1 index | ~3 MB |
@@ -120,9 +120,9 @@ python3 /rool-drive/bible/expand.py --trans Darby "@John 3: 16"        # For God
 If a refresh reports different numbers, something has changed in the repository
 and should be investigated rather than absorbed. Two particular cases:
 
-- **article count above 13,448** — text has been added and `index.json` needs
-  regenerating in the repository, otherwise the new articles are unreachable
-  through the index.
+- **article count above 13,600** — text has been added and `index.json` needs
+  regenerating in the repository (`rool/instructions/scripts/build_index.py`),
+  otherwise the new articles are unreachable through the index.
 - **magazine count above 1,293** — a new issue has been added; good news, and the
   only thing to do is note the new figure here.
 
@@ -160,8 +160,8 @@ Not faults, and not to be "fixed":
 - **Hymn references** are written with a backtick, number, colon, verse and a
   closing bracket: `` `272:4) ``. Verse 0 is the chorus. Seven references point
   above hymn 456 and cannot resolve; say they are outside the collection.
-- **`@` lines** are the Scriptures read under an article title. 8,627 of 8,667
-  resolve. The forty that do not are prose that happens to begin with `@`, or
+- **`@` lines** are the Scriptures read under an article title. 9,128 of 9,169
+  resolve. The forty-one that do not are prose that happens to begin with `@`, or
   genuine misprints such as `@2 Cor 2:20-22` — 2 Corinthians has thirteen
   chapters. Report them with the file; do not invent a reference.
 - **The article header volume is not the scribe volume.** `jt27` may show
