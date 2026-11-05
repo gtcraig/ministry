@@ -15,11 +15,11 @@ what makes the library searchable rather than merely readable.
 | Path | What it holds |
 |---|---|
 | `dev/rool/instructions/` | **`GoodTeaching.md` first** — fetch it to a machine and the library builds and refreshes itself from this repository. Then one document per source: how to read, index and search it. Written for an AI agent; readable by anyone. |
-| `dev/rool/instructions/scripts/` | Three small stdlib-only Python tools: `refresh.py` (install and refresh from this repository), `expand.py` (Scripture references → verse text) and `hymns.py` (hymn lookup and search). |
+| `dev/rool/instructions/scripts/` | Four small stdlib-only Python tools: `refresh.py` (install and refresh from this repository), `expand.py` (Scripture references → verse text), `hymns.py` (hymn lookup and search) and `build_index.py` (regenerate `index.json` and `Index.md` from the text). |
 | `dev/rool/instructions/prompts/` | Stand-alone prompts that set a machine up from scratch, for people who cannot copy this repository. |
 | `dev/text/hymns/` | `hymns.json` (456 hymns, EN/DE/IT/NL, authors, metres, categories) and a readable index. |
 | `dev/text/bible/` | `KJV.json` and `Darby.json`, verse by verse, public domain. |
-| `dev/text/ministry/` | 381 text files, 380 volumes (13,448 articles), the article index, the volume index, and the scribe index. |
+| `dev/text/ministry/` | 389 text files, 388 volumes (13,600 articles), the article index, the volume index, the scribe index, and `authors.json` (writer names). |
 | `dev/text/magazines/` | 1,293 magazine issues — *A Word in its Season* and *Notes of Ministry*. See `dev/rool/instructions/magazines.md`. |
 
 ## Installing on a Rool Machine
