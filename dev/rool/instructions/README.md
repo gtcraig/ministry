@@ -14,7 +14,7 @@ repository, the checks to run and the counts to expect.
 | `GoodTeaching.md` | The build and refresh: install, layout, checks, counts, rules, known quirks | all of the below |
 | `Scripture Text.md` | KJV and Darby verse text, and the citation expander | `text/bible/KJV.json`, `Darby.json`, `scripts/expand.py` |
 | `Hymns.md` | 456 hymns in four languages, and hymn citation lookup | `text/hymns/hymns.json`, `scripts/hymns.py` |
-| `Ministry Texts.md` | 389 files, 13,600 articles, the indexes, the JT initials index | `text/ministry/` |
+| `Ministry Texts.md` | 391 files, 13,662 articles, the indexes, the JT initials index | `text/ministry/` |
 | `magazines.md` | The magazine source — the repository owner's own document | `text/magazines/` |
 
 All paths in these documents are relative to `dev/` in this repository. On an
@@ -44,6 +44,6 @@ for handing to people, not for reference.
 - **Name the brothers with honour.** Always "Mr Surname" — Mr Taylor, Mr Coates,
   Mr Gardiner — never the surname alone, in prose, citations and summaries alike.
 - **Keep the totals honest.** Every document here states expected counts
-  (13,600 articles; 9,128 of 9,169 `@` citation lines resolving; 505 of 512
+  (13,662 articles; 9,128 of 9,169 `@` citation lines resolving; 505 of 512
   hymn references resolving). If a rebuild gives different numbers, something
   has changed and it should be investigated, not absorbed.

@@ -28,7 +28,7 @@ Four data sets, from the `dev/text/` folders of the repository.
 
 | Folder | Contents | Files | Size |
 |---|---|---|---|
-| `ministry/` | 388 volumes of ministry text, 13,600 articles, `index.json`, `authors.json`, `jt_initials.json` | 389 `.txt` + indexes | ~219 MB |
+| `ministry/` | 390 volumes of ministry text, 13,662 articles, `index.json`, `authors.json`, `jt_initials.json` | 391 `.txt` + indexes | ~219 MB |
 | `magazines/` | 1,293 magazine issues — *A Word in its Season* (644) and *Notes of Ministry* (649) | 1,293 `.json` | ~75 MB |
 | `bible/` | KJV and Darby verse text, with `expand.py` | 2 JSON + 2 folders | ~22 MB |
 | `hymns/` | 456 hymns in EN/DE/IT/NL, index, `hymns.py` | 2 files + 1 index | ~3 MB |
@@ -108,9 +108,9 @@ the one that matches the work in hand. Paths are relative to `dev/rool/instructi
 The installer runs these itself at the end of a build. They can be run by hand:
 
 ```bash
-find /rool-drive/ministry -name '*.txt' | wc -l                        # 389
-jq '[.[] | .articles | length] | add' /rool-drive/ministry/index.json  # 13600
-jq 'length' /rool-drive/ministry/index.json                            # 388
+find /rool-drive/ministry -name '*.txt' | wc -l                        # 391
+jq '[.[] | .articles | length] | add' /rool-drive/ministry/index.json  # 13662
+jq 'length' /rool-drive/ministry/index.json                            # 390
 jq '.sheets.entries | length' /rool-drive/ministry/jt_initials.json    # 8969
 ls /rool-drive/magazines/*/*.json | wc -l                              # 1293
 python3 /rool-drive/hymns/hymns.py --hymn 272                          # When I survey
@@ -120,7 +120,7 @@ python3 /rool-drive/bible/expand.py --trans Darby "@John 3: 16"        # For God
 If a refresh reports different numbers, something has changed in the repository
 and should be investigated rather than absorbed. Two particular cases:
 
-- **article count above 13,600** — text has been added and `index.json` needs
+- **article count above 13,662** — text has been added and `index.json` needs
   regenerating in the repository (`rool/instructions/scripts/build_index.py`),
   otherwise the new articles are unreachable through the index.
 - **magazine count above 1,293** — a new issue has been added; good news, and the
