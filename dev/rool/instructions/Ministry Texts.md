@@ -1,6 +1,6 @@
 # Ministry Texts
 
-389 text files — 388 volumes holding 13,600 articles by the Brethren teachers,
+391 text files — 390 volumes holding 13,662 articles by the Brethren teachers,
 plus a note on the symbols used in the text — with three indexes that make them
 searchable.
 
@@ -8,8 +8,8 @@ searchable.
 
 | File | Contents |
 |---|---|
-| `text/ministry/<initials>/<initials><n>.txt` | the text, 15 writer folders |
-| `text/ministry/index.json` | article index: 388 volumes, 13,600 articles (2.1 MB) |
+| `text/ministry/<initials>/<initials><n>.txt` | the text, 16 writer folders |
+| `text/ministry/index.json` | article index: 390 volumes, 13,662 articles (2.1 MB) |
 | `text/ministry/Index.md` | the same, readable, grouped by writer |
 | `text/ministry/authors.json` | writer folder → name: `{"smc": {"name": "S. McCallum", "fullname": "Stanley McCallum"}, ...}` |
 | `text/ministry/volume_titles.json` | fallback titles, from the goodteaching database, for volumes with no `{#...}` line |
@@ -17,7 +17,7 @@ searchable.
 | `text/ministry/JT Initials Index Entries.xlsx` | the source spreadsheet for the above |
 | `text/ministry/dm/symbols/notes.txt` | the symbols used in the text; the one file absent from `index.json` |
 
-Folders: `ajg cac chm dm fer grc gvw jbs jgb jnd jr jt smc wj wjh`.
+Folders: `ajg cac chm dm fer grc gvw jbs jdg jgb jnd jr jt smc wj wjh`.
 
 **Writers.** Look a writer up in `authors.json` by folder name: it gives the
 short name used in `Index.md` and `index.json` and the full name. `jt` is
@@ -34,6 +34,13 @@ from *Collectanea* and other papers. The source has no printed page numbers, so
 in `gvw` each article has its own `{N}`: the "page" is the article's number
 within the volume, not a printed page. Cite `gvw` by volume and article title,
 not by page number.
+
+`jdg/` is J. D. Gray (James Duncan Gray): `jdg1`–`jdg2` *Ministry by Jim D
+Gray*, Volumes 1 and 2 (ed. Andrew Burr, 2023), converted from the Word
+editions. `{N}` follows Word's pagination with the first article on page 1, as
+printed in Volume 2; the editor's introduction is the `PREFATORY NOTE` at `{0}`.
+Pages holding only a "Key to initials" list are omitted, so a few numbers are
+skipped (vol. 1 p. 86; vol. 2 pp. 127, 212).
 
 ## Text format
 
@@ -104,10 +111,10 @@ How to use it (for `jt/` only):
 
 | Measure | Expected |
 |---|---|
-| text files | 389 (388 volumes + `dm/symbols/notes.txt`) |
-| writer folders | 15 |
-| volumes in `index.json` | 388 |
-| articles | 13,600 |
+| text files | 391 (390 volumes + `dm/symbols/notes.txt`) |
+| writer folders | 16 |
+| volumes in `index.json` | 390 |
+| articles | 13,662 |
 | `@` citation lines | 9,169 (9,128 resolving, 199,226 verses, measured with `expand.py` on 5 Nov 2026) |
 | hymn references | 512 (505 resolving) |
 | JT initials entries | 8,969 |
