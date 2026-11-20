@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -59,28 +59,29 @@
    "place": "LONDON",
    "date": "20 November 1983",
    "speakers": [
-    "J.R.",
-    "E.C.B.",
-    "A.J.E.W.",
-    "E.O.",
-    "D.J.H.",
-    "J.C.E.",
-    "P.S.W.",
-    "E.P.",
-    "H.A.H.",
-    "C.B.",
-    "R.W.F.",
-    "B.W.W.",
-    "W.J.R.B.",
-    "D.A.B.",
-    "C.J.G.B.",
-    "G.A.P.",
-    "J.S.P."
+    "JR",
+    "ECB",
+    "AJEW",
+    "EO",
+    "DJH",
+    "JCE",
+    "PSW",
+    "EP",
+    "HAH",
+    "CB",
+    "RWF",
+    "BWW",
+    "WJRB",
+    "DAB",
+    "CJGB",
+    "GAP",
+    "JSP"
    ],
    "initials": [
     {
      "initials": "CB",
-     "name": "(all local unless otherwise stated) C.Beale"
+     "name": "C.Beale",
+     "place": "LONDON"
     },
     {
      "initials": "CJGB",
@@ -89,51 +90,63 @@
     },
     {
      "initials": "WJRB",
-     "name": "W.J.R.Brodie"
+     "name": "W.J.R.Brodie",
+     "place": "LONDON"
     },
     {
      "initials": "E",
-     "name": "Ealing"
+     "name": "Ealing",
+     "place": "LONDON"
     },
     {
      "initials": "DAB",
-     "name": "D.A.Burr"
+     "name": "D.A.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "LONDON"
     },
     {
      "initials": "RWF",
-     "name": "R.W Flowerdew"
+     "name": "R.W Flowerdew",
+     "place": "LONDON"
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "LONDON"
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "GAP",
-     "name": "G.A.Palmer"
+     "name": "G.A.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "JSP",
-     "name": "J.S.Pugh"
+     "name": "J.S.Pugh",
+     "place": "LONDON"
     },
     {
      "initials": "JR",
@@ -142,461 +155,667 @@
     },
     {
      "initials": "AJEW",
-     "name": "A.J.E.Welch"
+     "name": "A.J.E.Welch",
+     "place": "LONDON"
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "LONDON"
     },
     {
      "initials": "PSW",
-     "name": "P.S.Warren"
+     "name": "P.S.Warren",
+     "place": "LONDON"
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "all local unless otherwise stated",
    "initials_text": [
     "(all local unless otherwise stated)",
     "C.Beale; C.J.G.Brodie, Ealing; W.J.R.Brodie; Ealing; D.A.Burr; E.C.Burr; J.C.Evershed; R.W Flowerdew; D.J.Hutson; H.A.Hutson; E.Oliver; E.Palmer; G.A.Palmer; J.S.Pugh; J.Renton, Edinburgh; A.J.E.Welch; B.W.Ward; P.S.Warren"
    ],
    "paragraphs": [
     {
-     "speaker": "J.R.",
-     "text": "The suggestion is to look again at these wellknown scriptures. The Lord came to His own in John 20; they were the subjects of His interest, the subjects of God's purpose. The Lord came where the disciples were and the record is all what He did and what He said. In Luke 24 the Lord stood in their midst. It does not say He came but that He stood in their midst; again they were the subjects of His interest and of His own care; He gathered them. The Lord came to Bethany and they did things, they made Him a supper. Martha served, Mary took the ointment; they did everything. What is specially in mind is John 12, where they received Him, where they did things, and everything was so acceptable to Him. These features might engage us for our profit. In John 20 \"Jesus came and stood in the midst, and says to them, Peace be to you. And having said this, he shewed to them his hands and his side. The disciples rejoiced therefore, having seen the Lord\". They did not do anything. It is the Lord having His way with persons who are the subjects of divine purpose and who are brought into wonderful relationship. The Lord had said to Mary \"my Father and your Father... my God and your God\". We have often gone over this ground but I thought we might see that the Lord does everything here."
+     "speaker": "JR",
+     "text": [
+      "The suggestion is to look again at these wellknown scriptures. The Lord came to His own in John 20; they were the subjects of His interest, the subjects of God's purpose. The Lord came where the disciples were and the record is all what He did and what He said. In Luke 24 the Lord stood in their midst. It does not say He came but that He stood in their midst; again they were the subjects of His interest and of His own care; He gathered them. The Lord came to Bethany and they did things, they made Him a supper. Martha served, Mary took the ointment; they did everything. What is specially in mind is John 12, where they received Him, where they did things, and everything was so acceptable to Him. These features might engage us for our profit. In John 20 \"Jesus came and stood in the midst, and says to them, Peace be to you. And having said this, he shewed to them his hands and his side. The disciples rejoiced therefore, having seen the Lord\". They did not do anything. It is the Lord having His way with persons who are the subjects of divine purpose and who are brought into wonderful relationship. The Lord had said to Mary \"my Father and your Father... my God and your God\". We have often gone over this ground but I thought we might see that the Lord does everything here."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is there a very blessed sense of the Lord as a servant even in conditions of great privilege like this. As you say, He does everything; He is really serving His own, and less directly perhaps serving the Father."
+     "speaker": "ECB",
+     "text": [
+      "Is there a very blessed sense of the Lord as a servant even in conditions of great privilege like this. As you say, He does everything; He is really serving His own, and less directly perhaps serving the Father."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. The disciples are not said to worship, they are not said to do anything. It is the Lord acting, and of course we ought to have some experience of this. It says \"where the disciples were\": it is the persons He has in mind. It is all a question of His interest in them, they being the subjects of His interest; and we are all such, dear brethren. It is good to be conscious of it. We are all the subject of the Lord's intense interest and affection."
+     "speaker": "JR",
+     "text": [
+      "Quite so. The disciples are not said to worship, they are not said to do anything. It is the Lord acting, and of course we ought to have some experience of this. It says \"where the disciples were\": it is the persons He has in mind. It is all a question of His interest in them, they being the subjects of His interest; and we are all such, dear brethren. It is good to be conscious of it. We are all the subject of the Lord's intense interest and affection."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Is it interesting that the Lord immediately communicates to Mary those who are the subjects of His interest: \"go to my brethren\". Mary would stand for something in that relation, the affectionate intelligence to which the Lord could confide where the circle of His interest is to be known."
+     "speaker": "AJEW",
+     "text": [
+      "Is it interesting that the Lord immediately communicates to Mary those who are the subjects of His interest: \"go to my brethren\". Mary would stand for something in that relation, the affectionate intelligence to which the Lord could confide where the circle of His interest is to be known."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good. Mary was strong in affection. Was that in your mind? Say more as to what Mary represents."
+     "speaker": "JR",
+     "text": [
+      "Very good. Mary was strong in affection. Was that in your mind? Say more as to what Mary represents."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "We have sometimes spoken of her as suggestive of the assembly, and if we could carry that forward here, the Lord is quick to confide to the assembly, in figure, where the centre of His interest is and where these activities that you speak of are to be experienced."
+     "speaker": "AJEW",
+     "text": [
+      "We have sometimes spoken of her as suggestive of the assembly, and if we could carry that forward here, the Lord is quick to confide to the assembly, in figure, where the centre of His interest is and where these activities that you speak of are to be experienced."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good. It is a great matter to regard ourselves as the subjects of the Lord's interest. At the moment He is with His Father in His throne. The Father is over all in a universal sense; the nations are under His control: but the Lord's chief interest is His own, and it is good to be conscious of that, as the disciples were made to feel here."
+     "speaker": "JR",
+     "text": [
+      "Very good. It is a great matter to regard ourselves as the subjects of the Lord's interest. At the moment He is with His Father in His throne. The Father is over all in a universal sense; the nations are under His control: but the Lord's chief interest is His own, and it is good to be conscious of that, as the disciples were made to feel here."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Would that be emphasised when it says in the next chapter that it is the third time that He manifested Himself to them, showing His intense interest in the disciples?"
+     "speaker": "EO",
+     "text": [
+      "Would that be emphasised when it says in the next chapter that it is the third time that He manifested Himself to them, showing His intense interest in the disciples?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. Before the Lord ascended to His Father His own are in His mind. \"I have not yet ascended to my Father\" He said to Mary; the disciples are the subjects of His intense personal interest."
+     "speaker": "JR",
+     "text": [
+      "Exactly. Before the Lord ascended to His Father His own are in His mind. \"I have not yet ascended to my Father\" He said to Mary; the disciples are the subjects of His intense personal interest."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "We were impressed this morning at the Supper that, whilst we are in the waiting time, we enter now into eternal relationships. We do not have to wait for the experience of them. Would that be related to this, that immediately, as out of death, He speaks of relationships that are going right through?"
+     "speaker": "DJH",
+     "text": [
+      "We were impressed this morning at the Supper that, whilst we are in the waiting time, we enter now into eternal relationships. We do not have to wait for the experience of them. Would that be related to this, that immediately, as out of death, He speaks of relationships that are going right through?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. It is \"my brethren\" here, and sonship: \"my Father and your Father\". I suppose the Lord, when He says \"my Father\", is speaking in the experience and joy of sonship Himself. \"My Father\", He said, \"and your Father\". The Lord is distinctive in that relationship but we are brought into the same relationship."
+     "speaker": "JR",
+     "text": [
+      "Exactly. It is \"my brethren\" here, and sonship: \"my Father and your Father\". I suppose the Lord, when He says \"my Father\", is speaking in the experience and joy of sonship Himself. \"My Father\", He said, \"and your Father\". The Lord is distinctive in that relationship but we are brought into the same relationship."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "And would not \"my God and your God\" go right through to Revelation 21, the eternal day, God Himself being with them?"
+     "speaker": "DJH",
+     "text": [
+      "And would not \"my God and your God\" go right through to Revelation 21, the eternal day, God Himself being with them?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. Of course, the Father would go through to the eternal day too. Relationship, sonship, goes through into eternity."
+     "speaker": "JR",
+     "text": [
+      "Yes. Of course, the Father would go through to the eternal day too. Relationship, sonship, goes through into eternity."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Yes, I was thinking that all these relationships go through."
+     "speaker": "DJH",
+     "text": [
+      "Yes, I was thinking that all these relationships go through."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It seems to me that when the Lord says \"my Father\" He is speaking in the enjoyment of the relation of sonship; when He says \"my God\" he is speaking as man, and other men are to be with Him in relationship with the same God."
+     "speaker": "JR",
+     "text": [
+      "It seems to me that when the Lord says \"my Father\" He is speaking in the enjoyment of the relation of sonship; when He says \"my God\" he is speaking as man, and other men are to be with Him in relationship with the same God."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "I am sure that is right always bearing in mind the distinctive place that He has in every relationship."
+     "speaker": "DJH",
+     "text": [
+      "I am sure that is right always bearing in mind the distinctive place that He has in every relationship."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "We are believers who are enlightened as to the wonderful character of these relationships. The teaching we have had is almost ingrained in us, the light of the wonderful character of our relations with Him with the Father and with one another on this level. Of course it belongs to all believers; but we are in the light of it and know something of the enjoyment of it. The Lord does everything here, He caters for the subjects of His interest on the level of the greatness of divine purpose; and we are such. As I said, all believers are such, but we have the light of this."
+     "speaker": "JR",
+     "text": [
+      "We are believers who are enlightened as to the wonderful character of these relationships. The teaching we have had is almost ingrained in us, the light of the wonderful character of our relations with Him with the Father and with one another on this level. Of course it belongs to all believers; but we are in the light of it and know something of the enjoyment of it. The Lord does everything here, He caters for the subjects of His interest on the level of the greatness of divine purpose; and we are such. As I said, all believers are such, but we have the light of this."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Do you think one of the objectives that the Lord had was the perfecting of His disciples? I was thinking of the frequent reference to disciples here, and in that sense they are the same as they were before the Lord died, but now they are disciples of One in resurrection. Would that be something to further and complete the formation of these disciples?"
+     "speaker": "JCE",
+     "text": [
+      "Do you think one of the objectives that the Lord had was the perfecting of His disciples? I was thinking of the frequent reference to disciples here, and in that sense they are the same as they were before the Lord died, but now they are disciples of One in resurrection. Would that be something to further and complete the formation of these disciples?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. First of all He came to them and said \"Peace be to you\". But then He sends them forth; as He was sent forth, they are sent forth. They are sent forth from this area of His interest in them, His affection for them being realised by these persons. Twice He said \"Peace be to you\" and then He sends them forth as He was sent forth."
+     "speaker": "JR",
+     "text": [
+      "Exactly. First of all He came to them and said \"Peace be to you\". But then He sends them forth; as He was sent forth, they are sent forth. They are sent forth from this area of His interest in them, His affection for them being realised by these persons. Twice He said \"Peace be to you\" and then He sends them forth as He was sent forth."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "You speak of what He did; He did not just speak, He showed them something. I thought it was a mark of great intimacy and of the confiding love of Christ in those in whom His interest was, as if He would suggest that that interest would not just be passing but would remain, and they were to be brought into the settled sense of relationship and"
+     "speaker": "AJEW",
+     "text": [
+      "You speak of what He did; He did not just speak, He showed them something. I thought it was a mark of great intimacy and of the confiding love of Christ in those in whom His interest was, as if He would suggest that that interest would not just be passing but would remain, and they were to be brought into the settled sense of relationship and",
+      "intimacy with Himself."
+     ]
     },
     {
-     "text": "intimacy with Himself."
+     "speaker": "JR",
+     "text": [
+      "Yes. He showed them Himself, His hands and His side. I know it has been said that His side would refer to Genesis 2, and I have no doubt it does. Nevertheless, His side is mentioned in chapter 19; the only place it is mentioned in the gospels that the spear pierced His side. It would give the a sense of peace that everything was settled, everything was seen to. From that side came blood and water; there was a means of solving every moral question in the blood and water that came from His side. What assurance it would give them! What assurance it gives us to realise that from His own side came the answer to every moral question!"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. He showed them Himself, His hands and His side. I know it has been said that His side would refer to Genesis 2, and I have no doubt it does. Nevertheless, His side is mentioned in chapter 19; the only place it is mentioned in the gospels that the spear pierced His side. It would give the a sense of peace that everything was settled, everything was seen to. From that side came blood and water; there was a means of solving every moral question in the blood and water that came from His side. What assurance it would give them! What assurance it gives us to realise that from His own side came the answer to every moral question!"
+     "speaker": "DJH",
+     "text": [
+      "So you can understand that He says \"Peace be to you. And having said this, he shewed to them his hands and his side\". It was a basis for eternal peace"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "So you can understand that He says \"Peace be to you. And having said this, he shewed to them his hands and his side\". It was a basis for eternal peace"
+     "speaker": "JR",
+     "text": [
+      "Quite so. It was the heavenly Man, the One who was about to ascend; therefore it would be heavenly peace that He brought in, with the assurance that there was a basis for the settling of every moral question that could ever arise."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. It was the heavenly Man, the One who was about to ascend; therefore it would be heavenly peace that He brought in, with the assurance that there was a basis for the settling of every moral question that could ever arise."
+     "speaker": "PSW",
+     "text": [
+      "Chapter 19 is the witness of the one that saw it, but this is experienced in the company. We understand from 1 Corinthians 15 that there were several personal appearings, but is it important to see the collective experience and the answer that the Lord is really looking for?",
+      "J.R. l am sure it is."
+     ]
     },
     {
-     "speaker": "P.S.W.",
-     "text": "Chapter 19 is the witness of the one that saw it, but this is experienced in the company. We understand from 1 Corinthians 15 that there were several personal appearings, but is it important to see the collective experience and the answer that the Lord is really looking for?"
+     "speaker": "EP",
+     "text": [
+      "Experience is a very blessed matter. The disciples' testimony was \"We have seen the Lord\". Mary said that she had seen the Lord and that He had said certain things to her, but the collective experience was \"We have seen the Lord\". It is really sufficient."
+     ]
     },
     {
-     "text": "J.R. l am sure it is."
+     "speaker": "JR",
+     "text": [
+      "It seems that all that the disciples said to Thomas was just these five words: \"We have seen the Lord\". That was the testimony to one who was absent. They have affection for him; they want him in too. The relationship in which we are to Christ, is also the relationship in which we are to one another. \"My brethren... my Father and your Father... my God and your God\". It puts us together on the level of these wonderful, divine, eternal relationships."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Experience is a very blessed matter. The disciples' testimony was \"We have seen the Lord\". Mary said that she had seen the Lord and that He had said certain things to her, but the collective experience was \"We have seen the Lord\". It is really sufficient."
+     "speaker": "EP",
+     "text": [
+      "So they rejoiced together. It says \"The disciples rejoiced therefore, having seen the Lord\". It was joy together, and it is a wonderful experience to rejoice together."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It seems that all that the disciples said to Thomas was just these five words: \"We have seen the Lord\". That was the testimony to one who was absent. They have affection for him; they want him in too. The relationship in which we are to Christ, is also the relationship in which we are to one another. \"My brethren... my Father and your Father... my God and your God\". It puts us together on the level of these wonderful, divine, eternal relationships."
+     "speaker": "JR",
+     "text": [
+      "Exactly. It is a 'together' scene: \"where the disciples were\". We have often gone over this section but it is good to get the impression that the Lord does all here. He speaks and He shows them, it is from Him to them; and then the Lord looks for the result, He sends them forth. How much has flowed from the Lord to us!"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "So they rejoiced together. It says \"The disciples rejoiced therefore, having seen the Lord\". It was joy together, and it is a wonderful experience to rejoice together."
+     "speaker": "HAH",
+     "text": [
+      "The hands were the hands that had taken the basin, the water and the towel, and the feet of each one of them. He was still serving in love, showing Himself in this way."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. It is a 'together' scene: \"where the disciples were\". We have often gone over this section but it is good to get the impression that the Lord does all here. He speaks and He shows them, it is from Him to them; and then the Lord looks for the result, He sends them forth. How much has flowed from the Lord to us!"
+     "speaker": "JR",
+     "text": [
+      "It was His delight to be with them here in His resurrection, and also in the light of heaven, the light of ascension. He would take them with Him in His affections when He ascended."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "The hands were the hands that had taken the basin, the water and the towel, and the feet of each one of them. He was still serving in love, showing Himself in this way."
+     "speaker": "ECB",
+     "text": [
+      "Do you have in mind that we might be alert to see what the Lord Himself does as He comes among us? Your reference to His side connecting with chapter 19, might specially connect in our minds with the cup, the Lord being with us. Is the question for us to see what He does?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It was His delight to be with them here in His resurrection, and also in the light of heaven, the light of ascension. He would take them with Him in His affections when He ascended."
+     "speaker": "JR",
+     "text": [
+      "Yes, there is no doubt that in the cup there is the assurance that from the divine side everything is settled. We would not be in full liberty unless we had that assurance, and that is available for the very youngest, the assurance that there is a basis for everything being settled, everything being according to the divine mind."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you have in mind that we might be alert to see what the Lord Himself does as He comes among us? Your reference to His side connecting with chapter 19, might specially connect in our minds with the cup, the Lord being with us. Is the question for us to see what He does?"
+     "speaker": "CB",
+     "text": [
+      "I was thinking of those other five words: \"through fear of the Jews\". Was that a positive matter or was it protective?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, there is no doubt that in the cup there is the assurance that from the divine side everything is settled. We would not be in full liberty unless we had that assurance, and that is available for the very youngest, the assurance that there is a basis for everything being settled, everything being according to the divine mind."
+     "speaker": "JR",
+     "text": [
+      "We often apply \"through fear of the Jews\" to the need to keep out every Jewish element, but actually the Jews had just been the means of crucifying their Lord and I can understand them closing the doors, because the Jews might be after them too. That is the actual situation; the opposition in this gospel was very, very real, and it had been the means of crucifying their Lord, the One they followed. There is the application, that we keep out every Jewish element, but there is a touching scene here. They may well fear the Jews when they had crucified the Lord."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "I was thinking of those other five words: \"through fear of the Jews\". Was that a positive matter or was it protective?"
+     "speaker": "CB",
+     "text": [
+      "We need spiritual eyesight for that."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "We often apply \"through fear of the Jews\" to the need to keep out every Jewish element, but actually the Jews had just been the means of crucifying their Lord and I can understand them closing the doors, because the Jews might be after them too. That is the actual situation; the opposition in this gospel was very, very real, and it had been the means of crucifying their Lord, the One they followed. There is the application, that we keep out every Jewish element, but there is a touching scene here. They may well fear the Jews when they had crucified the Lord."
+     "speaker": "JR",
+     "text": [
+      "Yes we do. The opposition is intense; it was intense here and it is at the present time. But this is the Lord active where the disciples were in seclusion."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "We need spiritual eyesight for that."
+     "speaker": "JCE",
+     "text": [
+      "They had to open the doors; the Lord sent them forth. He sent them out into the very circumstances and elements that put Him to death. I think He strengthened them by the impartation of the Spirit."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes we do. The opposition is intense; it was intense here and it is at the present time. But this is the Lord active where the disciples were in seclusion."
+     "speaker": "JR",
+     "text": [
+      "Exactly. It is a personal transaction here; He breathed into them. He gave them His own breath to represent Him down here, as you say, in a scene of opposition, yet of testimony, to continue in the same breath as He was here."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "They had to open the doors; the Lord sent them forth. He sent them out into the very circumstances and elements that put Him to death. I think He strengthened them by the impartation of the Spirit."
+     "speaker": "RWF",
+     "text": [
+      "Is \"the midst\" that of which the Lord Himself is the centre? I have wondered as to sensitivity in recognition of the Lord. We sometimes speak of welcoming the Lord, but He was the first to speak here. I wonder if there is that sensitivity with me which would be ready for a communication of this kind."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. It is a personal transaction here; He breathed into them. He gave them His own breath to represent Him down here, as you say, in a scene of opposition, yet of testimony, to continue in the same breath as He was here."
+     "speaker": "JR",
+     "text": [
+      "I am sure that is a test and a challenge; this was actual, physical here; it is spiritual for us, which is a test to us, whether His presence is real to us. I often wonder (I do not want to be imaginative), if the Lord actually came in, what would we do? Would we be surprised? His presence is to be as real as that, but it is by the Spirit. It is meant to affect us. As you say, we need to be sensitive. We need to have our eye on Him."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Is \"the midst\" that of which the Lord Himself is the centre? I have wondered as to sensitivity in recognition of the Lord. We sometimes speak of welcoming the Lord, but He was the first to speak here. I wonder if there is that sensitivity with me which would be ready for a communication of this kind."
+     "speaker": "BWW",
+     "text": [
+      "If His presence were corporeal, do you think it would make a difference in fact as to what transpired and how it worked?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is a test and a challenge; this was actual, physical here; it is spiritual for us, which is a test to us, whether His presence is real to us. I often wonder (I do not want to be imaginative), if the Lord actually came in, what would we do? Would we be surprised? His presence is to be as real as that, but it is by the Spirit. It is meant to affect us. As you say, we need to be sensitive. We need to have our eye on Him."
+     "speaker": "JR",
+     "text": [
+      "I think it would test us, whether we would be in the same liberty to take part. The Lord could come corporeally. He does not come that way, but He could come that way. He comes by the Spirit and it is a test as to our reality, our affection, as well as our spirituality. Do you think so?"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "If His presence were corporeal, do you think it would make a difference in fact as to what transpired and how it worked?"
+     "speaker": "BWW",
+     "text": [
+      "I am sure that is right. I have wondered whether it might simplify what we would say, because we should be fully conscious that He heard all. We want the brethren to hear, because we speak normally for the company, but He would hear exactly what was said and how it was said."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I think it would test us, whether we would be in the same liberty to take part. The Lord could come corporeally. He does not come that way, but He could come that way. He comes by the Spirit and it is a test as to our reality, our affection, as well as our spirituality. Do you think so?"
+     "speaker": "JR",
+     "text": [
+      "There is one thing sure, if the Lord did appear corporeally we certainly would worship Him, we certainly would bow in homage together."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "I am sure that is right. I have wondered whether it might simplify what we would say, because we should be fully conscious that He heard all. We want the brethren to hear, because we speak normally for the company, but He would hear exactly what was said and how it was said."
+     "speaker": "BWW",
+     "text": [
+      "Yes. I have thought, in relation to this scene, that He must have been the object of every eye. He would be there, it says, \"in the midst\", and in a certain sense I would think everyone else save Jesus Himself was forgotten by each of them, and if that is so with us I suppose it would bring in liberty, as well perhaps, as you say, a test maybe, but liberty too."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "There is one thing sure, if the Lord did appear corporeally we certainly would worship Him, we certainly would bow in homage together."
+     "speaker": "JR",
+     "text": [
+      "Yes; it would give us appreciation of one another too."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Yes. I have thought, in relation to this scene, that He must have been the object of every eye. He would be there, it says, \"in the midst\", and in a certain sense I would think everyone else save Jesus Himself was forgotten by each of them, and if that is so with us I suppose it would bring in liberty, as well perhaps, as you say, a test maybe, but liberty too."
+     "speaker": "CB",
+     "text": [
+      "Could we give Him anything to eat?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes; it would give us appreciation of one another too."
+     "speaker": "JR",
+     "text": [
+      "That brings us to Luke 24. It does not say the Lord came, but \"he himself stood in their midst\", in the midst of persons He had to do with, in principle, in His gathering service. If the Lord had His way with us He would gather us. At the beginning of this chapter they are in perplexity. That is often the way with us, things are not very clear sometimes; we are in perplexity. But the Lord appeared to Simon, and then to these two on the way to Emmaus who would be samples of how the Lord serves His own with a view to gathering them, so that they have the sense of belonging to the Lord and belonging to one another. \"Rising up the same hour, they returned to Jerusalem. And they found the eleven, and those with them gathered together\". They gravitate towards the company as a result of impressions of the Lord's gathering."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Could we give Him anything to eat?"
+     "speaker": "CB",
+     "text": [
+      "And there was a good state there to provide something for Him."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That brings us to Luke 24. It does not say the Lord came, but \"he himself stood in their midst\", in the midst of persons He had to do with, in principle, in His gathering service. If the Lord had His way with us He would gather us. At the beginning of this chapter they are in perplexity. That is often the way with us, things are not very clear sometimes; we are in perplexity. But the Lord appeared to Simon, and then to these two on the way to Emmaus who would be samples of how the Lord serves His own with a view to gathering them, so that they have the sense of belonging to the Lord and belonging to one another. \"Rising up the same hour, they returned to Jerusalem. And they found the eleven, and those with them gathered together\". They gravitate towards the company as a result of impressions of the Lord's gathering."
+     "speaker": "JR",
+     "text": [
+      "Yes, that comes in. Again the Lord speaks and shows them. He stood in their midst and said to them, Peace be to you. Then He says to them \"Why are ye troubled? and why are thoughts rising in your hearts? behold my hands and my feet, that it is I myself. Handle me and see\". Then \"having said this he shewed them his hands and his feet\". Then He said \"Have ye anything here to eat?\" That means, Have you anything for Me to eat? When He said in John 21 \"Have ye anything to eat?\" He meant had they any food for themselves, but here, \"Have ye anything here to eat?\" is, Have you anything that I can appropriate? They had something that they themselves had been engaged with: \"part of a broiled fish and of a honeycomb\"."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "And there was a good state there to provide something for Him."
+     "speaker": "CB",
+     "text": [
+      "That is a good state."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, that comes in. Again the Lord speaks and shows them. He stood in their midst and said to them, Peace be to you. Then He says to them \"Why are ye troubled? and why are thoughts rising in your hearts? behold my hands and my feet, that it is I myself. Handle me and see\". Then \"having said this he shewed them his hands and his feet\". Then He said \"Have ye anything here to eat?\" That means, Have you anything for Me to eat? When He said in John 21 \"Have ye anything to eat?\" He meant had they any food for themselves, but here, \"Have ye anything here to eat?\" is, Have you anything that I can appropriate? They had something that they themselves had been engaged with: \"part of a broiled fish and of a honeycomb\"."
+     "speaker": "JR",
+     "text": [
+      "Yes, the state improves; it does not take a long time to improve state. If I have sinned I am in a bad state, obviously; if I repent, my state is improved immediately. Here they were perplexed and confounded, but very soon, as you say, they had something for the Lord."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "That is a good state."
+     "speaker": "JCE",
+     "text": [
+      "You even get a good state improved here, because it says they believed not for joy. Joy is a good state, but one tends to have oneself in view. To believe means that there is an object of belief, which was the Lord here. Do you think that after that mention their good state was improved?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, the state improves; it does not take a long time to improve state. If I have sinned I am in a bad state, obviously; if I repent, my state is improved immediately. Here they were perplexed and confounded, but very soon, as you say, they had something for the Lord."
+     "speaker": "JR",
+     "text": [
+      "I am sure that is right, and there is always room for improvement. We are told in Philippians to \"abound... more and more\", chap 1: 9."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "You even get a good state improved here, because it says they believed not for joy. Joy is a good state, but one tends to have oneself in view. To believe means that there is an object of belief, which was the Lord here. Do you think that after that mention their good state was improved?"
+     "speaker": "JCE",
+     "text": [
+      "This gospel mentions the word eleven; it takes account of the fact that they were incomplete. The word eleven is not used in John, it is just the disciples. It shows special grace, that in a time of limitation the Lord was pleased to involve Himself in connection with their state and to look for something from them, as was said, something that He can partake of with them."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is right, and there is always room for improvement. We are told in Philippians to \"abound... more and more\", chap 1: 9."
+     "speaker": "ECB",
+     "text": [
+      "Is it too challenging a question to ask whether we would actually recognise the Lord if He came in corporeally?"
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "This gospel mentions the word eleven; it takes account of the fact that they were incomplete. The word eleven is not used in John, it is just the disciples. It shows special grace, that in a time of limitation the Lord was pleased to involve Himself in connection with their state and to look for something from them, as was said, something that He can partake of with them."
+     "speaker": "JR",
+     "text": [
+      "What do you say?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it too challenging a question to ask whether we would actually recognise the Lord if He came in corporeally?"
+     "speaker": "ECB",
+     "text": [
+      "I think it is a question. Both in John and in Luke He showed it was Himself by His hands and His side or His hands and His feet, and Luke refers in the Acts to \"many proofs\", chap 1: 3. But it does raise the question, what impression we actually have of Jesus Himself and whether we would know Him if He came among us."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "What do you say?"
+     "speaker": "JR",
+     "text": [
+      "Yes, that is a challenge. It is Jesus Himself in this chapter (v 15) and in verse 36 \"he himself stood in their midst\"."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think it is a question. Both in John and in Luke He showed it was Himself by His hands and His side or His hands and His feet, and Luke refers in the Acts to \"many proofs\", chap 1: 3. But it does raise the question, what impression we actually have of Jesus Himself and whether we would know Him if He came among us."
+     "speaker": "HAH",
+     "text": [
+      "Would this raise the question whether we can discern the features of Jesus in one another?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, that is a challenge. It is Jesus Himself in this chapter (v 15) and in verse 36 \"he himself stood in their midst\"."
+     "speaker": "JR",
+     "text": [
+      "Yes, and it is a challenge as to whether we really know Him personally."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Would this raise the question whether we can discern the features of Jesus in one another?"
+     "speaker": "ECB",
+     "text": [
+      "It is a question of what impression we have of Jesus in a glorified condition. Just to be simple, are our impressions of Jesus just drawn from illustrations in the Bible? What impression have we of a Man in another condition altogether? If He came in, would we be saying, Who is this?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, and it is a challenge as to whether we really know Him personally."
+     "speaker": "JR",
+     "text": [
+      "We are going to see Him one day very soon and we will know Him then."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is a question of what impression we have of Jesus in a glorified condition. Just to be simple, are our impressions of Jesus just drawn from illustrations in the Bible? What impression have we of a Man in another condition altogether? If He came in, would we be saying, Who is this?"
+     "speaker": "WJRB",
+     "text": [
+      "Both in John here, and in Revelation, there is a question of turning round. It raises the question of the present appearance of the Lord in relation to the assemblies. In Revelation His eyes were \"as a flame of fire\", chap 1: 14."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "We are going to see Him one day very soon and we will know Him then."
+     "speaker": "JR",
+     "text": [
+      "That is the Lord's attitude to the public profession; the assembly publicly has failed. The Lord appears there \"girt about at the breasts with a golden girdle\". His affections are there but they are restrained because of conditions publicly. John turned there: \"having turned, I saw\". The first thing he sees is seven golden lamps, and then \"in the midst of the seven lamps one like the Son of man\". Therefore it is the general public position that is in view in Revelation 1. The Lord's affections are restrained. It ought to be our concern, as answering to the Lord's mind for us, to know Him with His affections unrestrained in a secret way; but generally His affections are restrained. Therefore while we ought to have love for all the saints our affections have to be somewhat restrained too because of any dishonour to the Lord in the public profession."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "Both in John here, and in Revelation, there is a question of turning round. It raises the question of the present appearance of the Lord in relation to the assemblies. In Revelation His eyes were \"as a flame of fire\", chap 1: 14."
+     "speaker": "DAB",
+     "text": [
+      "Does it help to refer again to the thought of learning the Christ, which was in one of your scriptures yesterday? In Revelation it was a manifestation in a form with which John was not familiar. The manifestations at the end of the gospels seem to be in a way with which they were familiar, the Lord appeared to them as they had known Him."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is the Lord's attitude to the public profession; the assembly publicly has failed. The Lord appears there \"girt about at the breasts with a golden girdle\". His affections are there but they are restrained because of conditions publicly. John turned there: \"having turned, I saw\". The first thing he sees is seven golden lamps, and then \"in the midst of the seven lamps one like the Son of man\". Therefore it is the general public position that is in view in Revelation 1. The Lord's affections are restrained. It ought to be our concern, as answering to the Lord's mind for us, to know Him with His affections unrestrained in a secret way; but generally His affections are restrained. Therefore while we ought to have love for all the saints our affections have to be somewhat restrained too because of any dishonour to the Lord in the public profession."
+     "speaker": "JR",
+     "text": [
+      "Yes. The Lord says here \"Why are ye troubled? and why are thoughts rising in your hearts? behold my hands and my feet, that it is I myself\". Much depends on our personal links with Jesus Himself."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Does it help to refer again to the thought of learning the Christ, which was in one of your scriptures yesterday? In Revelation it was a manifestation in a form with which John was not familiar. The manifestations at the end of the gospels seem to be in a way with which they were familiar, the Lord appeared to them as they had known Him."
+     "speaker": "DAB",
+     "text": [
+      "I wondered if that is another aspect of His side. That is really where we ought to be. If we do not recognise somebody it is probably because we have not been in his company."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. The Lord says here \"Why are ye troubled? and why are thoughts rising in your hearts? behold my hands and my feet, that it is I myself\". Much depends on our personal links with Jesus Himself."
+     "speaker": "EP",
+     "text": [
+      "It says of those two that their eyes were opened and they recognised Him. Do you think they joined the company with opened eyes? It says \"they found themselves, and those with them, gathered together, saying, The Lord is indeed risen and has appeared to Simon\"; then it says \"And they related what had happened on the way\". They would say, Our eyes were opened and we recognised Him; and they brought that into the company."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I wondered if that is another aspect of His side. That is really where we ought to be. If we do not recognise somebody it is probably because we have not been in his company."
+     "speaker": "JR",
+     "text": [
+      "Very good. The nearer we are to the Lord Jesus personally the more we will appreciate His own. When they have their eyes opened they come to where the others are, they gravitate to the company. The Lord did not tell them to go there, but when their eyes were opened and they recognised Him they say \"Was not our heart burning in us...?\" and \"rising up the same hour, they returned to Jerusalem\"."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "It says of those two that their eyes were opened and they recognised Him. Do you think they joined the company with opened eyes? It says \"they found themselves, and those with them, gathered together, saying, The Lord is indeed risen and has appeared to Simon\"; then it says \"And they related what had happened on the way\". They would say, Our eyes were opened and we recognised Him; and they brought that into the company."
+     "speaker": "CJGB",
+     "text": [
+      "Does this show what the Lord had in mind that He could say \"I myself\"? Do you think there is something that has gone through at the Lord's supper that would bring great intimacy as we have our attention fixed upon Him?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good. The nearer we are to the Lord Jesus personally the more we will appreciate His own. When they have their eyes opened they come to where the others are, they gravitate to the company. The Lord did not tell them to go there, but when their eyes were opened and they recognised Him they say \"Was not our heart burning in us...?\" and \"rising up the same hour, they returned to Jerusalem\"."
+     "speaker": "JR",
+     "text": [
+      "I am sure if we have our attention fixed on Him we will get on better together, we will get on well together locally, because this scripture is suggestive of the local setting, it is \"their midst\". It is not \"the midst\" as in John, it is \"their midst\" here, in the midst of these persons who are available in that locality at that time."
+     ]
     },
     {
-     "speaker": "C.J.G.B.",
-     "text": "Does this show what the Lord had in mind that He could say \"I myself\"? Do you think there is something that has gone through at the Lord's supper that would bring great intimacy as we have our attention fixed upon Him?"
+     "speaker": "GAP",
+     "text": [
+      "Would \"Handle me and see\" show the nearness to which the Lord Himself has come? And would that be something to be promoted with us, to be aware of the nearness, and the reality, of His manhood?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure if we have our attention fixed on Him we will get on better together, we will get on well together locally, because this scripture is suggestive of the local setting, it is \"their midst\". It is not \"the midst\" as in John, it is \"their midst\" here, in the midst of these persons who are available in that locality at that time."
+     "speaker": "JR",
+     "text": [
+      "Quite so, \"Handle me and see\"; He showed them His hands and His feet. His feet had gone after Simon; His feet had gone after these two, followed them in the wrong direction all the way to Emmaus. It is the grace of the Lord's gathering attitude.",
+      "A.J.E.W. ls it interesting that, having referred to His hands and His feet, He then speaks of flesh and bones? The hands and the feet would be the members that entered into the activity which you speak of, but the flesh and bones would really be the essential condition in which He was before them, and is it not to impart to us in some spiritual sense a peculiar impression of the tangibility of the presence of Jesus, the reality of it?"
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Would \"Handle me and see\" show the nearness to which the Lord Himself has come? And would that be something to be promoted with us, to be aware of the nearness, and the reality, of His manhood?"
+     "speaker": "JR",
+     "text": [
+      "The substantiality or tangibility: exactly. This is what we need more than anything else, what I need more than anything else, this personal experience with Jesus Himself."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so, \"Handle me and see\"; He showed them His hands and His feet. His feet had gone after Simon; His feet had gone after these two, followed them in the wrong direction all the way to Emmaus. It is the grace of the Lord's gathering attitude."
+     "speaker": "CB",
+     "text": [
+      "We need also to value those two hundred volumes of ministry you were telling us about including fifty years of teaching of Mr Taylor as to Christ and the assembly. These two in Luke 24 had Christ in their hearts and then they returned and were in the gain of the assembly."
+     ]
     },
     {
-     "text": "A.J.E.W. ls it interesting that, having referred to His hands and His feet, He then speaks of flesh and bones? The hands and the feet would be the members that entered into the activity which you speak of, but the flesh and bones would really be the essential condition in which He was before them, and is it not to impart to us in some spiritual sense a peculiar impression of the tangibility of the presence of Jesus, the reality of it?"
+     "speaker": "JR",
+     "text": [
+      "Yes, I have been impressed with the lavish way in which the Lord has showered teaching and ministry upon us. It is almost like the parable in Isaiah: \"What was there yet to do... that I have not done...?\", chap 5: 4. There is abundance. The Lord Jesus was the operator, the One who made the stars; I often wonder why He made so many, and I wonder why He gave us so much in the way of instruction and ministry and example. We are enlightened and therefore responsible."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The substantiality or tangibility: exactly. This is what we need more than anything else, what I need more than anything else, this personal experience with Jesus Himself."
+     "speaker": "CB",
+     "text": [
+      "I was impressed with the hymn we sang this morning-:",
+      "O gracious God, Thy pleasure",
+      "Is in Thy Christ made known. (No.66)"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "We need also to value those two hundred volumes of ministry you were telling us about including fifty years of teaching of Mr Taylor as to Christ and the assembly. These two in Luke 24 had Christ in their hearts and then they returned and were in the gain of the assembly."
+     "speaker": "JR",
+     "text": [
+      "That is good. The fifty years of Mr Taylor's ministry related to the local assembly and what is proper to the local assembly: the service of God, administration, relations together; fifty years of volume after volume relating mainly to local conditions. There is no doubt in my mind that Mr Raven had a profound impression of Christ. Read his ministry: it is Christ. Mr Taylor had a profound impression of the assembly; these two go together and we have all that wealth."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, I have been impressed with the lavish way in which the Lord has showered teaching and ministry upon us. It is almost like the parable in Isaiah: \"What was there yet to do... that I have not done...?\", chap 5: 4. There is abundance. The Lord Jesus was the operator, the One who made the stars; I often wonder why He made so many, and I wonder why He gave us so much in the way of instruction and ministry and example. We are enlightened and therefore responsible."
+     "speaker": "RWF",
+     "text": [
+      "Is the question now, not how much we know by heart but how much we have in our hearts? \"Was not our heart burning... ?\", and the Lord raises the question: \"why are thoughts rising in your hearts?\". Is it a question of the love of the truth?"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "I was impressed with the hymn we sang this morning-:"
+     "speaker": "JR",
+     "text": [
+      "That is right. How much are we formed by what the Lord has so lavishly given us? Now in chapter 12 of John the Lord came, \"came to Bethany\". The end of Matthew says \"being in Bethany\" (chap 26: 6), and in Mark it is \"when he was in Bethany\" (chap 14: 3); He happened to be there. But here we read that He came to Bethany, came to these persons in this locality, and it would seem that they did everything. The Lord was the object of their attention and their activity in this place. We need to think of this, that while we appreciate being the subjects of the Lord's interest, He is to be the object of our interest and our response, as we have here. It says \"they made him a supper\". There is no word about what the Lord says or what the Lord does. They do it, it is their appreciation of Him being manifested here. \"Martha served, but Lazarus was one of those at table with him. Mary therefore, having taken a pound of ointment\" and so on; it is what they did. When the Lord comes to us, is He not worthy of our attention and our response in a full-hearted way?"
+     ]
     },
     {
-     "text": "O gracious God, Thy pleasure"
+     "speaker": "DJH",
+     "text": [
+      "So Lazarus was one of those at table with Him. There were others there but Lazarus was with Him. Should we be with Him, do you think?"
+     ]
     },
     {
-     "text": "Is in Thy Christ made known. (No.66)"
+     "speaker": "JR",
+     "text": [
+      "It is the result of chapter 11. They were the subjects of the Lord's affection and His interest all through chapter 11 but in chapter 12 there is a result for Him. He is the object of their attention and activity."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is good. The fifty years of Mr Taylor's ministry related to the local assembly and what is proper to the local assembly: the service of God, administration, relations together; fifty years of volume after volume relating mainly to local conditions. There is no doubt in my mind that Mr Raven had a profound impression of Christ. Read his ministry: it is Christ. Mr Taylor had a profound impression of the assembly; these two go together and we have all that wealth."
+     "speaker": "DJH",
+     "text": [
+      "Yes, I was thinking of what was said earlier, that if He came into the midst our eyes would be on Him; we would lose sight of one another in that sense. Lazarus was just with Him."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Is the question now, not how much we know by heart but how much we have in our hearts? \"Was not our heart burning... ?\", and the Lord raises the question: \"why are thoughts rising in your hearts?\". Is it a question of the love of the truth?"
+     "speaker": "ECB",
+     "text": [
+      "They would have had to have this outlook all the time, would they not, not just on the occasion when the Lord came in? There must have been a degree of preparation. Mary would have had Him as an object before He actually came, and Martha invited Him because she wanted Him."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. How much are we formed by what the Lord has so lavishly given us? Now in chapter 12 of John the Lord came, \"came to Bethany\". The end of Matthew says \"being in Bethany\" (chap 26: 6), and in Mark it is \"when he was in Bethany\" (chap 14: 3); He happened to be there. But here we read that He came to Bethany, came to these persons in this locality, and it would seem that they did everything. The Lord was the object of their attention and their activity in this place. We need to think of this, that while we appreciate being the subjects of the Lord's interest, He is to be the object of our interest and our response, as we have here. It says \"they made him a supper\". There is no word about what the Lord says or what the Lord does. They do it, it is their appreciation of Him being manifested here. \"Martha served, but Lazarus was one of those at table with him. Mary therefore, having taken a pound of ointment\" and so on; it is what they did. When the Lord comes to us, is He not worthy of our attention and our response in a full-hearted way?"
+     "speaker": "WJRB",
+     "text": [
+      "Does death have a peculiar bearing on us? If you have a brother sitting next to you, and the next week he has been taken, it has a profound effect upon you."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "So Lazarus was one of those at table with Him. There were others there but Lazarus was with Him. Should we be with Him, do you think?"
+     "speaker": "JR",
+     "text": [
+      "We have just had experiences like that in our city, of much illness and the Lord taking two. We had a double burial last Tuesday, but I think I can say the effect is that it has put us together in affection and appreciation for one another, just as these persons were here, they were together in their activities. We can pass through other kinds of exercises where we might not be of one mind, but the Lord's dealings with us would have in mind putting us together."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is the result of chapter 11. They were the subjects of the Lord's affection and His interest all through chapter 11 but in chapter 12 there is a result for Him. He is the object of their attention and activity."
+     "speaker": "DAB",
+     "text": [
+      "It does not say that Martha had much service here. I wondered if that suggested a greater sense of readiness on her part, so that all the work that might have been a burden had already been completed, and when the Lord came things were ready."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Yes, I was thinking of what was said earlier, that if He came into the midst our eyes would be on Him; we would lose sight of one another in that sense. Lazarus was just with Him."
+     "speaker": "PSW",
+     "text": [
+      "The Lord would be the object of Martha's service, not her own part in it, and Mary's service had the Lord as an object and the result was to affect the whole company, the house was filled."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "They would have had to have this outlook all the time, would they not, not just on the occasion when the Lord came in? There must have been a degree of preparation. Mary would have had Him as an object before He actually came, and Martha invited Him because she wanted Him."
+     "speaker": "ECB",
+     "text": [
+      "Had they not all proved the individual service of the Lord in chapter 11, not just as a family but each one?"
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "Does death have a peculiar bearing on us? If you have a brother sitting next to you, and the next week he has been taken, it has a profound effect upon you."
+     "speaker": "JR",
+     "text": [
+      "They had indeed, because the Lord had His own touch with Martha and with Mary, and of course distinctively with Lazarus. I know this is a resurrection scene it does not go as high as John 20, but we are speaking of this setting of the Lord being the object and the Lord receiving. The Lord caters for us in a very full way but we have the privilege of catering for Him and that is what they do here."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "We have just had experiences like that in our city, of much illness and the Lord taking two. We had a double burial last Tuesday, but I think I can say the effect is that it has put us together in affection and appreciation for one another, just as these persons were here, they were together in their activities. We can pass through other kinds of exercises where we might not be of one mind, but the Lord's dealings with us would have in mind putting us together."
+     "speaker": "ECB",
+     "text": [
+      "Even if this is not on the level of John 20 does it not stimulate us to be all we can for the Lord at the level at which we are?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It does not say that Martha had much service here. I wondered if that suggested a greater sense of readiness on her part, so that all the work that might have been a burden had already been completed, and when the Lord came things were ready."
+     "speaker": "JR",
+     "text": [
+      "That is exactly what is in mind."
+     ]
     },
     {
-     "speaker": "P.S.W.",
-     "text": "The Lord would be the object of Martha's service, not her own part in it, and Mary's service had the Lord as an object and the result was to affect the whole company, the house was filled."
+     "speaker": "CB",
+     "text": [
+      "Would there be a difference between servile service and love service?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Had they not all proved the individual service of the Lord in chapter 11, not just as a family but each one?"
+     "speaker": "JR",
+     "text": [
+      "That is right. This is love service, service with the Lord Jesus as the object."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "They had indeed, because the Lord had His own touch with Martha and with Mary, and of course distinctively with Lazarus. I know this is a resurrection scene it does not go as high as John 20, but we are speaking of this setting of the Lord being the object and the Lord receiving. The Lord caters for us in a very full way but we have the privilege of catering for Him and that is what they do here."
+     "speaker": "CB",
+     "text": [
+      "In Luke 10 there is a little bit of servile service with Martha but here love takes its place."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Even if this is not on the level of John 20 does it not stimulate us to be all we can for the Lord at the level at which we are?"
+     "speaker": "JR",
+     "text": [
+      "That is right. The Lord brought about this change, and is He not worthy of receiving from us increasingly?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is exactly what is in mind."
+     "speaker": "BWW",
+     "text": [
+      "Is it of some interest that before what any one of the three named ones does or how Lazarus is placed, there is this general statement \"There therefore they\", without saying who the 'they' are, which is a very wide expression into which we all can come?"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Would there be a difference between servile service and love service?"
+     "speaker": "JR",
+     "text": [
+      "Exactly. It is a collective matter. We are all the subjects of the Lord's intense interest. Where we come short sometimes is that the Lord is not sufficiently the object of our activities."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. This is love service, service with the Lord Jesus as the object."
+     "speaker": "JSP",
+     "text": [
+      "Would it be right to suggest too that the way in which Mary moves in this chapter follows on the sitting at His feet and hearing His word (see Luke 10: 39) and would that be a stimulus to us to be more occupied with Himself in order that there might be for Him that which is wrought out in us?"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "In Luke 10 there is a little bit of servile service with Martha but here love takes its place."
+     "speaker": "JR",
+     "text": [
+      "Yes, that must be so, for where did Mary get this substance? It says \"Mary therefore, having taken a pound of ointment\"; she must have had it."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. The Lord brought about this change, and is He not worthy of receiving from us increasingly?"
+     "speaker": "JSP",
+     "text": [
+      "I thought she had acquired it in Luke 10."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Is it of some interest that before what any one of the three named ones does or how Lazarus is placed, there is this general statement \"There therefore they\", without saying who the 'they' are, which is a very wide expression into which we all can come?"
+     "speaker": "JR",
+     "text": [
+      "Quite so, and the personal experience in chapter 11 of John too, it would all be cumulative in Mary's soul and appreciation. She had the ointment of pure nard of great price and anointed the feet of Jesus and wiped His feet with her hair which was herself. The house was filled with the odour of the ointment. It is all there in herself; we are to be like this. Experiences we go through, personal sorrows, even church sorrows, are meant to yield this kind of thing."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. It is a collective matter. We are all the subjects of the Lord's intense interest. Where we come short sometimes is that the Lord is not sufficiently the object of our activities."
+     "speaker": "ECB",
+     "text": [
+      "So we limit the extent of this scripture if, for instance, we confine it in our minds to the Supper, but do you not think it is a question whether we realise that in a meeting like this there is intended to be something for the Lord and for God?"
+     ]
     },
     {
-     "speaker": "J.S.P.",
-     "text": "Would it be right to suggest too that the way in which Mary moves in this chapter follows on the sitting at His feet and hearing His word (see Luke 10: 39) and would that be a stimulus to us to be more occupied with Himself in order that there might be for Him that which is wrought out in us?"
+     "speaker": "CB",
+     "text": [
+      "What influence we have in the house would be a good exercise. What are we bringing so in that everybody would get the benefit of our appreciation of Christ?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, that must be so, for where did Mary get this substance? It says \"Mary therefore, having taken a pound of ointment\"; she must have had it."
-    },
-    {
-     "speaker": "J.S.P.",
-     "text": "I thought she had acquired it in Luke 10."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "Quite so, and the personal experience in chapter 11 of John too, it would all be cumulative in Mary's soul and appreciation. She had the ointment of pure nard of great price and anointed the feet of Jesus and wiped His feet with her hair which was herself. The house was filled with the odour of the ointment. It is all there in herself; we are to be like this. Experiences we go through, personal sorrows, even church sorrows, are meant to yield this kind of thing."
-    },
-    {
-     "speaker": "E.C.B.",
-     "text": "So we limit the extent of this scripture if, for instance, we confine it in our minds to the Supper, but do you not think it is a question whether we realise that in a meeting like this there is intended to be something for the Lord and for God?"
-    },
-    {
-     "speaker": "C.B.",
-     "text": "What influence we have in the house would be a good exercise. What are we bringing so in that everybody would get the benefit of our appreciation of Christ?"
-    },
-    {
-     "speaker": "J.R.",
-     "text": "Yes, what influence and quality do we bring in. Those of us who are getting older ought to represent this kind of thing specially, because the whole house benefited. That would include young people."
+     "speaker": "JR",
+     "text": [
+      "Yes, what influence and quality do we bring in. Those of us who are getting older ought to represent this kind of thing specially, because the whole house benefited. That would include young people."
+     ]
     }
    ]
   },
@@ -660,6 +879,14 @@
      "text": "It confirms the Christian, especially in prayer, to know that God looks upon His own word. In this way we can, as it were, hold Him to the promises which He has made. It was to Jeremiah that He said, \"I am watchful over my word to perform it\". The prophet had seen in a vision a rod of almond, a tree which is perhaps the earliest to come into blossom in the Spring. The word itself means 'watchful'. Are you keen to read God's word?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 2,
+   "title": "SUBJECTS OF THE LORD'S INTEREST",
+   "kind": "default_place",
+   "detail": "LONDON given to 16 names (\"all local unless otherwise stated\")"
   }
  ]
 }

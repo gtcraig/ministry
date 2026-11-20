@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -31,6 +31,7 @@
     "TDS",
     "DAS",
     "JAB",
+    "WMP",
     "WL",
     "DBR",
     "RT",
@@ -38,9 +39,12 @@
     "JDG",
     "CKR",
     "TCM",
+    "AMcK",
+    "JTB(Ed)",
     "GCB",
     "DTP",
     "DCB",
+    "DMcG",
     "JCG",
     "GBG"
    ],
@@ -70,8 +74,9 @@
      "name": "D. B. Robertson"
     },
     {
-     "initials": "JTBE",
-     "name": "J. T. Brown (Ed.)"
+     "initials": "JTB(Ed)",
+     "name": "J. T. Brown",
+     "place": "Ed"
     },
     {
      "initials": "WL",
@@ -82,11 +87,12 @@
      "name": "C. K. Robinson"
     },
     {
-     "initials": "JTBG",
-     "name": "J. T. Brown (Gr.)"
+     "initials": "JTB",
+     "name": "J. T. Brown",
+     "place": "Gr"
     },
     {
-     "initials": "DM",
+     "initials": "DMcG",
      "name": "D. McGregor"
     },
     {
@@ -98,7 +104,7 @@
      "name": "G. C. Bywater"
     },
     {
-     "initials": "AM",
+     "initials": "AMcK",
      "name": "A. McKay"
     },
     {
@@ -122,7 +128,7 @@
      "name": "J. C. Gray"
     },
     {
-     "initials": "WP",
+     "initials": "WMP",
      "name": "W. Patterson"
     },
     {
@@ -157,531 +163,770 @@
    "paragraphs": [
     {
      "speaker": "NJH",
-     "text": "I wondered if we might look at the correlation between grace and teaching. We often quote from Titus where grace is said to teach, but I am not thinking of that side; I am thinking of how in the Acts of the Apostles along with the expression of divine grace there is a very definite, clear line of teaching. I thought we might look at that together. The ministry of the Lord when here was for a set time. When it comes to Acts 1 it is clear that the doing and teaching of the Lord continues with His own through to the forty days. As it says in Hebrews as to the great salvation, it had its commencement in being spoken of by the Lord and those that heard, so that things have their commencement in the Lord. I thought the teaching of the Lord continues through the Acts of the Apostles. There are two clear reasons for that because the exercise of grace was a new thing on the earth—not that God did not act in grace in certain circumstances with Israel, but it was a completely new thought on the earth. It flowed out of the work of Christ that released God’s hand to exercise grace, and the teaching going along with that was that there would be no misunderstanding what grace meant. That was the first thing, that God’s grace should not be misunderstood, so there is teaching along with it. Then secondly it comes down to His own, and to their houses, so that grace might not be misrepresented. Certain responsibility hangs on the Acts that we have to recognise, and that comes in through the teaching. In chapter 1 it says, what He “began both to do and to teach”, set on by the Lord Himself, until “he was taken up”, that was at the end of the forty days. That extended beyond His ministry to men. That was something much greater because He was with His own at this point. And then in chapter 13 we have somebody who believed, “being amazed at the teaching of the"
-    },
-    {
-     "text": "Lord”, and you might say, Well, where does grace come in there? It was grace, because through the Lord’s divine work this man. Sergius Paulus, was delivered from influence. He was delivered from man’s influence and he came under Christ, that involved the teaching of the Lord. Poor John Mark fails to recognise the teaching of the Lord, and he goes back to Jerusalem, he goes back under influence. It was a very sad thing, but when he is recovered he writes in his gospel like no other, he says, the Lord “began to teach”. I think he shows the gain of the teaching of the Lord in his gospel. I think you will find it is peculiar to Mark’s gospel, “he began to teach by the sea” (Mark 4: 1), and “he began to teach in the synagogue”, Mark 6: 2. Then it is quite evident in Acts chapters 4 and 5—the enemy is working against the teaching that goes along with grace; they were enjoined not to teach, but it could not be hindered. The prison conditions could not hinder the teaching that goes along with grace."
-    },
-    {
-     "text": "Then it says, “every day, in the temple and in the houses, they ceased not teaching and announcing the glad tidings that Jesus was the Christ”. In chapter 20 the teaching is within."
-    },
-    {
-     "text": "Paul says, “so as not to announce it to you, and to teach you publicly”, that would no doubt be as together, as we are today, then the teaching “in every house”. Then chapter 28 the writer just stops at this. I think it is a dispensational View, that Paul had been sent out earlier, sent out from Antioch on his mission as gifted of the Lord in his service, but instead of being sent out he receives at the end of the Acts. He refers to Esaias, “Go to this people”. Esaias was sent out. But at the end of Acts Paul is “in his own hired lodging, and received all who came to him”. That is like the corner of the housetop. It is not like dwelling with a contentious woman, and a house in common (Proverbs 21: 9). I think “his own hired lodging” is like the corner of the housetop where he receives with welcome all that come to him, “preaching the kingdom of God, and teaching the things concerning the Lord Jesus Christ, with all freedom unhinderedly”. I think that is a touch of grace, and it is going to last the whole dispensation."
+     "text": [
+      "I wondered if we might look at the correlation between grace and teaching. We often quote from Titus where grace is said to teach, but I am not thinking of that side; I am thinking of how in the Acts of the Apostles along with the expression of divine grace there is a very definite, clear line of teaching. I thought we might look at that together. The ministry of the Lord when here was for a set time. When it comes to Acts 1 it is clear that the doing and teaching of the Lord continues with His own through to the forty days. As it says in Hebrews as to the great salvation, it had its commencement in being spoken of by the Lord and those that heard, so that things have their commencement in the Lord. I thought the teaching of the Lord continues through the Acts of the Apostles. There are two clear reasons for that because the exercise of grace was a new thing on the earth—not that God did not act in grace in certain circumstances with Israel, but it was a completely new thought on the earth. It flowed out of the work of Christ that released God’s hand to exercise grace, and the teaching going along with that was that there would be no misunderstanding what grace meant. That was the first thing, that God’s grace should not be misunderstood, so there is teaching along with it. Then secondly it comes down to His own, and to their houses, so that grace might not be misrepresented. Certain responsibility hangs on the Acts that we have to recognise, and that comes in through the teaching. In chapter 1 it says, what He “began both to do and to teach”, set on by the Lord Himself, until “he was taken up”, that was at the end of the forty days. That extended beyond His ministry to men. That was something much greater because He was with His own at this point. And then in chapter 13 we have somebody who believed, “being amazed at the teaching of the",
+      "Lord”, and you might say, Well, where does grace come in there? It was grace, because through the Lord’s divine work this man. Sergius Paulus, was delivered from influence. He was delivered from man’s influence and he came under Christ, that involved the teaching of the Lord. Poor John Mark fails to recognise the teaching of the Lord, and he goes back to Jerusalem, he goes back under influence. It was a very sad thing, but when he is recovered he writes in his gospel like no other, he says, the Lord “began to teach”. I think he shows the gain of the teaching of the Lord in his gospel. I think you will find it is peculiar to Mark’s gospel, “he began to teach by the sea” (Mark 4: 1), and “he began to teach in the synagogue”, Mark 6: 2. Then it is quite evident in Acts chapters 4 and 5—the enemy is working against the teaching that goes along with grace; they were enjoined not to teach, but it could not be hindered. The prison conditions could not hinder the teaching that goes along with grace.",
+      "Then it says, “every day, in the temple and in the houses, they ceased not teaching and announcing the glad tidings that Jesus was the Christ”. In chapter 20 the teaching is within.",
+      "Paul says, “so as not to announce it to you, and to teach you publicly”, that would no doubt be as together, as we are today, then the teaching “in every house”. Then chapter 28 the writer just stops at this. I think it is a dispensational View, that Paul had been sent out earlier, sent out from Antioch on his mission as gifted of the Lord in his service, but instead of being sent out he receives at the end of the Acts. He refers to Esaias, “Go to this people”. Esaias was sent out. But at the end of Acts Paul is “in his own hired lodging, and received all who came to him”. That is like the corner of the housetop. It is not like dwelling with a contentious woman, and a house in common (Proverbs 21: 9). I think “his own hired lodging” is like the corner of the housetop where he receives with welcome all that come to him, “preaching the kingdom of God, and teaching the things concerning the Lord Jesus Christ, with all freedom unhinderedly”. I think that is a touch of grace, and it is going to last the whole dispensation."
+     ]
     },
     {
      "speaker": "TDS",
-     "text": "There is quite a lot in what you have said and I am sure we will get help together. In Mark’s case, grace triumphed, and so Paul could ask Timothy to bring Mark with him for it would be profitable. So grace is not to allow us to continue in sin that grace may abound, but it brings in certain exercises and touches the conscience; yet the end in view is that you might be liberated for divine service and work things out with your brethren."
+     "text": [
+      "There is quite a lot in what you have said and I am sure we will get help together. In Mark’s case, grace triumphed, and so Paul could ask Timothy to bring Mark with him for it would be profitable. So grace is not to allow us to continue in sin that grace may abound, but it brings in certain exercises and touches the conscience; yet the end in view is that you might be liberated for divine service and work things out with your brethren."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Grace sets them together. You get the Lord’s service setting them together. As you say, it was to emancipate man, to set man free. It is not weakness. It is grace reigning, “grace reigns”."
+     "text": [
+      "Grace sets them together. You get the Lord’s service setting them together. As you say, it was to emancipate man, to set man free. It is not weakness. It is grace reigning, “grace reigns”."
+     ]
     },
     {
      "speaker": "TDS",
-     "text": "Yes, “through righteousness”."
+     "text": [
+      "Yes, “through righteousness”."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is exactly it. So you can see how detailed and deliberate God is in the matter, that if He is going to introduce something new He takes time and detail to influence the minds of persons to take in grace, to be affected by grace."
+     "text": [
+      "That is exactly it. So you can see how detailed and deliberate God is in the matter, that if He is going to introduce something new He takes time and detail to influence the minds of persons to take in grace, to be affected by grace."
+     ]
     },
     {
      "speaker": "DAS",
-     "text": "I suppose it is to see that it is in a Person, is it not? “For the law was given by Moses—grace and truth subsists through Jesus Christ”, John 1: 17. I was thinking of the perfection of the Lord Jesus. He “began both to do and to teach”, it was seen in His person was it not?"
+     "text": [
+      "I suppose it is to see that it is in a Person, is it not? “For the law was given by Moses—grace and truth subsists through Jesus Christ”, John 1: 17. I was thinking of the perfection of the Lord Jesus. He “began both to do and to teach”, it was seen in His person was it not?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, that helps. It is set on in His person. I think what you say is right. He is the embodiment of it, “for of his fulness we all have received, and grace upon grace”, John 1: 16."
-    },
-    {
-     "text": "You might say the source of the whole thing is in Christ. He sets the matter on, and gives character to it; but along with grace we need to be taught. We need the teaching, it protects grace. I think the teaching protects the thing so that we are carried through in the understanding of the attitude of God in this dispensation."
+     "text": [
+      "Yes, that helps. It is set on in His person. I think what you say is right. He is the embodiment of it, “for of his fulness we all have received, and grace upon grace”, John 1: 16.",
+      "You might say the source of the whole thing is in Christ. He sets the matter on, and gives character to it; but along with grace we need to be taught. We need the teaching, it protects grace. I think the teaching protects the thing so that we are carried through in the understanding of the attitude of God in this dispensation."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "What do you have in mind as to the teaching continuing beyond the resurrection? You mentioned it and I was struck by it, “Jesus began both to do and to teach, until that day in which ... he was taken up”. The teaching continued and it still continues, does it not?"
+     "text": [
+      "What do you have in mind as to the teaching continuing beyond the resurrection? You mentioned it and I was struck by it, “Jesus began both to do and to teach, until that day in which ... he was taken up”. The teaching continued and it still continues, does it not?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes. I suppose the activity in the forty days set out both things very clearly. Of course you can go through the gospels and see evidence in His pathway, the times of His service. It is much easier in John because it is individuals who are taken up in John and you can go through different chapters and see what He does and teaches. Chapter 5 is different; it shows that while the Jew comes under providential grace, what comes out is that he is unteachable. In divine ways it will come, but as yet the Jew does not as a nation accept the teaching that goes along with grace, so he misses it all. But I think what you say is right, it goes through the forty days. What service the Lord carried out with His own in these forty days!"
+     "text": [
+      "Yes. I suppose the activity in the forty days set out both things very clearly. Of course you can go through the gospels and see evidence in His pathway, the times of His service. It is much easier in John because it is individuals who are taken up in John and you can go through different chapters and see what He does and teaches. Chapter 5 is different; it shows that while the Jew comes under providential grace, what comes out is that he is unteachable. In divine ways it will come, but as yet the Jew does not as a nation accept the teaching that goes along with grace, so he misses it all. But I think what you say is right, it goes through the forty days. What service the Lord carried out with His own in these forty days!"
+     ]
     },
     {
-     "text": "WMP I wondered if the Lord going in and going out among them would just underline what you are saying as to what was in Himself in the way of grace and how that would teach them."
+     "speaker": "WMP",
+     "text": [
+      "I wondered if the Lord going in and going out among them would just underline what you are saying as to what was in Himself in the way of grace and how that would teach them."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, now that is interesting because we might say, as long as He is with us we will learn. But His coming in and going out, there was something that marked His movements that was not only graceful but there was teaching in it, because if He went out His work was done for that day. Divine teaching has done its work with His own, and He would come in again the next day and give His own touch. It comes down to meetings like this as to whether we are looking for that, the Lord coming in and going out, and going out with a sense that what He has done in His grace and teaching has found a response in our hearts."
+     "text": [
+      "Yes, now that is interesting because we might say, as long as He is with us we will learn. But His coming in and going out, there was something that marked His movements that was not only graceful but there was teaching in it, because if He went out His work was done for that day. Divine teaching has done its work with His own, and He would come in again the next day and give His own touch. It comes down to meetings like this as to whether we are looking for that, the Lord coming in and going out, and going out with a sense that what He has done in His grace and teaching has found a response in our hearts."
+     ]
     },
     {
      "speaker": "WL",
-     "text": "It says of the Lord in John 1 that has been referred to, He was full of grace and truth. You could never understand the meaning of truth apart from teaching. The disciples seem to have discovered that in chapter 13. The Lord says, “Ye call me the Teacher and the Lord” (John 13: 13)."
+     "text": [
+      "It says of the Lord in John 1 that has been referred to, He was full of grace and truth. You could never understand the meaning of truth apart from teaching. The disciples seem to have discovered that in chapter 13. The Lord says, “Ye call me the Teacher and the Lord” (John 13: 13)."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "I think your reference to John 1 helps. In a sense it was absolute in Christ, was it not, grace and truth? But the teaching involves that that has to be conveyed to us, we need to be taught. Even what Nicodemus says, “thou art come a teacher from God, for none can do these signs that thou doest unless God be with him”. John 3: 2. The two things are put together by Nicodemus. We need the teaching that goes along with it."
+     "text": [
+      "I think your reference to John 1 helps. In a sense it was absolute in Christ, was it not, grace and truth? But the teaching involves that that has to be conveyed to us, we need to be taught. Even what Nicodemus says, “thou art come a teacher from God, for none can do these signs that thou doest unless God be with him”. John 3: 2. The two things are put together by Nicodemus. We need the teaching that goes along with it."
+     ]
     },
     {
      "speaker": "WL",
-     "text": "Is that why Mary says, “Rabboni”?"
+     "text": [
+      "Is that why Mary says, “Rabboni”?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, it is a higher level of teaching there, is it not? It is coming into a new order, but still vital I think that we are drawing from the source, from Christ Himself."
+     "text": [
+      "Yes, it is a higher level of teaching there, is it not? It is coming into a new order, but still vital I think that we are drawing from the source, from Christ Himself."
+     ]
     },
     {
      "speaker": "DBR",
-     "text": "Do you think the teaching has in mind that what began in Jesus, that that life should be formed so that it continues in the saints? Our brother referred to that, “all things which Jesus began both to do and to teach”. That would have in mind the continuation of the life of Jesus in the saints. I wondered if the teaching really bore on that."
+     "text": [
+      "Do you think the teaching has in mind that what began in Jesus, that that life should be formed so that it continues in the saints? Our brother referred to that, “all things which Jesus began both to do and to teach”. That would have in mind the continuation of the life of Jesus in the saints. I wondered if the teaching really bore on that."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "I think you are right in what you say. That is why I read in chapter 20, that it was to be formed in the saints in Ephesus, was it not? It was to “you publicly”, it was within the circle of the saints. Is that right?"
+     "text": [
+      "I think you are right in what you say. That is why I read in chapter 20, that it was to be formed in the saints in Ephesus, was it not? It was to “you publicly”, it was within the circle of the saints. Is that right?"
+     ]
     },
     {
      "speaker": "DBR",
-     "text": "Well He presents Himself to them living, so that when Peter raises Dorcas he presents her to the saints alive. He is following the pattern there and that is a great thought in the teaching that this life that was expressed in Jesus is to continue in testimony now."
+     "text": [
+      "Well He presents Himself to them living, so that when Peter raises Dorcas he presents her to the saints alive. He is following the pattern there and that is a great thought in the teaching that this life that was expressed in Jesus is to continue in testimony now."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "It has to have a living effect. If it is coming from the living One it is meant to have a living effect in us and form us in the life of Christ. It is not just cold doctrine or the letter that kills, as we have in Corinthians, but it is the Spirit that quickens. We are really quickened into the life of Christ."
+     "text": [
+      "It has to have a living effect. If it is coming from the living One it is meant to have a living effect in us and form us in the life of Christ. It is not just cold doctrine or the letter that kills, as we have in Corinthians, but it is the Spirit that quickens. We are really quickened into the life of Christ."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Does grace being linked with the teaching bring out the resources there are to make it effective in the person? “What the law could not do”, Romans 8: 3. There are no resources in the law. You can put out a certain line of teaching but with no resources to make it effective."
+     "text": [
+      "Does grace being linked with the teaching bring out the resources there are to make it effective in the person? “What the law could not do”, Romans 8: 3. There are no resources in the law. You can put out a certain line of teaching but with no resources to make it effective."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is exactly what is in mind, “that it was weak through the flesh”. There had to be a new beginning in the person, a new state that really takes on the teaching and is formed by it."
+     "text": [
+      "That is exactly what is in mind, “that it was weak through the flesh”. There had to be a new beginning in the person, a new state that really takes on the teaching and is formed by it."
+     ]
     },
     {
      "speaker": "JS",
-     "text": "Do you think the subduing power of grace would really bring us into subjection to the Lord so that we are ready to get the gain of the teaching? We need subjection to the Lord to be teachable, do we not?"
+     "text": [
+      "Do you think the subduing power of grace would really bring us into subjection to the Lord so that we are ready to get the gain of the teaching? We need subjection to the Lord to be teachable, do we not?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, you come under the Lord first. I think the reference to John 20 shows that the woman set herself in relation to the Lord. When He said “Mary”, she said “Rabboni”; she was in relation to the Lord at that point. We are subdued under the Lord and become teachable."
+     "text": [
+      "Yes, you come under the Lord first. I think the reference to John 20 shows that the woman set herself in relation to the Lord. When He said “Mary”, she said “Rabboni”; she was in relation to the Lord at that point. We are subdued under the Lord and become teachable."
+     ]
     },
     {
      "speaker": "JS",
-     "text": "I thought it is the way that grace would prepare us so that we can get the full benefit of the teaching."
+     "text": [
+      "I thought it is the way that grace would prepare us so that we can get the full benefit of the teaching."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, and that is a real exercise personally, because we have come under many years of gracious ministry and you say, Well what formation has there been through the ministry? We have it on our bookshelves, but how am I formed in relation to it? It is one thing to read, but even in the reading you should have a sense that you are being taught of the Lord while you are reading. You read by the Spirit. Is that right?"
+     "text": [
+      "Yes, and that is a real exercise personally, because we have come under many years of gracious ministry and you say, Well what formation has there been through the ministry? We have it on our bookshelves, but how am I formed in relation to it? It is one thing to read, but even in the reading you should have a sense that you are being taught of the Lord while you are reading. You read by the Spirit. Is that right?"
+     ]
     },
     {
      "speaker": "JS",
-     "text": "So that in reading the Scriptures or ministry we really have to do it in a subject attitude ready for the Lord to speak to us through it."
+     "text": [
+      "So that in reading the Scriptures or ministry we really have to do it in a subject attitude ready for the Lord to speak to us through it."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, He can do little with us unless we have a subject attitude. If we have any prejudice it hinders the Lord. We have to really set ourselves in relation to the Lord to be taught. I think what has been said helps that it is how the thing is effective, the teaching makes grace effective in us."
+     "text": [
+      "Yes, He can do little with us unless we have a subject attitude. If we have any prejudice it hinders the Lord. We have to really set ourselves in relation to the Lord to be taught. I think what has been said helps that it is how the thing is effective, the teaching makes grace effective in us."
+     ]
     },
     {
      "speaker": "JDG",
-     "text": "It says “and speaking of the things which concern the kingdom of God”. Do you think that is a prerequisite to coming into the gain of the teaching under grace? The Lord Jesus in His own ministry when He started out in Mark’s gospel said, “the kingdom of God has drawn nigh; repent and believe in the glad tidings”, Mark 1: 15."
+     "text": [
+      "It says “and speaking of the things which concern the kingdom of God”. Do you think that is a prerequisite to coming into the gain of the teaching under grace? The Lord Jesus in His own ministry when He started out in Mark’s gospel said, “the kingdom of God has drawn nigh; repent and believe in the glad tidings”, Mark 1: 15."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, “drawn nigh”, but it has to have an effect in persons. I think it links with what was said as to being subject. We used to hear regularly that the way into the assembly is through the kingdom. There is no other way to enter the assembly unless you are subject. So you are in subjection to the Person, and then you come under His teaching to be formed by it."
+     "text": [
+      "Yes, “drawn nigh”, but it has to have an effect in persons. I think it links with what was said as to being subject. We used to hear regularly that the way into the assembly is through the kingdom. There is no other way to enter the assembly unless you are subject. So you are in subjection to the Person, and then you come under His teaching to be formed by it."
+     ]
     },
     {
      "speaker": "JDG",
-     "text": "That is what I thought, that persons come under regulation in the kingdom of God. The Lord is continuing that kind of speaking."
+     "text": [
+      "That is what I thought, that persons come under regulation in the kingdom of God. The Lord is continuing that kind of speaking."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, and seen for forty days. Forty days—what a full period to get used to Christ in this new condition. They had known Him in the days of His flesh, and now in this period of forty days they had to get used to Christ in the new condition, and as He is there the teaching proceeds. You might say He will teach you as to the new condition, and then from glory He will still teach you. That is wonderful, grace and truth is in Christ."
+     "text": [
+      "Yes, and seen for forty days. Forty days—what a full period to get used to Christ in this new condition. They had known Him in the days of His flesh, and now in this period of forty days they had to get used to Christ in the new condition, and as He is there the teaching proceeds. You might say He will teach you as to the new condition, and then from glory He will still teach you. That is wonderful, grace and truth is in Christ."
+     ]
     },
     {
      "speaker": "WL",
-     "text": "What grace the Lord showed to Nicodemus. Nicodemus says, “we know that thou art come a teacher from God”, but he was pretty ignorant, he showed that up, and the Lord showed great grace in teaching as to new birth and the way to enter the kingdom, and so on."
+     "text": [
+      "What grace the Lord showed to Nicodemus. Nicodemus says, “we know that thou art come a teacher from God”, but he was pretty ignorant, he showed that up, and the Lord showed great grace in teaching as to new birth and the way to enter the kingdom, and so on."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, you can see it through all the gospels, but I just thought it is easier for the young people to look at John’s gospel because you have individuals, a chapter given to an individual largely. It is easy to take in the truth in John’s gospel, to see how the truth applies to persons. So along with grace there is the teaching, to make the thing good in us."
+     "text": [
+      "Yes, you can see it through all the gospels, but I just thought it is easier for the young people to look at John’s gospel because you have individuals, a chapter given to an individual largely. It is easy to take in the truth in John’s gospel, to see how the truth applies to persons. So along with grace there is the teaching, to make the thing good in us."
+     ]
     },
     {
      "speaker": "CKR",
-     "text": "Open up for us what grace is, for the teaching that you are referring to has to relate to something substantial that is going to be for the whole dispensation. Is grace a characteristic principle for the dispensation? Does it not take us back to divine resource that is able to meet every situation and condition? God gets known as the God of grace and there is “the word of his grace”. These features come through in Acts as well, do they not?"
+     "text": [
+      "Open up for us what grace is, for the teaching that you are referring to has to relate to something substantial that is going to be for the whole dispensation. Is grace a characteristic principle for the dispensation? Does it not take us back to divine resource that is able to meet every situation and condition? God gets known as the God of grace and there is “the word of his grace”. These features come through in Acts as well, do they not?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, God is really set free, His hands set free to exercise this great principle. It is the dispensation of grace. It is a mark of this dispensation, but it all flows out of what Christ effected for God, and released His hand to express this divine attitude of grace."
+     "text": [
+      "Yes, God is really set free, His hands set free to exercise this great principle. It is the dispensation of grace. It is a mark of this dispensation, but it all flows out of what Christ effected for God, and released His hand to express this divine attitude of grace."
+     ]
     },
     {
      "speaker": "TCM",
-     "text": "It says, “to whom also he presented himself living, after he had suffered, with many proofs. Would that bear on what you have just said that the Lord was teaching not just in a mental capacity but there was a moral foundation behind His teaching, in that He had suffered?"
+     "text": [
+      "It says, “to whom also he presented himself living, after he had suffered, with many proofs. Would that bear on what you have just said that the Lord was teaching not just in a mental capacity but there was a moral foundation behind His teaching, in that He had suffered?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, and do you think “with many proofs” is part of the teaching? He came in and out among them forty days. Ponder a little what that period was. You might say, the Father was wanting Christ above, and yet in the divine will He had forty days with His own; He moved in and out among them, teaching them. He says to Mary, “Touch me not”. He was on the way to finality, but in this time He is setting something out in His person, “both to do and to teach”, to bring persons into it. I think your reference to His sufferings helps. We are slow learners when we get far from the sufferings of Christ; we become hard to teach."
+     "text": [
+      "Yes, and do you think “with many proofs” is part of the teaching? He came in and out among them forty days. Ponder a little what that period was. You might say, the Father was wanting Christ above, and yet in the divine will He had forty days with His own; He moved in and out among them, teaching them. He says to Mary, “Touch me not”. He was on the way to finality, but in this time He is setting something out in His person, “both to do and to teach”, to bring persons into it. I think your reference to His sufferings helps. We are slow learners when we get far from the sufferings of Christ; we become hard to teach."
+     ]
     },
     {
-     "text": "AMcK Luke had seen some development with Theophilus when he drops the “most excellent” (cf. Luke 1: 3 and Acts 1: 1). He is now prepared to sit down with the brethren, is he not?"
+     "speaker": "AMcK",
+     "text": [
+      "Luke had seen some development with Theophilus when he drops the “most excellent” (cf. Luke 1: 3 and Acts 1: 1). He is now prepared to sit down with the brethren, is he not?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Luke had respect but he was getting more familiar. I think even the word “composed”, “I composed”, shows that Luke’s heart was behind it. It reminds you of Psalm 45, “I say what I have composed touching the king”. The heart was in it, and he is getting familiar. I think Theophilus is growing in his own soul when this comes out in Luke’s second treatise. What do you think?"
+     "text": [
+      "Luke had respect but he was getting more familiar. I think even the word “composed”, “I composed”, shows that Luke’s heart was behind it. It reminds you of Psalm 45, “I say what I have composed touching the king”. The heart was in it, and he is getting familiar. I think Theophilus is growing in his own soul when this comes out in Luke’s second treatise. What do you think?"
+     ]
     },
     {
-     "text": "AMcK I think there should be some definite evidence of us coming under this teaching. If there is grace with it there will be development, because Samuel’s mother did not take up the same size of garment every year, did she?"
+     "speaker": "AMcK",
+     "text": [
+      "I think there should be some definite evidence of us coming under this teaching. If there is grace with it there will be development, because Samuel’s mother did not take up the same size of garment every year, did she?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "No. I think Luke must have felt the person was growing in his appreciation; so having written a gospel to him he says, I will give you more, I will give you the acts of the Spirit, or the acts of grace, if you wish, and teaching. We need that, we need to grow in our souls."
+     "text": [
+      "No. I think Luke must have felt the person was growing in his appreciation; so having written a gospel to him he says, I will give you more, I will give you the acts of the Spirit, or the acts of grace, if you wish, and teaching. We need that, we need to grow in our souls."
+     ]
     },
     {
      "speaker": "TDS",
-     "text": "In one of those forty days grace took the Lord with those two to Emmaus and he continued on the way teaching “from Moses and all the prophets” (Luke 24: 27). and it had an effect in them, it turned them round and brought them back eventually to the company."
+     "text": [
+      "In one of those forty days grace took the Lord with those two to Emmaus and he continued on the way teaching “from Moses and all the prophets” (Luke 24: 27). and it had an effect in them, it turned them round and brought them back eventually to the company."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is good to bring out these cases because what really changed them was Himself. It was one thing to open up about Moses and the prophets, and what an outline it would be. Could you think what an outline the Lord would give of Moses and the prophets? Think of what He would say as to the experiences of the Psalms. What an exposition par excellence, but it is Himself; the teaching is in the Person."
+     "text": [
+      "That is good to bring out these cases because what really changed them was Himself. It was one thing to open up about Moses and the prophets, and what an outline it would be. Could you think what an outline the Lord would give of Moses and the prophets? Think of what He would say as to the experiences of the Psalms. What an exposition par excellence, but it is Himself; the teaching is in the Person."
+     ]
     },
     {
      "speaker": "TDS",
-     "text": "He primarily brought before them, “Ought not the Christ to have suffered”. That was the way to glory, no other way."
+     "text": [
+      "He primarily brought before them, “Ought not the Christ to have suffered”. That was the way to glory, no other way."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is right, and hearing about the sufferings here. He is going on and He is carrying His own with Him. It struck me in this week that in Genesis 2, after Jehovah says, “It is not good that Man should be alone” (Genesis 2: 18). He brings out the intelligence of man; and the great thought is that the woman is taken out of such a person that has such intelligence. The assembly is viewed as an intelligent vessel, and therefore teaching going along with grace is to bring us into intelligence that is suitable to the assembly."
+     "text": [
+      "That is right, and hearing about the sufferings here. He is going on and He is carrying His own with Him. It struck me in this week that in Genesis 2, after Jehovah says, “It is not good that Man should be alone” (Genesis 2: 18). He brings out the intelligence of man; and the great thought is that the woman is taken out of such a person that has such intelligence. The assembly is viewed as an intelligent vessel, and therefore teaching going along with grace is to bring us into intelligence that is suitable to the assembly."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "During the forty days the teaching was marked by appearings. Was that not to consolidate the thing, that there is a Man already in resurrection who is behind all the teaching?"
+     "text": [
+      "During the forty days the teaching was marked by appearings. Was that not to consolidate the thing, that there is a Man already in resurrection who is behind all the teaching?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "You mean there is a manifestation behind it. It is to be conveyed livingly, portrayed. Even the apostle speaks of what was portrayed to the Galatians, there was a manifestation of the truth in Paul. I think what you have said brings the reality of the humanity of Christ before your soul through these manifestations."
+     "text": [
+      "You mean there is a manifestation behind it. It is to be conveyed livingly, portrayed. Even the apostle speaks of what was portrayed to the Galatians, there was a manifestation of the truth in Paul. I think what you have said brings the reality of the humanity of Christ before your soul through these manifestations."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "It helps us to think spiritually, to take on the teaching."
+     "text": [
+      "It helps us to think spiritually, to take on the teaching."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, that is good, because He is in a new condition here, and we need to be taught in that; we do need to be taught in the new condition that Christ took up even in the forty days, and then to go further, Christ in glory. We need the two sides."
+     "text": [
+      "Yes, that is good, because He is in a new condition here, and we need to be taught in that; we do need to be taught in the new condition that Christ took up even in the forty days, and then to go further, Christ in glory. We need the two sides."
+     ]
     },
     {
-     "text": "JTB.Ed)Bearing on that, did not the Lord Himself down here, as taking the place of the instructed, the taught one, really take His bearing from heaven? I just wondered really if the teaching currently would involve the mind of heaven at the present time."
-    },
-    {
-     "speaker": "NJH",
-     "text": "Yes, He has set that out in His humanity here, because that was the place where dependent manhood was required. God looked for it and He found nothing of it till Christ was here, dependent manhood."
-    },
-    {
-     "text": "JTB.Ed) “He wakeneth mine ear to hear as the instructed”, Isaiah 50: 4. That is the top one, is it not?"
-    },
-    {
-     "speaker": "NJH",
-     "text": "Yes, to “know how to succour by a word him that is weary”. But then of course you come round to it and see that everything is in the Person anyway, and that is what they came to here in the forty days and thereafter that their eyes were beginning to be opened. At the end of Luke their eyes were opened, they saw things in Christ that they had never seen before, and we need to see things in Christ that we have never seen before. He sets out not only grace but teaching that goes along with it."
-    },
-    {
-     "text": "JTB.Ed) The forty days were really habituating them to the Lord’s eventual movement into glory from whence the teaching would continue."
+     "speaker": "JTB(Ed)",
+     "text": [
+      "Bearing on that, did not the Lord Himself down here, as taking the place of the instructed, the taught one, really take His bearing from heaven? I just wondered really if the teaching currently would involve the mind of heaven at the present time."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "I think first of all they are made spiritual through the teaching here, grace and teaching. Then they go on to what is heavenly; we need that too."
+     "text": [
+      "Yes, He has set that out in His humanity here, because that was the place where dependent manhood was required. God looked for it and He found nothing of it till Christ was here, dependent manhood."
+     ]
+    },
+    {
+     "speaker": "JTB(Ed)",
+     "text": [
+      "“He wakeneth mine ear to hear as the instructed”, Isaiah 50: 4. That is the top one, is it not?"
+     ]
+    },
+    {
+     "speaker": "NJH",
+     "text": [
+      "Yes, to “know how to succour by a word him that is weary”. But then of course you come round to it and see that everything is in the Person anyway, and that is what they came to here in the forty days and thereafter that their eyes were beginning to be opened. At the end of Luke their eyes were opened, they saw things in Christ that they had never seen before, and we need to see things in Christ that we have never seen before. He sets out not only grace but teaching that goes along with it."
+     ]
+    },
+    {
+     "speaker": "JTB(Ed)",
+     "text": [
+      "The forty days were really habituating them to the Lord’s eventual movement into glory from whence the teaching would continue."
+     ]
+    },
+    {
+     "speaker": "NJH",
+     "text": [
+      "I think first of all they are made spiritual through the teaching here, grace and teaching. Then they go on to what is heavenly; we need that too."
+     ]
     },
     {
      "speaker": "DAS",
-     "text": "Paul writes to Titus about adorning the teaching. Would that be important, do you think, “that they may adorn the teaching which is of our Saviour God in all things”, not robbing their masters, and so on (Titus 2: 10)? Would there be a certain testimony, therefore, and a witness as we are governed by the teaching? It goes on to say, “For the grace of God ... has appeared, teaching us that, having denied impiety and worldly lusts, we should live soberly, and justly, and piously in the present course of things” (Titus 2: 11, 12). I wondered if there was a testimony therefore. Paul himself adorned the teaching, did he not? So did most of these men."
+     "text": [
+      "Paul writes to Titus about adorning the teaching. Would that be important, do you think, “that they may adorn the teaching which is of our Saviour God in all things”, not robbing their masters, and so on (Titus 2: 10)? Would there be a certain testimony, therefore, and a witness as we are governed by the teaching? It goes on to say, “For the grace of God ... has appeared, teaching us that, having denied impiety and worldly lusts, we should live soberly, and justly, and piously in the present course of things” (Titus 2: 11, 12). I wondered if there was a testimony therefore. Paul himself adorned the teaching, did he not? So did most of these men."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, I suppose that is our side. The first thing is that grace is not misunderstood. God went to lengths that grace might not be misunderstood. God was not soft, righteousness had to be established. Grace reigns through righteousness. Then our side is that we must not misrepresent grace, and what you said, we adorn the teaching. We should move on to Acts 13. This is the first instance that comes up as going out, the separating of Barnabas and Saul for the work to which they had been called. The first expression of the teaching of the Lord through these men was this happening in Acts 13. Someone opposed the way of God. You might say, Well is grace going to overlook things? Grace does not overlook anything. If God’s hand is relaxed in the operation of it, He cannot overlook anything. Paul “fixing his eyes upon him, said, O full of all deceit and all craft—son of the devil, enemy of all righteousness; wilt thou not cease perverting the right paths of the Lord?” You say, How does that fit in? Well that is the teaching of the Lord. How grace is going to be extended was to secure Sergius Paulus from this influence, that was grace. Every one of us here should look into our histories, and see if we have been emancipated from wrong influence. That was a great matter for grace, to free man from wrong influence. If we only knew it, to emancipate man was the greatest operation, I think, on our side in this dispensation to clear him from what holds him."
+     "text": [
+      "Yes, I suppose that is our side. The first thing is that grace is not misunderstood. God went to lengths that grace might not be misunderstood. God was not soft, righteousness had to be established. Grace reigns through righteousness. Then our side is that we must not misrepresent grace, and what you said, we adorn the teaching. We should move on to Acts 13. This is the first instance that comes up as going out, the separating of Barnabas and Saul for the work to which they had been called. The first expression of the teaching of the Lord through these men was this happening in Acts 13. Someone opposed the way of God. You might say, Well is grace going to overlook things? Grace does not overlook anything. If God’s hand is relaxed in the operation of it, He cannot overlook anything. Paul “fixing his eyes upon him, said, O full of all deceit and all craft—son of the devil, enemy of all righteousness; wilt thou not cease perverting the right paths of the Lord?” You say, How does that fit in? Well that is the teaching of the Lord. How grace is going to be extended was to secure Sergius Paulus from this influence, that was grace. Every one of us here should look into our histories, and see if we have been emancipated from wrong influence. That was a great matter for grace, to free man from wrong influence. If we only knew it, to emancipate man was the greatest operation, I think, on our side in this dispensation to clear him from what holds him."
+     ]
     },
     {
      "speaker": "WL",
-     "text": "And this comes right down to our day, would you say? It is no different today from what we have here; where the truth is manifest and taught it brings out opposition."
+     "text": [
+      "And this comes right down to our day, would you say? It is no different today from what we have here; where the truth is manifest and taught it brings out opposition."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "There will be opposition, but we want to see the teaching of the Lord, and to be like this man that believed, as it says, “Then the proconsul, seeing what had happened, believed, being amazed at the teaching of the Lord”. That is a wonderful thing to see what the Lord is doing in persons. You know we grow up and come into fellowship, we are apt to think we just coast into things, but you do not get anywhere in divine things unless you see the teaching of the Lord is emancipating you, clearing you from influence. Every influence is dealt"
-    },
-    {
-     "text": "with at Gilgal typically."
+     "text": [
+      "There will be opposition, but we want to see the teaching of the Lord, and to be like this man that believed, as it says, “Then the proconsul, seeing what had happened, believed, being amazed at the teaching of the Lord”. That is a wonderful thing to see what the Lord is doing in persons. You know we grow up and come into fellowship, we are apt to think we just coast into things, but you do not get anywhere in divine things unless you see the teaching of the Lord is emancipating you, clearing you from influence. Every influence is dealt",
+      "with at Gilgal typically."
+     ]
     },
     {
      "speaker": "GCB",
-     "text": "There is nothing but what applies to the new life beyond Jordan, is there?"
+     "text": [
+      "There is nothing but what applies to the new life beyond Jordan, is there?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, new relationships begin there. You have new life, every relationship, every influence really is dealt with. Morally we must maintain that in the land."
+     "text": [
+      "Yes, new relationships begin there. You have new life, every relationship, every influence really is dealt with. Morally we must maintain that in the land."
+     ]
     },
     {
      "speaker": "DBR",
-     "text": "What is the contrast with the magician? It says this man was intelligent. You were speaking about that earlier, that intelligence is a prerequisite, but then there is this subtle side; the magician is the subtle side. It would undermine our understanding and intelligence in the truth, do you think?"
+     "text": [
+      "What is the contrast with the magician? It says this man was intelligent. You were speaking about that earlier, that intelligence is a prerequisite, but then there is this subtle side; the magician is the subtle side. It would undermine our understanding and intelligence in the truth, do you think?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, one thing we need to be preserved from is craft, the side of deceit. The magician can change things, that is part of his art. (cf. Mr. Darby’s note to Ephesians 4: 14, methodic craft). The whole principle of deceit has marked the enemy’s ways from the beginning. Eve was deceived. And it runs right through. The false prophet and the beast deceived the men that had the mark of the beast, and then finally Satan goes out to deceive the nations from the four corners of the earth when they come up the breadth of the earth at the end of the millennium. The whole principle of deception marks his ways. I think that is part of this opposition."
+     "text": [
+      "Yes, one thing we need to be preserved from is craft, the side of deceit. The magician can change things, that is part of his art. (cf. Mr. Darby’s note to Ephesians 4: 14, methodic craft). The whole principle of deceit has marked the enemy’s ways from the beginning. Eve was deceived. And it runs right through. The false prophet and the beast deceived the men that had the mark of the beast, and then finally Satan goes out to deceive the nations from the four corners of the earth when they come up the breadth of the earth at the end of the millennium. The whole principle of deception marks his ways. I think that is part of this opposition."
+     ]
     },
     {
      "speaker": "DBR",
-     "text": "There is a note somewhere that speaks about the sleight of hand (Ephesians 4: 14). Just the turning of a word that can turn us away from the truth. So we need to be intelligent, to be formed in intelligence. The scripture quoted in Luke 24 says the Lord “opened their understanding”. I think understanding is a great thing in taking on teaching."
+     "text": [
+      "There is a note somewhere that speaks about the sleight of hand (Ephesians 4: 14). Just the turning of a word that can turn us away from the truth. So we need to be intelligent, to be formed in intelligence. The scripture quoted in Luke 24 says the Lord “opened their understanding”. I think understanding is a great thing in taking on teaching."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "I think what you have said is right, a change of a word might take away the truth from its moral bearing in our souls or even our judgment, just the turn of a word, ‘Has God said?’. Sure He had said, but the serpent just put it a way that took the edge off the word of God which He had given to man."
+     "text": [
+      "I think what you have said is right, a change of a word might take away the truth from its moral bearing in our souls or even our judgment, just the turn of a word, ‘Has God said?’. Sure He had said, but the serpent just put it a way that took the edge off the word of God which He had given to man."
+     ]
     },
     {
      "speaker": "WL",
-     "text": "The attack had an end in view. It says, “Elymas opposed them, seeking to turn away the proconsul from the faith”. Every attack of the enemy is to turn the saints away from the faith."
+     "text": [
+      "The attack had an end in view. It says, “Elymas opposed them, seeking to turn away the proconsul from the faith”. Every attack of the enemy is to turn the saints away from the faith."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, but here we have the teaching of the Lord. While we recognise and should be sober as to the mind of the devil, and the mind of the flesh, the teaching of the Lord is to clear us of all influence and bring us under His own touch."
+     "text": [
+      "Yes, but here we have the teaching of the Lord. While we recognise and should be sober as to the mind of the devil, and the mind of the flesh, the teaching of the Lord is to clear us of all influence and bring us under His own touch."
+     ]
     },
     {
      "speaker": "JDG",
-     "text": "It says “He ... desired to hear the word of God”. I wondered whether such persons could count on the faithfulness of God to bring the word of God to them."
+     "text": [
+      "It says “He ... desired to hear the word of God”. I wondered whether such persons could count on the faithfulness of God to bring the word of God to them."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Well that is an interesting reference to make. You mean there was an anticipative state of heart there, there was an ear for it which God answers."
+     "text": [
+      "Well that is an interesting reference to make. You mean there was an anticipative state of heart there, there was an ear for it which God answers."
+     ]
     },
     {
      "speaker": "JDG",
-     "text": "The kingdom of God is there, it is going to protect this kind of person."
+     "text": [
+      "The kingdom of God is there, it is going to protect this kind of person."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "If there is a desire, the kingdom of God is available to see him through. We know of course the ear of the bondman of the high priest was cut off and the Lord healed it."
-    },
-    {
-     "text": "He would not put man at a disadvantage. If he has a desire to hear, then He will provide for him."
+     "text": [
+      "If there is a desire, the kingdom of God is available to see him through. We know of course the ear of the bondman of the high priest was cut off and the Lord healed it.",
+      "He would not put man at a disadvantage. If he has a desire to hear, then He will provide for him."
+     ]
     },
     {
      "speaker": "JDG",
-     "text": "I think God will take care of His word. If man desires to hear the word of God, do you think we can count on it that the word will come? But this shows how it was protected through Barnabas and Paul."
+     "text": [
+      "I think God will take care of His word. If man desires to hear the word of God, do you think we can count on it that the word will come? But this shows how it was protected through Barnabas and Paul."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "So that faithfulness to the Lord is in the teaching then, so that if there is a desire to hear, the Lord will follow up with His teaching? I think that is right, and if there is a desire in any young person, there will be the teaching available for that young person."
+     "text": [
+      "So that faithfulness to the Lord is in the teaching then, so that if there is a desire to hear, the Lord will follow up with His teaching? I think that is right, and if there is a desire in any young person, there will be the teaching available for that young person."
+     ]
     },
     {
      "speaker": "DTP",
-     "text": "Is it the simplicity of the truth? Craft is a deceitful thing, and we need guarding that we are accepting the authority of the Lord, which helps us to accept what comes as to the simplicity of the truth."
+     "text": [
+      "Is it the simplicity of the truth? Craft is a deceitful thing, and we need guarding that we are accepting the authority of the Lord, which helps us to accept what comes as to the simplicity of the truth."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, “simplicity as to the Christ”, 2 Corinthians 11: 3. It is set over against the craft in Corinthians, and the teaching of the Lord involves such purity. What comes from above is first pure. There is purity in what comes from Christ and simplicity about it, but the craft is to make things complicated, and according to flesh we like things to be complicated. I think the reference even to the magician appears different to what it really is."
+     "text": [
+      "Yes, “simplicity as to the Christ”, 2 Corinthians 11: 3. It is set over against the craft in Corinthians, and the teaching of the Lord involves such purity. What comes from above is first pure. There is purity in what comes from Christ and simplicity about it, but the craft is to make things complicated, and according to flesh we like things to be complicated. I think the reference even to the magician appears different to what it really is."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So what is light? Is light very closely related to teaching? The proconsul comes into light, the other man was in darkness and remains in darkness. The light of God would come out in divine teaching, would it not?"
+     "text": [
+      "So what is light? Is light very closely related to teaching? The proconsul comes into light, the other man was in darkness and remains in darkness. The light of God would come out in divine teaching, would it not?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, that is right, because he would not see “the sun for a season. And immediately there fell upon him a mist and darkness”. There was something governmental, but yet for a season. Even the operation of grace would give that man a chance to reflect on his ways. He sought for others to lead him. Instead of now being in control, it would give that man a time to reflect on his wicked ways. But as you say, light came, and in the proconsul’s soul, and became “the teaching of the Lord”."
+     "text": [
+      "Yes, that is right, because he would not see “the sun for a season. And immediately there fell upon him a mist and darkness”. There was something governmental, but yet for a season. Even the operation of grace would give that man a chance to reflect on his ways. He sought for others to lead him. Instead of now being in control, it would give that man a time to reflect on his wicked ways. But as you say, light came, and in the proconsul’s soul, and became “the teaching of the Lord”."
+     ]
     },
     {
      "speaker": "WL",
-     "text": "If we go off on a wrong track, in His grace He gives us space or time to repent."
+     "text": [
+      "If we go off on a wrong track, in His grace He gives us space or time to repent."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, He did that in Thyatira, gave her time to repent, space for it. That is divine grace, but He said, “her children will I kill with death” (Revelation 2: 23), that is moral death."
+     "text": [
+      "Yes, He did that in Thyatira, gave her time to repent, space for it. That is divine grace, but He said, “her children will I kill with death” (Revelation 2: 23), that is moral death.",
+      "In a certain sense there is moral death here, but one person comes into life as believing and recognising the teaching of the Lord."
+     ]
     },
     {
-     "text": "In a certain sense there is moral death here, but one person comes into life as believing and recognising the teaching of the Lord."
-    },
-    {
-     "text": "DMcG I wondered if Priscilla and Aquila fitted into the matter of the teaching, and the grace that came in eventually, because they took Apollos to them. It says, “And he began to speak boldly in the synagogue. And Aquila and Priscilla, having heard him, took him to them and unfolded to him the way of God more exactly”, Acts 18: 26. Then it says, “when he purposed to go into Achaia, the brethren wrote to the disciples engaging them to receive him, who, being come, contributed much to those who believed through grace” (Acts 18: 27)."
+     "speaker": "DMcG",
+     "text": [
+      "I wondered if Priscilla and Aquila fitted into the matter of the teaching, and the grace that came in eventually, because they took Apollos to them. It says, “And he began to speak boldly in the synagogue. And Aquila and Priscilla, having heard him, took him to them and unfolded to him the way of God more exactly”, Acts 18: 26. Then it says, “when he purposed to go into Achaia, the brethren wrote to the disciples engaging them to receive him, who, being come, contributed much to those who believed through grace” (Acts 18: 27)."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Well he got the gain of the teaching that came through that couple. It shows how we can influence one another. In our relations together we want to influence one another according to the teaching. He was somewhat deficient in it. He was not up to date, speaking respectfully of Apollos, because Paul speaks respectfully of Apollos. He says, he “watered” (1 Corinthians 3: 6), so he had respect for Apollos, but he was not up to date. The teaching of the Lord will bring you up to date. We need to keep near the source of everything, and it is evident Aquila and Priscilla took him to them. Mr. Taylor says, that was not at the back of the room. He says, they would have taken him home. There would be affection in the house, and they would influence this man in the way of God."
+     "text": [
+      "Well he got the gain of the teaching that came through that couple. It shows how we can influence one another. In our relations together we want to influence one another according to the teaching. He was somewhat deficient in it. He was not up to date, speaking respectfully of Apollos, because Paul speaks respectfully of Apollos. He says, he “watered” (1 Corinthians 3: 6), so he had respect for Apollos, but he was not up to date. The teaching of the Lord will bring you up to date. We need to keep near the source of everything, and it is evident Aquila and Priscilla took him to them. Mr. Taylor says, that was not at the back of the room. He says, they would have taken him home. There would be affection in the house, and they would influence this man in the way of God."
+     ]
     },
     {
      "speaker": "JS",
-     "text": "I was just wondering if you had something to say about Paul being “filled with the Holy Spirit” here. The Spirit had spoken quite definitely at the beginning of this chapter,"
-    },
-    {
-     "text": "“Separate me now Barnabas and Saul”, and Paul is evidently relying on the Spirit here in what he is doing, do you think?"
+     "text": [
+      "I was just wondering if you had something to say about Paul being “filled with the Holy Spirit” here. The Spirit had spoken quite definitely at the beginning of this chapter,",
+      "“Separate me now Barnabas and Saul”, and Paul is evidently relying on the Spirit here in what he is doing, do you think?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, and his name being changed at this point shows how he was personally in keeping with the way the Lord was moving. I think what you have said is right, that it is “Saul, who also is Paul, filled with the Holy Spirit”. It shows that he was wholly in keeping with the way the Lord was moving, because this was a new move out from Antioch. Everybody else was going out from Jerusalem. Now two have been sent out of Antioch, and it is as filled with the Holy Spirit. He met the enemy, you might say, in the richness of what grace intended, and yet in a powerful presentation."
+     "text": [
+      "Yes, and his name being changed at this point shows how he was personally in keeping with the way the Lord was moving. I think what you have said is right, that it is “Saul, who also is Paul, filled with the Holy Spirit”. It shows that he was wholly in keeping with the way the Lord was moving, because this was a new move out from Antioch. Everybody else was going out from Jerusalem. Now two have been sent out of Antioch, and it is as filled with the Holy Spirit. He met the enemy, you might say, in the richness of what grace intended, and yet in a powerful presentation."
+     ]
     },
     {
      "speaker": "JS",
-     "text": "So that really the opening up of the whole matter of the teaching from heaven was through Paul as a vessel of the Spirit, was it not?"
+     "text": [
+      "So that really the opening up of the whole matter of the teaching from heaven was through Paul as a vessel of the Spirit, was it not?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, exactly. He is the great vessel coming to light, and he goes through. Barnabas was used for a time and then Barnabas fell away, but Paul was used to go through. I think he was in keeping immediately with what he carried. His name was changed to Paul."
+     "text": [
+      "Yes, exactly. He is the great vessel coming to light, and he goes through. Barnabas was used for a time and then Barnabas fell away, but Paul was used to go through. I think he was in keeping immediately with what he carried. His name was changed to Paul."
+     ]
     },
     {
      "speaker": "DBR",
-     "text": "Is that why he uses the expression, “the right paths of the Lord”? It was seen in himself, he was in the right path, it was the path of the Lord. I am sure that is the path we all want to be on, “the right paths of the Lord”. What would you say about that expression?"
+     "text": [
+      "Is that why he uses the expression, “the right paths of the Lord”? It was seen in himself, he was in the right path, it was the path of the Lord. I am sure that is the path we all want to be on, “the right paths of the Lord”. What would you say about that expression?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Well I think that is a very beautiful expression, because he was fitted for it. It was not irksome to him, he accepted it readily. I think he was taught in it in his direct link with Christ."
+     "text": [
+      "Well I think that is a very beautiful expression, because he was fitted for it. It was not irksome to him, he accepted it readily. I think he was taught in it in his direct link with Christ."
+     ]
     },
     {
      "speaker": "DBR",
-     "text": "He supplies “the right paths of the Lord” for us in a broken day in 2 Timothy 2. It is not a place, it is a path."
+     "text": [
+      "He supplies “the right paths of the Lord” for us in a broken day in 2 Timothy 2. It is not a place, it is a path."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, that is good, because you have the thought that you are naming the name of the Lord in 2 Timothy, and calling on the Lord out of a pure heart. And then it goes on to speak about “a bondman of the Lord ought not to contend” (2 Timothy 2: 24), that comes back to being in keeping with it, not misrepresenting grace, “apt to teach”. It comes into the bondman of the Lord. I think what you have said is how we are fitted for the way, “the right paths of the Lord”."
+     "text": [
+      "Yes, that is good, because you have the thought that you are naming the name of the Lord in 2 Timothy, and calling on the Lord out of a pure heart. And then it goes on to speak about “a bondman of the Lord ought not to contend” (2 Timothy 2: 24), that comes back to being in keeping with it, not misrepresenting grace, “apt to teach”. It comes into the bondman of the Lord. I think what you have said is how we are fitted for the way, “the right paths of the Lord”."
+     ]
     },
     {
      "speaker": "DBR",
-     "text": "Is that really the fruit of the teaching of the Lord? The bondman of the Lord would be the fruit of the teaching of the Lord."
+     "text": [
+      "Is that really the fruit of the teaching of the Lord? The bondman of the Lord would be the fruit of the teaching of the Lord."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "I think you are right, and we need to know that. If the Lord does not come, how is the next generation going to move? We need to know the right paths of the Lord, and we get that in our links with the Lord."
+     "text": [
+      "I think you are right, and we need to know that. If the Lord does not come, how is the next generation going to move? We need to know the right paths of the Lord, and we get that in our links with the Lord."
+     ]
     },
     {
      "speaker": "WL",
-     "text": "Paul had to learn that very bitterly as he was journeying. He had come into touch with the Lord personally, and he was directed into this way."
+     "text": [
+      "Paul had to learn that very bitterly as he was journeying. He had come into touch with the Lord personally, and he was directed into this way."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Really he was led into it, he was taken by the hand and he went into the street called Straight. You say, That is extraordinary. But that is what it was called, the street called Straight."
+     "text": [
+      "Really he was led into it, he was taken by the hand and he went into the street called Straight. You say, That is extraordinary. But that is what it was called, the street called Straight."
+     ]
     },
     {
      "speaker": "WL",
-     "text": "One’s impression is that some things are not straight enough. There is a need to be straight and in the spirit of grace and truth."
+     "text": [
+      "One’s impression is that some things are not straight enough. There is a need to be straight and in the spirit of grace and truth."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "The cloven hooves would help us as to the straight path. In Acts 5 the enemy is against the teaching, and they are put in prison; then the angel of the Lord appears and he sets them free, “Go ye and stand and speak in the temple to the people all the words of this life”."
+     "text": [
+      "The cloven hooves would help us as to the straight path. In Acts 5 the enemy is against the teaching, and they are put in prison; then the angel of the Lord appears and he sets them free, “Go ye and stand and speak in the temple to the people all the words of this life”.",
+      "You see nothing can hinder this. Whatever opposition has been encountered, we still have the thought of how so many can gather today and just sit for a little time and think about the teaching of the Lord, along with grace to help us in our path, to help us in our way together. And it says, “We strictly enjoined you not to teach in this name—and lo, ye have filled Jerusalem with your doctrine, and purpose to bring upon us the blood of this man”."
+     ]
     },
     {
-     "text": "You see nothing can hinder this. Whatever opposition has been encountered, we still have the thought of how so many can gather today and just sit for a little time and think about the teaching of the Lord, along with grace to help us in our path, to help us in our way together. And it says, “We strictly enjoined you not to teach in this name—and lo, ye have filled Jerusalem with your doctrine, and purpose to bring upon us the blood of this man”."
-    },
-    {
-     "text": "WMP “This life”, does that confirm your thought about what is here in representation? We have spoken about the path, and that is right, but the persons on the right path are living, are they not?"
-    },
-    {
-     "speaker": "NJH",
-     "text": "That is vital."
-    },
-    {
-     "text": "WMP It is vital in the present day that this kind of life is found with each one of us."
+     "speaker": "WMP",
+     "text": [
+      "“This life”, does that confirm your thought about what is here in representation? We have spoken about the path, and that is right, but the persons on the right path are living, are they not?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "The path is in His people in principle, those that are living. That is where the path lies, is it not? They were told, “speak ... to the people all the words of this life”; earlier Peter says, “Look on us”, Acts 3: 4. That is how the thing began, it was in persons, those that had been with Christ. It says earlier, “perceiving that they were unlettered and uninstructed men, they wondered; and they recognised them that they were with Jesus”, Acts 4: 13. Association with Christ brings into life, and that is where I think the way of life is presented in testimony."
+     "text": [
+      "That is vital."
+     ]
+    },
+    {
+     "speaker": "WMP",
+     "text": [
+      "It is vital in the present day that this kind of life is found with each one of us."
+     ]
+    },
+    {
+     "speaker": "NJH",
+     "text": [
+      "The path is in His people in principle, those that are living. That is where the path lies, is it not? They were told, “speak ... to the people all the words of this life”; earlier Peter says, “Look on us”, Acts 3: 4. That is how the thing began, it was in persons, those that had been with Christ. It says earlier, “perceiving that they were unlettered and uninstructed men, they wondered; and they recognised them that they were with Jesus”, Acts 4: 13. Association with Christ brings into life, and that is where I think the way of life is presented in testimony."
+     ]
     },
     {
      "speaker": "JS",
-     "text": "So the testimony to them was, “Lo, the men whom ye put in the prison are in the temple, standing and teaching the people”. The Lord began to do and to teach, and these men are standing, representing what they were teaching."
+     "text": [
+      "So the testimony to them was, “Lo, the men whom ye put in the prison are in the temple, standing and teaching the people”. The Lord began to do and to teach, and these men are standing, representing what they were teaching."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "They were not apologetic. There is no need to be apologetic, they were standing. Who made them stand? The Lord made them stand. When Peter stood up with the eleven, the Lord made them do that (Acts 2: 14), they were standing up with Peter. Here they are standing up; the Lord made them stand, and they are teaching."
+     "text": [
+      "They were not apologetic. There is no need to be apologetic, they were standing. Who made them stand? The Lord made them stand. When Peter stood up with the eleven, the Lord made them do that (Acts 2: 14), they were standing up with Peter. Here they are standing up; the Lord made them stand, and they are teaching."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Embracing the teaching we come in for a great system of help, do we not? It is an angel of the Lord here. The teaching you might say was all finished, they were all put in prison, but here is a great system of help coming in to make way for the teaching."
+     "text": [
+      "Embracing the teaching we come in for a great system of help, do we not? It is an angel of the Lord here. The teaching you might say was all finished, they were all put in prison, but here is a great system of help coming in to make way for the teaching."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Exactly, their mouth could not be stopped. These persons could not be hindered. Of course, in chapter 12 the guards were dealt with, Herod executed them all; but not here. Maybe some of them would have heard the apostles speaking the words of this life. What a matter it was in Jerusalem."
+     "text": [
+      "Exactly, their mouth could not be stopped. These persons could not be hindered. Of course, in chapter 12 the guards were dealt with, Herod executed them all; but not here. Maybe some of them would have heard the apostles speaking the words of this life. What a matter it was in Jerusalem."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "How often we refuse the teaching because we say we do not see it; but Paul says, “Think of what I say, for the Lord will give thee understanding”, 2 Timothy 2: 7. There is a great system of help coming in as in faith we make way for the teaching."
+     "text": [
+      "How often we refuse the teaching because we say we do not see it; but Paul says, “Think of what I say, for the Lord will give thee understanding”, 2 Timothy 2: 7. There is a great system of help coming in as in faith we make way for the teaching."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "I am glad you have referred to that, “the Lord will give thee understanding”. If we do not see a thing, we can ask the Lord to help us. Ask the Lord to help you to see it, because it is available to us all."
+     "text": [
+      "I am glad you have referred to that, “the Lord will give thee understanding”. If we do not see a thing, we can ask the Lord to help us. Ask the Lord to help you to see it, because it is available to us all."
+     ]
     },
     {
      "speaker": "DTP",
-     "text": "So they had been doing works of power. Peter’s shadow healing persons, but that is not what is enjoined here by this angel, it is “the words of this life”, which is really what was flowing in the Spirit’s power and is so needful to build souls up, then the understanding comes."
+     "text": [
+      "So they had been doing works of power. Peter’s shadow healing persons, but that is not what is enjoined here by this angel, it is “the words of this life”, which is really what was flowing in the Spirit’s power and is so needful to build souls up, then the understanding comes."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, I think they represented the teaching there, so that they could safely come out. Look at the eunuch, he could safely return because he had come in for teaching. That was a request for teaching, the eunuch says, “concerning whom does the prophet say this? of himself or of some other?”, Acts 8: 34. He was taught by the evangelist, was he not? And here what is happening is that these persons have come into the good of the teaching and they can safely stand up representing “the words of this life”."
+     "text": [
+      "Yes, I think they represented the teaching there, so that they could safely come out. Look at the eunuch, he could safely return because he had come in for teaching. That was a request for teaching, the eunuch says, “concerning whom does the prophet say this? of himself or of some other?”, Acts 8: 34. He was taught by the evangelist, was he not? And here what is happening is that these persons have come into the good of the teaching and they can safely stand up representing “the words of this life”."
+     ]
     },
     {
      "speaker": "DAS",
-     "text": "And “he went on his way rejoicing”, because it is glad tidings. Philip announced “the glad tidings of Jesus to him”. I thought that Peter turns the tables on them really by announcing the glad tidings. He goes straight into it, “The God of our fathers has raised up Jesus, whom ye have slain”, Acts 5: 30. He puts the responsibility back on them."
+     "text": [
+      "And “he went on his way rejoicing”, because it is glad tidings. Philip announced “the glad tidings of Jesus to him”. I thought that Peter turns the tables on them really by announcing the glad tidings. He goes straight into it, “The God of our fathers has raised up Jesus, whom ye have slain”, Acts 5: 30. He puts the responsibility back on them."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, their responsibility is what they did, but it was God’s rights to exercise grace; and even to these that were guilty, it was the guilty that Peter was preaching to. That is grace."
+     "text": [
+      "Yes, their responsibility is what they did, but it was God’s rights to exercise grace; and even to these that were guilty, it was the guilty that Peter was preaching to. That is grace."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "It reaches the conclusion that God must be"
-    },
-    {
-     "text": "obeyed rather than men. The indication that the word of God should prevail would involve the teaching of grace. The Jewish system would seek to oppose that, what would be organised religion would seek to oppose what was of the word of God and the dispersion of grace."
+     "text": [
+      "It reaches the conclusion that God must be",
+      "obeyed rather than men. The indication that the word of God should prevail would involve the teaching of grace. The Jewish system would seek to oppose that, what would be organised religion would seek to oppose what was of the word of God and the dispersion of grace."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, there is a certain compulsion with it, that the enemy would have had their mouths stopped but it was not possible. In fact grace stops mouths in the epistles later on, but not when this is going on. The Lord had His rights. The kingdom was there and His rights were that they would herald, as it says later in the chapter, “every day, in the temple and in the houses, they ceased not teaching and announcing the glad tidings that Jesus was the Christ”. We should go on to chapter 20; Paul says, “Ye know how I was with you all the time ... serving the Lord with all lowliness, and tears, and temptations, which happened to me through the plots of the Jews; how I held back nothing of what is profitable, so as not to announce it to you, and to teach you publicly and in every house”. I thought that was within the Christian circle. We are never beyond teaching. We need teaching. The temple is involved, we are taught in the temple."
+     "text": [
+      "Yes, there is a certain compulsion with it, that the enemy would have had their mouths stopped but it was not possible. In fact grace stops mouths in the epistles later on, but not when this is going on. The Lord had His rights. The kingdom was there and His rights were that they would herald, as it says later in the chapter, “every day, in the temple and in the houses, they ceased not teaching and announcing the glad tidings that Jesus was the Christ”. We should go on to chapter 20; Paul says, “Ye know how I was with you all the time ... serving the Lord with all lowliness, and tears, and temptations, which happened to me through the plots of the Jews; how I held back nothing of what is profitable, so as not to announce it to you, and to teach you publicly and in every house”. I thought that was within the Christian circle. We are never beyond teaching. We need teaching. The temple is involved, we are taught in the temple."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I wondered about the Lord’s words in Matthew 11, “Come to me ... learn from me”. The Lord was the teacher there, “I am meek and lowly in heart”, Matthew 11: 28, 29."
+     "text": [
+      "I wondered about the Lord’s words in Matthew 11, “Come to me ... learn from me”. The Lord was the teacher there, “I am meek and lowly in heart”, Matthew 11: 28, 29."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "You might say it comes down to a new class of pupils. There are the babes coming in there, persons that are teachable, ready to absorb what is said. I think that is an important side. There is a turn in the gospel at that point."
+     "text": [
+      "You might say it comes down to a new class of pupils. There are the babes coming in there, persons that are teachable, ready to absorb what is said. I think that is an important side. There is a turn in the gospel at that point."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "You have been speaking about teaching, and I feel how necessary it is, but then there has to be the desire on the part of every one of us to learn from Jesus. The learning and the teaching are opposite sides of the coin, but the two must go together otherwise there will not be any effect."
+     "text": [
+      "You have been speaking about teaching, and I feel how necessary it is, but then there has to be the desire on the part of every one of us to learn from Jesus. The learning and the teaching are opposite sides of the coin, but the two must go together otherwise there will not be any effect."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Exactly, so that the Ephesians had to be delivered at one point, in Acts 19, from what was defective or incomplete teaching, only knowing the baptism of John. But then they come under divine teaching. It says, “We did not even hear if the Holy Spirit was come” (Acts 19: 2). That was rather remarkable, that persons at Ephesus had not even heard that the Holy Spirit had come. Then in chapter 20 we have Paul saying, “how I held back nothing of what is profitable, so as not to announce it to you, and to teach you publicly and in every house”. It came down to every house, divine teaching, along with grace, comes down to the house."
-    },
-    {
-     "text": "JTB(Gr) I was thinking as to Ephesians when Paul says that teaching is with a view to “the perfecting of the saints”, Ephesians 4: 12. Do you think it is important to see that, that really it involves a reproduction of Christ, does it not?"
+     "text": [
+      "Exactly, so that the Ephesians had to be delivered at one point, in Acts 19, from what was defective or incomplete teaching, only knowing the baptism of John. But then they come under divine teaching. It says, “We did not even hear if the Holy Spirit was come” (Acts 19: 2). That was rather remarkable, that persons at Ephesus had not even heard that the Holy Spirit had come. Then in chapter 20 we have Paul saying, “how I held back nothing of what is profitable, so as not to announce it to you, and to teach you publicly and in every house”. It came down to every house, divine teaching, along with grace, comes down to the house.",
+      "JTB(Gr) I was thinking as to Ephesians when Paul says that teaching is with a view to “the perfecting of the saints”, Ephesians 4: 12. Do you think it is important to see that, that really it involves a reproduction of Christ, does it not?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "I think there is a great amount that the Lord is wanting to open up to us. It is quite remarkable that there is so much made available to the saints, and it is to be worked out in the circle. John’s gospel teaches you one thing, that there is so much to be done within that He leaves everything and He moves in with His own and He teaches them."
+     "text": [
+      "I think there is a great amount that the Lord is wanting to open up to us. It is quite remarkable that there is so much made available to the saints, and it is to be worked out in the circle. John’s gospel teaches you one thing, that there is so much to be done within that He leaves everything and He moves in with His own and He teaches them."
+     ]
     },
     {
      "speaker": "GBG",
-     "text": "So the first thing he teaches is “repentance towards God, and faith towards our Lord Jesus Christ”. That is for believers, is it not? We might think it is for unbelievers, but primarily in this setting it is for believers."
+     "text": [
+      "So the first thing he teaches is “repentance towards God, and faith towards our Lord Jesus Christ”. That is for believers, is it not? We might think it is for unbelievers, but primarily in this setting it is for believers."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, it is “to you”. It is believers he is speaking to, but you have something more in mind in saying that."
+     "text": [
+      "Yes, it is “to you”. It is believers he is speaking to, but you have something more in mind in saying that."
+     ]
     },
     {
      "speaker": "GBG",
-     "text": "It is something that needs to mark us all the time, is it not, “repentance towards God”? It has been said before that “repentance towards God” means that God is before you, and “faith towards our Lord Jesus Christ” means you have that Man as an object, and that is to be constantly with all of us."
+     "text": [
+      "It is something that needs to mark us all the time, is it not, “repentance towards God”? It has been said before that “repentance towards God” means that God is before you, and “faith towards our Lord Jesus Christ” means you have that Man as an object, and that is to be constantly with all of us."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "That is very helpful because that keeps things fresh with us. I think when we get stale as to these elementary matters we lose our way. It may not be obvious to the public eye but we lose our way inwardly. I think that is how things are kept fresh."
+     "text": [
+      "That is very helpful because that keeps things fresh with us. I think when we get stale as to these elementary matters we lose our way. It may not be obvious to the public eye but we lose our way inwardly. I think that is how things are kept fresh."
+     ]
     },
     {
      "speaker": "WL",
-     "text": "Do you think reading the ministries of the recovery would be an important matter in our learning? Where would we be without them?"
+     "text": [
+      "Do you think reading the ministries of the recovery would be an important matter in our learning? Where would we be without them?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes. Did not Mr. Raven say that the Scriptures are a safeguard to us? And we have the helps in the ministry of persons who went before, they proved themselves, they completed the course as bondmen of the Lord, and the teaching helps."
+     "text": [
+      "Yes. Did not Mr. Raven say that the Scriptures are a safeguard to us? And we have the helps in the ministry of persons who went before, they proved themselves, they completed the course as bondmen of the Lord, and the teaching helps."
+     ]
     },
     {
      "speaker": "WL",
-     "text": "It is part of the spiritual development. How can one be developing spiritually if one ignores the ministries of the recovery?"
+     "text": [
+      "It is part of the spiritual development. How can one be developing spiritually if one ignores the ministries of the recovery?"
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, and it comes down to what we were saying as to the corner of the housetop. These men lived in the corner of the housetop in their own hired lodging, and they received all that came to them. It was available to persons. Any exercised person at any time could approach and get the teaching of the kingdom."
+     "text": [
+      "Yes, and it comes down to what we were saying as to the corner of the housetop. These men lived in the corner of the housetop in their own hired lodging, and they received all that came to them. It was available to persons. Any exercised person at any time could approach and get the teaching of the kingdom."
+     ]
     },
     {
      "speaker": "DBR",
-     "text": "“Two whole years”. We are still in that. It is the period of the dispensation, it is what is to mark it, that we are to be a taught people."
+     "text": [
+      "“Two whole years”. We are still in that. It is the period of the dispensation, it is what is to mark it, that we are to be a taught people."
+     ]
     },
     {
      "speaker": "NJH",
-     "text": "Yes, it is like the acceptable year of the Lord. Here it is “two whole years”."
+     "text": [
+      "Yes, it is like the acceptable year of the Lord. Here it is “two whole years”."
+     ]
     }
    ]
   },
@@ -708,5 +953,31 @@
  ],
  "back_matter": [
   "Edited and Published by J. Strachan, 59 Frederick Street, Dundee, DD3 9DE, Scotland Printed by Crystal Stationery, 22 Western Road, Billericay, Essex CM12 9DZ, (T) (01277) 650661"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "GRACE AND TEACHING",
+   "kind": "speaker_matched_loosely",
+   "detail": "WMP used in the text for W. Patterson (key gives WP)"
+  },
+  {
+   "article": 1,
+   "title": "GRACE AND TEACHING",
+   "kind": "speaker_matched_loosely",
+   "detail": "AMcK used in the text for A. McKay (key gives AM)"
+  },
+  {
+   "article": 1,
+   "title": "GRACE AND TEACHING",
+   "kind": "speaker_matched_loosely",
+   "detail": "JTB(Ed) used in the text for J. T. Brown (key gives JTB)"
+  },
+  {
+   "article": 1,
+   "title": "GRACE AND TEACHING",
+   "kind": "speaker_matched_loosely",
+   "detail": "DMcG used in the text for D. McGregor (key gives DM)"
+  }
  ]
 }

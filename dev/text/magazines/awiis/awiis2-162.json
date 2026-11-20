@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -33,34 +33,42 @@
     "AMB",
     "GAB",
     "ADM",
+    "JCG",
     "APG",
     "ABB",
+    "AB",
     "JTB"
    ],
    "initials": [
     {
-     "initials": "GAB",
-     "name": "(Grangemouth unless otherwise stated) Alan Brown"
+     "initials": "AB",
+     "name": "Alan Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "AMB",
-     "name": "Alistair M Brown"
+     "name": "Alistair M Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "ABB",
-     "name": "A Barrie Brown"
+     "name": "A Barrie Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "GAB",
-     "name": "G Allan Brown"
+     "name": "G Allan Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "JAB",
-     "name": "John A Brown"
+     "name": "John A Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "JTB",
-     "name": "Jim T Brown"
+     "name": "Jim T Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "APG",
@@ -69,14 +77,21 @@
     },
     {
      "initials": "PAG",
-     "name": "Paul A Gray"
+     "name": "Paul A Gray",
+     "place": "Grangemouth"
     },
     {
      "initials": "ADM",
-     "name": "Alan D Munro"
+     "name": "Alan D Munro",
+     "place": "Grangemouth"
+    },
+    {
+     "initials": "JCG",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to Initials:",
+   "initials_comment": "Grangemouth unless otherwise stated",
    "initials_text": [
     "(Grangemouth unless otherwise stated)",
     "Alan Brown; Alistair M Brown; A Barrie Brown; G Allan Brown; John A Brown; Jim T Brown; Allan P Grant, Dundee; Paul A Gray; Alan D Munro"
@@ -84,287 +99,427 @@
    "paragraphs": [
     {
      "speaker": "PAG",
-     "text": "I thought we might get profit in speaking about divine order. The apostle Paul writes to the Colossians and, among other things, he says of them that he is “rejoicing and seeing your order” (chap 2: 5), but shortly after that he goes on to say, “See that there be no one who shall lead you away as a prey through philosophy and vain deceit, according to the teaching of men, according to the elements of the world, and not according to Christ”, v 8. The Colossians were proceeding in an orderly way but they were surrounded by what was disorderly, “philosophy and vain deceit, according to the teaching of men, according to the elements of the world”, and they were to be on their guard against it. I feel exercised that we are surrounded by a world where disorder is increasing. I mean general disorder, disorder of relationships."
-    },
-    {
-     "text": "The reason that I read in Genesis 1 particularly was the reference to “male and female created he them”. That is God’s order, and it is to be observed. We need to be on our guard against what the world thinks; things that are wicked in the sight of God are approved, and the whole system of order has been turned upside down. It will not be put right until the Lord comes: “Behold, a king shall reign in righteousness, and princes shall rule in judgment”, Isa 32: 1. In the meantime God would have us to be preserved in relation to what His order is, and so the question arises in Job, “Knowest thou the ordinances of the heavens?”. But Job is also asked in a salutary way, “dost thou determine their rule over the earth?” God determines it; we do not. When exercises have arisen, some may have wanted to determine their own order as to things, and there is only one order and that is God’s. The end in view in 1 Corinthians 11 is that we recognise that God, in His divine order, has set in place a system of headship from which great blessing flows: the truth as to the Supper placed in the assembly, then follows the working of the body, the operation in love in 1 Corinthians 13, the order of the assembly and what is suited to it in chapter 14, and then the kingdom is handed over “to him who is God and Father”, 1 Cor 15: 24. Everything is handed over in perfect order, and there is victory even over death itself. I suggest that we take up the thought of order and speak about it together."
-    },
-    {
-     "speaker": "JAB",
-     "text": "I would like to ask if divine order is not a merely outward form, which it tends to be in men’s world. Men impose order on situations or behaviour by setting a form that is to be observed, and they call that order, and then there are forces of law and order to keep it so. What makes divine order different from that, because we know from the New Testament that God is a God of order, is that it is not a formalisation of anything, is it? What is the difference?"
-    },
-    {
-     "speaker": "PAG",
-     "text": "We have been speaking locally about the offerings, and what was to be seen in the burnt-offering was the head and its fat, and the inwards and the legs, Lev 1: 8, 9. The inwards would suggest that in Christ there was an example of perfect inward order, which manifested itself in what was outwardly orderly, but the manifestation came from what was within, not from what was imposed from without. What would you say?"
+     "text": [
+      "I thought we might get profit in speaking about divine order. The apostle Paul writes to the Colossians and, among other things, he says of them that he is “rejoicing and seeing your order” (chap 2: 5), but shortly after that he goes on to say, “See that there be no one who shall lead you away as a prey through philosophy and vain deceit, according to the teaching of men, according to the elements of the world, and not according to Christ”, v 8. The Colossians were proceeding in an orderly way but they were surrounded by what was disorderly, “philosophy and vain deceit, according to the teaching of men, according to the elements of the world”, and they were to be on their guard against it. I feel exercised that we are surrounded by a world where disorder is increasing. I mean general disorder, disorder of relationships.",
+      "The reason that I read in Genesis 1 particularly was the reference to “male and female created he them”. That is God’s order, and it is to be observed. We need to be on our guard against what the world thinks; things that are wicked in the sight of God are approved, and the whole system of order has been turned upside down. It will not be put right until the Lord comes: “Behold, a king shall reign in righteousness, and princes shall rule in judgment”, Isa 32: 1. In the meantime God would have us to be preserved in relation to what His order is, and so the question arises in Job, “Knowest thou the ordinances of the heavens?”. But Job is also asked in a salutary way, “dost thou determine their rule over the earth?” God determines it; we do not. When exercises have arisen, some may have wanted to determine their own order as to things, and there is only one order and that is God’s. The end in view in 1 Corinthians 11 is that we recognise that God, in His divine order, has set in place a system of headship from which great blessing flows: the truth as to the Supper placed in the assembly, then follows the working of the body, the operation in love in 1 Corinthians 13, the order of the assembly and what is suited to it in chapter 14, and then the kingdom is handed over “to him who is God and Father”, 1 Cor 15: 24. Everything is handed over in perfect order, and there is victory even over death itself. I suggest that we take up the thought of order and speak about it together."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I think it is very helpful because that clearly is the key to the enjoyment of everything that God has in mind. It begins with what is inward and then expresses itself towards God and towards each other. I am glad of what you say about that."
-    },
-    {
-     "speaker": "AMB",
-     "text": "What you have read in Genesis shows that God’s thoughts are orderly, and then they find orderly expression, and that in the physical creation He created a sphere where life could be set, and that is so morally. The physical creation would make us think of God’s moral creation."
-    },
-    {
-     "speaker": "PAG",
-     "text": "Yes, so God’s “eternal power and divinity”, as Romans tells us, are “apprehended by the mind through the things that are made” (chap 1: 20), so that God intends that something should be known about Him from what is made or created."
-    },
-    {
-     "speaker": "AMB",
-     "text": "The physical creation does reflect God in His power. It tells us about His power and about His wisdom, and order is in it, and laws that govern the physical phenomena and so on are all set by God, and things obey His will. But then man has the ability to exercise his own will and when that happened at the beginning, disorder came in, conflict, and all the history of man really flows from that. God’s original thoughts are all orderly and He will ensure that these prevail."
+     "text": [
+      "I would like to ask if divine order is not a merely outward form, which it tends to be in men’s world. Men impose order on situations or behaviour by setting a form that is to be observed, and they call that order, and then there are forces of law and order to keep it so. What makes divine order different from that, because we know from the New Testament that God is a God of order, is that it is not a formalisation of anything, is it? What is the difference?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Another scripture that was in my mind was Revelation 21, “and the street of the city pure gold, as transparent glass”, v 21. There is complete transparency marking the divine order and it can be observed in Revelation 21 from any direction and seen to be true."
+     "text": [
+      "We have been speaking locally about the offerings, and what was to be seen in the burnt-offering was the head and its fat, and the inwards and the legs, Lev 1: 8, 9. The inwards would suggest that in Christ there was an example of perfect inward order, which manifested itself in what was outwardly orderly, but the manifestation came from what was within, not from what was imposed from without. What would you say?"
+     ]
+    },
+    {
+     "speaker": "JAB",
+     "text": [
+      "I think it is very helpful because that clearly is the key to the enjoyment of everything that God has in mind. It begins with what is inward and then expresses itself towards God and towards each other. I am glad of what you say about that."
+     ]
+    },
+    {
+     "speaker": "AMB",
+     "text": [
+      "What you have read in Genesis shows that God’s thoughts are orderly, and then they find orderly expression, and that in the physical creation He created a sphere where life could be set, and that is so morally. The physical creation would make us think of God’s moral creation."
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "Yes, so God’s “eternal power and divinity”, as Romans tells us, are “apprehended by the mind through the things that are made” (chap 1: 20), so that God intends that something should be known about Him from what is made or created."
+     ]
+    },
+    {
+     "speaker": "AMB",
+     "text": [
+      "The physical creation does reflect God in His power. It tells us about His power and about His wisdom, and order is in it, and laws that govern the physical phenomena and so on are all set by God, and things obey His will. But then man has the ability to exercise his own will and when that happened at the beginning, disorder came in, conflict, and all the history of man really flows from that. God’s original thoughts are all orderly and He will ensure that these prevail."
+     ]
+    },
+    {
+     "speaker": "PAG",
+     "text": [
+      "Another scripture that was in my mind was Revelation 21, “and the street of the city pure gold, as transparent glass”, v 21. There is complete transparency marking the divine order and it can be observed in Revelation 21 from any direction and seen to be true."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "Can you just say a word as to the naming of things? “And there was light ... And God called the light Day, and the darkness he called Night”, Gen 1: 3, 5."
+     "text": [
+      "Can you just say a word as to the naming of things? “And there was light ... And God called the light Day, and the darkness he called Night”, Gen 1: 3, 5."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I think it is important that we accept God’s name for things. I referred to Isaiah 32, “Behold, a king shall reign in righteousness”, and one of the reasons that it was in my mind was “The vile man shall be no more called noble, nor the churl said to be bountiful”, v 5. The world has come to a point where it calls things good that are not good. God’s order is seen, in that it says of each of the days apart from the second day, that “it was good” or indeed that it was “very good”, Gen 1: 31. So God’s order is good."
+     "text": [
+      "I think it is important that we accept God’s name for things. I referred to Isaiah 32, “Behold, a king shall reign in righteousness”, and one of the reasons that it was in my mind was “The vile man shall be no more called noble, nor the churl said to be bountiful”, v 5. The world has come to a point where it calls things good that are not good. God’s order is seen, in that it says of each of the days apart from the second day, that “it was good” or indeed that it was “very good”, Gen 1: 31. So God’s order is good."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "The word liberty is a very fine spiritual thought but it can be misapplied in a dangerous way. What people call liberty can just be licence. We need to get God’s definition."
+     "text": [
+      "The word liberty is a very fine spiritual thought but it can be misapplied in a dangerous way. What people call liberty can just be licence. We need to get God’s definition."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "The best place to get God’s definition is in the Scriptures; so in James 1 is says, “But he that fixes his view on the perfect law, that of liberty, and abides in it, being not a forgetful hearer but a doer of the work, he shall be blest in his doing”, v 25. So liberty itself is part of a regulated sphere; we are not in liberty if we are not regulated."
+     "text": [
+      "The best place to get God’s definition is in the Scriptures; so in James 1 is says, “But he that fixes his view on the perfect law, that of liberty, and abides in it, being not a forgetful hearer but a doer of the work, he shall be blest in his doing”, v 25. So liberty itself is part of a regulated sphere; we are not in liberty if we are not regulated."
+     ]
     },
     {
      "speaker": "ADM",
-     "text": "So God’s order is really for the blessing of man. Where you have quoted from Isaiah, that section ends, “But the noble deviseth noble things; and to noble things doth he stand”, Isa 32: 8. If we are subject to divine ordering, do you think there will be prosperity?"
+     "text": [
+      "So God’s order is really for the blessing of man. Where you have quoted from Isaiah, that section ends, “But the noble deviseth noble things; and to noble things doth he stand”, Isa 32: 8. If we are subject to divine ordering, do you think there will be prosperity?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "If you look at the typical teaching as to the matter of sabbaths, and as to the matter of the land lying fallow, all of that was divine ordering in order that man might rest, it was in order that God might enjoy something, but the rejection even of the principle of a day of rest is harmful to man. It distracts him from God, and God does not receive His portion; so there is blessing for man and glory to God in observing the order, do you think?"
+     "text": [
+      "If you look at the typical teaching as to the matter of sabbaths, and as to the matter of the land lying fallow, all of that was divine ordering in order that man might rest, it was in order that God might enjoy something, but the rejection even of the principle of a day of rest is harmful to man. It distracts him from God, and God does not receive His portion; so there is blessing for man and glory to God in observing the order, do you think?"
+     ]
     },
     {
      "speaker": "ADM",
-     "text": "I know it seems a very obvious thing to say but why does verse 3 come after verse 2? What I am meaning is it says in verse 2, “darkness was on the face of the deep”. Did God act to counter that in verse 3 or is verse 3 an original thought?"
+     "text": [
+      "I know it seems a very obvious thing to say but why does verse 3 come after verse 2? What I am meaning is it says in verse 2, “darkness was on the face of the deep”. Did God act to counter that in verse 3 or is verse 3 an original thought?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, we know that “God is light” and it also adds, “and in him is no darkness at all” (1 John 1: 5); so darkness came in, not on account of something God did, but on account of some wicked force. It has been suggested it may have been the fall of Satan, but we cannot say; Scripture does not tell us; but God would not have darkness in the world that He created. He would confine it to its place and, “God called the light Day, and the darkness he called Night”. We are called to be “sons of light and sons of day”, 1 Thess 5: 5."
+     "text": [
+      "Well, we know that “God is light” and it also adds, “and in him is no darkness at all” (1 John 1: 5); so darkness came in, not on account of something God did, but on account of some wicked force. It has been suggested it may have been the fall of Satan, but we cannot say; Scripture does not tell us; but God would not have darkness in the world that He created. He would confine it to its place and, “God called the light Day, and the darkness he called Night”. We are called to be “sons of light and sons of day”, 1 Thess 5: 5."
+     ]
     },
     {
-     "text": "JCG What you bring up reminds me of Mr Raven’s teaching on rule, atmosphere and light, vol 3 p320. What he brought out of that was that it makes way for a perfect administration in the assembly, and that is what we follow. There is always the danger of being influenced by forces outside in the world, but we follow what the truth is in the assembly."
+     "speaker": "JCG",
+     "text": [
+      "What you bring up reminds me of Mr Raven’s teaching on rule, atmosphere and light, vol 3 p320. What he brought out of that was that it makes way for a perfect administration in the assembly, and that is what we follow. There is always the danger of being influenced by forces outside in the world, but we follow what the truth is in the assembly."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "That is why it is so important that the inward formation that our brother spoke of is there, otherwise we will be subject to external influences. One of the things that was said to Israel, if they pursued things in a certain, positive way, was that none of the complaints of Egypt would come upon them, Exod 15: 26. The complaints of Egypt are all around, but if Israel went on in obedience, they would be preserved from all that. I do think it is essential to stress it requires inward formation. It is not just outward conformity - that on its own is just the law."
+     "text": [
+      "That is why it is so important that the inward formation that our brother spoke of is there, otherwise we will be subject to external influences. One of the things that was said to Israel, if they pursued things in a certain, positive way, was that none of the complaints of Egypt would come upon them, Exod 15: 26. The complaints of Egypt are all around, but if Israel went on in obedience, they would be preserved from all that. I do think it is essential to stress it requires inward formation. It is not just outward conformity - that on its own is just the law."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "We had ministry recently about keeping His commandments; His commandments bring order, do you think? “For he spoke, and it was done; he commanded, and it stood fast”, Ps 33: 9. In 1 Corinthians it is “the Lord’s commandment”, chap 14: 37."
+     "text": [
+      "We had ministry recently about keeping His commandments; His commandments bring order, do you think? “For he spoke, and it was done; he commanded, and it stood fast”, Ps 33: 9. In 1 Corinthians it is “the Lord’s commandment”, chap 14: 37."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "That is helpful, and perhaps links with our thought as to inward formation because the Lord says, “If ye love me, keep my commandments”, John 14: 15. Would that be right?"
+     "text": [
+      "That is helpful, and perhaps links with our thought as to inward formation because the Lord says, “If ye love me, keep my commandments”, John 14: 15. Would that be right?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "I think that is helpful. Keeping commandments without love is legal, is it not? These two things go together, love and obedience."
+     "text": [
+      "I think that is helpful. Keeping commandments without love is legal, is it not? These two things go together, love and obedience."
+     ]
     },
     {
      "speaker": "ABB",
-     "text": "We had a word last night as to Asaph going into the sanctuaries, Ps 73: 17. We can say that in God’s presence there is order; so, as we spend time in the divine presence, we would see things in a perfect order, and a perfect Man who always walked according to the divine path, and be formed thereby. Seeing things according to God’s standard would help us along these lines. It would also help us to see what is not orderly and to set that aside."
+     "text": [
+      "We had a word last night as to Asaph going into the sanctuaries, Ps 73: 17. We can say that in God’s presence there is order; so, as we spend time in the divine presence, we would see things in a perfect order, and a perfect Man who always walked according to the divine path, and be formed thereby. Seeing things according to God’s standard would help us along these lines. It would also help us to see what is not orderly and to set that aside."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "We have been helped as to assembly order, and the order when we come together in view of the breaking of bread, and then what flows from it. The great thing about it is that it is centred in Christ, and in the example that He gave. So we even have the simple matter of “having sung a hymn, they went out to the mount of Olives”, Matt 26: 30. As we are occupied with Christ, He leads us away from the wilderness sphere into what is heavenly, but it is as occupied with Him that we are thus led. Is that what is in your mind?"
+     "text": [
+      "We have been helped as to assembly order, and the order when we come together in view of the breaking of bread, and then what flows from it. The great thing about it is that it is centred in Christ, and in the example that He gave. So we even have the simple matter of “having sung a hymn, they went out to the mount of Olives”, Matt 26: 30. As we are occupied with Christ, He leads us away from the wilderness sphere into what is heavenly, but it is as occupied with Him that we are thus led. Is that what is in your mind?"
+     ]
     },
     {
      "speaker": "ABB",
-     "text": "That is very helpful; so influence would link with order. I was thinking of “the great light to rule the day”. Speaking simply, if we are in the sunshine of the love of that blessed One, we will be attracted to this order and as we develop spiritually, we would recoil from anything that is disorderly. Do you think that is one way we would develop?"
+     "text": [
+      "That is very helpful; so influence would link with order. I was thinking of “the great light to rule the day”. Speaking simply, if we are in the sunshine of the love of that blessed One, we will be attracted to this order and as we develop spiritually, we would recoil from anything that is disorderly. Do you think that is one way we would develop?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Yes; so Paul, in warning the Colossian saints against what was unsuitable, reminds them that in Christ “dwells all the fulness of the Godhead bodily; and ye are complete in him”, chap 2: 9, 10. He says quite plainly that you can take every direction from Him; you do not need any direction from anyone else."
+     "text": [
+      "Yes; so Paul, in warning the Colossian saints against what was unsuitable, reminds them that in Christ “dwells all the fulness of the Godhead bodily; and ye are complete in him”, chap 2: 9, 10. He says quite plainly that you can take every direction from Him; you do not need any direction from anyone else."
+     ]
     },
     {
-     "text": "JCG Do you think that the man in John 9, under the Lord’s influence, illustrates the matter? He was in darkness, literally, of course, but morally as well, but then he got light and he clung to Jesus, did he not, and became the one who confessed the Son of God? It is wonderful the way in which the simplicity of the work of God makes progress, as we are occupied with Christ."
+     "speaker": "JCG",
+     "text": [
+      "Do you think that the man in John 9, under the Lord’s influence, illustrates the matter? He was in darkness, literally, of course, but morally as well, but then he got light and he clung to Jesus, did he not, and became the one who confessed the Son of God? It is wonderful the way in which the simplicity of the work of God makes progress, as we are occupied with Christ."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "And he stuck to what he knew: “One thing I know”, v 25. Again, I would encourage all of us, especially our younger brethren; we are not called to be clever enough to argue our way round “philosophy and vain deceit” and prove that we are right and other people are wrong. We need to stick to what we know, and what we know is in Scripture, and it cannot be changed. I feel that, especially for our younger ones when they are at school. They are being told all sorts of things that are simply not true, and a grounding in Scripture is protective."
+     "text": [
+      "And he stuck to what he knew: “One thing I know”, v 25. Again, I would encourage all of us, especially our younger brethren; we are not called to be clever enough to argue our way round “philosophy and vain deceit” and prove that we are right and other people are wrong. We need to stick to what we know, and what we know is in Scripture, and it cannot be changed. I feel that, especially for our younger ones when they are at school. They are being told all sorts of things that are simply not true, and a grounding in Scripture is protective."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "Faith is the answer to these interminable questions that are brought up. “By faith we apprehend that the worlds were framed by the word of God”, Heb 11: 3. That would be an example. We do not argue about that, but by faith we understand things. Another great cardinal point connected with what you are bringing before us is that the mind of man is not orderly. It is what the scripture refers to as the flesh; the mind of the flesh sets itself against God’s order. We see that in the world around. There is tremendous deliverance for a believer to have the mind of the Spirit and therewith to overcome the mind of the flesh that tries to act within us."
+     "text": [
+      "Faith is the answer to these interminable questions that are brought up. “By faith we apprehend that the worlds were framed by the word of God”, Heb 11: 3. That would be an example. We do not argue about that, but by faith we understand things. Another great cardinal point connected with what you are bringing before us is that the mind of man is not orderly. It is what the scripture refers to as the flesh; the mind of the flesh sets itself against God’s order. We see that in the world around. There is tremendous deliverance for a believer to have the mind of the Spirit and therewith to overcome the mind of the flesh that tries to act within us."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "“For the mind of the flesh is death; but the mind of the Spirit life and peace”, Rom 8: 6. The first three chapters of Romans are interesting in that regard. In chapter 1 you get the “reprobate mind” (v 28): that was the Greek; in chapter 2 you get the religious mind: that would be represented in the Jew; and in chapter 3 is the wilful mind: that is really the Romans who conquered everything. Greek, Hebrew and Latin letters were above the Lord’s cross in its superscription, John 19: 20. They are all dealt with at the cross, and “there is no difference; for all have sinned, and come short of the glory of God”, Rom 3: 22, 23. My exercise is not to point at lots of other people and say they are doing terrible things, but rather that I might seek within myself to be governed by God’s thoughts as to matters, “transformed by the renewing of your mind”, Rom 12: 2."
+     "text": [
+      "“For the mind of the flesh is death; but the mind of the Spirit life and peace”, Rom 8: 6. The first three chapters of Romans are interesting in that regard. In chapter 1 you get the “reprobate mind” (v 28): that was the Greek; in chapter 2 you get the religious mind: that would be represented in the Jew; and in chapter 3 is the wilful mind: that is really the Romans who conquered everything. Greek, Hebrew and Latin letters were above the Lord’s cross in its superscription, John 19: 20. They are all dealt with at the cross, and “there is no difference; for all have sinned, and come short of the glory of God”, Rom 3: 22, 23. My exercise is not to point at lots of other people and say they are doing terrible things, but rather that I might seek within myself to be governed by God’s thoughts as to matters, “transformed by the renewing of your mind”, Rom 12: 2."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "I was thinking that Christianity overcomes these matters not by substituting some different law for us to follow, but by renewing. The believer is born anew and then our minds are renewed and the spirit of our mind is renewed too. That is by the Holy Spirit, so that the knowledge of the Holy Spirit, and sowing to Him, and giving Him the place that He seeks in us relates to the matter of inward formation which we are considering."
+     "text": [
+      "I was thinking that Christianity overcomes these matters not by substituting some different law for us to follow, but by renewing. The believer is born anew and then our minds are renewed and the spirit of our mind is renewed too. That is by the Holy Spirit, so that the knowledge of the Holy Spirit, and sowing to Him, and giving Him the place that He seeks in us relates to the matter of inward formation which we are considering."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Would you link that then with the Spirit’s service in guiding us into all the truth, John 16: 13? Would that bear on it?"
+     "text": [
+      "Would you link that then with the Spirit’s service in guiding us into all the truth, John 16: 13? Would that bear on it?"
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "That is what is in view. The Spirit helps us to judge within us what would be disorderly, but that is just the beginning of His service. What He has in mind is to bring Christ before us, and to bring the things that relate to life."
+     "text": [
+      "That is what is in view. The Spirit helps us to judge within us what would be disorderly, but that is just the beginning of His service. What He has in mind is to bring Christ before us, and to bring the things that relate to life."
+     ]
     },
     {
-     "text": "JCG The lights were brought in “to divide between the day and the night”. By application it is a question of whether we are walking in the light of the sun, that is Christ, and, of course, represented in the assembly down here. Then I suppose the reference in Hebrews to having “their senses exercised for distinguishing both good and evil” (Heb 5: 14) bears on your thought of what is inward morally, does it?"
+     "speaker": "JCG",
+     "text": [
+      "The lights were brought in “to divide between the day and the night”. By application it is a question of whether we are walking in the light of the sun, that is Christ, and, of course, represented in the assembly down here. Then I suppose the reference in Hebrews to having “their senses exercised for distinguishing both good and evil” (Heb 5: 14) bears on your thought of what is inward morally, does it?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Yes. One of the things that comes out in John’s epistle, which relates to inward formation, is that the greatest light is available in the darkest days. The light has not dimmed because of the darkness of the day in which we are. The light remains the same. It is still “a light above the brightness of the sun” (Acts 26: 13), and it will never change. Even when John sees the Lord in judicial garb he says, “his countenance as the sun shines in its power”, Rev 1: 16. That is the light that is shining."
+     "text": [
+      "Yes. One of the things that comes out in John’s epistle, which relates to inward formation, is that the greatest light is available in the darkest days. The light has not dimmed because of the darkness of the day in which we are. The light remains the same. It is still “a light above the brightness of the sun” (Acts 26: 13), and it will never change. Even when John sees the Lord in judicial garb he says, “his countenance as the sun shines in its power”, Rev 1: 16. That is the light that is shining."
+     ]
     },
     {
      "speaker": "ADM",
-     "text": "Is the man in Romans 7 really going through these exercises of inward formation? There is a certain amount of confusion and disorder in that chapter, but by the time we get to the end of it order has been restored, because the light of Christ and the gift of the Spirit help us to resolve these exercises in our own lives, do you think?"
+     "text": [
+      "Is the man in Romans 7 really going through these exercises of inward formation? There is a certain amount of confusion and disorder in that chapter, but by the time we get to the end of it order has been restored, because the light of Christ and the gift of the Spirit help us to resolve these exercises in our own lives, do you think?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I am quoting another, but in Romans 6 the person gets out of the boat and in Romans 7 he starts to sink and in Romans 8 he is back in the Lord’s hands again and on perfect stable, solid ground. But you sink in the confusion: “For I do not practise the good that I will; but the evil I do not will, that I do”, Rom 7: 19. It is an insoluble morass of confusion and then you say, “who shall deliver me out of this body of death? I thank God, through Jesus Christ our Lord”, v 24, 25. You are back on solid ground."
+     "text": [
+      "I am quoting another, but in Romans 6 the person gets out of the boat and in Romans 7 he starts to sink and in Romans 8 he is back in the Lord’s hands again and on perfect stable, solid ground. But you sink in the confusion: “For I do not practise the good that I will; but the evil I do not will, that I do”, Rom 7: 19. It is an insoluble morass of confusion and then you say, “who shall deliver me out of this body of death? I thank God, through Jesus Christ our Lord”, v 24, 25. You are back on solid ground."
+     ]
     },
     {
-     "text": "AB I was thinking of Legion. It was a change from disorder to order when he was “sitting, clothed and sensible” (Luke 8: 35), and then he goes out and proclaims “how great things Jesus had done for him”, v 39. I suppose you can see examples of that throughout the New Testament, when the Lord had to do with people."
+     "speaker": "AB",
+     "text": [
+      "I was thinking of Legion. It was a change from disorder to order when he was “sitting, clothed and sensible” (Luke 8: 35), and then he goes out and proclaims “how great things Jesus had done for him”, v 39. I suppose you can see examples of that throughout the New Testament, when the Lord had to do with people."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "That is helpful. The authorities tried to bring order; so they bound him, but he just broke every boundary they set, and the Lord is able for that. In a day to come He will, by the agency of an angel, bind Satan, Rev 20: 2. He is able for that and yet the striking thing about Legion is that, although he was “sitting, clothed and sensible, at the feet of Jesus”, the people around did not want that, v 37. That is not what they wanted. I find that quite stark."
+     "text": [
+      "That is helpful. The authorities tried to bring order; so they bound him, but he just broke every boundary they set, and the Lord is able for that. In a day to come He will, by the agency of an angel, bind Satan, Rev 20: 2. He is able for that and yet the striking thing about Legion is that, although he was “sitting, clothed and sensible, at the feet of Jesus”, the people around did not want that, v 37. That is not what they wanted. I find that quite stark."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Does order bring peace? In 1 Corinthians it says, “God is not a God of disorder but of peace”, chap 14: 33. There is the contrast there. In Genesis the seventh day is rest. Our brother referred to the man “sitting, clothed and sensible”; He had peace in his soul, did he not?"
+     "text": [
+      "Does order bring peace? In 1 Corinthians it says, “God is not a God of disorder but of peace”, chap 14: 33. There is the contrast there. In Genesis the seventh day is rest. Our brother referred to the man “sitting, clothed and sensible”; He had peace in his soul, did he not?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Do you think in that sense true peace is only found on resurrection ground? The disorder of the world was dismissed at the cross. There were the various cries against the Lord, and the witnesses did not agree, and Pilate came under the influence of the crowd and was weak. There was a disorderly scene around but all that was dismissed at the cross. It required the Lord’s death, but out of His death has come a wondrous spiritual and moral order, do you think?"
+     "text": [
+      "Do you think in that sense true peace is only found on resurrection ground? The disorder of the world was dismissed at the cross. There were the various cries against the Lord, and the witnesses did not agree, and Pilate came under the influence of the crowd and was weak. There was a disorderly scene around but all that was dismissed at the cross. It required the Lord’s death, but out of His death has come a wondrous spiritual and moral order, do you think?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "He “made peace by the blood of his cross”, Col 1: 20."
+     "text": [
+      "He “made peace by the blood of his cross”, Col 1: 20."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I suppose what we speak of as the truth, is the truth of the living word of God. I am thinking of that scripture that speaks about “sincerity and truth”, 1 Cor 5: 8. We have recently had a book with Mr Dennett’s ministry in it, which has a fascinating account of how he came to it as a clergyman that he was on wrong ground scripturally, but he had been on that wrong ground in all sincerity. He accepted traditional theological teaching, yet he was sincere. That is something that can stumble us. We may see believers going on in all sincerity with what is not according to the truth of Scripture. What would you say about that in relation to order, because it seems to me that order and truth in this way are quite similar principles?"
+     "text": [
+      "I suppose what we speak of as the truth, is the truth of the living word of God. I am thinking of that scripture that speaks about “sincerity and truth”, 1 Cor 5: 8. We have recently had a book with Mr Dennett’s ministry in it, which has a fascinating account of how he came to it as a clergyman that he was on wrong ground scripturally, but he had been on that wrong ground in all sincerity. He accepted traditional theological teaching, yet he was sincere. That is something that can stumble us. We may see believers going on in all sincerity with what is not according to the truth of Scripture. What would you say about that in relation to order, because it seems to me that order and truth in this way are quite similar principles?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "They are. It says elsewhere, “Send out thy light and thy truth”, Ps 43: 3. They run together in that sense. What you say is a challenge because there are many genuine and very sincere believers going on with what they believe to be right. There is a tract by George Cutting, ‘In Great Earnest on the Wrong Road’; he recognises that. I think the test always has to be the truth of Scripture. Where can this be traced to Scripture? When the matter of the Lord’s Sonship was in Mr Raven’s thoughts, he said that he had come to it that, ‘The point is to be within the limits of Scripture and not trading on what is merely orthodox’, Letters p148. In other words, brethren held to what had previously been taught and they had always heard, but Mr Raven could not see a scriptural basis for it. Now, I know that it was some considerable time before that truth was fully brought out, but the fundamental importance of being able to trace what we say back to Scripture cannot be overstated, would you say?"
+     "text": [
+      "They are. It says elsewhere, “Send out thy light and thy truth”, Ps 43: 3. They run together in that sense. What you say is a challenge because there are many genuine and very sincere believers going on with what they believe to be right. There is a tract by George Cutting, ‘In Great Earnest on the Wrong Road’; he recognises that. I think the test always has to be the truth of Scripture. Where can this be traced to Scripture? When the matter of the Lord’s Sonship was in Mr Raven’s thoughts, he said that he had come to it that, ‘The point is to be within the limits of Scripture and not trading on what is merely orthodox’, Letters p148. In other words, brethren held to what had previously been taught and they had always heard, but Mr Raven could not see a scriptural basis for it. Now, I know that it was some considerable time before that truth was fully brought out, but the fundamental importance of being able to trace what we say back to Scripture cannot be overstated, would you say?"
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I feel the exercise and responsibility of being able to do that although very tested by my knowledge of Scripture. I also feel the responsibility that we have to young people to be able to do that without appearing to be imposing a rigid order on what they think. That is why it must start with love for Christ and that develops into a love for Scripture, for the word of God, because if we love the Lord Jesus, then we would want to do what the living word of God would open up to us as we seek the Spirit’s help to understand it."
+     "text": [
+      "I feel the exercise and responsibility of being able to do that although very tested by my knowledge of Scripture. I also feel the responsibility that we have to young people to be able to do that without appearing to be imposing a rigid order on what they think. That is why it must start with love for Christ and that develops into a love for Scripture, for the word of God, because if we love the Lord Jesus, then we would want to do what the living word of God would open up to us as we seek the Spirit’s help to understand it."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Then comes the importance of taking the Scriptures together: “the scripture cannot be broken”, John 10: 35. You cannot take one scripture and set it off against another; if it is not too common an expression, that is not the way it works."
+     "text": [
+      "Then comes the importance of taking the Scriptures together: “the scripture cannot be broken”, John 10: 35. You cannot take one scripture and set it off against another; if it is not too common an expression, that is not the way it works."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "The Lord says to take His yoke upon us: the yoke would involve coming under divine direction, would it not? But He says it is “easy”: “for my yoke is easy, and my burden is light”, Matt 11: 29, 30. So if we are governed by our love for Christ, the commandments which He lays upon us are not onerous; they are not irksome: it is “light” in that sense."
+     "text": [
+      "The Lord says to take His yoke upon us: the yoke would involve coming under divine direction, would it not? But He says it is “easy”: “for my yoke is easy, and my burden is light”, Matt 11: 29, 30. So if we are governed by our love for Christ, the commandments which He lays upon us are not onerous; they are not irksome: it is “light” in that sense."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "There is light in it, and there is help; He will walk alongside us. And there is food, because immediately after that, they come to the incident of the disciples in the cornfields, and there is something to eat. They are criticised for it. The Lord explains why what they did was right; He defends them. So another thing to have in our minds is if we hold to what is right and walk in step with the Lord, He will look after us."
+     "text": [
+      "There is light in it, and there is help; He will walk alongside us. And there is food, because immediately after that, they come to the incident of the disciples in the cornfields, and there is something to eat. They are criticised for it. The Lord explains why what they did was right; He defends them. So another thing to have in our minds is if we hold to what is right and walk in step with the Lord, He will look after us."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "To take Christ’s yoke upon us we have to learn what it is to be “meek and lowly in heart”: to learn that from Him. The metaphor of the yoke is very important. I have to learn that my will will just get me into trouble, and it is the Lord’s will that is the way of safety and salvation and blessing, and the way to life. That is a lesson we all need to learn through the whole of our lives. The earlier we accept it the better off we will be."
+     "text": [
+      "To take Christ’s yoke upon us we have to learn what it is to be “meek and lowly in heart”: to learn that from Him. The metaphor of the yoke is very important. I have to learn that my will will just get me into trouble, and it is the Lord’s will that is the way of safety and salvation and blessing, and the way to life. That is a lesson we all need to learn through the whole of our lives. The earlier we accept it the better off we will be."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, in accepting the regulation of our parents when we are young, and at whatever age we are, the regulation of the brethren, and of the assembly is important. My father often quoted the scripture, “and whoso breaketh down a hedge, a serpent biteth him”, Eccl 10: 8. If you go outside the area in which you have been set, harm will ensue. The positive is, if you stay where the Lord has set you, great blessing will ensue."
+     "text": [
+      "Well, in accepting the regulation of our parents when we are young, and at whatever age we are, the regulation of the brethren, and of the assembly is important. My father often quoted the scripture, “and whoso breaketh down a hedge, a serpent biteth him”, Eccl 10: 8. If you go outside the area in which you have been set, harm will ensue. The positive is, if you stay where the Lord has set you, great blessing will ensue."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "I think that is right and the scripture that has been quoted in 1 Corinthians 14, “God is not a God of disorder but of peace, as in all the assemblies of the saints”, is part of your exercise; as seeking to walk in the light of the assembly, our gatherings should be havens from the world where Christ’s will is yielded to and He is put first, and the principles of the world and the principles that dominate man’s mind are excluded."
+     "text": [
+      "I think that is right and the scripture that has been quoted in 1 Corinthians 14, “God is not a God of disorder but of peace, as in all the assemblies of the saints”, is part of your exercise; as seeking to walk in the light of the assembly, our gatherings should be havens from the world where Christ’s will is yielded to and He is put first, and the principles of the world and the principles that dominate man’s mind are excluded."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Hence the need of subjection not only to the Lord but also to the Holy Spirit. There is also the thought of being “in subjection to the Father of spirits, and live” (Heb 12: 9); so subjection to divine Persons is in itself a substantial protection."
+     "text": [
+      "Hence the need of subjection not only to the Lord but also to the Holy Spirit. There is also the thought of being “in subjection to the Father of spirits, and live” (Heb 12: 9); so subjection to divine Persons is in itself a substantial protection."
+     ]
     },
     {
      "speaker": "ABB",
-     "text": "The verdict is that “it was good”. Would we have some sense as to our individual households, and particularly in the meetings, how wonderful it is for God in a world of tumult and disorder that there are those who have accepted the divine order and seek to be in accordance with it? Would that be another incentive as we see how God feels about it?"
+     "text": [
+      "The verdict is that “it was good”. Would we have some sense as to our individual households, and particularly in the meetings, how wonderful it is for God in a world of tumult and disorder that there are those who have accepted the divine order and seek to be in accordance with it? Would that be another incentive as we see how God feels about it?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "I think that is right and as was mentioned earlier, what is good involves accepting God’s name for things. That is what is good. If He calls something good, then it is good. The Lord emphasises that in a most striking way. He says, “There is none good but one, God”, Luke 18: 19. He says effectively to the whole of mankind, ‘It is not up to you to decide what is good; it is for God to decide’."
+     "text": [
+      "I think that is right and as was mentioned earlier, what is good involves accepting God’s name for things. That is what is good. If He calls something good, then it is good. The Lord emphasises that in a most striking way. He says, “There is none good but one, God”, Luke 18: 19. He says effectively to the whole of mankind, ‘It is not up to you to decide what is good; it is for God to decide’."
+     ]
     },
     {
      "speaker": "ABB",
-     "text": "I was struck recently by Isaiah 5 where you get the divine word, “Woe unto them who call evil good, and good evil; who put darkness for light, and light for darkness”, v 20. I agree with what you said earlier. We do not want to be taken up with what is negative but you can write that across the world, and I feel, whether it is in education or so on, it can almost drift into our thinking, and I must be on my guard against it. What was your thought in Job about what God said?"
+     "text": [
+      "I was struck recently by Isaiah 5 where you get the divine word, “Woe unto them who call evil good, and good evil; who put darkness for light, and light for darkness”, v 20. I agree with what you said earlier. We do not want to be taken up with what is negative but you can write that across the world, and I feel, whether it is in education or so on, it can almost drift into our thinking, and I must be on my guard against it. What was your thought in Job about what God said?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, there are two questions. “Knowest thou the ordinances of the heavens?” - that is the first thing. Are you familiar with the truth? Are you familiar with the principles? Now, that is not meant to be a hard question that everybody has to answer a lot of difficult questions about, but do we desire to be familiar with these things? But then I feel the second question is important, and it has weighed with me in recent exercises, “dost thou determine their rule over the earth?”. No, we do not. We cannot say that in the present circumstances certain principles that applied in the past do not apply any more. I am not saying this in any facetious way: the laws of gravity still apply and we cannot decide that we will just not have them any more. That is just the natural order of things. Well, divine principles are immutable; they do not change; so we need to ask ourselves: “dost thou determine their rule over the earth?”. No, and what has been said about each locality being a haven, that is because they are all operating to the same rule in a positive way, “the ordinances of the heavens”."
+     "text": [
+      "Well, there are two questions. “Knowest thou the ordinances of the heavens?” - that is the first thing. Are you familiar with the truth? Are you familiar with the principles? Now, that is not meant to be a hard question that everybody has to answer a lot of difficult questions about, but do we desire to be familiar with these things? But then I feel the second question is important, and it has weighed with me in recent exercises, “dost thou determine their rule over the earth?”. No, we do not. We cannot say that in the present circumstances certain principles that applied in the past do not apply any more. I am not saying this in any facetious way: the laws of gravity still apply and we cannot decide that we will just not have them any more. That is just the natural order of things. Well, divine principles are immutable; they do not change; so we need to ask ourselves: “dost thou determine their rule over the earth?”. No, and what has been said about each locality being a haven, that is because they are all operating to the same rule in a positive way, “the ordinances of the heavens”."
+     ]
     },
     {
-     "text": "JCG Job got a great blessing once he came to abhor himself. Our brother drew attention to Romans 7. The apostle brings in the blessing of the Spirit, the liberty of the Spirit, and Job had a great increase, literally, of course, but it speaks to us of spiritual increase, if we come to the fact that what is of the first order and what is in the world, as governed by that, is finished."
+     "speaker": "JCG",
+     "text": [
+      "Job got a great blessing once he came to abhor himself. Our brother drew attention to Romans 7. The apostle brings in the blessing of the Spirit, the liberty of the Spirit, and Job had a great increase, literally, of course, but it speaks to us of spiritual increase, if we come to the fact that what is of the first order and what is in the world, as governed by that, is finished."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Yes, and Paul brings in the dividing line in Romans: “by the disobedience of the one man the many have been constituted sinners, so also by the obedience of the one the many will be constituted righteous”, chap 5: 19. So there is a disobedient man and there is an obedient man, and there is only one obedient Man truly, and that is Christ. Do you think we need to come under His sway, under His authority, to come into the blessing that you are speaking of?"
+     "text": [
+      "Yes, and Paul brings in the dividing line in Romans: “by the disobedience of the one man the many have been constituted sinners, so also by the obedience of the one the many will be constituted righteous”, chap 5: 19. So there is a disobedient man and there is an obedient man, and there is only one obedient Man truly, and that is Christ. Do you think we need to come under His sway, under His authority, to come into the blessing that you are speaking of?"
+     ]
     },
     {
-     "text": "JCG Absolutely! What we had on Lord’s day, and what you suggested about the reception of the Spirit, bears on what you are suggesting tonight as to “them that obey him” (Heb 5: 9) and desiring: if we ask, we are given. These two things go together in view of the liberty of Christianity."
+     "speaker": "JCG",
+     "text": [
+      "Absolutely! What we had on Lord’s day, and what you suggested about the reception of the Spirit, bears on what you are suggesting tonight as to “them that obey him” (Heb 5: 9) and desiring: if we ask, we are given. These two things go together in view of the liberty of Christianity."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "I was thinking as you were speaking that the Scriptures begin, “In the beginning God” (Gen 1: 1) and finishes with Revelation 22: 13: “I am the Alpha and the Omega, the first and the last, the beginning and the end”: it is all the unchangeable God."
+     "text": [
+      "I was thinking as you were speaking that the Scriptures begin, “In the beginning God” (Gen 1: 1) and finishes with Revelation 22: 13: “I am the Alpha and the Omega, the first and the last, the beginning and the end”: it is all the unchangeable God."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "He begins by bringing in light and at the end you have “the bright and morning star”, Rev 22: 16. There is a heavenly light still shining and it foretells another day altogether. The end of God’s creation is not in night; it is in day: “And there was evening, and there was morning - the first day”, Gen 1: 5. Man’s idea of creation is that the morning comes and then the evening, but God’s thought is that the evening is there and then there is the morning and it dawns and it never ends."
+     "text": [
+      "He begins by bringing in light and at the end you have “the bright and morning star”, Rev 22: 16. There is a heavenly light still shining and it foretells another day altogether. The end of God’s creation is not in night; it is in day: “And there was evening, and there was morning - the first day”, Gen 1: 5. Man’s idea of creation is that the morning comes and then the evening, but God’s thought is that the evening is there and then there is the morning and it dawns and it never ends."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "Connecting that thought back with Job, the writer to the Hebrews says, “He takes away the first that he may establish the second” (Heb 10: 9), and all of what we are speaking about would remind us that God has established the second Man and He will establish a universe that is formed after Him and over which He will have sway. Do you think in what we are speaking over tonight we can see Christ as the One who sets all of this on as Man in the perfection of His submission and subjection to God’s will? Then He sustains a whole world that is according to God and that is according to God’s will as He is. That is an encouragement for us."
+     "text": [
+      "Connecting that thought back with Job, the writer to the Hebrews says, “He takes away the first that he may establish the second” (Heb 10: 9), and all of what we are speaking about would remind us that God has established the second Man and He will establish a universe that is formed after Him and over which He will have sway. Do you think in what we are speaking over tonight we can see Christ as the One who sets all of this on as Man in the perfection of His submission and subjection to God’s will? Then He sustains a whole world that is according to God and that is according to God’s will as He is. That is an encouragement for us."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "“And as we have borne the image of the one made of dust, we shall bear also the image of the heavenly one” (1 Cor 15: 49), but I am struck by the fact that it says just after that, “For this corruptible must needs put on incorruptibility, and this mortal put on immortality”, v 53. “Corruptible” and “mortal” are the result of the disorder that sin brought in and we are brought into what is incorruptible and immortal as a result of the heavenly Man. It lifts our whole vision of what divine order truly means."
+     "text": [
+      "“And as we have borne the image of the one made of dust, we shall bear also the image of the heavenly one” (1 Cor 15: 49), but I am struck by the fact that it says just after that, “For this corruptible must needs put on incorruptibility, and this mortal put on immortality”, v 53. “Corruptible” and “mortal” are the result of the disorder that sin brought in and we are brought into what is incorruptible and immortal as a result of the heavenly Man. It lifts our whole vision of what divine order truly means."
+     ]
     },
     {
-     "text": "AB In the beginning that we have read of in Genesis, obviously you could say that everything was orderly when Adam and Eve were put in the garden, but we have learned God’s true feelings for us through sin coming in. What would you say about that? It is almost as if disorder had to come in before we could truly know God. Is it right to say that?"
+     "speaker": "AB",
+     "text": [
+      "In the beginning that we have read of in Genesis, obviously you could say that everything was orderly when Adam and Eve were put in the garden, but we have learned God’s true feelings for us through sin coming in. What would you say about that? It is almost as if disorder had to come in before we could truly know God. Is it right to say that?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, what we do know is that God had in mind that we should be “holy and blameless before him in love”, Eph 1: 4. Now, man in innocence is not holy; he is not apart from sin. I could not say too much about the incoming of sin save that it served in God’s ways, not necessarily in His purposes, but in His ways it served to bring into relief His love, but also His holiness and His righteousness and His goodness, His mercy, His grace, His patience, His kindness, all of these attributes in ways which they could never have been known otherwise. But His purpose is that He chose us in Christ “before the world’s foundation”; so that is before any of this ever happened, and He thought of us in terms “that we should be holy and blameless before him in love”. That is what He had in mind and sin, if you like, the fall of man, created the backdrop against which He could demonstrate what was truly in His heart. As I say, I think it would form part of His ways, but His purposes were further back. Is that suitable, would you say?"
+     "text": [
+      "Well, what we do know is that God had in mind that we should be “holy and blameless before him in love”, Eph 1: 4. Now, man in innocence is not holy; he is not apart from sin. I could not say too much about the incoming of sin save that it served in God’s ways, not necessarily in His purposes, but in His ways it served to bring into relief His love, but also His holiness and His righteousness and His goodness, His mercy, His grace, His patience, His kindness, all of these attributes in ways which they could never have been known otherwise. But His purpose is that He chose us in Christ “before the world’s foundation”; so that is before any of this ever happened, and He thought of us in terms “that we should be holy and blameless before him in love”. That is what He had in mind and sin, if you like, the fall of man, created the backdrop against which He could demonstrate what was truly in His heart. As I say, I think it would form part of His ways, but His purposes were further back. Is that suitable, would you say?"
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "God had Christ in mind before Adam: we must get that order correct. That is the kind of man that God patterned His whole universe on; so anything that happened in the way of man’s failure is not the primary thing; I think that you are right in what you are saying. The prime thing is man patterned after Christ. That is what God always had in mind from the very beginning."
+     "text": [
+      "God had Christ in mind before Adam: we must get that order correct. That is the kind of man that God patterned His whole universe on; so anything that happened in the way of man’s failure is not the primary thing; I think that you are right in what you are saying. The prime thing is man patterned after Christ. That is what God always had in mind from the very beginning."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "That is why it is stressed that Christ is “firstborn of all creation”, Col 1: 15. He is not Himself created, but He gives character to all that is beautiful in the mind of God in relation to His creature."
+     "text": [
+      "That is why it is stressed that Christ is “firstborn of all creation”, Col 1: 15. He is not Himself created, but He gives character to all that is beautiful in the mind of God in relation to His creature."
+     ]
     },
     {
-     "text": "JCG The whole of Genesis 1 is illustrative of the mind of God, what He was about to do, and the seven days really looks on to the whole period of time in which He worked out everything according to the pattern of Christ, do you think? We have spoken about the two lights, Christ and the assembly, but then the whole area in which God has operated brings out all that He had in mind for man through Christ. It is an illustration. For example, we can now see that the separating of light from darkness involved the cross, and the great matter of dry land appearing brings us into resurrection ground and new life. These are all suggested in the chapter, are they not?"
+     "speaker": "JCG",
+     "text": [
+      "The whole of Genesis 1 is illustrative of the mind of God, what He was about to do, and the seven days really looks on to the whole period of time in which He worked out everything according to the pattern of Christ, do you think? We have spoken about the two lights, Christ and the assembly, but then the whole area in which God has operated brings out all that He had in mind for man through Christ. It is an illustration. For example, we can now see that the separating of light from darkness involved the cross, and the great matter of dry land appearing brings us into resurrection ground and new life. These are all suggested in the chapter, are they not?"
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Yes, it has been said, as you know, that that starting point in Genesis is really an index to the spiritual world. It is like looking at the front page of a book and you see all the headings, and then when you read the book, you see all the detail. I think what has been said is important. God is not taken aback by sin and had to bring in Christ as an antidote; He first had Christ in mind."
+     "text": [
+      "Yes, it has been said, as you know, that that starting point in Genesis is really an index to the spiritual world. It is like looking at the front page of a book and you see all the headings, and then when you read the book, you see all the detail. I think what has been said is important. God is not taken aback by sin and had to bring in Christ as an antidote; He first had Christ in mind."
+     ]
     },
     {
      "speaker": "AMB",
-     "text": "Genesis 1, and indeed the rest of the Bible, is recovery because actually sin comes in as soon as Genesis begins. God did not make the earth “waste and empty”, Gen 1: 2. That was a result of the operation of sin which He permitted."
-    },
-    {
-     "text": "Evil’s challenge, long permitted -"
-    },
-    {
-     "text": "Met by Thy supremacy -"
-    },
-    {
-     "text": "So the incoming of evil brought out the supremacy of God in every department."
+     "text": [
+      "Genesis 1, and indeed the rest of the Bible, is recovery because actually sin comes in as soon as Genesis begins. God did not make the earth “waste and empty”, Gen 1: 2. That was a result of the operation of sin which He permitted.",
+      "Evil’s challenge, long permitted -",
+      "Met by Thy supremacy -",
+      "So the incoming of evil brought out the supremacy of God in every department."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, that is a good note to close on. All I wanted to say in relation to 1 Corinthians 11 is that God is supreme, “Christ’s head God”, and the observation of that order of the man and the woman and Christ and God is a recognition of God’s supremacy. That again is something that the world has lost sight of, but it will be acknowledged - “every knee should bow … and every tongue confess that Jesus Christ is Lord to God the Father’s glory”, Phil 2: 10, 11."
+     "text": [
+      "Well, that is a good note to close on. All I wanted to say in relation to 1 Corinthians 11 is that God is supreme, “Christ’s head God”, and the observation of that order of the man and the woman and Christ and God is a recognition of God’s supremacy. That again is something that the world has lost sight of, but it will be acknowledged - “every knee should bow … and every tongue confess that Jesus Christ is Lord to God the Father’s glory”, Phil 2: 10, 11."
+     ]
     }
    ]
   },
@@ -580,5 +735,19 @@
  "back_matter": [
   "Edited and Published by David Brown and Andrew Burr",
   "81 Roxburgh Road. West Norwood. London. SE27 OLE"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "DIVINE ORDER",
+   "kind": "default_place",
+   "detail": "Grangemouth given to 8 names (\"Grangemouth unless otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "DIVINE ORDER",
+   "kind": "speaker_not_in_key",
+   "detail": "JCG (6 paragraphs)"
+  }
  ]
 }

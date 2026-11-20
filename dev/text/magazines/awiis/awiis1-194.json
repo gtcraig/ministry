@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,36 +26,40 @@
    "place": "LONDON",
    "date": "22 May 1988",
    "speakers": [
-    "J.R.C.",
-    "J.C.E.",
-    "H.A.H.",
-    "B.W.W.",
-    "E.O.",
-    "D.A.B.",
-    "J.R.G.",
-    "E.P.",
-    "D.J.W.",
-    "J.S.G.",
-    "J.A.B.",
-    "H.J.T.",
-    "R.W.F.",
-    "B.C.",
-    "G.A.P.",
-    "D.R.G.M.",
-    "P.J.W."
+    "JRC",
+    "JCE",
+    "HAH",
+    "BWW",
+    "EO",
+    "DAB",
+    "JRG",
+    "EP",
+    "DJW",
+    "JSG",
+    "JAB",
+    "HJT",
+    "RWF",
+    "BC",
+    "GAP",
+    "WMcC",
+    "DRGM",
+    "PJW"
    ],
    "initials": [
     {
-     "initials": "ADAB",
-     "name": "(All local unless otherwise stated) D.A.Burr"
+     "initials": "DAB",
+     "name": "D.A.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "JAB",
-     "name": "J.A.Burnett"
+     "name": "J.A.Burnett",
+     "place": "LONDON"
     },
     {
      "initials": "BC",
-     "name": "B.Clark"
+     "name": "B.Clark",
+     "place": "LONDON"
     },
     {
      "initials": "JRC",
@@ -64,19 +68,23 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "LONDON"
     },
     {
      "initials": "RWF",
-     "name": "R.W.Flowerdew"
+     "name": "R.W.Flowerdew",
+     "place": "LONDON"
     },
     {
      "initials": "JSG",
-     "name": "J.S.Gray"
+     "name": "J.S.Gray",
+     "place": "LONDON"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "DRGM",
@@ -84,29 +92,34 @@
      "place": "Canterbury"
     },
     {
-     "initials": "WM",
+     "initials": "WMcC",
      "name": "W.McClean",
      "place": "Grimsby"
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "LONDON"
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "GAP",
-     "name": "G.A.Palmer"
+     "name": "G.A.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "HJT",
-     "name": "H.J.Taylor"
+     "name": "H.J.Taylor",
+     "place": "LONDON"
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "LONDON"
     },
     {
      "initials": "DJW",
@@ -117,428 +130,642 @@
      "initials": "PJW",
      "name": "P.J.Walkinshaw",
      "place": "Gillingham"
+    },
+    {
+     "initials": "JRG",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "D.A.Burr; J.A.Burnett; B.Clark; J.R.Cumming, Edinburgh; J.C.Evershed; R.W.Flowerdew; J.S.Gray; H.A.Hutson; D.R.G.Morris, Canterbury; W.McClean, Grimsby; E.Oliver; E.Palmer; G.A.Palmer; H.J.Taylor; B.W.Ward; D.J.Wright, Redbridge; P.J.Walkinshaw, Gillingham"
    ],
    "paragraphs": [
     {
-     "speaker": "J.R.C.",
-     "text": "It may be, beloved brethren, that we will get help if we enquire into this portion of the Scriptures, an outstanding chapter in the Old Testament, quite remarkable for the day and the then extant state of things. It finishes up, where we read: \"they saw God, and ate and drank\". We were reminded as we were together this morning as to the ascending line. The Supper would remind us of the One who descended, and also of the One who has ascended, in that position of supremacy and glory. The hymn we sang together reminds us that redemption's work is complete. There are remarkable references here to the blood. There is something very dignified about all that proceeds in these verses which would give us an uplift in our view. This is necessary for us at times, and I thought that, if we can get some impression as to it, it would leave us also with a certain amount of responsibility. I suppose the truth as it comes to us, even in its experimental way, should always have an effect on us, and therefore, if we experience something of what it is to be in that area which is above everything else, I think it should work out in a certain way as to how we comport ourselves. That is why I read in Colossians."
+     "speaker": "JRC",
+     "text": [
+      "It may be, beloved brethren, that we will get help if we enquire into this portion of the Scriptures, an outstanding chapter in the Old Testament, quite remarkable for the day and the then extant state of things. It finishes up, where we read: \"they saw God, and ate and drank\". We were reminded as we were together this morning as to the ascending line. The Supper would remind us of the One who descended, and also of the One who has ascended, in that position of supremacy and glory. The hymn we sang together reminds us that redemption's work is complete. There are remarkable references here to the blood. There is something very dignified about all that proceeds in these verses which would give us an uplift in our view. This is necessary for us at times, and I thought that, if we can get some impression as to it, it would leave us also with a certain amount of responsibility. I suppose the truth as it comes to us, even in its experimental way, should always have an effect on us, and therefore, if we experience something of what it is to be in that area which is above everything else, I think it should work out in a certain way as to how we comport ourselves. That is why I read in Colossians."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "We know well that privilege brings its own responsibility. We would like you open up more the detail of things."
+     "speaker": "JCE",
+     "text": [
+      "We know well that privilege brings its own responsibility. We would like you open up more the detail of things."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Well, it is, as I said, a very uplifting chapter. One thing that is prominent in it is the distinctiveness of Moses. In verse 2 it says \"And let Moses alone come near Jehovah\". That reflects the place that Christ has in regard to all arrangement of divine things, and that cannot in any way be usurped: it belongs to Him, distinctively so. I think it does us well always to be affected by that. So that even in that dignified area there is the sense of being brought in. The Father's love, the love of God, would affect us, so that we would be embraced into these things. There is nothing disturbing, there is freshness, there is vitality, it is new, and I think the Supper would always give us some touch of freshness."
+     "speaker": "JRC",
+     "text": [
+      "Well, it is, as I said, a very uplifting chapter. One thing that is prominent in it is the distinctiveness of Moses. In verse 2 it says \"And let Moses alone come near Jehovah\". That reflects the place that Christ has in regard to all arrangement of divine things, and that cannot in any way be usurped: it belongs to Him, distinctively so. I think it does us well always to be affected by that. So that even in that dignified area there is the sense of being brought in. The Father's love, the love of God, would affect us, so that we would be embraced into these things. There is nothing disturbing, there is freshness, there is vitality, it is new, and I think the Supper would always give us some touch of freshness."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "I am interested in what you say as to the Supper, and the way the Lord descended. We began this morning with 'We see Thee, Lord of glory, descending from above' (hymn No.188), but I think very soon we reached the ascending line and the sense that He comes from a glorious place."
+     "speaker": "HAH",
+     "text": [
+      "I am interested in what you say as to the Supper, and the way the Lord descended. We began this morning with 'We see Thee, Lord of glory, descending from above' (hymn No.188), but I think very soon we reached the ascending line and the sense that He comes from a glorious place."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is fine. That confirms what we are saying. I think the Lord would has been to that point. There is what we are detained on in the Supper itself, which is right. It would beget fresh affections and responsiveness in our hearts but I think the Lord would hasten to this ascending line, to accustom us maybe a little more to what will be our eternal portion. I suppose the Supper and what follows is a foretaste. So we want to be at home in what is for God. It should not be strange to us."
+     "speaker": "JRC",
+     "text": [
+      "That is fine. That confirms what we are saying. I think the Lord would has been to that point. There is what we are detained on in the Supper itself, which is right. It would beget fresh affections and responsiveness in our hearts but I think the Lord would hasten to this ascending line, to accustom us maybe a little more to what will be our eternal portion. I suppose the Supper and what follows is a foretaste. So we want to be at home in what is for God. It should not be strange to us."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "The Holy Spirit is always ready to help us on this - I was going to say quick movement - ready movement."
+     "speaker": "BWW",
+     "text": [
+      "The Holy Spirit is always ready to help us on this - I was going to say quick movement - ready movement."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes."
+     "speaker": "JRC",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "The direction is upward, Is It not - \"Whither the tribes go up\" (Ps 122: 4), and Mr Darby's hymn, 'That way is upward still' (No.12) . That is the direction is it not?"
+     "speaker": "EO",
+     "text": [
+      "The direction is upward, Is It not - \"Whither the tribes go up\" (Ps 122: 4), and Mr Darby's hymn, 'That way is upward still' (No.12) . That is the direction is it not?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes, that is fine. Oft-times maybe we are a little detained by natural things - families, and all that kind of thing - but I think the Lord would help us to see that this is what is before Him - the presence of God and, as you say, that is high. Nonetheless, I was impressed this morning with the scripture: \"he ... has taken us into favour in the Beloved\", Eph 1: 6. There is nothing remaining to be done."
+     "speaker": "JRC",
+     "text": [
+      "Yes, that is fine. Oft-times maybe we are a little detained by natural things - families, and all that kind of thing - but I think the Lord would help us to see that this is what is before Him - the presence of God and, as you say, that is high. Nonetheless, I was impressed this morning with the scripture: \"he ... has taken us into favour in the Beloved\", Eph 1: 6. There is nothing remaining to be done."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "When the Lord says \"I ascend\" (John 20: 16), is that in a sense characteristic? He cannot go higher than He has. Moses was really living on the mountain in these chapters, was he not? He comes down to see to various matters, but there are repeated references to his going up. Do you think that as the Lord comes amongst us He would come with that word? Is that characteristic of His entry among His own - \"I ascend\"?"
+     "speaker": "DAB",
+     "text": [
+      "When the Lord says \"I ascend\" (John 20: 16), is that in a sense characteristic? He cannot go higher than He has. Moses was really living on the mountain in these chapters, was he not? He comes down to see to various matters, but there are repeated references to his going up. Do you think that as the Lord comes amongst us He would come with that word? Is that characteristic of His entry among His own - \"I ascend\"?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is good; so we want, may I say reverently, to accustom ourselves to this line of ascension so that we experience what is eternal. We want to be there. So can we touch that in the Spirit?"
+     "speaker": "JRC",
+     "text": [
+      "That is good; so we want, may I say reverently, to accustom ourselves to this line of ascension so that we experience what is eternal. We want to be there. So can we touch that in the Spirit?"
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "I have always been interested in the fact that the end of the historical books, the end of 2 Chronicles, ends up with if any one is concerned for Jehovah, \"let him go up\", chap 36: 23. In other words, God's purpose never changes, although all kinds of history comes out in us, and there was something here that God could recall the people to, and did recall them to, because they had said they would keep this law. All that would happen was within God's foreknowledge, but nevertheless He was able to bring them back to that. I think we have in our histories, as assemblies and as individuals, points to which God can take us back."
+     "speaker": "JCE",
+     "text": [
+      "I have always been interested in the fact that the end of the historical books, the end of 2 Chronicles, ends up with if any one is concerned for Jehovah, \"let him go up\", chap 36: 23. In other words, God's purpose never changes, although all kinds of history comes out in us, and there was something here that God could recall the people to, and did recall them to, because they had said they would keep this law. All that would happen was within God's foreknowledge, but nevertheless He was able to bring them back to that. I think we have in our histories, as assemblies and as individuals, points to which God can take us back."
+     ]
     },
     {
-     "speaker": "J.R.G.",
-     "text": "I think that is fine, so that is spiritual experience, and learning God Himself, is it not? These high-water marks should remain with us. As you say, we can be recalled to them. It is a fine thing to be able to recall brethren to what they once enjoyed. May be that is more Colossians, but at the same time we want to have these matters in our affections and God will help us."
+     "speaker": "JRG",
+     "text": [
+      "I think that is fine, so that is spiritual experience, and learning God Himself, is it not? These high-water marks should remain with us. As you say, we can be recalled to them. It is a fine thing to be able to recall brethren to what they once enjoyed. May be that is more Colossians, but at the same time we want to have these matters in our affections and God will help us."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I like the idea of a high-water mark. God says \"I remember for thee\" (Jer 2: 2). I suppose He remembered this chapter, when they went up, young and old, to be with Him where He was accustomed to dwell."
+     "speaker": "DAB",
+     "text": [
+      "I like the idea of a high-water mark. God says \"I remember for thee\" (Jer 2: 2). I suppose He remembered this chapter, when they went up, young and old, to be with Him where He was accustomed to dwell."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is good; so we do not want to think about spiritual experiences being extraordinary. Let us see what the Spirit would show us. That is the desire of divine Persons to bring us into what is spiritual, and it is real, not extraordinary. Maybe it is more extraordinary for us to come back into situations that are natural. I do not know if we have reached that; at least, I have not."
+     "speaker": "JRC",
+     "text": [
+      "That is good; so we do not want to think about spiritual experiences being extraordinary. Let us see what the Spirit would show us. That is the desire of divine Persons to bring us into what is spiritual, and it is real, not extraordinary. Maybe it is more extraordinary for us to come back into situations that are natural. I do not know if we have reached that; at least, I have not."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "In the day of recovery, in Nehemiah, when the choirs went round the wall, it says \"they went up by the stairs of the city of David\", chap 12: 37. They went up; and I think that we had that experience where we were, of going up, so to speak step by step. Do you think that the reality of the experience is often found in the hymns that we sing? We go up, as it were, in steps of praise until we find ourselves together in the presence of God."
+     "speaker": "EP",
+     "text": [
+      "In the day of recovery, in Nehemiah, when the choirs went round the wall, it says \"they went up by the stairs of the city of David\", chap 12: 37. They went up; and I think that we had that experience where we were, of going up, so to speak step by step. Do you think that the reality of the experience is often found in the hymns that we sing? We go up, as it were, in steps of praise until we find ourselves together in the presence of God."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is just it. I agree with what you have brought forward, that the hymns are remarkable compositions of spiritual progress, so we should be thankful for them. Maybe we should use the hymnbook more than we do. It is fine when you come into another place for a little time, because sometimes you get a touch from a hymn that you have not sung for a very long time. I think we get into a kind of groove, using the same hymns. There is a wealth in the hymnbook."
+     "speaker": "JRC",
+     "text": [
+      "That is just it. I agree with what you have brought forward, that the hymns are remarkable compositions of spiritual progress, so we should be thankful for them. Maybe we should use the hymnbook more than we do. It is fine when you come into another place for a little time, because sometimes you get a touch from a hymn that you have not sung for a very long time. I think we get into a kind of groove, using the same hymns. There is a wealth in the hymnbook."
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "According to Ephesians His ascending up was that He might fill all things. I wondered if this ascending line for us would be in a worshipful way, as having hearts filled with His greatness."
+     "speaker": "DJW",
+     "text": [
+      "According to Ephesians His ascending up was that He might fill all things. I wondered if this ascending line for us would be in a worshipful way, as having hearts filled with His greatness."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "I am sure that is right. That is essential; the pre-eminence of Christ is something by which we are always to be affected. In a way, I think we could say (and I am sure it is right) that the Father has no one else to speak about than Jesus, and if we try to bring anything else into this area we are not in keeping with the dignity of it. I am not speaking negatively in that but I think we want to say what is factual. If we try to impose anything that is not in keeping with Christ, it has no place here. It is an attractive place. What is of Christ is all released. I think the idea in verse 11 epitomises all that I have in mind: \"And on the nobles of the children of Israel he laid not his hand\". What a favour to be in the presence of God!"
+     "speaker": "JRC",
+     "text": [
+      "I am sure that is right. That is essential; the pre-eminence of Christ is something by which we are always to be affected. In a way, I think we could say (and I am sure it is right) that the Father has no one else to speak about than Jesus, and if we try to bring anything else into this area we are not in keeping with the dignity of it. I am not speaking negatively in that but I think we want to say what is factual. If we try to impose anything that is not in keeping with Christ, it has no place here. It is an attractive place. What is of Christ is all released. I think the idea in verse 11 epitomises all that I have in mind: \"And on the nobles of the children of Israel he laid not his hand\". What a favour to be in the presence of God!"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Your thought as to the personal distinction of Jesus is borne out in the way that the Lord twice says in His address to the Father in the hearing of His own in chapter 17 of John , \"I come to thee\" (vv 11, 13). Do you think, in a way, what the Lord is personally in that connection goes before chapter 20, when He has in mind bringing others with Him?"
+     "speaker": "JSG",
+     "text": [
+      "Your thought as to the personal distinction of Jesus is borne out in the way that the Lord twice says in His address to the Father in the hearing of His own in chapter 17 of John , \"I come to thee\" (vv 11, 13). Do you think, in a way, what the Lord is personally in that connection goes before chapter 20, when He has in mind bringing others with Him?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes, I am sure that is so. The place that Christ occupies in the affections of the Father is unique. He is the Beloved, and through grace and through the working of redemption, that place is shared with us. But what we want to come to is the love that that generates - \"that the love with which thou hast loved me may be in them, and I in them\", John 17: 26. What we want to be affected by is that we are loved into this position. We do not qualify for it. We get into this through affection for Christ, and knowing our place in His affections. So you can think of Him speaking to the disciples at that time; and all that the Lord was pointing their affections and their view to was what belonged to them in relation to divine affections."
+     "speaker": "JRC",
+     "text": [
+      "Yes, I am sure that is so. The place that Christ occupies in the affections of the Father is unique. He is the Beloved, and through grace and through the working of redemption, that place is shared with us. But what we want to come to is the love that that generates - \"that the love with which thou hast loved me may be in them, and I in them\", John 17: 26. What we want to be affected by is that we are loved into this position. We do not qualify for it. We get into this through affection for Christ, and knowing our place in His affections. So you can think of Him speaking to the disciples at that time; and all that the Lord was pointing their affections and their view to was what belonged to them in relation to divine affections."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Would the going up be in view of what is final in the coming down, in Revelation? It says \"the holy city, new Jerusalem, coming down out of heaven\", chap 21: 2."
+     "speaker": "EO",
+     "text": [
+      "Would the going up be in view of what is final in the coming down, in Revelation? It says \"the holy city, new Jerusalem, coming down out of heaven\", chap 21: 2."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes; may we call it the intimate side of things, which is very precious? That remains; but what will dominate in the world to come will be the display that that love has been enjoyed. \"They ... shall know\" (Philadelphia) \"that I have loved thee\", Rev 3: 9. The world will realise, even at that point, that Christ had found an answer to His full affections in what was particularly for Himself; but it will have its own demonstration, I think, to the world. Now these twelve pillars: I think this speaks of the formation which will go right through to the eternal day. There will be no change in this; the twelve pillars are established. A pillar is something that is distinctive, and it is established here, as the word says: \"Moses ... built an altar ... and twelve pillars\". It goes on to speak about \"according to the twelve tribes of Israel\". We were reminded yesterday of the need of constancy with us to keep whole thoughts before us; what is eternal is not fragmentary. We come into the realisation of what God has set Himself for and what is established before Him now in Christ."
+     "speaker": "JRC",
+     "text": [
+      "Yes; may we call it the intimate side of things, which is very precious? That remains; but what will dominate in the world to come will be the display that that love has been enjoyed. \"They ... shall know\" (Philadelphia) \"that I have loved thee\", Rev 3: 9. The world will realise, even at that point, that Christ had found an answer to His full affections in what was particularly for Himself; but it will have its own demonstration, I think, to the world. Now these twelve pillars: I think this speaks of the formation which will go right through to the eternal day. There will be no change in this; the twelve pillars are established. A pillar is something that is distinctive, and it is established here, as the word says: \"Moses ... built an altar ... and twelve pillars\". It goes on to speak about \"according to the twelve tribes of Israel\". We were reminded yesterday of the need of constancy with us to keep whole thoughts before us; what is eternal is not fragmentary. We come into the realisation of what God has set Himself for and what is established before Him now in Christ."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "It is open to all, is it not? The youths offered up burnt-offerings and peace-offerings. It is the young and the old together in what is for God, is it not?"
+     "speaker": "JAB",
+     "text": [
+      "It is open to all, is it not? The youths offered up burnt-offerings and peace-offerings. It is the young and the old together in what is for God, is it not?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes; that is a good word for us. There are young brothers here now, but it is not for you particularly; it is the idea of what is fresh and vital which can be seen in anybody, and is seen in persons who are ninety years old. If you are nineteen it is a word for you as well. Are you finding your part in what is expressed Godward? Does the love of God so come into your soul that you want to be responsive to it? We are saying these things encouragingly, not on the line of demand."
+     "speaker": "JRC",
+     "text": [
+      "Yes; that is a good word for us. There are young brothers here now, but it is not for you particularly; it is the idea of what is fresh and vital which can be seen in anybody, and is seen in persons who are ninety years old. If you are nineteen it is a word for you as well. Are you finding your part in what is expressed Godward? Does the love of God so come into your soul that you want to be responsive to it? We are saying these things encouragingly, not on the line of demand."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "It is striking, is it not, that it does not say that he sent them to do it, but he sent them and they did it, as though they knew what was involved and what they were to do, and they were quite able to undertake this priestly service."
+     "speaker": "HAH",
+     "text": [
+      "It is striking, is it not, that it does not say that he sent them to do it, but he sent them and they did it, as though they knew what was involved and what they were to do, and they were quite able to undertake this priestly service."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes, there is something spontaneous in that, is there not? I think, beloved brethren, that we want to see in all our places persons just proceeding normally; not as prodigies which is how the world works, but just normal heavenly glory; there is nothing finer than this area, and the youths are committed to it. We would encourage the young persons here in this; and the sisters are not out of it. There is what is expressed, and then there is the state that lies behind it, which the sisters come into."
+     "speaker": "JRC",
+     "text": [
+      "Yes, there is something spontaneous in that, is there not? I think, beloved brethren, that we want to see in all our places persons just proceeding normally; not as prodigies which is how the world works, but just normal heavenly glory; there is nothing finer than this area, and the youths are committed to it. We would encourage the young persons here in this; and the sisters are not out of it. There is what is expressed, and then there is the state that lies behind it, which the sisters come into."
+     ]
     },
     {
-     "speaker": "H.J.T.",
-     "text": "This spontaneous expression is not the sin-offering; it is the burnt-offering and the peace-offering. What comes out spontaneously is very positive, is it not?"
+     "speaker": "HJT",
+     "text": [
+      "This spontaneous expression is not the sin-offering; it is the burnt-offering and the peace-offering. What comes out spontaneously is very positive, is it not?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is good. What are our hands and hearts full with if it is not the perfections of Jesus?"
+     "speaker": "JRC",
+     "text": [
+      "That is good. What are our hands and hearts full with if it is not the perfections of Jesus?"
+     ]
     },
     {
-     "speaker": "H.J.T.",
-     "text": "Just before where we read in Colossians it is \"Christ is everything, and in all\"."
+     "speaker": "HJT",
+     "text": [
+      "Just before where we read in Colossians it is \"Christ is everything, and in all\"."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes, that is it. So we come to realise that the whole area here - we have to use words to describe it, and yet words cannot describe it, I hope the brethren follow what I am at - it is a whole area which all speaks of Christ, and that is for God the Father's pleasure."
+     "speaker": "JRC",
+     "text": [
+      "Yes, that is it. So we come to realise that the whole area here - we have to use words to describe it, and yet words cannot describe it, I hope the brethren follow what I am at - it is a whole area which all speaks of Christ, and that is for God the Father's pleasure."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The promise to the overcomer in Philadelphia is \"him will I make a pillar in the temple of my God, and he shall go no more at all out\", Rev 3: 13. I had thought of the idea of the pillar there as something conspicuous, but I wonder if it is more the idea of having an established place there, which is open to any of us."
+     "speaker": "DAB",
+     "text": [
+      "The promise to the overcomer in Philadelphia is \"him will I make a pillar in the temple of my God, and he shall go no more at all out\", Rev 3: 13. I had thought of the idea of the pillar there as something conspicuous, but I wonder if it is more the idea of having an established place there, which is open to any of us."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is good. It speaks in Galatians of those who are conspicuous as pillars amongst the brethren, does it not? chap 2: 6, 9. That is all right, but I think what you are saying is right as to something that is established. It is of the character of things that is going to be permanent before God."
+     "speaker": "JRC",
+     "text": [
+      "That is good. It speaks in Galatians of those who are conspicuous as pillars amongst the brethren, does it not? chap 2: 6, 9. That is all right, but I think what you are saying is right as to something that is established. It is of the character of things that is going to be permanent before God."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Is it good for those of us that are younger to be assured as to what is established? The altar is under the mountain. There is that which is laid as a firm basis in the death of Christ, but then there are the pillars, what is established in the saints. Is it on that basis that there can be normality and spontaneity?"
+     "speaker": "RWF",
+     "text": [
+      "Is it good for those of us that are younger to be assured as to what is established? The altar is under the mountain. There is that which is laid as a firm basis in the death of Christ, but then there are the pillars, what is established in the saints. Is it on that basis that there can be normality and spontaneity?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "I think that is helpful. There are different generations here today; there are those who are older - and that calls for respect by all of us - and then we are all in some gradation behind that. What are we encouraging the younger generation in? I think it is on us, on you, and those who are younger, to think about the young people here in their tender teens, as to what they are being encouraged into. I am not saying that is for London; that is for Edinburgh as much as any place. What it is to be able to help the young people in some degree to see what is really the first thing in their lives, and it is in relation to the things of God."
+     "speaker": "JRC",
+     "text": [
+      "I think that is helpful. There are different generations here today; there are those who are older - and that calls for respect by all of us - and then we are all in some gradation behind that. What are we encouraging the younger generation in? I think it is on us, on you, and those who are younger, to think about the young people here in their tender teens, as to what they are being encouraged into. I am not saying that is for London; that is for Edinburgh as much as any place. What it is to be able to help the young people in some degree to see what is really the first thing in their lives, and it is in relation to the things of God."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I suppose it would be right to say that the witness of the blood would be witness, among other things, to the unreserved committal of Christ, and it is interesting here, is it not that Moses took half of the blood and sprinkled it on the altar, but then he also took the blood and sprinkled it on the people; on the book too, but on the people. Do you think that that great matter of committal is extended, both in committal to what God has said and committal in relation to the persons who stand related to that God?"
+     "speaker": "EP",
+     "text": [
+      "I suppose it would be right to say that the witness of the blood would be witness, among other things, to the unreserved committal of Christ, and it is interesting here, is it not that Moses took half of the blood and sprinkled it on the altar, but then he also took the blood and sprinkled it on the people; on the book too, but on the people. Do you think that that great matter of committal is extended, both in committal to what God has said and committal in relation to the persons who stand related to that God?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is fine. We come into the enjoyment of what is established here, and this very assuring matter is put before us, that there is a copiousness of supply of blood, that every single detail has been met. There is nothing that has not been met righteously."
+     "speaker": "JRC",
+     "text": [
+      "That is fine. We come into the enjoyment of what is established here, and this very assuring matter is put before us, that there is a copiousness of supply of blood, that every single detail has been met. There is nothing that has not been met righteously."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Does the bason raise the question whether I have a large appreciation of it?"
+     "speaker": "DAB",
+     "text": [
+      "Does the bason raise the question whether I have a large appreciation of it?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is it. Do you not think that that is a thing that we can grow in, as to how much we appreciate that?"
+     "speaker": "JRC",
+     "text": [
+      "That is it. Do you not think that that is a thing that we can grow in, as to how much we appreciate that?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "We can never get the fulness of it. Only half was put in the basons."
+     "speaker": "DAB",
+     "text": [
+      "We can never get the fulness of it. Only half was put in the basons."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is right; there is something beyond it, is there not? What is stressed here is that there is a supply that is absolutely adequate for everything in relation to God righteously. That should help us, younger people, and all of us. Maybe at times we get doubts in our minds. The enemy can work below the surface in things, but what we always want to be assured of is that everything that God has established can never be overthrown. We find our joy in that."
+     "speaker": "JRC",
+     "text": [
+      "That is right; there is something beyond it, is there not? What is stressed here is that there is a supply that is absolutely adequate for everything in relation to God righteously. That should help us, younger people, and all of us. Maybe at times we get doubts in our minds. The enemy can work below the surface in things, but what we always want to be assured of is that everything that God has established can never be overthrown. We find our joy in that."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Do you think that we are often surprised at the quality that there is in younger persons? They brought bullocks here."
+     "speaker": "JCE",
+     "text": [
+      "Do you think that we are often surprised at the quality that there is in younger persons? They brought bullocks here."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes. We could not exactly say that this is all for young people. Youths are referred to here, but that would express something of energy, and as I have said, the young people should be able to see energy in those who are older - freshness, vitality - and there is a touch of maturity in the fact that it is a bullock. Now it works both ways. We cannot leave all the work to be done by the young people, and the young people cannot leave all the work to be done by the older people. It is a working together of what is energetic in regard to the things of God."
+     "speaker": "JRC",
+     "text": [
+      "Yes. We could not exactly say that this is all for young people. Youths are referred to here, but that would express something of energy, and as I have said, the young people should be able to see energy in those who are older - freshness, vitality - and there is a touch of maturity in the fact that it is a bullock. Now it works both ways. We cannot leave all the work to be done by the young people, and the young people cannot leave all the work to be done by the older people. It is a working together of what is energetic in regard to the things of God."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Does the spontaneity of which you have spoken come into this matter of encouragement? An impression comes, and if it is then in expression spontaneously, and maybe briefly, is that not likely to be helpful to some who are younger?"
+     "speaker": "BWW",
+     "text": [
+      "Does the spontaneity of which you have spoken come into this matter of encouragement? An impression comes, and if it is then in expression spontaneously, and maybe briefly, is that not likely to be helpful to some who are younger?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "I am sure that is right. Those of us who are a bit older - I think you would agree - know the language and know the terms. I am not decrying that, but it is intensely encouraging when a younger person gives a hymn out, says a few words to the Lord or to God; it is not phraseology, it is something \"composed touching the king\", Ps 45: 1. Would that be right?"
+     "speaker": "JRC",
+     "text": [
+      "I am sure that is right. Those of us who are a bit older - I think you would agree - know the language and know the terms. I am not decrying that, but it is intensely encouraging when a younger person gives a hymn out, says a few words to the Lord or to God; it is not phraseology, it is something \"composed touching the king\", Ps 45: 1. Would that be right?"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Yes, and that sort of thing is stimulating to all of us, and helps things forward."
+     "speaker": "BWW",
+     "text": [
+      "Yes, and that sort of thing is stimulating to all of us, and helps things forward."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Exactly. Someone might say, Well, I cannot say very much. What you can contribute is in relation to the bullock. It is something fine that is presented before God here no thought of any measure that is not adequate. The whole thing, under the touch of Christ, becomes just as God would have it. I think it would be right to say that."
+     "speaker": "JRC",
+     "text": [
+      "Exactly. Someone might say, Well, I cannot say very much. What you can contribute is in relation to the bullock. It is something fine that is presented before God here no thought of any measure that is not adequate. The whole thing, under the touch of Christ, becomes just as God would have it. I think it would be right to say that."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Some of the brethren remember Mr Chesterfield. He gave a word one Lord's day morning on just the matter you have spoken about, that older brethren have the experience, they know the terms, but then there are the living creatures in Revelation which would relate to the vitality and the spontaneity of which you are speaking, and it might find expression through young persons."
+     "speaker": "HAH",
+     "text": [
+      "Some of the brethren remember Mr Chesterfield. He gave a word one Lord's day morning on just the matter you have spoken about, that older brethren have the experience, they know the terms, but then there are the living creatures in Revelation which would relate to the vitality and the spontaneity of which you are speaking, and it might find expression through young persons."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is good. We need to be careful of course; I know what you mean. We do not want the young people to think the old people are all dead, that there is life only in youth."
+     "speaker": "JRC",
+     "text": [
+      "That is good. We need to be careful of course; I know what you mean. We do not want the young people to think the old people are all dead, that there is life only in youth."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Of course, his thought was that it should be in the older ones too."
+     "speaker": "HAH",
+     "text": [
+      "Of course, his thought was that it should be in the older ones too."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Exactly. That is what we want to see. I think the Holy Spirit would help us in this matter. It is on the basis that our hearts are affected by the Lord Jesus and how He presents Himself. This chapter speaks of that, and there is a willingness here that enters into things which, to go back to the word we used, must have been a high-water mark in this chapter, indeed in the whole of the Old Testament. The willingness expressed here was very pleasing for God."
+     "speaker": "JRC",
+     "text": [
+      "Exactly. That is what we want to see. I think the Holy Spirit would help us in this matter. It is on the basis that our hearts are affected by the Lord Jesus and how He presents Himself. This chapter speaks of that, and there is a willingness here that enters into things which, to go back to the word we used, must have been a high-water mark in this chapter, indeed in the whole of the Old Testament. The willingness expressed here was very pleasing for God."
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "One of the first things that we appreciate in our souls is the value of the blood, is it not? We certainly would not see God apart from the blood, would we?"
+     "speaker": "DJW",
+     "text": [
+      "One of the first things that we appreciate in our souls is the value of the blood, is it not? We certainly would not see God apart from the blood, would we?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is right."
+     "speaker": "JRC",
+     "text": [
+      "That is right."
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "I wondered whether the Supper is valuable in that way, the cup before us each Lord's day; the youngest of us would have an appreciation of that blood, and spontaneity in response would spring from that."
+     "speaker": "DJW",
+     "text": [
+      "I wondered whether the Supper is valuable in that way, the cup before us each Lord's day; the youngest of us would have an appreciation of that blood, and spontaneity in response would spring from that."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "I am sure that is right; so the Lord says \"Drink ye all of it\", Matt 26: 27. There is some direction there, I think, to get that into you. It is the joy that is all consequent on the fact that the adequacy of the blood has met everything righteously before God. What a standing we have!"
+     "speaker": "JRC",
+     "text": [
+      "I am sure that is right; so the Lord says \"Drink ye all of it\", Matt 26: 27. There is some direction there, I think, to get that into you. It is the joy that is all consequent on the fact that the adequacy of the blood has met everything righteously before God. What a standing we have!"
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Because of the value of the blood there is no reason why everything should not be as clear on our side as it is in the presence of God, according to verse 10."
+     "speaker": "HAH",
+     "text": [
+      "Because of the value of the blood there is no reason why everything should not be as clear on our side as it is in the presence of God, according to verse 10."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That would be right. In fact, it is a consequence that is looked for. We should not think there would be any discrepancy at all in regard to other matters compared to this. We are enjoying this which the presence of God demands. The presence of God demands this kind of basis. How are we going to be heavenly-minded people if we are content to have a lower estimate of things? Let us keep this before us and see how it works out in us."
+     "speaker": "JRC",
+     "text": [
+      "That would be right. In fact, it is a consequence that is looked for. We should not think there would be any discrepancy at all in regard to other matters compared to this. We are enjoying this which the presence of God demands. The presence of God demands this kind of basis. How are we going to be heavenly-minded people if we are content to have a lower estimate of things? Let us keep this before us and see how it works out in us."
+     ]
     },
     {
-     "speaker": "B.C.",
-     "text": "Would the form of heaven be a very high standard? I was thinking of Revelation 21 where there is no need of the sun nor of the moon; the glory of God has enlightened it and the lamp is the Lamb."
+     "speaker": "BC",
+     "text": [
+      "Would the form of heaven be a very high standard? I was thinking of Revelation 21 where there is no need of the sun nor of the moon; the glory of God has enlightened it and the lamp is the Lamb."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes, that is good. The form of heaven: I do not know if we could get a definition of that. After all, what is heaven? I always take refuge in the line of that hymn which says it is heaven where Jesus is. But it is the form of it; I think that is what you are at. It is something we can hardly describe, we can hardly compass in our thoughts. We can call it the area, the sphere if you like, where everything speaks of Christ, and it is heaven because it is the divine dwelling."
+     "speaker": "JRC",
+     "text": [
+      "Yes, that is good. The form of heaven: I do not know if we could get a definition of that. After all, what is heaven? I always take refuge in the line of that hymn which says it is heaven where Jesus is. But it is the form of it; I think that is what you are at. It is something we can hardly describe, we can hardly compass in our thoughts. We can call it the area, the sphere if you like, where everything speaks of Christ, and it is heaven because it is the divine dwelling."
+     ]
     },
     {
-     "speaker": "B.C.",
-     "text": "I was thinking of the remark that He is going to fill all things. Nothing is excluded, is it? He is the place, is He not?"
+     "speaker": "BC",
+     "text": [
+      "I was thinking of the remark that He is going to fill all things. Nothing is excluded, is it? He is the place, is He not?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes, that is right. Therefore it expands in regard to this area what is Godward. This description here, \"and they saw the God of Israel; and there was under his feet as it were work of transparent sapphire\" . I think that is what you were mentioning."
+     "speaker": "JRC",
+     "text": [
+      "Yes, that is right. Therefore it expands in regard to this area what is Godward. This description here, \"and they saw the God of Israel; and there was under his feet as it were work of transparent sapphire\" . I think that is what you were mentioning."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Yes, the \"as it were\" would indicate something of what we were saying earlier, the difficulty of describing it in human language."
+     "speaker": "HAH",
+     "text": [
+      "Yes, the \"as it were\" would indicate something of what we were saying earlier, the difficulty of describing it in human language."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes, and yet there is a suggestion in all this, is there not, that it is absolutely clear, there is no doubt at all."
+     "speaker": "JRC",
+     "text": [
+      "Yes, and yet there is a suggestion in all this, is there not, that it is absolutely clear, there is no doubt at all."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "I was looking at this word \"And on the nobles of the children of Israel he laid not his hand\". A certain dignity is conferred upon them in virtue, not of what they were, but of the One who has undertaken everything in order that there might be this liberty of approach, and partaking in this sphere of response."
+     "speaker": "GAP",
+     "text": [
+      "I was looking at this word \"And on the nobles of the children of Israel he laid not his hand\". A certain dignity is conferred upon them in virtue, not of what they were, but of the One who has undertaken everything in order that there might be this liberty of approach, and partaking in this sphere of response."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is very fine. I suppose sonship would underlie that in our language, the glory of what sonship means to God, the extension of all that is personally in Christ and those He brings with Him. A brother gave out hymn 116 today, and it is a very choice hymn, showing the whole employ of sons is in relation to responsiveness Godward."
+     "speaker": "JRC",
+     "text": [
+      "That is very fine. I suppose sonship would underlie that in our language, the glory of what sonship means to God, the extension of all that is personally in Christ and those He brings with Him. A brother gave out hymn 116 today, and it is a very choice hymn, showing the whole employ of sons is in relation to responsiveness Godward."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "What would you say as to \"they saw God, and ate and drank\"?"
+     "speaker": "EP",
+     "text": [
+      "What would you say as to \"they saw God, and ate and drank\"?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "It is liberty, is it not, they \"ate and drank\". We were reminded yesterday that the Lord took that provision in Luke 24 and He ate before them. I think there is something that would come into our hearts in the way of complacency and restfulness, and what is becoming in this area. What do you say?"
+     "speaker": "JRC",
+     "text": [
+      "It is liberty, is it not, they \"ate and drank\". We were reminded yesterday that the Lord took that provision in Luke 24 and He ate before them. I think there is something that would come into our hearts in the way of complacency and restfulness, and what is becoming in this area. What do you say?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I think that helps very much. I was thinking a bit of what was said as to the Supper but more in the 1 Corinthians 10 setting. That chapter touches the matter of communion, the cup which we drink and the bread which we break, but I wondered whether the sense of being near and free with God is something which is to be highly prized by us, and that the basis that it should be so has already been laid by Christ and it is perfect."
+     "speaker": "EP",
+     "text": [
+      "I think that helps very much. I was thinking a bit of what was said as to the Supper but more in the 1 Corinthians 10 setting. That chapter touches the matter of communion, the cup which we drink and the bread which we break, but I wondered whether the sense of being near and free with God is something which is to be highly prized by us, and that the basis that it should be so has already been laid by Christ and it is perfect."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is helpful. Therefore everything that we touch, beloved brethren, even in the responsible side of things, should be looked at from what we enjoy here. That is, we cannot have two compartments in our lives. If we do not view every matter, including our families or homes or businesses or work, all that kind of thing on the responsible side, from what we enjoy here, then we are not at this standard of heaven as transparent sapphire. We want to see 'things clear all the way through."
+     "speaker": "JRC",
+     "text": [
+      "That is helpful. Therefore everything that we touch, beloved brethren, even in the responsible side of things, should be looked at from what we enjoy here. That is, we cannot have two compartments in our lives. If we do not view every matter, including our families or homes or businesses or work, all that kind of thing on the responsible side, from what we enjoy here, then we are not at this standard of heaven as transparent sapphire. We want to see 'things clear all the way through."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Going back to your question, heaven is really a relative idea, is it not? It is not of earth, is it? You cannot say where it is, how many miles away; that would connect it to earth. It is an unearthly scene of things, is it not? Then I was thinking of what you just said that the Lord referred to His heavenly Father, and He says He is perfect. (See Matt 5: 48). Does that link on with what you are saying, that that is the way we take up earthly matters - in the light of the knowledge of a perfect, heavenly Father."
+     "speaker": "DAB",
+     "text": [
+      "Going back to your question, heaven is really a relative idea, is it not? It is not of earth, is it? You cannot say where it is, how many miles away; that would connect it to earth. It is an unearthly scene of things, is it not? Then I was thinking of what you just said that the Lord referred to His heavenly Father, and He says He is perfect. (See Matt 5: 48). Does that link on with what you are saying, that that is the way we take up earthly matters - in the light of the knowledge of a perfect, heavenly Father."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is very good, and it helps us to see that. We so often think, that belongs there and these other things belong here, but if we are carrying through what the Lord has given us and would help us in by the Spirit we would see that there is a coalescence some where. I do not mean that earthly things belong to heaven, but the character in persons that are heavenly is seen in how they work here."
+     "speaker": "JRC",
+     "text": [
+      "That is very good, and it helps us to see that. We so often think, that belongs there and these other things belong here, but if we are carrying through what the Lord has given us and would help us in by the Spirit we would see that there is a coalescence some where. I do not mean that earthly things belong to heaven, but the character in persons that are heavenly is seen in how they work here."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "So that although earthly things do not enter into heaven, heavenly things enter into earth; I mean in the Christian circle. It is a place where heaven can be enjoyed, is it not?"
+     "speaker": "DAB",
+     "text": [
+      "So that although earthly things do not enter into heaven, heavenly things enter into earth; I mean in the Christian circle. It is a place where heaven can be enjoyed, is it not?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is right, and therefore that in itself would be part of the encouragement that would come into the young people, as to what they see in those of us who are older. Can you see that kind of thing? If they do not (and it is our responsibility) they are going to grow up like that generation in Judges 2: 10 \"which knew not Jehovah\". That is before all the departure came in. The reason for all the departures in Judges is because of that. Now you cannot say that that was the young people's fault; it was the fault of the generation who were responsible; they did not tell them about Jehovah."
+     "speaker": "JRC",
+     "text": [
+      "That is right, and therefore that in itself would be part of the encouragement that would come into the young people, as to what they see in those of us who are older. Can you see that kind of thing? If they do not (and it is our responsibility) they are going to grow up like that generation in Judges 2: 10 \"which knew not Jehovah\". That is before all the departure came in. The reason for all the departures in Judges is because of that. Now you cannot say that that was the young people's fault; it was the fault of the generation who were responsible; they did not tell them about Jehovah."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "There was still provision, was there not, in both Exodus and Joshua, for the young people's enquiries to be answered fully."
+     "speaker": "HAH",
+     "text": [
+      "There was still provision, was there not, in both Exodus and Joshua, for the young people's enquiries to be answered fully."
+     ]
     },
     {
-     "text": "W.McC. We sang of the new creation's stainless joy. I suppose heaven is what is ever fresh because it is where God dwells."
+     "speaker": "WMcC",
+     "text": [
+      "We sang of the new creation's stainless joy. I suppose heaven is what is ever fresh because it is where God dwells."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is right. I think it is a moral idea. As was said, you cannot say where heaven is geographically. You say, the young people point up there and say it is heaven. Well, if you are in Australia you are pointing in the other direction. They would still be speaking of heaven too, would they not? A young person said that to me. I think you keep it in mind. We want to get these material thoughts out of our minds. Heaven involves the presence of God, and our entry into that is a moral matter, and these verses bring that out."
+     "speaker": "JRC",
+     "text": [
+      "That is right. I think it is a moral idea. As was said, you cannot say where heaven is geographically. You say, the young people point up there and say it is heaven. Well, if you are in Australia you are pointing in the other direction. They would still be speaking of heaven too, would they not? A young person said that to me. I think you keep it in mind. We want to get these material thoughts out of our minds. Heaven involves the presence of God, and our entry into that is a moral matter, and these verses bring that out."
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "I was wondering if the nobles which have been referred to speak of sonship. Would the eating and drinking refer to the liberty that is proper to sonship, and should the dignity of that be seen in our walk here? Is that what you have in mind in Colossians?"
+     "speaker": "DJW",
+     "text": [
+      "I was wondering if the nobles which have been referred to speak of sonship. Would the eating and drinking refer to the liberty that is proper to sonship, and should the dignity of that be seen in our walk here? Is that what you have in mind in Colossians?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes, that just puts it better than I could. That is very fine. There is a line of action which is becoming to these kind of things about which we have been speaking. Mr Darby says in hymn 120, 'And here we walk as sons, through grace'. Now sonship is for God, but nonetheless there is a testimony in persons who know that they are sons before God in the way they walk here. He himself, I take it, would encourage us on that line."
+     "speaker": "JRC",
+     "text": [
+      "Yes, that just puts it better than I could. That is very fine. There is a line of action which is becoming to these kind of things about which we have been speaking. Mr Darby says in hymn 120, 'And here we walk as sons, through grace'. Now sonship is for God, but nonetheless there is a testimony in persons who know that they are sons before God in the way they walk here. He himself, I take it, would encourage us on that line."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "It is important to see that we need to be sustained, is it not? Seeing God was one thing, but then they needed to be sustained in that connection; they ate and drank."
+     "speaker": "JCE",
+     "text": [
+      "It is important to see that we need to be sustained, is it not? Seeing God was one thing, but then they needed to be sustained in that connection; they ate and drank."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is good. I do not know how literally we could take that, of course; it would not be for us to say, but your suggestion is fine, they were sustained in it. There is the tree of life, and that is available in the day to come and in eternity."
+     "speaker": "JRC",
+     "text": [
+      "That is good. I do not know how literally we could take that, of course; it would not be for us to say, but your suggestion is fine, they were sustained in it. There is the tree of life, and that is available in the day to come and in eternity."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Is the way the eighth verse closes important? It is not the covenant that you have made with Jehovah; it is \"the covenant that Jehovah has made with you concerning all these words\". Admittedly they had made a covenant, but the thought of faithfulness comes out in that God says 'I have made it with you, and therefore it is certain and absolute whatever your conduct may be'."
+     "speaker": "JCE",
+     "text": [
+      "Is the way the eighth verse closes important? It is not the covenant that you have made with Jehovah; it is \"the covenant that Jehovah has made with you concerning all these words\". Admittedly they had made a covenant, but the thought of faithfulness comes out in that God says 'I have made it with you, and therefore it is certain and absolute whatever your conduct may be'."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is excellent. That brings us to the question of our conduct. That is why I have read in Colossians."
+     "speaker": "JRC",
+     "text": [
+      "That is excellent. That brings us to the question of our conduct. That is why I have read in Colossians."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "If we have fed, drunk and seen God we shall not find it difficult to have compassion, or to be meek or lowly, shall we?"
+     "speaker": "JCE",
+     "text": [
+      "If we have fed, drunk and seen God we shall not find it difficult to have compassion, or to be meek or lowly, shall we?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "I am sure that is right. In other words, there is something begotten in us as to a nature of things. The instruction is \"Put on\", but you are viewed as having done it."
+     "speaker": "JRC",
+     "text": [
+      "I am sure that is right. In other words, there is something begotten in us as to a nature of things. The instruction is \"Put on\", but you are viewed as having done it."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "And of course, what is in Colossians has the added value that the name of Christ has come in as having made God known, whereas in the Old Testament that was not so."
+     "speaker": "JCE",
+     "text": [
+      "And of course, what is in Colossians has the added value that the name of Christ has come in as having made God known, whereas in the Old Testament that was not so."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is right. We are in the full revelation of all that has come out from God. A brother said on his feet this morning that God has been revealed and we know our place here in love through Jesus. It is that intimate setting of things that should always affect us. The academic, or any other way of viewing it, is cold. Let us see that we are loved in an area where Jesus is loved, and we know the love of God in the plenitude of all that has come to us because of the way that Jesus has gone. Now, we are left here if the Lord will for a day or two; who knows? The thing is, what has come out in my life, what has come out in your life? It takes us up in responsibility, as to how we are proceeding. As our brother said, it should not be difficult for persons who are accustomed to the presence of God, holy and beloved, to be compassionate, kind, lowly, meek, long-suffering. I think there might be something in this for us."
+     "speaker": "JRC",
+     "text": [
+      "That is right. We are in the full revelation of all that has come out from God. A brother said on his feet this morning that God has been revealed and we know our place here in love through Jesus. It is that intimate setting of things that should always affect us. The academic, or any other way of viewing it, is cold. Let us see that we are loved in an area where Jesus is loved, and we know the love of God in the plenitude of all that has come to us because of the way that Jesus has gone. Now, we are left here if the Lord will for a day or two; who knows? The thing is, what has come out in my life, what has come out in your life? It takes us up in responsibility, as to how we are proceeding. As our brother said, it should not be difficult for persons who are accustomed to the presence of God, holy and beloved, to be compassionate, kind, lowly, meek, long-suffering. I think there might be something in this for us."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Do you think it connects with what was said earlier as to communion? I find it very testing. I enjoy the meetings; tomorrow morning there will be something to be done; I may have an idea of what it is. Am I going to be in communion when I am doing that ordinary thing? There is a lot in communion."
+     "speaker": "BWW",
+     "text": [
+      "Do you think it connects with what was said earlier as to communion? I find it very testing. I enjoy the meetings; tomorrow morning there will be something to be done; I may have an idea of what it is. Am I going to be in communion when I am doing that ordinary thing? There is a lot in communion."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Oh yes. A brother said a little time ago - I do not want to bring in anything lower - but none the less he said it is impossible to sin if you are in communion with Christ, and that shows the value of what you are speaking about. If we cultivate communion it has a preservative effect upon us, because if we are out of communion the devil can get in. Now it is just as simple as that. Would you agree?"
+     "speaker": "JRC",
+     "text": [
+      "Oh yes. A brother said a little time ago - I do not want to bring in anything lower - but none the less he said it is impossible to sin if you are in communion with Christ, and that shows the value of what you are speaking about. If we cultivate communion it has a preservative effect upon us, because if we are out of communion the devil can get in. Now it is just as simple as that. Would you agree?"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "I would, from experience. Then the communion, or the preservation of it, would help us in the working out in detail of these various things, because they are, as I think you have already said, features that came out in perfection in Jesus. Will it please Him if I do it this way? If I should say that, all those things, I think, come into it, but they are challenging."
+     "speaker": "BWW",
+     "text": [
+      "I would, from experience. Then the communion, or the preservation of it, would help us in the working out in detail of these various things, because they are, as I think you have already said, features that came out in perfection in Jesus. Will it please Him if I do it this way? If I should say that, all those things, I think, come into it, but they are challenging."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is right. So the test in this area is one another. Therefore what you have mentioned about communion must affect the fellowship, how we act and react to one another. It is just as simple as that. One another: that is not somebody distant, it is the person you sit beside on the Monday night, and Tuesday night, and so on, and if you change your seat around the room it is sometimes helpful too, but it is still one another. I suppose you are the same here in London as we are in Edinburgh: you find somebody sitting in your seat one night and you wonder where to go. We do make it difficult for ourselves, don't we? Do you have your pews here? Anyway, that is a bit lower, but we want to value one another. After all, it should be all the same where we sit in the room, apart from the hearing."
+     "speaker": "JRC",
+     "text": [
+      "That is right. So the test in this area is one another. Therefore what you have mentioned about communion must affect the fellowship, how we act and react to one another. It is just as simple as that. One another: that is not somebody distant, it is the person you sit beside on the Monday night, and Tuesday night, and so on, and if you change your seat around the room it is sometimes helpful too, but it is still one another. I suppose you are the same here in London as we are in Edinburgh: you find somebody sitting in your seat one night and you wonder where to go. We do make it difficult for ourselves, don't we? Do you have your pews here? Anyway, that is a bit lower, but we want to value one another. After all, it should be all the same where we sit in the room, apart from the hearing."
+     ]
     },
     {
-     "speaker": "D.R.G.M.",
-     "text": "There is nothing disjointed in mind, is there? We had in Exodus \"all the people\", and here we have \"ye have been called in one body, and be thankful\". If we are really in the good of this there will be no disjointed element, will there?"
+     "speaker": "DRGM",
+     "text": [
+      "There is nothing disjointed in mind, is there? We had in Exodus \"all the people\", and here we have \"ye have been called in one body, and be thankful\". If we are really in the good of this there will be no disjointed element, will there?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "I think that is very fine. The one body again brings in that thought of oneness. I think we want to hold on to these matters. You say, It is a very difficult day we are in, there is departure here and departure there. None the less, those of us who through mercy and grace are held together hold on to the thought of the one body. The Spirit is here - Ephesians speaks of \"one body and one Spirit\" (chap 4: 4); therefore you say, are all the saints in that? That is His matter. What we have to do is to work out the truth of one body, and it brings in the thought of responsibilities."
+     "speaker": "JRC",
+     "text": [
+      "I think that is very fine. The one body again brings in that thought of oneness. I think we want to hold on to these matters. You say, It is a very difficult day we are in, there is departure here and departure there. None the less, those of us who through mercy and grace are held together hold on to the thought of the one body. The Spirit is here - Ephesians speaks of \"one body and one Spirit\" (chap 4: 4); therefore you say, are all the saints in that? That is His matter. What we have to do is to work out the truth of one body, and it brings in the thought of responsibilities."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "There is no division in the body, is there? \"We are members one of another\", Eph 4: 25."
+     "speaker": "EO",
+     "text": [
+      "There is no division in the body, is there? \"We are members one of another\", Eph 4: 25."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is fine, and that underlines for us the responsibilities we should feel in regard to our local company. That is the city."
+     "speaker": "JRC",
+     "text": [
+      "That is fine, and that underlines for us the responsibilities we should feel in regard to our local company. That is the city."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Earlier, when you spoke about our ordinary mundane life, it is the one thing: it relates to stewardship really. As to everything we have here we are all stewards of what God has given to us; but what relates to our lives spiritually is in another setting. What we have here is the matter of stewardship, we have been entrusted with things, and we are to hold them for God."
+     "speaker": "EO",
+     "text": [
+      "Earlier, when you spoke about our ordinary mundane life, it is the one thing: it relates to stewardship really. As to everything we have here we are all stewards of what God has given to us; but what relates to our lives spiritually is in another setting. What we have here is the matter of stewardship, we have been entrusted with things, and we are to hold them for God."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is right, and therefore we would encourage the young people on that line. Even in your work there is a certain amount of discipline. Nobody has the ideal job; at least I do not think I have met them yet! And even retirement is not an ideal job either, as far as I can see. Anyway, that is by the way. There is a certain discipline in all our circumstances - your family, what you are doing at work or what you are doing at home - it is discipline, and we need that, but how we take it up is in view of what is spiritual."
+     "speaker": "JRC",
+     "text": [
+      "That is right, and therefore we would encourage the young people on that line. Even in your work there is a certain amount of discipline. Nobody has the ideal job; at least I do not think I have met them yet! And even retirement is not an ideal job either, as far as I can see. Anyway, that is by the way. There is a certain discipline in all our circumstances - your family, what you are doing at work or what you are doing at home - it is discipline, and we need that, but how we take it up is in view of what is spiritual."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Are we to be concerned that some features of Christ come into expression in a practical way through our daily pathway? Then they would be present in our gatherings together ."
+     "speaker": "GAP",
+     "text": [
+      "Are we to be concerned that some features of Christ come into expression in a practical way through our daily pathway? Then they would be present in our gatherings together ."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Yes, indeed so. The way it finishes up here is just simply \"and be thankful\". Be thankful."
+     "speaker": "JRC",
+     "text": [
+      "Yes, indeed so. The way it finishes up here is just simply \"and be thankful\". Be thankful."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "Does all you have been saying require spiritual energy on our part. Moses and Aaron, and Nadab and Abihu, and the elders, had to go up the mountain. These things here - put to death certain things, put off certain things, then to put on - all require energy in the Spirit, do they not?"
+     "speaker": "PJW",
+     "text": [
+      "Does all you have been saying require spiritual energy on our part. Moses and Aaron, and Nadab and Abihu, and the elders, had to go up the mountain. These things here - put to death certain things, put off certain things, then to put on - all require energy in the Spirit, do they not?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Things are commensurate here. We might say, I am spiritually energetic. That would be fine. Well, are you energetic in regard to the practical side of things as well? It works together here. You are young and you are energetic in your work; are you energetic in the things of the Lord? That is what it comes to. We want to be the complete thing. I think that is what the Lord would have. He desires that something be completed in us by the Spirit in regard to maturity."
+     "speaker": "JRC",
+     "text": [
+      "Things are commensurate here. We might say, I am spiritually energetic. That would be fine. Well, are you energetic in regard to the practical side of things as well? It works together here. You are young and you are energetic in your work; are you energetic in the things of the Lord? That is what it comes to. We want to be the complete thing. I think that is what the Lord would have. He desires that something be completed in us by the Spirit in regard to maturity."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "In connection with what was said about what is mundane, does God give us the ability to rise in spirit above it? The alternative word to 'clearness' in Exodus 24 is 'brightness'. Do you think that is to remain with us, and to be seen in us? So this chapter goes on to speak of all things to be done in the name of the Lord Jesus (v 17)."
+     "speaker": "RWF",
+     "text": [
+      "In connection with what was said about what is mundane, does God give us the ability to rise in spirit above it? The alternative word to 'clearness' in Exodus 24 is 'brightness'. Do you think that is to remain with us, and to be seen in us? So this chapter goes on to speak of all things to be done in the name of the Lord Jesus (v 17)."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is good. I think the Philippians would set out something of that very thing; whatever sphere they were in, there was a brightness and a light shining there, even in the testimony. It is really of this character. It is a great thing to be known in your locality as a bright person, a great thing to be known in your family as a bright person, do you think?"
+     "speaker": "JRC",
+     "text": [
+      "That is good. I think the Philippians would set out something of that very thing; whatever sphere they were in, there was a brightness and a light shining there, even in the testimony. It is really of this character. It is a great thing to be known in your locality as a bright person, a great thing to be known in your family as a bright person, do you think?"
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "We feel sometimes that we do not rise to it, but the power is given to do so, is it not? The need is to go up and stay up, and the need is to put on and keep on."
+     "speaker": "RWF",
+     "text": [
+      "We feel sometimes that we do not rise to it, but the power is given to do so, is it not? The need is to go up and stay up, and the need is to put on and keep on."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That is helpful, very good."
+     "speaker": "JRC",
+     "text": [
+      "That is helpful, very good."
+     ]
     }
    ]
   },
@@ -635,6 +862,32 @@
      "text": "A little earlier in Israel's history there was a widow-woman with two growing-up boys whose names we are not told. Unhappily the mother had a debt which she could not pay and it was feared that the boys would have to become slaves. The only possession in the house was a pot of oil. Salvation, however, came to the household from God through His prophet Elisha, just as salvation comes to us through His Holy Spirit. It was strange in one way that the woman had to borrow still more but this time it was to borrow as many jars, pots and bottles as possible. The reason for this was that, by a miracle, the oil in her pot would be poured out into all those vessels and then sold from them so as to pay her debt and give to her and to her sons the promise of life. What a story they would all have to tell when they returned the empty vessels to the neighbours! The oil speaks to us of the Holy Spirit, known inwardly by the Christian believer. He foresees our needs in the pathway before us. Do you realise His presence?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "ASCENDING",
+   "kind": "default_place",
+   "detail": "LONDON given to 12 names (\"All local unless otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "ASCENDING",
+   "kind": "possible_speaker",
+   "detail": "JRG opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "ASCENDING",
+   "kind": "speaker_not_in_key",
+   "detail": "JRG (in the text)"
+  },
+  {
+   "article": 1,
+   "title": "ASCENDING",
+   "kind": "speaker_matched_loosely",
+   "detail": "WMcC used in the text for W.McClean (key gives WM)"
   }
  ]
 }

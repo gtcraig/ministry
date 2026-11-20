@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,43 +26,49 @@
    "place": "LONDON",
    "date": "14 July 1985",
    "speakers": [
-    "A.J.E.W.",
-    "G.A.P.",
-    "E.O.",
-    "E.C.B.",
-    "D.J.H.",
-    "E.P.",
-    "D.J.R.",
-    "J.S.G.",
-    "D.A.B.",
-    "C.B.",
-    "K.G.S.",
-    "B.W.W."
+    "AJEW",
+    "GAP",
+    "EO",
+    "ECB",
+    "DJH",
+    "EP",
+    "DJR",
+    "JSG",
+    "DAB",
+    "CB",
+    "KGS",
+    "BWW"
    ],
    "initials": [
     {
-     "initials": "ACB",
-     "name": "(All local unless otherwise stated) C.Beale"
+     "initials": "CB",
+     "name": "C.Beale",
+     "place": "LONDON"
     },
     {
      "initials": "DAB",
-     "name": "D.A.Burr"
+     "name": "D.A.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "LONDON"
     },
     {
      "initials": "EP",
-     "name": "E: Palmer"
+     "name": "E: Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "DJR",
@@ -71,15 +77,18 @@
     },
     {
      "initials": "AJEW",
-     "name": "A.J.E.Welch"
+     "name": "A.J.E.Welch",
+     "place": "LONDON"
     },
     {
      "initials": "JSG",
-     "name": "J.S.Gray"
+     "name": "J.S.Gray",
+     "place": "LONDON"
     },
     {
      "initials": "GAP",
-     "name": "G.A.Palmer"
+     "name": "G.A.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "KGS",
@@ -88,329 +97,485 @@
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "LONDON"
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "C.Beale; D.A.Burr; E.C.Burr; D.J.Hutson; E.Oliver; E: Palmer; D.J.Roberts, Gillingham; A.J.E.Welch; J.S.Gray; G.A.Palmer; K.G.Samways, Buckhurst Hill; B.W.Ward"
    ],
    "paragraphs": [
     {
-     "speaker": "A.J.E.W.",
-     "text": "I have been thinking about the measure of our sustained engagement with the Person of Christ. We can have Him before us, I take it, with the help of the Spirit, at any time; there is that which we experience individually, and, as we also experience, there is the greater advantage of being occupied with Him as together. But I feel for myself the need of greater intentness in occupation with Christ, a definiteness of purpose in our approach to Him, and a deeper manifestation of insistent desire to appropriate more of what we discern in Himself. We have often noticed that in Matthew 17 the Lord took with Him Peter, and James, and John, up into a high mountain apart. The Lord shows His concern to have something in these men through beholding Him that would fit them for what He would later have in mind. There is no question that this remarkable experience on the mount was singularly productive in those beloved servants in what they set forth. Peter speaks of it very feelingly we know, in the first chapter of his second letter; the whole character of John and his ministry are evident in his gospel and epistles; the stature of James, is touched more lightly, These men come out as the choice produce of close engagement with Jesus. Whilst our pathway here embraces experiences of many kinds, some involving discipline or necessary moral adjustment, it is borne in upon me that the most productive elements in ourselves, productive in what He Himself delights in, what the Father delights in, and what the Spirit can link with, are gained through the enriching contemplation of the Person of God's beloved Son. These scriptures bring out some points as to that, and would helpfully engage us with the difference of the approach to the truth by Paul and by John. We have often said to one another (this goes back, of course, to a very early point in the recovery) that in principle PauI sets us in heavenly places; John, on the other hand, brings down to us as here the new and glorious order of life in manhood that we see in Jesus."
+     "speaker": "AJEW",
+     "text": [
+      "I have been thinking about the measure of our sustained engagement with the Person of Christ. We can have Him before us, I take it, with the help of the Spirit, at any time; there is that which we experience individually, and, as we also experience, there is the greater advantage of being occupied with Him as together. But I feel for myself the need of greater intentness in occupation with Christ, a definiteness of purpose in our approach to Him, and a deeper manifestation of insistent desire to appropriate more of what we discern in Himself. We have often noticed that in Matthew 17 the Lord took with Him Peter, and James, and John, up into a high mountain apart. The Lord shows His concern to have something in these men through beholding Him that would fit them for what He would later have in mind. There is no question that this remarkable experience on the mount was singularly productive in those beloved servants in what they set forth. Peter speaks of it very feelingly we know, in the first chapter of his second letter; the whole character of John and his ministry are evident in his gospel and epistles; the stature of James, is touched more lightly, These men come out as the choice produce of close engagement with Jesus. Whilst our pathway here embraces experiences of many kinds, some involving discipline or necessary moral adjustment, it is borne in upon me that the most productive elements in ourselves, productive in what He Himself delights in, what the Father delights in, and what the Spirit can link with, are gained through the enriching contemplation of the Person of God's beloved Son. These scriptures bring out some points as to that, and would helpfully engage us with the difference of the approach to the truth by Paul and by John. We have often said to one another (this goes back, of course, to a very early point in the recovery) that in principle PauI sets us in heavenly places; John, on the other hand, brings down to us as here the new and glorious order of life in manhood that we see in Jesus.",
+      "What we read in Matthew would particularly support Paul; a high mountain apart was evidently deliberately selected, and being the place to which the Lord Himself took His three disciples, it is suggestive of what is elevated, taken into the heavenly level. It is also stable, it is well founded, it is a mountain, and a high one. In relation to all this we see God's beloved Son acknowledged to be such with the deepest of feelings possible in the voice out of the cloud: \"This\"; that word 'this' is very provocative of positive thought - \"This\". It raises an enquiry which has an immediate answer. Was there ever anything like this to be seen before? Well, it was seen then, and these three men came down the mount, no doubt, with an outlook and features relating to it that were fuller and richer than anything they had carried before. That is to be the product, in any one of us and in any local company, of beholding God's beloved Son. We would all acknowledge, I think, that without in any sense limiting it, we know the experience of this, particularly in the wealth of the occasion of the Lord's supper; how productive, and indeed formative, the experience of the Supper and what follows from it can be. But I am thinking of this in a more general sense, because the Lord, if I understand these things rightly, is never beyond the range of the reverential contemplation, sustained in the Spirit, of those who love Him."
+     ]
     },
     {
-     "text": "What we read in Matthew would particularly support Paul; a high mountain apart was evidently deliberately selected, and being the place to which the Lord Himself took His three disciples, it is suggestive of what is elevated, taken into the heavenly level. It is also stable, it is well founded, it is a mountain, and a high one. In relation to all this we see God's beloved Son acknowledged to be such with the deepest of feelings possible in the voice out of the cloud: \"This\"; that word 'this' is very provocative of positive thought - \"This\". It raises an enquiry which has an immediate answer. Was there ever anything like this to be seen before? Well, it was seen then, and these three men came down the mount, no doubt, with an outlook and features relating to it that were fuller and richer than anything they had carried before. That is to be the product, in any one of us and in any local company, of beholding God's beloved Son. We would all acknowledge, I think, that without in any sense limiting it, we know the experience of this, particularly in the wealth of the occasion of the Lord's supper; how productive, and indeed formative, the experience of the Supper and what follows from it can be. But I am thinking of this in a more general sense, because the Lord, if I understand these things rightly, is never beyond the range of the reverential contemplation, sustained in the Spirit, of those who love Him."
+     "speaker": "GAP",
+     "text": [
+      "Why is particular attention drawn to His face and His garments?"
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Why is particular attention drawn to His face and His garments?"
+     "speaker": "AJEW",
+     "text": [
+      "I think to bring out that the centre of everything for God, and indeed for man too, is really in the disposition of God which that face, shining as the sun, would convey. It is a universal suggestion. The sun is the centre of the universe, and Jesus, for us, is the centre of the universe, nothing less. But then, do we answer to that? As the centre of the universe, is He in the reality of our way down here, and our experience, the centre for me?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I think to bring out that the centre of everything for God, and indeed for man too, is really in the disposition of God which that face, shining as the sun, would convey. It is a universal suggestion. The sun is the centre of the universe, and Jesus, for us, is the centre of the universe, nothing less. But then, do we answer to that? As the centre of the universe, is He in the reality of our way down here, and our experience, the centre for me?"
+     "speaker": "EO",
+     "text": [
+      "You referred to discipline; I have been reading a portion of Mr Taylor's 'Liberty in Suffering', and he says that the Lord has met all the governmental circumstances and external circumstances that He might have us with Him (see Vol.57, p.106). So whatever our experience circumstantially we still carry that impression, that the Lord wants us with Him. He has met all that might hinder."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "You referred to discipline; I have been reading a portion of Mr Taylor's 'Liberty in Suffering', and he says that the Lord has met all the governmental circumstances and external circumstances that He might have us with Him (see Vol.57, p.106). So whatever our experience circumstantially we still carry that impression, that the Lord wants us with Him. He has met all that might hinder."
+     "speaker": "AJEW",
+     "text": [
+      "That shows the positiveness of every thought in His mind and heart for us, the positiveness of it. It comes out in these scriptures, I think. But we want to come into the full richness of what in such positiveness He holds in view for us; even if it be the object of chastening and discipline, I believe He would deepen us through the contemplation of Himself."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That shows the positiveness of every thought in His mind and heart for us, the positiveness of it. It comes out in these scriptures, I think. But we want to come into the full richness of what in such positiveness He holds in view for us; even if it be the object of chastening and discipline, I believe He would deepen us through the contemplation of Himself."
+     "speaker": "ECB",
+     "text": [
+      "Does it go with your thought that in Matthew, when the Lord says \"There are some of those standing here that shall not taste of death\", He says \"until they shall have seen the Son of man coming in his kingdom\"? In the other two gospels it is until they have seen the kingdom, but in Matthew it is until they have seen the Person."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does it go with your thought that in Matthew, when the Lord says \"There are some of those standing here that shall not taste of death\", He says \"until they shall have seen the Son of man coming in his kingdom\"? In the other two gospels it is until they have seen the kingdom, but in Matthew it is until they have seen the Person."
+     "speaker": "AJEW",
+     "text": [
+      "Very much so; they have seen the Person. In divine things, if you have seen the Person you have seen what stands related to that Person, because the blend of the two is perfect. There is no feature of the kingdom that would not be manifested in Jesus, and no feature of Christ that would not come into some expression in the kingdom when He comes into His rights. That is very confirming of the simple point I have in mind, that as having Christ personally engaging our affections and holding our minds, we really come within range of the whole divine scheme of things in view of God's pleasure."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Very much so; they have seen the Person. In divine things, if you have seen the Person you have seen what stands related to that Person, because the blend of the two is perfect. There is no feature of the kingdom that would not be manifested in Jesus, and no feature of Christ that would not come into some expression in the kingdom when He comes into His rights. That is very confirming of the simple point I have in mind, that as having Christ personally engaging our affections and holding our minds, we really come within range of the whole divine scheme of things in view of God's pleasure."
+     "speaker": "DJH",
+     "text": [
+      "So the gospel would have that in mind. Romans begins with \"God's glad tidings ... concerning his Son\" and it concludes with \"my glad tidings and the preaching of Jesus Christ\". We have the preaching week by week, generally to those of us who through divine grace are believers, but the object would be to occupy us with the Person, would it not? ·"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "So the gospel would have that in mind. Romans begins with \"God's glad tidings ... concerning his Son\" and it concludes with \"my glad tidings and the preaching of Jesus Christ\". We have the preaching week by week, generally to those of us who through divine grace are believers, but the object would be to occupy us with the Person, would it not? ·"
+     "speaker": "AJEW",
+     "text": [
+      "I am sure of that. After all, the gospel in its true wide scope is an immense matter. We need to be there and hear the preaching, whoever we are."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I am sure of that. After all, the gospel in its true wide scope is an immense matter. We need to be there and hear the preaching, whoever we are."
+     "speaker": "EP",
+     "text": [
+      "Would that touch this word from the Father: \"hear him\"? He has something to say, but if we have had a sight of Him how attentive we would be!"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Would that touch this word from the Father: \"hear him\"? He has something to say, but if we have had a sight of Him how attentive we would be!"
+     "speaker": "AJEW",
+     "text": [
+      "How attentive we would be! That just sums up my point. Are we attentive? And if I could use the expression, without in any way infringing what is due to Christ, are we insistently attentive? You may go to the Lord and something else may come into mind and you go away; the pressure of events is such that any of us might just fail to grasp the need for intentness to discover what the Lord might convey or impart to us as we go to Him. What a vast extent of things is under His hand to convey to those who love Him!"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "How attentive we would be! That just sums up my point. Are we attentive? And if I could use the expression, without in any way infringing what is due to Christ, are we insistently attentive? You may go to the Lord and something else may come into mind and you go away; the pressure of events is such that any of us might just fail to grasp the need for intentness to discover what the Lord might convey or impart to us as we go to Him. What a vast extent of things is under His hand to convey to those who love Him!"
+     "speaker": "EP",
+     "text": [
+      "Just to follow that suggestion of yours as to intentness, in a quite different connection would it be conveyed in what Jacob said to the man that wrestled with him; \"I will not let thee go except thou bless me\", Gen 32: 26? Is that the idea. You stay there to get some fresh impression?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Just to follow that suggestion of yours as to intentness, in a quite different connection would it be conveyed in what Jacob said to the man that wrestled with him; \"I will not let thee go except thou bless me\", Gen 32: 26? Is that the idea. You stay there to get some fresh impression?"
+     "speaker": "AJEW",
+     "text": [
+      "I believe that resoluteness is what we may take up, in sympathy with God's mind, is not a question of driving something through in the force of will (we know some thing about that too, perhaps, in our experience). I believe it is precious to the Lord to find in any one of us an intentness to grasp fully what He may have to show us or to say to us; so that it may become formative and bring out something characteristic in us which finds its place (and is cherished of Him in finding its place) in the assembly."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I believe that resoluteness is what we may take up, in sympathy with God's mind, is not a question of driving something through in the force of will (we know some thing about that too, perhaps, in our experience). I believe it is precious to the Lord to find in any one of us an intentness to grasp fully what He may have to show us or to say to us; so that it may become formative and bring out something characteristic in us which finds its place (and is cherished of Him in finding its place) in the assembly."
+     "speaker": "DJH",
+     "text": [
+      "I was thinking of the scripture referred to as to Jacob and his insistence. It is in the setting where he said that he had seen the face of God. Well, we see the glory of God in the face of Jesus Christ, do we not?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "I was thinking of the scripture referred to as to Jacob and his insistence. It is in the setting where he said that he had seen the face of God. Well, we see the glory of God in the face of Jesus Christ, do we not?"
+     "speaker": "AJEW",
+     "text": [
+      "Surely."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Surely."
+     "speaker": "DJR",
+     "text": [
+      "Would you say something more as to Him being transfigured. It is an unusual expression to use for the Lord Himself."
+     ]
     },
     {
-     "speaker": "D.J.R.",
-     "text": "Would you say something more as to Him being transfigured. It is an unusual expression to use for the Lord Himself."
+     "speaker": "AJEW",
+     "text": [
+      "It is an unusual expression, but of course it comes in again in connection with the saints in 2 Corinthians 3 in regard to the change."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is an unusual expression, but of course it comes in again in connection with the saints in 2 Corinthians 3 in regard to the change."
+     "speaker": "DJR",
+     "text": [
+      "I can understand it more in regard to the saints; we need it."
+     ]
     },
     {
-     "speaker": "D.J.R.",
-     "text": "I can understand it more in regard to the saints; we need it."
+     "speaker": "AJEW",
+     "text": [
+      "Yes, quite so. The Lord had something to convey to these men, something, we would think, quite specific. He really looks on to the new order of things as He is transformed; that is to say, they had a preview of Jesus as we shall yet know Him."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes, quite so. The Lord had something to convey to these men, something, we would think, quite specific. He really looks on to the new order of things as He is transformed; that is to say, they had a preview of Jesus as we shall yet know Him."
+     "speaker": "DJR",
+     "text": [
+      "Do we get a touch of it when He said \"Tell the vision to no one, until the Son of man be risen up from among the dead\"?"
+     ]
     },
     {
-     "speaker": "D.J.R.",
-     "text": "Do we get a touch of it when He said \"Tell the vision to no one, until the Son of man be risen up from among the dead\"?"
+     "speaker": "AJEW",
+     "text": [
+      "There are things that we become accustomed to; even in the course of seeking to apprehend the truth, there are things that we become accustomed to, but it may be that the Lord would change these things and bring in what, from His side, is fresh and different, something which we have not seen before and which when apprehended will produce distinct and definite increase, responsive to Himself, in any one of us."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "There are things that we become accustomed to; even in the course of seeking to apprehend the truth, there are things that we become accustomed to, but it may be that the Lord would change these things and bring in what, from His side, is fresh and different, something which we have not seen before and which when apprehended will produce distinct and definite increase, responsive to Himself, in any one of us."
+     "speaker": "ECB",
+     "text": [
+      "Is it a question whether we can get beyond what Jesus was in His humiliation to what He is in His glory? You will remember the remarks of Mr Stoney, that many appreciate Him as greater than Jonas, but not many appreciate Him as greater than Solomon."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it a question whether we can get beyond what Jesus was in His humiliation to what He is in His glory? You will remember the remarks of Mr Stoney, that many appreciate Him as greater than Jonas, but not many appreciate Him as greater than Solomon."
+     "speaker": "AJEW",
+     "text": [
+      "Well, that is appropriate as to the whole of what we are considering, because appreciating Him as He is, appreciating Him glorified, is a very extensive matter which is vital for us. It is a question whether we shall ever contribute to the true fragrance of assembly response to the heart of Christ if we have not developed in that understanding of Himself, appreciation of Himself as glorified."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Well, that is appropriate as to the whole of what we are considering, because appreciating Him as He is, appreciating Him glorified, is a very extensive matter which is vital for us. It is a question whether we shall ever contribute to the true fragrance of assembly response to the heart of Christ if we have not developed in that understanding of Himself, appreciation of Himself as glorified."
+     "speaker": "ECB",
+     "text": [
+      "The substance of Christianity rests in the fact that Jesus is glorified, does it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The substance of Christianity rests in the fact that Jesus is glorified, does it not?"
+     "speaker": "AJEW",
+     "text": [
+      "Just so."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Just so."
+     "speaker": "ECB",
+     "text": [
+      "Therefore, if we are to enter fully into what Christianity is by way of privilege or of testimony, we must penetrate into what He is as glorified; this requires the Spirit."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Therefore, if we are to enter fully into what Christianity is by way of privilege or of testimony, we must penetrate into what He is as glorified; this requires the Spirit."
+     "speaker": "AJEW",
+     "text": [
+      "I am glad you bring the Spirit in, because the Spirit is very closely alongside to sustain engagement with Himself in those who love Him. That will give scope to the Spirit, if I may reverently use the word, to bring out the vital features of what the bride is."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I am glad you bring the Spirit in, because the Spirit is very closely alongside to sustain engagement with Himself in those who love Him. That will give scope to the Spirit, if I may reverently use the word, to bring out the vital features of what the bride is."
+     "speaker": "DJH",
+     "text": [
+      "Does the reference in Mark show the continuation of this, where it says \"he was manifested in another form to two of them\", chap 16: 12? I was wondering about this word 'transfigured' ('transformed' as it is in Corinthians), whether there is something distinctive - 'another form' - each time He manifests Himself to us. We are not able for it all at once, you might say, but would the point be to grasp the distinctiveness of any particular manifestation?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Does the reference in Mark show the continuation of this, where it says \"he was manifested in another form to two of them\", chap 16: 12? I was wondering about this word 'transfigured' ('transformed' as it is in Corinthians), whether there is something distinctive - 'another form' - each time He manifests Himself to us. We are not able for it all at once, you might say, but would the point be to grasp the distinctiveness of any particular manifestation?"
+     "speaker": "AJEW",
+     "text": [
+      "And we need to be reverentially careful, in the recesses of our minds, not to hold the Lord to some preconceived character of things. He may, as you are suggesting, change what He may elect to convey to those He loves. We want to be ready if He does so."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "And we need to be reverentially careful, in the recesses of our minds, not to hold the Lord to some preconceived character of things. He may, as you are suggesting, change what He may elect to convey to those He loves. We want to be ready if He does so."
+     "speaker": "JSG",
+     "text": [
+      "Does it fit that what Moses and Elias spoke about with the Lord is not specified here? It is in Luke; they \"spoke of his departure which he was about to accomplish\", Luke 9: 31, but the subject of the speaking is not mentioned here."
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Does it fit that what Moses and Elias spoke about with the Lord is not specified here? It is in Luke; they \"spoke of his departure which he was about to accomplish\", Luke 9: 31, but the subject of the speaking is not mentioned here."
+     "speaker": "AJEW",
+     "text": [
+      "What do you see in those two references?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "What do you see in those two references?"
+     "speaker": "JSG",
+     "text": [
+      "Does it confirm what you were bringing to us just now, that the matter is spiritual, and if we have the Lord before us and His glory we cannot at all limit what He may have to say. Is that what you had in mind?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "Does it confirm what you were bringing to us just now, that the matter is spiritual, and if we have the Lord before us and His glory we cannot at all limit what He may have to say. Is that what you had in mind?"
+     "speaker": "AJEW",
+     "text": [
+      "Yes. In one way it waits for Paul to get the full bearing of this, and that is why I suggested the well known passage in 2 Corinthians. It may be better known as a passage than the experience is. But that is how Paul seems to expand to us the beholding of Jesus: \"we all, looking on the glory of the Lord, with unveiled face, are transformed according to the same image from glory to glory, even as by the Lord the Spirit\". That expression \"from glory to glory\" is intensely attractive and it links with what was said as to how much we may know of or embrace these things, because it is from glory to glory. It is not from bondage to glory, it is from glory to glory; that is, it belongs to the positive area of spiritual things which stands related to a glorified Christ and the Spirit here."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes. In one way it waits for Paul to get the full bearing of this, and that is why I suggested the well known passage in 2 Corinthians. It may be better known as a passage than the experience is. But that is how Paul seems to expand to us the beholding of Jesus: \"we all, looking on the glory of the Lord, with unveiled face, are transformed according to the same image from glory to glory, even as by the Lord the Spirit\". That expression \"from glory to glory\" is intensely attractive and it links with what was said as to how much we may know of or embrace these things, because it is from glory to glory. It is not from bondage to glory, it is from glory to glory; that is, it belongs to the positive area of spiritual things which stands related to a glorified Christ and the Spirit here."
+     "speaker": "ECB",
+     "text": [
+      "Do you think that each of us would find ourselves tested about this, because we could find out how much we had been looking on the glory of the Lord by how much we had experienced change, either individually or collectively? This scripture embraces what is collective, does it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think that each of us would find ourselves tested about this, because we could find out how much we had been looking on the glory of the Lord by how much we had experienced change, either individually or collectively? This scripture embraces what is collective, does it not?"
+     "speaker": "AJEW",
+     "text": [
+      "I understand it to embrace what is collective; it is a matter of experience with us that our choicest experiences come in the collective setting."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I understand it to embrace what is collective; it is a matter of experience with us that our choicest experiences come in the collective setting."
+     "speaker": "ECB",
+     "text": [
+      "I am sure that that is right. It is remarkable to see though, in this part of Corinthians, how strong a line of what is individual Paul is pursuing. Does that not connect with what has been said before, that unless we grasp what is true of us individually, and experience it, we shall not fully enter into what is true of us collectively."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I am sure that that is right. It is remarkable to see though, in this part of Corinthians, how strong a line of what is individual Paul is pursuing. Does that not connect with what has been said before, that unless we grasp what is true of us individually, and experience it, we shall not fully enter into what is true of us collectively."
+     "speaker": "AJEW",
+     "text": [
+      "Quite so; I believe that."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so; I believe that."
+     "speaker": "EO",
+     "text": [
+      "In view of what it says of Peter, James and John, were there settled relationships between them? The Lord wanted them with Him; and this thought of 'we all' conveys that the Lord wants us there whatever the relationships among us may be. Is that very affecting?"
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "In view of what it says of Peter, James and John, were there settled relationships between them? The Lord wanted them with Him; and this thought of 'we all' conveys that the Lord wants us there whatever the relationships among us may be. Is that very affecting?"
+     "speaker": "AJEW",
+     "text": [
+      "Yes. There is a real field of study, I think, in these three beloved apostles and what this experience meant to them. When Peter records it he says \"we have not made known to you the power and coming of our Lord Jesus Christ, following cleverly imagined fables, but having been eyewitnesses\" (in the plural) \"of his majesty\". So that Peter is, by inference anyway, conveying impressions that all three shared in this remarkable time. It is remarkable, too, how Peter brings out references to the heavenly in the course of his epistles, although he is a kingdom man; he refers to an \"incorruptible, and undefiled and unfading inheritance\"? 1 Pet 1: 4. He takes us there into the heavenly, and really presents an invitation to experience the verity of what he is saying."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes. There is a real field of study, I think, in these three beloved apostles and what this experience meant to them. When Peter records it he says \"we have not made known to you the power and coming of our Lord Jesus Christ, following cleverly imagined fables, but having been eyewitnesses\" (in the plural) \"of his majesty\". So that Peter is, by inference anyway, conveying impressions that all three shared in this remarkable time. It is remarkable, too, how Peter brings out references to the heavenly in the course of his epistles, although he is a kingdom man; he refers to an \"incorruptible, and undefiled and unfading inheritance\"? 1 Pet 1: 4. He takes us there into the heavenly, and really presents an invitation to experience the verity of what he is saying."
+     "speaker": "DAB",
+     "text": [
+      "Does Peter then prove the truth of the scripture in Corinthians? He had looked on the glory and he had been changed, and the more he thought about it, the more it changed him and developed with him. I was thinking that, even when Jesus resumed His path of humiliation here, the three could never have looked on Him without seeing that glory there. It was the same face, was it not?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Does Peter then prove the truth of the scripture in Corinthians? He had looked on the glory and he had been changed, and the more he thought about it, the more it changed him and developed with him. I was thinking that, even when Jesus resumed His path of humiliation here, the three could never have looked on Him without seeing that glory there. It was the same face, was it not?"
+     "speaker": "AJEW",
+     "text": [
+      "Well, that brings out a little what I discovered to be a deficiency in myself, the tendency to get an impression and pretty quickly leave it and look for something else."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Well, that brings out a little what I discovered to be a deficiency in myself, the tendency to get an impression and pretty quickly leave it and look for something else."
+     "speaker": "CB",
+     "text": [
+      "When Paul recites the divine intervention he recites it twice; the reference to the glory of the Person increases to its fulness in the last account. Is that the right effect?"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "When Paul recites the divine intervention he recites it twice; the reference to the glory of the Person increases to its fulness in the last account. Is that the right effect?"
+     "speaker": "AJEW",
+     "text": [
+      "I was thinking of that; Paul is a remarkable instance. Of course you cannot define just how much or how little that experience meant to him, but it would be a question of how much rather than how little. It really formed the whole man in view of what he was now in Christ's interests. I think Paul is, perhaps, the finest example we have of what I ventured to suggest, that the most formative element in the course that we have down here is gained in the contemplation of Christ."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I was thinking of that; Paul is a remarkable instance. Of course you cannot define just how much or how little that experience meant to him, but it would be a question of how much rather than how little. It really formed the whole man in view of what he was now in Christ's interests. I think Paul is, perhaps, the finest example we have of what I ventured to suggest, that the most formative element in the course that we have down here is gained in the contemplation of Christ."
+     "speaker": "ECB",
+     "text": [
+      "Could you say more as to how we might retain impressions and find them expand?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Could you say more as to how we might retain impressions and find them expand?"
+     "speaker": "AJEW",
+     "text": [
+      "Does that not involve the Holy Spirit closely? We might ask ourselves, was that first impression just the point? I might keep it, have it in my mind, but was it really the point that the Spirit of God had in view to commit to me? Maybe you go to the Spirit and speak to Him about it, and He comes in with something to augment what you had already, or to adjust it, and you get the point. Is that just?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Does that not involve the Holy Spirit closely? We might ask ourselves, was that first impression just the point? I might keep it, have it in my mind, but was it really the point that the Spirit of God had in view to commit to me? Maybe you go to the Spirit and speak to Him about it, and He comes in with something to augment what you had already, or to adjust it, and you get the point. Is that just?"
+     "speaker": "ECB",
+     "text": [
+      "I am sure that that is right. I was thinking of what we were saying together last Lord's day, that if we could pass on some of the benefit of our experience we would help one another. Is not Paul's experience of a man in Christ and hearing things that he could not repeat, an example of what you are saying? We would infer that we get the benefit of that in all his subsequent ministry."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I am sure that that is right. I was thinking of what we were saying together last Lord's day, that if we could pass on some of the benefit of our experience we would help one another. Is not Paul's experience of a man in Christ and hearing things that he could not repeat, an example of what you are saying? We would infer that we get the benefit of that in all his subsequent ministry."
+     "speaker": "AJEW",
+     "text": [
+      "Exactly; and it would impart the heavenly colour to all that he presented. That is something which ought to affect any of us who serve, do you not think, that there is a colour about the ministry? Is it a heavenly colour or is it just a circumstantial colour derived from something here? You long to elevate the beloved people of God, every one of them into their true portion by setting forth what is characteristically heavenly in the sense of colour - the detail of the ministry is supported by something in the way the truth is presented which keeps it at the heavenly level. Is that just?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Exactly; and it would impart the heavenly colour to all that he presented. That is something which ought to affect any of us who serve, do you not think, that there is a colour about the ministry? Is it a heavenly colour or is it just a circumstantial colour derived from something here? You long to elevate the beloved people of God, every one of them into their true portion by setting forth what is characteristically heavenly in the sense of colour - the detail of the ministry is supported by something in the way the truth is presented which keeps it at the heavenly level. Is that just?"
+     "speaker": "ECB",
+     "text": [
+      "I think it is not only just but vital. If the ministry is on any lower level the progress of the saints will be hindered. I think that those who serve can help the saints forward so far as they have ability, only by setting forward something that is somewhat above and beyond where the saints are at the moment. That in itself is challenging in view of what we have so often been taught, that no one can take the brethren beyond where he is himself."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think it is not only just but vital. If the ministry is on any lower level the progress of the saints will be hindered. I think that those who serve can help the saints forward so far as they have ability, only by setting forward something that is somewhat above and beyond where the saints are at the moment. That in itself is challenging in view of what we have so often been taught, that no one can take the brethren beyond where he is himself."
+     "speaker": "DJR",
+     "text": [
+      "Peter, in recounting the experience, refers to \"being with him on the holy mountain\". That puts Peter where Christ is, even though at that time it was before He went into glory; he was already there in company with Jesus, and he was able to appreciate that throughout the rest of his time of ministry."
+     ]
     },
     {
-     "speaker": "D.J.R.",
-     "text": "Peter, in recounting the experience, refers to \"being with him on the holy mountain\". That puts Peter where Christ is, even though at that time it was before He went into glory; he was already there in company with Jesus, and he was able to appreciate that throughout the rest of his time of ministry."
+     "speaker": "AJEW",
+     "text": [
+      "Do you not get the impression that the Lord delights to have us with Him in His own circumstances?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Do you not get the impression that the Lord delights to have us with Him in His own circumstances?"
+     "speaker": "DJR",
+     "text": [
+      "Is that what we experience in the verse that you read in 2 Corinthians?"
+     ]
     },
     {
-     "speaker": "D.J.R.",
-     "text": "Is that what we experience in the verse that you read in 2 Corinthians?"
+     "speaker": "AJEW",
+     "text": [
+      "You remember how Mr Darby used to press upon the saints that the assembly shares everything with Christ as Man. Well this is another thought on the same line. The Lord loves to have us with Him in His own sphere, where all that is of Himself shines in the distinctness and glory of it. I believe that is how what we speak of as spirituality is going to be developed. Get with the Lord in His own sphere."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "You remember how Mr Darby used to press upon the saints that the assembly shares everything with Christ as Man. Well this is another thought on the same line. The Lord loves to have us with Him in His own sphere, where all that is of Himself shines in the distinctness and glory of it. I believe that is how what we speak of as spirituality is going to be developed. Get with the Lord in His own sphere."
+     "speaker": "DAB",
+     "text": [
+      "Is it your thought that we should seek the Spirit's help to exploit our experience with Christ, with Jesus? If I may speak simply, we had the transfiguration before us where I was a fortnight ago and I can say I received something fresh from it, but how much it has grown according to its potential I could not really say."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Is it your thought that we should seek the Spirit's help to exploit our experience with Christ, with Jesus? If I may speak simply, we had the transfiguration before us where I was a fortnight ago and I can say I received something fresh from it, but how much it has grown according to its potential I could not really say."
+     "speaker": "AJEW",
+     "text": [
+      "Yes, indeed."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes, indeed."
+     "speaker": "CB",
+     "text": [
+      "It says \"looking on the glory of the Lord\". Where is it to be seen? Of course we know it in heaven but is it to be seen among the saints?"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "It says \"looking on the glory of the Lord\". Where is it to be seen? Of course we know it in heaven but is it to be seen among the saints?"
+     "speaker": "AJEW",
+     "text": [
+      "In your long time in the testimony you have been in meetings and gone away afterwards and just thought to yourself, well, we have seen the Lord tonight. You have been on your knees many, many times and you get up from your knees (you do not get up too quickly) and you say to yourself, I have seen Jesus, I have heard His voice. Have you not had those experiences?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "In your long time in the testimony you have been in meetings and gone away afterwards and just thought to yourself, well, we have seen the Lord tonight. You have been on your knees many, many times and you get up from your knees (you do not get up too quickly) and you say to yourself, I have seen Jesus, I have heard His voice. Have you not had those experiences?"
+     "speaker": "CB",
+     "text": [
+      "Indeed, I have, and we fall back on His faithfulness; the word is, at the end of Matthew, “I am with you all the days, until the completion of the age\". If we get away, He is still with us."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Indeed, I have, and we fall back on His faithfulness; the word is, at the end of Matthew, “I am with you all the days, until the completion of the age\". If we get away, He is still with us."
+     "speaker": "AJEW",
+     "text": [
+      "The Lord does not give us these experiences to adorn us in any way, or to bring ourselves forward, but that we may enter more fully upon the divine interests in the widest sense under His hand. He loves to work with us, to work on our affections, to deepen our feelings as to what relates to Himself. Nothing is to be lightly held, carelessly regarded, that concerns the interests of Christ."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The Lord does not give us these experiences to adorn us in any way, or to bring ourselves forward, but that we may enter more fully upon the divine interests in the widest sense under His hand. He loves to work with us, to work on our affections, to deepen our feelings as to what relates to Himself. Nothing is to be lightly held, carelessly regarded, that concerns the interests of Christ."
+     "speaker": "KGS",
+     "text": [
+      "I am still thinking about Jacob. The transformation there was complete; he had his name changed, and he limped. Looking on the glory of the Lord should have a permanent effect with us, should it not? The sun rising upon Jacob, too, as it rose over Peniel, would be for him the light of another day, a Man in another world dawning into his heart. Is that in line with what you are thinking of?"
+     ]
     },
     {
-     "speaker": "K.G.S.",
-     "text": "I am still thinking about Jacob. The transformation there was complete; he had his name changed, and he limped. Looking on the glory of the Lord should have a permanent effect with us, should it not? The sun rising upon Jacob, too, as it rose over Peniel, would be for him the light of another day, a Man in another world dawning into his heart. Is that in line with what you are thinking of?"
+     "speaker": "AJEW",
+     "text": [
+      "That is very much the line. It is failure to apprehend that line, or to take it on, which leads to poverty oft-times. Do we want to be poverty-stricken Christians? That is not really a right expression, because Christians characteristically are not poverty stricken, but you know what I mean. Are we just going to sink back into contentment with something less than the excellence of what the Lord is striving to press upon us and to develop in us for His satisfaction, for the Father's heart?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is very much the line. It is failure to apprehend that line, or to take it on, which leads to poverty oft-times. Do we want to be poverty-stricken Christians? That is not really a right expression, because Christians characteristically are not poverty stricken, but you know what I mean. Are we just going to sink back into contentment with something less than the excellence of what the Lord is striving to press upon us and to develop in us for His satisfaction, for the Father's heart?"
+     "speaker": "BWW",
+     "text": [
+      "Does that bring out that there should always be His side to what the Lord grants? Reference was made this morning in thanksgiving, to \"I am coming to you\"; we delight and count upon that faithfulness, but, in a certain sense, the \"you\" and what is for Him in that, is greater, is it not?"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Does that bring out that there should always be His side to what the Lord grants? Reference was made this morning in thanksgiving, to \"I am coming to you\"; we delight and count upon that faithfulness, but, in a certain sense, the \"you\" and what is for Him in that, is greater, is it not?"
+     "speaker": "AJEW",
+     "text": [
+      "Your quoting that raises in my mind the question, Is it just that He comes and then that He goes out; is that all there is to it? It is not just a movement on His part, it is a movement with divine intent, and we are often searched as to what intent we have as to it and how deep our appreciation of it and of Him is in consequence. I wonder how many of us here, through passing through this, another Lord's day, if the Lord leaves us another few hours, may get up in the morning with the impression that divine grace has linked us with the most wonderful order of things in the universe. That is the kind of impression that the Lord would give us, to help us to see His part in relation to it, His face shining as the sun. All these things are meaningful, but to what degree are they formative of our impressions and character spiritually?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Your quoting that raises in my mind the question, Is it just that He comes and then that He goes out; is that all there is to it? It is not just a movement on His part, it is a movement with divine intent, and we are often searched as to what intent we have as to it and how deep our appreciation of it and of Him is in consequence. I wonder how many of us here, through passing through this, another Lord's day, if the Lord leaves us another few hours, may get up in the morning with the impression that divine grace has linked us with the most wonderful order of things in the universe. That is the kind of impression that the Lord would give us, to help us to see His part in relation to it, His face shining as the sun. All these things are meaningful, but to what degree are they formative of our impressions and character spiritually?"
+     "speaker": "EP",
+     "text": [
+      "It is quite significant, is it not, that in John 20, where it so majestically says \"Jesus came\", a little lower in that chapter the testimony is in mind? I wondered whether \"Jesus came\" would touch our experience at the Supper; but the testimony if we are left here till tomorrow is to be in the light of that."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "It is quite significant, is it not, that in John 20, where it so majestically says \"Jesus came\", a little lower in that chapter the testimony is in mind? I wondered whether \"Jesus came\" would touch our experience at the Supper; but the testimony if we are left here till tomorrow is to be in the light of that."
+     "speaker": "AJEW",
+     "text": [
+      "Yes, quite so."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes, quite so."
+     "speaker": "ECB",
+     "text": [
+      "Just, perhaps, to touch John, are the verses in chapter 14 a kind of Pauline aspect of the Lord's ministry in John, that is to say, as you said earlier, not bringing what is heavenly down here but taking what is here up to heaven?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Just, perhaps, to touch John, are the verses in chapter 14 a kind of Pauline aspect of the Lord's ministry in John, that is to say, as you said earlier, not bringing what is heavenly down here but taking what is here up to heaven?"
+     "speaker": "AJEW",
+     "text": [
+      "Yes, I think that; and I believe it is good to see that side. But you stop and ponder a long time over this reference to the Father's house. It is brought in as if Jesus alone could bring it in, if you follow what I mean. He, the beloved Son, going to the Father, and going, too, with this in mind also: \"I go to prepare you a place\". What this brings out as to the Father's glory, the glory of His affections, the way that those affections find their answer in the only begotten Son! Then those affections, as they enlarge so to speak, embrace the saints as with Him in the many abodes. It is a wonderful touch of wealth, is it not? John evidently took this in. There are many indications of the quality that there was with John the apostle in taking on what was opened up to him and passing it on, imparting it to the saints. You would covet to be a John, would you not?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes, I think that; and I believe it is good to see that side. But you stop and ponder a long time over this reference to the Father's house. It is brought in as if Jesus alone could bring it in, if you follow what I mean. He, the beloved Son, going to the Father, and going, too, with this in mind also: \"I go to prepare you a place\". What this brings out as to the Father's glory, the glory of His affections, the way that those affections find their answer in the only begotten Son! Then those affections, as they enlarge so to speak, embrace the saints as with Him in the many abodes. It is a wonderful touch of wealth, is it not? John evidently took this in. There are many indications of the quality that there was with John the apostle in taking on what was opened up to him and passing it on, imparting it to the saints. You would covet to be a John, would you not?"
+     "speaker": "ECB",
+     "text": [
+      "Well, who would not? 'John's simple page', we hear of. In 2 Peter 1 \"the excellent glory\" is the Father's glory, is it not? I was impressed with it this morning, that Peter uses the word 'excellent' as that which surpasses; it is not that which is good in itself but what surpasses. Having been occupied in the glory with Jesus we learn that there is a glory greater than that, the Father's glory."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Well, who would not? 'John's simple page', we hear of. In 2 Peter 1 \"the excellent glory\" is the Father's glory, is it not? I was impressed with it this morning, that Peter uses the word 'excellent' as that which surpasses; it is not that which is good in itself but what surpasses. Having been occupied in the glory with Jesus we learn that there is a glory greater than that, the Father's glory."
+     "speaker": "AJEW",
+     "text": [
+      "Well, this passage was read just to touch that point of the Father's glory, and the fact of the Father being seen in Jesus - a stupendous thing! And a little lower down we have the Spirit being known in Jesus. That is another interesting point which corries out in the Person of Christ. \"Ye know him\" the Lord says as to another Comforter. That is manifestly that the disciples in being with Jesus Himself had seen in Him, in His Person, that which would perfectly represent what another Comforter would maintain"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Well, this passage was read just to touch that point of the Father's glory, and the fact of the Father being seen in Jesus - a stupendous thing! And a little lower down we have the Spirit being known in Jesus. That is another interesting point which corries out in the Person of Christ. \"Ye know him\" the Lord says as to another Comforter. That is manifestly that the disciples in being with Jesus Himself had seen in Him, in His Person, that which would perfectly represent what another Comforter would maintain"
+     "speaker": "ECB",
+     "text": [
+      "Are you suggesting that our sustained occupation with Jesus, with which you began, would help us further to understand the glories of the Father and of the Spirit?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Are you suggesting that our sustained occupation with Jesus, with which you began, would help us further to understand the glories of the Father and of the Spirit?"
+     "speaker": "AJEW",
+     "text": [
+      "Indeed so. What do you say to that?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Indeed so. What do you say to that?"
+     "speaker": "ECB",
+     "text": [
+      "I think that is right because it is in Him, in the Son, that that revelation is."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think that is right because it is in Him, in the Son, that that revelation is."
+     "speaker": "AJEW",
+     "text": [
+      "Yes, quite so."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes, quite so."
+     "speaker": "ECB",
+     "text": [
+      "After all, \"nor does any one know the Father, but the Son, and he to whom the Son may be pleased to reveal him\", Matt. 11: 27. I think if we are occupied with the Son we shall learn more about the Father."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "After all, \"nor does any one know the Father, but the Son, and he to whom the Son may be pleased to reveal him\", Matt. 11: 27. I think if we are occupied with the Son we shall learn more about the Father."
+     "speaker": "AJEW",
+     "text": [
+      "It may not be wholly relevant, but I often think of Mr Raven's fine expression, how God has put Himself into communication with man, that is, in Jesus."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It may not be wholly relevant, but I often think of Mr Raven's fine expression, how God has put Himself into communication with man, that is, in Jesus."
+     "speaker": "DJH",
+     "text": [
+      "Do we see the effect of all this in John in the Revelation? \"Immediately I became in the Spirit\", he says, and then he was carried away in Spirit and he was on another high mountain. There he saw substantially what had been formed through occupation with Christ, and it was able for the glory of God. Do you think that is the full answer?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Do we see the effect of all this in John in the Revelation? \"Immediately I became in the Spirit\", he says, and then he was carried away in Spirit and he was on another high mountain. There he saw substantially what had been formed through occupation with Christ, and it was able for the glory of God. Do you think that is the full answer?"
+     "speaker": "AJEW",
+     "text": [
+      "I was wondering that earlier in this meeting; Revelation would enlarge many of these thoughts to us. John was on the Isle of Patmos, a limited spot, becoming in Spirit on the Lord's day. That has often been referred to but it is a challenge to us and an encouragement to us."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I was wondering that earlier in this meeting; Revelation would enlarge many of these thoughts to us. John was on the Isle of Patmos, a limited spot, becoming in Spirit on the Lord's day. That has often been referred to but it is a challenge to us and an encouragement to us."
+     "speaker": "DJH",
+     "text": [
+      "Would the link with Matthew 17 be that it was apart, a high mountain apart? Patmos was apart, it was not a high mountain in one sense, but as becoming in Spirit he was on the same level, was he not?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Would the link with Matthew 17 be that it was apart, a high mountain apart? Patmos was apart, it was not a high mountain in one sense, but as becoming in Spirit he was on the same level, was he not?"
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "Well, we have to see, I believe, that there is a whole course of things which John speaks of in different ways, but he speaks of it in his epistles as \"the world\", which is totally apart from what we have been speaking of and the realm of what is heavenly and spiritual. And I believe, I say it with sorrow, that through not realising the 'apartness' of those heavenly things, some are still making shipwreck in the world."
+     "speaker": "AJEW",
+     "text": [
+      "Well, we have to see, I believe, that there is a whole course of things which John speaks of in different ways, but he speaks of it in his epistles as \"the world\", which is totally apart from what we have been speaking of and the realm of what is heavenly and spiritual. And I believe, I say it with sorrow, that through not realising the 'apartness' of those heavenly things, some are still making shipwreck in the world."
+     ]
     }
    ]
   },
@@ -504,6 +669,14 @@
      "text": "Children growing up amongst the Israelites and learning about Jehovah their holy God must have often wondered about the matter of sins and failings in their families. The answer to the hard question was the day of atonement, a divine provision. Once a year blood was shed as a covering for the sins of the nation, type of the precious blood of Christ which atones for all the sins of those who trust in Him. The first thing that the High Priest had to do in the yearly service was to go into the holiest part of the tabernacle with both his hands full of fragrant incense. This he burned in a censer so that a sweet smelling cloud filled the holy dwelling-place. It was a figure for us that the choice perfections of Jesus are ever before God and the sins of believers are covered by the blood of One so acceptable personally to Him. Although we can do no work of atonement ourselves we can come before God in prayer, thanksgiving and communion with both hands filled, as it were, with the perfections of Jesus. Do you do so?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "OCCUPATION WITH THE PERSON OF CHRIST",
+   "kind": "default_place",
+   "detail": "LONDON given to 10 names (\"All local unless otherwise stated\")"
   }
  ]
 }

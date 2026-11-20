@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,47 +26,58 @@
    "place": "VANCOUVER",
    "date": "4 April, 1976",
    "speakers": [
-    "A.J.E.W.",
-    "W.A.M.",
-    "G.H.B.",
-    "A.N.T.",
-    "A.J.",
-    "J.S.",
-    "J.R.B.",
-    "D.J.S."
+    "AJEW",
+    "WAM",
+    "GHB",
+    "ANT",
+    "AJ",
+    "JS",
+    "JRB",
+    "DJS"
    ],
    "initials": [
     {
-     "initials": "GHBGHB",
-     "name": "G.H.B. - G.H.Ballard"
+     "initials": "GHB",
+     "name": "G.H.Ballard",
+     "place": "VANCOUVER"
     },
     {
-     "initials": "JRBJRB",
-     "name": "J.R.B. - J.R.Bellamy"
+     "initials": "JRB",
+     "name": "J.R.Bellamy",
+     "place": "VANCOUVER"
     },
     {
-     "initials": "WAMWAM",
-     "name": "W.A.M. - W.A.Moseley"
+     "initials": "WAM",
+     "name": "W.A.Moseley",
+     "place": "VANCOUVER"
     },
     {
-     "initials": "DJSDJS",
-     "name": "D.J.S. - D.J.Soukoreff"
+     "initials": "DJS",
+     "name": "D.J.Soukoreff",
+     "place": "VANCOUVER"
     },
     {
-     "initials": "JSJS",
-     "name": "J.S. - J.Soukoreff"
+     "initials": "JS",
+     "name": "J.Soukoreff",
+     "place": "VANCOUVER"
     },
     {
      "initials": "ANT",
-     "name": "A.N.Thomson (all local)"
+     "name": "A.N.Thomson",
+     "place": "VANCOUVER"
     },
     {
      "initials": "AJEW",
      "name": "A.J.E.Welch",
      "place": "London"
+    },
+    {
+     "initials": "AJ",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "all local",
    "initials_text": [
     "G.H.B. - G.H.Ballard; J.R.B. - J.R.Bellamy; W.A.M. - W.A.Moseley;",
     "D.J.S. - D.J.Soukoreff; J.S. - J.Soukoreff; A.N.T. - A.N.Thomson (all local);",
@@ -74,370 +85,546 @@
    ],
    "paragraphs": [
     {
-     "speaker": "A.J.E.W.",
-     "text": "We had some sense this morning of the glory of Christ as giving effect to all God's thoughts, whilst through redemption and the gift of the Spirit we are brought very close to Christ. His personal preeminence is particularly brought out in the sense that what was necessary to establish God's thoughts was taken up and brought to completion by Him. One great line of thought which arises is the way He has set afoot what we speak of as the service of praise in the assembly, something of peculiar affectionate interest to us. As brought to God and brought to know God, and given some sense of our eternal place with Him, it becomes of deep interest to look into this precious service, what we often and rightly speak of as the service of God in the assembly in which the Lord has a place personally so distinct. Indeed we can speak of Him in many respects as having inaugurated the whole distinctive service of the assembly Godward."
+     "speaker": "AJEW",
+     "text": [
+      "We had some sense this morning of the glory of Christ as giving effect to all God's thoughts, whilst through redemption and the gift of the Spirit we are brought very close to Christ. His personal preeminence is particularly brought out in the sense that what was necessary to establish God's thoughts was taken up and brought to completion by Him. One great line of thought which arises is the way He has set afoot what we speak of as the service of praise in the assembly, something of peculiar affectionate interest to us. As brought to God and brought to know God, and given some sense of our eternal place with Him, it becomes of deep interest to look into this precious service, what we often and rightly speak of as the service of God in the assembly in which the Lord has a place personally so distinct. Indeed we can speak of Him in many respects as having inaugurated the whole distinctive service of the assembly Godward.",
+      "To think of God's love (a thought which must stir every true heart) finding an active responsive answer, and that in men, is to affect us. This first chapter we read is full of God establishing His pleasure in men - not in angels but in men. And the One established in the place of pre-eminence is not an angelic being but a Man. Though in His person He ever remains God, \"we see Jesus, crowned with glory and honour\". We get the idea of what is for God and His praise especially in God bringing many sons to glory: \"for it became him, for whom are all things, and by whom are all things, in bringing many sons to glory, to make perfect the leader of their salvation through sufferings\", pointing to the necessity for what touched us as the meeting began this morning; that is, the sufferings of Christ - unique sufferings: His time of suffering finished but the sufferings essential to this precious matter of bringing many sons to glory; that is, bringing into view a company fit to take up, as under Christ, the service of praise. Then we get in the following verses, verse twelve particularly, the way in which the service itself is before us: \"in the midst of the assembly will I sing thy praises\". That is a unique reference, never said in that sense of Israel or of any other company so far as I know. It is \"in the midst of the assembly\" that the Lord prophetically is said to sing God's praises.",
+      "I think we do well to reflect over the wonderful area in which we are occupied towards God and in a responsive sense, our affections active, our intelligence engaged so that what is directly for God's satisfaction is secured. We need ever to remember what wonderful grace it is that He proposes at all to secure His portion in men."
+     ]
     },
     {
-     "text": "To think of God's love (a thought which must stir every true heart) finding an active responsive answer, and that in men, is to affect us. This first chapter we read is full of God establishing His pleasure in men - not in angels but in men. And the One established in the place of pre-eminence is not an angelic being but a Man. Though in His person He ever remains God, \"we see Jesus, crowned with glory and honour\". We get the idea of what is for God and His praise especially in God bringing many sons to glory: \"for it became him, for whom are all things, and by whom are all things, in bringing many sons to glory, to make perfect the leader of their salvation through sufferings\", pointing to the necessity for what touched us as the meeting began this morning; that is, the sufferings of Christ - unique sufferings: His time of suffering finished but the sufferings essential to this precious matter of bringing many sons to glory; that is, bringing into view a company fit to take up, as under Christ, the service of praise. Then we get in the following verses, verse twelve particularly, the way in which the service itself is before us: \"in the midst of the assembly will I sing thy praises\". That is a unique reference, never said in that sense of Israel or of any other company so far as I know. It is \"in the midst of the assembly\" that the Lord prophetically is said to sing God's praises."
+     "speaker": "WAM",
+     "text": [
+      "Do you think the beginning for us would be being subject to Him? All things are to be put under His feet and, when they are, He will use everything for God. But we are to arrive at it, not in the way that it will be arrived at in the millennium, but by subjection to Him as we see Him."
+     ]
     },
     {
-     "text": "I think we do well to reflect over the wonderful area in which we are occupied towards God and in a responsive sense, our affections active, our intelligence engaged so that what is directly for God's satisfaction is secured. We need ever to remember what wonderful grace it is that He proposes at all to secure His portion in men."
+     "speaker": "AJEW",
+     "text": [
+      "That is a present reality: \"but now we see not yet all things subjected to him, but we see Jesus\"; that is, faith embraces Christ as He is and where He is."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "Do you think the beginning for us would be being subject to Him? All things are to be put under His feet and, when they are, He will use everything for God. But we are to arrive at it, not in the way that it will be arrived at in the millennium, but by subjection to Him as we see Him."
+     "speaker": "WAM",
+     "text": [
+      "Would it result in our subjecting ourselves?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is a present reality: \"but now we see not yet all things subjected to him, but we see Jesus\"; that is, faith embraces Christ as He is and where He is."
+     "speaker": "AJEW",
+     "text": [
+      "It is essential to see that; all things are not yet subjected to Him but there is the area where subjection to Him is the basis of all that goes forth and that is in the company of His saints in the assembly."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "Would it result in our subjecting ourselves?"
+     "speaker": "WAM",
+     "text": [
+      "So that in certain areas He has to use a rod of iron but you do not get that in the assembly."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is essential to see that; all things are not yet subjected to Him but there is the area where subjection to Him is the basis of all that goes forth and that is in the company of His saints in the assembly."
+     "speaker": "AJEW",
+     "text": [
+      "I thought that was fundamental to what we are seeking to say, so that as we assemble on Lord's day it is to the Lord's supper; that is, submission to Christ is the basis of our entering upon what belongs to the divine pleasure."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "So that in certain areas He has to use a rod of iron but you do not get that in the assembly."
+     "speaker": "WAM",
+     "text": [
+      "There is only one Man that is prominent."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I thought that was fundamental to what we are seeking to say, so that as we assemble on Lord's day it is to the Lord's supper; that is, submission to Christ is the basis of our entering upon what belongs to the divine pleasure."
+     "speaker": "GHB",
+     "text": [
+      "The assembly, the nearest thing to deity, is a suitable companion for Christ."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "There is only one Man that is prominent."
+     "speaker": "AJEW",
+     "text": [
+      "What a wonderful engagement for our minds to realise how close the assembly has been brought!"
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "The assembly, the nearest thing to deity, is a suitable companion for Christ."
+     "speaker": "GHB",
+     "text": [
+      "What a dignified position!"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "What a wonderful engagement for our minds to realise how close the assembly has been brought!"
+     "speaker": "AJEW",
+     "text": [
+      "How near we come! And how the Lord delights to intimate, by coming to us as He does, that here is a company very close to God, brought as near to God as the creature could be and in relationships which are entirely according to the heart of God Himself - \"bringing many sons to glory\". The proposal from the start is that nothing less than the place of sons is in mind for the praising company."
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "What a dignified position!"
+     "speaker": "GHB",
+     "text": [
+      "To be sons like Him dignifies the saints and we would be careful in His presence, would we not?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "How near we come! And how the Lord delights to intimate, by coming to us as He does, that here is a company very close to God, brought as near to God as the creature could be and in relationships which are entirely according to the heart of God Himself - \"bringing many sons to glory\". The proposal from the start is that nothing less than the place of sons is in mind for the praising company."
+     "speaker": "AJEW",
+     "text": [
+      "Quite so. What a matter to answer to the heart of God! What could be greater for man than to answer to the heart of God as knowing what His heart is? I was struck a little by the cup at the Supper this morning: \"this cup is the new covenant in my blood\", the Lord says; that is, the heart of God is told out and in the shedding of that blood there is the whole matter finalised. The way the heart of God is told out, putting it with reverence and feeling, there is no withdrawal of what is set out in that blood. It is the way God is toward men for blessing; the cup itself is the cup of blessing which we bless and God is reaching His end in man by way of blessing."
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "To be sons like Him dignifies the saints and we would be careful in His presence, would we not?"
+     "speaker": "WAM",
+     "text": [
+      "So we would have an appreciation, as under Christ, of the new covenant in a way that Israel will not have it."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so. What a matter to answer to the heart of God! What could be greater for man than to answer to the heart of God as knowing what His heart is? I was struck a little by the cup at the Supper this morning: \"this cup is the new covenant in my blood\", the Lord says; that is, the heart of God is told out and in the shedding of that blood there is the whole matter finalised. The way the heart of God is told out, putting it with reverence and feeling, there is no withdrawal of what is set out in that blood. It is the way God is toward men for blessing; the cup itself is the cup of blessing which we bless and God is reaching His end in man by way of blessing."
+     "speaker": "AJEW",
+     "text": [
+      "Certainly, because what is brought to us is not the letter of that covenant but the spirit and spring of it in the heart of God. You get the terms of the covenant established with Israel and they will have their own place in the working out of things, but behind the new covenant lies the very spring of it in the heart of God Himself. So the word as to the cup is \"this cup is the new covenant\"; that is, so far as Christianity is concerned, the whole bearing of the new covenant is set before us in that cup."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "So we would have an appreciation, as under Christ, of the new covenant in a way that Israel will not have it."
+     "speaker": "GHB",
+     "text": [
+      "So it is to be an easy, known relationship."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Certainly, because what is brought to us is not the letter of that covenant but the spirit and spring of it in the heart of God. You get the terms of the covenant established with Israel and they will have their own place in the working out of things, but behind the new covenant lies the very spring of it in the heart of God Himself. So the word as to the cup is \"this cup is the new covenant\"; that is, so far as Christianity is concerned, the whole bearing of the new covenant is set before us in that cup."
+     "speaker": "AJEW",
+     "text": [
+      "A relationship which tends to the most blessed sense of peace in God's presence. There is no thought that we are uneasy in engaging in His service or that any doubts should inhibit the outflow of what is for Him, no thought that any kind of sense of distance should come in. That is something which the Lord so feelingly provided for as He rose from the dead and came in among His beloved disciples; His word was \"Peace be to you\", \"Peace be to you\". Then a third time in John 20 He says \"Peace be to you\". The Lord has established peace."
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "So it is to be an easy, known relationship."
+     "speaker": "WAM",
+     "text": [
+      "Not only is the new covenant made known in Him but it says here that He tasted death for everything; so death has been removed, the enemy has been annulled."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "A relationship which tends to the most blessed sense of peace in God's presence. There is no thought that we are uneasy in engaging in His service or that any doubts should inhibit the outflow of what is for Him, no thought that any kind of sense of distance should come in. That is something which the Lord so feelingly provided for as He rose from the dead and came in among His beloved disciples; His word was \"Peace be to you\", \"Peace be to you\". Then a third time in John 20 He says \"Peace be to you\". The Lord has established peace."
+     "speaker": "AJEW",
+     "text": [
+      "All that relates to God's pleasure is set on what we could speak of as new ground."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "Not only is the new covenant made known in Him but it says here that He tasted death for everything; so death has been removed, the enemy has been annulled."
+     "speaker": "WAM",
+     "text": [
+      "These matters would have hindered the service of God proceeding - the enemy, he that has the might of death, and death itself."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "All that relates to God's pleasure is set on what we could speak of as new ground."
+     "speaker": "AJEW",
+     "text": [
+      "It is most amazing that God does away with that which is, I suppose of all things, the most commonly found amongst men - the fear of death and the bondage that it brings - meaning that now as a present thing His service is established. It is one thing to think of God having the mighty flow of response in the eternal scene but what this epistle would have in mind is that it is established in the assembly immediately in the presence of all that has stood against Christ and stands against the flow of that service; what is precious to God in an active sense is secured and it is Christ who secures it."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "These matters would have hindered the service of God proceeding - the enemy, he that has the might of death, and death itself."
+     "speaker": "WAM",
+     "text": [
+      "And the company that is equal to it - ''those sanctified\"."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is most amazing that God does away with that which is, I suppose of all things, the most commonly found amongst men - the fear of death and the bondage that it brings - meaning that now as a present thing His service is established. It is one thing to think of God having the mighty flow of response in the eternal scene but what this epistle would have in mind is that it is established in the assembly immediately in the presence of all that has stood against Christ and stands against the flow of that service; what is precious to God in an active sense is secured and it is Christ who secures it."
+     "speaker": "AJEW",
+     "text": [
+      "Quite so, a company that is in every sense fitted to engage in this service."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "And the company that is equal to it - ''those sanctified\"."
+     "speaker": "ANT",
+     "text": [
+      "So we are able now to sing and to enter into in some measure, 'Of the vast universe of bliss The centre Thou and Sun'. He has His unique place but we with Him."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so, a company that is in every sense fitted to engage in this service."
+     "speaker": "AJ",
+     "text": [
+      "E.W. I suppose it is the feature of this time of the Spirit that we are able to anticipate what is yet, in its fulness, to come in. The time of the Spirit is the time of the assembly and it will be one element of the mystery, as we speak of it, that God secures what is for the satisfaction of His own heart immediately. As Christ comes out of death and proceeds among His own, as we have on historical record in the ends of the gospels and the beginning of the Acts, the service of God in principle is established immediately and persons secured to have a full and fitting part in that service without any question of the glory of God being set aside by that service."
+     ]
     },
     {
-     "speaker": "A.N.T.",
-     "text": "So we are able now to sing and to enter into in some measure, 'Of the vast universe of bliss The centre Thou and Sun'. He has His unique place but we with Him."
+     "speaker": "ANT",
+     "text": [
+      "Would you say that God has in that way secured for Himself rest? What was undone, what was ruined in the fall, He has secured for Himself. It is an accomplished fact now in Christ in glory."
+     ]
     },
     {
-     "speaker": "A.J.",
-     "text": "E.W. I suppose it is the feature of this time of the Spirit that we are able to anticipate what is yet, in its fulness, to come in. The time of the Spirit is the time of the assembly and it will be one element of the mystery, as we speak of it, that God secures what is for the satisfaction of His own heart immediately. As Christ comes out of death and proceeds among His own, as we have on historical record in the ends of the gospels and the beginning of the Acts, the service of God in principle is established immediately and persons secured to have a full and fitting part in that service without any question of the glory of God being set aside by that service."
+     "speaker": "AJEW",
+     "text": [
+      "What wonderful lengths the love of Christ has gone to that we might be, in every sense, furnished to have part in that service! The point I mentioned, the point of peace, is all important. The spirits of the saints are not disturbed by that which in its character around us is calculated to disturb us to the very depths. The Lord is able by His presence and His living touch of love upon us to give us the sense of peace. He says \"I give my peace to you\" (John 14: 27); that is that the present conscious entrance upon relationship, especially our place as sons, is to bring us to the stable sense of peace. We are not uncertain. Anything which leaves us uncertain, any order of things which leaves us in any sense of insecurity, the Lord would meet by His own personal assurance of peace so that we enter upon the service of God undistracted and undisturbed by what would hinder peace."
+     ]
     },
     {
-     "speaker": "A.N.T.",
-     "text": "Would you say that God has in that way secured for Himself rest? What was undone, what was ruined in the fall, He has secured for Himself. It is an accomplished fact now in Christ in glory."
+     "speaker": "WAM",
+     "text": [
+      "What is your understanding of sanctification here?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "What wonderful lengths the love of Christ has gone to that we might be, in every sense, furnished to have part in that service! The point I mentioned, the point of peace, is all important. The spirits of the saints are not disturbed by that which in its character around us is calculated to disturb us to the very depths. The Lord is able by His presence and His living touch of love upon us to give us the sense of peace. He says \"I give my peace to you\" (John 14: 27); that is that the present conscious entrance upon relationship, especially our place as sons, is to bring us to the stable sense of peace. We are not uncertain. Anything which leaves us uncertain, any order of things which leaves us in any sense of insecurity, the Lord would meet by His own personal assurance of peace so that we enter upon the service of God undistracted and undisturbed by what would hinder peace."
+     "speaker": "AJEW",
+     "text": [
+      "\"He that sanctifies and those sanctified\" has the force of the suitable setting apart of the company for God; that is, it is set apart, we could almost use the word 'dedicated', to the divine pleasure. But this is done in a way that is entirely suitable; that is, the Lord through death has removed every question which arose against the saints and has brought into view a new order of things in which He gives His saints part; and this involves the setting apart of the saints to have their part with Him in this service. It was anticipated I suppose in the many promises the Lord made among His disciples when He was here; that is, He really took possession of that company of persons as being His, and His to use as it pleased Him, and that applies at the present time."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "What is your understanding of sanctification here?"
+     "speaker": "GHB",
+     "text": [
+      "In John it says they \"rejoiced therefore, having seen the Lord\", chap 20: 20. That is open for us today; the impressions we receive are to be like that."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "\"He that sanctifies and those sanctified\" has the force of the suitable setting apart of the company for God; that is, it is set apart, we could almost use the word 'dedicated', to the divine pleasure. But this is done in a way that is entirely suitable; that is, the Lord through death has removed every question which arose against the saints and has brought into view a new order of things in which He gives His saints part; and this involves the setting apart of the saints to have their part with Him in this service. It was anticipated I suppose in the many promises the Lord made among His disciples when He was here; that is, He really took possession of that company of persons as being His, and His to use as it pleased Him, and that applies at the present time."
+     "speaker": "AJEW",
+     "text": [
+      "Indicating the question of what governs us as we move on together. One thing governed them there, that is that they had seen the Lord. The suggestion is that whatever else might have been engaging their minds and hearts prior to that, the coming in of Jesus had turned them in one direction only. They had seen the Lord and that is what governs them."
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "In John it says they \"rejoiced therefore, having seen the Lord\", chap 20: 20. That is open for us today; the impressions we receive are to be like that."
+     "speaker": "GHB",
+     "text": [
+      "That is what we want, do we not? We want an impression each time, a fresh one to carry us through the week. I think it is wonderful to get into these things because they really are life to us, are they not?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Indicating the question of what governs us as we move on together. One thing governed them there, that is that they had seen the Lord. The suggestion is that whatever else might have been engaging their minds and hearts prior to that, the coming in of Jesus had turned them in one direction only. They had seen the Lord and that is what governs them."
+     "speaker": "AJEW",
+     "text": [
+      "And is it your experience that we get it?"
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "That is what we want, do we not? We want an impression each time, a fresh one to carry us through the week. I think it is wonderful to get into these things because they really are life to us, are they not?"
+     "speaker": "GHB",
+     "text": [
+      "Yes, we do."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "And is it your experience that we get it?"
+     "speaker": "AJEW",
+     "text": [
+      "I think we would all endorse that, that it is important, as you say, to get a vital impression because this means that the service of praise is not a question of form or dead activity, it is something which is in living freshness and life and affection."
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "Yes, we do."
+     "speaker": "GHB",
+     "text": [
+      "It is ready response."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I think we would all endorse that, that it is important, as you say, to get a vital impression because this means that the service of praise is not a question of form or dead activity, it is something which is in living freshness and life and affection."
+     "speaker": "ANT",
+     "text": [
+      "When those going to Emmaus recognised the Lord (He made Himself known to them in the breaking of bread) they immediately returned to Jerusalem. So this has its uniting power, does it not? The power of the Spirit and the unity of the Spirit set us together in relation to the greatness of what we are speaking of."
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "It is ready response."
+     "speaker": "AJEW",
+     "text": [
+      "That is a fine instance because they changed their course completely. It is very touching and comforting to read that chapter because they went away to Emmaus. Why did they go? The chapter does not tell us. It was a diversion, two of them being diverted, and the Lord is not content that even two of His own should be diverted. He not only follows them in grace but He does not immediately direct them back by the word of authority which He could rightly use; He introduces Himself to them. He works through to the point where they discern that it is indeed Jesus, no one else; that is, the ground is cleared and those persons secured with Christ dominant in their hearts."
+     ]
     },
     {
-     "speaker": "A.N.T.",
-     "text": "When those going to Emmaus recognised the Lord (He made Himself known to them in the breaking of bread) they immediately returned to Jerusalem. So this has its uniting power, does it not? The power of the Spirit and the unity of the Spirit set us together in relation to the greatness of what we are speaking of."
+     "speaker": "WAM",
+     "text": [
+      "It is interesting that they speak about the women that saw the vision of angels that say He is risen, but they said, \"him they saw not\". So that was the vital thing, they had the doctrine and truth of it - it was assured by angels - but they had not seen the Person."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is a fine instance because they changed their course completely. It is very touching and comforting to read that chapter because they went away to Emmaus. Why did they go? The chapter does not tell us. It was a diversion, two of them being diverted, and the Lord is not content that even two of His own should be diverted. He not only follows them in grace but He does not immediately direct them back by the word of authority which He could rightly use; He introduces Himself to them. He works through to the point where they discern that it is indeed Jesus, no one else; that is, the ground is cleared and those persons secured with Christ dominant in their hearts."
+     "speaker": "AJEW",
+     "text": [
+      "A very vital point because in general the dear brethren are not ignorant of what the Supper has in mind, and we might assume something about it. This is the normal course of things but involves fresh experience, a fresh touch."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "It is interesting that they speak about the women that saw the vision of angels that say He is risen, but they said, \"him they saw not\". So that was the vital thing, they had the doctrine and truth of it - it was assured by angels - but they had not seen the Person."
+     "speaker": "WAM",
+     "text": [
+      "Even having our hearts burning is not enough. That was before He was made known to them."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "A very vital point because in general the dear brethren are not ignorant of what the Supper has in mind, and we might assume something about it. This is the normal course of things but involves fresh experience, a fresh touch."
+     "speaker": "AJEW",
+     "text": [
+      "They go back to it and realise that something was going on in experience which was leading in this direction; but now they have come to the point to which the experience leads; that is, they have come to Jesus. They have reached a certain terminus, if you like, to the course of activity they had been on."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "Even having our hearts burning is not enough. That was before He was made known to them."
+     "speaker": "WAM",
+     "text": [
+      "That is the key to everything in our day when everything is in ruin publicly."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "They go back to it and realise that something was going on in experience which was leading in this direction; but now they have come to the point to which the experience leads; that is, they have come to Jesus. They have reached a certain terminus, if you like, to the course of activity they had been on."
+     "speaker": "ANT",
+     "text": [
+      "And eternally everything will centre in that blessed Man, God's glory shining in His face."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "That is the key to everything in our day when everything is in ruin publicly."
+     "speaker": "AJEW",
+     "text": [
+      "It is important to see that and along with that is the point that, as we are engaged in what we speak of as the service of God, Christ must always be in the very close sense before us. Not that He is all the time the object of the praise; the Father would be that; the Spirit, at a certain point, would be that; but we have to keep near to Christ in relation to it because we learn from Him what belongs to the heavenly realm of response and, as we are with the Father, we would be in His presence as apprehending the unique place that Christ fills - something that we touched a little this morning, that He is there in His own uniqueness as the One who has given effect to things. He loves to bring in others alongside Himself in the course of what He has effected but He has given effect to it; and that glory, as John 17 implies, remains and is unique to Christ. Though brought near as the saints are, they have no part in that glory, that is unique to Christ."
+     ]
     },
     {
-     "speaker": "A.N.T.",
-     "text": "And eternally everything will centre in that blessed Man, God's glory shining in His face."
+     "speaker": "JS",
+     "text": [
+      "Sometimes persons ask you what are you occupied with, what do the brethren do? There are many things we do not do but this is something that we do participate in that is very important and may not be immediately obvious or appreciated, that at the present time we enter into something that is eternal."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is important to see that and along with that is the point that, as we are engaged in what we speak of as the service of God, Christ must always be in the very close sense before us. Not that He is all the time the object of the praise; the Father would be that; the Spirit, at a certain point, would be that; but we have to keep near to Christ in relation to it because we learn from Him what belongs to the heavenly realm of response and, as we are with the Father, we would be in His presence as apprehending the unique place that Christ fills - something that we touched a little this morning, that He is there in His own uniqueness as the One who has given effect to things. He loves to bring in others alongside Himself in the course of what He has effected but He has given effect to it; and that glory, as John 17 implies, remains and is unique to Christ. Though brought near as the saints are, they have no part in that glory, that is unique to Christ."
+     "speaker": "AJEW",
+     "text": [
+      "Of course we shall eternally engage in it, in a totally renewed order of things; our bodies will be changed but the relationships in which the service goes on remain. Our place with Christ in the assembly remains; our place in sonship with the Father remains and the service which fitly belongs to those relationships goes through in some sense to what is eternal; and it is the wonderful touch of the Spirit that what belongs in eternity is set on by the Lord even in this present time in the presence of what has occasioned Him suffering."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Sometimes persons ask you what are you occupied with, what do the brethren do? There are many things we do not do but this is something that we do participate in that is very important and may not be immediately obvious or appreciated, that at the present time we enter into something that is eternal."
+     "speaker": "WAM",
+     "text": [
+      "Mary's service was not really appreciated by some. Ministering to the poor seemed to be valued above it but the Lord says \"me ye have not always\" (John 12: 8) and that would be the secret of it."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Of course we shall eternally engage in it, in a totally renewed order of things; our bodies will be changed but the relationships in which the service goes on remain. Our place with Christ in the assembly remains; our place in sonship with the Father remains and the service which fitly belongs to those relationships goes through in some sense to what is eternal; and it is the wonderful touch of the Spirit that what belongs in eternity is set on by the Lord even in this present time in the presence of what has occasioned Him suffering."
+     "speaker": "AJEW",
+     "text": [
+      "It would indeed. So it is not on the line of human understanding, or of the human sense of values. We need to value things as they are valued in God's presence and God sets a great valuation on this element of response of praise."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "Mary's service was not really appreciated by some. Ministering to the poor seemed to be valued above it but the Lord says \"me ye have not always\" (John 12: 8) and that would be the secret of it."
+     "speaker": "ANT",
+     "text": [
+      "So we experience our portion now: \"blessed us with every spiritual blessing in the heavenlies in Christ\" (Eph 1: 3); but one day we shall be with Christ, in His presence."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It would indeed. So it is not on the line of human understanding, or of the human sense of values. We need to value things as they are valued in God's presence and God sets a great valuation on this element of response of praise."
+     "speaker": "AJEW",
+     "text": [
+      "The service we are speaking of belongs there: it belongs in its character to heaven. It is a heavenly response that we engage in, that everything might be fit for God who is served. Nothing is out of sympathy or accord with the glory and blessedness of the God who is served. The ground is laid for that in this chapter by the work of Christ: \"it became him\" (that is, God was acting in a manner that is entirely in sympathy with what He is) \"for whom are all things, and by whom are all things, in bringing many sons to glory, to make perfect the leader of their salvation through sufferings\". That was the way He took to make perfect the Leader of their salvation. His perfecting would involve that Christ is gone into a new position on high in view of men being brought in in relation to Him to serve God."
+     ]
     },
     {
-     "speaker": "A.N.T.",
-     "text": "So we experience our portion now: \"blessed us with every spiritual blessing in the heavenlies in Christ\" (Eph 1: 3); but one day we shall be with Christ, in His presence."
+     "speaker": "ANT",
+     "text": [
+      "Is there a touch of what you are saying now in the discussion on the holy mount in relation to what the Lord was facing? So much is involved in His setting Himself to accomplish that work; the reconciliation of all things centres in the work that is spoken of there on the mount."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The service we are speaking of belongs there: it belongs in its character to heaven. It is a heavenly response that we engage in, that everything might be fit for God who is served. Nothing is out of sympathy or accord with the glory and blessedness of the God who is served. The ground is laid for that in this chapter by the work of Christ: \"it became him\" (that is, God was acting in a manner that is entirely in sympathy with what He is) \"for whom are all things, and by whom are all things, in bringing many sons to glory, to make perfect the leader of their salvation through sufferings\". That was the way He took to make perfect the Leader of their salvation. His perfecting would involve that Christ is gone into a new position on high in view of men being brought in in relation to Him to serve God."
+     "speaker": "AJEW",
+     "text": [
+      "Your use of the term 'reconciliation' is important because it has God himself and His portion in mind, and the removal of the distance that had come in which God effected by removing the man in judgment which could only be at distance. God has done that in the work of Christ. He has effected reconciliation; so that, as often has been said, Where distance once was, nearness has been established. And that is in reconciliation, for the pleasure of God. It is that He might have His pleasure, because God will never find His pleasure in that which introduces some element of distance before Him. It is foreign to all that He is in the blessedness of His nature."
+     ]
     },
     {
-     "speaker": "A.N.T.",
-     "text": "Is there a touch of what you are saying now in the discussion on the holy mount in relation to what the Lord was facing? So much is involved in His setting Himself to accomplish that work; the reconciliation of all things centres in the work that is spoken of there on the mount."
+     "speaker": "JRB",
+     "text": [
+      "\"Bringing many sons to glory\" involves our being recovered to a right, happy relationship with God rather than the idea of a place, does it not? In Romans it speaks of our having \"come short of the glory of God\" (chap 3: 23) but this is man recovered to it, is it not?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Your use of the term 'reconciliation' is important because it has God himself and His portion in mind, and the removal of the distance that had come in which God effected by removing the man in judgment which could only be at distance. God has done that in the work of Christ. He has effected reconciliation; so that, as often has been said, Where distance once was, nearness has been established. And that is in reconciliation, for the pleasure of God. It is that He might have His pleasure, because God will never find His pleasure in that which introduces some element of distance before Him. It is foreign to all that He is in the blessedness of His nature."
+     "speaker": "AJEW",
+     "text": [
+      "It is indeed; and the expression 'glory' here - \"bringing many sons to glory\" - is, as you say, not a location but the whole realm of relationships into which God brings us. Truly, this is glory! So we have the expression in 2 Corinthians 3, \"from glory to glory\" (v 18). The whole matter that is opening up to us is glorious; there are characters of glory that differ but the whole bent of the service, as we engage in it, is from glory to glory."
+     ]
     },
     {
-     "speaker": "J.R.B.",
-     "text": "\"Bringing many sons to glory\" involves our being recovered to a right, happy relationship with God rather than the idea of a place, does it not? In Romans it speaks of our having \"come short of the glory of God\" (chap 3: 23) but this is man recovered to it, is it not?"
+     "speaker": "ANT",
+     "text": [
+      "It says, \"but we all, looking on the glory of the Lord\"."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is indeed; and the expression 'glory' here - \"bringing many sons to glory\" - is, as you say, not a location but the whole realm of relationships into which God brings us. Truly, this is glory! So we have the expression in 2 Corinthians 3, \"from glory to glory\" (v 18). The whole matter that is opening up to us is glorious; there are characters of glory that differ but the whole bent of the service, as we engage in it, is from glory to glory."
+     "speaker": "AJEW",
+     "text": [
+      "That confirms what was remarked that Christ is to be kept before us. We do not, as we touch the wonderful levels of the service of God, lose touch with Christ. It is essential that we have this close link: \"I will declare thy name to my brethren; in the midst of the assembly will I sing thy praises\". How attractive this is, the Lord singing the Father's praises in the midst of the assembly! It is the service of song in the buoyant liberty which is characteristic of it but established in relation to Christ and those whom He has with Him, He being in His place in the midst. This proceeds in direct relation to Christ and that is the great point for us as we engage in it."
+     ]
     },
     {
-     "speaker": "A.N.T.",
-     "text": "It says, \"but we all, looking on the glory of the Lord\"."
+     "speaker": "ANT",
+     "text": [
+      "Is it not wonderful that the matter of song is brought in? It embodies the sisters and the brothers, with Christ leading the praise. So that all - every heart, all affections - are centred in this holy matter."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That confirms what was remarked that Christ is to be kept before us. We do not, as we touch the wonderful levels of the service of God, lose touch with Christ. It is essential that we have this close link: \"I will declare thy name to my brethren; in the midst of the assembly will I sing thy praises\". How attractive this is, the Lord singing the Father's praises in the midst of the assembly! It is the service of song in the buoyant liberty which is characteristic of it but established in relation to Christ and those whom He has with Him, He being in His place in the midst. This proceeds in direct relation to Christ and that is the great point for us as we engage in it."
+     "speaker": "AJEW",
+     "text": [
+      "It becomes a positive concern on our side that our relation to Christ be fully maintained as the service goes on so that He can, in the way that His love delights, prompt us and direct us in the flow of the service. He loves to touch a chord in the affections of His saints as if (to use a word which I trust will be seemly) to fit it into the whole flow of praise Godward. The Lord is able to do that, and the assembly's relation with Christ is so intimate and sensitive that in His place as Head He can do this. So the Lord's place as Head enters into the service, that He prompts things and gives impulse to much that finds expression in the utterances of those who take part."
+     ]
     },
     {
-     "speaker": "A.N.T.",
-     "text": "Is it not wonderful that the matter of song is brought in? It embodies the sisters and the brothers, with Christ leading the praise. So that all - every heart, all affections - are centred in this holy matter."
+     "speaker": "JRB",
+     "text": [
+      "Is it not beautiful how quickly the Lord engages the woman in John 4 with this side of things, as though what He immediately has in His affections is what this woman would be as an instrument available to Him in leading out praise to the Father."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It becomes a positive concern on our side that our relation to Christ be fully maintained as the service goes on so that He can, in the way that His love delights, prompt us and direct us in the flow of the service. He loves to touch a chord in the affections of His saints as if (to use a word which I trust will be seemly) to fit it into the whole flow of praise Godward. The Lord is able to do that, and the assembly's relation with Christ is so intimate and sensitive that in His place as Head He can do this. So the Lord's place as Head enters into the service, that He prompts things and gives impulse to much that finds expression in the utterances of those who take part."
+     "speaker": "AJEW",
+     "text": [
+      "There is an immense volume in that because the Lord does not raise questions with such a person as that woman was without having definite intent in relation to the things that He raises, so that He has her in mind for a part in the service of praise that she should become what He later speaks of as a true worshipper; that is, not just a formal worshipper (an idea which it would appear she understood to a certain extent) belonging to an established system of service. She understood that side - \"in this mountain\" - but the Lord is at another quite distinct side. This is not a formal course of service. This is something involving the reality of what persons are inwardly, that they are secured as worshippers and their function as worshippers is in mind."
+     ]
     },
     {
-     "speaker": "J.R.B.",
-     "text": "Is it not beautiful how quickly the Lord engages the woman in John 4 with this side of things, as though what He immediately has in His affections is what this woman would be as an instrument available to Him in leading out praise to the Father."
+     "speaker": "GHB",
+     "text": [
+      "Would there be a power of attraction in that woman?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "There is an immense volume in that because the Lord does not raise questions with such a person as that woman was without having definite intent in relation to the things that He raises, so that He has her in mind for a part in the service of praise that she should become what He later speaks of as a true worshipper; that is, not just a formal worshipper (an idea which it would appear she understood to a certain extent) belonging to an established system of service. She understood that side - \"in this mountain\" - but the Lord is at another quite distinct side. This is not a formal course of service. This is something involving the reality of what persons are inwardly, that they are secured as worshippers and their function as worshippers is in mind."
+     "speaker": "AJEW",
+     "text": [
+      "The power of attraction to Christ and His wondrous readiness to have to say to her, to carry her through to the full end. The Lord is so ready to take us on. We have made our many mistakes; that woman had made many, her history was such that she diverted a lot of times from the straight course but the Lord is having to say to her with a single glorious matter in His mind and, you might say, He is leading her up to it. He is not just leaving the proposal with her."
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "Would there be a power of attraction in that woman?"
+     "speaker": "GHB",
+     "text": [
+      "So she becomes a clean vessel fit for the Master's use."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The power of attraction to Christ and His wondrous readiness to have to say to her, to carry her through to the full end. The Lord is so ready to take us on. We have made our many mistakes; that woman had made many, her history was such that she diverted a lot of times from the straight course but the Lord is having to say to her with a single glorious matter in His mind and, you might say, He is leading her up to it. He is not just leaving the proposal with her."
+     "speaker": "AJEW",
+     "text": [
+      "Exactly. She goes back into the city and says, \"Come, see a man\". That has changed everything for her - she has seen Jesus, she has seen a Man who is everything to her heart and that becomes effective in her to bring her to what the Lord has in view."
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "So she becomes a clean vessel fit for the Master's use."
+     "speaker": "WAM",
+     "text": [
+      "What do you think is the difference between what you have been speaking of in this chapter where you have His headship and what you get in chapter 8 where He is the Minister of the sanctuary?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Exactly. She goes back into the city and says, \"Come, see a man\". That has changed everything for her - she has seen Jesus, she has seen a Man who is everything to her heart and that becomes effective in her to bring her to what the Lord has in view."
+     "speaker": "AJEW",
+     "text": [
+      "I thought this passage in chapter 8 would have a very strong link with what we have been saying because it is, in a certain sense, an official position that the Lord has taken."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "What do you think is the difference between what you have been speaking of in this chapter where you have His headship and what you get in chapter 8 where He is the Minister of the sanctuary?"
+     "speaker": "WAM",
+     "text": [
+      "That is what I thought; it is a little more official than personal, is it not?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I thought this passage in chapter 8 would have a very strong link with what we have been saying because it is, in a certain sense, an official position that the Lord has taken."
+     "speaker": "AJEW",
+     "text": [
+      "And it has perhaps a wider bearing; that is, He stands related to the whole glorious matter \"of the true tabernacle, which the Lord has pitched, and not man\". \"The true tabernacle\" would, I suppose, be a little in line with what we were speaking of as to the woman in John 4 where it is a question of true worshippers; not the type, not the thing in figure, but in reality. What is in mind in this passage is the service in its true full character and reality, not just in a figure."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "That is what I thought; it is a little more official than personal, is it not?"
+     "speaker": "WAM",
+     "text": [
+      "So that the literal thing was just the shadow of what has really come in."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "And it has perhaps a wider bearing; that is, He stands related to the whole glorious matter \"of the true tabernacle, which the Lord has pitched, and not man\". \"The true tabernacle\" would, I suppose, be a little in line with what we were speaking of as to the woman in John 4 where it is a question of true worshippers; not the type, not the thing in figure, but in reality. What is in mind in this passage is the service in its true full character and reality, not just in a figure."
+     "speaker": "ANT",
+     "text": [
+      "She might have been occupied with position but she became occupied with the Person."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "So that the literal thing was just the shadow of what has really come in."
+     "speaker": "AJEW",
+     "text": [
+      "That is what is worked out in that woman's case. She understood the significance of certain places which she can name and the significance of certain parts of the history as to Jacob and so forth; but the Lord is not leading her along that line at all, He is engaging her with Himself."
+     ]
     },
     {
-     "speaker": "A.N.T.",
-     "text": "She might have been occupied with position but she became occupied with the Person."
+     "speaker": "WAM",
+     "text": [
+      "So that, in the moment you get the instance of the woman that cast in the mite, the temple has to go. The Lord says that there is not going to be a stone left upon a stone - what has come in is the true thing."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is what is worked out in that woman's case. She understood the significance of certain places which she can name and the significance of certain parts of the history as to Jacob and so forth; but the Lord is not leading her along that line at all, He is engaging her with Himself."
+     "speaker": "AJEW",
+     "text": [
+      "That is a beautiful instance because it shows what the heart of that woman was. As has often been said, she might have kept one for herself and she would not have been doing badly by so doing but she cast in both; it is \"all her living\", as the Lord says. That would have its bearing upon us as to our attitude to what ministers to the pleasure of God."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "So that, in the moment you get the instance of the woman that cast in the mite, the temple has to go. The Lord says that there is not going to be a stone left upon a stone - what has come in is the true thing."
+     "speaker": "WAM",
+     "text": [
+      "So that could only go on to the true tabernacle; the old was not great enough for that."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is a beautiful instance because it shows what the heart of that woman was. As has often been said, she might have kept one for herself and she would not have been doing badly by so doing but she cast in both; it is \"all her living\", as the Lord says. That would have its bearing upon us as to our attitude to what ministers to the pleasure of God."
+     "speaker": "AJEW",
+     "text": [
+      "That is right. This springs in the chapter from the thought of the high priest which, as you said, has a certain official bearing. It involves the way the Lord will sustain the whole service and the personal part that He takes up in view of the service proceeding and being sustained. He sets things in the due order in the presence of God, does He not?"
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "So that could only go on to the true tabernacle; the old was not great enough for that."
+     "speaker": "WAM",
+     "text": [
+      "So that the Lord glorifies even what is official. The office does not add anything to Him: He adds something to the office. No high priest ever filled out the office as He will."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is right. This springs in the chapter from the thought of the high priest which, as you said, has a certain official bearing. It involves the way the Lord will sustain the whole service and the personal part that He takes up in view of the service proceeding and being sustained. He sets things in the due order in the presence of God, does He not?"
+     "speaker": "AJEW",
+     "text": [
+      "No, it far exceeds the official thought and yet it is in line with what the official thought had in view. Moreover it is of deep interest to me to see the suggestion of power here: \"who has sat down on the right hand of the throne of the greatness in the heavens\". That is the place of power; that is, the Lord is perfectly able to sustain this service. We need power for it. We cannot carry it forward in our own vitality or strength; it is a question of the power, what is spoken of in another scripture as \"the power which works in us\", Eph 3: 20. There is power to sustain the saints in the service immediately, spiritually known but nevertheless real power to engage us with divine thoughts and with divine Persons in the service."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "So that the Lord glorifies even what is official. The office does not add anything to Him: He adds something to the office. No high priest ever filled out the office as He will."
+     "speaker": "GHB",
+     "text": [
+      "So we are to be at home in that realm."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "No, it far exceeds the official thought and yet it is in line with what the official thought had in view. Moreover it is of deep interest to me to see the suggestion of power here: \"who has sat down on the right hand of the throne of the greatness in the heavens\". That is the place of power; that is, the Lord is perfectly able to sustain this service. We need power for it. We cannot carry it forward in our own vitality or strength; it is a question of the power, what is spoken of in another scripture as \"the power which works in us\", Eph 3: 20. There is power to sustain the saints in the service immediately, spiritually known but nevertheless real power to engage us with divine thoughts and with divine Persons in the service."
+     "speaker": "AJEW",
+     "text": [
+      "Quite so. There is a remarkable combination of thoughts in these two verses in Hebrews 8. It is \"the throne of the greatness in the heavens\", the glory of God conveyed in that throne and all that is related to it; and then the \"minister of the holy places and of the true tabernacle, which the Lord has pitched, and not man\", as if the Spirit of God turns us immediately to consider the order of service which fitly is before God in view of His satisfaction and His rest."
+     ]
     },
     {
-     "speaker": "G.H.B.",
-     "text": "So we are to be at home in that realm."
+     "speaker": "DJS",
+     "text": [
+      "How did the woman casting in her two mites change the system?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so. There is a remarkable combination of thoughts in these two verses in Hebrews 8. It is \"the throne of the greatness in the heavens\", the glory of God conveyed in that throne and all that is related to it; and then the \"minister of the holy places and of the true tabernacle, which the Lord has pitched, and not man\", as if the Spirit of God turns us immediately to consider the order of service which fitly is before God in view of His satisfaction and His rest."
+     "speaker": "WAM",
+     "text": [
+      "What I was saying was that when that incident comes in, the Lord immediately says that there is not going to be a stone left upon a stone - the old system has to go because what has now come in belongs to the new system."
+     ]
     },
     {
-     "speaker": "D.J.S.",
-     "text": "How did the woman casting in her two mites change the system?"
+     "speaker": "AJEW",
+     "text": [
+      "So it is not exactly a question of changing the old system but of bringing in the new and engaging us with the new. The old system remains, in fact it remains to the present time in its formal character, but the Lord has introduced something distinct and fresh with which He loves to occupy us."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "What I was saying was that when that incident comes in, the Lord immediately says that there is not going to be a stone left upon a stone - the old system has to go because what has now come in belongs to the new system."
+     "speaker": "ANT",
+     "text": [
+      "So we often sing 'Life is found alone in Jesus'. That is what the woman proved; her living is found in Him."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "So it is not exactly a question of changing the old system but of bringing in the new and engaging us with the new. The old system remains, in fact it remains to the present time in its formal character, but the Lord has introduced something distinct and fresh with which He loves to occupy us."
+     "speaker": "AJEW",
+     "text": [
+      "Quite so: and the springing up of the Spirit which is touched in the woman's case - the living water - is crucial to what we are saying. It is the Spirit who brings us into the conscious experience of these things and who becomes in the service, at least as I apprehend, the sustaining power in which the service goes on under Christ."
+     ]
     },
     {
-     "speaker": "A.N.T.",
-     "text": "So we often sing 'Life is found alone in Jesus'. That is what the woman proved; her living is found in Him."
+     "speaker": "WAM",
+     "text": [
+      "That is how things go in Hebrews, they are displaced by something greater, are they not? There is that which is decaying and ready to vanish but it is because of what is greater having come in."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so: and the springing up of the Spirit which is touched in the woman's case - the living water - is crucial to what we are saying. It is the Spirit who brings us into the conscious experience of these things and who becomes in the service, at least as I apprehend, the sustaining power in which the service goes on under Christ."
+     "speaker": "AJEW",
+     "text": [
+      "God has intimated that one order of things is superseded and He has brought in the new and it is not a stage toward something else. What He has brought in relates to His final glorious thoughts for men. This is not to be superseded in turn by something else save that the whole condition of things will be changed but the new is something which abides."
+     ]
     },
     {
-     "speaker": "W.A.M.",
-     "text": "That is how things go in Hebrews, they are displaced by something greater, are they not? There is that which is decaying and ready to vanish but it is because of what is greater having come in."
+     "speaker": "WAM",
+     "text": [
+      "What marks man's world is something continually superseding something else but nothing final is ever arrived at."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "God has intimated that one order of things is superseded and He has brought in the new and it is not a stage toward something else. What He has brought in relates to His final glorious thoughts for men. This is not to be superseded in turn by something else save that the whole condition of things will be changed but the new is something which abides."
-    },
-    {
-     "speaker": "W.A.M.",
-     "text": "What marks man's world is something continually superseding something else but nothing final is ever arrived at."
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "This is where something final is arrived at - the glory of it - and it reflects glory upon Christ as the One who in His mediatorial place establishes and sustains the new and the final thing. What we are to gain out of considering this together is the unique glory that attaches to Christ and that we may be more established in our proper relationship to Him so that the service may proceed in its worth and its true liberty."
+     "speaker": "AJEW",
+     "text": [
+      "This is where something final is arrived at - the glory of it - and it reflects glory upon Christ as the One who in His mediatorial place establishes and sustains the new and the final thing. What we are to gain out of considering this together is the unique glory that attaches to Christ and that we may be more established in our proper relationship to Him so that the service may proceed in its worth and its true liberty."
+     ]
     }
    ]
   },
@@ -534,6 +721,26 @@
      "text": "Our Lord was with the rich in His death, His precious body being lovingly buried by a wealthy man. Money itself is not an evil but Scripture tells us that a secret cause of every kind of wickedness is the love of it. This root of evil might be hidden for a long time and if allowed to grow it has an ugly shoot which should be cut off at once; if still let live it will have a fruit bitter as death. There was only one Judas but he is a terrible warning to us. The price of betrayal put upon the Saviour by those who should have had the very highest value for their Messiah was thirty pieces of silver. This was just the fine to be paid if a Hebrew bondman happened to be killed by an ox. It was also the cost of a potter's field out of which the clay had been dug. \"A goodly price that I was prized at by them\"! How precious is He to you?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "PRAISE IN THE ASSEMBLY",
+   "kind": "initials_before_name",
+   "detail": "7 entries written as initials then name (\"GHB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "PRAISE IN THE ASSEMBLY",
+   "kind": "default_place",
+   "detail": "VANCOUVER given to 6 names (\"all local\")"
+  },
+  {
+   "article": 1,
+   "title": "PRAISE IN THE ASSEMBLY",
+   "kind": "speaker_not_in_key",
+   "detail": "AJ (in the text)"
   }
  ]
 }

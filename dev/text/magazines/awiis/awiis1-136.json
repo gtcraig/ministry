@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,50 +26,60 @@
    "place": "PLAINFIELD",
    "date": "23 October 1982",
    "speakers": [
-    "A.J.E.W.",
-    "C.F.D.",
-    "J.A.P.",
-    "A.B.P.",
-    "T.E.D.",
-    "G.D.P",
-    "C.G.",
-    "G.H.",
-    "C.M.",
-    "O.L.L.",
-    "A.R.S.",
-    "G.D.P.",
-    "Rem.",
-    "A.J.E.W"
+    "AJEW",
+    "CFD",
+    "JAP",
+    "ABP",
+    "TED",
+    "GDP",
+    "LMcF",
+    "CG",
+    "GH",
+    "CM",
+    "OLL",
+    "ARS",
+    "Rem."
    ],
    "initials": [
     {
      "initials": "CFD",
-     "name": "(all local unless otherwise stated) C.F.Dadd"
+     "name": "C.F.Dadd",
+     "place": "PLAINFIELD"
     },
     {
      "initials": "TED",
-     "name": "T.E.Druckenmiller"
+     "name": "T.E.Druckenmiller",
+     "place": "PLAINFIELD"
     },
     {
      "initials": "CG",
-     "name": "C.Greenidge"
+     "name": "C.Greenidge",
+     "place": "PLAINFIELD"
     },
     {
      "initials": "RCH",
-     "name": "R.C.Hesterman"
+     "name": "R.C.Hesterman",
+     "place": "PLAINFIELD"
     },
     {
      "initials": "RNH",
-     "name": "R.N.Hesterman"
+     "name": "R.N.Hesterman",
+     "place": "PLAINFIELD"
     },
     {
      "initials": "GH",
      "name": "G.Hesterman",
-     "place": "C.Maynard, New York"
+     "place": "PLAINFIELD"
+    },
+    {
+     "initials": "CM",
+     "name": "C.Maynard",
+     "place": "New York"
     },
     {
      "initials": "SEH",
-     "name": "S.E.Hesterman"
+     "name": "S.E.Hesterman",
+     "place": "PLAINFIELD"
     },
     {
      "initials": "OLL",
@@ -77,313 +87,461 @@
      "place": "New York"
     },
     {
-     "initials": "ABPNY",
-     "name": "A.B.Parker New York"
+     "initials": "ABP",
+     "name": "A. B. Parker",
+     "place": "New York"
     },
     {
      "initials": "LMNY",
-     "name": "L.Macfarlane New York"
+     "name": "L.Macfarlane New York",
+     "place": "PLAINFIELD"
     },
     {
      "initials": "GDP",
-     "name": "G.D.Pfingst"
+     "name": "G.D.Pfingst",
+     "place": "PLAINFIELD"
     },
     {
      "initials": "JAP",
-     "name": "J.A.Petersen"
+     "name": "J.A.Petersen",
+     "place": "PLAINFIELD"
     },
     {
-     "initials": "ARSNY",
-     "name": "A.R.Stevens New York"
+     "initials": "ARS",
+     "name": "A. R. Stevens",
+     "place": "New York"
     },
     {
      "initials": "AJEW",
      "name": "A.J.E.Welch",
      "place": "London"
+    },
+    {
+     "initials": "LMcF",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "all local unless otherwise stated",
    "initials_text": [
     "(all local unless otherwise stated)",
     "C.F.Dadd; T.E.Druckenmiller; C.Greenidge; R.C.Hesterman; R.N.Hesterman; G.Hesterman, C.Maynard, New York; S.E.Hesterman; O.L.Linton, New York; A.B.Parker New York; L.Macfarlane New York; G.D.Pfingst; J.A.Petersen; A.R.Stevens New York; A.J.E.Welch, London"
    ],
    "paragraphs": [
     {
-     "speaker": "A.J.E.W.",
-     "text": "There is great interest in the Lord's pointed reference to the law of Moses and prophets and psalms, and it came to mind to inquire about that, why He should call attention to it as He is about to be carried up into heaven. The section is clear as to the moment of that great change having arrived. It says in verse 44: \"while I was yet with you\"; that is, He is about to part ln verse 51 it says \"he was separated from them\"; not only that He was carried up into heaven but He was separated from them, calling attention to the point in mind that the testimony here is being left with His lovers and He is about to assume His place on high. I think we should see that the reference to the law of Moses and prophets and psalms being fulfilled relates in a way to the glory of Christ in respect of what is left behind. We have the books of Moses which emphasise the ark, the ark being the central feature of the tabernacle, and the tabernacle form and its service, its priesthood, its levitical provisions all according to the pattern that was committed to Moses. This afforded a dwelling place for God Himself in the midst of wilderness circumstances; the glory came into it and the glory was in evidence in taking charge of the journeys that were made. We can see how the glory of Christ enters into that as we gain some sense of what the whole tabernacle system brings in, foreshadowing, as has often been pointed out, the glory that is yet to come and the place of the Lord Jesus in it."
+     "speaker": "AJEW",
+     "text": [
+      "There is great interest in the Lord's pointed reference to the law of Moses and prophets and psalms, and it came to mind to inquire about that, why He should call attention to it as He is about to be carried up into heaven. The section is clear as to the moment of that great change having arrived. It says in verse 44: \"while I was yet with you\"; that is, He is about to part ln verse 51 it says \"he was separated from them\"; not only that He was carried up into heaven but He was separated from them, calling attention to the point in mind that the testimony here is being left with His lovers and He is about to assume His place on high. I think we should see that the reference to the law of Moses and prophets and psalms being fulfilled relates in a way to the glory of Christ in respect of what is left behind. We have the books of Moses which emphasise the ark, the ark being the central feature of the tabernacle, and the tabernacle form and its service, its priesthood, its levitical provisions all according to the pattern that was committed to Moses. This afforded a dwelling place for God Himself in the midst of wilderness circumstances; the glory came into it and the glory was in evidence in taking charge of the journeys that were made. We can see how the glory of Christ enters into that as we gain some sense of what the whole tabernacle system brings in, foreshadowing, as has often been pointed out, the glory that is yet to come and the place of the Lord Jesus in it.",
+      "The prophetic testimony is something that particularly meets, in divine feelings, adversities, distractions and departures that arise as the testimony is pursued. The feeling side is particularly in mind, and the readiness of the blessed God to answer to a turning in repentance and recognition of Himself. The dying of Jesus, the sufferings of the cross, the reality of His bearing judgment, the reality of His burial and the glory of His resurrection afford a basis, through prophetic testimony, for every condition not divinely approved to be met, and the divine feelings about everything to be disclosed. We can see how the glory of Christ in His work of redemption becomes a great essential foundation point for the conditions that arise in the testimony to be met. The psalms likewise develop the side of deep feelings in relation to response, present response, response which is enriched by the diversity of experience through which lovers of God pass. Such response brings great enlargement and relief to spirit in getting a fresh view of Jesus in His glory. I think that may give us a basis of inquiry about the abundant divine furnishings for the course of the testimony here, and maybe draw us into the flow of divine feelings about all that arises in this time of the absence of Jesus."
+     ]
     },
     {
-     "text": "The prophetic testimony is something that particularly meets, in divine feelings, adversities, distractions and departures that arise as the testimony is pursued. The feeling side is particularly in mind, and the readiness of the blessed God to answer to a turning in repentance and recognition of Himself. The dying of Jesus, the sufferings of the cross, the reality of His bearing judgment, the reality of His burial and the glory of His resurrection afford a basis, through prophetic testimony, for every condition not divinely approved to be met, and the divine feelings about everything to be disclosed. We can see how the glory of Christ in His work of redemption becomes a great essential foundation point for the conditions that arise in the testimony to be met. The psalms likewise develop the side of deep feelings in relation to response, present response, response which is enriched by the diversity of experience through which lovers of God pass. Such response brings great enlargement and relief to spirit in getting a fresh view of Jesus in His glory. I think that may give us a basis of inquiry about the abundant divine furnishings for the course of the testimony here, and maybe draw us into the flow of divine feelings about all that arises in this time of the absence of Jesus."
+     "speaker": "CFD",
+     "text": [
+      "I was struck by your reference to Moses' ministry and the place that the ark has as the central point, and all that it suggested and brought on to view anticipatively in Christ. Would you open that up a little more for us."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "I was struck by your reference to Moses' ministry and the place that the ark has as the central point, and all that it suggested and brought on to view anticipatively in Christ. Would you open that up a little more for us."
+     "speaker": "AJEW",
+     "text": [
+      "The need to hold the glory of His Person and every element of truth that relates to it is so distinct. The ark is as a type a very simple structure, not of great dimensions but of dimensions that suggest what is mysterious; the half dimensions, the half cubit, are distinctive in the setting of things there. There is something in Jesus which the mere human mind, outside of the Spirit, cannot penetrate in its divine glory. We need to keep in view in the testings and vicissitudes of the wilderness path the glory of the Person of Christ, to be held in our affections and regarded in our renewed minds in having to do with everything. We might say, He is not here; He was carried up into heaven, as it says in Luke 24, but He is still operating here, He is still working here, The reference to Moses reminds us how He works mediately, that is He has those that are under His hand, His ministers could we say, whom He uses to bring into view this wonderful matter of a sanctuary in which God will dwell in His glory. If we get a sense of that as entering into the present moment it strengthens us to face the vicissitudes of the wilderness, and to realise that God is bringing through something from the course of the wilderness path, under the guiding touch of a glorified Christ, that represents the skill, the power and the love. which mark His present activity in this time of the Spirit."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The need to hold the glory of His Person and every element of truth that relates to it is so distinct. The ark is as a type a very simple structure, not of great dimensions but of dimensions that suggest what is mysterious; the half dimensions, the half cubit, are distinctive in the setting of things there. There is something in Jesus which the mere human mind, outside of the Spirit, cannot penetrate in its divine glory. We need to keep in view in the testings and vicissitudes of the wilderness path the glory of the Person of Christ, to be held in our affections and regarded in our renewed minds in having to do with everything. We might say, He is not here; He was carried up into heaven, as it says in Luke 24, but He is still operating here, He is still working here, The reference to Moses reminds us how He works mediately, that is He has those that are under His hand, His ministers could we say, whom He uses to bring into view this wonderful matter of a sanctuary in which God will dwell in His glory. If we get a sense of that as entering into the present moment it strengthens us to face the vicissitudes of the wilderness, and to realise that God is bringing through something from the course of the wilderness path, under the guiding touch of a glorified Christ, that represents the skill, the power and the love. which mark His present activity in this time of the Spirit."
+     "speaker": "CFD",
+     "text": [
+      "As to the ark and its dimensions, how distinctly the deity of Christ enters into that; the half dimensions that you have referred to suggest something over and beyond anything that we can measure in our own hearts or apprehension. The ark is overlaid with gold; Christ coming in as Man is able in all His greatness to sustain the full light and glory that relate to a divine Person."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "As to the ark and its dimensions, how distinctly the deity of Christ enters into that; the half dimensions that you have referred to suggest something over and beyond anything that we can measure in our own hearts or apprehension. The ark is overlaid with gold; Christ coming in as Man is able in all His greatness to sustain the full light and glory that relate to a divine Person."
+     "speaker": "AJEW",
+     "text": [
+      "Yes. Then there is the acacia-wood, this peculiarly durable wood; the humanity of Jesus withstood, though He was in manhood, everything that came against Him. I thought to reflect upon that would fortify us practically for the wilderness path."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Yes. Then there is the acacia-wood, this peculiarly durable wood; the humanity of Jesus withstood, though He was in manhood, everything that came against Him. I thought to reflect upon that would fortify us practically for the wilderness path."
+     "speaker": "JAP",
+     "text": [
+      "In verse 20 of Exodus 40 it says \"And he took and put the testimony into the ark, and put the staves in the ark, and put the mercy-seat above on the ark\". Is that not very rich, touching the whole matter of redemption that Jesus accomplished for God's glory?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "In verse 20 of Exodus 40 it says \"And he took and put the testimony into the ark, and put the staves in the ark, and put the mercy-seat above on the ark\". Is that not very rich, touching the whole matter of redemption that Jesus accomplished for God's glory?"
+     "speaker": "AJEW",
+     "text": [
+      "It is the prime thing in the setting up of the tabernacle. Verse 17 says \"the tabernacle was set up''. It begins with the ark and what is closely related to it. What is in question in the wilderness pathway for us is the glory of Christ. \"For the cloud of Jehovah as on the tabernacle by day and fire was in it by night, before the eyes of all the house of Israel\"; the glory is there. There is that which belongs to the day, the guiding of the cloud, and that which meets the night in the fire. It gives us an impression that the precious testimony of our Lord Jesus Christ and all that relates to Him in His glory is not just getting through but is going through in triumph under divine guiding and with all the resource that is suggested in an order of things in which God can dwell. There is a priestly service and a levitical carrying of all, according to the pattern that was committed to Moses to carry through. The testimony of our Lord Jesus Christ is not to be quenched; it is not to be hindered of what God has in mind in it despite the conditions that have come in."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is the prime thing in the setting up of the tabernacle. Verse 17 says \"the tabernacle was set up''. It begins with the ark and what is closely related to it. What is in question in the wilderness pathway for us is the glory of Christ. \"For the cloud of Jehovah as on the tabernacle by day and fire was in it by night, before the eyes of all the house of Israel\"; the glory is there. There is that which belongs to the day, the guiding of the cloud, and that which meets the night in the fire. It gives us an impression that the precious testimony of our Lord Jesus Christ and all that relates to Him in His glory is not just getting through but is going through in triumph under divine guiding and with all the resource that is suggested in an order of things in which God can dwell. There is a priestly service and a levitical carrying of all, according to the pattern that was committed to Moses to carry through. The testimony of our Lord Jesus Christ is not to be quenched; it is not to be hindered of what God has in mind in it despite the conditions that have come in."
+     "speaker": "ABP",
+     "text": [
+      "Would one of the greatest moments in Moses' life be when he rejected the idea of God making of him a great nation, when he said \"If thy presence do not go, bring us not up hence\", Exod 33: 15?"
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "Would one of the greatest moments in Moses' life be when he rejected the idea of God making of him a great nation, when he said \"If thy presence do not go, bring us not up hence\", Exod 33: 15?"
+     "speaker": "AJEW",
+     "text": [
+      "That is a good point to quote. The scope of what we are inquiring about is so great that we could have read the whole book of Exodus for profit, but we just had to think of glory coming in at the end. What you say is really leading on to that."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is a good point to quote. The scope of what we are inquiring about is so great that we could have read the whole book of Exodus for profit, but we just had to think of glory coming in at the end. What you say is really leading on to that."
+     "speaker": "ABP",
+     "text": [
+      "Some of our brethren here may remember that Mr Taylor told us on one occasion he had a letter of inquiry about the measurements of the ark, raising the question why the half cubit is mentioned. He said, At first I did not think there was very much to it, but the more I pondered over it the glory of it seemed to enter my soul. I do not know if I am saying the exact words, but this left the impression of that which is inscrutable, indicating that while He came into manhood He never ceased to be what He was because of what He became."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "Some of our brethren here may remember that Mr Taylor told us on one occasion he had a letter of inquiry about the measurements of the ark, raising the question why the half cubit is mentioned. He said, At first I did not think there was very much to it, but the more I pondered over it the glory of it seemed to enter my soul. I do not know if I am saying the exact words, but this left the impression of that which is inscrutable, indicating that while He came into manhood He never ceased to be what He was because of what He became."
+     "speaker": "AJEW",
+     "text": [
+      "It is good to quote that because the way our much-loved brother arrived at that is pretty much the way we have to arrive at it. Think of the Lord Jesus and the glory of His descent into manhood, never ceasing to be what He was, as you have quoted, by reason of what He became, the beloved Son of the Father as come into manhood but going back into heaven, going to the Father. We need to go over these things that Christ may be enshrined in active and enlightened affections. Though it involves His absence from us in the full personal, corporeal sense, yet our pathway here is in every way under the divine hand in glory that there may be an issue, a dwelling where God can be."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is good to quote that because the way our much-loved brother arrived at that is pretty much the way we have to arrive at it. Think of the Lord Jesus and the glory of His descent into manhood, never ceasing to be what He was, as you have quoted, by reason of what He became, the beloved Son of the Father as come into manhood but going back into heaven, going to the Father. We need to go over these things that Christ may be enshrined in active and enlightened affections. Though it involves His absence from us in the full personal, corporeal sense, yet our pathway here is in every way under the divine hand in glory that there may be an issue, a dwelling where God can be."
+     "speaker": "TED",
+     "text": [
+      "Does Luke writing to one man bear on what you are saying, that there is this testimony to be believed on by one man? Do we not see how it comes down to us individually in that way? I was impressed by the same thought with David, that he says in Psalm 132 \"We heard of it at Ephratah, we found it in the fields of the wood\" (v 6). Do we not come into that by exercise of heart in going through things especially taking account of such a feeling expression of the Lord's drawing attention to these three great sections of Scripture?"
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "Does Luke writing to one man bear on what you are saying, that there is this testimony to be believed on by one man? Do we not see how it comes down to us individually in that way? I was impressed by the same thought with David, that he says in Psalm 132 \"We heard of it at Ephratah, we found it in the fields of the wood\" (v 6). Do we not come into that by exercise of heart in going through things especially taking account of such a feeling expression of the Lord's drawing attention to these three great sections of Scripture?"
+     "speaker": "AJEW",
+     "text": [
+      "That is excellent to bring out because the wilderness is a place of going through things. The ark is the same ark that went into Solomon's temple and reached an abiding place, the staves being withdrawn as if to show that everything has come to a glorious finality. We are on the way to it; let us see that we are on the way to it. And it is not a casual way, subject to diversion, nor is it a way that leads to departures from the path that have to be rectified. The divine way is clear, the divine glory is constantly present, day and night, to intimate that the way is there as we just follow it. But it does involve, as you are suggesting, going through things. So how much they did go through according to the book of Numbers and what they went through was often, alas, not to the credit of the people. Much that we go through is not to our credit, but God is carrying something through triumphantly. We cannot claim any part in the victory; it is His, it is Christ's, it is the fruit of the Spirit's activity, the divine thoughts converging on the full end and yet providing everything needed that we may arrive at what is in His heart."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is excellent to bring out because the wilderness is a place of going through things. The ark is the same ark that went into Solomon's temple and reached an abiding place, the staves being withdrawn as if to show that everything has come to a glorious finality. We are on the way to it; let us see that we are on the way to it. And it is not a casual way, subject to diversion, nor is it a way that leads to departures from the path that have to be rectified. The divine way is clear, the divine glory is constantly present, day and night, to intimate that the way is there as we just follow it. But it does involve, as you are suggesting, going through things. So how much they did go through according to the book of Numbers and what they went through was often, alas, not to the credit of the people. Much that we go through is not to our credit, but God is carrying something through triumphantly. We cannot claim any part in the victory; it is His, it is Christ's, it is the fruit of the Spirit's activity, the divine thoughts converging on the full end and yet providing everything needed that we may arrive at what is in His heart."
+     "speaker": "GDP",
+     "text": [
+      "In John's gospel it says, \"And the Word became flesh, and dwelt among us\" (chap 1: 14), and then we can contemplate His glory. Is that in line with what you have been saying?"
+     ]
     },
     {
-     "speaker": "G.D.P",
-     "text": "In John's gospel it says, \"And the Word became flesh, and dwelt among us\" (chap 1: 14), and then we can contemplate His glory. Is that in line with what you have been saying?"
+     "speaker": "AJEW",
+     "text": [
+      "Very much. \"The Word became flesh\", four words in the English language, but what they convey is stupendous. Everything depends on it. As you follow through the history of the ark, the ark itself is really the key to the whole situation. As the ark is recovered in David's day and eventually brought into its place in the house, something is arrived at that God can come into in a fresh touch of glory. There is glory here in the wilderness as the tabernacle is instituted. I wonder if we get a sense of the divine feelings as to something under the eye of God that was according to a pattern which He had committed to His beloved servant. Now the Lord Jesus is carrying things through according to a divine pattern; the skill of His activity shows that. Whilst sometimes Moses is clearly a type of Christ as Mediator, what comes into expression in Moses very distinctly is the ministerial idea. So that the Lord is working through those who under His hand and in the Spirit minister His mind. The working of things down here, in view of the knowledge of God being increased among us, is very largely by way of what we speak of as ministry, and I think Moses' time in respect of the tabernacle stands for that."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Very much. \"The Word became flesh\", four words in the English language, but what they convey is stupendous. Everything depends on it. As you follow through the history of the ark, the ark itself is really the key to the whole situation. As the ark is recovered in David's day and eventually brought into its place in the house, something is arrived at that God can come into in a fresh touch of glory. There is glory here in the wilderness as the tabernacle is instituted. I wonder if we get a sense of the divine feelings as to something under the eye of God that was according to a pattern which He had committed to His beloved servant. Now the Lord Jesus is carrying things through according to a divine pattern; the skill of His activity shows that. Whilst sometimes Moses is clearly a type of Christ as Mediator, what comes into expression in Moses very distinctly is the ministerial idea. So that the Lord is working through those who under His hand and in the Spirit minister His mind. The working of things down here, in view of the knowledge of God being increased among us, is very largely by way of what we speak of as ministry, and I think Moses' time in respect of the tabernacle stands for that."
+     "speaker": "LMcF",
+     "text": [
+      "In Luke we have what is tangible not what has come into expression beyond death in the forty days. Should this impress us with what through grace we are related to?"
+     ]
     },
     {
-     "text": "L.McF. In Luke we have what is tangible not what has come into expression beyond death in the forty days. Should this impress us with what through grace we are related to?"
+     "speaker": "AJEW",
+     "text": [
+      "So you get what is tangible in the woman of Luke 7. She was not of much account to the Pharisee in whose house she was, but the Lord calls attention to her. He does not call attention to a mere abstract idea, He calls attention to something tangible with that woman. You might say she was a bad case in certain respects, but the Lord is reaching something with such. That is the kind of indication that Luke, so closely following the Pauline character of things, gives to us, something tangible. What is in this hall today is tangible; thank God it is tangible!"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "So you get what is tangible in the woman of Luke 7. She was not of much account to the Pharisee in whose house she was, but the Lord calls attention to her. He does not call attention to a mere abstract idea, He calls attention to something tangible with that woman. You might say she was a bad case in certain respects, but the Lord is reaching something with such. That is the kind of indication that Luke, so closely following the Pauline character of things, gives to us, something tangible. What is in this hall today is tangible; thank God it is tangible!"
+     "speaker": "CG",
+     "text": [
+      "In Numbers 10: 33 it says \"And they set forward from the mountain of Jehovah and went three days' journey (and the ark of the covenant of Jehovah went before them in the three days' journey) to search out a resting-place for them\". We have the starting point here, the mountain of Jehovah; later we have the length of the journey to find a resting place. What would you say as to the mountain of Jehovah being the starting place for the movements of the ark?"
+     ]
     },
     {
-     "speaker": "C.G.",
-     "text": "In Numbers 10: 33 it says \"And they set forward from the mountain of Jehovah and went three days' journey (and the ark of the covenant of Jehovah went before them in the three days' journey) to search out a resting-place for them\". We have the starting point here, the mountain of Jehovah; later we have the length of the journey to find a resting place. What would you say as to the mountain of Jehovah being the starting place for the movements of the ark?"
+     "speaker": "AJEW",
+     "text": [
+      "That is a very relevant quotation, showing how these features run right through the Mosaic history. There is a great field of study for us in this, bearing in mind the glory of what the tabernacle itself represents. The glory of it is brought out often in references in the epistle to the Hebrews. It is very interesting how Hebrews 9 gives us in the first few verses the arrangement of the tabernacle, the glory of it; then there is the very nearest spot to God Himself in what is beyond the veil; all that is opened up to us and the service that is related to it."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is a very relevant quotation, showing how these features run right through the Mosaic history. There is a great field of study for us in this, bearing in mind the glory of what the tabernacle itself represents. The glory of it is brought out often in references in the epistle to the Hebrews. It is very interesting how Hebrews 9 gives us in the first few verses the arrangement of the tabernacle, the glory of it; then there is the very nearest spot to God Himself in what is beyond the veil; all that is opened up to us and the service that is related to it."
+     "speaker": "ABP",
+     "text": [
+      "Would it be right to say that the power from on high would relate to the glory filling the tabernacle as well as the glory filling the house? One would be testimonial and the other would be Godward."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "Would it be right to say that the power from on high would relate to the glory filling the tabernacle as well as the glory filling the house? One would be testimonial and the other would be Godward."
+     "speaker": "AJEW",
+     "text": [
+      "I think it is good to express it that way. As you are indicating, it is divine glory anyway, but the divine glory comes in in different sets of circumstances. There is a glory that is in evidence in the realities of the wilderness course, and a glory when all is established in the land and the house built, again according to pattern."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "I think it is good to express it that way. As you are indicating, it is divine glory anyway, but the divine glory comes in in different sets of circumstances. There is a glory that is in evidence in the realities of the wilderness course, and a glory when all is established in the land and the house built, again according to pattern."
+     "speaker": "ABP",
+     "text": [
+      "In both those cases the glory indicated the divine presence."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "In both those cases the glory indicated the divine presence."
+     "speaker": "AJEW",
+     "text": [
+      "Exactly. How could we get through without some sense in our souls of the divine presence among His beloved people?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Exactly. How could we get through without some sense in our souls of the divine presence among His beloved people?"
+     "speaker": "GH",
+     "text": [
+      "Reference was made to John's gospel: \"And the Word became flesh, and dwelt among us (and we have contemplated his glory... )\"; I suppose \"dwelt\" (or, in the footnote, 'tabernacled') would involve nearness. As we have this sense of nearness does it promote contemplation?"
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "Reference was made to John's gospel: \"And the Word became flesh, and dwelt among us (and we have contemplated his glory... )\"; I suppose \"dwelt\" (or, in the footnote, 'tabernacled') would involve nearness. As we have this sense of nearness does it promote contemplation?"
+     "speaker": "AJEW",
+     "text": [
+      "How available the Lord is to us in love, specially on the line of contemplation! Contemplation, I feel for myself, is something of which we are often short. It is good to read, it is right to read (I long to be able to read more), but when you are reading and get a fresh view of Christ, stop and just contemplate, get it into your soul on the basis of contemplation, not just into your mind on the basis of reading but right down into your soul on the basis of contemplation. That gives you what answers to the ark, that is that Christ in the glory of His Person is determining everything."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "How available the Lord is to us in love, specially on the line of contemplation! Contemplation, I feel for myself, is something of which we are often short. It is good to read, it is right to read (I long to be able to read more), but when you are reading and get a fresh view of Christ, stop and just contemplate, get it into your soul on the basis of contemplation, not just into your mind on the basis of reading but right down into your soul on the basis of contemplation. That gives you what answers to the ark, that is that Christ in the glory of His Person is determining everything."
+     "speaker": "GH",
+     "text": [
+      "Would contemplation involve pondering?"
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "Would contemplation involve pondering?"
+     "speaker": "AJEW",
+     "text": [
+      "That is greatly needed that we may be affected inwardly by these things and affected in a lasting sense. It is not that something is lodged for the moment in the mind, to be lost eventually when something else may seem to smother it; contemplation leads to something resulting which, to use a word already mentioned, is tangible; it is spiritual experience and the fruits of it in the soul."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is greatly needed that we may be affected inwardly by these things and affected in a lasting sense. It is not that something is lodged for the moment in the mind, to be lost eventually when something else may seem to smother it; contemplation leads to something resulting which, to use a word already mentioned, is tangible; it is spiritual experience and the fruits of it in the soul."
+     "speaker": "ABP",
+     "text": [
+      "Ministry is masculine and the reception of it is feminine; the retaining of it, carrying the exercise ultimately results in fresh new life."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "Ministry is masculine and the reception of it is feminine; the retaining of it, carrying the exercise ultimately results in fresh new life."
+     "speaker": "AJEW",
+     "text": [
+      "That seems to link us with the final scripture; you have the virgins there. Those virgins are very suggestive of the working of what is active in feminine affection, and appreciation of what the feminine side is to Christ."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That seems to link us with the final scripture; you have the virgins there. Those virgins are very suggestive of the working of what is active in feminine affection, and appreciation of what the feminine side is to Christ."
+     "speaker": "ABP",
+     "text": [
+      "I am glad you refer to that, because the great thing that gave God the moral basis to deliver Jerusalem in the days of Hezekiah was the element of the virgin (or 'unconquered') daughter of Zion the daughter of Jerusalem. One title evidently related to formation in relation to appreciation of divine purpose, the other possibly the product of good administration (see Isa 37: 22)."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "I am glad you refer to that, because the great thing that gave God the moral basis to deliver Jerusalem in the days of Hezekiah was the element of the virgin (or 'unconquered') daughter of Zion the daughter of Jerusalem. One title evidently related to formation in relation to appreciation of divine purpose, the other possibly the product of good administration (see Isa 37: 22)."
+     "speaker": "AJEW",
+     "text": [
+      "That helps us in what we are saying. We should now look at Isaiah 53 a little, and the feeling side which the prophets represent. How much we need how much we experience profitably the word of the prophet. It is a most effective means that the Lord has to bring things about. But it is not just the word there is an element suggested in the prophets of deep-rooted sympathy with God in respect of everything that intrudes upon His presence and glory. We need to have that side developed among us, and Isaiah, the evangelical prophet, is one who brings out that feeling side of things very fully. Ezekiel gives us the suffering side. Jeremiah gives us too the lamenting side, the deep feelings that enter into the departures from God that had come in. Do we feel the departures? We are very accustomed, perhaps, to seeing and hearing of departures, not only in the sense of some going away, but the departures in Christendom as a whole. Do we feel them and see what part we have had in them - because we have had part in them. God would promote our feelings in this connection, that we might be the more fully and feelingly with Him in the rejection of what is not of Himself, and the appropriation of what relates to His glory among His beloved people here."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That helps us in what we are saying. We should now look at Isaiah 53 a little, and the feeling side which the prophets represent. How much we need how much we experience profitably the word of the prophet. It is a most effective means that the Lord has to bring things about. But it is not just the word there is an element suggested in the prophets of deep-rooted sympathy with God in respect of everything that intrudes upon His presence and glory. We need to have that side developed among us, and Isaiah, the evangelical prophet, is one who brings out that feeling side of things very fully. Ezekiel gives us the suffering side. Jeremiah gives us too the lamenting side, the deep feelings that enter into the departures from God that had come in. Do we feel the departures? We are very accustomed, perhaps, to seeing and hearing of departures, not only in the sense of some going away, but the departures in Christendom as a whole. Do we feel them and see what part we have had in them - because we have had part in them. God would promote our feelings in this connection, that we might be the more fully and feelingly with Him in the rejection of what is not of Himself, and the appropriation of what relates to His glory among His beloved people here."
+     "speaker": "CFD",
+     "text": [
+      "Would it stimulate in us the spirit of what is protective? Israel were led out by a prophet and by a prophet they were preserved (see Hos 12: 13). Is that involved in what you are saying?"
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "Would it stimulate in us the spirit of what is protective? Israel were led out by a prophet and by a prophet they were preserved (see Hos 12: 13). Is that involved in what you are saying?"
+     "speaker": "AJEW",
+     "text": [
+      "It is indeed. But go on as to what is protective because it is so important."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is indeed. But go on as to what is protective because it is so important."
+     "speaker": "CFD",
+     "text": [
+      "The enemy is extremely active, active on all fronts, and this should just stir up amongst us individually and locally the great desire to protect and to preserve what is so pleasurable to God. The enemy has an objective in all that he is doing, and if he can rob God as to His service he has gained his objective. But would the prophetic spirit in us be protective, coming forward to preserve what is for God\"? Preserving - \"by a prophet was he preserved\" - would involve that there was an active side to what was prophetic which would step in when the enemy showed himself."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "The enemy is extremely active, active on all fronts, and this should just stir up amongst us individually and locally the great desire to protect and to preserve what is so pleasurable to God. The enemy has an objective in all that he is doing, and if he can rob God as to His service he has gained his objective. But would the prophetic spirit in us be protective, coming forward to preserve what is for God\"? Preserving - \"by a prophet was he preserved\" - would involve that there was an active side to what was prophetic which would step in when the enemy showed himself."
+     "speaker": "AJEW",
+     "text": [
+      "That is of the greatest importance and to be protective involves some appreciation of what the prophets have to protect. If we have some view of the Person of Christ, and look on in our outlook to PauI and the assembly - the continuation of Christ here in character - you get an impression of what is deeply precious in God's sight, and you love it. Your love for Him and for what is His according to His mind stirs your heart to protect it, so that it may not be infringed or damaged in any way. This is something for us to think about; if we are going to be truly prophetic in service we need to understand what is being protected, and what is in the divine mind in the positive sense. That gives us the deepest impulse to guard, in the Jealousy of affection for Christ as it belongs in the assembly, what is precious to Him there."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is of the greatest importance and to be protective involves some appreciation of what the prophets have to protect. If we have some view of the Person of Christ, and look on in our outlook to PauI and the assembly - the continuation of Christ here in character - you get an impression of what is deeply precious in God's sight, and you love it. Your love for Him and for what is His according to His mind stirs your heart to protect it, so that it may not be infringed or damaged in any way. This is something for us to think about; if we are going to be truly prophetic in service we need to understand what is being protected, and what is in the divine mind in the positive sense. That gives us the deepest impulse to guard, in the Jealousy of affection for Christ as it belongs in the assembly, what is precious to Him there."
+     "speaker": "CM",
+     "text": [
+      "Would the cherubim represent that which is protective?"
+     ]
     },
     {
-     "speaker": "C.M.",
-     "text": "Would the cherubim represent that which is protective?"
+     "speaker": "AJEW",
+     "text": [
+      "Quite so. The cherubim are over the mercyseat, and the thought of protection is very, very close to what is suggestive of the divine intervention in Christ and the glory of the One in whom He did intervene. It is very significant that the cherubim are there right over the mercy-seat and the ark, as if the protection must be particularly concentrated on anything that infringes in our hearts and minds the glory of the Person of Christ. The history of what we speak of as the revival shows that, right back in 1848 or thereabouts, the glory of the Person of Christ was under vicious attack. There were those, thank God, who came forward in prophetic power to stand against the attack and discerned its subtlety, and refused its workings. We have cause to be thankful for that right down to this time, nearly a century and a half later. That is an instance of the enemy's attack."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so. The cherubim are over the mercyseat, and the thought of protection is very, very close to what is suggestive of the divine intervention in Christ and the glory of the One in whom He did intervene. It is very significant that the cherubim are there right over the mercy-seat and the ark, as if the protection must be particularly concentrated on anything that infringes in our hearts and minds the glory of the Person of Christ. The history of what we speak of as the revival shows that, right back in 1848 or thereabouts, the glory of the Person of Christ was under vicious attack. There were those, thank God, who came forward in prophetic power to stand against the attack and discerned its subtlety, and refused its workings. We have cause to be thankful for that right down to this time, nearly a century and a half later. That is an instance of the enemy's attack."
+     "speaker": "ABP",
+     "text": [
+      "The tree of life was guarded by the cherubim. Then at the cross: \"this man has done nothing amiss\" (Luke 23: 41), showing the amazing development of the work of God in the malefactor who had a judgment of good government and bad government. He said \"we receive the just recompense of what we have done; but this man has done nothing amiss\". The protection is like the wings of the cherubim spread over the ark. Then the centurion said \"Truly this man was Son of God\", Mark 15: 39. I just thought that the whole principle of protection we have been referring to always was in God's thought, that creatures should be firstly concerned about the protection of His rights."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "The tree of life was guarded by the cherubim. Then at the cross: \"this man has done nothing amiss\" (Luke 23: 41), showing the amazing development of the work of God in the malefactor who had a judgment of good government and bad government. He said \"we receive the just recompense of what we have done; but this man has done nothing amiss\". The protection is like the wings of the cherubim spread over the ark. Then the centurion said \"Truly this man was Son of God\", Mark 15: 39. I just thought that the whole principle of protection we have been referring to always was in God's thought, that creatures should be firstly concerned about the protection of His rights."
+     "speaker": "AJEW",
+     "text": [
+      "Quite so."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so."
+     "speaker": "CG",
+     "text": [
+      "In the section we are reading it says several things: Jesus was wounded, bruised, and chastised; stripes are mentioned. It is interesting to note that the reason is given in each case; \"he was wounded for our transgressions, he was bruised for our iniquities; the chastisement of our peace was upon him, and with his stripes we a re healed\". So much is covered in that one verse."
+     ]
     },
     {
-     "speaker": "C.G.",
-     "text": "In the section we are reading it says several things: Jesus was wounded, bruised, and chastised; stripes are mentioned. It is interesting to note that the reason is given in each case; \"he was wounded for our transgressions, he was bruised for our iniquities; the chastisement of our peace was upon him, and with his stripes we a re healed\". So much is covered in that one verse."
+     "speaker": "AJEW",
+     "text": [
+      "In suggesting that passage I thought particularly of the feeling side in Isaiah, and also the reminder of the sufferings of Christ. It keeps the heart tender to have the sufferings of Christ in mind. The instruction that the Spirit has given us about the cost of all that is going forward for God's pleasure in suffering is to be recognised by us. The cost to us of any kind of part in what is for God's pleasure should remind us of the sufferings of Jesus too. We are in the midst of a world that is full of human hardness, harshness and violence, and the reverential contemplation of the sufferings of Jesus is intended to develop a depth of priestly and prophetic feeling, so that we might not in our own day misrepresent the divine feelings about the departures that, alas, have come in. Hades' gates shall not prevail, and yet hades' gates are at work and we have to feel it, feel it with God and act in protective, prophetic ways to meet what the enemy would seek to-do."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "In suggesting that passage I thought particularly of the feeling side in Isaiah, and also the reminder of the sufferings of Christ. It keeps the heart tender to have the sufferings of Christ in mind. The instruction that the Spirit has given us about the cost of all that is going forward for God's pleasure in suffering is to be recognised by us. The cost to us of any kind of part in what is for God's pleasure should remind us of the sufferings of Jesus too. We are in the midst of a world that is full of human hardness, harshness and violence, and the reverential contemplation of the sufferings of Jesus is intended to develop a depth of priestly and prophetic feeling, so that we might not in our own day misrepresent the divine feelings about the departures that, alas, have come in. Hades' gates shall not prevail, and yet hades' gates are at work and we have to feel it, feel it with God and act in protective, prophetic ways to meet what the enemy would seek to-do."
+     "speaker": "TED",
+     "text": [
+      "The verse you read in Luke says \"Then he opened their understanding to understand the scriptures\". Is there something in that that we need to take account of - that we need our understanding opened? What would help us to have hearts and minds that understand things?"
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "The verse you read in Luke says \"Then he opened their understanding to understand the scriptures\". Is there something in that that we need to take account of - that we need our understanding opened? What would help us to have hearts and minds that understand things?"
+     "speaker": "AJEW",
+     "text": [
+      "The Spirit had not yet come. The Lord speaks of it as something that was imminent, but the Spirit had not yet come. The Spirit would give us in divine grace and instruction the capacity to understand things. But it has impressed me today that this reference by the Lord really conveys to us the urgency of having that understanding. It is as if He would say, I want you to understand the Scriptures immediately; the Spirit will come in due time, and you are to wait for Him, but it is immediately necessary that the Scriptures, with all their reflection of the glory of Christ, are to be understood. So He opens their understanding at this point. If my understanding is right, the coming of the Spirit would be the answer to the situation right down the dispensation to where we are. The Lord is saying, It is urgent that you understand the Scriptures. Of course, as you are suggesting, that is still the case."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The Spirit had not yet come. The Lord speaks of it as something that was imminent, but the Spirit had not yet come. The Spirit would give us in divine grace and instruction the capacity to understand things. But it has impressed me today that this reference by the Lord really conveys to us the urgency of having that understanding. It is as if He would say, I want you to understand the Scriptures immediately; the Spirit will come in due time, and you are to wait for Him, but it is immediately necessary that the Scriptures, with all their reflection of the glory of Christ, are to be understood. So He opens their understanding at this point. If my understanding is right, the coming of the Spirit would be the answer to the situation right down the dispensation to where we are. The Lord is saying, It is urgent that you understand the Scriptures. Of course, as you are suggesting, that is still the case."
+     "speaker": "ABP",
+     "text": [
+      "In Peter's service in bringing forward the Scriptures, not only about Judas but also elsewhere, light was shed upon the whole matter. His preaching and then his teaching the people is based on Scripture It shows how wonderfully his understanding had been opened; it immediately appeared."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "In Peter's service in bringing forward the Scriptures, not only about Judas but also elsewhere, light was shed upon the whole matter. His preaching and then his teaching the people is based on Scripture It shows how wonderfully his understanding had been opened; it immediately appeared."
+     "speaker": "AJEW",
+     "text": [
+      "That is an important point, that we covet and seek from God the understanding of the Scriptures. We value the ministry of the word, but it stands based on Scripture, and if I speak a word it must be based on Scripture. The word may be of value in the way of elucidation or enlargement in the Spirit's instruction, but it must be based on Scripture."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is an important point, that we covet and seek from God the understanding of the Scriptures. We value the ministry of the word, but it stands based on Scripture, and if I speak a word it must be based on Scripture. The word may be of value in the way of elucidation or enlargement in the Spirit's instruction, but it must be based on Scripture."
+     "speaker": "OLL",
+     "text": [
+      "Do you think we need real love for Jesus? If we have real love for Jesus we will give Him the first place. We would have nothing to do with the world in regard to what is not of Himself."
+     ]
     },
     {
-     "speaker": "O.L.L.",
-     "text": "Do you think we need real love for Jesus? If we have real love for Jesus we will give Him the first place. We would have nothing to do with the world in regard to what is not of Himself."
+     "speaker": "AJEW",
+     "text": [
+      "Amen, I would say to that. But what chapter of Scripture is better calculated to awaken love for Jesus than the fifty-third of Isaiah? Do you not think so?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Amen, I would say to that. But what chapter of Scripture is better calculated to awaken love for Jesus than the fifty-third of Isaiah? Do you not think so?"
+     "speaker": "OLL",
+     "text": [
+      "Yes. And too, the Lord says, \"If ye love me keep my commandments\", John 14: 15."
+     ]
     },
     {
-     "speaker": "O.L.L.",
-     "text": "Yes. And too, the Lord says, \"If ye love me keep my commandments\", John 14: 15."
+     "speaker": "AJEW",
+     "text": [
+      "Very good."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "Very good."
+     "speaker": "ARS",
+     "text": [
+      "Isaiah is a very feeling prophet, a man with deep feeling, and yet on the other hand he is very buoyant. What do you make of that?"
+     ]
     },
     {
-     "speaker": "A.R.S.",
-     "text": "Isaiah is a very feeling prophet, a man with deep feeling, and yet on the other hand he is very buoyant. What do you make of that?"
+     "speaker": "AJEW",
+     "text": [
+      "That buoyant side would bring us perhaps to the Psalms. They furnish a very wide field of inquiry and of experience, but it is the way the Lord brings out something of positive fragrance. The course of wilderness experience is very real, but as the priestly touch of grace in the Lord Jesus is proved there is an outcome, and the outcome is buoyant. The Psalms often give us, right down to the end of the book, the suggestion of buoyancy even as the fruit of experience that is very deep. The reference at the end of Psalm 51 to whole burnt-offering, after relating the depths of experience through which David came at a most critical time, is just an indication of how the Spirit of God is leading us to what would minister to God in fragrance in the buoyant response in the assembly of those who love Him."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That buoyant side would bring us perhaps to the Psalms. They furnish a very wide field of inquiry and of experience, but it is the way the Lord brings out something of positive fragrance. The course of wilderness experience is very real, but as the priestly touch of grace in the Lord Jesus is proved there is an outcome, and the outcome is buoyant. The Psalms often give us, right down to the end of the book, the suggestion of buoyancy even as the fruit of experience that is very deep. The reference at the end of Psalm 51 to whole burnt-offering, after relating the depths of experience through which David came at a most critical time, is just an indication of how the Spirit of God is leading us to what would minister to God in fragrance in the buoyant response in the assembly of those who love Him."
+     "speaker": "CFD",
+     "text": [
+      "Does that come in where you began to read: \"Myrrh and aloes, cassia, are all thy garments; out of ivory palaces...\"? It is interesting that the Spirit of God puts myrrh first, as if the suffering side is peculiarly productive; the ivory palaces might involve the death of Christ. It all brings on a line of things which is really pleasurable to God; \"have made thee glad\", it says. Is this the way it works?"
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "Does that come in where you began to read: \"Myrrh and aloes, cassia, are all thy garments; out of ivory palaces...\"? It is interesting that the Spirit of God puts myrrh first, as if the suffering side is peculiarly productive; the ivory palaces might involve the death of Christ. It all brings on a line of things which is really pleasurable to God; \"have made thee glad\", it says. Is this the way it works?"
+     "speaker": "AJEW",
+     "text": [
+      "It is indeed. That is just why this passage was selected. The whole character and environment of it have a touch of glory. We have the king's palace and \"the king's daughter within\", a spiritually suggestive reference. As the note indicates, that is within the royal apartments. The assembly's place is in the greatest nearness to Christ, and the reality of union is really, I suppose, in view here. It is not specifically referred to, but you think of the bride in the royal apartments. Of course the One who governs the royal apartments is glorious; it says, \"My heart is welling forth with a good matter: I say what I have composed touching the king\". This is a song of the Beloved, a beautiful reference. I scarcely know of any passage of Scripture that appeals more as to the level and character of what relates to Christ and to the assembly responsive to Himself."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is indeed. That is just why this passage was selected. The whole character and environment of it have a touch of glory. We have the king's palace and \"the king's daughter within\", a spiritually suggestive reference. As the note indicates, that is within the royal apartments. The assembly's place is in the greatest nearness to Christ, and the reality of union is really, I suppose, in view here. It is not specifically referred to, but you think of the bride in the royal apartments. Of course the One who governs the royal apartments is glorious; it says, \"My heart is welling forth with a good matter: I say what I have composed touching the king\". This is a song of the Beloved, a beautiful reference. I scarcely know of any passage of Scripture that appeals more as to the level and character of what relates to Christ and to the assembly responsive to Himself."
+     "speaker": "JAP",
+     "text": [
+      "Does it involve intense concern - \"Hearken, daughter, and see, and incline thine ear; and forget thine own people and thy father's house\" - that moving with the saints involves that we are coming out of the world and natural relationships. We have to hearken; all of us have had to hearken, and move. Then it says \"the king will desire thy beauty\". Is it singleness of eye for Christ?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Does it involve intense concern - \"Hearken, daughter, and see, and incline thine ear; and forget thine own people and thy father's house\" - that moving with the saints involves that we are coming out of the world and natural relationships. We have to hearken; all of us have had to hearken, and move. Then it says \"the king will desire thy beauty\". Is it singleness of eye for Christ?"
+     "speaker": "AJEW",
+     "text": [
+      "There is that which is to be for God. It is never that situations are unrighteously covered, but there are things that in the divine presence, the presence of the glory of the King, can be rightly forgotten. They have been covered. What we had in Isaiah 53 would indicate that those are finished matters; the basis is in the work of the Lord Jesus for every matter to be concluded righteously and finished, and on that basis we go forward forgetting. Paul speaks of \"forgetting the things behind\", Phil 3: 13. There is much that is behind and sometimes it is like a lead weight to us, we pull it along and it just holds us up all the time, but God would say, Have done with the things that are behind. Be before God that they be righteously concluded, He would give a sense of t hat; and then move on to the divine objective."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "There is that which is to be for God. It is never that situations are unrighteously covered, but there are things that in the divine presence, the presence of the glory of the King, can be rightly forgotten. They have been covered. What we had in Isaiah 53 would indicate that those are finished matters; the basis is in the work of the Lord Jesus for every matter to be concluded righteously and finished, and on that basis we go forward forgetting. Paul speaks of \"forgetting the things behind\", Phil 3: 13. There is much that is behind and sometimes it is like a lead weight to us, we pull it along and it just holds us up all the time, but God would say, Have done with the things that are behind. Be before God that they be righteously concluded, He would give a sense of t hat; and then move on to the divine objective."
+     "speaker": "CG",
+     "text": [
+      "Myrrh is linked with garments in verse 8. Song of Songs 5: 5 reads: \"I rose up to open to my beloved; And my hands dropped with myrrh, And my fingers with liquid myrrh, Upon the handles of the lock\". What would be suggested in liquid myrrh linked with the hands and the fingers, whereas in this passage it is linked with garments?"
+     ]
     },
     {
-     "speaker": "C.G.",
-     "text": "Myrrh is linked with garments in verse 8. Song of Songs 5: 5 reads: \"I rose up to open to my beloved; And my hands dropped with myrrh, And my fingers with liquid myrrh, Upon the handles of the lock\". What would be suggested in liquid myrrh linked with the hands and the fingers, whereas in this passage it is linked with garments?"
+     "speaker": "AJEW",
+     "text": [
+      "The fragrance all suggests that a moment of joyous and holy response is in view. The Song of Songs enlarges many of these thoughts to us in a very rich way. Although it is the Song of Songs which is Solomon's, it has a certain character as a psalm. Quite likely the Song of Songs would also be in the Lord's mind when He spoke of the psalms in Luke 24; it is suggestive of a great area responsive to Christ and to God."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "The fragrance all suggests that a moment of joyous and holy response is in view. The Song of Songs enlarges many of these thoughts to us in a very rich way. Although it is the Song of Songs which is Solomon's, it has a certain character as a psalm. Quite likely the Song of Songs would also be in the Lord's mind when He spoke of the psalms in Luke 24; it is suggestive of a great area responsive to Christ and to God."
+     "speaker": "LMcF",
+     "text": [
+      "We were speaking of forgetting; now the side of remembrance is before us in the Supper. Do you think it is to be affecting us even now?"
+     ]
     },
     {
-     "text": "L.McF. We were speaking of forgetting; now the side of remembrance is before us in the Supper. Do you think it is to be affecting us even now?"
+     "speaker": "AJEW",
+     "text": [
+      "That is good to bring in because the forgetting side is necessary, but we are not left with an empty heart and an empty mind by the forgetting, we have someone glorious to remember and the gain of that remembrance is to continue. I feel searched often these days as to carrying forward the gain and experience of what we enjoy at the Lord's supper. I believe it is vital to the buoyant spirit of the psalms. The Lord skilfully interweaves it with the experiences through which we pass and reminds us of how He came in on the Lord's day, and showing us that it meets some element for our own experience. The Lord would make His supper a peculiarly operative thing in our affections as we find grace through the Spirit's help to carry forward what the Lord leaves among us as He comes in. That again, to use your own word, is substantial."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "That is good to bring in because the forgetting side is necessary, but we are not left with an empty heart and an empty mind by the forgetting, we have someone glorious to remember and the gain of that remembrance is to continue. I feel searched often these days as to carrying forward the gain and experience of what we enjoy at the Lord's supper. I believe it is vital to the buoyant spirit of the psalms. The Lord skilfully interweaves it with the experiences through which we pass and reminds us of how He came in on the Lord's day, and showing us that it meets some element for our own experience. The Lord would make His supper a peculiarly operative thing in our affections as we find grace through the Spirit's help to carry forward what the Lord leaves among us as He comes in. That again, to use your own word, is substantial."
+     "speaker": "GDP",
+     "text": [
+      "Is it right to think that Psalm 45 suggests happy dwelling conditions where the divine presence is felt, the persons themselves entering into it."
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "Is it right to think that Psalm 45 suggests happy dwelling conditions where the divine presence is felt, the persons themselves entering into it."
+     "speaker": "AJEW",
+     "text": [
+      "What more surpassingly happy conditions could we know than the presence of God, in perfect peace, and enjoyment of an unchanging love which has undertaken everything for us, and shall undertake everything for us until we are in final conditions where God shall be all in all. We are on the way to that, and that is the point of this reading this morning. The Lord left His disciples behind, He was separated from them, He went into heaven and they were left here. They were abundantly furnished; even as He left them He furnished them, and in due course the Spirit would come and there would be divine power to carry forward everything for the heart of Christ and everything due to God. What a subject of feasting this can be!"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "What more surpassingly happy conditions could we know than the presence of God, in perfect peace, and enjoyment of an unchanging love which has undertaken everything for us, and shall undertake everything for us until we are in final conditions where God shall be all in all. We are on the way to that, and that is the point of this reading this morning. The Lord left His disciples behind, He was separated from them, He went into heaven and they were left here. They were abundantly furnished; even as He left them He furnished them, and in due course the Spirit would come and there would be divine power to carry forward everything for the heart of Christ and everything due to God. What a subject of feasting this can be!"
+     "speaker": "ABP",
+     "text": [
+      "Are we not in an extension, if we may speak of it as such, of the day of grace, God being slow to enter into judgment? In the meantime, since the times are in His hand and Jesus as a Man is at His right hand, He is thinking for Him and what will satisfy His heart, that He might see of the fruit of the travail of His soul and have present satisfaction. Do you think the ministry that we are getting in relation to the things you have been bringing before us would be the expression of the Father's feelings for an adequate answer to the love of Christ?"
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "Are we not in an extension, if we may speak of it as such, of the day of grace, God being slow to enter into judgment? In the meantime, since the times are in His hand and Jesus as a Man is at His right hand, He is thinking for Him and what will satisfy His heart, that He might see of the fruit of the travail of His soul and have present satisfaction. Do you think the ministry that we are getting in relation to the things you have been bringing before us would be the expression of the Father's feelings for an adequate answer to the love of Christ?"
+     "speaker": "AJEW",
+     "text": [
+      "It is very affecting to think of it that way. We go back to the fact that the servant in Genesis 24 was sent out by the father. It was his consideration for his beloved son, and the substantial fruit of his mission was immediately presented to the son."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It is very affecting to think of it that way. We go back to the fact that the servant in Genesis 24 was sent out by the father. It was his consideration for his beloved son, and the substantial fruit of his mission was immediately presented to the son."
+     "speaker": "ABP",
+     "text": [
+      "\"I will make him a helpmate\", Gen 2: 18."
+     ]
     },
     {
-     "speaker": "A.B.P.",
-     "text": "\"I will make him a helpmate\", Gen 2: 18."
-    },
-    {
-     "speaker": "A.J.E.W.",
-     "text": "Quite so. We could fitly close on the buoyant note of this Psalm, so full of love and touches of glory as it is; the king's palace, wonderful suggestion, lifts us above what is commonplace into the area related to royal dignities, and that is the character of enjoyment that the God who loves us delights to open up. We are left in the wilderness for the time, but we have Christ in view in the way in which He is presented in the law of Moses, the prophets and the psalms. We are divinely furnished."
+     "speaker": "AJEW",
+     "text": [
+      "Quite so. We could fitly close on the buoyant note of this Psalm, so full of love and touches of glory as it is; the king's palace, wonderful suggestion, lifts us above what is commonplace into the area related to royal dignities, and that is the character of enjoyment that the God who loves us delights to open up. We are left in the wilderness for the time, but we have Christ in view in the way in which He is presented in the law of Moses, the prophets and the psalms. We are divinely furnished."
+     ]
     },
     {
      "speaker": "Rem.",
-     "text": "Verse 11 - \"And the king will desire thy beauty\" - brings before us the thought of the Lord having desires towards us."
+     "text": [
+      "Verse 11 - \"And the king will desire thy beauty\" - brings before us the thought of the Lord having desires towards us."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "How deep these desires are! That just gives a touch, as you are suggesting, of the depth of His desires towards His own, the longings of His own heart. Alas, how often we have lost sight of this, but the deep desires of the Lord Jesus are there in the infinite perfection of His affections in glorious manhood. His desires are towards the assembly."
+     "speaker": "AJEW",
+     "text": [
+      "How deep these desires are! That just gives a touch, as you are suggesting, of the depth of His desires towards His own, the longings of His own heart. Alas, how often we have lost sight of this, but the deep desires of the Lord Jesus are there in the infinite perfection of His affections in glorious manhood. His desires are towards the assembly."
+     ]
     },
     {
      "speaker": "Rem.",
-     "text": "Towards the assembly collectively, and would it be right to say also towards us as individuals? The Lord has thoughts for each one of us and those desires look on to the assembly being in glory with Him."
+     "text": [
+      "Towards the assembly collectively, and would it be right to say also towards us as individuals? The Lord has thoughts for each one of us and those desires look on to the assembly being in glory with Him."
+     ]
     },
     {
-     "speaker": "A.J.E.W",
-     "text": "So that the beloved apostle who writes so much concerning the assembly speaks thus of His love, love, the love of \"the Son of God who has loved me and given himself for me\"' Gal 2: 20."
+     "speaker": "AJEW",
+     "text": [
+      "So that the beloved apostle who writes so much concerning the assembly speaks thus of His love, love, the love of \"the Son of God who has loved me and given himself for me\"' Gal 2: 20."
+     ]
     }
    ]
   },
@@ -480,6 +638,38 @@
      "text": "The fear of God is not a feeling of dread but the recognition of Him in all your ways and He will direct your life's pathway. Is this your treasure?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "CHRIST IN MOSES AND THE PROPHETS AND PSALMS",
+   "kind": "comma_for_semicolon",
+   "detail": "\"G.Hesterman, C.Maynard\" read as two people"
+  },
+  {
+   "article": 1,
+   "title": "CHRIST IN MOSES AND THE PROPHETS AND PSALMS",
+   "kind": "no_comma_before_place",
+   "detail": "\"A.B.Parker New York\" read as A. B. Parker, New York"
+  },
+  {
+   "article": 1,
+   "title": "CHRIST IN MOSES AND THE PROPHETS AND PSALMS",
+   "kind": "no_comma_before_place",
+   "detail": "\"A.R.Stevens New York\" read as A. R. Stevens, New York"
+  },
+  {
+   "article": 1,
+   "title": "CHRIST IN MOSES AND THE PROPHETS AND PSALMS",
+   "kind": "default_place",
+   "detail": "PLAINFIELD given to 10 names (\"all local unless otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "CHRIST IN MOSES AND THE PROPHETS AND PSALMS",
+   "kind": "speaker_not_in_key",
+   "detail": "LMcF (in the text)"
   }
  ]
 }

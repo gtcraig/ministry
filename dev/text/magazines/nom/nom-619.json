@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -24,89 +24,117 @@
     "Colossians 2:19; Ephesians 4:15,16; 1 Corinthians 12:11-13, 18, 24 (from “But God”) -27"
    ],
    "speakers": [
-    "D.A.B.",
-    "N.J.H.",
-    "W.M.P.",
-    "D.C.B.",
-    "T.R.C.",
-    "P.A.G.",
-    "A.M.B.",
-    "W.W.L.",
-    "S.C.L.",
-    "A.B.B.",
-    "D.A.Br.",
-    "D.S.",
-    "W.K.C.",
-    "A.S.P."
+    "DAB",
+    "NJH",
+    "WMP",
+    "NCMcK",
+    "DCB",
+    "TRC",
+    "PAG",
+    "CAMcK",
+    "AMB",
+    "WWL",
+    "SCL",
+    "ABB",
+    "DABr",
+    "DS",
+    "WKC",
+    "CJMcK",
+    "ASP"
    ],
    "initials": [
     {
-     "initials": "ABBABBL",
-     "name": "A.B.B. A. Barrie Brown Linlithgow"
+     "initials": "ABB",
+     "name": "A. Barrie Brown",
+     "place": "Linlithgow"
     },
     {
-     "initials": "AMBAMBL",
-     "name": "A.M.B. Alistair M. Brown Linlithgow"
+     "initials": "AMB",
+     "name": "Alistair M. Brown",
+     "place": "Linlithgow"
     },
     {
-     "initials": "DABDABB",
-     "name": "D.A.Br. David A. Brown Bo’ness"
+     "initials": "DABr",
+     "name": "David A. Brown",
+     "place": "Bo’ness"
     },
     {
-     "initials": "DCBDCBE",
-     "name": "D.C.B. David C. Brown Edinburgh"
+     "initials": "DCB",
+     "name": "David C. Brown",
+     "place": "Edinburgh"
     },
     {
-     "initials": "DABDABWN",
-     "name": "D.A.B. D. Andrew Burr West Norwood"
+     "initials": "DAB",
+     "name": "D. Andrew Burr",
+     "place": "West Norwood"
     },
     {
-     "initials": "TRCTRCG",
-     "name": "T.R.C. Trevor R. Campbell Glasgow"
+     "initials": "TRC",
+     "name": "Trevor R. Campbell",
+     "place": "Glasgow"
     },
     {
-     "initials": "WKCBKCK",
-     "name": "W.K.C. Billy K. Clark Kirkcaldy"
+     "initials": "WKCB",
+     "name": "W. K. C. Billy",
+     "place": "K. Clark Kirkcaldy"
     },
     {
-     "initials": "PAGPAGL",
-     "name": "P.A.G. Paul A. Gray Linlithgow"
+     "initials": "PAG",
+     "name": "Paul A. Gray",
+     "place": "Linlithgow"
     },
     {
-     "initials": "NJHNJHG",
-     "name": "N.J.H. Norman J. Henry Glasgow"
+     "initials": "NJH",
+     "name": "Norman J. Henry",
+     "place": "Glasgow"
     },
     {
-     "initials": "SCLSCLE",
-     "name": "S.C.L. Sam C. Lock Edinburgh"
+     "initials": "SCL",
+     "name": "Sam C. Lock",
+     "place": "Edinburgh"
     },
     {
-     "initials": "WWLBWLA",
-     "name": "W.W.L. Bill W. Lovie Aberdeen"
+     "initials": "WWLB",
+     "name": "W. W. L. Bill",
+     "place": "W. Lovie Aberdeen"
     },
     {
-     "initials": "CAMCAMB",
-     "name": "C.A.McK. Craig A. McKay Brechin"
+     "initials": "CAMcK",
+     "name": "Craig A. McKay",
+     "place": "Brechin"
     },
     {
-     "initials": "CJMCJMG",
-     "name": "C.J.McK. Calum J. McKay Glasgow"
+     "initials": "CJMcK",
+     "name": "Calum J. McKay",
+     "place": "Glasgow"
     },
     {
-     "initials": "NCMNCMG",
-     "name": "N.C.McK. Neil C. McKay Glasgow"
+     "initials": "NCMcK",
+     "name": "Neil C. McKay",
+     "place": "Glasgow"
     },
     {
-     "initials": "WMPWMPG",
-     "name": "W.M.P. Walter M. Patterson Glasgow"
+     "initials": "WMP",
+     "name": "Walter M. Patterson",
+     "place": "Glasgow"
     },
     {
-     "initials": "ASPASPG",
-     "name": "A.S.P. Alastair S. Pittman Grangemouth"
+     "initials": "ASP",
+     "name": "Alastair S. Pittman",
+     "place": "Grangemouth"
     },
     {
-     "initials": "DSDSB",
-     "name": "D.S. David Spinks Bo’ness"
+     "initials": "DS",
+     "name": "David Spinks",
+     "place": "Bo’ness"
+    },
+    {
+     "initials": "WWL",
+     "not_in_key": true
+    },
+    {
+     "initials": "WKC",
+     "not_in_key": true
     }
    ],
    "initials_heading": "List of initials",
@@ -131,349 +159,494 @@
    ],
    "paragraphs": [
     {
-     "speaker": "D.A.B.",
-     "text": "I am attracted by this expression in Colossians, “the increase of God”. At the beginning of the epistle to the Corinthians the apostle Paul says that God is “the giver of the increase” (1 Cor.3:7), and Isaiah 9:7 says that, “Of the increase of his government … there shall be no end”. I understand by that, that where God’s will and God’s way are allowed, the potential for increase is really unlimited; as God’s government holds sway, it abounds and yields more and more for Him and for the subjects of His kingdom."
+     "speaker": "DAB",
+     "text": [
+      "I am attracted by this expression in Colossians, “the increase of God”. At the beginning of the epistle to the Corinthians the apostle Paul says that God is “the giver of the increase” (1 Cor.3:7), and Isaiah 9:7 says that, “Of the increase of his government … there shall be no end”. I understand by that, that where God’s will and God’s way are allowed, the potential for increase is really unlimited; as God’s government holds sway, it abounds and yields more and more for Him and for the subjects of His kingdom.",
+      "These scriptures refer to the body, and to the body increasing. They bring in the operations of God Himself, spoken of in different ways. We might think of the Father working. Then we have the headship of Christ, and the operations of the Holy Spirit. These references are not limited to what the Spirit does in the body – we cannot limit the operations of the Spirit – but they include His operations in the body. We might also inquire if we have anything to contribute in furthering the increase of God. If so, what is it that we might do that would have that result? I might become occupied with things that are decreasing. But God is working on the line of increase. Thus the body, of which all believers are members if they have the Spirit, becomes a domain in which that increase is to be experienced, and promoted. That is what I have in mind for this enquiry."
+     ]
     },
     {
-     "text": "These scriptures refer to the body, and to the body increasing. They bring in the operations of God Himself, spoken of in different ways. We might think of the Father working. Then we have the headship of Christ, and the operations of the Holy Spirit. These references are not limited to what the Spirit does in the body – we cannot limit the operations of the Spirit – but they include His operations in the body. We might also inquire if we have anything to contribute in furthering the increase of God. If so, what is it that we might do that would have that result? I might become occupied with things that are decreasing. But God is working on the line of increase. Thus the body, of which all believers are members if they have the Spirit, becomes a domain in which that increase is to be experienced, and promoted. That is what I have in mind for this enquiry."
+     "speaker": "NJH",
+     "text": [
+      "The Trinity is deeply involved in the body, which is a corporate thought, the whole thought. We may see decreasing numbers, but God’s increase is proceeding."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "The Trinity is deeply involved in the body, which is a corporate thought, the whole thought. We may see decreasing numbers, but God’s increase is proceeding."
+     "speaker": "DAB",
+     "text": [
+      "Yes. It is helpful to see, as Paul says to the Corinthians in our passage, that the body is not a thought to which division is attached. Not every member of the body is available to us in practical fellowship, and that is a sorrow to us, but it does not change the principles relating to the one body. An important thing is that you have the working of the body wherever it is expressed. We should not lose sight of the truth of the body in times of difficulty, because the body is still here, and as you say the Trinity is still working in it. They are working on the principle of increase. If we do not see an increase in numbers available to us, as we would wish, then in what other ways is there going to be increase?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes. It is helpful to see, as Paul says to the Corinthians in our passage, that the body is not a thought to which division is attached. Not every member of the body is available to us in practical fellowship, and that is a sorrow to us, but it does not change the principles relating to the one body. An important thing is that you have the working of the body wherever it is expressed. We should not lose sight of the truth of the body in times of difficulty, because the body is still here, and as you say the Trinity is still working in it. They are working on the principle of increase. If we do not see an increase in numbers available to us, as we would wish, then in what other ways is there going to be increase?"
+     "speaker": "WMP",
+     "text": [
+      "How does this thought of the body being “ministered to” connect with your subject? “Ministered to” must be from the Head."
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "How does this thought of the body being “ministered to” connect with your subject? “Ministered to” must be from the Head."
+     "speaker": "DAB",
+     "text": [
+      "Yes, it is: “holding fast the head, from whom all the body, ministered to and united” suggests that comes from the Head as well. There are two ways in which the Holy Spirit’s service comes in. The first is that, through the reception of the gift of the Spirit, each member is united to Christ; it is a spiritual union, dependent on the reception of the Holy Spirit by individual believers. Then the Spirit becomes a channel of life, not only to individuals, but to a company. So when the Lord Jesus says “because I live ye also shall live” (John 14:19), that can be experienced not only by an individual believer but also in the gathering of His people. Christ also serves us by imparting life, the “Spirit of life in Christ Jesus”, Rom.8:2. The Spirit becomes the means whereby the life of Christ is known. But the Spirit of God also serves in His own capacity to facilitate in believers, and thus to augment, the ministrations of the Head."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, it is: “holding fast the head, from whom all the body, ministered to and united” suggests that comes from the Head as well. There are two ways in which the Holy Spirit’s service comes in. The first is that, through the reception of the gift of the Spirit, each member is united to Christ; it is a spiritual union, dependent on the reception of the Holy Spirit by individual believers. Then the Spirit becomes a channel of life, not only to individuals, but to a company. So when the Lord Jesus says “because I live ye also shall live” (John 14:19), that can be experienced not only by an individual believer but also in the gathering of His people. Christ also serves us by imparting life, the “Spirit of life in Christ Jesus”, Rom.8:2. The Spirit becomes the means whereby the life of Christ is known. But the Spirit of God also serves in His own capacity to facilitate in believers, and thus to augment, the ministrations of the Head."
+     "speaker": "WMP",
+     "text": [
+      "You used an expression in your prayer at the outset as to the Spirit facilitating the headship of Christ. What did you have in mind in that thought?"
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "You used an expression in your prayer at the outset as to the Spirit facilitating the headship of Christ. What did you have in mind in that thought?"
+     "speaker": "DAB",
+     "text": [
+      "I would like to know if the brethren agree that it is a right thought. It is very interesting to see how the Lord Jesus speaks of the coming of the Spirit. He says that He will send Him, and He says that the Father will send Him. He is here on Their account, working on Their behalf. The body of Christ belongs to Him, and the Spirit does not claim ownership of it. He dwells and ministers in it for the pleasure and glory of Christ. There is also His own distinctive service. “When he is come”, the Lord Jesus says (John 16:13), and that service of course runs wider than the body. Some of these gifts that Paul mentions in 1 Corinthians 12 are not exactly for the building up of the body. For example, I do not think that the gift of tongues was given for the edification of the body, it was more for public testimony. But one of the spheres of the Spirit’s service is in the body, and His operations are to be known there."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I would like to know if the brethren agree that it is a right thought. It is very interesting to see how the Lord Jesus speaks of the coming of the Spirit. He says that He will send Him, and He says that the Father will send Him. He is here on Their account, working on Their behalf. The body of Christ belongs to Him, and the Spirit does not claim ownership of it. He dwells and ministers in it for the pleasure and glory of Christ. There is also His own distinctive service. “When he is come”, the Lord Jesus says (John 16:13), and that service of course runs wider than the body. Some of these gifts that Paul mentions in 1 Corinthians 12 are not exactly for the building up of the body. For example, I do not think that the gift of tongues was given for the edification of the body, it was more for public testimony. But one of the spheres of the Spirit’s service is in the body, and His operations are to be known there."
+     "speaker": "NJH",
+     "text": [
+      "So any part we have in the body must be by the Spirit. I was just thinking that the two or three in Matthew 18:20 could represent something of the body."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "So any part we have in the body must be by the Spirit. I was just thinking that the two or three in Matthew 18:20 could represent something of the body."
+     "speaker": "DAB",
+     "text": [
+      "Yes, especially as that passage has restoration of unity in view. “United together”, it says here, “by the joints and bands”. You might say, ‘how did that two or three come together?’. There is no suggestion that they have a merely social relationship, that is not how it is presented. In the passage in Matthew 18, the Lord speaks about a difficulty in which a brother becomes unavailable, and how one or two, or three, can gain that brother. And having gained him, they are united, not by some compromise, but by the ministration of Christ. The reality of these things can be proved where there is even the most limited expression of them."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, especially as that passage has restoration of unity in view. “United together”, it says here, “by the joints and bands”. You might say, ‘how did that two or three come together?’. There is no suggestion that they have a merely social relationship, that is not how it is presented. In the passage in Matthew 18, the Lord speaks about a difficulty in which a brother becomes unavailable, and how one or two, or three, can gain that brother. And having gained him, they are united, not by some compromise, but by the ministration of Christ. The reality of these things can be proved where there is even the most limited expression of them."
+     "speaker": "NCMcK",
+     "text": [
+      "It has been suggested that the scripture in Romans 8:9, “if any one has not the Spirit of Christ he is not of Him”, implies the central truth of the body, that it is composed of persons who have the Spirit of Christ and are characterised therefore by that kind of man. The body is to express that Man, do you think?"
+     ]
     },
     {
-     "text": "N.C.McK. It has been suggested that the scripture in Romans 8:9, “if any one has not the Spirit of Christ he is not of Him”, implies the central truth of the body, that it is composed of persons who have the Spirit of Christ and are characterised therefore by that kind of man. The body is to express that Man, do you think?"
+     "speaker": "DAB",
+     "text": [
+      "Yes. It is important to understand that there are two aspects to the Spirit’s coming. He is given; but He has to be received. That is what Peter says in Acts 2:38: “ye will receive the gift”. Now, what opens the heart to receive Him? Repentance: it creates a state in the believer ready to receive the Holy Spirit. You are introduced into moral and spiritual things where you would not trust your own ability, and you embrace the gift that God has given. Until you do that, as Paul says, you are not of Him. The life of Christ in the believer is not a theoretical thing. It only works where the Spirit is made room for. That is true of a believer individually, and of a company of believers too. If the Spirit is not recognised in a Christian company, or if He is displaced by the way in which a company organises itself, these things are not going to be experienced."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes. It is important to understand that there are two aspects to the Spirit’s coming. He is given; but He has to be received. That is what Peter says in Acts 2:38: “ye will receive the gift”. Now, what opens the heart to receive Him? Repentance: it creates a state in the believer ready to receive the Holy Spirit. You are introduced into moral and spiritual things where you would not trust your own ability, and you embrace the gift that God has given. Until you do that, as Paul says, you are not of Him. The life of Christ in the believer is not a theoretical thing. It only works where the Spirit is made room for. That is true of a believer individually, and of a company of believers too. If the Spirit is not recognised in a Christian company, or if He is displaced by the way in which a company organises itself, these things are not going to be experienced."
+     "speaker": "DCB",
+     "text": [
+      "In verse 4 of Ephesians 4, you have the simple statement, “There is one body and one Spirit”. Do we maintain that in our hearts and in our souls, and matters are worked out as we appreciate that?"
+     ]
     },
     {
-     "speaker": "D.C.B.",
-     "text": "In verse 4 of Ephesians 4, you have the simple statement, “There is one body and one Spirit”. Do we maintain that in our hearts and in our souls, and matters are worked out as we appreciate that?"
+     "speaker": "DAB",
+     "text": [
+      "That is the practical side I hoped we would get some help on. It is one thing to appreciate what divine Persons are doing, and I hope our impressions of that will be enlarged, but we are left with the question, ‘What do we do to promote and facilitate the increase of God?’. A dear brother used to say that that verse is carefully constructed: when the Lord and the Father are mentioned, they are put first, so we have “one Lord, one faith, one baptism; one God and Father”. But when it comes to the reference to the Spirit, the body comes first, and the point the brother made was that the Spirit needs a residence. He is not hovering in the air; He needs somewhere to dwell. So the body, which is His dwelling place, is mentioned first. I know that when we speak of the residence for the Holy Spirit, we would generally have the house in mind. But there is a place formed by the coming of the Spirit at Pentecost. The conditions and the expression of the body remain necessary if the Spirit is going to have room to operate."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "That is the practical side I hoped we would get some help on. It is one thing to appreciate what divine Persons are doing, and I hope our impressions of that will be enlarged, but we are left with the question, ‘What do we do to promote and facilitate the increase of God?’. A dear brother used to say that that verse is carefully constructed: when the Lord and the Father are mentioned, they are put first, so we have “one Lord, one faith, one baptism; one God and Father”. But when it comes to the reference to the Spirit, the body comes first, and the point the brother made was that the Spirit needs a residence. He is not hovering in the air; He needs somewhere to dwell. So the body, which is His dwelling place, is mentioned first. I know that when we speak of the residence for the Holy Spirit, we would generally have the house in mind. But there is a place formed by the coming of the Spirit at Pentecost. The conditions and the expression of the body remain necessary if the Spirit is going to have room to operate."
+     "speaker": "TRC",
+     "text": [
+      "Your first two scriptures bring in the thought of ‘holding’. Could you open that up, because it seems vital in what you are bringing before us: “holding … the head” and “holding the truth in love”?"
+     ]
     },
     {
-     "speaker": "T.R.C.",
-     "text": "Your first two scriptures bring in the thought of ‘holding’. Could you open that up, because it seems vital in what you are bringing before us: “holding … the head” and “holding the truth in love”?"
+     "speaker": "DAB",
+     "text": [
+      "That is central to what we are enquiring into. In three of the letters to the assemblies in Revelation, there is exhortation or comment about “hold fast”. In Pergamos we have, “thou holdest fast my name” (chap.2:13), which may actually not go much further than profession. Those whose state corresponds with Pergamos would profess to be Christians. Then the Lord says to Thyatira “what ye have hold fast till I shall come” (chap.2:25). That is wonderful: He was saying to them that the hope of His coming was the key to everything, when He would take up everything that was His. Unless we have that hope before us, we will become distracted with other things. And He says to Philadelphia, “hold fast what thou hast, that no one take thy crown” (chap.3:11). Mr. Stoney said that Satan will start by taking away the highest truth that you have, and having done that he will end up destroying the rest.1",
+      "In order to hold something fast you need two things. You need to be awake, because if someone is asleep you can take things from them, as David himself proved with Saul; and you also need to be vigorous, you need to have the strength to hold on to something, and that comes through food and exercise. Those two things should mark every Christian’s personal experience and desire. Am I exercised, and am I feeding? If not, I will let go what I have, or it will be taken from me. As to “holding fast the head”, the connection between the body and the Head is by the Spirit, and He is not going to let us down. But if we do not give the Spirit His place, and if we do not give the Lord His place in headship, we shall find that practically that connection fails because we cease to get any life or energy from it."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "That is central to what we are enquiring into. In three of the letters to the assemblies in Revelation, there is exhortation or comment about “hold fast”. In Pergamos we have, “thou holdest fast my name” (chap.2:13), which may actually not go much further than profession. Those whose state corresponds with Pergamos would profess to be Christians. Then the Lord says to Thyatira “what ye have hold fast till I shall come” (chap.2:25). That is wonderful: He was saying to them that the hope of His coming was the key to everything, when He would take up everything that was His. Unless we have that hope before us, we will become distracted with other things. And He says to Philadelphia, “hold fast what thou hast, that no one take thy crown” (chap.3:11). Mr. Stoney said that Satan will start by taking away the highest truth that you have, and having done that he will end up destroying the rest.1"
+     "speaker": "TRC",
+     "text": [
+      "I think what you say is very good. My mind went to the seed falling into the good ground (Matt.13:23) and I wondered whether that was important. It leads to the seed taking root and bearing fruit one hundred-fold, and that is the increase that God is looking for. The good ground would involve moisture and the Spirit’s work, do you think, and that would help us to be rooted and thus help us to hold the truth?"
+     ]
     },
     {
-     "text": "In order to hold something fast you need two things. You need to be awake, because if someone is asleep you can take things from them, as David himself proved with Saul; and you also need to be vigorous, you need to have the strength to hold on to something, and that comes through food and exercise. Those two things should mark every Christian’s personal experience and desire. Am I exercised, and am I feeding? If not, I will let go what I have, or it will be taken from me. As to “holding fast the head”, the connection between the body and the Head is by the Spirit, and He is not going to let us down. But if we do not give the Spirit His place, and if we do not give the Lord His place in headship, we shall find that practically that connection fails because we cease to get any life or energy from it."
+     "speaker": "DAB",
+     "text": [
+      "Yes. Paul says, “I have planted; Apollos watered; but God has given the increase”, 1 Cor.3:6. Fruit comes with patience. It is said about the good fruit that it is borne with patience (Luke 8:15), and God uses time to work things out. A lot of our tests come because things do not happen at once. God uses time for growth, which does not happen immediately, and the way God uses time allows Him to bring in exercises of all kinds. They do not divert God from His objective, which is the increase. Time tends to divert us, we get distracted, or despairing; but to be a worker under God helps us to see how He uses practical things that we might not see His hand in but are all part of His work."
+     ]
     },
     {
-     "speaker": "T.R.C.",
-     "text": "I think what you say is very good. My mind went to the seed falling into the good ground (Matt.13:23) and I wondered whether that was important. It leads to the seed taking root and bearing fruit one hundred-fold, and that is the increase that God is looking for. The good ground would involve moisture and the Spirit’s work, do you think, and that would help us to be rooted and thus help us to hold the truth?"
+     "speaker": "PAG",
+     "text": [
+      "The reference to “holding fast the head” is followed by a reference to being “united together by the joints and bands”. Do you think that holding fast the Head, requiring the power of His Spirit, would help us to hold fast to one another? We hold on to our brethren through Christ and by the Spirit."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes. Paul says, “I have planted; Apollos watered; but God has given the increase”, 1 Cor.3:6. Fruit comes with patience. It is said about the good fruit that it is borne with patience (Luke 8:15), and God uses time to work things out. A lot of our tests come because things do not happen at once. God uses time for growth, which does not happen immediately, and the way God uses time allows Him to bring in exercises of all kinds. They do not divert God from His objective, which is the increase. Time tends to divert us, we get distracted, or despairing; but to be a worker under God helps us to see how He uses practical things that we might not see His hand in but are all part of His work."
+     "speaker": "DAB",
+     "text": [
+      "I think that is important. We enjoy our links of friendship together, but the body is a spiritual idea which depends upon spiritual connections. We might think, ‘I am not very spiritual’, but if you have the Spirit, you are capable of making these connections. God firstly sets the members in the body, so each member has its place and we need to know what that is, so that we fill out our place; but then He has “tempered the body together”. It is the way in which a variety of exercises, some of them difficult, forge the relationships that you are speaking about. We ought, in our spirits and in our prayers, to understand those kinds of exercises more. Without being intrusive, we need to be able to carry what other members of Christ’s body are passing through, whether it is joys or sorrows, whether it is circumstantial or soul exercise, or spiritual exercise. Can we supply something that will help forward those exercises?"
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "The reference to “holding fast the head” is followed by a reference to being “united together by the joints and bands”. Do you think that holding fast the Head, requiring the power of His Spirit, would help us to hold fast to one another? We hold on to our brethren through Christ and by the Spirit."
+     "speaker": "PAG",
+     "text": [
+      "The Lord bore in His spirit the effect of sin on persons. He wept at the grave of Lazarus in John 11:35, not because the situation was hopeless but because He felt for those who were sorrowing. We speak about body feelings: you cannot have body feelings for something you know nothing about. The increase of God would be promoted by understanding one another in a sympathetic way. We are drawing from Christ as the One who understands us all perfectly, do you think?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I think that is important. We enjoy our links of friendship together, but the body is a spiritual idea which depends upon spiritual connections. We might think, ‘I am not very spiritual’, but if you have the Spirit, you are capable of making these connections. God firstly sets the members in the body, so each member has its place and we need to know what that is, so that we fill out our place; but then He has “tempered the body together”. It is the way in which a variety of exercises, some of them difficult, forge the relationships that you are speaking about. We ought, in our spirits and in our prayers, to understand those kinds of exercises more. Without being intrusive, we need to be able to carry what other members of Christ’s body are passing through, whether it is joys or sorrows, whether it is circumstantial or soul exercise, or spiritual exercise. Can we supply something that will help forward those exercises?"
+     "speaker": "DAB",
+     "text": [
+      "Yes, the scene at Bethany is interesting. Mr. Darby inserted a translator’s note to John 11:33 about the Lord being moved by seeing the power of death on the human spirit. I understand it is not a reference to the way that death involves the departure of the human spirit, but the Lord Jesus wept because the sisters were upset. That is how He felt, and He would promote like feelings in us. If we know something about the life of Christ, those feelings will mark us, and not just in extreme cases like that. We ought to feel what different generations are passing through, for example, and be alert to where we can be a support."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "The Lord bore in His spirit the effect of sin on persons. He wept at the grave of Lazarus in John 11:35, not because the situation was hopeless but because He felt for those who were sorrowing. We speak about body feelings: you cannot have body feelings for something you know nothing about. The increase of God would be promoted by understanding one another in a sympathetic way. We are drawing from Christ as the One who understands us all perfectly, do you think?"
+     "speaker": "CAMcK",
+     "text": [
+      "I once watched someone tempering metal and it was heated and then immersed in oil, and the heating and the oil resulted in a molecular change in the metal, strengthening it. I wondered if the heating would involve the exercises and the oil would speak of being surrounded by the Spirit. So that as we go through these exercises with the Holy Spirit, and together, there is strength in the body to continue, do you think?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, the scene at Bethany is interesting. Mr. Darby inserted a translator’s note to John 11:33 about the Lord being moved by seeing the power of death on the human spirit. I understand it is not a reference to the way that death involves the departure of the human spirit, but the Lord Jesus wept because the sisters were upset. That is how He felt, and He would promote like feelings in us. If we know something about the life of Christ, those feelings will mark us, and not just in extreme cases like that. We ought to feel what different generations are passing through, for example, and be alert to where we can be a support."
+     "speaker": "DAB",
+     "text": [
+      "That is very helpful. The result of tempering is that you have one piece where previously you had two, and with no loss of strength at the joint. It is a happy matter when relations among brethren are strong enough to survive tests that may come in. We do sincerely feel for those who are bereaved, every one of them. I also need to be alert to the soul exercises of my brethren, not only to challenges and worries and doubts, but do I pick up the joy of a brother or sister? Perhaps this brother has found liberty with the Spirit and reached peace in his soul; maybe a young person has arrived at something in committing themselves, members of the body are rejoicing. That should serve to strengthen the company through strengthening our links together."
+     ]
     },
     {
-     "text": "C.A.McK. I once watched someone tempering metal and it was heated and then immersed in oil, and the heating and the oil resulted in a molecular change in the metal, strengthening it. I wondered if the heating would involve the exercises and the oil would speak of being surrounded by the Spirit. So that as we go through these exercises with the Holy Spirit, and together, there is strength in the body to continue, do you think?"
+     "speaker": "AMB",
+     "text": [
+      "“Each one members one of the other”, Rom.12:5. If we are members of each other, we are indivisible in principle. We are to work out in practice the principles that we learn from the Scriptures."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "That is very helpful. The result of tempering is that you have one piece where previously you had two, and with no loss of strength at the joint. It is a happy matter when relations among brethren are strong enough to survive tests that may come in. We do sincerely feel for those who are bereaved, every one of them. I also need to be alert to the soul exercises of my brethren, not only to challenges and worries and doubts, but do I pick up the joy of a brother or sister? Perhaps this brother has found liberty with the Spirit and reached peace in his soul; maybe a young person has arrived at something in committing themselves, members of the body are rejoicing. That should serve to strengthen the company through strengthening our links together."
+     "speaker": "DAB",
+     "text": [
+      "Of course each has their own relationship with the Lord and with the Holy Spirit, and the scripture says that “The heart knoweth its own bitterness, and a stranger doth not intermeddle with its joy”, Prov.14:10. But perhaps the Lord may put things into your life, He may give you a joy that He means for you, because it will help you, and is also meant for the benefit of the body. This applies to more than circumstantial things. A baby has been born and we give thanks for that, but where are we in relation to the moral and spiritual joys and sorrows that our brethren have? It is feelings in these matters that strengthen the body."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "“Each one members one of the other”, Rom.12:5. If we are members of each other, we are indivisible in principle. We are to work out in practice the principles that we learn from the Scriptures."
+     "speaker": "AMB",
+     "text": [
+      "The secret to caring “with genuine feeling” how the saints get on (Phil.2:20), is to carry one another before the Lord in prayer."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Of course each has their own relationship with the Lord and with the Holy Spirit, and the scripture says that “The heart knoweth its own bitterness, and a stranger doth not intermeddle with its joy”, Prov.14:10. But perhaps the Lord may put things into your life, He may give you a joy that He means for you, because it will help you, and is also meant for the benefit of the body. This applies to more than circumstantial things. A baby has been born and we give thanks for that, but where are we in relation to the moral and spiritual joys and sorrows that our brethren have? It is feelings in these matters that strengthen the body."
+     "speaker": "DAB",
+     "text": [
+      "God is very pleased if one of His own mentions another of His own by name. But God is pleased if we ask for something specific for the person, not only mentioning the name. The Lord says to Peter, “I have besought for thee that …” (Luke 22:32). Now, that will require some insight which the Lord might give us about the spiritual welfare of those we are praying for."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "The secret to caring “with genuine feeling” how the saints get on (Phil.2:20), is to carry one another before the Lord in prayer."
+     "speaker": "AMB",
+     "text": [
+      "It is genuine, intelligent and thoughtful interest in one another."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "God is very pleased if one of His own mentions another of His own by name. But God is pleased if we ask for something specific for the person, not only mentioning the name. The Lord says to Peter, “I have besought for thee that …” (Luke 22:32). Now, that will require some insight which the Lord might give us about the spiritual welfare of those we are praying for."
+     "speaker": "NJH",
+     "text": [
+      "The character, or object, of the increase is that it is “of God”. I would like to understand that better, it is not just social, but something of God is brought in."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "It is genuine, intelligent and thoughtful interest in one another."
+     "speaker": "DAB",
+     "text": [
+      "I was comparing the passages in Colossians and Ephesians. Colossians speaks of the “increase of God”, and Ephesians speaks of “from whom the whole body, fitted together … works for itself the increase of the body to its self-building up in love”. I do not think the body of Christ has the capacity, unaided, to develop and increase: it depends on supply from divine Persons. We also learn that God uses channels of supply for that purpose, so while an individual may receive something from the Lord by the Spirit, God also uses those with whom we have fellowship to build up the body."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "The character, or object, of the increase is that it is “of God”. I would like to understand that better, it is not just social, but something of God is brought in."
+     "speaker": "PAG",
+     "text": [
+      "Does the “increase of God” indicate the source of the increase, while the “self-building up in love” is the use to which that source is put? It suggests that the source is exclusive. The body is not building itself up by what it finds around. It is building itself up by what comes from Christ as Head through the Spirit, and that is the increase of God. There is no other source."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I was comparing the passages in Colossians and Ephesians. Colossians speaks of the “increase of God”, and Ephesians speaks of “from whom the whole body, fitted together … works for itself the increase of the body to its self-building up in love”. I do not think the body of Christ has the capacity, unaided, to develop and increase: it depends on supply from divine Persons. We also learn that God uses channels of supply for that purpose, so while an individual may receive something from the Lord by the Spirit, God also uses those with whom we have fellowship to build up the body."
+     "speaker": "DAB",
+     "text": [
+      "Indeed. Increasing in love means formation in the divine nature, so that the body is making use of what God Himself has supplied for its growth. There is to be in the company what increasingly represents God here."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Does the “increase of God” indicate the source of the increase, while the “self-building up in love” is the use to which that source is put? It suggests that the source is exclusive. The body is not building itself up by what it finds around. It is building itself up by what comes from Christ as Head through the Spirit, and that is the increase of God. There is no other source."
+     "speaker": "NJH",
+     "text": [
+      "Was the increase of God seen in Priscilla and Aquila’s service to Apollos?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Indeed. Increasing in love means formation in the divine nature, so that the body is making use of what God Himself has supplied for its growth. There is to be in the company what increasingly represents God here."
+     "speaker": "DAB",
+     "text": [
+      "Yes, they “took him to them and unfolded to him the way of God more exactly”, Acts 18:26. The outcome of that was that he was able to be more convincing in his ministry. It was instinctive, towards a brother who they felt could be enlarged."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "Was the increase of God seen in Priscilla and Aquila’s service to Apollos?"
+     "speaker": "NJH",
+     "text": [
+      "It has been said that they did not bring in correction at the back of the hall. Priscilla and Aquila would bring him into their home conditions."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, they “took him to them and unfolded to him the way of God more exactly”, Acts 18:26. The outcome of that was that he was able to be more convincing in his ministry. It was instinctive, towards a brother who they felt could be enlarged."
+     "speaker": "DAB",
+     "text": [
+      "Yes, and they showed him that there was something more than what he had, which he embraced, and so he increased."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "It has been said that they did not bring in correction at the back of the hall. Priscilla and Aquila would bring him into their home conditions."
+     "speaker": "WWL",
+     "text": [
+      "Could you say something for our help about the gifts that are spoken of earlier in Ephesians 4? The purpose of the gifts is “the work of the ministry, with a view to the edifying of the body of Christ”, Eph.4:12. But where you have read there is no word of the gifts."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, and they showed him that there was something more than what he had, which he embraced, and so he increased."
+     "speaker": "DAB",
+     "text": [
+      "The gifts have that purpose, but the increase of the body is not solely through gift. Verses 12 to 25 of 1 Corinthians 12 bear on this: we are not all head, or all eye, and there are parts that do not appear to have honour and yet they are essential and part of the building up. It is a mistake to feel that I have nothing to contribute because I do not have gift. Some of these gifts are not manifest in the way they were at the beginning, either. Still the body increases, or it should do, “in its measure of each one part”. Now, we have the gift of faith; we have the gift of the Spirit; we have the gift of grace. Those things every member has in measure. The building up of the body is not solely through ministry, important though the ministry is."
+     ]
     },
     {
-     "speaker": "W.W.L.",
-     "text": "Could you say something for our help about the gifts that are spoken of earlier in Ephesians 4? The purpose of the gifts is “the work of the ministry, with a view to the edifying of the body of Christ”, Eph.4:12. But where you have read there is no word of the gifts."
+     "speaker": "CAMcK",
+     "text": [
+      "We were occupied with this verse last week, the “self-building up in love”, and we found it very attractive. I noticed that Mr. Coates said that the objective of gifts is that they are no longer needed. This is really the working of the body spiritually, organically, so that we are edified or built up. It is very attractive."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The gifts have that purpose, but the increase of the body is not solely through gift. Verses 12 to 25 of 1 Corinthians 12 bear on this: we are not all head, or all eye, and there are parts that do not appear to have honour and yet they are essential and part of the building up. It is a mistake to feel that I have nothing to contribute because I do not have gift. Some of these gifts are not manifest in the way they were at the beginning, either. Still the body increases, or it should do, “in its measure of each one part”. Now, we have the gift of faith; we have the gift of the Spirit; we have the gift of grace. Those things every member has in measure. The building up of the body is not solely through ministry, important though the ministry is."
+     "speaker": "DAB",
+     "text": [
+      "Yes. The list in Corinthians includes things that are not included in the list in Ephesians, such as “helps” for example, 1 Cor.12:28. Then, “all these things operates the one and the same Spirit”. One objection to the clerical principle is that it inhibits the expression of other members in the body, and not only in ministry. For example, you might have a conversation with a brother about a spiritual experience and he communicates that to you. We should be exercised that that builds up the body, not just ourselves."
+     ]
     },
     {
-     "text": "C.A.McK. We were occupied with this verse last week, the “self-building up in love”, and we found it very attractive. I noticed that Mr. Coates said that the objective of gifts is that they are no longer needed. This is really the working of the body spiritually, organically, so that we are edified or built up. It is very attractive."
+     "speaker": "SCL",
+     "text": [
+      "Regarding Daniel and his three friends, Daniel spoke but the four seemed to be united in their purpose and exercise as to what should be done. As a result, it says “As for these four youths, God gave them knowledge and skill in all learning and wisdom”, Dan.1:17. Over time, approving of their exercise and unity, God gives an increase to these four men, do you think?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes. The list in Corinthians includes things that are not included in the list in Ephesians, such as “helps” for example, 1 Cor.12:28. Then, “all these things operates the one and the same Spirit”. One objection to the clerical principle is that it inhibits the expression of other members in the body, and not only in ministry. For example, you might have a conversation with a brother about a spiritual experience and he communicates that to you. We should be exercised that that builds up the body, not just ourselves."
+     "speaker": "DAB",
+     "text": [
+      "That is interesting. In chapter 2, Daniel rose to the occasion when there was great difficulty, and saw the need for a word from God, but the four of them prayed, and then the answer came (vv.17-23). Daniel had to speak for them, but they received light as they were together, and their links were extremely strong. Adversity made it strong really, and we have our share of adversity. What this passage in Corinthians brings out is that we have a share of joy as well. It has been said that sorrows are easier to share than joys. You feel an impulse to support someone in sorrow, that is a natural feeling. But it may be more difficult if someone has been given a joy, especially if you have not been given it yourself. But the body works like this: if a member is rejoicing, you “rejoice with it”. I just ask myself, have my spiritual joys proved to be of benefit to the company as a whole? It does not mean that I have to speak about everything I enjoy, but we can build one another up by sharing joys. Where God is working in a positive way, we should ensure that is used to encourage the brethren."
+     ]
     },
     {
-     "speaker": "S.C.L.",
-     "text": "Regarding Daniel and his three friends, Daniel spoke but the four seemed to be united in their purpose and exercise as to what should be done. As a result, it says “As for these four youths, God gave them knowledge and skill in all learning and wisdom”, Dan.1:17. Over time, approving of their exercise and unity, God gives an increase to these four men, do you think?"
+     "speaker": "ABB",
+     "text": [
+      "I was looking at Hebrews 10:24, “let us consider one another for provoking to love and good works”. Do you think that would be a practical example of what we are discussing? We know how the flesh can provoke other things, but this is how we can bring Christ before one another. As to the “good works”, there would be room for increase in that because it would lead to more of what is for God, do you think?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "That is interesting. In chapter 2, Daniel rose to the occasion when there was great difficulty, and saw the need for a word from God, but the four of them prayed, and then the answer came (vv.17-23). Daniel had to speak for them, but they received light as they were together, and their links were extremely strong. Adversity made it strong really, and we have our share of adversity. What this passage in Corinthians brings out is that we have a share of joy as well. It has been said that sorrows are easier to share than joys. You feel an impulse to support someone in sorrow, that is a natural feeling. But it may be more difficult if someone has been given a joy, especially if you have not been given it yourself. But the body works like this: if a member is rejoicing, you “rejoice with it”. I just ask myself, have my spiritual joys proved to be of benefit to the company as a whole? It does not mean that I have to speak about everything I enjoy, but we can build one another up by sharing joys. Where God is working in a positive way, we should ensure that is used to encourage the brethren."
+     "speaker": "DAB",
+     "text": [
+      "Yes. To what extent have I been inspired by the commitment of other brethren? I may have admired it, but to what extent has it led me to say, ‘They have something that I could have if I were to commit myself to it’? It is good if older brethren with an impression of the Lord make it clear that they are enjoying it. Young people remember older brethren who evidently enjoyed what they heard and what they shared."
+     ]
     },
     {
-     "speaker": "A.B.B.",
-     "text": "I was looking at Hebrews 10:24, “let us consider one another for provoking to love and good works”. Do you think that would be a practical example of what we are discussing? We know how the flesh can provoke other things, but this is how we can bring Christ before one another. As to the “good works”, there would be room for increase in that because it would lead to more of what is for God, do you think?"
+     "speaker": "ABB",
+     "text": [
+      "The scripture “Remember your leaders” (Heb.13:7) was mentioned last week, and if a brother or sister spoke to me and brought the Lord before me, I remember that as fatherly. There would be room to increase in that feature."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes. To what extent have I been inspired by the commitment of other brethren? I may have admired it, but to what extent has it led me to say, ‘They have something that I could have if I were to commit myself to it’? It is good if older brethren with an impression of the Lord make it clear that they are enjoying it. Young people remember older brethren who evidently enjoyed what they heard and what they shared."
+     "speaker": "DAB",
+     "text": [
+      "Yes, and God has set us together: He “has set the members, each one of them in the body”, and He has done that in perfect wisdom. Think of the care that God took in forming Adam. He was creating a being that had intelligence and affections, to whom His own Spirit could be imparted, so that God could then have communion with man. With care He created him as a vessel for communication with God and to receive things from God; how much more the body of Christ. Think of the sheer wonder of the idea, that there could be a vessel that needed Someone as great as the Holy Spirit to unite its members together and then to unite the whole to Christ above, who would then become a source of life that would flow through that vessel by the connections among its members. What care has gone into its formation. Now, that needs maintenance, and application on our part."
+     ]
     },
     {
-     "speaker": "A.B.B.",
-     "text": "The scripture “Remember your leaders” (Heb.13:7) was mentioned last week, and if a brother or sister spoke to me and brought the Lord before me, I remember that as fatherly. There would be room to increase in that feature."
+     "speaker": "DABr",
+     "text": [
+      "Do you think our knowledge of, and love for, divine Persons bears on our links together and how we can help one another? Reference has been made to “growing by the true knowledge of God”, Col.1:10. Then in Ephesians 4:13, it speaks of “the knowledge of the Son of God”. Our love for divine Persons, and our knowledge of them which comes from communion, bears on and provides substance to our links together, helping us to enjoy the things that we are speaking of."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, and God has set us together: He “has set the members, each one of them in the body”, and He has done that in perfect wisdom. Think of the care that God took in forming Adam. He was creating a being that had intelligence and affections, to whom His own Spirit could be imparted, so that God could then have communion with man. With care He created him as a vessel for communication with God and to receive things from God; how much more the body of Christ. Think of the sheer wonder of the idea, that there could be a vessel that needed Someone as great as the Holy Spirit to unite its members together and then to unite the whole to Christ above, who would then become a source of life that would flow through that vessel by the connections among its members. What care has gone into its formation. Now, that needs maintenance, and application on our part."
+     "speaker": "DAB",
+     "text": [
+      "While the people in the gospels did not have the Spirit as we have, I think the woman at Sychar, for example, grew by the true knowledge of God (John 4). The Lord told her that God must be worshipped in spirit and in truth, and from then on she was activated by the apprehension of a Man she had immediately come to love. “Come, see a man”, she says, John 4:29. Her admiration for Christ motivated her to communicate what she had to other people and to bring them to Him."
+     ]
     },
     {
-     "speaker": "D.A.Br.",
-     "text": "Do you think our knowledge of, and love for, divine Persons bears on our links together and how we can help one another? Reference has been made to “growing by the true knowledge of God”, Col.1:10. Then in Ephesians 4:13, it speaks of “the knowledge of the Son of God”. Our love for divine Persons, and our knowledge of them which comes from communion, bears on and provides substance to our links together, helping us to enjoy the things that we are speaking of."
+     "speaker": "DABr",
+     "text": [
+      "The light really became substance in her soul. She became a great testimony to what Christ had done in her as well as for her."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "While the people in the gospels did not have the Spirit as we have, I think the woman at Sychar, for example, grew by the true knowledge of God (John 4). The Lord told her that God must be worshipped in spirit and in truth, and from then on she was activated by the apprehension of a Man she had immediately come to love. “Come, see a man”, she says, John 4:29. Her admiration for Christ motivated her to communicate what she had to other people and to bring them to Him."
+     "speaker": "DAB",
+     "text": [
+      "Yes, so growth can be very quick. The woman who touched the hem of the Lord’s garment (Matt.9:20-22) did not want to be known at first, but very soon she is preaching. We were reading on Thursday night, “Is any matter too wonderful for Jehovah?”, Gen.18:14. But in the ordinary course of events, growth goes according to the passage of time, and God will always have time for what He is doing. His intent is that something strong and well-developed will come about."
+     ]
     },
     {
-     "speaker": "D.A.Br.",
-     "text": "The light really became substance in her soul. She became a great testimony to what Christ had done in her as well as for her."
+     "speaker": "WMP",
+     "text": [
+      "Our knowledge of divine Persons has been mentioned, and you said that all three Persons would be engaged in this matter. Have you more in mind as to the body being of intense interest to the Holy Spirit, and to the Lord Jesus, and to the Father?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, so growth can be very quick. The woman who touched the hem of the Lord’s garment (Matt.9:20-22) did not want to be known at first, but very soon she is preaching. We were reading on Thursday night, “Is any matter too wonderful for Jehovah?”, Gen.18:14. But in the ordinary course of events, growth goes according to the passage of time, and God will always have time for what He is doing. His intent is that something strong and well-developed will come about."
+     "speaker": "DAB",
+     "text": [
+      "The body is of Christ and it belongs to Him. He is expressed in it and is manifested in the activities of the body. When here, He had a body that moved under the operation and direction of the Holy Spirit. Now the Head is above and the body is here, functioning in the power of the Spirit, and the result is that Christ is expressed. God Himself has taken a hand in this; He set the members in the body. We are not together by accident, nor are our experiences accidental. For God, things are never haphazard. The universe itself is upheld “by the word of his power”, Heb.1:3. The order that we see in creation is the product of the Lord’s constant sustaining activity. The work of God in the soul of every believer is sustained by what the Spirit is doing. And so is His work in the company of those who are available to us. The question is, do we make enough room for that divine work, and how engaged are we in furthering it? This is not a process that happens ‘in the background’, as people say; it is something that requires us to be actively engaged, and for that we need to know the Persons of the Godhead, we need to be formed in our knowledge of them."
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "Our knowledge of divine Persons has been mentioned, and you said that all three Persons would be engaged in this matter. Have you more in mind as to the body being of intense interest to the Holy Spirit, and to the Lord Jesus, and to the Father?"
+     "speaker": "WMP",
+     "text": [
+      "It was in my mind that we are formed by that knowledge, and that results in the functioning of the body, in a practical way."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The body is of Christ and it belongs to Him. He is expressed in it and is manifested in the activities of the body. When here, He had a body that moved under the operation and direction of the Holy Spirit. Now the Head is above and the body is here, functioning in the power of the Spirit, and the result is that Christ is expressed. God Himself has taken a hand in this; He set the members in the body. We are not together by accident, nor are our experiences accidental. For God, things are never haphazard. The universe itself is upheld “by the word of his power”, Heb.1:3. The order that we see in creation is the product of the Lord’s constant sustaining activity. The work of God in the soul of every believer is sustained by what the Spirit is doing. And so is His work in the company of those who are available to us. The question is, do we make enough room for that divine work, and how engaged are we in furthering it? This is not a process that happens ‘in the background’, as people say; it is something that requires us to be actively engaged, and for that we need to know the Persons of the Godhead, we need to be formed in our knowledge of them."
+     "speaker": "DAB",
+     "text": [
+      "Yes. Take John 14:17, where the Lord Jesus is really touching on this point. He says as to the Spirit, “ye know him, for he abides with you, and shall be in you”. In our practical experience we get to know Him by giving Him room, but the Lord Jesus speaks as if our experience of the Spirit’s presence depends on our knowledge of Him. That links with the idea of receiving the Spirit. It is the point in our lives when we have welcomed Him and come to something in ourselves about the scope that we are going to give Him to guide our thoughts."
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "It was in my mind that we are formed by that knowledge, and that results in the functioning of the body, in a practical way."
+     "speaker": "DS",
+     "text": [
+      "Can you help us further as to being baptised by one Spirit into one body? This seems to be the avenue by which we come into what you are speaking about."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes. Take John 14:17, where the Lord Jesus is really touching on this point. He says as to the Spirit, “ye know him, for he abides with you, and shall be in you”. In our practical experience we get to know Him by giving Him room, but the Lord Jesus speaks as if our experience of the Spirit’s presence depends on our knowledge of Him. That links with the idea of receiving the Spirit. It is the point in our lives when we have welcomed Him and come to something in ourselves about the scope that we are going to give Him to guide our thoughts."
+     "speaker": "DAB",
+     "text": [
+      "I think it links with the fact that the things we are speaking about are spiritual. You might say to me, ‘Well, I am not very spiritual’, and think there must be some other structure that would support this, because we are not spiritual enough to carry the weight of it. But that is not true. We have a spiritual bond with one another, and we are baptised by one Spirit into one body. That is the ground on which God has put us, the effect of receiving the Spirit. Not only are you engaged with the Spirit as an individual; not only are you united to Christ; but you are made part of this vessel, which stands apart, distinguishably, from whatever associations you may previously have had. If you are committed to that, then you do not belong to any other body – it is an exclusive arrangement. Then he adds “and have all been given to drink of one Spirit”. That means that what began as ground taken up by us becomes something I enjoy. It has begun to form me inwardly and I can fill out the place I have in the body."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "Can you help us further as to being baptised by one Spirit into one body? This seems to be the avenue by which we come into what you are speaking about."
+     "speaker": "DS",
+     "text": [
+      "I think it is very attractive. It is an individual matter first: those who are obedient desire to receive the Spirit, but then we see that God desires us to come into what is functioning under the hand of the Spirit and by the headship of Christ, with the feelings of the Father relating to it. It is to expand in our souls."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I think it links with the fact that the things we are speaking about are spiritual. You might say to me, ‘Well, I am not very spiritual’, and think there must be some other structure that would support this, because we are not spiritual enough to carry the weight of it. But that is not true. We have a spiritual bond with one another, and we are baptised by one Spirit into one body. That is the ground on which God has put us, the effect of receiving the Spirit. Not only are you engaged with the Spirit as an individual; not only are you united to Christ; but you are made part of this vessel, which stands apart, distinguishably, from whatever associations you may previously have had. If you are committed to that, then you do not belong to any other body – it is an exclusive arrangement. Then he adds “and have all been given to drink of one Spirit”. That means that what began as ground taken up by us becomes something I enjoy. It has begun to form me inwardly and I can fill out the place I have in the body."
+     "speaker": "DAB",
+     "text": [
+      "Yes. Mr. Darby recounts his early experience in which he had apprehended that by receiving the Spirit, he was united to Christ; and then he asked himself, what was the church? What, indeed, is the body? It is made up of a company of people of each of whom this is true: they are united to Christ2. But he did not have in mind something like a maypole, with ribbons coming down from the centre to each member, so that they just had that connection in common. Rather, the Spirit united them into one body – that body was something distinct from what they were individually, and He unites that body to Christ. That is a further thought, and it is necessary to understand it. It is what God had in mind, and personal identity then is not the point. The Lord’s supper is a place where that can be experienced, because the act of remembrance at the Supper is collective. I remember someone asking a brother, how would he know that the Lord had come in among a company at the Supper, and his answer was, ‘You sense the hearts of the brethren opening’. You ought to be able to tell, if you have the Spirit, that everybody is responding out of the same affection, and collective remembrance is a spiritual possibility. If we make way for it more, I think we begin to understand the spiritual unity that there is in the body."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "I think it is very attractive. It is an individual matter first: those who are obedient desire to receive the Spirit, but then we see that God desires us to come into what is functioning under the hand of the Spirit and by the headship of Christ, with the feelings of the Father relating to it. It is to expand in our souls."
+     "speaker": "WKC",
+     "text": [
+      "Is it seen very beautifully with Ananias? He laid his hands upon Paul and said, “Saul, brother, the Lord has sent me”, Acts 9:17."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes. Mr. Darby recounts his early experience in which he had apprehended that by receiving the Spirit, he was united to Christ; and then he asked himself, what was the church? What, indeed, is the body? It is made up of a company of people of each of whom this is true: they are united to Christ2. But he did not have in mind something like a maypole, with ribbons coming down from the centre to each member, so that they just had that connection in common. Rather, the Spirit united them into one body – that body was something distinct from what they were individually, and He unites that body to Christ. That is a further thought, and it is necessary to understand it. It is what God had in mind, and personal identity then is not the point. The Lord’s supper is a place where that can be experienced, because the act of remembrance at the Supper is collective. I remember someone asking a brother, how would he know that the Lord had come in among a company at the Supper, and his answer was, ‘You sense the hearts of the brethren opening’. You ought to be able to tell, if you have the Spirit, that everybody is responding out of the same affection, and collective remembrance is a spiritual possibility. If we make way for it more, I think we begin to understand the spiritual unity that there is in the body."
+     "speaker": "DAB",
+     "text": [
+      "I think that is a very important point in Paul’s service, because the Lord Jesus had spoken about “me” (Acts 9:4), and Paul might have thought, ‘Well, I can see that in an impersonal kind of way’. But before he went out and preached the gospel even once, he had been served by a brother, and it says he “was baptised … And he was with the disciples”, Acts 9:18-19. In other words, the Lord said, ‘I am not going to let you preach until I show you who this “me” really is’. And He did not show Paul the whole church, He showed him those who were available in Damascus. That is what we have, those who are available, and it is in such that the “me” is to be seen. It should stimulate our commitment and our activity towards God."
+     ]
     },
     {
-     "speaker": "W.K.C.",
-     "text": "Is it seen very beautifully with Ananias? He laid his hands upon Paul and said, “Saul, brother, the Lord has sent me”, Acts 9:17."
+     "speaker": "CJMcK",
+     "text": [
+      "Paul had deep body feelings for the saints, and the saints had deep body feelings for him, as we see in Acts 20. But he says, “by God’s grace I am what I am”, 1 Cor.15:10. He attributes what he had become to God’s grace. Do we see the increase of God there?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I think that is a very important point in Paul’s service, because the Lord Jesus had spoken about “me” (Acts 9:4), and Paul might have thought, ‘Well, I can see that in an impersonal kind of way’. But before he went out and preached the gospel even once, he had been served by a brother, and it says he “was baptised … And he was with the disciples”, Acts 9:18-19. In other words, the Lord said, ‘I am not going to let you preach until I show you who this “me” really is’. And He did not show Paul the whole church, He showed him those who were available in Damascus. That is what we have, those who are available, and it is in such that the “me” is to be seen. It should stimulate our commitment and our activity towards God."
+     "speaker": "DAB",
+     "text": [
+      "Yes, I think we need more to give way to God’s grace. That is another point about increase, that God has not taken us up because there was some kind of merit in us. The whole work in the believer, all that comes into expression in the body, is God’s work. It started with God, on the principle of grace. The idea of grace is that God supplies more than is needed in situations where there is no other source of supply. The gospel tells us that we are lost, we have nothing to pay, but we are saved by grace. Grace has brought more than was needed into a situation where there was no other resource. We see that in the body, everything is of God and it has come on the principle of grace."
+     ]
     },
     {
-     "text": "C.J.McK. Paul had deep body feelings for the saints, and the saints had deep body feelings for him, as we see in Acts 20. But he says, “by God’s grace I am what I am”, 1 Cor.15:10. He attributes what he had become to God’s grace. Do we see the increase of God there?"
+     "speaker": "TRC",
+     "text": [
+      "Paul, about to leave the elders of Ephesus, says, “And now I commit you to God, and to the word of his grace, which is able to build you up and give to you an inheritance among all the sanctified”, Acts 20:32."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, I think we need more to give way to God’s grace. That is another point about increase, that God has not taken us up because there was some kind of merit in us. The whole work in the believer, all that comes into expression in the body, is God’s work. It started with God, on the principle of grace. The idea of grace is that God supplies more than is needed in situations where there is no other source of supply. The gospel tells us that we are lost, we have nothing to pay, but we are saved by grace. Grace has brought more than was needed into a situation where there was no other resource. We see that in the body, everything is of God and it has come on the principle of grace."
+     "speaker": "DAB",
+     "text": [
+      "It is good to think about the extent to which grace can build us up. Paul speaks of those who have “insulted the Spirit of grace”, Heb.10:29. They have really despised the channels through which God’s supply is given. But what ought to mark us, as Paul also says, is, “Let no corrupt word go out of your mouth” (Eph.4:29), and “Let your word be always with grace”, Col.4:6. That should mark our communications. Also, “It is more blessed to give than to receive”, Acts 20:35. We may think of the joints of supply as channels along which we might receive something, but the body works on a sacrificial principle: through the joints of supply, I can give to others. I am myself to be a vessel of grace, with something to give."
+     ]
     },
     {
-     "speaker": "T.R.C.",
-     "text": "Paul, about to leave the elders of Ephesus, says, “And now I commit you to God, and to the word of his grace, which is able to build you up and give to you an inheritance among all the sanctified”, Acts 20:32."
+     "speaker": "ASP",
+     "text": [
+      "Is wisdom given as to how these things are shared? For example, Paul shared his experience at the end of 2 Corinthians as to “a man in Christ”, and he had waited fourteen years (see 2 Cor.12:2). Peter also writes about his experience in his second epistle (see 2 Pet.1:16). Do you think that the Holy Spirit prompts us to share these things to build up one another at the needed moment?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It is good to think about the extent to which grace can build us up. Paul speaks of those who have “insulted the Spirit of grace”, Heb.10:29. They have really despised the channels through which God’s supply is given. But what ought to mark us, as Paul also says, is, “Let no corrupt word go out of your mouth” (Eph.4:29), and “Let your word be always with grace”, Col.4:6. That should mark our communications. Also, “It is more blessed to give than to receive”, Acts 20:35. We may think of the joints of supply as channels along which we might receive something, but the body works on a sacrificial principle: through the joints of supply, I can give to others. I am myself to be a vessel of grace, with something to give."
+     "speaker": "DAB",
+     "text": [
+      "These are good examples. We are not to be sanctimonious with one another, or cross question one another about impressions we have had, but I do need to maintain the level of my communications. There is no increase in being occupied with people’s shortcomings, but there is increase in sharing spiritual experiences. We have meetings for fellowship and there is a social side to fellowship, but fellowship is not merely social. It is to provide an environment in which spiritual and moral growth can occur."
+     ]
     },
     {
-     "speaker": "A.S.P.",
-     "text": "Is wisdom given as to how these things are shared? For example, Paul shared his experience at the end of 2 Corinthians as to “a man in Christ”, and he had waited fourteen years (see 2 Cor.12:2). Peter also writes about his experience in his second epistle (see 2 Pet.1:16). Do you think that the Holy Spirit prompts us to share these things to build up one another at the needed moment?"
+     "speaker": "NJH",
+     "text": [
+      "It says “these we clothe with more abundant honour”, 1 Cor.12:23. We are to do it."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "These are good examples. We are not to be sanctimonious with one another, or cross question one another about impressions we have had, but I do need to maintain the level of my communications. There is no increase in being occupied with people’s shortcomings, but there is increase in sharing spiritual experiences. We have meetings for fellowship and there is a social side to fellowship, but fellowship is not merely social. It is to provide an environment in which spiritual and moral growth can occur."
+     "speaker": "DAB",
+     "text": [
+      "We should be concerned about one another in that way. I remember we were often exhorted by Mr. Gardiner as to “each esteeming the other as more excellent than themselves”, Phil.2:3. He said, ‘You ought to be able to look at any brother or sister and think of something in which they are further on than you are’. That sister prays more; that brother has borne more affliction than I have. We are to occupy ourselves with positive things too: that sister is often cheerful; that brother always has something to contribute. These are things that provoke one another to love and good works."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "It says “these we clothe with more abundant honour”, 1 Cor.12:23. We are to do it."
+     "speaker": "AMB",
+     "text": [
+      "That is the expression of the mind of Christ, as the passage you are quoting in Philippians 2 says."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "We should be concerned about one another in that way. I remember we were often exhorted by Mr. Gardiner as to “each esteeming the other as more excellent than themselves”, Phil.2:3. He said, ‘You ought to be able to look at any brother or sister and think of something in which they are further on than you are’. That sister prays more; that brother has borne more affliction than I have. We are to occupy ourselves with positive things too: that sister is often cheerful; that brother always has something to contribute. These are things that provoke one another to love and good works."
+     "speaker": "DAB",
+     "text": [
+      "The mind “which was also in Christ Jesus” (Phil.2:5), how wonderful that is, that Christ Jesus is the Man of God’s purpose. It has been said about Christ Jesus that the things God had in His heart for man were so great that a Person of the Godhead had to come into manhood to give expression to them. That is the Man Christ Jesus."
+     ]
     },
     {
-     "speaker": "A.M.B.",
-     "text": "That is the expression of the mind of Christ, as the passage you are quoting in Philippians 2 says."
+     "speaker": "DCB",
+     "text": [
+      "The setting in 1 Corinthians does not bring in the Head in quite the same way as the passages in Colossians and Ephesians. Is that because this is to be worked out in a local assembly?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "The mind “which was also in Christ Jesus” (Phil.2:5), how wonderful that is, that Christ Jesus is the Man of God’s purpose. It has been said about Christ Jesus that the things God had in His heart for man were so great that a Person of the Godhead had to come into manhood to give expression to them. That is the Man Christ Jesus."
+     "speaker": "DAB",
+     "text": [
+      "Yes, it is important to be clear that the reference in 1 Corinthians 12:21 to the head is not a reference to Christ. When Paul refers to the head, he refers to the physical body which has a head and eyes and other members. But I think it bears on what was mentioned earlier, that there are these two aspects of the Spirit’s service. First, the body lives because Christ lives. That is the service of the Spirit; the Spirit of life in Christ Jesus is to be a characteristic of the believer. The Lord says, “In that day ye shall know that I am in my Father, and ye in me, and I in you”, John 14:20. That refers to the Spirit’s day, and the life of Christ in us by the Spirit. That is how as individuals and as a company we draw on the headship of Christ. In addition to that, the Holy Spirit Himself is here, as a Person, and we need to become acquainted with the Lord and the Spirit. The passage in Corinthians is, I suggest, devoted to the latter point whereas the other scriptures are more the former."
+     ]
     },
     {
-     "speaker": "D.C.B.",
-     "text": "The setting in 1 Corinthians does not bring in the Head in quite the same way as the passages in Colossians and Ephesians. Is that because this is to be worked out in a local assembly?"
+     "speaker": "PAG",
+     "text": [
+      "I would like you to explain it a bit more."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, it is important to be clear that the reference in 1 Corinthians 12:21 to the head is not a reference to Christ. When Paul refers to the head, he refers to the physical body which has a head and eyes and other members. But I think it bears on what was mentioned earlier, that there are these two aspects of the Spirit’s service. First, the body lives because Christ lives. That is the service of the Spirit; the Spirit of life in Christ Jesus is to be a characteristic of the believer. The Lord says, “In that day ye shall know that I am in my Father, and ye in me, and I in you”, John 14:20. That refers to the Spirit’s day, and the life of Christ in us by the Spirit. That is how as individuals and as a company we draw on the headship of Christ. In addition to that, the Holy Spirit Himself is here, as a Person, and we need to become acquainted with the Lord and the Spirit. The passage in Corinthians is, I suggest, devoted to the latter point whereas the other scriptures are more the former."
+     "speaker": "DAB",
+     "text": [
+      "If we think of the first aspect – where it is by the Spirit that we know the life of Christ in us – then we might be inclined to think of the Spirit as facilitating. But He is to be taken account of as a Person who is here. It is in the Spirit that God is here. Christ is not here, and the life of a believer relates to a Man who is in heaven, but the Spirit is here. God is here in the Person of the Spirit, and that is to be taken account of. If you read 1 Corinthians 12 carefully you will see that the domain of the Spirit’s operation is very wide. It includes His testimony to the world. In John 16:8 the Lord says that the Spirit “will bring demonstration to the world, of sin, and of righteousness, and of judgment”. The Lord does not mention the apostles, it was not the testimony that would be given through the preaching; but the Spirit is a witness in His own right, as a Person. The Spirit is to be taken account of not simply as facilitating but as a Person working in His own right. What would you say?"
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "I would like you to explain it a bit more."
+     "speaker": "PAG",
+     "text": [
+      "Yes, that is how John’s gospel presents it. In John 14, He is sent by the Father and “he shall teach you all things” (v.26). In John 15 He is sent by the Son and He bears witness to Christ. And in John 16, as you say, it is “when he is come” (v.13). He is presented as coming of His own volition and He brings demonstration to the world of certain things. He is able to do that because He has persons available through whom He can demonstrate it. The Spirit does that in His own power, but 1 Corinthians 12 really describes these persons who act together under the Spirit’s power. We are never supposed to act on our own, are we?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "If we think of the first aspect – where it is by the Spirit that we know the life of Christ in us – then we might be inclined to think of the Spirit as facilitating. But He is to be taken account of as a Person who is here. It is in the Spirit that God is here. Christ is not here, and the life of a believer relates to a Man who is in heaven, but the Spirit is here. God is here in the Person of the Spirit, and that is to be taken account of. If you read 1 Corinthians 12 carefully you will see that the domain of the Spirit’s operation is very wide. It includes His testimony to the world. In John 16:8 the Lord says that the Spirit “will bring demonstration to the world, of sin, and of righteousness, and of judgment”. The Lord does not mention the apostles, it was not the testimony that would be given through the preaching; but the Spirit is a witness in His own right, as a Person. The Spirit is to be taken account of not simply as facilitating but as a Person working in His own right. What would you say?"
+     "speaker": "DAB",
+     "text": [
+      "Indeed, nor could we competently do so. We have the two sides in Romans 8. The “Spirit of life in Christ Jesus” (v.2) is the first side. And then “if indeed God’s Spirit dwell in you” (v.9), that is the second side, the Spirit of God known as a Person. When the Spirit and the bride say “Come” (Rev.22:17), that is a testimony to the fact that the Spirit is here. It is not Christ prompting the church to say it, it is the Spirit saying it, He is to be taken account of in that way."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "Yes, that is how John’s gospel presents it. In John 14, He is sent by the Father and “he shall teach you all things” (v.26). In John 15 He is sent by the Son and He bears witness to Christ. And in John 16, as you say, it is “when he is come” (v.13). He is presented as coming of His own volition and He brings demonstration to the world of certain things. He is able to do that because He has persons available through whom He can demonstrate it. The Spirit does that in His own power, but 1 Corinthians 12 really describes these persons who act together under the Spirit’s power. We are never supposed to act on our own, are we?"
+     "speaker": "PAG",
+     "text": [
+      "We have all been baptised in the power of one Spirit (1 Cor.12:13). The power is divine power. What you are saying is important, the Spirit is not influence or agent only, He is a divine Person. He brings, we say this reverently, the same character, quality and substance of power as the Father and the Son."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Indeed, nor could we competently do so. We have the two sides in Romans 8. The “Spirit of life in Christ Jesus” (v.2) is the first side. And then “if indeed God’s Spirit dwell in you” (v.9), that is the second side, the Spirit of God known as a Person. When the Spirit and the bride say “Come” (Rev.22:17), that is a testimony to the fact that the Spirit is here. It is not Christ prompting the church to say it, it is the Spirit saying it, He is to be taken account of in that way."
+     "speaker": "DAB",
+     "text": [
+      "Yes, and the greatness of His work needs to be taken account of. The period He has been here is many times longer than the period when the Lord Jesus was here. The Holy Spirit has operated the world over. In this dispensation, He has united people drawn from the diverse human population into one body, and He is able to give character to that one body, so that natural distinctions disappear. He is the means by which those who form that body can draw near to the Father, and numbers of persons available do not affect His ability to do that. If numbers are diminished, the power is not, and I think it ought to be felt. The Spirit sheds abroad in my heart the love of God (Rom.5:5), which shows that my heart is not great enough for it. But there is a vessel, the body, which in grace I am connected with, in which these things can be known. As my appreciation of it grows and I develop my part in it, the vessel itself will express that increase and will grow. That is of God."
+     ]
     },
     {
-     "speaker": "P.A.G.",
-     "text": "We have all been baptised in the power of one Spirit (1 Cor.12:13). The power is divine power. What you are saying is important, the Spirit is not influence or agent only, He is a divine Person. He brings, we say this reverently, the same character, quality and substance of power as the Father and the Son."
+     "speaker": "NCMcK",
+     "text": [
+      "You also mentioned in Ephesians “holding the truth in love” and growing up to the Head. How does that link on with what we have been speaking of? There are the spiritual bonds in the body, and the truth as well."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, and the greatness of His work needs to be taken account of. The period He has been here is many times longer than the period when the Lord Jesus was here. The Holy Spirit has operated the world over. In this dispensation, He has united people drawn from the diverse human population into one body, and He is able to give character to that one body, so that natural distinctions disappear. He is the means by which those who form that body can draw near to the Father, and numbers of persons available do not affect His ability to do that. If numbers are diminished, the power is not, and I think it ought to be felt. The Spirit sheds abroad in my heart the love of God (Rom.5:5), which shows that my heart is not great enough for it. But there is a vessel, the body, which in grace I am connected with, in which these things can be known. As my appreciation of it grows and I develop my part in it, the vessel itself will express that increase and will grow. That is of God."
-    },
-    {
-     "text": "N.C.McK. You also mentioned in Ephesians “holding the truth in love” and growing up to the Head. How does that link on with what we have been speaking of? There are the spiritual bonds in the body, and the truth as well."
-    },
-    {
-     "speaker": "D.A.B.",
-     "text": "In referring to the truth, Paul in Ephesians is not speaking about a creed, but how God has come out, and the principles that mark His ways. It is what is of God, the truth, and those who are formed in the divine nature will love what is of God. So those who are born of God are of God, and the truth is of God too; and it is held in love. If you really hold something in love, you would never want to give it up. If you hold it in fear, or only in form, you might do. But if you hold something in love you have committed the spring of your life to it, and you would hope, with God’s grace, never to give it up."
-    },
-    {
-     "text": "Glasgow"
-    },
-    {
-     "text": "28 October 2023"
-    },
-    {
-     "text": "Andrew Burr"
-    },
-    {
-     "text": "Edited and published monthly by Alistair Brown and Paul Martin"
-    },
-    {
-     "text": "Additional copies are available, free of charge, by emailing"
-    },
-    {
-     "text": "notesofministry@virginmedia.com or paul@nofm.co.uk"
-    },
-    {
-     "text": "27 Grange View Linlithgow EH49 7HY UK"
-    },
-    {
-     "text": "Printed by Crystal Print, 22 Western Road, Billericay, CM12 9DZ"
+     "speaker": "DAB",
+     "text": [
+      "In referring to the truth, Paul in Ephesians is not speaking about a creed, but how God has come out, and the principles that mark His ways. It is what is of God, the truth, and those who are formed in the divine nature will love what is of God. So those who are born of God are of God, and the truth is of God too; and it is held in love. If you really hold something in love, you would never want to give it up. If you hold it in fear, or only in form, you might do. But if you hold something in love you have committed the spring of your life to it, and you would hope, with God’s grace, never to give it up.",
+      "Glasgow",
+      "28 October 2023",
+      "Andrew Burr",
+      "Edited and published monthly by Alistair Brown and Paul Martin",
+      "Additional copies are available, free of charge, by emailing",
+      "notesofministry@virginmedia.com or paul@nofm.co.uk",
+      "27 Grange View Linlithgow EH49 7HY UK",
+      "Printed by Crystal Print, 22 Western Road, Billericay, CM12 9DZ"
+     ]
     }
    ]
   },
@@ -494,6 +667,140 @@
      "text": "JND Letters vol.3 pp.298,299"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"A. Barrie Brown Linlithgow\" read as A. Barrie Brown, Linlithgow"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alistair M. Brown Linlithgow\" read as Alistair M. Brown, Linlithgow"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"David A. Brown Bo’ness\" read as David A. Brown, Bo’ness"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"David C. Brown Edinburgh\" read as David C. Brown, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"D. Andrew Burr West Norwood\" read as D. Andrew Burr, West Norwood"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Trevor R. Campbell Glasgow\" read as Trevor R. Campbell, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"W.K.C. Billy K. Clark Kirkcaldy\" read as W. K. C. Billy, K. Clark Kirkcaldy"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Paul A. Gray Linlithgow\" read as Paul A. Gray, Linlithgow"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Norman J. Henry Glasgow\" read as Norman J. Henry, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Sam C. Lock Edinburgh\" read as Sam C. Lock, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"W.W.L. Bill W. Lovie Aberdeen\" read as W. W. L. Bill, W. Lovie Aberdeen"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Craig A. McKay Brechin\" read as Craig A. McKay, Brechin"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Calum J. McKay Glasgow\" read as Calum J. McKay, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Neil C. McKay Glasgow\" read as Neil C. McKay, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Walter M. Patterson Glasgow\" read as Walter M. Patterson, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alastair S. Pittman Grangemouth\" read as Alastair S. Pittman, Grangemouth"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"David Spinks Bo’ness\" read as David Spinks, Bo’ness"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "initials_before_name",
+   "detail": "15 entries written as initials then name (\"ABB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "possible_speaker",
+   "detail": "WKC opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "possible_speaker",
+   "detail": "WWL opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "speaker_not_in_key",
+   "detail": "WWL (in the text)"
+  },
+  {
+   "article": 1,
+   "title": "THE INCREASE OF GOD",
+   "kind": "speaker_not_in_key",
+   "detail": "WKC (in the text)"
   }
  ]
 }

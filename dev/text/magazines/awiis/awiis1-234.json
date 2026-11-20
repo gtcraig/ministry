@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,21 +26,22 @@
    "place": "DUNDEE",
    "date": "28 March 1992",
    "speakers": [
-    "J.R.",
-    "J.S.",
-    "J.M.",
-    "P.G.",
-    "M.W.",
-    "R.S.R.",
-    "E.S.",
-    "N.J.H.",
-    "J.R",
-    "J.G.",
-    "D.S.",
-    "P.B.",
-    "J.R.C.",
-    "J.Sp.",
-    "A.A.B."
+    "JR",
+    "JS",
+    "JM",
+    "AMcK",
+    "PG",
+    "MW",
+    "RSR",
+    "DMcG",
+    "ES",
+    "NJH",
+    "JG",
+    "GMcC",
+    "DS",
+    "PB",
+    "JRC",
+    "AAB"
    ],
    "initials": [
     {
@@ -52,11 +53,6 @@
      "initials": "PB",
      "name": "P.Buchan",
      "place": "Kirkcaldy"
-    },
-    {
-     "initials": "PB",
-     "name": "n",
-     "place": "P.Buchan, Peterhead"
     },
     {
      "initials": "JRC",
@@ -77,17 +73,17 @@
      "place": "Glasgow"
     },
     {
-     "initials": "GM",
+     "initials": "GMcC",
      "name": "G.McCrone",
      "place": "Brechin"
     },
     {
-     "initials": "DM",
+     "initials": "DMcG",
      "name": "D.McGregor",
      "place": "Lochgelly"
     },
     {
-     "initials": "AM",
+     "initials": "AMcK",
      "name": "A.McKay",
      "place": "Brechin"
     },
@@ -101,18 +97,9 @@
      "place": "Edinburgh"
     },
     {
-     "initials": "RSRE",
-     "name": "R.S.Renton Edinburgh"
-    },
-    {
-     "initials": "DS",
-     "name": "l",
-     "place": "D.Scougal, Edinburgh"
-    },
-    {
-     "initials": "DS",
-     "name": "n",
-     "place": "D.Steven, Glasgow"
+     "initials": "RSR",
+     "name": "R. S. Renton",
+     "place": "Edinburgh"
     },
     {
      "initials": "ES",
@@ -129,8 +116,13 @@
      "place": "Grangemouth"
     },
     {
-     "initials": "MWMIE",
-     "name": "M.Wood MINISTRY IN EDINBURGH"
+     "initials": "MW",
+     "name": "M. Wood",
+     "place": "MINISTRY IN EDINBURGH"
+    },
+    {
+     "initials": "DS",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
@@ -140,631 +132,930 @@
    ],
    "paragraphs": [
     {
-     "speaker": "J.R.",
-     "text": "It is suggested that we consider the word \"sensible\" in chapter 8 of Luke and the same word in 2 Timothy 1 and \"sober, discreet\" in chapter 3. We have the extreme case of the demoniac found \"sitting, clothed and sensible\". It has often been said that from verse 26 of this chapter 8 we have the man and the woman and the child, the component parts of a local meeting, and this man is to take on responsibility, as every brother should, and, whereas he was restless, could not be subdued, he was subdued and \"sitting, clothed and sensible\". This word \"sensible \" seems to be an important feature to mark each one of us. We begin with this man. He is not long in the way. He is just newly converted, shall we say, but he has these three qualities. \"Sitting\" would be an important feature; \"clothed\", too, and then \"sensible\". He desires to go with the Lord when He departed, but the Lord says, \"Return to thine house\". That is, he was to fulfil responsibility in his own place; hence the need of this word \"sensible\", that is, having a right judgment, \"sober\", \"of wise discretion\". The same word is translated in a different way in these four scriptures, but I think the importance of being sensible needs to lay hold of us."
+     "speaker": "JR",
+     "text": [
+      "It is suggested that we consider the word \"sensible\" in chapter 8 of Luke and the same word in 2 Timothy 1 and \"sober, discreet\" in chapter 3. We have the extreme case of the demoniac found \"sitting, clothed and sensible\". It has often been said that from verse 26 of this chapter 8 we have the man and the woman and the child, the component parts of a local meeting, and this man is to take on responsibility, as every brother should, and, whereas he was restless, could not be subdued, he was subdued and \"sitting, clothed and sensible\". This word \"sensible \" seems to be an important feature to mark each one of us. We begin with this man. He is not long in the way. He is just newly converted, shall we say, but he has these three qualities. \"Sitting\" would be an important feature; \"clothed\", too, and then \"sensible\". He desires to go with the Lord when He departed, but the Lord says, \"Return to thine house\". That is, he was to fulfil responsibility in his own place; hence the need of this word \"sensible\", that is, having a right judgment, \"sober\", \"of wise discretion\". The same word is translated in a different way in these four scriptures, but I think the importance of being sensible needs to lay hold of us."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Would being subdued - he was sitting at the feet of Jesus - be necessary if we are to have this character of being sensible?"
+     "speaker": "JS",
+     "text": [
+      "Would being subdued - he was sitting at the feet of Jesus - be necessary if we are to have this character of being sensible?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is right. That is what had happened to him. It says they went to see what had happened to him. What happened was they \"came to Jesus, and found the man from whom the demons had gone out, sitting, clothed and sensible, at the feet of Jesus\". That is a very important attitude to have, no matter what comes in, whatever happens, to be able to sit \"clothed and sensible, at the feet of Jesus\"."
+     "speaker": "JR",
+     "text": [
+      "I am sure that is right. That is what had happened to him. It says they went to see what had happened to him. What happened was they \"came to Jesus, and found the man from whom the demons had gone out, sitting, clothed and sensible, at the feet of Jesus\". That is a very important attitude to have, no matter what comes in, whatever happens, to be able to sit \"clothed and sensible, at the feet of Jesus\"."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Clothing would be external and would be seen by everyone, perhaps something that God had done for the man, but \"sensible\" is his own state of mind."
+     "speaker": "JM",
+     "text": [
+      "Clothing would be external and would be seen by everyone, perhaps something that God had done for the man, but \"sensible\" is his own state of mind."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. You wonder where these clothes came from. He wore no clothes, but here he is clothed. Where did he get them? It must have been clothing that the Lord could approve of. The first clothing was the coats of skin - was it not? - with which God clothed Adam. Adam and his wife were clothed in coats of skin so that Adam would not say to Eve, You are to blame, and Eve could not say to Adam, You were responsible. They were both clothed suitably. God Himself clothed them in coats of skin at the cost of the life of another."
+     "speaker": "JR",
+     "text": [
+      "Exactly. You wonder where these clothes came from. He wore no clothes, but here he is clothed. Where did he get them? It must have been clothing that the Lord could approve of. The first clothing was the coats of skin - was it not? - with which God clothed Adam. Adam and his wife were clothed in coats of skin so that Adam would not say to Eve, You are to blame, and Eve could not say to Adam, You were responsible. They were both clothed suitably. God Himself clothed them in coats of skin at the cost of the life of another."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I read that recently and was impressed by it. He did not just leave these coats at the roadside so that they would find them. He clothed them. They would fit beautifully."
+     "speaker": "JM",
+     "text": [
+      "I read that recently and was impressed by it. He did not just leave these coats at the roadside so that they would find them. He clothed them. They would fit beautifully."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "They would be suitable to God Himself; and so this clothing would be suitable to the Lord. He is composed, he is of a right mind, he is sensible. This is the way to it as our brother is saying: \"at the feet of Jesus\" - \"sitting, clothed and sensible\". He would qualify for taking responsibility locally. He is apparently alone. He is in the testimony alone as far as we know, but he could have been the gathering point for others."
+     "speaker": "JR",
+     "text": [
+      "They would be suitable to God Himself; and so this clothing would be suitable to the Lord. He is composed, he is of a right mind, he is sensible. This is the way to it as our brother is saying: \"at the feet of Jesus\" - \"sitting, clothed and sensible\". He would qualify for taking responsibility locally. He is apparently alone. He is in the testimony alone as far as we know, but he could have been the gathering point for others."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Are the two priests in the Old Testament who offered strange fire a helpful contrast to this? There was fierce activity and so on, something has to be done, whereas this man is not in that at all."
+     "speaker": "JM",
+     "text": [
+      "Are the two priests in the Old Testament who offered strange fire a helpful contrast to this? There was fierce activity and so on, something has to be done, whereas this man is not in that at all."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. He is perfectly composed. What a change took place with this man! We are all like him - tend to be restless. Our minds work rove to and fro, here and there, and wander, but this is the answer for everyone who desires to help locally. It is to be sitting."
+     "speaker": "JR",
+     "text": [
+      "That is right. He is perfectly composed. What a change took place with this man! We are all like him - tend to be restless. Our minds work rove to and fro, here and there, and wander, but this is the answer for everyone who desires to help locally. It is to be sitting."
+     ]
     },
     {
-     "text": "A.McK. The reference in verse 36 is that he is healed. It seems there was something deeper that had to be attended to before he could arrive at this position."
+     "speaker": "AMcK",
+     "text": [
+      "The reference in verse 36 is that he is healed. It seems there was something deeper that had to be attended to before he could arrive at this position."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. It says in Mark that \"no one was able to subdue him\" (chap 5: 4), but the Lord subdued Him; He came under the Lord's authority. He would come into the kingdom in that sense."
+     "speaker": "JR",
+     "text": [
+      "Exactly. It says in Mark that \"no one was able to subdue him\" (chap 5: 4), but the Lord subdued Him; He came under the Lord's authority. He would come into the kingdom in that sense."
+     ]
     },
     {
-     "text": "A.McK. This would be the full working out of the gospel."
+     "speaker": "AMcK",
+     "text": [
+      "This would be the full working out of the gospel."
+     ]
     },
     {
-     "speaker": "P.G.",
-     "text": "The Spirit would give you the ability to be suitably at the feet of Jesus."
+     "speaker": "PG",
+     "text": [
+      "The Spirit would give you the ability to be suitably at the feet of Jesus."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "He certainly would. We get that in 2 Timothy 1. What kind of spirit have we received? In Luke it is Jesus, and in Romans 12 it is God who \"has dealt to each a measure of faith\", and in 2 Timothy it is the Spirit, the kind of spirit we have received. All this would contribute to being sensible , \"of wise discretion\". It is important at the present time to have this feature of being sensible, \"of wise discretion\", \"sober, discreet\", of sound mind."
+     "speaker": "JR",
+     "text": [
+      "He certainly would. We get that in 2 Timothy 1. What kind of spirit have we received? In Luke it is Jesus, and in Romans 12 it is God who \"has dealt to each a measure of faith\", and in 2 Timothy it is the Spirit, the kind of spirit we have received. All this would contribute to being sensible , \"of wise discretion\". It is important at the present time to have this feature of being sensible, \"of wise discretion\", \"sober, discreet\", of sound mind."
+     ]
     },
     {
-     "speaker": "M.W.",
-     "text": "It would appear that the one and only thing this man wanted after this experience was to be with Jesus. He was not thinking about service or anything else like that, and then he gets under direction. Would you comment on that?"
+     "speaker": "MW",
+     "text": [
+      "It would appear that the one and only thing this man wanted after this experience was to be with Jesus. He was not thinking about service or anything else like that, and then he gets under direction. Would you comment on that?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "He was so satisfied, content to be sitting at the feet of Jesus. He was so happy in that setting that he wanted to be with Him wherever He went, but the Lord puts a man like this in the testimony and, according to Romans 12, in a locality, to work out things locally, to merge in the body with a measure of faith, a proportion of faith."
+     "speaker": "JR",
+     "text": [
+      "He was so satisfied, content to be sitting at the feet of Jesus. He was so happy in that setting that he wanted to be with Him wherever He went, but the Lord puts a man like this in the testimony and, according to Romans 12, in a locality, to work out things locally, to merge in the body with a measure of faith, a proportion of faith."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "In chapter 10 it says of Mary, \"having sat down at the feet of Jesus was listening to his word\" (v 39). Do you think that the man would be ready for instruction and, being sensible, he would think rationally?"
+     "speaker": "RSR",
+     "text": [
+      "In chapter 10 it says of Mary, \"having sat down at the feet of Jesus was listening to his word\" (v 39). Do you think that the man would be ready for instruction and, being sensible, he would think rationally?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Surely he would. He gets his instruction: \"Return to thine house and relate how great things God has done for thee\"."
+     "speaker": "JR",
+     "text": [
+      "Surely he would. He gets his instruction: \"Return to thine house and relate how great things God has done for thee\"."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Would that be a great contrast to what had marked him before? It says, \"did not abide in a house, but in the tombs\" (v 27). Do you think the Lord would indicate to him that he was to take up responsibility in a sober way in regard to his own house first of all?"
+     "speaker": "JS",
+     "text": [
+      "Would that be a great contrast to what had marked him before? It says, \"did not abide in a house, but in the tombs\" (v 27). Do you think the Lord would indicate to him that he was to take up responsibility in a sober way in regard to his own house first of all?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. What a change there would be in this man's house! What a difference from what he had been before! - living in tombs, as you say, and here he is able to sit down and consider, weigh things over with a sound mind - with discretion, to use another expression."
+     "speaker": "JR",
+     "text": [
+      "Exactly. What a change there would be in this man's house! What a difference from what he had been before! - living in tombs, as you say, and here he is able to sit down and consider, weigh things over with a sound mind - with discretion, to use another expression."
+     ]
     },
     {
-     "text": "D.McG. At one point Paul lost his spirit and said to the high priest, \"God will smite thee, whited wall\" (Acts 23: 3) but he immediately judged himself. But when he is standing before Festus and Agrippa and was attacked and called mad he says, \"I am not mad, most excellent Festus, but utter words of truth and soberness\", Acts 26: 25."
+     "speaker": "DMcG",
+     "text": [
+      "At one point Paul lost his spirit and said to the high priest, \"God will smite thee, whited wall\" (Acts 23: 3) but he immediately judged himself. But when he is standing before Festus and Agrippa and was attacked and called mad he says, \"I am not mad, most excellent Festus, but utter words of truth and soberness\", Acts 26: 25."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly: he was able to compose himself. We all tend to get agitated sometimes but we can return to this important setting. Maybe we do not sit enough. Maybe we do not contemplate enough, do not think enough, think at the feet of Jesus, instead of thinking our own thoughts. What a sobering, contented situation it is!"
+     "speaker": "JR",
+     "text": [
+      "Exactly: he was able to compose himself. We all tend to get agitated sometimes but we can return to this important setting. Maybe we do not sit enough. Maybe we do not contemplate enough, do not think enough, think at the feet of Jesus, instead of thinking our own thoughts. What a sobering, contented situation it is!"
+     ]
     },
     {
-     "speaker": "E.S.",
-     "text": "Is it a question of what influence we are under? It speaks of him as a \"possessed man\". We will be under one influence or another, but under the influence of Jesus we are restful, sensible, in accord with the peace, longsuffering, and other things that marked Him."
+     "speaker": "ES",
+     "text": [
+      "Is it a question of what influence we are under? It speaks of him as a \"possessed man\". We will be under one influence or another, but under the influence of Jesus we are restful, sensible, in accord with the peace, longsuffering, and other things that marked Him."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "\"In his shadow have I rapture and sit down\" (Song of Sol 2: 3), the shadow of the apple-tree. It is the influence of Jesus. The man is under the influence of Jesus here. He had been possessed by demons and now he is possessed by the Lord Jesus."
+     "speaker": "JR",
+     "text": [
+      "\"In his shadow have I rapture and sit down\" (Song of Sol 2: 3), the shadow of the apple-tree. It is the influence of Jesus. The man is under the influence of Jesus here. He had been possessed by demons and now he is possessed by the Lord Jesus."
+     ]
     },
     {
-     "speaker": "E.S.",
-     "text": "The Spirit would maintain us in that. It is interesting that in Luke they were to remain in the city till they were \"clothed with power from on high\", chap 24: 49."
+     "speaker": "ES",
+     "text": [
+      "The Spirit would maintain us in that. It is interesting that in Luke they were to remain in the city till they were \"clothed with power from on high\", chap 24: 49."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. They remained contentedly, happily."
+     "speaker": "JR",
+     "text": [
+      "Quite so. They remained contentedly, happily."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "There is a footnote to 2 Timothy 4: 5 that might bear that out: 'sober clearness of mind resulting from exemption from false influences'."
+     "speaker": "NJH",
+     "text": [
+      "There is a footnote to 2 Timothy 4: 5 that might bear that out: 'sober clearness of mind resulting from exemption from false influences'."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is the same word, I think, with different translations. Say what you have in mind."
+     "speaker": "JR",
+     "text": [
+      "It is the same word, I think, with different translations. Say what you have in mind."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "It is false influence of which we have to be kept clear."
+     "speaker": "NJH",
+     "text": [
+      "It is false influence of which we have to be kept clear."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly, and the only way to be clear of false influences is to come thoroughly under the influence of Jesus, \"at the feet of Jesus\". Can we eliminate every other influence and sit \"clothed and sensible, at the feet of Jesus\"?"
+     "speaker": "JR",
+     "text": [
+      "Exactly, and the only way to be clear of false influences is to come thoroughly under the influence of Jesus, \"at the feet of Jesus\". Can we eliminate every other influence and sit \"clothed and sensible, at the feet of Jesus\"?"
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "Is it also being clear of what intoxicates, what takes possession of the man?"
+     "speaker": "NJH",
+     "text": [
+      "Is it also being clear of what intoxicates, what takes possession of the man?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good."
+     "speaker": "JR",
+     "text": [
+      "Very good."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Would Paul have something of this in his mind after the conversion of the jailor? It says, \"And they spoke to him the word of the Lord\", Acts 16: 32. He would be submissive to the Lord in that way."
+     "speaker": "JS",
+     "text": [
+      "Would Paul have something of this in his mind after the conversion of the jailor? It says, \"And they spoke to him the word of the Lord\", Acts 16: 32. He would be submissive to the Lord in that way."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The subduing word of the Lord; quite so."
+     "speaker": "JR",
+     "text": [
+      "The subduing word of the Lord; quite so."
+     ]
     },
     {
-     "speaker": "P.G.",
-     "text": "\"The feet of Jesus\" would be His walk here."
+     "speaker": "PG",
+     "text": [
+      "\"The feet of Jesus\" would be His walk here."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. There never were feet like His, and this man was sitting there. Paul said he sat at the feet of Gamaliel. It is a question of learning, taking on the features of Jesus, by sitting at His feet. It is a subject, learning condition. So in Romans 12 we have how we can fit in in our localities with a measure of faith. It speaks in verse 3 about a \"measure of faith\" and in verse 6 about \"the proportion of faith\". We all have a measure and we all have a proportion and we are meant to fit in together in the \"one body in Christ\". The \"one body in Christ\" is a universal idea, but it works out locally: \"to every one that is among you, not to have high thoughts above what he should think; but to think so as to be wise\". It is a balanced outlook so I can fit into my local meeting knowing my place in the body and leaving room for others having their place in the body. I have a measure of faith, others have a measure; so I ''think so as to be wise\". Again it is the idea of being sensible. There is a note - So as to have a sober judgment, 'to think soberly', as 'sensible', Luke 8: 35. It is thus each one of us as \"sitting, clothed and sensible\" can fit into the local company without clashing, without rivalry, just finding our place the re."
+     "speaker": "JR",
+     "text": [
+      "Quite so. There never were feet like His, and this man was sitting there. Paul said he sat at the feet of Gamaliel. It is a question of learning, taking on the features of Jesus, by sitting at His feet. It is a subject, learning condition. So in Romans 12 we have how we can fit in in our localities with a measure of faith. It speaks in verse 3 about a \"measure of faith\" and in verse 6 about \"the proportion of faith\". We all have a measure and we all have a proportion and we are meant to fit in together in the \"one body in Christ\". The \"one body in Christ\" is a universal idea, but it works out locally: \"to every one that is among you, not to have high thoughts above what he should think; but to think so as to be wise\". It is a balanced outlook so I can fit into my local meeting knowing my place in the body and leaving room for others having their place in the body. I have a measure of faith, others have a measure; so I ''think so as to be wise\". Again it is the idea of being sensible. There is a note - So as to have a sober judgment, 'to think soberly', as 'sensible', Luke 8: 35. It is thus each one of us as \"sitting, clothed and sensible\" can fit into the local company without clashing, without rivalry, just finding our place the re."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Do you think that coming intelligently to present out bodies a living sacrifice has a bearing on this? It seems that, having learned how to yield ourselves to the subduing power of divine grace, we come to this point where we definitely commit our bodies a living sacrifice. The apostle is saying it is an intelligent service to do that."
+     "speaker": "JS",
+     "text": [
+      "Do you think that coming intelligently to present out bodies a living sacrifice has a bearing on this? It seems that, having learned how to yield ourselves to the subduing power of divine grace, we come to this point where we definitely commit our bodies a living sacrifice. The apostle is saying it is an intelligent service to do that."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. Really, I suppose, the man did that in a sense. As our brother said, instead of being possessed by demons he was possessed by the Lord and committed himself, his body being a sanctified vessel in view of the will of God."
+     "speaker": "JR",
+     "text": [
+      "Exactly. Really, I suppose, the man did that in a sense. As our brother said, instead of being possessed by demons he was possessed by the Lord and committed himself, his body being a sanctified vessel in view of the will of God."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "Is it not a triumph for God that the whole man is secured? In Romans 3 all his members are awry - his mouth, his feet and his ways, and so on - but the man is secured for God."
+     "speaker": "RSR",
+     "text": [
+      "Is it not a triumph for God that the whole man is secured? In Romans 3 all his members are awry - his mouth, his feet and his ways, and so on - but the man is secured for God."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. In chapter 6 he yields his members, one by one. Yielding suggests the subduing grace and power of the Lord Jesus, but here he presents his body. That is the complete idea, as you say. 'Presents', as our brother says, is a kind of intelligent, priestly action."
+     "speaker": "JR",
+     "text": [
+      "Yes. In chapter 6 he yields his members, one by one. Yielding suggests the subduing grace and power of the Lord Jesus, but here he presents his body. That is the complete idea, as you say. 'Presents', as our brother says, is a kind of intelligent, priestly action."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "Why is it \"by the compassions of God\"?"
+     "speaker": "RSR",
+     "text": [
+      "Why is it \"by the compassions of God\"?"
+     ]
     },
     {
-     "speaker": "J.R",
-     "text": ". I suppose that is what preceded in this epistle. The compassions of God come out, His mercy for us, His provision for us."
+     "speaker": "JR",
+     "text": [
+      ". I suppose that is what preceded in this epistle. The compassions of God come out, His mercy for us, His provision for us."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "Do you not think it would be that God is compassionate towards us and the best thing we can do is to yield ourselves in toto for the will and pleasure of God?"
+     "speaker": "RSR",
+     "text": [
+      "Do you not think it would be that God is compassionate towards us and the best thing we can do is to yield ourselves in toto for the will and pleasure of God?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is the influence, the result of the appreciation of God's compassions. You mentioned the kind of state we were in in the early chapters of this book, but then the compassions of God come in and meet the whole situation."
+     "speaker": "JR",
+     "text": [
+      "It is the influence, the result of the appreciation of God's compassions. You mentioned the kind of state we were in in the early chapters of this book, but then the compassions of God come in and meet the whole situation.",
+      "P.B-n. Would it be the effect of sitting at the feet of Jesus?"
+     ]
     },
     {
-     "text": "P.B-n. Would it be the effect of sitting at the feet of Jesus?"
+     "speaker": "JR",
+     "text": [
+      "I think so. What do you say about sitting at the feet of Jesus?",
+      "P.B-n. I have been thinking quite a bit of late about the restfulness and composure as under the influence of His love."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I think so. What do you say about sitting at the feet of Jesus?"
+     "speaker": "JR",
+     "text": [
+      "Exactly, that is just it. That was the man's base, you might say. He set out from that. He is to go to his house and testify and so on, but his base is sitting at the feet of Jesus, sitting clothed and sensible, and here he is fitting in in his own locality \"so as to be wise\", being sensible. He has a measure and others have a measure and it all fits in in proportion according to verse 6, \"the proportion of faith\".",
+      "P.B-n. Is it not very touching - \"a living sacrifice\"? I think that would be the effect, that you present your body a living sacrifice."
+     ]
     },
     {
-     "text": "P.B-n. I have been thinking quite a bit of late about the restfulness and composure as under the influence of His love."
+     "speaker": "JR",
+     "text": [
+      "He is like an offering priest. The offering priest offered a dead sacrifice, but this is offering a living sacrifice. That is, the rest of my life is to be sanctified in view of the will of God."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly, that is just it. That was the man's base, you might say. He set out from that. He is to go to his house and testify and so on, but his base is sitting at the feet of Jesus, sitting clothed and sensible, and here he is fitting in in his own locality \"so as to be wise\", being sensible. He has a measure and others have a measure and it all fits in in proportion according to verse 6, \"the proportion of faith\"."
+     "speaker": "JG",
+     "text": [
+      "Being wise seems to be linked with the control of the mind: \"to think so as to be wise\". Earlier it says, \"but be transformed by the renewing of your mind\" in relation to getting away from worldly things - \"be not conformed to this world\". Do you think the mind bears on what is \"sensible\"?"
+     ]
     },
     {
-     "text": "P.B-n. Is it not very touching - \"a living sacrifice\"? I think that would be the effect, that you present your body a living sacrifice."
+     "speaker": "JR",
+     "text": [
+      "Exactly; the most important faculty a believer has is his mind, what he sets his mind on. Everything begins in the mind. All actions begin in the mind. Whether we move one way or another depends on the mind. We have in chapter 7, \"I myself with the mind serve God's law\", (v 25): that is the thinking faculty. The thinking faculty is in this direction: \"I myself with the mind\". Here it is ''the renewing of your mind\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "He is like an offering priest. The offering priest offered a dead sacrifice, but this is offering a living sacrifice. That is, the rest of my life is to be sanctified in view of the will of God."
+     "speaker": "JS",
+     "text": [
+      "So when he says, \"So then I myself with the mind serve God's law\", do you think he has come to it that there is something in himself that will delight in God's law? What a change that makes from my own will!"
+     ]
     },
     {
-     "speaker": "J.G.",
-     "text": "Being wise seems to be linked with the control of the mind: \"to think so as to be wise\". Earlier it says, \"but be transformed by the renewing of your mind\" in relation to getting away from worldly things - \"be not conformed to this world\". Do you think the mind bears on what is \"sensible\"?"
+     "speaker": "JR",
+     "text": [
+      "In fact he says so. He says, \"For I delight in the law of God according to the inward man\", chap 7: 22. He identifies the inward man, which is the work of God. He comes this way and then he presents his body a living sacrifice. He regards his body as a sanctified vessel in view of the will of God."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly; the most important faculty a believer has is his mind, what he sets his mind on. Everything begins in the mind. All actions begin in the mind. Whether we move one way or another depends on the mind. We have in chapter 7, \"I myself with the mind serve God's law\", (v 25): that is the thinking faculty. The thinking faculty is in this direction: \"I myself with the mind\". Here it is ''the renewing of your mind\"."
+     "speaker": "JS",
+     "text": [
+      "It is as coming to that point that we find out that God's will is that I should have part in this \"one body in Christ\", coming to know my own place in it, but also to respect the place of others in it."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "So when he says, \"So then I myself with the mind serve God's law\", do you think he has come to it that there is something in himself that will delight in God's law? What a change that makes from my own will!"
+     "speaker": "JR",
+     "text": [
+      "Exactly. That is where \"so as to be wise\" comes in. That is, I realise I have a measure, but then I reckon others have measures too, and the fitting in of it makes for proportions . It is a measure each one has, but then the proportion in verse 6 makes for one whole; it is a proportion of the whole . The human body is perfectly proportioned."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "In fact he says so. He says, \"For I delight in the law of God according to the inward man\", chap 7: 22. He identifies the inward man, which is the work of God. He comes this way and then he presents his body a living sacrifice. He regards his body as a sanctified vessel in view of the will of God."
+     "speaker": "AMcK",
+     "text": [
+      "Satan got in initially through the mind and then through the man, but the way back is the same: God gets the mind, then He gets the man again."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "It is as coming to that point that we find out that God's will is that I should have part in this \"one body in Christ\", coming to know my own place in it, but also to respect the place of others in it."
+     "speaker": "JR",
+     "text": [
+      "Exactly. I am glad of what you say about the mind because it is a most important matter. All exhortations are answered first of all by the mind: minded to fulfil any exhortation."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. That is where \"so as to be wise\" comes in. That is, I realise I have a measure, but then I reckon others have measures too, and the fitting in of it makes for proportions . It is a measure each one has, but then the proportion in verse 6 makes for one whole; it is a proportion of the whole . The human body is perfectly proportioned."
+     "speaker": "AMcK",
+     "text": [
+      "In Philippians Paul says, \"let this mind be in you\", chap 2: 5."
+     ]
     },
     {
-     "text": "A.McK. Satan got in initially through the mind and then through the man, but the way back is the same: God gets the mind, then He gets the man again."
+     "speaker": "JR",
+     "text": [
+      "That is the trend or bent of mind that was in Christ Jesus."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. I am glad of what you say about the mind because it is a most important matter. All exhortations are answered first of all by the mind: minded to fulfil any exhortation."
+     "speaker": "JM",
+     "text": [
+      "There are very great possibilities for the renewed mind. Our brother has just quoted Philippians 2, and also there is Paul's word: \"leading captive every thought into the obedience of the Christ\", 2 Cor 10: 5. I do not know what that scripture means to you, but I find it very difficult practically. Would you say anything about it?"
+     ]
     },
     {
-     "text": "A.McK. In Philippians Paul says, \"let this mind be in you\", chap 2: 5."
+     "speaker": "JR",
+     "text": [
+      "Let us just read it: \"overthrowing reasonings and every high thing that lifts itself up against the knowledge of God, and leading captive every thought into the obedience of the Christ\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is the trend or bent of mind that was in Christ Jesus."
+     "speaker": "RSR",
+     "text": [
+      "\"One body in Christ\" would preserve us from independency, would it not? It says, \"and each one members of the other\"."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "There are very great possibilities for the renewed mind. Our brother has just quoted Philippians 2, and also there is Paul's word: \"leading captive every thought into the obedience of the Christ\", 2 Cor 10: 5. I do not know what that scripture means to you, but I find it very difficult practically. Would you say anything about it?"
+     "speaker": "JR",
+     "text": [
+      "That is right. That is true universally, but according to verse 3 it works out locally. It says, \"For I say, through the grace which has been given to me, to every one that is among you, not to have high thoughts\" - that is how it works out locally. We have the same thing in 1 Corinthians 12. It speaks about the human body, and Paul says, \"Now ye are Christ's body\" (v 27) - that is the Corinthians - not 'the body of Christ', but of that character. So things work out locally. Do we not need this - \"to think so as to be wise\"? So in 2 Timothy we have the kind of spirit we have received: \"For God has not given us a spirit of cowardice, but of power, and of love , and of wise discretion \", and that is very much needed, of course, at the present time. With the church in ruin publicly we find our way, the way of righteousness, in the midst of the ruin, so we need very much this \"wise discretion\", 'a quiet, sound or sober mind' (see note to verse 7)."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Let us just read it: \"overthrowing reasonings and every high thing that lifts itself up against the knowledge of God, and leading captive every thought into the obedience of the Christ\"."
+     "speaker": "JM",
+     "text": [
+      "This is not exactly subjective. It is not a matter of our feelings which may go one way or another. Is it not important to be objective in our thoughts and feelings?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "\"One body in Christ\" would preserve us from independency, would it not? It says, \"and each one members of the other\"."
+     "speaker": "JR",
+     "text": [
+      "What do you mean by objective?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. That is true universally, but according to verse 3 it works out locally. It says, \"For I say, through the grace which has been given to me, to every one that is among you, not to have high thoughts\" - that is how it works out locally. We have the same thing in 1 Corinthians 12. It speaks about the human body, and Paul says, \"Now ye are Christ's body\" (v 27) - that is the Corinthians - not 'the body of Christ', but of that character. So things work out locally. Do we not need this - \"to think so as to be wise\"? So in 2 Timothy we have the kind of spirit we have received: \"For God has not given us a spirit of cowardice, but of power, and of love , and of wise discretion \", and that is very much needed, of course, at the present time. With the church in ruin publicly we find our way, the way of righteousness, in the midst of the ruin, so we need very much this \"wise discretion\", 'a quiet, sound or sober mind' (see note to verse 7)."
+     "speaker": "JM",
+     "text": [
+      "Well, when a matter is at stake it may happen that the brother that I like best is in the wrong: am I to be influenced by that? That is what I would call subjective. My feelings, my soul, lie towards him because he is a friend of mine. Objective means that I know what the truth is in spite of who is involved or my feelings . I cast myself in relation to the truth."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "This is not exactly subjective. It is not a matter of our feelings which may go one way or another. Is it not important to be objective in our thoughts and feelings?"
+     "speaker": "JR",
+     "text": [
+      "Very good. We were reading recently in 2 Samuel where Nathan puts objectively before David about the poor man's lamb. Then he applies it to himself. I see what you mean. It would involve going by principles. We are to go by principle and not be governed by persons - a very important thing too. \"Wise discretion\" would involve that."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "What do you mean by objective?"
+     "speaker": "GMcC",
+     "text": [
+      "Is that confirmed in Galatians where Paul asks, \"who has bewitched you\", chap 3: 1? He brings in the antidote to that - faith in contrast to what had been brought in. There was a lack of principle because they were fulfilling the law instead of faith."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Well, when a matter is at stake it may happen that the brother that I like best is in the wrong: am I to be influenced by that? That is what I would call subjective. My feelings, my soul, lie towards him because he is a friend of mine. Objective means that I know what the truth is in spite of who is involved or my feelings . I cast myself in relation to the truth."
+     "speaker": "JR",
+     "text": [
+      "Exactly, ''who has bewitched you?\" \"Ye ran well; who has stopped you ...?\", chap 5: 7."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good. We were reading recently in 2 Samuel where Nathan puts objectively before David about the poor man's lamb. Then he applies it to himself. I see what you mean. It would involve going by principles. We are to go by principle and not be governed by persons - a very important thing too. \"Wise discretion\" would involve that."
+     "speaker": "GMcC",
+     "text": [
+      "The idea of ''who\"."
+     ]
     },
     {
-     "text": "G.McC. Is that confirmed in Galatians where Paul asks, \"who has bewitched you\", chap 3: 1? He brings in the antidote to that - faith in contrast to what had been brought in. There was a lack of principle because they were fulfilling the law instead of faith."
+     "speaker": "JR",
+     "text": [
+      "Quite so. What influence have we come under? - a very important question!"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly, ''who has bewitched you?\" \"Ye ran well; who has stopped you ...?\", chap 5: 7."
+     "speaker": "PG",
+     "text": [
+      "The present occasion would be an evidence of living relations with each other and with divine Persons."
+     ]
     },
     {
-     "text": "G.McC. The idea of ''who\"."
+     "speaker": "JR",
+     "text": [
+      "Yes, you mean this meeting, this occasion? Surely, and we need to be anxious to preserve these conditions. The enemy would disrupt all this. The Lord delights in the brethren being together, happily and in unity, but the enemy sees it and he will do his best to disrupt it."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. What influence have we come under? - a very important question!"
+     "speaker": "PG",
+     "text": [
+      "We enjoy a good deal together."
+     ]
     },
     {
-     "speaker": "P.G.",
-     "text": "The present occasion would be an evidence of living relations with each other and with divine Persons."
+     "speaker": "JR",
+     "text": [
+      "We do indeed, but the enemy is out to disrupt it, so let us be watchful. \"Wise discretion\" is very much needed at the present time,"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, you mean this meeting, this occasion? Surely, and we need to be anxious to preserve these conditions. The enemy would disrupt all this. The Lord delights in the brethren being together, happily and in unity, but the enemy sees it and he will do his best to disrupt it."
+     "speaker": "DS",
+     "text": [
+      "\"Wise discretion\" would be moving in the spirit of Christ. Principles are right - they must be maintained - but we need to be maintained in the spirit of Christ to persuade all the brethren."
+     ]
     },
     {
-     "speaker": "P.G.",
-     "text": "We enjoy a good deal together."
+     "speaker": "JR",
+     "text": [
+      "It is 'a quiet, sound or sober mind'."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "We do indeed, but the enemy is out to disrupt it, so let us be watchful. \"Wise discretion\" is very much needed at the present time,"
+     "speaker": "RSR",
+     "text": [
+      "This would refer to manhood. \"For God has not given us a spirit of cowardice, but of power'', that is - if I remember rightly - the ability to do things."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "\"Wise discretion\" would be moving in the spirit of Christ. Principles are right - they must be maintained - but we need to be maintained in the spirit of Christ to persuade all the brethren."
+     "speaker": "JR",
+     "text": [
+      "It is \"of power, and of love, and of wise discretion. There is a balance: \"power ... love ... wise discretion\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is 'a quiet, sound or sober mind'."
+     "speaker": "DS",
+     "text": [
+      "\"We entreat for Christ, Be reconciled to God\", 2 Cor 5: 20. Your endeavour is to secure every man for Christ, every man for God. That is your objective."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "This would refer to manhood. \"For God has not given us a spirit of cowardice, but of power'', that is - if I remember rightly - the ability to do things."
+     "speaker": "JR",
+     "text": [
+      "Surely."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is \"of power, and of love, and of wise discretion. There is a balance: \"power ... love ... wise discretion\"."
+     "speaker": "MW",
+     "text": [
+      "How do you read this? \"For God has not given us a spirit of cowardice\" - it is not 'cowardice' but \"a spirit of cowardice\". Now, can we read on: \"a spirit ... of power, and of love, and of wise discretion\", not the thing itself, but a spirit of it?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "\"We entreat for Christ, Be reconciled to God\", 2 Cor 5: 20. Your endeavour is to secure every man for Christ, every man for God. That is your objective."
+     "speaker": "JR",
+     "text": [
+      "It must involve the gift of the Holy Spirit, but what kind of spirit is He? He is not \"a spirit of cowardice, but of power, and of love, and of wise discretion\", so we have the wherewithal in the Spirit. On the one hand at the feet of Jesus, \"sitting, clothed and sensible\", on the other hand, accepting the measure of faith God has given me, the proportion of faith, and along with that we have this kind of spirit to help us in the day in which we are, a difficult day indeed, a day of public confusion, but He has given us this kind of spirit - \"of power, and of love, and of wise discretion\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Surely."
+     "speaker": "MW",
+     "text": [
+      "That is very helpful."
+     ]
     },
     {
-     "speaker": "M.W.",
-     "text": "How do you read this? \"For God has not given us a spirit of cowardice\" - it is not 'cowardice' but \"a spirit of cowardice\". Now, can we read on: \"a spirit ... of power, and of love, and of wise discretion\", not the thing itself, but a spirit of it?"
+     "speaker": "JR",
+     "text": [
+      "It says in Romans 8, \"a spirit of adoption\", small 's': \"For ye have not received a spirit of bondage again for fear, but ye have received a spirit of adoption\", (v 15)."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It must involve the gift of the Holy Spirit, but what kind of spirit is He? He is not \"a spirit of cowardice, but of power, and of love, and of wise discretion\", so we have the wherewithal in the Spirit. On the one hand at the feet of Jesus, \"sitting, clothed and sensible\", on the other hand, accepting the measure of faith God has given me, the proportion of faith, and along with that we have this kind of spirit to help us in the day in which we are, a difficult day indeed, a day of public confusion, but He has given us this kind of spirit - \"of power, and of love, and of wise discretion\"."
+     "speaker": "JS",
+     "text": [
+      "Does it become in a way almost characteristic of the believer? God has given us these things. Does God look to us to weigh things over, as considering for Him, to look at things with a quiet, sober mind, and see how they are, not only in man's sight, but in God's sight?"
+     ]
     },
     {
-     "speaker": "M.W.",
-     "text": "That is very helpful."
+     "speaker": "JR",
+     "text": [
+      "That is most important, I am sure. Weighing over: again it is this idea of sitting, considering, weighing things up soberly, with a sober mind, ''wise discretion\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It says in Romans 8, \"a spirit of adoption\", small 's': \"For ye have not received a spirit of bondage again for fear, but ye have received a spirit of adoption\", (v 15)."
+     "speaker": "JS",
+     "text": [
+      "I get the impression that at the feet of Jesus that man would have been set free from every influence that would have governed him up to that point. He would be under the influence of Christ. It seems to me that if we can weigh things over in the presence of God, this is what is in mind in this."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Does it become in a way almost characteristic of the believer? God has given us these things. Does God look to us to weigh things over, as considering for Him, to look at things with a quiet, sober mind, and see how they are, not only in man's sight, but in God's sight?"
+     "speaker": "JR",
+     "text": [
+      "The influence of Christ is always available to us. The fact is that we do not resort sufficiently to that influence. We tend to come under other influences and that often causes untold damage and loss of brethren. The influence of Jesus is always available to us at any moment if only we would sit at His feet.",
+      "D.S-n. I was thinking of Abigail. She prevented David from acting rashly. The result was that he saw something in her; he says, \"blessed be thy discernment, and blessed be thou\", 1 Sam 25: 33. That should mark us not only as individuals but in our local meetings."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is most important, I am sure. Weighing over: again it is this idea of sitting, considering, weighing things up soberly, with a sober mind, ''wise discretion\"."
+     "speaker": "JR",
+     "text": [
+      "Exactly. Would David not have acted in haste? Would haste not have spoiled, caused untold damage, but she was of a sober mind, \"wise discretion\", as you say, discernment, so much needed among us at the present time, balance, discernment."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "I get the impression that at the feet of Jesus that man would have been set free from every influence that would have governed him up to that point. He would be under the influence of Christ. It seems to me that if we can weigh things over in the presence of God, this is what is in mind in this."
+     "speaker": "PB",
+     "text": [
+      "I was thinking of the desire that the possessed man had to be with Jesus. Sometimes we would rather be there, but Jesus says, No, you go to your own locality. We need to maintain what is proper in our local position."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The influence of Christ is always available to us. The fact is that we do not resort sufficiently to that influence. We tend to come under other influences and that often causes untold damage and loss of brethren. The influence of Jesus is always available to us at any moment if only we would sit at His feet."
+     "speaker": "JR",
+     "text": [
+      "That is very good, but he was in his locality from the base of \"sitting, clothed and sensible, at the feet of Jesus\". He would not depart from that influence. He would exert that influence in his own place.",
+      "P.B-n. We have a mention in Isaiah of \"a spirit of judgment to him that sitteth in judgment”, chap 28: 6. Is that the same thought?"
+     ]
     },
     {
-     "text": "D.S-n. I was thinking of Abigail. She prevented David from acting rashly. The result was that he saw something in her; he says, \"blessed be thy discernment, and blessed be thou\", 1 Sam 25: 33. That should mark us not only as individuals but in our local meetings."
+     "speaker": "JR",
+     "text": [
+      "The same idea I am sure. That is what God can be to us if only we would sit in judgment. It is sitting in judgment, not acting hastily in judgment. I can see the importance of this sitting, soberly considering matters.",
+      "P.B-n. Paul says at one point, \"but I think that I also have God's Spirit\" in a matter of judgment, 1 Cor 7: 40."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. Would David not have acted in haste? Would haste not have spoiled, caused untold damage, but she was of a sober mind, \"wise discretion\", as you say, discernment, so much needed among us at the present time, balance, discernment."
+     "speaker": "JR",
+     "text": [
+      "Quite so. Regarding this matter of a small 's', I know that Mr Darby says in a note that it is difficult sometimes to know whether to put a capital 'S' or a small 's' at 'spirit' because the Spirit personally so forms the state of the believer (see Rom 8: 9)."
+     ]
     },
     {
-     "speaker": "P.B.",
-     "text": "I was thinking of the desire that the possessed man had to be with Jesus. Sometimes we would rather be there, but Jesus says, No, you go to your own locality. We need to maintain what is proper in our local position."
+     "speaker": "ES",
+     "text": [
+      "\"But to think so as to be wise\": wisdom comes from above. That is where the Christ is; He is sitting there. It brings in the mind there too: \"have your mind on the things that are above\", Col 3: 2. This is all available to us, to maintain us, it is \"peaceful, gentle\", Jas 3: 17. Scripture often brings in wisdom: the poor wise man and the wise woman - Joab would have destroyed the city, but she went to the elders and the city was saved (see 2 Sam 20)."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is very good, but he was in his locality from the base of \"sitting, clothed and sensible, at the feet of Jesus\". He would not depart from that influence. He would exert that influence in his own place."
+     "speaker": "JR",
+     "text": [
+      "The Lord Jesus is \"made to us wisdom\", 1 Cor 1: 30. He is available to us as wisdom, if only we would resort more to Him for wisdom instead of acting on our own, sometimes impulsively! The Lord is available, His influence is available, at all times. His wisdom is available for us if only we would take time like the man at the feet of Jesus \"sitting, clothed and sensible\". We have to get back to that, it is so basic, so important."
+     ]
     },
     {
-     "text": "P.B-n. We have a mention in Isaiah of \"a spirit of judgment to him that sitteth in judgment”, chap 28: 6. Is that the same thought?"
+     "speaker": "JS",
+     "text": [
+      "That wise woman went to all the people in her wisdom. Do we need to take account of the whole locality in that sense?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The same idea I am sure. That is what God can be to us if only we would sit in judgment. It is sitting in judgment, not acting hastily in judgment. I can see the importance of this sitting, soberly considering matters."
+     "speaker": "JR",
+     "text": [
+      "She is so wise that she gets the ear of Joab. It would not be easy to get the ear of Joab, but Joab says, \"I am listening\"."
+     ]
     },
     {
-     "text": "P.B-n. Paul says at one point, \"but I think that I also have God's Spirit\" in a matter of judgment, 1 Cor 7: 40."
+     "speaker": "JRC",
+     "text": [
+      "What is the bearing of what we are speaking about in relation to the ''testimony of our Lord\"?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. Regarding this matter of a small 's', I know that Mr Darby says in a note that it is difficult sometimes to know whether to put a capital 'S' or a small 's' at 'spirit' because the Spirit personally so forms the state of the believer (see Rom 8: 9)."
+     "speaker": "JR",
+     "text": [
+      "It is not a \"spirit of cowardice\" - which, I suppose, was really a mild, gentle rebuke to Timothy who was overpowered by the ruin coming in - but this kind of spirit: \"of power, and of love , and of wise discretion\" which would cause us not to be ashamed of the testimony of our Lord. There is the wherewithal to commit ourselves to the testimony of our Lord, and me His prisoner Paul says; that would be in the limited conditions in which we are. What would you say?"
+     ]
     },
     {
-     "speaker": "E.S.",
-     "text": "\"But to think so as to be wise\": wisdom comes from above. That is where the Christ is; He is sitting there. It brings in the mind there too: \"have your mind on the things that are above\", Col 3: 2. This is all available to us, to maintain us, it is \"peaceful, gentle\", Jas 3: 17. Scripture often brings in wisdom: the poor wise man and the wise woman - Joab would have destroyed the city, but she went to the elders and the city was saved (see 2 Sam 20)."
+     "speaker": "JRC",
+     "text": [
+      "Sometimes we have to confess that that is the very opposite of how we feel ourselves. I was thinking of what was said about David, there was to have been no male left in the morning. That is how he thought it was going to work and he has to listen to the word of discretion. I was wondering if the testimony, therefore, proceeds in the spirit of Jesus."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The Lord Jesus is \"made to us wisdom\", 1 Cor 1: 30. He is available to us as wisdom, if only we would resort more to Him for wisdom instead of acting on our own, sometimes impulsively! The Lord is available, His influence is available, at all times. His wisdom is available for us if only we would take time like the man at the feet of Jesus \"sitting, clothed and sensible\". We have to get back to that, it is so basic, so important."
+     "speaker": "JR",
+     "text": [
+      "Surely. Paul says, \"Be not therefore ashamed of the testimony\" because we have this kind of spirit. We have the wherewithal in the Spirit and to be governed by that kind of spirit ourselves."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "That wise woman went to all the people in her wisdom. Do we need to take account of the whole locality in that sense?"
+     "speaker": "JRC",
+     "text": [
+      "Do you think if we are proceeding on that line that the Lord comes in in relation to justifying what is involved in the testimony?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "She is so wise that she gets the ear of Joab. It would not be easy to get the ear of Joab, but Joab says, \"I am listening\"."
+     "speaker": "JR",
+     "text": [
+      "Surely. We would have His mind. the man \"sitting, clothed and sensible, at the feet of Jesus\" would have His mind, would have that subdued condition."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "What is the bearing of what we are speaking about in relation to the ''testimony of our Lord\"?"
+     "speaker": "JS",
+     "text": [
+      "It speaks about those \"who had understanding of the times, to know what Israel ought to do\", 1 Chron 12: 32. Things had altered in this epistle. Do you think we have to take account of the conditions in which things are to be done?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is not a \"spirit of cowardice\" - which, I suppose, was really a mild, gentle rebuke to Timothy who was overpowered by the ruin coming in - but this kind of spirit: \"of power, and of love , and of wise discretion\" which would cause us not to be ashamed of the testimony of our Lord. There is the wherewithal to commit ourselves to the testimony of our Lord, and me His prisoner Paul says; that would be in the limited conditions in which we are. What would you say?"
+     "speaker": "JR",
+     "text": [
+      "Exactly, hence the need of \"wise discretion\". Certainly power and love, but \"wise discretion\" is specially needed in the days in which we are, more so possibly than in the days of the pristine glory of the assembly before the breakdown came in. We need \"wise discretion\" all the more now in working out divine principles in a day of ruin. Is that in your mind?"
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Sometimes we have to confess that that is the very opposite of how we feel ourselves. I was thinking of what was said about David, there was to have been no male left in the morning. That is how he thought it was going to work and he has to listen to the word of discretion. I was wondering if the testimony, therefore, proceeds in the spirit of Jesus."
+     "speaker": "JS",
+     "text": [
+      "Indeed. It was never intended that the assembly should be driven to the wall. I was thinking of what was said quoting from Isaiah about \"the spirit of judgment\": does it not go on to say '1or strength to them that turn the battle to the gate\"?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Surely. Paul says, \"Be not therefore ashamed of the testimony\" because we have this kind of spirit. We have the wherewithal in the Spirit and to be governed by that kind of spirit ourselves."
+     "speaker": "JR",
+     "text": [
+      "Exactly. First of all it is to him: \"to him that sitteth in judgment\", in a day when the individual is so important. A locality is no more than the personnel in it. It is a question of each one - that is chapter 2. It says, \"Let every one who names the name of the Lord withdraw from iniquity ... If therefore one shall have purified himself from these, in separating himself from them, he shall be a vessel to honour, sanctified, serviceable to the Master, prepared for every good work\" (vv 19, 21). It is an individual day in which we are. That needs to be emphasised."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Do you think if we are proceeding on that line that the Lord comes in in relation to justifying what is involved in the testimony?"
+     "speaker": "RSR",
+     "text": [
+      "It is a question of right influence, is it not? You are calling attention to him that sitteth in judgment\" and then to them, so that the \"him\", the person, would be influential in a right way."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Surely. We would have His mind. the man \"sitting, clothed and sensible, at the feet of Jesus\" would have His mind, would have that subdued condition."
+     "speaker": "JR",
+     "text": [
+      "The \"them\" would be composed of individuals who each sit in judgment, persons like that. Each one has this ''wise discretion\" and sits in judgment and then there is a company. That is what a locality ought to be. Alas! it is not always so, but that is what a locality ought to be."
+     ]
     },
     {
-     "speaker": "J.Sp.",
-     "text": "It speaks about those \"who had understanding of the times, to know what Israel ought to do\", 1 Chron 12: 32. Things had altered in this epistle. Do you think we have to take account of the conditions in which things are to be done?"
+     "speaker": "PG",
+     "text": [
+      "That would involve sisters as well as brothers."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly, hence the need of \"wise discretion\". Certainly power and love, but \"wise discretion\" is specially needed in the days in which we are, more so possibly than in the days of the pristine glory of the assembly before the breakdown came in. We need \"wise discretion\" all the more now in working out divine principles in a day of ruin. Is that in your mind?"
+     "speaker": "JR",
+     "text": [
+      "It would. Do not forget the sisters. They are sometimes examples to us. They sit; they sit and listen. The brothers are responsible; they do all the speaking and may not always say what is right. The sisters sit and maybe consider more than the brothers do."
+     ]
     },
     {
-     "speaker": "J.Sp.",
-     "text": "Indeed. It was never intended that the assembly should be driven to the wall. I was thinking of what was said quoting from Isaiah about \"the spirit of judgment\": does it not go on to say '1or strength to them that turn the battle to the gate\"?"
+     "speaker": "PG",
+     "text": [
+      "The brothers function in the public way, but the sisters are part of the soul of the company."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. First of all it is to him: \"to him that sitteth in judgment\", in a day when the individual is so important. A locality is no more than the personnel in it. It is a question of each one - that is chapter 2. It says, \"Let every one who names the name of the Lord withdraw from iniquity ... If therefore one shall have purified himself from these, in separating himself from them, he shall be a vessel to honour, sanctified, serviceable to the Master, prepared for every good work\" (vv 19, 21). It is an individual day in which we are. That needs to be emphasised."
+     "speaker": "JR",
+     "text": [
+      ". Exactly, a very important part, and sometimes it is good to listen to what the sisters have to say. That would be in private, of course. They would not speak publicly, but it is good to consult them sometimes."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "It is a question of right influence, is it not? You are calling attention to him that sitteth in judgment\" and then to them, so that the \"him\", the person, would be influential in a right way."
+     "speaker": "ES",
+     "text": [
+      "Perhaps everyone might not understand what it means to ''turn the battle to the gate\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The \"them\" would be composed of individuals who each sit in judgment, persons like that. Each one has this ''wise discretion\" and sits in judgment and then there is a company. That is what a locality ought to be. Alas! it is not always so, but that is what a locality ought to be."
+     "speaker": "JR",
+     "text": [
+      "I suppose it has been applied like Matthew 18: ''tell it to the assembly\" (v 17)."
+     ]
     },
     {
-     "speaker": "P.G.",
-     "text": "That would involve sisters as well as brothers."
+     "speaker": "ES",
+     "text": [
+      "The gate was the place of administration, and it was where principles were established."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It would. Do not forget the sisters. They are sometimes examples to us. They sit; they sit and listen. The brothers are responsible; they do all the speaking and may not always say what is right. The sisters sit and maybe consider more than the brothers do."
+     "speaker": "JR",
+     "text": [
+      "Principles bring us to the gate, and then there is administration based on principles."
+     ]
     },
     {
-     "speaker": "P.G.",
-     "text": "The brothers function in the public way, but the sisters are part of the soul of the company."
+     "speaker": "ES",
+     "text": [
+      "Would it identify the principle at stake?"
+     ]
     },
     {
-     "speaker": "J.R",
-     "text": ". Exactly, a very important part, and sometimes it is good to listen to what the sisters have to say. That would be in private, of course. They would not speak publicly, but it is good to consult them sometimes."
+     "speaker": "JR",
+     "text": [
+      "Surely, but maybe they would be identified before. \"But if thy brother sin against thee\" (v 15); there must be something identified. \"Tell it to the assembly\" is really coming into another area, away from the conflict to another area."
+     ]
     },
     {
-     "speaker": "E.S.",
-     "text": "Perhaps everyone might not understand what it means to ''turn the battle to the gate\"."
+     "speaker": "ES",
+     "text": [
+      "The matter would be made clear so that we know what we are administrating in relation to."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I suppose it has been applied like Matthew 18: ''tell it to the assembly\" (v 17)."
+     "speaker": "JR",
+     "text": [
+      "Surely; that is important."
+     ]
     },
     {
-     "speaker": "E.S.",
-     "text": "The gate was the place of administration, and it was where principles were established."
+     "speaker": "RSR",
+     "text": [
+      "Does not to ''turn the battle to the gate\" suggest a right conclusion?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Principles bring us to the gate, and then there is administration based on principles."
+     "speaker": "JR",
+     "text": [
+      "Yes, and the judgment that is passed would be definite and if it involved someone being withdrawn from, that person would know what he had to judge to be recovered. It would be a definite statement. It is not to be left vaguely. It is meant to be identified, as you say, and so if it sorrowfully involves somebody being withdrawn from, he or she knows what he or she has to judge. It is in view of recovery, or ought to be."
+     ]
     },
     {
-     "speaker": "E.S.",
-     "text": "Would it identify the principle at stake?"
+     "speaker": "JS",
+     "text": [
+      "When that point is reached definitely does it not need to be respected? There is a kind of illustration of this in chapter 4 of Ruth when Boaz went up to the gate and sat down there. Then \"he took ten men of the elders of the city, and said, Sit down here. And they sat down\" (v 2); he goes over things and something is definitely arrived at."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Surely, but maybe they would be identified before. \"But if thy brother sin against thee\" (v 15); there must be something identified. \"Tell it to the assembly\" is really coming into another area, away from the conflict to another area."
+     "speaker": "JR",
+     "text": [
+      "Exactly. So Matthew 18 comes down to two, or three - ''where two or three\" (v 20), but what these \"two or three\" arrive at has the same authority, or ought to have, as the assembly had in the previous verse. \"Tell it to the assembly\", and where the two or three arrive at a judgment, it has the same quality and the same authority, which is important to understand."
+     ]
     },
     {
-     "speaker": "E.S.",
-     "text": "The matter would be made clear so that we know what we are administrating in relation to."
+     "speaker": "JS",
+     "text": [
+      "Was the Lord providing there for a \"day of small things\"? He says, \"Again I say to you\". The Lord could look down the dispensation and see that the assembly in its outward glory and dignity could not be seen as at the beginning, but the same principles are to govern."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Surely; that is important."
+     "speaker": "JR",
+     "text": [
+      "That is very important.",
+      "P.B-n. Referring again to the gate, does it not emphasise the importance of the local assembly, I mean God's rights in a locality?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "Does not to ''turn the battle to the gate\" suggest a right conclusion?"
+     "speaker": "JR",
+     "text": [
+      "Yes, God's rights in a locality. It is a broken day in which we are. \"If two of you\": there may be only two persons who have the light of the assembly and desire to be governed by the principles of the assembly and desire to have the character of the assembly. That is the kind of day we are in. So I thought of this last scripture in 1 Timothy which refers to the qualifications for the overseer, and among these qualifications is \"sober, discreet\". I am thinking of the importance of elders in a locality. It says in 1 Timothy 5: 17: \"Let the elders who take the lead among the saints\". The elders are meant to function and to give a lead, not necessarily do the most speaking, but their leadership would be by example. It is most important that such persons should be sober and discreet, that such persons should have a sound mind, to influence the locality rightly. Many have been lost by leaders in a locality exerting a wrong influence. How important it is that overseers (and while overseers are not appointed at the present time, they are a necessary component of a local gathering) should display these features - \"sensible\", \"of wise discretion\", \"sober, discreet\". They are not officially leaders. Leadership would be moral, but nevertheless it is a most important feature in localities that there should be right leadership of this quality."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, and the judgment that is passed would be definite and if it involved someone being withdrawn from, that person would know what he had to judge to be recovered. It would be a definite statement. It is not to be left vaguely. It is meant to be identified, as you say, and so if it sorrowfully involves somebody being withdrawn from, he or she knows what he or she has to judge. It is in view of recovery, or ought to be."
+     "speaker": "AMcK",
+     "text": [
+      "At the gate there was a well."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "When that point is reached definitely does it not need to be respected? There is a kind of illustration of this in chapter 4 of Ruth when Boaz went up to the gate and sat down there. Then \"he took ten men of the elders of the city, and said, Sit down here. And they sat down\" (v 2); he goes over things and something is definitely arrived at."
+     "speaker": "JR",
+     "text": [
+      "At Bethlehem there was."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. So Matthew 18 comes down to two, or three - ''where two or three\" (v 20), but what these \"two or three\" arrive at has the same authority, or ought to have, as the assembly had in the previous verse. \"Tell it to the assembly\", and where the two or three arrive at a judgment, it has the same quality and the same authority, which is important to understand."
+     "speaker": "AMcK",
+     "text": [
+      "So that you would normally expect those who were administering to be marked by features of spirituality. The word to the Galatians is, \"ye who are spiritual\", chap 6: 1."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Was the Lord providing there for a \"day of small things\"? He says, \"Again I say to you\". The Lord could look down the dispensation and see that the assembly in its outward glory and dignity could not be seen as at the beginning, but the same principles are to govern."
+     "speaker": "JR",
+     "text": [
+      "That is right: of that character. I can see the importance of this feature coming through in overseers, that is persons who are meant to be looked up to. It says in 1 Timothy 5: \"Let the elders who take the lead among the saints well be esteemed worthy of double honour, specially those labouring in word and teaching\". Elders are local; today they are not appointed. It is moral, but nevertheless there needs to be leadership of this quality in every locality - \"sober, discreet\", of a sound mind, \"sensible\" - no doubt acquired through sitting at the feet of Jesus, that kind of quality coming through, exemplified by those who give a lead in localities. How many have been lost through wrong leadership in localities!"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is very important."
+     "speaker": "JM",
+     "text": [
+      "One of the tragedies we can look back on over the years is when localities have been lost."
+     ]
     },
     {
-     "text": "P.B-n. Referring again to the gate, does it not emphasise the importance of the local assembly, I mean God's rights in a locality?"
+     "speaker": "JR",
+     "text": [
+      "Responsible persons were not characterised by this feature of sensibility, weighing things up, investigating on behalf of the brethren, able to give a lead, able to set out what the situation is in a clear way to carry the brethren. Would that be important?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, God's rights in a locality. It is a broken day in which we are. \"If two of you\": there may be only two persons who have the light of the assembly and desire to be governed by the principles of the assembly and desire to have the character of the assembly. That is the kind of day we are in. So I thought of this last scripture in 1 Timothy which refers to the qualifications for the overseer, and among these qualifications is \"sober, discreet\". I am thinking of the importance of elders in a locality. It says in 1 Timothy 5: 17: \"Let the elders who take the lead among the saints\". The elders are meant to function and to give a lead, not necessarily do the most speaking, but their leadership would be by example. It is most important that such persons should be sober and discreet, that such persons should have a sound mind, to influence the locality rightly. Many have been lost by leaders in a locality exerting a wrong influence. How important it is that overseers (and while overseers are not appointed at the present time, they are a necessary component of a local gathering) should display these features - \"sensible\", \"of wise discretion\", \"sober, discreet\". They are not officially leaders. Leadership would be moral, but nevertheless it is a most important feature in localities that there should be right leadership of this quality."
+     "speaker": "JM",
+     "text": [
+      "There is a tremendous responsibility on such persons who have led saints astray in such a wholesale way."
+     ]
     },
     {
-     "text": "A.McK. At the gate there was a well."
+     "speaker": "JS",
+     "text": [
+      "Making careful enquiry or investigation is very important. There is an obligation upon persons who give a lead in localities to do that."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "At Bethlehem there was."
+     "speaker": "JR",
+     "text": [
+      "Exactly. Anyone may say it is none of our business, but it is really, and the Lord would hold certain persons responsible. There is an angel in each of the seven assemblies in Revelation 2 and 3. In one sense every one is responsible, but there are some more responsible than others."
+     ]
     },
     {
-     "text": "A.McK. So that you would normally expect those who were administering to be marked by features of spirituality. The word to the Galatians is, \"ye who are spiritual\", chap 6: 1."
+     "speaker": "PB",
+     "text": [
+      "It says , \"how shall he take care of the assembly of God?\" (v 5)."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right: of that character. I can see the importance of this feature coming through in overseers, that is persons who are meant to be looked up to. It says in 1 Timothy 5: \"Let the elders who take the lead among the saints well be esteemed worthy of double honour, specially those labouring in word and teaching\". Elders are local; today they are not appointed. It is moral, but nevertheless there needs to be leadership of this quality in every locality - \"sober, discreet\", of a sound mind, \"sensible\" - no doubt acquired through sitting at the feet of Jesus, that kind of quality coming through, exemplified by those who give a lead in localities. How many have been lost through wrong leadership in localities!"
+     "speaker": "JR",
+     "text": [
+      "Quite so, so that is another qualification, \"conducting his own house well, having his children in subjection with all gravity\". There could have been some breaking bread in the locality who did not have this quality: such did not qualify for eldership, did not qualify to be a leader or an elder, but I am thinking specially of \"sober, discreet\", this feature of wisdom in those who give a lead, to carry the brethren rightly, to influence in a right direction."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "One of the tragedies we can look back on over the years is when localities have been lost."
+     "speaker": "JS",
+     "text": [
+      "Would one thing that comes into this be accuracy in statements that are made? You are to consider whether things are factual and accurate."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Responsible persons were not characterised by this feature of sensibility, weighing things up, investigating on behalf of the brethren, able to give a lead, able to set out what the situation is in a clear way to carry the brethren. Would that be important?"
+     "speaker": "JR",
+     "text": [
+      "Quite so; and then, of course, the importance of standing by principles and naming the principles involved in any particular matter."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "There is a tremendous responsibility on such persons who have led saints astray in such a wholesale way."
+     "speaker": "NJH",
+     "text": [
+      "The apostle does not permit any watering down of things. It says, \"The overseer then must be\", and as to those who minister: \"And let these be first proved, then let them minister'' (v 10). It is quite stringent."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Making careful enquiry or investigation is very important. There is an obligation upon persons who give a lead in localities to do that."
+     "speaker": "JR",
+     "text": [
+      "It is stringent. It would be moral today. There Is nothing official today, but nevertheless the feature of right leadership in every locality is very important, and right influence in a place. A leader might not necessarily say the most but he leads by example.",
+      "D.S-n. It says, \"Let the elders who take the lead among the saints\" (v 17) - among the saints."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. Anyone may say it is none of our business, but it is really, and the Lord would hold certain persons responsible. There is an angel in each of the seven assemblies in Revelation 2 and 3. In one sense every one is responsible, but there are some more responsible than others."
+     "speaker": "JR",
+     "text": [
+      "Exactly, not 'over the saints’. It is almost like in Peter's epistle: \"The elders which are among you I exhort ... shepherd the flock of God which Is among you, exercising oversight, not by necessity, but willingly; not for base gain, but readily; not as lording it over your possessions but being models for the flock\", 1 Pet 5: 1-3: This Is a most important feature for those who are older."
+     ]
     },
     {
-     "speaker": "P.B.",
-     "text": "It says , \"how shall he take care of the assembly of God?\" (v 5)."
+     "speaker": "DS",
+     "text": [
+      "Overseers would lead to the feet of Jesus and you would find that you could not have features that were contrary to this overseership at the feet of Jesus, and also you could not move ahead of the Lord and you could not be behind Him."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so, so that is another qualification, \"conducting his own house well, having his children in subjection with all gravity\". There could have been some breaking bread in the locality who did not have this quality: such did not qualify for eldership, did not qualify to be a leader or an elder, but I am thinking specially of \"sober, discreet\", this feature of wisdom in those who give a lead, to carry the brethren rightly, to influence in a right direction."
+     "speaker": "JR",
+     "text": [
+      "That is right. The man in chapter 8 of Luke begins this way, and so would continue: \"sitting, clothed and sensible, at the feet of Jesus\". That feature goes right through these scriptures, I think."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "Would one thing that comes into this be accuracy in statements that are made? You are to consider whether things are factual and accurate."
+     "speaker": "AAB",
+     "text": [
+      "As to the reference in verse 21 of the fifth chapter, \"that thou keep these things without prejudice, doing nothing by favour\", would the balanced mind we have been speaking of produce that kind of administration?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so; and then, of course, the importance of standing by principles and naming the principles involved in any particular matter."
+     "speaker": "JR",
+     "text": [
+      "That is very important because these two features have to be judged with us: prejudice and preference. Persons come into a matter where often they ought not to come into it. Principles are to govern us."
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "The apostle does not permit any watering down of things. It says, \"The overseer then must be\", and as to those who minister: \"And let these be first proved, then let them minister'' (v 10). It is quite stringent."
+     "speaker": "JM",
+     "text": [
+      "I fully support what you are saying about those who are in the lead, but, in the assembly properly, it is not like in the established church where you have two or three who know what they are doing and the rest following they do not know what. One of the strong themes in the book of Proverbs, I understand, is that a young man might learn discretion. It is meant that this will go through the whole structure of the local company."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is stringent. It would be moral today. There Is nothing official today, but nevertheless the feature of right leadership in every locality is very important, and right influence in a place. A leader might not necessarily say the most but he leads by example."
+     "speaker": "JR",
+     "text": [
+      "Quite so. We have had that, the man in Luke 8 and so on, but there is a special obligation on persons who give a lead, those who take on some responsibility, who have a measure of faith. A measure of faith may involve somebody taking some responsibility, maybe some feature of leadership or influence. I can see the importance of elder brethren or brethren who are looked up to being marked by this feature of discretion."
+     ]
     },
     {
-     "text": "D.S-n. It says, \"Let the elders who take the lead among the saints\" (v 17) - among the saints."
+     "speaker": "JM",
+     "text": [
+      "It is really a feature of the Lord's love for the saints to provide such leaders."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly, not 'over the saints’. It is almost like in Peter's epistle: \"The elders which are among you I exhort ... shepherd the flock of God which Is among you, exercising oversight, not by necessity, but willingly; not for base gain, but readily; not as lording it over your possessions but being models for the flock\", 1 Pet 5: 1-3: This Is a most important feature for those who are older."
+     "speaker": "JR",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "Overseers would lead to the feet of Jesus and you would find that you could not have features that were contrary to this overseership at the feet of Jesus, and also you could not move ahead of the Lord and you could not be behind Him."
+     "speaker": "JS",
+     "text": [
+      "Do we have to learn this? You do not wait until you are fifty or sixty and suddenly take this on. We have to come through the learning process and it is a good thing if we start to learn early."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. The man in chapter 8 of Luke begins this way, and so would continue: \"sitting, clothed and sensible, at the feet of Jesus\". That feature goes right through these scriptures, I think."
-    },
-    {
-     "speaker": "A.A.B.",
-     "text": "As to the reference in verse 21 of the fifth chapter, \"that thou keep these things without prejudice, doing nothing by favour\", would the balanced mind we have been speaking of produce that kind of administration?"
-    },
-    {
-     "speaker": "J.R.",
-     "text": "That is very important because these two features have to be judged with us: prejudice and preference. Persons come into a matter where often they ought not to come into it. Principles are to govern us."
-    },
-    {
-     "speaker": "J.M.",
-     "text": "I fully support what you are saying about those who are in the lead, but, in the assembly properly, it is not like in the established church where you have two or three who know what they are doing and the rest following they do not know what. One of the strong themes in the book of Proverbs, I understand, is that a young man might learn discretion. It is meant that this will go through the whole structure of the local company."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "Quite so. We have had that, the man in Luke 8 and so on, but there is a special obligation on persons who give a lead, those who take on some responsibility, who have a measure of faith. A measure of faith may involve somebody taking some responsibility, maybe some feature of leadership or influence. I can see the importance of elder brethren or brethren who are looked up to being marked by this feature of discretion."
-    },
-    {
-     "speaker": "J.M.",
-     "text": "It is really a feature of the Lord's love for the saints to provide such leaders."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "Exactly."
-    },
-    {
-     "speaker": "J.S.",
-     "text": "Do we have to learn this? You do not wait until you are fifty or sixty and suddenly take this on. We have to come through the learning process and it is a good thing if we start to learn early."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "Surely, we cannot start too early. The man started early enough in Luke 8 and it is open to anyone young to present his body a living sacrifice and have this spirit of \"power, and of love, and of wise discretion\"."
+     "speaker": "JR",
+     "text": [
+      "Surely, we cannot start too early. The man started early enough in Luke 8 and it is open to anyone young to present his body a living sacrifice and have this spirit of \"power, and of love, and of wise discretion\"."
+     ]
     }
    ]
   },
@@ -861,6 +1152,68 @@
      "text": "Scripture tells us of a boy, apparently dead, sneezing seven times, then opening his eyes. God was working with power and perfection so that the boy should see things clearly. Many years later, when the Lord Jesus was here, He raised to life a young girl of twelve years of age. He took her hand in His and said , in the local language, \"Talitha koumi, which is interpreted, Damsel, I say to thee , Arise\". We read too that in a place called Nain there was another young person raised from death by the Lord Jesus. The Lord said to the young man, \"Youth, I say to thee, Wake up\", whereupon the lad began to speak and Jesus gave him to his sorrowing mother. Have you awakened yet?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "“SITTING, CLOTHED AND SENSIBLE\"",
+   "kind": "not_a_name",
+   "detail": "\"n\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "“SITTING, CLOTHED AND SENSIBLE\"",
+   "kind": "no_comma_before_place",
+   "detail": "\"R.S.Renton Edinburgh\" read as R. S. Renton, Edinburgh"
+  },
+  {
+   "article": 1,
+   "title": "“SITTING, CLOTHED AND SENSIBLE\"",
+   "kind": "not_a_name",
+   "detail": "\"l\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "“SITTING, CLOTHED AND SENSIBLE\"",
+   "kind": "not_a_name",
+   "detail": "\"n\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "“SITTING, CLOTHED AND SENSIBLE\"",
+   "kind": "no_comma_before_place",
+   "detail": "\"M.Wood MINISTRY IN EDINBURGH\" read as M. Wood, MINISTRY IN EDINBURGH"
+  },
+  {
+   "article": 1,
+   "title": "“SITTING, CLOTHED AND SENSIBLE\"",
+   "kind": "speaker_not_in_key",
+   "detail": "DS (3 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "“SITTING, CLOTHED AND SENSIBLE\"",
+   "kind": "speaker_variant",
+   "detail": "JSp (2x) read as JS (14x), J.Spinks"
+  },
+  {
+   "article": 1,
+   "title": "“SITTING, CLOTHED AND SENSIBLE\"",
+   "kind": "speaker_matched_loosely",
+   "detail": "AMcK used in the text for A.McKay (key gives AM)"
+  },
+  {
+   "article": 1,
+   "title": "“SITTING, CLOTHED AND SENSIBLE\"",
+   "kind": "speaker_matched_loosely",
+   "detail": "DMcG used in the text for D.McGregor (key gives DM)"
+  },
+  {
+   "article": 1,
+   "title": "“SITTING, CLOTHED AND SENSIBLE\"",
+   "kind": "speaker_matched_loosely",
+   "detail": "GMcC used in the text for G.McCrone (key gives GM)"
   }
  ]
 }

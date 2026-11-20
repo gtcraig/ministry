@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,59 +26,70 @@
    "place": "Sunbury",
    "date": "27 July 1974",
    "speakers": [
-    "A.C.C.",
-    "E.H.W.",
-    "E.C.B.",
-    "M.G.W.",
-    "T.B.",
+    "ACC",
+    "WMcK",
+    "EHW",
+    "ECB",
+    "MGW",
+    "TB",
     "Ques.",
     "Rem.",
-    "H.H.",
-    "S.D.K.R.",
-    "E.W.",
-    "E.C.M.",
-    "R.L.",
-    "W.F.F.",
-    "G.A.P.",
-    "H.M.",
-    "C.B."
+    "JMcK",
+    "HH",
+    "SDKR",
+    "EW",
+    "ECM",
+    "RL",
+    "WFF",
+    "GAP",
+    "HM",
+    "CB"
    ],
    "initials": [
     {
-     "initials": "CBCBE",
-     "name": "C.B. C.Brodie Ealing"
+     "initials": "CB",
+     "name": "C. Brodie",
+     "place": "Ealing"
     },
     {
-     "initials": "ECBECBL",
-     "name": "E.C.B. E.C.Burr London"
+     "initials": "ECB",
+     "name": "E. C. Burr",
+     "place": "London"
     },
     {
-     "initials": "TBTBR",
-     "name": "T.B. T.Broughton Richmond"
+     "initials": "TB",
+     "name": "T. Broughton",
+     "place": "Richmond"
     },
     {
-     "initials": "ACCACCA",
-     "name": "A.C.C. A.C.Craig Airdrie"
+     "initials": "ACC",
+     "name": "A. C. Craig",
+     "place": "Airdrie"
     },
     {
-     "initials": "WFFWFFL",
-     "name": "W.F.F. W.F.Flowerdew London"
+     "initials": "WFF",
+     "name": "W. F. Flowerdew",
+     "place": "London"
     },
     {
-     "initials": "HHHHKT",
-     "name": "H.H. H.Hatcher Kingston upon Thames"
+     "initials": "HH",
+     "name": "H. Hatcher",
+     "place": "Kingston upon Thames"
     },
     {
-     "initials": "RLRLM",
-     "name": "R.L. R.Lawrence Maidstone"
+     "initials": "RL",
+     "name": "R. Lawrence",
+     "place": "Maidstone"
     },
     {
-     "initials": "ECMECMC",
-     "name": "E.C.M. E.C.Muggleton Croydon"
+     "initials": "ECM",
+     "name": "E. C. Muggleton",
+     "place": "Croydon"
     },
     {
-     "initials": "HMHMS",
-     "name": "H.M. H.Meek Sunbury"
+     "initials": "HM",
+     "name": "H. Meek",
+     "place": "Sunbury"
     },
     {
      "initials": "J",
@@ -86,32 +97,37 @@
      "place": "McK. J.McKay Sunbury"
     },
     {
-     "initials": "WMWMS",
-     "name": "W.McK. W.McKay Sunbury"
+     "initials": "WMcK",
+     "name": "W.McKay Sunbury"
     },
     {
-     "initials": "GAPGAPL",
-     "name": "G.A.P. G.A.Palmer London"
+     "initials": "GAP",
+     "name": "G. A. Palmer",
+     "place": "London"
     },
     {
-     "initials": "SDKRDSDKRC",
-     "name": "S.D.K.R. Dr.S.D.K.Roberts Croydon"
+     "initials": "SDKR",
+     "name": "Dr. S. D. K. Roberts",
+     "place": "Croydon"
     },
     {
-     "initials": "JT",
-     "name": "n. J.IThomson Croydon"
+     "initials": "EW",
+     "name": "E. Woodford",
+     "place": "Dorking"
     },
     {
-     "initials": "EWEWD",
-     "name": "E.W. E.Woodford Dorking"
+     "initials": "EHW",
+     "name": "E. H. Wakefield",
+     "place": "Sunbury"
     },
     {
-     "initials": "EHWEHWS",
-     "name": "E.H.W. E.H.Wakefield Sunbury"
+     "initials": "MGW",
+     "name": "M. G. Wood",
+     "place": "Dundee"
     },
     {
-     "initials": "MGWMGWD",
-     "name": "M.G.W. M.G.Wood Dundee"
+     "initials": "JMcK",
+     "not_in_key": true
     }
    ],
    "initials_heading": "KEY TO INITIALS",
@@ -120,652 +136,992 @@
    ],
    "paragraphs": [
     {
-     "speaker": "A.C.C.",
-     "text": "All that has transpired in the latter times must come within the cognizance of the Lord's attitude that is depicted in the address to Laodicea, being a phase of things that covers the final stages of the testimony. I thought that we might first therefore get some impression as to the importance of the ministry that is given in the Colossian epistle as a sort of antidote to the conditions that have arisen, and also get help as to the position that the Lord would take up in respect of what has come in, whether it be an organised state of things with the rigidity and character of bondage, or looseness, the latitude that many seek. The Lord would take up a certain attitude and we would get help by seeing that and seeing what He would propose in view of things proceeding."
+     "speaker": "ACC",
+     "text": [
+      "All that has transpired in the latter times must come within the cognizance of the Lord's attitude that is depicted in the address to Laodicea, being a phase of things that covers the final stages of the testimony. I thought that we might first therefore get some impression as to the importance of the ministry that is given in the Colossian epistle as a sort of antidote to the conditions that have arisen, and also get help as to the position that the Lord would take up in respect of what has come in, whether it be an organised state of things with the rigidity and character of bondage, or looseness, the latitude that many seek. The Lord would take up a certain attitude and we would get help by seeing that and seeing what He would propose in view of things proceeding."
+     ]
     },
     {
-     "text": "W.McK. I suppose we need to apprehend the Lord's attitude if we are going to be preserved. It is not simply a question of what is happening amongst men but what His mind about it is."
+     "speaker": "WMcK",
+     "text": [
+      "I suppose we need to apprehend the Lord's attitude if we are going to be preserved. It is not simply a question of what is happening amongst men but what His mind about it is."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes. I think it is of all importance that we understand how the Lord is holding Himself and what His attitude is and what He proposes, the need to meet any condition that has arisen and to carry things forward to their completion. The Colossian ministry has in mind that, the need to apprehend Him and to hold fast the Head. In the presence of conditions where an earthly head has been appointed we need to hold fast the Head and to get an impression of the living character of things that proceeds from Christ as above."
+     "speaker": "ACC",
+     "text": [
+      "Yes. I think it is of all importance that we understand how the Lord is holding Himself and what His attitude is and what He proposes, the need to meet any condition that has arisen and to carry things forward to their completion. The Colossian ministry has in mind that, the need to apprehend Him and to hold fast the Head. In the presence of conditions where an earthly head has been appointed we need to hold fast the Head and to get an impression of the living character of things that proceeds from Christ as above."
+     ]
     },
     {
-     "text": "W.McK. There are two references to Laodicea at the end of this epistle to the Colossians. Do you think that, if the ministry that we have in Colossians had been paid heed to, the conditions that existed in Laodicea might not have arisen?"
+     "speaker": "WMcK",
+     "text": [
+      "There are two references to Laodicea at the end of this epistle to the Colossians. Do you think that, if the ministry that we have in Colossians had been paid heed to, the conditions that existed in Laodicea might not have arisen?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That is what I think; the Colossian ministry is intended to help us therefore in respect of the conditions that may exist. We are in the presence of conditions where an earthly head has been appointed. Of course we have been aware of that not for a long time as to what has happened in the great public sense, that there has been one who has taken the place of Christ here; but I think it has been brought home to us too that Christ has been more or less displaced by the appointment of someone assuming the place of direction."
+     "speaker": "ACC",
+     "text": [
+      "That is what I think; the Colossian ministry is intended to help us therefore in respect of the conditions that may exist. We are in the presence of conditions where an earthly head has been appointed. Of course we have been aware of that not for a long time as to what has happened in the great public sense, that there has been one who has taken the place of Christ here; but I think it has been brought home to us too that Christ has been more or less displaced by the appointment of someone assuming the place of direction.",
+      "J.T-n. Paul had great combat for these Colossians. Do you think that it was a critical time and that it is still a critical time? The Lord has come in in deliverance but there is a tendency all the while to settle down in earthly things rather than to have our mind on the heavenly things."
+     ]
     },
     {
-     "text": "J.T-n. Paul had great combat for these Colossians. Do you think that it was a critical time and that it is still a critical time? The Lord has come in in deliverance but there is a tendency all the while to settle down in earthly things rather than to have our mind on the heavenly things."
+     "speaker": "ACC",
+     "text": [
+      "Quite so. I think it would do us all good to get some fresh impression as to our exalted Head and His heavenly character. It would save us from the condition of things that exists here, no matter what they may be."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Quite so. I think it would do us all good to get some fresh impression as to our exalted Head and His heavenly character. It would save us from the condition of things that exists here, no matter what they may be."
+     "speaker": "EHW",
+     "text": [
+      "Is it important to see that the apostle draws attention to the greatness of the Person of Christ and who He is, and then what has been done for us - you has He quickened (see chap 2: 13) and so on?"
+     ]
     },
     {
-     "speaker": "E.H.W.",
-     "text": "Is it important to see that the apostle draws attention to the greatness of the Person of Christ and who He is, and then what has been done for us - you has He quickened (see chap 2: 13) and so on?"
+     "speaker": "ACC",
+     "text": [
+      "I think so, and the way He begins the address to Laodicea is in full keeping with how He is presented in Colossians. It is the greatness of all that resides in Christ, He is \"the Amen, the faithful and true witness, the beginning of the creation of God\". Think of the wealth of that presentation: it is in full accord with what you say as to how He is presented in this epistle. I think it is wonderful how the Lord would present Himself, and the wealth and fulness that resides in Him."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think so, and the way He begins the address to Laodicea is in full keeping with how He is presented in Colossians. It is the greatness of all that resides in Christ, He is \"the Amen, the faithful and true witness, the beginning of the creation of God\". Think of the wealth of that presentation: it is in full accord with what you say as to how He is presented in this epistle. I think it is wonderful how the Lord would present Himself, and the wealth and fulness that resides in Him."
+     "speaker": "ECB",
+     "text": [
+      "Where the Christ is is critical in the testimony at any time, is it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Where the Christ is is critical in the testimony at any time, is it not?"
+     "speaker": "ACC",
+     "text": [
+      "It is; over against what may go on down here there is Christ above and the need to maintain our link wit h Him where He is so that the earthly side may be kept in its place."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "It is; over against what may go on down here there is Christ above and the need to maintain our link wit h Him where He is so that the earthly side may be kept in its place."
+     "speaker": "ECB",
+     "text": [
+      "I had wondered whether the word to Sardis, \"I have not found thy works complete before my God\" (Rev 3: 2) involves the surrender of the heavenly side of the truth."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I had wondered whether the word to Sardis, \"I have not found thy works complete before my God\" (Rev 3: 2) involves the surrender of the heavenly side of the truth."
+     "speaker": "ACC",
+     "text": [
+      "It does, and that is what gives rise to an organised system of things and, on the other hand, what Mr Taylor sen called latitudinarianism. We are faced with both things and the need is to maintain our links with Christ above, holding fast the Head."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "It does, and that is what gives rise to an organised system of things and, on the other hand, what Mr Taylor sen called latitudinarianism. We are faced with both things and the need is to maintain our links with Christ above, holding fast the Head."
+     "speaker": "ECB",
+     "text": [
+      "The problem for brethren often is to get in spirit into the sphere where the Christ is, where questions of legality and looseness do not arise. There is a sphere in which there is not drink, feast, new moon, sabbaths, and so on, neither is there looseness. It is a question of our getting to where the Christ is, outside the current order of things, is it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The problem for brethren often is to get in spirit into the sphere where the Christ is, where questions of legality and looseness do not arise. There is a sphere in which there is not drink, feast, new moon, sabbaths, and so on, neither is there looseness. It is a question of our getting to where the Christ is, outside the current order of things, is it not?"
+     "speaker": "ACC",
+     "text": [
+      "I think it is."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think it is."
+     "speaker": "WMcK",
+     "text": [
+      "Do you think that in the way the Lord presents Himself to Laodicea - \"the Amen\", then \"the beginning of the creation of God\" - that God set out the whole standard of things at the beginning, and what would be in mind is that there is something at the end that corresponds with it?"
+     ]
     },
     {
-     "text": "W.McK. Do you think that in the way the Lord presents Himself to Laodicea - \"the Amen\", then \"the beginning of the creation of God\" - that God set out the whole standard of things at the beginning, and what would be in mind is that there is something at the end that corresponds with it?"
+     "speaker": "ACC",
+     "text": [
+      "I think that would be His intention, and the wealth of things that are residing in Christ is to be impressed upon us so that, as Mr Raven said, we need not go outside of Him for anything. The Lord takes up a very definite attitude (even though things have stood, and we have known the doctrine) in regard of any moment or anything that arises and He is proposing certain things here."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think that would be His intention, and the wealth of things that are residing in Christ is to be impressed upon us so that, as Mr Raven said, we need not go outside of Him for anything. The Lord takes up a very definite attitude (even though things have stood, and we have known the doctrine) in regard of any moment or anything that arises and He is proposing certain things here."
+     "speaker": "MGW",
+     "text": [
+      "You raise the question as to how the Lord views things. Do you think we have to ask ourselves, where is the increase and is it the increase of God? Do you think that is what the Lord is concerned about ?"
+     ]
     },
     {
-     "speaker": "M.G.W.",
-     "text": "You raise the question as to how the Lord views things. Do you think we have to ask ourselves, where is the increase and is it the increase of God? Do you think that is what the Lord is concerned about ?"
+     "speaker": "ACC",
+     "text": [
+      "I am sure, all the time; and increase does not come unless we maintain our links with Him where He is. There is a tendency always of our lowering the character of things."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I am sure, all the time; and increase does not come unless we maintain our links with Him where He is. There is a tendency always of our lowering the character of things."
+     "speaker": "ECB",
+     "text": [
+      "In both Laodicea and in the virgins in Matthew 25 is the point that the vitality has gone?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "In both Laodicea and in the virgins in Matthew 25 is the point that the vitality has gone?"
+     "speaker": "ACC",
+     "text": [
+      "That is what I thought we might see. Of course there is what is proposed in the divine attitude that would recover us and maintain us in the vitality of what Philadelphia stands for. I think that in the Lord’s proposals He is opening up something that would be available for us in the way of divine commodity to meet the existing conditions. So He is presenting Himself as a seller, and in Matthew 25, \"Go ... to those that sell\". It is not the principle of the free gift of grace (which we have experienced already), it is another principle, that of transaction."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That is what I thought we might see. Of course there is what is proposed in the divine attitude that would recover us and maintain us in the vitality of what Philadelphia stands for. I think that in the Lord’s proposals He is opening up something that would be available for us in the way of divine commodity to meet the existing conditions. So He is presenting Himself as a seller, and in Matthew 25, \"Go ... to those that sell\". It is not the principle of the free gift of grace (which we have experienced already), it is another principle, that of transaction."
+     "speaker": "WMcK",
+     "text": [
+      "That involves vital exercise. Would it correspond with the conflict that has been referred to in Colossians? It is not the free gift, it is to be purchased, so that it involves conflict and exercise."
+     ]
     },
     {
-     "text": "W.McK. That involves vital exercise. Would it correspond with the conflict that has been referred to in Colossians? It is not the free gift, it is to be purchased, so that it involves conflict and exercise."
+     "speaker": "ACC",
+     "text": [
+      "Quite so. Do we understand the Lord's attitude, therefore, in respect of all that is taking place ? It is not a question of God's disposition in the gospel, that always remains, but there is this other thing."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Quite so. Do we understand the Lord's attitude, therefore, in respect of all that is taking place ? It is not a question of God's disposition in the gospel, that always remains, but there is this other thing."
+     "speaker": "MGW",
+     "text": [
+      "Is it the presentation of Himself - \"I counsel thee to buy of me\", and in Matthew 25, \"Behold, the bridegroom\" - that would move the heart and set it forward in these adjusting exercises?"
+     ]
     },
     {
-     "speaker": "M.G.W.",
-     "text": "Is it the presentation of Himself - \"I counsel thee to buy of me\", and in Matthew 25, \"Behold, the bridegroom\" - that would move the heart and set it forward in these adjusting exercises?"
+     "speaker": "ACC",
+     "text": [
+      "That is what I thought. He sets Himself forward to Laodicea in this threefold way, as \"the Amen\" and all that that would mean, and then \"the faithful and true witness, the beginning of the creation of God\". We must be impressed with the fulness of things that resides in our Head. You will therefore have to do with Him in the presence of conditions that are intended to divert the saints."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That is what I thought. He sets Himself forward to Laodicea in this threefold way, as \"the Amen\" and all that that would mean, and then \"the faithful and true witness, the beginning of the creation of God\". We must be impressed with the fulness of things that resides in our Head. You will therefore have to do with Him in the presence of conditions that are intended to divert the saints."
+     "speaker": "TB",
+     "text": [
+      "Is it important to realise that the Head is always moving, and we need to be exercised in relation to that?"
+     ]
     },
     {
-     "speaker": "T.B.",
-     "text": "Is it important to realise that the Head is always moving, and we need to be exercised in relation to that?"
+     "speaker": "ACC",
+     "text": [
+      "Very good. The Head is always active and the body is here, and the way that the body is maintained is by the increase from the Head, no other way. There is no intermediary, no earthly head; it is a question of our Head in heaven and the body here a and the link maintained by the Spirit by which the increase comes."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Very good. The Head is always active and the body is here, and the way that the body is maintained is by the increase from the Head, no other way. There is no intermediary, no earthly head; it is a question of our Head in heaven and the body here a and the link maintained by the Spirit by which the increase comes."
+     "speaker": "ECB",
+     "text": [
+      "Would holding fast the Head be some at equivalent to following the cloud and the fire in he wilderness? Those who did not were cut off."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Would holding fast the Head be some at equivalent to following the cloud and the fire in he wilderness? Those who did not were cut off."
-    },
-    {
-     "speaker": "A.C.C.",
-     "text": "Yes, and missed their way."
+     "speaker": "ACC",
+     "text": [
+      "Yes, and missed their way."
+     ]
     },
     {
      "speaker": "Ques.",
-     "text": "Is there something substantial about the body as over against these other things?"
+     "text": [
+      "Is there something substantial about the body as over against these other things?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That is what we have here - \"the body is of Christ\". He alludes to \"a shadow of things to come\", but the body is of Christ; that is what Christianity brings you to, the substantial character of things."
+     "speaker": "ACC",
+     "text": [
+      "That is what we have here - \"the body is of Christ\". He alludes to \"a shadow of things to come\", but the body is of Christ; that is what Christianity brings you to, the substantial character of things."
+     ]
     },
     {
      "speaker": "Rem.",
-     "text": "I thought it set forth Christ too."
+     "text": [
+      "I thought it set forth Christ too."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes, that is the intention."
+     "speaker": "ACC",
+     "text": [
+      "Yes, that is the intention."
+     ]
     },
     {
-     "text": "J.McK. Is there a touch of finality in the allusion to \"the Amen\"? There is what God has reached conclusively in Christ where He is, but then the fact that He is resource for us indicates that there is the means of carrying everything through to a conclusion in testimony."
+     "speaker": "JMcK",
+     "text": [
+      "Is there a touch of finality in the allusion to \"the Amen\"? There is what God has reached conclusively in Christ where He is, but then the fact that He is resource for us indicates that there is the means of carrying everything through to a conclusion in testimony."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think it is a fine touch that He should present Himself as \"the Amen\", as you said a suggestion of what is final, and then also \"the faithful and true witness, the beginning of the creation of God\". It brings out the wealth of the headship of Christ, for not only is He presented as the Head of the body in Colossians, but as Head in other aspects. It is the fulness; I think, of what His headship would involve."
+     "speaker": "ACC",
+     "text": [
+      "I think it is a fine touch that He should present Himself as \"the Amen\", as you said a suggestion of what is final, and then also \"the faithful and true witness, the beginning of the creation of God\". It brings out the wealth of the headship of Christ, for not only is He presented as the Head of the body in Colossians, but as Head in other aspects. It is the fulness; I think, of what His headship would involve."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "What does the Lord speak about over supper in Laodicea? - \"I will come in unto him and sup with him, and he with me\"."
+     "speaker": "ECB",
+     "text": [
+      "What does the Lord speak about over supper in Laodicea? - \"I will come in unto him and sup with him, and he with me\"."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "It is a fine thing that we have experience of the Lord coming in to us, and then of going in with Him. \"The ones that were ready went in with him\". First of all He comes in but then we go in too. This is an interesting thought as to what they spoke over at supper."
+     "speaker": "ACC",
+     "text": [
+      "It is a fine thing that we have experience of the Lord coming in to us, and then of going in with Him. \"The ones that were ready went in with him\". First of all He comes in but then we go in too. This is an interesting thought as to what they spoke over at supper."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "We were looking locally at the mystery in Colossians 1 and 2, and I wondered whether the Lord does not engage Laodicea with the mystery. In Colossians Christ and the mystery are sufficient, are they not? You do not need anything outside either."
+     "speaker": "ECB",
+     "text": [
+      "We were looking locally at the mystery in Colossians 1 and 2, and I wondered whether the Lord does not engage Laodicea with the mystery. In Colossians Christ and the mystery are sufficient, are they not? You do not need anything outside either."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That is very good. What an enriching thing it is, therefore, to have the Lord with us in such a way, in the presence of so much pretension and assumption, that we are aware that there can be such a wealth of things for our enjoyment."
+     "speaker": "ACC",
+     "text": [
+      "That is very good. What an enriching thing it is, therefore, to have the Lord with us in such a way, in the presence of so much pretension and assumption, that we are aware that there can be such a wealth of things for our enjoyment."
+     ]
     },
     {
-     "text": "W.McK. The Lord's position is so definitely defined in Laodicea, is it not? He says \"Behold, I stand at the door\"; the note to the word 'stand' is 'I have placed myself there and am standing'. His position is clearly defined and it is for us to find out where that is."
+     "speaker": "WMcK",
+     "text": [
+      "The Lord's position is so definitely defined in Laodicea, is it not? He says \"Behold, I stand at the door\"; the note to the word 'stand' is 'I have placed myself there and am standing'. His position is clearly defined and it is for us to find out where that is."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That is right. I think it establishes the fact that the Lord takes up a certain position and attitude. He must do it in respect of the things that exist in the sphere of profession, and we come into that."
+     "speaker": "ACC",
+     "text": [
+      "That is right. I think it establishes the fact that the Lord takes up a certain position and attitude. He must do it in respect of the things that exist in the sphere of profession, and we come into that."
+     ]
     },
     {
-     "speaker": "H.H.",
-     "text": "Are there two kinds of completeness? In chapter 2 (v 9) \"in him dwells all the fulness of the Godhead bodily; and ye are complete in him\", and then in chapter 4 (v 12) \"Epaphras... always combating... that ye may stand perfect and complete in all the will of God\"."
+     "speaker": "HH",
+     "text": [
+      "Are there two kinds of completeness? In chapter 2 (v 9) \"in him dwells all the fulness of the Godhead bodily; and ye are complete in him\", and then in chapter 4 (v 12) \"Epaphras... always combating... that ye may stand perfect and complete in all the will of God\"."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes. Completeness is one of the things in Colossians, that things might not be left undone or loose, or incomplete like Sardis."
+     "speaker": "ACC",
+     "text": [
+      "Yes. Completeness is one of the things in Colossians, that things might not be left undone or loose, or incomplete like Sardis."
+     ]
     },
     {
-     "speaker": "H.H.",
-     "text": "And the overcomer would not lower the standard."
+     "speaker": "HH",
+     "text": [
+      "And the overcomer would not lower the standard."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Now I would like to rest for a bit on this principle of transaction that the Lord is setting forward here - \"buy of me\" - as distinct from the way we have been taken up initially and abundantly blessed, so unconditionally."
+     "speaker": "ACC",
+     "text": [
+      "Now I would like to rest for a bit on this principle of transaction that the Lord is setting forward here - \"buy of me\" - as distinct from the way we have been taken up initially and abundantly blessed, so unconditionally."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "There is an indifference in Laodicea. What is diverting a number of young people today is an activity in Christendom which is not directed by the Head, as for example the conversion of souls, which is most important, but which omits the mystery. Could you say something that would help us on that?"
+     "speaker": "SDKR",
+     "text": [
+      "There is an indifference in Laodicea. What is diverting a number of young people today is an activity in Christendom which is not directed by the Head, as for example the conversion of souls, which is most important, but which omits the mystery. Could you say something that would help us on that?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think what you raise is very important indeed, that we do not just accept things in half measure; there is a snare in not going on to God's full thought. The Colossian ministry brings up the whole question as to whether or not we are prepared to settle here and just have things that may suit us instead of having exercise to have the full thing that lies in the mind of God for us, which the mystery proposes."
+     "speaker": "ACC",
+     "text": [
+      "I think what you raise is very important indeed, that we do not just accept things in half measure; there is a snare in not going on to God's full thought. The Colossian ministry brings up the whole question as to whether or not we are prepared to settle here and just have things that may suit us instead of having exercise to have the full thing that lies in the mind of God for us, which the mystery proposes."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Would being subject and near to Christ, occupied with Him where He is, help us to put everything in balance? It would not omit the great evangelical work which is necessary in these last days but at the same time put first things first, the truth of what is next to the heart of Christ in assembly response."
+     "speaker": "SDKR",
+     "text": [
+      "Would being subject and near to Christ, occupied with Him where He is, help us to put everything in balance? It would not omit the great evangelical work which is necessary in these last days but at the same time put first things first, the truth of what is next to the heart of Christ in assembly response."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "God would encourage us to have and enjoy all that He would give. I have noticed that you must occupy yourself with a sort of feverish activity if you are not prepared for the demands that the full truth would make upon you, because it does not come easily. That is my point in 'buying of Him', it is not the side of free grace, it is the side of exercise and industry that you are prepared for in view of understanding the full truth in connection with the mystery."
+     "speaker": "ACC",
+     "text": [
+      "God would encourage us to have and enjoy all that He would give. I have noticed that you must occupy yourself with a sort of feverish activity if you are not prepared for the demands that the full truth would make upon you, because it does not come easily. That is my point in 'buying of Him', it is not the side of free grace, it is the side of exercise and industry that you are prepared for in view of understanding the full truth in connection with the mystery."
+     ]
     },
     {
-     "speaker": "E.W.",
-     "text": "Does the principle of buying bring out a valuation of what is secured? As an example, an older brother was disposing of his volumes of Mr Raven's ministry to a young man and he said, I am going to make a charge for these; it will not be too much but I think you will value the ministry more if you have to pay for it. Is that the principle of this?"
+     "speaker": "EW",
+     "text": [
+      "Does the principle of buying bring out a valuation of what is secured? As an example, an older brother was disposing of his volumes of Mr Raven's ministry to a young man and he said, I am going to make a charge for these; it will not be too much but I think you will value the ministry more if you have to pay for it. Is that the principle of this?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That is the principle, and that is the way the Lord is proposing things in this address to Laodicea. You have to have some definite deliberate transaction with Christ Him self, and as you say, you value what you have as coming from Him."
+     "speaker": "ACC",
+     "text": [
+      "That is the principle, and that is the way the Lord is proposing things in this address to Laodicea. You have to have some definite deliberate transaction with Christ Him self, and as you say, you value what you have as coming from Him."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "The foolish virgins had no transaction with Him but the wise had a transaction in the buying of oil. It is where the vitality would come in in connection with the Spirit."
+     "speaker": "ECM",
+     "text": [
+      "The foolish virgins had no transaction with Him but the wise had a transaction in the buying of oil. It is where the vitality would come in in connection with the Spirit."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Quite so. The gre.at need now is power in vitality and that lies in the divine commodities that the Lord is proposing to sell."
+     "speaker": "ACC",
+     "text": [
+      "Quite so. The gre.at need now is power in vitality and that lies in the divine commodities that the Lord is proposing to sell."
+     ]
     },
     {
-     "text": "W.McK. The whole of Matthew's gospel is on that principle. It is the kingdom and the violent take it by force (see chap 11: 12), and it is the assembly gospel, and persons are prepared to go in for it."
+     "speaker": "WMcK",
+     "text": [
+      "The whole of Matthew's gospel is on that principle. It is the kingdom and the violent take it by force (see chap 11: 12), and it is the assembly gospel, and persons are prepared to go in for it."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "It is a question of taking things by violence; you mean business. That is what has been part of our snare, we have not been definite. The Lord would say to us all, 'I would like to do business with you', and we ought to be sure that we mean business."
+     "speaker": "ACC",
+     "text": [
+      "It is a question of taking things by violence; you mean business. That is what has been part of our snare, we have not been definite. The Lord would say to us all, 'I would like to do business with you', and we ought to be sure that we mean business.",
+      "J.T-n. \"I rebuke and discipline as many as I love\". We would not have taken the way that the Lord has taken with us. It has meant discipline, rebuke, repentance; but is it His love that has brought us this way?"
+     ]
     },
     {
-     "text": "J.T-n. \"I rebuke and discipline as many as I love\". We would not have taken the way that the Lord has taken with us. It has meant discipline, rebuke, repentance; but is it His love that has brought us this way?"
+     "speaker": "ACC",
+     "text": [
+      "That is very good; it goes with all that belongs to this phase of things. You get the sense of the Lord's hand, nevertheless His comfort. I think He would comfort us as the discipline proceeds."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That is very good; it goes with all that belongs to this phase of things. You get the sense of the Lord's hand, nevertheless His comfort. I think He would comfort us as the discipline proceeds."
+     "speaker": "ECB",
+     "text": [
+      "The necessity for this transaction as over against the grace in which He presents Himself to us in the gospel is because He is speaking to people on the basis of their responsibility in the position that they have taken up, is it not? Mr Stoney has a powerful letter in which he says that the Lord will not allow us to lower our standard in order to evade the responsibilities of the standard which we first adopted. For instance he says that you could never speak to someone who has walked in the light of the assembly as if he was a member of a Baptist congregation."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The necessity for this transaction as over against the grace in which He presents Himself to us in the gospel is because He is speaking to people on the basis of their responsibility in the position that they have taken up, is it not? Mr Stoney has a powerful letter in which he says that the Lord will not allow us to lower our standard in order to evade the responsibilities of the standard which we first adopted. For instance he says that you could never speak to someone who has walked in the light of the assembly as if he was a member of a Baptist congregation."
+     "speaker": "SDKR",
+     "text": [
+      "I think that is helpful. We have to \"Keep, by the Holy Spirit...... the good deposit entrusted\", 2 Tim 1: 14. As having the light of the assembly we are particularly responsible in relation to it."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "I think that is helpful. We have to \"Keep, by the Holy Spirit...... the good deposit entrusted\", 2 Tim 1: 14. As having the light of the assembly we are particularly responsible in relation to it."
+     "speaker": "ACC",
+     "text": [
+      "Yes, and that light you do not lose. There is light that may become darkness in you, but once you have had the knowledge of the truth and the service of God, it always carries with it responsibility to answer to it."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes, and that light you do not lose. There is light that may become darkness in you, but once you have had the knowledge of the truth and the service of God, it always carries with it responsibility to answer to it."
+     "speaker": "RL",
+     "text": [
+      "\"I have set before thee\" carries the thought of giving. That would be on the line of the mina for instance, and the responsibility in its use. He has given it to us, has He not?"
+     ]
     },
     {
-     "speaker": "R.L.",
-     "text": "\"I have set before thee\" carries the thought of giving. That would be on the line of the mina for instance, and the responsibility in its use. He has given it to us, has He not?"
+     "speaker": "ACC",
+     "text": [
+      "Quite so. Therefore, as I said, it carries its responsibility. You cannot say that you did not know that you are responsible to act according to it. The people who used to engage themselves in God's service and do not do it any more are a great concern to me. They cannot evade their responsibility. Whatever they might say about things that have taken place, they do not do it now."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Quite so. Therefore, as I said, it carries its responsibility. You cannot say that you did not know that you are responsible to act according to it. The people who used to engage themselves in God's service and do not do it any more are a great concern to me. They cannot evade their responsibility. Whatever they might say about things that have taken place, they do not do it now."
+     "speaker": "WFF",
+     "text": [
+      "Is that the way the truth of the body is put: \"ministered to and united together by the joints and bands\", that is, each one is to be a source of supply? It is what comes from the Head."
+     ]
     },
     {
-     "speaker": "W.F.F.",
-     "text": "Is that the way the truth of the body is put: \"ministered to and united together by the joints and bands\", that is, each one is to be a source of supply? It is what comes from the Head."
+     "speaker": "ACC",
+     "text": [
+      "Each one concerned about the wellbeing of the body?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Each one concerned about the wellbeing of the body?"
+     "speaker": "WFF",
+     "text": [
+      "Yes, contributing to it, it is something that increases. We ought to be conscious of the increase of God as we are together on each occasion. It is a very full thought, is it not? Would it touch the side of purpose?"
+     ]
     },
     {
-     "speaker": "W.F.F.",
-     "text": "Yes, contributing to it, it is something that increases. We ought to be conscious of the increase of God as we are together on each occasion. It is a very full thought, is it not? Would it touch the side of purpose?"
+     "speaker": "ACC",
+     "text": [
+      "Yes, it shows the character of things, it is the increase of God."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes, it shows the character of things, it is the increase of God."
+     "speaker": "WMcK",
+     "text": [
+      "You could not be a joint of supply without having a transaction with the Head."
+     ]
     },
     {
-     "text": "W.McK. You could not be a joint of supply without having a transaction with the Head."
+     "speaker": "ACC",
+     "text": [
+      "That is what I thought. I would like to get brought out clearer what it means to have to do with Christ, He having taken up this attitude. It is a deliberate attitude and He has adopted it because of the existing condition of things where there is assumption, and pretension to riches and wealth which they did not get from Him."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That is what I thought. I would like to get brought out clearer what it means to have to do with Christ, He having taken up this attitude. It is a deliberate attitude and He has adopted it because of the existing condition of things where there is assumption, and pretension to riches and wealth which they did not get from Him."
+     "speaker": "WMcK",
+     "text": [
+      "At the end of John's gospel the Lord takes up a position on the land, and the disciples who had moved off the track had to come to Him in that position. He is not moving towards them there, they have to come to Him. Is that the position today, that the Lord is not identifying Himself with just anything, persons have to move towards where He is?"
+     ]
     },
     {
-     "text": "W.McK. At the end of John's gospel the Lord takes up a position on the land, and the disciples who had moved off the track had to come to Him in that position. He is not moving towards them there, they have to come to Him. Is that the position today, that the Lord is not identifying Himself with just anything, persons have to move towards where He is?"
-    },
-    {
-     "speaker": "A.C.C.",
-     "text": "I think it requires tremendous exercise, and the principles have to be honoured before you can get the gain of what is in Christ. A certain principle is being established by the Lord here and unless you honour it you are not in the gain of what is coming from Himself."
+     "speaker": "ACC",
+     "text": [
+      "I think it requires tremendous exercise, and the principles have to be honoured before you can get the gain of what is in Christ. A certain principle is being established by the Lord here and unless you honour it you are not in the gain of what is coming from Himself."
+     ]
     },
     {
      "speaker": "Ques.",
-     "text": "Would Mary taking up a definite attitude in Luke 10 show the gain that there is? The Lord stands by her in that. As to what has been said as to evangelical activity apart from the truth of the mystery, Martha would call for the help of others; there is that sort of thing (not that we would want to be critical) but the Lord supports Mary in taking up the attitude she does in relation to Him at His feet."
+     "text": [
+      "Would Mary taking up a definite attitude in Luke 10 show the gain that there is? The Lord stands by her in that. As to what has been said as to evangelical activity apart from the truth of the mystery, Martha would call for the help of others; there is that sort of thing (not that we would want to be critical) but the Lord supports Mary in taking up the attitude she does in relation to Him at His feet."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Quite so: she is honouring the way in which what comes from Him is to be had; she is deliberate about it, she \" has chosen the good part\". It is not that she had it just as moving about, she has taken up this deliberate attitude. It is like the principle of buying from Him and being prepared to have to do with Him in this transaction."
+     "speaker": "ACC",
+     "text": [
+      "Quite so: she is honouring the way in which what comes from Him is to be had; she is deliberate about it, she \" has chosen the good part\". It is not that she had it just as moving about, she has taken up this deliberate attitude. It is like the principle of buying from Him and being prepared to have to do with Him in this transaction."
+     ]
     },
     {
-     "text": "J.McK. Does the reference to the ointment in John 12, that it was of great price, indicate that the transaction had taken place?"
+     "speaker": "JMcK",
+     "text": [
+      "Does the reference to the ointment in John 12, that it was of great price, indicate that the transaction had taken place?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Very good, it was a real evaluation of what the thing was."
+     "speaker": "ACC",
+     "text": [
+      "Very good, it was a real evaluation of what the thing was."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Therefore if you \"buy of me\", what price do you pay?"
+     "speaker": "ECB",
+     "text": [
+      "Therefore if you \"buy of me\", what price do you pay?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think that is what the Lord would raise with us. What are you prepared to pay?"
+     "speaker": "ACC",
+     "text": [
+      "I think that is what the Lord would raise with us. What are you prepared to pay?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is that Romans 12: \"present your bodies a living sacrifice\" ?"
+     "speaker": "ECB",
+     "text": [
+      "Is that Romans 12: \"present your bodies a living sacrifice\" ?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "You mean that might be one of the early exercises, to have to do with Him in that way and come into things vitally?"
+     "speaker": "ACC",
+     "text": [
+      "You mean that might be one of the early exercises, to have to do with Him in that way and come into things vitally?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes; often if we speak about buying things of Christ we speak, for instance, of giving up our time and convenience, and so on, but these are only symptoms or indications of whether you have paid the real price."
+     "speaker": "ECB",
+     "text": [
+      "Yes; often if we speak about buying things of Christ we speak, for instance, of giving up our time and convenience, and so on, but these are only symptoms or indications of whether you have paid the real price."
+     ]
     },
     {
-     "speaker": "E.H.W.",
-     "text": "If the Lord has to speak severely to us, is it important that, as He says here, \"I rebuke and discipline as many as I love\". Does that not carry its own appeal in the midst of the discipline and severity?"
+     "speaker": "EHW",
+     "text": [
+      "If the Lord has to speak severely to us, is it important that, as He says here, \"I rebuke and discipline as many as I love\". Does that not carry its own appeal in the midst of the discipline and severity?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I am sure it does, you are in the Lord's hand."
+     "speaker": "ACC",
+     "text": [
+      "I am sure it does, you are in the Lord's hand."
+     ]
     },
     {
-     "speaker": "E.H.W.",
-     "text": "In the promise to the overcomer He says \"to him will I give to sit with me in my throne\". The Lord loves to have us with Him and if there is severity from His side it is all to this end."
+     "speaker": "EHW",
+     "text": [
+      "In the promise to the overcomer He says \"to him will I give to sit with me in my throne\". The Lord loves to have us with Him and if there is severity from His side it is all to this end."
+     ]
     },
     {
-     "speaker": "M.G.W.",
-     "text": "How do we get started on transactions with Christ? The Lord says here \"I know”. and \"thou knowest not\"; He says \"thou sayest\", but also \"thou art\", to bring about a realisation with them that they are saying certain things but their state is seriously wrong and they must get to Him about these transactions."
+     "speaker": "MGW",
+     "text": [
+      "How do we get started on transactions with Christ? The Lord says here \"I know”. and \"thou knowest not\"; He says \"thou sayest\", but also \"thou art\", to bring about a realisation with them that they are saying certain things but their state is seriously wrong and they must get to Him about these transactions."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "As far as I see the worst of the trouble was that they did not know. It is the insensibility of their condition. That is not unknown by us; but immediately you set yourself to have to do with Him the full gain of what He is proposing opens up to you. Here you need Him, He is indispensable; that is the Colossian ministry - the indispensability of Christ as the living Head in heaven."
+     "speaker": "ACC",
+     "text": [
+      "As far as I see the worst of the trouble was that they did not know. It is the insensibility of their condition. That is not unknown by us; but immediately you set yourself to have to do with Him the full gain of what He is proposing opens up to you. Here you need Him, He is indispensable; that is the Colossian ministry - the indispensability of Christ as the living Head in heaven."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "Does the mind come in to it? For instance, \"have your mind on the things that are above\" (Col 3: 2) involves what you say as to being deliberate, we have to do it; and Mary sitting at His feet."
+     "speaker": "ECM",
+     "text": [
+      "Does the mind come in to it? For instance, \"have your mind on the things that are above\" (Col 3: 2) involves what you say as to being deliberate, we have to do it; and Mary sitting at His feet."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "It comes back to what value you are placing upon what you may know to be there for your appropriation and what you are prepared to do to have it. There are so many places now with the supposed Lord's supper, and you can find a place to suit you without raising too much exercise. But the Lord is standing outside of all that and is saying, You come to Me; buy of Me, I have certain commodities, and I will come in and sup with you and you with Me. That is what the Lord is proposing out side the condition of things that is marked by this latitudinarian spirit where things are so easy and indifferent."
+     "speaker": "ACC",
+     "text": [
+      "It comes back to what value you are placing upon what you may know to be there for your appropriation and what you are prepared to do to have it. There are so many places now with the supposed Lord's supper, and you can find a place to suit you without raising too much exercise. But the Lord is standing outside of all that and is saying, You come to Me; buy of Me, I have certain commodities, and I will come in and sup with you and you with Me. That is what the Lord is proposing out side the condition of things that is marked by this latitudinarian spirit where things are so easy and indifferent."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "As Mr Raven said, the Lord is outside of everything here. Peter had to come to that when he said \"Lord, if it be thou, command me to come to thee\", Matt 14: 28."
+     "speaker": "ECM",
+     "text": [
+      "As Mr Raven said, the Lord is outside of everything here. Peter had to come to that when he said \"Lord, if it be thou, command me to come to thee\", Matt 14: 28."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "We could do with a revival of that kind of ministry that presents Christ as outside of everything here."
+     "speaker": "ACC",
+     "text": [
+      "We could do with a revival of that kind of ministry that presents Christ as outside of everything here."
+     ]
     },
     {
-     "speaker": "R.L.",
-     "text": "In Moses' day it was \"He that is for Jehovah, let him come to me”, Exod 32: 26. That involved taking the sword. Is that a matter to be faced? Then the tent is outside the camp."
+     "speaker": "RL",
+     "text": [
+      "In Moses' day it was \"He that is for Jehovah, let him come to me”, Exod 32: 26. That involved taking the sword. Is that a matter to be faced? Then the tent is outside the camp."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "It is a constant exercise with me that I am ready for the obligations of the truth. We have to accept things, they are not optional; Christianity is not optional. We must come to it that there are certain obligation s attaching to the truth and the fellowship and we should be ready for them."
+     "speaker": "ACC",
+     "text": [
+      "It is a constant exercise with me that I am ready for the obligations of the truth. We have to accept things, they are not optional; Christianity is not optional. We must come to it that there are certain obligation s attaching to the truth and the fellowship and we should be ready for them."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Is there a responsibility to hear His voice? He is ready to speak, am I ready to hear?"
+     "speaker": "GAP",
+     "text": [
+      "Is there a responsibility to hear His voice? He is ready to speak, am I ready to hear?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes, but \"if any one hear my voice\": I think the Lord speaks."
+     "speaker": "ACC",
+     "text": [
+      "Yes, but \"if any one hear my voice\": I think the Lord speaks."
+     ]
     },
     {
-     "text": "W.McK. We had a touch from Mr Walkinshaw at Croydon in regard to 2 Timothy: \"Let every one who names the name of the Lord withdraw from iniquity\", but later \"pursue righteousness, faith, love, peace, with those that call upon the Lord\", not 'the name of the Lord' but \"call upon the Lord\", that is you are getting to the Person in that; and that makes all the difference if you can get to the Person and find what is in His mind."
+     "speaker": "WMcK",
+     "text": [
+      "We had a touch from Mr Walkinshaw at Croydon in regard to 2 Timothy: \"Let every one who names the name of the Lord withdraw from iniquity\", but later \"pursue righteousness, faith, love, peace, with those that call upon the Lord\", not 'the name of the Lord' but \"call upon the Lord\", that is you are getting to the Person in that; and that makes all the difference if you can get to the Person and find what is in His mind."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Very good; that is something like the principle of buying and you are ready for that, and it raises, as far as I see, the principles that are set out in 2 Timothy 2. I think it is the way for contact with Him. As I said, it is not the principle of grace exactly, it is a question of what are you ready for. I have noticed that in 2 Timothy 2 the principles are first, then you meet with the Lord. Hebrews 13 is the opposite way, going forth to Him without the camp; it is Him right enough, but in 2 Timothy the question is are you ready for what the principles would demand from you?"
+     "speaker": "ACC",
+     "text": [
+      "Very good; that is something like the principle of buying and you are ready for that, and it raises, as far as I see, the principles that are set out in 2 Timothy 2. I think it is the way for contact with Him. As I said, it is not the principle of grace exactly, it is a question of what are you ready for. I have noticed that in 2 Timothy 2 the principles are first, then you meet with the Lord. Hebrews 13 is the opposite way, going forth to Him without the camp; it is Him right enough, but in 2 Timothy the question is are you ready for what the principles would demand from you?"
+     ]
     },
     {
-     "text": "W.McK. On that line you get through with others to the Person Himself."
+     "speaker": "WMcK",
+     "text": [
+      "On that line you get through with others to the Person Himself."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think that there can be a danger of a Laodicean situation arising because of our emphasising what we do not claim? If you keep on saying what you do not claim, after a time you cease to hold what you do not claim."
+     "speaker": "ECB",
+     "text": [
+      "Do you think that there can be a danger of a Laodicean situation arising because of our emphasising what we do not claim? If you keep on saying what you do not claim, after a time you cease to hold what you do not claim."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That is right."
+     "speaker": "ACC",
+     "text": [
+      "That is right."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "If we go on saying, 'Of course we do not claim to be the assembly', which of course we know we do not claim, we shall little by little surrender assembly truth. Do you not think so?"
+     "speaker": "ECB",
+     "text": [
+      "If we go on saying, 'Of course we do not claim to be the assembly', which of course we know we do not claim, we shall little by little surrender assembly truth. Do you not think so?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That has happened."
+     "speaker": "ACC",
+     "text": [
+      "That has happened."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "And if we say, 'Of course we do not insist on separation as we used to’, in a little while we shall not insist on separation; and by emphasising what we do not claim we shall let everything slip."
+     "speaker": "ECB",
+     "text": [
+      "And if we say, 'Of course we do not insist on separation as we used to’, in a little while we shall not insist on separation; and by emphasising what we do not claim we shall let everything slip.",
+      "J.T-n. Does all this emphasise the need for the revival of Paul's gospel? As was said earlier it suggests nothing less than the whole man secured as a living sacrifice. Is it because we have had a lower standard before us that many of us got astray?"
+     ]
     },
     {
-     "text": "J.T-n. Does all this emphasise the need for the revival of Paul's gospel? As was said earlier it suggests nothing less than the whole man secured as a living sacrifice. Is it because we have had a lower standard before us that many of us got astray?"
+     "speaker": "ACC",
+     "text": [
+      "Yes, you maintain our living link with Christ. The trend is always downwards, you give up; but I think what Mr Burr is saying about what the over-emphasising of what we do not claim leads to, is very important."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes, you maintain our living link with Christ. The trend is always downwards, you give up; but I think what Mr Burr is saying about what the over-emphasising of what we do not claim leads to, is very important."
+     "speaker": "ECB",
+     "text": [
+      "So that as a further illustration of that, \"Do the work of an evangelist\" (2 Tim 4: 5) is not a kind of encouragement to weak preachers, is it? The man that is doing the work of a evangelist is imbued with the mystery of the Christ and he will not surrender anything even if he can only find one other person to walk with in the light of it."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "So that as a further illustration of that, \"Do the work of an evangelist\" (2 Tim 4: 5) is not a kind of encouragement to weak preachers, is it? The man that is doing the work of a evangelist is imbued with the mystery of the Christ and he will not surrender anything even if he can only find one other person to walk with in the light of it."
+     "speaker": "ACC",
+     "text": [
+      "Very good."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Very good."
+     "speaker": "JMcK",
+     "text": [
+      "I was struck with the reference \"that thou mayest be rich\"; even in days of smallness and outward insignificance the Lord has in mind that the assembly is to be an increasingly wealthy area where persons are not walking according to what might appear outwardly but according to the resource that is in Him."
+     ]
     },
     {
-     "text": "J.McK. I was struck with the reference \"that thou mayest be rich\"; even in days of smallness and outward insignificance the Lord has in mind that the assembly is to be an increasingly wealthy area where persons are not walking according to what might appear outwardly but according to the resource that is in Him."
+     "speaker": "ACC",
+     "text": [
+      "Very good. In Colossians 1 it speaks about \"growing by the true knowledge of God\". That is the proper growth, and I think that what the Lord is proposing in these commodities might com e under the heading of \"the true knowledge of God\". We know that according to the parable of Matthew 13, by the leaven hid in the three measures of meal - 'three' again - it has all been leavened. The knowledge of God now as in Christendom has all been humanised, whereas when you get things direct from Christ it is the true knowledge of God. What do you say?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Very good. In Colossians 1 it speaks about \"growing by the true knowledge of God\". That is the proper growth, and I think that what the Lord is proposing in these commodities might com e under the heading of \"the true knowledge of God\". We know that according to the parable of Matthew 13, by the leaven hid in the three measures of meal - 'three' again - it has all been leavened. The knowledge of God now as in Christendom has all been humanised, whereas when you get things direct from Christ it is the true knowledge of God. What do you say?"
+     "speaker": "ECB",
+     "text": [
+      "Yes, I think that. We need to keep the substance of the mystery before us because in it \"are hid all the treasure s of wisdom and of knowledge\". Do you not think it is a remarkable thing and reflects our history that many of us are affected even in our emotions that 'through His poverty we might become rich, but a Laodicean situation arises and we have to be recalled to the thing that first convicted us?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, I think that. We need to keep the substance of the mystery before us because in it \"are hid all the treasure s of wisdom and of knowledge\". Do you not think it is a remarkable thing and reflects our history that many of us are affected even in our emotions that 'through His poverty we might become rich, but a Laodicean situation arises and we have to be recalled to the thing that first convicted us?"
-    },
-    {
-     "speaker": "A.C.C.",
-     "text": "Yes, quite so."
+     "speaker": "ACC",
+     "text": [
+      "Yes, quite so."
+     ]
     },
     {
      "speaker": "Ques.",
-     "text": "It is affecting to think of the Lord without. Mr Taylor sen spoke of the Lord taking up an outwardly foolish attitude of continually knocking and waiting. It seems to me that the Lord's voice is like the knocking."
+     "text": [
+      "It is affecting to think of the Lord without. Mr Taylor sen spoke of the Lord taking up an outwardly foolish attitude of continually knocking and waiting. It seems to me that the Lord's voice is like the knocking."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Well, there are the two things: the knocking and the speaking; \"if any one hear my voice and open the door\". Certain things arise which would clearly indicate that the Lord is knocking; but I think His speaking is continuous. I think everybody is responsible to answer to the voice; He speaks."
+     "speaker": "ACC",
+     "text": [
+      "Well, there are the two things: the knocking and the speaking; \"if any one hear my voice and open the door\". Certain things arise which would clearly indicate that the Lord is knocking; but I think His speaking is continuous. I think everybody is responsible to answer to the voice; He speaks."
+     ]
     },
     {
-     "speaker": "M.G.W.",
-     "text": "Would the eyesight and the riches and the garments be one part of it, but the supping with Him a deep inward satisfying side of having to do with Himself and thus bringing about growth?"
+     "speaker": "MGW",
+     "text": [
+      "Would the eyesight and the riches and the garments be one part of it, but the supping with Him a deep inward satisfying side of having to do with Himself and thus bringing about growth?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes, I think so: there must be some action on the part of the person to let Him in. The whole of the Laodicean challenge is that; if you want to have to do with Christ there is something to do on your side."
+     "speaker": "ACC",
+     "text": [
+      "Yes, I think so: there must be some action on the part of the person to let Him in. The whole of the Laodicean challenge is that; if you want to have to do with Christ there is something to do on your side."
+     ]
     },
     {
-     "text": "J.McK. Do the transactions referred to come before the opening of the door? I wondered if in \"I will come in unto him and sup with him\" the Lord wants to come into an area that is fully furnished and rich in what can not only be for our enjoyment but for His."
+     "speaker": "JMcK",
+     "text": [
+      "Do the transactions referred to come before the opening of the door? I wondered if in \"I will come in unto him and sup with him\" the Lord wants to come into an area that is fully furnished and rich in what can not only be for our enjoyment but for His."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes, I think so."
+     "speaker": "ACC",
+     "text": [
+      "Yes, I think so."
+     ]
     },
     {
-     "text": "W.McK. What would you say about the eye-salve? The language is the same kind as is used in John 9 when the Lord made mud of the spittle and anointed the man's eyes and told him to go and wash that he might see. That was a definite and clear transaction with Christ, was it not? I wondered if eyesight is one of the main needs of the present time."
+     "speaker": "WMcK",
+     "text": [
+      "What would you say about the eye-salve? The language is the same kind as is used in John 9 when the Lord made mud of the spittle and anointed the man's eyes and told him to go and wash that he might see. That was a definite and clear transaction with Christ, was it not? I wondered if eyesight is one of the main needs of the present time."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Very important; \"that thou mayest see\", clothed and enriched and able to see. What heavenly commodities! They are all intended to set us up here as different from the whole run of things that is going on; no matter what circle, you can be different as receiving these things from Christ."
+     "speaker": "ACC",
+     "text": [
+      "Very important; \"that thou mayest see\", clothed and enriched and able to see. What heavenly commodities! They are all intended to set us up here as different from the whole run of things that is going on; no matter what circle, you can be different as receiving these things from Christ."
+     ]
     },
     {
-     "speaker": "H.M.",
-     "text": "We would regard the address to Laodicea as very negative I suppose, but do you get in these things which you can buy from Christ something that leads into the condition that we get in Philadelphia?"
+     "speaker": "HM",
+     "text": [
+      "We would regard the address to Laodicea as very negative I suppose, but do you get in these things which you can buy from Christ something that leads into the condition that we get in Philadelphia?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think that is right: it is to meet the impoverished conditions and the insensibility. I think the Lord has it and He would have us in the gain of it."
+     "speaker": "ACC",
+     "text": [
+      "I think that is right: it is to meet the impoverished conditions and the insensibility. I think the Lord has it and He would have us in the gain of it."
+     ]
     },
     {
-     "speaker": "W.F.F.",
-     "text": "Looking on to the full expression of it, would you link the thought of eyesight with Paul's two prayers in Ephesians, the eyes of their hearts being enlightened to the great scope of God's thoughts in purpose for them?"
+     "speaker": "WFF",
+     "text": [
+      "Looking on to the full expression of it, would you link the thought of eyesight with Paul's two prayers in Ephesians, the eyes of their hearts being enlightened to the great scope of God's thoughts in purpose for them?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Quite so: think of what a vision that is. It was part of what Paul prayed about - that they might know the hope of their calling. Vision would come into that so that we might be alive to the fulness of the things that are available."
+     "speaker": "ACC",
+     "text": [
+      "Quite so: think of what a vision that is. It was part of what Paul prayed about - that they might know the hope of their calling. Vision would come into that so that we might be alive to the fulness of the things that are available."
+     ]
     },
     {
-     "speaker": "E.H.W.",
-     "text": "So we get clothing, seeing and hearing. Would that be progression; and then finally overcoming?"
+     "speaker": "EHW",
+     "text": [
+      "So we get clothing, seeing and hearing. Would that be progression; and then finally overcoming?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think it is all intended to set us up as enriched by what is coming from Christ directly, not dependent upon the human side of things or what may proceed along the line as instituted by an earthly head. I want to make a point of that, that there has been that, and it is not unknown by us where things were directed not directly from Christ; but in the presence of such conditions the Lord would appeal to us to have to do with Him and have things that are fresh and enriching."
+     "speaker": "ACC",
+     "text": [
+      "I think it is all intended to set us up as enriched by what is coming from Christ directly, not dependent upon the human side of things or what may proceed along the line as instituted by an earthly head. I want to make a point of that, that there has been that, and it is not unknown by us where things were directed not directly from Christ; but in the presence of such conditions the Lord would appeal to us to have to do with Him and have things that are fresh and enriching."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "Why is the \"I\" emphatic - \"I rebuke and discipline as many as I love\"?"
+     "speaker": "CB",
+     "text": [
+      "Why is the \"I\" emphatic - \"I rebuke and discipline as many as I love\"?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "That brings you back again to the blessed Person of the Colossian ministry. I have often been impressed with how Paul goes over the greatness of Christ - the Son of the Father's love, image of the invisible God, all things being created by Him and for Him, and so on. Then he says \"He is head of the body\", such an One as that. So it is the same here, the One who presents Himself as the Amen, and so on, says, 'I am the One'. How wonderful that is!"
+     "speaker": "ACC",
+     "text": [
+      "That brings you back again to the blessed Person of the Colossian ministry. I have often been impressed with how Paul goes over the greatness of Christ - the Son of the Father's love, image of the invisible God, all things being created by Him and for Him, and so on. Then he says \"He is head of the body\", such an One as that. So it is the same here, the One who presents Himself as the Amen, and so on, says, 'I am the One'. How wonderful that is!"
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "The Lord's intervention is a very great encouragement: it preserves us against presumption."
+     "speaker": "CB",
+     "text": [
+      "The Lord's intervention is a very great encouragement: it preserves us against presumption."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes. I sat down here this morning with the feeling that the Lord would comfort and encourage His people. If ministry does not convey that now, in the conditions we are in, you wonder whether it is coming from the Head in heaven. I was once in a meeting where this scripture was being discussed and we had a tremendous sense of the thing taking place. Maybe we are having a slight feeling of it this morning, but it was wonderful just to get an experience of the very doctrine you were speaking about."
+     "speaker": "ACC",
+     "text": [
+      "Yes. I sat down here this morning with the feeling that the Lord would comfort and encourage His people. If ministry does not convey that now, in the conditions we are in, you wonder whether it is coming from the Head in heaven. I was once in a meeting where this scripture was being discussed and we had a tremendous sense of the thing taking place. Maybe we are having a slight feeling of it this morning, but it was wonderful just to get an experience of the very doctrine you were speaking about."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The becoming rich, wearing white garments, and seeing in Laodicea relate to us in a position of responsibility, do they not? In Sardis they are presented as future - \"they shall walk with me in white\" and \"shall be clothed in white garments\" - but in Laodicea it is a present experience."
+     "speaker": "ECB",
+     "text": [
+      "The becoming rich, wearing white garments, and seeing in Laodicea relate to us in a position of responsibility, do they not? In Sardis they are presented as future - \"they shall walk with me in white\" and \"shall be clothed in white garments\" - but in Laodicea it is a present experience."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "It makes you different from all around and there is that distinguishing character about things. I think it is what the Lord intends. It is not a question of claiming at all, it is a question of what exists in a substantial character in contradistinction to all that is around."
+     "speaker": "ACC",
+     "text": [
+      "It makes you different from all around and there is that distinguishing character about things. I think it is what the Lord intends. It is not a question of claiming at all, it is a question of what exists in a substantial character in contradistinction to all that is around."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, I think it has a great deal to do with the vitality that there is, and ministry should have the effect of increasing the vitality among the brethren."
+     "speaker": "ECB",
+     "text": [
+      "Yes, I think it has a great deal to do with the vitality that there is, and ministry should have the effect of increasing the vitality among the brethren."
+     ]
     },
     {
-     "text": "W.McK. Do you mean by that, that the Lord has something in mind which is morally superior at the end? Even the white garments are something that are to be in evidence currently, exceeding even what has been in the recovery before."
+     "speaker": "WMcK",
+     "text": [
+      "Do you mean by that, that the Lord has something in mind which is morally superior at the end? Even the white garments are something that are to be in evidence currently, exceeding even what has been in the recovery before."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "As a general principle I think that. We should hold to the fact that the latter glory of the house will be greater than the former. Laodicea was one of the richest cities in Asia Minor, it made a fortune out of the wool trade and was a very great market; but what the Lord is saying to them is, 'Get your eye off the material things because I have them for you in a spiritual setting'. I think it is very important to see that the riches and the white garments and the seeing in Laodicea relate to the assembly in responsibility. The Lord's promise to Sardis prompted 'With thee in garments white, Lord Jesus, we shall walk' (Hymn 270). You will remember Mr Taylor sen's address on 'White garments' (N.S Vol. 13, p.245)."
+     "speaker": "ECB",
+     "text": [
+      "As a general principle I think that. We should hold to the fact that the latter glory of the house will be greater than the former. Laodicea was one of the richest cities in Asia Minor, it made a fortune out of the wool trade and was a very great market; but what the Lord is saying to them is, 'Get your eye off the material things because I have them for you in a spiritual setting'. I think it is very important to see that the riches and the white garments and the seeing in Laodicea relate to the assembly in responsibility. The Lord's promise to Sardis prompted 'With thee in garments white, Lord Jesus, we shall walk' (Hymn 270). You will remember Mr Taylor sen's address on 'White garments' (N.S Vol. 13, p.245)."
+     ]
     },
     {
-     "text": "W.McK. I think that is very encouraging because it shows what is possible at the present time as having to do directly with the Head."
+     "speaker": "WMcK",
+     "text": [
+      "I think that is very encouraging because it shows what is possible at the present time as having to do directly with the Head."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "We had become just like the others. One thing I can see that has happened is that the Lord has taken away our image in Christendom. We had a certain image, we were reckoned among the other groups, brethren began to hold a place. I think the Lord has, so far as we are concerned, taken that away."
+     "speaker": "ACC",
+     "text": [
+      "We had become just like the others. One thing I can see that has happened is that the Lord has taken away our image in Christendom. We had a certain image, we were reckoned among the other groups, brethren began to hold a place. I think the Lord has, so far as we are concerned, taken that away."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, but last time you were down in these parts you spoke about the way in which the brethren were known amongst men for moral integrity and being a testimony to righteousness and the truth, and I think it is time that we were diligent to get that name back. Not that we seek a name but we should be diligent to be in such a testimony that merits it."
+     "speaker": "ECB",
+     "text": [
+      "Yes, but last time you were down in these parts you spoke about the way in which the brethren were known amongst men for moral integrity and being a testimony to righteousness and the truth, and I think it is time that we were diligent to get that name back. Not that we seek a name but we should be diligent to be in such a testimony that merits it."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think this is the way to it: \"buy of me\", and have white garments. Think of all that that would mean in the presence of men, in the presence of Christians with spotted garments; think of the Lord setting you down with white garments in the midst of others, and with riches that obviously are not material but spiritual. People can know that. Then too you are able to see, your vision is clear. I think the Lord would help us to be these kind of people in the presence of others."
+     "speaker": "ACC",
+     "text": [
+      "I think this is the way to it: \"buy of me\", and have white garments. Think of all that that would mean in the presence of men, in the presence of Christians with spotted garments; think of the Lord setting you down with white garments in the midst of others, and with riches that obviously are not material but spiritual. People can know that. Then too you are able to see, your vision is clear. I think the Lord would help us to be these kind of people in the presence of others."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I wonder how many of the brethren have been stimulated by the plain public need for the demonstration of moral integrity in men and women. It is one of the greatest needs of the day, and there are a hundred people here this morning who could all take it on."
+     "speaker": "ECB",
+     "text": [
+      "I wonder how many of the brethren have been stimulated by the plain public need for the demonstration of moral integrity in men and women. It is one of the greatest needs of the day, and there are a hundred people here this morning who could all take it on.",
+      "J.T-n. You spoke about the Head being continually in movement. What greater could we have than \"I rebuke ... I love... I stand ... I will come\"? If I have not arrived at this now, would it not be a very blessed thing to come to it?"
+     ]
     },
     {
-     "text": "J.T-n. You spoke about the Head being continually in movement. What greater could we have than \"I rebuke ... I love... I stand ... I will come\"? If I have not arrived at this now, would it not be a very blessed thing to come to it?"
+     "speaker": "ACC",
+     "text": [
+      "It would be, He is always active, His voice is always to be heard. Other matters come up that come within the scope of His knocking but I think His voice in faithful love is always speaking."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "It would be, He is always active, His voice is always to be heard. Other matters come up that come within the scope of His knocking but I think His voice in faithful love is always speaking."
+     "speaker": "TB",
+     "text": [
+      "It says, \"Buy the truth, and sell it not\", Prov 23: 23. I believe that the Spirit of God has spoken to us that we need to hold the ground for God in the truth."
+     ]
     },
     {
-     "speaker": "T.B.",
-     "text": "It says, \"Buy the truth, and sell it not\", Prov 23: 23. I believe that the Spirit of God has spoken to us that we need to hold the ground for God in the truth."
+     "speaker": "ACC",
+     "text": [
+      "I am glad you say that, hold the ground for God. I think that what was said has indicated that it could easily slip away from us. We should set ourselves for the holding of the truth and all that it involves; because Christianity never was intended just to be too easy; there was always something that you had to hold as valuable, prize it, and be ready to meet the demands that it would involve."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I am glad you say that, hold the ground for God. I think that what was said has indicated that it could easily slip away from us. We should set ourselves for the holding of the truth and all that it involves; because Christianity never was intended just to be too easy; there was always something that you had to hold as valuable, prize it, and be ready to meet the demands that it would involve."
+     "speaker": "WFF",
+     "text": [
+      "The Colossian scripture seems to suggest that what we are and what we hold are brought into operation for the good of the body. It suggests that we have substance to minister. There is this uniting going on and the joints and bands, that is that what we have attained to is for the good of the body."
+     ]
     },
     {
-     "speaker": "W.F.F.",
-     "text": "The Colossian scripture seems to suggest that what we are and what we hold are brought into operation for the good of the body. It suggests that we have substance to minister. There is this uniting going on and the joints and bands, that is that what we have attained to is for the good of the body."
+     "speaker": "ACC",
+     "text": [
+      "Yes, the body is maintained and supported by what comes from the Head and nothing else. When He was here Himself He drew nothing from the scene around. It is intended that we being here, the body of Christ, draw nothing from the scene around, all comes from our Head in heaven. That was the light that first dawned on Mr Darby: if there is a Head in heaven there must be a body here."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes, the body is maintained and supported by what comes from the Head and nothing else. When He was here Himself He drew nothing from the scene around. It is intended that we being here, the body of Christ, draw nothing from the scene around, all comes from our Head in heaven. That was the light that first dawned on Mr Darby: if there is a Head in heaven there must be a body here."
+     "speaker": "EW",
+     "text": [
+      "In Matthew they went away to buy, whereas the Lord would draw near, would He not, that we might buy of Him? It is all so available."
+     ]
     },
     {
-     "speaker": "E.W.",
-     "text": "In Matthew they went away to buy, whereas the Lord would draw near, would He not, that we might buy of Him? It is all so available."
+     "speaker": "ACC",
+     "text": [
+      "Quite so. I was interested in, \"Go ... to those that sell \". That is how the oil is to be obtained, and I have the conviction that the solution to everything now lies in the recognition of the Spirit."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Quite so. I was interested in, \"Go ... to those that sell \". That is how the oil is to be obtained, and I have the conviction that the solution to everything now lies in the recognition of the Spirit."
+     "speaker": "ECM",
+     "text": [
+      "Those that were ready went in with Him to the wedding feast and then the door was shut. Would you say something about that?"
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "Those that were ready went in with Him to the wedding feast and then the door was shut. Would you say something about that?"
+     "speaker": "ACC",
+     "text": [
+      "I think those that were ready are those in the gain of the current service and activities of the Spirit."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think those that were ready are those in the gain of the current service and activities of the Spirit."
+     "speaker": "WMcK",
+     "text": [
+      "So what is in the Lord's mind is the moral excellence in the responsible sphere; but the last word He says to Laodicea in that section is \"with me\". Is not that the highest feature of our privilege?"
+     ]
     },
     {
-     "text": "W.McK. So what is in the Lord's mind is the moral excellence in the responsible sphere; but the last word He says to Laodicea in that section is \"with me\". Is not that the highest feature of our privilege?"
+     "speaker": "ACC",
+     "text": [
+      "Yes, association with Him in His own realm, but you never get there unless you open the door to Him here. You must be ready for all that that means, buying of Him and opening the door to Him. You do not have the experience of going with Him into His own realm unless that is so. People should not deceive themselves. The Lord is outside Laodicea, but then others are outside here."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes, association with Him in His own realm, but you never get there unless you open the door to Him here. You must be ready for all that that means, buying of Him and opening the door to Him. You do not have the experience of going with Him into His own realm unless that is so. People should not deceive themselves. The Lord is outside Laodicea, but then others are outside here."
+     "speaker": "ECB",
+     "text": [
+      "Would ministering the Spirit, which we get in both Galatians and Corinthians, bear on this?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Would ministering the Spirit, which we get in both Galatians and Corinthians, bear on this?"
+     "speaker": "ACC",
+     "text": [
+      "Yes. What do you think about those that sell?"
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Yes. What do you think about those that sell?"
+     "speaker": "ECB",
+     "text": [
+      "I was wondering if \"He therefore who ministers to you the Spirit\" (Gal 3: 5) did not bear on it. No doubt it refers in its origin to Christ, but Christ was not there in Galatia working miracles among them. it was done no doubt by the apostles in the gift that they had; and while there is not what is apostolic now, yet there should be the capacity to minister the Spirit which would provide opportunity for persons to buy oil."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I was wondering if \"He therefore who ministers to you the Spirit\" (Gal 3: 5) did not bear on it. No doubt it refers in its origin to Christ, but Christ was not there in Galatia working miracles among them. it was done no doubt by the apostles in the gift that they had; and while there is not what is apostolic now, yet there should be the capacity to minister the Spirit which would provide opportunity for persons to buy oil."
+     "speaker": "ACC",
+     "text": [
+      "Very good; you mean that there is something here that is the reflex of the economy that has been set in motion. Divine Persons alone can minister the Spirit, but then there is something here that is amongst the saints that is operating that would minister the Spirit in a way that the saints come into the good of it."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Very good; you mean that there is something here that is the reflex of the economy that has been set in motion. Divine Persons alone can minister the Spirit, but then there is something here that is amongst the saints that is operating that would minister the Spirit in a way that the saints come into the good of it."
+     "speaker": "ECB",
+     "text": [
+      "Yes, 1 Corinthians 2 and 2 Corinthians 3 are really offering oil for persons who will buy it."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, 1 Corinthians 2 and 2 Corinthians 3 are really offering oil for persons who will buy it."
+     "speaker": "RL",
+     "text": [
+      "Is not that the way in which the final thing will work; \"The Spirit and the bride say, Come\", Rev 22: 17?"
+     ]
     },
     {
-     "speaker": "R.L.",
-     "text": "Is not that the way in which the final thing will work; \"The Spirit and the bride say, Come\", Rev 22: 17?"
+     "speaker": "ACC",
+     "text": [
+      "I think so, the vitality is in that."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think so, the vitality is in that."
+     "speaker": "WMcK",
+     "text": [
+      "So that spiritual transactions ought to be going on in a meeting like this. The Lord cast out one form of trading from the temple but there is a form of trading going on in the temple all the time in this purchase of oil and the ministering of the Spirit."
+     ]
     },
     {
-     "text": "W.McK. So that spiritual transactions ought to be going on in a meeting like this. The Lord cast out one form of trading from the temple but there is a form of trading going on in the temple all the time in this purchase of oil and the ministering of the Spirit."
+     "speaker": "ACC",
+     "text": [
+      "I think that is right; the five prudent had already been to those that were selling the oil. \"Go... to those that sell\"; they had been. The foolish thought they could get it from the wise but they say, No, you go to those that sell."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think that is right; the five prudent had already been to those that were selling the oil. \"Go... to those that sell\"; they had been. The foolish thought they could get it from the wise but they say, No, you go to those that sell."
+     "speaker": "ECM",
+     "text": [
+      "What you brought up about transaction is very important. Mr Taylor sen said that the Spirit is not given automatically, it involves a transaction with divine Persons."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "What you brought up about transaction is very important. Mr Taylor sen said that the Spirit is not given automatically, it involves a transaction with divine Persons."
+     "speaker": "ACC",
+     "text": [
+      "My great fear is that we might settle down to a sort of indifferent and insensible condition of things where we are quite content to go on complacently without any vital exercise as to what is proceeding from Christ at the moment."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "My great fear is that we might settle down to a sort of indifferent and insensible condition of things where we are quite content to go on complacently without any vital exercise as to what is proceeding from Christ at the moment."
+     "speaker": "WFF",
+     "text": [
+      "The oil with them would seem to be in view of the shining of the torches. Would that suggest that as the Spirit is free the whole scene is illuminated?"
+     ]
     },
     {
-     "speaker": "W.F.F.",
-     "text": "The oil with them would seem to be in view of the shining of the torches. Would that suggest that as the Spirit is free the whole scene is illuminated?"
+     "speaker": "ACC",
+     "text": [
+      "I think so, it is to prepare the way for Christ. In those days the lights were to show the way for the bridegroom. That is what is intended, that our light might be bright."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think so, it is to prepare the way for Christ. In those days the lights were to show the way for the bridegroom. That is what is intended, that our light might be bright."
+     "speaker": "JMcK",
+     "text": [
+      "It seems that the oil is very closely identified with the persons who possess it. These foolish say to the prudent \"Give us of your oil\", it quite clearly belonged to them; and is it not clear that certain areas of assembly truth belong to those who are walking in the light of it?"
+     ]
     },
     {
-     "text": "J.McK. It seems that the oil is very closely identified with the persons who possess it. These foolish say to the prudent \"Give us of your oil\", it quite clearly belonged to them; and is it not clear that certain areas of assembly truth belong to those who are walking in the light of it?"
+     "speaker": "ACC",
+     "text": [
+      "Very good."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Very good."
+     "speaker": "RL",
+     "text": [
+      "The word to Philadelphia is \"I come quickly\"."
+     ]
     },
     {
-     "speaker": "R.L.",
-     "text": "The word to Philadelphia is \"I come quickly\"."
+     "speaker": "EHW",
+     "text": [
+      "So here in Matthew 25 it is in view of sharing with the Lord His joy in His being the Bridegroom and this being the wedding feast? It is all to the end that divine Persons might have their portion, is it not?"
+     ]
     },
     {
-     "speaker": "E.H.W.",
-     "text": "So here in Matthew 25 it is in view of sharing with the Lord His joy in His being the Bridegroom and this being the wedding feast? It is all to the end that divine Persons might have their portion, is it not?"
+     "speaker": "ACC",
+     "text": [
+      "I think that would be true."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I think that would be true."
+     "speaker": "ECB",
+     "text": [
+      "In regard to the question of transactions to which you have referred, it is not without significance that the Lord immediately goes on to speak the parable of the talents, \"thou oughtest then to have put my money to the money-changers\"."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "In regard to the question of transactions to which you have referred, it is not without significance that the Lord immediately goes on to speak the parable of the talents, \"thou oughtest then to have put my money to the money-changers\"."
-    },
-    {
-     "speaker": "A.C.C.",
-     "text": "Yes, showing that He would have us in industry here and carrying on transactions during His absence."
+     "speaker": "ACC",
+     "text": [
+      "Yes, showing that He would have us in industry here and carrying on transactions during His absence."
+     ]
     }
    ]
   },
@@ -868,6 +1224,110 @@
      "text": "In the gracious ways of God a boy who had become a cripple at the age of five was given in later years a happy place at the table of his king every day. Also, through his sorrows he must have learnt much about God's care for him because he called his son by a name which means 'who is like God'. He remained faithful to David when very many others were unfaithful. Do you long to be faithful to the Lord in the time of His rejection?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"C.Brodie Ealing\" read as C. Brodie, Ealing"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"E.C.Burr London\" read as E. C. Burr, London"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"T.Broughton Richmond\" read as T. Broughton, Richmond"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"A.C.Craig Airdrie\" read as A. C. Craig, Airdrie"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"W.F.Flowerdew London\" read as W. F. Flowerdew, London"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"H.Hatcher Kingston upon Thames\" read as H. Hatcher, Kingston upon Thames"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"R.Lawrence Maidstone\" read as R. Lawrence, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"E.C.Muggleton Croydon\" read as E. C. Muggleton, Croydon"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"H.Meek Sunbury\" read as H. Meek, Sunbury"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"G.A.Palmer London\" read as G. A. Palmer, London"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"Dr. S.D.K.Roberts Croydon\" read as Dr. S. D. K. Roberts, Croydon"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "not_a_name",
+   "detail": "\"n. J.IThomson Croydon\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"E.Woodford Dorking\" read as E. Woodford, Dorking"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"E.H.Wakefield Sunbury\" read as E. H. Wakefield, Sunbury"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "no_comma_before_place",
+   "detail": "\"M.G.Wood Dundee\" read as M. G. Wood, Dundee"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "initials_before_name",
+   "detail": "15 entries written as initials then name (\"CB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "TRANSACTION WITH CHRIST",
+   "kind": "speaker_not_in_key",
+   "detail": "JMcK (in the text)"
   }
  ]
 }

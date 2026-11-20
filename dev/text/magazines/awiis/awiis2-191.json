@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -35,24 +35,30 @@
     "EJH",
     "VLH",
     "LJG",
-    "DCD"
+    "DCD",
+    "PDB",
+    "StWD"
    ],
    "initials": [
     {
-     "initials": "CPDB",
-     "name": "(local in Calgary unless otherwise shown) – P D Brien"
+     "initials": "PDB",
+     "name": "P D Brien",
+     "place": "Calgary"
     },
     {
      "initials": "DCD",
-     "name": "D C Drever"
+     "name": "D C Drever",
+     "place": "Calgary"
     },
     {
      "initials": "KDD",
-     "name": "K D Drever"
+     "name": "K D Drever",
+     "place": "Calgary"
     },
     {
-     "initials": "SWD",
-     "name": "Steve W Drever"
+     "initials": "StWD",
+     "name": "Steve W Drever",
+     "place": "Calgary"
     },
     {
      "initials": "APG",
@@ -61,7 +67,8 @@
     },
     {
      "initials": "LJG",
-     "name": "L J Gray"
+     "name": "L J Gray",
+     "place": "Calgary"
     },
     {
      "initials": "VLH",
@@ -70,11 +77,13 @@
     },
     {
      "initials": "EJH",
-     "name": "E J Hibbert"
+     "name": "E J Hibbert",
+     "place": "Calgary"
     },
     {
      "initials": "MTH",
-     "name": "M T Holland"
+     "name": "M T Holland",
+     "place": "Calgary"
     },
     {
      "initials": "PWH",
@@ -83,6 +92,7 @@
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "local in Calgary unless otherwise shown",
    "initials_text": [
     "(local in Calgary unless otherwise shown) –",
     "P D Brien; D C Drever; K D Drever; Steve W Drever; A P Grant, Dundee; L J Gray; V L Harvey, Vancouver; E J Hibbert; M T Holland; P W Howie, Edmonton"
@@ -90,293 +100,404 @@
    "paragraphs": [
     {
      "speaker": "APG",
-     "text": "What I have been thinking about for this occasion is the feature of continuance. It is a feature that the Lord greatly values in His people. I think these three persons we have read of; John the apostle, Caleb, and Daniel, would help us as to our continuance. They continued over a long period in varied circumstances. The brethren here have been considering the dispensation of God referred to in 1 Timothy 1. The Lord would delight to see features that marked the early days of the dispensation being continued to the end of the dispensation. We, through God’s sovereignty, are at the end of this wonderful dispensation and the Lord would look for some correspondence with what marked the beginning, accepting that we are in a day of small things publicly. I was confirmed since we came here that our brother suggested for the local readings the book of Acts. We read there of the Spirit’s operations in the early days of the dispensation and the brightness and power that marked it. In the assembly at Philadelphia, which represents features that continue to the end, the Lord takes account of the “little power” (Rev 3: 8) that they had."
-    },
-    {
-     "text": "I wondered if we could get some encouragement from taking account of what marked these persons we have read about. The Lord’s word regarding John is, “If I will that he abide until I come”. John’s ministry is particularly for the present day. His writings were the last of the Holy Scriptures, written for our encouragement at the present time. John himself displayed continuance. He was with the Lord when the Lord was here on the earth, he was supporting Peter in the early chapters of Acts when things were so bright, and he is available to the Lord after the public breakdown. He is often described as the Lord’s reserve man."
-    },
-    {
-     "text": "Caleb, who is marked by wholly following Jehovah, is another example for us of continuance. He came out of Egypt and was with the people through the forty years in the wilderness. He was one of the ten spies who searched out the land, and was with the people crossing the Jordan into the land of Canaan. He is maintained in life, as we read in Joshua 14: “Jehovah has kept me alive”. In the previous chapter it says that “Joshua was old, advanced in age, and Jehovah said to him, Thou art old, advanced in age, and there remaineth yet very much land to take possession of”, Josh 13: 1. Joshua would represent the early days of the dispensation, the days of the apostles, but Caleb would represent what continues, the life that continues through to the end. We can get help to consider the features that mark Caleb."
-    },
-    {
-     "text": "And then we read the section regarding Othniel and Achsah, Caleb’s family. It seems that Achsah is a type of the assembly and I think that the Lord would value these assembly features that marked Achsah being seen at the end of the dispensation. Achsah represents the assembly as coming into the heavenly inheritance and she desires “springs of water”. If things are to be continued rightly, we need the refreshment of the Spirit in view of being maintained in life and continuing in power."
-    },
-    {
-     "text": "We read of Daniel too, as it says in chapter 1, “Daniel continued unto the first year of king Cyrus”. Where we read in chapter 1 Daniel was a young man. This would be an encouragement to the young here. We have the account of the food that he and his companions ate. Like John, he continued into old age and was a special object of divine love, “one greatly beloved”, chap 9: 23. And then we have, in Daniel 12, the particular blessing for those who continue to the end: “Blessed is he that waiteth, and cometh to the thousand three hundred and thirty-five days!”. These are prophetic references to Israel, but there is particular blessing associated with going on and continuing to the end: “go thy way until the end; and thou shalt rest, and stand in thy lot at the end of the days”. Daniel represents the Jewish remnant, but I think there is a current bearing for us too, encouraging us to continue."
+     "text": [
+      "What I have been thinking about for this occasion is the feature of continuance. It is a feature that the Lord greatly values in His people. I think these three persons we have read of; John the apostle, Caleb, and Daniel, would help us as to our continuance. They continued over a long period in varied circumstances. The brethren here have been considering the dispensation of God referred to in 1 Timothy 1. The Lord would delight to see features that marked the early days of the dispensation being continued to the end of the dispensation. We, through God’s sovereignty, are at the end of this wonderful dispensation and the Lord would look for some correspondence with what marked the beginning, accepting that we are in a day of small things publicly. I was confirmed since we came here that our brother suggested for the local readings the book of Acts. We read there of the Spirit’s operations in the early days of the dispensation and the brightness and power that marked it. In the assembly at Philadelphia, which represents features that continue to the end, the Lord takes account of the “little power” (Rev 3: 8) that they had.",
+      "I wondered if we could get some encouragement from taking account of what marked these persons we have read about. The Lord’s word regarding John is, “If I will that he abide until I come”. John’s ministry is particularly for the present day. His writings were the last of the Holy Scriptures, written for our encouragement at the present time. John himself displayed continuance. He was with the Lord when the Lord was here on the earth, he was supporting Peter in the early chapters of Acts when things were so bright, and he is available to the Lord after the public breakdown. He is often described as the Lord’s reserve man.",
+      "Caleb, who is marked by wholly following Jehovah, is another example for us of continuance. He came out of Egypt and was with the people through the forty years in the wilderness. He was one of the ten spies who searched out the land, and was with the people crossing the Jordan into the land of Canaan. He is maintained in life, as we read in Joshua 14: “Jehovah has kept me alive”. In the previous chapter it says that “Joshua was old, advanced in age, and Jehovah said to him, Thou art old, advanced in age, and there remaineth yet very much land to take possession of”, Josh 13: 1. Joshua would represent the early days of the dispensation, the days of the apostles, but Caleb would represent what continues, the life that continues through to the end. We can get help to consider the features that mark Caleb.",
+      "And then we read the section regarding Othniel and Achsah, Caleb’s family. It seems that Achsah is a type of the assembly and I think that the Lord would value these assembly features that marked Achsah being seen at the end of the dispensation. Achsah represents the assembly as coming into the heavenly inheritance and she desires “springs of water”. If things are to be continued rightly, we need the refreshment of the Spirit in view of being maintained in life and continuing in power.",
+      "We read of Daniel too, as it says in chapter 1, “Daniel continued unto the first year of king Cyrus”. Where we read in chapter 1 Daniel was a young man. This would be an encouragement to the young here. We have the account of the food that he and his companions ate. Like John, he continued into old age and was a special object of divine love, “one greatly beloved”, chap 9: 23. And then we have, in Daniel 12, the particular blessing for those who continue to the end: “Blessed is he that waiteth, and cometh to the thousand three hundred and thirty-five days!”. These are prophetic references to Israel, but there is particular blessing associated with going on and continuing to the end: “go thy way until the end; and thou shalt rest, and stand in thy lot at the end of the days”. Daniel represents the Jewish remnant, but I think there is a current bearing for us too, encouraging us to continue."
+     ]
     },
     {
      "speaker": "KDD",
-     "text": "I think it is very good what you have suggested because it is a word for all of us, is it not? It is not just left up to the old or to the young. The Lord’s word in John is, “Follow thou me”; it is an individual commitment, is it not? But as you go on further, as Caleb and Joshua are speaking he says, “concerning me and thee”. So, then there is what comes in to encourage and strengthen one another. And in Joshua, where Achsah comes in, you referred to the assembly; and then in Daniel there are those who are with him; there is committal from each one. So, I think it is good what you have said; it is open to each one of us, but in having the commitment then the collective side comes in for blessing, does it not?"
+     "text": [
+      "I think it is very good what you have suggested because it is a word for all of us, is it not? It is not just left up to the old or to the young. The Lord’s word in John is, “Follow thou me”; it is an individual commitment, is it not? But as you go on further, as Caleb and Joshua are speaking he says, “concerning me and thee”. So, then there is what comes in to encourage and strengthen one another. And in Joshua, where Achsah comes in, you referred to the assembly; and then in Daniel there are those who are with him; there is committal from each one. So, I think it is good what you have said; it is open to each one of us, but in having the commitment then the collective side comes in for blessing, does it not?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "I think that is good. As you say, it is for each one to make a commitment. Peter was distracted by looking at John, but the Lord’s word to him was, “Follow thou me”. John was following; he was a follower of the Lord from chapter 1 of this gospel. Caleb too, was marked by wholly following Jehovah. I think that is a feature of those who continue now, that Christ is their object. The first thing that is said as to John where we read is important, “Peter, turning round, sees the disciple whom Jesus loved following”. The main characteristic of John is that he was the disciple whom Jesus loved. I think it means that he was enjoying the Lord’s love, and I think that one of the secrets of continuing faithfully is that we are maintained in the sense of the Lord’s love."
+     "text": [
+      "I think that is good. As you say, it is for each one to make a commitment. Peter was distracted by looking at John, but the Lord’s word to him was, “Follow thou me”. John was following; he was a follower of the Lord from chapter 1 of this gospel. Caleb too, was marked by wholly following Jehovah. I think that is a feature of those who continue now, that Christ is their object. The first thing that is said as to John where we read is important, “Peter, turning round, sees the disciple whom Jesus loved following”. The main characteristic of John is that he was the disciple whom Jesus loved. I think it means that he was enjoying the Lord’s love, and I think that one of the secrets of continuing faithfully is that we are maintained in the sense of the Lord’s love."
+     ]
     },
     {
      "speaker": "MTH",
-     "text": "I think each one needs to come to, “the Son of God, who has loved me and given himself for me”, Gal 2: 20. I was thinking as you were speaking the words of Paul speaking of himself in that way; we should be able to speak of ourselves in a certain sense similarly, “the Son of God, who has loved me and given himself for me”."
+     "text": [
+      "I think each one needs to come to, “the Son of God, who has loved me and given himself for me”, Gal 2: 20. I was thinking as you were speaking the words of Paul speaking of himself in that way; we should be able to speak of ourselves in a certain sense similarly, “the Son of God, who has loved me and given himself for me”."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Yes, Paul certainly continued, having Christ as his object. Paul was a follower. I think what you say is helpful; the Lord loves us individually. He loved Mary and Martha and Lazarus; He loved each one. John speaks of love a great deal in his writings."
+     "text": [
+      "Yes, Paul certainly continued, having Christ as his object. Paul was a follower. I think what you say is helpful; the Lord loves us individually. He loved Mary and Martha and Lazarus; He loved each one. John speaks of love a great deal in his writings."
+     ]
     },
     {
      "speaker": "PWH",
-     "text": "Do you think that John got the benefit of the Lord’s word to Peter, “Follow thou me”? If you go to John’s epistle you get, “That which was from the beginning” (1 John 1: 1), which of course refers to Christ, and then he leads on to “if we walk in the light as he is in the light, we have fellowship with one another”, v 7. I think that John got the benefit of what the Lord said to Peter; he took it to himself. It is not that he left it for Peter to contemplate, So, it is good to see that we need to get the benefit of the Lord speaking and take it to ourselves."
+     "text": [
+      "Do you think that John got the benefit of the Lord’s word to Peter, “Follow thou me”? If you go to John’s epistle you get, “That which was from the beginning” (1 John 1: 1), which of course refers to Christ, and then he leads on to “if we walk in the light as he is in the light, we have fellowship with one another”, v 7. I think that John got the benefit of what the Lord said to Peter; he took it to himself. It is not that he left it for Peter to contemplate, So, it is good to see that we need to get the benefit of the Lord speaking and take it to ourselves."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Yes, I think so. Peter and John were very much together in the early chapters of Acts; chapters 3 and 4 have been called the ‘Peter and John chapters’. Peter was mainly the one who spoke, but John was there supporting him."
+     "text": [
+      "Yes, I think so. Peter and John were very much together in the early chapters of Acts; chapters 3 and 4 have been called the ‘Peter and John chapters’. Peter was mainly the one who spoke, but John was there supporting him."
+     ]
     },
     {
      "speaker": "PWH",
-     "text": "Well, that helps us in the matter of continuance, going on together, does it not?."
+     "text": [
+      "Well, that helps us in the matter of continuance, going on together, does it not?."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "I think that is very important. As our brother said, Daniel had companions, and I think that the company we keep is extremely important. I think firstly we have to be kept individually in the sense of the Lord’s love. I think John “the disciple whom Jesus loved” was enjoying the Lord’s love, but I think there is another side to it that John was marked by features that drew out the Lord’s love. So, I think we can think of that in both ways."
-    },
-    {
-     "text": "Although John was one of the apostles, I do not think that he refers to himself as an apostle. He refers to himself as a brother, an elder and as a father, features that are particularly important for the saints as seeking to continue in the pathway of the will of God."
+     "text": [
+      "I think that is very important. As our brother said, Daniel had companions, and I think that the company we keep is extremely important. I think firstly we have to be kept individually in the sense of the Lord’s love. I think John “the disciple whom Jesus loved” was enjoying the Lord’s love, but I think there is another side to it that John was marked by features that drew out the Lord’s love. So, I think we can think of that in both ways.",
+      "Although John was one of the apostles, I do not think that he refers to himself as an apostle. He refers to himself as a brother, an elder and as a father, features that are particularly important for the saints as seeking to continue in the pathway of the will of God."
+     ]
     },
     {
      "speaker": "KDD",
-     "text": "You just mentioned the companions, and it says, “For we are become companions of the Christ if indeed we hold the beginning of the assurance firm to the end”, Heb 3: 14. That is involved in continuance, is it not?"
+     "text": [
+      "You just mentioned the companions, and it says, “For we are become companions of the Christ if indeed we hold the beginning of the assurance firm to the end”, Heb 3: 14. That is involved in continuance, is it not?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "That is a helpful word in Hebrews which encourages the saints to enjoy their heavenly blessing and continue to the end."
+     "text": [
+      "That is a helpful word in Hebrews which encourages the saints to enjoy their heavenly blessing and continue to the end."
+     ]
     },
     {
      "speaker": "EJH",
-     "text": "Continuing really involves both working and waiting, including combat and conflict."
+     "text": [
+      "Continuing really involves both working and waiting, including combat and conflict."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "That is good. Caleb was able for the conflict, even at eighty five years old. Peter was given an occupation earlier in this chapter; he was to feed and shepherd the Lord’s sheep. The word to Timothy is, “Occupy thyself with these things; be wholly in them”, 1 Tim 4: 15. Timothy is another example of one who was available to the Lord in the last days."
+     "text": [
+      "That is good. Caleb was able for the conflict, even at eighty five years old. Peter was given an occupation earlier in this chapter; he was to feed and shepherd the Lord’s sheep. The word to Timothy is, “Occupy thyself with these things; be wholly in them”, 1 Tim 4: 15. Timothy is another example of one who was available to the Lord in the last days."
+     ]
     },
     {
      "speaker": "EJH",
-     "text": "We really get the indication in scripture too that God does not take a life away until continuance is assured. I was thinking about Simeon in Luke; he was told he would not see death until he saw the Saviour, chap 2: 26. It sounded like he was ready to go but he took the Babe in his arms, v 28."
+     "text": [
+      "We really get the indication in scripture too that God does not take a life away until continuance is assured. I was thinking about Simeon in Luke; he was told he would not see death until he saw the Saviour, chap 2: 26. It sounded like he was ready to go but he took the Babe in his arms, v 28."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Simeon and Anna (v 36) are interesting because they were maintaining what was for the pleasure of God right at the end of their dispensation."
-    },
-    {
-     "text": "I think the Philadelphians particularly show what we are speaking of. The Philadelphian assembly represents features that go on to the end and these features we are considering marked them. It says in Revelation 3: 9, “and shall know that I have loved thee”; they were enjoying the love of Christ as John was. They were going on in patience too, “thou hast kept the word of my patience”, v 10. They were marked by these features that were seen in John, Caleb and Daniel."
+     "text": [
+      "Simeon and Anna (v 36) are interesting because they were maintaining what was for the pleasure of God right at the end of their dispensation.",
+      "I think the Philadelphians particularly show what we are speaking of. The Philadelphian assembly represents features that go on to the end and these features we are considering marked them. It says in Revelation 3: 9, “and shall know that I have loved thee”; they were enjoying the love of Christ as John was. They were going on in patience too, “thou hast kept the word of my patience”, v 10. They were marked by these features that were seen in John, Caleb and Daniel."
+     ]
     },
     {
      "speaker": "EJH",
-     "text": "I was just looking at that and the footnote to “patience” is ‘endurance’ (note i); so waiting and working."
+     "text": [
+      "I was just looking at that and the footnote to “patience” is ‘endurance’ (note i); so waiting and working."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "The next thing that is said about John is, “who also leaned at supper on his breast”; it is a very precious touch. John keeps himself very near to the Lord, a safe place for us to be. We should seek to keep near to the Lord in our affections."
+     "text": [
+      "The next thing that is said about John is, “who also leaned at supper on his breast”; it is a very precious touch. John keeps himself very near to the Lord, a safe place for us to be. We should seek to keep near to the Lord in our affections."
+     ]
     },
     {
      "speaker": "PWH",
-     "text": "Do you think that it is really set out in the beginning of Acts? It says, “they persevered in the teaching and fellowship of the apostles, in breaking of bread and prayers”, Acts 2: 42. The features at the beginning of the dispensation will really sustain us through, including nearness to Christ. The prayers of the saints enter into that."
+     "text": [
+      "Do you think that it is really set out in the beginning of Acts? It says, “they persevered in the teaching and fellowship of the apostles, in breaking of bread and prayers”, Acts 2: 42. The features at the beginning of the dispensation will really sustain us through, including nearness to Christ. The prayers of the saints enter into that."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "That is a helpful reference. It is remarkable that the feature of perseverance comes in so early in the history in Acts 2. The Lord’s supper is to be maintained to the end: we “announce the death of the Lord, until he come”, 1 Cor 11: 26. The Lord’s supper engages our hearts with His love. Each week we are collectively occupied with the love of Christ, helping to keep us fresh in our appreciation of His love."
+     "text": [
+      "That is a helpful reference. It is remarkable that the feature of perseverance comes in so early in the history in Acts 2. The Lord’s supper is to be maintained to the end: we “announce the death of the Lord, until he come”, 1 Cor 11: 26. The Lord’s supper engages our hearts with His love. Each week we are collectively occupied with the love of Christ, helping to keep us fresh in our appreciation of His love."
+     ]
     },
     {
      "speaker": "VLH",
-     "text": "The book of Daniel looks on to the end: God spoke to Daniel about “the end of the days”. Is it important for us to have an objective in that way?"
+     "text": [
+      "The book of Daniel looks on to the end: God spoke to Daniel about “the end of the days”. Is it important for us to have an objective in that way?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Yes, the end is very glorious. It is a great encouragement for us. Paul says, “thus we shall be always with the Lord” (1 Thess 4: 17); that is what is before us. So that is a great encouragement to continue. Daniel was marked by prayer throughout his life; he persevered in prayer."
+     "text": [
+      "Yes, the end is very glorious. It is a great encouragement for us. Paul says, “thus we shall be always with the Lord” (1 Thess 4: 17); that is what is before us. So that is a great encouragement to continue. Daniel was marked by prayer throughout his life; he persevered in prayer."
+     ]
     },
     {
      "speaker": "LJG",
-     "text": "What has been said is good as to when there is strength given. I was thinking as to waiting too: “but they that wait upon Jehovah shall renew their strength”, Isa 40: 31. That waiting would involve prayer and supplication as has been brought in so that it is in view of strength. It is not waiting as in being idle but there is exercise involved in that. I was thinking as to Caleb; he was given that strength because he was devoted to Jehovah in that way. I wondered if that would enter into this waiting."
+     "text": [
+      "What has been said is good as to when there is strength given. I was thinking as to waiting too: “but they that wait upon Jehovah shall renew their strength”, Isa 40: 31. That waiting would involve prayer and supplication as has been brought in so that it is in view of strength. It is not waiting as in being idle but there is exercise involved in that. I was thinking as to Caleb; he was given that strength because he was devoted to Jehovah in that way. I wondered if that would enter into this waiting."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Yes, I think that is good. We need strength; the word to Timothy was, “be strong in the grace which is in Christ Jesus”, 2 Tim 2: 1. There is a continual supply of grace to strengthen us. It is an evidence of life too. Caleb was kept alive and his strength was maintained."
+     "text": [
+      "Yes, I think that is good. We need strength; the word to Timothy was, “be strong in the grace which is in Christ Jesus”, 2 Tim 2: 1. There is a continual supply of grace to strengthen us. It is an evidence of life too. Caleb was kept alive and his strength was maintained."
+     ]
     },
     {
      "speaker": "LJG",
-     "text": "I was thinking too regarding Caleb, in those words in verse 11, “I am still this day strong, as in the day that Moses sent me: as my strength was then, even so is my strength now, for war, both to go out and to come in”. I was thinking as to, “both to go out and to come in”; there is really liberty and blessing as a result of it."
+     "text": [
+      "I was thinking too regarding Caleb, in those words in verse 11, “I am still this day strong, as in the day that Moses sent me: as my strength was then, even so is my strength now, for war, both to go out and to come in”. I was thinking as to, “both to go out and to come in”; there is really liberty and blessing as a result of it."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "He is quite assured I suppose in going out in conflict but returning in victory, he is assured of the victory. The book of Joshua is full of victories."
-    },
-    {
-     "text": "This expression that he “wholly followed Jehovah”, I think comes in five or six times in the scripture, several times in this passage we read. The Lord particularly appreciates wholehearted committal. It came from his heart, “I brought him word again as it was in my heart”. Caleb’s heart was affected by divine grace and love, divine blessing. I think that is important for us, that our heart is in divine things. Laodicea was a half-hearted condition, but the Philadelphians’ hearts were fully engaged with Christ."
+     "text": [
+      "He is quite assured I suppose in going out in conflict but returning in victory, he is assured of the victory. The book of Joshua is full of victories.",
+      "This expression that he “wholly followed Jehovah”, I think comes in five or six times in the scripture, several times in this passage we read. The Lord particularly appreciates wholehearted committal. It came from his heart, “I brought him word again as it was in my heart”. Caleb’s heart was affected by divine grace and love, divine blessing. I think that is important for us, that our heart is in divine things. Laodicea was a half-hearted condition, but the Philadelphians’ hearts were fully engaged with Christ."
+     ]
     },
     {
      "speaker": "DCD",
-     "text": "I was wondering about the supply that is available from heaven. I think for ourselves John being near to the Lord, leaning on Him, is perhaps the best example; but what we have commented as to Caleb and Daniel, the strength, and the upper and lower springs - the Holy Spirit and then the food that is provided; so the supply is always available. What you say as to having our hearts wholly in the matter is good; if we are to continue, we are not to lean on our own strength, but it is to be supplied from the Lord in heaven, and that is always readily available to those who are willing to work and wait on the Lord; the supply will always be provided."
+     "text": [
+      "I was wondering about the supply that is available from heaven. I think for ourselves John being near to the Lord, leaning on Him, is perhaps the best example; but what we have commented as to Caleb and Daniel, the strength, and the upper and lower springs - the Holy Spirit and then the food that is provided; so the supply is always available. What you say as to having our hearts wholly in the matter is good; if we are to continue, we are not to lean on our own strength, but it is to be supplied from the Lord in heaven, and that is always readily available to those who are willing to work and wait on the Lord; the supply will always be provided."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "We can be assured that there is an infinite supply of divine resources. Paul refers to “the supply of the Spirit of Jesus Christ” (Phil 1:19), in the epistle to Philippians, who were a company that continued. Paul refers to their “fellowship with the gospel, from the first day until now” (Phil 1: 5); they continued. The Corinthians and the Galatians were diverted but the Philippians were a local company that continued; they proved the supply of the spirit of Jesus Christ. We were reminded during the past week of divine grace; there is an infinite supply of grace for every circumstance."
+     "text": [
+      "We can be assured that there is an infinite supply of divine resources. Paul refers to “the supply of the Spirit of Jesus Christ” (Phil 1:19), in the epistle to Philippians, who were a company that continued. Paul refers to their “fellowship with the gospel, from the first day until now” (Phil 1: 5); they continued. The Corinthians and the Galatians were diverted but the Philippians were a local company that continued; they proved the supply of the spirit of Jesus Christ. We were reminded during the past week of divine grace; there is an infinite supply of grace for every circumstance."
+     ]
     },
     {
      "speaker": "EJH",
-     "text": "It pleased Jehovah when Solomon asked for a wise and understanding heart. He says, “I know not to go out and to come in”, 1 Kings 3: 7. It is a feature of a little child but Caleb shows features of a full-grown man."
+     "text": [
+      "It pleased Jehovah when Solomon asked for a wise and understanding heart. He says, “I know not to go out and to come in”, 1 Kings 3: 7. It is a feature of a little child but Caleb shows features of a full-grown man."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "That is good; he was mature. He is not described as being old. Barzillai was old, he did not have the strength to go over, but Caleb is a remarkable example. We have many examples amongst us too, older brethren in their nineties who have continued through many different times. When they were young, things were very different to what they are now, both publicly and amongst the saints, but they have continued."
+     "text": [
+      "That is good; he was mature. He is not described as being old. Barzillai was old, he did not have the strength to go over, but Caleb is a remarkable example. We have many examples amongst us too, older brethren in their nineties who have continued through many different times. When they were young, things were very different to what they are now, both publicly and amongst the saints, but they have continued."
+     ]
     },
     {
      "speaker": "PWH",
-     "text": "Do you think in that way that Caleb knew that it was not always going to be the wilderness? He had the land in his heart; that is really the basis of continuance, is it not, in a certain sense? We have the land in our hearts. He knew the value of what was there, and we should keep that before us. Our brother spoke about the objective at the end of the journey; well, Caleb knew about that."
+     "text": [
+      "Do you think in that way that Caleb knew that it was not always going to be the wilderness? He had the land in his heart; that is really the basis of continuance, is it not, in a certain sense? We have the land in our hearts. He knew the value of what was there, and we should keep that before us. Our brother spoke about the objective at the end of the journey; well, Caleb knew about that."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "He had been there with Joshua. The other spies were marked by unbelief but Caleb and Joshua seemed to grasp the divine thought as to the land, “If Jehovah delight in us, he will bring us into this land”, Num 14: 8. They had a sense of the divine pleasure in having the saints enjoying the heavenly inheritance."
+     "text": [
+      "He had been there with Joshua. The other spies were marked by unbelief but Caleb and Joshua seemed to grasp the divine thought as to the land, “If Jehovah delight in us, he will bring us into this land”, Num 14: 8. They had a sense of the divine pleasure in having the saints enjoying the heavenly inheritance."
+     ]
     },
     {
      "speaker": "MTH",
-     "text": "We mentioned earlier about the supply of the Spirit in response. I think it is a good enquiry because we get that in John’s gospel. When the Lord speaks about going away in chapter 14, He immediately comes to another Comforter, v 16. And with Caleb in Numbers, it tells us that he had “another spirit in him”, Num 14: 24. Jehovah says, “and hath followed me fully”; so I just wondered if you might say more about that. The Lord has left us everything needed for continuance in the scene in which we are, the Spirit here, the Head in heaven. I think more could be said about that; it seems to mark all of these ones that you have touched upon."
+     "text": [
+      "We mentioned earlier about the supply of the Spirit in response. I think it is a good enquiry because we get that in John’s gospel. When the Lord speaks about going away in chapter 14, He immediately comes to another Comforter, v 16. And with Caleb in Numbers, it tells us that he had “another spirit in him”, Num 14: 24. Jehovah says, “and hath followed me fully”; so I just wondered if you might say more about that. The Lord has left us everything needed for continuance in the scene in which we are, the Spirit here, the Head in heaven. I think more could be said about that; it seems to mark all of these ones that you have touched upon."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "The Spirit indwelling the assembly is a particular feature of this dispensation. We speak about this dispensation as the Spirit’s day, “for he abides with you, and shall be in you” (John 14: 17); what an assurance that is. The Spirit helps those who are subject to the truth; we need to make way for the Spirit. The lower springs and the upper springs suggest the Spirit’s service, the Spirit’s refreshment. What you say as to Caleb being a man of another spirit is helpful. It suggests that there was formation in him; it is a small ‘s’; it was what was formed of Christ in Caleb through making way for the Holy Spirit."
+     "text": [
+      "The Spirit indwelling the assembly is a particular feature of this dispensation. We speak about this dispensation as the Spirit’s day, “for he abides with you, and shall be in you” (John 14: 17); what an assurance that is. The Spirit helps those who are subject to the truth; we need to make way for the Spirit. The lower springs and the upper springs suggest the Spirit’s service, the Spirit’s refreshment. What you say as to Caleb being a man of another spirit is helpful. It suggests that there was formation in him; it is a small ‘s’; it was what was formed of Christ in Caleb through making way for the Holy Spirit."
+     ]
     },
     {
      "speaker": "VLH",
-     "text": "The inheritance is there for us in purpose, is it not? But here it is clear that Caleb reminds Joshua of Moses’s words, “ land whereon thy feet have trodden shall assuredly be thine inheritance”. So, we cannot just sit down and stop and wait for it to come to us. They had to tread on the land to get into it, did they not?"
+     "text": [
+      "The inheritance is there for us in purpose, is it not? But here it is clear that Caleb reminds Joshua of Moses’s words, “ land whereon thy feet have trodden shall assuredly be thine inheritance”. So, we cannot just sit down and stop and wait for it to come to us. They had to tread on the land to get into it, did they not?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "That is good; that is how this book begins. From one point of view, God gave them the inheritance but it says, “Every place whereon the sole of your foot shall tread have I given to you”, Josh 1: 3. That involves spiritual exercise and overcoming, overcoming enemies, and also involves desire. Caleb was marked by that; he was rightly claiming what was his. It is really what is ours; the heavenly inheritance belongs to us. But it needs exercise and overcoming to come into the enjoyment of it, and there is divine power and strength available to help us."
+     "text": [
+      "That is good; that is how this book begins. From one point of view, God gave them the inheritance but it says, “Every place whereon the sole of your foot shall tread have I given to you”, Josh 1: 3. That involves spiritual exercise and overcoming, overcoming enemies, and also involves desire. Caleb was marked by that; he was rightly claiming what was his. It is really what is ours; the heavenly inheritance belongs to us. But it needs exercise and overcoming to come into the enjoyment of it, and there is divine power and strength available to help us."
+     ]
     },
     {
-     "text": "PDB You were mentioning about Caleb’s desire, and this specific act of asking; he says, “And now give me this mountain”; and then later where we read about Achsah, she asked, “give me also the springs of water”. What would you say as to this matter of asking?"
+     "speaker": "PDB",
+     "text": [
+      "You were mentioning about Caleb’s desire, and this specific act of asking; he says, “And now give me this mountain”; and then later where we read about Achsah, she asked, “give me also the springs of water”. What would you say as to this matter of asking?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "I am sure it links with what was said earlier regarding prayer, persevering “in breaking of bread and prayers”. The Lord encourages the disciples to ask for the Spirit (Luke 11:13) which would show desire from their side and the feeling of the need of the Spirit’s help. God gives the Spirit to those who obey Him, but there is also our side of asking. Recognising the divine resources that God has available is a feature of faith."
+     "text": [
+      "I am sure it links with what was said earlier regarding prayer, persevering “in breaking of bread and prayers”. The Lord encourages the disciples to ask for the Spirit (Luke 11:13) which would show desire from their side and the feeling of the need of the Spirit’s help. God gives the Spirit to those who obey Him, but there is also our side of asking. Recognising the divine resources that God has available is a feature of faith."
+     ]
     },
     {
      "speaker": "EJH",
-     "text": "Does Hebron represent what God’s original thoughts were? There is a lot of history there and it is ancient. It existed before a lot of other places, and there is the cave of Machpelah there (Gen 23); it would be like the cloud of witnesses to us, would it?"
+     "text": [
+      "Does Hebron represent what God’s original thoughts were? There is a lot of history there and it is ancient. It existed before a lot of other places, and there is the cave of Machpelah there (Gen 23); it would be like the cloud of witnesses to us, would it?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "It was built seven years before Zoan in Egypt (Numbers 13: 22), suggesting what was before the world and belonging to God’s purpose. Does Hebron mean ‘company’ too? It is a place where the company of the saints can be enjoyed. We have \"the oaks of Mamre, which are in Hebron” (Gen 13: 18); Abraham dwelt there. The oaks suggest the stability of divine purpose, what can never be overthrown."
+     "text": [
+      "It was built seven years before Zoan in Egypt (Numbers 13: 22), suggesting what was before the world and belonging to God’s purpose. Does Hebron mean ‘company’ too? It is a place where the company of the saints can be enjoyed. We have \"the oaks of Mamre, which are in Hebron” (Gen 13: 18); Abraham dwelt there. The oaks suggest the stability of divine purpose, what can never be overthrown."
+     ]
     },
     {
      "speaker": "MTH",
-     "text": "You refer to the stability of the purposes of God in the oaks of Mamre; they are more stable than the great fortified cities that are spoken of in chapter 14 here, greater than the Anakim. If we follow them through, the giants, we might see the greatest opposition and yet what is of God is greater; and there is the assurance of the power of faith to overcome these things. We spoke about that a little earlier in the week and it is wonderful to see both those aspects overcome fortified cities and giants."
+     "text": [
+      "You refer to the stability of the purposes of God in the oaks of Mamre; they are more stable than the great fortified cities that are spoken of in chapter 14 here, greater than the Anakim. If we follow them through, the giants, we might see the greatest opposition and yet what is of God is greater; and there is the assurance of the power of faith to overcome these things. We spoke about that a little earlier in the week and it is wonderful to see both those aspects overcome fortified cities and giants."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "That is good. These hindrances became very large in the eyes of the spies who were unbelieving, but Caleb was an overcomer like the overcomers in Revelation 2 and 3, a feature particularly needed at the end of the dispensation."
+     "text": [
+      "That is good. These hindrances became very large in the eyes of the spies who were unbelieving, but Caleb was an overcomer like the overcomers in Revelation 2 and 3, a feature particularly needed at the end of the dispensation."
+     ]
     },
     {
      "speaker": "MTH",
-     "text": "We spoke of the “little power” earlier, and I was thinking that is great enough to overcome both of these things."
+     "text": [
+      "We spoke of the “little power” earlier, and I was thinking that is great enough to overcome both of these things."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "It says, “greater is he that is in you than he that is in the world” (1 John 4: 4), we can be assured of that. It says, “If so be Jehovah shall be with me, then I shall dispossess them”, these are words of faith, one trusting in God."
-    },
-    {
-     "text": "In chapter 15 Achsah can be thought of as a type of the assembly, and this clearly had a place in Caleb’s affections. The Lord would seek that these assembly features that so please Him, true assembly affection for Christ, are maintained right through to the end. We are assured it will be and would seek to have our part in it."
+     "text": [
+      "It says, “greater is he that is in you than he that is in the world” (1 John 4: 4), we can be assured of that. It says, “If so be Jehovah shall be with me, then I shall dispossess them”, these are words of faith, one trusting in God.",
+      "In chapter 15 Achsah can be thought of as a type of the assembly, and this clearly had a place in Caleb’s affections. The Lord would seek that these assembly features that so please Him, true assembly affection for Christ, are maintained right through to the end. We are assured it will be and would seek to have our part in it."
+     ]
     },
     {
      "speaker": "KDD",
-     "text": "Do you think as to what Caleb gave to Othniel and his wife, having continuance practically is a good spouse with right desires? It is a great benefit, is it not, and we see that from this section?"
+     "text": [
+      "Do you think as to what Caleb gave to Othniel and his wife, having continuance practically is a good spouse with right desires? It is a great benefit, is it not, and we see that from this section?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Yes. Othniel and Achsah were one in their desire for the inheritance."
+     "text": [
+      "Yes. Othniel and Achsah were one in their desire for the inheritance."
+     ]
     },
     {
      "speaker": "KDD",
-     "text": "That is what I was thinking; in conversation last night you mentioned Priscilla and Aquilla; this is really a type of two that were continuing on the same path."
+     "text": [
+      "That is what I was thinking; in conversation last night you mentioned Priscilla and Aquilla; this is really a type of two that were continuing on the same path."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "It is remarkable that this section as to Othniel and Achsah also comes into Judges (Judg 1:12-15), which refers to a day of public breakdown, like the present time. Joshua refers more to the early days of the dispensation. In Judges there is failure, but Othniel, the first of the Judges, was an overcomer. Achsah was fully with him in that. It suggests that what is precious to Christ can be known and enjoyed in a day of public breakdown."
+     "text": [
+      "It is remarkable that this section as to Othniel and Achsah also comes into Judges (Judg 1:12-15), which refers to a day of public breakdown, like the present time. Joshua refers more to the early days of the dispensation. In Judges there is failure, but Othniel, the first of the Judges, was an overcomer. Achsah was fully with him in that. It suggests that what is precious to Christ can be known and enjoyed in a day of public breakdown."
+     ]
     },
     {
      "speaker": "LJG",
-     "text": "I was noticing when we were reading it that it says, “it came to pass as she came, that she urged him to ask of her father a field”. I was just thinking of the divine blessing in the Lord, in what He has given for the assembly, and what He gives to the assembly. She got more than even what she asked for - “give me also springs of water”; it became more than just a field; do you think it is important to see that?"
+     "text": [
+      "I was noticing when we were reading it that it says, “it came to pass as she came, that she urged him to ask of her father a field”. I was just thinking of the divine blessing in the Lord, in what He has given for the assembly, and what He gives to the assembly. She got more than even what she asked for - “give me also springs of water”; it became more than just a field; do you think it is important to see that?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Yes, I think that is good. Divine giving is always greater than what we ask. It is good to ask but God would always give us more. There is great need for the springs, sources of refreshment. John 4 brings in the living spring within us; the Lord would give the woman living water, involving inward satisfaction. The lower springs are often connected with Romans and the upper springs with Ephesians. Achsah suggests someone who would have the full enjoyment of the inheritance as Paul brings before the Ephesians. Paul’s prayers in the epistle to Ephesians are very helpful. Paul prayed for power, strengthening in the inner man, chap 3: 16."
-    },
-    {
-     "text": "We should go on to Daniel. I thought Daniel too was an encouragement for us. He is often linked with John. Three times in the book it says he is “one greatly beloved” (Dan 9: 23), or, “man greatly beloved” (Dan 10: 11, 10: 19); he was the object of heaven’s interest. We read in chapter 1 at the time he was a young man where it says that “Daniel continued”. This section raises the question of what we feed on. In John’s gospel there is a long chapter, chapter 6, about food. Christ is our food. He is the one who is the Administrator of the food supply, and He is our food too. I think that is what Daniel and his companions proved. That would be the secret of the strength we were referring to."
+     "text": [
+      "Yes, I think that is good. Divine giving is always greater than what we ask. It is good to ask but God would always give us more. There is great need for the springs, sources of refreshment. John 4 brings in the living spring within us; the Lord would give the woman living water, involving inward satisfaction. The lower springs are often connected with Romans and the upper springs with Ephesians. Achsah suggests someone who would have the full enjoyment of the inheritance as Paul brings before the Ephesians. Paul’s prayers in the epistle to Ephesians are very helpful. Paul prayed for power, strengthening in the inner man, chap 3: 16.",
+      "We should go on to Daniel. I thought Daniel too was an encouragement for us. He is often linked with John. Three times in the book it says he is “one greatly beloved” (Dan 9: 23), or, “man greatly beloved” (Dan 10: 11, 10: 19); he was the object of heaven’s interest. We read in chapter 1 at the time he was a young man where it says that “Daniel continued”. This section raises the question of what we feed on. In John’s gospel there is a long chapter, chapter 6, about food. Christ is our food. He is the one who is the Administrator of the food supply, and He is our food too. I think that is what Daniel and his companions proved. That would be the secret of the strength we were referring to."
+     ]
     },
     {
      "speaker": "EJH",
-     "text": "Delicate food and wine does not sound too bad, but it would be what is unclean, I suppose."
+     "text": [
+      "Delicate food and wine does not sound too bad, but it would be what is unclean, I suppose."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "It was the food of the world. There is a bountiful supply of food in the world of various kinds, but the young especially need to be preserved from it. The food Daniel and his companions ate would be a reference to Christ, and the Scriptures too. The Scriptures and spiritual ministry might not seem attractive to young persons, but it is what sustains life and gives us strength to continue."
+     "text": [
+      "It was the food of the world. There is a bountiful supply of food in the world of various kinds, but the young especially need to be preserved from it. The food Daniel and his companions ate would be a reference to Christ, and the Scriptures too. The Scriptures and spiritual ministry might not seem attractive to young persons, but it is what sustains life and gives us strength to continue."
+     ]
     },
     {
-     "text": "StWD This first part of verse 8, “And Daniel purposed in his heart”, is a really important part of continuance, is it not? We need to be purposed in our hearts."
+     "speaker": "StWD",
+     "text": [
+      "This first part of verse 8, “And Daniel purposed in his heart”, is a really important part of continuance, is it not? We need to be purposed in our hearts."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Yes, he was a young man who purposed in his heart. It says in Proverbs, “My son, give me thy heart” (chap 23: 26), and of the heart also in Proverbs it says, “out of it are the issues of life”, chap 4: 23. We spoke earlier of Caleb’s heart which was secured by the Lord. Purpose of heart is a definite committal to the Lord’s things. Daniel had the power to say, ‘No’. We need to have that strength to say, ‘No’ at times."
+     "text": [
+      "Yes, he was a young man who purposed in his heart. It says in Proverbs, “My son, give me thy heart” (chap 23: 26), and of the heart also in Proverbs it says, “out of it are the issues of life”, chap 4: 23. We spoke earlier of Caleb’s heart which was secured by the Lord. Purpose of heart is a definite committal to the Lord’s things. Daniel had the power to say, ‘No’. We need to have that strength to say, ‘No’ at times."
+     ]
     },
     {
      "speaker": "EJH",
-     "text": "There is a reference to Ruth too who was “stedfastly minded” (Ruth 1: 18), two very important things, our minds and our hearts."
+     "text": [
+      "There is a reference to Ruth too who was “stedfastly minded” (Ruth 1: 18), two very important things, our minds and our hearts."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Yes, they go together."
+     "text": [
+      "Yes, they go together."
+     ]
     },
     {
      "speaker": "LJG",
-     "text": "I was thinking about what has been said about countenance because what we take in gives expression. If we feed on the wrong things it is not going to help us inwardly and it affects our countenance, because here they proved the matter and it says, “he hearkened unto them in this matter, and proved them ten days. And at the end of ten days their countenances appeared fairer and were fatter in flesh than all the youths that ate of the king’s delicate food”. So, I was thinking what is spiritual is not only that which really sustains us, but we see it in one another. We see the expression of what they are feeding on and what they are taking in and how it comes out outwardly."
+     "text": [
+      "I was thinking about what has been said about countenance because what we take in gives expression. If we feed on the wrong things it is not going to help us inwardly and it affects our countenance, because here they proved the matter and it says, “he hearkened unto them in this matter, and proved them ten days. And at the end of ten days their countenances appeared fairer and were fatter in flesh than all the youths that ate of the king’s delicate food”. So, I was thinking what is spiritual is not only that which really sustains us, but we see it in one another. We see the expression of what they are feeding on and what they are taking in and how it comes out outwardly."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "So if we feed on Christ, we will become like Him. It will be seen in our countenances, and I think that is an encouragement. If we feed on the world’s things, we will become worldly. I think what you say is good. An expression we hear sometimes is, ‘We are what we eat’."
-    },
-    {
-     "text": "So, it is remarkable that is says in chapter 1 that “Daniel continued unto the first year of king Cyrus”. There are several kings and monarchies in that period, but Daniel continued and was not turned aside."
+     "text": [
+      "So if we feed on Christ, we will become like Him. It will be seen in our countenances, and I think that is an encouragement. If we feed on the world’s things, we will become worldly. I think what you say is good. An expression we hear sometimes is, ‘We are what we eat’.",
+      "So, it is remarkable that is says in chapter 1 that “Daniel continued unto the first year of king Cyrus”. There are several kings and monarchies in that period, but Daniel continued and was not turned aside."
+     ]
     },
     {
      "speaker": "PWH",
-     "text": "Daniel, as well as all these other persons you have read about today, is real. You will remember a brother very fond of reminding the brethren, quoting from Mr Raven, that ‘continuance is the proof of reality’. These persons that we have read about today were real in their affections for Christ."
+     "text": [
+      "Daniel, as well as all these other persons you have read about today, is real. You will remember a brother very fond of reminding the brethren, quoting from Mr Raven, that ‘continuance is the proof of reality’. These persons that we have read about today were real in their affections for Christ."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Yes, I think that is good. I was thinking of that reference from Mr Raven (vol 5 p315). Mr Raven could express the truth in a way that we can easily remember. Continuance is also an evidence of life. I think Mr Raven said that it needs life in Christ to continue, vol 4 p97. Life cannot be imitated."
+     "text": [
+      "Yes, I think that is good. I was thinking of that reference from Mr Raven (vol 5 p315). Mr Raven could express the truth in a way that we can easily remember. Continuance is also an evidence of life. I think Mr Raven said that it needs life in Christ to continue, vol 4 p97. Life cannot be imitated."
+     ]
     },
     {
-     "text": "PDB I was just thinking that Paul says in Corinthians, “Wherefore we faint not” (2 Cor 4: 16); I suppose that is another way of saying, ‘gaining strength’. But then he goes on to say, “but if indeed our outward man is consumed, yet the inward is renewed day by day”. I was thinking how renewing day by day is necessary for continuance; you cannot look too far ahead. We have what we hope for and what we anticipate in that coming day in one sense, but in the present time we need divine help day by day, do you think?"
+     "speaker": "PDB",
+     "text": [
+      "I was just thinking that Paul says in Corinthians, “Wherefore we faint not” (2 Cor 4: 16); I suppose that is another way of saying, ‘gaining strength’. But then he goes on to say, “but if indeed our outward man is consumed, yet the inward is renewed day by day”. I was thinking how renewing day by day is necessary for continuance; you cannot look too far ahead. We have what we hope for and what we anticipate in that coming day in one sense, but in the present time we need divine help day by day, do you think?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Yes, so is that what is involved at the end of Daniel? “Blessed is he that waiteth, and cometh to the thousand three hundred and thirty-five days!” The emphasis on the number of days confirms what you say; we need fresh help every day. Earlier in the chapter it refers to a period, “it is for a time, times, and a half”, v 7. That seems to be a short time but the number of days given suggests that endurance is required. I think what you say is helpful; we need daily divine resource. We need prayer every day and a fresh supply of food every day. The manna was provided daily."
+     "text": [
+      "Yes, so is that what is involved at the end of Daniel? “Blessed is he that waiteth, and cometh to the thousand three hundred and thirty-five days!” The emphasis on the number of days confirms what you say; we need fresh help every day. Earlier in the chapter it refers to a period, “it is for a time, times, and a half”, v 7. That seems to be a short time but the number of days given suggests that endurance is required. I think what you say is helpful; we need daily divine resource. We need prayer every day and a fresh supply of food every day. The manna was provided daily."
+     ]
     },
     {
      "speaker": "MTH",
-     "text": "What you are speaking of really sets before us and reminds us that we need not go outside of Christ for anything. Pulse to eat and water to drink: we find food in Him and water to drink, living waters from Him. In John chapter 6 he speaks of course of eating and at one point Mr Darby’s note says, ‘It is characteristic: he is the ‘eater’ of this divine food’, v 54, note d. So, it is an ongoing thing, and I think what we are saying as to the time period is helpful in that way. It is a characteristic of a person, reliance on Christ for everything, food or water; and I think it is current and practical for us today that we have no need to go outside of Him for anything."
+     "text": [
+      "What you are speaking of really sets before us and reminds us that we need not go outside of Christ for anything. Pulse to eat and water to drink: we find food in Him and water to drink, living waters from Him. In John chapter 6 he speaks of course of eating and at one point Mr Darby’s note says, ‘It is characteristic: he is the ‘eater’ of this divine food’, v 54, note d. So, it is an ongoing thing, and I think what we are saying as to the time period is helpful in that way. It is a characteristic of a person, reliance on Christ for everything, food or water; and I think it is current and practical for us today that we have no need to go outside of Him for anything."
+     ]
     },
     {
      "speaker": "APG",
-     "text": "John 6 is the food chapter, and then John 7 brings in the drink, “If any one thirst, let him come to me and drink” (John 7: 37), and that was related to the Spirit, “this he said concerning the Spirit, which they that believed on him were about to receive”, John 7: 39. I think what you say is good, that there is a full supply for the dispensation of food and refreshment in Christ and in the Spirit. We need to learn to rely on that resource. We are easily distracted to be engaged with other things."
+     "text": [
+      "John 6 is the food chapter, and then John 7 brings in the drink, “If any one thirst, let him come to me and drink” (John 7: 37), and that was related to the Spirit, “this he said concerning the Spirit, which they that believed on him were about to receive”, John 7: 39. I think what you say is good, that there is a full supply for the dispensation of food and refreshment in Christ and in the Spirit. We need to learn to rely on that resource. We are easily distracted to be engaged with other things."
+     ]
     },
     {
      "speaker": "DCD",
-     "text": "I was wondering if the thought of faith comes into this. I was thinking about Daniel; it says, “Prove thy servants”, and then later on he “proved them ten days”. I wondered if Daniel really made a move in faith that Jehovah would bless him in that work. I was thinking James reminds us that “the proving of your faith works endurance”, James 1: 3. We continue on in faith so we can be thankful that, “if we are unfaithful, he abides faithful”, 2 Tim 2: 13. So, we are to be strengthened in our faith, do you think, to continue?"
+     "text": [
+      "I was wondering if the thought of faith comes into this. I was thinking about Daniel; it says, “Prove thy servants”, and then later on he “proved them ten days”. I wondered if Daniel really made a move in faith that Jehovah would bless him in that work. I was thinking James reminds us that “the proving of your faith works endurance”, James 1: 3. We continue on in faith so we can be thankful that, “if we are unfaithful, he abides faithful”, 2 Tim 2: 13. So, we are to be strengthened in our faith, do you think, to continue?"
+     ]
     },
     {
      "speaker": "APG",
-     "text": "Daniel is a remarkable example of faith and faithfulness too. He is referred to in one of the prophets as a standard of righteousness and faithfulness, Ezek 14: 14, 20. He trusted God. This book speaks of “the God of the heavens”; what resources there are with the God of the heavens."
-    },
-    {
-     "text": "I thought that these examples would be an encouragement for us. At the end of Daniel, it is “go thy way until the end; and thou shalt rest”; that is the prospect. It says, “and stand in thy lot at the end of the days”. Daniel’s lot related to Israel, but our lot is particularly related to the light we have been given as to Christ and the assembly that we have in Paul’s ministry; that is the lot that we have been given to enjoy. I trust we are all encouraged to continue in this and prove divine resources."
+     "text": [
+      "Daniel is a remarkable example of faith and faithfulness too. He is referred to in one of the prophets as a standard of righteousness and faithfulness, Ezek 14: 14, 20. He trusted God. This book speaks of “the God of the heavens”; what resources there are with the God of the heavens.",
+      "I thought that these examples would be an encouragement for us. At the end of Daniel, it is “go thy way until the end; and thou shalt rest”; that is the prospect. It says, “and stand in thy lot at the end of the days”. Daniel’s lot related to Israel, but our lot is particularly related to the light we have been given as to Christ and the assembly that we have in Paul’s ministry; that is the lot that we have been given to enjoy. I trust we are all encouraged to continue in this and prove divine resources."
+     ]
     }
    ]
   },
@@ -660,6 +781,20 @@
      "text": "“HIS OWN GENERATION”"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "CONTINUANCE",
+   "kind": "default_place",
+   "detail": "Calgary given to 7 names (\"local in Calgary unless otherwise shown\")"
+  },
+  {
+   "article": 1,
+   "title": "CONTINUANCE",
+   "kind": "speaker_matched_loosely",
+   "detail": "StWD used in the text for Steve W Drever (key gives SWD)"
   }
  ]
 }

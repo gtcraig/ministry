@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,28 +26,27 @@
    "place": "LONDON",
    "date": "20 December 1987",
    "speakers": [
-    "W.D.",
-    "E.C.B.",
-    "D.J.H.",
-    "D.A.B.",
-    "J.C.E.",
-    "J.A.B.",
-    "W.J.R.B.",
-    "B.W.W.",
-    "E.P.",
-    "C.J.G.B.",
-    "E.C.",
-    "E.O.",
-    "M.A.J.T.",
-    "W.D",
-    "H.J.T.",
-    "G.A.P.",
-    "J.S.G."
+    "WD",
+    "ECB",
+    "DJH",
+    "DAB",
+    "JCE",
+    "JAB",
+    "WJRB",
+    "BWW",
+    "EP",
+    "CJGB",
+    "EC",
+    "EO",
+    "MAJT",
+    "HJT",
+    "GAP",
+    "JSG"
    ],
    "initials": [
     {
-     "initials": "ACJGB",
-     "name": "(All local unless otherwise stated) C.J.G.Brodie",
+     "initials": "CJGB",
+     "name": "C.J.G.Brodie",
      "place": "Ealing"
     },
     {
@@ -57,15 +56,18 @@
     },
     {
      "initials": "DAB",
-     "name": "D.A.Burr"
+     "name": "D.A.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "JAB",
-     "name": "J.A.Burnett"
+     "name": "J.A.Burnett",
+     "place": "LONDON"
     },
     {
      "initials": "EC",
@@ -79,535 +81,779 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "LONDON"
     },
     {
      "initials": "JSG",
-     "name": "J.S.Gray"
+     "name": "J.S.Gray",
+     "place": "LONDON"
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "LONDON"
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "GAP",
-     "name": "G.A.Palmer"
+     "name": "G.A.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "HJT",
-     "name": "H.J.Taylor"
+     "name": "H.J.Taylor",
+     "place": "LONDON"
     },
     {
      "initials": "MAJT",
-     "name": "M.A.J.Terry"
+     "name": "M.A.J.Terry",
+     "place": "LONDON"
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "LONDON"
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "C.J.G.Brodie, Ealing; W.J.R.Brodie, Ealing; D.A.Burr; E.C.Burr; J.A.Burnett; E.Croot, Dorking; W.Dickson, Edinburgh; J.C.Evershed; J.S.Gray; D.J.Hutson; E.Oliver; E.Palmer; G.A.Palmer; H.J.Taylor; M.A.J.Terry; B.W.Ward"
    ],
    "paragraphs": [
     {
-     "speaker": "W.D.",
-     "text": "It is in mind, beloved brethren, to enquire as to the enrichment of the service of God. It would be fair to say that the brethren generally understand the light that governs the service of God. The way in which our younger brethren are able intelligently to have a part in that holy service is quite stimulating; but it should always be kept in mind that, while we are here, there should be enrichment in that service from week to week. The area covered by the declaration of God in Christ is so extensive that the scope for enrichment in the service of God is practically unlimited. In chapter 16 of this book, when David brought the ark up from the house of Obed-Edom to the tent that he had spread for it, it is clear that the service of God, even in that provisional setting, had a place, but only in a limited degree as compared with this chapter from which we have read. It would suggest that, when, in David's mind the house came into view, there should be great enrichment and expansion in that service. 288 persons is the figure mentioned in verse 7, whereas in verse 38 of chapter 16 sixty-eight is mentioned - quite an advance. That is what is in mind."
+     "speaker": "WD",
+     "text": [
+      "It is in mind, beloved brethren, to enquire as to the enrichment of the service of God. It would be fair to say that the brethren generally understand the light that governs the service of God. The way in which our younger brethren are able intelligently to have a part in that holy service is quite stimulating; but it should always be kept in mind that, while we are here, there should be enrichment in that service from week to week. The area covered by the declaration of God in Christ is so extensive that the scope for enrichment in the service of God is practically unlimited. In chapter 16 of this book, when David brought the ark up from the house of Obed-Edom to the tent that he had spread for it, it is clear that the service of God, even in that provisional setting, had a place, but only in a limited degree as compared with this chapter from which we have read. It would suggest that, when, in David's mind the house came into view, there should be great enrichment and expansion in that service. 288 persons is the figure mentioned in verse 7, whereas in verse 38 of chapter 16 sixty-eight is mentioned - quite an advance. That is what is in mind."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think that is good. You would have in mind that the service of God should not just become prosaic."
+     "speaker": "ECB",
+     "text": [
+      "I think that is good. You would have in mind that the service of God should not just become prosaic."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is a living thing. They that worship God worship Him in spirit and truth. So it is a holy temple; it is not governed by the formalities that attend ordinary religious services."
+     "speaker": "WD",
+     "text": [
+      "It is a living thing. They that worship God worship Him in spirit and truth. So it is a holy temple; it is not governed by the formalities that attend ordinary religious services."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Does prophecy and the prophetic word have in mind the enrichment that you speak of? I noticed the references to prophecy here."
+     "speaker": "DJH",
+     "text": [
+      "Does prophecy and the prophetic word have in mind the enrichment that you speak of? I noticed the references to prophecy here."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is one point that we would have to enquire into, as to how prophecy enters into the service of God as we are convened."
+     "speaker": "WD",
+     "text": [
+      "That is one point that we would have to enquire into, as to how prophecy enters into the service of God as we are convened."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I noticed the reference to \"prophesy with harps\". Does that mean that it would be attuned to the present mind of God?"
+     "speaker": "DAB",
+     "text": [
+      "I noticed the reference to \"prophesy with harps\". Does that mean that it would be attuned to the present mind of God?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "There are three instruments mentioned: \"prophesy with harps and lutes and cymbals\"."
+     "speaker": "WD",
+     "text": [
+      "There are three instruments mentioned: \"prophesy with harps and lutes and cymbals\"."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It is easy to speak what is in our minds, is it not? Perhaps we think that has a place, but it is a question of being attuned to what is in God's mind at the moment."
+     "speaker": "DAB",
+     "text": [
+      "It is easy to speak what is in our minds, is it not? Perhaps we think that has a place, but it is a question of being attuned to what is in God's mind at the moment."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is what I was thinking, that prophecy would convey God's mind about Christ. I think that the glory of the service of God is that, as it unfolds, we have an increasing appreciation of God's mind about Christ."
+     "speaker": "WD",
+     "text": [
+      "That is what I was thinking, that prophecy would convey God's mind about Christ. I think that the glory of the service of God is that, as it unfolds, we have an increasing appreciation of God's mind about Christ."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "And according to Corinthians it edifies the assembly. Does that fit in with what you have in mind?"
+     "speaker": "DAB",
+     "text": [
+      "And according to Corinthians it edifies the assembly. Does that fit in with what you have in mind?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes."
+     "speaker": "WD",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It is not just a question of bringing in a word or something, but does it edify the assembly?"
+     "speaker": "DAB",
+     "text": [
+      "It is not just a question of bringing in a word or something, but does it edify the assembly?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "And the harps and lutes and cymbals - you could not restrict that to a word that may be given. Would that be fair?"
+     "speaker": "WD",
+     "text": [
+      "And the harps and lutes and cymbals - you could not restrict that to a word that may be given. Would that be fair?"
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Yes, I think that. There was evidently something of Jehovah already formed in their souls. Do you think that would correspond with what we speak of as the light we have as to what is due to God?"
+     "speaker": "JCE",
+     "text": [
+      "Yes, I think that. There was evidently something of Jehovah already formed in their souls. Do you think that would correspond with what we speak of as the light we have as to what is due to God?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That helps. So this enrichment is kept in the area of what the light affords. It has often interested me, why in this holy matter it says that the captains of the host were with David in the separation for the service of the sons of Asaph. You might have said, what are the military men going to do in a matter like this? You would have thought that he would have called upon the Levites for help."
+     "speaker": "WD",
+     "text": [
+      "That helps. So this enrichment is kept in the area of what the light affords. It has often interested me, why in this holy matter it says that the captains of the host were with David in the separation for the service of the sons of Asaph. You might have said, what are the military men going to do in a matter like this? You would have thought that he would have called upon the Levites for help."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "\"Three score mighty men are about it\", Song of Songs 3: 7."
+     "speaker": "ECB",
+     "text": [
+      "\"Three score mighty men are about it\", Song of Songs 3: 7."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. Have you any thought as to why he associated the captains of the host with him?"
+     "speaker": "WD",
+     "text": [
+      "Yes. Have you any thought as to why he associated the captains of the host with him?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Well, at this point in the history the captains of the host were in a sense no longer fighting; they are in victory, they are part of the victory. Therefore things have to be regulated, regulated in peace in order to make way for what will come in under the son."
+     "speaker": "ECB",
+     "text": [
+      "Well, at this point in the history the captains of the host were in a sense no longer fighting; they are in victory, they are part of the victory. Therefore things have to be regulated, regulated in peace in order to make way for what will come in under the son."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is a protective thought, is it not? I would just like to say in that connection, in passing - again thinking of our younger brethren - that the service of God as we know it today has developed in the area where the principle of what is exclusive has been maintained. It is an important thing to bear in mind, because without that area the service of God in the rich form in which we know it would hardly have increased in depth and power as it has."
+     "speaker": "WD",
+     "text": [
+      "It is a protective thought, is it not? I would just like to say in that connection, in passing - again thinking of our younger brethren - that the service of God as we know it today has developed in the area where the principle of what is exclusive has been maintained. It is an important thing to bear in mind, because without that area the service of God in the rich form in which we know it would hardly have increased in depth and power as it has."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it therefore essential that in approaching the service of God we apprehend the place of Christ as Lord?"
+     "speaker": "ECB",
+     "text": [
+      "Is it therefore essential that in approaching the service of God we apprehend the place of Christ as Lord?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. God willing, we should touch on that in the body of the Scriptures."
+     "speaker": "WD",
+     "text": [
+      "Yes. God willing, we should touch on that in the body of the Scriptures."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Without wishing to detain you, you appear both today and yesterday to have something in your mind which might impress the brethren as to the revelation of God in Christ, and that to be more grasped among us. I wondered if you would say a word as to that."
+     "speaker": "ECB",
+     "text": [
+      "Without wishing to detain you, you appear both today and yesterday to have something in your mind which might impress the brethren as to the revelation of God in Christ, and that to be more grasped among us. I wondered if you would say a word as to that."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "The setting up of Christianity bears on that: \"upon whom the ends of the ages are come\", 1 Cor 10: 11. No previous dispensation, and no future dispensation as such, will be embellished with the glory that marks the present time, in that what was hitherto unknown has now come fully to light in the person of the Lord Jesus Christ, but has come out, not in an official setting but in one of deep affection, ultimately having in view the family of many sons that God would have for His glory and praise. That is just my simple impression."
+     "speaker": "WD",
+     "text": [
+      "The setting up of Christianity bears on that: \"upon whom the ends of the ages are come\", 1 Cor 10: 11. No previous dispensation, and no future dispensation as such, will be embellished with the glory that marks the present time, in that what was hitherto unknown has now come fully to light in the person of the Lord Jesus Christ, but has come out, not in an official setting but in one of deep affection, ultimately having in view the family of many sons that God would have for His glory and praise. That is just my simple impression."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "And you have the impression now that the service of God is our response to that revelation?"
+     "speaker": "ECB",
+     "text": [
+      "And you have the impression now that the service of God is our response to that revelation?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Exactly. Our A.B.C., when we were young, was that the approach is commensurate with the revelation, but it is quite a point to think of. Would you agree?"
+     "speaker": "WD",
+     "text": [
+      "Exactly. Our A.B.C., when we were young, was that the approach is commensurate with the revelation, but it is quite a point to think of. Would you agree?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, I think that very much, and that it is an area of the truth - of the ministry indeed that we already have, especially through Mr Raven - that we may not sufficiently have grasped, that we are responding to the revelation of God, not dwelling on what we have ourselves."
+     "speaker": "ECB",
+     "text": [
+      "Yes, I think that very much, and that it is an area of the truth - of the ministry indeed that we already have, especially through Mr Raven - that we may not sufficiently have grasped, that we are responding to the revelation of God, not dwelling on what we have ourselves."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "No. As to the three instruments referred to - the harps and the lutes and the cymbals - could we suggest that the harps might bring in some element of experience? The lutes - what are they?"
+     "speaker": "WD",
+     "text": [
+      "No. As to the three instruments referred to - the harps and the lutes and the cymbals - could we suggest that the harps might bring in some element of experience? The lutes - what are they?"
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "I think they are strings."
+     "speaker": "JCE",
+     "text": [
+      "I think they are strings."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "These instruments get progressively simpler. The harp is the most sensitive of the three, I would have thought. The lute is a simple instrument, so is the cymbal, though they all require skill to play."
+     "speaker": "DAB",
+     "text": [
+      "These instruments get progressively simpler. The harp is the most sensitive of the three, I would have thought. The lute is a simple instrument, so is the cymbal, though they all require skill to play."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Quite, and in the Revelation the question of the harps comes up, does it not? And it indicates some degree of experience which, shall I say, flows along with the light that the Lord has given us, and that experience is brought in for the enrichment of the divine service."
+     "speaker": "WD",
+     "text": [
+      "Quite, and in the Revelation the question of the harps comes up, does it not? And it indicates some degree of experience which, shall I say, flows along with the light that the Lord has given us, and that experience is brought in for the enrichment of the divine service."
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "Is \"under the direction of the king\" important for us - the leadership of the Lord in the service?"
+     "speaker": "JAB",
+     "text": [
+      "Is \"under the direction of the king\" important for us - the leadership of the Lord in the service?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. I wondered whether the thought of the king might be involved in what was said just now as to apprehending the place of Christ as Lord. There is \"the direction of Asaph\", and then there is \"the direction of the king\"; there seems to be a merging of the direction of Asaph and the direction of the king. It would seem to indicate an element of authority, but linked with headship. The idea of the king in Scripture is not altogether authoritative but carries with it also the thought of headship. Does that help?"
+     "speaker": "WD",
+     "text": [
+      "Yes. I wondered whether the thought of the king might be involved in what was said just now as to apprehending the place of Christ as Lord. There is \"the direction of Asaph\", and then there is \"the direction of the king\"; there seems to be a merging of the direction of Asaph and the direction of the king. It would seem to indicate an element of authority, but linked with headship. The idea of the king in Scripture is not altogether authoritative but carries with it also the thought of headship. Does that help?"
+     ]
     },
     {
-     "speaker": "J.A.B.",
-     "text": "I wondered whether it did link with headship."
+     "speaker": "JAB",
+     "text": [
+      "I wondered whether it did link with headship."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, one great feature of enrichment in the service of God is to appreciate and experience - this comes back to the harp and instruments again - some living touch of the Lord's headship in the service."
+     "speaker": "WD",
+     "text": [
+      "Well, one great feature of enrichment in the service of God is to appreciate and experience - this comes back to the harp and instruments again - some living touch of the Lord's headship in the service."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "Would the end of Luke indicate that? The Lord was carried up into heaven and \"they ... were continually in the temple praising and blessing God\", chap 24: 53."
+     "speaker": "WJRB",
+     "text": [
+      "Would the end of Luke indicate that? The Lord was carried up into heaven and \"they ... were continually in the temple praising and blessing God\", chap 24: 53."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I would say that the end of Luke corresponds with chapter 16. Chapter 25 of 1 Chronicles corresponds with the unfolding of the light under Paul. Would you agree with that?"
+     "speaker": "WD",
+     "text": [
+      "I would say that the end of Luke corresponds with chapter 16. Chapter 25 of 1 Chronicles corresponds with the unfolding of the light under Paul. Would you agree with that?"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "I would not have thought of it, but I do not question that it is right. What I had been thinking was in relation to what was said about prophecy. In practice, may that not come into action, into expression, when a brother is on his feet? He has stood up with some impression and expresses it, but then the mind of the Lord may come in to add to and enlarge that."
+     "speaker": "BWW",
+     "text": [
+      "I would not have thought of it, but I do not question that it is right. What I had been thinking was in relation to what was said about prophecy. In practice, may that not come into action, into expression, when a brother is on his feet? He has stood up with some impression and expresses it, but then the mind of the Lord may come in to add to and enlarge that."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, I think so. Does that not bring out the importance of the inward service of the Spirit, in that we are alert to what is being expressed as to some expression of the mind of God about His beloved Son? Also the hymns as we sing? There should be some thoughtful consideration of the hymns as we sing them, because the enrichment of the service of God is gathered under the Lord's headship so that even the hymns can give something fresh that we have not had before."
+     "speaker": "WD",
+     "text": [
+      "Yes, I think so. Does that not bring out the importance of the inward service of the Spirit, in that we are alert to what is being expressed as to some expression of the mind of God about His beloved Son? Also the hymns as we sing? There should be some thoughtful consideration of the hymns as we sing them, because the enrichment of the service of God is gathered under the Lord's headship so that even the hymns can give something fresh that we have not had before."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Do you think that verse 5 is an encouragement to the sisters to form something in their own spirits? Often it has been said to us by a sister: I thought hymn so-and-so would have come in just right at a certain point."
+     "speaker": "JCE",
+     "text": [
+      "Do you think that verse 5 is an encouragement to the sisters to form something in their own spirits? Often it has been said to us by a sister: I thought hymn so-and-so would have come in just right at a certain point."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is very appropriate, because it shows how the service of God can be enriched if the sisters are in the matter with their spirits, and perhaps getting the gain of prophetic service that is present as bringing in the mind of God regarding His beloved Son. We have to come to it that the glories of Christ are so unbounded in enriching the service of God that we should leave each occasion with something we have never had before."
+     "speaker": "WD",
+     "text": [
+      "That is very appropriate, because it shows how the service of God can be enriched if the sisters are in the matter with their spirits, and perhaps getting the gain of prophetic service that is present as bringing in the mind of God regarding His beloved Son. We have to come to it that the glories of Christ are so unbounded in enriching the service of God that we should leave each occasion with something we have never had before."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "What is the difference between instruction and skill?"
+     "speaker": "EP",
+     "text": [
+      "What is the difference between instruction and skill?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "You are referring to verse 7: \"their brethren that were instructed in the songs of Jehovah, all of them skilful, was two hundred and eighty-eight\". The note says 'expert ones'. If you were an expert you would know what was appropriate at the time and be guided by the headship of the Lord. I do not think it means exactly that you know at what time it can be slotted in to the service. What do you say?"
+     "speaker": "WD",
+     "text": [
+      "You are referring to verse 7: \"their brethren that were instructed in the songs of Jehovah, all of them skilful, was two hundred and eighty-eight\". The note says 'expert ones'. If you were an expert you would know what was appropriate at the time and be guided by the headship of the Lord. I do not think it means exactly that you know at what time it can be slotted in to the service. What do you say?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I agree with that thoroughly. What I did wonder was that instruction may come through the prophetic utterance but the skill would come by putting it into practice, and I wonder ed whether the skilful touch might relate to our experience as answering to the word. What do you think?"
+     "speaker": "EP",
+     "text": [
+      "I agree with that thoroughly. What I did wonder was that instruction may come through the prophetic utterance but the skill would come by putting it into practice, and I wonder ed whether the skilful touch might relate to our experience as answering to the word. What do you think?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so. The skill shows the versatile way in which a person can function. I am a little bit apprehensive of brothers who think a certain part in the meeting is their special province."
+     "speaker": "WD",
+     "text": [
+      "I think so. The skill shows the versatile way in which a person can function. I am a little bit apprehensive of brothers who think a certain part in the meeting is their special province."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Would not the skill also come into evidence if there is real sensitiveness on the part of any of us, that is, the Spirit of God knows at any time what is appropriate and what can come in by way of enlargement."
+     "speaker": "BWW",
+     "text": [
+      "Would not the skill also come into evidence if there is real sensitiveness on the part of any of us, that is, the Spirit of God knows at any time what is appropriate and what can come in by way of enlargement."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. It all resolves itself, I think, as to being restful. Would you say that? ·"
+     "speaker": "WD",
+     "text": [
+      "Yes. It all resolves itself, I think, as to being restful. Would you say that? ·"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "I wish I knew more about it. I understand how to be interested, how to have my own ideas, perhaps, of what might next be appropriate, but to be restful is a real test to me in that very connection; but I do not doubt that it is right."
+     "speaker": "BWW",
+     "text": [
+      "I wish I knew more about it. I understand how to be interested, how to have my own ideas, perhaps, of what might next be appropriate, but to be restful is a real test to me in that very connection; but I do not doubt that it is right."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "It is a thing to be cultivated, to be restful and yet alert; alert in your mind and in your affections, and yet restful in the serenity of the divine realm that we spoke of yester day, when the Lord came in and said \"peace\". I do not know whether it is sufficiently appreciated that atmosphere is as essential to the service of God as function."
+     "speaker": "WD",
+     "text": [
+      "It is a thing to be cultivated, to be restful and yet alert; alert in your mind and in your affections, and yet restful in the serenity of the divine realm that we spoke of yester day, when the Lord came in and said \"peace\". I do not know whether it is sufficiently appreciated that atmosphere is as essential to the service of God as function."
+     ]
     },
     {
-     "speaker": "C.J.G.B.",
-     "text": "Was that seen in 2 Chronicles 5 where all those of Asaph and Heman and Jeduthun and all the people developed into one voice (see v.13)?"
+     "speaker": "CJGB",
+     "text": [
+      "Was that seen in 2 Chronicles 5 where all those of Asaph and Heman and Jeduthun and all the people developed into one voice (see v.13)?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is a beautiful touch. That is really when these directions under David came into force, is it not? 2 Chronicles 6 brings out their oneness and the unity that marked them, but the fact that David inaugurated it is something that we want to think of. He did not leave it to Solomon. Solomon was going to build the house; why did he not leave the organisation of the service of God to him? It brings out this, as far as I can see, that the understanding of Christ personally, His present place and the place He has in the economy, which David so signally represents, is so vital and essential as to what the service of God means."
+     "speaker": "WD",
+     "text": [
+      "That is a beautiful touch. That is really when these directions under David came into force, is it not? 2 Chronicles 6 brings out their oneness and the unity that marked them, but the fact that David inaugurated it is something that we want to think of. He did not leave it to Solomon. Solomon was going to build the house; why did he not leave the organisation of the service of God to him? It brings out this, as far as I can see, that the understanding of Christ personally, His present place and the place He has in the economy, which David so signally represents, is so vital and essential as to what the service of God means."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "If we speak of skill, nobody had skill like David. On one of the first occasions on which he is mentioned he is skilled in playing, and it is interesting that the harp was David's instrument. Do you think that bears on the service of the Lord in the service of God?"
+     "speaker": "ECB",
+     "text": [
+      "If we speak of skill, nobody had skill like David. On one of the first occasions on which he is mentioned he is skilled in playing, and it is interesting that the harp was David's instrument. Do you think that bears on the service of the Lord in the service of God?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so; so it is of note that he was the one who (shall I use the word?) organised all this. It is to call attention to the greatness of David as a type."
+     "speaker": "WD",
+     "text": [
+      "I think so; so it is of note that he was the one who (shall I use the word?) organised all this. It is to call attention to the greatness of David as a type."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It has been pointed out before, that Scripture speaks of one greater than Solomon but it never speaks of one greater than David."
+     "speaker": "ECB",
+     "text": [
+      "It has been pointed out before, that Scripture speaks of one greater than Solomon but it never speaks of one greater than David."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think Mr Darby has a note in the Synopsis on David's moral greatness in dancing before the ark."
+     "speaker": "WD",
+     "text": [
+      "I think Mr Darby has a note in the Synopsis on David's moral greatness in dancing before the ark."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Is it a fact that pressure gone through with God leads to praise?"
+     "speaker": "JCE",
+     "text": [
+      "Is it a fact that pressure gone through with God leads to praise?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Exactly."
+     "speaker": "WD",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Is that seen in the fact that David rather than Solomon regulated the service of song?"
+     "speaker": "JCE",
+     "text": [
+      "Is that seen in the fact that David rather than Solomon regulated the service of song?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so. Just to go into the detail of this a little in verse 3 it says \"of Jeduthun\" and so on, \"six, under the direction of their father Jeduthun, who prophesied with the harp, to give thanks and to praise Jehovah\". Now in verse 5 it speaks of the service of \"Heman the king's seer in the words of God, to exalt his power\", and it is in that connection that the reference is made to Heman's fourteen sons and three daughters. Now I think that verse 3, \"who prophesied with the harp, to give thanks and to praise Jehovah\", is the pointer spiritually to responsiveness to God for the way He has blessed us in Christ; but verse 5, \"to exalt his power\", is where God Himself is before us. In \"exalt his power\" God is before us as the object, which is the great end in the service of God."
+     "speaker": "WD",
+     "text": [
+      "I think so. Just to go into the detail of this a little in verse 3 it says \"of Jeduthun\" and so on, \"six, under the direction of their father Jeduthun, who prophesied with the harp, to give thanks and to praise Jehovah\". Now in verse 5 it speaks of the service of \"Heman the king's seer in the words of God, to exalt his power\", and it is in that connection that the reference is made to Heman's fourteen sons and three daughters. Now I think that verse 3, \"who prophesied with the harp, to give thanks and to praise Jehovah\", is the pointer spiritually to responsiveness to God for the way He has blessed us in Christ; but verse 5, \"to exalt his power\", is where God Himself is before us. In \"exalt his power\" God is before us as the object, which is the great end in the service of God."
+     ]
     },
     {
-     "speaker": "E.C.",
-     "text": "Would you say what is the difference between prophecy and praise in this context?"
+     "speaker": "EC",
+     "text": [
+      "Would you say what is the difference between prophecy and praise in this context?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think prophecy is the mind of God made available to us regarding Christ, and praise is our response to that unfolding of the mind of God as we proceed throughout the service. Have I made myself clear?"
+     "speaker": "WD",
+     "text": [
+      "I think prophecy is the mind of God made available to us regarding Christ, and praise is our response to that unfolding of the mind of God as we proceed throughout the service. Have I made myself clear?"
+     ]
     },
     {
-     "speaker": "E.C.",
-     "text": "I can understand the praise better than the prophecy. In Psalm 150 we get praising God with these very instruments: \"praise him with lute and harp\" and with cymbals. Here it is \"prophesied\" with them."
+     "speaker": "EC",
+     "text": [
+      "I can understand the praise better than the prophecy. In Psalm 150 we get praising God with these very instruments: \"praise him with lute and harp\" and with cymbals. Here it is \"prophesied\" with them."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think it is a reference to what is unfolded. The word comes to you in consideration of what is proceeding. \"In his temple doth every one say, Glory!\", Ps 29: 9. I think that is a prophetic touch. I am sure you have had, as the service of God proceeds, an impression of the Father's love for the Son. That has come to you as the mind of God; that has come to you in a prophetic bearing, and as touched by that (I am speaking practically) you move forward in praise in response to that prophetic touch that you have received. Is that generally how the brethren understand it?"
+     "speaker": "WD",
+     "text": [
+      "I think it is a reference to what is unfolded. The word comes to you in consideration of what is proceeding. \"In his temple doth every one say, Glory!\", Ps 29: 9. I think that is a prophetic touch. I am sure you have had, as the service of God proceeds, an impression of the Father's love for the Son. That has come to you as the mind of God; that has come to you in a prophetic bearing, and as touched by that (I am speaking practically) you move forward in praise in response to that prophetic touch that you have received. Is that generally how the brethren understand it?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Do you think we sufficiently understand how full God's mind is of Christ?"
+     "speaker": "DAB",
+     "text": [
+      "Do you think we sufficiently understand how full God's mind is of Christ?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, as I said, we have to think of the vast extent of things. Now, in connection with that word 'exalt', look at Psalm 148, one of the Hallelujah psalms, the three final psalms in the book. Quickly glancing along that psalm, see the immense scope that it covers, and then in verse 13 it says: \"Let them praise the name of Jehovah; for his name alone is exalted; his majesty is above the earth and the heavens\". And in verse 5 (1 Chron 25) it says \"the king's seer in the words of God, to exalt his power\". \"His name alone is exalted\": it implies the full declaration of God - Father, Son and Holy Spirit - His name is exalted."
+     "speaker": "WD",
+     "text": [
+      "Well, as I said, we have to think of the vast extent of things. Now, in connection with that word 'exalt', look at Psalm 148, one of the Hallelujah psalms, the three final psalms in the book. Quickly glancing along that psalm, see the immense scope that it covers, and then in verse 13 it says: \"Let them praise the name of Jehovah; for his name alone is exalted; his majesty is above the earth and the heavens\". And in verse 5 (1 Chron 25) it says \"the king's seer in the words of God, to exalt his power\". \"His name alone is exalted\": it implies the full declaration of God - Father, Son and Holy Spirit - His name is exalted."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I was only thinking that if God speaks He speaks about what His mind is full of; He speaks about Christ."
+     "speaker": "DAB",
+     "text": [
+      "I was only thinking that if God speaks He speaks about what His mind is full of; He speaks about Christ."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Undoubtedly. Two of the choicest passages in the gospels, in a way, are when He, on the banks of the Jordan, expressed His mind about Christ; and then on the mount of transfiguration He expressed His mind about Christ. These were prophetic touches."
+     "speaker": "WD",
+     "text": [
+      "Undoubtedly. Two of the choicest passages in the gospels, in a way, are when He, on the banks of the Jordan, expressed His mind about Christ; and then on the mount of transfiguration He expressed His mind about Christ. These were prophetic touches."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Yes, and Peter refers to \"his majesty\" and to \"the excellent glory\", 2 Pet 1: 16,17. That is verse 5, is it not?"
+     "speaker": "DAB",
+     "text": [
+      "Yes, and Peter refers to \"his majesty\" and to \"the excellent glory\", 2 Pet 1: 16,17. That is verse 5, is it not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Exactly."
+     "speaker": "WD",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Do you see it at the end of Ephesians 3 where Paul addresses the Father? He speaks of Christ dwelling \"through faith, in your hearts\" (v 17); would that be more the prophetic side? Then he goes on \"to him that is able\" (v 20); that is exalting His power, is it not?"
+     "speaker": "DJH",
+     "text": [
+      "Do you see it at the end of Ephesians 3 where Paul addresses the Father? He speaks of Christ dwelling \"through faith, in your hearts\" (v 17); would that be more the prophetic side? Then he goes on \"to him that is able\" (v 20); that is exalting His power, is it not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "We get the idea of the prophetic meeting in our minds as the only avenue in which prophetic speaking can come, but we need expansion in regard to these things, even as we have been helped to see that prophecy does not now just relate to future events but to the unfolding of the mind of God presently to His people, whether it be in the service of God or in ministry. There has been reference to the deadness of the professing system - if you went to a service for worship they would read the same thing as they had been reading for three hundred years, every Sunday the same thing. The prophetic word enriches us in the service of God. So you have the teacher and you have the scholar. You have the younger brethren coming along and they are instructed in their part in the service of God."
+     "speaker": "WD",
+     "text": [
+      "We get the idea of the prophetic meeting in our minds as the only avenue in which prophetic speaking can come, but we need expansion in regard to these things, even as we have been helped to see that prophecy does not now just relate to future events but to the unfolding of the mind of God presently to His people, whether it be in the service of God or in ministry. There has been reference to the deadness of the professing system - if you went to a service for worship they would read the same thing as they had been reading for three hundred years, every Sunday the same thing. The prophetic word enriches us in the service of God. So you have the teacher and you have the scholar. You have the younger brethren coming along and they are instructed in their part in the service of God."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Do the days leading up to the service of God give an opportunity for desire, for preparation, and enlargement and increase, so that we are ready?"
+     "speaker": "EO",
+     "text": [
+      "Do the days leading up to the service of God give an opportunity for desire, for preparation, and enlargement and increase, so that we are ready?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I always value the few moments before the intimations are given out, to absorb something of the meaning of the symbols on the table. Do you agree with that? These are spiritual things and we cannot be casual in the assembly."
+     "speaker": "WD",
+     "text": [
+      "I always value the few moments before the intimations are given out, to absorb something of the meaning of the symbols on the table. Do you agree with that? These are spiritual things and we cannot be casual in the assembly."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "In regard to the younger brethren (remembering how we began) would you say that the more we participate in these great matters, the more we want to?"
+     "speaker": "EO",
+     "text": [
+      "In regard to the younger brethren (remembering how we began) would you say that the more we participate in these great matters, the more we want to?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "So our younger brethren are instructed. \"The teacher with the scholar\" seems to bring out that there is a bond."
+     "speaker": "WD",
+     "text": [
+      "So our younger brethren are instructed. \"The teacher with the scholar\" seems to bring out that there is a bond."
+     ]
     },
     {
-     "speaker": "M.A.J.T.",
-     "text": "God gives us different abilities. In 1 Peter 4 we often speak about \"If any one speak - as oracles of God\", but it goes on to say \"if any one minister - as of strength which God supplies\", and the Authorised Version says \"the ability which God giveth (v 11). God gives different gifts; some can give a really deep word."
+     "speaker": "MAJT",
+     "text": [
+      "God gives us different abilities. In 1 Peter 4 we often speak about \"If any one speak - as oracles of God\", but it goes on to say \"if any one minister - as of strength which God supplies\", and the Authorised Version says \"the ability which God giveth (v 11). God gives different gifts; some can give a really deep word."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The point of those verses in Peter is that nothing is said in the assembly which does not spring from God - it is \"of strength which God supplies\". The emphasis is not on the strength or the ability but on God."
+     "speaker": "ECB",
+     "text": [
+      "The point of those verses in Peter is that nothing is said in the assembly which does not spring from God - it is \"of strength which God supplies\". The emphasis is not on the strength or the ability but on God."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes, and that does not hinder the scholar coming in with his simple, affectionate touch in any part of the service of God, because you discern immediately that that has come from his heart, and if it has come from his heart it has come from God, and that augments and fills out the service of God."
+     "speaker": "WD",
+     "text": [
+      "Yes, and that does not hinder the scholar coming in with his simple, affectionate touch in any part of the service of God, because you discern immediately that that has come from his heart, and if it has come from his heart it has come from God, and that augments and fills out the service of God."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is interesting that in Psalm 148, to which you referred, it reaches the point of \"old men with youths\", and then it breaks off, as if the psalmist could have added a lot more, but having reached that point he immediately turns to the greatness of God Himself."
+     "speaker": "ECB",
+     "text": [
+      "It is interesting that in Psalm 148, to which you referred, it reaches the point of \"old men with youths\", and then it breaks off, as if the psalmist could have added a lot more, but having reached that point he immediately turns to the greatness of God Himself."
+     ]
     },
     {
-     "speaker": "W.D",
-     "text": ". Yes. I think at that point, to exalt His power is vital."
+     "speaker": "WD",
+     "text": [
+      ". Yes. I think at that point, to exalt His power is vital."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is that Ephesians 1, that we might be \"enlightened in the eyes of your heart\" (v 18) to understand the power that works in us \"which he wrought in the Christ, in raising him from among the dead\" (v 20)? That is exalting His power."
+     "speaker": "ECB",
+     "text": [
+      "Is that Ephesians 1, that we might be \"enlightened in the eyes of your heart\" (v 18) to understand the power that works in us \"which he wrought in the Christ, in raising him from among the dead\" (v 20)? That is exalting His power."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. So David, in chapter 29 of this book, says to God \"thou art exalted as Head above all\" (v 11), and in that connection he speaks of the strengthening, corresponding with Ephesians 3: 16: \"strengthened with power ... in the inner man\". So the trend is always upward in the service of God."
+     "speaker": "WD",
+     "text": [
+      "Yes. So David, in chapter 29 of this book, says to God \"thou art exalted as Head above all\" (v 11), and in that connection he speaks of the strengthening, corresponding with Ephesians 3: 16: \"strengthened with power ... in the inner man\". So the trend is always upward in the service of God."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Does the service become very limited if we think of it in terms of our own capacity? It is not a question of whether I have a lot or a little, or what my measure is; it is getting an impression, is it not, of the mind of God - as you spoke of the boundless character of His disposition in Christ?"
+     "speaker": "DAB",
+     "text": [
+      "Does the service become very limited if we think of it in terms of our own capacity? It is not a question of whether I have a lot or a little, or what my measure is; it is getting an impression, is it not, of the mind of God - as you spoke of the boundless character of His disposition in Christ?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is right. Reference was made to these daughters: spiritually-minded sisters are a great asset in a company in the service of God."
+     "speaker": "WD",
+     "text": [
+      "That is right. Reference was made to these daughters: spiritually-minded sisters are a great asset in a company in the service of God."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "But they say nothing, and do you think that would help the brothers to be a little less self-conscious of what they say?"
+     "speaker": "DAB",
+     "text": [
+      "But they say nothing, and do you think that would help the brothers to be a little less self-conscious of what they say?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "You say they say nothing. Now, what underlies the fact that what these sisters have affects the service of God?"
+     "speaker": "WD",
+     "text": [
+      "You say they say nothing. Now, what underlies the fact that what these sisters have affects the service of God?"
+     ]
     },
     {
-     "speaker": "H.J.T.",
-     "text": "I was thinking of the importance of the word in Ephesians 3: 16, \"by his Spirit\". I have felt increasingly the need of being sensitive on the occasion to the touch the Spirit would give, and that would enter into the contribution of the sisters, would it not?"
+     "speaker": "HJT",
+     "text": [
+      "I was thinking of the importance of the word in Ephesians 3: 16, \"by his Spirit\". I have felt increasingly the need of being sensitive on the occasion to the touch the Spirit would give, and that would enter into the contribution of the sisters, would it not?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I am sure that is right."
+     "speaker": "WD",
+     "text": [
+      "I am sure that is right."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Does singing have a great place in the service of God? And does that bring in the sons and the daughters together? I think we prove the value of what we have in the hymns as contributing richly in the service of God."
+     "speaker": "GAP",
+     "text": [
+      "Does singing have a great place in the service of God? And does that bring in the sons and the daughters together? I think we prove the value of what we have in the hymns as contributing richly in the service of God."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think that is very true. It is perhaps a fact that we do not use the wealth that is in the hymn book sufficiently. I know that as I get older I cannot remember the hymns as well as I used to, so I have to make up for that deficiency."
+     "speaker": "WD",
+     "text": [
+      "I think that is very true. It is perhaps a fact that we do not use the wealth that is in the hymn book sufficiently. I know that as I get older I cannot remember the hymns as well as I used to, so I have to make up for that deficiency."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "You referred earlier to atmosphere as being necessary in view of the service. Does this relate also to the part of the sisters?"
+     "speaker": "DJH",
+     "text": [
+      "You referred earlier to atmosphere as being necessary in view of the service. Does this relate also to the part of the sisters?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think so, but is that the answer to the question I asked?"
+     "speaker": "WD",
+     "text": [
+      "I think so, but is that the answer to the question I asked?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "No. I wondered whether that does relate to the part of the sisters."
+     "speaker": "DJH",
+     "text": [
+      "No. I wondered whether that does relate to the part of the sisters."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "I think there is more than that in it."
+     "speaker": "WD",
+     "text": [
+      "I think there is more than that in it."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "But it would certainly contribute to the atmosphere."
+     "speaker": "DJH",
+     "text": [
+      "But it would certainly contribute to the atmosphere."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It says \"There is no speech, and there are no words, yet their voice is heard\", Ps 19: 3."
+     "speaker": "ECB",
+     "text": [
+      "It says \"There is no speech, and there are no words, yet their voice is heard\", Ps 19: 3."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is right. What underlies it is the vital truth of Christianity, and that is the truth of the body. That is what underlies it."
+     "speaker": "WD",
+     "text": [
+      "That is right. What underlies it is the vital truth of Christianity, and that is the truth of the body. That is what underlies it."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Just going back to \"the teacher with the scholar\", do you think for some of us who are older, that to remember something of the character of five words, not literal but something of the character of brevity, could work out for the encouragement of the younger?"
+     "speaker": "BWW",
+     "text": [
+      "Just going back to \"the teacher with the scholar\", do you think for some of us who are older, that to remember something of the character of five words, not literal but something of the character of brevity, could work out for the encouragement of the younger?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Well, these are desirable features, but - I will put it this way - if under the Lord's headship you felt led to be extensive, consciously so, who could take issue with you? This is what we want to get at, to bring the idea of spiritual flexibility into matters, that you are consciously under the direction of Asaph and of the king. Now in the service of God I do not think these are typical of two persons but that they are typical of the Lord in different ways."
+     "speaker": "WD",
+     "text": [
+      "Well, these are desirable features, but - I will put it this way - if under the Lord's headship you felt led to be extensive, consciously so, who could take issue with you? This is what we want to get at, to bring the idea of spiritual flexibility into matters, that you are consciously under the direction of Asaph and of the king. Now in the service of God I do not think these are typical of two persons but that they are typical of the Lord in different ways."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "So that if I am really conscious of the presence of the Lord in the character of what we often refer to as the Minister of the sanctuary, and sensitive to that presence, whether my part is shorter or longer will, I would say with reverence, be His matter; mine simply to seek to discern and act accordingly."
+     "speaker": "BWW",
+     "text": [
+      "So that if I am really conscious of the presence of the Lord in the character of what we often refer to as the Minister of the sanctuary, and sensitive to that presence, whether my part is shorter or longer will, I would say with reverence, be His matter; mine simply to seek to discern and act accordingly."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Quite so. One thing I wondered a bit, as to whether instead of taking part extensively brethren should be encouraged to take part more frequently. Of course, in some small localities they have no alternative, but to me that is in accord with this chapter, the freshness that would mark it."
+     "speaker": "WD",
+     "text": [
+      "Quite so. One thing I wondered a bit, as to whether instead of taking part extensively brethren should be encouraged to take part more frequently. Of course, in some small localities they have no alternative, but to me that is in accord with this chapter, the freshness that would mark it."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "Do the Scriptures have a great place?"
+     "speaker": "WJRB",
+     "text": [
+      "Do the Scriptures have a great place?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. You would hesitate to go to the meeting with a word prepared, at least I would. What do you say?"
+     "speaker": "WD",
+     "text": [
+      "Yes. You would hesitate to go to the meeting with a word prepared, at least I would. What do you say?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I am sure that is right. Mr Stoney used to say, did he not, that he went to the meeting like a blank sheet of paper? I am not sure whether you yourself have not asked about that; whether that is quite right, because we should go with what impressions we already have of Christ, but we do not go with those things prepared to say, and we certainly do not go with a word prepared."
+     "speaker": "ECB",
+     "text": [
+      "I am sure that is right. Mr Stoney used to say, did he not, that he went to the meeting like a blank sheet of paper? I am not sure whether you yourself have not asked about that; whether that is quite right, because we should go with what impressions we already have of Christ, but we do not go with those things prepared to say, and we certainly do not go with a word prepared."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "A young brother may say, How can I get substance? Well, you have from Lord's day to Lord's day, and if you are reading the Scriptures at all, or are reading the ministry, surely you have picked up something you can put in your treasury, and you can, under the direction of Asaph or the direction of the king, bring out what you have gathered up. It is like the words in the ministry meeting. There seems to be some thought that the only word you can appropriately give in the ministry meeting is something that you have gathered up at the Supper on the previous Lord's Day. I would not agree with that. There is many a word I have given at the ministry meeting which I have had for a year before giving it out. I am not ashamed to confess that."
+     "speaker": "WD",
+     "text": [
+      "A young brother may say, How can I get substance? Well, you have from Lord's day to Lord's day, and if you are reading the Scriptures at all, or are reading the ministry, surely you have picked up something you can put in your treasury, and you can, under the direction of Asaph or the direction of the king, bring out what you have gathered up. It is like the words in the ministry meeting. There seems to be some thought that the only word you can appropriately give in the ministry meeting is something that you have gathered up at the Supper on the previous Lord's Day. I would not agree with that. There is many a word I have given at the ministry meeting which I have had for a year before giving it out. I am not ashamed to confess that."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "I think it is important to see that our daily life becomes a reservoir of that kind of thing, and I think the parable of the trees in Jotham proves that, because they just stayed where they were and did what they normally did, but all the time they were preparing for that which would be for God and man. It is good to think of that side of things, that God shares things with man. What we have, if we store up anything, is to be available for God and man."
+     "speaker": "JCE",
+     "text": [
+      "I think it is important to see that our daily life becomes a reservoir of that kind of thing, and I think the parable of the trees in Jotham proves that, because they just stayed where they were and did what they normally did, but all the time they were preparing for that which would be for God and man. It is good to think of that side of things, that God shares things with man. What we have, if we store up anything, is to be available for God and man."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is substance, is it not? The matter is so vast. As you go over the Scriptures and the ministry it is remarkable the wealth that you can accumulate in divine things."
+     "speaker": "WD",
+     "text": [
+      "That is substance, is it not? The matter is so vast. As you go over the Scriptures and the ministry it is remarkable the wealth that you can accumulate in divine things."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "It is \"of thine own have we given thee\" (1 Chron 29: 14, AV) is it not? It comes by way of prophecy, \"of thine own\", but we give it by way of praise."
+     "speaker": "DJH",
+     "text": [
+      "It is \"of thine own have we given thee\" (1 Chron 29: 14, AV) is it not? It comes by way of prophecy, \"of thine own\", but we give it by way of praise."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Now to come back to what was said about the hymn book: it is a very appropriate matter in the light of this. There were two hundred and eighty-eight here. How many hymns in the book? Four hundred plus. I am quite sure that, if you look, you would find two hundred and eighty-eight suitable for the service of God."
+     "speaker": "WD",
+     "text": [
+      "Now to come back to what was said about the hymn book: it is a very appropriate matter in the light of this. There were two hundred and eighty-eight here. How many hymns in the book? Four hundred plus. I am quite sure that, if you look, you would find two hundred and eighty-eight suitable for the service of God."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "There are quite a lot of hymns that we never sing, and there are quite a lot of hymns that we have not sung at any meeting I have been at for over two years. Actually, I have a record of the hymns sung at the meetings at which I have been and there are some hymns we never sing, some hymns we have not sung for two or three, or even more, years."
+     "speaker": "ECB",
+     "text": [
+      "There are quite a lot of hymns that we never sing, and there are quite a lot of hymns that we have not sung at any meeting I have been at for over two years. Actually, I have a record of the hymns sung at the meetings at which I have been and there are some hymns we never sing, some hymns we have not sung for two or three, or even more, years."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "Is it important to have the hymn book more before us? We generally read a hymn every morning."
+     "speaker": "WJRB",
+     "text": [
+      "Is it important to have the hymn book more before us? We generally read a hymn every morning."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "In this holy matter we do not want to say anything that imparts a touch of legality to the brethren. All we seek to press is that the service of God is an enriching matter. There is no difficulty at all about getting a hymn on the Lord's day morning before going to the meeting, but you do not give it out until you get the direction of Asaph or the king."
+     "speaker": "WD",
+     "text": [
+      "In this holy matter we do not want to say anything that imparts a touch of legality to the brethren. All we seek to press is that the service of God is an enriching matter. There is no difficulty at all about getting a hymn on the Lord's day morning before going to the meeting, but you do not give it out until you get the direction of Asaph or the king."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Is not that word important: \"I will sing with the spirit, but I will sing also with the understanding\", 1 Cor 14: 15? The two need to be together, not separated, do they not?"
+     "speaker": "EP",
+     "text": [
+      "Is not that word important: \"I will sing with the spirit, but I will sing also with the understanding\", 1 Cor 14: 15? The two need to be together, not separated, do they not?"
+     ]
     },
     {
-     "speaker": "J.S.G.",
-     "text": "I was wondering whether your thought of seeking to be versatile under the Spirit is indicated in this scripture by the fact that the order in which the Spirit presents the instruments is reversed later (in verse 6): \"cymbals, lutes and harps\", and whether it does not suggest that we should be available to the Spirit for our affections to be moved at any part of the service in view of response?"
+     "speaker": "JSG",
+     "text": [
+      "I was wondering whether your thought of seeking to be versatile under the Spirit is indicated in this scripture by the fact that the order in which the Spirit presents the instruments is reversed later (in verse 6): \"cymbals, lutes and harps\", and whether it does not suggest that we should be available to the Spirit for our affections to be moved at any part of the service in view of response?"
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "That is helpful, and the background is that we should go through the week with the inward feeling governing us that the great thing in mind is the service of God. It is a help, if you have that fixed in your thoughts, because it is for God and His pleasure. If this is before you, it will bring out this versatile side that you are speaking about."
+     "speaker": "WD",
+     "text": [
+      "That is helpful, and the background is that we should go through the week with the inward feeling governing us that the great thing in mind is the service of God. It is a help, if you have that fixed in your thoughts, because it is for God and His pleasure. If this is before you, it will bring out this versatile side that you are speaking about."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "In the day of recovery in Nehemiah these instruments are still there, \"instruments of David the man of God\" (chap 12: 36), and they are still here."
+     "speaker": "EP",
+     "text": [
+      "In the day of recovery in Nehemiah these instruments are still there, \"instruments of David the man of God\" (chap 12: 36), and they are still here."
+     ]
     },
     {
-     "speaker": "W.D.",
-     "text": "Yes. David was the chief musician, and one of the revisions of the hymn book took root in that expression. As to this matter of the hymns, we should be prepared for a succession of hymns, should we not? Actually, in relation to exalting His power, that ultimate in the service of God, when we address God in His fulness, our language, our capacity is inadequate sometimes and the hymns in that setting could be multiplied if there is the power to sustain it."
+     "speaker": "WD",
+     "text": [
+      "Yes. David was the chief musician, and one of the revisions of the hymn book took root in that expression. As to this matter of the hymns, we should be prepared for a succession of hymns, should we not? Actually, in relation to exalting His power, that ultimate in the service of God, when we address God in His fulness, our language, our capacity is inadequate sometimes and the hymns in that setting could be multiplied if there is the power to sustain it."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "We can be (I think you used the word yourself) more versatile with the hymn book. It is always a puzzle to me why No.254 is confined to reading meetings. Where do we touch"
+     "speaker": "ECB",
+     "text": [
+      "We can be (I think you used the word yourself) more versatile with the hymn book. It is always a puzzle to me why No.254 is confined to reading meetings. Where do we touch",
+      "In spirit bring where endless praises roll,",
+      "And fill our longing hearts till there we're brought",
+      "but in the service of God?"
+     ]
     },
     {
-     "text": "In spirit bring where endless praises roll,"
+     "speaker": "WD",
+     "text": [
+      "Yes, I fully agree with that."
+     ]
     },
     {
-     "text": "And fill our longing hearts till there we're brought"
+     "speaker": "WJRB",
+     "text": [
+      "Eventually, in the last psalm, everything that hath breath will praise Jah."
+     ]
     },
     {
-     "text": "but in the service of God?"
-    },
-    {
-     "speaker": "W.D.",
-     "text": "Yes, I fully agree with that."
-    },
-    {
-     "speaker": "W.J.R.B.",
-     "text": "Eventually, in the last psalm, everything that hath breath will praise Jah."
-    },
-    {
-     "speaker": "W.D.",
-     "text": "How wonderful it will be, to hear the universe singing! Wonderful! To hear the universe singing, and the assembly under the touch of the great Choirmaster, how wonderful it will be! You and I will be there: how glorious!"
+     "speaker": "WD",
+     "text": [
+      "How wonderful it will be, to hear the universe singing! Wonderful! To hear the universe singing, and the assembly under the touch of the great Choirmaster, how wonderful it will be! You and I will be there: how glorious!"
+     ]
     }
    ]
   },
@@ -680,6 +926,14 @@
      "text": "Gideon, though a poor young man, was able to bring to God a rich \"present\". God even agreed to wait some time whilst it was being prepared. You will remember that he had been threshing wheat in a wine-press because of God's enemies who were robbing the land. What he presented was a kid of the goats prepared as food, and with it cakes from an ephah - a large quantity - of flour. The whole present was divinely accepted. It suggests to us the sacrifice and the personal worth of the Lord Jesus, and it proved to be the beginning of salvation for the people. Gideon is an example to us in that he thought of giving what was due to God before his own need. Do we think that way?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "ENRICHMENT OF THE SERVICE OF GOD",
+   "kind": "default_place",
+   "detail": "LONDON given to 12 names (\"All local unless otherwise stated\")"
   }
  ]
 }

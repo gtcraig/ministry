@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -21,15 +21,17 @@
    "number": 1,
    "title": "THE SNARE OF A STEP IN THE RIGHT DIRECTION",
    "speakers": [
-    "J.B."
+    "JB"
    ],
    "paragraphs": [
     {
      "text": "It is of all importance that I should reach God's ground, and not content myself with separating from the place of evil in which I find myself. It is written, \"Forsake follies and live, and go in the way of intelligence\", Prov.9:6. The former is the first right step, but it is not all. If I only do the former, I am only seeking what suits my conscience, and not that which suits God ... This is the snare which so many fall into... Jacob ought to have left Laban's house, but he ought not to have contented himself with [Shechem]. A right step is not enough. Jacob has to be taught to go to Bethel, the house of God. The snare lies in this: one is occupied with the thing done, which quiets, because it is a step in the right direction, and thus one is diverted from seeing or enquiring what God calls His saints to."
     },
     {
-     "speaker": "J.B.",
-     "text": "Stoney Vol.9, p.42"
+     "speaker": "JB",
+     "text": [
+      "Stoney Vol.9, p.42"
+     ]
     }
    ]
   },
@@ -43,87 +45,103 @@
    "place": "Maidstone",
    "date": "23 February 2013",
    "speakers": [
-    "R.D.P.",
-    "K.M.",
-    "D.A.B.",
-    "D.H.B.",
-    "P.M.",
-    "D.J.R.",
-    "J.R.W.",
-    "D.J.Wr.",
-    "D.J.W.",
-    "R.W.F.",
-    "K.Mar.",
-    "J.W.",
-    "M.R.C.",
-    "P.J.M.",
-    "R.H.B.",
-    "T.J.H."
+    "RDP",
+    "KM",
+    "DAB",
+    "DHB",
+    "PM",
+    "DJR",
+    "JRW",
+    "DJWr",
+    "DJW",
+    "RWF",
+    "KMar",
+    "JW",
+    "MRC",
+    "PJM",
+    "RHB",
+    "TJH"
    ],
    "initials": [
     {
-     "initials": "DHBDHBM",
-     "name": "D.H.B. D.H.Bailey Maidstone"
+     "initials": "DHB",
+     "name": "D. H. Bailey",
+     "place": "Maidstone"
     },
     {
-     "initials": "DABDABL",
-     "name": "D.A.B. D.A.Burr London"
+     "initials": "DAB",
+     "name": "D. A. Burr",
+     "place": "London"
     },
     {
-     "initials": "RHBRHBEF",
-     "name": "R.H.B. R.H.Brown East Finchley"
+     "initials": "RHB",
+     "name": "R. H. Brown",
+     "place": "East Finchley"
     },
     {
-     "initials": "MRCMRCM",
-     "name": "M.R.C. M.R.Cook Maidstone"
+     "initials": "MRC",
+     "name": "M. R. Cook",
+     "place": "Maidstone"
     },
     {
-     "initials": "RWFRWFS",
-     "name": "R.W.F. R.W.Flowerdew Sunbury"
+     "initials": "RWF",
+     "name": "R. W. Flowerdew",
+     "place": "Sunbury"
     },
     {
-     "initials": "TJHTJHEF",
-     "name": "T.J.H. T.J.Harvey East Finchley"
+     "initials": "TJH",
+     "name": "T. J. Harvey",
+     "place": "East Finchley"
     },
     {
-     "initials": "KMKMC",
-     "name": "K.Mar. K.Marshall Colchester"
+     "initials": "KMar",
+     "name": "K. Marshall",
+     "place": "Colchester"
     },
     {
-     "initials": "PMPMC",
-     "name": "P.M. P. Martin Colchester"
+     "initials": "PM",
+     "name": "P. Martin",
+     "place": "Colchester"
     },
     {
-     "initials": "KMKMM",
-     "name": "K.M. K.May Maidstone"
+     "initials": "KM",
+     "name": "K. May",
+     "place": "Maidstone"
     },
     {
-     "initials": "PJMPJMW",
-     "name": "P.J.M. P.J.Mutton Walton"
+     "initials": "PJM",
+     "name": "P. J. Mutton",
+     "place": "Walton"
     },
     {
-     "initials": "RDPRDPB",
-     "name": "R.D.P. R.D.Plant Birmingham"
+     "initials": "RDP",
+     "name": "R. D. Plant",
+     "place": "Birmingham"
     },
     {
-     "initials": "DJRDJRG",
-     "name": "D.J.R. D.J.Roberts Gillingham"
+     "initials": "DJR",
+     "name": "D. J. Roberts",
+     "place": "Gillingham"
     },
     {
-     "initials": "DJWDJWB",
-     "name": "D.J.W. D.J.Willetts Birmingham"
+     "initials": "DJW",
+     "name": "D. J. Willetts",
+     "place": "Birmingham"
     },
     {
-     "initials": "DJWDJWH",
-     "name": "D.J.Wr. D.J.Wright Havering"
+     "initials": "DJWr",
+     "name": "D. J. Wright",
+     "place": "Havering"
     },
     {
-     "initials": "JWJWW",
-     "name": "J.W. J.Wright Witney"
+     "initials": "JW",
+     "name": "J. Wright",
+     "place": "Witney"
     },
     {
-     "initials": "JRWJRWM",
-     "name": "J.R.W. J.R.Walkinshaw Maidstone"
+     "initials": "JRW",
+     "name": "J. R. Walkinshaw",
+     "place": "Maidstone"
     }
    ],
    "initials_heading": "KEY TO INITIALS:",
@@ -147,364 +165,612 @@
    ],
    "paragraphs": [
     {
-     "speaker": "R.D.P.",
-     "text": "What I have in mind is the expression in Luke 24 as to the Lord Jesus, where having had to do with the two going to Emmaüs, as they approach the village where they were staying, “he made as though he would go farther”. It is as if the Lord was looking for a response, and there was a response from their hearts. They say, “Stay with us”. I wondered, beloved brethren, whether we might enquire together as to this matter of going further. I have been reading about the two and a half tribes. As the twelve tribes got through the wilderness and approached the land, two of the tribes (and later they were joined by a half of one of the other tribes) decided that they did not want to go into the land that God had provided for them over the Jordan. They found that the land on the east side of the Jordan suited them better. They came to Moses and said that they wanted to stay on that side of the Jordan; they said, “we will not inherit”, Num.32:19. These two tribes had come through the wilderness, they had faced all kinds of exercises; they were in principle real believers. They were persons who had known what it was to come to certain judgments as they had travelled through the wilderness. But when they came to the vicinity of the land, they decided that they would not go over the Jordan, but that they would stay on the wilderness side and settle there. God’s love had made preparation for them; He would ‘bring them in and plant them in the mountain of Mine inheritance’ (Exod.15:17). Think of the feelings of God when they decided that they had gone far enough. They were prosperous, they were settled down in things here, and their circumstances were very satisfactory. The land was good for cattle, the environment was very appealing to them and they decided that they would not go in for the fulness of what we would call Christian truth, but that they would stop short of it. They never ceased to be God’s people, the land that they wanted had to be conquered, but they did not go all the way. I wonder whether we might be exercised about that."
+     "speaker": "RDP",
+     "text": [
+      "What I have in mind is the expression in Luke 24 as to the Lord Jesus, where having had to do with the two going to Emmaüs, as they approach the village where they were staying, “he made as though he would go farther”. It is as if the Lord was looking for a response, and there was a response from their hearts. They say, “Stay with us”. I wondered, beloved brethren, whether we might enquire together as to this matter of going further. I have been reading about the two and a half tribes. As the twelve tribes got through the wilderness and approached the land, two of the tribes (and later they were joined by a half of one of the other tribes) decided that they did not want to go into the land that God had provided for them over the Jordan. They found that the land on the east side of the Jordan suited them better. They came to Moses and said that they wanted to stay on that side of the Jordan; they said, “we will not inherit”, Num.32:19. These two tribes had come through the wilderness, they had faced all kinds of exercises; they were in principle real believers. They were persons who had known what it was to come to certain judgments as they had travelled through the wilderness. But when they came to the vicinity of the land, they decided that they would not go over the Jordan, but that they would stay on the wilderness side and settle there. God’s love had made preparation for them; He would ‘bring them in and plant them in the mountain of Mine inheritance’ (Exod.15:17). Think of the feelings of God when they decided that they had gone far enough. They were prosperous, they were settled down in things here, and their circumstances were very satisfactory. The land was good for cattle, the environment was very appealing to them and they decided that they would not go in for the fulness of what we would call Christian truth, but that they would stop short of it. They never ceased to be God’s people, the land that they wanted had to be conquered, but they did not go all the way. I wonder whether we might be exercised about that.",
+      "Ministry raises exercises as we see in Luke’s gospel. It made their hearts burn. Perhaps that might be so today, to raise exercise as to whether we are ready to go further in divine things, or whether we think we have gone far enough. We are believers, we know the Lord Jesus, we know the preciousness of His work, and we have come under the power of His blood. We have gone a certain way, we know Him as raised from the dead, but we may have decided that we are going to stop short of the full thought of God for us. It is a question of desire, beloved brethren. I remember it once being said of the trees in the garden of Eden that Adam and Eve were free to eat of every tree in the garden except the tree of the knowledge of good and evil. The other tree that was there in the middle of the garden was the tree of life. As far as I know there was no prohibition put upon them partaking of the tree of life, but they did not. I remember it being said that even in innocence, man had no desire for Christ. I think when we come onto the side of the truth that I am speaking about, it is not so much a question of calculation, it is a question of desire; it involves the affections of the believer. That is why I read about Jabez in Chronicles. Chronicles is in many ways a repeat of Kings but it is written from a different aspect, from the aspect that God is looking back and He is making a record of what He has appreciated, what He has loved amongst the people of God. You get lists and genealogies and sometimes you wonder why they are in Scripture, but they are there for a purpose. If you go through them, you come to this man Jabez who said, “Oh that thou wouldest richly bless me, and enlarge my border, and that thy hand might be with me”. I think that God appreciated a man who had a desire to have his border enlarged. Jabez says, “that thou wouldest richly bless me … and that thou wouldest keep me from evil”. I think that preservation from evil may be linked with the desire to go further in the truth.",
+      "I read about the two altars, the altar of earth and the altar of stone. One is obligatory and the other is an opportunity. Of the altar of earth it says “An altar of earth shalt thou make unto me”. But the second altar is made of stone and of it God says “if thou make me an altar of stone”. The question is whether they would have the heart for it.",
+      "Then in Luke, the Lord is risen from the dead. He had gone into death in the previous chapter, and the women came to the tomb bringing the spices and found the stone rolled away from the sepulchre; they found not the body of the Lord Jesus. I want to suggest that these dear brethren were very devoted persons; they were occupied with what was legitimate, with order. They kept silent and quiet on the sabbath day. They saw how the body of Jesus was laid; you may say there was a kind of reverential appreciation of His death. They were bringing the spices to preserve that body in death, but what they were missing was the fact that He was living! What I have in mind about going further is not in relation to a dead Christ – we thank God for His death – but it is in relation to a living Christ.",
+      "Colossians is a protective kind of epistle. The truth set out in it is not as extensive as in Ephesians, but it views persons who are going into the land; persons who have gone over the Jordan, who have settled in the lodging place and it is now a question of how they are going to move. What Paul brings before them is the full knowledge of the mystery of God. You will get more help about it in Ephesians, and you get the completion of it in Revelation, but in Colossians Paul introduced it. Beloved brethren, will we go further? Will we simply be appreciating and enjoying our blessing and going on with an orderly, correct, even devoted, form of Christianity, or will we go further into an area which we will come to see is a spiritual area that is beyond what is here."
+     ]
     },
     {
-     "text": "Ministry raises exercises as we see in Luke’s gospel. It made their hearts burn. Perhaps that might be so today, to raise exercise as to whether we are ready to go further in divine things, or whether we think we have gone far enough. We are believers, we know the Lord Jesus, we know the preciousness of His work, and we have come under the power of His blood. We have gone a certain way, we know Him as raised from the dead, but we may have decided that we are going to stop short of the full thought of God for us. It is a question of desire, beloved brethren. I remember it once being said of the trees in the garden of Eden that Adam and Eve were free to eat of every tree in the garden except the tree of the knowledge of good and evil. The other tree that was there in the middle of the garden was the tree of life. As far as I know there was no prohibition put upon them partaking of the tree of life, but they did not. I remember it being said that even in innocence, man had no desire for Christ. I think when we come onto the side of the truth that I am speaking about, it is not so much a question of calculation, it is a question of desire; it involves the affections of the believer. That is why I read about Jabez in Chronicles. Chronicles is in many ways a repeat of Kings but it is written from a different aspect, from the aspect that God is looking back and He is making a record of what He has appreciated, what He has loved amongst the people of God. You get lists and genealogies and sometimes you wonder why they are in Scripture, but they are there for a purpose. If you go through them, you come to this man Jabez who said, “Oh that thou wouldest richly bless me, and enlarge my border, and that thy hand might be with me”. I think that God appreciated a man who had a desire to have his border enlarged. Jabez says, “that thou wouldest richly bless me … and that thou wouldest keep me from evil”. I think that preservation from evil may be linked with the desire to go further in the truth."
+     "speaker": "KM",
+     "text": [
+      "The scripture is running through my mind “Where there is no vision the people cast off restraint”, Prov. 29:18. There is a need for that vision and purpose. I was thinking of Joshua, too; he had been in the land but he had to persuade others to take an interest in what he had seen."
+     ]
     },
     {
-     "text": "I read about the two altars, the altar of earth and the altar of stone. One is obligatory and the other is an opportunity. Of the altar of earth it says “An altar of earth shalt thou make unto me”. But the second altar is made of stone and of it God says “if thou make me an altar of stone”. The question is whether they would have the heart for it."
+     "speaker": "RDP",
+     "text": [
+      "I think this is on the line of desire. Jabez says, “Oh that thou wouldest richly bless me, and enlarge my border”. Bear in mind that this is God recording these things, looking back and saying, as it were, ‘I love that’. In effect He is recording things in Chronicles that He loved, and He records the detail about a man who desires to have his border enlarged. Beloved brethren, have we closed the door on spiritual experience? Are we like the two and a half tribes, having come a certain way in blessing, and then we settle down. They were rich in cattle, rich in their circumstances. There has probably never been a time in which the brethren have enjoyed prosperity like today. But will we settle down in it? I think the two and a half tribes really are a little bit like Demas, of whom Paul says, “Demas has forsaken me, having loved the present age”, 2 Tim.4:10. The present age may be dominating our thinking and our life, while the fulness of divine things and the expression of the heart of God have receded into the background."
+     ]
     },
     {
-     "text": "Then in Luke, the Lord is risen from the dead. He had gone into death in the previous chapter, and the women came to the tomb bringing the spices and found the stone rolled away from the sepulchre; they found not the body of the Lord Jesus. I want to suggest that these dear brethren were very devoted persons; they were occupied with what was legitimate, with order. They kept silent and quiet on the sabbath day. They saw how the body of Jesus was laid; you may say there was a kind of reverential appreciation of His death. They were bringing the spices to preserve that body in death, but what they were missing was the fact that He was living! What I have in mind about going further is not in relation to a dead Christ – we thank God for His death – but it is in relation to a living Christ."
+     "speaker": "DAB",
+     "text": [
+      "I was wondering whether the daughters of Zelophehad illustrate what you say. In Numbers 27 they say that they want the inheritance. Five chapters later, the half of the tribe that they belonged to settled for Gilead. But it does not seem from the book of Joshua as if that is where the daughters of Zelophehad ended up, because it says there that ten portions fell to Manasseh besides Gilead. They are mentioned there as if they had one of them. I was thinking what a sorrow it must have been to them to claim their inheritance despite all their troubles, only to find that their family were settling for something less."
+     ]
     },
     {
-     "text": "Colossians is a protective kind of epistle. The truth set out in it is not as extensive as in Ephesians, but it views persons who are going into the land; persons who have gone over the Jordan, who have settled in the lodging place and it is now a question of how they are going to move. What Paul brings before them is the full knowledge of the mystery of God. You will get more help about it in Ephesians, and you get the completion of it in Revelation, but in Colossians Paul introduced it. Beloved brethren, will we go further? Will we simply be appreciating and enjoying our blessing and going on with an orderly, correct, even devoted, form of Christianity, or will we go further into an area which we will come to see is a spiritual area that is beyond what is here."
+     "speaker": "RDP",
+     "text": [
+      "That is interesting. I am interested in the half tribe of Manasseh. You do not get a lot of detail about them when the tribes decided to settle in the land. All the detail is about what Gad and Rueben did, but the half tribe of Manasseh becomes attached to them. It is almost as if they were neither here nor there. They were half and half. It is possible to be half and half in relation to divine things. So half of them settled on one side of the Jordan and half on the other. If the young people look at the maps in their Bibles, they will see the two parts of the tribe of Manasseh. As you say, the daughters of Zelophehad valued their inheritance. I like this thought of desire as entering into Christianity. I think Christianity is a love matter. You may say, it needs intelligence and of course it does; it needs teaching, it needs doctrine and all these things, but in essence it is a love matter. It begins with the love of God and I think it ends with an answer to that love."
+     ]
     },
     {
-     "speaker": "K.M.",
-     "text": "The scripture is running through my mind “Where there is no vision the people cast off restraint”, Prov. 29:18. There is a need for that vision and purpose. I was thinking of Joshua, too; he had been in the land but he had to persuade others to take an interest in what he had seen."
+     "speaker": "DHB",
+     "text": [
+      "Scripture exhorts us to “run with endurance the race”, but in doing that we have to look “steadfastly on Jesus the leader and completer of faith”, Heb.12:1,2. Would that help us in this exercise of going further?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think this is on the line of desire. Jabez says, “Oh that thou wouldest richly bless me, and enlarge my border”. Bear in mind that this is God recording these things, looking back and saying, as it were, ‘I love that’. In effect He is recording things in Chronicles that He loved, and He records the detail about a man who desires to have his border enlarged. Beloved brethren, have we closed the door on spiritual experience? Are we like the two and a half tribes, having come a certain way in blessing, and then we settle down. They were rich in cattle, rich in their circumstances. There has probably never been a time in which the brethren have enjoyed prosperity like today. But will we settle down in it? I think the two and a half tribes really are a little bit like Demas, of whom Paul says, “Demas has forsaken me, having loved the present age”, 2 Tim.4:10. The present age may be dominating our thinking and our life, while the fulness of divine things and the expression of the heart of God have receded into the background."
+     "speaker": "RDP",
+     "text": [
+      "I think so. Jesus is the “leader and completer of faith”. The Hebrew brethren were in danger of falling short; they were tending to be neglectful, and the book has that in mind. The background is dangerous in Hebrews, but the exhortation is to endure and go on."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I was wondering whether the daughters of Zelophehad illustrate what you say. In Numbers 27 they say that they want the inheritance. Five chapters later, the half of the tribe that they belonged to settled for Gilead. But it does not seem from the book of Joshua as if that is where the daughters of Zelophehad ended up, because it says there that ten portions fell to Manasseh besides Gilead. They are mentioned there as if they had one of them. I was thinking what a sorrow it must have been to them to claim their inheritance despite all their troubles, only to find that their family were settling for something less."
+     "speaker": "PM",
+     "text": [
+      "When it came to the crossing of the Jordan the word was, “When ye see the ark … remove from your place, and go after it”, Josh.3:3. Really the two and a half tribes lost the attraction of the ark, did they not?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "That is interesting. I am interested in the half tribe of Manasseh. You do not get a lot of detail about them when the tribes decided to settle in the land. All the detail is about what Gad and Rueben did, but the half tribe of Manasseh becomes attached to them. It is almost as if they were neither here nor there. They were half and half. It is possible to be half and half in relation to divine things. So half of them settled on one side of the Jordan and half on the other. If the young people look at the maps in their Bibles, they will see the two parts of the tribe of Manasseh. As you say, the daughters of Zelophehad valued their inheritance. I like this thought of desire as entering into Christianity. I think Christianity is a love matter. You may say, it needs intelligence and of course it does; it needs teaching, it needs doctrine and all these things, but in essence it is a love matter. It begins with the love of God and I think it ends with an answer to that love."
+     "speaker": "RDP",
+     "text": [
+      "Yes, they lost the attraction of the ark, and they lost so much. It is important to say that, in our language, they were not unchristianised by their decision to stop short. It was not that their salvation, their eternal security, was changed at all in relation to that decision, but they lost so much. It speaks later about how the children of Israel went over and took twelve stones out of the bed of the Jordan, and put them in the lodging place in Gilgal, and they are there to this day. Later Moses refers to their children asking, “What mean these stones?”, Josh.4:21. But the children of the two and a half tribes would never say that, because they, as living in the wilderness, would never see the stones. They would never see lives that were lived in relation to God, lives which had God as their object, which had Christ as the power and life in them. They would not see the stones, so they would never ask the question. If we settle down in this environment, we are robbing our children of seeing something in expression of the life of Christ."
+     ]
     },
     {
-     "speaker": "D.H.B.",
-     "text": "Scripture exhorts us to “run with endurance the race”, but in doing that we have to look “steadfastly on Jesus the leader and completer of faith”, Heb.12:1,2. Would that help us in this exercise of going further?"
+     "speaker": "DJR",
+     "text": [
+      "If you look on the map, it is a very extensive area that the half tribe of Manasseh had. You might think that they had a similar exercise to Jabez, “enlarge my border”. But Jabez looked at it from God’s point of view."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think so. Jesus is the “leader and completer of faith”. The Hebrew brethren were in danger of falling short; they were tending to be neglectful, and the book has that in mind. The background is dangerous in Hebrews, but the exhortation is to endure and go on."
+     "speaker": "RDP",
+     "text": [
+      "Yes, he looked at it from God’s point of view. You might look for expansion in things here, and for a while you may be successful. It may be that God would allow that, but what you find is that any expansion here will not last. You may become expanded in business, in property and all these things, but it will not last. You will find that very often the way to it is not a way that would please God. But expansion in relation to divine things does not impoverish others, as expansion in this world does. If you grow in this world it means somebody else has to get out of the way, but if you grow in divine things, others benefit from it."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "When it came to the crossing of the Jordan the word was, “When ye see the ark … remove from your place, and go after it”, Josh.3:3. Really the two and a half tribes lost the attraction of the ark, did they not?"
+     "speaker": "JRW",
+     "text": [
+      "Do you have some impression as to Jabez being more honoured than his brethren? You said that these things come by way of desire, and I was thinking of our appreciation of the love of God and the love of the Lord Jesus. The more we appreciate that, the more we will go in for it. John was one of whom it says, “whom Jesus loved”, John 13:23. He had a real appreciation of that. Did it give him a greater desire to go in for things?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, they lost the attraction of the ark, and they lost so much. It is important to say that, in our language, they were not unchristianised by their decision to stop short. It was not that their salvation, their eternal security, was changed at all in relation to that decision, but they lost so much. It speaks later about how the children of Israel went over and took twelve stones out of the bed of the Jordan, and put them in the lodging place in Gilgal, and they are there to this day. Later Moses refers to their children asking, “What mean these stones?”, Josh.4:21. But the children of the two and a half tribes would never say that, because they, as living in the wilderness, would never see the stones. They would never see lives that were lived in relation to God, lives which had God as their object, which had Christ as the power and life in them. They would not see the stones, so they would never ask the question. If we settle down in this environment, we are robbing our children of seeing something in expression of the life of Christ."
+     "speaker": "RDP",
+     "text": [
+      "Yes, it does come through desire. Jabez was a devoted man and he was honourable in God’s sight. I think honour in God’s world is linked with devotion. I do not think it is about being more able than someone else, but it is about devotion."
+     ]
     },
     {
-     "speaker": "D.J.R.",
-     "text": "If you look on the map, it is a very extensive area that the half tribe of Manasseh had. You might think that they had a similar exercise to Jabez, “enlarge my border”. But Jabez looked at it from God’s point of view."
+     "speaker": "JRW",
+     "text": [
+      "The other thing that comes in here is the side of cost. These things are not without cost, but then what we need is a vision of the blessing that is available."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, he looked at it from God’s point of view. You might look for expansion in things here, and for a while you may be successful. It may be that God would allow that, but what you find is that any expansion here will not last. You may become expanded in business, in property and all these things, but it will not last. You will find that very often the way to it is not a way that would please God. But expansion in relation to divine things does not impoverish others, as expansion in this world does. If you grow in this world it means somebody else has to get out of the way, but if you grow in divine things, others benefit from it."
+     "speaker": "RDP",
+     "text": [
+      "The thought of vision is fine. Abraham had to be encouraged by lifting up his eyes from the place where he was and looking. We could all do with a greater outlook at the present time. I think that the present age is tending to sap our committal; we so easily yield to its appeal, to all the things that belong to it. We have a hymn:-",
+      "“But, our God, how great Thy yearning",
+      "To have sons who love”. (Hymn 118)",
+      "We should be persons who are ready to take a step not only in relation to the side of the gospel which involves our blessing, but a step further in relation to the side of the gospel which involves what is for God’s heart and what is for God’s pleasure, the area of things in which He finds His joy."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "Do you have some impression as to Jabez being more honoured than his brethren? You said that these things come by way of desire, and I was thinking of our appreciation of the love of God and the love of the Lord Jesus. The more we appreciate that, the more we will go in for it. John was one of whom it says, “whom Jesus loved”, John 13:23. He had a real appreciation of that. Did it give him a greater desire to go in for things?"
+     "speaker": "DJWr",
+     "text": [
+      "Is the principle of it seen in the man in John 9? He received his sight and then he was faithful to the light he had and he was cast out. The Lord finds him and says, “dost thou believe on the Son of God?”. He says, “who is he, Lord, that I may believe on him?” (vv.35,36). He was ready for that further step and not just content with what he had"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, it does come through desire. Jabez was a devoted man and he was honourable in God’s sight. I think honour in God’s world is linked with devotion. I do not think it is about being more able than someone else, but it is about devotion."
+     "speaker": "RDP",
+     "text": [
+      "Yes, he was ready to move quickly. Jesus says, “he that speaks with thee is he” (v.37). That man is a wonderful example of someone who was ready to go further, away from the whole scene of things that he had left, that had left him in fact, and he was ready to go further in divine things. So Jabez was born with pain. Bear in mind that this scripture conveys divine appreciation of what had entered into the history. God saw a man who was born with pain, but whose heart expanded in relation to His things, and He blessed him there."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "The other thing that comes in here is the side of cost. These things are not without cost, but then what we need is a vision of the blessing that is available."
+     "speaker": "DJW",
+     "text": [
+      "It is interesting that Paul says, “desire earnestly the greater gifts”, 1 Cor.12:31. It says that God brought about what Jabez had requested. God did not just give it to him, but He brought it about. Jabez might have had to go through a lot of soul exercise to arrive at it, but it came on the ground of desire, as in “desire earnestly the greater gifts”."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "The thought of vision is fine. Abraham had to be encouraged by lifting up his eyes from the place where he was and looking. We could all do with a greater outlook at the present time. I think that the present age is tending to sap our committal; we so easily yield to its appeal, to all the things that belong to it. We have a hymn:-"
+     "speaker": "RDP",
+     "text": [
+      "It may involve a protracted period, as you say, because devotion of heart is not just a snapshot; sometimes it involves a whole period. But God brought it about, and He will bring it about. I felt that Jabez illustrated someone that God loved. Beloved young brethren, I think that it pleases the heart of God if there are those who are ready to move beyond their blessing, beyond their walk here, ready to see that there is a spiritual area beyond these things, and that there is desire in relation to it."
+     ]
     },
     {
-     "text": "“But, our God, how great Thy yearning"
+     "speaker": "RWF",
+     "text": [
+      "Does it help to remember that God’s desire is greater than ours? God brought about what Jabez had requested. It is as if God was waiting for that occasion to fulfil His desire, in answer to the desire of Jabez. Is it helpful to us to understand that God has made every provision, and He does so in response to an expression of desire?"
+     ]
     },
     {
-     "text": "To have sons who love”. (Hymn 118)"
+     "speaker": "RDP",
+     "text": [
+      "Yes, that might link with Exodus because what we see there is the love of God in its expression. At the beginning of chapter 19 it says “In the third month after the departure of the children of Israel” and then “Thus shalt thou say to the house of Jacob” (vv.1,3). This is Jehovah speaking, “Ye have seen what I have done to the Egyptians, and how I have borne you on eagles’ wings and brought you to myself. And now, if ye will hearken to my voice indeed and keep my covenant, then shall ye be my own possession out of all the peoples” (vv.4,5). The early chapters of Exodus are a setting out in detail of the love of God and the grace of God in their fulness. There is nothing He would not do for Israel. His grace had brought them out of Egypt, He had brought them through the sea, He had catered for their weakness. He had borne them on eagles’ wings and brought them to Himself. Now He was looking to see whether there would be an answer from them. I think there is nothing God would not do to fill the hearts of His people. We are moving into the area in which the desires of God are known. We have had the provision of God; He provided for them in His righteousness. These chapters of Exodus show us the blood, and the shelter that it afforded; they show us God’s power, but now in chapter 19 and in chapter 20 He is looking for an answer to Himself."
+     ]
     },
     {
-     "text": "We should be persons who are ready to take a step not only in relation to the side of the gospel which involves our blessing, but a step further in relation to the side of the gospel which involves what is for God’s heart and what is for God’s pleasure, the area of things in which He finds His joy."
+     "speaker": "JRW",
+     "text": [
+      "Firstly it was the burnt-offering, and then the peace-offering? The burnt-offering would be God’s appreciation of Christ, would it, and all that has been secured on that basis, and the peace-offering would be my appreciation and thankfulness for it?"
+     ]
     },
     {
-     "speaker": "D.J.Wr.",
-     "text": "Is the principle of it seen in the man in John 9? He received his sight and then he was faithful to the light he had and he was cast out. The Lord finds him and says, “dost thou believe on the Son of God?”. He says, “who is he, Lord, that I may believe on him?” (vv.35,36). He was ready for that further step and not just content with what he had"
+     "speaker": "RDP",
+     "text": [
+      "It is interesting that God brings in these two altars. He says “An altar of earth shalt thou make unto me”. There is no ‘if’, there is no specification of the size; you do not get that in Exodus, but there is what is obligatory. Unless we have what the altar of earth would speak of, we are not believers at all, we do not have salvation. Earth involves what man is, in all the weakness and the loss of the condition in which we are. That is what we came from, and it also involves that the Lord Jesus has come into that condition in which there was so much weakness. He took part in the same, yet sin apart, and undertook for all the weakness and loss of man’s condition. Before a holy God, He paid the price of it. That is what believers accept when they accept Christ. They accept the weakness of what they are and the greatness of the work of Christ, the greatness of who Christ is. That is mandatory, a beginning."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, he was ready to move quickly. Jesus says, “he that speaks with thee is he” (v.37). That man is a wonderful example of someone who was ready to go further, away from the whole scene of things that he had left, that had left him in fact, and he was ready to go further in divine things. So Jabez was born with pain. Bear in mind that this scripture conveys divine appreciation of what had entered into the history. God saw a man who was born with pain, but whose heart expanded in relation to His things, and He blessed him there."
+     "speaker": "JRW",
+     "text": [
+      "Now go on and tell us about the altar of stone."
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "It is interesting that Paul says, “desire earnestly the greater gifts”, 1 Cor.12:31. It says that God brought about what Jabez had requested. God did not just give it to him, but He brought it about. Jabez might have had to go through a lot of soul exercise to arrive at it, but it came on the ground of desire, as in “desire earnestly the greater gifts”."
+     "speaker": "RDP",
+     "text": [
+      "Well, I would just like to pick up your other remark about the burnt-offering. The burnt-offering is for God. The burnt-offering means that, in the life of Jesus and in His giving of it, there was not only what was for us, but what was precious to God. There was a sweet odour that arose from the life of Jesus here, and from the way that He moved into death; that was for God’s pleasure. But the peace-offering is what is for us. The peace-offering is the joy that the saints have in their blessing. The saints come together for fellowship meetings, and we love to see one another. We are here as those who appreciate the death of Christ for us. We appreciate what He is for God, we have appreciated the detail of His work, and the peace-offering is the enjoyment we have together in that. They are both for God, because He loves to see that."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "It may involve a protracted period, as you say, because devotion of heart is not just a snapshot; sometimes it involves a whole period. But God brought it about, and He will bring it about. I felt that Jabez illustrated someone that God loved. Beloved young brethren, I think that it pleases the heart of God if there are those who are ready to move beyond their blessing, beyond their walk here, ready to see that there is a spiritual area beyond these things, and that there is desire in relation to it."
+     "speaker": "DAB",
+     "text": [
+      "It used to be said that the peace-offering is not to make peace, as the world would say, but to celebrate the peace He gives, and therefore it underlies fellowship."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Does it help to remember that God’s desire is greater than ours? God brought about what Jabez had requested. It is as if God was waiting for that occasion to fulfil His desire, in answer to the desire of Jabez. Is it helpful to us to understand that God has made every provision, and He does so in response to an expression of desire?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, that is good. And so God is conscious of this occasion. He sees those who rejoice in the fact that we have this common salvation. We rejoice in all that flows out of it by way of Christian fellowship; we enjoy the touches of God’s love in relation to the death of Christ. These are wonderful things, and He sees it all. The peace-offering was celebrated, but the burnt-offering was what was distinctly for God. If we are not in the enjoyment of the peace-offering, perhaps we should ask ourselves why that is, because the peace-offering is something that has come about because of the death of Christ. It is not only the forgiveness of our sins, but we have the joy and celebration and rejoicing in our souls as a result of what Jesus has done. As you say, it does not make peace, peace is made by His death, but it is the celebration of that wonderful area of things in which fellowship is enjoyed."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, that might link with Exodus because what we see there is the love of God in its expression. At the beginning of chapter 19 it says “In the third month after the departure of the children of Israel” and then “Thus shalt thou say to the house of Jacob” (vv.1,3). This is Jehovah speaking, “Ye have seen what I have done to the Egyptians, and how I have borne you on eagles’ wings and brought you to myself. And now, if ye will hearken to my voice indeed and keep my covenant, then shall ye be my own possession out of all the peoples” (vv.4,5). The early chapters of Exodus are a setting out in detail of the love of God and the grace of God in their fulness. There is nothing He would not do for Israel. His grace had brought them out of Egypt, He had brought them through the sea, He had catered for their weakness. He had borne them on eagles’ wings and brought them to Himself. Now He was looking to see whether there would be an answer from them. I think there is nothing God would not do to fill the hearts of His people. We are moving into the area in which the desires of God are known. We have had the provision of God; He provided for them in His righteousness. These chapters of Exodus show us the blood, and the shelter that it afforded; they show us God’s power, but now in chapter 19 and in chapter 20 He is looking for an answer to Himself."
+     "speaker": "DAB",
+     "text": [
+      "And you might offer it on this altar of stone. Is the altar of stone like Abraham’s altar, a milestone? You would not go back past it. Is that the idea?"
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "Firstly it was the burnt-offering, and then the peace-offering? The burnt-offering would be God’s appreciation of Christ, would it, and all that has been secured on that basis, and the peace-offering would be my appreciation and thankfulness for it?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, I think so, and so God says, “if thou make me an altar of stone”. Stone is permanent; earth is transient in a certain way, it is passing, but stone is permanent. And why does God say “if thou make me an altar of stone”? He does not speak about any of the offerings upon it; He speaks only about the material it is made of. I think it is a suggestion of the saints moving on, we may say, from their blessings and even the enjoyment of them, moving into a spiritual, permanent, heavenly, glorious side of things. God puts in the “if”. As in the case of the two and a half tribes, He does not finish with me if I do not build it, He does not change His mind about my salvation, but His heart comes out in the “if”. If the believer loves God, he will make an altar of stone."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "It is interesting that God brings in these two altars. He says “An altar of earth shalt thou make unto me”. There is no ‘if’, there is no specification of the size; you do not get that in Exodus, but there is what is obligatory. Unless we have what the altar of earth would speak of, we are not believers at all, we do not have salvation. Earth involves what man is, in all the weakness and the loss of the condition in which we are. That is what we came from, and it also involves that the Lord Jesus has come into that condition in which there was so much weakness. He took part in the same, yet sin apart, and undertook for all the weakness and loss of man’s condition. Before a holy God, He paid the price of it. That is what believers accept when they accept Christ. They accept the weakness of what they are and the greatness of the work of Christ, the greatness of who Christ is. That is mandatory, a beginning."
+     "speaker": "DJW",
+     "text": [
+      "There is no suggestion that they cannot find the stone. I cannot say that my appreciation of this is so poor that I cannot really touch the heavenly side of the truth. Everything is available in Christ and the Spirit."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "Now go on and tell us about the altar of stone."
+     "speaker": "RDP",
+     "text": [
+      "That is good; everything is available in Christ and the Spirit. It is not something that we have to manufacture or purchase in that sense; it is available to us to build an altar of stone. And then God gives a word on the things to be careful of. He says, do not make steps to it, do not “lift up thy sharp tool upon it”, do not try to shape it. It is what is for God in Christ, not now Christ as He was here on earth, His walk here and His death and resurrection, but Christ living above. I think the stone involves what is permanent in that He lives to God. It is built of that material."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Well, I would just like to pick up your other remark about the burnt-offering. The burnt-offering is for God. The burnt-offering means that, in the life of Jesus and in His giving of it, there was not only what was for us, but what was precious to God. There was a sweet odour that arose from the life of Jesus here, and from the way that He moved into death; that was for God’s pleasure. But the peace-offering is what is for us. The peace-offering is the joy that the saints have in their blessing. The saints come together for fellowship meetings, and we love to see one another. We are here as those who appreciate the death of Christ for us. We appreciate what He is for God, we have appreciated the detail of His work, and the peace-offering is the enjoyment we have together in that. They are both for God, because He loves to see that."
+     "speaker": "KMar",
+     "text": [
+      "God says that a sharp instrument is not to be used on it. What does that mean?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It used to be said that the peace-offering is not to make peace, as the world would say, but to celebrate the peace He gives, and therefore it underlies fellowship."
+     "speaker": "RDP",
+     "text": [
+      "I think we have been taught that it links with the kind of things that the Colossians were in danger of. There were certain things that enter into man’s world that the Colossians were in danger of bringing into what was for God, into the spiritual side of the truth. We like shaping things a little bit, do we not? Later on the children of Israel built a calf, they “fashioned it with a chisel” (Exod.32.4); it was shaped to their thoughts. But what God has in Christ and in this spiritual area is perfect. It needs nothing added to it, it needs nothing taken from it, it needs no redesign or remodelling. The sharp tool may possibly refer to the human mind."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, that is good. And so God is conscious of this occasion. He sees those who rejoice in the fact that we have this common salvation. We rejoice in all that flows out of it by way of Christian fellowship; we enjoy the touches of God’s love in relation to the death of Christ. These are wonderful things, and He sees it all. The peace-offering was celebrated, but the burnt-offering was what was distinctly for God. If we are not in the enjoyment of the peace-offering, perhaps we should ask ourselves why that is, because the peace-offering is something that has come about because of the death of Christ. It is not only the forgiveness of our sins, but we have the joy and celebration and rejoicing in our souls as a result of what Jesus has done. As you say, it does not make peace, peace is made by His death, but it is the celebration of that wonderful area of things in which fellowship is enjoyed."
+     "speaker": "RWF",
+     "text": [
+      "The two and a half tribes erected an altar of grand appearance. They fashioned it according to what they thought, rather than what God desired for them."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "And you might offer it on this altar of stone. Is the altar of stone like Abraham’s altar, a milestone? You would not go back past it. Is that the idea?"
+     "speaker": "RDP",
+     "text": [
+      "That is interesting. They do that later on, after the tribes had gone into the land, as if they felt a lack in some way. There was a feeling that they needed something to reinforce the fact that they really belonged to what was on the other side of the river Jordan, even though they were not there in practical life. And so they built this altar of grand appearance. It later became an issue amongst the people of Israel because they thought it was rival. It was a figment of man’s mind and imagination."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, I think so, and so God says, “if thou make me an altar of stone”. Stone is permanent; earth is transient in a certain way, it is passing, but stone is permanent. And why does God say “if thou make me an altar of stone”? He does not speak about any of the offerings upon it; He speaks only about the material it is made of. I think it is a suggestion of the saints moving on, we may say, from their blessings and even the enjoyment of them, moving into a spiritual, permanent, heavenly, glorious side of things. God puts in the “if”. As in the case of the two and a half tribes, He does not finish with me if I do not build it, He does not change His mind about my salvation, but His heart comes out in the “if”. If the believer loves God, he will make an altar of stone."
+     "speaker": "RWF",
+     "text": [
+      "Such structures are to be found everywhere in Christendom. We have to be aware of that, particularly when we are younger."
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "There is no suggestion that they cannot find the stone. I cannot say that my appreciation of this is so poor that I cannot really touch the heavenly side of the truth. Everything is available in Christ and the Spirit."
+     "speaker": "RDP",
+     "text": [
+      "And we need to be aware of the principle of it, that some gesture that might be made to try to show that we belong, even though our circumstances and the direction of our lives indicate otherwise. That is like fashioning with the chisel; some man-made attempt to have things the way we would like them."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "That is good; everything is available in Christ and the Spirit. It is not something that we have to manufacture or purchase in that sense; it is available to us to build an altar of stone. And then God gives a word on the things to be careful of. He says, do not make steps to it, do not “lift up thy sharp tool upon it”, do not try to shape it. It is what is for God in Christ, not now Christ as He was here on earth, His walk here and His death and resurrection, but Christ living above. I think the stone involves what is permanent in that He lives to God. It is built of that material."
+     "speaker": "JW",
+     "text": [
+      "I was wondering if the building of the altar of stone flows out of building the altar of earth. It seems to follow that, and God coming in in blessing. If we take up the exercise which is obligatory, and God comes in in blessing, it produces this desire for an altar of stone."
+     ]
     },
     {
-     "speaker": "K.Mar.",
-     "text": "God says that a sharp instrument is not to be used on it. What does that mean?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, to lead further. The whole of this part of Scripture is an indication of what was in the heart of God. Even the giving of the law was done in order that Israel might continually have God in their thoughts. The New Testament tells us that the law was given as a school master. It was to indicate certain areas that they would be tested in if they were to be for God. They would be tested by idols, they would be tested by other gods, they would be tested by moral matters, and the law was given as a school master. We all know what the school master is for; to help to teach us, and to help us along the way. It is not a final thing. I think the law was like that. God in His goodness gave Israel the law as a school master to help them in their quest, but behind it all is the fulness of His love, His yearning to have sons who love."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think we have been taught that it links with the kind of things that the Colossians were in danger of. There were certain things that enter into man’s world that the Colossians were in danger of bringing into what was for God, into the spiritual side of the truth. We like shaping things a little bit, do we not? Later on the children of Israel built a calf, they “fashioned it with a chisel” (Exod.32.4); it was shaped to their thoughts. But what God has in Christ and in this spiritual area is perfect. It needs nothing added to it, it needs nothing taken from it, it needs no redesign or remodelling. The sharp tool may possibly refer to the human mind."
+     "speaker": "DAB",
+     "text": [
+      "Does the Hebrew bondman have a view of the altars? He served six years; that is like the altar of earth; what he was as a neighbour. Then he says that he would not go out free; that is the altar of stone, is it? And it was done in love."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "The two and a half tribes erected an altar of grand appearance. They fashioned it according to what they thought, rather than what God desired for them."
+     "speaker": "RDP",
+     "text": [
+      "You might ask, what was before him? I wonder if all of us have known in our lives what the altar of earth truly means, the recognition of what we are and the appreciation of what Christ is, and what Christ has done. And also what He has been to God and what He can be to me, because as our brother said, the one leads to the other. In that contemplation there is that which would lead on to a spiritual response."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "That is interesting. They do that later on, after the tribes had gone into the land, as if they felt a lack in some way. There was a feeling that they needed something to reinforce the fact that they really belonged to what was on the other side of the river Jordan, even though they were not there in practical life. And so they built this altar of grand appearance. It later became an issue amongst the people of Israel because they thought it was rival. It was a figment of man’s mind and imagination."
+     "speaker": "PM",
+     "text": [
+      "Why does Jehovah speak of these two altars before the tabernacle system? Immediately Jehovah gives the law in this chapter, He gives the terms on which He is going to be with His people. He looks immediately for a response from us where we are, does He not, in view of collective response? Israel were to begin to think sacrificially for God, before there was anything collective, is that right?"
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Such structures are to be found everywhere in Christendom. We have to be aware of that, particularly when we are younger."
+     "speaker": "RDP",
+     "text": [
+      "So that the next chapters are the opening up of His thoughts in that way. What you say is right, that the basis of it all was what was sacrificial. These were altars, and whenever you get the altar in Scripture it carries the thought of sacrifice. I do not necessarily mean animal sacrifices, but the thought of the sacrificial spirit, something that is given up in relation to something else. I think, as you say, the understanding of the tabernacle, the understanding of fellowship, the understanding of the body; all these things are going to be on the basis of sacrifice. That is the way we will come into it."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "And we need to be aware of the principle of it, that some gesture that might be made to try to show that we belong, even though our circumstances and the direction of our lives indicate otherwise. That is like fashioning with the chisel; some man-made attempt to have things the way we would like them."
+     "speaker": "PM",
+     "text": [
+      "“Love so amazing, so divine,",
+      "Demands my soul, my life, my all!” (Hymn 272).",
+      "That is the Hebrew bondman, is it not?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "I was wondering if the building of the altar of stone flows out of building the altar of earth. It seems to follow that, and God coming in in blessing. If we take up the exercise which is obligatory, and God comes in in blessing, it produces this desire for an altar of stone."
+     "speaker": "JRW",
+     "text": [
+      "You might open up Luke 24, “as though he would go farther”. We get the Person presented here, do we not? It is when their eyes were opened and they recognised Him that they are conscious that their heart was burning. It brings in movement, “rising up the same hour”. It just seems to me there is a link somewhere with the altar of earth and then the altar of stone, but I would like you to help us."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, to lead further. The whole of this part of Scripture is an indication of what was in the heart of God. Even the giving of the law was done in order that Israel might continually have God in their thoughts. The New Testament tells us that the law was given as a school master. It was to indicate certain areas that they would be tested in if they were to be for God. They would be tested by idols, they would be tested by other gods, they would be tested by moral matters, and the law was given as a school master. We all know what the school master is for; to help to teach us, and to help us along the way. It is not a final thing. I think the law was like that. God in His goodness gave Israel the law as a school master to help them in their quest, but behind it all is the fulness of His love, His yearning to have sons who love."
+     "speaker": "RDP",
+     "text": [
+      "I like these words “he made as though he would go farther”. These were persons who had become discouraged with events, but the Lord’s object was that there was something beyond. Whenever you have to do with Christ, I think He always leaves the suggestion that there is something beyond. In John chapter 13 when Jesus spoke to His disciples about His departure, He was speaking about what is beyond, and it is all in company with Himself. I think these two on the way to Emmaüs were part of a company which was very correct. They were quiet on the sabbath, they had seen how the body of Jesus lay. They had brought spices for His burial, there was devotion, there was love in expression. But they had no sense of Him as the living One. He wanted to take them into the area, not only where He died, but where He lives. In Luke, you do not get angels in the tomb, you get two men in shining raiment. I think these two men are like samples of what man was to be, two men here upon the earth in shining raiment, associated with the living Christ. Now, “he made as though he would go farther”. It is one thing to know Him in relation to a place in paradise, as in the previous chapter, but what about knowing Him in relation to His present, living activity at the present time."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Does the Hebrew bondman have a view of the altars? He served six years; that is like the altar of earth; what he was as a neighbour. Then he says that he would not go out free; that is the altar of stone, is it? And it was done in love."
+     "speaker": "JRW",
+     "text": [
+      "So they constrained Him. Did they get a vision in their hearts that there was something ahead, something very blessed, and they constrained Him, they held onto Him?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "You might ask, what was before him? I wonder if all of us have known in our lives what the altar of earth truly means, the recognition of what we are and the appreciation of what Christ is, and what Christ has done. And also what He has been to God and what He can be to me, because as our brother said, the one leads to the other. In that contemplation there is that which would lead on to a spiritual response."
+     "speaker": "RDP",
+     "text": [
+      "Yes. They were true persons really, these two, and God’s work was in them and it responds. Their hearts began to burn. That is what ministry should do, making a way for divine activities."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Why does Jehovah speak of these two altars before the tabernacle system? Immediately Jehovah gives the law in this chapter, He gives the terms on which He is going to be with His people. He looks immediately for a response from us where we are, does He not, in view of collective response? Israel were to begin to think sacrificially for God, before there was anything collective, is that right?"
+     "speaker": "MRC",
+     "text": [
+      "I was wondering whether these two, as they return, would be in the spirit of the two men in shining raiment. They have a testimony to bear, do they not? They are moving onward in their soul experience and they are seeking to help the brethren as a whole to do so."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "So that the next chapters are the opening up of His thoughts in that way. What you say is right, that the basis of it all was what was sacrificial. These were altars, and whenever you get the altar in Scripture it carries the thought of sacrifice. I do not necessarily mean animal sacrifices, but the thought of the sacrificial spirit, something that is given up in relation to something else. I think, as you say, the understanding of the tabernacle, the understanding of fellowship, the understanding of the body; all these things are going to be on the basis of sacrifice. That is the way we will come into it."
+     "speaker": "RDP",
+     "text": [
+      "I am glad you say that, because it was not angels at the tomb, it was two men, and I think they are representative of what there was going to be. Not now a man in paradise – that is a wonderful truth, we enjoy that, thank God for the security and blessing of that – but two men in shining raiment which links with life and light here upon the earth. There is to be that here at the present time which is in association with a risen Christ."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "“Love so amazing, so divine,"
+     "speaker": "PJM",
+     "text": [
+      "Is it all part of what it says in this chapter that “Ought not the Christ to have suffered these things and to enter into his glory?” (v.26). Is there a glimpse of the glory around it?"
+     ]
     },
     {
-     "text": "Demands my soul, my life, my all!” (Hymn 272)."
+     "speaker": "RDP",
+     "text": [
+      "I think so. I think the two on the way to Emmaüs were introduced to the glory there, and they were confused by it. They had become resigned to His death; they thought of the spices and the sabbath, and that whole area of things. They were devoted persons. But now there is the thought of association with a living Man, and I think these two men in shining raiment involve what would appear as a result of “he made as though he would go farther”."
+     ]
     },
     {
-     "text": "That is the Hebrew bondman, is it not?"
+     "speaker": "JW",
+     "text": [
+      "Did these persons go further when they rose up and returned to Jerusalem? The Lord went further, did He not? He was prepared to go further in His service to them but they answer to that by going to where they would find the living Christ, do you think?"
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "You might open up Luke 24, “as though he would go farther”. We get the Person presented here, do we not? It is when their eyes were opened and they recognised Him that they are conscious that their heart was burning. It brings in movement, “rising up the same hour”. It just seems to me there is a link somewhere with the altar of earth and then the altar of stone, but I would like you to help us."
+     "speaker": "RDP",
+     "text": [
+      "Yes, and it is a spiritual movement because He did not tell them to go, yet they went back there. It is as if they sensed that where the experience of this was to be known was in the company. Now the company is rather mysterious; I am not going to try and define the company there, but it was the eleven. It was where the authority of the Lord was known, and I think a believer intuitively will come to know where that company is. They went back there, and they found the Lord is operating in relation to that company. He was operating in relation to them individually as risen from the dead, but He was also operating in relation to the saints as set together. There is something flowing out of that."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I like these words “he made as though he would go farther”. These were persons who had become discouraged with events, but the Lord’s object was that there was something beyond. Whenever you have to do with Christ, I think He always leaves the suggestion that there is something beyond. In John chapter 13 when Jesus spoke to His disciples about His departure, He was speaking about what is beyond, and it is all in company with Himself. I think these two on the way to Emmaüs were part of a company which was very correct. They were quiet on the sabbath, they had seen how the body of Jesus lay. They had brought spices for His burial, there was devotion, there was love in expression. But they had no sense of Him as the living One. He wanted to take them into the area, not only where He died, but where He lives. In Luke, you do not get angels in the tomb, you get two men in shining raiment. I think these two men are like samples of what man was to be, two men here upon the earth in shining raiment, associated with the living Christ. Now, “he made as though he would go farther”. It is one thing to know Him in relation to a place in paradise, as in the previous chapter, but what about knowing Him in relation to His present, living activity at the present time."
+     "speaker": "JW",
+     "text": [
+      "There is movement, and they are going further so they have more experience with Himself as the Lord comes in among them."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "So they constrained Him. Did they get a vision in their hearts that there was something ahead, something very blessed, and they constrained Him, they held onto Him?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, it is interesting that on the way He interpreted to them from the Scriptures, from Moses and the prophets, the things concerning Himself (v.27). Moses and the prophets involve God coming out. But as coming to the company, it says that He “opened their understanding” and He speaks from Moses and the prophets and the Psalms (vv.44,45). Now that brings in another element, does it not? Not only is God coming out and speaking to man, but the Psalms give some impression of man speaking to God. There is something going back to God. Now our understanding is to be opened to the truth that there is an area of things that not only includes my blessing, what God is to me, but what I am to God."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes. They were true persons really, these two, and God’s work was in them and it responds. Their hearts began to burn. That is what ministry should do, making a way for divine activities."
+     "speaker": "JW",
+     "text": [
+      "The Psalms speak of the result of experience with the Lord Himself which these persons had, do you think?"
+     ]
     },
     {
-     "speaker": "M.R.C.",
-     "text": "I was wondering whether these two, as they return, would be in the spirit of the two men in shining raiment. They have a testimony to bear, do they not? They are moving onward in their soul experience and they are seeking to help the brethren as a whole to do so."
+     "speaker": "RDP",
+     "text": [
+      "Yes. When you look at the Psalms, they are the utterances of persons, and what do you find amongst them? Rich, unique expressions of appreciation prophetically of the sufferings of Christ that you get nowhere else in Scripture. So these persons go back to the company, knowing that as going further there is far more for them than they had ever known before. My exercise, beloved brethren, is that we do not stop short of the full thought of God like the two and a half tribes. The full thought of God is not what is down here. The full thought of God is what is in His own presence in relation to Himself, to be known at the present time, and that involves the Spirit. It is a spiritual area."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I am glad you say that, because it was not angels at the tomb, it was two men, and I think they are representative of what there was going to be. Not now a man in paradise – that is a wonderful truth, we enjoy that, thank God for the security and blessing of that – but two men in shining raiment which links with life and light here upon the earth. There is to be that here at the present time which is in association with a risen Christ."
+     "speaker": "DJW",
+     "text": [
+      "Say something as to His opening their understanding. That is more than light. You sometimes think ‘I am not equal to this’. It says He opened their understanding. It was almost as if the light that they had now became more than that; it had moved to another level, had it not? They understood it. Wisdom entered into it, I suppose."
+     ]
     },
     {
-     "speaker": "P.J.M.",
-     "text": "Is it all part of what it says in this chapter that “Ought not the Christ to have suffered these things and to enter into his glory?” (v.26). Is there a glimpse of the glory around it?"
+     "speaker": "RDP",
+     "text": [
+      "Appreciation of the Scriptures is important. When we were young, the Scriptures were very often used to convey stories of Jesus and histories, and these are very precious things. We then go on, as we get older perhaps, to appreciate that the Scriptures involve more than history, more than a story. Moral teaching comes into the Scriptures, but as you go on in life, you see there is even more than what is moral in the Scriptures. There is what is spiritual, there is spiritual meaning contained in the Scriptures, and you will find your understanding becomes opened in relation to that."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I think so. I think the two on the way to Emmaüs were introduced to the glory there, and they were confused by it. They had become resigned to His death; they thought of the spices and the sabbath, and that whole area of things. They were devoted persons. But now there is the thought of association with a living Man, and I think these two men in shining raiment involve what would appear as a result of “he made as though he would go farther”."
+     "speaker": "DJW",
+     "text": [
+      "I just fear that sometimes we look at things and say, ‘This is impossible for me’, but He opened their understanding. He was very ready to do it."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Did these persons go further when they rose up and returned to Jerusalem? The Lord went further, did He not? He was prepared to go further in His service to them but they answer to that by going to where they would find the living Christ, do you think?"
+     "speaker": "RDP",
+     "text": [
+      "Yes, and you notice with Jabez, it was God who enlarged his border. If we get anything that is permanent, it comes from God, it does not come from what we read. What we read may help us, but if you get anything permanent, it comes from God."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, and it is a spiritual movement because He did not tell them to go, yet they went back there. It is as if they sensed that where the experience of this was to be known was in the company. Now the company is rather mysterious; I am not going to try and define the company there, but it was the eleven. It was where the authority of the Lord was known, and I think a believer intuitively will come to know where that company is. They went back there, and they found the Lord is operating in relation to that company. He was operating in relation to them individually as risen from the dead, but He was also operating in relation to the saints as set together. There is something flowing out of that."
+     "speaker": "RWF",
+     "text": [
+      "Early in the first epistle to the Corinthians, the apostle touches on the things that God has prepared for those that love Him. It is striking that in that corrective epistle, he should refer to that so early. We think a good deal of the correction and teaching connected with it, but really the apostle was encouraging the Corinthians to go further, was he not?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "There is movement, and they are going further so they have more experience with Himself as the Lord comes in among them."
+     "speaker": "RDP",
+     "text": [
+      "It is surprising that comes in so early in the book, “Things which eye has not seen, and ear not heard, and which have not come into man’s heart, which God has prepared for them that love him, but God has revealed to us by his Spirit”, 1 Cor.2:9,10."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, it is interesting that on the way He interpreted to them from the Scriptures, from Moses and the prophets, the things concerning Himself (v.27). Moses and the prophets involve God coming out. But as coming to the company, it says that He “opened their understanding” and He speaks from Moses and the prophets and the Psalms (vv.44,45). Now that brings in another element, does it not? Not only is God coming out and speaking to man, but the Psalms give some impression of man speaking to God. There is something going back to God. Now our understanding is to be opened to the truth that there is an area of things that not only includes my blessing, what God is to me, but what I am to God."
+     "speaker": "RWF",
+     "text": [
+      "That is the continuation by the Spirit of the work that Christ commenced here in Luke 24 in opening their understanding."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "The Psalms speak of the result of experience with the Lord Himself which these persons had, do you think?"
+     "speaker": "RDP",
+     "text": [
+      "I believe so. I think that the understanding of the Scriptures which we get from the Lord Jesus is even greater than their interpretation.",
+      "In Colossians there is this reference to “the mystery of God.” Paul says, “I would have you know what combat I have for you … and as many as have not seen my face in flesh; to the end that their hearts may be encouraged, being united together in love, and unto all riches of the full assurance of understanding, to the full knowledge of the mystery of God”. Now, if you look in Ephesians, you will see a reference there to the mystery of God, “the administration of the mystery hidden throughout the ages in God”, Eph.3.9. Revelation also speaks about the mystery of God, “the seventh angel, when he is about to sound the trumpet, the mystery of God also shall be completed, as he has made known the glad tidings to his own bondmen the prophets”, Rev.10.7."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes. When you look at the Psalms, they are the utterances of persons, and what do you find amongst them? Rich, unique expressions of appreciation prophetically of the sufferings of Christ that you get nowhere else in Scripture. So these persons go back to the company, knowing that as going further there is far more for them than they had ever known before. My exercise, beloved brethren, is that we do not stop short of the full thought of God like the two and a half tribes. The full thought of God is not what is down here. The full thought of God is what is in His own presence in relation to Himself, to be known at the present time, and that involves the Spirit. It is a spiritual area."
+     "speaker": "RHB",
+     "text": [
+      "Is it what has gone on in a hidden way, but in Revelation it comes onto view and therefore it is a mystery no longer? It is a wonderful thing to get a divinely given view of what God has and of what He is supporting. If we just get a view of what is outward, it might look a poor thing, but to get a Spirit-given view of the mystery of God is wonderful, even while it is still hidden publicly. Is that a right way of thinking of it?"
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "Say something as to His opening their understanding. That is more than light. You sometimes think ‘I am not equal to this’. It says He opened their understanding. It was almost as if the light that they had now became more than that; it had moved to another level, had it not? They understood it. Wisdom entered into it, I suppose."
+     "speaker": "RDP",
+     "text": [
+      "Yes. I do not think that Paul in Colossians opens it up much, but he opens up to our view the One who is the Centre of the mystery of God; that is Christ. We are given a unique view of the Lord Jesus in Colossians, especially in the first chapter, but it is more the introduction to it. In this chapter, Paul is bringing before the saints “all riches of the full assurance of understanding, to the full knowledge of the mystery of God”. As completed in Revelation, it must involve everything that could ever be known about God; His operations, what He is, His love, the fulness of His thoughts, the extent of His work. You get some touches in Ephesians, “what is the hope of his calling, and what the riches of the glory of his inheritance in the saints”, Eph.1:18. You start to get some idea of the expanse of God’s realm. Now these things, beloved brethren, do not initially form part of our consciousness of salvation, when we are saved from our sins. But then there is a whole range of things that are set before the saints, and the Man in whom they are all centred is brought before us. It involves that not only do we have the knowledge of Christ as dead and raised, but that we come into the thought of our being raised with Him; we enter into a spiritual world. That is Colossians; not only that we have faith, but Colossians brings in the wonderful thought of quickening, not only through faith, but bringing in life. I wonder if we might be persuaded to “go farther”."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Appreciation of the Scriptures is important. When we were young, the Scriptures were very often used to convey stories of Jesus and histories, and these are very precious things. We then go on, as we get older perhaps, to appreciate that the Scriptures involve more than history, more than a story. Moral teaching comes into the Scriptures, but as you go on in life, you see there is even more than what is moral in the Scriptures. There is what is spiritual, there is spiritual meaning contained in the Scriptures, and you will find your understanding becomes opened in relation to that."
+     "speaker": "JRW",
+     "text": [
+      "Colossians tells us that everything is in Him. We get this wonderful expression “for in him all the fulness of the Godhead was pleased to dwell” (Col.1:19), and then in the section you read, “in him dwells all the fulness of the Godhead bodily”. So as having in our hearts that everything is in Him, that gives us the impetus to go further, to come to some further understanding of what opens up. We need the Spirit’s help for that. Not much is said in Colossians about the Spirit, but we cannot go further without the Spirit, can we?"
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "I just fear that sometimes we look at things and say, ‘This is impossible for me’, but He opened their understanding. He was very ready to do it."
+     "speaker": "RDP",
+     "text": [
+      "No, I am sure that is right. Chapter 1 brings before us the Lord Jesus as the great divine Operator, and all the fulness of the Godhead dwells in Him; that is in relation to His glory and the glory of Godhead. But this chapter brings in that the fulness of the Godhead dwells bodily, which means that it is available to us."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes, and you notice with Jabez, it was God who enlarged his border. If we get anything that is permanent, it comes from God, it does not come from what we read. What we read may help us, but if you get anything permanent, it comes from God."
+     "speaker": "DAB",
+     "text": [
+      "Is the progressive way in which God has Himself acted intended to draw us along? The mystery speaks of things that are behind the scenes; they have not come out into display. Then when the Lord Jesus was here, He was here in testimony, but even then there was not a display. And now, according to this passage, He is in glory, but that is still not display, although He is in the hearts of His people and colours their testimony. But then a day is coming when He will be displayed and so will we. Are these progressions intended to set the heart of the believer in motion?"
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Early in the first epistle to the Corinthians, the apostle touches on the things that God has prepared for those that love Him. It is striking that in that corrective epistle, he should refer to that so early. We think a good deal of the correction and teaching connected with it, but really the apostle was encouraging the Corinthians to go further, was he not?"
+     "speaker": "RDP",
+     "text": [
+      "I believe so. The thought of hiding goes on; Paul speaks in this book about “your life is hid with the Christ in God”, Col.3:3. That is a life in which persons have gone further. Their life is hid; there is to the believer more than is apparent. At the Lord’s supper there is a certain public side, there is an announcement of His death. But we then move on to an area of things which in a sense is linked with that hidden life, do you think?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "It is surprising that comes in so early in the book, “Things which eye has not seen, and ear not heard, and which have not come into man’s heart, which God has prepared for them that love him, but God has revealed to us by his Spirit”, 1 Cor.2:9,10."
+     "speaker": "DAB",
+     "text": [
+      "Yes, and that is where our spring is. It colours the testimony, does it not? I meet people sometimes who regard their faith as private. It does not seem to me they have touched it, because if they touch what the two in Luke 24 reached, it would colour their testimony. They had seen the Lord."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "That is the continuation by the Spirit of the work that Christ commenced here in Luke 24 in opening their understanding."
+     "speaker": "RDP",
+     "text": [
+      "Yes, so something of the character of the two men in shining raiment comes out in these persons. They have part in the testimony here, although their life is hid with Christ in God. They have part in a scene of things where He is still rejected, but their life is somewhere else, it is hid with Him. These are very precious things. I wonder if we are prepared to “go farther”. Let me ask the young people here, Romans and Corinthians link to what is down here, but what are Colossians and Ephesians for? They do not exactly occupy us with what is down here, they link with what is centred in another sphere. Think of creatures like ourselves being introduced into the mystery of God. Here we are, ordinary persons, who by divine power have access to the thought of “the mystery of God.” What precious things these are!"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I believe so. I think that the understanding of the Scriptures which we get from the Lord Jesus is even greater than their interpretation."
+     "speaker": "RWF",
+     "text": [
+      "In the service of God, He gives us a view of what is beyond, which encourages us to go further."
+     ]
     },
     {
-     "text": "In Colossians there is this reference to “the mystery of God.” Paul says, “I would have you know what combat I have for you … and as many as have not seen my face in flesh; to the end that their hearts may be encouraged, being united together in love, and unto all riches of the full assurance of understanding, to the full knowledge of the mystery of God”. Now, if you look in Ephesians, you will see a reference there to the mystery of God, “the administration of the mystery hidden throughout the ages in God”, Eph.3.9. Revelation also speaks about the mystery of God, “the seventh angel, when he is about to sound the trumpet, the mystery of God also shall be completed, as he has made known the glad tidings to his own bondmen the prophets”, Rev.10.7."
+     "speaker": "RDP",
+     "text": [
+      "There is something unique and special in the Supper and the service of God. More than any other occasion, there is what is exclusive in occupation with Christ. And whenever you have to do with Christ, He indicates what is beyond. In John’s gospel, when He is about to depart, He is always speaking to His own about what is beyond. He speaks about the Spirit coming in, He speaks about His Father’s house, He tells them that He is coming again to receive them to Himself. He is asking that they might be with Him where He is. There is always something beyond. The Lord’s supper is a peculiarly precious entrance, I think, into this hidden side and the further experience of divine things."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "Is it what has gone on in a hidden way, but in Revelation it comes onto view and therefore it is a mystery no longer? It is a wonderful thing to get a divinely given view of what God has and of what He is supporting. If we just get a view of what is outward, it might look a poor thing, but to get a Spirit-given view of the mystery of God is wonderful, even while it is still hidden publicly. Is that a right way of thinking of it?"
+     "speaker": "TJH",
+     "text": [
+      "Do you think that we may be hindered from going further if we remain in what is earthly? Particularly in the Lord’s supper there is a need to ascend with Him to the mount of Olives, an elevated area. It would encourage us to ascend and not remain in what is earthly."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Yes. I do not think that Paul in Colossians opens it up much, but he opens up to our view the One who is the Centre of the mystery of God; that is Christ. We are given a unique view of the Lord Jesus in Colossians, especially in the first chapter, but it is more the introduction to it. In this chapter, Paul is bringing before the saints “all riches of the full assurance of understanding, to the full knowledge of the mystery of God”. As completed in Revelation, it must involve everything that could ever be known about God; His operations, what He is, His love, the fulness of His thoughts, the extent of His work. You get some touches in Ephesians, “what is the hope of his calling, and what the riches of the glory of his inheritance in the saints”, Eph.1:18. You start to get some idea of the expanse of God’s realm. Now these things, beloved brethren, do not initially form part of our consciousness of salvation, when we are saved from our sins. But then there is a whole range of things that are set before the saints, and the Man in whom they are all centred is brought before us. It involves that not only do we have the knowledge of Christ as dead and raised, but that we come into the thought of our being raised with Him; we enter into a spiritual world. That is Colossians; not only that we have faith, but Colossians brings in the wonderful thought of quickening, not only through faith, but bringing in life. I wonder if we might be persuaded to “go farther”."
+     "speaker": "RDP",
+     "text": [
+      "We need to encourage one another to be more occupied with Christ, because He is the Living One. John’s gospel was probably written after the Revelation. In Revelation, John is introduced to Jesus, “I am the first and the last, and the living One”, Rev.1:17. Then John writes his gospel, and I think he is imbued with the thought of the Living One."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "Colossians tells us that everything is in Him. We get this wonderful expression “for in him all the fulness of the Godhead was pleased to dwell” (Col.1:19), and then in the section you read, “in him dwells all the fulness of the Godhead bodily”. So as having in our hearts that everything is in Him, that gives us the impetus to go further, to come to some further understanding of what opens up. We need the Spirit’s help for that. Not much is said in Colossians about the Spirit, but we cannot go further without the Spirit, can we?"
+     "speaker": "PM",
+     "text": [
+      "It was remarked earlier that everything for God is centred in Christ in Colossians, but it is affecting that that same blessed Man is in our hearts “Christ in you the hope of glory”, Col.1:27. The One in whom everything for God is centred is in us. Does the reference to the hope of glory suggests that He would lead us further in relation to what is in His own heart for God?"
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "No, I am sure that is right. Chapter 1 brings before us the Lord Jesus as the great divine Operator, and all the fulness of the Godhead dwells in Him; that is in relation to His glory and the glory of Godhead. But this chapter brings in that the fulness of the Godhead dwells bodily, which means that it is available to us."
+     "speaker": "RDP",
+     "text": [
+      "I think so. That is a particularly precious expression. Paul’s ministry is to the assembly among the nations, “this mystery among the nations, which is Christ in you the hope of glory”. That is a distinct blessing which is related to the opening up of the mystery in relation to the nations. It is not exactly Christ for you, but “in you.” This blessing was to involve His presence, His nearness in their hearts day by day, that Christ was there in them; not just as a distant object, but as a living, abiding presence. That is the distinction of Paul’s ministry."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Is the progressive way in which God has Himself acted intended to draw us along? The mystery speaks of things that are behind the scenes; they have not come out into display. Then when the Lord Jesus was here, He was here in testimony, but even then there was not a display. And now, according to this passage, He is in glory, but that is still not display, although He is in the hearts of His people and colours their testimony. But then a day is coming when He will be displayed and so will we. Are these progressions intended to set the heart of the believer in motion?"
+     "speaker": "PM",
+     "text": [
+      "I wonder if it was seen in Stephen, who was, you might say, a man of shining raiment in the midst of a scene of opposition. Christ was in him."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "I believe so. The thought of hiding goes on; Paul speaks in this book about “your life is hid with the Christ in God”, Col.3:3. That is a life in which persons have gone further. Their life is hid; there is to the believer more than is apparent. At the Lord’s supper there is a certain public side, there is an announcement of His death. But we then move on to an area of things which in a sense is linked with that hidden life, do you think?"
-    },
-    {
-     "speaker": "D.A.B.",
-     "text": "Yes, and that is where our spring is. It colours the testimony, does it not? I meet people sometimes who regard their faith as private. It does not seem to me they have touched it, because if they touch what the two in Luke 24 reached, it would colour their testimony. They had seen the Lord."
-    },
-    {
-     "speaker": "R.D.P.",
-     "text": "Yes, so something of the character of the two men in shining raiment comes out in these persons. They have part in the testimony here, although their life is hid with Christ in God. They have part in a scene of things where He is still rejected, but their life is somewhere else, it is hid with Him. These are very precious things. I wonder if we are prepared to “go farther”. Let me ask the young people here, Romans and Corinthians link to what is down here, but what are Colossians and Ephesians for? They do not exactly occupy us with what is down here, they link with what is centred in another sphere. Think of creatures like ourselves being introduced into the mystery of God. Here we are, ordinary persons, who by divine power have access to the thought of “the mystery of God.” What precious things these are!"
-    },
-    {
-     "speaker": "R.W.F.",
-     "text": "In the service of God, He gives us a view of what is beyond, which encourages us to go further."
-    },
-    {
-     "speaker": "R.D.P.",
-     "text": "There is something unique and special in the Supper and the service of God. More than any other occasion, there is what is exclusive in occupation with Christ. And whenever you have to do with Christ, He indicates what is beyond. In John’s gospel, when He is about to depart, He is always speaking to His own about what is beyond. He speaks about the Spirit coming in, He speaks about His Father’s house, He tells them that He is coming again to receive them to Himself. He is asking that they might be with Him where He is. There is always something beyond. The Lord’s supper is a peculiarly precious entrance, I think, into this hidden side and the further experience of divine things."
-    },
-    {
-     "speaker": "T.J.H.",
-     "text": "Do you think that we may be hindered from going further if we remain in what is earthly? Particularly in the Lord’s supper there is a need to ascend with Him to the mount of Olives, an elevated area. It would encourage us to ascend and not remain in what is earthly."
-    },
-    {
-     "speaker": "R.D.P.",
-     "text": "We need to encourage one another to be more occupied with Christ, because He is the Living One. John’s gospel was probably written after the Revelation. In Revelation, John is introduced to Jesus, “I am the first and the last, and the living One”, Rev.1:17. Then John writes his gospel, and I think he is imbued with the thought of the Living One."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "It was remarked earlier that everything for God is centred in Christ in Colossians, but it is affecting that that same blessed Man is in our hearts “Christ in you the hope of glory”, Col.1:27. The One in whom everything for God is centred is in us. Does the reference to the hope of glory suggests that He would lead us further in relation to what is in His own heart for God?"
-    },
-    {
-     "speaker": "R.D.P.",
-     "text": "I think so. That is a particularly precious expression. Paul’s ministry is to the assembly among the nations, “this mystery among the nations, which is Christ in you the hope of glory”. That is a distinct blessing which is related to the opening up of the mystery in relation to the nations. It is not exactly Christ for you, but “in you.” This blessing was to involve His presence, His nearness in their hearts day by day, that Christ was there in them; not just as a distant object, but as a living, abiding presence. That is the distinction of Paul’s ministry."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "I wonder if it was seen in Stephen, who was, you might say, a man of shining raiment in the midst of a scene of opposition. Christ was in him."
-    },
-    {
-     "speaker": "R.D.P.",
-     "text": "Well, the brethren might consider whether we are going to stop short and settle down in circumstances here or whether we will “go farther” in divine things."
+     "speaker": "RDP",
+     "text": [
+      "Well, the brethren might consider whether we are going to stop short and settle down in circumstances here or whether we will “go farther” in divine things."
+     ]
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"D.H.Bailey Maidstone\" read as D. H. Bailey, Maidstone"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"D.A.Burr London\" read as D. A. Burr, London"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"R.H.Brown East Finchley\" read as R. H. Brown, East Finchley"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"M.R.Cook Maidstone\" read as M. R. Cook, Maidstone"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"R.W.Flowerdew Sunbury\" read as R. W. Flowerdew, Sunbury"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"T.J.Harvey East Finchley\" read as T. J. Harvey, East Finchley"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"K.Marshall Colchester\" read as K. Marshall, Colchester"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"P. Martin Colchester\" read as P. Martin, Colchester"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"K.May Maidstone\" read as K. May, Maidstone"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"P.J.Mutton Walton\" read as P. J. Mutton, Walton"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"R.D.Plant Birmingham\" read as R. D. Plant, Birmingham"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"D.J.Roberts Gillingham\" read as D. J. Roberts, Gillingham"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"D.J.Willetts Birmingham\" read as D. J. Willetts, Birmingham"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"D.J.Wright Havering\" read as D. J. Wright, Havering"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"J.Wright Witney\" read as J. Wright, Witney"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "no_comma_before_place",
+   "detail": "\"J.R.Walkinshaw Maidstone\" read as J. R. Walkinshaw, Maidstone"
+  },
+  {
+   "article": 2,
+   "title": "GOING FURTHER",
+   "kind": "initials_before_name",
+   "detail": "16 entries written as initials then name (\"DHB ...\")"
   }
  ]
 }

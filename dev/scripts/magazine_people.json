@@ -1,0 +1,40 @@
+{
+  "_about": "People the magazine keys name inconsistently. build_magazines.py applies these after matching each key to its text. 'surname' and 'forenames' pick the key entries (forenames are the first word or initial as printed: B, Bill, W ...); 'not_places' excludes other men of the same name. 'initials', if given, replaces the entry's initials and the speaker initials in the text that pointed to it. 'place', if given, fills a place the key does not print (a printed place is never overwritten). 'aliases' are other speaker initials in the text that always mean this man (changed to 'initials' even where the key does not list him).",
+  "people": [
+    {
+      "initials": "WWL",
+      "name": "Bill W. Lovie",
+      "place": "Aberdeen",
+      "surname": "Lovie",
+      "forenames": [
+        "B",
+        "Bill",
+        "W"
+      ],
+      "not_places": [
+        "Macduff"
+      ],
+      "aliases": [
+        "BWL"
+      ]
+    },
+    {
+      "name": "Doug Matthews",
+      "place": "Birmingham",
+      "surname": "Matthews",
+      "forenames": [
+        "Doug"
+      ]
+    },
+    {
+      "name": "James Webster",
+      "place": "Fraserburgh",
+      "surname": "Webster",
+      "forenames": [
+        "J",
+        "Jas",
+        "James"
+      ]
+    }
+  ]
+}

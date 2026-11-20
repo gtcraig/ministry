@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,30 +26,31 @@
    "place": "LONDON",
    "date": "17 October 1987",
    "speakers": [
-    "R.F.W.",
-    "J.C.E.",
-    "D.B.B.",
-    "S.D.K.R.",
-    "R.W.F.",
-    "J.M.",
-    "E.C.B.",
-    "F.C.M.",
-    "E.P.",
-    "R.T.",
-    "S.N.C.",
-    "H.A.H.",
-    "B.W.W.",
-    "D.J.H.",
-    "D.A.B.",
-    "D.E.R.",
-    "D.J.W.",
-    "E.O.",
-    "J.R.S."
+    "RFW",
+    "JCE",
+    "DBB",
+    "SDKR",
+    "RWF",
+    "JM",
+    "ECB",
+    "FCM",
+    "EP",
+    "RT",
+    "SNC",
+    "HAH",
+    "BWW",
+    "DJH",
+    "DAB",
+    "DER",
+    "DJW",
+    "EO",
+    "JRS"
    ],
    "initials": [
     {
-     "initials": "ADAB",
-     "name": "(All local unless otherwise stated) D.A.Burr"
+     "initials": "DAB",
+     "name": "D.A.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "DBB",
@@ -58,7 +59,8 @@
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "LONDON"
     },
     {
      "initials": "SNC",
@@ -67,19 +69,23 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "LONDON"
     },
     {
      "initials": "RWF",
-     "name": "R.W.Flowerdew"
+     "name": "R.W.Flowerdew",
+     "place": "LONDON"
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "LONDON"
     },
     {
      "initials": "FCM",
@@ -93,11 +99,13 @@
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "LONDON"
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "LONDON"
     },
     {
      "initials": "DER",
@@ -121,7 +129,8 @@
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "LONDON"
     },
     {
      "initials": "DJW",
@@ -135,546 +144,815 @@
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "D.A.Burr; D.B.Bodman, Birmingham; E.C.Burr; S.N.Chapman, Barbados; J.C.Evershed; R.W.Flowerdew; D.J.Hutson; H.A.Hutson; F.C.Mutton, Redbridge; J.Mitchell, Bexley; E.Oliver; E.Palmer; D.E. Remmington, St.Albans; S.D.K.Roberts, Croydon; J.R.Surtees, Buckhurst Hill; R.Taylor, Barnet; B.W.Ward; D.J.Wright, Redbridge; R.F.White, Londonderry"
    ],
    "paragraphs": [
     {
-     "speaker": "R.F.W.",
-     "text": "These New Testament Scriptures which we have read refer to the Lord Jesus as God's Anointed. The passages are well known, and I am sure the subject has been considered many times, but I thought it would be good to look at it again and perhaps get some impressions of the greatness of Christ as the anointed Man. It struck me in reading it that Luke brings forward this matter early in his record in the gospel. The Lord, in beginning His public service in the section we have read, brings forward this scripture which refers to Him prophetically; and in Acts, where Peter presents the gospel, I suppose we could say formally to the nations for the first time, he brings the truth of the anointing forward also. So I suggest that it would be good if, as early as possible in our histories as believers, something entered into our souls about the Lord Jesus as God's anointed Man. One way that we can view the thought of the anointing is that God has committed Himself fully to one blessed Man. I think that is something that it is important to get into the soul, that God has committed Himself fully to one blessed, glorious Man. The anointing would speak of that, and we should therefore be exercised to know what kind of a Man God has committed Himself to. The gospels, by the Spirit, would help us to get impressions of the kind of man that the Lord Jesus was, by the things that He said, the way that He spoke and the way that He acted. The verses which we have read in Luke refer to the words of grace proceeding out of His mouth but also describe Him doing certain things, so that not only in how He spoke but in the way things were done there was the expression of grace, the expression of the anointing. I suppose our desire would be to get underneath the words - the word 'anointing' or any other words in the Scripture - and see the meaning that the Spirit of God intends us to draw out. That was my desire in bringing forward these scriptures."
+     "speaker": "RFW",
+     "text": [
+      "These New Testament Scriptures which we have read refer to the Lord Jesus as God's Anointed. The passages are well known, and I am sure the subject has been considered many times, but I thought it would be good to look at it again and perhaps get some impressions of the greatness of Christ as the anointed Man. It struck me in reading it that Luke brings forward this matter early in his record in the gospel. The Lord, in beginning His public service in the section we have read, brings forward this scripture which refers to Him prophetically; and in Acts, where Peter presents the gospel, I suppose we could say formally to the nations for the first time, he brings the truth of the anointing forward also. So I suggest that it would be good if, as early as possible in our histories as believers, something entered into our souls about the Lord Jesus as God's anointed Man. One way that we can view the thought of the anointing is that God has committed Himself fully to one blessed Man. I think that is something that it is important to get into the soul, that God has committed Himself fully to one blessed, glorious Man. The anointing would speak of that, and we should therefore be exercised to know what kind of a Man God has committed Himself to. The gospels, by the Spirit, would help us to get impressions of the kind of man that the Lord Jesus was, by the things that He said, the way that He spoke and the way that He acted. The verses which we have read in Luke refer to the words of grace proceeding out of His mouth but also describe Him doing certain things, so that not only in how He spoke but in the way things were done there was the expression of grace, the expression of the anointing. I suppose our desire would be to get underneath the words - the word 'anointing' or any other words in the Scripture - and see the meaning that the Spirit of God intends us to draw out. That was my desire in bringing forward these scriptures."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Is the anointing for a distinct purpose? It may be a long purpose, but it might be something special for any time. I was thinking of the distinction between that and sanctification. A believer is sanctified, and it speaks of the Lord being sanctified and sent, but anointing, in my mind, has something specific in view, probably service. The sense of anointing would be separating to it."
+     "speaker": "JCE",
+     "text": [
+      "Is the anointing for a distinct purpose? It may be a long purpose, but it might be something special for any time. I was thinking of the distinction between that and sanctification. A believer is sanctified, and it speaks of the Lord being sanctified and sent, but anointing, in my mind, has something specific in view, probably service. The sense of anointing would be separating to it."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, I think so. The anointing, as we have been taught, implies dignity and power in the person anointed. I suppose the Old Testament helps us in the way that the subject is brought forward there, to see that God intended to convey something of the distinctiveness of the anointing in His mind. Various persons were anointed, as we know, the priests and the kings, especially Aaron and David, and then we have prophets too - Elisha, and I suppose we could even say Isaiah from the scripture that is quoted from his prophecy - but no one person in the Old Testament combined all the features that were expressed. When you come to the Lord Jesus it says that the Holy Spirit descended in a bodily form as a dove upon Him; I suppose that every feature seen in the Old Testament relating to the anointing was gathered up in that."
+     "speaker": "RFW",
+     "text": [
+      "Yes, I think so. The anointing, as we have been taught, implies dignity and power in the person anointed. I suppose the Old Testament helps us in the way that the subject is brought forward there, to see that God intended to convey something of the distinctiveness of the anointing in His mind. Various persons were anointed, as we know, the priests and the kings, especially Aaron and David, and then we have prophets too - Elisha, and I suppose we could even say Isaiah from the scripture that is quoted from his prophecy - but no one person in the Old Testament combined all the features that were expressed. When you come to the Lord Jesus it says that the Holy Spirit descended in a bodily form as a dove upon Him; I suppose that every feature seen in the Old Testament relating to the anointing was gathered up in that."
+     ]
     },
     {
-     "speaker": "D.B.B.",
-     "text": "Would Simeon have had some impression of that, that he should see the Lord's Christ?"
+     "speaker": "DBB",
+     "text": [
+      "Would Simeon have had some impression of that, that he should see the Lord's Christ?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. What a wonderful expression! When he saw the Lord's Christ he said \"now thou lettest thy bondman go, according to thy word, in peace\", Luke 2: 29. The Lord's Christ: this is the One who would take care of everything for God perfectly. So Simeon could go in peace. Every divine thought would be secured by this blessed One. Everything for God was held and secured by Christ. I suppose that is involved in the thought of the anointing. God commits Himself to this Person in view of being represented."
+     "speaker": "RFW",
+     "text": [
+      "Yes. What a wonderful expression! When he saw the Lord's Christ he said \"now thou lettest thy bondman go, according to thy word, in peace\", Luke 2: 29. The Lord's Christ: this is the One who would take care of everything for God perfectly. So Simeon could go in peace. Every divine thought would be secured by this blessed One. Everything for God was held and secured by Christ. I suppose that is involved in the thought of the anointing. God commits Himself to this Person in view of being represented."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "I was thinking of your reference to committal. I think that the first time anointing is mentioned in Scripture is Jacob anointing the pillar; he committed himself to his vow. Of course that is a little different thought, but I think the thought of committal is very good, connected with anointing. God has committed Himself to that Man."
+     "speaker": "SDKR",
+     "text": [
+      "I was thinking of your reference to committal. I think that the first time anointing is mentioned in Scripture is Jacob anointing the pillar; he committed himself to his vow. Of course that is a little different thought, but I think the thought of committal is very good, connected with anointing. God has committed Himself to that Man."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, I think we would learn that from the reference in Acts: \"who went through all quarters doing good, and healing all that were under the power of the devil, because God was with him\". That involved God being committed to Christ, and God was perfectly represented in Him. The reference to Jacob is interesting. Where did he get the thought of anointing the stone? What did it mean to him? It meant something to his soul, did it not?"
+     "speaker": "RFW",
+     "text": [
+      "Yes, I think we would learn that from the reference in Acts: \"who went through all quarters doing good, and healing all that were under the power of the devil, because God was with him\". That involved God being committed to Christ, and God was perfectly represented in Him. The reference to Jacob is interesting. Where did he get the thought of anointing the stone? What did it mean to him? It meant something to his soul, did it not?"
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Was it your thought that we should understand the divine intent and meaning in anointing? In this scene men are distinguished despite what they are morally, but Christ is anointed because He is altogether worthy."
+     "speaker": "RWF",
+     "text": [
+      "Was it your thought that we should understand the divine intent and meaning in anointing? In this scene men are distinguished despite what they are morally, but Christ is anointed because He is altogether worthy."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. I think the anointing brings in something that is of God. It is something that is not in man's heart or mind or system, something that is of God. It seems that the Lord in this section is quite deliberate in pointing out this matter at the start of His service, in Luke's account."
+     "speaker": "RFW",
+     "text": [
+      "Yes. I think the anointing brings in something that is of God. It is something that is not in man's heart or mind or system, something that is of God. It seems that the Lord in this section is quite deliberate in pointing out this matter at the start of His service, in Luke's account."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Is He both the anointed Man and the Man anointed?"
+     "speaker": "JM",
+     "text": [
+      "Is He both the anointed Man and the Man anointed?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes; what is the difference?"
+     "speaker": "RFW",
+     "text": [
+      "Yes; what is the difference?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Thirty years of life had gone before this chapter in Luke. It is significant, is it not, that He waits for that thirty years before He goes out in public service, so that He goes out as the anointed Man. But then He is also the Man anointed. In that thirty years of private life all the fragrance of that precious life actually came out, and God came in in relation to that in the anointing, do you not think? These two things are very closely connected, are they not?"
+     "speaker": "JM",
+     "text": [
+      "Thirty years of life had gone before this chapter in Luke. It is significant, is it not, that He waits for that thirty years before He goes out in public service, so that He goes out as the anointed Man. But then He is also the Man anointed. In that thirty years of private life all the fragrance of that precious life actually came out, and God came in in relation to that in the anointing, do you not think? These two things are very closely connected, are they not?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, I think they are. The anointing, as has been said, involves character, but I suppose with us the thought of anointing would involve a change of character. If we take this matter on ourselves it would involve that we have to learn from Christ what the anointing is. The Holy Spirit coming on Christ involved no change of character in Him."
+     "speaker": "RFW",
+     "text": [
+      "Yes, I think they are. The anointing, as has been said, involves character, but I suppose with us the thought of anointing would involve a change of character. If we take this matter on ourselves it would involve that we have to learn from Christ what the anointing is. The Holy Spirit coming on Christ involved no change of character in Him."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Exactly the opposite; there is complacency, everything there was infinitely pleasurable to God, and the anointing is the evidence of that."
+     "speaker": "JM",
+     "text": [
+      "Exactly the opposite; there is complacency, everything there was infinitely pleasurable to God, and the anointing is the evidence of that."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It says \"Upon man's flesh shall it not be poured\", Exod 30: 32. Is that bearing upon ourselves? In Jesus there was that as to which no question could be raised. Is it of interest that in the scriptures you have read, while in Luke 4 it does say \"has anointed me to preach\", these scriptures are not related to any particular office. The anointings in the Old Testament were for the priest or the prophet or the king - an office; but is the emphasis in these New Testament scriptures on the Man?"
+     "speaker": "ECB",
+     "text": [
+      "It says \"Upon man's flesh shall it not be poured\", Exod 30: 32. Is that bearing upon ourselves? In Jesus there was that as to which no question could be raised. Is it of interest that in the scriptures you have read, while in Luke 4 it does say \"has anointed me to preach\", these scriptures are not related to any particular office. The anointings in the Old Testament were for the priest or the prophet or the king - an office; but is the emphasis in these New Testament scriptures on the Man?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, it is wonderful to think of that. This Man could fill any office, could He not? The anointed Man was suitable, and is suitable, as we know, to fill every office perfectly. Sometimes we say the office makes the man, do we not? But think of this blessed Man! It gives you a wonderful thought, that God had a Man here who was capable of filling out perfectly every thought that He had."
+     "speaker": "RFW",
+     "text": [
+      "Yes, it is wonderful to think of that. This Man could fill any office, could He not? The anointed Man was suitable, and is suitable, as we know, to fill every office perfectly. Sometimes we say the office makes the man, do we not? But think of this blessed Man! It gives you a wonderful thought, that God had a Man here who was capable of filling out perfectly every thought that He had."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Even His physical actions are referred to, that \"he stood up\", \"found the place\" and \"sat down\" and began to speak. What a blessed thing to see a Man whose every movement and action bespoke the grace of the anointing!"
+     "speaker": "FCM",
+     "text": [
+      "Even His physical actions are referred to, that \"he stood up\", \"found the place\" and \"sat down\" and began to speak. What a blessed thing to see a Man whose every movement and action bespoke the grace of the anointing!"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, it is striking the way this section is written. You might wonder why all these movements of the Lord Jesus are referred to. ''He entered, according to his custom, into the synagogue on the sabbath day, and stood up to read ... and having unrolled the book he found the place\"; and \"having rolled up the book, when he had delivered it to the attendant, he sat down, and the eyes of all in the synagogue were fixed upon him\". The anointing as seen here involves not only what was said but how He did things. There was an impression conveyed in the way that He did things which bore testimony to this holy character of things."
+     "speaker": "RFW",
+     "text": [
+      "Yes, it is striking the way this section is written. You might wonder why all these movements of the Lord Jesus are referred to. ''He entered, according to his custom, into the synagogue on the sabbath day, and stood up to read ... and having unrolled the book he found the place\"; and \"having rolled up the book, when he had delivered it to the attendant, he sat down, and the eyes of all in the synagogue were fixed upon him\". The anointing as seen here involves not only what was said but how He did things. There was an impression conveyed in the way that He did things which bore testimony to this holy character of things."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "As anointed He would be doing things for God."
+     "speaker": "EP",
+     "text": [
+      "As anointed He would be doing things for God."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, indeed. We have often noticed that in reading this quotation from Isaiah He comes to a point and stops. It is the mind of God for the moment, is it not? It is the inauguration of the dispensation of grace. He stops at a certain point."
+     "speaker": "RFW",
+     "text": [
+      "Yes, indeed. We have often noticed that in reading this quotation from Isaiah He comes to a point and stops. It is the mind of God for the moment, is it not? It is the inauguration of the dispensation of grace. He stops at a certain point."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "In that sense He is distinguished personally, is He not? There is that remarkable reference in Exodus 29 where Aaron is anointed apart from blood first (see v 7). When he is identified with his sons there is blood, but first of all, where he is anointed the oil is poured upon him, there is no blood. Do you think, in that sense, that he represents in a remarkable way the person of the Lord Jesus, distinguished on account of His own worth?"
+     "speaker": "EP",
+     "text": [
+      "In that sense He is distinguished personally, is He not? There is that remarkable reference in Exodus 29 where Aaron is anointed apart from blood first (see v 7). When he is identified with his sons there is blood, but first of all, where he is anointed the oil is poured upon him, there is no blood. Do you think, in that sense, that he represents in a remarkable way the person of the Lord Jesus, distinguished on account of His own worth?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Quite so. The Lord Jesus was great enough as Man to be anointed. He was great enough for the Spirit to descend upon Him in this way, quite apart from the question of blood. We are given the Spirit, are sealed and anointed, but that is subsequent to redemption."
+     "speaker": "RFW",
+     "text": [
+      "Quite so. The Lord Jesus was great enough as Man to be anointed. He was great enough for the Spirit to descend upon Him in this way, quite apart from the question of blood. We are given the Spirit, are sealed and anointed, but that is subsequent to redemption."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "They probably wondered when He was going to stop unrolling the book. It was right at the end of the book; what it must have meant to the Lord to go past what is now chapter 53 for instance! You spoke of the Lord choosing what was current. In those earlier chapters there was what was past in the way of sorrow and evil in the people and in the nations around, also the prospect of the world to come and other matters, but the Lord just goes on in His skill to this place, which would represent in a special way God's grace towards the needy."
+     "speaker": "JCE",
+     "text": [
+      "They probably wondered when He was going to stop unrolling the book. It was right at the end of the book; what it must have meant to the Lord to go past what is now chapter 53 for instance! You spoke of the Lord choosing what was current. In those earlier chapters there was what was past in the way of sorrow and evil in the people and in the nations around, also the prospect of the world to come and other matters, but the Lord just goes on in His skill to this place, which would represent in a special way God's grace towards the needy."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Indeed. How wonderful to think that such a scripture could be read, not only in word but in power, because there was One here capable of putting this into effect."
+     "speaker": "RFW",
+     "text": [
+      "Indeed. How wonderful to think that such a scripture could be read, not only in word but in power, because there was One here capable of putting this into effect."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It would seem that the very place, Nazareth, was chosen for this. Does all that emphasise the power of the anointing in these very circumstances?"
+     "speaker": "RT",
+     "text": [
+      "It would seem that the very place, Nazareth, was chosen for this. Does all that emphasise the power of the anointing in these very circumstances?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes; say more about that."
+     "speaker": "RFW",
+     "text": [
+      "Yes; say more about that."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It says \"he came to Nazareth, where he was brought up\". They said \"Is not this the son of Joseph?\". There was unbelief and the belittling His person, but the anointing is not affected by that; it still functions in its power, does it not?"
+     "speaker": "RT",
+     "text": [
+      "It says \"he came to Nazareth, where he was brought up\". They said \"Is not this the son of Joseph?\". There was unbelief and the belittling His person, but the anointing is not affected by that; it still functions in its power, does it not?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, I was thinking about that. It would appear that the Lord did not have one convert in this synagogue. It goes on to say \"they were all filled with rage in the synagogue\". He displayed this wonderful feature, but the terrible spirit of murder came out and they would have cast Him down, but it says that He \"went his way\". I think that would be a feature of the anointing. The anointed Man has a certain way, and He goes on in that way in the grace and power of the anointing, despite this sort of thing which had come to light. Would that be right?"
+     "speaker": "RFW",
+     "text": [
+      "Yes, I was thinking about that. It would appear that the Lord did not have one convert in this synagogue. It goes on to say \"they were all filled with rage in the synagogue\". He displayed this wonderful feature, but the terrible spirit of murder came out and they would have cast Him down, but it says that He \"went his way\". I think that would be a feature of the anointing. The anointed Man has a certain way, and He goes on in that way in the grace and power of the anointing, despite this sort of thing which had come to light. Would that be right?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It has been said before that He derived nothing from this scene when He came but He brought everything with Him. I think what you said as to the anointing as conveying dignity is most important, that we are not affected by the conditions but we are able to be superior to them in all the grace of that anointing."
+     "speaker": "RT",
+     "text": [
+      "It has been said before that He derived nothing from this scene when He came but He brought everything with Him. I think what you said as to the anointing as conveying dignity is most important, that we are not affected by the conditions but we are able to be superior to them in all the grace of that anointing."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. What a test that is! We tend to react to things as they affect us, and we are, I suppose, specially affected by personal antagonism, but the anointed Man was not affected in that way; He went His way."
+     "speaker": "RFW",
+     "text": [
+      "Yes. What a test that is! We tend to react to things as they affect us, and we are, I suppose, specially affected by personal antagonism, but the anointed Man was not affected in that way; He went His way."
+     ]
     },
     {
-     "speaker": "S.N.C.",
-     "text": "And also the manner in which He spoke. He affected men's inwards Godward, so men bore witness. They never heard anyone speak like Jesus. I think that is the character of things we need."
+     "speaker": "SNC",
+     "text": [
+      "And also the manner in which He spoke. He affected men's inwards Godward, so men bore witness. They never heard anyone speak like Jesus. I think that is the character of things we need."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, exactly; something better, something that obviously does not proceed from man, something that bears the divine character, the divine stamp."
+     "speaker": "RFW",
+     "text": [
+      "Yes, exactly; something better, something that obviously does not proceed from man, something that bears the divine character, the divine stamp."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "In that connection, do you think that, although it says He began to say \"Today this scripture is fulfilled in your ears\", the fact that it says before that \"the eyes of all in the synagogue were fixed upon him\" indicates that the very way He read the scripture bespoke that?"
+     "speaker": "HAH",
+     "text": [
+      "In that connection, do you think that, although it says He began to say \"Today this scripture is fulfilled in your ears\", the fact that it says before that \"the eyes of all in the synagogue were fixed upon him\" indicates that the very way He read the scripture bespoke that?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, it is wonderful to think of it. There was something so attractive. They must have heard the Scriptures read before, and perhaps they even had seen the Lord Jesus before, but on this day there was something distinctive, something special there, was there not?"
+     "speaker": "RFW",
+     "text": [
+      "Yes, it is wonderful to think of it. There was something so attractive. They must have heard the Scriptures read before, and perhaps they even had seen the Lord Jesus before, but on this day there was something distinctive, something special there, was there not?"
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "No-one had read it as He could read it, could they?"
+     "speaker": "HAH",
+     "text": [
+      "No-one had read it as He could read it, could they?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think there is some special significance in \"he has anointed me to preach\"? That is to say, the preaching is to be the expression of the grace that came in with the anointing. Does it involve the presentation of God in His present disposition?"
+     "speaker": "ECB",
+     "text": [
+      "Do you think there is some special significance in \"he has anointed me to preach\"? That is to say, the preaching is to be the expression of the grace that came in with the anointing. Does it involve the presentation of God in His present disposition?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, the preaching would convey something of the feelings of God. God was coming in and taking account of everything, not leaving anything unresolved or unattended to. \"To preach glad tidings to the poor ... to preach to captives deliverance, and to the blind sight, to send forth the crushed delivered, to preach the acceptable year of the Lord\". What wonderful glad tidings!"
+     "speaker": "RFW",
+     "text": [
+      "Yes, the preaching would convey something of the feelings of God. God was coming in and taking account of everything, not leaving anything unresolved or unattended to. \"To preach glad tidings to the poor ... to preach to captives deliverance, and to the blind sight, to send forth the crushed delivered, to preach the acceptable year of the Lord\". What wonderful glad tidings!"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think the oil of joy, which is referred to later in Isaiah 61 (v 3), is an impression of the anointing coming on those who receive the gospel?"
+     "speaker": "ECB",
+     "text": [
+      "Do you think the oil of joy, which is referred to later in Isaiah 61 (v 3), is an impression of the anointing coming on those who receive the gospel?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "That is very good. I think Isaiah was pleased to get that message. In the next section (v 10) he says \"I will greatly rejoice in Jehovah, my soul shall be joyful in my God\". He had a wonderful message, and it thrilled him."
+     "speaker": "RFW",
+     "text": [
+      "That is very good. I think Isaiah was pleased to get that message. In the next section (v 10) he says \"I will greatly rejoice in Jehovah, my soul shall be joyful in my God\". He had a wonderful message, and it thrilled him."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think the anointed preaching should have that as a normal effect in the persons who hear it?"
+     "speaker": "ECB",
+     "text": [
+      "Do you think the anointed preaching should have that as a normal effect in the persons who hear it?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. It has often been said, if the preaching does not cheer up the preacher, how can it cheer up those who hear it?"
+     "speaker": "RFW",
+     "text": [
+      "Yes. It has often been said, if the preaching does not cheer up the preacher, how can it cheer up those who hear it?"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "In your opening remarks you spoke of the need for us all to have some deep, definite impression of this Person, which I think, to those of us who live in this place, was particularly interesting, because we have been speaking about the need of that kind of thing with every one of us, something real and deep that will hold in relation to our knowledge of the Lord Jesus."
+     "speaker": "BWW",
+     "text": [
+      "In your opening remarks you spoke of the need for us all to have some deep, definite impression of this Person, which I think, to those of us who live in this place, was particularly interesting, because we have been speaking about the need of that kind of thing with every one of us, something real and deep that will hold in relation to our knowledge of the Lord Jesus."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. I thought it was interesting that Peter should present the anointed Man to that Gentile company to which he preached. You might have understood why the Lord should refer to this when speaking to a company of Jews who were perhaps familiar with the idea of the anointing from the Old Testament scriptures, but it is striking that Peter brings it in in Acts 10 in a definite way, so that from the very beginning the Gentiles might be impressed by the fact that God had committed Himself to this blessed Man. How important it is to get an impression like that in our souls!"
+     "speaker": "RFW",
+     "text": [
+      "Yes. I thought it was interesting that Peter should present the anointed Man to that Gentile company to which he preached. You might have understood why the Lord should refer to this when speaking to a company of Jews who were perhaps familiar with the idea of the anointing from the Old Testament scriptures, but it is striking that Peter brings it in in Acts 10 in a definite way, so that from the very beginning the Gentiles might be impressed by the fact that God had committed Himself to this blessed Man. How important it is to get an impression like that in our souls!"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Peter would not claim anything for himself. In verse 26 he says \"Rise up, I myself also am a man\". That is all to point to the distinctiveness of the anointed Man is it not?"
+     "speaker": "DJH",
+     "text": [
+      "Peter would not claim anything for himself. In verse 26 he says \"Rise up, I myself also am a man\". That is all to point to the distinctiveness of the anointed Man is it not?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, very good. \"He went in, talking with him,\" it says, \"and found many gathered together\", and that whole preaching of Peter's is full of Christ. The many personal references to the Lord Jesus, right through that address that he gives, would concentrate their attention on one blessed Man."
+     "speaker": "RFW",
+     "text": [
+      "Yes, very good. \"He went in, talking with him,\" it says, \"and found many gathered together\", and that whole preaching of Peter's is full of Christ. The many personal references to the Lord Jesus, right through that address that he gives, would concentrate their attention on one blessed Man."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Do you think the Holy Spirit comes in so quickly in Acts 10 so that they might have the capacity to appreciate what Peter was saying? Luke 4 emphasises that it was the place where He was brought up, and yet they had never really noticed the quality and character of the Man that was there. Do we need the Holy Spirit, therefore, for that, and is it something we might also look for early in our spiritual course?"
+     "speaker": "DAB",
+     "text": [
+      "Do you think the Holy Spirit comes in so quickly in Acts 10 so that they might have the capacity to appreciate what Peter was saying? Luke 4 emphasises that it was the place where He was brought up, and yet they had never really noticed the quality and character of the Man that was there. Do we need the Holy Spirit, therefore, for that, and is it something we might also look for early in our spiritual course?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes; that is a test to all of us. It is a fine thing to see something of spiritual character coming to light in persons in the place where they have been brought up, to see something different coming into evidence in the souls of young believers, something that bears the divine stamp."
+     "speaker": "RFW",
+     "text": [
+      "Yes; that is a test to all of us. It is a fine thing to see something of spiritual character coming to light in persons in the place where they have been brought up, to see something different coming into evidence in the souls of young believers, something that bears the divine stamp."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I was thinking that it is the Holy Spirit that makes the difference. The reception of the Holy Spirit gives us eyes to see the Man that you are presenting to us."
+     "speaker": "DAB",
+     "text": [
+      "I was thinking that it is the Holy Spirit that makes the difference. The reception of the Holy Spirit gives us eyes to see the Man that you are presenting to us."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, if the Spirit is made room for. It says about Samson that \"the Spirit of Jehovah began to move him at Mahaneh-Dan\" (Judg 13: 25) which was, I think, his own locality."
+     "speaker": "RFW",
+     "text": [
+      "Yes, if the Spirit is made room for. It says about Samson that \"the Spirit of Jehovah began to move him at Mahaneh-Dan\" (Judg 13: 25) which was, I think, his own locality."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Do you think that while it is quite normal for us to feel in ourselves weak and dependent, we should have an increasing experience of what the anointing is? The Lord Jesus says \"The Spirit of the Lord is upon me\". He must have had the blessed consciousness of the resource and power of that divine Person. That should give character to our speaking, should it not?"
+     "speaker": "FCM",
+     "text": [
+      "Do you think that while it is quite normal for us to feel in ourselves weak and dependent, we should have an increasing experience of what the anointing is? The Lord Jesus says \"The Spirit of the Lord is upon me\". He must have had the blessed consciousness of the resource and power of that divine Person. That should give character to our speaking, should it not?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, I think that is helpful. The Lord was pointing out that this was what was coming into evidence in His service, so that it might be recognised to be what it was. \"The Spirit of the Lord is upon me, because he has anointed me\". It is an exercise, in reading the gospels, to understand what is being presented to us, to understand what the Spirit of God intends us to draw out of the incidents that are recorded."
+     "speaker": "RFW",
+     "text": [
+      "Yes, I think that is helpful. The Lord was pointing out that this was what was coming into evidence in His service, so that it might be recognised to be what it was. \"The Spirit of the Lord is upon me, because he has anointed me\". It is an exercise, in reading the gospels, to understand what is being presented to us, to understand what the Spirit of God intends us to draw out of the incidents that are recorded."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I wondered if Paul likewise went to great pains in the first two chapters of 1 Corinthians to ensure that it was inculcated into the minds of the brethren there that what was of import was not of man but what was of the Spirit in view of the anointed vessel. I was struck with what you said earlier, that something was coming out in Luke 4 that was not of man."
+     "speaker": "JM",
+     "text": [
+      "I wondered if Paul likewise went to great pains in the first two chapters of 1 Corinthians to ensure that it was inculcated into the minds of the brethren there that what was of import was not of man but what was of the Spirit in view of the anointed vessel. I was struck with what you said earlier, that something was coming out in Luke 4 that was not of man."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Indeed! I think it is important, because there is perhaps a tendency to take on things that are not of this character. The divine intent is that we should be maintained at the level of the anointing so that this character of things should be in expression amongst us."
+     "speaker": "RFW",
+     "text": [
+      "Indeed! I think it is important, because there is perhaps a tendency to take on things that are not of this character. The divine intent is that we should be maintained at the level of the anointing so that this character of things should be in expression amongst us."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "You said earlier that this scripture had been read often, but they had never heard these words: \"Today this scripture is fulfilled in your ears\". Does that bring in the power of the anointing, that it is there present now?"
+     "speaker": "RT",
+     "text": [
+      "You said earlier that this scripture had been read often, but they had never heard these words: \"Today this scripture is fulfilled in your ears\". Does that bring in the power of the anointing, that it is there present now?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, indeed. Who else could say that with any power? We may say things, but who can say things with power? That would involve the anointing, would it not? The thing said in dignity and power carries weight; it carries its own credentials with it."
+     "speaker": "RFW",
+     "text": [
+      "Yes, indeed. Who else could say that with any power? We may say things, but who can say things with power? That would involve the anointing, would it not? The thing said in dignity and power carries weight; it carries its own credentials with it."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it still called 'today'?"
+     "speaker": "ECB",
+     "text": [
+      "Is it still called 'today'?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. Go on."
+     "speaker": "RFW",
+     "text": [
+      "Yes. Go on."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I was thinking of what our brother just said. 'Today': this character of 'today' lasts down to now, does it not? Is not that the way God is to be presented to men now, and to be manifested among us?"
+     "speaker": "ECB",
+     "text": [
+      "I was thinking of what our brother just said. 'Today': this character of 'today' lasts down to now, does it not? Is not that the way God is to be presented to men now, and to be manifested among us?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, very good."
+     "speaker": "RFW",
+     "text": [
+      "Yes, very good."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I often think that one area of testimony that we neglect is our testimony to one another."
+     "speaker": "ECB",
+     "text": [
+      "I often think that one area of testimony that we neglect is our testimony to one another."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Say more about that."
+     "speaker": "RFW",
+     "text": [
+      "Say more about that."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Well, we often speak about the testimony and we think about evangelical activity so far as we engage in it, and we think of what we convey to people who are, we venture to say, 'outside', but we always have a testimony to one another, and whether that is of the grace of our Lord Jesus Christ is a test as to whether the anointing is on me."
+     "speaker": "ECB",
+     "text": [
+      "Well, we often speak about the testimony and we think about evangelical activity so far as we engage in it, and we think of what we convey to people who are, we venture to say, 'outside', but we always have a testimony to one another, and whether that is of the grace of our Lord Jesus Christ is a test as to whether the anointing is on me."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, I think so; that what I say, and not only that, but the way I say it, bears this character; there is a certain grace in it that is in accord with the grace of God expressed in this dispensation."
+     "speaker": "RFW",
+     "text": [
+      "Yes, I think so; that what I say, and not only that, but the way I say it, bears this character; there is a certain grace in it that is in accord with the grace of God expressed in this dispensation."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Colossians makes many references to 'the Christ', and it is in that epistle that Paul says \"Let your word be always with grace, seasoned with salt\", chap 4: 6. I wondered whether that bore on what we are saying."
+     "speaker": "HAH",
+     "text": [
+      "Colossians makes many references to 'the Christ', and it is in that epistle that Paul says \"Let your word be always with grace, seasoned with salt\", chap 4: 6. I wondered whether that bore on what we are saying."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, I think so. The reference at the end of the section we read is helpful. A murderous spirit of things comes out in the synagogue and it says \"they cast him forth ... and led him up to the brow of the mountain upon which their city was built, so that they might throw him down the precipice\". Satan is against this feature of the anointing. He would have had them throw the Lord down the precipice. He would seek to cast down that spirit of things, and those who manifest that spirit."
+     "speaker": "RFW",
+     "text": [
+      "Yes, I think so. The reference at the end of the section we read is helpful. A murderous spirit of things comes out in the synagogue and it says \"they cast him forth ... and led him up to the brow of the mountain upon which their city was built, so that they might throw him down the precipice\". Satan is against this feature of the anointing. He would have had them throw the Lord down the precipice. He would seek to cast down that spirit of things, and those who manifest that spirit."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "The Lord was still speaking in grace under the power of the anointing when He was stirring up their consciences, which brought to light the animosity of the flesh."
+     "speaker": "DER",
+     "text": [
+      "The Lord was still speaking in grace under the power of the anointing when He was stirring up their consciences, which brought to light the animosity of the flesh."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, indeed. He says \"of a truth\". \"Grace and truth subsists through Jesus Christ\", John 1: 17. The anointed Man speaks in grace; He does not give up the truth at the same time, does He? But it is wonderful the way the Lord takes when this spirit of opposition manifests itself. I think we have to face up to the fact that sometimes things manifest themselves that are not of this character, and what is it that comes out then? It says \"they led him ... that they might throw him down the precipice; but he, passing through the midst of them, went his way, and descended\". It is a lovely touch, I think: He descended. They would have cast Him down but He descended. He took a way out that was open to Him. It involved that He descended but it was the way that the anointed Man took in these circumstances. A way is made for His service to continue. He \"descended to Capernaum, a city of Galilee, and taught them on the sabbaths\". He finds another outlet for His service of grace."
+     "speaker": "RFW",
+     "text": [
+      "Yes, indeed. He says \"of a truth\". \"Grace and truth subsists through Jesus Christ\", John 1: 17. The anointed Man speaks in grace; He does not give up the truth at the same time, does He? But it is wonderful the way the Lord takes when this spirit of opposition manifests itself. I think we have to face up to the fact that sometimes things manifest themselves that are not of this character, and what is it that comes out then? It says \"they led him ... that they might throw him down the precipice; but he, passing through the midst of them, went his way, and descended\". It is a lovely touch, I think: He descended. They would have cast Him down but He descended. He took a way out that was open to Him. It involved that He descended but it was the way that the anointed Man took in these circumstances. A way is made for His service to continue. He \"descended to Capernaum, a city of Galilee, and taught them on the sabbaths\". He finds another outlet for His service of grace."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "In the spirit of grace of the anointing He spoke the truth, which had its effect upon their consciences, clearly. The reaction was by way of attack, do you think? Is that a way of distinguishing between the speaking of the truth which is under the grace of the anointing, and fleshly activity?"
+     "speaker": "RWF",
+     "text": [
+      "In the spirit of grace of the anointing He spoke the truth, which had its effect upon their consciences, clearly. The reaction was by way of attack, do you think? Is that a way of distinguishing between the speaking of the truth which is under the grace of the anointing, and fleshly activity?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, we know what we are. We maybe recognise things in ourselves. Rage: have you ever expressed rage at a brother? Well, that is hardly the spirit of the anointing, is it?"
+     "speaker": "RFW",
+     "text": [
+      "Yes, we know what we are. We maybe recognise things in ourselves. Rage: have you ever expressed rage at a brother? Well, that is hardly the spirit of the anointing, is it?"
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Is it very interesting that the last verse before that reference to rage refers to Naaman, the Syrian? He went away in a rage, but then later \"Then he went down\", 2 Kings 5: 14. It is this going down that we were speaking of."
+     "speaker": "HAH",
+     "text": [
+      "Is it very interesting that the last verse before that reference to rage refers to Naaman, the Syrian? He went away in a rage, but then later \"Then he went down\", 2 Kings 5: 14. It is this going down that we were speaking of."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Very good."
+     "speaker": "RFW",
+     "text": [
+      "Very good."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Too, do you think that there was readiness in Capernaum to hear Him, for although He was anointed to preach, He was there to teach as well. I just wondered if the formation which came with teaching was possible there because they received Him. The Lord could preach in Nazareth, but there did not seem to be the work of God there that would warrant teaching."
+     "speaker": "JCE",
+     "text": [
+      "Too, do you think that there was readiness in Capernaum to hear Him, for although He was anointed to preach, He was there to teach as well. I just wondered if the formation which came with teaching was possible there because they received Him. The Lord could preach in Nazareth, but there did not seem to be the work of God there that would warrant teaching."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "No. We need the teaching, do we not? We need to go on with the teaching, especially in our localities; it needs to be persisted in because we do not learn quickly, do we? We have the Spirit to help us in that connection."
+     "speaker": "RFW",
+     "text": [
+      "No. We need the teaching, do we not? We need to go on with the teaching, especially in our localities; it needs to be persisted in because we do not learn quickly, do we? We have the Spirit to help us in that connection."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "He went His way; you have referred to that. It would go right on to the cross. Do you think the anointing really shines in the capacity to suffer, and in these suffering circumstances shows God's will and His grace?"
+     "speaker": "RT",
+     "text": [
+      "He went His way; you have referred to that. It would go right on to the cross. Do you think the anointing really shines in the capacity to suffer, and in these suffering circumstances shows God's will and His grace?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, indeed. In the holy anointing oil (see Exod 30) the leading feature was myrrh, which brings out that feature of suffering. It is the spirit of Christ; He was prepared to accept suffering, prepared to accept being misunderstood, prepared to accept being shut out, but He found an outlet for His service to continue on that blessed way."
+     "speaker": "RFW",
+     "text": [
+      "Yes, indeed. In the holy anointing oil (see Exod 30) the leading feature was myrrh, which brings out that feature of suffering. It is the spirit of Christ; He was prepared to accept suffering, prepared to accept being misunderstood, prepared to accept being shut out, but He found an outlet for His service to continue on that blessed way."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do the last words which you had read (verse 32), \"his word was with authority\", show that the words of grace themselves have authority?"
+     "speaker": "ECB",
+     "text": [
+      "Do the last words which you had read (verse 32), \"his word was with authority\", show that the words of grace themselves have authority?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. The dispensation was inaugurated with authority, was it not? Grace has its own blessed authority over our souls. There is nothing like the authority of grace."
+     "speaker": "RFW",
+     "text": [
+      "Yes. The dispensation was inaugurated with authority, was it not? Grace has its own blessed authority over our souls. There is nothing like the authority of grace."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The scripture you have read in Acts, \"anointed him with the Holy Spirit and with power\", is the authority of grace, is it not?"
+     "speaker": "ECB",
+     "text": [
+      "The scripture you have read in Acts, \"anointed him with the Holy Spirit and with power\", is the authority of grace, is it not?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes; that is, it is the authority to establish what is of God in this dispensation in the way in which He has asserted Himself. That is grace. The scripture the Lord referred to goes on to speak of \"the day of vengeance of our God\", Isa 61: 2. The anointed Man will introduce that day too, when the time for it comes, but now, as we see, the mind of God is that the dispensation is established in grace. That is sufficient to carry this day through to its conclusion."
+     "speaker": "RFW",
+     "text": [
+      "Yes; that is, it is the authority to establish what is of God in this dispensation in the way in which He has asserted Himself. That is grace. The scripture the Lord referred to goes on to speak of \"the day of vengeance of our God\", Isa 61: 2. The anointed Man will introduce that day too, when the time for it comes, but now, as we see, the mind of God is that the dispensation is established in grace. That is sufficient to carry this day through to its conclusion."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it not the case, too, that the day of judgment of our God is introduced in order that a world might be established in which grace reigns through righteousness?"
+     "speaker": "ECB",
+     "text": [
+      "Is it not the case, too, that the day of judgment of our God is introduced in order that a world might be established in which grace reigns through righteousness?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes."
+     "speaker": "RFW",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "D.J.W.",
-     "text": "The verse referred to in Acts 10 goes on to speak of \"healing all that were under the power of the devil\". In Luke 4 you see the Lord setting free persons that were bound, from all that would hinder. Is one service of the anointing that it would free us from aII that would hinder us having our part in God's service? Power is seen in that, is it not, to separate us from what would hinder us in that way? And is it open for us to serve one another in that way too?"
+     "speaker": "DJW",
+     "text": [
+      "The verse referred to in Acts 10 goes on to speak of \"healing all that were under the power of the devil\". In Luke 4 you see the Lord setting free persons that were bound, from all that would hinder. Is one service of the anointing that it would free us from aII that would hinder us having our part in God's service? Power is seen in that, is it not, to separate us from what would hinder us in that way? And is it open for us to serve one another in that way too?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. It is good if we are able to do anything like that. The power of the devil was enormous, but there is a greater power with Christ. \"God anointed him with the Holy Spirit and with power\". He \"went through all quarters doing good\": it says that first before it says \"healing all that were under the power of the devil\"."
+     "speaker": "RFW",
+     "text": [
+      "Yes. It is good if we are able to do anything like that. The power of the devil was enormous, but there is a greater power with Christ. \"God anointed him with the Holy Spirit and with power\". He \"went through all quarters doing good\": it says that first before it says \"healing all that were under the power of the devil\"."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "I am sure that what you are bringing before us has, as was remarked earlier, a bearing upon us today, because we do face exercises where deliverance is needed, where the acceptable year of the Lord needs in practical experience to come in. I think it is of the greatest encouragement that the Holy Spirit and power are available so that there may be what is authoritative and effective in facing such exercises."
+     "speaker": "FCM",
+     "text": [
+      "I am sure that what you are bringing before us has, as was remarked earlier, a bearing upon us today, because we do face exercises where deliverance is needed, where the acceptable year of the Lord needs in practical experience to come in. I think it is of the greatest encouragement that the Holy Spirit and power are available so that there may be what is authoritative and effective in facing such exercises."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, that expresses my exercise."
+     "speaker": "RFW",
+     "text": [
+      "Yes, that expresses my exercise."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "It is interesting that in the epistle to he Romans where that expression comes, so also grace might reign through righteousness to eternal life through Jesus Christ our Lord\" (chap 5: 21), it is in the context of power. The power is the power of death. Then it says: \"so also grace might reign\". Would that imply that grace would reign in power?"
+     "speaker": "EP",
+     "text": [
+      "It is interesting that in the epistle to he Romans where that expression comes, so also grace might reign through righteousness to eternal life through Jesus Christ our Lord\" (chap 5: 21), it is in the context of power. The power is the power of death. Then it says: \"so also grace might reign\". Would that imply that grace would reign in power?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, I think so. It says in Luke 4 that the Lord sat down; He sat down to inaugurate this dispensation. Divine Persons took account of the adverse powers, did They not? They took account of Satanic powers; They took account of what was binding men and They brought in what was sufficient to meet it. They brought in the great feature of grace."
+     "speaker": "RFW",
+     "text": [
+      "Yes, I think so. It says in Luke 4 that the Lord sat down; He sat down to inaugurate this dispensation. Divine Persons took account of the adverse powers, did They not? They took account of Satanic powers; They took account of what was binding men and They brought in what was sufficient to meet it. They brought in the great feature of grace."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I find personally that in difficulties we tend to get a bit agitated. The Lord was never agitated; I say that with becoming reverence. He was marked by dignity in preaching, and dignity when He passed through and went His way. Do you think that is consequent upon the fact, not only of who He is but that there is the anointing too? And as we are concerned we need to realise the power of the anointing and the dignity that properly belongs to us so that we do not get agitated."
+     "speaker": "EP",
+     "text": [
+      "I find personally that in difficulties we tend to get a bit agitated. The Lord was never agitated; I say that with becoming reverence. He was marked by dignity in preaching, and dignity when He passed through and went His way. Do you think that is consequent upon the fact, not only of who He is but that there is the anointing too? And as we are concerned we need to realise the power of the anointing and the dignity that properly belongs to us so that we do not get agitated."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "It says that He went through all quarters. The different quarters would bring up different exercises, would they not? There were different problems which the Lord encountered in the different areas to which He went, but He was never agitated, as you say. There was sufficient power to meet every difficulty that might present itself."
+     "speaker": "RFW",
+     "text": [
+      "It says that He went through all quarters. The different quarters would bring up different exercises, would they not? There were different problems which the Lord encountered in the different areas to which He went, but He was never agitated, as you say. There was sufficient power to meet every difficulty that might present itself."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Would the emphasis on the greatness of the anointing be seen in the way David regarded Saul, and the fact that the anointing was never recalled from Saul, because at the time of his death David rebukes the young man, saying that he ought to have feared the Lord as to destroying the Lord's anointed (see2 Sam 1: 14)?"
+     "speaker": "EO",
+     "text": [
+      "Would the emphasis on the greatness of the anointing be seen in the way David regarded Saul, and the fact that the anointing was never recalled from Saul, because at the time of his death David rebukes the young man, saying that he ought to have feared the Lord as to destroying the Lord's anointed (see2 Sam 1: 14)?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, I think there is much instruction in looking at David and Saul in that connection. It has been said that David had more respect for the anointing on Saul than Saul had for it on himself. David always had respect for it. His heart smote him at one time when he cut off the skirt of Saul's robe (see 1 Sam 24: 4). But the anointing, had Saul appreciated it, would have been a protection for him."
+     "speaker": "RFW",
+     "text": [
+      "Yes, I think there is much instruction in looking at David and Saul in that connection. It has been said that David had more respect for the anointing on Saul than Saul had for it on himself. David always had respect for it. His heart smote him at one time when he cut off the skirt of Saul's robe (see 1 Sam 24: 4). But the anointing, had Saul appreciated it, would have been a protection for him."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Do you think that when Peter speaks here in Acts 10 he is preaching what he had seen. He is not preaching doctrine; he is preaching what he has actually seen in Jesus."
+     "speaker": "ECB",
+     "text": [
+      "Do you think that when Peter speaks here in Acts 10 he is preaching what he had seen. He is not preaching doctrine; he is preaching what he has actually seen in Jesus."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "And it came into Peter's soul that what had come into expression in Christ was so great that it must extend out to the nations; it could not be confined to the Jews alone. He needed to be instructed to see that, but I think it must have given him great delight to be able to speak these words to this company."
+     "speaker": "RFW",
+     "text": [
+      "And it came into Peter's soul that what had come into expression in Christ was so great that it must extend out to the nations; it could not be confined to the Jews alone. He needed to be instructed to see that, but I think it must have given him great delight to be able to speak these words to this company."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "He might even remember instances that had occurred, recorded for us in the gospels, where, as it says, He could not be hid, and it must reach out to other things. I was thinking of your earlier reference to the way in which we read the gospels, as to what we are observing when we do."
+     "speaker": "ECB",
+     "text": [
+      "He might even remember instances that had occurred, recorded for us in the gospels, where, as it says, He could not be hid, and it must reach out to other things. I was thinking of your earlier reference to the way in which we read the gospels, as to what we are observing when we do."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, I think we need the help of the Spirit in that connection, to get below the surface and see what He intends to convey in the various incidents that are recorded."
+     "speaker": "RFW",
+     "text": [
+      "Yes, I think we need the help of the Spirit in that connection, to get below the surface and see what He intends to convey in the various incidents that are recorded."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "In connection with the gospels, were you about to say something about Mark 5?"
+     "speaker": "RWF",
+     "text": [
+      "In connection with the gospels, were you about to say something about Mark 5?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "I was just thinking about that as an example. What difficult cases the Lord encountered in that chapter. There are three cases beyond human help - the man who dwelt in the tombs, the woman who had a flux of blood, and then the girl who had died. Think of the Lord going into various quarters and encountering difficulties there, and you might say, This is beyond Him, how can this be resolved? No-one could bind that man in the tombs. He went to every extreme possible. How was that case to be met? And then the woman with the flux of blood had spent all her living on physicians; and then, you might say the most extreme of all, the girl who had died. We think about conditions in various areas; the Lord knows about these things. You say, How is this going to be resolved or what is going to happen? But the Lord was able to go into all quarters. It seems to me that there is something that we can observe in this feature of the anointing which is able to meet matters, and action in no other character will meet things rightly for God."
+     "speaker": "RFW",
+     "text": [
+      "I was just thinking about that as an example. What difficult cases the Lord encountered in that chapter. There are three cases beyond human help - the man who dwelt in the tombs, the woman who had a flux of blood, and then the girl who had died. Think of the Lord going into various quarters and encountering difficulties there, and you might say, This is beyond Him, how can this be resolved? No-one could bind that man in the tombs. He went to every extreme possible. How was that case to be met? And then the woman with the flux of blood had spent all her living on physicians; and then, you might say the most extreme of all, the girl who had died. We think about conditions in various areas; the Lord knows about these things. You say, How is this going to be resolved or what is going to happen? But the Lord was able to go into all quarters. It seems to me that there is something that we can observe in this feature of the anointing which is able to meet matters, and action in no other character will meet things rightly for God."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Our own anointing would be when we receive the Spirit. I only say that because younger brethren might wonder if there is something further, something special to come after having received the Spirit. The Lord might have prepared one for a certain line of activity but the anointing itself is as receiving the Spirit. God has done it. \"He that ... has anointed us, is God, who also has sealed us\", 2 Cor 1: 21."
+     "speaker": "JCE",
+     "text": [
+      "Our own anointing would be when we receive the Spirit. I only say that because younger brethren might wonder if there is something further, something special to come after having received the Spirit. The Lord might have prepared one for a certain line of activity but the anointing itself is as receiving the Spirit. God has done it. \"He that ... has anointed us, is God, who also has sealed us\", 2 Cor 1: 21."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. \"He that establishes us with you in Christ, and has anointed us, is God, who also has sealed us, and given the earnest of the Spirit in our hearts\"."
+     "speaker": "RFW",
+     "text": [
+      "Yes. \"He that establishes us with you in Christ, and has anointed us, is God, who also has sealed us, and given the earnest of the Spirit in our hearts\"."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Yes, I just wanted to make that clear amongst us for the help of the younger brethren. I did not want to interrupt the flow."
+     "speaker": "JCE",
+     "text": [
+      "Yes, I just wanted to make that clear amongst us for the help of the younger brethren. I did not want to interrupt the flow."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Would you mind saying a little more as to meeting problems and difficulties in the power of the Spirit. How is that effected?"
+     "speaker": "SDKR",
+     "text": [
+      "Would you mind saying a little more as to meeting problems and difficulties in the power of the Spirit. How is that effected?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Well, when difficulties occur, it seems to me (I am only speaking from personal experience, I suppose there are few of us who have not had difficulties, personal difficulties and perhaps assembly difficulties in our lives) that sometimes we too readily cast aside this feature of the anointing, and the dignity and grace and power that it would speak of, and try to meet things in some other way. But it will not do; it will not do for God because He has committed Himself to this line of things, and matters will never be resolved and can never be resolved, on any other line."
+     "speaker": "RFW",
+     "text": [
+      "Well, when difficulties occur, it seems to me (I am only speaking from personal experience, I suppose there are few of us who have not had difficulties, personal difficulties and perhaps assembly difficulties in our lives) that sometimes we too readily cast aside this feature of the anointing, and the dignity and grace and power that it would speak of, and try to meet things in some other way. But it will not do; it will not do for God because He has committed Himself to this line of things, and matters will never be resolved and can never be resolved, on any other line."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "It says in Acts 10 that \"God was with him\". Do you think that that implies divine intervention, and is that implicit in the anointing? Perhaps we could say 'explicit'. In Psalm 2, where there is reference to the peoples and the nations in agitation, and the kings and the princes, and so on, it says \"I have anointed my king upon Zion, the hill of my holiness\" (v 6). That is the divine intervention, is it not? That is not intervention on the part of one or another who happen to have some precedents in mind, but it is a divine intervention, for which we would look do you think?"
+     "speaker": "RWF",
+     "text": [
+      "It says in Acts 10 that \"God was with him\". Do you think that that implies divine intervention, and is that implicit in the anointing? Perhaps we could say 'explicit'. In Psalm 2, where there is reference to the peoples and the nations in agitation, and the kings and the princes, and so on, it says \"I have anointed my king upon Zion, the hill of my holiness\" (v 6). That is the divine intervention, is it not? That is not intervention on the part of one or another who happen to have some precedents in mind, but it is a divine intervention, for which we would look do you think?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes; God is never going to change His mind about that."
+     "speaker": "RFW",
+     "text": [
+      "Yes; God is never going to change His mind about that."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It says at the end of Mark's gospel that He \"sat at the right hand of God. And they ... preached everywhere, the Lord working with them\". I suppose, speaking simply, He went where they did. And do you think that as they came to any matter they would be able to bring in the grace, and indeed the Person, of that anointed Man?"
+     "speaker": "DAB",
+     "text": [
+      "It says at the end of Mark's gospel that He \"sat at the right hand of God. And they ... preached everywhere, the Lord working with them\". I suppose, speaking simply, He went where they did. And do you think that as they came to any matter they would be able to bring in the grace, and indeed the Person, of that anointed Man?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. You might think that having sat down He was inactive, but He is not. He is working with them, and I think that that is very encouraging, because it seems to me that we can count on the Lord's help as we proceed on that line. I do not think He will help us on any other line, but He will help us as we are exercised. That is why I read about Hannah, because I thought maybe that through her exercises and experiences she came into some appreciation of the anointing, the anointed Man."
+     "speaker": "RFW",
+     "text": [
+      "Yes. You might think that having sat down He was inactive, but He is not. He is working with them, and I think that that is very encouraging, because it seems to me that we can count on the Lord's help as we proceed on that line. I do not think He will help us on any other line, but He will help us as we are exercised. That is why I read about Hannah, because I thought maybe that through her exercises and experiences she came into some appreciation of the anointing, the anointed Man."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "If I may refer again to Mark 5 in the way you are speaking of it, it is very instructive because is it not the case that when problems arise everyone appears to try to bind him, and everyone tries to be a physician? In the case of the child He put them all out. It must be Christ."
+     "speaker": "ECB",
+     "text": [
+      "If I may refer again to Mark 5 in the way you are speaking of it, it is very instructive because is it not the case that when problems arise everyone appears to try to bind him, and everyone tries to be a physician? In the case of the child He put them all out. It must be Christ."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Very good. Yes, they could not do anything, they were helpless. Their bonds were no good, they were proved to be useless. We may try things (and I suppose we all have, in measure) which in time prove to be no good, they do not accomplish the divine end, what the Lord has in mind."
+     "speaker": "RFW",
+     "text": [
+      "Very good. Yes, they could not do anything, they were helpless. Their bonds were no good, they were proved to be useless. We may try things (and I suppose we all have, in measure) which in time prove to be no good, they do not accomplish the divine end, what the Lord has in mind."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is very instructive in regard to that chapter, and the corresponding chapter in Luke, in regard to what you are saying, because that chapter has often been referred to as the way the Lord secures material for the assembly, the man, and the woman and the child, but it must be as the result of His own activity, you might say, left to Himself to bring it about."
+     "speaker": "ECB",
+     "text": [
+      "It is very instructive in regard to that chapter, and the corresponding chapter in Luke, in regard to what you are saying, because that chapter has often been referred to as the way the Lord secures material for the assembly, the man, and the woman and the child, but it must be as the result of His own activity, you might say, left to Himself to bring it about."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, nobody invites Him to help that man; He does it Himself. We were noticing elsewhere that in the middle of that chapter, after He comes back from dealing with the man, He is in a certain position; in verse 21 it says \"Jesus having passed over in the ship again to the other side, a great crowd gathered to him; and he was by the sea\". He was not doing anything at that time. He was by the sea, but He was there as available to help persons. It says \"And behold, there comes to him one of the rulers\"; the Man who had subdued that violent man was available, and that is the position, is it not? The Lord is available, He is available to help. So we find these persons coming forward in faith and availing themselves of the help that is there in Him."
+     "speaker": "RFW",
+     "text": [
+      "Yes, nobody invites Him to help that man; He does it Himself. We were noticing elsewhere that in the middle of that chapter, after He comes back from dealing with the man, He is in a certain position; in verse 21 it says \"Jesus having passed over in the ship again to the other side, a great crowd gathered to him; and he was by the sea\". He was not doing anything at that time. He was by the sea, but He was there as available to help persons. It says \"And behold, there comes to him one of the rulers\"; the Man who had subdued that violent man was available, and that is the position, is it not? The Lord is available, He is available to help. So we find these persons coming forward in faith and availing themselves of the help that is there in Him."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Would by the sea involve that He would be available to the whole of humanity?"
+     "speaker": "HAH",
+     "text": [
+      "Would by the sea involve that He would be available to the whole of humanity?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, whatever the need might be. Think of all the needs of humanity, as you speak of it, but whatever need there might be, He is available to help."
+     "speaker": "RFW",
+     "text": [
+      "Yes, whatever the need might be. Think of all the needs of humanity, as you speak of it, but whatever need there might be, He is available to help."
+     ]
     },
     {
-     "speaker": "J.R.S.",
-     "text": "Do you think that 'healing' is a significant word? I was just linking on with what you were saying as to bringing in the anointing. It was in view not resolving but healing."
+     "speaker": "JRS",
+     "text": [
+      "Do you think that 'healing' is a significant word? I was just linking on with what you were saying as to bringing in the anointing. It was in view not resolving but healing."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Healing is a wonderful thing, is it not? What is it that brings about healing?"
+     "speaker": "RFW",
+     "text": [
+      "Healing is a wonderful thing, is it not? What is it that brings about healing?"
+     ]
     },
     {
-     "speaker": "J.R.S.",
-     "text": "Is it the oil and the wine?"
+     "speaker": "JRS",
+     "text": [
+      "Is it the oil and the wine?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "We tend to think that things heal themselves, but do they? I think it requires the grace of Christ for healing. I suppose that even in the human body things do not heal themselves apart from the power of God; it is divine power doing something that causes healing. But it needs the bringing in of the grace of Christ to effect healing among the saints."
+     "speaker": "RFW",
+     "text": [
+      "We tend to think that things heal themselves, but do they? I think it requires the grace of Christ for healing. I suppose that even in the human body things do not heal themselves apart from the power of God; it is divine power doing something that causes healing. But it needs the bringing in of the grace of Christ to effect healing among the saints."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Is this the law of the Christ? I was wondering if what you are saying throws light on that. \"Bear one another's burdens, and thus fulfil the law of the Christ\", Gal 6: 2. Law is the governing principle, is it not? We are governed by the light of the anointing, seen perfectly and absolutely in Christ, but it is to be found in expression in us. Is that the law of the Christ?"
+     "speaker": "DJH",
+     "text": [
+      "Is this the law of the Christ? I was wondering if what you are saying throws light on that. \"Bear one another's burdens, and thus fulfil the law of the Christ\", Gal 6: 2. Law is the governing principle, is it not? We are governed by the light of the anointing, seen perfectly and absolutely in Christ, but it is to be found in expression in us. Is that the law of the Christ?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, the preparedness to take on burdens came into expression in Him. So we should not stand aside but should be prepared to be involved, to bring in help if we can."
+     "speaker": "RFW",
+     "text": [
+      "Yes, the preparedness to take on burdens came into expression in Him. So we should not stand aside but should be prepared to be involved, to bring in help if we can."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Does Psalm 133 bear at all on what you are saying? You have referred to Aaron's head, the anointing; it says that the oil flowed down. I was thinking about the descent to which you referred. It is so easy to have in mind our being lifted up in some way, but the oil flowed down."
+     "speaker": "SDKR",
+     "text": [
+      "Does Psalm 133 bear at all on what you are saying? You have referred to Aaron's head, the anointing; it says that the oil flowed down. I was thinking about the descent to which you referred. It is so easy to have in mind our being lifted up in some way, but the oil flowed down."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes; it says \"how good and how pleasant it is for brethren to dwell together in unity!\" (v 1); and then in the next two verses you get the thought of coming down stressed. \"The precious oil upon the head, that ran down upon the beard, upon Aaron's beard, that ran down to the hem of his garments; As the dew of Hermon that descendeth on the mountains of Zion\". That descending line of things is stressed."
+     "speaker": "RFW",
+     "text": [
+      "Yes; it says \"how good and how pleasant it is for brethren to dwell together in unity!\" (v 1); and then in the next two verses you get the thought of coming down stressed. \"The precious oil upon the head, that ran down upon the beard, upon Aaron's beard, that ran down to the hem of his garments; As the dew of Hermon that descendeth on the mountains of Zion\". That descending line of things is stressed."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Would it bear much on what we have been saying as to the way things are done. Is it the influence of the headship of Christ and that character of things coming out into expression, so that things are done in the way that He would do them, and God is rightly represented in that?"
+     "speaker": "JM",
+     "text": [
+      "Would it bear much on what we have been saying as to the way things are done. Is it the influence of the headship of Christ and that character of things coming out into expression, so that things are done in the way that He would do them, and God is rightly represented in that?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "I think that is important, because sometimes we may think it is enough to get things done; but that is not enough. What is needed is more than that, that is, that in the way things are done there is the conveying of the mind of God and the grace of the dispensation. We were noticing recently in 1 Samuel 11 that after Saul was anointed a crisis arose. The inhabitants of Jabesh-Gilead were under threat and somebody was needed to do something about the situation, and Saul undertakes to act. He is very successful in what he does, but as you read the history you say to yourself, David would never have done things this way. Saul took a yoke of oxen and cut them in pieces and sent them round, and said: \"Whoever comes not forth after Saul and after Samuel, so shall it be done to his oxen!\", 1 Sam 11: 7. And it says \"the fear of Jehovah fell on the people, and they came as one man\". There was a kind of unity of fear that was brought about by that action. But that is not the grace of the anointing, that is not the way things should have been done. You might say it was a successful thing, and the Spirit of God credits him with what is done there, I think, and the inhabitants of Jabesh-Gilead carried the memory of it, but at the same time it is not just what you would expect from an anointed man."
+     "speaker": "RFW",
+     "text": [
+      "I think that is important, because sometimes we may think it is enough to get things done; but that is not enough. What is needed is more than that, that is, that in the way things are done there is the conveying of the mind of God and the grace of the dispensation. We were noticing recently in 1 Samuel 11 that after Saul was anointed a crisis arose. The inhabitants of Jabesh-Gilead were under threat and somebody was needed to do something about the situation, and Saul undertakes to act. He is very successful in what he does, but as you read the history you say to yourself, David would never have done things this way. Saul took a yoke of oxen and cut them in pieces and sent them round, and said: \"Whoever comes not forth after Saul and after Samuel, so shall it be done to his oxen!\", 1 Sam 11: 7. And it says \"the fear of Jehovah fell on the people, and they came as one man\". There was a kind of unity of fear that was brought about by that action. But that is not the grace of the anointing, that is not the way things should have been done. You might say it was a successful thing, and the Spirit of God credits him with what is done there, I think, and the inhabitants of Jabesh-Gilead carried the memory of it, but at the same time it is not just what you would expect from an anointed man."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "It is interesting that even the Lord said \"if I by the Spirit of God\", Matt 12: 28. He was capable in His own person of doing things, but He did things that way. Is that not a great example for us?"
+     "speaker": "JM",
+     "text": [
+      "It is interesting that even the Lord said \"if I by the Spirit of God\", Matt 12: 28. He was capable in His own person of doing things, but He did things that way. Is that not a great example for us?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Quite so."
+     "speaker": "RFW",
+     "text": [
+      "Quite so."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Do you think that Hannah found rest in her spirit when she mentioned in her prayer that she would give the child to Jehovah all the days of his life? I just wondered whether, when we recognise that God has a view far beyond what we might have in our own minds, we would get rest of spirit."
+     "speaker": "JCE",
+     "text": [
+      "Do you think that Hannah found rest in her spirit when she mentioned in her prayer that she would give the child to Jehovah all the days of his life? I just wondered whether, when we recognise that God has a view far beyond what we might have in our own minds, we would get rest of spirit."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. There was a time when Hannah had not rest of spirit. She was in bitterness of soul, it says, and prayed to Jehovah and wept much. Later on she comes into rest. I wondered if that might help us, because I think that conditions arise which bring us into this kind of soul difficulty. My impression is that Hannah is the quiet sort of person who feels matters deeply. We have many like that. We have sisters and others, persons who may not be active, who feel matters. There were great difficulties; she had a rival, an adversary who was provoking her. She had a husband who really was not sympathetic with her exercises and, as we know, the priesthood in that chapter was completely out of line with God's thought; and who was there who felt the way things were? Well, Hannah felt things. What I have been thinking about in that connection is that difficulties arise and exercises arise, in our lives, and they arise in our localities, and it is very right to feel things and to get to God about them, but the point of definite help in Hannah's history seems to come when she makes a vow. The difficulty that arose in this locality resulted in her making a vow, a special kind of committal, and from that point she gets great help."
+     "speaker": "RFW",
+     "text": [
+      "Yes. There was a time when Hannah had not rest of spirit. She was in bitterness of soul, it says, and prayed to Jehovah and wept much. Later on she comes into rest. I wondered if that might help us, because I think that conditions arise which bring us into this kind of soul difficulty. My impression is that Hannah is the quiet sort of person who feels matters deeply. We have many like that. We have sisters and others, persons who may not be active, who feel matters. There were great difficulties; she had a rival, an adversary who was provoking her. She had a husband who really was not sympathetic with her exercises and, as we know, the priesthood in that chapter was completely out of line with God's thought; and who was there who felt the way things were? Well, Hannah felt things. What I have been thinking about in that connection is that difficulties arise and exercises arise, in our lives, and they arise in our localities, and it is very right to feel things and to get to God about them, but the point of definite help in Hannah's history seems to come when she makes a vow. The difficulty that arose in this locality resulted in her making a vow, a special kind of committal, and from that point she gets great help."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Do you think that God sometimes, perhaps more than sometimes, allows difficulties in order that there might be more committal with us?"
+     "speaker": "RWF",
+     "text": [
+      "Do you think that God sometimes, perhaps more than sometimes, allows difficulties in order that there might be more committal with us?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Well, it would help if we could only look at things that way; the tendency (I only speak personally) is to say, Let things go."
+     "speaker": "RFW",
+     "text": [
+      "Well, it would help if we could only look at things that way; the tendency (I only speak personally) is to say, Let things go."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Does the reference to all his days (see chap 1: 28) look right on to the full result of his ministry, and is Abigail, another woman who came forward at a crisis, really the answer subjectively to David?"
+     "speaker": "HAH",
+     "text": [
+      "Does the reference to all his days (see chap 1: 28) look right on to the full result of his ministry, and is Abigail, another woman who came forward at a crisis, really the answer subjectively to David?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, indeed. What comes into view through all this in Hannah's prayer is the idea of the anointed, God's anointed: \"he will give strength unto his king, and exalt the horn of his anointed\". I thought that Hannah had great enlargement of soul when she came to this; and I think that these things that arise, these difficulties, are intended to bring us to an enlarged appreciation of Christ."
+     "speaker": "RFW",
+     "text": [
+      "Yes, indeed. What comes into view through all this in Hannah's prayer is the idea of the anointed, God's anointed: \"he will give strength unto his king, and exalt the horn of his anointed\". I thought that Hannah had great enlargement of soul when she came to this; and I think that these things that arise, these difficulties, are intended to bring us to an enlarged appreciation of Christ."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "She says that \"He keepeth the feet of his saints\" (v 9). Is that not like confidence in the anointing? \"For by strength shall no man prevail\"."
+     "speaker": "RT",
+     "text": [
+      "She says that \"He keepeth the feet of his saints\" (v 9). Is that not like confidence in the anointing? \"For by strength shall no man prevail\"."
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes, very good. \"The wicked are silenced in darkness\". In Hannah's prayer you see how God turns things round, do you not? You see how God has His own way of working things out, and what seems to be great and important at one time God can turn into nothingness. He has His own way of working matters out in view of exalting the horn of His anointed."
+     "speaker": "RFW",
+     "text": [
+      "Yes, very good. \"The wicked are silenced in darkness\". In Hannah's prayer you see how God turns things round, do you not? You see how God has His own way of working things out, and what seems to be great and important at one time God can turn into nothingness. He has His own way of working matters out in view of exalting the horn of His anointed."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is it of interest that when Hannah reaches that point, the man that God is going to exalt, she stops?"
+     "speaker": "ECB",
+     "text": [
+      "Is it of interest that when Hannah reaches that point, the man that God is going to exalt, she stops?"
+     ]
     },
     {
-     "speaker": "R.F.W.",
-     "text": "Yes. She starts off with \"my horn is lifted up in Jehovah\" but she does not stop there. She goes right on to see God's anointed exalted. That is a far greater thought than her horn being exalted. That is just what I wanted to draw attention to, that these exercises which arise are intended to bring us to an appreciation of this wonderful thought as expressed in Christ, and to see that when He comes into matters and takes them up for God everything is secure."
+     "speaker": "RFW",
+     "text": [
+      "Yes. She starts off with \"my horn is lifted up in Jehovah\" but she does not stop there. She goes right on to see God's anointed exalted. That is a far greater thought than her horn being exalted. That is just what I wanted to draw attention to, that these exercises which arise are intended to bring us to an appreciation of this wonderful thought as expressed in Christ, and to see that when He comes into matters and takes them up for God everything is secure."
+     ]
     }
    ]
   },
@@ -732,6 +1010,14 @@
      "text": "Proving that there is now no famine of divine speaking we read that the Lord, in the sermon on the mount, used the word \"Blessed\" at least nine times. Older children may have learned that a great poet wrote that the quality of mercy is 'twice blessed', and this is true. But the word of God rises infinitely above the best of human sentiments in the range of blessings in His heart for us His creatures, through our Lord Jesus Christ. In our everyday life, whether at school, at home and in the things that we think and talk about, there is a special word for believers; \"Blessed they who hunger and thirst after righteousness, for they shall be filled\". We have all thought at some time 'I suppose I ought to do the right thing', and this is good but you can easily see that this does not rise to God's noble thoughts for the believer to whom the Holy Spirit has been given. Do you practise righteousness?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "GOD'S ANOINTED MAN",
+   "kind": "default_place",
+   "detail": "LONDON given to 9 names (\"All local unless otherwise stated\")"
   }
  ]
 }

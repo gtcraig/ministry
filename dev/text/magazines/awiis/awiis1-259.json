@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,121 +26,114 @@
    "place": "GRANGEMOUTH",
    "date": "19 March 1994",
    "speakers": [
-    "A.A.B.",
-    "R.S.R.",
-    "W.L.",
-    "A.C.C.",
-    "D.A.S.",
-    "N.J.H.",
-    "D.P.",
-    "G.C.M.",
-    "E.S.",
-    "D.R.",
-    "C.K.R.",
-    "R.J.C.",
-    "W.W.",
-    "J.T.B.",
-    "P.B."
+    "JMcK",
+    "AAB",
+    "RSR",
+    "WL",
+    "AMcB",
+    "ACC",
+    "DAS",
+    "NJH",
+    "DP",
+    "GCM",
+    "ES",
+    "DR",
+    "CKR",
+    "RJC",
+    "WW",
+    "JTB",
+    "DMcG",
+    "PB"
    ],
    "initials": [
     {
-     "initials": "AABAAB",
-     "name": "A.A.B. A.A.Brown",
+     "initials": "AAB",
+     "name": "A.A.Brown",
      "place": "Grangemouth"
     },
     {
-     "initials": "JTBJB",
-     "name": "J.T.B. James Brown",
+     "initials": "JTB",
+     "name": "James Brown",
      "place": "Grangemouth"
     },
     {
-     "initials": "PBPB",
-     "name": "P.B. P.Buchan",
+     "initials": "PB",
+     "name": "P.Buchan",
      "place": "Kirkcaldy"
     },
     {
-     "initials": "RJCRJC",
-     "name": "R.J.C. R.J.Campbell",
+     "initials": "RJC",
+     "name": "R.J.Campbell",
      "place": "Glasgow"
     },
     {
-     "initials": "ACCACC",
-     "name": "A.C.C. A.C.Craig",
+     "initials": "ACC",
+     "name": "A.C.Craig",
      "place": "Airdrie"
     },
     {
-     "initials": "NJHNJH",
-     "name": "N.J.H. N.J.Henry",
+     "initials": "NJH",
+     "name": "N.J.Henry",
      "place": "Glasgow"
     },
     {
-     "initials": "WLWL",
-     "name": "W.L. W.Lamont",
+     "initials": "WL",
+     "name": "W.Lamont",
      "place": "Cumnock"
     },
     {
-     "initials": "GCMGCM",
-     "name": "G.C.M. G.C.McKay",
+     "initials": "GCM",
+     "name": "G.C.McKay",
      "place": "Glasgow"
     },
     {
-     "initials": "JMJM",
-     "name": "J.McK. J.McKay",
+     "initials": "JMcK",
+     "name": "J.McKay",
      "place": "Witney"
     },
     {
-     "initials": "AMAM",
-     "name": "A.McB. A.McBride",
+     "initials": "AMcB",
+     "name": "A.McBride",
      "place": "Grangemouth"
     },
     {
-     "initials": "DMDM",
-     "name": "D.McG. D.McGregor",
+     "initials": "DMcG",
+     "name": "D.McGregor",
      "place": "Lochgelly"
     },
     {
-     "initials": "JM",
-     "name": "l. J.Marshall",
-     "place": "Edinburgh"
-    },
-    {
-     "initials": "DPDP",
-     "name": "D.P. D.Pye",
+     "initials": "DP",
+     "name": "D.Pye",
      "place": "Kirkcaldy"
     },
     {
-     "initials": "RSRRSR",
-     "name": "R.S.R. R S.Renton",
+     "initials": "RSR",
+     "name": "R S.Renton",
      "place": "Edinburgh"
     },
     {
-     "initials": "DRDR",
-     "name": "D.R. D.Robertson",
+     "initials": "DR",
+     "name": "D.Robertson",
      "place": "Cumnock"
     },
     {
-     "initials": "CKRCKR",
-     "name": "C.K.R. C.K.Robinson",
+     "initials": "CKR",
+     "name": "C.K.Robinson",
      "place": "Glasgow"
     },
     {
-     "initials": "JS",
-     "name": "s. J.Spinks",
+     "initials": "ES",
+     "name": "E.Steedman",
      "place": "Grangemouth"
     },
     {
-     "initials": "ESES",
-     "name": "E.S. E.Steedman",
-     "place": "Grangemouth"
-    },
-    {
-     "initials": "DASDS",
-     "name": "D.A.S. D.Steven",
+     "initials": "DAS",
+     "name": "D.Steven",
      "place": "Glasgow"
     },
     {
-     "initials": "WWWW",
-     "name": "W.W. W.Wallace",
+     "initials": "WW",
+     "name": "W.Wallace",
      "place": "Grangemouth"
     }
    ],
@@ -150,413 +143,645 @@
    ],
    "paragraphs": [
     {
-     "text": "J.McK. It seems, dear brethren, to be a principle seen throughout Scripture that God works out His greatest thoughts in circumstances of outward limitation and restriction. We might speak about these scriptures from that point of view beginning with the verse in Proverbs which I think is very illuminating. Solomon says, \"Where there is no vision the people cast off restraint\", meaning that the acceptance of limitation and of outward smallness depends in some sense on a perception of the greatness of God Himself. I think the idea of vision is something that should not be absent from our experiences. Solomon says, \"Where there is no vision\", that is, where there is an absence of it, ''the people cast off restraint\". We are in the midst generally of the casting off of restraint. It shows itself in many ways, but really it exposes the fact that there is no vision, that is, there is no apprehension of the greatness of the God with whom we have to do."
+     "speaker": "JMcK",
+     "text": [
+      "It seems, dear brethren, to be a principle seen throughout Scripture that God works out His greatest thoughts in circumstances of outward limitation and restriction. We might speak about these scriptures from that point of view beginning with the verse in Proverbs which I think is very illuminating. Solomon says, \"Where there is no vision the people cast off restraint\", meaning that the acceptance of limitation and of outward smallness depends in some sense on a perception of the greatness of God Himself. I think the idea of vision is something that should not be absent from our experiences. Solomon says, \"Where there is no vision\", that is, where there is an absence of it, ''the people cast off restraint\". We are in the midst generally of the casting off of restraint. It shows itself in many ways, but really it exposes the fact that there is no vision, that is, there is no apprehension of the greatness of the God with whom we have to do.",
+      "The contrast to that is in Luke's gospel where we read that beautiful description of the Lord Jesus at twelve. It says, \"And he went down ... to Nazareth, and he was in subjection\"; we might speak of the intrinsic beauty which shone in Jesus as accepting outward limitation under God's will in the full light of divine supremacy.",
+      "In Genesis 40 Joseph is in prison. I thought to speak of Joseph not exactly as a type of Christ but as a type of the believer. He was in the king's prison, restricted by the orders of the king. There is another man there; he is restricted too, and help comes through interpretation in relation to that beautiful description typical of the Lord Jesus: \"a vine was before me\". Divine light shines into those restricted circumstances.",
+      "Also with David in 2 Samuel 7 we see a man who, although spiritually mature, has to accept restriction from God. As he does so spiritual enlargement results and he becomes one of the choicest contributors to the service of God."
+     ]
     },
     {
-     "text": "The contrast to that is in Luke's gospel where we read that beautiful description of the Lord Jesus at twelve. It says, \"And he went down ... to Nazareth, and he was in subjection\"; we might speak of the intrinsic beauty which shone in Jesus as accepting outward limitation under God's will in the full light of divine supremacy."
+     "speaker": "AAB",
+     "text": [
+      "Do you think as experiencing this - and I suppose we know a little of it - it would draw us nearer to Christ in order to see what He has in mind?"
+     ]
     },
     {
-     "text": "In Genesis 40 Joseph is in prison. I thought to speak of Joseph not exactly as a type of Christ but as a type of the believer. He was in the king's prison, restricted by the orders of the king. There is another man there; he is restricted too, and help comes through interpretation in relation to that beautiful description typical of the Lord Jesus: \"a vine was before me\". Divine light shines into those restricted circumstances."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, I think we need to see that, involved in it, is the acknowledgement of God's supremacy, the One who is supreme in the universe. It is interesting that, when Paul came to Athens, he spoke about the God who set the boundaries. Athens was the place of man's intellect, where men were throwing off restraint in so many ways. How much that is demonstrated around us! Thus Paul speaks in Acts 17 as to the boundaries being set in order that men my seek God: \"having determined ordained times and the boundaries of their dwelling, that they may seek God; if indeed they might feel after him and find him, although he is not far from each one of us\", Acts 17: 26, 27. So the principle of restriction enters into the creatorial order of things, in view of the fitting recognition in the soul that God is supreme. That God is God and man is man, that man should accept his own place in the light of God's supremacy, I think is a cardinal principle that underlies every blessing."
+     ]
     },
     {
-     "text": "Also with David in 2 Samuel 7 we see a man who, although spiritually mature, has to accept restriction from God. As he does so spiritual enlargement results and he becomes one of the choicest contributors to the service of God."
+     "speaker": "RSR",
+     "text": [
+      "How do we acquire spiritual vision?"
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "Do you think as experiencing this - and I suppose we know a little of it - it would draw us nearer to Christ in order to see what He has in mind?"
+     "speaker": "JMcK",
+     "text": [
+      "What do you have in mind in asking that?"
+     ]
     },
     {
-     "text": "J.McK. Yes, I think we need to see that, involved in it, is the acknowledgement of God's supremacy, the One who is supreme in the universe. It is interesting that, when Paul came to Athens, he spoke about the God who set the boundaries. Athens was the place of man's intellect, where men were throwing off restraint in so many ways. How much that is demonstrated around us! Thus Paul speaks in Acts 17 as to the boundaries being set in order that men my seek God: \"having determined ordained times and the boundaries of their dwelling, that they may seek God; if indeed they might feel after him and find him, although he is not far from each one of us\", Acts 17: 26, 27. So the principle of restriction enters into the creatorial order of things, in view of the fitting recognition in the soul that God is supreme. That God is God and man is man, that man should accept his own place in the light of God's supremacy, I think is a cardinal principle that underlies every blessing."
+     "speaker": "RSR",
+     "text": [
+      "I am interested in the passage you have referred to, \"Where there is no vision the people cast off restraint\". Would our link with the Lord and with the Spirit give us vision?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "How do we acquire spiritual vision?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes, I think a close link with divine Persons is the key to it, and we shall discover that God desires to enlarge our view. It is very interesting in Ezekiel that the place of the captivity was the place where the vision was seen. Ezekiel was among the captives by the river Chebar and he saw \"visions of God\", chap 1: 1. I think we are dependent on divine disclosure to broaden our view as to what God is doing lest we should be restricted in outlook to the immediate circumstances of our own lives."
+     ]
     },
     {
-     "text": "J.McK. What do you have in mind in asking that?"
+     "speaker": "WL",
+     "text": [
+      "Would Simeon earlier in the chapter be a good example of that in contrast to Proverbs 29, a man who is under the control and guidance of the Holy Spirit - ''for mine eyes have seen thy salvation, which thou hast prepared before the face of all peoples; a light for revelation of the Gentiles and the glory of thy people Israel\" (vv 30,31)?"
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "I am interested in the passage you have referred to, \"Where there is no vision the people cast off restraint\". Would our link with the Lord and with the Spirit give us vision?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes; he says, \"Lord, now thou lettest thy bondman go ... in peace\", as if his own circumstances were so limited, for he had seen what was much more extensive. God would help us that we should see beyond the boundaries of the confined area even of our immediate fellowship, see be yond and see the greatness of what God Himself is doing. As we do so, we shall be willing to accept the limitations and find divine help in them."
+     ]
     },
     {
-     "text": "J.McK. Yes, I think a close link with divine Persons is the key to it, and we shall discover that God desires to enlarge our view. It is very interesting in Ezekiel that the place of the captivity was the place where the vision was seen. Ezekiel was among the captives by the river Chebar and he saw \"visions of God\", chap 1: 1. I think we are dependent on divine disclosure to broaden our view as to what God is doing lest we should be restricted in outlook to the immediate circumstances of our own lives."
+     "speaker": "WL",
+     "text": [
+      "Would ''the law\" in the verse in Proverbs be the law of the house?"
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Would Simeon earlier in the chapter be a good example of that in contrast to Proverbs 29, a man who is under the control and guidance of the Holy Spirit - ''for mine eyes have seen thy salvation, which thou hast prepared before the face of all peoples; a light for revelation of the Gentiles and the glory of thy people Israel\" (vv 30,31)?"
+     "speaker": "JMcK",
+     "text": [
+      "That is right; the principle of divine supremacy is to be unchallenged in our experience; that is, we need to submit to God personally."
+     ]
     },
     {
-     "text": "J.McK. Yes; he says, \"Lord, now thou lettest thy bondman go ... in peace\", as if his own circumstances were so limited, for he had seen what was much more extensive. God would help us that we should see beyond the boundaries of the confined area even of our immediate fellowship, see be yond and see the greatness of what God Himself is doing. As we do so, we shall be willing to accept the limitations and find divine help in them."
+     "speaker": "AMcB",
+     "text": [
+      "Does the movement of the testimony westwards really begin at the inner prison gate?"
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Would ''the law\" in the verse in Proverbs be the law of the house?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes, Paul knew what it meant, did he not? He spoke of being a prisoner in the Lord; he spoke also about being a prisoner of the Christ Jesus (see Eph 3: 1; 4: 1). He knew what it meant to submit to the will of God in the restrictions which that involved in view of making room for divine power. Mr Darby says somewhere in his letters that we need to be in the place of God's mind to prove His strength. That is a very simple statement but with profound meaning."
+     ]
     },
     {
-     "text": "J.McK. That is right; the principle of divine supremacy is to be unchallenged in our experience; that is, we need to submit to God personally."
+     "speaker": "ACC",
+     "text": [
+      "In the gospel that develops the revelation of God, the first effect of the work of God is seen in the kingdom. There is capacity to apprehend the greatness of the revelation."
+     ]
     },
     {
-     "text": "A.McB. Does the movement of the testimony westwards really begin at the inner prison gate?"
+     "speaker": "JMcK",
+     "text": [
+      "I think so. The recognition of the power of God Himself is basic to this. It was where God began with Job, was it not? The friends said certain things, Elihu said certain things, and then God links on with that, and He begins with the assertion of His own greatness."
+     ]
     },
     {
-     "text": "J.McK. Yes, Paul knew what it meant, did he not? He spoke of being a prisoner in the Lord; he spoke also about being a prisoner of the Christ Jesus (see Eph 3: 1; 4: 1). He knew what it meant to submit to the will of God in the restrictions which that involved in view of making room for divine power. Mr Darby says somewhere in his letters that we need to be in the place of God's mind to prove His strength. That is a very simple statement but with profound meaning."
+     "speaker": "ACC",
+     "text": [
+      "It is bound to be that, if God comes out in revelation, He capacitates His people to apprehend Him; and that is developed in John, is it not? One woman says, \"I see that thou art a prophet\", John 4: 19. Further on in the book you get samples of people who are marked by vision, able to apprehend what God has brought out in revelation."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "In the gospel that develops the revelation of God, the first effect of the work of God is seen in the kingdom. There is capacity to apprehend the greatness of the revelation."
+     "speaker": "JMcK",
+     "text": [
+      "I think so. Even amongst men in these days, they look for persons who have vision, who have a long view of things, who are not considering just for the exigencies of today, not reasoning as to what opportunities may be offered to them immediately, but who have a long view. I think spiritually we need that, we need some perception of the greatness of the God of the universe, the God who is supreme, not only in regard of the universe itself but as to the powers of evil. What God says to Job is beautiful. He says as to the sea, \"When I cut out for it my boundary, and set bars and doors, And said, Hitherto shalt thou come and no further, and here shall thy proud waves be stayed''. Job 38: 10, 11. That was a statement by God to a man as to His own creation. We need to realise that divine supremacy exists in regard of the powers of evil so that they are limited by the divine will in the whole universe."
+     ]
     },
     {
-     "text": "J.McK. I think so. The recognition of the power of God Himself is basic to this. It was where God began with Job, was it not? The friends said certain things, Elihu said certain things, and then God links on with that, and He begins with the assertion of His own greatness."
+     "speaker": "DAS",
+     "text": [
+      "The captive maid in 2 Kings 5 accepted her limited circumstances but she never lost the long view that we have spoken about. She says, \"Oh, would that my lord were before the prophet that is in Samaria!\" (v 3)."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "It is bound to be that, if God comes out in revelation, He capacitates His people to apprehend Him; and that is developed in John, is it not? One woman says, \"I see that thou art a prophet\", John 4: 19. Further on in the book you get samples of people who are marked by vision, able to apprehend what God has brought out in revelation."
+     "speaker": "JMcK",
+     "text": [
+      "She accepted the limitations into which the will of God had put her and therefore she was effective in those circumstances. Her affection was clear. She says, \"Oh, would that my lord were before the prophet that is in Samaria!\" There was a depth of feeling about what she said that indicated that she had some vision as to the greatness of the God of Israel."
+     ]
     },
     {
-     "text": "J.McK. I think so. Even amongst men in these days, they look for persons who have vision, who have a long view of things, who are not considering just for the exigencies of today, not reasoning as to what opportunities may be offered to them immediately, but who have a long view. I think spiritually we need that, we need some perception of the greatness of the God of the universe, the God who is supreme, not only in regard of the universe itself but as to the powers of evil. What God says to Job is beautiful. He says as to the sea, \"When I cut out for it my boundary, and set bars and doors, And said, Hitherto shalt thou come and no further, and here shall thy proud waves be stayed''. Job 38: 10, 11. That was a statement by God to a man as to His own creation. We need to realise that divine supremacy exists in regard of the powers of evil so that they are limited by the divine will in the whole universe."
+     "speaker": "NJH",
+     "text": [
+      "You made reference to Job. The three friends by their language showed that they had no vision and had cast off restraint, but Elihu accepted restraint and had vision."
+     ]
     },
     {
-     "speaker": "D.A.S.",
-     "text": "The captive maid in 2 Kings 5 accepted her limited circumstances but she never lost the long view that we have spoken about. She says, \"Oh, would that my lord were before the prophet that is in Samaria!\" (v 3)."
+     "speaker": "JMcK",
+     "text": [
+      "It says about them that \"they came each one from his place\", Job 2: 11. So they approached everything from a human standpoint; and we tend, if we are honest with one another, to do that, whereas Elihu came from God, and God linked on immediately with his service, and He broadened Job's vision so that Job comes to the point at the end of his history when he says, \"I know that thou canst do everything\", Job 42: 2. Now a man like that will not cast off restraint."
+     ]
     },
     {
-     "text": "J.McK. She accepted the limitations into which the will of God had put her and therefore she was effective in those circumstances. Her affection was clear. She says, \"Oh, would that my lord were before the prophet that is in Samaria!\" There was a depth of feeling about what she said that indicated that she had some vision as to the greatness of the God of Israel."
+     "speaker": "NJH",
+     "text": [
+      "Our daily conversation might expose where we are, do you think?"
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "You made reference to Job. The three friends by their language showed that they had no vision and had cast off restraint, but Elihu accepted restraint and had vision."
+     "speaker": "JMcK",
+     "text": [
+      "Our conduct exposes whether we have a clear view of the God with whom we have to do. Would people behave as they do if there were a sense in their souls of the God with whom they have to do? Morally people are casting off restraint, are they not? Politically, socially, and in every area the tendency is the same. The believer is to be in total contrast to that; he is submitting to God's will."
+     ]
     },
     {
-     "text": "J.McK. It says about them that \"they came each one from his place\", Job 2: 11. So they approached everything from a human standpoint; and we tend, if we are honest with one another, to do that, whereas Elihu came from God, and God linked on immediately with his service, and He broadened Job's vision so that Job comes to the point at the end of his history when he says, \"I know that thou canst do everything\", Job 42: 2. Now a man like that will not cast off restraint."
+     "speaker": "DP",
+     "text": [
+      "Does Paul show that in Acts 27 when he says, ''the God, whose I am and whom I serve\" (v 22) and he is given the view of what immediately lay before him?"
+     ]
     },
     {
-     "speaker": "N.J.H.",
-     "text": "Our daily conversation might expose where we are, do you think?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes, he accepted the restrictions. I suppose he had his chains on board the ship and yet he was the most influential man. As the storm developed his influence increased; a man who is prepared to accept divine supremacy can be restful as to everything."
+     ]
     },
     {
-     "text": "J.McK. Our conduct exposes whether we have a clear view of the God with whom we have to do. Would people behave as they do if there were a sense in their souls of the God with whom they have to do? Morally people are casting off restraint, are they not? Politically, socially, and in every area the tendency is the same. The believer is to be in total contrast to that; he is submitting to God's will."
+     "speaker": "GCM",
+     "text": [
+      "Circumstances in Israel at this point in Luke are marked by governmental restrictions, difficulties, but the Lord speaks about \"my Father's business\" (v 49). Do you think divine matters, God's business - you might say the Father's business - are proceeding despite all that is around? Should we see that too at the present time?"
+     ]
     },
     {
-     "speaker": "D.P.",
-     "text": "Does Paul show that in Acts 27 when he says, ''the God, whose I am and whom I serve\" (v 22) and he is given the view of what immediately lay before him?"
+     "speaker": "JMcK",
+     "text": [
+      "I think so, and the reality of the outward circumstances shows the governmental ways of God with His earthly people. The smallness, for example, of the offering that the parents of the Lord Jesus brought earlier in the chapter - two turtle doves, or two young pigeons, the provision that God had made in His grace for those affected by poverty of circumstances - shows how the Lord Jesus Himself came into the temple. No doubt, in the acceptance of that, divine power is proved, and proved in perfection because of the greatness and glory of the Person who came into such restricted circumstances."
+     ]
     },
     {
-     "text": "J.McK. Yes, he accepted the restrictions. I suppose he had his chains on board the ship and yet he was the most influential man. As the storm developed his influence increased; a man who is prepared to accept divine supremacy can be restful as to everything."
+     "speaker": "ES",
+     "text": [
+      "In Judges restraint had been set aside, \"every man did what was right in his own eyes\", chap 17: 6. Gideon was used by God, maintaining a food supply by threshing wheat in the winepress."
+     ]
     },
     {
-     "speaker": "G.C.M.",
-     "text": "Circumstances in Israel at this point in Luke are marked by governmental restrictions, difficulties, but the Lord speaks about \"my Father's business\" (v 49). Do you think divine matters, God's business - you might say the Father's business - are proceeding despite all that is around? Should we see that too at the present time?"
+     "speaker": "JMcK",
+     "text": [
+      "He was operating for the whole of Israel in his affection, and yet in restricted circumstances. What grace it is that in Luke 2 the Lord Jesus Himself should accept outward restriction. Think of who He was, the greatness of the Person who had come into humanity at its lowest point, the earlier part of the gospel referring to the manger. Mr Darby's language in his hymn is very fine.",
+      "'Nor yet in triumph passing,",
+      "But human infancy!' (Hymn 188)",
+      "How unattractive circumstances into which Jesus came, and it was in those circumstances that the greatest things according to God have been made known. I think it should encourage us, because the circumstances of the testimony generally are very obscure, and we need our faith enlarged that this is the way God operates in view of achieving His greatest thoughts."
+     ]
     },
     {
-     "text": "J.McK. I think so, and the reality of the outward circumstances shows the governmental ways of God with His earthly people. The smallness, for example, of the offering that the parents of the Lord Jesus brought earlier in the chapter - two turtle doves, or two young pigeons, the provision that God had made in His grace for those affected by poverty of circumstances - shows how the Lord Jesus Himself came into the temple. No doubt, in the acceptance of that, divine power is proved, and proved in perfection because of the greatness and glory of the Person who came into such restricted circumstances."
+     "speaker": "RSR",
+     "text": [
+      "In Acts 16 ''they attempted to go to Bithynia, and the Spirit of Jesus did not allow them\" (v 7); then there was the vision, then the restricted circumstances in the jail, then the wonderful result in the securing of the jailor, and then when Paul is released, he comes to Lydia."
+     ]
     },
     {
-     "speaker": "E.S.",
-     "text": "In Judges restraint had been set aside, \"every man did what was right in his own eyes\", chap 17: 6. Gideon was used by God, maintaining a food supply by threshing wheat in the winepress."
+     "speaker": "JMcK",
+     "text": [
+      "Well, that sounds like a fellowship meeting in itself, but certainly Paul in that journey of unparalleled spiritual energy accepted the principle of divine control, and in concluding that the Lord had sent him, he moved forward with a conviction that could not have been reached in any other way. I think what we need to see is that the One who is the God of the universe claims submission in my soul."
+     ]
     },
     {
-     "text": "J.McK. He was operating for the whole of Israel in his affection, and yet in restricted circumstances. What grace it is that in Luke 2 the Lord Jesus Himself should accept outward restriction. Think of who He was, the greatness of the Person who had come into humanity at its lowest point, the earlier part of the gospel referring to the manger. Mr Darby's language in his hymn is very fine."
+     "speaker": "DR",
+     "text": [
+      "The vision would really be God's view of things. We might be quite content with our own view of things, and that could be quite faulty. I wondered if God's view of things would always bring us to Christ. What you are suggesting in Luke 2 is really the beauty of manhood in God's sight, is it not?"
+     ]
     },
     {
-     "text": "'Nor yet in triumph passing,"
+     "speaker": "JMcK",
+     "text": [
+      "It was a unique occasion. This is the only recorded incident that we have during that period of thirty years, is it not? He stayed behind in the temple; He was hearing and asking questions. He said, \"Did ye not know that I ought to be occupied in my Father's business?\" As the only incident on record from that whole period of development in His humanity under God's eye upon the earth, it has particular value."
+     ]
     },
     {
-     "text": "But human infancy!' (Hymn 188)"
+     "speaker": "DR",
+     "text": [
+      "So we have been well taught that in Him we reach the point of divine complacency. When we reach God's point of view we come to a point of rest, and it is all in Christ. I thought, too, you might say a word about 1 Corinthians 15 where it speaks of a subjection which is clearly one which makes it very beautiful as we think of God's view."
+     ]
     },
     {
-     "text": "How unattractive circumstances into which Jesus came, and it was in those circumstances that the greatest things according to God have been made known. I think it should encourage us, because the circumstances of the testimony generally are very obscure, and we need our faith enlarged that this is the way God operates in view of achieving His greatest thoughts."
+     "speaker": "JMcK",
+     "text": [
+      "There is a link therefore between the outward and obscure circumstances of the testimony and the principle that will govern eternity. It is very wonderful: \"he was in subjection to them\". It does not say that He obeyed them, it is rather a state, an attitude; it is a position which He took. The same word is used by Paul in 1 Corinthians 15, ''the Son also himself shall be placed in subjection ... that God may be all in all\" (v 28)."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "In Acts 16 ''they attempted to go to Bithynia, and the Spirit of Jesus did not allow them\" (v 7); then there was the vision, then the restricted circumstances in the jail, then the wonderful result in the securing of the jailor, and then when Paul is released, he comes to Lydia."
+     "speaker": "ACC",
+     "text": [
+      "Cain started by casting off restraint: Jesus accepted the restraint."
+     ]
     },
     {
-     "text": "J.McK. Well, that sounds like a fellowship meeting in itself, but certainly Paul in that journey of unparalleled spiritual energy accepted the principle of divine control, and in concluding that the Lord had sent him, he moved forward with a conviction that could not have been reached in any other way. I think what we need to see is that the One who is the God of the universe claims submission in my soul."
+     "speaker": "JMcK",
+     "text": [
+      "It is a beautiful area for contemplation. As another has said, what we have at this point is the consciousness in Himself of sonship unannounced. Later we have the Father's voice, and the anointing, the Spirit of God coming upon Him, the voice from heaven distinguishing Him above all others; but here we have the consciousness in Christ of sonship."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "The vision would really be God's view of things. We might be quite content with our own view of things, and that could be quite faulty. I wondered if God's view of things would always bring us to Christ. What you are suggesting in Luke 2 is really the beauty of manhood in God's sight, is it not?"
+     "speaker": "ACC",
+     "text": [
+      "I thought the link with 1 Corinthians 15 was good. I was thinking about the very acme of subjection. You find it in Him here and you find it there because it says He shall be placed in subjection, as if somebody else were doing it."
+     ]
     },
     {
-     "text": "J.McK. It was a unique occasion. This is the only recorded incident that we have during that period of thirty years, is it not? He stayed behind in the temple; He was hearing and asking questions. He said, \"Did ye not know that I ought to be occupied in my Father's business?\" As the only incident on record from that whole period of development in His humanity under God's eye upon the earth, it has particular value."
+     "speaker": "JMcK",
+     "text": [
+      "Yes. I suppose in Luke 2 He took the place of subjection, which might link with Paul's language in Philippians 2, ''taking his place in the likeness of men\" (v 7). He actually took that place. It was the initiative of sovereignty in a sense. Because of who He was, He \"did not esteem it an object of rapine to be on an equality with God; but emptied himself\", and took His place.",
+      "J.S-s. Everything that pertains to man in nature is set aside here and, in effect, the great light is shining."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "So we have been well taught that in Him we reach the point of divine complacency. When we reach God's point of view we come to a point of rest, and it is all in Christ. I thought, too, you might say a word about 1 Corinthians 15 where it speaks of a subjection which is clearly one which makes it very beautiful as we think of God's view."
+     "speaker": "JMcK",
+     "text": [
+      "He was here in the temple, \"sitting in the midst of the teachers and hearing them and asking them questions\". Divine light, I suppose, never shone thus in the temple. The One to whom it all referred was actually there, and yet He was there as a child. Mr Darby's verse in the poem 'The Man of Sorrows' is appealing:",
+      "'A child in growth and stature,",
+      "Yet full of wisdom rare;",
+      "Sonship, in conscious nature,",
+      "His words and ways declare'.",
+      "The Spirit of God would draw out our affections to One who was conscious at this point that He was the Son of the Father and yet He was prepared to be in subjection to His earthly parents."
+     ]
     },
     {
-     "text": "J.McK. There is a link therefore between the outward and obscure circumstances of the testimony and the principle that will govern eternity. It is very wonderful: \"he was in subjection to them\". It does not say that He obeyed them, it is rather a state, an attitude; it is a position which He took. The same word is used by Paul in 1 Corinthians 15, ''the Son also himself shall be placed in subjection ... that God may be all in all\" (v 28)."
+     "speaker": "RSR",
+     "text": [
+      "What do you say about the expression, ''the boy Jesus\"? Is that not beautiful, a perfect boy? There never had been a perfect boy apart from Jesus."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Cain started by casting off restraint: Jesus accepted the restraint."
+     "speaker": "JMcK",
+     "text": [
+      "Twelve years old, and yet in that human form there was full awareness of His link with the Father."
+     ]
     },
     {
-     "text": "J.McK. It is a beautiful area for contemplation. As another has said, what we have at this point is the consciousness in Himself of sonship unannounced. Later we have the Father's voice, and the anointing, the Spirit of God coming upon Him, the voice from heaven distinguishing Him above all others; but here we have the consciousness in Christ of sonship."
+     "speaker": "RSR",
+     "text": [
+      "The first reference to His father is a small 'f', ''thy father and I have sought thee distressed\", but then He says, \"did ye not know that I ought to be occupied in my Father's business?\", that is a capital 'F'."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "I thought the link with 1 Corinthians 15 was good. I was thinking about the very acme of subjection. You find it in Him here and you find it there because it says He shall be placed in subjection, as if somebody else were doing it."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, one thing took precedence over the other, did it not? Mr Darby in the Synopsis comments on this passage as to His relationship with the Father, that 'Consciousness of the one did not injure His perfection in the other’. Thus He is prepared to go down to Nazareth with them. One thing is not conflicting with the other; here is perfection in Christ."
+     ]
     },
     {
-     "text": "J.McK. Yes. I suppose in Luke 2 He took the place of subjection, which might link with Paul's language in Philippians 2, ''taking his place in the likeness of men\" (v 7). He actually took that place. It was the initiative of sovereignty in a sense. Because of who He was, He \"did not esteem it an object of rapine to be on an equality with God; but emptied himself\", and took His place."
+     "speaker": "DR",
+     "text": [
+      "It says in Acts, \"Go ye and stand and speak in the temple to the people all the words of this life\", chap 5: 20. That is really God's view. Is it not imperative that we understand that Christianity is a continuation of that life? It has become different in man's view in Christendom. But do you think God would bring us back to an understanding that Christianity is really the continuation of that life here in service?"
+     ]
     },
     {
-     "text": "J.S-s. Everything that pertains to man in nature is set aside here and, in effect, the great light is shining."
+     "speaker": "JMcK",
+     "text": [
+      "That is right; the place that Jesus took was man's place. it was manhood, the place of humanity in perfection. So that, had He remained in the temple, the light would have continued to shine. It could not have been otherwise because of who was there. Jerusalem would thus have become the focus of attention, but in the wisdom of God's ways He returns with them to Nazareth. It says, \"And he went down with them and came to Nazareth, and he was in subjection to them\". He accepted divine restriction as to the circumstances in which He was; how much more we should do so."
+     ]
     },
     {
-     "text": "J.McK. He was here in the temple, \"sitting in the midst of the teachers and hearing them and asking them questions\". Divine light, I suppose, never shone thus in the temple. The One to whom it all referred was actually there, and yet He was there as a child. Mr Darby's verse in the poem 'The Man of Sorrows' is appealing:"
+     "speaker": "AMcB",
+     "text": [
+      "Would there be a connection between vision and what Paul speaks of as to ''the oracles of God\", Rom 3: 2? We have been speaking of God's view; that would be promoted and be current in the assembly - the features of Christ would be promoted amongst the saints."
+     ]
     },
     {
-     "text": "'A child in growth and stature,"
+     "speaker": "JMcK",
+     "text": [
+      "I think so; so that as you think of what was worked out in Nazareth, you might say it has the curtain drawn across it, He is largely unseen having moved into the place of obscurity. Later one was to say, \"Can anything good come out of Nazareth?\" (John 1: 46), and yet in that place there was the working out of the most precious thoughts that God had in the humanity of Christ here among men."
+     ]
     },
     {
-     "text": "Yet full of wisdom rare;"
+     "speaker": "AMcB",
+     "text": [
+      "And that would be carried forward, do you think, into the assembly and continued there and promoted there?"
+     ]
     },
     {
-     "text": "Sonship, in conscious nature,"
+     "speaker": "JMcK",
+     "text": [
+      "So that we should not look for public recognition. Indeed, if it comes, we should be apprehensive as to what it might mean. It was not God's way to work out His testimony in circumstances of public prominence; it was rather that He worked out the best that He had in circumstances of obscurity, so that our Lord was called Jesus the Nazarene; that is how He became known."
+     ]
     },
     {
-     "text": "His words and ways declare'."
+     "speaker": "CKR",
+     "text": [
+      "Does what you are saying enhance the thought of the testimony? I wondered whether it could quite easily become just a phrase. But what it involves is restriction in one sense, yet in another the way God is going to work out what He will yet display publicly. Is that why it is one of God's greatest thoughts?"
+     ]
     },
     {
-     "text": "The Spirit of God would draw out our affections to One who was conscious at this point that He was the Son of the Father and yet He was prepared to be in subjection to His earthly parents."
+     "speaker": "JMcK",
+     "text": [
+      "That is right. In a sense God's thoughts are too precious to be exposed to man's curiosity. He is working out something that is far greater than human perception, and I suppose the vision includes that. We would hesitate to apply the idea of vision to the Lord personally because of who He was, and yet the principle of His action in submitting to God's will and going into obscurity involved that He had a view that those around Him knew nothing of."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "What do you say about the expression, ''the boy Jesus\"? Is that not beautiful, a perfect boy? There never had been a perfect boy apart from Jesus."
+     "speaker": "CKR",
+     "text": [
+      "So you can understand Paul saying to Timothy, \"Be not therefore ashamed of our Lord, nor of me his prisoner\", 2 Tim 1: 8."
+     ]
     },
     {
-     "text": "J.McK. Twelve years old, and yet in that human form there was full awareness of His link with the Father."
+     "speaker": "JMcK",
+     "text": [
+      "What God is working out in obscurity will be displayed. The time for it will come but at the present moment it is for us to accept simply the supremacy of God's will for us and prove that our blessing comes that way."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "The first reference to His father is a small 'f', ''thy father and I have sought thee distressed\", but then He says, \"did ye not know that I ought to be occupied in my Father's business?\", that is a capital 'F'."
+     "speaker": "WL",
+     "text": [
+      "The Lord seems, too, always to have the completed matter before Him. In John 4 He says, \"My food is that I should do the will of him that has sent me, and that I should finish his work\" (v 34). There is nothing uncompleted with the Lord, is there?"
+     ]
     },
     {
-     "text": "J.McK. Yes, one thing took precedence over the other, did it not? Mr Darby in the Synopsis comments on this passage as to His relationship with the Father, that 'Consciousness of the one did not injure His perfection in the other’. Thus He is prepared to go down to Nazareth with them. One thing is not conflicting with the other; here is perfection in Christ."
+     "speaker": "JMcK",
+     "text": [
+      "\"That I should finish\" is the long view. We need that. Let us be in the testimony aware of God's thoughts and in the light of what will finally come from this wonderful dispensation. That the greatness of the assembly is being worked out in conditions that men despise is one of the triumphs of the present moment."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "It says in Acts, \"Go ye and stand and speak in the temple to the people all the words of this life\", chap 5: 20. That is really God's view. Is it not imperative that we understand that Christianity is a continuation of that life? It has become different in man's view in Christendom. But do you think God would bring us back to an understanding that Christianity is really the continuation of that life here in service?"
+     "speaker": "RJC",
+     "text": [
+      "The Lord says, \"the Spirit ... shall guide you into all the truth ... and he will announce to you what is coming\", John 16: 13. I wondered whether that involved the vision and that we prove the Spirit's service in that way."
+     ]
     },
     {
-     "text": "J.McK. That is right; the place that Jesus took was man's place. it was manhood, the place of humanity in perfection. So that, had He remained in the temple, the light would have continued to shine. It could not have been otherwise because of who was there. Jerusalem would thus have become the focus of attention, but in the wisdom of God's ways He returns with them to Nazareth. It says, \"And he went down with them and came to Nazareth, and he was in subjection to them\". He accepted divine restriction as to the circumstances in which He was; how much more we should do so."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, to enlarge our view. I think that is good, so the Spirit Himself, you might say, has accepted restriction at the present time in view of securing results for God.",
+      "J.S-s. Does the Lord have all this in mind in Matthew - the great administrative gospel -when He says, \"I praise thee, Father, Lord of the heaven and of the earth\" (Matt 11: 25), and then He brings out the persons, the babes, to whom these great things are to be revealed?"
+     ]
     },
     {
-     "text": "A.McB. Would there be a connection between vision and what Paul speaks of as to ''the oracles of God\", Rom 3: 2? We have been speaking of God's view; that would be promoted and be current in the assembly - the features of Christ would be promoted amongst the saints."
+     "speaker": "JMcK",
+     "text": [
+      "That is very good; so the reference to the Lord of heaven and earth is an allusion to God's supremacy in the universe in the light of the refusal of the ministry of Christ in a public sense.",
+      "We should go on to Genesis 40."
+     ]
     },
     {
-     "text": "J.McK. I think so; so that as you think of what was worked out in Nazareth, you might say it has the curtain drawn across it, He is largely unseen having moved into the place of obscurity. Later one was to say, \"Can anything good come out of Nazareth?\" (John 1: 46), and yet in that place there was the working out of the most precious thoughts that God had in the humanity of Christ here among men."
+     "speaker": "WW",
+     "text": [
+      "I was thinking of John in Patmos. The whole assembly history is brought out; then it is extended forward to '1he things that are about to be after these\" (Rev 1: 19), thus taking matters right through to the end. All this came to John in restricted conditions in Patmos."
+     ]
     },
     {
-     "text": "A.McB. And that would be carried forward, do you think, into the assembly and continued there and promoted there?"
+     "speaker": "JMcK",
+     "text": [
+      "What sustained John there was what he was shown. How extended the view he had particularly at the end of that beautiful book where it says, He \"shewed me the holy city, Jerusalem, coming down out of the heaven from God\", Rev 21: 10. We need persons in our local companies with a view like that. God would give us such a view so that we are no longer constricted by our own circumstances and preserved from the tendency to have an apologetic view of our Christianity."
+     ]
     },
     {
-     "text": "J.McK. So that we should not look for public recognition. Indeed, if it comes, we should be apprehensive as to what it might mean. It was not God's way to work out His testimony in circumstances of public prominence; it was rather that He worked out the best that He had in circumstances of obscurity, so that our Lord was called Jesus the Nazarene; that is how He became known."
+     "speaker": "DR",
+     "text": [
+      "God can put limitations on us: perhaps you could say more about this. You spoke about the king's prisoners, where they were confined. It was obviously God's matter."
+     ]
     },
     {
-     "speaker": "C.K.R.",
-     "text": "Does what you are saying enhance the thought of the testimony? I wondered whether it could quite easily become just a phrase. But what it involves is restriction in one sense, yet in another the way God is going to work out what He will yet display publicly. Is that why it is one of God's greatest thoughts?"
+     "speaker": "JMcK",
+     "text": [
+      "I was thinking about that. There are two persons - well, there are three - but there are two that we should consider, confined in this prison. One was Joseph, and he had not done any wrong. The background to his being in prison was false accusation. Nevertheless, he is put into prison, and he is there as the king's prisoner. As to the other man, it says, ''the cup-bearer of the king of Egypt and the baker offended their lord the king of Egypt. And Pharaoh was wroth with his two chamberlains ... and he put them in custody into the house of the captain of the life-guard, into the tower-house, into the place where Joseph was imprisoned\". Joseph and the cupbearer were both put in the same place; one of them had offended and the other had not. Putting ourselves alongside them we need firstly to accept that because of our histories there may be certain governmental limitations placed upon us. On the other hand, as Joseph had not offended, we can see the willing submission to God's ways and how divine objectives are reached in result. Both men had vision!"
+     ]
     },
     {
-     "text": "J.McK. That is right. In a sense God's thoughts are too precious to be exposed to man's curiosity. He is working out something that is far greater than human perception, and I suppose the vision includes that. We would hesitate to apply the idea of vision to the Lord personally because of who He was, and yet the principle of His action in submitting to God's will and going into obscurity involved that He had a view that those around Him knew nothing of."
+     "speaker": "WL",
+     "text": [
+      "Later on he says to his brethren, \"So God sent me before you to preserve you a remnant in the earth, and to save you alive by a great deliverance\", Gen 45: 7. What vision that was!"
+     ]
     },
     {
-     "speaker": "C.K.R.",
-     "text": "So you can understand Paul saying to Timothy, \"Be not therefore ashamed of our Lord, nor of me his prisoner\", 2 Tim 1: 8."
+     "speaker": "JMcK",
+     "text": [
+      "That is fine. Perhaps we think more about the first part of that statement than we do about the second. \"Preserve you a remnant in the earth\", would refer to the saints as the poor, afflicted, despised company with which we are familiar, but \"Save you alive by a great deliverance\": that is tremendous! It involves life, and this connection with an unseen world and with a Man who, having done the will of God on earth, is now in heaven, the great power to carry through what is of God in the testimony."
+     ]
     },
     {
-     "text": "J.McK. What God is working out in obscurity will be displayed. The time for it will come but at the present moment it is for us to accept simply the supremacy of God's will for us and prove that our blessing comes that way."
+     "speaker": "WL",
+     "text": [
+      "\"Ye indeed meant evil against me: God meant it for good\", Gen 50: 20."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "The Lord seems, too, always to have the completed matter before Him. In John 4 He says, \"My food is that I should do the will of him that has sent me, and that I should finish his work\" (v 34). There is nothing uncompleted with the Lord, is there?"
+     "speaker": "JTB",
+     "text": [
+      "In verse 6, \"And Joseph came in to them in the morning, and looked on them\". It is very comforting that, in circumstances of restriction and limitation, our blessed Lord would come so near to see how we are getting on in our circumstances."
+     ]
     },
     {
-     "text": "J.McK. \"That I should finish\" is the long view. We need that. Let us be in the testimony aware of God's thoughts and in the light of what will finally come from this wonderful dispensation. That the greatness of the assembly is being worked out in conditions that men despise is one of the triumphs of the present moment."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, we can speak about it as a beautiful type of the Lord Jesus. We can also think of Joseph as a real man, and that is what is more in my mind today. Joseph as a man of like passions to ourselves was considerate for his fellow prisoners. I wonder whether, as consciously restricted together, we can be as Joseph was towards this cup-bearer, and towards the other man, because he says, \"Why are your faces so sad today?\" I think Joseph had accepted his circumstances but that the cup-bearer was just struggling a bit with his. He was not fully submissive, and I think Joseph's service brought him round to the recognition of the fact that God's supremacy was to work out in his complete deliverance and restoration."
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "The Lord says, \"the Spirit ... shall guide you into all the truth ... and he will announce to you what is coming\", John 16: 13. I wondered whether that involved the vision and that we prove the Spirit's service in that way."
+     "speaker": "RSR",
+     "text": [
+      "The cup-bearer says, \"In my dream, behold a vine was before me\". The baker says, \"I also was in my dream\": he lost his head, did he not? The one is thinking of what is for the pleasure of Pharaoh."
+     ]
     },
     {
-     "text": "J.McK. Yes, to enlarge our view. I think that is good, so the Spirit Himself, you might say, has accepted restriction at the present time in view of securing results for God."
+     "speaker": "JMcK",
+     "text": [
+      "I did not want to speak about the baker. He is there for our instruction, \"I also was in my dream\" - how large we loom sometimes, do we not, in our own view? That is not the kind of vision we need. I think the principle of vision is in what the cupbearer said - \"a vine was before me\". He sees the development of life of another order, typically referring to the greatness of the humanity of Christ, and the way it yields not in testimony to men but in response to God."
+     ]
     },
     {
-     "text": "J.S-s. Does the Lord have all this in mind in Matthew - the great administrative gospel -when He says, \"I praise thee, Father, Lord of the heaven and of the earth\" (Matt 11: 25), and then He brings out the persons, the babes, to whom these great things are to be revealed?"
+     "speaker": "GCM",
+     "text": [
+      "Is this subject related a little to the thought of overcoming? Joseph was eminently an overcomer, was he not? In the promise to the overcomers in Revelation 2 and 3, they get such incentives set before them. Do you think that is what sustains us to go on despite the circumstances and the difficulties?"
+     ]
     },
     {
-     "text": "J.McK. That is very good; so the reference to the Lord of heaven and earth is an allusion to God's supremacy in the universe in the light of the refusal of the ministry of Christ in a public sense."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, I think the difficulties call for the overcomer; and certainly Joseph was overcoming. He was not in any way complaining. He had been put into prison, and he had not offended; he was there without justification and he was there submitting to the God whom we know, who in His wisdom chooses these ways to work out His own thoughts."
+     ]
     },
     {
-     "text": "We should go on to Genesis 40."
+     "speaker": "DMcG",
+     "text": [
+      "I was thinking that in Psalm 105, \"They afflicted his feet with fetters; his soul came into irons\" (v 18) was submission to the will of God."
+     ]
     },
     {
-     "speaker": "W.W.",
-     "text": "I was thinking of John in Patmos. The whole assembly history is brought out; then it is extended forward to '1he things that are about to be after these\" (Rev 1: 19), thus taking matters right through to the end. All this came to John in restricted conditions in Patmos."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, \"Until the time when what he said came about\" (v 19). Joseph had vision, had he not? He had been shown what God's will was. He had those dreams - his brethren hated him the more for them - but he had them and he would never lose the light that was in them; but until that time came he accepted what the king's prison meant. There are those here who know more than I do what the king's prison means, the discipline in the lives of many of the brethren involves real pressure. There are some enormous things being carried and you wonder sometimes just how and why these things arise, but you find that the God whom we know is working out His greatest thoughts in circumstances which appear to be humanly impossible.",
+      "J.S-s. Is that what is meant at the end of verse 8, \"Do not interpretations belong to God?\""
+     ]
     },
     {
-     "text": "J.McK. What sustained John there was what he was shown. How extended the view he had particularly at the end of that beautiful book where it says, He \"shewed me the holy city, Jerusalem, coming down out of the heaven from God\", Rev 21: 10. We need persons in our local companies with a view like that. God would give us such a view so that we are no longer constricted by our own circumstances and preserved from the tendency to have an apologetic view of our Christianity."
+     "speaker": "JMcK",
+     "text": [
+      "I think that is fine. At that point he says, in effect, I am not equal to this. He accepted God's restriction; he is in the prison and willing to serve those who are alongside of him, and he says, \"Do not interpretations belong to God?\" He brings God in. I think the principle of vision enters into that. If there is to be an answer to any exercise that arises amongst us, God is going to provide it. He may in His grace use human and weak and frail vessels like you and me to convey His mind, but it is God who will bring in the answer."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "God can put limitations on us: perhaps you could say more about this. You spoke about the king's prisoners, where they were confined. It was obviously God's matter."
+     "speaker": "DP",
+     "text": [
+      "In verses 12-15 Joseph gives the interpretation, showing that he had the mind of God; and at the same time he discloses how deeply he felt about his own position. He had the vision before him, and it was of God."
+     ]
     },
     {
-     "text": "J.McK. I was thinking about that. There are two persons - well, there are three - but there are two that we should consider, confined in this prison. One was Joseph, and he had not done any wrong. The background to his being in prison was false accusation. Nevertheless, he is put into prison, and he is there as the king's prisoner. As to the other man, it says, ''the cup-bearer of the king of Egypt and the baker offended their lord the king of Egypt. And Pharaoh was wroth with his two chamberlains ... and he put them in custody into the house of the captain of the life-guard, into the tower-house, into the place where Joseph was imprisoned\". Joseph and the cupbearer were both put in the same place; one of them had offended and the other had not. Putting ourselves alongside them we need firstly to accept that because of our histories there may be certain governmental limitations placed upon us. On the other hand, as Joseph had not offended, we can see the willing submission to God's ways and how divine objectives are reached in result. Both men had vision!"
+     "speaker": "JMcK",
+     "text": [
+      "Yes, he readily interprets the experience of another. I think this is very attractive if we apply it to the relations between us as brethren. The concern firstly would be, \"Why are your faces so sad today?\", concern for one another; and then as the conversation develops the man tells of what his exercise is. Joseph is used of God to bring in light that involves his complete liberation and that he should serve Pharaoh as he did aforetime. The grapes are pressed into Pharaoh's cup, that is typically the life of Christ as yielding something in the way of response to God. It is very wonderful to see how exercises amongst us as brethren can result in increase in the service of God."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Later on he says to his brethren, \"So God sent me before you to preserve you a remnant in the earth, and to save you alive by a great deliverance\", Gen 45: 7. What vision that was!"
+     "speaker": "DR",
+     "text": [
+      "Does it involve a secret source of supply? It says here, \"behold, a vine was before me\". There was what was objective but then there was what was in the vine. I wondered if it was a fine experience in these circumscribed conditions to see what we can tap into, you might say, a secret source of supply which is not interrupted by the circumstances."
+     ]
     },
     {
-     "text": "J.McK. That is fine. Perhaps we think more about the first part of that statement than we do about the second. \"Preserve you a remnant in the earth\", would refer to the saints as the poor, afflicted, despised company with which we are familiar, but \"Save you alive by a great deliverance\": that is tremendous! It involves life, and this connection with an unseen world and with a Man who, having done the will of God on earth, is now in heaven, the great power to carry through what is of God in the testimony."
+     "speaker": "JMcK",
+     "text": [
+      "That is very interesting. The Lord Jesus speaks of Himself as ''the true vine\", does He not, in John 15, and He also says, ''ye are the branches\". It is very interesting that it is not Christ that bears fruit in John 15, it is the branches. Is that right?"
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "\"Ye indeed meant evil against me: God meant it for good\", Gen 50: 20."
+     "speaker": "DR",
+     "text": [
+      "Please explain that."
+     ]
     },
     {
-     "speaker": "J.T.B.",
-     "text": "In verse 6, \"And Joseph came in to them in the morning, and looked on them\". It is very comforting that, in circumstances of restriction and limitation, our blessed Lord would come so near to see how we are getting on in our circumstances."
+     "speaker": "JMcK",
+     "text": [
+      "Well, it is through persons who have a direct link with Christ that the results for God are coming, are they not? \"If ye abide in me\". So the secret of fruit-bearing is not great intelligence in the truth but abiding in Christ."
+     ]
     },
     {
-     "text": "J.McK. Yes, we can speak about it as a beautiful type of the Lord Jesus. We can also think of Joseph as a real man, and that is what is more in my mind today. Joseph as a man of like passions to ourselves was considerate for his fellow prisoners. I wonder whether, as consciously restricted together, we can be as Joseph was towards this cup-bearer, and towards the other man, because he says, \"Why are your faces so sad today?\" I think Joseph had accepted his circumstances but that the cup-bearer was just struggling a bit with his. He was not fully submissive, and I think Joseph's service brought him round to the recognition of the fact that God's supremacy was to work out in his complete deliverance and restoration."
+     "speaker": "RSR",
+     "text": [
+      "That is the chapter that says, ''for without me ye can do nothing\" (v 6). Some difficulties we have are complex and only the Lord Jesus knows the solution to them."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "The cup-bearer says, \"In my dream, behold a vine was before me\". The baker says, \"I also was in my dream\": he lost his head, did he not? The one is thinking of what is for the pleasure of Pharaoh."
+     "speaker": "JMcK",
+     "text": [
+      "Well, Joseph brings God in. \"Do not interpretations belong to God?\" I think there is a word in that for us as to complex problems. Nothing is too great for the God whose will we submit to; and Joseph, in his concern for these others, helps this man through to a full and complete deliverance and he emerges really as a contributor to the service of God.",
+      "We ought to say just a word about David. Here again, we have two persons who need adjustment. Thus, if you read the earlier part of the chapter, Nathan is fully in agreement with what David proposed. He therefore needs adjustment too, and I suppose the principle of restriction enters into that. David is at the end of his life, a life marked by spiritual activity and maturity. What a man David was! And here the purity of his motive is not in doubt. He proposes to build God's house, and at the very zenith of the exercise, God says, No, that is not the way it is going to be; and adjustment and restriction come in his experience. It involves the bringing in of Solomon."
+     ]
     },
     {
-     "text": "J.McK. I did not want to speak about the baker. He is there for our instruction, \"I also was in my dream\" - how large we loom sometimes, do we not, in our own view? That is not the kind of vision we need. I think the principle of vision is in what the cupbearer said - \"a vine was before me\". He sees the development of life of another order, typically referring to the greatness of the humanity of Christ, and the way it yields not in testimony to men but in response to God."
+     "speaker": "RSR",
+     "text": [
+      "I thought, if we had a project in mind and it was not the Lord's mind, we might take offence but instead of that, David goes in - and it is a prolonged stay - before Jehovah. That is very wonderful, is it not?"
+     ]
     },
     {
-     "speaker": "G.C.M.",
-     "text": "Is this subject related a little to the thought of overcoming? Joseph was eminently an overcomer, was he not? In the promise to the overcomers in Revelation 2 and 3, they get such incentives set before them. Do you think that is what sustains us to go on despite the circumstances and the difficulties?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes. The principle of vision comes into this passage too; in verse 17, \"According to all these words, and according to all this vision, so did Nathan speak to David\". He has the vision."
+     ]
     },
     {
-     "text": "J.McK. Yes, I think the difficulties call for the overcomer; and certainly Joseph was overcoming. He was not in any way complaining. He had been put into prison, and he had not offended; he was there without justification and he was there submitting to the God whom we know, who in His wisdom chooses these ways to work out His own thoughts."
+     "speaker": "WL",
+     "text": [
+      "Nathan is not only a prophet, he is a seer."
+     ]
     },
     {
-     "text": "D.McG. I was thinking that in Psalm 105, \"They afflicted his feet with fetters; his soul came into irons\" (v 18) was submission to the will of God."
+     "speaker": "JMcK",
+     "text": [
+      "Yes. One of the effects of the Spirit's presence is that \"your young men shall see visions\", Acts 2: 17. Nathan had seen something, and as a consequence he comes to David. Now he had power with David because he had seen something. What skill the man has! It does not cause any resistance with David but rather, as you say, the result is complete submission so that he ''went in and sat before Jehovah\". Can we be restfully subject to divine adjustment, dear brethren, however well established in the truth we might be? This is not David as a young man, this is David as respected by all, a king on the throne and proposing something about which God says, it is not just going to be that way: but I am going to add something in the way of life and vitality."
+     ]
     },
     {
-     "text": "J.McK. Yes, \"Until the time when what he said came about\" (v 19). Joseph had vision, had he not? He had been shown what God's will was. He had those dreams - his brethren hated him the more for them - but he had them and he would never lose the light that was in them; but until that time came he accepted what the king's prison meant. There are those here who know more than I do what the king's prison means, the discipline in the lives of many of the brethren involves real pressure. There are some enormous things being carried and you wonder sometimes just how and why these things arise, but you find that the God whom we know is working out His greatest thoughts in circumstances which appear to be humanly impossible."
+     "speaker": "WL",
+     "text": [
+      "Have you any impression as to why he asks that question, \"Who am I, Lord Jehovah?\"."
+     ]
     },
     {
-     "text": "J.S-s. Is that what is meant at the end of verse 8, \"Do not interpretations belong to God?\""
+     "speaker": "JMcK",
+     "text": [
+      "I think the greater the view we have of the supremacy of God, the smaller we appear in our own estimation. \"Who am I?\", he says, and also, \"And is this the manner of man, Lord Jehovah?\". What does that mean? There is surely a reference there to the Man of whom we read in Luke's gospel, the Man who learned subjection as coming into humanity. David in some sense rises to the Spirit of Christ in what he says, and then he begins to speak to God about Himself."
+     ]
     },
     {
-     "text": "J.McK. I think that is fine. At that point he says, in effect, I am not equal to this. He accepted God's restriction; he is in the prison and willing to serve those who are alongside of him, and he says, \"Do not interpretations belong to God?\" He brings God in. I think the principle of vision enters into that. If there is to be an answer to any exercise that arises amongst us, God is going to provide it. He may in His grace use human and weak and frail vessels like you and me to convey His mind, but it is God who will bring in the answer."
+     "speaker": "PB",
+     "text": [
+      "It is remarkable how David accepts the mind of God for him, and he does so in a right spirit."
+     ]
     },
     {
-     "speaker": "D.P.",
-     "text": "In verses 12-15 Joseph gives the interpretation, showing that he had the mind of God; and at the same time he discloses how deeply he felt about his own position. He had the vision before him, and it was of God."
+     "speaker": "JMcK",
+     "text": [
+      "The recognition of divine supremacy results in quick adjustment, and David, as he develops in this passage, becomes a wealthy contributor. He says things about God, I suppose, that he never expressed before. He is no longer speaking of his own circumstances, he is not speaking of his service; he is speaking about the God whom he knows and the God whom he has learned to trust."
+     ]
     },
     {
-     "text": "J.McK. Yes, he readily interprets the experience of another. I think this is very attractive if we apply it to the relations between us as brethren. The concern firstly would be, \"Why are your faces so sad today?\", concern for one another; and then as the conversation develops the man tells of what his exercise is. Joseph is used of God to bring in light that involves his complete liberation and that he should serve Pharaoh as he did aforetime. The grapes are pressed into Pharaoh's cup, that is typically the life of Christ as yielding something in the way of response to God. It is very wonderful to see how exercises amongst us as brethren can result in increase in the service of God."
+     "speaker": "WL",
+     "text": [
+      "It seems that Nathan, in speaking to him in verse 17, directs him to the presence of God. Do you think we need that skill with one another?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Does it involve a secret source of supply? It says here, \"behold, a vine was before me\". There was what was objective but then there was what was in the vine. I wondered if it was a fine experience in these circumscribed conditions to see what we can tap into, you might say, a secret source of supply which is not interrupted by the circumstances."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, \"so did Nathan speak to David\". It was the manner, not simply the content of his speaking. I think the manner of our speaking sometimes betrays us. A person who has had a vision, in the sense in which we are speaking of it, having been shown something by God, will give tone to his communication. So David is quickly adjusted and he resorts to the presence of the God whom he knew, sitting down restfully in the acknowledgement of the fact that God had something in mind of which he knew little."
+     ]
     },
     {
-     "text": "J.McK. That is very interesting. The Lord Jesus speaks of Himself as ''the true vine\", does He not, in John 15, and He also says, ''ye are the branches\". It is very interesting that it is not Christ that bears fruit in John 15, it is the branches. Is that right?"
+     "speaker": "GCM",
+     "text": [
+      "In verse 27 he seems to bring out the secret of what he is able to say. It is an account of the revelation which had been given to him: \"For thou, Jehovah of hosts, the God of Israel, hast revealed to thy servant, saying, I will build thee a house; therefore hath thy servant found in his heart to pray this prayer unto thee\". Do you think what Nathan said conveyed that to him and brought into his soul what God was towards him? Is that why this prayer takes place?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Please explain that."
+     "speaker": "JMcK",
+     "text": [
+      "I think so, He says, \"thou art that God\", and the note refers to Deuteronomy 32, the self-existent One. It is God supreme in His universe - very fine! - the God whom we have learned to trust, the God who shepherded David right up to this point. Nathan goes over the ground, as we read earlier in the chapter, how God had been towards David, and he really draws out David's affection in a way that results in increase in the knowledge of God."
+     ]
     },
     {
-     "text": "J.McK. Well, it is through persons who have a direct link with Christ that the results for God are coming, are they not? \"If ye abide in me\". So the secret of fruit-bearing is not great intelligence in the truth but abiding in Christ."
+     "speaker": "DR",
+     "text": [
+      "It is being in the gain of His presence. It is not, 'Thou hast been that God or will be'; it is, ''thou art that God\"; that is what we would covet to be in the gain of, to know God presently with His supremacy recognised livingly in each of our hearts. I was thinking of how John in the beginning of Revelation presents God in this way: ''who is, and who was, and who is to come\", chap 1: 4. It is not a historical presentation, you might say, but a living one which would apply to us in this very day."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "That is the chapter that says, ''for without me ye can do nothing\" (v 6). Some difficulties we have are complex and only the Lord Jesus knows the solution to them."
+     "speaker": "JMcK",
+     "text": [
+      "Mr Darby says in one of his letters that self exaltation is neither desired nor possible in the acknowledged presence of God. Now that is the God who is. David is reduced in his own view, and totally subject, and he finds that divine supremacy has blessing in mind because Solomon is in view. Sonship is in view; that would give David great encouragement because Solomon was David's own son. Although restricted, God is confirming the line of things that David has been moving on, and Solomon is really an addition to the great current of posterity in which David is found."
+     ]
     },
     {
-     "text": "J.McK. Well, Joseph brings God in. \"Do not interpretations belong to God?\" I think there is a word in that for us as to complex problems. Nothing is too great for the God whose will we submit to; and Joseph, in his concern for these others, helps this man through to a full and complete deliverance and he emerges really as a contributor to the service of God."
+     "speaker": "NJH",
+     "text": [
+      "Would Ephesians 1, ''would give you the spirit of wisdom and revelation in the full knowledge of him, being enlightened in the eyes of your heart\" (v 17) be akin to David's portion here?"
+     ]
     },
     {
-     "text": "We ought to say just a word about David. Here again, we have two persons who need adjustment. Thus, if you read the earlier part of the chapter, Nathan is fully in agreement with what David proposed. He therefore needs adjustment too, and I suppose the principle of restriction enters into that. David is at the end of his life, a life marked by spiritual activity and maturity. What a man David was! And here the purity of his motive is not in doubt. He proposes to build God's house, and at the very zenith of the exercise, God says, No, that is not the way it is going to be; and adjustment and restriction come in his experience. It involves the bringing in of Solomon."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, \"enlightened in the eyes of your heart\". I suppose David's affection was immediately expanded here. It was not that he had received an arbitrary adjustment to which he would grudgingly be subject; David is totally subject. In the language of Luke 2, I think he is in subjection. He is not exactly being told what to do. He is in a state of soul that makes way for divine supremacy."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "I thought, if we had a project in mind and it was not the Lord's mind, we might take offence but instead of that, David goes in - and it is a prolonged stay - before Jehovah. That is very wonderful, is it not?"
+     "speaker": "ACC",
+     "text": [
+      "God had told Nathan earlier that He had gone about in a tent and in a tabernacle. God Himself had entered into restriction and was setting out the thing in Himself. Is that right?"
+     ]
     },
     {
-     "text": "J.McK. Yes. The principle of vision comes into this passage too; in verse 17, \"According to all these words, and according to all this vision, so did Nathan speak to David\". He has the vision."
+     "speaker": "JMcK",
+     "text": [
+      "It is very confirming; that is, that God Himself had entered into those obscure situations, a tent and a tabernacle. That is the time we are in, that the God who has entered into those circumstances in testimony is the One who is supreme in the whole universe."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Nathan is not only a prophet, he is a seer."
+     "speaker": "ACC",
+     "text": [
+      "I thought that really touched David. I suppose he came to know it through Nathan. I wondered if that would have great weight with David, for after all, he had the right thought to build God a house, but God is showing him something better."
+     ]
     },
     {
-     "text": "J.McK. Yes. One of the effects of the Spirit's presence is that \"your young men shall see visions\", Acts 2: 17. Nathan had seen something, and as a consequence he comes to David. Now he had power with David because he had seen something. What skill the man has! It does not cause any resistance with David but rather, as you say, the result is complete submission so that he ''went in and sat before Jehovah\". Can we be restfully subject to divine adjustment, dear brethren, however well established in the truth we might be? This is not David as a young man, this is David as respected by all, a king on the throne and proposing something about which God says, it is not just going to be that way: but I am going to add something in the way of life and vitality."
+     "speaker": "JMcK",
+     "text": [
+      "Well, even if we have right thoughts, we need to submit to the God whom we quoted Paul as saying, ''the God, whose I am and whom I serve\". Right thoughts are not enough; it is a question of deferring to the God who is and whose supremacy remains for us even in this day of outward weakness.",
+      "J.M-l. In Genesis they were sad, but the Lord said of Abraham that he rejoiced to see my day and was glad (see John 8: 56). I was thinking of the long look - that would involve the revelation of God."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Have you any impression as to why he asks that question, \"Who am I, Lord Jehovah?\"."
-    },
-    {
-     "text": "J.McK. I think the greater the view we have of the supremacy of God, the smaller we appear in our own estimation. \"Who am I?\", he says, and also, \"And is this the manner of man, Lord Jehovah?\". What does that mean? There is surely a reference there to the Man of whom we read in Luke's gospel, the Man who learned subjection as coming into humanity. David in some sense rises to the Spirit of Christ in what he says, and then he begins to speak to God about Himself."
-    },
-    {
-     "speaker": "P.B.",
-     "text": "It is remarkable how David accepts the mind of God for him, and he does so in a right spirit."
-    },
-    {
-     "text": "J.McK. The recognition of divine supremacy results in quick adjustment, and David, as he develops in this passage, becomes a wealthy contributor. He says things about God, I suppose, that he never expressed before. He is no longer speaking of his own circumstances, he is not speaking of his service; he is speaking about the God whom he knows and the God whom he has learned to trust."
-    },
-    {
-     "speaker": "W.L.",
-     "text": "It seems that Nathan, in speaking to him in verse 17, directs him to the presence of God. Do you think we need that skill with one another?"
-    },
-    {
-     "text": "J.McK. Yes, \"so did Nathan speak to David\". It was the manner, not simply the content of his speaking. I think the manner of our speaking sometimes betrays us. A person who has had a vision, in the sense in which we are speaking of it, having been shown something by God, will give tone to his communication. So David is quickly adjusted and he resorts to the presence of the God whom he knew, sitting down restfully in the acknowledgement of the fact that God had something in mind of which he knew little."
-    },
-    {
-     "speaker": "G.C.M.",
-     "text": "In verse 27 he seems to bring out the secret of what he is able to say. It is an account of the revelation which had been given to him: \"For thou, Jehovah of hosts, the God of Israel, hast revealed to thy servant, saying, I will build thee a house; therefore hath thy servant found in his heart to pray this prayer unto thee\". Do you think what Nathan said conveyed that to him and brought into his soul what God was towards him? Is that why this prayer takes place?"
-    },
-    {
-     "text": "J.McK. I think so, He says, \"thou art that God\", and the note refers to Deuteronomy 32, the self-existent One. It is God supreme in His universe - very fine! - the God whom we have learned to trust, the God who shepherded David right up to this point. Nathan goes over the ground, as we read earlier in the chapter, how God had been towards David, and he really draws out David's affection in a way that results in increase in the knowledge of God."
-    },
-    {
-     "speaker": "D.R.",
-     "text": "It is being in the gain of His presence. It is not, 'Thou hast been that God or will be'; it is, ''thou art that God\"; that is what we would covet to be in the gain of, to know God presently with His supremacy recognised livingly in each of our hearts. I was thinking of how John in the beginning of Revelation presents God in this way: ''who is, and who was, and who is to come\", chap 1: 4. It is not a historical presentation, you might say, but a living one which would apply to us in this very day."
-    },
-    {
-     "text": "J.McK. Mr Darby says in one of his letters that self exaltation is neither desired nor possible in the acknowledged presence of God. Now that is the God who is. David is reduced in his own view, and totally subject, and he finds that divine supremacy has blessing in mind because Solomon is in view. Sonship is in view; that would give David great encouragement because Solomon was David's own son. Although restricted, God is confirming the line of things that David has been moving on, and Solomon is really an addition to the great current of posterity in which David is found."
-    },
-    {
-     "speaker": "N.J.H.",
-     "text": "Would Ephesians 1, ''would give you the spirit of wisdom and revelation in the full knowledge of him, being enlightened in the eyes of your heart\" (v 17) be akin to David's portion here?"
-    },
-    {
-     "text": "J.McK. Yes, \"enlightened in the eyes of your heart\". I suppose David's affection was immediately expanded here. It was not that he had received an arbitrary adjustment to which he would grudgingly be subject; David is totally subject. In the language of Luke 2, I think he is in subjection. He is not exactly being told what to do. He is in a state of soul that makes way for divine supremacy."
-    },
-    {
-     "speaker": "A.C.C.",
-     "text": "God had told Nathan earlier that He had gone about in a tent and in a tabernacle. God Himself had entered into restriction and was setting out the thing in Himself. Is that right?"
-    },
-    {
-     "text": "J.McK. It is very confirming; that is, that God Himself had entered into those obscure situations, a tent and a tabernacle. That is the time we are in, that the God who has entered into those circumstances in testimony is the One who is supreme in the whole universe."
-    },
-    {
-     "speaker": "A.C.C.",
-     "text": "I thought that really touched David. I suppose he came to know it through Nathan. I wondered if that would have great weight with David, for after all, he had the right thought to build God a house, but God is showing him something better."
-    },
-    {
-     "text": "J.McK. Well, even if we have right thoughts, we need to submit to the God whom we quoted Paul as saying, ''the God, whose I am and whom I serve\". Right thoughts are not enough; it is a question of deferring to the God who is and whose supremacy remains for us even in this day of outward weakness."
-    },
-    {
-     "text": "J.M-l. In Genesis they were sad, but the Lord said of Abraham that he rejoiced to see my day and was glad (see John 8: 56). I was thinking of the long look - that would involve the revelation of God."
-    },
-    {
-     "text": "J.McK. Yes, I think Abraham did have a long look. It was divinely supported too; God said to him \"Look now toward the heavens\", Gen 15: 5. But God worked out the blessing for Abraham in circumstances publicly of very great restriction. Even the barrenness of his house, the whole line of things in which the ways of God with Abraham developed are restricted, so that although he had the view, he accepted for the meantime the restriction and the outward circumstances that were necessary."
+     "speaker": "JMcK",
+     "text": [
+      "Yes, I think Abraham did have a long look. It was divinely supported too; God said to him \"Look now toward the heavens\", Gen 15: 5. But God worked out the blessing for Abraham in circumstances publicly of very great restriction. Even the barrenness of his house, the whole line of things in which the ways of God with Abraham developed are restricted, so that although he had the view, he accepted for the meantime the restriction and the outward circumstances that were necessary."
+     ]
     }
    ]
   },
@@ -592,6 +817,26 @@
      "text": "Finally in chapter 6 we have a view of this man ''whose name is the Branch\". I want to finish with this reference typically to the humanity of Christ. You know, everything depends upon Christ, everything. It says, \"he shall grow up from his own place\". We read in Luke 2 how perfect that humanity was, growing up from His own place. Philippians 2 was quoted earlier ''taking his place\", He took that place, He did not take another, He did not change His circumstances in any way. He was in Nazareth and there He grew up, \"a man whose name is the Branch\", here dependently, doing the will of another, everything He did having the divine impress upon it, and yet here in total dependence and true humility. This passage tells us that \"he shall build the temple of Jehovah: even he shall build the temple of Jehovah; and he shall bear the glory\". The glory is unchanged, undiminished! In spite of man's failure, in spite of the failure of Christendom to which we have contributed, the glory is unchanged, dear brethren, and it stands related to the humanity of Christ, the One who remains the Mediator. Thank God He will remain the Mediator eternally. We shall always need a touch from Christ as Mediator to sustain us in our knowledge of God. It is through Him that our knowledge of God has come, and He, once the Victim, now the great Priest, is the One who is bearing the glory. All this entered into the education of Zechariah in view of helping the brethren. I trust that as we are exercised the Lord will show us something of these things. It was to Timothy a young man who remained at Ephesus, the place where Paul's ministry reached its climax, that Paul wrote of such a One, ''the mediator of God and men\" 1 Tim 2: 5. Thus Zechariah gets a view of the only One that can sustain things according to God, \"and he shall bear the glory\". The glory remains and it is supported by this great Person. The writer to the Hebrews says, consider how great this Personage is. Clearly, dear brethren, everything for us depends upon Christ, everything for God, everything for you, everything for the prosperity of the saints in your locality, it depends upon Christ who bears the glory, \"and the counsel of peace shall be between them both\", that is, I think, between God and Christ, a peace that cannot be disturbed. How effective this man Zechariah would be! Allow God to instruct you in the great elements that belong to the present dispensation, see how He has brought the saints through, see the great resources that remain, the Spirit here, \"my Spirit\", Christ on high, the great Priest. If He was on earth He would not be a Priest, but He is on high and He is sustaining everything, there is strength in those shoulder-pieces, the power of the affection that sustains the brethren. How great the saints are as sustained by Christ in the presence of God! Let us learn the lesson of these visions that had such effect on the life of Zechariah and from that point of view let us come among the brethren as helpers. May our view be enlarged that we may be effective in what we undertake to do. For His Name's sake."
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "GOD WORKING IN RESTRICTED CIRCUMSTANCES",
+   "kind": "not_a_name",
+   "detail": "\"l. J.Marshall\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "GOD WORKING IN RESTRICTED CIRCUMSTANCES",
+   "kind": "not_a_name",
+   "detail": "\"s. J.Spinks\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "GOD WORKING IN RESTRICTED CIRCUMSTANCES",
+   "kind": "initials_before_name",
+   "detail": "18 entries written as initials then name (\"AAB ...\")"
   }
  ]
 }

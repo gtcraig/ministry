@@ -103,21 +103,23 @@ and say when a match is uncertain.
 ## Readings: speakers and initials
 
 In a reading, each speaker's contribution begins with his initials. They have
-been taken out of the text into `speaker`:
+been taken out of the text into `speaker`, and all of his paragraphs up to the
+next speaker are kept together in `text`, which is then a list:
 
 ```json
-{"speaker": "WSC", "text": "We are considering the subject of …"}
-{"text": "The scripture in Ecclesiastes goes on to consider …"}
-{"speaker": "APD", "text": "Would you say …"}
+{"speaker": "WSC", "text": ["We are considering the subject of …",
+                            "The scripture in Ecclesiastes goes on to consider …"]}
+{"speaker": "APD", "text": ["Would you say …"]}
 ```
 
-- A paragraph **without** a `speaker` continues the last speaker above it.
-  In the example, the second paragraph is still WSC.
+- Quote a contribution by joining its `text` paragraphs; cite it to that
+  speaker.
+- Paragraphs before the first speaker (the scriptures read, an introduction)
+  are plain `{"text": "..."}` items with no speaker.
 - `Rem.` (remark), `Ques.` / `Quest.` / `Q.` (question) and `A.` (answer)
   mark contributions from someone not named.
-- Initials appear with dots (`E.C.B.`, mostly AWIIS 1st Series and NOM) or
-  without (`ECB`, AWIIS 2nd Series). Always compare them with dots and spaces
-  removed.
+- Speaker initials are stored without dots (`ECB`, `DMcF`, `JSp`), exactly as
+  they appear in that article's key.
 
 **The key.** Where the issue printed a "Key to Initials" or "List of
 Initials", it is attached to the article it belongs to as `initials`:
@@ -134,15 +136,17 @@ Rules:
 
 - Use only the key on the same article. The same initials belong to
   different men in different places and years.
-- Some keys give a default place in their heading, e.g. "(Birmingham unless
-  otherwise stated)". Check `initials_text` for this, and use that place
-  where an entry has none.
+- A default place printed in the key ("Birmingham unless otherwise stated")
+  has already been given to every entry without one. Remarks printed with the
+  key are in `initials_comment`.
 - Where the key did not print the initials, they were derived from the name
   (`"R M Brown"` → `RMB`). Some names are shortened differently in the text:
   "A McSeveney" may be `AMcS`, and "Steve W Drever" may be `SWD`. If the
   initials are not in the key exactly, check `initials_text`. Match on the
   name only when there is **one** clear candidate, and say you matched it
   that way.
+- An entry with `"not_in_key": true` has no name: the speaker used those
+  initials but the issue's key leaves him out. Treat it as "no match" below.
 - If there is no key, or no match, give the initials as printed and say the
   issue does not identify him. About 550 readings have a key; many older
   ones do not. **Never guess a name from initials**, from memory or from

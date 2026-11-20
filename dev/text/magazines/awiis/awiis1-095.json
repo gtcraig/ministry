@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,29 +26,27 @@
    "place": "GRANGEMOUTH",
    "date": "20 January 1980",
    "speakers": [
-    "F.C.M.",
-    "Jas.M.",
-    "Jas.B.",
-    "R.J.C.",
-    "J.S.",
-    "H.F.",
-    "T.R.",
-    "J.M.",
-    "J.B.",
-    "A.G."
+    "FCM",
+    "JasM",
+    "JasB",
+    "RJC",
+    "JS",
+    "HF",
+    "TR",
+    "JM",
+    "JB",
+    "AG"
    ],
    "initials": [
     {
-     "initials": "AGAABAAB",
-     "name": "(All Grangemouth unless otherwise stated). A.A.B-n.- A.A.Brown"
-    },
-    {
-     "initials": "JBJB",
-     "name": "Jas.B.- Jas.Brown"
+     "initials": "JasB",
+     "name": "Jas.Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "JB",
-     "name": "John Brown"
+     "name": "John Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "RJC",
@@ -56,20 +54,24 @@
      "place": "Glasgow"
     },
     {
-     "initials": "HFHF",
-     "name": "H.F.- H.Fentiman"
+     "initials": "HF",
+     "name": "H.Fentiman",
+     "place": "Grangemouth"
     },
     {
-     "initials": "AGAG",
-     "name": "A.G.- A.Gillies"
+     "initials": "AG",
+     "name": "A.Gillies",
+     "place": "Grangemouth"
     },
     {
-     "initials": "JMJM",
-     "name": "Jas.M.- Jas.Munro"
+     "initials": "JasM",
+     "name": "Jas.Munro",
+     "place": "Grangemouth"
     },
     {
      "initials": "JM",
-     "name": "John Munro"
+     "name": "John Munro",
+     "place": "Grangemouth"
     },
     {
      "initials": "FCM",
@@ -82,283 +84,377 @@
      "place": "Alnwick"
     },
     {
-     "initials": "JSJS",
-     "name": "J.S.- J.Spinks"
+     "initials": "JS",
+     "name": "J.Spinks",
+     "place": "Grangemouth"
     }
    ],
    "initials_heading": "KEY TO INITIALS",
+   "initials_comment": "All Grangemouth unless otherwise stated",
    "initials_text": [
     "(All Grangemouth unless otherwise stated).",
     "A.A.B-n.- A.A.Brown; Jas.B.- Jas.Brown; J.B.- John Brown; R.J.C.- R.J.Campbell, Glasgow; H.F.- H.Fentiman; A.G.- A.Gillies; Jas.M.- Jas.Munro; J.M.- John Munro; F.C.M.- F.C.Mutton, Redbridge; T.R.- T.Rogerson, Alnwick; J.S.- J.Spinks"
    ],
    "paragraphs": [
     {
-     "speaker": "F.C.M.",
-     "text": "I suppose the Lord's day reading is like a river into which the streams of the impressions we have all received in the morning can flow. Restfully we can just share those impressions; so what is suggested is just a basis on which we can bring in what we have enjoyed already. One impression which affected me in our first hymn this morning was the line 'Thy death we deem Our point of severance from this scene' (No 192). I think we see in these passages we have read that the death, burial, and resurrection of Jesus, as we are rightly affected by them, form a point at which we say goodbye to the world; they become our point of severance from this scene, so that, as we have read, He draws all unto Him as the centre of another scene, another world, another order of things through death and out of death. Another impression which entered into hymns and thanksgivings was the divine dip into time. This gospel brings that wonderfully before us, beginning as it does \"In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh\" (chap 1: 1,14); that is the dip into time in which the whole mind of God was revealed. We see this in the passages read, as in chapter 12: \"Now is my soul troubled, and what shall I say? Father, save me from this hour. But on account of this have I come to this hour\". It is the dip into time and what it involved, the depths to which Jesus went as portrayed in chapter 11, His groaning, His tears; He involved Himself in what sin has brought into the universe. He felt it as no other had done or could do, and not only felt it but went into death to remove it, so that through Him we might find our part with Him in the glorious order of things which is in view in chapter 20 in the word to Mary, to whom indeed the death of Christ had been the point of severance from this scene. Mary of Magdala's desolate heart could find no rest where Jesus was not; she must have Him. He finds her and gives her this glorious message: \"I ascend to my Father and your Father, and to my God and your God\". This is just a basis which we can enlarge together and enrich as a variety of impressions flows into this reading."
+     "speaker": "FCM",
+     "text": [
+      "I suppose the Lord's day reading is like a river into which the streams of the impressions we have all received in the morning can flow. Restfully we can just share those impressions; so what is suggested is just a basis on which we can bring in what we have enjoyed already. One impression which affected me in our first hymn this morning was the line 'Thy death we deem Our point of severance from this scene' (No 192). I think we see in these passages we have read that the death, burial, and resurrection of Jesus, as we are rightly affected by them, form a point at which we say goodbye to the world; they become our point of severance from this scene, so that, as we have read, He draws all unto Him as the centre of another scene, another world, another order of things through death and out of death. Another impression which entered into hymns and thanksgivings was the divine dip into time. This gospel brings that wonderfully before us, beginning as it does \"In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh\" (chap 1: 1,14); that is the dip into time in which the whole mind of God was revealed. We see this in the passages read, as in chapter 12: \"Now is my soul troubled, and what shall I say? Father, save me from this hour. But on account of this have I come to this hour\". It is the dip into time and what it involved, the depths to which Jesus went as portrayed in chapter 11, His groaning, His tears; He involved Himself in what sin has brought into the universe. He felt it as no other had done or could do, and not only felt it but went into death to remove it, so that through Him we might find our part with Him in the glorious order of things which is in view in chapter 20 in the word to Mary, to whom indeed the death of Christ had been the point of severance from this scene. Mary of Magdala's desolate heart could find no rest where Jesus was not; she must have Him. He finds her and gives her this glorious message: \"I ascend to my Father and your Father, and to my God and your God\". This is just a basis which we can enlarge together and enrich as a variety of impressions flows into this reading.",
+      "A.A.B-n. We are all affected by this flow you speak of. We think of what it cost the Lord for the first order of man to be completely wound up, and how He felt things. He tasted death for every thing (see Heb 2: 9). There was what was for the Lord Himself, but do you think that, as we follow it through to John 20, what He had in mind was the glory of God?"
+     ]
     },
     {
-     "text": "A.A.B-n. We are all affected by this flow you speak of. We think of what it cost the Lord for the first order of man to be completely wound up, and how He felt things. He tasted death for every thing (see Heb 2: 9). There was what was for the Lord Himself, but do you think that, as we follow it through to John 20, what He had in mind was the glory of God?"
+     "speaker": "FCM",
+     "text": [
+      "Quite so. So that in the sections read we see that He was always thinking of the Father, the Father's will, the Father's glory. In each case He speaks of the Father. In the moment of deep sorrow in John 11 it says \"Jesus lifted up his eyes on high and said, Father\" - a wonderful link between Christ, you might say, regarding man's lowest point, and the Father in the highest point. But the most elevated thoughts of the Father's purpose were being secured.",
+      "A.A.B-n. Do you think the Lord's supper and the sufferings of the Lord would affect us and give us to enter to some extent into these feelings which come into expression in such depth in John 11?"
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Quite so. So that in the sections read we see that He was always thinking of the Father, the Father's will, the Father's glory. In each case He speaks of the Father. In the moment of deep sorrow in John 11 it says \"Jesus lifted up his eyes on high and said, Father\" - a wonderful link between Christ, you might say, regarding man's lowest point, and the Father in the highest point. But the most elevated thoughts of the Father's purpose were being secured."
+     "speaker": "FCM",
+     "text": [
+      "Yes. What was before us in the loaf this morning was, as He said, \"my body\". What a contemplation that is, His taking a body, becoming Man! For the first time on earth there was a Man with true feelings according to God, feelings towards the Father on the one hand, the full appreciation of the Father's will, the Father's glory; but on the other hand the capability infinitely to feel sin and sorrow and grief and death as no other could. So there is perfection there. I thought, when we referred to John 4 this morning that every element of the universe of bliss, and every one who shall be in it, is the result of the service of Christ in this dip into time. Every one of us has been secured and brought through death into this wonderful area where we know our relationships with Him and our part in His assembly and our relations with His Father."
+     ]
     },
     {
-     "text": "A.A.B-n. Do you think the Lord's supper and the sufferings of the Lord would affect us and give us to enter to some extent into these feelings which come into expression in such depth in John 11?"
+     "speaker": "JasM",
+     "text": [
+      "At the Supper initially does the Lord not come to the conditions in which the people of God are found in the way of sorrow? We started with Hymn 68: 'O Lord of glory, who couldst leave The height supreme in death to lie'. It fits in very well with what you are suggesting."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Yes. What was before us in the loaf this morning was, as He said, \"my body\". What a contemplation that is, His taking a body, becoming Man! For the first time on earth there was a Man with true feelings according to God, feelings towards the Father on the one hand, the full appreciation of the Father's will, the Father's glory; but on the other hand the capability infinitely to feel sin and sorrow and grief and death as no other could. So there is perfection there. I thought, when we referred to John 4 this morning that every element of the universe of bliss, and every one who shall be in it, is the result of the service of Christ in this dip into time. Every one of us has been secured and brought through death into this wonderful area where we know our relationships with Him and our part in His assembly and our relations with His Father."
+     "speaker": "FCM",
+     "text": [
+      "What a comfort that is! The Lord's coming to us is very real. There may be illness, bereavement, problems and burdens of many kinds, and the Lord comes to us as entering into that situation, just as He entered into the problems and despair of those two at the end of Luke's gospel on the way to Emmaus. Not of course that we would normally assemble as engaged in those conditions, but the Lord knows the burdens and draws near to us to give us the sense that He is with us in the situation in which we are, and presents Himself so that for a brief moment we are comforted in it and lifted out of it in the sense of His coming to us and then taking us with Himself."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "At the Supper initially does the Lord not come to the conditions in which the people of God are found in the way of sorrow? We started with Hymn 68: 'O Lord of glory, who couldst leave The height supreme in death to lie'. It fits in very well with what you are suggesting."
+     "speaker": "JasB",
+     "text": [
+      "It is in such circumstances that He says to Martha: \"Did I not say to thee, that if thou shouldest believe, thou shouldest see the glory of God?\". That is the end in His coming into such circumstances, is it not?"
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "What a comfort that is! The Lord's coming to us is very real. There may be illness, bereavement, problems and burdens of many kinds, and the Lord comes to us as entering into that situation, just as He entered into the problems and despair of those two at the end of Luke's gospel on the way to Emmaus. Not of course that we would normally assemble as engaged in those conditions, but the Lord knows the burdens and draws near to us to give us the sense that He is with us in the situation in which we are, and presents Himself so that for a brief moment we are comforted in it and lifted out of it in the sense of His coming to us and then taking us with Himself."
+     "speaker": "FCM",
+     "text": [
+      "That is right. What a glorious dip into time this was, involving Himself, sin apart, in all that lay upon the race and upon His own, but having ever in mind what related to the Father and to God. We had a word last week at the burial of a sister as to the earlier part of this chapter, the Lord's dealings with Martha. Martha's faith was limited. She looked forward to the resurrection at the last day. The Lord says \"I am the resurrection and the life\" (v 25); that is, as He comes into the situation it is to impart a completely fresh and glorious impression of Himself and of the Father."
+     ]
     },
     {
-     "speaker": "Jas.B.",
-     "text": "It is in such circumstances that He says to Martha: \"Did I not say to thee, that if thou shouldest believe, thou shouldest see the glory of God?\". That is the end in His coming into such circumstances, is it not?"
+     "speaker": "RJC",
+     "text": [
+      "On occasions does He allow these circumstances and allow them to proceed to a certain point so that we might enter in some measure into His feelings that are expressed in this chapter? Not that we can do so fully, but He allows the exercise here to run to a certain point so that He might gain them and win them over in relation to a resurrection scene."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "That is right. What a glorious dip into time this was, involving Himself, sin apart, in all that lay upon the race and upon His own, but having ever in mind what related to the Father and to God. We had a word last week at the burial of a sister as to the earlier part of this chapter, the Lord's dealings with Martha. Martha's faith was limited. She looked forward to the resurrection at the last day. The Lord says \"I am the resurrection and the life\" (v 25); that is, as He comes into the situation it is to impart a completely fresh and glorious impression of Himself and of the Father."
+     "speaker": "FCM",
+     "text": [
+      "I am sure of that. And what a comfort that is when pressure and sorrow seem prolonged! These things are not haphazard. We would have a sense of divine ordering and timing, so that in a more real and fuller way than would otherwise be possible we might reach the divine end in the pressure and sorrow."
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "On occasions does He allow these circumstances and allow them to proceed to a certain point so that we might enter in some measure into His feelings that are expressed in this chapter? Not that we can do so fully, but He allows the exercise here to run to a certain point so that He might gain them and win them over in relation to a resurrection scene."
+     "speaker": "JasM",
+     "text": [
+      "You referred to chapter 1 where we have the glory of His person, but do you think these two references to the Lord being deeply moved would give us some impression of the reality of His manhood and of the way He entered perfectly into all the circumstances?"
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "I am sure of that. And what a comfort that is when pressure and sorrow seem prolonged! These things are not haphazard. We would have a sense of divine ordering and timing, so that in a more real and fuller way than would otherwise be possible we might reach the divine end in the pressure and sorrow."
+     "speaker": "FCM",
+     "text": [
+      "That affected me very much this morning, the reference a brother made to 'the dip into time'. Think of God \"from eternity to eternity\", He Himself and His thoughts and His purposes unchanging, but to effect them a divine Person whom we know as the Son, our Lord Jesus, has come down in time in the likeness of men, has humbled Himself, becoming obedient even unto death (see Phil 2: 8). These things are familiar to us, but I would that the profundity and reality of them might lay hold of us more. As they do we shall be more available to be drawn to Him as the centre of another world."
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "You referred to chapter 1 where we have the glory of His person, but do you think these two references to the Lord being deeply moved would give us some impression of the reality of His manhood and of the way He entered perfectly into all the circumstances?"
+     "speaker": "JS",
+     "text": [
+      "In Exodus Jehovah says \"I have seen... the affliction of my people... I know their sorrows. And I am come down\", chap 3: 7,8."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "That affected me very much this morning, the reference a brother made to 'the dip into time'. Think of God \"from eternity to eternity\", He Himself and His thoughts and His purposes unchanging, but to effect them a divine Person whom we know as the Son, our Lord Jesus, has come down in time in the likeness of men, has humbled Himself, becoming obedient even unto death (see Phil 2: 8). These things are familiar to us, but I would that the profundity and reality of them might lay hold of us more. As they do we shall be more available to be drawn to Him as the centre of another world."
+     "speaker": "FCM",
+     "text": [
+      "He came down for their extrication out of the world of their sorrow and bondage and pressure. As Moses said in the song in Exodus 15: \"Thou shalt bring them in, and plant them in the mountain of thine inheritance... The Sanctuary, Lord, that thy hands have prepared\" (v 17). That is the object in view, and yet in compassion and power He comes to us in the scene of our sorrow and bondage. Bondage enters into this because John 11 was the bondage of death, and I feel that this should appeal to us because it may be that some of us are lingering in the area out of which Christ has died. The word as to Lazarus was \"Loose him and let him go\". The Lord's great concern was his liberation, and He wants us all liberated from every element of the world and death and corruption, for His world, which opens up in chapter 12."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "In Exodus Jehovah says \"I have seen... the affliction of my people... I know their sorrows. And I am come down\", chap 3: 7,8."
+     "speaker": "JS",
+     "text": [
+      "\"Let my son go, that he may serve me\" (Exod 4: 23): is it the great thought of the service of God that is in mind and persons liberated for that end?"
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "He came down for their extrication out of the world of their sorrow and bondage and pressure. As Moses said in the song in Exodus 15: \"Thou shalt bring them in, and plant them in the mountain of thine inheritance... The Sanctuary, Lord, that thy hands have prepared\" (v 17). That is the object in view, and yet in compassion and power He comes to us in the scene of our sorrow and bondage. Bondage enters into this because John 11 was the bondage of death, and I feel that this should appeal to us because it may be that some of us are lingering in the area out of which Christ has died. The word as to Lazarus was \"Loose him and let him go\". The Lord's great concern was his liberation, and He wants us all liberated from every element of the world and death and corruption, for His world, which opens up in chapter 12."
+     "speaker": "FCM",
+     "text": [
+      "Exactly, that helps very much."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "\"Let my son go, that he may serve me\" (Exod 4: 23): is it the great thought of the service of God that is in mind and persons liberated for that end?"
+     "speaker": "HF",
+     "text": [
+      "Do you think this dip into time should become more profound to us? \"From eternity to eternity\" comes into several Psalms, and the Levites of whom you were speaking yesterday say in Nehemiah 9: \"Stand up, bless Jehovah your God from eternity to eternity\" (v 5). Do you think that in our day, with the dip into time having become a reality, it should be the more profound to us and that the response should likewise be more profound?"
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Exactly, that helps very much."
+     "speaker": "FCM",
+     "text": [
+      "I do indeed. I would trust the consideration of these scriptures might deepen our sense of what is in the divine mind in this dip into time - divine grace, mercy, love and power and every other resource coming in in Jesus to extricate us for the realm of divine purpose. In passing we might mention that series of readings in Ephesians which has that title, \"Eternity to Eternity\", meetings in Bristol in 1931 (see J.T., Vol.33). It is a rich collection of ministry which we would commend to all."
+     ]
     },
     {
-     "speaker": "H.F.",
-     "text": "Do you think this dip into time should become more profound to us? \"From eternity to eternity\" comes into several Psalms, and the Levites of whom you were speaking yesterday say in Nehemiah 9: \"Stand up, bless Jehovah your God from eternity to eternity\" (v 5). Do you think that in our day, with the dip into time having become a reality, it should be the more profound to us and that the response should likewise be more profound?"
+     "speaker": "RJC",
+     "text": [
+      "You mentioned our point of severance from this scene. Would the scene in John's gospel involve what is merely formal and external and religious? His death would free us, sever us, from that also. The Lord is characteristically moving away from what is formal and in relation to what is heavenly, is He not, in John's gospel?"
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "I do indeed. I would trust the consideration of these scriptures might deepen our sense of what is in the divine mind in this dip into time - divine grace, mercy, love and power and every other resource coming in in Jesus to extricate us for the realm of divine purpose. In passing we might mention that series of readings in Ephesians which has that title, \"Eternity to Eternity\", meetings in Bristol in 1931 (see J.T., Vol.33). It is a rich collection of ministry which we would commend to all."
+     "speaker": "FCM",
+     "text": [
+      "Yes. You get that at the very threshold of this gospel: \"He came to his own, and his own received him not; but as many as received him... \", chap 1: 11,12. In John 13 you have the same expression: \"having loved his own\" (v 1). That is the real thing. I do feel we should check up on these things. Have I received him? If so, His death will be the point of my severance from this scene which cast Him out. May we reach these convictions in love to Christ and subjection to Him, points of moral decision, one world closed up and another world opening up.",
+      "A.A.B-n. It has been said that in John's gospel the Lord was rejected from the outset. Do you think we have to come to it that that is the world and it has rejected Christ? We can know nothing really of the liberty which God has in his heart for us without entering into the ending of the first order completely and absolutely before God."
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "You mentioned our point of severance from this scene. Would the scene in John's gospel involve what is merely formal and external and religious? His death would free us, sever us, from that also. The Lord is characteristically moving away from what is formal and in relation to what is heavenly, is He not, in John's gospel?"
+     "speaker": "FCM",
+     "text": [
+      "I think that is most important. The whole thing is exposed here. Martha resists that. The Lord says \"Take away the stone. Martha, the sister of the dead, says to him, Lord, he stinks already, for he is four days there\". Then comes the reference to the glory of God. \"They took therefore the stone away\". It is not only death but corruption. The death of Christ exposes for us the depth of corruption in oneself in the flesh, and in the world. We need to feel that in some measure in the light of Christ's feelings, His weeping, His being deeply moved. The footnote to verse 33 is very affecting: 'inward feeling (in spirit) produced by the deep pain caused by seeing the power of death over the human spirit'. We need to contemplate the feelings of Jesus. Those feelings can thus in measure, by the Spirit, become my judgment as to the flesh, as to sin, and as to the world."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Yes. You get that at the very threshold of this gospel: \"He came to his own, and his own received him not; but as many as received him... \", chap 1: 11,12. In John 13 you have the same expression: \"having loved his own\" (v 1). That is the real thing. I do feel we should check up on these things. Have I received him? If so, His death will be the point of my severance from this scene which cast Him out. May we reach these convictions in love to Christ and subjection to Him, points of moral decision, one world closed up and another world opening up."
+     "speaker": "JS",
+     "text": [
+      "The Lord waited for two days before He made any move. Do you think it is to help us to come to a real judgment as to things? We are very superficial at times, are we not? If we had a real sense of the Lord's feelings as to the bondage and corruption in us, we would appreciate the line of liberty that He has brought in through His death."
+     ]
     },
     {
-     "text": "A.A.B-n. It has been said that in John's gospel the Lord was rejected from the outset. Do you think we have to come to it that that is the world and it has rejected Christ? We can know nothing really of the liberty which God has in his heart for us without entering into the ending of the first order completely and absolutely before God."
+     "speaker": "FCM",
+     "text": [
+      "I am sure we would. And should it not affect us that our Lord (each of us, I trust, can say 'My Lord') suffered thus in spirit and soul, and later that there were His infinite sufferings at the cross? This is intended to affect me, that it cost my Saviour all this in this dip into time, to take all these dread matters upon Himself, sin and sins, and death, all that the flesh is, in order that a way might be made through death, and out of it, into the scene of which He is the centre. May these things not leave us unmoved, and may they bring us to say that His death is our point of severance from this scene. Then we are liberated and let go."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "I think that is most important. The whole thing is exposed here. Martha resists that. The Lord says \"Take away the stone. Martha, the sister of the dead, says to him, Lord, he stinks already, for he is four days there\". Then comes the reference to the glory of God. \"They took therefore the stone away\". It is not only death but corruption. The death of Christ exposes for us the depth of corruption in oneself in the flesh, and in the world. We need to feel that in some measure in the light of Christ's feelings, His weeping, His being deeply moved. The footnote to verse 33 is very affecting: 'inward feeling (in spirit) produced by the deep pain caused by seeing the power of death over the human spirit'. We need to contemplate the feelings of Jesus. Those feelings can thus in measure, by the Spirit, become my judgment as to the flesh, as to sin, and as to the world."
+     "speaker": "JasM",
+     "text": [
+      "According to Peter's second epistle the believer is regarded as being made partaker of the divine nature \"having escaped the corruption that is in the world through lust\", chap 1: 4. Would that help us to be in this of which you are speaking?"
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "The Lord waited for two days before He made any move. Do you think it is to help us to come to a real judgment as to things? We are very superficial at times, are we not? If we had a real sense of the Lord's feelings as to the bondage and corruption in us, we would appreciate the line of liberty that He has brought in through His death."
+     "speaker": "FCM",
+     "text": [
+      "I am sure it would. What a contrast it is, the corruption in the world and partaking of the divine nature! I suppose the holy scene at the beginning of John 12, \"There therefore they made him a supper\" (v 2). is all in accordance with the divine nature. They could minister to the comfort of Christ. He was the centre of that sphere. So we are to serve one another in this relation; \"Jesus says to them, Loose him and let him go\"."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "I am sure we would. And should it not affect us that our Lord (each of us, I trust, can say 'My Lord') suffered thus in spirit and soul, and later that there were His infinite sufferings at the cross? This is intended to affect me, that it cost my Saviour all this in this dip into time, to take all these dread matters upon Himself, sin and sins, and death, all that the flesh is, in order that a way might be made through death, and out of it, into the scene of which He is the centre. May these things not leave us unmoved, and may they bring us to say that His death is our point of severance from this scene. Then we are liberated and let go."
+     "speaker": "TR",
+     "text": [
+      "Not only is death overcome but corruption enters into this chapter. Is there complete victory in mind here?"
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "According to Peter's second epistle the believer is regarded as being made partaker of the divine nature \"having escaped the corruption that is in the world through lust\", chap 1: 4. Would that help us to be in this of which you are speaking?"
+     "speaker": "FCM",
+     "text": [
+      "Yes. He has \"brought to light life and incorruptibility by the glad tidings\", 2 Tim 1: 10. What a marvellous thing it is that we are brought into what is incorruptible! It would involve new creation. These are magnificent things that God secures, such is the death of Christ and the effectiveness of His work, an order of things entirely free from sin, new creation; it has had no sinful history, although individually we have had. \"So if any one be in Christ, there is a new creation... all things have become new: and all things are of the God who has reconciled us to himself by Jesus Christ\", 2 Cor 5: 17,18."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "I am sure it would. What a contrast it is, the corruption in the world and partaking of the divine nature! I suppose the holy scene at the beginning of John 12, \"There therefore they made him a supper\" (v 2). is all in accordance with the divine nature. They could minister to the comfort of Christ. He was the centre of that sphere. So we are to serve one another in this relation; \"Jesus says to them, Loose him and let him go\"."
+     "speaker": "JM",
+     "text": [
+      "Corruption and weakness would be a painful reminder to us as to how real it is. Do you think Mary herself had some instinctive sense of what Christ's death meant, and that that produced fragrance?"
+     ]
     },
     {
-     "speaker": "T.R.",
-     "text": "Not only is death overcome but corruption enters into this chapter. Is there complete victory in mind here?"
+     "speaker": "FCM",
+     "text": [
+      "That is very helpful indeed. In verse 3 of chapter 12 it says, \"having taken a pound of ointment of pure nard\". That is incorruptible, is it not? It is fine to see the thing followed through, and in Bethany you are brought into an area of incorrupt ion.",
+      "As to chapter 12 I was thinking of the reference in the opening hymn (No.57) to verse 24: \"Except the grain of wheat falling into the ground die, it abides alone; but if it die, it bears much fruit\". This is another aspect of the dip into time, the Lord Jesus as \"the grain of wheat\", all the immense potentiality of life inherent in Him. He goes into death and the result is the bearing of much fruit essentially of His own order. This was surely one of the immense objectives of the dip into time."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Yes. He has \"brought to light life and incorruptibility by the glad tidings\", 2 Tim 1: 10. What a marvellous thing it is that we are brought into what is incorruptible! It would involve new creation. These are magnificent things that God secures, such is the death of Christ and the effectiveness of His work, an order of things entirely free from sin, new creation; it has had no sinful history, although individually we have had. \"So if any one be in Christ, there is a new creation... all things have become new: and all things are of the God who has reconciled us to himself by Jesus Christ\", 2 Cor 5: 17,18."
+     "speaker": "RJC",
+     "text": [
+      "I wondered if the grain of wheat falling into the ground would be a specific action and involve these specific movements that have entered into the operations of divine Persons in this dip into time. There was nothing haphazard. It was a specific movement, was it not?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Corruption and weakness would be a painful reminder to us as to how real it is. Do you think Mary herself had some instinctive sense of what Christ's death meant, and that that produced fragrance?"
+     "speaker": "FCM",
+     "text": [
+      "Quite so, especially as presented in John's gospel: \"Jesus therefore went forth\", chap 19: 5. It was the appointed time; He held the initiative, and He went into death. He says \"I lay down my life... No one takes it from me... I have received this commandment of my Father\", John 10: 17,18. We could hardly contemplate anything morally greater than what it says here: \"Except the grain of wheat falling into the ground die\"; it is the lowest point to which He went, but out of it has come much fruit. We can say that everything for God is the product of the death of Christ."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "That is very helpful indeed. In verse 3 of chapter 12 it says, \"having taken a pound of ointment of pure nard\". That is incorruptible, is it not? It is fine to see the thing followed through, and in Bethany you are brought into an area of incorrupt ion."
+     "speaker": "RJC",
+     "text": [
+      "It says of the Lord, \"knowing... that he came out from God and was going to God\" (John 13: 3); that would be involved in this dip into time, coming from God and going to God, and this is on the way to God. He is gathering everything up on His way back."
+     ]
     },
     {
-     "text": "As to chapter 12 I was thinking of the reference in the opening hymn (No.57) to verse 24: \"Except the grain of wheat falling into the ground die, it abides alone; but if it die, it bears much fruit\". This is another aspect of the dip into time, the Lord Jesus as \"the grain of wheat\", all the immense potentiality of life inherent in Him. He goes into death and the result is the bearing of much fruit essentially of His own order. This was surely one of the immense objectives of the dip into time."
+     "speaker": "FCM",
+     "text": [
+      "Yes indeed. John's gospel is full of this kind of suggestion. What follows that in chapter 13 is His washing the feet of the disciples. What a lowly, gracious act ion, part of the dip into time, that we might have part with Him both in testimony here and as with Him in a glorious eternal order of thing s.",
+      "A.A.B -n. As out of death does He become a point of attraction for the children of God scattered abroad (see John 11: 52), a point of attraction for everything in this new creation, this new generation, this new world? We often say that the principle in Christianity is life out of death, but perhaps our acceptance of that takes time."
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "I wondered if the grain of wheat falling into the ground would be a specific action and involve these specific movements that have entered into the operations of divine Persons in this dip into time. There was nothing haphazard. It was a specific movement, was it not?"
+     "speaker": "FCM",
+     "text": [
+      "I am sure it does. I am sure there is no one here but would admit we could do with more help as to it. I am thinking of verse 25. This is the application of the truth of verse 24, the grain of wheat falling into the ground and dying: \"He that loves his life shall lose it, and he that hates his life in this world shall keep it to life eternal. If any one serve me, let him follow me; and where I am, there also shall be my servant\". This brings the question right to my door. We are not to regard this as something arbitrary and harsh. As we think of Mary in chapter 20 we see one who would hate her life in this world. She could not contemplate living in this world without Jesus. We should not be able to contemplate living without Jesus, finding our home and our life in the world which has cast Him out. You could not think of Mary of Magdala doing any such thing. His death was her point of severance from this scene. I am sure the Lord would help us progressively and increasingly to hate our life here, but \"he that hates his life in this world shall keep it to life eternal\".",
+      "A.A.B-n. It is often said that in John we do not have the assembly as such but the personnel. When we gather on Lord's day morning, do we look upon one another as having arrived at this? I had the impression this morning that very quickly we moved into this new and living area of things."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Quite so, especially as presented in John's gospel: \"Jesus therefore went forth\", chap 19: 5. It was the appointed time; He held the initiative, and He went into death. He says \"I lay down my life... No one takes it from me... I have received this commandment of my Father\", John 10: 17,18. We could hardly contemplate anything morally greater than what it says here: \"Except the grain of wheat falling into the ground die\"; it is the lowest point to which He went, but out of it has come much fruit. We can say that everything for God is the product of the death of Christ."
+     "speaker": "FCM",
+     "text": [
+      "And the Lord says to the Father in this gospel: \"the men whom thou gavest me out of the world\", chap 17: 6. These things ought to weigh with us. They involve cost, they involve saying 'no' to certain things, but they open the door to what is infinitely rich and blessed, \"out of the world\"."
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "It says of the Lord, \"knowing... that he came out from God and was going to God\" (John 13: 3); that would be involved in this dip into time, coming from God and going to God, and this is on the way to God. He is gathering everything up on His way back."
+     "speaker": "JasB",
+     "text": [
+      "He also says \"they are not of the world, as I am not of the world\" (vv 14,16). Would that be a tremendous impetus to us to sever our links with this world? \""
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Yes indeed. John's gospel is full of this kind of suggestion. What follows that in chapter 13 is His washing the feet of the disciples. What a lowly, gracious act ion, part of the dip into time, that we might have part with Him both in testimony here and as with Him in a glorious eternal order of thing s."
+     "speaker": "FCM",
+     "text": [
+      "Quite so. In the divine view this is true of us, but may I answer to it. If I have worldly tendencies or tastes, or if anything of the world is attaching to me or my circumstances, let it bear upon me that the Lord says of His own \"they are not of the world, as I am not of the world\". And Mary of Magdala is an example, a lonely, desolate, weeping woman, because she was in a world without Jesus, and it was a wilderness to her but the Lord found her."
+     ]
     },
     {
-     "text": "A.A.B -n. As out of death does He become a point of attraction for the children of God scattered abroad (see John 11: 52), a point of attraction for everything in this new creation, this new generation, this new world? We often say that the principle in Christianity is life out of death, but perhaps our acceptance of that takes time."
+     "speaker": "JS",
+     "text": [
+      "The world is intended to be just a place of testing and proving, is it not? The Lord also says in John 17 \"I do not demand that thou shouldest take them out of the world, but that thou shouldest keep them out of evil\" (v 15). It is not intended to be a place where we settle down but rather a place where there is divine formation, a proving-ground, do you think?"
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "I am sure it does. I am sure there is no one here but would admit we could do with more help as to it. I am thinking of verse 25. This is the application of the truth of verse 24, the grain of wheat falling into the ground and dying: \"He that loves his life shall lose it, and he that hates his life in this world shall keep it to life eternal. If any one serve me, let him follow me; and where I am, there also shall be my servant\". This brings the question right to my door. We are not to regard this as something arbitrary and harsh. As we think of Mary in chapter 20 we see one who would hate her life in this world. She could not contemplate living in this world without Jesus. We should not be able to contemplate living without Jesus, finding our home and our life in the world which has cast Him out. You could not think of Mary of Magdala doing any such thing. His death was her point of severance from this scene. I am sure the Lord would help us progressively and increasingly to hate our life here, but \"he that hates his life in this world shall keep it to life eternal\"."
+     "speaker": "FCM",
+     "text": [
+      "Yes indeed; and I think increasingly we should realise it. The Lord is very gracious and we would not give any impression of what is harsh or arbitrary to our young people. I remember when I was a boy a local brother saying as we walked along the street (his own little girl was also with him), You should be able to say, Lord Jesus, I love thee better than my toys, I love thee better than my dolls. It was very simple but it left an impression on me. When we are young there are certain things it is perfectly legitimate to enjoy, but may the Lord Jesus increasingly become greater to us than anything else. When we reach the age we were speaking of yesterday, when we answer to our baptism, around the age of twelve, this reckoning should become more and more definite. The Lord’s supper should represent something very attractive, on the one hand His committal to us, but on the other our committal to His death and to Himself, so that we deem His death our point of severance from this scene, and our point of entrance into another scene.",
+      "A.A.B-n. Otherwise, I suppose, the thing just becomes legal. But when we are committed to His death it is real and effectual, resultful. We experience 'The new creation's stainless joy' (Hymn 81) and are attracted from this world to another, a world of life in which we are free. The Lord says \"I am come that they might have life, and might have it abundantly\", John 10: 10. It is like the \"much fruit\" here, what there is in life for God out of the death of Christ."
+     ]
     },
     {
-     "text": "A.A.B-n. It is often said that in John we do not have the assembly as such but the personnel. When we gather on Lord's day morning, do we look upon one another as having arrived at this? I had the impression this morning that very quickly we moved into this new and living area of things."
+     "speaker": "FCM",
+     "text": [
+      "Exactly; life abundantly. And He says He leaves His peace with us and He gives His joy to us (see John 14: 27; 15: 11). What rich compensation there is! None of us would pretend that the Christian's path is easy. That is why it speaks of enduring and persevering and overcoming. But there is abundant divine grace and recompense.",
+      "Verse 27 of chapter 12 should bear upon us: “Now is my soul troubled, and what shall I say? Father save me from this hour. But on account of this have I come to this hour. Fat her, glorify thy name\". It is His holy feelings, His right feelings as Man, feeling the full meaning and impact of what lay immediately before Him, but all submitted to the Father's will and accepting the point and the purpose and the object for which He had come to this dread hour, He goes forward."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "And the Lord says to the Father in this gospel: \"the men whom thou gavest me out of the world\", chap 17: 6. These things ought to weigh with us. They involve cost, they involve saying 'no' to certain things, but they open the door to what is infinitely rich and blessed, \"out of the world\"."
+     "speaker": "JB",
+     "text": [
+      "Should we see that what we are going on with here is something that is of eternity itself? Our point of severance from this scene, as you have been saying, relates us to another world, but it is not another world which is bounded by the limits of this world. It is one that is without beginning and without end but it is difficult for us to grasp that. Could you say something to help us as to that?"
+     ]
     },
     {
-     "speaker": "Jas.B.",
-     "text": "He also says \"they are not of the world, as I am not of the world\" (vv 14,16). Would that be a tremendous impetus to us to sever our links with this world? \""
+     "speaker": "FCM",
+     "text": [
+      "It will be displayed in the world to come the millennium, and of course it will fill eternity; now it is enjoyed individually in our relations with the Lord Jesus, with the Spirit, with the Father, and in the assembly, although John does not speak specifically of that. But we are brought now into the enjoyment of the richest things. \"We have contemplated his glory, a glory as of an only-begotten with a father\", John 1: 14. Now these are the greatest things, presented to us in Christ in His relations with His Father and enter ed into in the power of the Spirit. These things are not foreign to us. We come together and are conscious of touching them and enjoying them and of their life and power and superiority."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Quite so. In the divine view this is true of us, but may I answer to it. If I have worldly tendencies or tastes, or if anything of the world is attaching to me or my circumstances, let it bear upon me that the Lord says of His own \"they are not of the world, as I am not of the world\". And Mary of Magdala is an example, a lonely, desolate, weeping woman, because she was in a world without Jesus, and it was a wilderness to her but the Lord found her."
+     "speaker": "JB",
+     "text": [
+      "Would it be right to say that God had an object in His dip into time? I was thinking of \"if it die, it bears much fruit\". That is not only for our benefit; it is for God's benefit and that is in fact what Jesus came into time to secure."
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "The world is intended to be just a place of testing and proving, is it not? The Lord also says in John 17 \"I do not demand that thou shouldest take them out of the world, but that thou shouldest keep them out of evil\" (v 15). It is not intended to be a place where we settle down but rather a place where there is divine formation, a proving-ground, do you think?"
+     "speaker": "FCM",
+     "text": [
+      "It is supremely the Father's will. \"On account of this have I come to this hour. Father, glorify thy name\". It is like the ark with the tables of stone in it, the whole scope of the will of God. The hymn (No.39) says, 'God's will in its vastness Thou lovedst and earnest as Man it to do'. That was His motive and object."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Yes indeed; and I think increasingly we should realise it. The Lord is very gracious and we would not give any impression of what is harsh or arbitrary to our young people. I remember when I was a boy a local brother saying as we walked along the street (his own little girl was also with him), You should be able to say, Lord Jesus, I love thee better than my toys, I love thee better than my dolls. It was very simple but it left an impression on me. When we are young there are certain things it is perfectly legitimate to enjoy, but may the Lord Jesus increasingly become greater to us than anything else. When we reach the age we were speaking of yesterday, when we answer to our baptism, around the age of twelve, this reckoning should become more and more definite. The Lord’s supper should represent something very attractive, on the one hand His committal to us, but on the other our committal to His death and to Himself, so that we deem His death our point of severance from this scene, and our point of entrance into another scene."
+     "speaker": "JasM",
+     "text": [
+      "Verse 24 would be a present answer. We love to think of what the Lord will come into in the world to come. But this is not 'will bear much fruit' but \"bears much fruit\", a present matter."
+     ]
     },
     {
-     "text": "A.A.B-n. Otherwise, I suppose, the thing just becomes legal. But when we are committed to His death it is real and effectual, resultful. We experience 'The new creation's stainless joy' (Hymn 81) and are attracted from this world to another, a world of life in which we are free. The Lord says \"I am come that they might have life, and might have it abundantly\", John 10: 10. It is like the \"much fruit\" here, what there is in life for God out of the death of Christ."
+     "speaker": "FCM",
+     "text": [
+      "That is very helpful. This should attract us, the privilege of affording a present answer to Christ, an answer to the Father in fruitfulness."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Exactly; life abundantly. And He says He leaves His peace with us and He gives His joy to us (see John 14: 27; 15: 11). What rich compensation there is! None of us would pretend that the Christian's path is easy. That is why it speaks of enduring and persevering and overcoming. But there is abundant divine grace and recompense."
+     "speaker": "RJC",
+     "text": [
+      "Is there the suggestion that we are after His own order, His own kind, so we have a link with that Man? He is the great sun and centre of that world and everyone is in orbit in relation to Him. If we are not livingly attached to Him we shall be out of orbit."
+     ]
     },
     {
-     "text": "Verse 27 of chapter 12 should bear upon us: “Now is my soul troubled, and what shall I say? Father save me from this hour. But on account of this have I come to this hour. Fat her, glorify thy name\". It is His holy feelings, His right feelings as Man, feeling the full meaning and impact of what lay immediately before Him, but all submitted to the Father's will and accepting the point and the purpose and the object for which He had come to this dread hour, He goes forward."
+     "speaker": "FCM",
+     "text": [
+      "Yes, I always appreciated that illustration. Mr Raven said John's gospel is astronomical, Christ the centre and those who are in orbit in relation to Him (see Vol.17, p.24). That sums up, I think, what has been before us. You are severed from one order of things where we were in orbit in relation to the world and the god of this world and our own wills and now we are attached to Christ, the centre of another system."
+     ]
     },
     {
-     "speaker": "J.B.",
-     "text": "Should we see that what we are going on with here is something that is of eternity itself? Our point of severance from this scene, as you have been saying, relates us to another world, but it is not another world which is bounded by the limits of this world. It is one that is without beginning and without end but it is difficult for us to grasp that. Could you say something to help us as to that?"
+     "speaker": "RJC",
+     "text": [
+      "I wondered whether 1 Corinthians 15 would fit in: \"such as the heavenly one, such also the heavenly ones\" (v.48); they are after His own kind."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "It will be displayed in the world to come the millennium, and of course it will fill eternity; now it is enjoyed individually in our relations with the Lord Jesus, with the Spirit, with the Father, and in the assembly, although John does not speak specifically of that. But we are brought now into the enjoyment of the richest things. \"We have contemplated his glory, a glory as of an only-begotten with a father\", John 1: 14. Now these are the greatest things, presented to us in Christ in His relations with His Father and enter ed into in the power of the Spirit. These things are not foreign to us. We come together and are conscious of touching them and enjoying them and of their life and power and superiority."
+     "speaker": "FCM",
+     "text": [
+      "Each one with its own glory. How infinitely superior these things are to the wretchedness and corruption of the world and its selfishness, to be in a system which is centred in Christ for the Father's pleasure.",
+      "In John 20 we have this desolate woman. You would not need to say to Mary \"Love not the world, nor the things in the world\", 1 John 2: 15. She would say, That place has no attraction for me because I want my Lord. It is affection for Christ that would keep us out of what is not in accord with Him. Then the Lord speaks of His ascension, which would mean the opening up of a new and eternal order of things subsisting in Himself not only risen but ascended."
+     ]
     },
     {
-     "speaker": "J.B.",
-     "text": "Would it be right to say that God had an object in His dip into time? I was thinking of \"if it die, it bears much fruit\". That is not only for our benefit; it is for God's benefit and that is in fact what Jesus came into time to secure."
+     "speaker": "HF",
+     "text": [
+      "Mary might have been surprised if she had been told she was hating her own life, but it was her love for the Lord, her complete need of Him, that found her doing this. It was hardly even counting the cost, in a sense; it was just that she must have Him. For us it may mean coming to it to hate our own lives, but following Him and serving Him would be a wonderful way of doing that."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "It is supremely the Father's will. \"On account of this have I come to this hour. Father, glorify thy name\". It is like the ark with the tables of stone in it, the whole scope of the will of God. The hymn (No.39) says, 'God's will in its vastness Thou lovedst and earnest as Man it to do'. That was His motive and object."
+     "speaker": "FCM",
+     "text": [
+      "Paul says \"for me to live is Christ\", Phil 1: 21. What that meant for Paul! He finishes up a prisoner (his richest epistles come from prison), but he says \"I have learnt in those circumstances in which I am, to be satisfied in myself \", Phil 4: 11. He was not bemoaning his lot or the hardness of his fate. \"Rejoice in the Lord al ways: again I will say, Rejoice\" (v 4). He had lost his life but he had found it abundantly.",
+      "A.A.B-n. Is what is eternal connected with the sphere of ascension?"
+     ]
     },
     {
-     "speaker": "Jas.M.",
-     "text": "Verse 24 would be a present answer. We love to think of what the Lord will come into in the world to come. But this is not 'will bear much fruit' but \"bears much fruit\", a present matter."
+     "speaker": "FCM",
+     "text": [
+      "Yes. We have had the dip into time and now we have the end and result of the dip into time. The end of divine operations in time is looked forward to in 1 Corinthians 15: \"Then the end\" (v 24). There will be a new heaven and a new earth. But we see now the end of His pathway of humiliation, sorrow and suffering, and the opening up of another world in which men have part with Christ in relation to His Father and His God. This was never known before, nor could it be, nor will any other family but the assembly enter into its precious fulness. I think we should have a sense of the rich and exclusive and unique blessings set before us as belonging to Christ in this period in which we are."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "That is very helpful. This should attract us, the privilege of affording a present answer to Christ, an answer to the Father in fruitfulness."
+     "speaker": "JS",
+     "text": [
+      "Would it be right to say that the purpose and counsel of God is complete? Would that chapter in Corinthians be the end of the ways of God, when everything is subjected to Christ and handed over?"
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "Is there the suggestion that we are after His own order, His own kind, so we have a link with that Man? He is the great sun and centre of that world and everyone is in orbit in relation to Him. If we are not livingly attached to Him we shall be out of orbit."
+     "speaker": "FCM",
+     "text": [
+      "The Lord says \"I go to prepare you a place\" (John 14: 2); that place is as prepared and ready now as it will be in eternity. We sing, 'Eternity's begun' (Hymn 94). What we entered into this morning after the Supper was eternity in its precious elements, the very thing we shall actually enjoy eternally entered into in spirit now.",
+      "A.A.B-n. The Spirit as the \"earnest of our inheritance\" (Eph 1: 14) would give us now an appreciation of what is eternal. In Christendom it is largely put off to a future time, but should we be exercised to provide an answer to God's heart at this moment?"
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Yes, I always appreciated that illustration. Mr Raven said John's gospel is astronomical, Christ the centre and those who are in orbit in relation to Him (see Vol.17, p.24). That sums up, I think, what has been before us. You are severed from one order of things where we were in orbit in relation to the world and the god of this world and our own wills and now we are attached to Christ, the centre of another system."
+     "speaker": "FCM",
+     "text": [
+      "Is it not striking that although the Spirit could not be given until Christ was glorified, in pattern the Lord gives the Spirit immediately in chapter 20? \"And having said this, he breathed into them, and says to them, Receive the Holy Spirit\". That was largely, I suppose, in view of their testimony here, but it foreshadows what lay just a few weeks ahead, the actual incoming of the Spirit. There is thus power and life for us to have our part in liberty, joy and intelligence in this realm which involves ascension and what is eternal in character, \"my Father and your Father... my God and your God\".",
+      "A.A.B-n. Would you say something as to this which is given to Mary. There is something distinctive in the present dispensation, God known as Father, and God made known in the glory of His Being. When Moses says in Psalm 90 \"from eternity to eternity thou art God\" (v 2), that would be what he had arrived at, do you think?"
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "I wondered whether 1 Corinthians 15 would fit in: \"such as the heavenly one, such also the heavenly ones\" (v.48); they are after His own kind."
+     "speaker": "FCM",
+     "text": [
+      "Wonderful relationships are opened up here, fruit of the grain of wheat falling into the ground and dying. \"Go to my brethren\", those of His own order, \"and say to them, I ascend\". What a majestic statement! Who else could say it? He ascends in His own right, \"to my Father\". The Lord did not stop there; He adds \"and your Father\". How wonderful to be brought into the conscious joy of our relationship with the Father of our Lord Jesus Christ! We can say to Him, Father. Then the final and greatest thing is His God and our God. So that we know God in that wondrous name of revelation: Father, Son and Holy Spirit. Paul says \"If God be for us\" (Rom 8: 31), and no doubt that would involve God in all that He is, known to us in relationship and toward us in His nature and in all His attributes. What it means to God to be made known, to be declared, no longer in thick darkness but made known in the glory and fulness of the declaration and gloriously responded to in the assembly."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Each one with its own glory. How infinitely superior these things are to the wretchedness and corruption of the world and its selfishness, to be in a system which is centred in Christ for the Father's pleasure."
+     "speaker": "AG",
+     "text": [
+      "In verse 18 it says \"Mary of Magdala comes bringing word to the disciples that she had seen the Lord, and that he had said these things to her\". It was a wonderful message, and she brought it to the disciples. It was not lost."
+     ]
     },
     {
-     "text": "In John 20 we have this desolate woman. You would not need to say to Mary \"Love not the world, nor the things in the world\", 1 John 2: 15. She would say, That place has no attraction for me because I want my Lord. It is affection for Christ that would keep us out of what is not in accord with Him. Then the Lord speaks of His ascension, which would mean the opening up of a new and eternal order of things subsisting in Himself not only risen but ascended."
-    },
-    {
-     "speaker": "H.F.",
-     "text": "Mary might have been surprised if she had been told she was hating her own life, but it was her love for the Lord, her complete need of Him, that found her doing this. It was hardly even counting the cost, in a sense; it was just that she must have Him. For us it may mean coming to it to hate our own lives, but following Him and serving Him would be a wonderful way of doing that."
-    },
-    {
-     "speaker": "F.C.M.",
-     "text": "Paul says \"for me to live is Christ\", Phil 1: 21. What that meant for Paul! He finishes up a prisoner (his richest epistles come from prison), but he says \"I have learnt in those circumstances in which I am, to be satisfied in myself \", Phil 4: 11. He was not bemoaning his lot or the hardness of his fate. \"Rejoice in the Lord al ways: again I will say, Rejoice\" (v 4). He had lost his life but he had found it abundantly."
-    },
-    {
-     "text": "A.A.B-n. Is what is eternal connected with the sphere of ascension?"
-    },
-    {
-     "speaker": "F.C.M.",
-     "text": "Yes. We have had the dip into time and now we have the end and result of the dip into time. The end of divine operations in time is looked forward to in 1 Corinthians 15: \"Then the end\" (v 24). There will be a new heaven and a new earth. But we see now the end of His pathway of humiliation, sorrow and suffering, and the opening up of another world in which men have part with Christ in relation to His Father and His God. This was never known before, nor could it be, nor will any other family but the assembly enter into its precious fulness. I think we should have a sense of the rich and exclusive and unique blessings set before us as belonging to Christ in this period in which we are."
-    },
-    {
-     "speaker": "J.S.",
-     "text": "Would it be right to say that the purpose and counsel of God is complete? Would that chapter in Corinthians be the end of the ways of God, when everything is subjected to Christ and handed over?"
-    },
-    {
-     "speaker": "F.C.M.",
-     "text": "The Lord says \"I go to prepare you a place\" (John 14: 2); that place is as prepared and ready now as it will be in eternity. We sing, 'Eternity's begun' (Hymn 94). What we entered into this morning after the Supper was eternity in its precious elements, the very thing we shall actually enjoy eternally entered into in spirit now."
-    },
-    {
-     "text": "A.A.B-n. The Spirit as the \"earnest of our inheritance\" (Eph 1: 14) would give us now an appreciation of what is eternal. In Christendom it is largely put off to a future time, but should we be exercised to provide an answer to God's heart at this moment?"
-    },
-    {
-     "speaker": "F.C.M.",
-     "text": "Is it not striking that although the Spirit could not be given until Christ was glorified, in pattern the Lord gives the Spirit immediately in chapter 20? \"And having said this, he breathed into them, and says to them, Receive the Holy Spirit\". That was largely, I suppose, in view of their testimony here, but it foreshadows what lay just a few weeks ahead, the actual incoming of the Spirit. There is thus power and life for us to have our part in liberty, joy and intelligence in this realm which involves ascension and what is eternal in character, \"my Father and your Father... my God and your God\"."
-    },
-    {
-     "text": "A.A.B-n. Would you say something as to this which is given to Mary. There is something distinctive in the present dispensation, God known as Father, and God made known in the glory of His Being. When Moses says in Psalm 90 \"from eternity to eternity thou art God\" (v 2), that would be what he had arrived at, do you think?"
-    },
-    {
-     "speaker": "F.C.M.",
-     "text": "Wonderful relationships are opened up here, fruit of the grain of wheat falling into the ground and dying. \"Go to my brethren\", those of His own order, \"and say to them, I ascend\". What a majestic statement! Who else could say it? He ascends in His own right, \"to my Father\". The Lord did not stop there; He adds \"and your Father\". How wonderful to be brought into the conscious joy of our relationship with the Father of our Lord Jesus Christ! We can say to Him, Father. Then the final and greatest thing is His God and our God. So that we know God in that wondrous name of revelation: Father, Son and Holy Spirit. Paul says \"If God be for us\" (Rom 8: 31), and no doubt that would involve God in all that He is, known to us in relationship and toward us in His nature and in all His attributes. What it means to God to be made known, to be declared, no longer in thick darkness but made known in the glory and fulness of the declaration and gloriously responded to in the assembly."
-    },
-    {
-     "speaker": "A.G.",
-     "text": "In verse 18 it says \"Mary of Magdala comes bringing word to the disciples that she had seen the Lord, and that he had said these things to her\". It was a wonderful message, and she brought it to the disciples. It was not lost."
-    },
-    {
-     "speaker": "F.C.M.",
-     "text": "That is the principle of any ministry or service. Someone has an impression of the Lord, and that has to be imparted, set in circulation, so that others may share in it and get the gain of it."
+     "speaker": "FCM",
+     "text": [
+      "That is the principle of any ministry or service. Someone has an impression of the Lord, and that has to be imparted, set in circulation, so that others may share in it and get the gain of it."
+     ]
     }
    ]
   },
@@ -465,6 +561,26 @@
      "text": "When the Israelites had crossed the river Jordan they began to enjoy the blessings that God had stored up for them in the promised land. Twelve great stones from the dry bed of the river were carried over on the shoulders of as many men and set up on the bank. It was expected that the children would ask the meaning of those stones, just as we now encourage children to enquire about \"the things of Jesus Christ\". There were two distinct questions and answers about the memorial stones. The answer to one question was that the waters of the Jordan were cut off and heaped up when the ark of Jehovah entered the river; the other answer was that all the people had been able to cross on dry land. The Lord's supper reminds us that the majesty of Jesus overcame death when He entered its domain; but also those present at the Supper and many others besides have in their spirits and affections followed Him and enjoy the fruits of His death and resurrection. Let me ask again - Have you desired to remember the Lord in the breaking of bread?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE 'DIP INTO TIME'",
+   "kind": "not_a_name",
+   "detail": "\"n.- A.A.Brown\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "THE 'DIP INTO TIME'",
+   "kind": "initials_before_name",
+   "detail": "10 entries written as initials then name (\"JasB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "THE 'DIP INTO TIME'",
+   "kind": "default_place",
+   "detail": "Grangemouth given to 7 names (\"All Grangemouth unless otherwise stated\")"
   }
  ]
 }

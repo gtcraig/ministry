@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,43 +26,44 @@
    "place": "LONDON",
    "date": "20 June 1987",
    "speakers": [
-    "J.R.",
-    "E.C.B.",
-    "D.J.H.",
-    "E.O.P.M.",
-    "J.C.E.",
-    "R.T.",
-    "E.P.",
-    "C.G.H.",
-    "F.R.T.",
-    "E.C.",
-    "C.C.I.",
-    "J.M.",
-    "D.E.R.",
-    "P.M.",
-    "W.H.S.",
-    "M.A.J.T.",
-    "R.E.T.",
-    "W.J.R.B.",
-    "R.W.F.",
-    "F.C.M.",
-    "B.W.W.",
-    "H.A.H.",
-    "S.D.K.R.",
-    "F.G.M.",
-    "E.O.",
-    "D.E.B.",
-    "J.R.B."
+    "JR",
+    "ECB",
+    "DJH",
+    "EOPM",
+    "JCE",
+    "RT",
+    "EP",
+    "CGH",
+    "FRT",
+    "EC",
+    "CCI",
+    "JM",
+    "DER",
+    "PM",
+    "WHS",
+    "MAJT",
+    "RET",
+    "WJRB",
+    "RWF",
+    "FCM",
+    "BWW",
+    "HAH",
+    "SDKR",
+    "FGM",
+    "EO",
+    "DEB",
+    "JRB"
    ],
    "initials": [
     {
-     "initials": "LDEB",
-     "name": "(London unless otherwise shown) D.E.Burr",
+     "initials": "DEB",
+     "name": "D.E.Burr",
      "place": "Redbridge"
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "London"
     },
     {
      "initials": "JRB",
@@ -81,11 +82,13 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "London"
     },
     {
      "initials": "RWF",
-     "name": "R.W.Flowerdew"
+     "name": "R.W.Flowerdew",
+     "place": "London"
     },
     {
      "initials": "CGH",
@@ -94,11 +97,13 @@
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "London"
     },
     {
      "initials": "HAH",
-     "name": "H.A.Hutson"
+     "name": "H.A.Hutson",
+     "place": "London"
     },
     {
      "initials": "CC",
@@ -137,11 +142,13 @@
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "London"
     },
     {
      "initials": "EP",
-     "name": "E.Palrner"
+     "name": "E.Palrner",
+     "place": "London"
     },
     {
      "initials": "DER",
@@ -180,594 +187,885 @@
     },
     {
      "initials": "BWW",
-     "name": "B.W.Ward"
+     "name": "B.W.Ward",
+     "place": "London"
+    },
+    {
+     "initials": "CCI",
+     "not_in_key": true
+    },
+    {
+     "initials": "MAJT",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "London unless otherwise shown",
    "initials_text": [
     "(London unless otherwise shown)",
     "D.E.Burr, Redbridge; E.C.Burr; J.R.Bellamy, Vancouver; W.J.R.Brodie, Ealing; E.Croot, Dorking; J.C.Evershed; R.W.Flowerdew; C.G.Hitchcock, Ealing; D.J.Hutson; H.A.Hutson; C.C.lkin, Southend; E.O.P.Mutton, Walton; F.C.Mutton, Redbridge; F.G.May, Maidstone; J.Mitchell, Bexley; J.McKay, Woodstock; P.Martin, Colchester; E.Oliver; E.Palrner; D.E.Rernrnington, St.Albans; J.Renton, Edinburgh; S.D.K.Roberts, Croydon; W.H.Shephard, Bedford; F.R.Turner, Bournemouth· M.A.J.Terry; R.Taylor, Barnet; R.E.Turner, Bexley; B.W.Ward"
    ],
    "paragraphs": [
     {
-     "speaker": "J.R.",
-     "text": "We were impressed at Sunbury on Lord's day with the way of divine love, set out especially in the early chapters of John. It is good for us to trace the way of divine love. Chapter 1: 29: \"Behold the Lamb of God, who takes away the sin of the world\". Think of divine love coming into that situation, the Lamb of God taking on sacrificially such a tremendous work as to take away the sin of the world. Chapter 3: 14: \"And as Moses lifted up the serpent in the wilderness, thus must the Son of man be lifted up\". That is the way of divine love, of suffering love set out in the Son of man. Next verse: \"For God so loved the world, that he gave his only begotten Son, that whosoever believes on him may not perish, but have life eternal\" - God's love, the way that God took, giving His own beloved Son. In chapter 4, there is the gift of the Holy Spirit, the living water springing up into eternal life. We could go through these chapters - chapter 10: 11: \"The good shepherd lays down his life for the sheep\". It is the way of divine love that is meant to lay hold of us and affect us."
+     "speaker": "JR",
+     "text": [
+      "We were impressed at Sunbury on Lord's day with the way of divine love, set out especially in the early chapters of John. It is good for us to trace the way of divine love. Chapter 1: 29: \"Behold the Lamb of God, who takes away the sin of the world\". Think of divine love coming into that situation, the Lamb of God taking on sacrificially such a tremendous work as to take away the sin of the world. Chapter 3: 14: \"And as Moses lifted up the serpent in the wilderness, thus must the Son of man be lifted up\". That is the way of divine love, of suffering love set out in the Son of man. Next verse: \"For God so loved the world, that he gave his only begotten Son, that whosoever believes on him may not perish, but have life eternal\" - God's love, the way that God took, giving His own beloved Son. In chapter 4, there is the gift of the Holy Spirit, the living water springing up into eternal life. We could go through these chapters - chapter 10: 11: \"The good shepherd lays down his life for the sheep\". It is the way of divine love that is meant to lay hold of us and affect us.",
+      "I thought we might consider this morning how we come into that way of love as affected by the way of divine love, how we come into that same way. What has impressed me is this word 'as': \"as I have done to you\". This is the first time in this gospel that this word 'as' occurs, as meaning 'in like manner', and by way of exhortation; there has been a setting out of divine love in these other chapters and we are to come into that way, as the way of love has been set out. It is not 'what I have done to you', although that is important; it is \"as I have done to you\". We did not read the opening verses of chapter 13 (they are well known) but we ought to consider \"as I have done to you\" - in what manner the Lord performed this service. The chapter opens: \"Jesus, knowing that his hour had come that he should depart out of this world to the Father, having loved his own who were in the world, loved them to the end\", loved them through everything. What a way of love this is! If it does not affect us, what will? We are exhorted to have our part in this same way of love. It says too: \"Jesus, knowing that the Father had given all things into his hands, and that he came out from God and was going to God\" - \"all things into his hands\". What comes into His hands are the feet of the disciples, the first things that come into His hands. It is the way of love, dear brethren. Maybe we are not sufficiently affected, maybe we do not sufficiently contemplate, this way of love."
+     ]
     },
     {
-     "text": "I thought we might consider this morning how we come into that way of love as affected by the way of divine love, how we come into that same way. What has impressed me is this word 'as': \"as I have done to you\". This is the first time in this gospel that this word 'as' occurs, as meaning 'in like manner', and by way of exhortation; there has been a setting out of divine love in these other chapters and we are to come into that way, as the way of love has been set out. It is not 'what I have done to you', although that is important; it is \"as I have done to you\". We did not read the opening verses of chapter 13 (they are well known) but we ought to consider \"as I have done to you\" - in what manner the Lord performed this service. The chapter opens: \"Jesus, knowing that his hour had come that he should depart out of this world to the Father, having loved his own who were in the world, loved them to the end\", loved them through everything. What a way of love this is! If it does not affect us, what will? We are exhorted to have our part in this same way of love. It says too: \"Jesus, knowing that the Father had given all things into his hands, and that he came out from God and was going to God\" - \"all things into his hands\". What comes into His hands are the feet of the disciples, the first things that come into His hands. It is the way of love, dear brethren. Maybe we are not sufficiently affected, maybe we do not sufficiently contemplate, this way of love."
+     "speaker": "ECB",
+     "text": [
+      "Would it come out in demonstration rather than in teaching? Even others say, besides the disciples, as in chapter 11: 36: \"Behold how he loved him!\" as to Lazarus."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Would it come out in demonstration rather than in teaching? Even others say, besides the disciples, as in chapter 11: 36: \"Behold how he loved him!\" as to Lazarus."
+     "speaker": "JR",
+     "text": [
+      "That is right. Paul says in 1 Corinthians: \"shew I unto you\", not just talk about it, but show. We need to show this kind of love, show that we have been affected by the way of divine love and come into it in our conduct."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. Paul says in 1 Corinthians: \"shew I unto you\", not just talk about it, but show. We need to show this kind of love, show that we have been affected by the way of divine love and come into it in our conduct."
+     "speaker": "DJH",
+     "text": [
+      "It says in the epistle: \"as he walked, himself also so to walk\", 1 John 2: 6. He walked in the way of love."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "It says in the epistle: \"as he walked, himself also so to walk\", 1 John 2: 6. He walked in the way of love."
+     "speaker": "JR",
+     "text": [
+      "That is right, bringing Him from glory; not sent from heaven but coming of His own volition. \"Lo, I come\" to take up this way of love. There is nothing so affecting as love."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right, bringing Him from glory; not sent from heaven but coming of His own volition. \"Lo, I come\" to take up this way of love. There is nothing so affecting as love."
+     "speaker": "EOPM",
+     "text": [
+      "Love seems to take the initiative. Does love always take the initiative?"
+     ]
     },
     {
-     "speaker": "E.O.P.M.",
-     "text": "Love seems to take the initiative. Does love always take the initiative?"
+     "speaker": "JR",
+     "text": [
+      "It has certainly taken the initiative in the Lord Jesus, in God the Father and the Spirit: it is a wonderful way of love we need to trace and be formed by."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It has certainly taken the initiative in the Lord Jesus, in God the Father and the Spirit: it is a wonderful way of love we need to trace and be formed by."
+     "speaker": "JCE",
+     "text": [
+      "I thought it was remarkable the way this reading has opened up. First we have the example in loving and then the injunction, and then it is bound upon us in commandment. I think we need to see it is bound upon us, not by way of a harsh, hard commandment of course, but because we have the power to keep it."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "I thought it was remarkable the way this reading has opened up. First we have the example in loving and then the injunction, and then it is bound upon us in commandment. I think we need to see it is bound upon us, not by way of a harsh, hard commandment of course, but because we have the power to keep it."
+     "speaker": "JR",
+     "text": [
+      "That is right. In his description of the washing the feet of the disciples John goes into great detail. The Lord Jesus, knowing certain things, \"rises from supper and lays aside his garments, and having taken a linen towel he girded himself; then he pours water into the wash-hand basin, and began to wash the feet of the disciples, and to wipe them with the linen towel with which he was girded\". He came to each one and each one was the object of His attention and affection, one by one. He brought the wash-hand basin with Him and came to each one."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. In his description of the washing the feet of the disciples John goes into great detail. The Lord Jesus, knowing certain things, \"rises from supper and lays aside his garments, and having taken a linen towel he girded himself; then he pours water into the wash-hand basin, and began to wash the feet of the disciples, and to wipe them with the linen towel with which he was girded\". He came to each one and each one was the object of His attention and affection, one by one. He brought the wash-hand basin with Him and came to each one."
+     "speaker": "RT",
+     "text": [
+      "Is the bondman attitude or disposition a necessary part of showing this way of love?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Is the bondman attitude or disposition a necessary part of showing this way of love?"
+     "speaker": "JR",
+     "text": [
+      "I understand it was a custom in those days that, when a company were gathered, a slave would wash the feet of the persons present, but if no slave were available one of the company would take on that service. Jesus was the One who took on the service. It was the way of love. So affecting, is it not? It ought to touch us."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I understand it was a custom in those days that, when a company were gathered, a slave would wash the feet of the persons present, but if no slave were available one of the company would take on that service. Jesus was the One who took on the service. It was the way of love. So affecting, is it not? It ought to touch us."
+     "speaker": "JCE",
+     "text": [
+      "The Lord did not say to them 'How soiled your feet have become, I must wash them’. He did not speak of that side at all. It is wonderful the way the Lord displays His love to us, perhaps even if we have been defiled."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "The Lord did not say to them 'How soiled your feet have become, I must wash them’. He did not speak of that side at all. It is wonderful the way the Lord displays His love to us, perhaps even if we have been defiled."
+     "speaker": "JR",
+     "text": [
+      "Exactly. Love removes it and refreshment would be involved in it. I think the first mention of feet-washing is in Genesis 18, where Abraham proposes to fetch water that the three heavenly visitors may wash their feet. He says \"refresh yourselves\" (v 4). My impression, dear brethren, is that 2 Timothy 1: 16 is an example of a feet-washer, that is Onesiphorus. It says \"he has often refreshed me, and has not been ashamed of my chain; but being in Rome sought me out very diligently, and found me\". Onesiphorus went to Paul the prisoner with a purpose, and that was to refresh him. I believe much can be accomplished by this simple service of love. It is only as we are deeply affected by the way of divine love that we will be able to undertake this service."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. Love removes it and refreshment would be involved in it. I think the first mention of feet-washing is in Genesis 18, where Abraham proposes to fetch water that the three heavenly visitors may wash their feet. He says \"refresh yourselves\" (v 4). My impression, dear brethren, is that 2 Timothy 1: 16 is an example of a feet-washer, that is Onesiphorus. It says \"he has often refreshed me, and has not been ashamed of my chain; but being in Rome sought me out very diligently, and found me\". Onesiphorus went to Paul the prisoner with a purpose, and that was to refresh him. I believe much can be accomplished by this simple service of love. It is only as we are deeply affected by the way of divine love that we will be able to undertake this service."
+     "speaker": "EP",
+     "text": [
+      "Is there a certain personal tenderness about the service? It is not arbitrary and there is regard for the person who is being served."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Is there a certain personal tenderness about the service? It is not arbitrary and there is regard for the person who is being served."
+     "speaker": "JR",
+     "text": [
+      "That is right. It is a personal service of love. When the Lord was washing Andrew’s feet He was not washing John's feet; it was Andrew's feet. Andrew would get an impression of how the Lord loved him, so would John, so would each one."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. It is a personal service of love. When the Lord was washing Andrew’s feet He was not washing John's feet; it was Andrew's feet. Andrew would get an impression of how the Lord loved him, so would John, so would each one."
+     "speaker": "ECB",
+     "text": [
+      "Mr Gardiner used to remark the way in which John's mind would go over the person of the Lord: \"In the beginning was the Word\", 'and He washed my feet'. Very blessed, is it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Mr Gardiner used to remark the way in which John's mind would go over the person of the Lord: \"In the beginning was the Word\", 'and He washed my feet'. Very blessed, is it not?"
+     "speaker": "JR",
+     "text": [
+      "It is indeed."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is indeed."
+     "speaker": "ECB",
+     "text": [
+      "Luke 7 brings out that the prime purpose of feet-washing is refreshment, because you could not think of any need for removal of defilement in Jesus."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Luke 7 brings out that the prime purpose of feet-washing is refreshment, because you could not think of any need for removal of defilement in Jesus."
+     "speaker": "JR",
+     "text": [
+      "Nor with the three heavenly visitors in Genesis 18."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Nor with the three heavenly visitors in Genesis 18."
+     "speaker": "ECB",
+     "text": [
+      "I wonder sometimes whether we put the other side first when it is the side of refreshment that comes first; and your reference to Onesiphorus - \"he has often refreshed me\" - is really the burden of it in the Scripture."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I wonder sometimes whether we put the other side first when it is the side of refreshment that comes first; and your reference to Onesiphorus - \"he has often refreshed me\" - is really the burden of it in the Scripture."
+     "speaker": "JR",
+     "text": [
+      "Yes. There was purpose with the Lord in washing the feet; it was not incidental, it was not casual. Of course, we can have our feet washed casually and incidentally, but this is the Lord coming to each one with a definite purpose. I think if we were able to go to one another, visit one another, with this purpose, much could be effected."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. There was purpose with the Lord in washing the feet; it was not incidental, it was not casual. Of course, we can have our feet washed casually and incidentally, but this is the Lord coming to each one with a definite purpose. I think if we were able to go to one another, visit one another, with this purpose, much could be effected."
+     "speaker": "CGH",
+     "text": [
+      "There is a basic reason why we love: \"We love because he has first loved us\", 1 John 4: 19. What you are bringing before us now is that we might love Him as He has loved us. Is not that a beautiful thought? Does it not bring the Lord's affection so much before us?"
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "There is a basic reason why we love: \"We love because he has first loved us\", 1 John 4: 19. What you are bringing before us now is that we might love Him as He has loved us. Is not that a beautiful thought? Does it not bring the Lord's affection so much before us?"
+     "speaker": "JR",
+     "text": [
+      "Yes, that is what we have later in the chapter: \"A new commandment I give to you, that ye love one another; as I have loved you\". \"As I have loved you\": how was that? It is the way of love as set out in these early chapters. \"As I have loved you\": lifted up, crucified on our account, taking our place as sinners; the Father loving and giving; the Spirit indwelling. I think we need to be affected by tracing the way of love. \"As I have loved you\" was not with partiality, with special friends. Did He not wash the feet of every disciple? It would appear that He even washed the feet of Judas. He washed the feet of Peter, who was somewhat rebellious: \"Thou shalt never wash my feet\". Peter either thought his feet did not require to be washed or that it was too humble a service for the Lord to perform, but the Lord prevailed and washed the feet of each one."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, that is what we have later in the chapter: \"A new commandment I give to you, that ye love one another; as I have loved you\". \"As I have loved you\": how was that? It is the way of love as set out in these early chapters. \"As I have loved you\": lifted up, crucified on our account, taking our place as sinners; the Father loving and giving; the Spirit indwelling. I think we need to be affected by tracing the way of love. \"As I have loved you\" was not with partiality, with special friends. Did He not wash the feet of every disciple? It would appear that He even washed the feet of Judas. He washed the feet of Peter, who was somewhat rebellious: \"Thou shalt never wash my feet\". Peter either thought his feet did not require to be washed or that it was too humble a service for the Lord to perform, but the Lord prevailed and washed the feet of each one."
+     "speaker": "FRT",
+     "text": [
+      "Is there not something affecting in the Lord saying \"one another's feet\". It was not to be special to some; it is a circle of very deep affection, for each, as belonging to Christ."
+     ]
     },
     {
-     "speaker": "F.R.T.",
-     "text": "Is there not something affecting in the Lord saying \"one another's feet\". It was not to be special to some; it is a circle of very deep affection, for each, as belonging to Christ."
+     "speaker": "JR",
+     "text": [
+      "\"One another's feet\" is specially a local idea; at least it begins locally. The wash-hand basin is a small vessel that can be carried. \"One another\" means that we .begin in our own locality."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "\"One another's feet\" is specially a local idea; at least it begins locally. The wash-hand basin is a small vessel that can be carried. \"One another\" means that we .begin in our own locality."
+     "speaker": "FRT",
+     "text": [
+      "The fact that Judas went out later in this chapter would make this circle all the more intimate and affectionate towards one another, do you think?"
+     ]
     },
     {
-     "speaker": "F.R.T.",
-     "text": "The fact that Judas went out later in this chapter would make this circle all the more intimate and affectionate towards one another, do you think?"
+     "speaker": "JR",
+     "text": [
+      "I think so. It looks as though the Lord washed Judas's feet. Think of the Lord expending this service of love on Judas! Peter wanted to be washed all over, but the true believer is washed all over. The Lord says in verse 10: \"He that is washed all over needs not to wash save his feet, but is wholly clean; and ye are clean, but not all\". Judas was not washed all over, but it appears that the Lord washed his feet."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I think so. It looks as though the Lord washed Judas's feet. Think of the Lord expending this service of love on Judas! Peter wanted to be washed all over, but the true believer is washed all over. The Lord says in verse 10: \"He that is washed all over needs not to wash save his feet, but is wholly clean; and ye are clean, but not all\". Judas was not washed all over, but it appears that the Lord washed his feet."
+     "speaker": "JM",
+     "text": [
+      "Is the laying aside of the garments part of the example? The Lord lays aside personal distinction. I wondered if what was in mind here was not the greatness of the One serving but those served."
+     ]
     },
     {
-     "text": "J.McK. Is the laying aside of the garments part of the example? The Lord lays aside personal distinction. I wondered if what was in mind here was not the greatness of the One serving but those served."
+     "speaker": "JR",
+     "text": [
+      "Very good; each one was important in the Lord's eyes, at least those who were real. But what I am impressed with is that the Lord did this with purpose, came to each one."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good; each one was important in the Lord's eyes, at least those who were real. But what I am impressed with is that the Lord did this with purpose, came to each one."
+     "speaker": "EC",
+     "text": [
+      "When the Lord sat down again He said, \"Do ye know what I have done to you?\" Is that a question the Lord is asking each one of us now in the way of divine love?"
+     ]
     },
     {
-     "speaker": "E.C.",
-     "text": "When the Lord sat down again He said, \"Do ye know what I have done to you?\" Is that a question the Lord is asking each one of us now in the way of divine love?"
+     "speaker": "JR",
+     "text": [
+      "I think so. \"Do ye know what I have done to you? \""
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I think so. \"Do ye know what I have done to you? \""
+     "speaker": "CCI",
+     "text": [
+      "Does John particularly have in mind what is to be realised here if we are to enjoy the greatness of the truth in subsequent chapters?"
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Does John particularly have in mind what is to be realised here if we are to enjoy the greatness of the truth in subsequent chapters?"
+     "speaker": "JR",
+     "text": [
+      "Yes, the Lord has in mind \"part with me\", part with Him in the testimony and part with Him in privilege; and the Lord's washing of each one's feet was necessary in view of this part with Him. I wondered whether, if there was more of this service, we would know more intimately part with one another. We go to meetings and we get refreshment in meetings; you may meet a brother in the street and get refreshment; but this is not exactly that. This is the feet-washer coming with purpose, visiting with purpose the one whose feet are to be washed. It is evidence of love but love in activity, and love for each one. We have a meeting every night in Edinburgh, and those of us who are retired very often go to every one, but I wonder if there is not a need for this personal service. I am just beginning to wonder about the need for this personal service, a visit with a purpose to one another. I think it would set us together in a fresh kind of way, a living kind of way. We are glad to see one another at the meetings, and make no mistake, I am not minimising the importance of meetings at all, but this service it seems to me, is a very important service. As I have said, we get refreshment in the meetings, we get refreshment meeting a brother casually, but this is the Lord going to each one each disciple, with a purpose. It is like visiting a brother or a sister with a purpose, and it seems to me it would set us together in affection."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, the Lord has in mind \"part with me\", part with Him in the testimony and part with Him in privilege; and the Lord's washing of each one's feet was necessary in view of this part with Him. I wondered whether, if there was more of this service, we would know more intimately part with one another. We go to meetings and we get refreshment in meetings; you may meet a brother in the street and get refreshment; but this is not exactly that. This is the feet-washer coming with purpose, visiting with purpose the one whose feet are to be washed. It is evidence of love but love in activity, and love for each one. We have a meeting every night in Edinburgh, and those of us who are retired very often go to every one, but I wonder if there is not a need for this personal service. I am just beginning to wonder about the need for this personal service, a visit with a purpose to one another. I think it would set us together in a fresh kind of way, a living kind of way. We are glad to see one another at the meetings, and make no mistake, I am not minimising the importance of meetings at all, but this service it seems to me, is a very important service. As I have said, we get refreshment in the meetings, we get refreshment meeting a brother casually, but this is the Lord going to each one each disciple, with a purpose. It is like visiting a brother or a sister with a purpose, and it seems to me it would set us together in affection."
+     "speaker": "ECB",
+     "text": [
+      "That purpose that you speak of is what we often speak of as positive, is it not? It is to bring something of the Lord, or of God or of the Spirit, to the other person. Rivers of living water flowing out of his belly would enter into it, would it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "That purpose that you speak of is what we often speak of as positive, is it not? It is to bring something of the Lord, or of God or of the Spirit, to the other person. Rivers of living water flowing out of his belly would enter into it, would it not?"
+     "speaker": "JR",
+     "text": [
+      "I was thinking of that. You might say it is the lower affections moving towards one another horizontally."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I was thinking of that. You might say it is the lower affections moving towards one another horizontally."
+     "speaker": "ECB",
+     "text": [
+      "It is the automatic organs; that kind of thing cannot help flowing out. I am struck by the connection with chapter 7: 38: \"out of his belly shall flow rivers of living water\". That is the way feet would be washed, is it not?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is the automatic organs; that kind of thing cannot help flowing out. I am struck by the connection with chapter 7: 38: \"out of his belly shall flow rivers of living water\". That is the way feet would be washed, is it not?"
+     "speaker": "JR",
+     "text": [
+      "Exactly. I believe that much can be accomplished in this service. The Lord says \"I have given you an example that, as I have done to you, ye should do also\". Take account of each detail of the Lord's movements here. He obviously had been to other disciples before He came to Peter, because it says \"He comes therefore to Simon Peter\". He comes to each one with the purpose to refresh, to wash the feet of each one. I do not know if I am making myself clear about this matter of purpose. In a meeting we get our feet washed, and casually we might meet someone, we might invite someone for a meal and that is good, but this is going to a person, coming to someone."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. I believe that much can be accomplished in this service. The Lord says \"I have given you an example that, as I have done to you, ye should do also\". Take account of each detail of the Lord's movements here. He obviously had been to other disciples before He came to Peter, because it says \"He comes therefore to Simon Peter\". He comes to each one with the purpose to refresh, to wash the feet of each one. I do not know if I am making myself clear about this matter of purpose. In a meeting we get our feet washed, and casually we might meet someone, we might invite someone for a meal and that is good, but this is going to a person, coming to someone."
+     "speaker": "JM",
+     "text": [
+      "I was wondering if the atmosphere of love here meant that the enemy has to go out, and whether what you have in mind might be particularly important at the present time when the enemy is active in destructive influences."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I was wondering if the atmosphere of love here meant that the enemy has to go out, and whether what you have in mind might be particularly important at the present time when the enemy is active in destructive influences."
+     "speaker": "JR",
+     "text": [
+      "I am sure that is a fact; so that not only the young people need their feet washed and refreshed, but also older ones, we all do; even Paul needed it."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is a fact; so that not only the young people need their feet washed and refreshed, but also older ones, we all do; even Paul needed it."
+     "speaker": "DER",
+     "text": [
+      "We need not to overlook defilement or the need of refreshment, but we need the wherewithal so that there might be the removal of anything which would hinder part with Christ in the sphere of privilege. That would test us as to whether we have the wherewithal."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "We need not to overlook defilement or the need of refreshment, but we need the wherewithal so that there might be the removal of anything which would hinder part with Christ in the sphere of privilege. That would test us as to whether we have the wherewithal."
+     "speaker": "JR",
+     "text": [
+      "Quite so. There is no overlooking of defilement, or of unrighteousness, in the way of love as set out in John's gospel. In chapter 1: 29 there is the Taker-away of the sin of the world; \"as Moses lifted up the serpent ... thus must the Son of man be lifted up\" (chap 3: 14); \"God so loved the world, that he gave his only-begotten Son\" (v 16). Defilement is not by any means overlooked in the way of divine love and it would not be overlooked either in the way of love we are speaking of. But there is need of this personal service to each one, a service with a purpose."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. There is no overlooking of defilement, or of unrighteousness, in the way of love as set out in John's gospel. In chapter 1: 29 there is the Taker-away of the sin of the world; \"as Moses lifted up the serpent ... thus must the Son of man be lifted up\" (chap 3: 14); \"God so loved the world, that he gave his only-begotten Son\" (v 16). Defilement is not by any means overlooked in the way of divine love and it would not be overlooked either in the way of love we are speaking of. But there is need of this personal service to each one, a service with a purpose."
+     "speaker": "PM",
+     "text": [
+      "Can it be carried out only by each esteeming the other more excellent than himself? Unless I value my brother I shall never see the need to serve him."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Can it be carried out only by each esteeming the other more excellent than himself? Unless I value my brother I shall never see the need to serve him."
+     "speaker": "JR",
+     "text": [
+      "That is a fact. It is very practical. We need to be affected by divine love, each one of us. Taking away the sin of the world was that tremendous transaction, sacrifice involved, removing every evidence of sin in God's universe, so extensive: \"As Moses lifted up the serpent in the wilderness, thus must the Son of man be lifted up, that every one who believes on him\", every one. \"God so loved the world, that he gave his only-begotten Son, that whosoever believes on him\" is individual, because we come into the appreciation of the way of love individually. We are meant to be affected by it."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is a fact. It is very practical. We need to be affected by divine love, each one of us. Taking away the sin of the world was that tremendous transaction, sacrifice involved, removing every evidence of sin in God's universe, so extensive: \"As Moses lifted up the serpent in the wilderness, thus must the Son of man be lifted up, that every one who believes on him\", every one. \"God so loved the world, that he gave his only-begotten Son, that whosoever believes on him\" is individual, because we come into the appreciation of the way of love individually. We are meant to be affected by it."
+     "speaker": "WHS",
+     "text": [
+      "To be quite practical, does it imply that we do not necessarily have to wait for an invitation?"
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "To be quite practical, does it imply that we do not necessarily have to wait for an invitation?"
+     "speaker": "JR",
+     "text": [
+      "The disciples here did not invite the Lord; He came to Peter, He came to each one. It is coming with a definite purpose."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The disciples here did not invite the Lord; He came to Peter, He came to each one. It is coming with a definite purpose."
+     "speaker": "WHS",
+     "text": [
+      "One would use wisdom as to how this could be undertaken. I speak only because I feel, when facing problems, that my stock of love is so low."
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "One would use wisdom as to how this could be undertaken. I speak only because I feel, when facing problems, that my stock of love is so low."
+     "speaker": "JR",
+     "text": [
+      "It is good to invite persons to the home; that is excellent: \"Be not forgetful of hospitality\" (Heb 13: 1); \"hospitable one to another\", 1 Pet 4: 9. But this is not that exactly; John 13 has in mind a service of love to one another, visiting one, and so there is part with Christ in a closer way. \"Part with me\" was the result of the Lord's washing the feet, and I think practical part with one another would result from this service being taken on."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is good to invite persons to the home; that is excellent: \"Be not forgetful of hospitality\" (Heb 13: 1); \"hospitable one to another\", 1 Pet 4: 9. But this is not that exactly; John 13 has in mind a service of love to one another, visiting one, and so there is part with Christ in a closer way. \"Part with me\" was the result of the Lord's washing the feet, and I think practical part with one another would result from this service being taken on."
+     "speaker": "FRT",
+     "text": [
+      "This point of visiting is very important, because the Lord speaks of visiting persons in prison, and \"ye have done it to me\", Matt 25: 40."
+     ]
     },
     {
-     "speaker": "F.R.T.",
-     "text": "This point of visiting is very important, because the Lord speaks of visiting persons in prison, and \"ye have done it to me\", Matt 25: 40."
+     "speaker": "JR",
+     "text": [
+      "Quite so."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so."
+     "speaker": "ECB",
+     "text": [
+      "What was drawn attention to is important though, is it not? \"Do ye know what I have done to you?\" is individual. We tend to regard it as corporate, but it is individual, and what you are saying, and I think what also has been referred to, is that the stock comes in relation to our individual experience of the service of the Lord."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "What was drawn attention to is important though, is it not? \"Do ye know what I have done to you?\" is individual. We tend to regard it as corporate, but it is individual, and what you are saying, and I think what also has been referred to, is that the stock comes in relation to our individual experience of the service of the Lord."
+     "speaker": "JR",
+     "text": [
+      "Surely."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Surely."
+     "speaker": "MAJT",
+     "text": [
+      "This commandment that we should love one another: could you help me as to how I can still love believers from whom I have had to separate after a lifetime with them?"
+     ]
     },
     {
-     "speaker": "M.A.J.T.",
-     "text": "This commandment that we should love one another: could you help me as to how I can still love believers from whom I have had to separate after a lifetime with them?"
+     "speaker": "JR",
+     "text": [
+      "All I would say is that it begins with those who are available to us; 'one another' would be those who are available to us. It would not stop there for we are to have \"love ... towards all the saints\", Eph 1: 15. I am sure we need to have every believer in our minds, but we begin by displaying it in loving one another, that is those who are available to us, locally initially. What do you say?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "All I would say is that it begins with those who are available to us; 'one another' would be those who are available to us. It would not stop there for we are to have \"love ... towards all the saints\", Eph 1: 15. I am sure we need to have every believer in our minds, but we begin by displaying it in loving one another, that is those who are available to us, locally initially. What do you say?"
+     "speaker": "MAJT",
+     "text": [
+      "Thank you. It comes a little hard to me, because I still love them though I have left, but they think I have stopped loving them. How do we show it? that is my question. How do we show our love to other Christians?"
+     ]
     },
     {
-     "speaker": "M.A.J.T.",
-     "text": "Thank you. It comes a little hard to me, because I still love them though I have left, but they think I have stopped loving them. How do we show it? that is my question. How do we show our love to other Christians?"
+     "speaker": "JR",
+     "text": [
+      "We may be limited in how we can show it to other Christians, but we are not to be limited in showing our love to one another, to those who are available to us in the testimony. Nevertheless \"love ... towards all the saints\" ought to mark us, and I am sure we could do with a wider outlook in regard to all the Lord's people. I think we tend to be restricted. In meetings for prayer we pray for our own locality and for those who are sick and the next locality, and we pray for those in fellowship in America and Australia, and think we have a universal outlook, and we are praying for a very, very small fraction of the Lord's people. I think the Lord would have us thinking wider, thinking as He thinks. Every one is precious to Him. There are thousands of those who love Him and we would like to see them making progress."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "We may be limited in how we can show it to other Christians, but we are not to be limited in showing our love to one another, to those who are available to us in the testimony. Nevertheless \"love ... towards all the saints\" ought to mark us, and I am sure we could do with a wider outlook in regard to all the Lord's people. I think we tend to be restricted. In meetings for prayer we pray for our own locality and for those who are sick and the next locality, and we pray for those in fellowship in America and Australia, and think we have a universal outlook, and we are praying for a very, very small fraction of the Lord's people. I think the Lord would have us thinking wider, thinking as He thinks. Every one is precious to Him. There are thousands of those who love Him and we would like to see them making progress."
+     "speaker": "RT",
+     "text": [
+      "Do you think that the way that Aquila and Priscilla spoke to Apollos would show a stock of love? He said something which was perhaps not altogether right, but they took him to them. They took him and washed his feet perhaps, showed him the way of God more exactly."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Do you think that the way that Aquila and Priscilla spoke to Apollos would show a stock of love? He said something which was perhaps not altogether right, but they took him to them. They took him and washed his feet perhaps, showed him the way of God more exactly."
+     "speaker": "JR",
+     "text": [
+      "They took him to them with a purpose, a purpose of love."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "They took him to them with a purpose, a purpose of love."
+     "speaker": "RET",
+     "text": [
+      "\"As I have done to you\" is the way things are done. There may be correction needed, there may be discipline needed, but the way it is done would leave an impression of love that was always there."
+     ]
     },
     {
-     "speaker": "R.E.T.",
-     "text": "\"As I have done to you\" is the way things are done. There may be correction needed, there may be discipline needed, but the way it is done would leave an impression of love that was always there."
+     "speaker": "JR",
+     "text": [
+      "The way of divine love never overlooked unrighteousness, never overlooked sin. We know what it cost the Lord Jesus, what it cost the Father to give His only-begotten Son, and the way of love with us would never overlook these things, but love for one another practically expressed is so important."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The way of divine love never overlooked unrighteousness, never overlooked sin. We know what it cost the Lord Jesus, what it cost the Father to give His only-begotten Son, and the way of love with us would never overlook these things, but love for one another practically expressed is so important."
+     "speaker": "RET",
+     "text": [
+      "Is the way of love completed in the towel?"
+     ]
     },
     {
-     "speaker": "R.E.T.",
-     "text": "Is the way of love completed in the towel?"
+     "speaker": "JR",
+     "text": [
+      "Quite so. It says He wiped their feet \"with the linen towel with which he was girded\". John goes into so much detail. You can just see the Lord, shall I say, bending down to each one, and taking each one's feet in His hands and washing them from the wash-hand basin, and then wiping them with the linen towel. What grace! What a wonderful service it is; does it not become attractive?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. It says He wiped their feet \"with the linen towel with which he was girded\". John goes into so much detail. You can just see the Lord, shall I say, bending down to each one, and taking each one's feet in His hands and washing them from the wash-hand basin, and then wiping them with the linen towel. What grace! What a wonderful service it is; does it not become attractive?"
+     "speaker": "RET",
+     "text": [
+      "It is warmth and righteousness, is it not?"
+     ]
     },
     {
-     "speaker": "R.E.T.",
-     "text": "It is warmth and righteousness, is it not?"
+     "speaker": "JR",
+     "text": [
+      "Yes, surely."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, surely."
+     "speaker": "JM",
+     "text": [
+      "Do you think Paul was using the water in the first epistle to the Corinthians and the towel in the second. You need both, do you not, if persons are to be affected Godward? Then, the earlier part of this chapter shows the great antitype of Aaron with the precious stones representing the tribes on the breastplate. Do you think that really underlies this matter of feet-washing? The one would relate to what is up there; the other would relate to the practical side of what is down here."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Do you think Paul was using the water in the first epistle to the Corinthians and the towel in the second. You need both, do you not, if persons are to be affected Godward? Then, the earlier part of this chapter shows the great antitype of Aaron with the precious stones representing the tribes on the breastplate. Do you think that really underlies this matter of feet-washing? The one would relate to what is up there; the other would relate to the practical side of what is down here."
+     "speaker": "JR",
+     "text": [
+      "Very good. As you were speaking I was thinking of how the Lord would leave each one. He would not leave each one with his feet wet. Each one would have the tender wiping with the linen towel. It is \"as I have done to you\". We are to learn and appreciate the service of love to each one of us and take on that service in the way of love."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good. As you were speaking I was thinking of how the Lord would leave each one. He would not leave each one with his feet wet. Each one would have the tender wiping with the linen towel. It is \"as I have done to you\". We are to learn and appreciate the service of love to each one of us and take on that service in the way of love."
+     "speaker": "JM",
+     "text": [
+      "This may help us to have a right valuation of one another. Passages like Matthew 18 which is administrative would be filled out in the way of substance, do you think?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "This may help us to have a right valuation of one another. Passages like Matthew 18 which is administrative would be filled out in the way of substance, do you think?"
+     "speaker": "JR",
+     "text": [
+      "I think so. We are so unaccustomed to visiting one another without an invitation. I heard of one brother who went to see another one, and he thought he had come to see him on the basis of Matthew 18 because of something wrong. Feet-washing and intimately knowing and loving one another, and having a touch with one another, going with a purpose as we are able, would set us together."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I think so. We are so unaccustomed to visiting one another without an invitation. I heard of one brother who went to see another one, and he thought he had come to see him on the basis of Matthew 18 because of something wrong. Feet-washing and intimately knowing and loving one another, and having a touch with one another, going with a purpose as we are able, would set us together."
+     "speaker": "ECB",
+     "text": [
+      "This in fact is normality. Matthew 18 is to meet abnormality."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "This in fact is normality. Matthew 18 is to meet abnormality."
+     "speaker": "JR",
+     "text": [
+      "Quite so. We possibly know more of the abnormality than we do of the normality, I mean in practice."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. We possibly know more of the abnormality than we do of the normality, I mean in practice."
+     "speaker": "ECB",
+     "text": [
+      "I think your last remark is of very wide application - we know more about abnormality than we know about normality - and John's writings are intended to secure normality amongst believers."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think your last remark is of very wide application - we know more about abnormality than we know about normality - and John's writings are intended to secure normality amongst believers."
+     "speaker": "JR",
+     "text": [
+      "Yes. The Lord came very close to each one, He became very intimate with each one. Each one would be very conscious of being loved. There is no influence greater than the influence of being loved."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. The Lord came very close to each one, He became very intimate with each one. Each one would be very conscious of being loved. There is no influence greater than the influence of being loved."
+     "speaker": "WJRB",
+     "text": [
+      "The Lord had come from the Father's presence in the previous chapter. He speaks of having been with the Father."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "The Lord had come from the Father's presence in the previous chapter. He speaks of having been with the Father."
+     "speaker": "JR",
+     "text": [
+      "Yes, and He knows that He is going to the Father, to \"depart out of this world to the Father\", and \"knowing that the Father had given him all things into his hands, and that he came out from God and was going to God\". It is in view of His absence, in view of His going to the Father, that the Lord sets this example, that \"as I have done to you ye should do also\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, and He knows that He is going to the Father, to \"depart out of this world to the Father\", and \"knowing that the Father had given him all things into his hands, and that he came out from God and was going to God\". It is in view of His absence, in view of His going to the Father, that the Lord sets this example, that \"as I have done to you ye should do also\"."
+     "speaker": "RWF",
+     "text": [
+      "Does the way of love involve movement? The attention by the Lord to the disciples' feet had in view that they might move, under His influence, towards one another, as we have been saying."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Does the way of love involve movement? The attention by the Lord to the disciples' feet had in view that they might move, under His influence, towards one another, as we have been saying."
+     "speaker": "JR",
+     "text": [
+      "That is important. 'Feet' involves movement, with Him, part with Him."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is important. 'Feet' involves movement, with Him, part with Him."
+     "speaker": "FCM",
+     "text": [
+      "Is it not of the greatest importance that our feet are moving in the way of love; we are walking in the same steps, and walking together. If a brother comes to me and washes my feet it will powerfully affect my feet from straying into a way which will not be pleasing to the Lord."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Is it not of the greatest importance that our feet are moving in the way of love; we are walking in the same steps, and walking together. If a brother comes to me and washes my feet it will powerfully affect my feet from straying into a way which will not be pleasing to the Lord."
+     "speaker": "JR",
+     "text": [
+      "Very good. So it is also preventive. There is a preventive service in it. That is important. I am glad you have called attention to it."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good. So it is also preventive. There is a preventive service in it. That is important. I am glad you have called attention to it."
+     "speaker": "BWW",
+     "text": [
+      "You have drawn attention to the fact that this was individual service, which is so clear as regards the disciples, but it was in the presence of all of them. Would you say a little as to that aspect of it in the application that you are making."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "You have drawn attention to the fact that this was individual service, which is so clear as regards the disciples, but it was in the presence of all of them. Would you say a little as to that aspect of it in the application that you are making."
+     "speaker": "JR",
+     "text": [
+      "Yes, they were all there, it appears. Yet the Lord comes to each one, and each one individually is the object of His attention and His affection at the moment. As I said, when He is washing Andrew's feet He is not washing John's feet, and it would seem that it had an effect upon John, because for the first time he speaks of himself, in verse 23, as the disciple whom Jesus loved, as if he received a deep impression of the love of Jesus. What is going to preserve us is our consciousness of being loved, not exactly our love. Of course, we cannot but respond to that love, but the consciousness of being loved is going to keep us."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, they were all there, it appears. Yet the Lord comes to each one, and each one individually is the object of His attention and His affection at the moment. As I said, when He is washing Andrew's feet He is not washing John's feet, and it would seem that it had an effect upon John, because for the first time he speaks of himself, in verse 23, as the disciple whom Jesus loved, as if he received a deep impression of the love of Jesus. What is going to preserve us is our consciousness of being loved, not exactly our love. Of course, we cannot but respond to that love, but the consciousness of being loved is going to keep us."
+     "speaker": "HAH",
+     "text": [
+      "Paul speaks about the \"little esteemed in the assembly\", 1 Cor 6: 4. If we saw the Lord wash such an one's feet, he would go up in our esteem very greatly."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "Paul speaks about the \"little esteemed in the assembly\", 1 Cor 6: 4. If we saw the Lord wash such an one's feet, he would go up in our esteem very greatly."
+     "speaker": "JR",
+     "text": [
+      "Yes, that is right."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, that is right."
+     "speaker": "SDKR",
+     "text": [
+      "Would this consciousness of being loved be conveyed in the visit that you are referring to?"
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Would this consciousness of being loved be conveyed in the visit that you are referring to?"
+     "speaker": "JR",
+     "text": [
+      "I think so. John was sustained in view of ministry for us in the last days; what sustained him, I think, was the sense of being loved. Coming under the influence of divine love will beget responsive love, but Peter, later in the chapter, boasted of his love. He loved the Lord, there is no doubt about it. He says \"I will lay down my life for thee\" (v 37), and Peter meant it, but what governed John was his consciousness of being loved."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I think so. John was sustained in view of ministry for us in the last days; what sustained him, I think, was the sense of being loved. Coming under the influence of divine love will beget responsive love, but Peter, later in the chapter, boasted of his love. He loved the Lord, there is no doubt about it. He says \"I will lay down my life for thee\" (v 37), and Peter meant it, but what governed John was his consciousness of being loved."
+     "speaker": "DJH",
+     "text": [
+      "It would always involve sacrifice. I feel for myself that that is where the test comes."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "It would always involve sacrifice. I feel for myself that that is where the test comes."
+     "speaker": "JR",
+     "text": [
+      "Yes. It would not take too long to wash each person's feet. This is not spending an hour and a half. It would be a brief service; it would be a few minutes, I suppose, but so effective. We used to have a Mr Newlands in our city (the older brethren would remember him) and he used to visit the household, stay twenty minutes and go away; just kept a fatherly touch with the households in the locality. That has been missing, at least I speak for myself. It is not so prevalent as it used to be."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. It would not take too long to wash each person's feet. This is not spending an hour and a half. It would be a brief service; it would be a few minutes, I suppose, but so effective. We used to have a Mr Newlands in our city (the older brethren would remember him) and he used to visit the household, stay twenty minutes and go away; just kept a fatherly touch with the households in the locality. That has been missing, at least I speak for myself. It is not so prevalent as it used to be."
+     "speaker": "ECB",
+     "text": [
+      "Are not feet washed by the single remark \"Let not your hearts be troubled\", John 14: 1? I wondered, with regard to verse 34 which you read, whether the standard has not been raised now. \"As I have loved you\" refers to what they had known of Jesus up to that point, but since then He has laid down His life for us."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Are not feet washed by the single remark \"Let not your hearts be troubled\", John 14: 1? I wondered, with regard to verse 34 which you read, whether the standard has not been raised now. \"As I have loved you\" refers to what they had known of Jesus up to that point, but since then He has laid down His life for us."
+     "speaker": "JR",
+     "text": [
+      "That is right. The chapter opens with the Lord departing out of this world to the Father, going to God, and He gives them a new commandment, because they would find themselves in new circumstances. They would find themselves without the Lord, but they had one another. We have, dear brethren, one another, those who are available to us at the moment. Let us make the most of them, let us get the best out of them. We can get the worst out of one another easily, but we can get the best out of one another. This is one of the ways it can be accomplished."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. The chapter opens with the Lord departing out of this world to the Father, going to God, and He gives them a new commandment, because they would find themselves in new circumstances. They would find themselves without the Lord, but they had one another. We have, dear brethren, one another, those who are available to us at the moment. Let us make the most of them, let us get the best out of them. We can get the worst out of one another easily, but we can get the best out of one another. This is one of the ways it can be accomplished."
+     "speaker": "EP",
+     "text": [
+      "Would you think that Anna in the principle of it moved on this line, because she spoke of Him? It raises the question as to what the conversation is when I visit someone. She spoke of Him. To whom? \"To all those who waited for redemption in Jerusalem\", Luke 2: 38."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Would you think that Anna in the principle of it moved on this line, because she spoke of Him? It raises the question as to what the conversation is when I visit someone. She spoke of Him. To whom? \"To all those who waited for redemption in Jerusalem\", Luke 2: 38."
+     "speaker": "JR",
+     "text": [
+      "Very good. If you visit a household, do not preach at the young people. You maybe ask how they are getting on at school, how they are getting on in employment; you get their confidence."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good. If you visit a household, do not preach at the young people. You maybe ask how they are getting on at school, how they are getting on in employment; you get their confidence."
+     "speaker": "FGM",
+     "text": [
+      "Would a visit such as you describe prevent a crisis arising?"
+     ]
     },
     {
-     "speaker": "F.G.M.",
-     "text": "Would a visit such as you describe prevent a crisis arising?"
+     "speaker": "JR",
+     "text": [
+      "Exactly. And if a crisis arose it would be soon solved if there was this \"part with me\" and vital part with one another."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. And if a crisis arose it would be soon solved if there was this \"part with me\" and vital part with one another."
+     "speaker": "FGM",
+     "text": [
+      "Such a visit brings refreshment to the one visiting, too."
+     ]
     },
     {
-     "speaker": "F.G.M.",
-     "text": "Such a visit brings refreshment to the one visiting, too."
+     "speaker": "JR",
+     "text": [
+      "It does indeed."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It does indeed."
+     "speaker": "EO",
+     "text": [
+      "Peter speaks of the Lord as a model, \"that ye should follow in his steps\", 1 Pet 2: 21. This would be included, would it not?"
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Peter speaks of the Lord as a model, \"that ye should follow in his steps\", 1 Pet 2: 21. This would be included, would it not?"
+     "speaker": "JR",
+     "text": [
+      "Surely. It depends on how we are affected by the way of divine love.",
+      "To refer now to chapter 15: \"As the Father has loved me, I also have loved you\"; think of that kind of love. The Lord Jesus, in washing the feet of the disciples, was loving them as the Father loved Him. We need to be reminded of divine standards: \"As the Father has loved me, I also have loved you: abide in my love. If ye shall keep my commandments, ye shall abide in my love, as I have kept my Father's commandments and abide in his love\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Surely. It depends on how we are affected by the way of divine love."
+     "speaker": "DER",
+     "text": [
+      "That is love not on a natural level, nor on a social level. It is love really at the level of the mystery."
+     ]
     },
     {
-     "text": "To refer now to chapter 15: \"As the Father has loved me, I also have loved you\"; think of that kind of love. The Lord Jesus, in washing the feet of the disciples, was loving them as the Father loved Him. We need to be reminded of divine standards: \"As the Father has loved me, I also have loved you: abide in my love. If ye shall keep my commandments, ye shall abide in my love, as I have kept my Father's commandments and abide in his love\"."
+     "speaker": "JR",
+     "text": [
+      "It is \"As the Father has loved me I also have loved you\". He says \"This is my commandment, that ye love one another, as I have loved you\". It is a repetition of what He says in chapter 13, as if the Lord is concerned in leaving the disciples."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "That is love not on a natural level, nor on a social level. It is love really at the level of the mystery."
+     "speaker": "BWW",
+     "text": [
+      "You referred to John as continuing. Do we get an example of his consciousness of the maintained love of Jesus in Revelation 1: 5? \"To him who loves us\"; he had a current sense of the love of Jesus then."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is \"As the Father has loved me I also have loved you\". He says \"This is my commandment, that ye love one another, as I have loved you\". It is a repetition of what He says in chapter 13, as if the Lord is concerned in leaving the disciples."
+     "speaker": "JR",
+     "text": [
+      "There is nothing more influential than maintained consciousness by the Spirit of the love of Jesus. Then \"the love of God is shed abroad in our hearts by the Holy Spirit\", Rom 5: 5. \"Keep yourselves in the love of God\", Jude 21. That is how we are going to be kept and get through and then loving one another. We have fewer available to us than we used to have. There is great need to value and appreciate each one more, to get the best out of each one."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "You referred to John as continuing. Do we get an example of his consciousness of the maintained love of Jesus in Revelation 1: 5? \"To him who loves us\"; he had a current sense of the love of Jesus then."
+     "speaker": "BWW",
+     "text": [
+      "I am sure that is right. The practice of it may test me, but it is right, because if the best is drawn out there will be more for the Lord, and that is really the primary thing."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "There is nothing more influential than maintained consciousness by the Spirit of the love of Jesus. Then \"the love of God is shed abroad in our hearts by the Holy Spirit\", Rom 5: 5. \"Keep yourselves in the love of God\", Jude 21. That is how we are going to be kept and get through and then loving one another. We have fewer available to us than we used to have. There is great need to value and appreciate each one more, to get the best out of each one."
+     "speaker": "JR",
+     "text": [
+      "It tests every one of us, but it tests us as to our appreciation of the way of divine love, how we are formed by it."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "I am sure that is right. The practice of it may test me, but it is right, because if the best is drawn out there will be more for the Lord, and that is really the primary thing."
+     "speaker": "ECB",
+     "text": [
+      "Does this practical side that you are speaking of help us to understand Peter's reference to being \"partakers of the divine nature\", 2 Pet 1: 4? That is a profound scripture, but the divine nature is love. \"As the Father has loved me, I also have loved you\": we should love one another on that pattern, but it is the divine nature coming into expression, and that formation in us is what God is really concerned with, is it not?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It tests every one of us, but it tests us as to our appreciation of the way of divine love, how we are formed by it."
+     "speaker": "JR",
+     "text": [
+      "Quite so. That is what is going to go through. We might have read from chapter 17, which is even more testing I suppose. Let us refer to it for a moment. \"I come to thee”, the Lord says to the Father; \"Holy Father, keep them in thy name which thou hast given me, that they may be one as we\" (v 11) - \"as we\". He says also, twice, \"they are not of the world, as I am not of the world\" (vv 14,16). I think this \"as\", this like manner, tests us, but it is the Lord's request in John 17. Then when He comes to \"those who believe on me through their word\" He seems to intensify His desire for unity: \"I do not demand for these only, but also for those who believe on me through their word\" (that would extend to the Gentiles, ourselves) \"that they may be all one, as thou, Father, art in me, and I in thee, that they also may be one in us\" (vv 20,21). It is this like manner. Let us have regard to the Lord's own expressed desires to the Father in this chapter.",
+      "In 1 Corinthians we have the Supper in chapter 11. It is quite a test as to what practical effect the Supper has on us. The Supper certainly presents to us the way of divine love, and it is a sad thing if we are at loggerheads with one another and go to the Supper and there is no change. What effect has the way of love had upon us? \"This is my body, which is for you\", He says, chap 11: 24."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does this practical side that you are speaking of help us to understand Peter's reference to being \"partakers of the divine nature\", 2 Pet 1: 4? That is a profound scripture, but the divine nature is love. \"As the Father has loved me, I also have loved you\": we should love one another on that pattern, but it is the divine nature coming into expression, and that formation in us is what God is really concerned with, is it not?"
+     "speaker": "SDKR",
+     "text": [
+      "Would we lose the sense of the Lord's presence under those circumstances? If we are at loggerheads, as you say, with one another, would we have a sense of the Lord's presence at the Supper?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. That is what is going to go through. We might have read from chapter 17, which is even more testing I suppose. Let us refer to it for a moment. \"I come to thee”, the Lord says to the Father; \"Holy Father, keep them in thy name which thou hast given me, that they may be one as we\" (v 11) - \"as we\". He says also, twice, \"they are not of the world, as I am not of the world\" (vv 14,16). I think this \"as\", this like manner, tests us, but it is the Lord's request in John 17. Then when He comes to \"those who believe on me through their word\" He seems to intensify His desire for unity: \"I do not demand for these only, but also for those who believe on me through their word\" (that would extend to the Gentiles, ourselves) \"that they may be all one, as thou, Father, art in me, and I in thee, that they also may be one in us\" (vv 20,21). It is this like manner. Let us have regard to the Lord's own expressed desires to the Father in this chapter."
+     "speaker": "JR",
+     "text": [
+      "Discerning the Lord's presence is a matter of great sensitiveness. There was a sister in Edinburgh in 1908 who was sick during the difficulties. She knew nothing about the division. She came to the meeting she usually came to; at the end of the meeting she said, What has happened? the Lord was not here this morning. That is sensitiveness. We tend to go on presuming that because we are in a certain fellowship the Lord will come to us. The Lord comes to where there is affection and where there are right conditions."
+     ]
     },
     {
-     "text": "In 1 Corinthians we have the Supper in chapter 11. It is quite a test as to what practical effect the Supper has on us. The Supper certainly presents to us the way of divine love, and it is a sad thing if we are at loggerheads with one another and go to the Supper and there is no change. What effect has the way of love had upon us? \"This is my body, which is for you\", He says, chap 11: 24."
+     "speaker": "EO",
+     "text": [
+      "Would the scripture \"let a man prove himself, and thus eat\" help to set us free?"
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Would we lose the sense of the Lord's presence under those circumstances? If we are at loggerheads, as you say, with one another, would we have a sense of the Lord's presence at the Supper?"
+     "speaker": "JR",
+     "text": [
+      "The Lord Jesus comes to self-judged persons, persons who judge themselves, or as you say prove themselves, or examine themselves in the light of the Lord's love."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Discerning the Lord's presence is a matter of great sensitiveness. There was a sister in Edinburgh in 1908 who was sick during the difficulties. She knew nothing about the division. She came to the meeting she usually came to; at the end of the meeting she said, What has happened? the Lord was not here this morning. That is sensitiveness. We tend to go on presuming that because we are in a certain fellowship the Lord will come to us. The Lord comes to where there is affection and where there are right conditions."
+     "speaker": "EP",
+     "text": [
+      "In a different connection there is an expression in the Proverbs that says \"where love is\": \"Better is a meal of herbs where love is\" (chap 15: 17), but the Supper would normally be where love is. Does not the Lord delight to manifest Himself where love is?"
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Would the scripture \"let a man prove himself, and thus eat\" help to set us free?"
+     "speaker": "JR",
+     "text": [
+      "That is right. We passed a Jewish synagogue not long ago where there was a text: \"Better is a meal of vegetables where love is, than a fatted ox and hatred therewith”. I am not too fond of vegetables, so it was a word for me anyway. But it is a fact: better is a little where love is, than much and hatred therewith."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "The Lord Jesus comes to self-judged persons, persons who judge themselves, or as you say prove themselves, or examine themselves in the light of the Lord's love."
+     "speaker": "DEB",
+     "text": [
+      "Love springs from the heart, not from the head. These things have to be spontaneous rather than worked out. I was thinking of the end of chapter 12 which you read. There is a desire which is right, and I suppose that comes, in part at least, from the mind, but the \"way of more surpassing excellence\" is additional to the desire. There is something better."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "In a different connection there is an expression in the Proverbs that says \"where love is\": \"Better is a meal of herbs where love is\" (chap 15: 17), but the Supper would normally be where love is. Does not the Lord delight to manifest Himself where love is?"
+     "speaker": "JR",
+     "text": [
+      "Exactly. We get the way of love set out in chapter 11 in the Supper. We have every week this way of love. Paul says \"yet shew I unto you\", show I unto you; he is affected by the presentation of the way of love in the Supper and he shows them, not only talks about it, but \"shew I unto you a way of more surpassing excellence\". That is the way of love that is open to every one of us."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. We passed a Jewish synagogue not long ago where there was a text: \"Better is a meal of vegetables where love is, than a fatted ox and hatred therewith”. I am not too fond of vegetables, so it was a word for me anyway. But it is a fact: better is a little where love is, than much and hatred therewith."
+     "speaker": "RT",
+     "text": [
+      "Following after love would involve that it is in the lead, would it not? The Supper, following it up, and enjoying it there, would come into the prayer meeting and other meetings: \"Follow after love\"."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "Love springs from the heart, not from the head. These things have to be spontaneous rather than worked out. I was thinking of the end of chapter 12 which you read. There is a desire which is right, and I suppose that comes, in part at least, from the mind, but the \"way of more surpassing excellence\" is additional to the desire. There is something better."
+     "speaker": "JR",
+     "text": [
+      "I am sure that is right."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. We get the way of love set out in chapter 11 in the Supper. We have every week this way of love. Paul says \"yet shew I unto you\", show I unto you; he is affected by the presentation of the way of love in the Supper and he shows them, not only talks about it, but \"shew I unto you a way of more surpassing excellence\". That is the way of love that is open to every one of us."
+     "speaker": "JM",
+     "text": [
+      "The way of love is really a manner of life, is it not? It is what is set out every day, do you think?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Following after love would involve that it is in the lead, would it not? The Supper, following it up, and enjoying it there, would come into the prayer meeting and other meetings: \"Follow after love\"."
+     "speaker": "JR",
+     "text": [
+      "Quite so."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is right."
+     "speaker": "WHS",
+     "text": [
+      "Paul did not always find it easy, did he? \"I shall most gladly spend and be utterly spent for your souls, if even in abundantly loving you I should be less loved\", 2 Cor 12: 15. There is another side, is there not, to the attractiveness of what you are saying? It may test you or me enormously."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "The way of love is really a manner of life, is it not? It is what is set out every day, do you think?"
+     "speaker": "JR",
+     "text": [
+      "Yes, the Corinthians were not all they ought to be. The Supper is meant to affect us more than it does. It is meant to affect me more than it does. We have the privilege of being loved by Jesus and responding to Him. May we be preserved from that occasion being a mere formality. We are particular as to the order of the service and that kind of thing, which is right in its place, but the effect of it needs to be more and more with us. Chapter 13 comes in and Paul goes over the features of love, and many of them are what love is not. There is more said about what love is not than what it is. \"Love has long patience, is kind\" (v 4). That is very positive. \"Is not emulous of others ... is not insolent and rash, is not puffed up, does not behave in an unseemly manner, does not seek what is its own, is not quickly provoked, does not impute evil, does not rejoice at iniquity\". These negative features are features that we need to judge. They are very close to us; they are in us in fact, but we are to judge what love is not and come - into this way of love in a practical way. He goes on to say: \"rejoices with the truth, bears\" ( I think it is 'covers', see note) \"all things, believes all things\". Love would cover all that can righteously be covered. Peter says \"love covers a multitude of sins\" 1 Pet 4: 8. \"Love bears all things, believes all things, hopes all things, endures all things. Love never fails\". I do not think that that means that love always succeeds. If you take the context, it says \"Love never fails; but whether prophecies, they shall be done away, or tongues, they shall cease; or knowledge, it shall be done away\", but love is not done away with and love does not cease. Love goes through into eternity. That is the idea. It is not that love is always successful."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so."
+     "speaker": "JM",
+     "text": [
+      "Does it mean it does not run out? Is that the idea?"
+     ]
     },
     {
-     "speaker": "W.H.S.",
-     "text": "Paul did not always find it easy, did he? \"I shall most gladly spend and be utterly spent for your souls, if even in abundantly loving you I should be less loved\", 2 Cor 12: 15. There is another side, is there not, to the attractiveness of what you are saying? It may test you or me enormously."
+     "speaker": "JR",
+     "text": [
+      "Exactly. I understand Mr Darby's French version is, Love never perishes or decays. (l’amour ne perit jamais)."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, the Corinthians were not all they ought to be. The Supper is meant to affect us more than it does. It is meant to affect me more than it does. We have the privilege of being loved by Jesus and responding to Him. May we be preserved from that occasion being a mere formality. We are particular as to the order of the service and that kind of thing, which is right in its place, but the effect of it needs to be more and more with us. Chapter 13 comes in and Paul goes over the features of love, and many of them are what love is not. There is more said about what love is not than what it is. \"Love has long patience, is kind\" (v 4). That is very positive. \"Is not emulous of others ... is not insolent and rash, is not puffed up, does not behave in an unseemly manner, does not seek what is its own, is not quickly provoked, does not impute evil, does not rejoice at iniquity\". These negative features are features that we need to judge. They are very close to us; they are in us in fact, but we are to judge what love is not and come - into this way of love in a practical way. He goes on to say: \"rejoices with the truth, bears\" ( I think it is 'covers', see note) \"all things, believes all things\". Love would cover all that can righteously be covered. Peter says \"love covers a multitude of sins\" 1 Pet 4: 8. \"Love bears all things, believes all things, hopes all things, endures all things. Love never fails\". I do not think that that means that love always succeeds. If you take the context, it says \"Love never fails; but whether prophecies, they shall be done away, or tongues, they shall cease; or knowledge, it shall be done away\", but love is not done away with and love does not cease. Love goes through into eternity. That is the idea. It is not that love is always successful."
+     "speaker": "CCI",
+     "text": [
+      "Does it involve maturity? It says \"when I became a man, I had done with what belonged to a child\" (v 11). Do you think maturity and manhood is one of the great points that Paul is aiming at? We would get near to one another in a manly way, not in a childish way."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "Does it mean it does not run out? Is that the idea?"
+     "speaker": "JR",
+     "text": [
+      "Very good. There is a great need of this kind of manhood, and love would be a feature of manhood according to God. We need to grow in this, be formed in it. Love involves some formation; it is the result of the appreciation of the way of divine love. That is the standard."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. I understand Mr Darby's French version is, Love never perishes or decays. (l’amour ne perit jamais)."
+     "speaker": "DJH",
+     "text": [
+      "So it says \"if I ... have not love, I am nothing\" (v 2). I was thinking of the word in Proverbs: \"that I may cause those that love me to inherit substance\", chap 8: 21. It is substantial."
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Does it involve maturity? It says \"when I became a man, I had done with what belonged to a child\" (v 11). Do you think maturity and manhood is one of the great points that Paul is aiming at? We would get near to one another in a manly way, not in a childish way."
+     "speaker": "JR",
+     "text": [
+      "Very good. These opening verses: \"If I speak with the tongues of men and of angels, but have not love, I am become sounding brass or a clanging cymbal; And if I have prophecy, and know all mysteries and all knowledge, and if I have all faith, so as to remove mountains\" (these would be desirable features, in one sense) \"but have not love, I am nothing. And if I shall dole out all my goods in food, and if I deliver up my body that I may be burned, but have not love, I profit nothing\". We know all this by heart, we used to learn it at school, but the great thing is to be formed in love."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good. There is a great need of this kind of manhood, and love would be a feature of manhood according to God. We need to grow in this, be formed in it. Love involves some formation; it is the result of the appreciation of the way of divine love. That is the standard."
+     "speaker": "ECB",
+     "text": [
+      "These things are complementary to, and the working out of, what you spoke about in an address on a previous occasion, the references to \"in love\"; \"holy and blameless before him in love\". Quite simply, it is no good claiming that if this side of things is not there."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "So it says \"if I ... have not love, I am nothing\" (v 2). I was thinking of the word in Proverbs: \"that I may cause those that love me to inherit substance\", chap 8: 21. It is substantial."
+     "speaker": "JR",
+     "text": [
+      "That is a fact."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good. These opening verses: \"If I speak with the tongues of men and of angels, but have not love, I am become sounding brass or a clanging cymbal; And if I have prophecy, and know all mysteries and all knowledge, and if I have all faith, so as to remove mountains\" (these would be desirable features, in one sense) \"but have not love, I am nothing. And if I shall dole out all my goods in food, and if I deliver up my body that I may be burned, but have not love, I profit nothing\". We know all this by heart, we used to learn it at school, but the great thing is to be formed in love."
+     "speaker": "MAJT",
+     "text": [
+      "Does Jesus command us to do anything else besides loving Him? He does not command us to be at the Supper, or command us to be baptised, does He?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "These things are complementary to, and the working out of, what you spoke about in an address on a previous occasion, the references to \"in love\"; \"holy and blameless before him in love\". Quite simply, it is no good claiming that if this side of things is not there."
+     "speaker": "JR",
+     "text": [
+      "Paul says in chapter 14: \"If any one thinks himself to be a prophet or spiritual, let him recognise the things that I write to you, that it is the Lord's commandment\" (v 37). That would include the Supper, I suppose. It is a request, of course, but any request He makes, any expressed desire the Lord has ought to become commandment to us. If we are affected by the way of love it would be regarded as obligatory. It would not be optional."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is a fact."
+     "speaker": "MAJT",
+     "text": [
+      "It would not be the ten commandments, would it? Nor the sermon on the mount."
+     ]
     },
     {
-     "speaker": "M.A.J.T.",
-     "text": "Does Jesus command us to do anything else besides loving Him? He does not command us to be at the Supper, or command us to be baptised, does He?"
+     "speaker": "JR",
+     "text": [
+      "These are practical things. The righteous requirement of the law is fulfilled in those who walk according to the Spirit (see Rom 8: 4) but we are not under law. It is not by way of demand; it is by reason of being affected by the way of divine love."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Paul says in chapter 14: \"If any one thinks himself to be a prophet or spiritual, let him recognise the things that I write to you, that it is the Lord's commandment\" (v 37). That would include the Supper, I suppose. It is a request, of course, but any request He makes, any expressed desire the Lord has ought to become commandment to us. If we are affected by the way of love it would be regarded as obligatory. It would not be optional."
+     "speaker": "DJH",
+     "text": [
+      "But the righteous requirement of the law (singular) is love, really, is it not?"
+     ]
     },
     {
-     "speaker": "M.A.J.T.",
-     "text": "It would not be the ten commandments, would it? Nor the sermon on the mount."
+     "speaker": "JR",
+     "text": [
+      "It is."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "These are practical things. The righteous requirement of the law is fulfilled in those who walk according to the Spirit (see Rom 8: 4) but we are not under law. It is not by way of demand; it is by reason of being affected by the way of divine love."
+     "speaker": "PM",
+     "text": [
+      "Would the way we assemble at the Supper, view the emblems and view one another, affect us?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "But the righteous requirement of the law (singular) is love, really, is it not?"
+     "speaker": "JR",
+     "text": [
+      "It is meant to affect us."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is."
+     "speaker": "SDKR",
+     "text": [
+      "Had you something in mind in the word 'follow' after love?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Would the way we assemble at the Supper, view the emblems and view one another, affect us?"
+     "speaker": "JR",
+     "text": [
+      "I would be our intention. You gave us something about it, will you say again what you said before."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is meant to affect us."
+     "speaker": "RT",
+     "text": [
+      "I just thought that whatever is to be done, love is the motive. It is the power. I was thinking that \"as I have done to you\" would come into the emblems. Seeing the emblems we would be reminded of \"as I have done to you\"."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Had you something in mind in the word 'follow' after love?"
+     "speaker": "JR",
+     "text": [
+      "Quite so. Sacrificial love could affect me more."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I would be our intention. You gave us something about it, will you say again what you said before."
+     "speaker": "RWF",
+     "text": [
+      "Is the word \"Follow after love\" addressed to all the saints, regardless of stature? Do you think we are to view love as that which is to be pursued, that in which we are to grow, not a point reached, but there is room for us all to be more formed in it?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I just thought that whatever is to be done, love is the motive. It is the power. I was thinking that \"as I have done to you\" would come into the emblems. Seeing the emblems we would be reminded of \"as I have done to you\"."
+     "speaker": "JR",
+     "text": [
+      "Quite so. \"Follow after love'' leads to prophecy. How am I going to give a word in the meeting for ministry? How does it come about? It comes through following after love, that you love the saints and would love to say something to edify them, therefore you seek a word in the meeting for ministry. That is one example. It comes by way of following after love which comes through being affected by the way of divine love."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. Sacrificial love could affect me more."
+     "speaker": "ECB",
+     "text": [
+      "Does 2 Timothy 2 bind these things together? \"Pursue .., love ... with those that call upon the Lord out of a pure heart\" (v 22). That is, the company that is available is especially an area in which you can pursue love - \"righteousness, faith, love\"."
+     ]
     },
     {
-     "speaker": "R.W.F.",
-     "text": "Is the word \"Follow after love\" addressed to all the saints, regardless of stature? Do you think we are to view love as that which is to be pursued, that in which we are to grow, not a point reached, but there is room for us all to be more formed in it?"
+     "speaker": "JR",
+     "text": [
+      "I think so. Those available to us we ought to appreciate and to value; not to exclude all believers but to make the most and get the best out of those who are available to us, and they are very few. There were very few, I suppose, when the Lord left the disciples here. There were not great numbers."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. \"Follow after love'' leads to prophecy. How am I going to give a word in the meeting for ministry? How does it come about? It comes through following after love, that you love the saints and would love to say something to edify them, therefore you seek a word in the meeting for ministry. That is one example. It comes by way of following after love which comes through being affected by the way of divine love."
+     "speaker": "JRB",
+     "text": [
+      "I think all this is very measuring, as to how we have been affected by the way the Lord has moved in relation to us. You referred to the Supper; what a lever it is for our affections, the first occasion in the week as though everything, all our movements all' our activities, flow out of that. Sacrifice has entered into it; how have I been affected by that in my own pathway?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does 2 Timothy 2 bind these things together? \"Pursue .., love ... with those that call upon the Lord out of a pure heart\" (v 22). That is, the company that is available is especially an area in which you can pursue love - \"righteousness, faith, love\"."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "I think so. Those available to us we ought to appreciate and to value; not to exclude all believers but to make the most and get the best out of those who are available to us, and they are very few. There were very few, I suppose, when the Lord left the disciples here. There were not great numbers."
-    },
-    {
-     "speaker": "J.R.B.",
-     "text": "I think all this is very measuring, as to how we have been affected by the way the Lord has moved in relation to us. You referred to the Supper; what a lever it is for our affections, the first occasion in the week as though everything, all our movements all' our activities, flow out of that. Sacrifice has entered into it; how have I been affected by that in my own pathway?"
-    },
-    {
-     "speaker": "J.R.",
-     "text": "Very important. You know what it is in Vancouver. We are to know how it is worked out in each of our localities; we begin there."
+     "speaker": "JR",
+     "text": [
+      "Very important. You know what it is in Vancouver. We are to know how it is worked out in each of our localities; we begin there."
+     ]
     }
    ]
   },
@@ -822,6 +1120,32 @@
      "text": "When Jesus was in Cana of Galilee there came to Him the father of a sick boy asking the Master to come down to Capernaum to heal the invalid. The distance was about thirty miles and the journey would take a long time. Jesus evidently did not wish the boy to suffer any longer so He said to the father, \"Go, thy son lives\". How Jesus must have felt in His spirit the burden of that which He graciously, and with few words, removed by His power! The father believed the words of Jesus a long time before he knew that his dear child had got better just at the time Jesus had spoken. One result of the incident was that a whole house-full of people believed on the Lord Jesus. Do you believe on Him too?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE WAY OF LOVE",
+   "kind": "default_place",
+   "detail": "London given to 8 names (\"London unless otherwise shown\")"
+  },
+  {
+   "article": 1,
+   "title": "THE WAY OF LOVE",
+   "kind": "speaker_not_in_key",
+   "detail": "CCI (2 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "THE WAY OF LOVE",
+   "kind": "speaker_not_in_key",
+   "detail": "MAJT (4 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "THE WAY OF LOVE",
+   "kind": "speaker_variant",
+   "detail": "JMcK (1x) read as JM (5x), J.McKay"
   }
  ]
 }

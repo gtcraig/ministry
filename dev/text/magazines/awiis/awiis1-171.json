@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,39 +26,41 @@
    "place": "LONDON",
    "date": "29 November 1986",
    "speakers": [
-    "D.R.",
-    "E.C.B.",
-    "R.T.",
-    "D.J.H.",
-    "E.M.W.",
-    "W.J.R.B.",
-    "S.D.K.R.",
-    "C.G.H.",
-    "D.A.B.",
-    "E.O.",
-    "J.M.",
-    "D.E.R.",
-    "J.W.",
-    "P.M.",
-    "C.C.I.",
-    "J.C.E.",
-    "F.C.M.",
-    "E.P.",
-    "I.M.S.",
-    "M.A.J.T.",
-    "F.G.M.",
-    "E.M.W",
-    "E.F.W.",
-    "M.J.W."
+    "DR",
+    "ECB",
+    "RT",
+    "DJH",
+    "EMW",
+    "WJRB",
+    "SDKR",
+    "CGH",
+    "DAB",
+    "EO",
+    "JM",
+    "JMcK",
+    "DER",
+    "JW",
+    "PM",
+    "CCI",
+    "JCE",
+    "FCM",
+    "EP",
+    "IMS",
+    "MAJT",
+    "FGM",
+    "EFW",
+    "MJW"
    ],
    "initials": [
     {
-     "initials": "LDAB",
-     "name": "(London unless otherwise shown) D.A.Burr"
+     "initials": "DAB",
+     "name": "D.A.Burr",
+     "place": "London"
     },
     {
      "initials": "ECB",
-     "name": "E.C.Burr"
+     "name": "E.C.Burr",
+     "place": "London"
     },
     {
      "initials": "WJRB",
@@ -67,7 +69,8 @@
     },
     {
      "initials": "JCE",
-     "name": "J.C.Evershed"
+     "name": "J.C.Evershed",
+     "place": "London"
     },
     {
      "initials": "CGH",
@@ -76,7 +79,8 @@
     },
     {
      "initials": "DJH",
-     "name": "D.J.Hutson"
+     "name": "D.J.Hutson",
+     "place": "London"
     },
     {
      "initials": "CC",
@@ -94,7 +98,7 @@
      "place": "Colchester"
     },
     {
-     "initials": "JM",
+     "initials": "JMcK",
      "name": "J.McKay",
      "place": "Woodstock"
     },
@@ -104,17 +108,19 @@
      "place": "Bexley"
     },
     {
-     "initials": "FM",
+     "initials": "FCM",
      "name": "FC.Mutton",
      "place": "Redbridge"
     },
     {
      "initials": "EO",
-     "name": "E.Oliver"
+     "name": "E.Oliver",
+     "place": "London"
     },
     {
      "initials": "EP",
-     "name": "E.Palmer"
+     "name": "E.Palmer",
+     "place": "London"
     },
     {
      "initials": "DER",
@@ -143,7 +149,8 @@
     },
     {
      "initials": "MAJT",
-     "name": "M.A.J.Terry"
+     "name": "M.A.J.Terry",
+     "place": "London"
     },
     {
      "initials": "EMW",
@@ -164,711 +171,1064 @@
      "initials": "EFW",
      "name": "E.F.Woodford",
      "place": "Dorking"
+    },
+    {
+     "initials": "CCI",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "London unless otherwise shown",
    "initials_text": [
     "(London unless otherwise shown)",
     "D.A.Burr; E.C.Burr; W.J.R.Brodie, Ealing; J.C.Evershed; C.G.Hitchcock, Ealing; D.J.Hutson; C.C.lkin, Southend; F.G.May, Maidstone ; P.Martin, Colchester; J.McKay, Woodstock; J.Mitchell, Bexley; FC.Mutton, Redbridge; E.Oliver; E.Palmer; D.E.Remmington, St Albans; D.Robertson, Cumnock; S.D.K.Roberts, Croydon; I.M.Shearer, Adelaide; R.Taylor, Barnet; M.A.J.Terry; E.M.Walkinshaw, Gillingham; M.J.Welch, Sunbury; J.Wright, Redbridge; E.F.Woodford, Dorking"
    ],
    "paragraphs": [
     {
-     "speaker": "D.R.",
-     "text": "What the Lord says at the end of verse 37 of chapter 18 is very affecting - \"Every one that is of the truth hears my voice\". The setting of the chapter is important I think for us and should be considered. It has a definite bearing on our own day and the conditions that have to be faced in it. What is referred to at the end of verse 37 is of great importance to each one of us - not exactly hearing what the Lord says, but it is \"hears my voice\". It involves a personal dealing with the Lord Jesus. It would involve ministry. There is no power in a ministry that has only a kind of legal imposition to offer; there is power in ministry that links us definitely with Christ. So I thought that this was an important statement. The circumstances in which the Lord is seen here are marked by intense darkness; there is the betrayer, the apostate nation, and the Roman power, and what He says would no doubt expose them all. There is Peter also, but Peter is real, and that is the test today, beloved brethren - whether we are real or not. I think the test of our reality is in what our Lord says here as to whether we are \"of the truth\"; if we are we will hear His voice."
+     "speaker": "DR",
+     "text": [
+      "What the Lord says at the end of verse 37 of chapter 18 is very affecting - \"Every one that is of the truth hears my voice\". The setting of the chapter is important I think for us and should be considered. It has a definite bearing on our own day and the conditions that have to be faced in it. What is referred to at the end of verse 37 is of great importance to each one of us - not exactly hearing what the Lord says, but it is \"hears my voice\". It involves a personal dealing with the Lord Jesus. It would involve ministry. There is no power in a ministry that has only a kind of legal imposition to offer; there is power in ministry that links us definitely with Christ. So I thought that this was an important statement. The circumstances in which the Lord is seen here are marked by intense darkness; there is the betrayer, the apostate nation, and the Roman power, and what He says would no doubt expose them all. There is Peter also, but Peter is real, and that is the test today, beloved brethren - whether we are real or not. I think the test of our reality is in what our Lord says here as to whether we are \"of the truth\"; if we are we will hear His voice.",
+      "I read in the 2nd and 3rd epistles of John because the elect lady is obviously a person who Is ennobled through formation in the truth, and John in this second epistle gives the value of the formation of the truth, an eternal one. Verse 2 is a remarkable verse - \"for the truth's sake which abides in us and shall be with us to eternity\", showing that what is formed substantially of the truth in a person has eternal value. I thought the elect lady would perhaps suggest the motherly element in a local assembly; it is there for the preservation of life according to God. Gaius would, I think, suggest what is paternal in view of spiritual growth and prosperity. Then his reference to Demetrius at the end is very fine, not only is he bearing witness to the truth but the truth itself bears witness to him - \"and by the truth itself\" it says. I thought the Lord may help us as considering these things."
+     ]
     },
     {
-     "text": "I read in the 2nd and 3rd epistles of John because the elect lady is obviously a person who Is ennobled through formation in the truth, and John in this second epistle gives the value of the formation of the truth, an eternal one. Verse 2 is a remarkable verse - \"for the truth's sake which abides in us and shall be with us to eternity\", showing that what is formed substantially of the truth in a person has eternal value. I thought the elect lady would perhaps suggest the motherly element in a local assembly; it is there for the preservation of life according to God. Gaius would, I think, suggest what is paternal in view of spiritual growth and prosperity. Then his reference to Demetrius at the end is very fine, not only is he bearing witness to the truth but the truth itself bears witness to him - \"and by the truth itself\" it says. I thought the Lord may help us as considering these things."
+     "speaker": "ECB",
+     "text": [
+      "I am sure He will. Perhaps you would say more as to how we are to understand the expression \"the truth\". It is widely used among us to refer in a general sense to ministry, but It has much more in mind than that, does it not? Does It go as far as the whole revelation of God, and everything being consistent with the way God has revealed Himself?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I am sure He will. Perhaps you would say more as to how we are to understand the expression \"the truth\". It is widely used among us to refer in a general sense to ministry, but It has much more in mind than that, does it not? Does It go as far as the whole revelation of God, and everything being consistent with the way God has revealed Himself?"
+     "speaker": "DR",
+     "text": [
+      "I think that. The expression \"the truth\" would obviously bear on that - the whole scope of God's revelation in this dispensation, God known in Christ. I think it would also include the revelation of God's will."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think that. The expression \"the truth\" would obviously bear on that - the whole scope of God's revelation in this dispensation, God known in Christ. I think it would also include the revelation of God's will."
+     "speaker": "ECB",
+     "text": [
+      "The words preceding those to which you are drawing attention in verse 37- \"that I might bear witness to the truth\"- bear on that, do they not, especially in John's gospel. He had come to do the Father's will, but in that verse (save that the bearing witness to the truth involved what Jesus said) He was not bearing witness to ministry. Ministry is the way the truth is opened up to us, is it?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "The words preceding those to which you are drawing attention in verse 37- \"that I might bear witness to the truth\"- bear on that, do they not, especially in John's gospel. He had come to do the Father's will, but in that verse (save that the bearing witness to the truth involved what Jesus said) He was not bearing witness to ministry. Ministry is the way the truth is opened up to us, is it?"
+     "speaker": "DR",
+     "text": [
+      "He was the thing, and His whole life was a manifestation of committal to the will of God. In this very gospel it says, \"My food is that I should do the will of him that has sent me\" (John 4: 34), as if in His manhood He could not live without doing the will of the Father. That is why I say \"the truth\" would be the revelation of God in Christ, but it would be more; it would be the revelation of His will, involving for us, I think, adjustment to the truth."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "He was the thing, and His whole life was a manifestation of committal to the will of God. In this very gospel it says, \"My food is that I should do the will of him that has sent me\" (John 4: 34), as if in His manhood He could not live without doing the will of the Father. That is why I say \"the truth\" would be the revelation of God in Christ, but it would be more; it would be the revelation of His will, involving for us, I think, adjustment to the truth."
+     "speaker": "RT",
+     "text": [
+      "Does what He says in an earlier chapter help \"I am the way, and the truth, and the life\" John 14: 6?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "Does what He says in an earlier chapter help \"I am the way, and the truth, and the life\" John 14: 6?"
+     "speaker": "DR",
+     "text": [
+      "I think so; that is a question that is being asked today, What is truth? The whole thing was here in expression and substance in a Man; He was the substance of the truth. The matter He is presenting is not merely on the principle of ministry, but on the principle of manifestation, the very principle of the truth."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think so; that is a question that is being asked today, What is truth? The whole thing was here in expression and substance in a Man; He was the substance of the truth. The matter He is presenting is not merely on the principle of ministry, but on the principle of manifestation, the very principle of the truth."
+     "speaker": "RT",
+     "text": [
+      "I think what you say is good. We are apt to think it is a code, but it is a Person, and if it becomes divorced from the Person it becomes a code; but the truth is in Him is it not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I think what you say is good. We are apt to think it is a code, but it is a Person, and if it becomes divorced from the Person it becomes a code; but the truth is in Him is it not?"
+     "speaker": "DR",
+     "text": [
+      "I think what you draw attention to is important because we are in difficult days and testing times, and there are certain declines on which we must seek to help one another. If we view things apart from the spiritual element in ourselves and in one another we tend to seek power by a kind of legal imposition, and there is no power in it. I think there are the two lines: there is what is orthodox and there is what is merely, as I said, legal, and I do not think there is power in any of them. A statement of the truth must really be related livingly to this Person - \"Every one that is of the truth hears my voice\"."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think what you draw attention to is important because we are in difficult days and testing times, and there are certain declines on which we must seek to help one another. If we view things apart from the spiritual element in ourselves and in one another we tend to seek power by a kind of legal imposition, and there is no power in it. I think there are the two lines: there is what is orthodox and there is what is merely, as I said, legal, and I do not think there is power in any of them. A statement of the truth must really be related livingly to this Person - \"Every one that is of the truth hears my voice\"."
+     "speaker": "DJH",
+     "text": [
+      "That refers to the truth as it is in Jesus. It was seen in Him as He was here but the truth is in Him now, is it? I wondeed if you could give a link between that and what we are speaking of here as to what was seen with Him in the days of His flesh. All has been carried through, has it not, and it is in Himself now?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "That refers to the truth as it is in Jesus. It was seen in Him as He was here but the truth is in Him now, is it? I wondeed if you could give a link between that and what we are speaking of here as to what was seen with Him in the days of His flesh. All has been carried through, has it not, and it is in Himself now?"
+     "speaker": "DR",
+     "text": [
+      "John provides for the living maintenance of Paul's ministry, and Paul's ministry involves the Man where He is, and He is no different. He could not be different because He is the substance, He is the expression of the truth. There could be no change in that, whether it is a Man viewed in circumstances here or a Man in final conditions in glory, He is the truth."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "John provides for the living maintenance of Paul's ministry, and Paul's ministry involves the Man where He is, and He is no different. He could not be different because He is the substance, He is the expression of the truth. There could be no change in that, whether it is a Man viewed in circumstances here or a Man in final conditions in glory, He is the truth."
+     "speaker": "EMW",
+     "text": [
+      "How do you understand the expression \"of the truth\"?"
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "How do you understand the expression \"of the truth\"?"
+     "speaker": "DR",
+     "text": [
+      "I wondered if we could get some help as to that. We know that it has been said in the past that John in his writings has in mind to make believers of believers, and one would think that that is characteristic. It is not the truth merely accepted and retained mentally, but it is the truth really wrought into the fibre of the believer spiritually that would make a person \"of the truth\". If you think of the Old Testament prophets for instance, the names of many of them end with the name of God, like Jonah, Jeremiah, Elijah. I think the suggestion is that the way in which they knew God was wrought into the very fibre of their being. I wondered if that was like a person being \"of the truth\", that the truth really was a part of a person spiritually. Would you think so?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I wondered if we could get some help as to that. We know that it has been said in the past that John in his writings has in mind to make believers of believers, and one would think that that is characteristic. It is not the truth merely accepted and retained mentally, but it is the truth really wrought into the fibre of the believer spiritually that would make a person \"of the truth\". If you think of the Old Testament prophets for instance, the names of many of them end with the name of God, like Jonah, Jeremiah, Elijah. I think the suggestion is that the way in which they knew God was wrought into the very fibre of their being. I wondered if that was like a person being \"of the truth\", that the truth really was a part of a person spiritually. Would you think so?"
+     "speaker": "EMW",
+     "text": [
+      "Yes: therefore it would be a person produced by the effect of the truth. A little earlier the Lord says, \"He that is of God hears the words of God\" John 8: 47. This is of the truth. I think what you say would help us."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "Yes: therefore it would be a person produced by the effect of the truth. A little earlier the Lord says, \"He that is of God hears the words of God\" John 8: 47. This is of the truth. I think what you say would help us."
+     "speaker": "DR",
+     "text": [
+      "I think the danger with many of us is that the truth never gets much further than our minds, but it is to enter into our affections; it is to enter into our beings morally and affect them and build them up."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think the danger with many of us is that the truth never gets much further than our minds, but it is to enter into our affections; it is to enter into our beings morally and affect them and build them up."
+     "speaker": "EMW",
+     "text": [
+      "Hence when the Lord says, \"he shall guide you into all the truth\" (John 16: 13), that is not teaching. He will teach you, but it is guiding us into the thing itself substantially is it not?"
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "Hence when the Lord says, \"he shall guide you into all the truth\" (John 16: 13), that is not teaching. He will teach you, but it is guiding us into the thing itself substantially is it not?"
+     "speaker": "DR",
+     "text": [
+      "Absolutely, and into the joy and power of it. That Is the sense I get in that verse in chapter 16 \"guide you into\" - not unto but into it, into the joy and the power of the truth. It is a very needed thing at the present time that persons should be not merely in the knowledge of the truth, but in the joy and power of it."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Absolutely, and into the joy and power of it. That Is the sense I get in that verse in chapter 16 \"guide you into\" - not unto but into it, into the joy and the power of the truth. It is a very needed thing at the present time that persons should be not merely in the knowledge of the truth, but in the joy and power of it."
+     "speaker": "WJRB",
+     "text": [
+      "Is this set out in the first three verses of John, in what the Lord was actually Himself? He was the personification of the truth."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "Is this set out in the first three verses of John, in what the Lord was actually Himself? He was the personification of the truth."
+     "speaker": "DR",
+     "text": [
+      "Yes, the whole matter of divine truth is verified in that Person. We do not need other authorities; Christendom has developed a system as relying on other authorities. The true Christian position relies on the verification of all truth in Christ; that is made good by the Spirit."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes, the whole matter of divine truth is verified in that Person. We do not need other authorities; Christendom has developed a system as relying on other authorities. The true Christian position relies on the verification of all truth in Christ; that is made good by the Spirit."
+     "speaker": "SDKR",
+     "text": [
+      "How does the Spirit guide us into the truth? Is it by occupation with the Person of Christ? We get like what we are occupied with."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "How does the Spirit guide us into the truth? Is it by occupation with the Person of Christ? We get like what we are occupied with."
+     "speaker": "DR",
+     "text": [
+      "Well, the Lord Himself says, \"he that follows me shall not walk in darkness, but shall have the light of life\", John 8: 12. It is a positive matter. Young believers should note that John speaks of light as being living. It is a paradox in human terms, but it is living light, and the believer has it; he has the light of life. It is in contrast to the darkness of death. The whole scene, especially in John, is characterised by the darkness of death, but the Christian, the believer, as following Christ has the light of life. I think it is in that way that the Spirit occupies us with Christ, and it involves soul movement, that when you get the light you move accordingly, and that is built into you."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Well, the Lord Himself says, \"he that follows me shall not walk in darkness, but shall have the light of life\", John 8: 12. It is a positive matter. Young believers should note that John speaks of light as being living. It is a paradox in human terms, but it is living light, and the believer has it; he has the light of life. It is in contrast to the darkness of death. The whole scene, especially in John, is characterised by the darkness of death, but the Christian, the believer, as following Christ has the light of life. I think it is in that way that the Spirit occupies us with Christ, and it involves soul movement, that when you get the light you move accordingly, and that is built into you."
+     "speaker": "CGH",
+     "text": [
+      "In 2 John it says, \"Grace shall be with you, mercy, peace from God the Father, and from the Lord Jesus Christ, the Son of the Father, in truth and love\" (v 3). We would surely be thankful for what we may have because of what has been ministered to us by devoted servants of the Lord - the outline, and the detail too, of the truth in our minds, particularly concerning the Lord Jesus and the Spirit. Truth, while it is expressed, is largely what we apprehend with the renewed mind, but it says, \"and love\", and that is formation in the nature of God. Is it not set forth in 1 Corinthians 13, which shows that whatever you may have apart from it is worthless, a tinkling cymbal."
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "In 2 John it says, \"Grace shall be with you, mercy, peace from God the Father, and from the Lord Jesus Christ, the Son of the Father, in truth and love\" (v 3). We would surely be thankful for what we may have because of what has been ministered to us by devoted servants of the Lord - the outline, and the detail too, of the truth in our minds, particularly concerning the Lord Jesus and the Spirit. Truth, while it is expressed, is largely what we apprehend with the renewed mind, but it says, \"and love\", and that is formation in the nature of God. Is it not set forth in 1 Corinthians 13, which shows that whatever you may have apart from it is worthless, a tinkling cymbal."
+     "speaker": "DR",
+     "text": [
+      "That is very fine, it involves the greatest things."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "That is very fine, it involves the greatest things."
+     "speaker": "CGH",
+     "text": [
+      "That is really spirituality."
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "That is really spirituality."
+     "speaker": "DR",
+     "text": [
+      "It is, and the element of the truth is an element to be developed in every true believer as we go after the truth. The mind is important. We sometimes have rather discrediting remarks made about the mind but the mind of the believer is important as renewed and as maintained by the Spirit in a disciplined way. It becomes an avenue for the truth to proceed into the affections and there the formation takes place. What you say is very beautiful; it is \"in truth and love\"."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "It is, and the element of the truth is an element to be developed in every true believer as we go after the truth. The mind is important. We sometimes have rather discrediting remarks made about the mind but the mind of the believer is important as renewed and as maintained by the Spirit in a disciplined way. It becomes an avenue for the truth to proceed into the affections and there the formation takes place. What you say is very beautiful; it is \"in truth and love\"."
+     "speaker": "CGH",
+     "text": [
+      "It is a very blessed thing, is it not, that the action is spiritual, formed in the divine nature?"
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "It is a very blessed thing, is it not, that the action is spiritual, formed in the divine nature?"
+     "speaker": "DR",
+     "text": [
+      "And do you not think that we get in John's writings, particularly, the answer to the whole day in which we live? The day is marked by superficiality, shallowness, and we tend to take it on, but being of the truth and hearing the Lord's voice and knowing the Spirit's guidance takes us, I think, into some depth."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "And do you not think that we get in John's writings, particularly, the answer to the whole day in which we live? The day is marked by superficiality, shallowness, and we tend to take it on, but being of the truth and hearing the Lord's voice and knowing the Spirit's guidance takes us, I think, into some depth."
+     "speaker": "CGH",
+     "text": [
+      "At the time the Scriptures were written, and I think it has been true throughout the whole course of man's history as fallen, very little was really known about truth. Pilate says, \"What is truth?\"."
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "At the time the Scriptures were written, and I think it has been true throughout the whole course of man's history as fallen, very little was really known about truth. Pilate says, \"What is truth?\"."
+     "speaker": "DR",
+     "text": [
+      "They had no idea really what the truth is because it involves moral change in persons; it must do."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "They had no idea really what the truth is because it involves moral change in persons; it must do."
+     "speaker": "DAB",
+     "text": [
+      "Is it a heart and mind matter when in chapter 1 the writer referred to receiving Him? It says they have a right to be called the children of God. There is no right from the knowledge of the terms, is there? Then he sets aside man's will and the flesh's will and brings in what is of God. Does that link with your thought?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Is it a heart and mind matter when in chapter 1 the writer referred to receiving Him? It says they have a right to be called the children of God. There is no right from the knowledge of the terms, is there? Then he sets aside man's will and the flesh's will and brings in what is of God. Does that link with your thought?"
+     "speaker": "DR",
+     "text": [
+      "That is good because it takes you right to the divine root in the person. That I think is one of the great features in ministry, that we have the ability by the Spirit to appeal to the divine root in one another."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "That is good because it takes you right to the divine root in the person. That I think is one of the great features in ministry, that we have the ability by the Spirit to appeal to the divine root in one another."
+     "speaker": "DAB",
+     "text": [
+      "When it says \"of God\", it might have said of God's will (and God's will is included, is it not) and I wondered if it linked with what you were saying at the beginning, that the thought of the truth is very great and includes God's will."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "When it says \"of God\", it might have said of God's will (and God's will is included, is it not) and I wondered if it linked with what you were saying at the beginning, that the thought of the truth is very great and includes God's will."
+     "speaker": "DR",
+     "text": [
+      "Showing that on our side it involves adjustment. There is the possibility of holding the truth in unrighteousness, which any true believer would shudder about: but to hold the truth in love is, I think, a great formative idea and it is the result which the Spirit is aiming at."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Showing that on our side it involves adjustment. There is the possibility of holding the truth in unrighteousness, which any true believer would shudder about: but to hold the truth in love is, I think, a great formative idea and it is the result which the Spirit is aiming at."
+     "speaker": "EO",
+     "text": [
+      "Bearing in mind what we have said as to the truth being in Jesus, today the truth is by way of extension in persons."
+     ]
     },
     {
-     "speaker": "E.O.",
-     "text": "Bearing in mind what we have said as to the truth being in Jesus, today the truth is by way of extension in persons."
+     "speaker": "DR",
+     "text": [
+      "Substantially, is it not? The Lord says to the apostles, Ye are My witnesses, (see John 15: 26). He says you have not chosen Me but I have chosen you (v 14). He had chosen them for that very purpose, to continue the expression of the truth as it is in Jesus. We might say the measure is infinitely different if you think of the measure as it is in Jesus. Well, that is infinite: if all the things which Jesus did were written one by one (see John 21: 25) - that is the expression of the Truth."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Substantially, is it not? The Lord says to the apostles, Ye are My witnesses, (see John 15: 26). He says you have not chosen Me but I have chosen you (v 14). He had chosen them for that very purpose, to continue the expression of the truth as it is in Jesus. We might say the measure is infinitely different if you think of the measure as it is in Jesus. Well, that is infinite: if all the things which Jesus did were written one by one (see John 21: 25) - that is the expression of the Truth."
+     "speaker": "JM",
+     "text": [
+      "This is what you referred to earlier as being reliable, is it not, and really it is the only thing that is reliable?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "This is what you referred to earlier as being reliable, is it not, and really it is the only thing that is reliable?"
+     "speaker": "DR",
+     "text": [
+      "It becomes more evident that it is the only thing we can rely upon. It is a sobering thing that we need to come to that in our links together, that the only thing that can be really relied upon is God's work substantially in the believer."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "It becomes more evident that it is the only thing we can rely upon. It is a sobering thing that we need to come to that in our links together, that the only thing that can be really relied upon is God's work substantially in the believer."
+     "speaker": "JM",
+     "text": [
+      "So that it is beautiful coming into John's gospel because you are touching the essence of what is of God and what is for God here in persons in the midst of the terrible breakdown publicly, and this is something to cling to and go in for, is it?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "So that it is beautiful coming into John's gospel because you are touching the essence of what is of God and what is for God here in persons in the midst of the terrible breakdown publicly, and this is something to cling to and go in for, is it?"
+     "speaker": "DR",
+     "text": [
+      "The fact that it has been manifested in Jesus in such circumstances as are set out in chapter 18 is a great comfort for us. We might say, What a day we live in; but what a day the Lord was in, but what a manifestation of the truth livingly in Himself. So it becomes a great comfort to us."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "The fact that it has been manifested in Jesus in such circumstances as are set out in chapter 18 is a great comfort for us. We might say, What a day we live in; but what a day the Lord was in, but what a manifestation of the truth livingly in Himself. So it becomes a great comfort to us."
+     "speaker": "JMcK",
+     "text": [
+      "Is this formation distinctive to Christianity? The note to the beginning of John, \"grace and truth subsists\" (chap 1: 17), says, 'it began to be'. So this formation we are talking about in persons could never have been previously, could it?"
+     ]
     },
     {
-     "text": "J.McK. Is this formation distinctive to Christianity? The note to the beginning of John, \"grace and truth subsists\" (chap 1: 17), says, 'it began to be'. So this formation we are talking about in persons could never have been previously, could it?"
+     "speaker": "DR",
+     "text": [
+      "Christianity is so great that it requires the presence of a divine Person to work it out. No other disposition needed that. The ministry of angels was sufficient in the previous dispensation, but Christianity in its working out and in its formative result requires the indwelling power of the Spirit, requires the actual presence of a divine Person."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Christianity is so great that it requires the presence of a divine Person to work it out. No other disposition needed that. The ministry of angels was sufficient in the previous dispensation, but Christianity in its working out and in its formative result requires the indwelling power of the Spirit, requires the actual presence of a divine Person."
+     "speaker": "JMcK",
+     "text": [
+      "The Lord spoke to some in the gospels and just said, Follow Me, giving no reason for it, and those persons immediately respond."
+     ]
     },
     {
-     "text": "J.McK. The Lord spoke to some in the gospels and just said, Follow Me, giving no reason for it, and those persons immediately respond."
+     "speaker": "DR",
+     "text": [
+      "Exactly: that I think is a suggestion here. He says, If you are of the truth, you will hear My voice. There is the test for us. Many things concern the brethren today, but there is the test for us - if you are of the truth you will hear My voice and you will be affected by it. There is something very beautiful and yet something most testing in it."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Exactly: that I think is a suggestion here. He says, If you are of the truth, you will hear My voice. There is the test for us. Many things concern the brethren today, but there is the test for us - if you are of the truth you will hear My voice and you will be affected by it. There is something very beautiful and yet something most testing in it."
+     "speaker": "DER",
+     "text": [
+      "Does the man in John 9 illustrate for us one who was of the truth. He moved in relation to the Lord and then becomes one of the sheep in chapter 10 and hears the Lord's voice?"
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "Does the man in John 9 illustrate for us one who was of the truth. He moved in relation to the Lord and then becomes one of the sheep in chapter 10 and hears the Lord's voice?"
+     "speaker": "DR",
+     "text": [
+      "Yes, and you can see the whole thing deepening. He says, A man called Jesus, and then he speaks of the Lord as being a Prophet; then they say, O, you are one of His disciples - see the thing was deepening in him - and then finally the Son of God - Who is He Lord? I think he is a very fine product of one who has heard the Lord's voice. The voice of the Lord, the voice of Jesus in John's gospel is very prominent - the voice of the Bridegroom in chapter 3, the voice of the Son of God in chapters 5 and 6, the voice of the Shepherd in chapter 10. I think we would be justified in saying the voice of the last Adam in chapter 20. Think of the variety of the ways in which we can be affected by the glories of Jesus, and be affected by them substantially."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes, and you can see the whole thing deepening. He says, A man called Jesus, and then he speaks of the Lord as being a Prophet; then they say, O, you are one of His disciples - see the thing was deepening in him - and then finally the Son of God - Who is He Lord? I think he is a very fine product of one who has heard the Lord's voice. The voice of the Lord, the voice of Jesus in John's gospel is very prominent - the voice of the Bridegroom in chapter 3, the voice of the Son of God in chapters 5 and 6, the voice of the Shepherd in chapter 10. I think we would be justified in saying the voice of the last Adam in chapter 20. Think of the variety of the ways in which we can be affected by the glories of Jesus, and be affected by them substantially."
+     "speaker": "ECB",
+     "text": [
+      "Would this bear particularly upon the Laodicean day - \"if any one hear my voice\" Rev 3: 20? Is not the maintenance of characteristically being of the truth what will preserve us from that Laodicean condition, of which publicly we form part?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Would this bear particularly upon the Laodicean day - \"if any one hear my voice\" Rev 3: 20? Is not the maintenance of characteristically being of the truth what will preserve us from that Laodicean condition, of which publicly we form part?"
+     "speaker": "DR",
+     "text": [
+      "I was thinking that, and the living manifestation of Christ in the ministry."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I was thinking that, and the living manifestation of Christ in the ministry."
+     "speaker": "ECB",
+     "text": [
+      "In the first part of that verse in Ephesians 4 to which reference was made as to the truth being in Jesus, the point is put negatively but do you not think that learning the Christ is the way to it?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "In the first part of that verse in Ephesians 4 to which reference was made as to the truth being in Jesus, the point is put negatively but do you not think that learning the Christ is the way to it?"
+     "speaker": "DR",
+     "text": [
+      "I think so, and answering to Him."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think so, and answering to Him."
+     "speaker": "ECB",
+     "text": [
+      "So two verses later in that chapter it says \"Wherefore, having put off falsehood, speak truth every one with his neighbour, because we are members one of another\" (Eph 4: 25). Is that the thing taking character in the company here?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "So two verses later in that chapter it says \"Wherefore, having put off falsehood, speak truth every one with his neighbour, because we are members one of another\" (Eph 4: 25). Is that the thing taking character in the company here?"
+     "speaker": "DR",
+     "text": [
+      "I think there is a capacity by the Spirit to answer to it; the presentation affects you."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think there is a capacity by the Spirit to answer to it; the presentation affects you."
+     "speaker": "ECB",
+     "text": [
+      "\"We are members one of another\" takes your mind to the body, in which there can be nothing but the truth."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "\"We are members one of another\" takes your mind to the body, in which there can be nothing but the truth."
+     "speaker": "DR",
+     "text": [
+      "And nothing but the expression of this blessed Man."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "And nothing but the expression of this blessed Man."
+     "speaker": "JW",
+     "text": [
+      "Is the capacity to answer to it in what the Lord says earlier in this gospel as to he that practises the truth comes to the light, that his works may be manifested that they have been wrought in God (see John 3: 21)?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Is the capacity to answer to it in what the Lord says earlier in this gospel as to he that practises the truth comes to the light, that his works may be manifested that they have been wrought in God (see John 3: 21)?"
+     "speaker": "DR",
+     "text": [
+      "You have nothing to fear; a person who is of the truth welcomes the search. Why should that not be? Why should there not be the exposure of anything in me that would hinder my power to have my part in enjoying the truth, or my capacity to enjoy it, my power to answer to it. So you welcome the search that the truth brings."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "You have nothing to fear; a person who is of the truth welcomes the search. Why should that not be? Why should there not be the exposure of anything in me that would hinder my power to have my part in enjoying the truth, or my capacity to enjoy it, my power to answer to it. So you welcome the search that the truth brings."
+     "speaker": "PM",
+     "text": [
+      "Is that worked out in moral exercise in David; he could say finally, Thou wilt have truth in the inward parts, (see Ps 51: 6)."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Is that worked out in moral exercise in David; he could say finally, Thou wilt have truth in the inward parts, (see Ps 51: 6)."
+     "speaker": "DR",
+     "text": [
+      "I think that - Thou wilt have it. There was a submissive heart, a heart that understood, we might say, the supreme will of God. I think that is what Peter has to learn in this chapter. The Lord says, Put your sword into the sheath. I think He sets forth in that remark to Peter the whole principle of the present dispensation. The dispensation is set up in divine grace, but for the believer it involves the absolute recognition of the supremacy of the Father's will. I think that is what the Psalmist comes to - Thou wilt have truth in the inward parts."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think that - Thou wilt have it. There was a submissive heart, a heart that understood, we might say, the supreme will of God. I think that is what Peter has to learn in this chapter. The Lord says, Put your sword into the sheath. I think He sets forth in that remark to Peter the whole principle of the present dispensation. The dispensation is set up in divine grace, but for the believer it involves the absolute recognition of the supremacy of the Father's will. I think that is what the Psalmist comes to - Thou wilt have truth in the inward parts."
+     "speaker": "CCI",
+     "text": [
+      "Do you think the Lord draws attention to Himself in Philadelphia, \"These things saith the holy, the true; he that has the key of David\" (Rev 3: 7)? Mention has been made of Laodicea but do you think that in our day, \"the holy, the true\" would be our particular understanding of how the Lord stands in relation to the present testimony?"
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Do you think the Lord draws attention to Himself in Philadelphia, \"These things saith the holy, the true; he that has the key of David\" (Rev 3: 7)? Mention has been made of Laodicea but do you think that in our day, \"the holy, the true\" would be our particular understanding of how the Lord stands in relation to the present testimony?"
+     "speaker": "DR",
+     "text": [
+      "I think so. I think you get two thoughts in what the Lord is substantially as representing the truth. I think you get expression and consistency. We might be content with the expression of the truth but the Spirit would insist on consistency with the truth, so that the things that are true in Him are true in you. That is consistency with what has been expressed so blessedly in Christ."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think so. I think you get two thoughts in what the Lord is substantially as representing the truth. I think you get expression and consistency. We might be content with the expression of the truth but the Spirit would insist on consistency with the truth, so that the things that are true in Him are true in you. That is consistency with what has been expressed so blessedly in Christ."
+     "speaker": "JCE",
+     "text": [
+      "Could you speak for a moment of the last Adam in John 20. I do not want to turn you aside, but you did mention it rather specially."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "Could you speak for a moment of the last Adam in John 20. I do not want to turn you aside, but you did mention it rather specially."
+     "speaker": "DR",
+     "text": [
+      "I made the remark quite deliberately because I think that along with the appropriation of the truth there must be the action of quickening. It involves quickening of affection. I think that would be part of the evidence of a person being of the truth, that is there is a capability with them of being quickened. The psalmist says, \"quicken me according to thy word\" (Ps 119: 25,107,154). I know that is a moral reference, but there was a capacity with the psalmist to be quickened according to the Lord's word."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I made the remark quite deliberately because I think that along with the appropriation of the truth there must be the action of quickening. It involves quickening of affection. I think that would be part of the evidence of a person being of the truth, that is there is a capability with them of being quickened. The psalmist says, \"quicken me according to thy word\" (Ps 119: 25,107,154). I know that is a moral reference, but there was a capacity with the psalmist to be quickened according to the Lord's word."
+     "speaker": "JMcK",
+     "text": [
+      "So that Peter in this chapter is, as you said, real, and therefore recoverable."
+     ]
     },
     {
-     "text": "J.McK. So that Peter in this chapter is, as you said, real, and therefore recoverable."
+     "speaker": "DR",
+     "text": [
+      "Yes, that is it; Judas is not. I do not think Judas was recoverable material, but Peter obviously is recoverable material. He is of the truth and he hears My voice, do you think?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes, that is it; Judas is not. I do not think Judas was recoverable material, but Peter obviously is recoverable material. He is of the truth and he hears My voice, do you think?"
+     "speaker": "JMcK",
+     "text": [
+      "Yes, and the truth had formed him constitutionally as is seen by how easily he was recognised vv 25 and 27. Even out of setting there was something about the man that was recognisable."
+     ]
     },
     {
-     "text": "J.McK. Yes, and the truth had formed him constitutionally as is seen by how easily he was recognised vv 25 and 27. Even out of setting there was something about the man that was recognisable."
+     "speaker": "DR",
+     "text": [
+      "If you are a true believer you stand out rather prominently, and that is to your salvation. So if there is any one here, any true believer in a wrong position, going on with wrong things, spring out of it; that is what it says about Dan, \"He shall spring forth from Bashan\", Deut 33: 22. That is the only way to get out of a wrong position. There is no time; we do not need time to do it - get out of it; it is dangerous to remain in a wrong position. So if adjustment is required spring out of it; the Lord will give power, and the Spirit too will give grace."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "If you are a true believer you stand out rather prominently, and that is to your salvation. So if there is any one here, any true believer in a wrong position, going on with wrong things, spring out of it; that is what it says about Dan, \"He shall spring forth from Bashan\", Deut 33: 22. That is the only way to get out of a wrong position. There is no time; we do not need time to do it - get out of it; it is dangerous to remain in a wrong position. So if adjustment is required spring out of it; the Lord will give power, and the Spirit too will give grace."
+     "speaker": "FCM",
+     "text": [
+      "It is very remarkable, is it not, how the Lord speaks. \"I have been born for this, and for this I have come into the world\" v 37. That must be unique, but do you think we each should have a sense of the purpose for which we have been divinely taken up; one supreme purpose is that we should be here in relation to the truth and its expression."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "It is very remarkable, is it not, how the Lord speaks. \"I have been born for this, and for this I have come into the world\" v 37. That must be unique, but do you think we each should have a sense of the purpose for which we have been divinely taken up; one supreme purpose is that we should be here in relation to the truth and its expression."
+     "speaker": "DR",
+     "text": [
+      "Do you think it would link with the thought of being wisdom's children. So we make our calling and election sure. We have no part in our calling and no part in our election, but John rejoices in seeing them walking in truth, that character of walk. Our very walk should justify God's choice of us, do you not think?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Do you think it would link with the thought of being wisdom's children. So we make our calling and election sure. We have no part in our calling and no part in our election, but John rejoices in seeing them walking in truth, that character of walk. Our very walk should justify God's choice of us, do you not think?"
+     "speaker": "FCM",
+     "text": [
+      "Yes, so that wisdom is justified of all her children; we should not discredit the truth or the wisdom that has taken us up."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Yes, so that wisdom is justified of all her children; we should not discredit the truth or the wisdom that has taken us up."
+     "speaker": "DR",
+     "text": [
+      "And our whole lives should be filled out in the thankfulness that God has taken us up. How thankful we ought to be that we are here today. We hold on to little parts of self importance and little parts of other things that mark us all, that we could well do without, but we need to be thankful that God has taken us up. I often think that the counterpart of mercy is thankfulness: the counterpart of grace is a subdued state in the believer. Grace does not excite you, grace subdues you. But I think the counterpart of mercy is thankfulness."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "And our whole lives should be filled out in the thankfulness that God has taken us up. How thankful we ought to be that we are here today. We hold on to little parts of self importance and little parts of other things that mark us all, that we could well do without, but we need to be thankful that God has taken us up. I often think that the counterpart of mercy is thankfulness: the counterpart of grace is a subdued state in the believer. Grace does not excite you, grace subdues you. But I think the counterpart of mercy is thankfulness."
+     "speaker": "ECB",
+     "text": [
+      "Does that part of verse 37 go with what Mr McKay said just now, that something new has come in in Christianity? It is almost as if Jesus is saying, it was necessary, the other dispensations having passed, that One should come in who could bear witness to the truth, and set it on."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does that part of verse 37 go with what Mr McKay said just now, that something new has come in in Christianity? It is almost as if Jesus is saying, it was necessary, the other dispensations having passed, that One should come in who could bear witness to the truth, and set it on."
+     "speaker": "DR",
+     "text": [
+      "It was an absolute necessity."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "It was an absolute necessity."
+     "speaker": "ECB",
+     "text": [
+      "I thought what was said was interesting and helps us in regard to what you said earlier, that we can easily take up what we speak of as the truth in a legal way; but it has come into a period that is marked by a new character of things altogether."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I thought what was said was interesting and helps us in regard to what you said earlier, that we can easily take up what we speak of as the truth in a legal way; but it has come into a period that is marked by a new character of things altogether."
+     "speaker": "DR",
+     "text": [
+      "Totally. I think the revelation of God required a Man. What I understand from Mr Raven's teaching is that there was no real revelation of God in the Old Testament. I think I can understand that. Although God was known in certain ways, the revelation of God, I think, required One who was adequate to reveal Him, not only because He was God but because He was Man, and because there was not only the power and the ability to express the thing, but we might say the whole holy consistency with the thing in His Person."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Totally. I think the revelation of God required a Man. What I understand from Mr Raven's teaching is that there was no real revelation of God in the Old Testament. I think I can understand that. Although God was known in certain ways, the revelation of God, I think, required One who was adequate to reveal Him, not only because He was God but because He was Man, and because there was not only the power and the ability to express the thing, but we might say the whole holy consistency with the thing in His Person."
+     "speaker": "ECB",
+     "text": [
+      "It bears a bit on what Mr Evershed asked you to say more about, that the last Adam has brought in something, especially over against that in which the first Adam completely failed."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It bears a bit on what Mr Evershed asked you to say more about, that the last Adam has brought in something, especially over against that in which the first Adam completely failed."
+     "speaker": "DR",
+     "text": [
+      "Absolutely, and therefore it is worthwhile going in for; and it is worthwhile the Christian surrendering for it what may be of seeming value to himself, to get it, do you not think?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Absolutely, and therefore it is worthwhile going in for; and it is worthwhile the Christian surrendering for it what may be of seeming value to himself, to get it, do you not think?"
+     "speaker": "ECB",
+     "text": [
+      "I do. I think what you are bringing before us is of the greatest importance to us all, because one of the easiest things for us is, for instance, to learn ministry by heart and think we hold the truth; but the truth is not held unless persons are formed by it."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I do. I think what you are bringing before us is of the greatest importance to us all, because one of the easiest things for us is, for instance, to learn ministry by heart and think we hold the truth; but the truth is not held unless persons are formed by it."
+     "speaker": "DR",
+     "text": [
+      "What are you going to do in old age when you begin to get forgetful if you have merely learned the thing by heart; what are you going to do when your mind begins to go? Have you never wondered? Often in the last days of an old believer when the faculties have gone, out of the soul comes truth which obviously had not been committed to memory, but was written in the heart by the Spirit. Now that is the kind of thing we want to go in for."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "What are you going to do in old age when you begin to get forgetful if you have merely learned the thing by heart; what are you going to do when your mind begins to go? Have you never wondered? Often in the last days of an old believer when the faculties have gone, out of the soul comes truth which obviously had not been committed to memory, but was written in the heart by the Spirit. Now that is the kind of thing we want to go in for."
+     "speaker": "ECB",
+     "text": [
+      "We want it before our death-beds."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "We want it before our death-beds."
+     "speaker": "DR",
+     "text": [
+      "Absolutely - it must be there to be there."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Absolutely - it must be there to be there."
+     "speaker": "EP",
+     "text": [
+      "We need help to really make a move so that we can get the gain of what you are saying. Even in regard to the Bible, the Scriptures, the Lord said to those Pharisees, \"Ye search the scriptures\" (John 5: 39), and they do speak of Me, but the problem and the difficulty with them was, that they would not come to Him. Does not that bear on what you are saying about old age? If we are habitually coming to Him we know the Person; we may forget bits of the Bible."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "We need help to really make a move so that we can get the gain of what you are saying. Even in regard to the Bible, the Scriptures, the Lord said to those Pharisees, \"Ye search the scriptures\" (John 5: 39), and they do speak of Me, but the problem and the difficulty with them was, that they would not come to Him. Does not that bear on what you are saying about old age? If we are habitually coming to Him we know the Person; we may forget bits of the Bible."
+     "speaker": "DR",
+     "text": [
+      "That is right; we have Him. John turned to see the voice; what an impressive thing! What an impressive thing in ministry when Christ comes before us all! Other things have to go; if you want Him you have to let them go. You cannot have Christ and something else. There is no such thing in Christianity as the ministry of as well as, it is instead of. That is what Isaiah the evangelist in the Old Testament said, \"Instead of the thorn shall come up the cypress, and instead of the nettle shall come up the myrtle.\" (lsa.55: 13). You cannot have Christ as well as something else, you cannot have Christ and the world, you cannot have Christ and your own will; but you can have Christ instead of these other matters . Do you not think so?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "That is right; we have Him. John turned to see the voice; what an impressive thing! What an impressive thing in ministry when Christ comes before us all! Other things have to go; if you want Him you have to let them go. You cannot have Christ and something else. There is no such thing in Christianity as the ministry of as well as, it is instead of. That is what Isaiah the evangelist in the Old Testament said, \"Instead of the thorn shall come up the cypress, and instead of the nettle shall come up the myrtle.\" (lsa.55: 13). You cannot have Christ as well as something else, you cannot have Christ and the world, you cannot have Christ and your own will; but you can have Christ instead of these other matters . Do you not think so?"
+     "speaker": "EP",
+     "text": [
+      "Yes, it is really like a total eclipse, is it not?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, it is really like a total eclipse, is it not?"
+     "speaker": "DR",
+     "text": [
+      "It is, and as I say, the search becomes welcome and adjustment becomes welcome; it is well worthwhile."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "It is, and as I say, the search becomes welcome and adjustment becomes welcome; it is well worthwhile."
+     "speaker": "RT",
+     "text": [
+      "You cannot divorce the truth and the voice, can you? The voice has a formative effect as well, does it not?"
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "You cannot divorce the truth and the voice, can you? The voice has a formative effect as well, does it not?"
+     "speaker": "DR",
+     "text": [
+      "I wondered that. What do you think about it?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I wondered that. What do you think about it?"
+     "speaker": "RT",
+     "text": [
+      "It was said after His resurrection, All the time in which the Lord Jesus came in and went out among us (see Acts 1: 21). There was the truth but there was a voice there, was there not? And, Remember the words of the Lord Jesus that He Himself said (see Acts 20: 35). The voice had a certain formative effect that remained with them."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "It was said after His resurrection, All the time in which the Lord Jesus came in and went out among us (see Acts 1: 21). There was the truth but there was a voice there, was there not? And, Remember the words of the Lord Jesus that He Himself said (see Acts 20: 35). The voice had a certain formative effect that remained with them."
+     "speaker": "DR",
+     "text": [
+      "Yes. We were speaking of that ministry last night in your home - truth learned in the company of Christ. It is really the only way to learn the truth. If we have not learned the truth in the company of Christ we will need to re-learn the truth, because we have not got it rightly."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes. We were speaking of that ministry last night in your home - truth learned in the company of Christ. It is really the only way to learn the truth. If we have not learned the truth in the company of Christ we will need to re-learn the truth, because we have not got it rightly."
+     "speaker": "JM",
+     "text": [
+      "What would you say as to the presence of the Spirit? I think we mark the necessity of Christ coming into manhood in order that the truth be expressed, but is there not a divine necessity of the Spirit being here in this dispensation, so that all that was in Him is made good in the saints?"
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "What would you say as to the presence of the Spirit? I think we mark the necessity of Christ coming into manhood in order that the truth be expressed, but is there not a divine necessity of the Spirit being here in this dispensation, so that all that was in Him is made good in the saints?"
+     "speaker": "DR",
+     "text": [
+      "Well, He also is the truth."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Well, He also is the truth."
+     "speaker": "JM",
+     "text": [
+      "And the things, as you have just referred to them, the disciples heard and saw, and the meaning of them, the real application of them, did not come into the souls until the Spirit came."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "And the things, as you have just referred to them, the disciples heard and saw, and the meaning of them, the real application of them, did not come into the souls until the Spirit came."
+     "speaker": "DR",
+     "text": [
+      "The Spirit is the truth, and He would be that, I think, subjectively, as we have been taught. But do you not think, just to be very simple, that God intends us not to be uneasy in the presence of the truth. Why should we be uneasy? If there is something in my history, or something in my soul, something even upon my conscience, that makes me uneasy in the presence of the truth, do you not think the Spirit would help us to get clear of that? That would be one of the great services of the Holy Spirit that He might bring about a condition in my soul where I can be easy in the presence of the truth, and where I can enjoy the presence of the truth. Do you think so?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "The Spirit is the truth, and He would be that, I think, subjectively, as we have been taught. But do you not think, just to be very simple, that God intends us not to be uneasy in the presence of the truth. Why should we be uneasy? If there is something in my history, or something in my soul, something even upon my conscience, that makes me uneasy in the presence of the truth, do you not think the Spirit would help us to get clear of that? That would be one of the great services of the Holy Spirit that He might bring about a condition in my soul where I can be easy in the presence of the truth, and where I can enjoy the presence of the truth. Do you think so?"
+     "speaker": "JM",
+     "text": [
+      "I was impressed with your reference to Dan springing out of Bashan because we had that last week; if you get something twice there is some point in it, is there not, and that would be energy in the Spirit to spring out of a false position."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "I was impressed with your reference to Dan springing out of Bashan because we had that last week; if you get something twice there is some point in it, is there not, and that would be energy in the Spirit to spring out of a false position."
+     "speaker": "DR",
+     "text": [
+      "Absolutely; and that can overtake any one of us because of the surrounding conditions, and because of what we are too, humanly, I think there is a constant need to clear ourselves from wrong thoughts and wrong positions."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Absolutely; and that can overtake any one of us because of the surrounding conditions, and because of what we are too, humanly, I think there is a constant need to clear ourselves from wrong thoughts and wrong positions."
+     "speaker": "DAB",
+     "text": [
+      "Paul speaks of what the Lord says here as a good confession; it was made immediately to an unregenerate man. I was thinking of the grace of it, but Jesus says to him \"Dost thou say this of thyself\", and Pilate was exposed as morally empty; he has nothing of himself at all."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Paul speaks of what the Lord says here as a good confession; it was made immediately to an unregenerate man. I was thinking of the grace of it, but Jesus says to him \"Dost thou say this of thyself\", and Pilate was exposed as morally empty; he has nothing of himself at all."
+     "speaker": "DR",
+     "text": [
+      "That is a good reference in 1 Timothy 6: 13,14. It says \"Christ Jesus\" showing that it was a heavenly man in testimony. It is the new thing here; it is not the earthly witness, but it is the witness of the greatest things involving the heavenly Man in testimony."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "That is a good reference in 1 Timothy 6: 13,14. It says \"Christ Jesus\" showing that it was a heavenly man in testimony. It is the new thing here; it is not the earthly witness, but it is the witness of the greatest things involving the heavenly Man in testimony."
+     "speaker": "DAB",
+     "text": [
+      "I was thinking that when you were referring to the last Adam, because Pilate, in spite of his official position, really represents fallen man, does he not, and he is exposed to be empty, and then the Lord brings out that what He has belongs somewhere else and in fact came from somewhere else."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I was thinking that when you were referring to the last Adam, because Pilate, in spite of his official position, really represents fallen man, does he not, and he is exposed to be empty, and then the Lord brings out that what He has belongs somewhere else and in fact came from somewhere else."
+     "speaker": "DR",
+     "text": [
+      "So we are really in the days of the good confession, and we form part of it through wonderful divine grace, and therefore the necessity of being exercised to be completely consistent with it."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "So we are really in the days of the good confession, and we form part of it through wonderful divine grace, and therefore the necessity of being exercised to be completely consistent with it."
+     "speaker": "WJRB",
+     "text": [
+      "What a statement at the end of the first epistle \"We know that we are of God and the whole world lies in the wicked one' (1 John 5: 19). It is a positive statement."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "What a statement at the end of the first epistle \"We know that we are of God and the whole world lies in the wicked one' (1 John 5: 19). It is a positive statement."
+     "speaker": "DR",
+     "text": [
+      "That would be a very real consciousness - \"We know that we are of God\"."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "That would be a very real consciousness - \"We know that we are of God\"."
+     "speaker": "IMS",
+     "text": [
+      "When do we receive the love of the truth?"
+     ]
     },
     {
-     "speaker": "I.M.S.",
-     "text": "When do we receive the love of the truth?"
+     "speaker": "DR",
+     "text": [
+      "That is a good question, but you need to answer it yourself."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "That is a good question, but you need to answer it yourself."
+     "speaker": "IMS",
+     "text": [
+      "I was wondering if we need to see that the richness of the glad tidings would have us begin there at the very beginning - and we would think of our beloved younger brethren - to embrace the truth in its richest extent from the very beginning, man in his lost estate is a total contradiction to all that is of God, and we would be restored initially and constantly to what is consistent in Christ."
+     ]
     },
     {
-     "speaker": "I.M.S.",
-     "text": "I was wondering if we need to see that the richness of the glad tidings would have us begin there at the very beginning - and we would think of our beloved younger brethren - to embrace the truth in its richest extent from the very beginning, man in his lost estate is a total contradiction to all that is of God, and we would be restored initially and constantly to what is consistent in Christ."
+     "speaker": "DR",
+     "text": [
+      "Absolutely. I think the receiving of the love of the truth begins in our early experiences. It grows with us, I think - it must - and the proof of it becomes evident in our lives, that we are persons who have received the love of the truth and we have power to hold the truth in love. In Thessalonians it speaks about those who have not received the love of the truth, which is a very sobering matter. But I think what you say is very fine, that in a young believer's history there is that element of God; it must be so if they are born again. There is an element that is of God there, and that provides capacity to receive the love of the truth. Is that what you thought?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Absolutely. I think the receiving of the love of the truth begins in our early experiences. It grows with us, I think - it must - and the proof of it becomes evident in our lives, that we are persons who have received the love of the truth and we have power to hold the truth in love. In Thessalonians it speaks about those who have not received the love of the truth, which is a very sobering matter. But I think what you say is very fine, that in a young believer's history there is that element of God; it must be so if they are born again. There is an element that is of God there, and that provides capacity to receive the love of the truth. Is that what you thought?"
+     "speaker": "IMS",
+     "text": [
+      "Yes. I am sure that is the side on which we need to encourage them, that they have the capacity to proceed in the richest thoughts of God as presented in the glad tidings, and we on our part need to remind ourselves of that work on that line."
+     ]
     },
     {
-     "speaker": "I.M.S.",
-     "text": "Yes. I am sure that is the side on which we need to encourage them, that they have the capacity to proceed in the richest thoughts of God as presented in the glad tidings, and we on our part need to remind ourselves of that work on that line."
+     "speaker": "DR",
+     "text": [
+      "Yes, I think so, and make it attractive in yourself, because I think the more you receive on that line - the love of the truth - the richer the thing gets, and the more worthwhile it becomes."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes, I think so, and make it attractive in yourself, because I think the more you receive on that line - the love of the truth - the richer the thing gets, and the more worthwhile it becomes."
+     "speaker": "MAJT",
+     "text": [
+      "It is wonderful to hear God's voice. Little Samuel heard God's voice; Eli could not understand it at first, but little Samuel heard God's voice."
+     ]
     },
     {
-     "speaker": "M.A.J.T.",
-     "text": "It is wonderful to hear God's voice. Little Samuel heard God's voice; Eli could not understand it at first, but little Samuel heard God's voice."
+     "speaker": "DR",
+     "text": [
+      "I am glad you say that, because there is no other power that can change us and we need change; those of us who are older need change as well as the younger people. We need it constantly, and the power to change us lies in \"hearing my voice\". That is the power for change, not in a legal imposition, but the power of the manifestation of Christ, I think, in His word."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I am glad you say that, because there is no other power that can change us and we need change; those of us who are older need change as well as the younger people. We need it constantly, and the power to change us lies in \"hearing my voice\". That is the power for change, not in a legal imposition, but the power of the manifestation of Christ, I think, in His word."
+     "speaker": "FCM",
+     "text": [
+      "Paul says to the Colossians, \"ye heard before in the word of the truth of the glad tidings, which are come to you ... and are bearing fruit and growing ... from the day ye heard them\" (chap 1: 5,6). What a fine thing if that early growth can come into evidence and proceed as the fruit of the gospel."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Paul says to the Colossians, \"ye heard before in the word of the truth of the glad tidings, which are come to you ... and are bearing fruit and growing ... from the day ye heard them\" (chap 1: 5,6). What a fine thing if that early growth can come into evidence and proceed as the fruit of the gospel."
+     "speaker": "DR",
+     "text": [
+      "Absolutely, and later on in the epistle he says, \"Let the word of the Christ dwell in you richly\" (chap 3: 16); no impoverishment with it! Why should our souls get withered up? Why should we be in a shrivelled-up state spiritually - \"Let the word of the Christ dwell in you richly\": so that he that is of the truth hears My voice."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Absolutely, and later on in the epistle he says, \"Let the word of the Christ dwell in you richly\" (chap 3: 16); no impoverishment with it! Why should our souls get withered up? Why should we be in a shrivelled-up state spiritually - \"Let the word of the Christ dwell in you richly\": so that he that is of the truth hears My voice."
+     "speaker": "FGM",
+     "text": [
+      "Does what you are saying lead to worship? I was thinking of the Father seeking worshippers, those who worship in spirit and in truth."
+     ]
     },
     {
-     "speaker": "F.G.M.",
-     "text": "Does what you are saying lead to worship? I was thinking of the Father seeking worshippers, those who worship in spirit and in truth."
+     "speaker": "DR",
+     "text": [
+      "\"Such\" it says. 'Such' - I think that would be persons of this character. The writer is pointing to persons of a particular character, such persons. Persons who have been affected in this way are, I think, the worshippers."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "\"Such\" it says. 'Such' - I think that would be persons of this character. The writer is pointing to persons of a particular character, such persons. Persons who have been affected in this way are, I think, the worshippers."
+     "speaker": "ECB",
+     "text": [
+      "Is the salvation in the verse referred to in Thessalonians, what we speak of as practical salvation, not so much eternal salvation? - \"not received the love of the truth that they might be saved\" 2 Thess 2: 10. Is the love of the truth what keeps us in salvation?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is the salvation in the verse referred to in Thessalonians, what we speak of as practical salvation, not so much eternal salvation? - \"not received the love of the truth that they might be saved\" 2 Thess 2: 10. Is the love of the truth what keeps us in salvation?"
+     "speaker": "DR",
+     "text": [
+      "I think it does. You know Mr Taylor's illustration of the thing; it is like a rich seam. I know a little about mining. Sometimes you get into a seam and it becomes poor or as you work it: it becomes smaller and full of intrusions. These deprive the mineral of its value. But salvation is not like that; the more you work it the richer it becomes. So it says, \"work out your own salvation\" (Phil 2: 12) - work it out. It is for every one of us, \"work out your own salvation\", and the more you work that seam the richer it becomes, and the more liberty of soul you come into, and the more joy in the truth you come into as you work at it. I think it is a fine illustration."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think it does. You know Mr Taylor's illustration of the thing; it is like a rich seam. I know a little about mining. Sometimes you get into a seam and it becomes poor or as you work it: it becomes smaller and full of intrusions. These deprive the mineral of its value. But salvation is not like that; the more you work it the richer it becomes. So it says, \"work out your own salvation\" (Phil 2: 12) - work it out. It is for every one of us, \"work out your own salvation\", and the more you work that seam the richer it becomes, and the more liberty of soul you come into, and the more joy in the truth you come into as you work at it. I think it is a fine illustration."
+     "speaker": "ECB",
+     "text": [
+      "It is practically the case that if we are marked by love of the truth we shall be saved in many circumstances which might otherwise overwhelm us, because the father of lies will do his best to get us."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It is practically the case that if we are marked by love of the truth we shall be saved in many circumstances which might otherwise overwhelm us, because the father of lies will do his best to get us."
+     "speaker": "DR",
+     "text": [
+      "I thought about that: the Lord speaks about it, he lies from the beginning, the truth is not in him - how solemn!",
+      "Perhaps we should go on to the epistle. John writes as the elder, one who would be well formed; not exactly well versed but well formed in what he had to say, and then he speaks of this sister as the elected lady. I thought that would show how the truth and its formation brings about ennoblement. Then this remarkable verse which impresses me, giving the effect, as was said, of the truth in the saints. This verse gives it an eternal value, showing that what is secured in the saints substantially as being of the truth has eternal value. I thought the maternal side in the local assembly in that way is very important protectively, and if need be as standing for the truth. Sisters sometimes have to do that, stand for the truth; sometimes there is not a man who will stand for the truth, so a sister stands for the truth."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I thought about that: the Lord speaks about it, he lies from the beginning, the truth is not in him - how solemn!"
+     "speaker": "FCM",
+     "text": [
+      "This elect lady, as you say, was motherly and had children; she had become effective in formation in another generation."
+     ]
     },
     {
-     "text": "Perhaps we should go on to the epistle. John writes as the elder, one who would be well formed; not exactly well versed but well formed in what he had to say, and then he speaks of this sister as the elected lady. I thought that would show how the truth and its formation brings about ennoblement. Then this remarkable verse which impresses me, giving the effect, as was said, of the truth in the saints. This verse gives it an eternal value, showing that what is secured in the saints substantially as being of the truth has eternal value. I thought the maternal side in the local assembly in that way is very important protectively, and if need be as standing for the truth. Sisters sometimes have to do that, stand for the truth; sometimes there is not a man who will stand for the truth, so a sister stands for the truth."
+     "speaker": "DR",
+     "text": [
+      "I wondered if the overcomer spoken of in each of the addresses to the seven assemblies was the product of what is motherly."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "This elect lady, as you say, was motherly and had children; she had become effective in formation in another generation."
+     "speaker": "FCM",
+     "text": [
+      "In the sense of Jerusalem above, which is our mother, they were patterned after that."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I wondered if the overcomer spoken of in each of the addresses to the seven assemblies was the product of what is motherly."
+     "speaker": "DR",
+     "text": [
+      "Yes; I wondered that, and they had taken on a definite character. So it is fine to see that in believers, in young and old, that a certain character has been taken on, a certain substantiality which I think, in one way, (one speaks carefully) is limited to those who value assembly truth, and who have the privilege of having part in it and its formation."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "In the sense of Jerusalem above, which is our mother, they were patterned after that."
+     "speaker": "CCI",
+     "text": [
+      "It speaks of the assembly as the pillar and base of the truth; what do you understand by that impression?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes; I wondered that, and they had taken on a definite character. So it is fine to see that in believers, in young and old, that a certain character has been taken on, a certain substantiality which I think, in one way, (one speaks carefully) is limited to those who value assembly truth, and who have the privilege of having part in it and its formation."
+     "speaker": "DR",
+     "text": [
+      "Well, what do you say?"
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "It speaks of the assembly as the pillar and base of the truth; what do you understand by that impression?"
+     "speaker": "CCI",
+     "text": [
+      "Well, it is good to be in the circle where the power of the Spirit is realised in particular temple enquiry. We would have very great respect as the truth is worked out in the assembly setting, not just in doctrine but an enquiry in the temple."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Well, what do you say?"
+     "speaker": "DR",
+     "text": [
+      "I think it would preserve us from casualness. I think the family involves warmth, but that the temple involves carefulness. We need to be exercised not to be casual in the presence of the truth and in the circle where truth is being stated and where the voice of Christ can be heard. We need to be exercised to benefit from it and to acquire substance from it, do you not think?"
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Well, it is good to be in the circle where the power of the Spirit is realised in particular temple enquiry. We would have very great respect as the truth is worked out in the assembly setting, not just in doctrine but an enquiry in the temple."
+     "speaker": "CCI",
+     "text": [
+      "So every word, even a comma or dash as Scripture presents it, is significant to the spiritual mind."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think it would preserve us from casualness. I think the family involves warmth, but that the temple involves carefulness. We need to be exercised not to be casual in the presence of the truth and in the circle where truth is being stated and where the voice of Christ can be heard. We need to be exercised to benefit from it and to acquire substance from it, do you not think?"
+     "speaker": "DR",
+     "text": [
+      "Yes. So it is not just some kind of interesting debate we have, but the Holy Spirit is present, the Spirit of God, and the voice of Christ, as I said, can be heard; therefore I think we need to be quite deliberately placed to get the benefit of that, not in any casual way at all."
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "So every word, even a comma or dash as Scripture presents it, is significant to the spiritual mind."
+     "speaker": "EMW",
+     "text": [
+      "And the result of that would be \"walking in truth\". Walking in truth would be the character of the person, would it not?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes. So it is not just some kind of interesting debate we have, but the Holy Spirit is present, the Spirit of God, and the voice of Christ, as I said, can be heard; therefore I think we need to be quite deliberately placed to get the benefit of that, not in any casual way at all."
+     "speaker": "DR",
+     "text": [
+      "I wondered that. What more would you say about it?"
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "And the result of that would be \"walking in truth\". Walking in truth would be the character of the person, would it not?"
+     "speaker": "EMW",
+     "text": [
+      "I only notice that the article is not included there \"I rejoice greatly that I have found of thy children walking in truth\". I wondered if it would confirm what was said earlier, that the truth had had its effect on these children, and characterised them in their walk."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I wondered that. What more would you say about it?"
+     "speaker": "DR",
+     "text": [
+      "So John found it. You cannot find something that is not substantial; you do not find a theory really, do you, but they found this. It was a substantial thing that John could find and rejoice in that persons were motivated by truth in their walk."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I only notice that the article is not included there \"I rejoice greatly that I have found of thy children walking in truth\". I wondered if it would confirm what was said earlier, that the truth had had its effect on these children, and characterised them in their walk."
+     "speaker": "EMW",
+     "text": [
+      "So we might ask, What would he find if he walked in among us. I think we should be tested if John or Paul or Peter walked in, as well as measured."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "So John found it. You cannot find something that is not substantial; you do not find a theory really, do you, but they found this. It was a substantial thing that John could find and rejoice in that persons were motivated by truth in their walk."
+     "speaker": "DR",
+     "text": [
+      "John says, If I come; and he says in the next verse, there is a man there that is not doing what is right, but he says, I will deal with him when I come. Think of John coming! He was an elder but he was also an apostle, he had authority; but then he was the elder, he was formed in the truth. Think of the difference it would have made if John came."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "So we might ask, What would he find if he walked in among us. I think we should be tested if John or Paul or Peter walked in, as well as measured."
+     "speaker": "EMW",
+     "text": [
+      "I think that is very sobering, because Paul speaks in a similar way, does he not, of coming?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "John says, If I come; and he says in the next verse, there is a man there that is not doing what is right, but he says, I will deal with him when I come. Think of John coming! He was an elder but he was also an apostle, he had authority; but then he was the elder, he was formed in the truth. Think of the difference it would have made if John came."
+     "speaker": "DR",
+     "text": [
+      "He does."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I think that is very sobering, because Paul speaks in a similar way, does he not, of coming?"
+     "speaker": "EMW",
+     "text": [
+      "So that the Lord would come in in some way like that, would He not? Should we not wait upon Him in connection with difficult conditions which may exist?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "He does."
+     "speaker": "DR",
+     "text": [
+      "I feel that; it is really the only solution to these matters, that the Lord might come into them, and that we might be exercised to make way for the effect of His coming in, and welcome the adjustment and the change that He would bring about. Certain conditions go on far too long, simply I think because we shut the Lord out, and we shut Him out rather effectively at times because of what is in our own minds. But I think \"he that is of the truth hears My voice\", not merely My words, but My voice. I think it involves a manifestation of Christ Himself in some way into these matters."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "So that the Lord would come in in some way like that, would He not? Should we not wait upon Him in connection with difficult conditions which may exist?"
+     "speaker": "EMW",
+     "text": [
+      "I am sure that is right because two voices might say precisely the same thing, but we have to distinguish by the Spirit the Lord's voice. Do you think that if each of us were more formed in the characteristics of Paul and John, which would be in the truth, we would be more effective in the way in which we served the brethren?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I feel that; it is really the only solution to these matters, that the Lord might come into them, and that we might be exercised to make way for the effect of His coming in, and welcome the adjustment and the change that He would bring about. Certain conditions go on far too long, simply I think because we shut the Lord out, and we shut Him out rather effectively at times because of what is in our own minds. But I think \"he that is of the truth hears My voice\", not merely My words, but My voice. I think it involves a manifestation of Christ Himself in some way into these matters."
+     "speaker": "DR",
+     "text": [
+      "I think that is most wholesome, and I think also that we need to be exercised to serve in intimacy with Christ. I have referred once or twice of late to that ministry of Mr Taylor - \"Nearness to Christ and Public Service\". I think we need to be exercised those of us who do any measure of service a all, that we can only serve effectively as we are intimate with Christ."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I am sure that is right because two voices might say precisely the same thing, but we have to distinguish by the Spirit the Lord's voice. Do you think that if each of us were more formed in the characteristics of Paul and John, which would be in the truth, we would be more effective in the way in which we served the brethren?"
+     "speaker": "EMW",
+     "text": [
+      ". Mr Darby says, 'I fear much activity without much communion'."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I think that is most wholesome, and I think also that we need to be exercised to serve in intimacy with Christ. I have referred once or twice of late to that ministry of Mr Taylor - \"Nearness to Christ and Public Service\". I think we need to be exercised those of us who do any measure of service a all, that we can only serve effectively as we are intimate with Christ."
+     "speaker": "DR",
+     "text": [
+      "Just so. I think communion is a derivative thing, if you understand what I mean by that. I think that a person who is in communion really gets something, and it becomes obvious in your service to the brethren that you have something. What have we to present? It is not a question of words now, but what have we to present? Have we the ministry to present? Have we such ministry that will suggest Christ to present? What have we? You have to have the thing, and I think it is gained in communion with divine Persons."
+     ]
     },
     {
-     "speaker": "E.M.W",
-     "text": ". Mr Darby says, 'I fear much activity without much communion'."
+     "speaker": "EFW",
+     "text": [
+      "I think the Spirit is unfolding what I was going to ask; When does the Lord speak? I think the references to communion perhaps bear on it, but what would you say about when does the Lord speak?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Just so. I think communion is a derivative thing, if you understand what I mean by that. I think that a person who is in communion really gets something, and it becomes obvious in your service to the brethren that you have something. What have we to present? It is not a question of words now, but what have we to present? Have we the ministry to present? Have we such ministry that will suggest Christ to present? What have we? You have to have the thing, and I think it is gained in communion with divine Persons."
+     "speaker": "DR",
+     "text": [
+      "I have often felt that the Lord blesses our conversations together - undoubtedly He blesses them, and that is especially so where the spirits of the saints are right, where there is a good spirit - but what one has noted is that there generally comes a point in such an occasion when you can say that is the Lord, it is the Lord. You could not define that humanly, but I think a quietness comes upon your spirit and a sobriety possibly also in your spirit; you are solemnised by it and yet there is joy in your heart that the Lord Himself has spoken. That is what we wait for - the Lord Himself has spoken. Do you think?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "I think the Spirit is unfolding what I was going to ask; When does the Lord speak? I think the references to communion perhaps bear on it, but what would you say about when does the Lord speak?"
+     "speaker": "EFW",
+     "text": [
+      "Yes, there would be something very distinctive about that, would there?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "I have often felt that the Lord blesses our conversations together - undoubtedly He blesses them, and that is especially so where the spirits of the saints are right, where there is a good spirit - but what one has noted is that there generally comes a point in such an occasion when you can say that is the Lord, it is the Lord. You could not define that humanly, but I think a quietness comes upon your spirit and a sobriety possibly also in your spirit; you are solemnised by it and yet there is joy in your heart that the Lord Himself has spoken. That is what we wait for - the Lord Himself has spoken. Do you think?"
+     "speaker": "DR",
+     "text": [
+      "Yes, something that He intends to leave deeply impressed upon our hearts, and something that we should be very exercised not to lose. So think of the Lord speaking to us here today, and any one of us not being aware of it, any one of us not being affected by it. Do you not think it would have a remarkable effect upon us?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes, there would be something very distinctive about that, would there?"
+     "speaker": "ECB",
+     "text": [
+      "\"My Beloved spoke and said to me\". If as you say communion is derivative it must be very closely related to our knowledge of the Lord's headship."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes, something that He intends to leave deeply impressed upon our hearts, and something that we should be very exercised not to lose. So think of the Lord speaking to us here today, and any one of us not being aware of it, any one of us not being affected by it. Do you not think it would have a remarkable effect upon us?"
+     "speaker": "DR",
+     "text": [
+      "Yes, I think it is."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "\"My Beloved spoke and said to me\". If as you say communion is derivative it must be very closely related to our knowledge of the Lord's headship."
+     "speaker": "ECB",
+     "text": [
+      "We are a bit accustomed to thinking of communion as intimate interchange between two persons and that is implied; but if, as you say, it is derivative too, it suggests to me that it tests our practical experience, even individually, of the Lord's headship."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes, I think it is."
+     "speaker": "DR",
+     "text": [
+      "And what would come from Him, what would come definitely and distinctively of Himself."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "We are a bit accustomed to thinking of communion as intimate interchange between two persons and that is implied; but if, as you say, it is derivative too, it suggests to me that it tests our practical experience, even individually, of the Lord's headship."
+     "speaker": "RT",
+     "text": [
+      "The derivative is very much emphasised in verse 3, is it not - \"from God the Father, and from the Lord Jesus Christ, the Son of the Father\"."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "And what would come from Him, what would come definitely and distinctively of Himself."
+     "speaker": "DR",
+     "text": [
+      "That is fine, say a little more about it."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "The derivative is very much emphasised in verse 3, is it not - \"from God the Father, and from the Lord Jesus Christ, the Son of the Father\"."
+     "speaker": "RT",
+     "text": [
+      "I was thinking of grace, mercy, peace. Where can you get them? You get them from God the Father, and from the Lord Jesus Christ, the Son of the Father. I was thinking of what you said as to the need for respect and yet liberty. I thought it was very full in the early references to Christ as the Son of the Father, and yet He is the source of all these things that are in John."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "That is fine, say a little more about it."
+     "speaker": "DR",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "I was thinking of grace, mercy, peace. Where can you get them? You get them from God the Father, and from the Lord Jesus Christ, the Son of the Father. I was thinking of what you said as to the need for respect and yet liberty. I thought it was very full in the early references to Christ as the Son of the Father, and yet He is the source of all these things that are in John."
+     "speaker": "CGH",
+     "text": [
+      "The Son of the Father's love."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes."
+     "speaker": "DR",
+     "text": [
+      "Just so. Do you not think it is a very wonderful thing that divine Persons have retained this right, you might say the right of love, to speak to us? If you go back to the time of Israel, they had statutes and commandments - and we have commandments as well, Christian commandments, and it is to our loss if we disobey them - but as well as statutes and commandments God always retained the right to speak to His people, to address Himself to them. I think that is the reason it says, \"peace from God the Father, and from the Lord Jesus Christ, the Son of the Father, in truth and love\". Do you not think we might have just that little experience at these times, that something is coming in from divine Persons into the occasions?"
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "The Son of the Father's love."
+     "speaker": "RT",
+     "text": [
+      "You get the impression from this verse that He has endeared Himself to us in the way He is speaking to us. He does not just say 'from God' but \"God the Father\" and then \"the Son of the Father\", as if He has endeared Himself to us in the speaking. Is that not what is going to hold us in the truth, that He has endeared Himself to us?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Just so. Do you not think it is a very wonderful thing that divine Persons have retained this right, you might say the right of love, to speak to us? If you go back to the time of Israel, they had statutes and commandments - and we have commandments as well, Christian commandments, and it is to our loss if we disobey them - but as well as statutes and commandments God always retained the right to speak to His people, to address Himself to them. I think that is the reason it says, \"peace from God the Father, and from the Lord Jesus Christ, the Son of the Father, in truth and love\". Do you not think we might have just that little experience at these times, that something is coming in from divine Persons into the occasions?"
+     "speaker": "DR",
+     "text": [
+      "Yes, that is what holds you. I think what holds you is \"my voice\". That is what will hold you in the truth - \"He that is of the truth hears my voice\". That is the power to hold you, the power to retain you."
+     ]
     },
     {
-     "speaker": "R.T.",
-     "text": "You get the impression from this verse that He has endeared Himself to us in the way He is speaking to us. He does not just say 'from God' but \"God the Father\" and then \"the Son of the Father\", as if He has endeared Himself to us in the speaking. Is that not what is going to hold us in the truth, that He has endeared Himself to us?"
+     "speaker": "DJH",
+     "text": [
+      "Does that bear on what you said earlier as to the distinctiveness of the revelation of God in the present time, that it is \"in truth and love\"? Though His nature was ever love, He was not revealed in love in the Old Testament was He? There is peculiar affection lying behind the speaking at the present time."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes, that is what holds you. I think what holds you is \"my voice\". That is what will hold you in the truth - \"He that is of the truth hears my voice\". That is the power to hold you, the power to retain you."
+     "speaker": "DR",
+     "text": [
+      "Yes. It should affect us deeply. As we are just contemplating quietly together, there should be some real depth come into our souls I think, some real feeling. One of the great needs at the moment, I think, is feeling. We can be so insensitive, go on as if there is nothing happened, go on insensitively, but what is needed I think is a sensitive condition, that is conveyed, as was said, in verse 3, a sensitive and holy condition of things."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Does that bear on what you said earlier as to the distinctiveness of the revelation of God in the present time, that it is \"in truth and love\"? Though His nature was ever love, He was not revealed in love in the Old Testament was He? There is peculiar affection lying behind the speaking at the present time."
+     "speaker": "DJH",
+     "text": [
+      "You think of what we have in that well known verse John 3: 16, God so loved that He gave, bearing on these relationships that we have here; that should affect us all always."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Yes. It should affect us deeply. As we are just contemplating quietly together, there should be some real depth come into our souls I think, some real feeling. One of the great needs at the moment, I think, is feeling. We can be so insensitive, go on as if there is nothing happened, go on insensitively, but what is needed I think is a sensitive condition, that is conveyed, as was said, in verse 3, a sensitive and holy condition of things."
+     "speaker": "DR",
+     "text": [
+      "What does the other John 3: 16 say? There are two John 3: 16s. Read it for the brethren."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "You think of what we have in that well known verse John 3: 16, God so loved that He gave, bearing on these relationships that we have here; that should affect us all always."
+     "speaker": "DJH",
+     "text": [
+      "\"Hereby we have known love, because he has laid down his life for us and we ought for the brethren to lay down our lives\" 1 John 3: 16."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "What does the other John 3: 16 say? There are two John 3: 16s. Read it for the brethren."
+     "speaker": "DR",
+     "text": [
+      "Who would want to trouble the brethren in the light of that? Who would want to continue a line of things that burdens the brethren in the light of what we are saying?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "\"Hereby we have known love, because he has laid down his life for us and we ought for the brethren to lay down our lives\" 1 John 3: 16."
+     "speaker": "DJH",
+     "text": [
+      "That would be the answer to the other John 3: 16."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Who would want to trouble the brethren in the light of that? Who would want to continue a line of things that burdens the brethren in the light of what we are saying?"
+     "speaker": "DR",
+     "text": [
+      "Sure, so the truth is always consistent; there is the manifestation of it, the expression of it, but the answer to it, and it is in perfect consistency."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "That would be the answer to the other John 3: 16."
+     "speaker": "JM",
+     "text": [
+      "The adjustment which we spoke about earlier as coming in from the truth would be in love, would it not? It would make it easy for our spirits to accept the adjustment."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Sure, so the truth is always consistent; there is the manifestation of it, the expression of it, but the answer to it, and it is in perfect consistency."
+     "speaker": "DR",
+     "text": [
+      "Absolutely. Well, if the adjustment is sought to be administered in any other way apart from love it is not adjustment, it is just bias; bias has no part in Christianity, it has no part in a brotherly relationship. It says, \"Let\" - \"Let brotherly love abide\", Heb 13: 1. The truth is ministered in love; if any one serves the saints, love must be the basis of that service, and if adjustment is involved in it love certainly must be the basis of it, or there will be no adjustment effected."
+     ]
     },
     {
-     "speaker": "J.M.",
-     "text": "The adjustment which we spoke about earlier as coming in from the truth would be in love, would it not? It would make it easy for our spirits to accept the adjustment."
+     "speaker": "MJW",
+     "text": [
+      "I thought it was important that the minister has part in the chain. We are speaking about what comes from God the Father and His Son; the minister has a very important part in that chain in the supply. I like the sound of John in these epistles; there is something appealing in the way he writes as an elder. That has its own important place in the supply we are speaking about."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "Absolutely. Well, if the adjustment is sought to be administered in any other way apart from love it is not adjustment, it is just bias; bias has no part in Christianity, it has no part in a brotherly relationship. It says, \"Let\" - \"Let brotherly love abide\", Heb 13: 1. The truth is ministered in love; if any one serves the saints, love must be the basis of that service, and if adjustment is involved in it love certainly must be the basis of it, or there will be no adjustment effected."
+     "speaker": "DR",
+     "text": [
+      "That is good, because I think it is a mediate idea, and the minister has part in it, and part in it mediately. Hence the importance of being consistent with what you say, and that is a very real test, so that in some measure you are what you say. Who of us can say very much? But Paul says, \"But by God's grace I am what I am\" 1 Cor 15: 10."
+     ]
     },
     {
-     "speaker": "M.J.W.",
-     "text": "I thought it was important that the minister has part in the chain. We are speaking about what comes from God the Father and His Son; the minister has a very important part in that chain in the supply. I like the sound of John in these epistles; there is something appealing in the way he writes as an elder. That has its own important place in the supply we are speaking about."
+     "speaker": "WJRB",
+     "text": [
+      "Mr J Taylor dwelt at some length in New Zealand on the intimate relations between Abraham and Isaac in Genesis 22. I thought it supported what has been brought before us as to the intimate relations of divine Persons."
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "That is good, because I think it is a mediate idea, and the minister has part in it, and part in it mediately. Hence the importance of being consistent with what you say, and that is a very real test, so that in some measure you are what you say. Who of us can say very much? But Paul says, \"But by God's grace I am what I am\" 1 Cor 15: 10."
+     "speaker": "DR",
+     "text": [
+      "That is all part of the economy into which we have been introduced; it subsists not only as a system of glory but as a system of relationships. Divine Persons have their full part in that and we are brought into that. I thought Gaius was the paternal side of what we are speaking about, the responsible side, and he is equal to it. John says I only wish your health is as good as your soul. What remarkable simplicity in the way that the apostle writes to him. And then Demetrius; one would love to be like him - \"Demetrius has witness borne to him by all, and by the truth itself\" - \"by the truth itself\". That is the very truth bore witness to the man and to his consistency."
+     ]
     },
     {
-     "speaker": "W.J.R.B.",
-     "text": "Mr J Taylor dwelt at some length in New Zealand on the intimate relations between Abraham and Isaac in Genesis 22. I thought it supported what has been brought before us as to the intimate relations of divine Persons."
+     "speaker": "DJH",
+     "text": [
+      "There is a remarkable note to verse 3 \"bore testimony to thy holding fast the truth”; it says, 'to thy truth', is that the same?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "That is all part of the economy into which we have been introduced; it subsists not only as a system of glory but as a system of relationships. Divine Persons have their full part in that and we are brought into that. I thought Gaius was the paternal side of what we are speaking about, the responsible side, and he is equal to it. John says I only wish your health is as good as your soul. What remarkable simplicity in the way that the apostle writes to him. And then Demetrius; one would love to be like him - \"Demetrius has witness borne to him by all, and by the truth itself\" - \"by the truth itself\". That is the very truth bore witness to the man and to his consistency."
+     "speaker": "DR",
+     "text": [
+      "It has become part of the man. So the Lord says about the woman in Luke 7, \"Seest thou this woman?\". He was calling attention to a particular truth; He says, There it is in that woman, look at her. Well, do you know any better way to express the truth than in persons?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "There is a remarkable note to verse 3 \"bore testimony to thy holding fast the truth”; it says, 'to thy truth', is that the same?"
+     "speaker": "EP",
+     "text": [
+      "Would Demetrius be like Jesus?"
+     ]
     },
     {
-     "speaker": "D.R.",
-     "text": "It has become part of the man. So the Lord says about the woman in Luke 7, \"Seest thou this woman?\". He was calling attention to a particular truth; He says, There it is in that woman, look at her. Well, do you know any better way to express the truth than in persons?"
+     "speaker": "DR",
+     "text": [
+      "Just so, that is a very fine note to end with, he was just Jesus all over again. You would understand what I mean by that."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Would Demetrius be like Jesus?"
-    },
-    {
-     "speaker": "D.R.",
-     "text": "Just so, that is a very fine note to end with, he was just Jesus all over again. You would understand what I mean by that."
-    },
-    {
-     "speaker": "E.P.",
-     "text": "Yes, I do."
+     "speaker": "EP",
+     "text": [
+      "Yes, I do."
+     ]
     }
    ]
   },
@@ -980,6 +1340,32 @@
      "text": "An anxious believer might wonder how God could justly forgive sins when He had said that the soul that sins should die. On the Day of Atonement there had been another goat, actually the first of the two, which had been sacrificed and its blood taken into the place of God's presence, making atonement. This is a type of the Lord Jesus putting away sins by the sacrifice of His own blood-shedding. The benefit of His work is available to all, but is He your Substitute?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "\"EVERY ONE THAT IS OF THE TRUTH\"",
+   "kind": "default_place",
+   "detail": "London given to 7 names (\"London unless otherwise shown\")"
+  },
+  {
+   "article": 1,
+   "title": "\"EVERY ONE THAT IS OF THE TRUTH\"",
+   "kind": "speaker_not_in_key",
+   "detail": "CCI (4 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "\"EVERY ONE THAT IS OF THE TRUTH\"",
+   "kind": "speaker_matched_loosely",
+   "detail": "FCM used in the text for FC.Mutton (key gives FM)"
+  },
+  {
+   "article": 1,
+   "title": "\"EVERY ONE THAT IS OF THE TRUTH\"",
+   "kind": "speaker_matched_loosely",
+   "detail": "JMcK used in the text for J.McKay (key gives JM)"
   }
  ]
 }

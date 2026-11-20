@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -27,91 +27,113 @@
    "date": "11 November 2023",
    "servant": "David Spinks",
    "speakers": [
-    "D.S.",
-    "J.R.W.",
-    "R.H.B.",
-    "N.M.",
-    "P.M.",
-    "D.A.B.",
-    "T.J.H.",
-    "B.C.",
-    "A.M.",
-    "A.C.C.",
-    "K.M.",
-    "S.E.",
-    "G.W.",
-    "D.B.",
-    "O.M.",
-    "R.J.F."
+    "DS",
+    "JRW",
+    "RHB",
+    "NM",
+    "PM",
+    "DAB",
+    "TJH",
+    "BC",
+    "AM",
+    "ACC",
+    "KM",
+    "RWMcC",
+    "SE",
+    "GW",
+    "DB",
+    "OM",
+    "RJF"
    ],
    "initials": [
     {
-     "initials": "DBDBM",
-     "name": "D.B. David Bailey Maidstone"
+     "initials": "DB",
+     "name": "David Bailey",
+     "place": "Maidstone"
     },
     {
-     "initials": "RHBRHBM",
-     "name": "R.H.B. Roland H Brown Maidstone"
+     "initials": "RHB",
+     "name": "Roland H Brown",
+     "place": "Maidstone"
     },
     {
-     "initials": "DABDABWN",
-     "name": "D.A.B. D Andrew Burr West Norwood"
+     "initials": "DAB",
+     "name": "D Andrew Burr",
+     "place": "West Norwood"
     },
     {
-     "initials": "BCBCM",
-     "name": "B.C. Brian Clark Maidstone"
+     "initials": "BC",
+     "name": "Brian Clark",
+     "place": "Maidstone"
     },
     {
-     "initials": "AACAACS",
-     "name": "A.A.C. Alan A Croot Sidcup"
+     "initials": "AAC",
+     "name": "Alan A Croot",
+     "place": "Sidcup"
     },
     {
-     "initials": "STESTED",
-     "name": "S.T.E. Stephen T Eagle Dorking"
+     "initials": "SE",
+     "name": "Stephen T Eagle",
+     "place": "Dorking"
     },
     {
-     "initials": "RJFRJFS",
-     "name": "R.J.F. Roland J Flowerdew Sunbury"
+     "initials": "RJF",
+     "name": "Roland J Flowerdew",
+     "place": "Sunbury"
     },
     {
-     "initials": "TJHTJHEF",
-     "name": "T.J.H. Trevor J Harvey East Finchley"
+     "initials": "TJH",
+     "name": "Trevor J Harvey",
+     "place": "East Finchley"
     },
     {
-     "initials": "AMAMBH",
-     "name": "A.M. Andrew Martin Buckhurst Hill"
+     "initials": "AM",
+     "name": "Andrew Martin",
+     "place": "Buckhurst Hill"
     },
     {
-     "initials": "PMPMC",
-     "name": "P.M. Paul Martin Colchester"
+     "initials": "PM",
+     "name": "Paul Martin",
+     "place": "Colchester"
     },
     {
-     "initials": "KMKMM",
-     "name": "K.M. Keith May Maidstone"
+     "initials": "KM",
+     "name": "Keith May",
+     "place": "Maidstone"
     },
     {
-     "initials": "NMNMM",
-     "name": "N.M. Nigel May Maidstone"
+     "initials": "NM",
+     "name": "Nigel May",
+     "place": "Maidstone"
     },
     {
-     "initials": "OMOMM",
-     "name": "O.M. Owen May Maidstone"
+     "initials": "OM",
+     "name": "Owen May",
+     "place": "Maidstone"
     },
     {
-     "initials": "RWMRWMG",
-     "name": "R.W.McC. Robert W McClean Grimsby"
+     "initials": "RWMcC",
+     "name": "Robert W McClean",
+     "place": "Grimsby"
     },
     {
-     "initials": "DSDSB",
-     "name": "D.S. David Spinks Bo’ness"
+     "initials": "DS",
+     "name": "David Spinks",
+     "place": "Bo’ness"
     },
     {
-     "initials": "JRWJRWM",
-     "name": "J.R.W. Jim R Walkinshaw Maidstone"
+     "initials": "JRW",
+     "name": "Jim R Walkinshaw",
+     "place": "Maidstone"
     },
     {
-     "initials": "GWGWS",
-     "name": "G.W. Grant Wallace Sidcup"
+     "initials": "GW",
+     "name": "Grant Wallace",
+     "place": "Sidcup"
+    },
+    {
+     "initials": "ACC",
+     "not_in_key": true
     }
    ],
    "initials_heading": "List of Initials",
@@ -136,366 +158,522 @@
    ],
    "paragraphs": [
     {
-     "speaker": "D.S.",
-     "text": "I wondered if we could get help in speaking about the testimony in relation to the will of God. The testimony was given to man at the beginning to express what he was in dependence on God here; in Adam it failed. That testimony has now been set forth in a Man who never fails, and who fulfilled it to the glory of God. It has been said that the testimony is Christ1: He fully sets out what God looked for in man. He is the model for every believer (see 1 Pet.2:21). We see in Luke 3 the anointing, when the Holy Spirit came and sat complacently on that blessed Man; never before had it been so. In the next chapter, it says the Lord returned from the Jordan, and “was led by the Spirit in the wilderness forty days, tempted of the devil” (vv.1,2). It shows how dependent He was. He was dependent on the Spirit. He never moved according to His own direction, speaking carefully; the passage we read shows the Lord Jesus as a dependent Man who did everything according to the will of God and under the direction of the Holy Spirit of God. These features of His manhood are wonderful for us to consider."
+     "speaker": "DS",
+     "text": [
+      "I wondered if we could get help in speaking about the testimony in relation to the will of God. The testimony was given to man at the beginning to express what he was in dependence on God here; in Adam it failed. That testimony has now been set forth in a Man who never fails, and who fulfilled it to the glory of God. It has been said that the testimony is Christ1: He fully sets out what God looked for in man. He is the model for every believer (see 1 Pet.2:21). We see in Luke 3 the anointing, when the Holy Spirit came and sat complacently on that blessed Man; never before had it been so. In the next chapter, it says the Lord returned from the Jordan, and “was led by the Spirit in the wilderness forty days, tempted of the devil” (vv.1,2). It shows how dependent He was. He was dependent on the Spirit. He never moved according to His own direction, speaking carefully; the passage we read shows the Lord Jesus as a dependent Man who did everything according to the will of God and under the direction of the Holy Spirit of God. These features of His manhood are wonderful for us to consider.",
+      "The words of the Lord are recorded, “Man shall not live by bread alone, but by every word of God”. Surely that was fulfilled in the perfect pathway of the Lord in dependence and obedience. It says, “he learned obedience from the things which he suffered”, Heb.5:8. These things show us what God looked for in man, and found perfectly and suitably in Jesus. God always looked for a man who would be here in accordance with His will, and He waited for the day when that would come to pass. The anointing of the Spirit shows that through the thirty years of the Lord’s life before God, He was altogether in suitability to God (Luke 3:21,22), and then here we see Him coming out in public service. This is the testimony coming to light publicly.",
+      "In a broken day, when in Christendom things are broken in the hands of man, it is good to see the perfection that God found in Jesus, the Man of a different order that was altogether suitable to God. It is good to keep our eye on that Man, and to see what marks that order of manhood. The Lord goes on to say, “Thou shalt do homage to the Lord thy God, and him alone shalt thou serve”. Again, beautiful perfection is seen in the Lord Jesus as the One who came to do God’s will. He could say, “not my will, but thine be done”, Luke 22:42.",
+      "In Timothy, we see features of a believer who is supporting the testimony. Writing to Timothy, Paul says, “Paul, apostle of Jesus Christ by God’s will, according to promise of life, the life which is in Christ Jesus”. The promise of life relates to the meeting of need. Paul was telling Timothy that whatever need he might have as being in the testimony, he would find strength in the Lord Jesus, as Paul himself had found it. He writes, “For God has not given us a spirit of cowardice, but of power, and of love, and of wise discretion”. Paul had learned these characteristic features in Jesus, and now he is commending them to Timothy. He also saw some evidence of them in Timothy, which was very encouraging for Paul. The apostle also says, “suffer evil along with the glad tidings, according to the power of God”. That feature of willingness to suffer was seen in the Lord Jesus in dependent manhood, as He lived according to the power of God. He suffered evil along with the glad tidings. We have benefited from the fact that there is a Saviour who has “annulled death, and brought to light life and incorruptibility by the glad tidings”. In a broken day we give thanks that in the power of the Spirit we can lay hold of life that is incorruptible and cannot be broken in on. This strengthens our faith to go on in the testimony in the present day, and thus strengthens the testimony.",
+      "Paul also speaks of the deposit which has been entrusted: “Keep, by the Holy Spirit which dwells in us, the good deposit entrusted”. Things have been given to us to hold and value in the power of the Spirit of God. Paul was a custodian of all the wonderful things that had been committed to him by the Lord Jesus, and he was handing them on to Timothy. In our day they have been handed down to “others also” (2 Tim.2:2), which would include us, and we are responsible to keep that deposit so that, as far as concerns our responsibility, the testimony may go on in power.",
+      "In John 16, we see that the Holy Spirit helps us as to the demonstration of the testimony, as a consequence of the Lord Jesus going up on high. When the Spirit was come, He would bring “demonstration to the world”, as it says, “of sin, and of righteousness, and of judgment”. These are truths that the Spirit would bring to bear on us, and that helps us in seeking to maintain the testimony. The Spirit has come and dwells in the assembly, He dwells in individuals and as a consequence of that, there is a testimony “of sin, because they do not believe on me; of righteousness, because I go away to my Father, and ye behold me no longer; of judgment, because the ruler of this world is judged”. What a testimony to the world, what a testimony to the glory of a Man who is now in glory with His Father. These features are to come out in the testimony of believers in the present day. I wondered if we could get some help on these thoughts."
+     ]
     },
     {
-     "text": "The words of the Lord are recorded, “Man shall not live by bread alone, but by every word of God”. Surely that was fulfilled in the perfect pathway of the Lord in dependence and obedience. It says, “he learned obedience from the things which he suffered”, Heb.5:8. These things show us what God looked for in man, and found perfectly and suitably in Jesus. God always looked for a man who would be here in accordance with His will, and He waited for the day when that would come to pass. The anointing of the Spirit shows that through the thirty years of the Lord’s life before God, He was altogether in suitability to God (Luke 3:21,22), and then here we see Him coming out in public service. This is the testimony coming to light publicly."
+     "speaker": "JRW",
+     "text": [
+      "I am sure we will; it is a very attractive line to follow. I was thinking of what Peter writes in his epistle in relation to Christ. He says, “for Christ also has suffered for you, leaving you a model that ye should follow in his steps”, and then he expands on that: “who did no sin, neither was guile found in his mouth; who when reviled, reviled not again; when suffering, threatened not”, 1 Pet.2:21-23. I wondered whether what you are bringing before us would be of that character. What comes out here in Luke is the absolute and infinite perfection of the Lord Jesus here in manhood."
+     ]
     },
     {
-     "text": "In a broken day, when in Christendom things are broken in the hands of man, it is good to see the perfection that God found in Jesus, the Man of a different order that was altogether suitable to God. It is good to keep our eye on that Man, and to see what marks that order of manhood. The Lord goes on to say, “Thou shalt do homage to the Lord thy God, and him alone shalt thou serve”. Again, beautiful perfection is seen in the Lord Jesus as the One who came to do God’s will. He could say, “not my will, but thine be done”, Luke 22:42."
+     "speaker": "DS",
+     "text": [
+      "The scripture you refer to in Peter is very helpful. Every scripture which relates to the manhood of Jesus here helps us to see that in Him God has provided us with a model. It is wonderful grace in this dispensation that there is One who has been here in the circumstances in which we are, and He leaves us a model: “neither was guile found in his mouth”. What an object for us! Satan and the world could not touch Him, and it is a wonderful encouragement to us to see that in the mixture around in Christendom and in the world today there is power available to believers in the Lord Jesus as the dependent Man to go against the stream as strengthened by the Holy Spirit."
+     ]
     },
     {
-     "text": "In Timothy, we see features of a believer who is supporting the testimony. Writing to Timothy, Paul says, “Paul, apostle of Jesus Christ by God’s will, according to promise of life, the life which is in Christ Jesus”. The promise of life relates to the meeting of need. Paul was telling Timothy that whatever need he might have as being in the testimony, he would find strength in the Lord Jesus, as Paul himself had found it. He writes, “For God has not given us a spirit of cowardice, but of power, and of love, and of wise discretion”. Paul had learned these characteristic features in Jesus, and now he is commending them to Timothy. He also saw some evidence of them in Timothy, which was very encouraging for Paul. The apostle also says, “suffer evil along with the glad tidings, according to the power of God”. That feature of willingness to suffer was seen in the Lord Jesus in dependent manhood, as He lived according to the power of God. He suffered evil along with the glad tidings. We have benefited from the fact that there is a Saviour who has “annulled death, and brought to light life and incorruptibility by the glad tidings”. In a broken day we give thanks that in the power of the Spirit we can lay hold of life that is incorruptible and cannot be broken in on. This strengthens our faith to go on in the testimony in the present day, and thus strengthens the testimony."
+     "speaker": "JRW",
+     "text": [
+      "The scripture in Luke is a wonderful example to us. It is noticeable that in verse 5 it says, “And the devil, leading him”, and then in verse 9, “he led him to Jerusalem”, that would be the devil, “and set him on the edge of the temple”. Think of the dependent manhood of the Lord Jesus in allowing Himself to be led in this way into the very place of temptation where what shone out was the perfection and glory of that blessed One. The power of the Spirit is also evident. It says in verse 14, “Jesus returned in the power of the Spirit”. I think that really supports the line that you have brought before us."
+     ]
     },
     {
-     "text": "Paul also speaks of the deposit which has been entrusted: “Keep, by the Holy Spirit which dwells in us, the good deposit entrusted”. Things have been given to us to hold and value in the power of the Spirit of God. Paul was a custodian of all the wonderful things that had been committed to him by the Lord Jesus, and he was handing them on to Timothy. In our day they have been handed down to “others also” (2 Tim.2:2), which would include us, and we are responsible to keep that deposit so that, as far as concerns our responsibility, the testimony may go on in power."
+     "speaker": "DS",
+     "text": [
+      "The Lord as a dependent Man did everything in the power of the Holy Spirit. It strengthens our faith to see that the same Spirit that was in Jesus as a dependent Man here, dwells in believers now. The Lord was perfect, and it says of the Spirit that He “descended in a bodily form as a dove upon him”, Luke 3:22. The same Holy Spirit as in the believer here in testimony, gives power to overcome everything that the enemy brings against us. We see the power that was with the Lord Jesus as a dependent Man. I think that is so encouraging."
+     ]
     },
     {
-     "text": "In John 16, we see that the Holy Spirit helps us as to the demonstration of the testimony, as a consequence of the Lord Jesus going up on high. When the Spirit was come, He would bring “demonstration to the world”, as it says, “of sin, and of righteousness, and of judgment”. These are truths that the Spirit would bring to bear on us, and that helps us in seeking to maintain the testimony. The Spirit has come and dwells in the assembly, He dwells in individuals and as a consequence of that, there is a testimony “of sin, because they do not believe on me; of righteousness, because I go away to my Father, and ye behold me no longer; of judgment, because the ruler of this world is judged”. What a testimony to the world, what a testimony to the glory of a Man who is now in glory with His Father. These features are to come out in the testimony of believers in the present day. I wondered if we could get some help on these thoughts."
+     "speaker": "RHB",
+     "text": [
+      "What is involved in living “by every word of God”?"
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "I am sure we will; it is a very attractive line to follow. I was thinking of what Peter writes in his epistle in relation to Christ. He says, “for Christ also has suffered for you, leaving you a model that ye should follow in his steps”, and then he expands on that: “who did no sin, neither was guile found in his mouth; who when reviled, reviled not again; when suffering, threatened not”, 1 Pet.2:21-23. I wondered whether what you are bringing before us would be of that character. What comes out here in Luke is the absolute and infinite perfection of the Lord Jesus here in manhood."
+     "speaker": "DS",
+     "text": [
+      "It says prophetically of the Lord Jesus that “He wakeneth morning by morning, he wakeneth mine ear to hear as the instructed”, Isa.50:4. Every moment of every day of the Lord’s life here was filled out on the principle of living by the word of God. In every circumstance through which He passed, He was directed and He moved according to the will of God. In John 4:6, Jesus was “wearied with the way he had come”, but He had passed through Samaria to get there (v.4). He was directed by the will of God."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "The scripture you refer to in Peter is very helpful. Every scripture which relates to the manhood of Jesus here helps us to see that in Him God has provided us with a model. It is wonderful grace in this dispensation that there is One who has been here in the circumstances in which we are, and He leaves us a model: “neither was guile found in his mouth”. What an object for us! Satan and the world could not touch Him, and it is a wonderful encouragement to us to see that in the mixture around in Christendom and in the world today there is power available to believers in the Lord Jesus as the dependent Man to go against the stream as strengthened by the Holy Spirit."
+     "speaker": "RHB",
+     "text": [
+      "We were speaking of the woman in John 4 in our local reading. The disciples had gone off to buy food and left the Lord alone, and when they returned, He said, “I have food to eat which ye do not know” (v.32). The Lord was hungering here, but He speaks of not living “by bread alone”. Bread sustains our natural life, and we have to spend a lot of time in our working life to earn our bread, but this scripture seems to open up something completely new – living “by every word of God”. The quotation in the Old Testament is, “but by everything that goeth out of the mouth of Jehovah doth man live”, Deut.8:3. I would like to understand practically what that involves because the Lord is speaking here as Man, as a model for us."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "The scripture in Luke is a wonderful example to us. It is noticeable that in verse 5 it says, “And the devil, leading him”, and then in verse 9, “he led him to Jerusalem”, that would be the devil, “and set him on the edge of the temple”. Think of the dependent manhood of the Lord Jesus in allowing Himself to be led in this way into the very place of temptation where what shone out was the perfection and glory of that blessed One. The power of the Spirit is also evident. It says in verse 14, “Jesus returned in the power of the Spirit”. I think that really supports the line that you have brought before us."
+     "speaker": "DS",
+     "text": [
+      "The Lord lived here as a dependent Man, and as such He would not move in any direction without the food that came from the word of God. That is a very great test, but I think it shows the triumph of Christianity in the dependent manhood of Christ. He has left us a model of how we can feed on and live by the word of God and be empowered by the Spirit of God to overcome all that the enemy would bring against the believer. It was His food: “My food is that I should do the will of him that has sent me, and that I should finish his work”, John 4:34. That was the motive of the Lord Jesus here, to do the will of Another, a further glorious and beautiful feature that is seen in the Lord alone."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "The Lord as a dependent Man did everything in the power of the Holy Spirit. It strengthens our faith to see that the same Spirit that was in Jesus as a dependent Man here, dwells in believers now. The Lord was perfect, and it says of the Spirit that He “descended in a bodily form as a dove upon him”, Luke 3:22. The same Holy Spirit as in the believer here in testimony, gives power to overcome everything that the enemy brings against us. We see the power that was with the Lord Jesus as a dependent Man. I think that is so encouraging."
+     "speaker": "NM",
+     "text": [
+      "Could you say what it means for us that “in those days he did not eat anything, and when they were finished he hungered” (v.2)?"
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "What is involved in living “by every word of God”?"
+     "speaker": "DS",
+     "text": [
+      "It is a very instructive verse. The Lord had moved in the power of the Spirit and now He was being tempted by Satan himself. The Holy Spirit was sustaining Him. It shows again the reality of the manhood of Jesus that He was being sustained by the Holy Spirit in an environment that was foreign to Him. The Lord came here to fulfil the will of His God and Father and to walk in the light of that will and feed on it. He went through this matter in dependence on and under the hand of the Spirit."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "It says prophetically of the Lord Jesus that “He wakeneth morning by morning, he wakeneth mine ear to hear as the instructed”, Isa.50:4. Every moment of every day of the Lord’s life here was filled out on the principle of living by the word of God. In every circumstance through which He passed, He was directed and He moved according to the will of God. In John 4:6, Jesus was “wearied with the way he had come”, but He had passed through Samaria to get there (v.4). He was directed by the will of God."
+     "speaker": "PM",
+     "text": [
+      "I wondered if it brought out the infinite perfection of Jesus, at what would naturally be a very weak point for man in hunger, that even though He was in that condition He did not succumb, indeed He could not succumb, to Satan’s temptations. Does that bring out the infinite perfection that was there?"
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "We were speaking of the woman in John 4 in our local reading. The disciples had gone off to buy food and left the Lord alone, and when they returned, He said, “I have food to eat which ye do not know” (v.32). The Lord was hungering here, but He speaks of not living “by bread alone”. Bread sustains our natural life, and we have to spend a lot of time in our working life to earn our bread, but this scripture seems to open up something completely new – living “by every word of God”. The quotation in the Old Testament is, “but by everything that goeth out of the mouth of Jehovah doth man live”, Deut.8:3. I would like to understand practically what that involves because the Lord is speaking here as Man, as a model for us."
+     "speaker": "DS",
+     "text": [
+      "The Lord would never succumb to the influences or the power of the enemy. It shows the uniqueness and beauty of the manhood of the Lord Jesus that, whatever extreme conditions the enemy would use to seek to tempt Him, as led by the Spirit He would never succumb to these temptations. It is a beautiful thought to ponder in our minds."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "The Lord lived here as a dependent Man, and as such He would not move in any direction without the food that came from the word of God. That is a very great test, but I think it shows the triumph of Christianity in the dependent manhood of Christ. He has left us a model of how we can feed on and live by the word of God and be empowered by the Spirit of God to overcome all that the enemy would bring against the believer. It was His food: “My food is that I should do the will of him that has sent me, and that I should finish his work”, John 4:34. That was the motive of the Lord Jesus here, to do the will of Another, a further glorious and beautiful feature that is seen in the Lord alone."
+     "speaker": "PM",
+     "text": [
+      "That whole pathway was trodden always in communion; He was receiving communications from His Father. What a perfect pathway!"
+     ]
     },
     {
-     "speaker": "N.M.",
-     "text": "Could you say what it means for us that “in those days he did not eat anything, and when they were finished he hungered” (v.2)?"
+     "speaker": "DAB",
+     "text": [
+      "It is an encouragement to us that however weak things may seem to be, we have the support of the Holy Spirit and the word of God in maintaining the testimony. These are the things that maintain it, are they not?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "It is a very instructive verse. The Lord had moved in the power of the Spirit and now He was being tempted by Satan himself. The Holy Spirit was sustaining Him. It shows again the reality of the manhood of Jesus that He was being sustained by the Holy Spirit in an environment that was foreign to Him. The Lord came here to fulfil the will of His God and Father and to walk in the light of that will and feed on it. He went through this matter in dependence on and under the hand of the Spirit."
+     "speaker": "DS",
+     "text": [
+      "That is an encouraging thought; that the word of God and the power of the Holy Spirit will remain until the Lord comes to rapture His church."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "I wondered if it brought out the infinite perfection of Jesus, at what would naturally be a very weak point for man in hunger, that even though He was in that condition He did not succumb, indeed He could not succumb, to Satan’s temptations. Does that bring out the infinite perfection that was there?"
+     "speaker": "DAB",
+     "text": [
+      "I have been dwelling on Paul’s word in Acts 20, “the Holy Spirit testifies” in every place (v.23): that is one resource. Then, “I commit you to God, and to the word of his grace” (v.32), and then, “remember the words of the Lord Jesus” (v.35). It is as if those resources rather than any human structures or liturgies or anything of that sort will maintain the testimony."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "The Lord would never succumb to the influences or the power of the enemy. It shows the uniqueness and beauty of the manhood of the Lord Jesus that, whatever extreme conditions the enemy would use to seek to tempt Him, as led by the Spirit He would never succumb to these temptations. It is a beautiful thought to ponder in our minds."
+     "speaker": "DS",
+     "text": [
+      "God gives resource to maintain the testimony, and the Lord Jesus when here as a dependent Man showed what these resources were and lived by them."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "That whole pathway was trodden always in communion; He was receiving communications from His Father. What a perfect pathway!"
+     "speaker": "TJH",
+     "text": [
+      "Paul says, “when I am weak, then I am powerful”, 2 Cor.12:10. I wonder if in that he is following the Lord Jesus as a model, not drawing his strength from things of this world, but from the perfect will of God. Would that fit in with your thought?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "It is an encouragement to us that however weak things may seem to be, we have the support of the Holy Spirit and the word of God in maintaining the testimony. These are the things that maintain it, are they not?"
+     "speaker": "DS",
+     "text": [
+      "The Lord Jesus always drew His strength from doing the will of Another. As has been brought out, He is always the perfect model, as He relied on the word of God and the power of the Spirit in testimony. These divine resources will triumph over anything that the enemy brings in. Whatever the difficulty of the circumstances in which the Lord was found, He was dependent. The enemy could not deflect Him. That should strengthen the faith of all of us. Young people face a difficult day but there is the resource in the power of the Spirit and in the will of God to triumph over evil and over doubts or fears or anything else that the enemy may bring into your soul through circumstances in work and at school. Divine power provides a resource that is greater than anything the enemy can bring against the believer."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "That is an encouraging thought; that the word of God and the power of the Holy Spirit will remain until the Lord comes to rapture His church."
+     "speaker": "BC",
+     "text": [
+      "I know we did not read it, but I was thinking of that beautiful reference in Luke 3 as to the Lord, “having been baptised and praying, that the heaven was opened” (v.21). I wondered if that shows the need for help, but also that the Lord was a perfect model in prayer."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I have been dwelling on Paul’s word in Acts 20, “the Holy Spirit testifies” in every place (v.23): that is one resource. Then, “I commit you to God, and to the word of his grace” (v.32), and then, “remember the words of the Lord Jesus” (v.35). It is as if those resources rather than any human structures or liturgies or anything of that sort will maintain the testimony."
+     "speaker": "DS",
+     "text": [
+      "Yes, surely. That scripture draws attention to the anointing of the Lord Jesus at the end of His private years here on the earth, and also, as you say, the character of the Man in whom God found His pleasure. It was a wonderful thing when the heavens could be opened and the Holy Spirit could rest complacently on a Man who was here according to the will of God. He was a dependent Man, in prayer to His God, who was never turned aside by the power of the enemy. Having Him as our object gives the believer strength and courage for the day in which we are."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "God gives resource to maintain the testimony, and the Lord Jesus when here as a dependent Man showed what these resources were and lived by them."
+     "speaker": "BC",
+     "text": [
+      "I was thinking that in Matthew 11, when the Lord was grieved at the rejection of His word in Chorazin and Bethsaida, and pressures bore upon Him, He lifted His voice to praise the Father (vv.21,25). As pressure on Him became more intense, the beauty of His manhood was seen even more brightly under God’s eye."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "Paul says, “when I am weak, then I am powerful”, 2 Cor.12:10. I wonder if in that he is following the Lord Jesus as a model, not drawing his strength from things of this world, but from the perfect will of God. Would that fit in with your thought?"
+     "speaker": "DS",
+     "text": [
+      "The Lord never moved without being under the direction of the will of God. When He went into any circumstance which was adverse, He was strengthened in it, and He was directed to go through it. That is a test for each one of us. But it strengthens our faith if we rely on divine resource. The enemy will always be defeated, and the victory will be for God."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "The Lord Jesus always drew His strength from doing the will of Another. As has been brought out, He is always the perfect model, as He relied on the word of God and the power of the Spirit in testimony. These divine resources will triumph over anything that the enemy brings in. Whatever the difficulty of the circumstances in which the Lord was found, He was dependent. The enemy could not deflect Him. That should strengthen the faith of all of us. Young people face a difficult day but there is the resource in the power of the Spirit and in the will of God to triumph over evil and over doubts or fears or anything else that the enemy may bring into your soul through circumstances in work and at school. Divine power provides a resource that is greater than anything the enemy can bring against the believer."
+     "speaker": "AM",
+     "text": [
+      "This passage refers to “every word of God”; the Lord would have been constantly sensitive to what the word of God was for the moment. We sometimes are conscious of receiving a word, but the Lord received every word of God for Himself."
+     ]
     },
     {
-     "speaker": "B.C.",
-     "text": "I know we did not read it, but I was thinking of that beautiful reference in Luke 3 as to the Lord, “having been baptised and praying, that the heaven was opened” (v.21). I wondered if that shows the need for help, but also that the Lord was a perfect model in prayer."
+     "speaker": "DS",
+     "text": [
+      "It shows how the Lord knew what God desired in every circumstance. That is a test for us. Here today there is a congenial atmosphere, but when we go to work, for example, are we with the Spirit, and are we conscious of the word of God?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "Yes, surely. That scripture draws attention to the anointing of the Lord Jesus at the end of His private years here on the earth, and also, as you say, the character of the Man in whom God found His pleasure. It was a wonderful thing when the heavens could be opened and the Holy Spirit could rest complacently on a Man who was here according to the will of God. He was a dependent Man, in prayer to His God, who was never turned aside by the power of the enemy. Having Him as our object gives the believer strength and courage for the day in which we are."
+     "speaker": "AM",
+     "text": [
+      "I just thought it emphasised the state of constant communion. The Lord Himself could say as to the Father that He knew “that thou always hearest me”, John 11:42. It was also true that He always heard the Father."
+     ]
     },
     {
-     "speaker": "B.C.",
-     "text": "I was thinking that in Matthew 11, when the Lord was grieved at the rejection of His word in Chorazin and Bethsaida, and pressures bore upon Him, He lifted His voice to praise the Father (vv.21,25). As pressure on Him became more intense, the beauty of His manhood was seen even more brightly under God’s eye."
+     "speaker": "DS",
+     "text": [
+      "That relationship of communion was never broken, until the forsaking on the cross. The Lord says prophetically, “take me not away in the midst of my days!”, Ps.102:24. The Lord enjoyed the relationship which He had with His Father, in which He moved here as a dependent Man strengthened by the power of the Spirit and feeding on the will of God. These are beautiful moral features for us to see in Jesus."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "The Lord never moved without being under the direction of the will of God. When He went into any circumstance which was adverse, He was strengthened in it, and He was directed to go through it. That is a test for each one of us. But it strengthens our faith if we rely on divine resource. The enemy will always be defeated, and the victory will be for God."
+     "speaker": "ACC",
+     "text": [
+      "Does what has been said show that there is also a word for every man? We may turn to God in times of difficulty or confusion, but God’s will applies at every moment of our lives. The Lord was conscious of that; at every step He sought God’s will: it is a practical thing. Closeness to the Father would lead to these things being revealed to us."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "This passage refers to “every word of God”; the Lord would have been constantly sensitive to what the word of God was for the moment. We sometimes are conscious of receiving a word, but the Lord received every word of God for Himself."
+     "speaker": "DS",
+     "text": [
+      "In every circumstance, in every morning and every day, if the Lord’s own people were against Him, or if the enemy came against Him, the Lord knew He would have a word which would defeat the enemy. The word of God is powerful, “sharper than any two-edged sword”, Heb.4:12. That is a help for us in our day because we need power outside of ourselves."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "It shows how the Lord knew what God desired in every circumstance. That is a test for us. Here today there is a congenial atmosphere, but when we go to work, for example, are we with the Spirit, and are we conscious of the word of God?"
+     "speaker": "ACC",
+     "text": [
+      "John tells us that the world itself could not contain the books that would be written if all that the Lord Jesus did was recorded (John 21:25), but every action and every word was in accordance with the word of His Father. It shows the perfection that was there, does it not?"
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "I just thought it emphasised the state of constant communion. The Lord Himself could say as to the Father that He knew “that thou always hearest me”, John 11:42. It was also true that He always heard the Father."
+     "speaker": "DS",
+     "text": [
+      "Think of the books that could be written of a Man who was here in dependence on the will of God. He loved doing that will; He “loved righteousness”, Heb.1:9. It was a matter of righteousness that this One who came into the condition of manhood was here in relation to the will of Another. He never considered for Himself. That is another wonderful thing about hearing the word of God, that as we do so, we consider for His will. It is easy to say but it is a wonderful thing to know such communication. As our brother has said, we may desire to hear the word in times of need, but do I hear God’s word every day? Am I directed by it? If so, the enemy will have no inroad."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "That relationship of communion was never broken, until the forsaking on the cross. The Lord says prophetically, “take me not away in the midst of my days!”, Ps.102:24. The Lord enjoyed the relationship which He had with His Father, in which He moved here as a dependent Man strengthened by the power of the Spirit and feeding on the will of God. These are beautiful moral features for us to see in Jesus."
+     "speaker": "RHB",
+     "text": [
+      "Could you help us as to how we come to prefer the will of God to our own will? With the Lord there was nothing within Him that ever acted against God’s will, but for us our own wills have to be overcome."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Does what has been said show that there is also a word for every man? We may turn to God in times of difficulty or confusion, but God’s will applies at every moment of our lives. The Lord was conscious of that; at every step He sought God’s will: it is a practical thing. Closeness to the Father would lead to these things being revealed to us."
+     "speaker": "DS",
+     "text": [
+      "We have to see in the death of Christ that He has removed the man who offended, and who cannot be trusted. The only One I can trust is “the man Christ Jesus” (1 Tim.2:5), so as born again, I walk here according to the character and nature of that Man in the power of the Spirit, the resource which God gives me."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "In every circumstance, in every morning and every day, if the Lord’s own people were against Him, or if the enemy came against Him, the Lord knew He would have a word which would defeat the enemy. The word of God is powerful, “sharper than any two-edged sword”, Heb.4:12. That is a help for us in our day because we need power outside of ourselves."
+     "speaker": "RHB",
+     "text": [
+      "I was thinking as you were speaking that this whole incident would not have been of the Lord’s choice as a holy Man, to be in the company of the devil and in conversation with him. But the will of God required it, and for Him there was no alternative. It speaks of Him being led, and another gospel speaks of Him being driven (Mark 1:12). Every holy sensibility of the Lord would have been against doing this, but the will of God moved Him to accept this temptation, and that will was perfect. The more you consider that, the more testing it becomes because, speaking practically, we want to do what we want to do rather than what God wants us to do."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "John tells us that the world itself could not contain the books that would be written if all that the Lord Jesus did was recorded (John 21:25), but every action and every word was in accordance with the word of His Father. It shows the perfection that was there, does it not?"
+     "speaker": "DS",
+     "text": [
+      "Yes, even as a believer and having the Spirit, my natural desire is to do my own will. But the Spirit of God would always lead us – whether in the face of the enemy or in more congenial circumstances – to do the will of God so that the result may be for His glory. The Lord’s doing the will of God in manhood resulted in glory to God, because there was a Man here who in every circumstance did the will of Another."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "Think of the books that could be written of a Man who was here in dependence on the will of God. He loved doing that will; He “loved righteousness”, Heb.1:9. It was a matter of righteousness that this One who came into the condition of manhood was here in relation to the will of Another. He never considered for Himself. That is another wonderful thing about hearing the word of God, that as we do so, we consider for His will. It is easy to say but it is a wonderful thing to know such communication. As our brother has said, we may desire to hear the word in times of need, but do I hear God’s word every day? Am I directed by it? If so, the enemy will have no inroad."
+     "speaker": "JRW",
+     "text": [
+      "We can ask the Spirit for His help and power in this. It has been said that we should ask the Spirit to show us the attractiveness of Christ. If we ask the Spirit, He would be ready to help us in relation to what we are speaking of, do you think?"
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "Could you help us as to how we come to prefer the will of God to our own will? With the Lord there was nothing within Him that ever acted against God’s will, but for us our own wills have to be overcome."
+     "speaker": "DS",
+     "text": [
+      "It was said earlier that Christ has left us a model. It is not something that we are unfamiliar with: this Man is our Saviour, the One who has gone the way of suffering and death for us. We see the attractiveness of the Man who moved under the will of God and defeated the power of the enemy, and who went right on to the cross. He said, “not my will, but thine be done”, Luke 22:42. It shows us the source of power that is with the believer as fulfilling the will of God. Doing that will gives glory to God."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "We have to see in the death of Christ that He has removed the man who offended, and who cannot be trusted. The only One I can trust is “the man Christ Jesus” (1 Tim.2:5), so as born again, I walk here according to the character and nature of that Man in the power of the Spirit, the resource which God gives me."
+     "speaker": "PM",
+     "text": [
+      "Paul speaks in Romans of the compassions of God: “I beseech you therefore, brethren, by the compassions of God, to present your bodies a living sacrifice” (chap.12:1). What is in view is “that ye may prove what is the good and acceptable and perfect will of God” (v.2). I wondered if the compassions of God would help us to see that His will is always for our blessing, and my will is for my destruction."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "I was thinking as you were speaking that this whole incident would not have been of the Lord’s choice as a holy Man, to be in the company of the devil and in conversation with him. But the will of God required it, and for Him there was no alternative. It speaks of Him being led, and another gospel speaks of Him being driven (Mark 1:12). Every holy sensibility of the Lord would have been against doing this, but the will of God moved Him to accept this temptation, and that will was perfect. The more you consider that, the more testing it becomes because, speaking practically, we want to do what we want to do rather than what God wants us to do."
+     "speaker": "DS",
+     "text": [
+      "That is a hard lesson to learn, but for us it is only through trying to do my own will and finding failure as a result that we prove that there is something better than doing my own will. God knows what is best, and again the pattern for us is seen in the Lord Jesus. It is wonderful to see what the Lord experienced as coming into the condition of manhood: “he learned obedience from the things which he suffered”, Heb.5:8. Doing the will of God will involve suffering for the saints. Naturally, I do not like that, but as submitting to His will there is blessing in view. Doing the will of God and living by every word of God provides strength in the soul to overcome the enemy."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "Yes, even as a believer and having the Spirit, my natural desire is to do my own will. But the Spirit of God would always lead us – whether in the face of the enemy or in more congenial circumstances – to do the will of God so that the result may be for His glory. The Lord’s doing the will of God in manhood resulted in glory to God, because there was a Man here who in every circumstance did the will of Another."
+     "speaker": "KM",
+     "text": [
+      "You have spoken of testimony. Testimony is always directed. I was thinking of the testimony of what Christ is to God, and of what He was to Satan and what He is to man. It says that “a rumour went out into the whole surrounding country about him”. Are there different aspects as to how the testimony is directed?"
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "We can ask the Spirit for His help and power in this. It has been said that we should ask the Spirit to show us the attractiveness of Christ. If we ask the Spirit, He would be ready to help us in relation to what we are speaking of, do you think?"
+     "speaker": "DS",
+     "text": [
+      "Christ rendered a perfect testimony in every facet of life. As you say, there was a testimony to Satan. Satan knew who this glorious Man was, but he could not intrude in the area where the Lord found His life. He thought he knew about the Lord Jesus, but he could not tempt Him, he could not influence or divert Him. There was a testimony there. But there is also a testimony as the Lord returned in the Spirit to Galilee, and “a rumour went out into the whole surrounding country about him; and he taught in their synagogues, being glorified of all”. That is a testimony to a Man who lived by the word of God and defeated the power of Satan."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "It was said earlier that Christ has left us a model. It is not something that we are unfamiliar with: this Man is our Saviour, the One who has gone the way of suffering and death for us. We see the attractiveness of the Man who moved under the will of God and defeated the power of the enemy, and who went right on to the cross. He said, “not my will, but thine be done”, Luke 22:42. It shows us the source of power that is with the believer as fulfilling the will of God. Doing that will gives glory to God."
+     "speaker": "KM",
+     "text": [
+      "It is on a lower level, but we are all a testimony to something, are we not? We are either a testimony to doing our own will or to doing the will of God. Perhaps older people should be more of a testimony to the young."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Paul speaks in Romans of the compassions of God: “I beseech you therefore, brethren, by the compassions of God, to present your bodies a living sacrifice” (chap.12:1). What is in view is “that ye may prove what is the good and acceptable and perfect will of God” (v.2). I wondered if the compassions of God would help us to see that His will is always for our blessing, and my will is for my destruction."
+     "speaker": "DS",
+     "text": [
+      "As you say, every one of us is a testimony to something and to someone. The Lord Jesus here was a perfect testimony. He could say of Himself that He was “Altogether that which I also say to you”, John 8:25.",
+      "Regarding the passage in Timothy, it has been said that we see the Lord supporting the testimony and He will continue to do so as long as the church is here. That is a wonderful strengthening matter. “Paul, apostle of Jesus Christ by God’s will, according to promise of life, the life which is in Christ Jesus”: it has been said that the matter of the promise of life comes in when there is need, and there is always a need in the testimony. Timothy was perhaps timid, but Paul was encouraging him to see the power that was with God and not to be ashamed of the glad tidings, “but suffer evil along with the glad tidings”. None of us likes to suffer, but if we are prepared for suffering, we prove the help of the One who has “annulled death, and brought to light life and incorruptibility by the glad tidings”. There is the good deposit, which is given to us by the Holy Spirit, so that there is life here in the area of need where the enemy has been defeated. Christ has “annulled death, and brought to light life”. The fulness of this will be seen in a coming day but it is a wonderful thing to lay hold of this in the present day: that the Lord Jesus has annulled death, and as a consequence, He has “brought to light life and incorruptibility by the glad tidings”. That has a present bearing."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "That is a hard lesson to learn, but for us it is only through trying to do my own will and finding failure as a result that we prove that there is something better than doing my own will. God knows what is best, and again the pattern for us is seen in the Lord Jesus. It is wonderful to see what the Lord experienced as coming into the condition of manhood: “he learned obedience from the things which he suffered”, Heb.5:8. Doing the will of God will involve suffering for the saints. Naturally, I do not like that, but as submitting to His will there is blessing in view. Doing the will of God and living by every word of God provides strength in the soul to overcome the enemy."
+     "speaker": "RWMcC",
+     "text": [
+      "Why does it say, “the testimony of our Lord” here? It says, “Be not therefore ashamed of the testimony of our Lord, nor of me his prisoner”. What would be in Paul’s mind there, do you think?"
+     ]
     },
     {
-     "speaker": "K.M.",
-     "text": "You have spoken of testimony. Testimony is always directed. I was thinking of the testimony of what Christ is to God, and of what He was to Satan and what He is to man. It says that “a rumour went out into the whole surrounding country about him”. Are there different aspects as to how the testimony is directed?"
+     "speaker": "DS",
+     "text": [
+      "The testimony was going to continue. Paul had been a wonderful testimony to his Lord, and this is a prison epistle. Paul was coming to the end of his life here and he was beseeching Timothy to continue in the suffering path. The “testimony of our Lord” is public. It goes on in relation to the fact that you own Him, recognise Him, as Lord, and He has authority over you, and you hold the ground for Him. It also involves suffering. It involves suffering but with a joy in your heart, that you are linked with a blessed Person who has “annulled death, and brought to light life”. It seems to put the testimony on a different platform for the believer, so that although we have to suffer for it, something wonderful comes to light in the believer’s soul relating to what is incorruptible and can never be defeated."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "Christ rendered a perfect testimony in every facet of life. As you say, there was a testimony to Satan. Satan knew who this glorious Man was, but he could not intrude in the area where the Lord found His life. He thought he knew about the Lord Jesus, but he could not tempt Him, he could not influence or divert Him. There was a testimony there. But there is also a testimony as the Lord returned in the Spirit to Galilee, and “a rumour went out into the whole surrounding country about him; and he taught in their synagogues, being glorified of all”. That is a testimony to a Man who lived by the word of God and defeated the power of Satan."
+     "speaker": "RHB",
+     "text": [
+      "It is not ‘our testimony of the Lord’, but “the testimony of our Lord”. We have spoken of our individual testimony, and I wondered whether it is important to see that there is here on the earth “the testimony of our Lord”. It is maintained here by the Holy Spirit and we are to align ourselves with that, do you think?"
+     ]
     },
     {
-     "speaker": "K.M.",
-     "text": "It is on a lower level, but we are all a testimony to something, are we not? We are either a testimony to doing our own will or to doing the will of God. Perhaps older people should be more of a testimony to the young."
+     "speaker": "DS",
+     "text": [
+      "That would agree with the point that the Lord is supporting the testimony. As you say, “the testimony of our Lord” has been here for two thousand years; are we aligning ourselves with that testimony? He is the One who has gone into glory, who has annulled death, who has broken every barrier down and who will support the testimony through everything until He raptures the church. It is a wonderful thing to see that divine Persons are supporting the testimony, but are we in line with it?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "As you say, every one of us is a testimony to something and to someone. The Lord Jesus here was a perfect testimony. He could say of Himself that He was “Altogether that which I also say to you”, John 8:25."
+     "speaker": "RHB",
+     "text": [
+      "I think it is important. The testimony of our Lord is maintained by those who are subject to the Lord. Is He Lord to me? The testimony to Him is maintained by those to whom He is manifestly their Lord. Many believers speak of Jesus, Jesus saying and doing and teaching, and leaving us a model, but you do not always hear that expression ‘the Lord Jesus’. That expression excludes our own wills, does it not? It means that we have come into subjection to Him, to His Person."
+     ]
     },
     {
-     "text": "Regarding the passage in Timothy, it has been said that we see the Lord supporting the testimony and He will continue to do so as long as the church is here. That is a wonderful strengthening matter. “Paul, apostle of Jesus Christ by God’s will, according to promise of life, the life which is in Christ Jesus”: it has been said that the matter of the promise of life comes in when there is need, and there is always a need in the testimony. Timothy was perhaps timid, but Paul was encouraging him to see the power that was with God and not to be ashamed of the glad tidings, “but suffer evil along with the glad tidings”. None of us likes to suffer, but if we are prepared for suffering, we prove the help of the One who has “annulled death, and brought to light life and incorruptibility by the glad tidings”. There is the good deposit, which is given to us by the Holy Spirit, so that there is life here in the area of need where the enemy has been defeated. Christ has “annulled death, and brought to light life”. The fulness of this will be seen in a coming day but it is a wonderful thing to lay hold of this in the present day: that the Lord Jesus has annulled death, and as a consequence, He has “brought to light life and incorruptibility by the glad tidings”. That has a present bearing."
+     "speaker": "DS",
+     "text": [
+      "I think that is very helpful and very instructive. It links to what we were saying earlier as to doing the will of Another. When I become subject to Jesus as my Lord, I come under His authority, and I find that His authority and direction leads to what is much greater than anything I can do for myself. I come on to ground where I find abundance of support and blessing, the abundance of resource available in the circle of fellowship. It is all under the hand and headship of the One who is our Lord."
+     ]
     },
     {
-     "text": "R.W.McC. Why does it say, “the testimony of our Lord” here? It says, “Be not therefore ashamed of the testimony of our Lord, nor of me his prisoner”. What would be in Paul’s mind there, do you think?"
+     "speaker": "SE",
+     "text": [
+      "John 9 helps us to see that divine Persons never leave us. The man there was cast out (v.35), but the Lord found him. It is encouraging that divine Persons never leave the believer."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "The testimony was going to continue. Paul had been a wonderful testimony to his Lord, and this is a prison epistle. Paul was coming to the end of his life here and he was beseeching Timothy to continue in the suffering path. The “testimony of our Lord” is public. It goes on in relation to the fact that you own Him, recognise Him, as Lord, and He has authority over you, and you hold the ground for Him. It also involves suffering. It involves suffering but with a joy in your heart, that you are linked with a blessed Person who has “annulled death, and brought to light life”. It seems to put the testimony on a different platform for the believer, so that although we have to suffer for it, something wonderful comes to light in the believer’s soul relating to what is incorruptible and can never be defeated."
+     "speaker": "DS",
+     "text": [
+      "Believers here are the testimony on earth at the present moment. If I hold Jesus as my Lord, He will support me in the testimony. Owning Him as Lord means that you recognise His authority, and you appreciate every feature that He showed when He was here as a Man. You also acknowledge that nothing that is in Christ can break down. We may break down, but if we subject ourselves to the Lord and draw on the power of the Spirit, we will be sustained. There is breakdown around in the church publicly, but that is because it has passed into the hands of man, with man’s will taking over from God’s will. What is owned by the Lord Jesus remains, and that is a most encouraging thing."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "It is not ‘our testimony of the Lord’, but “the testimony of our Lord”. We have spoken of our individual testimony, and I wondered whether it is important to see that there is here on the earth “the testimony of our Lord”. It is maintained here by the Holy Spirit and we are to align ourselves with that, do you think?"
+     "speaker": "JRW",
+     "text": [
+      "It seems to be linked too with the glad tidings. Paul speaks of “the appearing of our Saviour Jesus Christ, who has annulled death, and brought to light life and incorruptibility by the glad tidings”. Then he says, “For which cause also I suffer these things; but I am not ashamed”. Do you think there is a link between what you are saying and the glad tidings?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "That would agree with the point that the Lord is supporting the testimony. As you say, “the testimony of our Lord” has been here for two thousand years; are we aligning ourselves with that testimony? He is the One who has gone into glory, who has annulled death, who has broken every barrier down and who will support the testimony through everything until He raptures the church. It is a wonderful thing to see that divine Persons are supporting the testimony, but are we in line with it?"
+     "speaker": "DS",
+     "text": [
+      "The glad tidings has great scope, and the testimony relates to it. It is good to grow in our appreciation of what the glad tidings are. They not only deal with the saving of my soul, wonderful as that is, but extend to our coming under the Saviour’s lordship, and into the realm of the Spirit’s operations, into the grace of the assembly. The glad tidings bring us into so many things. This is really part of the testimony at the present time that the Lord is supporting despite breakdown and failure."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "I think it is important. The testimony of our Lord is maintained by those who are subject to the Lord. Is He Lord to me? The testimony to Him is maintained by those to whom He is manifestly their Lord. Many believers speak of Jesus, Jesus saying and doing and teaching, and leaving us a model, but you do not always hear that expression ‘the Lord Jesus’. That expression excludes our own wills, does it not? It means that we have come into subjection to Him, to His Person."
+     "speaker": "TJH",
+     "text": [
+      "So the glad tidings would have in mind testimony. In writing the letter to Timothy, Paul speaks of the “life which is in Christ Jesus” and he then speaks of three further things; “grace, mercy, peace, from God the Father” towards Timothy. The testimony would be involved in that, and then, “God has not given us a spirit of cowardice”, but three more things – “of power, and of love, and of wise discretion”. I wonder if all these things are included in the idea of testimony."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "I think that is very helpful and very instructive. It links to what we were saying earlier as to doing the will of Another. When I become subject to Jesus as my Lord, I come under His authority, and I find that His authority and direction leads to what is much greater than anything I can do for myself. I come on to ground where I find abundance of support and blessing, the abundance of resource available in the circle of fellowship. It is all under the hand and headship of the One who is our Lord."
+     "speaker": "DS",
+     "text": [
+      "That is very helpful. Grace and mercy and peace are resources which come from God Himself. As we lay hold of these things, our spirits will be strengthened so that there is power. I need to rely on the resource which is outside of myself in order that the testimony may continue. As our brother said, this is not ‘our testimony’; it is “the testimony of our Lord”. The power remains the same as at Pentecost when the Spirit came. It never diminishes, and it will never break down. But the question is whether I am having my part in it."
+     ]
     },
     {
-     "speaker": "S.E.",
-     "text": "John 9 helps us to see that divine Persons never leave us. The man there was cast out (v.35), but the Lord found him. It is encouraging that divine Persons never leave the believer."
+     "speaker": "PM",
+     "text": [
+      "Because it is the testimony of the Lord, and because it is held in the power of the Spirit, it cannot break down. But as you say, the question is whether I am livingly in it. How do I come livingly into it? Is it through occupation with the Man who was and is the testimony?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "Believers here are the testimony on earth at the present moment. If I hold Jesus as my Lord, He will support me in the testimony. Owning Him as Lord means that you recognise His authority, and you appreciate every feature that He showed when He was here as a Man. You also acknowledge that nothing that is in Christ can break down. We may break down, but if we subject ourselves to the Lord and draw on the power of the Spirit, we will be sustained. There is breakdown around in the church publicly, but that is because it has passed into the hands of man, with man’s will taking over from God’s will. What is owned by the Lord Jesus remains, and that is a most encouraging thing."
+     "speaker": "DS",
+     "text": [
+      "Christianity is not an abstract matter but it is in a blessed, living Man. We referred earlier to “leaving you a model that ye should follow in his steps”, 1 Pet.2:21. We need to be occupied with the Man who was the testimony when He was here. The more we are taken up with Him by the power of the Spirit, the more attractive He becomes to us. I am abstracted from the things of the world by spiritual power in the strength of the Holy Spirit. He helps me to hold my affections in relation to the will of God, and will help me to appreciate the purpose of God. That takes me far beyond things down here that are subject to failure."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "It seems to be linked too with the glad tidings. Paul speaks of “the appearing of our Saviour Jesus Christ, who has annulled death, and brought to light life and incorruptibility by the glad tidings”. Then he says, “For which cause also I suffer these things; but I am not ashamed”. Do you think there is a link between what you are saying and the glad tidings?"
+     "speaker": "DAB",
+     "text": [
+      "I was noticing that this reference in verse 7 is to our spirits, it is not a reference directly to the Spirit of God, but to our spirits. The spirit of man is given by God and it returns to God, but I was thinking that God has given to believers not only the knowledge and the assurance that there are resources available, but He has actually formed the spirit of man for the path that He has called us to in the testimony."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "The glad tidings has great scope, and the testimony relates to it. It is good to grow in our appreciation of what the glad tidings are. They not only deal with the saving of my soul, wonderful as that is, but extend to our coming under the Saviour’s lordship, and into the realm of the Spirit’s operations, into the grace of the assembly. The glad tidings bring us into so many things. This is really part of the testimony at the present time that the Lord is supporting despite breakdown and failure."
+     "speaker": "DS",
+     "text": [
+      "How do we lay hold of the help of the Holy Spirit in the exercises we are speaking of?"
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "So the glad tidings would have in mind testimony. In writing the letter to Timothy, Paul speaks of the “life which is in Christ Jesus” and he then speaks of three further things; “grace, mercy, peace, from God the Father” towards Timothy. The testimony would be involved in that, and then, “God has not given us a spirit of cowardice”, but three more things – “of power, and of love, and of wise discretion”. I wonder if all these things are included in the idea of testimony."
+     "speaker": "DAB",
+     "text": [
+      "We were speaking about feeding on the word of God to build up a spiritual constitution; the food is intended to produce that result. If I am weak in testimony, it may be down to my lack of nourishment, so that my spirit is not really formed according to that which I have been brought to by God."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "That is very helpful. Grace and mercy and peace are resources which come from God Himself. As we lay hold of these things, our spirits will be strengthened so that there is power. I need to rely on the resource which is outside of myself in order that the testimony may continue. As our brother said, this is not ‘our testimony’; it is “the testimony of our Lord”. The power remains the same as at Pentecost when the Spirit came. It never diminishes, and it will never break down. But the question is whether I am having my part in it."
+     "speaker": "DS",
+     "text": [
+      "So feeding on Christ and the word of God builds up a constitution in the believer that enables me to move in power in the testimony: that is very instructive."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Because it is the testimony of the Lord, and because it is held in the power of the Spirit, it cannot break down. But as you say, the question is whether I am livingly in it. How do I come livingly into it? Is it through occupation with the Man who was and is the testimony?"
+     "speaker": "TJH",
+     "text": [
+      "Paul’s reference to the spirit that God has given us includes power, and of love, and of wise discretion, in that order. Could you help us as to that?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "Christianity is not an abstract matter but it is in a blessed, living Man. We referred earlier to “leaving you a model that ye should follow in his steps”, 1 Pet.2:21. We need to be occupied with the Man who was the testimony when He was here. The more we are taken up with Him by the power of the Spirit, the more attractive He becomes to us. I am abstracted from the things of the world by spiritual power in the strength of the Holy Spirit. He helps me to hold my affections in relation to the will of God, and will help me to appreciate the purpose of God. That takes me far beyond things down here that are subject to failure."
+     "speaker": "DS",
+     "text": [
+      "The constitution of the believer is built up so that it is expressed in this matter, “not … of cowardice”. The Lord never moved here as afraid of anything, not only because of what He was in His Person, speaking reverently and carefully, but as a dependent Man He moved in relation to the will of His Father, found His food in the word of God and moved under the hand of the Spirit. I will not move in cowardice if I know in my own soul what it is to have the resource of the Holy Spirit with me. And then “of power” is the power to move. We do not move in our own power: I know from my own experience that if I move in my own power I will fail miserably, and the enemy will defeat me. God does not give the Spirit with failure in mind. As believers we will come across many tests, but we experience the power of the Holy Spirit and He is able to bring us through. Then there is “love” and “wise discretion”. These features would be manifested in a believer’s life. He loves the testimony, he has love for souls, and comes to love everything that God loves under the hand of the Lord Jesus."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "I was noticing that this reference in verse 7 is to our spirits, it is not a reference directly to the Spirit of God, but to our spirits. The spirit of man is given by God and it returns to God, but I was thinking that God has given to believers not only the knowledge and the assurance that there are resources available, but He has actually formed the spirit of man for the path that He has called us to in the testimony."
+     "speaker": "TJH",
+     "text": [
+      "So that there is power in the love and in the wise discretion. We could have wise discretion of men, and that would be wrong, but love and wise discretion have to be exercised according to the power of the Spirit, do you think?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "How do we lay hold of the help of the Holy Spirit in the exercises we are speaking of?"
+     "speaker": "DAB",
+     "text": [
+      "And the believer formed in this way will answer to “a holy calling” as well. I was thinking of the effect of the resources that God provides for us. You see that in the temptations: reliance on divine resources will separate us from everything else upon which we might rely and on which we might feed."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "We were speaking about feeding on the word of God to build up a spiritual constitution; the food is intended to produce that result. If I am weak in testimony, it may be down to my lack of nourishment, so that my spirit is not really formed according to that which I have been brought to by God."
+     "speaker": "DS",
+     "text": [
+      "What God gives us in the Spirit has the effect of building us up constitutionally, step by step. We are diverted away from our own resource to prove the resources that are in Another."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "So feeding on Christ and the word of God builds up a constitution in the believer that enables me to move in power in the testimony: that is very instructive."
+     "speaker": "PM",
+     "text": [
+      "So the Spirit “bears witness with our spirit, that we are children of God”, Rom.8:16. We do not belong here; we belong to God."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "Paul’s reference to the spirit that God has given us includes power, and of love, and of wise discretion, in that order. Could you help us as to that?"
+     "speaker": "DS",
+     "text": [
+      "It is very instructive, and again we see confirmation in the life of the believer. The youngest believer here who relies on the Spirit of God will have a sense of triumph in his or her own soul when they act in relation to the will of God. It stands in relation to another Man in another world."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "The constitution of the believer is built up so that it is expressed in this matter, “not … of cowardice”. The Lord never moved here as afraid of anything, not only because of what He was in His Person, speaking reverently and carefully, but as a dependent Man He moved in relation to the will of His Father, found His food in the word of God and moved under the hand of the Spirit. I will not move in cowardice if I know in my own soul what it is to have the resource of the Holy Spirit with me. And then “of power” is the power to move. We do not move in our own power: I know from my own experience that if I move in my own power I will fail miserably, and the enemy will defeat me. God does not give the Spirit with failure in mind. As believers we will come across many tests, but we experience the power of the Holy Spirit and He is able to bring us through. Then there is “love” and “wise discretion”. These features would be manifested in a believer’s life. He loves the testimony, he has love for souls, and comes to love everything that God loves under the hand of the Lord Jesus."
+     "speaker": "GW",
+     "text": [
+      "I find one of the greatest exercises is how much I know of the manna. The manna was given afresh every morning. It did not lie on the sand of the desert itself, but on the dew or moisture of the ground (Num.11:9). I was thinking how the dew would speak of the Spirit. Each of us has a personal responsibility to gather up needed food. I feel it is good to appeal to the young people that it is vitally necessary to have that heavenly food. What you are saying as to being in the testimony is vital for the wilderness path. Perhaps you could open this up."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "So that there is power in the love and in the wise discretion. We could have wise discretion of men, and that would be wrong, but love and wise discretion have to be exercised according to the power of the Spirit, do you think?"
+     "speaker": "DS",
+     "text": [
+      "What you are bringing out as to the manna is a very good illustration. It is to be taken morning by morning. It speaks to us of Christ, that character of Man who was here. The more we feed on Him the more we will become like Him. It is a well-known thought in the world, that you become like the company you keep, and the believer as keeping company with this blessed Man becomes like Him. We are formed after Him and in relation to the will of God. That means the believer’s constitution changes. He comes out as one who has a spirit “of power, and of love, and of wise discretion”, and he is not ashamed of the testimony of his Lord. We all know in our histories what it is to be ashamed because we have not stood faithfully in relation to the Lord Jesus, who is far greater and more attractive than the world or anything in it. But Paul was able to stand against the world and he was encouraging Timothy to do so as well. The apostle’s words would encourage every one of us to stand for the testimony of our Lord."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "And the believer formed in this way will answer to “a holy calling” as well. I was thinking of the effect of the resources that God provides for us. You see that in the temptations: reliance on divine resources will separate us from everything else upon which we might rely and on which we might feed."
+     "speaker": "AM",
+     "text": [
+      "Does the apostle put himself as an example when he says, “I am not ashamed; for I know whom I have believed”? Is that not the secret of the testimony? The testimony is Christ, and Paul says, ‘I know Him!’ How much do we know Him, how well do we know Him?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "What God gives us in the Spirit has the effect of building us up constitutionally, step by step. We are diverted away from our own resource to prove the resources that are in Another."
+     "speaker": "DS",
+     "text": [
+      "“I am not ashamed; for I know whom I have believed”. This is not something that is merely in a book, it is knowledge of a blessed living Man. As you say, the exercise for every one of us is, how well do I know Him? Young and old, we all know Him as our Saviour, and that is a wonderful thing, but do I know Him as my Lord? And am I ashamed to give testimony at school or in the workplace or wherever I may be to the greatness of this Person, who is able to sustain me against every obstacle that the enemy would put in my way?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "So the Spirit “bears witness with our spirit, that we are children of God”, Rom.8:16. We do not belong here; we belong to God."
+     "speaker": "DB",
+     "text": [
+      "If we are going to be in the testimony the only way is “to live … by every word of God”. There is not an alternative. It raises an exercise with me as to how well I know the word of God. We refer to the Scriptures as the word of God, and they speak of Christ. If I do not know the Scriptures, I will fail. I wondered if it linked with your scripture in Timothy, “Have an outline of sound words”. How well do I know the Scriptures?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "It is very instructive, and again we see confirmation in the life of the believer. The youngest believer here who relies on the Spirit of God will have a sense of triumph in his or her own soul when they act in relation to the will of God. It stands in relation to another Man in another world."
+     "speaker": "DS",
+     "text": [
+      "Very instructive; how much do I know the living word of God? It is good to read it, it is good to ponder it morning by morning, and to take a verse of scripture which you can feed on. It helps us throughout the day because God’s word builds up the constitution of the believer."
+     ]
     },
     {
-     "speaker": "G.W.",
-     "text": "I find one of the greatest exercises is how much I know of the manna. The manna was given afresh every morning. It did not lie on the sand of the desert itself, but on the dew or moisture of the ground (Num.11:9). I was thinking how the dew would speak of the Spirit. Each of us has a personal responsibility to gather up needed food. I feel it is good to appeal to the young people that it is vitally necessary to have that heavenly food. What you are saying as to being in the testimony is vital for the wilderness path. Perhaps you could open this up."
+     "speaker": "RWMcC",
+     "text": [
+      "Just linking with what our brothers have said, the scripture that the Lord quotes from is in Deuteronomy 8:3, “And he humbled thee, and suffered thee to hunger, and fed thee with the manna, which thou hadst not known, and which thy fathers knew not; that he might make thee know that man doth not live by bread alone, but by everything that goeth out of the mouth of Jehovah doth man live”. These are wonderfully tender expressions of God in the second giving of the law."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "What you are bringing out as to the manna is a very good illustration. It is to be taken morning by morning. It speaks to us of Christ, that character of Man who was here. The more we feed on Him the more we will become like Him. It is a well-known thought in the world, that you become like the company you keep, and the believer as keeping company with this blessed Man becomes like Him. We are formed after Him and in relation to the will of God. That means the believer’s constitution changes. He comes out as one who has a spirit “of power, and of love, and of wise discretion”, and he is not ashamed of the testimony of his Lord. We all know in our histories what it is to be ashamed because we have not stood faithfully in relation to the Lord Jesus, who is far greater and more attractive than the world or anything in it. But Paul was able to stand against the world and he was encouraging Timothy to do so as well. The apostle’s words would encourage every one of us to stand for the testimony of our Lord."
+     "speaker": "DS",
+     "text": [
+      "It shows the feelings of God towards man in dependence. God knows our failures; He knows what we are made of; He knows our weakness yet in His tender grace He gives what we need. It is good for the young to understand that God is not against us, but God is for us and the supply that God gives is the proof of His love. The giving of the Lord Jesus, the giving of the Spirit and the giving of God’s grace every day to sustain us, are proofs of the love of God and that He is able to sustain His people here in the wilderness.",
+      "I thought we might get some help in John 16. The scripture speaks of “demonstration to the world”. This is consequent on the Lord Jesus going away, going up into glory. The Lord Himself was the testimony when He was here, but now the testimony here is under the hand of the Spirit. “And having come, he will bring demonstration to the world, of sin, and of righteousness, and of judgment: of sin, because they do not believe on me; of righteousness, because I go away to my Father, and ye behold me no longer; of judgment, because the ruler of this world is judged.” It goes on to speak of the “the Spirit of truth”. These are truths that the saints by the Spirit can lay hold of, and they bring demonstration by the Spirit. The Spirit is here indwelling the believer, indwelling the assembly, and there is a powerful testimony to the world of the demonstration of sin and of righteousness and of judgment. There will always be current speaking as long as the Spirit is here. We have to keep ourselves in the testimony where divine resources are available, in relation to the word of God and in relation to the Spirit."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Does the apostle put himself as an example when he says, “I am not ashamed; for I know whom I have believed”? Is that not the secret of the testimony? The testimony is Christ, and Paul says, ‘I know Him!’ How much do we know Him, how well do we know Him?"
+     "speaker": "PM",
+     "text": [
+      "Would the demonstration referred to in these verses be in believers who have the Spirit? He says He will come to you and “having come, he will bring demonstration to the world”. Does that raise the question as to the holy calling that our brother referred to earlier, and as to how we move here, whether there is a demonstration?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "“I am not ashamed; for I know whom I have believed”. This is not something that is merely in a book, it is knowledge of a blessed living Man. As you say, the exercise for every one of us is, how well do I know Him? Young and old, we all know Him as our Saviour, and that is a wonderful thing, but do I know Him as my Lord? And am I ashamed to give testimony at school or in the workplace or wherever I may be to the greatness of this Person, who is able to sustain me against every obstacle that the enemy would put in my way?"
+     "speaker": "DS",
+     "text": [
+      "There are many demonstrations in the world today, but am I a demonstration of the fact that Christ is in glory and that the Spirit is here? That is the test for every one of us. How important that there should be a demonstration to the world of sin. There were those who had cast out Christ. The Lord goes on to say, “of righteousness, because I go away to my Father”. There is a testimony to the righteousness of the Man who is now seated at the right hand of the glory. Then “of judgment” because the enemy has been judged. These things are finalities in themselves, and it is a great thing for believers to bring demonstration of them in a world of confusion and breakdown. Where the enemy seems to have the upper hand, it is a wonderful matter that the Spirit is bringing demonstration in such circumstances."
+     ]
     },
     {
-     "speaker": "D.B.",
-     "text": "If we are going to be in the testimony the only way is “to live … by every word of God”. There is not an alternative. It raises an exercise with me as to how well I know the word of God. We refer to the Scriptures as the word of God, and they speak of Christ. If I do not know the Scriptures, I will fail. I wondered if it linked with your scripture in Timothy, “Have an outline of sound words”. How well do I know the Scriptures?"
+     "speaker": "PM",
+     "text": [
+      "These three aspects are all in relation to what the Lord Jesus has done. So that demonstration is perfect in Himself, but it is to continue in believers."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "Very instructive; how much do I know the living word of God? It is good to read it, it is good to ponder it morning by morning, and to take a verse of scripture which you can feed on. It helps us throughout the day because God’s word builds up the constitution of the believer."
+     "speaker": "DS",
+     "text": [
+      "That is very instructive. What was seen perfectly in the Lord Jesus here as the dependent Man is carried forward not in weakness, but in the Spirit’s power. There is no weakening because of Christ going into glory: “I will beg the Father, and he will give you another Comforter, that he may be with you for ever”, John 14:16. It is a wonderful triumph that because the Lord has gone into glory there is a power here that is as great as the power when Christ was here as a dependent Man. That power sustains the testimony to the world now in the assembly and in believers individually, as when Christ was here."
+     ]
     },
     {
-     "text": "R.W.McC. Just linking with what our brothers have said, the scripture that the Lord quotes from is in Deuteronomy 8:3, “And he humbled thee, and suffered thee to hunger, and fed thee with the manna, which thou hadst not known, and which thy fathers knew not; that he might make thee know that man doth not live by bread alone, but by everything that goeth out of the mouth of Jehovah doth man live”. These are wonderfully tender expressions of God in the second giving of the law."
+     "speaker": "OM",
+     "text": [
+      "We read in the week that “the mind of the flesh is death; but the mind of the Spirit life and peace”, Rom.8:6. Is that where the Holy Spirit is leading us?"
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "It shows the feelings of God towards man in dependence. God knows our failures; He knows what we are made of; He knows our weakness yet in His tender grace He gives what we need. It is good for the young to understand that God is not against us, but God is for us and the supply that God gives is the proof of His love. The giving of the Lord Jesus, the giving of the Spirit and the giving of God’s grace every day to sustain us, are proofs of the love of God and that He is able to sustain His people here in the wilderness."
+     "speaker": "DS",
+     "text": [
+      "It is the two lines, the mind of the flesh is death, the mind of the Spirit is life and peace. The believer under the hand of the Spirit is maintained in an area of life and peace, where there is no breakdown from the divine side. We get so used to breakdown and failure that we become accustomed to it, but if we relate ourselves to divine Persons we are in touch with what is not subject to breakdown or failure. Nothing entrusted to the Lord Jesus or to the Holy Spirit will fail. It will be carried through in power. Let us relate ourselves to that. I will find strength in the testimony if I do so."
+     ]
     },
     {
-     "text": "I thought we might get some help in John 16. The scripture speaks of “demonstration to the world”. This is consequent on the Lord Jesus going away, going up into glory. The Lord Himself was the testimony when He was here, but now the testimony here is under the hand of the Spirit. “And having come, he will bring demonstration to the world, of sin, and of righteousness, and of judgment: of sin, because they do not believe on me; of righteousness, because I go away to my Father, and ye behold me no longer; of judgment, because the ruler of this world is judged.” It goes on to speak of the “the Spirit of truth”. These are truths that the saints by the Spirit can lay hold of, and they bring demonstration by the Spirit. The Spirit is here indwelling the believer, indwelling the assembly, and there is a powerful testimony to the world of the demonstration of sin and of righteousness and of judgment. There will always be current speaking as long as the Spirit is here. We have to keep ourselves in the testimony where divine resources are available, in relation to the word of God and in relation to the Spirit."
+     "speaker": "RJF",
+     "text": [
+      "Is the objective of the testimony to glorify Christ? We have here in verse 14 as to the Spirit, “He shall glorify me”."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Would the demonstration referred to in these verses be in believers who have the Spirit? He says He will come to you and “having come, he will bring demonstration to the world”. Does that raise the question as to the holy calling that our brother referred to earlier, and as to how we move here, whether there is a demonstration?"
-    },
-    {
-     "speaker": "D.S.",
-     "text": "There are many demonstrations in the world today, but am I a demonstration of the fact that Christ is in glory and that the Spirit is here? That is the test for every one of us. How important that there should be a demonstration to the world of sin. There were those who had cast out Christ. The Lord goes on to say, “of righteousness, because I go away to my Father”. There is a testimony to the righteousness of the Man who is now seated at the right hand of the glory. Then “of judgment” because the enemy has been judged. These things are finalities in themselves, and it is a great thing for believers to bring demonstration of them in a world of confusion and breakdown. Where the enemy seems to have the upper hand, it is a wonderful matter that the Spirit is bringing demonstration in such circumstances."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "These three aspects are all in relation to what the Lord Jesus has done. So that demonstration is perfect in Himself, but it is to continue in believers."
-    },
-    {
-     "speaker": "D.S.",
-     "text": "That is very instructive. What was seen perfectly in the Lord Jesus here as the dependent Man is carried forward not in weakness, but in the Spirit’s power. There is no weakening because of Christ going into glory: “I will beg the Father, and he will give you another Comforter, that he may be with you for ever”, John 14:16. It is a wonderful triumph that because the Lord has gone into glory there is a power here that is as great as the power when Christ was here as a dependent Man. That power sustains the testimony to the world now in the assembly and in believers individually, as when Christ was here."
-    },
-    {
-     "speaker": "O.M.",
-     "text": "We read in the week that “the mind of the flesh is death; but the mind of the Spirit life and peace”, Rom.8:6. Is that where the Holy Spirit is leading us?"
-    },
-    {
-     "speaker": "D.S.",
-     "text": "It is the two lines, the mind of the flesh is death, the mind of the Spirit is life and peace. The believer under the hand of the Spirit is maintained in an area of life and peace, where there is no breakdown from the divine side. We get so used to breakdown and failure that we become accustomed to it, but if we relate ourselves to divine Persons we are in touch with what is not subject to breakdown or failure. Nothing entrusted to the Lord Jesus or to the Holy Spirit will fail. It will be carried through in power. Let us relate ourselves to that. I will find strength in the testimony if I do so."
-    },
-    {
-     "speaker": "R.J.F.",
-     "text": "Is the objective of the testimony to glorify Christ? We have here in verse 14 as to the Spirit, “He shall glorify me”."
-    },
-    {
-     "speaker": "D.S.",
-     "text": "It says, “he will announce to you what is coming”. It is a wonderful thing that the Spirit is always bringing before the saints what is current in the present day. When the Lord says that “he shall receive of mine and shall announce it to you”, that shows how the Lord Jesus was looking forward to a blessed Person here, the Holy Spirit, keeping His own in touch livingly with Him, a Man in glory. That surely strengthens the testimony, it strengthens the living character of what goes on in the hearts of the saints. There is something being built up constitutionally in the hearts of men and women by the help of the Spirit, in life. The enemy is defeated; the truth never fails and it will go right on to the end."
-    },
-    {
-     "text": "May we be encouraged in these things."
+     "speaker": "DS",
+     "text": [
+      "It says, “he will announce to you what is coming”. It is a wonderful thing that the Spirit is always bringing before the saints what is current in the present day. When the Lord says that “he shall receive of mine and shall announce it to you”, that shows how the Lord Jesus was looking forward to a blessed Person here, the Holy Spirit, keeping His own in touch livingly with Him, a Man in glory. That surely strengthens the testimony, it strengthens the living character of what goes on in the hearts of the saints. There is something being built up constitutionally in the hearts of men and women by the help of the Spirit, in life. The enemy is defeated; the truth never fails and it will go right on to the end.",
+      "May we be encouraged in these things."
+     ]
     }
    ]
   },
@@ -512,34 +690,146 @@
     },
     {
      "speaker": "JBS",
-     "text": "Letters Vol.2 p.35"
-    },
-    {
-     "text": "Edited and published monthly by Alistair Brown and Paul Martin"
-    },
-    {
-     "text": "Additional copies are available, free of charge, by emailing"
-    },
-    {
-     "text": "notesofministry@virginmedia.com or paul@nofm.co.uk"
-    },
-    {
-     "text": "27 Grange View Linlithgow EH49 7HY"
-    },
-    {
-     "text": "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ"
-    },
-    {
-     "text": "Notes"
-    },
-    {
-     "text": "[←1]"
+     "text": [
+      "Letters Vol.2 p.35",
+      "Edited and published monthly by Alistair Brown and Paul Martin",
+      "Additional copies are available, free of charge, by emailing",
+      "notesofministry@virginmedia.com or paul@nofm.co.uk",
+      "27 Grange View Linlithgow EH49 7HY",
+      "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ",
+      "Notes",
+      "[←1]"
+     ]
     },
     {
      "speaker": "JT",
-     "text": "New Series Vol.7 p.201"
+     "text": [
+      "New Series Vol.7 p.201"
+     ]
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"David Bailey Maidstone\" read as David Bailey, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Roland H Brown Maidstone\" read as Roland H Brown, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"D Andrew Burr West Norwood\" read as D Andrew Burr, West Norwood"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Brian Clark Maidstone\" read as Brian Clark, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alan A Croot Sidcup\" read as Alan A Croot, Sidcup"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Stephen T Eagle Dorking\" read as Stephen T Eagle, Dorking"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Roland J Flowerdew Sunbury\" read as Roland J Flowerdew, Sunbury"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Trevor J Harvey East Finchley\" read as Trevor J Harvey, East Finchley"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Andrew Martin Buckhurst Hill\" read as Andrew Martin, Buckhurst Hill"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Paul Martin Colchester\" read as Paul Martin, Colchester"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Keith May Maidstone\" read as Keith May, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Nigel May Maidstone\" read as Nigel May, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Owen May Maidstone\" read as Owen May, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Robert W McClean Grimsby\" read as Robert W McClean, Grimsby"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"David Spinks Bo’ness\" read as David Spinks, Bo’ness"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Jim R Walkinshaw Maidstone\" read as Jim R Walkinshaw, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "no_comma_before_place",
+   "detail": "\"Grant Wallace Sidcup\" read as Grant Wallace, Sidcup"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "initials_before_name",
+   "detail": "17 entries written as initials then name (\"DB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "speaker_not_in_key",
+   "detail": "ACC (2 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "THE TESTIMONY AND THE WILL OF GOD",
+   "kind": "speaker_matched_loosely",
+   "detail": "SE used in the text for Stephen T Eagle (key gives STE)"
   }
  ]
 }

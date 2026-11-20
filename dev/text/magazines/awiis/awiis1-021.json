@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,234 +26,244 @@
    "place": "London",
    "date": "19 October 1974",
    "speakers": [
-    "J.R.",
-    "A.J.E.W.",
-    "R.S.R.",
-    "E.C.B.",
-    "G.W.B.",
-    "F.C.M.",
-    "S.G.S.",
-    "C.H.",
-    "F.N.S.",
-    "L.A.B.",
-    "S.D.K.R.",
-    "S.C.",
-    "E.M.W.",
-    "A.A.B.",
-    "J.A.P.",
-    "H.A.H.",
-    "P.J.H.",
-    "E.T.M.",
-    "N.T.M.",
-    "D.L.S.",
-    "A.C.C.",
-    "R.S.",
-    "J.S.",
-    "P.H.B.",
-    "C.W.H.",
-    "C.F.D.",
-    "E.J.J.",
-    "R.D.P.",
-    "D.E.R.",
-    "B.W.W.",
-    "W.C.L.",
-    "A.K.T.",
-    "W.L.",
-    "H.C.H.",
-    "A.B.",
-    "R.J.C.",
-    "C.B.",
-    "J.C.E.",
-    "D.H.",
-    "J.A.T.",
-    "E.P.",
-    "C.G.H.",
-    "C.M."
+    "JR",
+    "AJEW",
+    "RSR",
+    "ECB",
+    "GWB",
+    "FCM",
+    "SGS",
+    "CH",
+    "FNS",
+    "LAB",
+    "SDKR",
+    "SC",
+    "EMW",
+    "AAB",
+    "JAP",
+    "HAH",
+    "PJH",
+    "ETM",
+    "NTM",
+    "DLS",
+    "ACC",
+    "RS",
+    "JS",
+    "PHB",
+    "CWH",
+    "CFD",
+    "EJJ",
+    "RDP",
+    "DER",
+    "BWW",
+    "WCL",
+    "AKT",
+    "WL",
+    "HCH",
+    "AB",
+    "RJC",
+    "CB",
+    "WMcK",
+    "JCE",
+    "DH",
+    "JAT",
+    "EP",
+    "CGH",
+    "CM"
    ],
    "initials": [
     {
-     "initials": "AABAAB",
-     "name": "A.A.B. A.A.Bellamy"
+     "initials": "AAB",
+     "name": "A.A.Bellamy"
     },
     {
-     "initials": "ABAB",
-     "name": "A.B. A.Becker"
+     "initials": "AB",
+     "name": "A.Becker"
     },
     {
-     "initials": "CBCB",
-     "name": "C.B. C.Beale"
+     "initials": "CB",
+     "name": "C.Beale"
     },
     {
-     "initials": "ECBECB",
-     "name": "E.C.B. E.C.Burr"
+     "initials": "ECB",
+     "name": "E.C.Burr"
     },
     {
-     "initials": "GWBGWB",
-     "name": "G.W.B. G.W.Brown"
+     "initials": "GWB",
+     "name": "G.W.Brown"
     },
     {
-     "initials": "LABLAB",
-     "name": "L.A.B. L A.Barlow"
+     "initials": "LAB",
+     "name": "L A.Barlow"
     },
     {
-     "initials": "PHBPHB",
-     "name": "P.H.B. P.Harley Buchan"
+     "initials": "PHB",
+     "name": "P.Harley Buchan"
     },
     {
-     "initials": "PBPB",
-     "name": "P.vd.B. P van den Berg"
+     "initials": "PvdB",
+     "name": "P van den Berg"
     },
     {
-     "initials": "ACCACC",
-     "name": "A.C.C. A.C.Craig"
+     "initials": "ACC",
+     "name": "A.C.Craig"
     },
     {
-     "initials": "RJCRJC",
-     "name": "R.J.C. R.J.Campbell"
+     "initials": "RJC",
+     "name": "R.J.Campbell"
     },
     {
-     "initials": "SCSC",
-     "name": "S.C. S.Chapman"
+     "initials": "SC",
+     "name": "S.Chapman"
     },
     {
-     "initials": "CFDCFD",
-     "name": "C.F.D. C.F.Dadd"
+     "initials": "CFD",
+     "name": "C.F.Dadd"
     },
     {
-     "initials": "JCEJCE",
-     "name": "J.C.E. J.C.Evershed"
+     "initials": "JCE",
+     "name": "J.C.Evershed"
     },
     {
-     "initials": "CHCH",
-     "name": "C.H. C.Hammond"
+     "initials": "CH",
+     "name": "C.Hammond"
     },
     {
-     "initials": "CGHCGH",
-     "name": "C.G.H. C.G.Hitchcock"
+     "initials": "CGH",
+     "name": "C.G.Hitchcock"
     },
     {
-     "initials": "CWHCWH",
-     "name": "C.W.H. C.W.Hedges"
+     "initials": "CWH",
+     "name": "C.W.Hedges"
     },
     {
-     "initials": "DHDH",
-     "name": "D.H. D.Howie"
+     "initials": "DH",
+     "name": "D.Howie"
     },
     {
-     "initials": "HAHAH",
-     "name": "H.A.H. .A.Hutson"
+     "initials": "HAHA",
+     "name": "H. A. H. .A.",
+     "place": "Hutson"
     },
     {
-     "initials": "HCHHCH",
-     "name": "H.C.H. H.C.Hatcher"
+     "initials": "HCH",
+     "name": "H.C.Hatcher"
     },
     {
-     "initials": "PJHPJH",
-     "name": "P.J.H. P.J.Herbert"
+     "initials": "PJH",
+     "name": "P.J.Herbert"
     },
     {
-     "initials": "EJJEJJ",
-     "name": "E.J.J. E.J.Jarvis"
+     "initials": "EJJ",
+     "name": "E.J.Jarvis"
     },
     {
-     "initials": "WCLWCL",
-     "name": "W.C.L. W.C.Lock"
+     "initials": "WCL",
+     "name": "W.C.Lock"
     },
     {
-     "initials": "WLWL",
-     "name": "W.L. W.Lamont"
+     "initials": "WL",
+     "name": "W.Lamont"
     },
     {
-     "initials": "ETMETM",
-     "name": "E.T.M. E.T.Maynard"
+     "initials": "ETM",
+     "name": "E.T.Maynard"
     },
     {
-     "initials": "CMCM",
-     "name": "C.M. C.Middleton"
+     "initials": "CM",
+     "name": "C.Middleton"
     },
     {
-     "initials": "FCMFCM",
-     "name": "F.C.M. F.C.Mutton"
+     "initials": "FCM",
+     "name": "F.C.Mutton"
     },
     {
-     "initials": "JM",
-     "name": "l. J.Mitchell"
+     "initials": "NTM",
+     "name": "N.T.Meek"
     },
     {
-     "initials": "NTMNTM",
-     "name": "N.T.M. N.T.Meek"
+     "initials": "WMcK",
+     "name": "W.McKay"
     },
     {
-     "initials": "WMWM",
-     "name": "W.McK. W.McKay"
+     "initials": "EP",
+     "name": "E.Palmer"
     },
     {
-     "initials": "EPEP",
-     "name": "E.P. E.Palmer"
+     "initials": "JAP",
+     "name": "J.A.Petersen"
     },
     {
-     "initials": "JAPJAP",
-     "name": "J.A.P. J.A.Petersen"
+     "initials": "RDP",
+     "name": "R.D.Plant"
     },
     {
-     "initials": "RDPRDP",
-     "name": "R.D.P. R.D.Plant"
+     "initials": "DER",
+     "name": "D.E.Remmington"
     },
     {
-     "initials": "DERDER",
-     "name": "D.E.R. D.E.Remmington"
+     "initials": "FvR",
+     "name": "F.vonRein"
     },
     {
-     "initials": "FRF",
-     "name": "F.v.R. F.vonRein"
+     "initials": "JR",
+     "name": "J.Renton"
     },
     {
-     "initials": "JRJR",
-     "name": "J.R. J.Renton"
+     "initials": "RSR",
+     "name": "R.S.Renton"
     },
     {
-     "initials": "RSRRSR",
-     "name": "R.S.R. R.S.Renton"
+     "initials": "SDKR",
+     "name": "S.D.K.Roberts"
     },
     {
-     "initials": "SDKRSDKRDLSDLS",
-     "name": "S.D.K.R. S.D.K.Roberts D.L.S. D.L.Stewart"
+     "initials": "DLS",
+     "name": "D.L.Stewart"
     },
     {
-     "initials": "FNSFNSJSJS",
-     "name": "F.N.S. F.N.Stickland: J.S. J.Small"
+     "initials": "FNS",
+     "name": "F.N.Stickland"
     },
     {
-     "initials": "RSRS",
-     "name": "R.S. R.Swan"
+     "initials": "JS",
+     "name": "J.Small"
     },
     {
-     "initials": "SGSSGS",
-     "name": "S.G.S. S.G.Samways"
+     "initials": "RS",
+     "name": "R.Swan"
     },
     {
-     "initials": "ATAT",
-     "name": "A.T. A.Thomas"
+     "initials": "SGS",
+     "name": "S.G.Samways"
     },
     {
-     "initials": "AKTAKT",
-     "name": "A.K.T. A.K.Turner"
+     "initials": "AT",
+     "name": "A.Thomas"
     },
     {
-     "initials": "JATJAT",
-     "name": "J.A.T. J.A.Turner"
+     "initials": "AKT",
+     "name": "A.K.Turner"
     },
     {
-     "initials": "AJEWAJEW",
-     "name": "A.J.E.W. A.J.E.Welch"
+     "initials": "JAT",
+     "name": "J.A.Turner"
     },
     {
-     "initials": "BWWBWW",
-     "name": "B.W.W. B.W.Ward"
+     "initials": "AJEW",
+     "name": "A.J.E.Welch"
     },
     {
-     "initials": "EMWEMW",
-     "name": "E.M.W. E.M.Walkinshaw"
+     "initials": "BWW",
+     "name": "B.W.Ward"
+    },
+    {
+     "initials": "EMW",
+     "name": "E.M.Walkinshaw"
+    },
+    {
+     "initials": "HAH",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials:",
@@ -262,769 +272,1119 @@
    ],
    "paragraphs": [
     {
-     "speaker": "J.R.",
-     "text": "The Lord may help us to consider His provision in view of sin coming in, in view of failure on our part. Where would any of us be, or where would any of our localities be, if the Lord had not made ample provision for failure and breakdown? The Lord has foreseen what we needed and made certain arrangements for us, that when there is sin or failure on our side, there is a remedy, there is an answer to it. There is provision made for sin coming in between brother and brother, or, of course, between sister and sister; there is provision made for offence being settled between them according to the divine standard. If that does not succeed there is something in reserve, that is one or two besides, and then the great reserve is the assembly. I trust we may be helped to see how the assembly is available to us in this setting at the present time: \"Tell it to the assembly\". There is a certain level of things where there is the answer to every difficulty; whatever comes in, there is a full answer. We need to learn how to arrive at this, how the assembly is available, how it operates and how we come into the good and benefit of it in facing difficulties which come in, have come in and, if we are left here, very likely will come in. What do you say?"
+     "speaker": "JR",
+     "text": [
+      "The Lord may help us to consider His provision in view of sin coming in, in view of failure on our part. Where would any of us be, or where would any of our localities be, if the Lord had not made ample provision for failure and breakdown? The Lord has foreseen what we needed and made certain arrangements for us, that when there is sin or failure on our side, there is a remedy, there is an answer to it. There is provision made for sin coming in between brother and brother, or, of course, between sister and sister; there is provision made for offence being settled between them according to the divine standard. If that does not succeed there is something in reserve, that is one or two besides, and then the great reserve is the assembly. I trust we may be helped to see how the assembly is available to us in this setting at the present time: \"Tell it to the assembly\". There is a certain level of things where there is the answer to every difficulty; whatever comes in, there is a full answer. We need to learn how to arrive at this, how the assembly is available, how it operates and how we come into the good and benefit of it in facing difficulties which come in, have come in and, if we are left here, very likely will come in. What do you say?"
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It just affects me that the spirit of the new covenant enters into this. God has come in from His side in the work of Christ to resolve everything, and that is the point that is to govern us. Matters are not to be left, nor to be ignored, but to be resolved according to God, and the new covenant enters into that."
+     "speaker": "AJEW",
+     "text": [
+      "It just affects me that the spirit of the new covenant enters into this. God has come in from His side in the work of Christ to resolve everything, and that is the point that is to govern us. Matters are not to be left, nor to be ignored, but to be resolved according to God, and the new covenant enters into that."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure it does. We need to see that matters can be resolved. There is no matter that cannot be resolved."
+     "speaker": "JR",
+     "text": [
+      "I am sure it does. We need to see that matters can be resolved. There is no matter that cannot be resolved."
+     ]
     },
     {
-     "speaker": "R.S.R.",
-     "text": "In the beginning of the chapter the Lord Jesus called a little child to Him and set it in their midst and there is no suggestion that the child was taken away. Is that the spirit which would help us?"
+     "speaker": "RSR",
+     "text": [
+      "In the beginning of the chapter the Lord Jesus called a little child to Him and set it in their midst and there is no suggestion that the child was taken away. Is that the spirit which would help us?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, I am sure it would. If we had read the whole chapter we would have seen that in the first section down to verse 14 a little child is very much in mind: the Lord refers in verse 14 to \"one of these little ones\". A little child is in mind and not withdrawn throughout the whole chapter. You will notice that down to verse 20 is one statement of the Lord Jesus. \"The disciples came to Jesus saying, Who then is greatest in the kingdom of the heavens? And Jesus having called a little child to him, set it in their midst\" and began to speak, and His speaking is without interruption down to the end of verse 20. In verse 21 Peter has another question to ask, but down to verse 20 it is one statement of the Lord Jesus therefore it all hangs together. We read in verse 2, \"Jesus having called a little child to Him set it in their midst\", and in verse 20, ''Where two or three are gathered together unto my name, there am I in the midst of them\". There is a link between a little child being in their midst and “there am I in the midst of the them\". Do you think so?"
+     "speaker": "JR",
+     "text": [
+      "Yes, I am sure it would. If we had read the whole chapter we would have seen that in the first section down to verse 14 a little child is very much in mind: the Lord refers in verse 14 to \"one of these little ones\". A little child is in mind and not withdrawn throughout the whole chapter. You will notice that down to verse 20 is one statement of the Lord Jesus. \"The disciples came to Jesus saying, Who then is greatest in the kingdom of the heavens? And Jesus having called a little child to him, set it in their midst\" and began to speak, and His speaking is without interruption down to the end of verse 20. In verse 21 Peter has another question to ask, but down to verse 20 it is one statement of the Lord Jesus therefore it all hangs together. We read in verse 2, \"Jesus having called a little child to Him set it in their midst\", and in verse 20, ''Where two or three are gathered together unto my name, there am I in the midst of them\". There is a link between a little child being in their midst and “there am I in the midst of the them\". Do you think so?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, I do and it seems as if the Lord is really saying to them that this little child is exemplifying features of Myself. What Mr Welch said is of importance, because it is the same sense in which the spirit of the new covenant underlay the old covenant, God providing for sin being dealt with with grace on His side, was it not?"
+     "speaker": "ECB",
+     "text": [
+      "Yes, I do and it seems as if the Lord is really saying to them that this little child is exemplifying features of Myself. What Mr Welch said is of importance, because it is the same sense in which the spirit of the new covenant underlay the old covenant, God providing for sin being dealt with with grace on His side, was it not?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right; even in the old economy there was provision made for sin coming in, and there was an adequate answer to it which satisfied God; how much more in Christianity!"
+     "speaker": "JR",
+     "text": [
+      "That is right; even in the old economy there was provision made for sin coming in, and there was an adequate answer to it which satisfied God; how much more in Christianity!"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "If God had not provided means of dealing with things He would have to come in in judgment; but He has left a resource."
+     "speaker": "ECB",
+     "text": [
+      "If God had not provided means of dealing with things He would have to come in in judgment; but He has left a resource."
+     ]
     },
     {
-     "text": "G W.B. Do you understand verse 20 to apply to an expression of the assembly in any place? It behoves us to have great respect for the assembly in any place even if there be only two or three."
+     "speaker": "GWB",
+     "text": [
+      "Do you understand verse 20 to apply to an expression of the assembly in any place? It behoves us to have great respect for the assembly in any place even if there be only two or three."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. \"Again I say to you\", in verse 19, would make way for conditions in our own day. Down to verse 18 would be strictly applicable before the breakdown came in but \"Again I say to you\" makes provision for days such as we are in now."
+     "speaker": "JR",
+     "text": [
+      "Exactly. \"Again I say to you\", in verse 19, would make way for conditions in our own day. Down to verse 18 would be strictly applicable before the breakdown came in but \"Again I say to you\" makes provision for days such as we are in now."
+     ]
     },
     {
-     "speaker": "G.W.B.",
-     "text": "So that we must not give up any of the truth that we have been brought to in relation to the assembly, however few there may be in the locality."
+     "speaker": "GWB",
+     "text": [
+      "So that we must not give up any of the truth that we have been brought to in relation to the assembly, however few there may be in the locality."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "In connection with what you are saying, verse 17 says \"Tell it to the assembly\" and verse 18 says \"Whatsoever ye shall bind on the earth\". Who are the \"ye\"?"
+     "speaker": "JR",
+     "text": [
+      "In connection with what you are saying, verse 17 says \"Tell it to the assembly\" and verse 18 says \"Whatsoever ye shall bind on the earth\". Who are the \"ye\"?"
+     ]
     },
     {
-     "speaker": "G.W.B.",
-     "text": "The assembly, surely."
+     "speaker": "GWB",
+     "text": [
+      "The assembly, surely."
+     ]
     },
     {
-     "text": "J R. The \"ye\" would be the personnel of the assembly. The Lord then says in verse 19 \"Two of you\". These are the same kind of persons as He speaks about in verse 18, are they not? \"Whatsoever ye shall bind on the earth shall be bound in heaven\". The \"ye\" would be the personnel of the assembly. \"Again I say to you, that if two of you\", that is the same kind of persons coming through into our own day. Is that what you understand?"
+     "speaker": "JR",
+     "text": [
+      "The \"ye\" would be the personnel of the assembly. The Lord then says in verse 19 \"Two of you\". These are the same kind of persons as He speaks about in verse 18, are they not? \"Whatsoever ye shall bind on the earth shall be bound in heaven\". The \"ye\" would be the personnel of the assembly. \"Again I say to you, that if two of you\", that is the same kind of persons coming through into our own day. Is that what you understand?"
+     ]
     },
     {
-     "speaker": "G.W.B.",
-     "text": "It is the greatest comfort and support at the present time where there are only two or three in many places."
+     "speaker": "GWB",
+     "text": [
+      "It is the greatest comfort and support at the present time where there are only two or three in many places."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "It would not be going too far, would it, to say that the little child was still in their midst? The Lord had set it there and, as you say, it is one statement right through. So that the Lord would include the little child in the \"ye\" in the spirit and character of it."
+     "speaker": "AJEW",
+     "text": [
+      "It would not be going too far, would it, to say that the little child was still in their midst? The Lord had set it there and, as you say, it is one statement right through. So that the Lord would include the little child in the \"ye\" in the spirit and character of it."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is just it."
+     "speaker": "JR",
+     "text": [
+      "That is just it."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "So that, whilst accepting the humbling character of the public position, it is not assumption, should the sad necessity arise, to call a meeting of assembly character. I only remark that because some no longer with us call it claiming high ground, but this passage would emphasise the rightness of it and the necessity for it."
+     "speaker": "FCM",
+     "text": [
+      "So that, whilst accepting the humbling character of the public position, it is not assumption, should the sad necessity arise, to call a meeting of assembly character. I only remark that because some no longer with us call it claiming high ground, but this passage would emphasise the rightness of it and the necessity for it."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is just it. We would fail the Lord if we did not resort to assembly character when needed. To go on with sin would be dishonouring to the Lord."
+     "speaker": "JR",
+     "text": [
+      "I am sure that is just it. We would fail the Lord if we did not resort to assembly character when needed. To go on with sin would be dishonouring to the Lord."
+     ]
     },
     {
-     "speaker": "S.G.S.",
-     "text": "In that regard, referring to what we touched earlier yesterday - the mind of Christ - would we expect the Lord's mind about a matter?"
+     "speaker": "SGS",
+     "text": [
+      "In that regard, referring to what we touched earlier yesterday - the mind of Christ - would we expect the Lord's mind about a matter?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, I am sure that is so."
+     "speaker": "JR",
+     "text": [
+      "Yes, I am sure that is so."
+     ]
     },
     {
-     "speaker": "C.H.",
-     "text": "Does this suppose assembly-minded persons, persons who take heaven's view? It explains what you have enquired about in verses 18 and 19. Whilst there are the two or three, there is a qualification: \"Gathered together unto my name\"."
+     "speaker": "CH",
+     "text": [
+      "Does this suppose assembly-minded persons, persons who take heaven's view? It explains what you have enquired about in verses 18 and 19. Whilst there are the two or three, there is a qualification: \"Gathered together unto my name\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is right. The scripture in Deuteronomy speaks about the place which Jehovah will choose and, as is added in chapter 12, \"to set his name there\" (v 5). I think there is a link between the place that Jehovah has chosen to set His name there and \"unto my name\". \"Unto my name\" is not presumptive claiming, it really makes way for what the Lord can put His name to. What do you think?"
+     "speaker": "JR",
+     "text": [
+      "I am sure that is right. The scripture in Deuteronomy speaks about the place which Jehovah will choose and, as is added in chapter 12, \"to set his name there\" (v 5). I think there is a link between the place that Jehovah has chosen to set His name there and \"unto my name\". \"Unto my name\" is not presumptive claiming, it really makes way for what the Lord can put His name to. What do you think?"
+     ]
     },
     {
-     "speaker": "C.H.",
-     "text": "It involves moral qualifications because 'unto his name' eliminates every other name. I was thinking about Mr Welch's suggestion as to the covenant. You referred to verse 14: \"It is not the will of your Father who is in the heavens that one of these little ones should perish\". It means, do you think, that you have the Father's feelings as you approach the brother?"
+     "speaker": "CH",
+     "text": [
+      "It involves moral qualifications because 'unto his name' eliminates every other name. I was thinking about Mr Welch's suggestion as to the covenant. You referred to verse 14: \"It is not the will of your Father who is in the heavens that one of these little ones should perish\". It means, do you think, that you have the Father's feelings as you approach the brother?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is very helpful."
+     "speaker": "JR",
+     "text": [
+      "That is very helpful."
+     ]
     },
     {
-     "speaker": "F.N.S.",
-     "text": "Is there an identity between the \"two or three\", or the \"two of you\", and the \"those\" of 2 Timothy 2: 22? If we take any ground at all it is that we call upon the Lord out of a pure heart. That would involve having unmixed motives as to His own rights and claims, and this would make us morally qualified for being in this position that you are speaking about in Matthew 18, and in character have assembly features."
+     "speaker": "FNS",
+     "text": [
+      "Is there an identity between the \"two or three\", or the \"two of you\", and the \"those\" of 2 Timothy 2: 22? If we take any ground at all it is that we call upon the Lord out of a pure heart. That would involve having unmixed motives as to His own rights and claims, and this would make us morally qualified for being in this position that you are speaking about in Matthew 18, and in character have assembly features."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. It speaks in that chapter about the Master. \"If therefore one shall have purified himself from these, in separating himself from them, he shall be a vessel to honour , sanctified, serviceable to the Master, prepared for every good work. But youthful lusts flee, and pursue righteousness, faith, love, peace, with those that call upon the Lord out of a pure heart\" (vv 21, 22). Your suggestion is that these are the same kind of persons as the \"two of you\" or \"two or three... gathered together unto my name\". I think that puts the matter rightly."
+     "speaker": "JR",
+     "text": [
+      "Exactly. It speaks in that chapter about the Master. \"If therefore one shall have purified himself from these, in separating himself from them, he shall be a vessel to honour , sanctified, serviceable to the Master, prepared for every good work. But youthful lusts flee, and pursue righteousness, faith, love, peace, with those that call upon the Lord out of a pure heart\" (vv 21, 22). Your suggestion is that these are the same kind of persons as the \"two of you\" or \"two or three... gathered together unto my name\". I think that puts the matter rightly."
+     ]
     },
     {
-     "speaker": "L.A.B.",
-     "text": "Is the Lord's commendation of Philadelphia a link with this: \"not denied my name\", Rev 3: 8? I wondered whether it meant that in a day of breakdown there was the maintenance of the rights of the Lord here in this scene."
+     "speaker": "LAB",
+     "text": [
+      "Is the Lord's commendation of Philadelphia a link with this: \"not denied my name\", Rev 3: 8? I wondered whether it meant that in a day of breakdown there was the maintenance of the rights of the Lord here in this scene."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly, that is right."
+     "speaker": "JR",
+     "text": [
+      "Exactly, that is right."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "Regarding this passage, \"If thy brother sin against thee\", it has been claimed that this is only a personal matter. If a brother compromises the fellowship, is that a sin against me?"
+     "speaker": "SDKR",
+     "text": [
+      "Regarding this passage, \"If thy brother sin against thee\", it has been claimed that this is only a personal matter. If a brother compromises the fellowship, is that a sin against me?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I should think it is, if you get to know about it. Maybe nobody else knows about it but you know about it."
+     "speaker": "JR",
+     "text": [
+      "I should think it is, if you get to know about it. Maybe nobody else knows about it but you know about it."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "This passage amongst some has been ruled out in connection with matters affecting general fellowship, that it is only a person that has done something personally against me."
+     "speaker": "SDKR",
+     "text": [
+      "This passage amongst some has been ruled out in connection with matters affecting general fellowship, that it is only a person that has done something personally against me."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "In verse 21 it says, “Then Peter came to him and said, Lord, how often shall my brother sin against me and I forgive him? Until seven times? Jesus says to him, I say not to thee until seven times, but until seventy times seven\". That is a new covenant attitude. It is the attitude of forgiveness regarding personal matters."
+     "speaker": "JR",
+     "text": [
+      "In verse 21 it says, “Then Peter came to him and said, Lord, how often shall my brother sin against me and I forgive him? Until seven times? Jesus says to him, I say not to thee until seven times, but until seventy times seven\". That is a new covenant attitude. It is the attitude of forgiveness regarding personal matters."
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "That is helpful."
+     "speaker": "SDKR",
+     "text": [
+      "That is helpful."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "What do you think?"
+     "speaker": "JR",
+     "text": [
+      "What do you think?"
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "It almost seems as if Peter missed what the Lord had said. He \"came to him\" and asked a question which took the Lord back to the beginning of what He had said. The Lord said \"If thy brother sin against thee, go, reprove him between thee and him alone\" and Peter says \"How often\" shall he sin against me? What the Lord says to Peter would obviate the rest of the procedure because you would forgive him; but if it went on and it was not possible, it would have ultimately to come to the assembly. But there is something implicit in the question that Dr Roberts asked, that we easily tend to think it more important to deal with offences against ourselves than offences against the rights of Christ in the assembly, and we then get the thing the wrong way round."
+     "speaker": "ECB",
+     "text": [
+      "It almost seems as if Peter missed what the Lord had said. He \"came to him\" and asked a question which took the Lord back to the beginning of what He had said. The Lord said \"If thy brother sin against thee, go, reprove him between thee and him alone\" and Peter says \"How often\" shall he sin against me? What the Lord says to Peter would obviate the rest of the procedure because you would forgive him; but if it went on and it was not possible, it would have ultimately to come to the assembly. But there is something implicit in the question that Dr Roberts asked, that we easily tend to think it more important to deal with offences against ourselves than offences against the rights of Christ in the assembly, and we then get the thing the wrong way round."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is very helpful and very important."
+     "speaker": "JR",
+     "text": [
+      "That is very helpful and very important.",
+      "J.M-l. In regard to Dr Roberts' question, do you think that, if it is possible, priestly persons would cover matters, and the more that can be dealt with in this way the better? But then if matters have to be told they are told to the assembly."
+     ]
     },
     {
-     "text": "J.M-l. In regard to Dr Roberts' question, do you think that, if it is possible, priestly persons would cover matters, and the more that can be dealt with in this way the better? But then if matters have to be told they are told to the assembly."
+     "speaker": "JR",
+     "text": [
+      "That is the truth, the more things can be confined the better. If they can be satisfactorily settled in a confined way they are satisfactorily settled as far as God is concerned. Is that right?",
+      "J.M-l. I think so. Care should be taken not to tell things that involve individuals. Do you not think we should be very guarded as to matters becoming the subject of gossip, for instance?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is the truth, the more things can be confined the better. If they can be satisfactorily settled in a confined way they are satisfactorily settled as far as God is concerned. Is that right?"
+     "speaker": "JR",
+     "text": [
+      "It is \"thy brother\". It is a setting of the kingdom and discipleship, yet it involves the family feelings: \"thy brother\"."
+     ]
     },
     {
-     "text": "J.M-l. I think so. Care should be taken not to tell things that involve individuals. Do you not think we should be very guarded as to matters becoming the subject of gossip, for instance?"
+     "speaker": "CH",
+     "text": [
+      "Is it also priestly? You go to the brother in a priestly way to show the true nature of a thing; reprove means that. We do not go as legislators exactly but as those who have the Father 's feelings; and that involves giving place to the Spirit to show the true character of a thing, to help the brother to judge it if possible."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is \"thy brother\". It is a setting of the kingdom and discipleship, yet it involves the family feelings: \"thy brother\"."
+     "speaker": "JR",
+     "text": [
+      "That is very helpful. Your reference to verse 14 \"the will of your Father who is in the heavens\", is very interesting because it is \"thy brother\" in that relationship."
+     ]
     },
     {
-     "speaker": "C.H.",
-     "text": "Is it also priestly? You go to the brother in a priestly way to show the true nature of a thing; reprove means that. We do not go as legislators exactly but as those who have the Father 's feelings; and that involves giving place to the Spirit to show the true character of a thing, to help the brother to judge it if possible."
+     "speaker": "CH",
+     "text": [
+      "Quite so. As to Dr Roberts' question, it is after all a fellowship, a partnership, is it not?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is very helpful. Your reference to verse 14 \"the will of your Father who is in the heavens\", is very interesting because it is \"thy brother\" in that relationship."
+     "speaker": "JR",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "speaker": "C.H.",
-     "text": "Quite so. As to Dr Roberts' question, it is after all a fellowship, a partnership, is it not?"
+     "speaker": "SC",
+     "text": [
+      "If we keep more before us the family idea there would be more affection entering into our dealings with one another, would there not?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly."
+     "speaker": "JR",
+     "text": [
+      "That is right. The Lord says \"your Father\". We would say 'our Father': \"Our Father who art in the heavens\", Matt 6: 9. Our appreciation of our relationship with Him would help us to view each other in a respectful and affectionate way."
+     ]
     },
     {
-     "speaker": "S.C.",
-     "text": "If we keep more before us the family idea there would be more affection entering into our dealings with one another, would there not?"
+     "speaker": "SC",
+     "text": [
+      "I am sure that is right because naturally you do not want your family matters to be divulged abroad. It is just as a man would not go speaking abroad about his wife, he keeps that to himself, does he not?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. The Lord says \"your Father\". We would say 'our Father': \"Our Father who art in the heavens\", Matt 6: 9. Our appreciation of our relationship with Him would help us to view each other in a respectful and affectionate way."
+     "speaker": "JR",
+     "text": [
+      "That is right. He would be jealous as to the family dignity."
+     ]
     },
     {
-     "speaker": "S.C.",
-     "text": "I am sure that is right because naturally you do not want your family matters to be divulged abroad. It is just as a man would not go speaking abroad about his wife, he keeps that to himself, does he not?"
+     "speaker": "EMW",
+     "text": [
+      "Does the Lord make provision for the unusual? He speaks about the spirit of a little child and then later of His being in their midst; but He says \"if thy brother sin against thee\", as though it should really be unusual; and yet there is a provision, as you said, to meet it."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. He would be jealous as to the family dignity."
+     "speaker": "JR",
+     "text": [
+      "That is very fine. If we were all in the good of what we had yesterday the unusual would not occur, but we all know how far short we come in practice of what we had yesterday in the normality of what is available for us. We ought to live in the joy and good of it. What you say as to the unusual is important."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "Does the Lord make provision for the unusual? He speaks about the spirit of a little child and then later of His being in their midst; but He says \"if thy brother sin against thee\", as though it should really be unusual; and yet there is a provision, as you said, to meet it."
+     "speaker": "AAB",
+     "text": [
+      "As in John's epistle, \"if any one sin\" (1 John 2: 1), so it would be in the spirit of advocacy in our relations with our brother."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is very fine. If we were all in the good of what we had yesterday the unusual would not occur, but we all know how far short we come in practice of what we had yesterday in the normality of what is available for us. We ought to live in the joy and good of it. What you say as to the unusual is important."
+     "speaker": "JR",
+     "text": [
+      "John begins that chapter by saying \"My children, these things I write to you in order that ye may not sin; and if any one sin\"; that is the unusual coming in, interrupting, do you think?"
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "As in John's epistle, \"if any one sin\" (1 John 2: 1), so it would be in the spirit of advocacy in our relations with our brother."
+     "speaker": "AAB",
+     "text": [
+      "Yes, I think that greatly helps. In another connection, I would like to ask for further help as to the link between the Deuteronomy scripture and Matthew 18. Is it your thought that \"the place which Jehovah thy God will choose\" is something available in each locality, not necessarily another place literally?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "John begins that chapter by saying \"My children, these things I write to you in order that ye may not sin; and if any one sin\"; that is the unusual coming in, interrupting, do you think?"
+     "speaker": "JR",
+     "text": [
+      "Yes, it would be available in each locality, yet it is above the details and circumstances and the feelings and all the kinds of things that arise. In Deuteronomy 17 a journey is involved, a journey from where the difficulty is. We know how we can become obsessed with the difficulty, the details of it, the circumstances, the persons involved, sometimes prejudice, sometimes preference, and all that kind of thing; we get bogged down. But they take a journey. It says \"arise\" in verse 8: \"Then shalt thou arise, and go up to the place which Jehovah thy God will choose\". You can understand in Israel something happening within certain gates, but than they arise and take a journey and the further they get away from the place where it happened the less the details would count, and they come into another environment, another area. That transferred to \"tell it to the assembly\" is what we need to experience."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "Yes, I think that greatly helps. In another connection, I would like to ask for further help as to the link between the Deuteronomy scripture and Matthew 18. Is it your thought that \"the place which Jehovah thy God will choose\" is something available in each locality, not necessarily another place literally?"
+     "speaker": "AAB",
+     "text": [
+      "It is a higher level, as you say, above the detail of the matter, involving the augustness of the assembly. You used the expression, the assembly being available to us. How does that work out?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, it would be available in each locality, yet it is above the details and circumstances and the feelings and all the kinds of things that arise. In Deuteronomy 17 a journey is involved, a journey from where the difficulty is. We know how we can become obsessed with the difficulty, the details of it, the circumstances, the persons involved, sometimes prejudice, sometimes preference, and all that kind of thing; we get bogged down. But they take a journey. It says \"arise\" in verse 8: \"Then shalt thou arise, and go up to the place which Jehovah thy God will choose\". You can understand in Israel something happening within certain gates, but than they arise and take a journey and the further they get away from the place where it happened the less the details would count, and they come into another environment, another area. That transferred to \"tell it to the assembly\" is what we need to experience."
+     "speaker": "JR",
+     "text": [
+      "This area we are speaking about, this elevated level of things, is available to us, were we all able to drop the other things that bog us down. The tendency (and I speak from personal experience) is to go, as we say, into assembly with feelings and obsession with details and all that kind of thing, whereas we need to take this moral journey. If we actually took a journey it would help us in a sense, but it is a moral journey we take."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "It is a higher level, as you say, above the detail of the matter, involving the augustness of the assembly. You used the expression, the assembly being available to us. How does that work out?"
+     "speaker": "AAB",
+     "text": [
+      "The way Paul approaches the Corinth an issue in the first nine verses of the first chapter would involve what you are speaking of. He approaches the whole matter at the level of the assembly of God before getting into the detailed side."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "This area we are speaking about, this elevated level of things, is available to us, were we all able to drop the other things that bog us down. The tendency (and I speak from personal experience) is to go, as we say, into assembly with feelings and obsession with details and all that kind of thing, whereas we need to take this moral journey. If we actually took a journey it would help us in a sense, but it is a moral journey we take."
+     "speaker": "JR",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "The way Paul approaches the Corinth an issue in the first nine verses of the first chapter would involve what you are speaking of. He approaches the whole matter at the level of the assembly of God before getting into the detailed side."
+     "speaker": "AJEW",
+     "text": [
+      "1 Corinthians 1: 2, \"called saints, with all that in every place call on the name of our Lord Jesus Christ, both theirs and ours\": is not that, in a sense, the moral journey? That is \"in every place\" that one name and what belongs to it is governing us."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly."
+     "speaker": "JR",
+     "text": [
+      "That is very helpful."
+     ]
     },
     {
-     "speaker": "A.J.E.W.",
-     "text": "1 Corinthians 1: 2, \"called saints, with all that in every place call on the name of our Lord Jesus Christ, both theirs and ours\": is not that, in a sense, the moral journey? That is \"in every place\" that one name and what belongs to it is governing us."
+     "speaker": "ECB",
+     "text": [
+      "I think what is being said is of the greatest importance, as to getting out of the atmosphere of the trouble. When you come to Matthew 18 you come to it by way of chapter 16, and the assembly to which you bring it is \"my assembly\" where cause and cause and stroke and stroke and controversy are relegated to their own level and the atmosphere is His."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is very helpful."
+     "speaker": "JR",
+     "text": [
+      "Quite so."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "I think what is being said is of the greatest importance, as to getting out of the atmosphere of the trouble. When you come to Matthew 18 you come to it by way of chapter 16, and the assembly to which you bring it is \"my assembly\" where cause and cause and stroke and stroke and controversy are relegated to their own level and the atmosphere is His."
+     "speaker": "JAP",
+     "text": [
+      "Would Acts 15: 2 confirm what you say? It says \"A commotion therefore having taken place, and no small discussion\", and so forth. But when the matter came into the assembly what order, what grace among the brethren, what unity was reached in that chapter!"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so."
+     "speaker": "JR",
+     "text": [
+      "\"It has seemed good to the Holy Spirit and to us\" (v 28) is the conclusion arrived at. It is a sphere where the Spirit dominates, the Spirit's mind is available. It says in Deuteronomy 17 \"Thou shalt come .... and inquire\". The place that Jehovah will choose is in a certain contrast to \"within thy gates\". \"If there arise a matter too hard for thee in judgment, between blood and blood, between cause and cause, and between stroke and stroke, matters of controversy within thy gates, then shalt thou arise, and go up to the place which Jehovah thy God will choose\". It is of interest that in the instructions given in 1 Corinthians 5, which has in mind a meeting to deal with evil, Paul says \"For I, as absent in body but present in spirit, have already judged as present, to deliver, in the name of our Lord Jesus Christ (ye and my spirit being gathered together, with the power of our Lord Jesus Christ)\" (vv 3, 4) - \"ye and my spirit\". Paul was not there personally but his spirit was there. It just gives some idea of the place that Jehovah will choose. The thing is faced locally but has in view what you referred to in Matthew 16, the assembly universally."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Would Acts 15: 2 confirm what you say? It says \"A commotion therefore having taken place, and no small discussion\", and so forth. But when the matter came into the assembly what order, what grace among the brethren, what unity was reached in that chapter!"
+     "speaker": "ECB",
+     "text": [
+      "Yes; what you are saying makes me wonder whether we would not be better advised to revert to the old custom that an assembly meeting for discipline was a meeting specially arranged, and that if after discussing something in care we, as we used to say, go straight into assembly, we may not be leaving time for the journey you speak of."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "\"It has seemed good to the Holy Spirit and to us\" (v 28) is the conclusion arrived at. It is a sphere where the Spirit dominates, the Spirit's mind is available. It says in Deuteronomy 17 \"Thou shalt come .... and inquire\". The place that Jehovah will choose is in a certain contrast to \"within thy gates\". \"If there arise a matter too hard for thee in judgment, between blood and blood, between cause and cause, and between stroke and stroke, matters of controversy within thy gates, then shalt thou arise, and go up to the place which Jehovah thy God will choose\". It is of interest that in the instructions given in 1 Corinthians 5, which has in mind a meeting to deal with evil, Paul says \"For I, as absent in body but present in spirit, have already judged as present, to deliver, in the name of our Lord Jesus Christ (ye and my spirit being gathered together, with the power of our Lord Jesus Christ)\" (vv 3, 4) - \"ye and my spirit\". Paul was not there personally but his spirit was there. It just gives some idea of the place that Jehovah will choose. The thing is faced locally but has in view what you referred to in Matthew 16, the assembly universally."
+     "speaker": "JR",
+     "text": [
+      "I think that is just right. If we go into assembly character immediately we tend to go in with feelings, details, controversy, preferences, maybe prejudices: all these things in our minds."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes; what you are saying makes me wonder whether we would not be better advised to revert to the old custom that an assembly meeting for discipline was a meeting specially arranged, and that if after discussing something in care we, as we used to say, go straight into assembly, we may not be leaving time for the journey you speak of."
+     "speaker": "ECB",
+     "text": [
+      "Sometimes it may even be proved to have been valuable that the Supper intervened. The Lord knew that the thing was being carried in a priestly way, but the Supper helps you to get to the place that He chooses."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I think that is just right. If we go into assembly character immediately we tend to go in with feelings, details, controversy, preferences, maybe prejudices: all these things in our minds."
+     "speaker": "JR",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Sometimes it may even be proved to have been valuable that the Supper intervened. The Lord knew that the thing was being carried in a priestly way, but the Supper helps you to get to the place that He chooses."
+     "speaker": "HAH",
+     "text": [
+      "So would it be right to connect this thought of the place, and what Mr Welch has said as to the new covenant, with the reference to Jerusalem above, \"which is our mother\", Gal 4: 26?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly."
+     "speaker": "JR",
+     "text": [
+      "It is another level, it is above. We need to take this journey to get to the above, what is above the level of what is controversial which our own personal feelings often enter into. To act with these feelings is not going to help. We go and enquire, it is a matter requiring patience."
+     ]
     },
     {
-     "speaker": "H.A.H.",
-     "text": "So would it be right to connect this thought of the place, and what Mr Welch has said as to the new covenant, with the reference to Jerusalem above, \"which is our mother\", Gal 4: 26?"
+     "speaker": "PJH",
+     "text": [
+      "What an opportunity in the interim for getting into the sanctuary and learning the way of things! Did not the psalmist say \"Then understood I their end\" (Ps 73: 17) when he went into the sanctuary?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is another level, it is above. We need to take this journey to get to the above, what is above the level of what is controversial which our own personal feelings often enter into. To act with these feelings is not going to help. We go and enquire, it is a matter requiring patience."
+     "speaker": "JR",
+     "text": [
+      "He viewed things differently. It is the place that Jehovah thy God will choose. \"Thou shalt come unto the priests, the Levites, and unto the judge that shall be in those days\"."
+     ]
     },
     {
-     "speaker": "P.J.H.",
-     "text": "What an opportunity in the interim for getting into the sanctuary and learning the way of things! Did not the psalmist say \"Then understood I their end\" (Ps 73: 17) when he went into the sanctuary?"
+     "speaker": "ETM",
+     "text": [
+      "It says \"arise, and go up to the place which Jehovah thy God will choose\". It is a matter involving what is gradual, what is deliberate, and counting on the Lord's support. The Lord uses the same term: \"if I be lifted up out of the earth, will draw all to me\", John 12: 32. That would be in mind in a person who is considering for God, arising and going up to the place; and the Lord is with persons who are considering for God firstly."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "He viewed things differently. It is the place that Jehovah thy God will choose. \"Thou shalt come unto the priests, the Levites, and unto the judge that shall be in those days\"."
+     "speaker": "JR",
+     "text": [
+      "That is right. You were giving us movement last night, the way to return. This is the way up. It is necessary that we take this way up if there is going to be a satisfactory answer to any difficulty.",
+      "P.v.d.B. Would the mount of transfiguration and the scene of glory coming in between chapter 16 and the practical working out of it locally show how this glory and this new covenant character of things would affect the working out of things locally? Then in the end of that chapter the sons are free."
+     ]
     },
     {
-     "speaker": "E.T.M.",
-     "text": "It says \"arise, and go up to the place which Jehovah thy God will choose\". It is a matter involving what is gradual, what is deliberate, and counting on the Lord's support. The Lord uses the same term: \"if I be lifted up out of the earth, will draw all to me\", John 12: 32. That would be in mind in a person who is considering for God, arising and going up to the place; and the Lord is with persons who are considering for God firstly."
+     "speaker": "JR",
+     "text": [
+      "That is fine, because on the mountain \"His face shone as the sun\", Matt 17: 2. It is the benign influence of Christ. The sun on which all life on the earth depends is the position Christ has in relation to us."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. You were giving us movement last night, the way to return. This is the way up. It is necessary that we take this way up if there is going to be a satisfactory answer to any difficulty."
+     "speaker": "NTM",
+     "text": [
+      "\"Boaz went up to the gate\", Ruth 4: 1. I wondered if that was the idea; he went up, there was a very important matter on which a good deal depended, even David finally."
+     ]
     },
     {
-     "text": "P.v.d.B. Would the mount of transfiguration and the scene of glory coming in between chapter 16 and the practical working out of it locally show how this glory and this new covenant character of things would affect the working out of things locally? Then in the end of that chapter the sons are free."
+     "speaker": "JR",
+     "text": [
+      "Very good, it is an upward movement."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is fine, because on the mountain \"His face shone as the sun\", Matt 17: 2. It is the benign influence of Christ. The sun on which all life on the earth depends is the position Christ has in relation to us."
+     "speaker": "DLS",
+     "text": [
+      "What comes out in this movement is the tenor of the word, and instruction, and then the thought of the law, bringing in, away from the detail of things, the way that God would speak and give right judgment."
+     ]
     },
     {
-     "speaker": "N.T.M.",
-     "text": "\"Boaz went up to the gate\", Ruth 4: 1. I wondered if that was the idea; he went up, there was a very important matter on which a good deal depended, even David finally."
+     "speaker": "JR",
+     "text": [
+      "That is very confirming. The judge that shall be in those days is spoken of in verse 8. Between verses 18 and 19 of Matthew 18 we can think of the Lord's appearance in Revelation 1 taking place; that is, the breakdown comes in and the Lord appears as the Judge. In this chapter of Matthew, that would be between verse 18 and verse 19. Therefore we have to do with the Judge and what the Judge says to each assembly. We read, \"His eyes as a flame of fire\" and so on; He appears in the garb of a Judge. They \"come unto the priests, the Levites and unto the judge that shall be in those days, and inquire\". It is all to be in the light of, and in keeping with, the Lord's judgment."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good, it is an upward movement."
+     "speaker": "CH",
+     "text": [
+      "Mr Taylor sen epitomised it in what he said, that we should be governed by the light that governs the position. What the Lord would accredit the assembly with, we at least try to act in the light and spirit of. An action taken in any particular locality is really in the light of the whole, is it not?"
+     ]
     },
     {
-     "speaker": "D.L.S.",
-     "text": "What comes out in this movement is the tenor of the word, and instruction, and then the thought of the law, bringing in, away from the detail of things, the way that God would speak and give right judgment."
+     "speaker": "JR",
+     "text": [
+      "Exactly. I think that is a very important thing. Paul's spirit would be gathered with the Corinthians; they have to take the action but he is with them in it. It is just a suggestion of what is universal, a certain standard entering into the action which takes place in a locality. Do you agree with that?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is very confirming. The judge that shall be in those days is spoken of in verse 8. Between verses 18 and 19 of Matthew 18 we can think of the Lord's appearance in Revelation 1 taking place; that is, the breakdown comes in and the Lord appears as the Judge. In this chapter of Matthew, that would be between verse 18 and verse 19. Therefore we have to do with the Judge and what the Judge says to each assembly. We read, \"His eyes as a flame of fire\" and so on; He appears in the garb of a Judge. They \"come unto the priests, the Levites and unto the judge that shall be in those days, and inquire\". It is all to be in the light of, and in keeping with, the Lord's judgment."
+     "speaker": "CH",
+     "text": [
+      "Mr Taylor sen also spoke a great deal about the universal priesthood. That enters into this chapter, does it not? If there is godly exercise everywhere about certain matters, that is to be carried by what is done in any particular gate."
+     ]
     },
     {
-     "speaker": "C.H.",
-     "text": "Mr Taylor sen epitomised it in what he said, that we should be governed by the light that governs the position. What the Lord would accredit the assembly with, we at least try to act in the light and spirit of. An action taken in any particular locality is really in the light of the whole, is it not?"
+     "speaker": "JR",
+     "text": [
+      "Yes, that is very important. We can help one another to experience this assembly level we are speaking about. We can help each other to take this moral journey when the occasion arises, leave· behind the detail and the controversial side and really reach an assembly judgment on that level. It comes down to two, two can do this."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. I think that is a very important thing. Paul's spirit would be gathered with the Corinthians; they have to take the action but he is with them in it. It is just a suggestion of what is universal, a certain standard entering into the action which takes place in a locality. Do you agree with that?"
+     "speaker": "ACC",
+     "text": [
+      "Both Matthew 18 and the scripture in Deuteronomy give the idea of something greater: \"Tell it to the assembly \" and then \"the place which Jehovah thy God will choose\". You get the feeling of something being greater than what you may be dealing with; there is this august vessel that is your resource. In Matthew 18 the man makes a journey; he finds he has lost his sheep and he goes after it to find it, as if he is coming into the matter as having had this journey. What he would bring in in the way of feelings and care!"
+     ]
     },
     {
-     "speaker": "C.H.",
-     "text": "Mr Taylor sen also spoke a great deal about the universal priesthood. That enters into this chapter, does it not? If there is godly exercise everywhere about certain matters, that is to be carried by what is done in any particular gate."
+     "speaker": "JR",
+     "text": [
+      "Very good, it is the will of your Father expressed in one down here."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, that is very important. We can help one another to experience this assembly level we are speaking about. We can help each other to take this moral journey when the occasion arises, leave· behind the detail and the controversial side and really reach an assembly judgment on that level. It comes down to two, two can do this."
+     "speaker": "RS",
+     "text": [
+      "Does verse 12 support that? Also is it in line with what you said as to the Judge, which enters into the teaching in Matthew? The shepherd leaves the ninety and nine on the mountains, whereas in the Luke setting he leaves these in the wilderness. I wondered if the Lord's teaching on the various mountains in Matthew has to be followed up to get the importance of the level you are stressing."
+     ]
     },
     {
-     "speaker": "A.C.C.",
-     "text": "Both Matthew 18 and the scripture in Deuteronomy give the idea of something greater: \"Tell it to the assembly \" and then \"the place which Jehovah thy God will choose\". You get the feeling of something being greater than what you may be dealing with; there is this august vessel that is your resource. In Matthew 18 the man makes a journey; he finds he has lost his sheep and he goes after it to find it, as if he is coming into the matter as having had this journey. What he would bring in in the way of feelings and care!"
+     "speaker": "JR",
+     "text": [
+      "Yes. In Luke 15 the sheep is lost, in Matthew 18 it goes astray."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good, it is the will of your Father expressed in one down here."
+     "speaker": "CH",
+     "text": [
+      "In Luke the sheep is found."
+     ]
     },
     {
-     "speaker": "R.S.",
-     "text": "Does verse 12 support that? Also is it in line with what you said as to the Judge, which enters into the teaching in Matthew? The shepherd leaves the ninety and nine on the mountains, whereas in the Luke setting he leaves these in the wilderness. I wondered if the Lord's teaching on the various mountains in Matthew has to be followed up to get the importance of the level you are stressing."
+     "speaker": "JR",
+     "text": [
+      "Yes. The one that is lost is found. \"Gone astray\" puts more responsibility on the sheep, whereas, as to the one that is lost, the shepherd accepts the responsibility."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. In Luke 15 the sheep is lost, in Matthew 18 it goes astray."
+     "speaker": "CH",
+     "text": [
+      "Yes, in Matthew it is \"if it should come to pass\", the Lord leaves it there. There is perhaps the moral issue there; but Luke presents the divine system operating, the three Persons active in it in view of recovery."
+     ]
     },
     {
-     "speaker": "C.H.",
-     "text": "In Luke the sheep is found."
+     "speaker": "JR",
+     "text": [
+      "Exactly; the assembly, therefore, would come into that. We need to see that the assembly, as we are speaking of it, is available to us as we are prepared to take the moral journey necessary. \"Then shalt thou arise, and go up to the place which Jehovah thy God will choose\". Everything in that area is according to His approval, according to His thoughts, the place that He chooses; He does not choose any place, it is what is in suitability to Himself. Now, we provide these conditions. In the Old Testament it meant that the house had to be built. There was in that building an answer on the earth to the place that Jehovah will choose. That is what Matthew 18 presents really: \"if two of you shall agree on the earth concerning any matter\"."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. The one that is lost is found. \"Gone astray\" puts more responsibility on the sheep, whereas, as to the one that is lost, the shepherd accepts the responsibility."
+     "speaker": "ECB",
+     "text": [
+      "Is the place which Jehovah thy God will choose the place in which He is known as \"the holy, the true\", Rev 3: 7? That is to say, you are in a sense beyond the descriptions of Himself in chapter 1 of Revelation, which are broken up in some of the other local assemblies that He addresses, but the atmosphere of \"the place\" is \"the holy, the true\", is it not?"
+     ]
     },
     {
-     "speaker": "C.H.",
-     "text": "Yes, in Matthew it is \"if it should come to pass\", the Lord leaves it there. There is perhaps the moral issue there; but Luke presents the divine system operating, the three Persons active in it in view of recovery."
+     "speaker": "JR",
+     "text": [
+      "That is fine."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly; the assembly, therefore, would come into that. We need to see that the assembly, as we are speaking of it, is available to us as we are prepared to take the moral journey necessary. \"Then shalt thou arise, and go up to the place which Jehovah thy God will choose\". Everything in that area is according to His approval, according to His thoughts, the place that He chooses; He does not choose any place, it is what is in suitability to Himself. Now, we provide these conditions. In the Old Testament it meant that the house had to be built. There was in that building an answer on the earth to the place that Jehovah will choose. That is what Matthew 18 presents really: \"if two of you shall agree on the earth concerning any matter\"."
+     "speaker": "AAB",
+     "text": [
+      "Would the matter of judgment involve the distinguishing of both good and evil? We are somewhat prone to think of judgment in relation to evil only. What is commendable comes into the Lord's adjudication of the seven assemblies."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Is the place which Jehovah thy God will choose the place in which He is known as \"the holy, the true\", Rev 3: 7? That is to say, you are in a sense beyond the descriptions of Himself in chapter 1 of Revelation, which are broken up in some of the other local assemblies that He addresses, but the atmosphere of \"the place\" is \"the holy, the true\", is it not?"
+     "speaker": "JR",
+     "text": [
+      "That is right. He finds in two of them, Smyrna and Philadelphia, what He finds no fault with."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is fine."
+     "speaker": "AAB",
+     "text": [
+      "Would that help us practically not to lose sight of what is referred to sometimes as assembly status?"
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "Would the matter of judgment involve the distinguishing of both good and evil? We are somewhat prone to think of judgment in relation to evil only. What is commendable comes into the Lord's adjudication of the seven assemblies."
+     "speaker": "JR",
+     "text": [
+      "Quite so."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. He finds in two of them, Smyrna and Philadelphia, what He finds no fault with."
+     "speaker": "JS",
+     "text": [
+      "\"If two of you shall agree on the earth concerning any matter\": that is said and very often left short, but I think the important thing is \"whatsoever it may be that they shall ask\", which brings in the note of dependence upon the Father and gives us the link with the little child. What do you say to that?"
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "Would that help us practically not to lose sight of what is referred to sometimes as assembly status?"
+     "speaker": "JR",
+     "text": [
+      "That is right. It gives a link with the priests, too, in Deuteronomy 17: \"thou shalt come unto the priests\". Now this we are speaking about is available to two or three in a locality."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so."
+     "speaker": "PHB",
+     "text": [
+      "Does it refer to what Mr Taylor sen called attention to, the highest court of appeal? That would be final, would it not?"
+     ]
     },
     {
-     "speaker": "J.S.",
-     "text": "\"If two of you shall agree on the earth concerning any matter\": that is said and very often left short, but I think the important thing is \"whatsoever it may be that they shall ask\", which brings in the note of dependence upon the Father and gives us the link with the little child. What do you say to that?"
+     "speaker": "JR",
+     "text": [
+      "Exactly. It is final in Matthew 18 and it is final in Deuteronomy 17 and it is final because it is God's judgment expressed locally. It could not be final otherwise; unless it were a right judgment according to God it could not be final. There is the suggestion of what is normal in Matthew 18 and in Deuteronomy 17 and we need to get into these normal conditions. The assembly is animated by the breath of Jesus; it is a place where the mind of Christ is and where the Lord's headship operates. It is coming from the unusual into the normal, which moral journey has to be taken."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. It gives a link with the priests, too, in Deuteronomy 17: \"thou shalt come unto the priests\". Now this we are speaking about is available to two or three in a locality."
+     "speaker": "EMW",
+     "text": [
+      "I think that is both helpful and important. Do you not think it essential to emphasise that the place where Jehovah has set His name exists today? I think Mr Coates says somewhere that we should not be prepared to admit that the place where Jehovah has set His name does not exist today."
+     ]
     },
     {
-     "speaker": "P.H.B.",
-     "text": "Does it refer to what Mr Taylor sen called attention to, the highest court of appeal? That would be final, would it not?"
+     "speaker": "JR",
+     "text": [
+      "It exists: \"where two or three are gathered together unto my name , there am I in the midst of them\". Is that not where the place that Jehovah has chosen to set His name exists?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. It is final in Matthew 18 and it is final in Deuteronomy 17 and it is final because it is God's judgment expressed locally. It could not be final otherwise; unless it were a right judgment according to God it could not be final. There is the suggestion of what is normal in Matthew 18 and in Deuteronomy 17 and we need to get into these normal conditions. The assembly is animated by the breath of Jesus; it is a place where the mind of Christ is and where the Lord's headship operates. It is coming from the unusual into the normal, which moral journey has to be taken."
+     "speaker": "EMW",
+     "text": [
+      "That is how I understand it.",
+      "F.v.R. What do you say about a brother sinning against you? Often we take offence in the heat of things and our judgment is not right. We have to go to God about the matter and we find that what we interpreted as sin was not really intended."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I think that is both helpful and important. Do you not think it essential to emphasise that the place where Jehovah has set His name exists today? I think Mr Coates says somewhere that we should not be prepared to admit that the place where Jehovah has set His name does not exist today."
+     "speaker": "JR",
+     "text": [
+      "Yes, Mr Burr said earlier that we tend to have more regard for things personally than we have for the rights of Christ being violated."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It exists: \"where two or three are gathered together unto my name , there am I in the midst of them\". Is that not where the place that Jehovah has chosen to set His name exists?"
+     "speaker": "CWH",
+     "text": [
+      "Is there a link between this place where Jehovah would place His name and the way that the Lord speaks of the Spirit coming: \"Whom the Father will send in my name\" (John 14: 26), the peculiar character in which He is available?"
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "That is how I understand it."
+     "speaker": "JR",
+     "text": [
+      "Yes, the name of Christ is here. He personally is up there, He is in heaven, but His name is here, and the Spirit is identified with His name here, and we are to be identified with His name here in the maintenance of what is due to that name and the rights that belong to it."
+     ]
     },
     {
-     "text": "F.v.R. What do you say about a brother sinning against you? Often we take offence in the heat of things and our judgment is not right. We have to go to God about the matter and we find that what we interpreted as sin was not really intended."
+     "speaker": "CFD",
+     "text": [
+      "I think what is coming forward is instructive. It would help us to get back to the dignity connected with the way things are presented in Matthew 18, which I believe was lost. Telling it to the assembly carried a certain dignity, so that actually there was an announcement in assembly at one time."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, Mr Burr said earlier that we tend to have more regard for things personally than we have for the rights of Christ being violated."
+     "speaker": "JR",
+     "text": [
+      "That is right, the anointing, in that sense, was identified with it. I think what you say is important, that we get back to the dignity of the assembly, because things were done with much lack of such dignity."
+     ]
     },
     {
-     "speaker": "C.W.H.",
-     "text": "Is there a link between this place where Jehovah would place His name and the way that the Lord speaks of the Spirit coming: \"Whom the Father will send in my name\" (John 14: 26), the peculiar character in which He is available?"
+     "speaker": "GWB",
+     "text": [
+      "That usually included a word from the Scriptures. Do you not think that was very profitable and something that, if necessary to have such a meeting, should be in our minds? The judgment should be supported by a word from the Scriptures."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, the name of Christ is here. He personally is up there, He is in heaven, but His name is here, and the Spirit is identified with His name here, and we are to be identified with His name here in the maintenance of what is due to that name and the rights that belong to it."
+     "speaker": "JR",
+     "text": [
+      "I am sure that is right. You remember that came up in your meetings in Edinburgh. It is important to go over it because that is part of the dignity of the occasion of assembly character."
+     ]
     },
     {
-     "speaker": "C.F.D.",
-     "text": "I think what is coming forward is instructive. It would help us to get back to the dignity connected with the way things are presented in Matthew 18, which I believe was lost. Telling it to the assembly carried a certain dignity, so that actually there was an announcement in assembly at one time."
+     "speaker": "EJJ",
+     "text": [
+      "What about the time factor? I am thinking of the Lord saying \"I gave her time that she should repent\", Rev 2: 21. Our brother has mentioned about action being final. Mr Darby, I believe, says somewhere that it is the last possible thing we should think of; so every avenue would be explored. Both these scriptures suggest that there is time taken, a journey taken and consideration given. I wonder sometimes whether we are in such a hurry to act that we overlook this, and it would link with what Mr Welch suggested as to the new covenant. Is this in line with what you are saying?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right, the anointing, in that sense, was identified with it. I think what you say is important, that we get back to the dignity of the assembly, because things were done with much lack of such dignity."
+     "speaker": "JR",
+     "text": [
+      "Very much in line and very important, because we knew to our shame something of that haste during certain years. What Mr Dadd says about the dignity that belongs to the assembly needs to have due regard with each one of us in our local settings."
+     ]
     },
     {
-     "speaker": "G.W.B.",
-     "text": "That usually included a word from the Scriptures. Do you not think that was very profitable and something that, if necessary to have such a meeting, should be in our minds? The judgment should be supported by a word from the Scriptures."
+     "speaker": "RDP",
+     "text": [
+      "Do you get the two things in Isaiah 42: 4: \"He shall not faint nor be in haste\"? Do you think there are the two sides in that, both the not fainting and the not hasting?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is right. You remember that came up in your meetings in Edinburgh. It is important to go over it because that is part of the dignity of the occasion of assembly character."
+     "speaker": "JR",
+     "text": [
+      "Yes, that is very important too. We are not to faint. There is not to be a lack of facing up to what requires to be faced."
+     ]
     },
     {
-     "speaker": "E.J.J.",
-     "text": "What about the time factor? I am thinking of the Lord saying \"I gave her time that she should repent\", Rev 2: 21. Our brother has mentioned about action being final. Mr Darby, I believe, says somewhere that it is the last possible thing we should think of; so every avenue would be explored. Both these scriptures suggest that there is time taken, a journey taken and consideration given. I wonder sometimes whether we are in such a hurry to act that we overlook this, and it would link with what Mr Welch suggested as to the new covenant. Is this in line with what you are saying?"
+     "speaker": "DER",
+     "text": [
+      "Do you think, too, that if sadly the assembly has to deliberate on a matter we might well be reminded of what we have been taught as to the seriousness of compromising such a judgment?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very much in line and very important, because we knew to our shame something of that haste during certain years. What Mr Dadd says about the dignity that belongs to the assembly needs to have due regard with each one of us in our local settings."
+     "speaker": "JR",
+     "text": [
+      "Exactly. That is what we have, both in Matthew 18: 17 and in Deuteronomy 17: 11-13."
+     ]
     },
     {
-     "speaker": "R.D.P.",
-     "text": "Do you get the two things in Isaiah 42: 4: \"He shall not faint nor be in haste\"? Do you think there are the two sides in that, both the not fainting and the not hasting?"
+     "speaker": "BWW",
+     "text": [
+      "Does that mean that the breakdown about which we know something and form part does not alter the gravity of what is set out in Matthew 18?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, that is very important too. We are not to faint. There is not to be a lack of facing up to what requires to be faced."
+     "speaker": "JR",
+     "text": [
+      "That is right. An action taken according to verses 19 and 20 is to have as much authority with us as if it had taken place at Corinth when the first epistle was written."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "Do you think, too, that if sadly the assembly has to deliberate on a matter we might well be reminded of what we have been taught as to the seriousness of compromising such a judgment?"
+     "speaker": "WCL",
+     "text": [
+      "Is there something in the fact that in the breastplate of judgment the twelve stones are set in order? I am linking it with what is in the affections, for all those stones were of great value. Every one would be on the priest's heart as he operated."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly. That is what we have, both in Matthew 18: 17 and in Deuteronomy 17: 11-13."
+     "speaker": "JR",
+     "text": [
+      "That is right. They would represent local settings. The individuals would come into it too, but the stones were set in four rows of three which corresponded to the four camps of three. Is that right?"
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Does that mean that the breakdown about which we know something and form part does not alter the gravity of what is set out in Matthew 18?"
+     "speaker": "WCL",
+     "text": [
+      "That is what I was thinking. It involves the whole. There is a glory about judgment which maintains all the rights of God in the assembly."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. An action taken according to verses 19 and 20 is to have as much authority with us as if it had taken place at Corinth when the first epistle was written."
+     "speaker": "JR",
+     "text": [
+      "Quite so. The great public breakdown must have begun through lack of making use of the Lord's provision in unusual circumstances. That is how it must have happened. There must have been a violation, or a lack of respect or a lack of making use of, the Lord's provision. Now, we are to respect the Lord's provision for us when unusual things happen. There is ample provision. Do not let us think that we are deprived of anything, there is ample provision for anything unusual happening."
+     ]
     },
     {
-     "speaker": "W.C.L.",
-     "text": "Is there something in the fact that in the breastplate of judgment the twelve stones are set in order? I am linking it with what is in the affections, for all those stones were of great value. Every one would be on the priest's heart as he operated."
+     "speaker": "FCM",
+     "text": [
+      "Would you see a link between the stress earlier in the reading that things exist now, and statements in Hebrews 12: \"Ye have come to mount Zion; and to the city of the living God, heavenly Jerusalem\"; then it adds \"to God, judge of all; ... and to Jesus, mediator of a new covenant; and to the blood of sprinkling\" (vv 22-24)? Is this the area to which we are to resort and where there is every divine provision and yet all in relation to what God is, Judge of all?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. They would represent local settings. The individuals would come into it too, but the stones were set in four rows of three which corresponded to the four camps of three. Is that right?"
+     "speaker": "JR",
+     "text": [
+      "I am sure that is right. We have come in Christianity to the greatness and dignity of these things you refer to."
+     ]
     },
     {
-     "speaker": "W.C.L.",
-     "text": "That is what I was thinking. It involves the whole. There is a glory about judgment which maintains all the rights of God in the assembly."
+     "speaker": "AKT",
+     "text": [
+      "Would gathering \"together unto my name\" involve on our part self-judgment lest any personal or natural motive might intrude, but that the rights of the Lord might be paramount?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Quite so. The great public breakdown must have begun through lack of making use of the Lord's provision in unusual circumstances. That is how it must have happened. There must have been a violation, or a lack of respect or a lack of making use of, the Lord's provision. Now, we are to respect the Lord's provision for us when unusual things happen. There is ample provision. Do not let us think that we are deprived of anything, there is ample provision for anything unusual happening."
+     "speaker": "JR",
+     "text": [
+      "That is it, I am sure. We have been taught that \"there am I in the midst of them\" is a consequence of two or three gathered together unto my name; it is not exactly a promise but a consequence. That is, we provide the place which Jehovah will choose. That is to be in our minds. As we were saying, the house had to be built, satisfying divine requirements; there was a building on the earth which answered to Jehovah's desires as the place He would choose; it became tangible when the house was built. Thus we need to provide the conditions and two or three can do that; two or three in a locality \"gathered together unto my name\" provide the conditions that the Lord would say, This is what I choose."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Would you see a link between the stress earlier in the reading that things exist now, and statements in Hebrews 12: \"Ye have come to mount Zion; and to the city of the living God, heavenly Jerusalem\"; then it adds \"to God, judge of all; ... and to Jesus, mediator of a new covenant; and to the blood of sprinkling\" (vv 22-24)? Is this the area to which we are to resort and where there is every divine provision and yet all in relation to what God is, Judge of all?"
+     "speaker": "WL",
+     "text": [
+      "Mr Taylor sen used the word 'franchise', What would you say about that?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is right. We have come in Christianity to the greatness and dignity of these things you refer to."
+     "speaker": "JR",
+     "text": [
+      "That is authority to act and is important. That depends on conditions.",
+      "A.T. Others ought to discern where the Lord is in a matter when the priests act rightly."
+     ]
     },
     {
-     "speaker": "A.K.T.",
-     "text": "Would gathering \"together unto my name\" involve on our part self-judgment lest any personal or natural motive might intrude, but that the rights of the Lord might be paramount?"
+     "speaker": "JR",
+     "text": [
+      "Yes, if it is right according to right judgment it is normal for it to be recognised.",
+      "A.T. Yes. Sometimes you find two agreeing this way and two agreeing that. The brethren need discernment, do they not, where the Lord is in the matter and where the enemy is in the matter?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is it, I am sure. We have been taught that \"there am I in the midst of them\" is a consequence of two or three gathered together unto my name; it is not exactly a promise but a consequence. That is, we provide the place which Jehovah will choose. That is to be in our minds. As we were saying, the house had to be built, satisfying divine requirements; there was a building on the earth which answered to Jehovah's desires as the place He would choose; it became tangible when the house was built. Thus we need to provide the conditions and two or three can do that; two or three in a locality \"gathered together unto my name\" provide the conditions that the Lord would say, This is what I choose."
+     "speaker": "JR",
+     "text": [
+      "Yes. The exercise before us now is to take this moral journey and arrive at true assembly conditions and thus right judgment. Of course these conditions are in persons and can be in two or three. The Lord says here, \"if he do not hear thee, take with thee one or two besides\". He does not say in verse 17 'take with thee others also', as if it is on that level. \"Tell it to the assembly\" is another level altogether involving a moral journey to reach this level of things, for divine judgment is available for us. Is that clear?"
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Mr Taylor sen used the word 'franchise', What would you say about that?"
+     "speaker": "ECB",
+     "text": [
+      "Yes, and I think these things are of the greatest importance and are reviving us to something that we once knew. But is all this actually the counterpart of purifying it in Ephesians 5? That is, Christ does that from His side, but then there is the responsibility on our side. The way in which He does it sets the standard for the way in which we maintain responsibility."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is authority to act and is important. That depends on conditions."
+     "speaker": "JR",
+     "text": [
+      "I am sure that is so. There is to be a corresponding moral answer, practically and tangibly. It is this practical and tangible side where we need help. We must have the truth of the assembly abstractly but we are to be exercised to provide the tangible answer, and that is possible. It is not a glorious impossibility, it is what is open to us and available for us."
+     ]
     },
     {
-     "text": "A.T. Others ought to discern where the Lord is in a matter when the priests act rightly."
+     "speaker": "ECB",
+     "text": [
+      "Does not all this, from another aspect, emphasise that ministry generally should be calculated to raise the level of things amongst the brethren?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, if it is right according to right judgment it is normal for it to be recognised."
+     "speaker": "JR",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "text": "A.T. Yes. Sometimes you find two agreeing this way and two agreeing that. The brethren need discernment, do they not, where the Lord is in the matter and where the enemy is in the matter?"
+     "speaker": "HCH",
+     "text": [
+      "Psalm 122 speaks of \"set thrones for judgment, the thrones of the house of David\". Would that speak of dignity?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. The exercise before us now is to take this moral journey and arrive at true assembly conditions and thus right judgment. Of course these conditions are in persons and can be in two or three. The Lord says here, \"if he do not hear thee, take with thee one or two besides\". He does not say in verse 17 'take with thee others also', as if it is on that level. \"Tell it to the assembly\" is another level altogether involving a moral journey to reach this level of things, for divine judgment is available for us. Is that clear?"
+     "speaker": "JR",
+     "text": [
+      "That is right. The Psalm opens with \"I rejoiced when they said unto me, Let us go into the house of Jehovah. Our feet shall stand within thy gates, O Jerusalem\". It is the going up; it is the tangible answer. \"Our feet shall stand within thy gates, O Jerusalem\". It is what we put our feet on, not something that is vague and distant."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Yes, and I think these things are of the greatest importance and are reviving us to something that we once knew. But is all this actually the counterpart of purifying it in Ephesians 5? That is, Christ does that from His side, but then there is the responsibility on our side. The way in which He does it sets the standard for the way in which we maintain responsibility."
+     "speaker": "HCH",
+     "text": [
+      "Quite. Another scripture is \"them that turn the battle to the gate\", Isa 28: 6. This is the standard."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is so. There is to be a corresponding moral answer, practically and tangibly. It is this practical and tangible side where we need help. We must have the truth of the assembly abstractly but we are to be exercised to provide the tangible answer, and that is possible. It is not a glorious impossibility, it is what is open to us and available for us."
+     "speaker": "ETM",
+     "text": [
+      "The \"O Jerusalem\", do you think, would be a result of the benefit of the inbreathing? \"O Jerusalem\" would be the expression of deep feeling."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "Does not all this, from another aspect, emphasise that ministry generally should be calculated to raise the level of things amongst the brethren?"
+     "speaker": "JR",
+     "text": [
+      "That is good."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Exactly."
+     "speaker": "AB",
+     "text": [
+      "Would Hebrews 12: 14, 15 help us to find the right way? \"Pursue peace with all, and holiness ... watching lest there be any one who lacks the grace of God; lest any root of bitterness springing up trouble you\"."
+     ]
     },
     {
-     "speaker": "H.C.H.",
-     "text": "Psalm 122 speaks of \"set thrones for judgment, the thrones of the house of David\". Would that speak of dignity?"
+     "speaker": "JR",
+     "text": [
+      "Yes, it certainly would.",
+      "F.v.R. Must we be preserved from trying to cover things up out of sentimental reasons? Brethren sometimes say, Let the matter rest, it will find a solution. But you cannot do that, can you?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. The Psalm opens with \"I rejoiced when they said unto me, Let us go into the house of Jehovah. Our feet shall stand within thy gates, O Jerusalem\". It is the going up; it is the tangible answer. \"Our feet shall stand within thy gates, O Jerusalem\". It is what we put our feet on, not something that is vague and distant."
+     "speaker": "JR",
+     "text": [
+      "It depends what the matter is. Certain things you can allow to rest and forget about. Other things, of course, have to be taken up. If a matter involves the rights of Christ it has to be taken up. Mr Becker refers to \"Pursue peace with all, and holiness, without which no one shall see the Lord\". That is priesthood. \"Watching lest there be any one who lack s the grace of God\". It is the pursuing peace positively and \"watching lest\" wrong things should come in."
+     ]
     },
     {
-     "speaker": "H.C.H.",
-     "text": "Quite. Another scripture is \"them that turn the battle to the gate\", Isa 28: 6. This is the standard."
+     "speaker": "RJC",
+     "text": [
+      "Would you say something more as to \"the place which Jehovah thy God will choose\". It is not the place that we choose. Is there a certain standard, a certain level, a certain elevation that must be maintained. Have we to come to that viewpoint?"
+     ]
     },
     {
-     "speaker": "E.T.M.",
-     "text": "The \"O Jerusalem\", do you think, would be a result of the benefit of the inbreathing? \"O Jerusalem\" would be the expression of deep feeling."
+     "speaker": "JR",
+     "text": [
+      "That is it. I think \"unto my name\" really understood would involve all that you have said. \"Unto my name\" is not what we claim; it is not that we act and claim that this is in His name, it is what He can put His name to as if He could say, I put My name to that action. It is the place that Jehovah will choose to set His name there."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is good."
+     "speaker": "CB",
+     "text": [
+      "So He says \"tell it to the assembly”, not 'My assembly'."
+     ]
     },
     {
-     "speaker": "A.B.",
-     "text": "Would Hebrews 12: 14, 15 help us to find the right way? \"Pursue peace with all, and holiness ... watching lest there be any one who lacks the grace of God; lest any root of bitterness springing up trouble you\"."
+     "speaker": "JR",
+     "text": [
+      "That is right. It is the assembly locally, \"My assembly\" is of universal character, what is on the earth for His pleasure. In its fulness, I think; 'My assembly' must include the assembly from Pentecost until the rapture, because it is the object of attacks coming in during the whole dispensation; but the assembly according to Matthew 18 is an expression of that locally.",
+      "A.T. So there is always an odour with the name, when things are taken up."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, it certainly would."
+     "speaker": "JR",
+     "text": [
+      "That is right. There is the odour, and there are the rights attaching to that name."
+     ]
     },
     {
-     "text": "F.v.R. Must we be preserved from trying to cover things up out of sentimental reasons? Brethren sometimes say, Let the matter rest, it will find a solution. But you cannot do that, can you?"
+     "speaker": "WMcK",
+     "text": [
+      "Would you say that the actual presence of the Lord with the saints is the confirmation of the whole thing? You referred to Christ in heaven and His name down here. It first says they \"are gathered together unto my name\", but then He says \"there am I in the midst of them\". It is not His name now, it is the Person Himself \"in the midst\" of the saints as arriving at this."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It depends what the matter is. Certain things you can allow to rest and forget about. Other things, of course, have to be taken up. If a matter involves the rights of Christ it has to be taken up. Mr Becker refers to \"Pursue peace with all, and holiness, without which no one shall see the Lord\". That is priesthood. \"Watching lest there be any one who lack s the grace of God\". It is the pursuing peace positively and \"watching lest\" wrong things should come in."
+     "speaker": "JR",
+     "text": [
+      "That is very encouraging and helpful."
+     ]
     },
     {
-     "speaker": "R.J.C.",
-     "text": "Would you say something more as to \"the place which Jehovah thy God will choose\". It is not the place that we choose. Is there a certain standard, a certain level, a certain elevation that must be maintained. Have we to come to that viewpoint?"
+     "speaker": "JCE",
+     "text": [
+      "In that connection why is it that things come from the Father? \"Whatsoever it may be that they shall ask, it shall come to them from my Father who is in the heavens\". I had connected it rather with the Lord's name and His looking forward to His being absent personally, though He would be known spiritually where His name was honoured and recognised, and yet things would come from the Father, so great was the Father's interest in these matters in the Lord's name."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is it. I think \"unto my name\" really understood would involve all that you have said. \"Unto my name\" is not what we claim; it is not that we act and claim that this is in His name, it is what He can put His name to as if He could say, I put My name to that action. It is the place that Jehovah will choose to set His name there."
+     "speaker": "JR",
+     "text": [
+      "That is very helpful."
+     ]
     },
     {
-     "speaker": "C.B.",
-     "text": "So He says \"tell it to the assembly”, not 'My assembly'."
+     "speaker": "DH",
+     "text": [
+      "Does what the Lord says in John 17 link on with that? He says \"Holy Father, keep them in thy name which thou hast given me, that they may be one as we\" (v.11)."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. It is the assembly locally, \"My assembly\" is of universal character, what is on the earth for His pleasure. In its fulness, I think; 'My assembly' must include the assembly from Pentecost until the rapture, because it is the object of attacks coming in during the whole dispensation; but the assembly according to Matthew 18 is an expression of that locally."
+     "speaker": "JR",
+     "text": [
+      "Yes, that shows the Father in His supremacy. Would not that again refer to the Lord's absence? He said \" When I was with them I kept them\". \"Unto my name\" involves the Lord's absence publicly but, as Mr McKay said, \"there am I\" in His presence. It is how He is personally absent and yet how He is present. Judas, not the lscariote, said \"How is it that thou wilt manifest thyself to us and not to the world? \", John 14: 22. He could not understand it. It is by the Spirit, is it not?"
+     ]
     },
     {
-     "text": "A.T. So there is always an odour with the name, when things are taken up."
+     "speaker": "WMcK",
+     "text": [
+      "The same distinction is made in 2 Timothy 2. It is those who name \"the name of the Lord\"; but later it is \"those that call upon the Lord\", not His name but the Person. So that it raises the test in all matters as to what our relations with divine Persons really are, do you think?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. There is the odour, and there are the rights attaching to that name."
+     "speaker": "JR",
+     "text": [
+      "That is basic. We will not take this moral journey we have spoken about without having right relations with divine Persons."
+     ]
     },
     {
-     "text": "W.McK. Would you say that the actual presence of the Lord with the saints is the confirmation of the whole thing? You referred to Christ in heaven and His name down here. It first says they \"are gathered together unto my name\", but then He says \"there am I in the midst of them\". It is not His name now, it is the Person Himself \"in the midst\" of the saints as arriving at this."
+     "speaker": "JAT",
+     "text": [
+      "Would Abraham set that out in Genesis 18: 22? It says \"And the men turned thence, and went towards Sodom; and Abraham remained vet standing before Jehovah\". Then there is the intercession as to righteous persons not perishing with the wicked. I wondered whether that is very important. It would be a question of pausing and considering as to righteous persons."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is very encouraging and helpful."
+     "speaker": "JR",
+     "text": [
+      "Yes, it would emphasise the importance of being with God."
+     ]
     },
     {
-     "speaker": "J.C.E.",
-     "text": "In that connection why is it that things come from the Father? \"Whatsoever it may be that they shall ask, it shall come to them from my Father who is in the heavens\". I had connected it rather with the Lord's name and His looking forward to His being absent personally, though He would be known spiritually where His name was honoured and recognised, and yet things would come from the Father, so great was the Father's interest in these matters in the Lord's name."
+     "speaker": "JAT",
+     "text": [
+      "The men moved on but Abraham remained there."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is very helpful."
+     "speaker": "JR",
+     "text": [
+      "Yes. It says before that, \"the men rose up thence, and looked toward Sodom; and Abraham went with them to conduct them\". That is, judgment is in mind. Abraham conducts them and then \"remained yet standing before Jehovah\". That is a man with God, one man with God. Matthew 18 suggests two men like that in a locality. In John 14 the Lord comes down to one person, what one person could be: ''We will come to him and make our abode with him\"; but in Matthew the Lord comes down to two, because it is a matter of administration, of acting. Two or three can take action."
+     ]
     },
     {
-     "speaker": "D.H.",
-     "text": "Does what the Lord says in John 17 link on with that? He says \"Holy Father, keep them in thy name which thou hast given me, that they may be one as we\" (v.11)."
+     "speaker": "EP",
+     "text": [
+      "Would two or three extend to every person in the place committed to the Lord and the fellowship, gathered together unto His name? I was thinking of the matter of responsibility, as to whether all of us, and I speak of myself first, carry the responsibility that we should in regard to what is due to the Lord. Every one of us would be encouraged to take it on."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, that shows the Father in His supremacy. Would not that again refer to the Lord's absence? He said \" When I was with them I kept them\". \"Unto my name\" involves the Lord's absence publicly but, as Mr McKay said, \"there am I\" in His presence. It is how He is personally absent and yet how He is present. Judas, not the lscariote, said \"How is it that thou wilt manifest thyself to us and not to the world? \", John 14: 22. He could not understand it. It is by the Spirit, is it not?"
+     "speaker": "JR",
+     "text": [
+      "I am sure that is right. When it comes down to two they must accept responsibility: similarly where there are three; but if you get twenty or thirty the optional side comes in sometimes.",
+      "F.v.R. What about husband and wife?"
+     ]
     },
     {
-     "text": "W.McK. The same distinction is made in 2 Timothy 2. It is those who name \"the name of the Lord\"; but later it is \"those that call upon the Lord\", not His name but the Person. So that it raises the test in all matters as to what our relations with divine Persons really are, do you think?"
+     "speaker": "JR",
+     "text": [
+      "Well, in the broken state of things we are in, the remnant conditions, that is all we have meantime in some localities, yet \"unto my name\" has in mind due regard for the Lord's rights and shows what is possible in small localities. It is a great encouragement.",
+      "J.M-I. If state is there, there is no less status. Is that right?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is basic. We will not take this moral journey we have spoken about without having right relations with divine Persons."
+     "speaker": "JR",
+     "text": [
+      "That is right. We do not require big cities and big numbers, it is a question of what the Lord is working out with two or three. It ought to be a great encouragement to us at the present time.",
+      "C.G H. As to verse 17 of Matthew 18 - \"if also he will not listen to the assembly\" - if there is listening, there is something to be heard. You said that the Lord might say as to a certain thing, I can attach my name to that. How is His preparedness to do that conveyed?"
+     ]
     },
     {
-     "speaker": "J.A.T.",
-     "text": "Would Abraham set that out in Genesis 18: 22? It says \"And the men turned thence, and went towards Sodom; and Abraham remained vet standing before Jehovah\". Then there is the intercession as to righteous persons not perishing with the wicked. I wondered whether that is very important. It would be a question of pausing and considering as to righteous persons."
+     "speaker": "JR",
+     "text": [
+      "It is a question of what, to use the language in verse 17, the assembly does and says, which He puts His name to. It is the acceptance of responsibility to which we have just referred. Jehovah intimates in Deuteronomy as early as chapter 12 what He has in mind: \"the place which Jehovah your God will choose ... to set his name there\" (v 5). He just suggests what is in His mind. Many chapters come in between that intimation and the tangible result, the tangible answer in the house built by Solomon. We are to provide such an answer now. We are meant to provide certain conditions and do certain things that the Lord can put His stamp upon, His name upon."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes, it would emphasise the importance of being with God."
+     "speaker": "CGH",
+     "text": [
+      "Quite so. But then to be authoritative, and so taken account of by others, there must be some evidence of that. Is that evidence in that which is to be listened to?"
+     ]
     },
     {
-     "speaker": "J.A.T.",
-     "text": "The men moved on but Abraham remained there."
+     "speaker": "JR",
+     "text": [
+      "Well, it says \"if also he will not listen to the assembly\". If he does listen to the assembly then the person is saved. If he does not listen it amounts to presumptuous action such as is described in Deuteronomy 17. But I may not have got what is in your mind."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Yes. It says before that, \"the men rose up thence, and looked toward Sodom; and Abraham went with them to conduct them\". That is, judgment is in mind. Abraham conducts them and then \"remained yet standing before Jehovah\". That is a man with God, one man with God. Matthew 18 suggests two men like that in a locality. In John 14 the Lord comes down to one person, what one person could be: ''We will come to him and make our abode with him\"; but in Matthew the Lord comes down to two, because it is a matter of administration, of acting. Two or three can take action."
+     "speaker": "CGH",
+     "text": [
+      "If the Lord has a mind about something it has to be conveyed. You cannot limit the Lord, of course, but normally He conveys it through a channel. Now, what is that channel?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Would two or three extend to every person in the place committed to the Lord and the fellowship, gathered together unto His name? I was thinking of the matter of responsibility, as to whether all of us, and I speak of myself first, carry the responsibility that we should in regard to what is due to the Lord. Every one of us would be encouraged to take it on."
+     "speaker": "JR",
+     "text": [
+      "It would be in some person, I suppose. It might involve sitting down and enquiring and arriving at a judgment: \"It has seemed good to the Holy Spirit and to us\", Acts 15: 28."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "I am sure that is right. When it comes down to two they must accept responsibility: similarly where there are three; but if you get twenty or thirty the optional side comes in sometimes."
+     "speaker": "CGH",
+     "text": [
+      "What I am trying to get at is the source of what is said."
+     ]
     },
     {
-     "text": "F.v.R. What about husband and wife?"
+     "speaker": "JR",
+     "text": [
+      "It seems to me it is what the assembly does and says which He can trust. As persons are animated by the breath of Jesus, have the mind of Christ and are under His headship, He can put His name on what is done. Normally that would be accepted."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Well, in the broken state of things we are in, the remnant conditions, that is all we have meantime in some localities, yet \"unto my name\" has in mind due regard for the Lord's rights and shows what is possible in small localities. It is a great encouragement."
+     "speaker": "ECB",
+     "text": [
+      "\"The heart of her husband confideth in her\" (Prov 31: 11) is the basis of it, is it not?"
+     ]
     },
     {
-     "text": "J.M-I. If state is there, there is no less status. Is that right?"
+     "speaker": "JR",
+     "text": [
+      "Very good."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "That is right. We do not require big cities and big numbers, it is a question of what the Lord is working out with two or three. It ought to be a great encouragement to us at the present time."
+     "speaker": "ECB",
+     "text": [
+      "What may emerge from what Mr Hitchcock was saying is, how do we discern that it was the Lord's mind? Normally the fact that He confides in the assembly is justified by the assembly’s actions, but being in a day such as we are the Lord will, in His own time and if necessary, manifest that He was not in what was done, but that would be abnormal."
+     ]
     },
     {
-     "text": "C.G H. As to verse 17 of Matthew 18 - \"if also he will not listen to the assembly\" - if there is listening, there is something to be heard. You said that the Lord might say as to a certain thing, I can attach my name to that. How is His preparedness to do that conveyed?"
+     "speaker": "JR",
+     "text": [
+      "Exactly. What Mr Brown said, too, as to the reference to the Scriptures would be important, that is, of course, the Scriptures rightly applied. So there is wisdom involved in all this."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It is a question of what, to use the language in verse 17, the assembly does and says, which He puts His name to. It is the acceptance of responsibility to which we have just referred. Jehovah intimates in Deuteronomy as early as chapter 12 what He has in mind: \"the place which Jehovah your God will choose ... to set his name there\" (v 5). He just suggests what is in His mind. Many chapters come in between that intimation and the tangible result, the tangible answer in the house built by Solomon. We are to provide such an answer now. We are meant to provide certain conditions and do certain things that the Lord can put His stamp upon, His name upon."
+     "speaker": "CM",
+     "text": [
+      "In 1 Corinthians 5 they are gathered together \"with the power of our Lord Jesus Christ\" (v 4). It should not be entirely unknown today."
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "Quite so. But then to be authoritative, and so taken account of by others, there must be some evidence of that. Is that evidence in that which is to be listened to?"
+     "speaker": "JR",
+     "text": [
+      "That is right. It speaks too, about \"In the name of our Lord Jesus Christ\". I remember Mr Hammond in Edinburgh some years ago helped me in this matter. He said that we always have authority to act and the authority is the name of the Lord but the power for it lies in the Spirit. We are not to say we have no power to act; we have authority to act and the authority is the name of the Lord. Is that right?"
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Well, it says \"if also he will not listen to the assembly\". If he does listen to the assembly then the person is saved. If he does not listen it amounts to presumptuous action such as is described in Deuteronomy 17. But I may not have got what is in your mind."
+     "speaker": "CH",
+     "text": [
+      "Yes, that holds true today."
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "If the Lord has a mind about something it has to be conveyed. You cannot limit the Lord, of course, but normally He conveys it through a channel. Now, what is that channel?"
+     "speaker": "JR",
+     "text": [
+      "I am sure it does."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It would be in some person, I suppose. It might involve sitting down and enquiring and arriving at a judgment: \"It has seemed good to the Holy Spirit and to us\", Acts 15: 28."
+     "speaker": "EMW",
+     "text": [
+      "We cannot say that we must not act because our state is too low to act."
+     ]
     },
     {
-     "speaker": "C.G.H.",
-     "text": "What I am trying to get at is the source of what is said."
+     "speaker": "JR",
+     "text": [
+      "Exactly."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "It seems to me it is what the assembly does and says which He can trust. As persons are animated by the breath of Jesus, have the mind of Christ and are under His headship, He can put His name on what is done. Normally that would be accepted."
+     "speaker": "CH",
+     "text": [
+      "As to Mr Hitchcock's question, do you not think that what is said and done in relation to any particular action would bear the evidence that those who have acted or spoken have been with God in it? That requires, of course, priestly discernment on the part of us all. It is not a technical thing. We can get so bogged down in detail whereas, do you think, if we were with God, we should discern where His mind is and whether what is done is accredited or not accredited? I mean, the priest here seemed to determine the situation."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "\"The heart of her husband confideth in her\" (Prov 31: 11) is the basis of it, is it not?"
+     "speaker": "JR",
+     "text": [
+      "That is right. The priests, the Levites and the judge are all mentioned together in the one verse."
+     ]
     },
     {
-     "speaker": "J.R.",
-     "text": "Very good."
+     "speaker": "DLS",
+     "text": [
+      "These persons in Deuteronomy are in the habit of going up and appearing before Jehovah in the place that He shall choose."
+     ]
     },
     {
-     "speaker": "E.C.B.",
-     "text": "What may emerge from what Mr Hitchcock was saying is, how do we discern that it was the Lord's mind? Normally the fact that He confides in the assembly is justified by the assembly’s actions, but being in a day such as we are the Lord will, in His own time and if necessary, manifest that He was not in what was done, but that would be abnormal."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "Exactly. What Mr Brown said, too, as to the reference to the Scriptures would be important, that is, of course, the Scriptures rightly applied. So there is wisdom involved in all this."
-    },
-    {
-     "speaker": "C.M.",
-     "text": "In 1 Corinthians 5 they are gathered together \"with the power of our Lord Jesus Christ\" (v 4). It should not be entirely unknown today."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "That is right. It speaks too, about \"In the name of our Lord Jesus Christ\". I remember Mr Hammond in Edinburgh some years ago helped me in this matter. He said that we always have authority to act and the authority is the name of the Lord but the power for it lies in the Spirit. We are not to say we have no power to act; we have authority to act and the authority is the name of the Lord. Is that right?"
-    },
-    {
-     "speaker": "C.H.",
-     "text": "Yes, that holds true today."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "I am sure it does."
-    },
-    {
-     "speaker": "E.M.W.",
-     "text": "We cannot say that we must not act because our state is too low to act."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "Exactly."
-    },
-    {
-     "speaker": "C.H.",
-     "text": "As to Mr Hitchcock's question, do you not think that what is said and done in relation to any particular action would bear the evidence that those who have acted or spoken have been with God in it? That requires, of course, priestly discernment on the part of us all. It is not a technical thing. We can get so bogged down in detail whereas, do you think, if we were with God, we should discern where His mind is and whether what is done is accredited or not accredited? I mean, the priest here seemed to determine the situation."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "That is right. The priests, the Levites and the judge are all mentioned together in the one verse."
-    },
-    {
-     "speaker": "D.L.S.",
-     "text": "These persons in Deuteronomy are in the habit of going up and appearing before Jehovah in the place that He shall choose."
-    },
-    {
-     "speaker": "J.R.",
-     "text": "Very good. That is the place where He is served. It is mentioned in chapter 12. It says \"His habitation shall ye seek, and thither thou shalt come; that is in normality, \"and thither ye shall bring your burnt-offerings and your sacrifices\" (vv 5, 6). That is a very helpful allusion to the fact that they were accustomed to come there in the normal service."
+     "speaker": "JR",
+     "text": [
+      "Very good. That is the place where He is served. It is mentioned in chapter 12. It says \"His habitation shall ye seek, and thither thou shalt come; that is in normality, \"and thither ye shall bring your burnt-offerings and your sacrifices\" (vv 5, 6). That is a very helpful allusion to the fact that they were accustomed to come there in the normal service."
+     ]
     }
    ]
   },
@@ -1079,6 +1439,44 @@
      "text": "Our daily life is like a school and the \"grace of God\" has come to teach us. Not only is this a teacher with a very pleasant name, but before it sets us our lessons it brings salvation for all who will receive it. Some of the lessons are in the epistle to Titus chapter two. God's grace also encourages us to look out of the school window which, like that in Noah's ark, is at the top! Are you one of the many scholars, old and young, who are awaiting the appearing of the glory of our great God and Saviour, Jesus Christ?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "ADMINISTRATION",
+   "kind": "run_on_key",
+   "detail": "one line holds 2 entries; split at each set of initials"
+  },
+  {
+   "article": 1,
+   "title": "ADMINISTRATION",
+   "kind": "no_comma_before_place",
+   "detail": "\"H.A.H. .A.Hutson\" read as H. A. H. .A., Hutson"
+  },
+  {
+   "article": 1,
+   "title": "ADMINISTRATION",
+   "kind": "not_a_name",
+   "detail": "\"l. J.Mitchell\" left out of the key"
+  },
+  {
+   "article": 1,
+   "title": "ADMINISTRATION",
+   "kind": "initials_before_name",
+   "detail": "46 entries written as initials then name (\"AAB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "ADMINISTRATION",
+   "kind": "possible_speaker",
+   "detail": "HAH opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "ADMINISTRATION",
+   "kind": "speaker_not_in_key",
+   "detail": "HAH (in the text)"
   }
  ]
 }

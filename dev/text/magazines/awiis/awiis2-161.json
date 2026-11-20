@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -37,24 +37,29 @@
     "THB",
     "NRC",
     "MB",
+    "GB",
     "KRC"
    ],
    "initials": [
     {
-     "initials": "EGB",
-     "name": "Edinburgh unless otherwise shown G Bailey"
+     "initials": "GB",
+     "name": "G Bailey",
+     "place": "Edinburgh"
     },
     {
      "initials": "THB",
-     "name": "T H Bailey"
+     "name": "T H Bailey",
+     "place": "Edinburgh"
     },
     {
      "initials": "DCB",
-     "name": "D C Brown"
+     "name": "D C Brown",
+     "place": "Edinburgh"
     },
     {
      "initials": "JTB",
-     "name": "J T Brown"
+     "name": "J T Brown",
+     "place": "Edinburgh"
     },
     {
      "initials": "MB",
@@ -68,19 +73,23 @@
     },
     {
      "initials": "KRC",
-     "name": "K R Cumming"
+     "name": "K R Cumming",
+     "place": "Edinburgh"
     },
     {
      "initials": "NRC",
-     "name": "N R Cumming"
+     "name": "N R Cumming",
+     "place": "Edinburgh"
     },
     {
      "initials": "DJH",
-     "name": "D J Hutson"
+     "name": "D J Hutson",
+     "place": "Edinburgh"
     },
     {
      "initials": "SCL",
-     "name": "S C Lock"
+     "name": "S C Lock",
+     "place": "Edinburgh"
     },
     {
      "initials": "CAS",
@@ -89,6 +98,7 @@
     }
    ],
    "initials_heading": "List of Initials:",
+   "initials_comment": "Edinburgh unless otherwise shown",
    "initials_text": [
     "Edinburgh unless otherwise shown",
     "G Bailey; T H Bailey; D C Brown; J T Brown; M Buchan, Aberdeen; T R Campbell, Glasgow; K R Cumming; N R Cumming; D J Hutson; S C Lock; C A Seeley, Glasgow"
@@ -96,333 +106,384 @@
    "paragraphs": [
     {
      "speaker": "TRC",
-     "text": "We began the occasion where we were this morning with hymn 347:"
-    },
-    {
-     "text": "The bread and cup, O Lord, recall"
-    },
-    {
-     "text": "That sacrifice supreme, when all"
-    },
-    {
-     "text": "The floods their voice did raise;"
-    },
-    {
-     "text": "and these thoughts seemed to run through the occasion, the supremacy and glory of the one sacrifice. When we go through the Old Testament, particularly in Leviticus, we have the offerings prescribed, the amount of blood that was shed, the many sacrifices that were made, for it was what God required, innumerable sacrifices. We can think of the volume of blood that was shed too, but I wondered whether we could get help together to be occupied with the supremacy of the one sacrifice, firstly on the side of what it meant to the Father. I wondered whether we get that thought in Genesis 22, what it meant to the Father that such a sacrifice was required. We know from John 3: 16 that “God so loved the world, that he gave his only-begotten Son, that whosoever believes on him may not perish”. We should think of the feelings of God in relation to the one sacrifice!"
-    },
-    {
-     "text": "We could get some help together on the one sacrifice from the Lord’s side too, for it was only a divine Person, God manifest in flesh, that could accomplish such a work. We might think of the movements of the Lord Jesus in manhood; it would be good if we could get an impression of what the preciousness of the life of Jesus was to the Father, and that from an early age. There are the hidden years, but we come to the waters of baptism when the heavens were opened, and also the mount of transfiguration, when again the heavens are opened and such a voice is heard declaring the Father’s delight in Christ. But then, these downward movements! What it meant to the Lord Jesus! We get a touch of that in Genesis 22, the ram caught in the thicket, the devotion of the Lord to His Father’s will, and that involved the cross."
-    },
-    {
-     "text": "I had Matthew read because here we see the enormity of what it meant to the Lord Jesus to be made sin! In hymn 347 it speaks of"
-    },
-    {
-     "text": "All question of our moral stain"
-    },
-    {
-     "text": "being resolved: so what a result there has been from such a sacrifice, the one sacrifice, of Jesus on the cross. Not only did He die, but His precious blood was shed."
-    },
-    {
-     "text": "I had Corinthians read because we have this reminder, “This is my body, which is for you”, and also the shed blood that we see in an emblem, the cup, showing the preciousness of the sacrifice."
-    },
-    {
-     "text": "This was the impression we had this morning. I wondered if we could get some help in contemplating these thoughts together"
+     "text": [
+      "We began the occasion where we were this morning with hymn 347:",
+      "The bread and cup, O Lord, recall",
+      "That sacrifice supreme, when all",
+      "The floods their voice did raise;",
+      "and these thoughts seemed to run through the occasion, the supremacy and glory of the one sacrifice. When we go through the Old Testament, particularly in Leviticus, we have the offerings prescribed, the amount of blood that was shed, the many sacrifices that were made, for it was what God required, innumerable sacrifices. We can think of the volume of blood that was shed too, but I wondered whether we could get help together to be occupied with the supremacy of the one sacrifice, firstly on the side of what it meant to the Father. I wondered whether we get that thought in Genesis 22, what it meant to the Father that such a sacrifice was required. We know from John 3: 16 that “God so loved the world, that he gave his only-begotten Son, that whosoever believes on him may not perish”. We should think of the feelings of God in relation to the one sacrifice!",
+      "We could get some help together on the one sacrifice from the Lord’s side too, for it was only a divine Person, God manifest in flesh, that could accomplish such a work. We might think of the movements of the Lord Jesus in manhood; it would be good if we could get an impression of what the preciousness of the life of Jesus was to the Father, and that from an early age. There are the hidden years, but we come to the waters of baptism when the heavens were opened, and also the mount of transfiguration, when again the heavens are opened and such a voice is heard declaring the Father’s delight in Christ. But then, these downward movements! What it meant to the Lord Jesus! We get a touch of that in Genesis 22, the ram caught in the thicket, the devotion of the Lord to His Father’s will, and that involved the cross.",
+      "I had Matthew read because here we see the enormity of what it meant to the Lord Jesus to be made sin! In hymn 347 it speaks of",
+      "All question of our moral stain",
+      "being resolved: so what a result there has been from such a sacrifice, the one sacrifice, of Jesus on the cross. Not only did He die, but His precious blood was shed.",
+      "I had Corinthians read because we have this reminder, “This is my body, which is for you”, and also the shed blood that we see in an emblem, the cup, showing the preciousness of the sacrifice.",
+      "This was the impression we had this morning. I wondered if we could get some help in contemplating these thoughts together"
+     ]
     },
     {
      "speaker": "SCL",
-     "text": "It is a very good thought. What you were saying in relation to the sacrifice is interesting. The occasion of the breaking of bread could not go forward were it not for the one sacrifice. It is as a result of the cost that has been paid by the Lord Jesus that we are able to enjoy such a precious occasion; so really before the occasion has even begun when we walk in, the emblems on the table are representative of the sacrifice."
+     "text": [
+      "It is a very good thought. What you were saying in relation to the sacrifice is interesting. The occasion of the breaking of bread could not go forward were it not for the one sacrifice. It is as a result of the cost that has been paid by the Lord Jesus that we are able to enjoy such a precious occasion; so really before the occasion has even begun when we walk in, the emblems on the table are representative of the sacrifice."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I think that is helpful. We have that reminder; I suppose it is in the Lord’s wisdom that we have it. As we see from Corinthians, Paul received it from the Lord Himself, and how simple the emblems are, but there they are. We sometimes sing that the emblems are ‘tokens’ of His ‘matchless love’ (Hymn 339), which lies behind the sacrifice, but there they are, a physical witness to the sacrifice that had been made."
+     "text": [
+      "I think that is helpful. We have that reminder; I suppose it is in the Lord’s wisdom that we have it. As we see from Corinthians, Paul received it from the Lord Himself, and how simple the emblems are, but there they are. We sometimes sing that the emblems are ‘tokens’ of His ‘matchless love’ (Hymn 339), which lies behind the sacrifice, but there they are, a physical witness to the sacrifice that had been made."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "We started with the same hymn this morning. It is, “who by the eternal spirit offered himself spotless to God”, Heb 9: 14. The sacrifice was total. These were all blood sacrifices of old, apart from the oblation, of course, but this was a Person, a living Person, One who was perfect in every way, sin apart, and it was that character of manhood that was given irrevocably."
+     "text": [
+      "We started with the same hymn this morning. It is, “who by the eternal spirit offered himself spotless to God”, Heb 9: 14. The sacrifice was total. These were all blood sacrifices of old, apart from the oblation, of course, but this was a Person, a living Person, One who was perfect in every way, sin apart, and it was that character of manhood that was given irrevocably."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "We need to deepen in our apprehension of what that manhood was to the Father, but also to the Lord Himself! It says prophetically, “take me not away in the midst of my days!”, Ps 102: 24. Think of the pleasure that the Lord Jesus had in His life in fulfilling the will of His God and Father! “He wakeneth morning by morning, he wakeneth mine ear”, Isa 50: 4. You might say the devotion is in every fibre of His being in the pursuit of His Father’s will."
+     "text": [
+      "We need to deepen in our apprehension of what that manhood was to the Father, but also to the Lord Himself! It says prophetically, “take me not away in the midst of my days!”, Ps 102: 24. Think of the pleasure that the Lord Jesus had in His life in fulfilling the will of His God and Father! “He wakeneth morning by morning, he wakeneth mine ear”, Isa 50: 4. You might say the devotion is in every fibre of His being in the pursuit of His Father’s will."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "Offerings were annual occurrences, or more frequent, but “by one offering he has perfected in perpetuity the sanctified”, Heb 10: 14. Once was sufficient, speaking reverently. It was complete; it was total; but it was sufficient."
+     "text": [
+      "Offerings were annual occurrences, or more frequent, but “by one offering he has perfected in perpetuity the sanctified”, Heb 10: 14. Once was sufficient, speaking reverently. It was complete; it was total; but it was sufficient."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "“Once in the consummation of the ages” (Heb 9: 26): there it is, the glory and supremacy of that sacrifice by Jesus Himself, the sinless One, the One that was entirely pleasurable to God, but then, as you say, that life given up. What a sacrifice!"
+     "text": [
+      "“Once in the consummation of the ages” (Heb 9: 26): there it is, the glory and supremacy of that sacrifice by Jesus Himself, the sinless One, the One that was entirely pleasurable to God, but then, as you say, that life given up. What a sacrifice!"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "It is said here, “On the mount of Jehovah will be provided”. It was God Himself who provided the sacrifice; yet it is a burnt-offering, which is for His own pleasure. I was wondering about these aspects; it is a supreme sacrifice, not only because of the excellence of Christ, but because of the grandeur of the fact that it was God Himself who provided it."
+     "text": [
+      "It is said here, “On the mount of Jehovah will be provided”. It was God Himself who provided the sacrifice; yet it is a burnt-offering, which is for His own pleasure. I was wondering about these aspects; it is a supreme sacrifice, not only because of the excellence of Christ, but because of the grandeur of the fact that it was God Himself who provided it."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "Open that up a bit for us. In Genesis 22 the type falls short, but God has provided the sacrifice, and not only is it supreme in the sense of the giving but in its acceptability to God. It is the burnt-offering, what is pleasurable to the nostrils of God; so the acceptance of that sacrifice in the eye of God draws out the fact of what it meant to God, and magnifies the glory of the sacrifice."
+     "text": [
+      "Open that up a bit for us. In Genesis 22 the type falls short, but God has provided the sacrifice, and not only is it supreme in the sense of the giving but in its acceptability to God. It is the burnt-offering, what is pleasurable to the nostrils of God; so the acceptance of that sacrifice in the eye of God draws out the fact of what it meant to God, and magnifies the glory of the sacrifice."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Another line of a hymn is:"
-    },
-    {
-     "text": "Thine offering excelled (Hymn 268)."
-    },
-    {
-     "text": "You see how Abraham, if we take it literally, provides his very best in giving his son, since that relationship was involved, but then God brings in something that is from His side; so that the ram is looking forward to what could only find its answer in Christ as the One who was so fully devoted to His will."
+     "text": [
+      "Another line of a hymn is:",
+      "Thine offering excelled (Hymn 268).",
+      "You see how Abraham, if we take it literally, provides his very best in giving his son, since that relationship was involved, but then God brings in something that is from His side; so that the ram is looking forward to what could only find its answer in Christ as the One who was so fully devoted to His will."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I think that is helpful, “a ram caught in the thicket by its horns”; there is no thought of any struggle. We could apply it to Christ and say it is held there by the devotion of love, horns speaking of strength, no doubt. I think that is helpful, that God has provided the sacrifice. You get an impression then of that in the earlier verses, “Take now thy son, thine only son, whom thou lovest, Isaac”, suggesting the preciousness of what Christ was to the Father; that was the sacrifice. But then as a result of that, the hymn you quote,"
-    },
-    {
-     "text": "Thine offering excelled;"
-    },
-    {
-     "text": "goes on to,"
-    },
-    {
-     "text": "What odours choice He smelled:"
-    },
-    {
-     "text": "what was fully acceptable to God."
+     "text": [
+      "I think that is helpful, “a ram caught in the thicket by its horns”; there is no thought of any struggle. We could apply it to Christ and say it is held there by the devotion of love, horns speaking of strength, no doubt. I think that is helpful, that God has provided the sacrifice. You get an impression then of that in the earlier verses, “Take now thy son, thine only son, whom thou lovest, Isaac”, suggesting the preciousness of what Christ was to the Father; that was the sacrifice. But then as a result of that, the hymn you quote,",
+      "Thine offering excelled;",
+      "goes on to,",
+      "What odours choice He smelled:",
+      "what was fully acceptable to God."
+     ]
     },
     {
      "speaker": "DJH",
-     "text": "I often think of these three letters, “yea”: “He who, yea, has not spared his own Son”, Rom 8: 32. It seems as though the apostle almost hesitates before he goes forward to speak of such a sacrifice: “He who, yea, has not spared his own Son”. They seem very powerful those three letters, “yea”."
+     "text": [
+      "I often think of these three letters, “yea”: “He who, yea, has not spared his own Son”, Rom 8: 32. It seems as though the apostle almost hesitates before he goes forward to speak of such a sacrifice: “He who, yea, has not spared his own Son”. They seem very powerful those three letters, “yea”."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "That is very fine. Just a short word but how the apostle must have had some inkling as to the feelings of the Father in relation to what it involved; what that cost was! I think what you say is very touching."
+     "text": [
+      "That is very fine. Just a short word but how the apostle must have had some inkling as to the feelings of the Father in relation to what it involved; what that cost was! I think what you say is very touching."
+     ]
     },
     {
      "speaker": "CAS",
-     "text": "“Behind was a ram caught in the thicket”; I was thinking of eternal counsels being involved."
+     "text": [
+      "“Behind was a ram caught in the thicket”; I was thinking of eternal counsels being involved."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I had not thought of that, but that commends itself, “the determinate counsel and foreknowledge of God”, Acts 2: 23. Think of God having a view in eternity past of what was going to be involved not only in meeting the whole sin question but in meeting the holiness of God, meeting the righteousness of God. The typical scriptures help us: Exodus 12 refers to a “lamb … without blemish” (v 5), showing the intrinsic purity and value of the sacrifice."
+     "text": [
+      "I had not thought of that, but that commends itself, “the determinate counsel and foreknowledge of God”, Acts 2: 23. Think of God having a view in eternity past of what was going to be involved not only in meeting the whole sin question but in meeting the holiness of God, meeting the righteousness of God. The typical scriptures help us: Exodus 12 refers to a “lamb … without blemish” (v 5), showing the intrinsic purity and value of the sacrifice."
+     ]
     },
     {
      "speaker": "CAS",
-     "text": "Peter’s preaching speaks of “him, given up by the determinate counsel and foreknowledge of God”. It was always in the heart of God that recovery was going to be through this precious One."
+     "text": [
+      "Peter’s preaching speaks of “him, given up by the determinate counsel and foreknowledge of God”. It was always in the heart of God that recovery was going to be through this precious One."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "Without it we would all have been lost; such is the heart of God and His foreknowledge that there was going to be an answer to the purpose of His heart."
+     "text": [
+      "Without it we would all have been lost; such is the heart of God and His foreknowledge that there was going to be an answer to the purpose of His heart."
+     ]
     },
     {
      "speaker": "THB",
-     "text": "There was the sacrifice on the part of the Lord Jesus and on the part of God too. Could you say something about that? I was thinking that you said that the type in Genesis fell short. Isaac did not know what was to proceed, but the Lord did, did He not? He knew everything that was to come to pass in relation to Him giving Himself."
+     "text": [
+      "There was the sacrifice on the part of the Lord Jesus and on the part of God too. Could you say something about that? I was thinking that you said that the type in Genesis fell short. Isaac did not know what was to proceed, but the Lord did, did He not? He knew everything that was to come to pass in relation to Him giving Himself."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "We feel measured in what we can actually say in relation to these holy matters, but I thought that in Genesis 22 you get the Father’s feelings coming out. If such a sacrifice was to be made, it required a divine Person to take the matter up. I suppose from the Lord’s side coming into manhood was the first step in this great operation of love. There are the two stoops in John 8: firstly, the stoop into manhood for there was sacrifice involved in that, that He would empty Himself to come into manhood, but then the second stoop into death. These things are very deep and beyond me: we feel measured in what we can say. The Lord went into death. We get some impression of the Lord’s feelings in Gethsemane, all that that involved, His holy Person, you may say, recoiling from what was before Him, but then how precious these words, “not my will, but thine be done” (Luke 22: 42), the intensity of all that was before the Lord Jesus. We sometimes sing:"
-    },
-    {
-     "text": "None could follow there, blest Saviour,"
-    },
-    {
-     "text": "When Thou didst for sins atone”"
-    },
-    {
-     "text": "(Hymn 298)."
-    },
-    {
-     "text": "It is really beyond us, but food for our souls to contemplate."
+     "text": [
+      "We feel measured in what we can actually say in relation to these holy matters, but I thought that in Genesis 22 you get the Father’s feelings coming out. If such a sacrifice was to be made, it required a divine Person to take the matter up. I suppose from the Lord’s side coming into manhood was the first step in this great operation of love. There are the two stoops in John 8: firstly, the stoop into manhood for there was sacrifice involved in that, that He would empty Himself to come into manhood, but then the second stoop into death. These things are very deep and beyond me: we feel measured in what we can say. The Lord went into death. We get some impression of the Lord’s feelings in Gethsemane, all that that involved, His holy Person, you may say, recoiling from what was before Him, but then how precious these words, “not my will, but thine be done” (Luke 22: 42), the intensity of all that was before the Lord Jesus. We sometimes sing:",
+      "None could follow there, blest Saviour,",
+      "When Thou didst for sins atone”",
+      "(Hymn 298).",
+      "It is really beyond us, but food for our souls to contemplate."
+     ]
     },
     {
      "speaker": "NRC",
-     "text": "I was wondering in relation to what you have just said, in regard to the relationship between the Father and the Son, about the intimacy of that comes out in verse 7. Isaac said, “My father! And he said, Here am I, my son”. There was a deep intimacy between Abraham and Isaac, and what intimacy there was between the Father and the Son. He woke in the morning, and His ear was opened to what His Father would have to say for that day. It is quite something just to contemplate, that sacrifice and the supremacy of it. I have been thinking of the feelings of the Father in relation to that."
+     "text": [
+      "I was wondering in relation to what you have just said, in regard to the relationship between the Father and the Son, about the intimacy of that comes out in verse 7. Isaac said, “My father! And he said, Here am I, my son”. There was a deep intimacy between Abraham and Isaac, and what intimacy there was between the Father and the Son. He woke in the morning, and His ear was opened to what His Father would have to say for that day. It is quite something just to contemplate, that sacrifice and the supremacy of it. I have been thinking of the feelings of the Father in relation to that."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "It is very helpful simply to contemplate the preciousness of that relationship, and what it meant for the Father and the Son that enjoyment of that relationship would be interrupted. That is why I read the Lord’s words on the cross. What depths these are! The One who knew not sin, the One who loved righteousness and hated lawlessness (Heb 1: 9), God made Him to be sin for us, and, because of that, communion with His Father that He had known, you might say, moment by moment in His life here was broken. He was forsaken of God. It should draw out our affections towards Him."
+     "text": [
+      "It is very helpful simply to contemplate the preciousness of that relationship, and what it meant for the Father and the Son that enjoyment of that relationship would be interrupted. That is why I read the Lord’s words on the cross. What depths these are! The One who knew not sin, the One who loved righteousness and hated lawlessness (Heb 1: 9), God made Him to be sin for us, and, because of that, communion with His Father that He had known, you might say, moment by moment in His life here was broken. He was forsaken of God. It should draw out our affections towards Him."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "The expression “piled the wood” often affects me. Speaking reverently, you think of the father casting a faggot, a log, on the sacrificial pyre in order that the divine will might be accomplished. How that must have affected Abraham’s feelings. As he took one faggot or log, or branch after the other, and put it in a pile, each must have affected his heart, his innermost being, that it was his son that was to be burnt on that awful pyre, and so for the Father. I was thinking of your reference to Gethsemane. Without stretching it too much as He heard these words, “not my will, but thine be done”, what feelings, what holy emotions must have gone through His heart that His well-beloved Son would so commit Himself to His Father’s will and proceed to the cross. As the Father witnessed Him carry His cross from Jerusalem to Golgotha, the wood was being piled in that sense, was it not, in terms of the effect on His heart really that His Son would be utterly forsaken?"
+     "text": [
+      "The expression “piled the wood” often affects me. Speaking reverently, you think of the father casting a faggot, a log, on the sacrificial pyre in order that the divine will might be accomplished. How that must have affected Abraham’s feelings. As he took one faggot or log, or branch after the other, and put it in a pile, each must have affected his heart, his innermost being, that it was his son that was to be burnt on that awful pyre, and so for the Father. I was thinking of your reference to Gethsemane. Without stretching it too much as He heard these words, “not my will, but thine be done”, what feelings, what holy emotions must have gone through His heart that His well-beloved Son would so commit Himself to His Father’s will and proceed to the cross. As the Father witnessed Him carry His cross from Jerusalem to Golgotha, the wood was being piled in that sense, was it not, in terms of the effect on His heart really that His Son would be utterly forsaken?"
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I trust these precious thoughts soften us, and touch our affections. The Lord suffered as a Man; I think what you say is very helpful. I often think of John’s gospel, where “he went out, bearing his cross”, chap 19: 17. He knew in its entirety all that was going to be involved as He proceeded in the pursuit of the will of His God and Father."
+     "text": [
+      "I trust these precious thoughts soften us, and touch our affections. The Lord suffered as a Man; I think what you say is very helpful. I often think of John’s gospel, where “he went out, bearing his cross”, chap 19: 17. He knew in its entirety all that was going to be involved as He proceeded in the pursuit of the will of His God and Father."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "I am often affected by the various expressions in Scripture that contain the thought ’to this day’. This is one of them, as if the enormity of the sacrifice of Jesus should affect us every day. It is reflected in the Supper, our committal at the Supper."
+     "text": [
+      "I am often affected by the various expressions in Scripture that contain the thought ’to this day’. This is one of them, as if the enormity of the sacrifice of Jesus should affect us every day. It is reflected in the Supper, our committal at the Supper."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I thought that this morning. It is a fresh opportunity to see the committal of the Lord Jesus to us, an opportunity for us to recommit ourselves as being affected by all that the Lord has gone through."
+     "text": [
+      "I thought that this morning. It is a fresh opportunity to see the committal of the Lord Jesus to us, an opportunity for us to recommit ourselves as being affected by all that the Lord has gone through."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So that the further detail in verse 9 is very affecting too, “he bound Isaac his son, and laid him on the altar upon the wood”, and before that “Abraham built the altar there”, suggesting deliberate activity of God to bring about what was all for His glory eternally, but at what immediate cost to Himself."
+     "text": [
+      "So that the further detail in verse 9 is very affecting too, “he bound Isaac his son, and laid him on the altar upon the wood”, and before that “Abraham built the altar there”, suggesting deliberate activity of God to bring about what was all for His glory eternally, but at what immediate cost to Himself."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I think what is coming in is very, very affecting. There is a reference to the sacrifice being bound to the horns of the altar."
+     "text": [
+      "I think what is coming in is very, very affecting. There is a reference to the sacrifice being bound to the horns of the altar."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "“Bind the sacrifice with cords, - up to the horns of the altar”, Ps 118: 27. It is very affecting."
+     "text": [
+      "“Bind the sacrifice with cords, - up to the horns of the altar”, Ps 118: 27. It is very affecting."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "It brings before us the way in which God was involved in all of this. What had been so much for His pleasure in Christ during these thirty-three and a half years: how wonderful it had been to see Him acting! And whatever weakness there was in Isaac, and what he did not see, he is subject throughout. There is no suggestion of turning away from Abraham’s will and that was, in perfection, the way of the Lord Jesus. But there comes this time when Isaac is bound, and the Lord Jesus was actually bound, that He allowed Himself to be bound, even by His captors, John 18: 12. And, in one sense, as it has often been said, it was not the nails that kept Him to the cross; therefore He was bound to the cross by His devotion to the divine will."
+     "text": [
+      "It brings before us the way in which God was involved in all of this. What had been so much for His pleasure in Christ during these thirty-three and a half years: how wonderful it had been to see Him acting! And whatever weakness there was in Isaac, and what he did not see, he is subject throughout. There is no suggestion of turning away from Abraham’s will and that was, in perfection, the way of the Lord Jesus. But there comes this time when Isaac is bound, and the Lord Jesus was actually bound, that He allowed Himself to be bound, even by His captors, John 18: 12. And, in one sense, as it has often been said, it was not the nails that kept Him to the cross; therefore He was bound to the cross by His devotion to the divine will."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "That hymn that we sang this morning,"
-    },
-    {
-     "text": "Borne in Thy heart through death’s dark tide!"
-    },
-    {
-     "text": "(Hymn 347)"
-    },
-    {
-     "text": "Just to think that we were in the affections of the Lord as He pursued the Father’s will. That involved that He was nailed to the cross, and then forsaken of God. It is really food for our souls just to contemplate such devotion. He held nothing back. It was mentioned earlier that He gave Himself; He would give no less: He gave His all."
+     "text": [
+      "That hymn that we sang this morning,",
+      "Borne in Thy heart through death’s dark tide!",
+      "(Hymn 347)",
+      "Just to think that we were in the affections of the Lord as He pursued the Father’s will. That involved that He was nailed to the cross, and then forsaken of God. It is really food for our souls just to contemplate such devotion. He held nothing back. It was mentioned earlier that He gave Himself; He would give no less: He gave His all."
+     ]
     },
     {
      "speaker": "MB",
-     "text": "In Luke 24 the Lord could say in resurrection, “Ought not the Christ to have suffered these things and to enter into his glory?”, v 26. Do you see there the subjection of the Lord to the Father’s will?"
+     "text": [
+      "In Luke 24 the Lord could say in resurrection, “Ought not the Christ to have suffered these things and to enter into his glory?”, v 26. Do you see there the subjection of the Lord to the Father’s will?"
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "It is interesting to look at these ‘oughts’ that come into Scripture. The word “ought” is not exactly a commandment, but love lies behind it. It is because of the Lord’s devotion and because of His love for His Father: “Ought not the Christ to have suffered these things and to enter into his glory?” What you say is helpful, that the Lord took on that question and fulfilled it in its totality."
+     "text": [
+      "It is interesting to look at these ‘oughts’ that come into Scripture. The word “ought” is not exactly a commandment, but love lies behind it. It is because of the Lord’s devotion and because of His love for His Father: “Ought not the Christ to have suffered these things and to enter into his glory?” What you say is helpful, that the Lord took on that question and fulfilled it in its totality."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "I was thinking of your reference to ‘Borne in thy heart’. It has often been said we were on His heart at the cross. I often think of that scripture, “Jehovah hath laid upon him the iniquity of us all”, Isa 53: 6. He took account of my sins there; they would be identified there."
+     "text": [
+      "I was thinking of your reference to ‘Borne in thy heart’. It has often been said we were on His heart at the cross. I often think of that scripture, “Jehovah hath laid upon him the iniquity of us all”, Isa 53: 6. He took account of my sins there; they would be identified there."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "We think of that in the preaching, that He bore our iniquities. He knew what these sins were and what they meant to the Father, what they meant to God in His holiness, and He bore them, you might say, as if they were His own. Such is the supreme sacrifice that He took my sins upon Himself, and He bore them before God as if they were His sins."
+     "text": [
+      "We think of that in the preaching, that He bore our iniquities. He knew what these sins were and what they meant to the Father, what they meant to God in His holiness, and He bore them, you might say, as if they were His own. Such is the supreme sacrifice that He took my sins upon Himself, and He bore them before God as if they were His sins."
+     ]
     },
     {
      "speaker": "NRC",
-     "text": "Love really lay behind it all then; I was contemplating that as you were speaking. Our brother made reference at a recent burial meeting to the names being inscribed on the breastplate of the priest. It was love that was behind it all, was it not? So as He was on the tree and our sins were there, it was love that really was behind it all."
+     "text": [
+      "Love really lay behind it all then; I was contemplating that as you were speaking. Our brother made reference at a recent burial meeting to the names being inscribed on the breastplate of the priest. It was love that was behind it all, was it not? So as He was on the tree and our sins were there, it was love that really was behind it all."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "In one sense He effaced my sins and wrote my name on His breastplate. That is the reality of His work."
+     "text": [
+      "In one sense He effaced my sins and wrote my name on His breastplate. That is the reality of His work."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "He exhausted the judgment of God against sin; so for the believer these sins are gone. They have been met in the sacrifice at Golgotha so that we have the assurance that these sins can never be raised again. You may ask how that can be. Well, Christ has borne them all. He has done it!"
-    },
-    {
-     "text": "My sins - O the bliss of this glorious thought –"
-    },
-    {
-     "text": "My sins - not in part, but the whole"
-    },
-    {
-     "text": "(Hymn 238)."
+     "text": [
+      "He exhausted the judgment of God against sin; so for the believer these sins are gone. They have been met in the sacrifice at Golgotha so that we have the assurance that these sins can never be raised again. You may ask how that can be. Well, Christ has borne them all. He has done it!",
+      "My sins - O the bliss of this glorious thought –",
+      "My sins - not in part, but the whole",
+      "(Hymn 238)."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "It is important that you said, ‘for the believer’; that is, the Lord Jesus bore the sins of believers on the cross. That is what is referred to as the work of substitution. His work in a way was broader than that in that He is a propitiation for the whole world (1 John 2: 2), but that does not mean that all come into blessing, but the whole favour of God is towards all men because of the perfection of the work."
+     "text": [
+      "It is important that you said, ‘for the believer’; that is, the Lord Jesus bore the sins of believers on the cross. That is what is referred to as the work of substitution. His work in a way was broader than that in that He is a propitiation for the whole world (1 John 2: 2), but that does not mean that all come into blessing, but the whole favour of God is towards all men because of the perfection of the work."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I think that it is important to say that; while that supreme sacrifice is available for all, it is those that believe that are really in the gain and appreciation of that supreme sacrifice. Is that what you have in mind?"
+     "text": [
+      "I think that it is important to say that; while that supreme sacrifice is available for all, it is those that believe that are really in the gain and appreciation of that supreme sacrifice. Is that what you have in mind?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "Yes, “righteousness of God” is “towards all, and upon all those who believe” (Rom 3: 22); so in the preaching of the gospel you have to lay it upon persons to take advantage of it for themselves. We cannot say to any audience that the Lord Jesus bore their sins. We can present it to them that they should seize hold of it in faith."
+     "text": [
+      "Yes, “righteousness of God” is “towards all, and upon all those who believe” (Rom 3: 22); so in the preaching of the gospel you have to lay it upon persons to take advantage of it for themselves. We cannot say to any audience that the Lord Jesus bore their sins. We can present it to them that they should seize hold of it in faith."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "So the apostle writes, “who himself bore our sins in his body on the tree”, 1 Pet 2: 24. He is writing to believers, those that know it as a certainty. What a privilege that is! It is not the privilege of all."
+     "text": [
+      "So the apostle writes, “who himself bore our sins in his body on the tree”, 1 Pet 2: 24. He is writing to believers, those that know it as a certainty. What a privilege that is! It is not the privilege of all."
+     ]
     },
     {
-     "text": "GB When the passover was inaugurated, it became a household matter, did it not? We carry things individually but, as has been said, God seeks households, and that lamb was in the household and it was the object of contemplation no doubt."
+     "speaker": "GB",
+     "text": [
+      "When the passover was inaugurated, it became a household matter, did it not? We carry things individually but, as has been said, God seeks households, and that lamb was in the household and it was the object of contemplation no doubt."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "That is helpful, and it is what we would look for and pray for. We see it in Acts 16 when the jailer is secured that he “rejoiced with all his house”, v 34. He rejoiced householdly, so that is what we would look for. I think what you say is right."
-    },
-    {
-     "text": "In the scripture we read in Matthew, the Lord Jesus is on the cross, having suffered at the hands of men. We come to this time, the three hours of darkness, as we speak of them, “darkness over the whole land”. I suppose the enormity of the sacrifice, the enormity of what was being borne out, was a matter between God and Christ, hidden from the eye of the world. I think it really brings out the glory again of what the sacrifice was to God Himself."
+     "text": [
+      "That is helpful, and it is what we would look for and pray for. We see it in Acts 16 when the jailer is secured that he “rejoiced with all his house”, v 34. He rejoiced householdly, so that is what we would look for. I think what you say is right.",
+      "In the scripture we read in Matthew, the Lord Jesus is on the cross, having suffered at the hands of men. We come to this time, the three hours of darkness, as we speak of them, “darkness over the whole land”. I suppose the enormity of the sacrifice, the enormity of what was being borne out, was a matter between God and Christ, hidden from the eye of the world. I think it really brings out the glory again of what the sacrifice was to God Himself."
+     ]
     },
     {
      "speaker": "KRC",
-     "text": "I have been thinking about that. The young men that went with Abraham and Isaac were told to wait; they would come again to them. There was something that was unique for Abraham and Isaac to experience together, do you think? I think that is what we see here."
+     "text": [
+      "I have been thinking about that. The young men that went with Abraham and Isaac were told to wait; they would come again to them. There was something that was unique for Abraham and Isaac to experience together, do you think? I think that is what we see here."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I think it is helpful so we see in the type in Genesis 22 that there was that which was a secret matter, and here it is again hidden from the view of the world. The Lord was crucified by men, a public matter, but the three hours of darkness: none could witness that."
+     "text": [
+      "I think it is helpful so we see in the type in Genesis 22 that there was that which was a secret matter, and here it is again hidden from the view of the world. The Lord was crucified by men, a public matter, but the three hours of darkness: none could witness that."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "Mr James Taylor says, ‘on the cross Christ was meeting God about sin on behalf of men as Man; and … He was thus regarded and dealt with as if the sins He bore were His own’, vol 17 p13."
+     "text": [
+      "Mr James Taylor says, ‘on the cross Christ was meeting God about sin on behalf of men as Man; and … He was thus regarded and dealt with as if the sins He bore were His own’, vol 17 p13."
+     ]
     },
     {
      "speaker": "NRC",
-     "text": "Just following on from that, I was contemplating the Father’s feelings after all that has been achieved, when Christ was raised from among the dead and ascended on high; what it must have been to the Father to welcome that blessed Man into His presence! It is quite something to contemplate for a moment, that the work of atonement had been entirety done. What the Father’s feelings would have been to welcome that Man into His presence!"
+     "text": [
+      "Just following on from that, I was contemplating the Father’s feelings after all that has been achieved, when Christ was raised from among the dead and ascended on high; what it must have been to the Father to welcome that blessed Man into His presence! It is quite something to contemplate for a moment, that the work of atonement had been entirety done. What the Father’s feelings would have been to welcome that Man into His presence!"
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I think that is helpful and, too, there were those that came to the tomb, but they found that Somebody had been there before them, “raised up from among the dead by the glory of the Father”, Rom 6: 4. Think of the delight of the Father, a secret matter. The Father was at the tomb first, and He raised Christ out of death, and then He ascended. Hymn 350 says:"
-    },
-    {
-     "text": "The Father’s greetings, honours rare,"
-    },
-    {
-     "text": "Are heaped upon His Son’s blest brow."
-    },
-    {
-     "text": "There it is. I am often affected by that in reading Philippians 2 where you get these downward movements of the Lord Jesus, but then it says, “Wherefore also God highly exalted him, and granted him a name, that which is above every name”, v 9. Would that fit in with what you have in mind?"
+     "text": [
+      "I think that is helpful and, too, there were those that came to the tomb, but they found that Somebody had been there before them, “raised up from among the dead by the glory of the Father”, Rom 6: 4. Think of the delight of the Father, a secret matter. The Father was at the tomb first, and He raised Christ out of death, and then He ascended. Hymn 350 says:",
+      "The Father’s greetings, honours rare,",
+      "Are heaped upon His Son’s blest brow.",
+      "There it is. I am often affected by that in reading Philippians 2 where you get these downward movements of the Lord Jesus, but then it says, “Wherefore also God highly exalted him, and granted him a name, that which is above every name”, v 9. Would that fit in with what you have in mind?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So at this point where the Lord says what you have read, He does not, and could not say, ‘My Father’; it is a Man taking these matters on in relation with God, and without being able to make any claim on that relationship of the Son with the Father."
+     "text": [
+      "So at this point where the Lord says what you have read, He does not, and could not say, ‘My Father’; it is a Man taking these matters on in relation with God, and without being able to make any claim on that relationship of the Son with the Father."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "That is right, for the conscious sense of that blessed relationship had been broken in the forsaking, and Jesus was conscious of that; so He speaks of “My God”. He was really before a holy, sin-hating God in relation to the question of sin and sins; so He says, “My God, my God, why hast thou forsaken me?”. I think that is helpful to see that there He was, before God, as the Sin-bearer."
+     "text": [
+      "That is right, for the conscious sense of that blessed relationship had been broken in the forsaking, and Jesus was conscious of that; so He speaks of “My God”. He was really before a holy, sin-hating God in relation to the question of sin and sins; so He says, “My God, my God, why hast thou forsaken me?”. I think that is helpful to see that there He was, before God, as the Sin-bearer."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "What you are saying as to holiness is important. I was thinking of Psalm 22 where this is drawn from; He said, “My God, my God, why hast thou forsaken me?” (v 1), and then, “And thou art holy, thou that dwellest amid the praises of Israel”, v 3. Really the Lord was conscious of the holiness of God in His presence as made sin for us."
+     "text": [
+      "What you are saying as to holiness is important. I was thinking of Psalm 22 where this is drawn from; He said, “My God, my God, why hast thou forsaken me?” (v 1), and then, “And thou art holy, thou that dwellest amid the praises of Israel”, v 3. Really the Lord was conscious of the holiness of God in His presence as made sin for us."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I think it is food for our souls to think about that, and what it meant for the Lord Jesus to be made sin. We have an apprehension of what sin is, but think of what sin is to God, a holy God: what even one sin is to God!"
+     "text": [
+      "I think it is food for our souls to think about that, and what it meant for the Lord Jesus to be made sin. We have an apprehension of what sin is, but think of what sin is to God, a holy God: what even one sin is to God!"
+     ]
     },
     {
      "speaker": "CAS",
-     "text": "At the end of these three hours, “about the ninth hour Jesus cried out with a loud voice”. Does that highlight His moral perfection, that He was able to meet the whole matter in perfection? We had a reading recently on compression, what was compressed into those three hours, but, blessed be His Name, He was able to exhaust the judgment of God."
+     "text": [
+      "At the end of these three hours, “about the ninth hour Jesus cried out with a loud voice”. Does that highlight His moral perfection, that He was able to meet the whole matter in perfection? We had a reading recently on compression, what was compressed into those three hours, but, blessed be His Name, He was able to exhaust the judgment of God."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "Again I feel measured what I can say, but what it meant to God that there was One who could bear the judgment of God and exhaust the wrath of God against sin!"
-    },
-    {
-     "text": "When we come to our next scripture in Corinthians, you have the Supper being set on, Paul receiving it from the Lord Himself. We get the remarkable words of the Lord Jesus Himself, “This is my body, which is for you: this do in remembrance of me. In like manner also the cup, after having supped, saying, This cup is the new covenant in my blood: this do, as often as ye shall drink it, in remembrance of me”. It was the thought that there it is on a weekly basis on the first day of the week: we have before us a tangible expression of the supremacy of the sacrifice. We sometimes sing that the emblems -"
-    },
-    {
-     "text": "Are witness to a work complete (Hymn 339)."
-    },
-    {
-     "text": "There in the emblems is the witness to the supremacy of the sacrifice, but also a witness to a work that is complete."
+     "text": [
+      "Again I feel measured what I can say, but what it meant to God that there was One who could bear the judgment of God and exhaust the wrath of God against sin!",
+      "When we come to our next scripture in Corinthians, you have the Supper being set on, Paul receiving it from the Lord Himself. We get the remarkable words of the Lord Jesus Himself, “This is my body, which is for you: this do in remembrance of me. In like manner also the cup, after having supped, saying, This cup is the new covenant in my blood: this do, as often as ye shall drink it, in remembrance of me”. It was the thought that there it is on a weekly basis on the first day of the week: we have before us a tangible expression of the supremacy of the sacrifice. We sometimes sing that the emblems -",
+      "Are witness to a work complete (Hymn 339).",
+      "There in the emblems is the witness to the supremacy of the sacrifice, but also a witness to a work that is complete."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "I was just struck by that, “which is for you”. On Wednesday we are reading Luke and it is, “which is given for you” (chap 22: 19), but “which is for you” suggests a directness straight to your affections: “which is for you”, for you and me. It goes straight to your heart that the body of the Lord Jesus was given for you and for me. “Given” suggests more the way it was done. This is direct, and brings into focus that we were the subjects of the Lord’s own love, sufficient that He might give His body for us."
+     "text": [
+      "I was just struck by that, “which is for you”. On Wednesday we are reading Luke and it is, “which is given for you” (chap 22: 19), but “which is for you” suggests a directness straight to your affections: “which is for you”, for you and me. It goes straight to your heart that the body of the Lord Jesus was given for you and for me. “Given” suggests more the way it was done. This is direct, and brings into focus that we were the subjects of the Lord’s own love, sufficient that He might give His body for us."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I think that is helpful. The emphasis is “for you”, the Lord’s affections and His love, “To him who loves us”, Rev 1: 5. We have the reminder of that in the emblems. I suppose “given for you” might be more the historical side, that the matter has been done, but week by week there is the fresh reminder that it is not only a historical matter; His love is a current matter."
+     "text": [
+      "I think that is helpful. The emphasis is “for you”, the Lord’s affections and His love, “To him who loves us”, Rev 1: 5. We have the reminder of that in the emblems. I suppose “given for you” might be more the historical side, that the matter has been done, but week by week there is the fresh reminder that it is not only a historical matter; His love is a current matter."
+     ]
     },
     {
      "speaker": "SCL",
-     "text": "I had not noticed it before until it was read today, but this passage brings out the intimacy of what the breaking of bread means to the Lord, because it is “my body”, “my blood”, “in remembrance of me”. It is not as if the Lord says, ‘in remembrance of the Lord’, or speaks of Himself in the third person, but it is “in remembrance of me”. There is a very deep, intimate, personal connection for the Lord with the breaking of bread."
+     "text": [
+      "I had not noticed it before until it was read today, but this passage brings out the intimacy of what the breaking of bread means to the Lord, because it is “my body”, “my blood”, “in remembrance of me”. It is not as if the Lord says, ‘in remembrance of the Lord’, or speaks of Himself in the third person, but it is “in remembrance of me”. There is a very deep, intimate, personal connection for the Lord with the breaking of bread."
+     ]
     },
     {
      "speaker": "TRC",
-     "text": "I think that is right and the fact that it is given to Paul. He “received” it “from the Lord” Himself. It is given to Paul to place the Lord’s supper in the assembly. There is the suggestion of how the Lord’s supper would be in Luke 22, but it is confirmed by the Lord Himself in glory to the apostle Paul. These personal references, “my body” and “my blood” should affect us Lord’s day by Lord’s day: or rather, every day."
+     "text": [
+      "I think that is right and the fact that it is given to Paul. He “received” it “from the Lord” Himself. It is given to Paul to place the Lord’s supper in the assembly. There is the suggestion of how the Lord’s supper would be in Luke 22, but it is confirmed by the Lord Himself in glory to the apostle Paul. These personal references, “my body” and “my blood” should affect us Lord’s day by Lord’s day: or rather, every day."
+     ]
     }
    ]
   },
@@ -740,5 +801,13 @@
  "back_matter": [
   "Edited and Published by David Brown and Andrew Burr",
   "81 Roxburgh Road. West Norwood. London. SE27 OLE"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE ONE SACRIFICE",
+   "kind": "default_place",
+   "detail": "Edinburgh given to 8 names (\"Edinburgh unless otherwise shown\")"
+  }
  ]
 }

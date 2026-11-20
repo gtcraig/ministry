@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -28,102 +28,121 @@
    "date": "22 November 2025",
    "servant": "Richard Gray",
    "speakers": [
-    "R.J.G.",
-    "J.R.W.",
-    "R.H.B.",
-    "R.M.B.",
-    "D.A.Bw.",
-    "T.J.H.",
-    "P.M.",
-    "W.M.P.",
-    "B.H.C.",
-    "R.J.F.",
-    "P.H.M.",
-    "D.S.",
-    "G.W.",
-    "A.A.C.",
-    "C.H.S.",
-    "H.T.F.",
-    "O.J.M.",
-    "K.J.M.",
-    "D.A.S."
+    "RJG",
+    "JRW",
+    "RHB",
+    "RMB",
+    "DABw",
+    "TJH",
+    "PM",
+    "WMP",
+    "BHC",
+    "RJF",
+    "PHM",
+    "DS",
+    "GW",
+    "AAC",
+    "CHS",
+    "HTF",
+    "OJM",
+    "KJM",
+    "DAS"
    ],
    "initials": [
     {
-     "initials": "DABDBS",
-     "name": "D.A.Bw David Barlow Sunbury"
+     "initials": "DABw",
+     "name": "D. A. Bw",
+     "place": "David Barlow Sunbury"
     },
     {
-     "initials": "RHBRBM",
-     "name": "R.H.B. Roland Brown Maidstone"
+     "initials": "RHB",
+     "name": "Roland Brown",
+     "place": "Maidstone"
     },
     {
-     "initials": "RMBRBS",
-     "name": "R.M.B. Richard Brown Strood"
+     "initials": "RMB",
+     "name": "Richard Brown",
+     "place": "Strood"
     },
     {
-     "initials": "BHCBCM",
-     "name": "B.H.C. Brian Clark Maidstone"
+     "initials": "BHC",
+     "name": "Brian Clark",
+     "place": "Maidstone"
     },
     {
-     "initials": "AACACS",
-     "name": "A.A.C. Alan Croot Sidcup"
+     "initials": "AAC",
+     "name": "Alan Croot",
+     "place": "Sidcup"
     },
     {
-     "initials": "RJFRFS",
-     "name": "R.J.F. Roland Flowerdew Sunbury"
+     "initials": "RJF",
+     "name": "Roland Flowerdew",
+     "place": "Sunbury"
     },
     {
-     "initials": "HTFTFG",
-     "name": "H.T.F. Tim Franklin Grimsby"
+     "initials": "HTF",
+     "name": "Tim Franklin",
+     "place": "Grimsby"
     },
     {
-     "initials": "RJGRGP",
-     "name": "R.J.G. Richard Gray Peterhead"
+     "initials": "RJG",
+     "name": "Richard Gray",
+     "place": "Peterhead"
     },
     {
-     "initials": "TJHTHEF",
-     "name": "T.J.H. Trevor Harvey East Finchley"
+     "initials": "TJH",
+     "name": "Trevor Harvey",
+     "place": "East Finchley"
     },
     {
-     "initials": "PMPMC",
-     "name": "P.M. Paul Martin Colchester"
+     "initials": "PM",
+     "name": "Paul Martin",
+     "place": "Colchester"
     },
     {
-     "initials": "KJMKMM",
-     "name": "K.J.M. Keith May Maidstone"
+     "initials": "KJM",
+     "name": "Keith May",
+     "place": "Maidstone"
     },
     {
-     "initials": "OJMOMM",
-     "name": "O.J.M. Owen May Maidstone"
+     "initials": "OJM",
+     "name": "Owen May",
+     "place": "Maidstone"
     },
     {
-     "initials": "PHMPMS",
-     "name": "P.H.M Phil Morris Sunbury"
+     "initials": "PHM",
+     "name": "Phil Morris",
+     "place": "Sunbury"
     },
     {
-     "initials": "WMPWPG",
-     "name": "W.M.P. Walter Patterson Glasgow"
+     "initials": "WMP",
+     "name": "Walter Patterson",
+     "place": "Glasgow"
     },
     {
-     "initials": "CHSCSC",
-     "name": "C.H.S. Colin Smith Chelmsford"
+     "initials": "CHS",
+     "name": "Colin Smith",
+     "place": "Chelmsford"
     },
     {
-     "initials": "DASDSS",
-     "name": "D.A.S. David Smith Sidcup"
+     "initials": "DAS",
+     "name": "David Smith",
+     "place": "Sidcup"
     },
     {
-     "initials": "DSDSC",
-     "name": "D.S. Daniel Smith Chelmsford"
+     "initials": "DS",
+     "name": "Daniel Smith",
+     "place": "Chelmsford"
     },
     {
-     "initials": "JRWJWM",
-     "name": "J.R.W. Jim Walkinshaw Maidstone"
+     "initials": "JRW",
+     "name": "Jim Walkinshaw",
+     "place": "Maidstone"
     },
     {
-     "initials": "GWGWS",
-     "name": "G.W. Grant Wallace Sidcup"
+     "initials": "GW",
+     "name": "Grant Wallace",
+     "place": "Sidcup"
     }
    ],
    "initials_heading": "List of Initials",
@@ -150,455 +169,649 @@
    ],
    "paragraphs": [
     {
-     "speaker": "R.J.G.",
-     "text": "I had an impression as to the present service of the Holy Spirit and I wondered whether we could enquire into that for our help and encouragement. The present day is marked by the presence here of the Holy Spirit – marked indeed by Christ being in glory and the Holy Spirit here. That is a very well-known truth, but I have been impressed with the way that the Holy Spirit’s present activities are particularly in relation to the love of God. The Holy Spirit of course is God, a divine Person, but come to dwell in the hearts of believers. His activities are to be known by us and made way for, and I have a particular impression that His activities are related to the love of God."
+     "speaker": "RJG",
+     "text": [
+      "I had an impression as to the present service of the Holy Spirit and I wondered whether we could enquire into that for our help and encouragement. The present day is marked by the presence here of the Holy Spirit – marked indeed by Christ being in glory and the Holy Spirit here. That is a very well-known truth, but I have been impressed with the way that the Holy Spirit’s present activities are particularly in relation to the love of God. The Holy Spirit of course is God, a divine Person, but come to dwell in the hearts of believers. His activities are to be known by us and made way for, and I have a particular impression that His activities are related to the love of God.",
+      "We read, “and hope does not make ashamed, because the love of God is shed abroad in our hearts by the Holy Spirit which has been given to us”. How precious that is, dear brethren, that (as others have said) the first action of the Holy Spirit, as given to the believer, is to make known the love of God. What a wonderful outshining there has been of the love of God in the giving of Christ. But the Holy Spirit having come to dwell in the hearts of believers would make that love known in a very real and intimate way. There is much important foundational ministry in Romans, and we get the gain of it as we make way for the Holy Spirit.",
+      "In Romans there are many soul exercises that the apostle goes over as to believers finding Christ as Deliverer, and then finding liberty by the Holy Spirit and being brought to know our place as sons. The section we read in chapter 8 shows how the Holy Spirit, in a real, personal way, enters into the soul exercises of believers. He makes intercessions with groanings which cannot be uttered. The Lord speaks of the Holy Spirit as the “Comforter” (John 14:16,26), suggesting that His service to believers in this way is carried out in love. I think the result of that service is seen in verse 28 of chapter 8, where it speaks of those who love God. The result of the Spirit’s service to us is that there is love for God formed in our hearts which would lead, I believe, to response and praise.",
+      "In Corinthians we read about the Spirit searching all things, and revealing the precious things of God. Paul writes, “Things which eye has not seen, and ear not heard, and which have not come into man’s heart, which God has prepared for them that love him”. I used to think that that was only future, but it says, “but God has revealed to us by his Spirit”. Think of the intimate and precious way in which the Spirit would make known divine things to us as we make way for Him. We could perhaps inquire into what is involved in “the depths of God”.",
+      "Lastly, in Colossians, the apostle speaks of the love that was formed in the Colossian saints: “and the love which ye have towards all the saints”. He also says that Epaphras had “manifested to us your love in the Spirit”. There was something formed practically in the Spirit in that local company. I wonder whether we could enquire on those lines."
+     ]
     },
     {
-     "text": "We read, “and hope does not make ashamed, because the love of God is shed abroad in our hearts by the Holy Spirit which has been given to us”. How precious that is, dear brethren, that (as others have said) the first action of the Holy Spirit, as given to the believer, is to make known the love of God. What a wonderful outshining there has been of the love of God in the giving of Christ. But the Holy Spirit having come to dwell in the hearts of believers would make that love known in a very real and intimate way. There is much important foundational ministry in Romans, and we get the gain of it as we make way for the Holy Spirit."
+     "speaker": "JRW",
+     "text": [
+      "I think what you say as to the love of God shed abroad is very powerful. Can you open up a little how that works out practically?"
+     ]
     },
     {
-     "text": "In Romans there are many soul exercises that the apostle goes over as to believers finding Christ as Deliverer, and then finding liberty by the Holy Spirit and being brought to know our place as sons. The section we read in chapter 8 shows how the Holy Spirit, in a real, personal way, enters into the soul exercises of believers. He makes intercessions with groanings which cannot be uttered. The Lord speaks of the Holy Spirit as the “Comforter” (John 14:16,26), suggesting that His service to believers in this way is carried out in love. I think the result of that service is seen in verse 28 of chapter 8, where it speaks of those who love God. The result of the Spirit’s service to us is that there is love for God formed in our hearts which would lead, I believe, to response and praise."
+     "speaker": "RJG",
+     "text": [
+      "I thought that unless the believer’s heart is secured for God, there is going to be no response. While from one point of view God has done everything in the work of Christ, the Holy Spirit dwelling in our hearts makes the love of God a reality, do you think?"
+     ]
     },
     {
-     "text": "In Corinthians we read about the Spirit searching all things, and revealing the precious things of God. Paul writes, “Things which eye has not seen, and ear not heard, and which have not come into man’s heart, which God has prepared for them that love him”. I used to think that that was only future, but it says, “but God has revealed to us by his Spirit”. Think of the intimate and precious way in which the Spirit would make known divine things to us as we make way for Him. We could perhaps inquire into what is involved in “the depths of God”."
+     "speaker": "JRW",
+     "text": [
+      "I think that is very helpful, and the enquiry will help us greatly. The apostle Paul speaks about tribulation, endurance, hope and then he goes on to the love of God being shed abroad in our hearts. Do you think that should have an effect both in our response to divine Persons and in our attitude to one another? If the love of God is shed abroad in my heart, and is also shed abroad in yours, that brings about a link. Practically, when that link is known and enjoyed, it works out by way of fellowship. I think what you are bringing before us will be most helpful."
+     ]
     },
     {
-     "text": "Lastly, in Colossians, the apostle speaks of the love that was formed in the Colossian saints: “and the love which ye have towards all the saints”. He also says that Epaphras had “manifested to us your love in the Spirit”. There was something formed practically in the Spirit in that local company. I wonder whether we could enquire on those lines."
+     "speaker": "RJG",
+     "text": [
+      "That is very important. Each of us, as having received the gospel, should also be conscious of having received the Holy Spirit. That is important for all of us, and particularly for the younger ones. Then – as you say – if I have the Spirit and you have the Spirit, there is a link together. How precious it is that all this is related to the love of God, and to formation in us. Verses 3 and 4 that you refer to relate to experience, and that is to result in formation. Tribulation and endurance are not to make us hard, or stoical; rather, there is to be formation after God. It is important to make way for the Holy Spirit in that way."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "I think what you say as to the love of God shed abroad is very powerful. Can you open up a little how that works out practically?"
+     "speaker": "RHB",
+     "text": [
+      "In the first two passages you read, the Holy Spirit is connected with hope. Did you have any thought in mind in relation to that?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "I thought that unless the believer’s heart is secured for God, there is going to be no response. While from one point of view God has done everything in the work of Christ, the Holy Spirit dwelling in our hearts makes the love of God a reality, do you think?"
+     "speaker": "RJG",
+     "text": [
+      "I will be glad of your help. The reception of the gospel gives us a horizon and an outlook beyond this world, does it not? I wonder whether the Holy Spirit’s activities in love are related to that. He would help us in our minds and affections to be taken up with the world where Christ is. The Spirit would not occupy us with the present world, but with the place where Christ is."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "I think that is very helpful, and the enquiry will help us greatly. The apostle Paul speaks about tribulation, endurance, hope and then he goes on to the love of God being shed abroad in our hearts. Do you think that should have an effect both in our response to divine Persons and in our attitude to one another? If the love of God is shed abroad in my heart, and is also shed abroad in yours, that brings about a link. Practically, when that link is known and enjoyed, it works out by way of fellowship. I think what you are bringing before us will be most helpful."
+     "speaker": "RHB",
+     "text": [
+      "What you are bringing before us is very blessed. In this first passage, we have: “hope does not make ashamed, because the love of God is shed abroad”. The consciousness of being loved by God gives the certainty of that hope to which no doubt attaches. And in the passage in Romans 8, hope again is spoken of. Faith is needed to believe things that we cannot see, but the Holy Spirit brings us to the conscious side, the side of experience of what we have apprehended by faith. The Holy Spirit brings that into the soul of the believer, does He?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "That is very important. Each of us, as having received the gospel, should also be conscious of having received the Holy Spirit. That is important for all of us, and particularly for the younger ones. Then – as you say – if I have the Spirit and you have the Spirit, there is a link together. How precious it is that all this is related to the love of God, and to formation in us. Verses 3 and 4 that you refer to relate to experience, and that is to result in formation. Tribulation and endurance are not to make us hard, or stoical; rather, there is to be formation after God. It is important to make way for the Holy Spirit in that way."
+     "speaker": "RJG",
+     "text": [
+      "Yes, and it is an exercise to me as to whether divine things are a reality to me, whether I enjoy them. The things of God are not to be put off for the future, but God in His love would have us to enter into the blessing of these truths now. The Holy Spirit is essential to that."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "In the first two passages you read, the Holy Spirit is connected with hope. Did you have any thought in mind in relation to that?"
+     "speaker": "RMB",
+     "text": [
+      "Would it be right to say that we cannot really know the love of God without the Holy Spirit? I wondered if that was borne out by the sequence of the teaching in the epistle to the Romans."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "I will be glad of your help. The reception of the gospel gives us a horizon and an outlook beyond this world, does it not? I wonder whether the Holy Spirit’s activities in love are related to that. He would help us in our minds and affections to be taken up with the world where Christ is. The Spirit would not occupy us with the present world, but with the place where Christ is."
+     "speaker": "RJG",
+     "text": [
+      "Yes, in the teaching of Romans, we have the righteousness of God first, then we get the matter of faith gone over, and justification. These are important matters that ground our souls in the gospel. The reception of the Holy Spirit and His activities in us would make these truths a reality to us."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "What you are bringing before us is very blessed. In this first passage, we have: “hope does not make ashamed, because the love of God is shed abroad”. The consciousness of being loved by God gives the certainty of that hope to which no doubt attaches. And in the passage in Romans 8, hope again is spoken of. Faith is needed to believe things that we cannot see, but the Holy Spirit brings us to the conscious side, the side of experience of what we have apprehended by faith. The Holy Spirit brings that into the soul of the believer, does He?"
+     "speaker": "DABw",
+     "text": [
+      "What does it mean to “boast in tribulation”, please? It seems an important start to get to this point."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, and it is an exercise to me as to whether divine things are a reality to me, whether I enjoy them. The things of God are not to be put off for the future, but God in His love would have us to enter into the blessing of these truths now. The Holy Spirit is essential to that."
+     "speaker": "RJG",
+     "text": [
+      "When we see the way that God has operated, and the greatness of His provision for us in Christ, it would give us confidence in God. The believer is not like a person in the world who might be hardened by difficulties; such things are to cast us on God. That is how the service of the Holy Spirit is known. The disciples were left here, the Lord was going away, and He said that He would send “another Comforter”. They were going to be in the world and would experience the adverse influences in it, but the Holy Spirit was going to be with them in those circumstances. In that very situation we are to know practically the love of God."
+     ]
     },
     {
-     "speaker": "R.M.B.",
-     "text": "Would it be right to say that we cannot really know the love of God without the Holy Spirit? I wondered if that was borne out by the sequence of the teaching in the epistle to the Romans."
+     "speaker": "DABw",
+     "text": [
+      "Is boasting in tribulation by the Holy Spirit too? It is by the service of the Spirit that believers have the power to do that."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, in the teaching of Romans, we have the righteousness of God first, then we get the matter of faith gone over, and justification. These are important matters that ground our souls in the gospel. The reception of the Holy Spirit and His activities in us would make these truths a reality to us."
+     "speaker": "RJG",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "D.A.Bw.",
-     "text": "What does it mean to “boast in tribulation”, please? It seems an important start to get to this point."
+     "speaker": "JRW",
+     "text": [
+      "It does not say ‘boast about tribulations’; it is “boast in”. It could be rendered that ‘we boast in spite of tribulations’. Whatever we might pass through in our experience, the love of God is shed abroad in our hearts by the Holy Spirit, so everything is brought into relation to that. That really gives us the victory, as the apostle says elsewhere (see 1 Cor.15:57)."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "When we see the way that God has operated, and the greatness of His provision for us in Christ, it would give us confidence in God. The believer is not like a person in the world who might be hardened by difficulties; such things are to cast us on God. That is how the service of the Holy Spirit is known. The disciples were left here, the Lord was going away, and He said that He would send “another Comforter”. They were going to be in the world and would experience the adverse influences in it, but the Holy Spirit was going to be with them in those circumstances. In that very situation we are to know practically the love of God."
+     "speaker": "RJG",
+     "text": [
+      "Yes, that is good. Do you think that, as the Holy Spirit is made way for and as the love of God has its effect in us, we become overcomers? These soul exercises – as to tribulation and endurance, experience and hope – all work so that our knowledge of God and His love increases in a practical way, through what we experience."
+     ]
     },
     {
-     "speaker": "D.A.Bw.",
-     "text": "Is boasting in tribulation by the Holy Spirit too? It is by the service of the Spirit that believers have the power to do that."
+     "speaker": "TJH",
+     "text": [
+      "Is formation a divine purpose in mind in tribulations? I was thinking of David: “in pressure thou hast enlarged me”, Ps.4:1. Do you think that the Holy Spirit uses tribulations to enlarge us? Then we can boast in the result of the tribulation."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes."
+     "speaker": "RJG",
+     "text": [
+      "Yes. You can see in the Old Testament that that is really a principle. God worked with the patriarchs such as Abraham and Moses, and His discipline was used to bring them into line with His thoughts for them. What great thoughts God had for Abraham, for example, yet he had to pass through very great discipline; but the result is very great. It says that “he was called Friend of God”, Jas.2:23. I thought we should be encouraged, dear brethren, as to the present service of the Holy Spirit: as we desire to be enlarged in our experience of the love of God, and in the knowledge of His purpose for us, the Spirit would help us in relation to that."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "It does not say ‘boast about tribulations’; it is “boast in”. It could be rendered that ‘we boast in spite of tribulations’. Whatever we might pass through in our experience, the love of God is shed abroad in our hearts by the Holy Spirit, so everything is brought into relation to that. That really gives us the victory, as the apostle says elsewhere (see 1 Cor.15:57)."
+     "speaker": "PM",
+     "text": [
+      "These features – of tribulation, endurance, experience and hope – have been spoken of as God’s workers. He uses them in His love to set us free from one order of things in which we have found our life previously, to find our life in another order altogether. The Spirit is the earnest of that, is He not?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, that is good. Do you think that, as the Holy Spirit is made way for and as the love of God has its effect in us, we become overcomers? These soul exercises – as to tribulation and endurance, experience and hope – all work so that our knowledge of God and His love increases in a practical way, through what we experience."
+     "speaker": "RJG",
+     "text": [
+      "Yes. We were reminded recently of “the earnest of our inheritance”, Eph.1:14. Say more about the Spirit being “the earnest”, please."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "Is formation a divine purpose in mind in tribulations? I was thinking of David: “in pressure thou hast enlarged me”, Ps.4:1. Do you think that the Holy Spirit uses tribulations to enlarge us? Then we can boast in the result of the tribulation."
+     "speaker": "PM",
+     "text": [
+      "Is it not one of the operations of the Holy Spirit in the heart of the believer, that He is already bringing to us a foretaste of what we will enjoy eternally? And that eternal scene, where the love of God will pervade all, can be known in the believer’s heart now through the Holy Spirit as “the earnest”, do you think?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. You can see in the Old Testament that that is really a principle. God worked with the patriarchs such as Abraham and Moses, and His discipline was used to bring them into line with His thoughts for them. What great thoughts God had for Abraham, for example, yet he had to pass through very great discipline; but the result is very great. It says that “he was called Friend of God”, Jas.2:23. I thought we should be encouraged, dear brethren, as to the present service of the Holy Spirit: as we desire to be enlarged in our experience of the love of God, and in the knowledge of His purpose for us, the Spirit would help us in relation to that."
+     "speaker": "RJG",
+     "text": [
+      "Yes, I think so."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "These features – of tribulation, endurance, experience and hope – have been spoken of as God’s workers. He uses them in His love to set us free from one order of things in which we have found our life previously, to find our life in another order altogether. The Spirit is the earnest of that, is He not?"
+     "speaker": "WMP",
+     "text": [
+      "As to ‘God’s workers’, would their effect in our hearts clear the way for the “shedding abroad”? The term suggests that there is nothing now to limit the operation of the Holy Spirit in our hearts. What you referred to as to discipline has that in view. It is a lovely thought, “shedding abroad”."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. We were reminded recently of “the earnest of our inheritance”, Eph.1:14. Say more about the Spirit being “the earnest”, please."
+     "speaker": "RJG",
+     "text": [
+      "Yes, there is no limit to the love of God. We might have limited thoughts about it, but God’s desire is that we should be expanded in our affections. It is very important that we should be formed in the love of God. It has been said about 1 Corinthians 13, where the apostle’s subject is love, that love is our measure for God and for the assembly1. It is not only intelligence, although that comes into it, but it is important to be formed in the love of God, and to be open to the Holy Spirit’s service in relation to it."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Is it not one of the operations of the Holy Spirit in the heart of the believer, that He is already bringing to us a foretaste of what we will enjoy eternally? And that eternal scene, where the love of God will pervade all, can be known in the believer’s heart now through the Holy Spirit as “the earnest”, do you think?"
+     "speaker": "BHC",
+     "text": [
+      "As to shedding abroad, it is like the rays of sunshine. The fulness of God’s love is in Christ, the centre of God’s love. The shedding abroad conveys something that is not forceful, although we are told to “keep yourselves in the love of God”, Jude:21. It has been said that we should walk on the sunny side of the street, in the love of God. The idea of shedding abroad is limitless, is it?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, I think so."
+     "speaker": "RJG",
+     "text": [
+      "Yes, there is to be no dark part in us. The love of God is to affect every part of our being. And then the service of the Holy Spirit would help us so that the love of God shines out of the believer. There is to be a testimony to the fact that we are enjoying the love of God."
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "As to ‘God’s workers’, would their effect in our hearts clear the way for the “shedding abroad”? The term suggests that there is nothing now to limit the operation of the Holy Spirit in our hearts. What you referred to as to discipline has that in view. It is a lovely thought, “shedding abroad”."
+     "speaker": "BHC",
+     "text": [
+      "In natural things the effect of the sun is to bring warmth and growth, and we are brought into the spiritual sphere where there is growth, do you think? Growth suggests that there would fruitfulness as we are expanded in appreciating the love of God."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, there is no limit to the love of God. We might have limited thoughts about it, but God’s desire is that we should be expanded in our affections. It is very important that we should be formed in the love of God. It has been said about 1 Corinthians 13, where the apostle’s subject is love, that love is our measure for God and for the assembly1. It is not only intelligence, although that comes into it, but it is important to be formed in the love of God, and to be open to the Holy Spirit’s service in relation to it."
+     "speaker": "RJG",
+     "text": [
+      "That is very good. Scripture speaks about the fruit of the Spirit (Gal.5:22,23). I need to be exercised to make way for the Holy Spirit. We think of the Holy Spirit’s operations being sovereign, and we cannot limit them, but how important that His work in our hearts should be promoted and not hindered."
+     ]
     },
     {
-     "speaker": "B.H.C.",
-     "text": "As to shedding abroad, it is like the rays of sunshine. The fulness of God’s love is in Christ, the centre of God’s love. The shedding abroad conveys something that is not forceful, although we are told to “keep yourselves in the love of God”, Jude:21. It has been said that we should walk on the sunny side of the street, in the love of God. The idea of shedding abroad is limitless, is it?"
+     "speaker": "TJH",
+     "text": [
+      "The heart suggests an enclosed area of affection, but God’s love is “shed abroad in our hearts”. That speaks of what is expansive, a broader idea than perhaps we think of."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, there is to be no dark part in us. The love of God is to affect every part of our being. And then the service of the Holy Spirit would help us so that the love of God shines out of the believer. There is to be a testimony to the fact that we are enjoying the love of God."
+     "speaker": "RJG",
+     "text": [
+      "Yes, Paul says “let your heart also expand itself”, 2 Cor.6:13. I think the service of the Holy Spirit would lead to expansion and growth; but I was impressed particularly by the fact that this is in relation to the love of God. That is the key to spiritual growth."
+     ]
     },
     {
-     "speaker": "B.H.C.",
-     "text": "In natural things the effect of the sun is to bring warmth and growth, and we are brought into the spiritual sphere where there is growth, do you think? Growth suggests that there would fruitfulness as we are expanded in appreciating the love of God."
+     "speaker": "RJF",
+     "text": [
+      "It is important to understand the distinctive services of the Holy Spirit. What we are considering is not His sovereign action in new birth: that is something separate. This scripture speaks of the operation of the Holy Spirit within the believer, in what might be spoken of as a clean place, because the believer has come into the full blessing of their salvation, knowing the cleansing and covering power of the blood of the Lord Jesus. I would like you to expand on your thoughts about this service of the Holy Spirit in relation to the love God. It seems to refer to that which is inward, within the heart of the believer. The very act of the giving of the Holy Spirit is an immense act of love on God’s part, and it has outward consequences too. There is work that goes on within the heart that then flows outward, do you think, through the service of the Holy Spirit?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "That is very good. Scripture speaks about the fruit of the Spirit (Gal.5:22,23). I need to be exercised to make way for the Holy Spirit. We think of the Holy Spirit’s operations being sovereign, and we cannot limit them, but how important that His work in our hearts should be promoted and not hindered."
+     "speaker": "RJG",
+     "text": [
+      "Yes. What is inward in our hearts and in our soul experiences is so important. In our secret soul histories, we are to relate ourselves to the Holy Spirit, and that would help us. The Lord’s words are very precious; He refers to the Holy Spirit as “another Comforter”, John 14:16. The disciples had relied so much on the Lord when He was here; and so the Holy Spirit coming to be with believers in the absence of Christ is a very precious thing."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "The heart suggests an enclosed area of affection, but God’s love is “shed abroad in our hearts”. That speaks of what is expansive, a broader idea than perhaps we think of."
+     "speaker": "RJF",
+     "text": [
+      "In the scripture in Romans 8, we are not to be preoccupied with what we are not able to do, but our attention is drawn to the fact that the Holy Spirit comes in to help us, whatever weakness there is. The love of God is still shed abroad. I have been reflecting on the scripture about “the weak one, the brother for whose sake Christ died”, 1 Cor.8:11. The love of God shed abroad by the Holy Spirit would be just as effective in that heart, do you think?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, Paul says “let your heart also expand itself”, 2 Cor.6:13. I think the service of the Holy Spirit would lead to expansion and growth; but I was impressed particularly by the fact that this is in relation to the love of God. That is the key to spiritual growth."
+     "speaker": "RJG",
+     "text": [
+      "Yes, that is good."
+     ]
     },
     {
-     "speaker": "R.J.F.",
-     "text": "It is important to understand the distinctive services of the Holy Spirit. What we are considering is not His sovereign action in new birth: that is something separate. This scripture speaks of the operation of the Holy Spirit within the believer, in what might be spoken of as a clean place, because the believer has come into the full blessing of their salvation, knowing the cleansing and covering power of the blood of the Lord Jesus. I would like you to expand on your thoughts about this service of the Holy Spirit in relation to the love God. It seems to refer to that which is inward, within the heart of the believer. The very act of the giving of the Holy Spirit is an immense act of love on God’s part, and it has outward consequences too. There is work that goes on within the heart that then flows outward, do you think, through the service of the Holy Spirit?"
+     "speaker": "PM",
+     "text": [
+      "Does the thought that “the love of God is shed abroad” suggest that that love fills the heart completely? It is only the love of God shed abroad by the Spirit that can fill the human heart, and would that not affect every part of my life? It changes my outlook. It changes what I do and how I do it. That love fills the heart."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. What is inward in our hearts and in our soul experiences is so important. In our secret soul histories, we are to relate ourselves to the Holy Spirit, and that would help us. The Lord’s words are very precious; He refers to the Holy Spirit as “another Comforter”, John 14:16. The disciples had relied so much on the Lord when He was here; and so the Holy Spirit coming to be with believers in the absence of Christ is a very precious thing."
+     "speaker": "RJG",
+     "text": [
+      "Yes. We have often been told that the Holy Spirit needs vessels to dwell in, believers. The Holy Spirit will take all the room that we give Him. But God’s desire, as you say, is that we should be filled with His love, and filled with the Spirit too."
+     ]
     },
     {
-     "speaker": "R.J.F.",
-     "text": "In the scripture in Romans 8, we are not to be preoccupied with what we are not able to do, but our attention is drawn to the fact that the Holy Spirit comes in to help us, whatever weakness there is. The love of God is still shed abroad. I have been reflecting on the scripture about “the weak one, the brother for whose sake Christ died”, 1 Cor.8:11. The love of God shed abroad by the Holy Spirit would be just as effective in that heart, do you think?"
+     "speaker": "RHB",
+     "text": [
+      "Would that make us capable of responding to God’s love? I was thinking of what the apostle says, “But because ye are sons, God has sent out the Spirit of his Son into our hearts, crying, Abba, Father”, Gal.4:6. That is an expression of intimacy and affection, in response."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, that is good."
+     "speaker": "RJG",
+     "text": [
+      "And it involves the knowledge of God as Father, which is very closely related to the love of God. God has come out as Father. Do you think, too, that the love of God shed abroad in our hearts would make us conscious of our part in the divine family? Believers are sons, as you say; that is not simply a theory or a text, it is to be known actually and livingly in our hearts."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Does the thought that “the love of God is shed abroad” suggest that that love fills the heart completely? It is only the love of God shed abroad by the Spirit that can fill the human heart, and would that not affect every part of my life? It changes my outlook. It changes what I do and how I do it. That love fills the heart."
+     "speaker": "PHM",
+     "text": [
+      "This scripture refers to hearts, it is plural. As you have said, it is to be experienced personally, but would “our hearts” suggest that we see the love of God in one another, which binds us together? That is the Spirit’s work – He brings out the love of God in one another, and we are to see it. It is not only what we experience ourselves, but what we see in one another."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. We have often been told that the Holy Spirit needs vessels to dwell in, believers. The Holy Spirit will take all the room that we give Him. But God’s desire, as you say, is that we should be filled with His love, and filled with the Spirit too."
+     "speaker": "RJG",
+     "text": [
+      "Yes, we might come onto that in the scripture in Colossians, how the saints are set together. Fellowship has been referred to, and these practical aspects are very important. Paul speaks in Ephesians of “using diligence to keep the unity of the Spirit” (chap.4:3). We need to use diligence to keep that unity. We are often exhorted to look for the work of God in one another; the love of God has been formed in these hearts, and we are to take account of that."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "Would that make us capable of responding to God’s love? I was thinking of what the apostle says, “But because ye are sons, God has sent out the Spirit of his Son into our hearts, crying, Abba, Father”, Gal.4:6. That is an expression of intimacy and affection, in response."
+     "speaker": "DS",
+     "text": [
+      "Scripture tells us as to the Holy Spirit that “whatsoever he shall hear he shall speak”, John 16:13. Would He speak to our hearts of what the Father sees in the saints?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "And it involves the knowledge of God as Father, which is very closely related to the love of God. God has come out as Father. Do you think, too, that the love of God shed abroad in our hearts would make us conscious of our part in the divine family? Believers are sons, as you say; that is not simply a theory or a text, it is to be known actually and livingly in our hearts."
+     "speaker": "RJG",
+     "text": [
+      "I think it is a very precious service of the Holy Spirit. That scripture says, “but whatsoever he shall hear he shall speak; and he will announce to you what is coming. He shall glorify me, for he shall receive of mine and shall announce it to you” (vv.13,14). A prime service of the Holy Spirit is to make known to us the things of Christ and what is precious to Christ. That involves Christ where He is in glory, and also includes the saints. The Holy Spirit has intimate knowledge of that."
+     ]
     },
     {
-     "speaker": "P.H.M.",
-     "text": "This scripture refers to hearts, it is plural. As you have said, it is to be experienced personally, but would “our hearts” suggest that we see the love of God in one another, which binds us together? That is the Spirit’s work – He brings out the love of God in one another, and we are to see it. It is not only what we experience ourselves, but what we see in one another."
+     "speaker": "DS",
+     "text": [
+      "I have often wondered about that scripture, giving us the Lord’s words when He speaks of the Holy Spirit. Do I fully appreciate the Spirit’s service to us?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, we might come onto that in the scripture in Colossians, how the saints are set together. Fellowship has been referred to, and these practical aspects are very important. Paul speaks in Ephesians of “using diligence to keep the unity of the Spirit” (chap.4:3). We need to use diligence to keep that unity. We are often exhorted to look for the work of God in one another; the love of God has been formed in these hearts, and we are to take account of that."
+     "speaker": "RJG",
+     "text": [
+      "We should desire to be expanded in relation to that."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "Scripture tells us as to the Holy Spirit that “whatsoever he shall hear he shall speak”, John 16:13. Would He speak to our hearts of what the Father sees in the saints?"
+     "speaker": "TJH",
+     "text": [
+      "The Lord Jesus was a Comforter to the disciples when He was with them, and He speaks of “another Comforter”, as has been mentioned. In that passage, the “Comforter” is really a name of the Holy Spirit: “the Holy Spirit, whom the Father will send in my name, he shall teach you all things, and will bring to your remembrance all the things which I have said”. Is teaching a feature of the Holy Spirit’s service, alongside what has been said as to our relations with one another?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "I think it is a very precious service of the Holy Spirit. That scripture says, “but whatsoever he shall hear he shall speak; and he will announce to you what is coming. He shall glorify me, for he shall receive of mine and shall announce it to you” (vv.13,14). A prime service of the Holy Spirit is to make known to us the things of Christ and what is precious to Christ. That involves Christ where He is in glory, and also includes the saints. The Holy Spirit has intimate knowledge of that."
+     "speaker": "RJG",
+     "text": [
+      "Yes. The Spirit’s service is very extensive. We can really only be teachable in divine things if we are affected ourselves by the love of God. It is not teaching as in the things of men: we are to be affected inwardly by what God has done, affected in our hearts by His love, and that prepares us for the service of the Holy Spirit in helping to set out the truth in its fulness."
+     ]
     },
     {
-     "speaker": "D.S.",
-     "text": "I have often wondered about that scripture, giving us the Lord’s words when He speaks of the Holy Spirit. Do I fully appreciate the Spirit’s service to us?"
+     "speaker": "TJH",
+     "text": [
+      "Spiritual things are to be communicated by spiritual means (see 1 Cor.2:13). They are not the same as earthly things that we might need to learn about."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "We should desire to be expanded in relation to that."
+     "speaker": "JRW",
+     "text": [
+      "Is it encouraging, too, that in your first scripture it is “we being still without strength”. In the second, “the Spirit joins also its help to our weakness”. We might feel weak in these things, but the Spirit is available to strengthen and help us. The way He strengthens us is to assure our hearts of God’s love. Would that be so?"
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "The Lord Jesus was a Comforter to the disciples when He was with them, and He speaks of “another Comforter”, as has been mentioned. In that passage, the “Comforter” is really a name of the Holy Spirit: “the Holy Spirit, whom the Father will send in my name, he shall teach you all things, and will bring to your remembrance all the things which I have said”. Is teaching a feature of the Holy Spirit’s service, alongside what has been said as to our relations with one another?"
+     "speaker": "RJG",
+     "text": [
+      "Yes, that is very interesting. The Holy Spirit dwelling in our hearts knows what is in these hearts, and would help our hearts to be expanded. The Spirit is not helping the flesh. He supports us in our weakness, but the great things of God are substantial, and the Spirit would help us in these things."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. The Spirit’s service is very extensive. We can really only be teachable in divine things if we are affected ourselves by the love of God. It is not teaching as in the things of men: we are to be affected inwardly by what God has done, affected in our hearts by His love, and that prepares us for the service of the Holy Spirit in helping to set out the truth in its fulness."
+     "speaker": "GW",
+     "text": [
+      "I was thinking of the widow woman who was told to “live thou and thy sons on the rest”, 2 Kings 4:7. The oil was more than sufficient. Does it suggest that we need to live on the Holy Spirit? The things you are bringing before us are not optional."
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "Spiritual things are to be communicated by spiritual means (see 1 Cor.2:13). They are not the same as earthly things that we might need to learn about."
+     "speaker": "RJG",
+     "text": [
+      "We are to feel our weakness from one point of view, and that helps us. We are helped to find the great resource available in the power of the Holy Spirit, and we need to use that resource. The woman you refer to used the oil and the result for us in making way for the Spirit is spiritual wealth. I think all of this wealth has its source in the love of God."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "Is it encouraging, too, that in your first scripture it is “we being still without strength”. In the second, “the Spirit joins also its help to our weakness”. We might feel weak in these things, but the Spirit is available to strengthen and help us. The way He strengthens us is to assure our hearts of God’s love. Would that be so?"
+     "speaker": "AAC",
+     "text": [
+      "Do you think it is important that we recognise our weakness? The woman in 2 Kings 4 had nothing; it had all gone. I was thinking of the attractiveness of what you are bringing before us. I need to identify what might hinder the activity of the Spirit in me. Is it essential that I accept my own weakness, my own poverty, and recognise the limitless resource that God has provided in the Spirit?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, that is very interesting. The Holy Spirit dwelling in our hearts knows what is in these hearts, and would help our hearts to be expanded. The Spirit is not helping the flesh. He supports us in our weakness, but the great things of God are substantial, and the Spirit would help us in these things."
+     "speaker": "RJG",
+     "text": [
+      "Yes. You might say more about the limitless resource. We would all accept as a matter of teaching that I am weak and that the Spirit’s service is great; but we really need to experience that for ourselves, to find that what we are saying is true."
+     ]
     },
     {
-     "speaker": "G.W.",
-     "text": "I was thinking of the widow woman who was told to “live thou and thy sons on the rest”, 2 Kings 4:7. The oil was more than sufficient. Does it suggest that we need to live on the Holy Spirit? The things you are bringing before us are not optional."
+     "speaker": "AAC",
+     "text": [
+      "When we think of the greatness of what the Spirit is doing in shedding abroad the love of God in the hearts of His creature, to fill our affections, the attractiveness of that is beyond anything in this scene. We want to be enjoying the greatness of it, and I ask my own heart, what do I know of this? It is important to understand what might hinder that enjoyment. This is a divine resource; we are not looking at our own ability or intelligence here; it is something that God has set Himself to show to us, so that we appreciate the warmth of His affection. And it is to fill us, and – as has been said – to change us. There is no question of natural resources being needed. This requires complete dependence on divine resources, does it not?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "We are to feel our weakness from one point of view, and that helps us. We are helped to find the great resource available in the power of the Holy Spirit, and we need to use that resource. The woman you refer to used the oil and the result for us in making way for the Spirit is spiritual wealth. I think all of this wealth has its source in the love of God."
+     "speaker": "RJG",
+     "text": [
+      "Yes. The apostle writes, “we do not know what we should pray for as is fitting, but the Spirit itself makes intercession with groanings which cannot be uttered”. We do not know, but He knows."
+     ]
     },
     {
-     "speaker": "A.A.C.",
-     "text": "Do you think it is important that we recognise our weakness? The woman in 2 Kings 4 had nothing; it had all gone. I was thinking of the attractiveness of what you are bringing before us. I need to identify what might hinder the activity of the Spirit in me. Is it essential that I accept my own weakness, my own poverty, and recognise the limitless resource that God has provided in the Spirit?"
+     "speaker": "CHS",
+     "text": [
+      "Could you say something more about the love of God? Having experienced it shed abroad in our hearts, we ought to be able to say something about it. It is holy in character. The faith we have been given is holy, and the Spirit is referred to as the Holy Spirit. Does the recognition of these things have its own effect? R.J.G. Yes. Love is God’s nature."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. You might say more about the limitless resource. We would all accept as a matter of teaching that I am weak and that the Spirit’s service is great; but we really need to experience that for ourselves, to find that what we are saying is true."
+     "speaker": "CHS",
+     "text": [
+      "I was thinking of what has been said about being sensitive to and aware of our weakness. That would help us to work things out practically. The holiness of God’s operations brings us under the obligation of selfjudgment, making us sensitive and enabling us to take on adjustment, thus bringing into expression in the believer the divine character of love, do you think?"
+     ]
     },
     {
-     "speaker": "A.A.C.",
-     "text": "When we think of the greatness of what the Spirit is doing in shedding abroad the love of God in the hearts of His creature, to fill our affections, the attractiveness of that is beyond anything in this scene. We want to be enjoying the greatness of it, and I ask my own heart, what do I know of this? It is important to understand what might hinder that enjoyment. This is a divine resource; we are not looking at our own ability or intelligence here; it is something that God has set Himself to show to us, so that we appreciate the warmth of His affection. And it is to fill us, and – as has been said – to change us. There is no question of natural resources being needed. This requires complete dependence on divine resources, does it not?"
+     "speaker": "RJG",
+     "text": [
+      "Yes. What you say as to holiness is very important. The apostle says, “having got your freedom from sin, and having become bondmen to God, ye have your fruit unto holiness, and the end eternal life”, Rom.6:22. What you say about sensitiveness would make us careful in the presence of God, and about what is suitable to God. Then “eternal life” speaks of the enjoyment of the love of God, the enjoyment together of these precious things."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. The apostle writes, “we do not know what we should pray for as is fitting, but the Spirit itself makes intercession with groanings which cannot be uttered”. We do not know, but He knows."
+     "speaker": "CHS",
+     "text": [
+      "Yes, I think that is how it works. It is a simple matter, and for those who know it, it is very real. We cannot separate the enjoyment of the love of God from holiness, can we?"
+     ]
     },
     {
-     "speaker": "C.H.S.",
-     "text": "Could you say something more about the love of God? Having experienced it shed abroad in our hearts, we ought to be able to say something about it. It is holy in character. The faith we have been given is holy, and the Spirit is referred to as the Holy Spirit. Does the recognition of these things have its own effect? R.J.G. Yes. Love is God’s nature."
+     "speaker": "RJG",
+     "text": [
+      "The believer is to come out like God. That would mean showing these precious features of love and holiness and sensitivity."
+     ]
     },
     {
-     "speaker": "C.H.S.",
-     "text": "I was thinking of what has been said about being sensitive to and aware of our weakness. That would help us to work things out practically. The holiness of God’s operations brings us under the obligation of selfjudgment, making us sensitive and enabling us to take on adjustment, thus bringing into expression in the believer the divine character of love, do you think?"
+     "speaker": "PM",
+     "text": [
+      "Would communion with the Spirit help us to be sensitive? I was thinking of the reference, “Be careful in his presence”, Exod. 23:21. The more I commune with the Holy Spirit and speak with Him, the more my feelings would be sensitive and changed."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. What you say as to holiness is very important. The apostle says, “having got your freedom from sin, and having become bondmen to God, ye have your fruit unto holiness, and the end eternal life”, Rom.6:22. What you say about sensitiveness would make us careful in the presence of God, and about what is suitable to God. Then “eternal life” speaks of the enjoyment of the love of God, the enjoyment together of these precious things."
+     "speaker": "RJG",
+     "text": [
+      "Yes. As you were speaking, I was thinking of Moses. It is a different dispensation, of course, but he was on the mountain with God while things were going on amongst the people that were not right, and when Moses comes down, he knows what to do. He is",
+      "sensitive about what is suitable to the presence of God."
+     ]
     },
     {
-     "speaker": "C.H.S.",
-     "text": "Yes, I think that is how it works. It is a simple matter, and for those who know it, it is very real. We cannot separate the enjoyment of the love of God from holiness, can we?"
+     "speaker": "WMP",
+     "text": [
+      "One aspect of being sensitive to the Spirit’s activity would be to feel the fact that we are surrounded by a system where He is refused. We might raise the challenge with ourselves as to whether we are making way for the Spirit."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "The believer is to come out like God. That would mean showing these precious features of love and holiness and sensitivity."
+     "speaker": "RJG",
+     "text": [
+      "Yes. Giving scope for the Holy Spirit to act works out practically in our gatherings together."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Would communion with the Spirit help us to be sensitive? I was thinking of the reference, “Be careful in his presence”, Exod. 23:21. The more I commune with the Holy Spirit and speak with Him, the more my feelings would be sensitive and changed."
+     "speaker": "WMP",
+     "text": [
+      "I should feel it more, that there is a whole system that takes on the public profession of Christianity, yet is going on with arrangements that restrict the knowledge and service of this glorious divine Person."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. As you were speaking, I was thinking of Moses. It is a different dispensation, of course, but he was on the mountain with God while things were going on amongst the people that were not right, and when Moses comes down, he knows what to do. He is"
+     "speaker": "RJG",
+     "text": [
+      "If way is made for the Spirit in our hearts individually, then as we are gathered together, He will bring the things of Christ before us, because the Spirit always makes much of Him. If we think of the great organised systems of Christendom, Christ may be acknowledged from a formal point of view but in effect He is outside, and His rights are not recognised. The Holy Spirit must be made way for if Christ is to have His rightful place."
+     ]
     },
     {
-     "text": "sensitive about what is suitable to the presence of God."
+     "speaker": "HTF",
+     "text": [
+      "I was thinking of the hymn",
+      "‘Holy Spirit, Helper nigh,",
+      "Sent in love from God on high’ Hymn 453",
+      "We often refer to the translator’s note about “another Comforter” (see John 14:16, footnote, referring to ‘solicitor’); but you do not engage a solicitor, and then not follow his advice. Is it a matter of yielding to another mind altogether, the mind of the Spirit?"
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "One aspect of being sensitive to the Spirit’s activity would be to feel the fact that we are surrounded by a system where He is refused. We might raise the challenge with ourselves as to whether we are making way for the Spirit."
+     "speaker": "RJG",
+     "text": [
+      "In divine things, we need to accept help; it is good what you say. That help is so readily available in the Holy Spirit."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. Giving scope for the Holy Spirit to act works out practically in our gatherings together."
+     "speaker": "TJH",
+     "text": [
+      "Referring to the sensitivity of the Holy Spirit, the Holy Spirit descended upon the Lord Jesus as a dove. That gives the idea of sensitivity."
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "I should feel it more, that there is a whole system that takes on the public profession of Christianity, yet is going on with arrangements that restrict the knowledge and service of this glorious divine Person."
+     "speaker": "RJG",
+     "text": [
+      "The Lord Jesus was unique and perfect."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "If way is made for the Spirit in our hearts individually, then as we are gathered together, He will bring the things of Christ before us, because the Spirit always makes much of Him. If we think of the great organised systems of Christendom, Christ may be acknowledged from a formal point of view but in effect He is outside, and His rights are not recognised. The Holy Spirit must be made way for if Christ is to have His rightful place."
+     "speaker": "TJH",
+     "text": [
+      "The Spirit did not descend upon anyone else in that way. He came at Pentecost as tongues of fire."
+     ]
     },
     {
-     "speaker": "H.T.F.",
-     "text": "I was thinking of the hymn"
+     "speaker": "JRW",
+     "text": [
+      "The first three scriptures read give very definite, positive statements as to what the Spirit does. He sheds the love of God abroad in our hearts; He joins His help to our weakness and He makes intercession; and (in your third scripture) He “searches all things, even the depths of God”. It is encouraging that the Spirit’s service manifests itself in a very definite way. The shedding abroad of the love of God in our hearts is really the basis for all of that."
+     ]
     },
     {
-     "text": "‘Holy Spirit, Helper nigh,"
+     "speaker": "RJG",
+     "text": [
+      "Yes. In Corinthians my thought was that there is an understanding of divine things, and great expansion in our appreciation of them, as we make way for the Holy Spirit. It is God’s desire, His love being behind it, that the things that He “has prepared for them that love him” should be made known to us. The Holy Spirit’s activities are to that end."
+     ]
     },
     {
-     "text": "Sent in love from God on high’ Hymn 453"
+     "speaker": "JRW",
+     "text": [
+      "We are absolutely dependent on the Spirit’s activities. It says where you read, “the things of God knows no one except the Spirit of God”. Without the Spirit’s service we would not know anything of these things, which makes us (on the one hand) dependent but (on the other) extremely thankful. That would draw out our appreciation and worship of the Spirit."
+     ]
     },
     {
-     "text": "We often refer to the translator’s note about “another Comforter” (see John 14:16, footnote, referring to ‘solicitor’); but you do not engage a solicitor, and then not follow his advice. Is it a matter of yielding to another mind altogether, the mind of the Spirit?"
+     "speaker": "RJG",
+     "text": [
+      "Yes, as we recognise the essential character of the Spirit’s service towards us, that helps us to appreciate Him. He is a divine Person, yet come to dwell in our hearts. How close that is. The sensitiveness that has been referred to would enter into this passage. We are thankful for His operations, and what He brings us into. As you say, there is no other power for the enjoyment of these “Things which eye has not seen, and ear not heard”."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "In divine things, we need to accept help; it is good what you say. That help is so readily available in the Holy Spirit."
+     "speaker": "RHB",
+     "text": [
+      "Do you have something in mind as to this expression, “the depths of God”?"
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "Referring to the sensitivity of the Holy Spirit, the Holy Spirit descended upon the Lord Jesus as a dove. That gives the idea of sensitivity."
+     "speaker": "RJG",
+     "text": [
+      "We can enquire together. I thought “the depths” linked with the love of God and the way in which He has moved. We have in Ephesians 3 “the breadth and length and depth and height” (v.18). God’s coming out in love has involved the searching of these depths."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "The Lord Jesus was unique and perfect."
+     "speaker": "RHB",
+     "text": [
+      "That is very helpful. God is love, and everything that God has done is because of what He is. The love of God is His nature. So that the Spirit “searches all things, even the depths of God”. He is able to bring out for our understanding and appreciation things that would otherwise be wholly unknown to us. Do you think that this scripture would endear the Holy Spirit, that Person of the Godhead, to us? Not only does He make “intercession with groanings”, as you get in Romans 8, but He brings within our apprehension things that we could never otherwise have known. That should endear the Spirit of God to us, should it not?"
+     ]
     },
     {
-     "speaker": "T.J.H.",
-     "text": "The Spirit did not descend upon anyone else in that way. He came at Pentecost as tongues of fire."
+     "speaker": "RJG",
+     "text": [
+      "Yes, very much. What you say would encourage us further to call upon Him for help, and then – as has been referred to earlier – to commune with Him that the things prepared by God might be a reality to us."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "The first three scriptures read give very definite, positive statements as to what the Spirit does. He sheds the love of God abroad in our hearts; He joins His help to our weakness and He makes intercession; and (in your third scripture) He “searches all things, even the depths of God”. It is encouraging that the Spirit’s service manifests itself in a very definite way. The shedding abroad of the love of God in our hearts is really the basis for all of that."
+     "speaker": "DABw",
+     "text": [
+      "Not only could we not know these things other than by the Spirit, but we could not communicate them either. Do you think that we experience that in enquiry in reading meetings like this? The Holy Spirit is using one and another to communicate spiritual things. Is that what is happening today?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes. In Corinthians my thought was that there is an understanding of divine things, and great expansion in our appreciation of them, as we make way for the Holy Spirit. It is God’s desire, His love being behind it, that the things that He “has prepared for them that love him” should be made known to us. The Holy Spirit’s activities are to that end."
+     "speaker": "RJG",
+     "text": [
+      "Yes, it has struck me as we have enquired together in this reading how essential the Holy Spirit is. We might think of the love of God as being something that we can easily apprehend, but think of the greatness and the depths of it: we need the Spirit’s help in relation to it."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "We are absolutely dependent on the Spirit’s activities. It says where you read, “the things of God knows no one except the Spirit of God”. Without the Spirit’s service we would not know anything of these things, which makes us (on the one hand) dependent but (on the other) extremely thankful. That would draw out our appreciation and worship of the Spirit."
+     "speaker": "RJF",
+     "text": [
+      "Do you think we should seek the direction of the Holy Spirit prayerfully? You sought His help in prayer at the beginning of this meeting. In John 21 the Lord gives direction to the disciples: He says, “Cast the net at the right side of the ship and ye will find” (v.6). While that is in relation to the Lord, it is a similar principle regarding the Spirit’s direction. By seeking divine direction, we find what the Lord has in mind for us. Divine resource and power are given."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, as we recognise the essential character of the Spirit’s service towards us, that helps us to appreciate Him. He is a divine Person, yet come to dwell in our hearts. How close that is. The sensitiveness that has been referred to would enter into this passage. We are thankful for His operations, and what He brings us into. As you say, there is no other power for the enjoyment of these “Things which eye has not seen, and ear not heard”."
+     "speaker": "RJG",
+     "text": [
+      "Yes, and you see that through the Acts, do you not? They felt the need of help in relation to service and other matters. The apostles were sensitive to what the Holy Spirit was saying, and what direction He was indicating that they should go in. It might be easy for us to miss that."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "Do you have something in mind as to this expression, “the depths of God”?"
+     "speaker": "OJM",
+     "text": [
+      "It speaks about the father in Luke 15 being “moved with compassion” (v.20). Is that the character of the love of God towards us, knowing our need, and feeling deeply towards us?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "We can enquire together. I thought “the depths” linked with the love of God and the way in which He has moved. We have in Ephesians 3 “the breadth and length and depth and height” (v.18). God’s coming out in love has involved the searching of these depths."
+     "speaker": "RJG",
+     "text": [
+      "Yes, I think the Lord in that chapter was describing the love of God in relation to the need that He found. It is a very precious thing, to think that the Lord, conscious of the needs of men, brought out exactly what man needed; and the Lord’s own feelings come out too. He wept at the grave of Lazarus (John 11:35). Divine feelings come out in relation to the need of man; but then in this scripture in 1 Corinthians, God’s love is behind His desire that we should enter into the greatness of the truth He has in mind for us."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "That is very helpful. God is love, and everything that God has done is because of what He is. The love of God is His nature. So that the Spirit “searches all things, even the depths of God”. He is able to bring out for our understanding and appreciation things that would otherwise be wholly unknown to us. Do you think that this scripture would endear the Holy Spirit, that Person of the Godhead, to us? Not only does He make “intercession with groanings”, as you get in Romans 8, but He brings within our apprehension things that we could never otherwise have known. That should endear the Spirit of God to us, should it not?"
+     "speaker": "RHB",
+     "text": [
+      "This truth is what belongs to us. He says, “we have received … the Spirit which is of God, that we may know the things which have been freely given to us of God”, 1 Cor.2:12. Do we know what belongs to us? It has been freely given, but the only way to apprehend and enjoy these things is by the Spirit of God."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, very much. What you say would encourage us further to call upon Him for help, and then – as has been referred to earlier – to commune with Him that the things prepared by God might be a reality to us."
+     "speaker": "RJG",
+     "text": [
+      "What do you think is involved in “the things which have been freely given to us”?"
+     ]
     },
     {
-     "speaker": "D.A.Bw.",
-     "text": "Not only could we not know these things other than by the Spirit, but we could not communicate them either. Do you think that we experience that in enquiry in reading meetings like this? The Holy Spirit is using one and another to communicate spiritual things. Is that what is happening today?"
+     "speaker": "RHB",
+     "text": [
+      "It would include many things, would it not? Think of the consciousness of being righteous in God’s sight, clothed in the righteousness of Christ. We may apprehend that by faith, but it is essential that we should know it consciously if we are to have liberty with God. And then sonship is spoken of as a gift: “that we might receive sonship” (Gal.4:5, footnote). It is not only a text in the Bible or a line in a hymn, but we are to know these things consciously; “the things which have been freely given to us of God” would be extensive. You have some thought about it?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, it has struck me as we have enquired together in this reading how essential the Holy Spirit is. We might think of the love of God as being something that we can easily apprehend, but think of the greatness and the depths of it: we need the Spirit’s help in relation to it."
+     "speaker": "RJG",
+     "text": [
+      "They are spiritual things, and not material. We appreciate the practical, material and natural things that God provides, but these things are for a time, while spiritual things are eternal (2 Cor.4:18). I think what has been brought out in this enquiry as to the essential character of the Spirit’s service in order that we might know these things is very important. What you said as to sonship is helpful; the Spirit’s service would be with a view to there being response to God, and response would flow from us knowing our place as sons. The Lord says that “the Father seeks such as his worshippers”, John 4:23. The Holy Spirit is acting in relation to that."
+     ]
     },
     {
-     "speaker": "R.J.F.",
-     "text": "Do you think we should seek the direction of the Holy Spirit prayerfully? You sought His help in prayer at the beginning of this meeting. In John 21 the Lord gives direction to the disciples: He says, “Cast the net at the right side of the ship and ye will find” (v.6). While that is in relation to the Lord, it is a similar principle regarding the Spirit’s direction. By seeking divine direction, we find what the Lord has in mind for us. Divine resource and power are given."
+     "speaker": "WMP",
+     "text": [
+      "Sonship involves intelligence and affection. The Spirit revealing things suggests that He helps us in our understanding of what is suited to the divine realm, and gives us the power to give effect to the great line of response."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, and you see that through the Acts, do you not? They felt the need of help in relation to service and other matters. The apostles were sensitive to what the Holy Spirit was saying, and what direction He was indicating that they should go in. It might be easy for us to miss that."
+     "speaker": "RJG",
+     "text": [
+      "Those two qualities go together, do you think – intelligence and affection in divine things?"
+     ]
     },
     {
-     "speaker": "O.J.M.",
-     "text": "It speaks about the father in Luke 15 being “moved with compassion” (v.20). Is that the character of the love of God towards us, knowing our need, and feeling deeply towards us?"
+     "speaker": "KJM",
+     "text": [
+      "In Ephesians 3, where the dimensions are spoken of, it says, “that ye may be filled even to all the fulness of God” (v.19). Do you think that is what the Spirit does? We have spoken earlier about the love of God being shed abroad in our hearts. In the scripture in Ephesians, it says, “to know the love of the Christ which surpasses knowledge; that ye may be filled even to all the fulness of God”. That would shut out everything of the flesh, would it not?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Yes, I think the Lord in that chapter was describing the love of God in relation to the need that He found. It is a very precious thing, to think that the Lord, conscious of the needs of men, brought out exactly what man needed; and the Lord’s own feelings come out too. He wept at the grave of Lazarus (John 11:35). Divine feelings come out in relation to the need of man; but then in this scripture in 1 Corinthians, God’s love is behind His desire that we should enter into the greatness of the truth He has in mind for us."
+     "speaker": "RJG",
+     "text": [
+      "That helps. What is in view is that we may “know the love of the Christ”. We started in Romans with the love of God. How precious that we should also know the love of Christ in all its extensiveness and depth."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "This truth is what belongs to us. He says, “we have received … the Spirit which is of God, that we may know the things which have been freely given to us of God”, 1 Cor.2:12. Do we know what belongs to us? It has been freely given, but the only way to apprehend and enjoy these things is by the Spirit of God."
+     "speaker": "DAS",
+     "text": [
+      "The fact that things have been freely given to us of God reveals the heart of God, does it not? To receive a gift is really to receive the mind and heart of the giver. The reception of the things freely given to us of God, and the liberty in which we enjoy those things, would lead us into a greater appreciation of the love of God. The Spirit would reveal those things to us."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "What do you think is involved in “the things which have been freely given to us”?"
+     "speaker": "RJG",
+     "text": [
+      "And it is a precious thing that the Holy Spirit is given as a gift. He has been given to us, and there is a reference to God’s “unspeakable free gift”, 2 Cor.9:15. All that we have by way of eternal blessing is on the basis of God’s giving.",
+      "We should look at the last scripture we read, in Colossians. We may have covered some of this already, but I was thinking of the way that the Holy Spirit’s service has a practical result in the saints. The apostle says, “having heard of your faith in Christ Jesus, and the love which ye have towards all the saints”. It is an obvious point to make, but all the saints are not available practically at the present time, in the day of breakdown, yet we are to hold whole thoughts in our minds and hearts. Then the Colossians’ love in the Spirit is spoken about as having been manifested; it was brought out, it was demonstrated. I wondered if that would relate particularly to what was said earlier as to fellowship – it is what we enjoy together."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "It would include many things, would it not? Think of the consciousness of being righteous in God’s sight, clothed in the righteousness of Christ. We may apprehend that by faith, but it is essential that we should know it consciously if we are to have liberty with God. And then sonship is spoken of as a gift: “that we might receive sonship” (Gal.4:5, footnote). It is not only a text in the Bible or a line in a hymn, but we are to know these things consciously; “the things which have been freely given to us of God” would be extensive. You have some thought about it?"
+     "speaker": "JRW",
+     "text": [
+      "That is very encouraging, and at the same time it is testing. Epaphras “manifested to us your love in the Spirit”. That would, as you say, involve fellowship. It would involve our relations with one another, and it also involves making way for the Holy Spirit in it all."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "They are spiritual things, and not material. We appreciate the practical, material and natural things that God provides, but these things are for a time, while spiritual things are eternal (2 Cor.4:18). I think what has been brought out in this enquiry as to the essential character of the Spirit’s service in order that we might know these things is very important. What you said as to sonship is helpful; the Spirit’s service would be with a view to there being response to God, and response would flow from us knowing our place as sons. The Lord says that “the Father seeks such as his worshippers”, John 4:23. The Holy Spirit is acting in relation to that."
+     "speaker": "RJG",
+     "text": [
+      "Yes, I think it involves sensitiveness in our links together. As we gather together, we make way for one another, and in doing that we are making way for the service of the Holy Spirit as the saints convene."
+     ]
     },
     {
-     "speaker": "W.M.P.",
-     "text": "Sonship involves intelligence and affection. The Spirit revealing things suggests that He helps us in our understanding of what is suited to the divine realm, and gives us the power to give effect to the great line of response."
+     "speaker": "JRW",
+     "text": [
+      "Your reading of this section is very helpful and at the same time very challenging. Paul speaks of “your faith in Christ Jesus, and the love which ye have towards all the saints”. That is very wide, as you say. I also wondered whether in this section we see reference to some of the things which are ours in the love of God. Paul speaks of “the grace of God, in truth”. He speaks of “the word of the truth of the glad tidings”. All these things are involved, are they not, in the love of God and the service of the Holy Spirit?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "Those two qualities go together, do you think – intelligence and affection in divine things?"
+     "speaker": "RJG",
+     "text": [
+      "Yes, that is very good. The apostle is encouraging the Colossians to make further progress, so that they might know the headship of Christ. What an important matter that is; it comes out in the epistle, that there was a good grounding in the progress they had made thus far. They had accepted the gospel, and as you say they had known the grace of God; and the Holy Spirit’s service was bearing fruit in the company."
+     ]
     },
     {
-     "speaker": "K.J.M.",
-     "text": "In Ephesians 3, where the dimensions are spoken of, it says, “that ye may be filled even to all the fulness of God” (v.19). Do you think that is what the Spirit does? We have spoken earlier about the love of God being shed abroad in our hearts. In the scripture in Ephesians, it says, “to know the love of the Christ which surpasses knowledge; that ye may be filled even to all the fulness of God”. That would shut out everything of the flesh, would it not?"
+     "speaker": "TJH",
+     "text": [
+      "The love of God spread abroad in our hearts is from God to us; in that sense it is vertical. But here what is horizontal is spoken of – the expression of that love that has been shed abroad in our hearts towards one another. We are to know of what spirit we are (see Luke 9:55) in our relations with one another, even when things might need to be set right."
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "That helps. What is in view is that we may “know the love of the Christ”. We started in Romans with the love of God. How precious that we should also know the love of Christ in all its extensiveness and depth."
+     "speaker": "RJG",
+     "text": [
+      "Yes, in our links and gatherings together it is important to recognise the presence of the Spirit. What is in one another is precious. It becomes very practical as to fellowship, and what I might allow. Am I in line with the sensitivity of the Holy Spirit, and the holiness of God’s presence, and what is due to the fellowship?"
+     ]
     },
     {
-     "speaker": "D.A.S.",
-     "text": "The fact that things have been freely given to us of God reveals the heart of God, does it not? To receive a gift is really to receive the mind and heart of the giver. The reception of the things freely given to us of God, and the liberty in which we enjoy those things, would lead us into a greater appreciation of the love of God. The Spirit would reveal those things to us."
+     "speaker": "PM",
+     "text": [
+      "The exercise that this scripture raises would preserve me from what is just social or natural in our links together. It is a wonderful privilege to have the brethren in our homes, but would “love in the Spirit” ensure that Christ is the centre in our links together?"
+     ]
     },
     {
-     "speaker": "R.J.G.",
-     "text": "And it is a precious thing that the Holy Spirit is given as a gift. He has been given to us, and there is a reference to God’s “unspeakable free gift”, 2 Cor.9:15. All that we have by way of eternal blessing is on the basis of God’s giving."
+     "speaker": "RJG",
+     "text": [
+      "Yes. I thought about this brother, Epaphras. He is spoken of at the end of the epistle (chap.4:12) as to the way that he was praying for the saints, “that ye may stand perfect and complete in all the will of God”. But he clearly made known the state of the Colossians to Paul, and he would have spoken positively of the progress that they had made. He manifested to Paul their “love in the Spirit”. That is what Epaphras said when he was speaking about his local brethren."
+     ]
     },
     {
-     "text": "We should look at the last scripture we read, in Colossians. We may have covered some of this already, but I was thinking of the way that the Holy Spirit’s service has a practical result in the saints. The apostle says, “having heard of your faith in Christ Jesus, and the love which ye have towards all the saints”. It is an obvious point to make, but all the saints are not available practically at the present time, in the day of breakdown, yet we are to hold whole thoughts in our minds and hearts. Then the Colossians’ love in the Spirit is spoken about as having been manifested; it was brought out, it was demonstrated. I wondered if that would relate particularly to what was said earlier as to fellowship – it is what we enjoy together."
+     "speaker": "CHS",
+     "text": [
+      "The verse in John’s epistle says “If we love one another, God abides in us, and his love is perfected in us”, and it goes on to explain, “Hereby we know that we abide in him and he in us, that he has given to us of his Spirit”, 1 John 4:12,13. John leaves no doubt about these things: if we claim that we love God, it must be the case that we love our brother too. It is a very attractive thought, God’s love being perfected in us. Think of what a pleasure it must be to the Father to see that, especially in relation to those who approach Him; it is the result of divine Persons working together. It is a sensitive matter, is it not? The Lord is praising in the midst of the congregation (Heb.2:12); He is the One who died for them, to remove all distance. It is divine Persons working together: “For through him we have both access by one Spirit to the Father”, Eph.2:18. What a pleasure that must be to God."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "That is very encouraging, and at the same time it is testing. Epaphras “manifested to us your love in the Spirit”. That would, as you say, involve fellowship. It would involve our relations with one another, and it also involves making way for the Holy Spirit in it all."
-    },
-    {
-     "speaker": "R.J.G.",
-     "text": "Yes, I think it involves sensitiveness in our links together. As we gather together, we make way for one another, and in doing that we are making way for the service of the Holy Spirit as the saints convene."
-    },
-    {
-     "speaker": "J.R.W.",
-     "text": "Your reading of this section is very helpful and at the same time very challenging. Paul speaks of “your faith in Christ Jesus, and the love which ye have towards all the saints”. That is very wide, as you say. I also wondered whether in this section we see reference to some of the things which are ours in the love of God. Paul speaks of “the grace of God, in truth”. He speaks of “the word of the truth of the glad tidings”. All these things are involved, are they not, in the love of God and the service of the Holy Spirit?"
-    },
-    {
-     "speaker": "R.J.G.",
-     "text": "Yes, that is very good. The apostle is encouraging the Colossians to make further progress, so that they might know the headship of Christ. What an important matter that is; it comes out in the epistle, that there was a good grounding in the progress they had made thus far. They had accepted the gospel, and as you say they had known the grace of God; and the Holy Spirit’s service was bearing fruit in the company."
-    },
-    {
-     "speaker": "T.J.H.",
-     "text": "The love of God spread abroad in our hearts is from God to us; in that sense it is vertical. But here what is horizontal is spoken of – the expression of that love that has been shed abroad in our hearts towards one another. We are to know of what spirit we are (see Luke 9:55) in our relations with one another, even when things might need to be set right."
-    },
-    {
-     "speaker": "R.J.G.",
-     "text": "Yes, in our links and gatherings together it is important to recognise the presence of the Spirit. What is in one another is precious. It becomes very practical as to fellowship, and what I might allow. Am I in line with the sensitivity of the Holy Spirit, and the holiness of God’s presence, and what is due to the fellowship?"
-    },
-    {
-     "speaker": "P.M.",
-     "text": "The exercise that this scripture raises would preserve me from what is just social or natural in our links together. It is a wonderful privilege to have the brethren in our homes, but would “love in the Spirit” ensure that Christ is the centre in our links together?"
-    },
-    {
-     "speaker": "R.J.G.",
-     "text": "Yes. I thought about this brother, Epaphras. He is spoken of at the end of the epistle (chap.4:12) as to the way that he was praying for the saints, “that ye may stand perfect and complete in all the will of God”. But he clearly made known the state of the Colossians to Paul, and he would have spoken positively of the progress that they had made. He manifested to Paul their “love in the Spirit”. That is what Epaphras said when he was speaking about his local brethren."
-    },
-    {
-     "speaker": "C.H.S.",
-     "text": "The verse in John’s epistle says “If we love one another, God abides in us, and his love is perfected in us”, and it goes on to explain, “Hereby we know that we abide in him and he in us, that he has given to us of his Spirit”, 1 John 4:12,13. John leaves no doubt about these things: if we claim that we love God, it must be the case that we love our brother too. It is a very attractive thought, God’s love being perfected in us. Think of what a pleasure it must be to the Father to see that, especially in relation to those who approach Him; it is the result of divine Persons working together. It is a sensitive matter, is it not? The Lord is praising in the midst of the congregation (Heb.2:12); He is the One who died for them, to remove all distance. It is divine Persons working together: “For through him we have both access by one Spirit to the Father”, Eph.2:18. What a pleasure that must be to God."
-    },
-    {
-     "speaker": "R.J.G.",
-     "text": "Yes, so there is to be a substantial result for God; it is what is formed in the saints in love. That comes out, as has been said, in a practical way in love for one another; but it is all for the pleasure of the heart of God."
+     "speaker": "RJG",
+     "text": [
+      "Yes, so there is to be a substantial result for God; it is what is formed in the saints in love. That comes out, as has been said, in a practical way in love for one another; but it is all for the pleasure of the heart of God."
+     ]
     }
    ]
   },
@@ -616,38 +829,158 @@
     },
     {
      "speaker": "CAC",
-     "text": "Vol.5 An Outline of Deuteronomy pp. 200, 201."
-    },
-    {
-     "text": "Once we get to understand the nature of communion, how it expresses the mind of the Lord, we see what an immense gain it is to us spiritually. The greatest thing is to have communion with the Father. The Son is always in communion with the Father, and as we get into communion with Him, we then share in His communion with the Father. We learn communion with the Father through the Son. Consequently we rise from our own distance to His height, and are not in communion until we are at that height. It is not a work, but the happy outflow of nearness. We may know many fine things, but we are not in communion with the Father until then."
+     "text": [
+      "Vol.5 An Outline of Deuteronomy pp. 200, 201.",
+      "Once we get to understand the nature of communion, how it expresses the mind of the Lord, we see what an immense gain it is to us spiritually. The greatest thing is to have communion with the Father. The Son is always in communion with the Father, and as we get into communion with Him, we then share in His communion with the Father. We learn communion with the Father through the Son. Consequently we rise from our own distance to His height, and are not in communion until we are at that height. It is not a work, but the happy outflow of nearness. We may know many fine things, but we are not in communion with the Father until then."
+     ]
     },
     {
      "speaker": "JBS",
-     "text": "Vol.8 p.251"
-    },
-    {
-     "text": "Edited and published monthly by Alistair Brown and Paul Martin"
-    },
-    {
-     "text": "Additional copies are available, free of charge, by emailing notesofministry@virginmedia.com or paul@nofm.co.uk"
-    },
-    {
-     "text": "27 Grange View Linlithgow EH49 7HY"
-    },
-    {
-     "text": "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ"
-    },
-    {
-     "text": "Notes"
-    },
-    {
-     "text": "[←1]"
+     "text": [
+      "Vol.8 p.251",
+      "Edited and published monthly by Alistair Brown and Paul Martin",
+      "Additional copies are available, free of charge, by emailing notesofministry@virginmedia.com or paul@nofm.co.uk",
+      "27 Grange View Linlithgow EH49 7HY",
+      "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ",
+      "Notes",
+      "[←1]"
+     ]
     },
     {
      "speaker": "FER",
-     "text": "Vol.2 p.178."
+     "text": [
+      "Vol.2 p.178."
+     ]
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"D.A.Bw David Barlow Sunbury\" read as D. A. Bw, David Barlow Sunbury"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Roland Brown Maidstone\" read as Roland Brown, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Richard Brown Strood\" read as Richard Brown, Strood"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Brian Clark Maidstone\" read as Brian Clark, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alan Croot Sidcup\" read as Alan Croot, Sidcup"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Roland Flowerdew Sunbury\" read as Roland Flowerdew, Sunbury"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Tim Franklin Grimsby\" read as Tim Franklin, Grimsby"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Richard Gray Peterhead\" read as Richard Gray, Peterhead"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Trevor Harvey East Finchley\" read as Trevor Harvey, East Finchley"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Paul Martin Colchester\" read as Paul Martin, Colchester"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Keith May Maidstone\" read as Keith May, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Owen May Maidstone\" read as Owen May, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Phil Morris Sunbury\" read as Phil Morris, Sunbury"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Walter Patterson Glasgow\" read as Walter Patterson, Glasgow"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Colin Smith Chelmsford\" read as Colin Smith, Chelmsford"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"David Smith Sidcup\" read as David Smith, Sidcup"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Daniel Smith Chelmsford\" read as Daniel Smith, Chelmsford"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Jim Walkinshaw Maidstone\" read as Jim Walkinshaw, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "no_comma_before_place",
+   "detail": "\"Grant Wallace Sidcup\" read as Grant Wallace, Sidcup"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "initials_before_name",
+   "detail": "18 entries written as initials then name (\"RHB ...\")"
+  },
+  {
+   "article": 1,
+   "title": "THE SERVICES OF THE HOLY SPIRIT",
+   "kind": "speaker_matched_loosely",
+   "detail": "DABw used in the text for D. A. Bw (key gives DAB)"
   }
  ]
 }

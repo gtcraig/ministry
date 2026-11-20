@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -25,82 +25,122 @@
    ],
    "place": "Edinburgh",
    "date": "19 August 1995",
+   "speakers": [
+    "WMcK",
+    "RSR",
+    "JDG",
+    "GAB",
+    "ACC",
+    "WL",
+    "DR",
+    "JRC",
+    "RT",
+    "PvdB",
+    "JS",
+    "NJH",
+    "AMcB",
+    "EJJ",
+    "DMcG",
+    "JM",
+    "GCMcK",
+    "JSp",
+    "PB"
+   ],
    "initials": [
     {
-     "initials": "AACCA",
-     "name": "ACC A.C.Craig—Airdrie"
+     "initials": "ACC",
+     "name": "A.C.Craig",
+     "place": "Airdrie"
     },
     {
-     "initials": "AAMG",
-     "name": "AMcB A.McBride—Grangemouth"
+     "initials": "AMcB",
+     "name": "A.McBride",
+     "place": "Grangemouth"
     },
     {
-     "initials": "DDML",
-     "name": "DMcG D.McGregor—Lochgelly"
+     "initials": "DMcG",
+     "name": "D.McGregor",
+     "place": "Lochgelly"
     },
     {
-     "initials": "DDRC",
-     "name": "DR D.Robertson—Cumnock"
+     "initials": "DR",
+     "name": "D.Robertson",
+     "place": "Cumnock"
     },
     {
-     "initials": "EEJJE",
-     "name": "EJJ E.J.Judd—Edinburgh"
+     "initials": "EJJ",
+     "name": "E.J.Judd",
+     "place": "Edinburgh"
     },
     {
-     "initials": "GGABE",
-     "name": "GAB G.A.Brown—Edinburgh"
+     "initials": "GAB",
+     "name": "G.A.Brown",
+     "place": "Edinburgh"
     },
     {
-     "initials": "GGCMG",
-     "name": "GCMcK G.C.McKay—Glasgow"
+     "initials": "GCMcK",
+     "name": "G.C.McKay",
+     "place": "Glasgow"
     },
     {
-     "initials": "JJDGE",
-     "name": "JDG J.D.Gray—Edinburgh"
+     "initials": "JDG",
+     "name": "J.D.Gray",
+     "place": "Edinburgh"
     },
     {
-     "initials": "JJME",
-     "name": "JM J.Marshall—Edinburgh"
+     "initials": "JM",
+     "name": "J.Marshall",
+     "place": "Edinburgh"
     },
     {
-     "initials": "JJRCE",
-     "name": "JRC J.R.Cumming—Edinburgh"
+     "initials": "JRC",
+     "name": "J.R.Cumming",
+     "place": "Edinburgh"
     },
     {
-     "initials": "JJSD",
-     "name": "JS J.Strachan—Dundee"
+     "initials": "JS",
+     "name": "J.Strachan",
+     "place": "Dundee"
     },
     {
-     "initials": "JJSG",
-     "name": "JSp J.Spinks—Grangemouth"
+     "initials": "JSp",
+     "name": "J.Spinks",
+     "place": "Grangemouth"
     },
     {
-     "initials": "NNJHG",
-     "name": "NJH N.J.Henry—Glasgow"
+     "initials": "NJH",
+     "name": "N.J.Henry",
+     "place": "Glasgow"
     },
     {
-     "initials": "PPBK",
-     "name": "PB P.Buchan—Kirkcaldy"
+     "initials": "PB",
+     "name": "P.Buchan",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "PPBTH",
-     "name": "PvdB P.v.d.Berg—The Hague"
+     "initials": "PvdB",
+     "name": "P.v.d.Berg",
+     "place": "The Hague"
     },
     {
-     "initials": "RRSRE",
-     "name": "RSR R.S.Renton—Edinburgh"
+     "initials": "RSR",
+     "name": "R.S.Renton",
+     "place": "Edinburgh"
     },
     {
-     "initials": "RRTK",
-     "name": "RT R.Taylor—Kirkcaldy"
+     "initials": "RT",
+     "name": "R.Taylor",
+     "place": "Kirkcaldy"
     },
     {
-     "initials": "WWLC",
-     "name": "WL W.Lamont—Cumnock"
+     "initials": "WL",
+     "name": "W.Lamont",
+     "place": "Cumnock"
     },
     {
-     "initials": "WWMOB",
-     "name": "WMcK W.McKillop—Ormond Beach"
+     "initials": "WMcK",
+     "name": "W.McKillop",
+     "place": "Ormond Beach"
     }
    ],
    "initials_heading": "KEY TO INITIALS",
@@ -127,403 +167,772 @@
    ],
    "paragraphs": [
     {
-     "text": "WMcK There are a good many younger men coming into service among us, for which we thank God, taking on the preaching and other services. There are a good number of those who serve here today which is encouraging and will help us in the opening out of these scriptures. What is particularly in mind is the thought of the levitical education of our younger brethren who are coming in some measure into the Lord’s work. A good many others are advancing in years, and, as the brethren in this city have experienced, two servants who were active among us for many years are now with Christ. I have been thinking about the need for those who are younger to come definitely and fully into the Lord’s work, and to do so as understanding the seriousness of it as well as the favour of it. I thought the education of Moses, the greatest minister of God in the Old Testament, would be helpful, particularly to those who are younger, but helpful also to those of us who are older, to review how God educates persons to bring them into service."
+     "speaker": "WMcK",
+     "text": [
+      "There are a good many younger men coming into service among us, for which we thank God, taking on the preaching and other services. There are a good number of those who serve here today which is encouraging and will help us in the opening out of these scriptures. What is particularly in mind is the thought of the levitical education of our younger brethren who are coming in some measure into the Lord’s work. A good many others are advancing in years, and, as the brethren in this city have experienced, two servants who were active among us for many years are now with Christ. I have been thinking about the need for those who are younger to come definitely and fully into the Lord’s work, and to do so as understanding the seriousness of it as well as the favour of it. I thought the education of Moses, the greatest minister of God in the Old Testament, would be helpful, particularly to those who are younger, but helpful also to those of us who are older, to review how God educates persons to bring them into service.",
+      "Moses stands out in the Old Testament—“there arose no prophet since in Israel like Moses” (Deuteronomy 34: 10)—but the principles that are set out typically here are the same as the principles which God would use to fit persons for what we call levitical service, because service manward, involving the saints, is especially in mind in the education of Moses. He is found tending the flock of Jethro his father-in-law, but in his activities he comes behind the wilderness to the mountain of God, to Horeb, and he has a divine appearing—“And Jehovah saw that he turned aside to see, and God called to him out of the midst of the thorn-bush”. I think God is looking for persons who are interested, and interested in what I might call full-time service. I am not meaning that our younger brethren should not work, but that they should have in their minds that if they commit themselves to the Lord’s work, it is a full-time matter. What is done in our ordinary occupations is, as Mr. Darby says, ‘As hireling fills his day’ (Hymn 12).",
+      "God takes up Moses. A good deal enters into these sections we have read, which are familiar to the brethren, but I thought it would be helpful to us to go over them together. Perhaps the Spirit of God will use it to stimulate a more pronounced exercise with those who are younger about having part in the Lord’s work."
+     ]
     },
     {
-     "text": "Moses stands out in the Old Testament—“there arose no prophet since in Israel like Moses” (Deuteronomy 34: 10)—but the principles that are set out typically here are the same as the principles which God would use to fit persons for what we call levitical service, because service manward, involving the saints, is especially in mind in the education of Moses. He is found tending the flock of Jethro his father-in-law, but in his activities he comes behind the wilderness to the mountain of God, to Horeb, and he has a divine appearing—“And Jehovah saw that he turned aside to see, and God called to him out of the midst of the thorn-bush”. I think God is looking for persons who are interested, and interested in what I might call full-time service. I am not meaning that our younger brethren should not work, but that they should have in their minds that if they commit themselves to the Lord’s work, it is a full-time matter. What is done in our ordinary occupations is, as Mr. Darby says, ‘As hireling fills his day’ (Hymn 12)."
+     "speaker": "RSR",
+     "text": [
+      "What would you say was the lesson Moses had to learn that the “thorn-bush burned with fire”, and the thorn-bush was not being consumed? It was that which Moses was interested in."
+     ]
     },
     {
-     "text": "God takes up Moses. A good deal enters into these sections we have read, which are familiar to the brethren, but I thought it would be helpful to us to go over them together. Perhaps the Spirit of God will use it to stimulate a more pronounced exercise with those who are younger about having part in the Lord’s work."
+     "speaker": "WMcK",
+     "text": [
+      "It would be like our position here today; it is outwardly unattractive, but the great matter was the presence of God there, and this stimulated the spiritual interest of Moses. He had been a long time, no doubt, tending the flock of his father-in-law, but the time has come now for him to have an appearing. We would hope that the time has come when many of our younger brethren will have an experience like this, involving God appearing to them, which would lead them to commit themselves definitely to the Lord’s work."
+     ]
     },
     {
-     "text": "RSR What would you say was the lesson Moses had to learn that the “thorn-bush burned with fire”, and the thorn-bush was not being consumed? It was that which Moses was interested in."
+     "speaker": "RSR",
+     "text": [
+      "Do you think it is always an advantage to follow things up? Moses says, “Let me now turn aside and see this great sight, why the thorn-bush is not burnt”. It might have been an ordinary circumstance in the wilderness to see a thorn-bush burning, but it stimulated his interest and he turned aside, would you say?"
+     ]
     },
     {
-     "text": "WMcK It would be like our position here today; it is outwardly unattractive, but the great matter was the presence of God there, and this stimulated the spiritual interest of Moses. He had been a long time, no doubt, tending the flock of his father-in-law, but the time has come now for him to have an appearing. We would hope that the time has come when many of our younger brethren will have an experience like this, involving God appearing to them, which would lead them to commit themselves definitely to the Lord’s work."
+     "speaker": "WMcK",
+     "text": [
+      "It is important that he turned aside; he left what ordinarily occupied him, for the moment at least, and it led to this great matter of God appearing to him."
+     ]
     },
     {
-     "text": "RSR Do you think it is always an advantage to follow things up? Moses says, “Let me now turn aside and see this great sight, why the thorn-bush is not burnt”. It might have been an ordinary circumstance in the wilderness to see a thorn-bush burning, but it stimulated his interest and he turned aside, would you say?"
+     "speaker": "JDG",
+     "text": [
+      "Do you think the activities of Moses, from tending the flock in the wilderness to the mount of God, to Horeb, interested divine Persons? There seemed to be exercise in view of a manifestation."
+     ]
     },
     {
-     "text": "WMcK It is important that he turned aside; he left what ordinarily occupied him, for the moment at least, and it led to this great matter of God appearing to him."
+     "speaker": "WMcK",
+     "text": [
+      "I would think so. It says, “he led the flock behind the wilderness”. He was moving into an area of things that was outside of the wilderness, and was before it in the thoughts of God; so his movement towards the mountain of God would have been of great interest to heaven. If we give it a present application, the mountain of God is what is seen in our localities and can be experienced.",
+      "That becomes of great interest to persons who are going on with what is righteous and legitimate in the ordinary sense, but something comes in that causes them to turn aside, as interested, and God takes account of that."
+     ]
     },
     {
-     "text": "JDG Do you think the activities of Moses, from tending the flock in the wilderness to the mount of God, to Horeb, interested divine Persons? There seemed to be exercise in view of a manifestation."
+     "speaker": "GAB",
+     "text": [
+      "Would you then relate this in any way to 1 Corinthians 14? It is envisaged that a man comes in and falling upon his face will do homage to God reporting that God is indeed amongst you."
+     ]
     },
     {
-     "text": "WMcK I would think so. It says, “he led the flock behind the wilderness”. He was moving into an area of things that was outside of the wilderness, and was before it in the thoughts of God; so his movement towards the mountain of God would have been of great interest to heaven. If we give it a present application, the mountain of God is what is seen in our localities and can be experienced."
+     "speaker": "WMcK",
+     "text": [
+      "Yes, it says an unbeliever or a simple person. It might be that there is someone among us who is not well taught in the truth, but he is affected by the fact that God is here, and it leads to a certain conviction in his soul."
+     ]
     },
     {
-     "text": "That becomes of great interest to persons who are going on with what is righteous and legitimate in the ordinary sense, but something comes in that causes them to turn aside, as interested, and God takes account of that."
+     "speaker": "GAB",
+     "text": [
+      "I was thinking particularly of the thorn-bush idea as relating to the Corinthian position where things are perhaps not all that they might have been, but God goes on with it nevertheless."
+     ]
     },
     {
-     "text": "GAB Would you then relate this in any way to 1 Corinthians 14? It is envisaged that a man comes in and falling upon his face will do homage to God reporting that God is indeed amongst you."
+     "speaker": "WMcK",
+     "text": [
+      "It would allude really to our position publicly in whatever locality it might be, that it is not attractive to the natural mind, but what distinguishes it is that God is there."
+     ]
     },
     {
-     "text": "WMcK Yes, it says an unbeliever or a simple person. It might be that there is someone among us who is not well taught in the truth, but he is affected by the fact that God is here, and it leads to a certain conviction in his soul."
+     "speaker": "ACC",
+     "text": [
+      "Seeing it was not being consumed seemed to be what held his attention; seeing it was not being consumed, that took time, it was not just a passing glance, he must have watched it, it took time. Would that be an important matter in anyone taking up divine service?"
+     ]
     },
     {
-     "text": "GAB I was thinking particularly of the thorn-bush idea as relating to the Corinthian position where things are perhaps not all that they might have been, but God goes on with it nevertheless."
+     "speaker": "WMcK",
+     "text": [
+      "It would be, that it is not a casual matter, nor a cursory glance. He must have looked at it and seen that it was not being consumed. That affected him, so he followed it up by watching it."
+     ]
     },
     {
-     "text": "WMcK It would allude really to our position publicly in whatever locality it might be, that it is not attractive to the natural mind, but what distinguishes it is that God is there."
+     "speaker": "ACC",
+     "text": [
+      "Do you think such a one starting off would start off feeling that it is a great sight? He calls it a “great sight”. I wondered if that was an important matter in setting out and taking up service."
+     ]
     },
     {
-     "text": "ACC Seeing it was not being consumed seemed to be what held his attention; seeing it was not being consumed, that took time, it was not just a passing glance, he must have watched it, it took time. Would that be an important matter in anyone taking up divine service?"
+     "speaker": "WMcK",
+     "text": [
+      "It is a great sight to take account of the saints, to see that in spite of all the circumstances in which they are found, there is a sight worth looking at, it is worth contemplating. As we are together there is something that is worth contemplating; it is the work of God really."
+     ]
     },
     {
-     "text": "WMcK It would be, that it is not a casual matter, nor a cursory glance. He must have looked at it and seen that it was not being consumed. That affected him, so he followed it up by watching it."
+     "speaker": "WL",
+     "text": [
+      "Is Moses introduced here from the standpoint of God knowing what His people need? I was thinking of the end of chapter 2, “God remembered his covenant with Abraham, with Isaac, and with Jacob; and God looked upon the children of Israel, and God acknowledged them” (Exodus 2: 24, 25). He knew what they needed. Do you think from that standpoint He brings Moses forward here?"
+     ]
     },
     {
-     "text": "ACC Do you think such a one starting off would start off feeling that it is a great sight? He calls it a “great sight”. I wondered if that was an important matter in setting out and taking up service."
+     "speaker": "WMcK",
+     "text": [
+      "He does. So He would take up any one of us, and again I would emphasise I am thinking especially of those that are younger. God would take them up from this point of view, that they are needed; they are needed in a certain connection at the present time in the history of the testimony."
+     ]
     },
     {
-     "text": "WMcK It is a great sight to take account of the saints, to see that in spite of all the circumstances in which they are found, there is a sight worth looking at, it is worth contemplating. As we are together there is something that is worth contemplating; it is the work of God really."
+     "speaker": "WL",
+     "text": [
+      "So are there two sides to it, the side of God’s sovereignty, but also the standpoint of our committal?"
+     ]
     },
     {
-     "text": "WL Is Moses introduced here from the standpoint of God knowing what His people need? I was thinking of the end of chapter 2, “God remembered his covenant with Abraham, with Isaac, and with Jacob; and God looked upon the children of Israel, and God acknowledged them” (Exodus 2: 24, 25). He knew what they needed. Do you think from that standpoint He brings Moses forward here?"
+     "speaker": "WMcK",
+     "text": [
+      "There must be. Moses does not volunteer for this, but God sovereignly takes him up. He is affected by the appearing, even though he raises certain objections, yet he commits himself to it."
+     ]
     },
     {
-     "text": "WMcK He does. So He would take up any one of us, and again I would emphasise I am thinking especially of those that are younger. God would take them up from this point of view, that they are needed; they are needed in a certain connection at the present time in the history of the testimony."
+     "speaker": "DR",
+     "text": [
+      "Is there something for us in what the Lord Himself says, “I must work the works of him that has sent me while it is day”, John 9: 4? I was thinking of what you said as to full-time occupation in the service. Sometimes, alas, it is taken on and we drift into what is casual again. But do you think the spirit of compulsion that marked Christ in service would be a pattern for us?"
+     ]
     },
     {
-     "text": "WL So are there two sides to it, the side of God’s sovereignty, but also the standpoint of our committal?"
+     "speaker": "WMcK",
+     "text": [
+      "I would believe so. Therefore, if the Lord is going to take up any one of us, there must be an unreserved committal on our part. We cannot add qualifications to the contract, saying, ‘I must have holidays at a certain time, where there is no locality where the brethren are’, and other things that we might mention. All that is not in this contract."
+     ]
     },
     {
-     "text": "WMcK There must be. Moses does not volunteer for this, but God sovereignly takes him up. He is affected by the appearing, even though he raises certain objections, yet he commits himself to it."
+     "speaker": "DR",
+     "text": [
+      "Paul himself said he had an administration entrusted to him against his will. Would that be the same principle?"
+     ]
     },
     {
-     "text": "DR Is there something for us in what the Lord Himself says, “I must work the works of him that has sent me while it is day”, John 9: 4? I was thinking of what you said as to full-time occupation in the service. Sometimes, alas, it is taken on and we drift into what is casual again. But do you think the spirit of compulsion that marked Christ in service would be a pattern for us?"
+     "speaker": "WMcK",
+     "text": [
+      "Yes, it is not of my own will. Moses really sets that out here, he is taken up against his own will. He is not marked exactly by any natural eagerness for this service."
+     ]
     },
     {
-     "text": "WMcK I would believe so. Therefore, if the Lord is going to take up any one of us, there must be an unreserved committal on our part. We cannot add qualifications to the contract, saying, ‘I must have holidays at a certain time, where there is no locality where the brethren are’, and other things that we might mention. All that is not in this contract."
+     "speaker": "RSR",
+     "text": [
+      "Would you say that one of the features you would look for in young persons would be interest? Moses was interested in what was transpiring; he might have thought this was an ordinary event, but it was his interest that God took account of."
+     ]
     },
     {
-     "text": "DR Paul himself said he had an administration entrusted to him against his will. Would that be the same principle?"
+     "speaker": "WMcK",
+     "text": [
+      "Well, exactly. He was in an area behind the wilderness and at the mountain of God where this sort of thing could take place."
+     ]
     },
     {
-     "text": "WMcK Yes, it is not of my own will. Moses really sets that out here, he is taken up against his own will. He is not marked exactly by any natural eagerness for this service."
+     "speaker": "JRC",
+     "text": [
+      "Would it be right to think of Moses as being responsible for that flock? Is the Lord looking for that feature amongst us, whether we be young or old?"
+     ]
     },
     {
-     "text": "RSR Would you say that one of the features you would look for in young persons would be interest? Moses was interested in what was transpiring; he might have thought this was an ordinary event, but it was his interest that God took account of."
+     "speaker": "WMcK",
+     "text": [
+      "It would be. As has often been noted, it was not his flock. So he is marked by unselfishness in caring for the flock of another. No doubt Paul had that in mind when he said to the elders, “shepherd the assembly of God”, Acts 20: 28."
+     ]
     },
     {
-     "text": "WMcK Well, exactly. He was in an area behind the wilderness and at the mountain of God where this sort of thing could take place."
+     "speaker": "RT",
+     "text": [
+      "It speaks in Hebrews of his refusing certain things in Egypt, and then choosing to suffer affliction with the people of God. The definiteness would come out in that, would it, in that judgment being maintained through his life?"
+     ]
     },
     {
-     "text": "JRC Would it be right to think of Moses as being responsible for that flock? Is the Lord looking for that feature amongst us, whether we be young or old?"
+     "speaker": "WMcK",
+     "text": [
+      "It is important to notice that he refused certain things, and if we are qualified to have part in the Lord’s work, and to be preserved in it, we shall have to refuse certain things.",
+      "I think that needs to be laid hold of. It is not a question of how much we can go in for and still stay in fellowship; the concern of Moses was to suffer affliction along with the people of God."
+     ]
     },
     {
-     "text": "WMcK It would be. As has often been noted, it was not his flock. So he is marked by unselfishness in caring for the flock of another. No doubt Paul had that in mind when he said to the elders, “shepherd the assembly of God”, Acts 20: 28."
+     "speaker": "PvdB",
+     "text": [
+      "Do you think Moses was qualified for this commission in the forty years in the wilderness attending Jethro’s flock? His desire to deliver the people came to light early in slaying the Egyptian. What was in his heart was to deliver the people from the world, was it not? On the other hand the separating of the two brothers who were quarrelling, the need for shepherd service and all that entered experimentally into the instruction that Moses had in the wilderness, and then finally as arriving at the mountain of God that he was qualified to be commissioned for that great service, to deliver the people from Egypt and to shepherd them into the land."
+     ]
     },
     {
-     "text": "RT It speaks in Hebrews of his refusing certain things in Egypt, and then choosing to suffer affliction with the people of God. The definiteness would come out in that, would it, in that judgment being maintained through his life?"
+     "speaker": "WMcK",
+     "text": [
+      "It would all enter into this, and especially learning that the methods he would employ naturally are not God’s methods. He had to learn that; but when he sat by the well, he was learning that there are other resources. I have to learn these other resources if I am to have part in the Lord’s work."
+     ]
     },
     {
-     "text": "WMcK It is important to notice that he refused certain things, and if we are qualified to have part in the Lord’s work, and to be preserved in it, we shall have to refuse certain things."
+     "speaker": "PvdB",
+     "text": [
+      "Would he learn that lesson in the staff being turned into a serpent, and his hand becoming leprous? There is what is to be learnt experimentally, what there may be in the way of authority; we have to be very careful with it that it does not have an adverse effect. Also in whatever may be committed into our hands, we have to be in self-judgment, if we are to serve the people of God, and preserve them from what the enemy might bring in, whatever gift or quality a brother might have been given."
+     ]
     },
     {
-     "text": "I think that needs to be laid hold of. It is not a question of how much we can go in for and still stay in fellowship; the concern of Moses was to suffer affliction along with the people of God."
+     "speaker": "WMcK",
+     "text": [
+      "It would be an important matter. It says, “Jehovah said to him, What is that in thy hand? And he said, A staff”. It is not called here the staff of God. It is no doubt what Moses used in tending the flock, and we might say it would refer to what we would rely on in an ordinary sense in our occupations or professions, but if that gets out of control, then it is going to be satanic in its activity because it became a serpent. If I introduce into the assembly or into the Lord’s work what marks me in my ordinary occupation, I will find really that it is satanic and that I am not able to control it. The old man, the first man, has to be rigidly excluded from the work of God."
+     ]
     },
     {
-     "text": "PvdB Do you think Moses was qualified for this commission in the forty years in the wilderness attending Jethro’s flock? His desire to deliver the people came to light early in slaying the Egyptian. What was in his heart was to deliver the people from the world, was it not? On the other hand the separating of the two brothers who were quarrelling, the need for shepherd service and all that entered experimentally into the instruction that Moses had in the wilderness, and then finally as arriving at the mountain of God that he was qualified to be commissioned for that great service, to deliver the people from Egypt and to shepherd them into the land."
+     "speaker": "WL",
+     "text": [
+      "Would any service then, rightly, link on with what has been of God in the past? I was thinking of the reference to “the God of Abraham, the God of Isaac, and the God of Jacob”. So that no novelties are introduced, or anything that would diverge from what has been set on by the Lord Himself."
+     ]
     },
     {
-     "text": "WMcK It would all enter into this, and especially learning that the methods he would employ naturally are not God’s methods. He had to learn that; but when he sat by the well, he was learning that there are other resources. I have to learn these other resources if I am to have part in the Lord’s work."
+     "speaker": "WMcK",
+     "text": [
+      "I would say that exactly. As we come into the Lord’s work currently we must have in our minds what is cumulative, that the Lord is not leaving behind what He has ministered before. So what has come out through the apostles, what has come out through the great ministers of the recovery of the truth, is all being carried forward. Whatever part we may have by divine sovereignty in the Lord’s work, we must maintain the thought of what is cumulative."
+     ]
     },
     {
-     "text": "PvdB Would he learn that lesson in the staff being turned into a serpent, and his hand becoming leprous? There is what is to be learnt experimentally, what there may be in the way of authority; we have to be very careful with it that it does not have an adverse effect. Also in whatever may be committed into our hands, we have to be in self-judgment, if we are to serve the people of God, and preserve them from what the enemy might bring in, whatever gift or quality a brother might have been given."
+     "speaker": "RT",
+     "text": [
+      "Is there a very personal side to this experience; it is not done in the meeting exactly, there is a personal experience with God in the soul which is really basic to every one of us?"
+     ]
     },
     {
-     "text": "WMcK It would be an important matter. It says, “Jehovah said to him, What is that in thy hand? And he said, A staff”. It is not called here the staff of God. It is no doubt what Moses used in tending the flock, and we might say it would refer to what we would rely on in an ordinary sense in our occupations or professions, but if that gets out of control, then it is going to be satanic in its activity because it became a serpent. If I introduce into the assembly or into the Lord’s work what marks me in my ordinary occupation, I will find really that it is satanic and that I am not able to control it. The old man, the first man, has to be rigidly excluded from the work of God."
+     "speaker": "WMcK",
+     "text": [
+      "It really is. It would enter into the private experience of any person that the Lord has in mind to take up for service, and would really be between the Lord and him. As you say, it is not something that is done in the meeting, it is part of the secret history of any servant."
+     ]
     },
     {
-     "text": "WL Would any service then, rightly, link on with what has been of God in the past? I was thinking of the reference to “the God of Abraham, the God of Isaac, and the God of Jacob”. So that no novelties are introduced, or anything that would diverge from what has been set on by the Lord Himself."
+     "speaker": "RSR",
+     "text": [
+      "You have the young people in mind apparently. How may we stimulate them so that they have an intense interest in divine things?"
+     ]
     },
     {
-     "text": "WMcK I would say that exactly. As we come into the Lord’s work currently we must have in our minds what is cumulative, that the Lord is not leaving behind what He has ministered before. So what has come out through the apostles, what has come out through the great ministers of the recovery of the truth, is all being carried forward. Whatever part we may have by divine sovereignty in the Lord’s work, we must maintain the thought of what is cumulative."
+     "speaker": "WMcK",
+     "text": [
+      "I do not know that we can. I think they must be interested themselves."
+     ]
     },
     {
-     "text": "RT Is there a very personal side to this experience; it is not done in the meeting exactly, there is a personal experience with God in the soul which is really basic to every one of us?"
+     "speaker": "RSR",
+     "text": [
+      "But there would be encouragement by those of us who are older if we see interest, would you think?"
+     ]
     },
     {
-     "text": "WMcK It really is. It would enter into the private experience of any person that the Lord has in mind to take up for service, and would really be between the Lord and him. As you say, it is not something that is done in the meeting, it is part of the secret history of any servant."
+     "speaker": "WMcK",
+     "text": [
+      "So that Paul’s fatherly way with Titus and Timothy would suggest how we can encourage persons who have committed themselves to the Lord’s work. He says of one, “my beloved child” (2 Timothy 1: 2), and of another, “my own child according to the faith common to us”, Titus 1: 4"
+     ]
     },
     {
-     "text": "RSR You have the young people in mind apparently. How may we stimulate them so that they have an intense interest in divine things?"
+     "speaker": "JS",
+     "text": [
+      "Do you think if we are going to serve the saints we need to have respect for the work of God in them?"
+     ]
     },
     {
-     "text": "WMcK I do not know that we can. I think they must be interested themselves."
+     "speaker": "WMcK",
+     "text": [
+      "We must, because if we do not respect them, we shall not love them, and if we do not love them then we shall not serve them effectively."
+     ]
     },
     {
-     "text": "RSR But there would be encouragement by those of us who are older if we see interest, would you think?"
+     "speaker": "JS",
+     "text": [
+      "I wondered if Moses would learn God’s attitude to the saints as he saw the thorn-bush not being consumed."
+     ]
     },
     {
-     "text": "WMcK So that Paul’s fatherly way with Titus and Timothy would suggest how we can encourage persons who have committed themselves to the Lord’s work. He says of one, “my beloved child” (2 Timothy 1: 2), and of another, “my own child according to the faith common to us”, Titus 1: 4"
+     "speaker": "WMcK",
+     "text": [
+      "Yes. God was there in the midst of what would be, to the human mind, most unattractive. You might say, What value is that? Nevertheless, God is there. Jehovah, that is His personal name, saw that he turned aside, but then God called to him out of the midst of the thorn-bush."
+     ]
     },
     {
-     "text": "JS Do you think if we are going to serve the saints we need to have respect for the work of God in them?"
+     "speaker": "NJH",
+     "text": [
+      "When the apostle Paul refers to rekindling the gift of God which is in Timothy, would that be following experience that Timothy would have had?"
+     ]
     },
     {
-     "text": "WMcK We must, because if we do not respect them, we shall not love them, and if we do not love them then we shall not serve them effectively."
+     "speaker": "WMcK",
+     "text": [
+      "I am sure it would. There was a drooping with Timothy, and perhaps he was not marked by the same energy and committal as earlier, so the apostle is stirring him up. Even a gifted person like Timothy could be affected by the declining state generally among the saints."
+     ]
     },
     {
-     "text": "JS I wondered if Moses would learn God’s attitude to the saints as he saw the thorn-bush not being consumed."
+     "speaker": "ACC",
+     "text": [
+      "It is a solemn consideration that something might arise and God is watching how we might react to it. That might be a deciding factor, as to the measure of interest we might show in what is transpiring."
+     ]
     },
     {
-     "text": "WMcK Yes. God was there in the midst of what would be, to the human mind, most unattractive. You might say, What value is that? Nevertheless, God is there. Jehovah, that is His personal name, saw that he turned aside, but then God called to him out of the midst of the thorn-bush."
+     "speaker": "WMcK",
+     "text": [
+      "It would certainly enter into whether God took up the person, because where there is no interest God is not arbitrarily taking up persons. There is a great deal of work to be done as brethren know, a great deal of service to be rendered, but God is looking for persons who are going to wholeheartedly commit themselves."
+     ]
     },
     {
-     "text": "NJH When the apostle Paul refers to rekindling the gift of God which is in Timothy, would that be following experience that Timothy would have had?"
+     "speaker": "AMcB",
+     "text": [
+      "Is it wholesome for us to remember that we deal with holy things? There is a great deal of knowledge which we need to rightly serve the saints, but any function having to do with the things of God, or any function in the assembly, requires a recognition that we are dealing with holy things."
+     ]
     },
     {
-     "text": "WMcK I am sure it would. There was a drooping with Timothy, and perhaps he was not marked by the same energy and committal as earlier, so the apostle is stirring him up. Even a gifted person like Timothy could be affected by the declining state generally among the saints."
+     "speaker": "WMcK",
+     "text": [
+      "That would be involved in what is said to him here, “loose thy sandals from off thy feet, for the place whereon thou standest is holy ground”. The assembly is that."
+     ]
     },
     {
-     "text": "ACC It is a solemn consideration that something might arise and God is watching how we might react to it. That might be a deciding factor, as to the measure of interest we might show in what is transpiring."
+     "speaker": "AMcB",
+     "text": [
+      "The impression Peter had of the Lord was that He was the Holy One of God, then he said, “thou hast words of life eternal”, John 6: 68. Does it come that way, do you think?"
+     ]
     },
     {
-     "text": "WMcK It would certainly enter into whether God took up the person, because where there is no interest God is not arbitrarily taking up persons. There is a great deal of work to be done as brethren know, a great deal of service to be rendered, but God is looking for persons who are going to wholeheartedly commit themselves."
+     "speaker": "WMcK",
+     "text": [
+      "It would, and in the recognition that the Spirit of God is here, as we had in Glasgow—“Do ye not know that ye are the temple of God, and that the Spirit of God dwells in you?”, 1 Corinthians 3: 16. You would change your footwear when you come into the assembly."
+     ]
     },
     {
-     "text": "AMcB Is it wholesome for us to remember that we deal with holy things? There is a great deal of knowledge which we need to rightly serve the saints, but any function having to do with the things of God, or any function in the assembly, requires a recognition that we are dealing with holy things."
+     "speaker": "JDG",
+     "text": [
+      "He said to Moses at that time, “I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob”, but God was anticipating that He wanted to be Moses’ God. I was thinking of our relations with the Lord, it is an important matter when going out into any kind of service. In verse 11, Moses questions how he should be able to go, but God says to him, “For I will be with thee”, He is wanting to come into a personal relationship with Moses."
+     ]
     },
     {
-     "text": "WMcK That would be involved in what is said to him here, “loose thy sandals from off thy feet, for the place whereon thou standest is holy ground”. The assembly is that."
+     "speaker": "WMcK",
+     "text": [
+      "I would say that underlies the service of any one of us as the Lord takes us up for service, that it must flow out of our personal links with Him."
+     ]
     },
     {
-     "text": "AMcB The impression Peter had of the Lord was that He was the Holy One of God, then he said, “thou hast words of life eternal”, John 6: 68. Does it come that way, do you think?"
+     "speaker": "JDG",
+     "text": [
+      "The strains of the testimony would be too great for us otherwise."
+     ]
     },
     {
-     "text": "WMcK It would, and in the recognition that the Spirit of God is here, as we had in Glasgow—“Do ye not know that ye are the temple of God, and that the Spirit of God dwells in you?”, 1 Corinthians 3: 16. You would change your footwear when you come into the assembly."
+     "speaker": "WMcK",
+     "text": [
+      "They would be, and that is quite clear from what was said to him, “And now come, and I will send thee unto Pharaoh, that thou mayest bring forth my people the children of Israel out of Egypt”. That would be far too great for Moses apart from the constant appearings of God, and the constant flowing of divine resources."
+     ]
     },
     {
-     "text": "JDG He said to Moses at that time, “I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob”, but God was anticipating that He wanted to be Moses’ God. I was thinking of our relations with the Lord, it is an important matter when going out into any kind of service. In verse 11, Moses questions how he should be able to go, but God says to him, “For I will be with thee”, He is wanting to come into a personal relationship with Moses."
+     "speaker": "DR",
+     "text": [
+      "In dealing with the truth we are really dealing with God because He is the source of truth. It is not to be used to entertain our minds, but the truth rightly ministered would put us in touch with God."
+     ]
     },
     {
-     "text": "WMcK I would say that underlies the service of any one of us as the Lord takes us up for service, that it must flow out of our personal links with Him."
+     "speaker": "WMcK",
+     "text": [
+      "I think it would. So that not only Christ is said to be the truth, but the Spirit is the truth, that Person who is here with us and in us is the truth. In that sense, in all our gatherings, we are immediately in touch with the truth in its fulness and purity."
+     ]
     },
     {
-     "text": "JDG The strains of the testimony would be too great for us otherwise."
+     "speaker": "DR",
+     "text": [
+      "I wondered as to what you said earlier, that His personal name is Jehovah, then He says, I am God, and there is this further word, “I AM THAT I AM”. There seem to be most definite impressions of God brought",
+      "forward. What would you say about this?"
+     ]
     },
     {
-     "text": "WMcK They would be, and that is quite clear from what was said to him, “And now come, and I will send thee unto Pharaoh, that thou mayest bring forth my people the children of Israel out of Egypt”. That would be far too great for Moses apart from the constant appearings of God, and the constant flowing of divine resources."
+     "speaker": "WMcK",
+     "text": [
+      "It seems to me that the source of the servant’s effectiveness, in whatever service he is directed to, is this knowledge of God in his soul. It is divinely communicated and increases in its greatness as it goes on. It says, “And God said to Moses, I AM THAT I AM”, and then, “Thus shalt thou say unto the children of Israel—I AM hath sent me unto you”. I AM is the root of the name Jehovah. The servant is being brought as close as a creature could be to God essentially, and that is to be the strength in him as he serves the saints and as he enters into conflict."
+     ]
     },
     {
-     "text": "DR In dealing with the truth we are really dealing with God because He is the source of truth. It is not to be used to entertain our minds, but the truth rightly ministered would put us in touch with God."
+     "speaker": "EJJ",
+     "text": [
+      "We are living in a day that is marked by much casualness, and it seems to me what you have in mind is the young ones in full committal as to service. Would that be right?"
+     ]
     },
     {
-     "text": "WMcK I think it would. So that not only Christ is said to be the truth, but the Spirit is the truth, that Person who is here with us and in us is the truth. In that sense, in all our gatherings, we are immediately in touch with the truth in its fulness and purity."
+     "speaker": "WMcK",
+     "text": [
+      "Well, that is what I am thinking of. If we look round here, How many of us will be sitting here in ten years if the Lord has not come? Who is going to fill up the ranks? Are those who will fill up the ranks understanding the basis on which it will be done according to God?"
+     ]
     },
     {
-     "text": "DR I wondered as to what you said earlier, that His personal name is Jehovah, then He says, I am God, and there is this further word, “I AM THAT I AM”. There seem to be most definite impressions of God brought"
+     "speaker": "WL",
+     "text": [
+      "I was going to ask you that. “I AM hath sent me unto you”, would you comment on the matter of being sent?"
+     ]
     },
     {
-     "text": "forward. What would you say about this?"
+     "speaker": "WMcK",
+     "text": [
+      "In that section when Moses says, “Who am I?”. God says, “For I will be with thee; and this shall be the sign to thee that I have sent thee”. Now the other signs are to affect and form Moses, but they are really for those he is going to serve. But in saying, “this shall be the sign to thee”, it involves “ye shall serve God upon this mountain”. In the soul of the servant is this knowledge that God is committing Himself to him, and the sign is that God will be served on this mountain."
+     ]
     },
     {
-     "text": "WMcK It seems to me that the source of the servant’s effectiveness, in whatever service he is directed to, is this knowledge of God in his soul. It is divinely communicated and increases in its greatness as it goes on. It says, “And God said to Moses, I AM THAT I AM”, and then, “Thus shalt thou say unto the children of Israel—I AM hath sent me unto you”. I AM is the root of the name Jehovah. The servant is being brought as close as a creature could be to God essentially, and that is to be the strength in him as he serves the saints and as he enters into conflict."
+     "speaker": "DMcG",
+     "text": [
+      "Do you think that his word, “I am not eloquent”, is very interesting in the light of Acts 18? Aquila and Priscilla spoke the way of God more accurately. Could you say something in that?"
+     ]
     },
     {
-     "text": "EJJ We are living in a day that is marked by much casualness, and it seems to me what you have in mind is the young ones in full committal as to service. Would that be right?"
+     "speaker": "WMcK",
+     "text": [
+      "Apollos needed to be instructed more exactly. There is nobody serving among us who does not feel the need of being instructed more exactly. You might say, Who is going to do that? I think as a servant is ready to be refined in his understanding and presentation of the truth, the Lord will see that he gets the added instruction that he needs."
+     ]
     },
     {
-     "text": "WMcK Well, that is what I am thinking of. If we look round here, How many of us will be sitting here in ten years if the Lord has not come? Who is going to fill up the ranks? Are those who will fill up the ranks understanding the basis on which it will be done according to God?"
+     "speaker": "DR",
+     "text": [
+      "In Cumnock you exhorted us to speak the word that the Lord gave us, and I wondered if an impression of God in His absoluteness was necessary for that in the soul. So that we may fear not to speak God’s word, and we may fear to come under an influence that is not God’s influence. I am thinking of John in Patmos, he says, “him who is, and who was, and who is to come; and from the seven Spirits which are before his throne; and from Jesus Christ, the faithful witness”, Revelation 1: 4, 5. Do you not think that is really what sustained John in his responsibility in the testimony?"
+     ]
     },
     {
-     "text": "WL I was going to ask you that. “I AM hath sent me unto you”, would you comment on the matter of being sent?"
+     "speaker": "WMcK",
+     "text": [
+      "I think it did, and enabled him to write as the Lord instructed him to write, so that the whole matter was fully set out involving the most severe judgments of God in that book. You might say John would shrink from that. We might say, I would rather speak about “grace and truth subsists through Jesus Christ” (John 1: 17), but what he has to write is a book that involves the most severe judgments, going on to final judgment, the great white throne. I believe it is important, and this applies perhaps more to mature servants than those just coming into the work, that we need to speak whatever the Lord has laid on us, without the fear of man. I have no doubt that the greatest snare to a servant is the fear of man."
+     ]
     },
     {
-     "text": "WMcK In that section when Moses says, “Who am I?”. God says, “For I will be with thee; and this shall be the sign to thee that I have sent thee”. Now the other signs are to affect and form Moses, but they are really for those he is going to serve. But in saying, “this shall be the sign to thee”, it involves “ye shall serve God upon this mountain”. In the soul of the servant is this knowledge that God is committing Himself to him, and the sign is that God will be served on this mountain."
+     "speaker": "PvdB",
+     "text": [
+      "The fear of God would preserve us from that, would it not? I was wondering about Isaiah in the presence of the holiness of God. God dealt with that which would prevent Isaiah from responding to the call, “Whom shall I send, and who will go for us?”, Isaiah 6: 8. Do you think we need to have a sense in the service of being sent, and also that whatever may be in the way, God has dealt with it in the death of Christ? We can thus be available as Isaiah says, “Here am I; send me”."
+     ]
     },
     {
-     "text": "DMcG Do you think that his word, “I am not eloquent”, is very interesting in the light of Acts 18? Aquila and Priscilla spoke the way of God more accurately. Could you say something in that?"
+     "speaker": "WMcK",
+     "text": [
+      "He had to acknowledge certain things about his lips, but the death of Christ in type is brought to bear on him in grace. John tells us, “These, things said Esaias because he saw his glory and spoke of him” (John 12: 41), showing how gracious God is with His servants as He continues their education."
+     ]
     },
     {
-     "text": "WMcK Apollos needed to be instructed more exactly. There is nobody serving among us who does not feel the need of being instructed more exactly. You might say, Who is going to do that? I think as a servant is ready to be refined in his understanding and presentation of the truth, the Lord will see that he gets the added instruction that he needs."
+     "speaker": "GAB",
+     "text": [
+      "Is there not a need for us who are older to display the spirit of the glad tidings in regard to our younger people? You are exercised about younger people?"
+     ]
     },
     {
-     "text": "DR In Cumnock you exhorted us to speak the word that the Lord gave us, and I wondered if an impression of God in His absoluteness was necessary for that in the soul. So that we may fear not to speak God’s word, and we may fear to come under an influence that is not God’s influence. I am thinking of John in Patmos, he says, “him who is, and who was, and who is to come; and from the seven Spirits which are before his throne; and from Jesus Christ, the faithful witness”, Revelation 1: 4, 5. Do you not think that is really what sustained John in his responsibility in the testimony?"
+     "speaker": "WMcK",
+     "text": [
+      "I suppose you would have to speak about your own locality and yourself as to the extent that you display that, and it is displayed in your locality. Each of us would have to be exercised about that. The grace of the glad tidings is to deliver persons from independence and self-will. As older brethren, particularly those who preach the glad tidings, exhibit subjection to Christ, and that they are maintaining a judgment of their own wills, they will have influence with young persons. They would not defend what is independent and lawless, although they would seek to help persons to see the need for self-judgment."
+     ]
     },
     {
-     "text": "WMcK I think it did, and enabled him to write as the Lord instructed him to write, so that the whole matter was fully set out involving the most severe judgments of God in that book. You might say John would shrink from that. We might say, I would rather speak about “grace and truth subsists through Jesus Christ” (John 1: 17), but what he has to write is a book that involves the most severe judgments, going on to final judgment, the great white throne. I believe it is important, and this applies perhaps more to mature servants than those just coming into the work, that we need to speak whatever the Lord has laid on us, without the fear of man. I have no doubt that the greatest snare to a servant is the fear of man."
+     "speaker": "GAB",
+     "text": [
+      "I can only say for myself, I do not know where I would have been today had it not been for older brethren who displayed that spirit towards me when I was younger."
+     ]
     },
     {
-     "text": "PvdB The fear of God would preserve us from that, would it not? I was wondering about Isaiah in the presence of the holiness of God. God dealt with that which would prevent Isaiah from responding to the call, “Whom shall I send, and who will go for us?”, Isaiah 6: 8. Do you think we need to have a sense in the service of being sent, and also that whatever may be in the way, God has dealt with it in the death of Christ? We can thus be available as Isaiah says, “Here am I; send me”."
+     "speaker": "WMcK",
+     "text": [
+      "I am sure what you are saying is right, that it should be seen in those who are older. It needs to be followed up with prayer, so that it is effective. In thinking about this matter of service, I was reminded of what Mr. Raven said, that when the apostle had opened out the full scope of the counsel of God, then he had to resort to prayer that it should become effective in the saints."
+     ]
     },
     {
-     "text": "WMcK He had to acknowledge certain things about his lips, but the death of Christ in type is brought to bear on him in grace. John tells us, “These, things said Esaias because he saw his glory and spoke of him” (John 12: 41), showing how gracious God is with His servants as He continues their education."
+     "speaker": "JM",
+     "text": [
+      "I was thinking of Samuel. Would he be an illustration of what you are bringing before us? There were his qualifications—for service and how God was with him, and it says Jehovah let none of his words fall to the ground (1 Samuel 3: 19)."
+     ]
     },
     {
-     "text": "GAB Is there not a need for us who are older to display the spirit of the glad tidings in regard to our younger people? You are exercised about younger people?"
+     "speaker": "WMcK",
+     "text": [
+      "Yes, you mean that as a young person he was alert to the voice; he had to learn whose voice it was. He thought it was Eli’s to begin with, but he comes to see that it is really Jehovah’s speaking to him."
+     ]
     },
     {
-     "text": "WMcK I suppose you would have to speak about your own locality and yourself as to the extent that you display that, and it is displayed in your locality. Each of us would have to be exercised about that. The grace of the glad tidings is to deliver persons from independence and self-will. As older brethren, particularly those who preach the glad tidings, exhibit subjection to Christ, and that they are maintaining a judgment of their own wills, they will have influence with young persons. They would not defend what is independent and lawless, although they would seek to help persons to see the need for self-judgment."
+     "speaker": "JM",
+     "text": [
+      "And he was available for divine speaking."
+     ]
     },
     {
-     "text": "GAB I can only say for myself, I do not know where I would have been today had it not been for older brethren who displayed that spirit towards me when I was younger."
+     "speaker": "WMcK",
+     "text": [
+      "Yes, he was."
+     ]
     },
     {
-     "text": "WMcK I am sure what you are saying is right, that it should be seen in those who are older. It needs to be followed up with prayer, so that it is effective. In thinking about this matter of service, I was reminded of what Mr. Raven said, that when the apostle had opened out the full scope of the counsel of God, then he had to resort to prayer that it should become effective in the saints."
+     "speaker": "RSR",
+     "text": [
+      "What do you think Jehovah had in mind in regard of the staff becoming a serpent, and taking it by the tail so that it became a staff again in his hand?"
+     ]
     },
     {
-     "text": "JM I was thinking of Samuel. Would he be an illustration of what you are bringing before us? There were his qualifications—for service and how God was with him, and it says Jehovah let none of his words fall to the ground (1 Samuel 3: 19)."
+     "speaker": "WMcK",
+     "text": [
+      "We have to be maintained in constant dependence upon the Spirit, else what we use in an ordinary sense legitimately may get out of control in the assembly or in our service, and make room for Satan."
+     ]
     },
     {
-     "text": "WMcK Yes, you mean that as a young person he was alert to the voice; he had to learn whose voice it was. He thought it was Eli’s to begin with, but he comes to see that it is really Jehovah’s speaking to him."
+     "speaker": "GCMcK",
+     "text": [
+      "I was thinking of the names of these servants brought forward. Moses is addressed, “Moses, Moses!”, and then Aaron, “Aaron the Levite thy brother”. I was wondering how that bears on what we are speaking about as to the emergence of persons who are available in service."
+     ]
     },
     {
-     "text": "JM And he was available for divine speaking."
+     "speaker": "WMcK",
+     "text": [
+      "It is a great comfort, I am sure, to any younger person who commits himself to the Lord’s work to find that the brotherly element is there to support him. I am sure the same thing is true of those of us who are older; certainly I am thankful as serving here to be conscious of brotherliness, particularly in others who serve."
+     ]
     },
     {
-     "text": "WMcK Yes, he was."
+     "speaker": "PvdB",
+     "text": [
+      "They met on the mountain of God; is that the level?"
+     ]
     },
     {
-     "text": "RSR What do you think Jehovah had in mind in regard of the staff becoming a serpent, and taking it by the tail so that it became a staff again in his hand?"
+     "speaker": "WMcK",
+     "text": [
+      "On that elevated level! Jehovah had already spoken to Aaron, and I am sure all this is to impress us with the wide scope of God’s working. How far apart they were at this point geographically, I do not know. But God had already spoken to Aaron, and He is telling Moses how Aaron will react in his heart, not just in his handshake, but in his heart—“when he seeth thee he will be glad in his heart”. When he met him on this elevated level, it says, “And he went”, that is Aaron, “and met him on the mountain of God, and kissed him”. That would be a holy kiss, I would think; would you?"
+     ]
     },
     {
-     "text": "WMcK We have to be maintained in constant dependence upon the Spirit, else what we use in an ordinary sense legitimately may get out of control in the assembly or in our service, and make room for Satan."
+     "speaker": "PvdB",
+     "text": [
+      "Yes, it works out on that level, does it not?"
+     ]
     },
     {
-     "text": "GCMcK I was thinking of the names of these servants brought forward. Moses is addressed, “Moses, Moses!”, and then Aaron, “Aaron the Levite thy brother”. I was wondering how that bears on what we are speaking about as to the emergence of persons who are available in service."
+     "speaker": "WMcK",
+     "text": [
+      "It does."
+     ]
     },
     {
-     "text": "WMcK It is a great comfort, I am sure, to any younger person who commits himself to the Lord’s work to find that the brotherly element is there to support him. I am sure the same thing is true of those of us who are older; certainly I am thankful as serving here to be conscious of brotherliness, particularly in others who serve."
+     "speaker": "PvdB",
+     "text": [
+      "It is not on any social level, but it is on the level of the mountain of God, it is there we have our relations one with another."
+     ]
     },
     {
-     "text": "PvdB They met on the mountain of God; is that the level?"
+     "speaker": "WMcK",
+     "text": [
+      "That is a vital point. God does not just say, ‘Is not Aaron thy brother?’, but He says, ‘Is not Aaron the Levite thy brother?’ God had taken him up too and the whole levitical line is going to come from Aaron, the priestly person who has his own links with God. He is not going to meet with Moses and be happy just on a social or natural line. I must say it is an exercise with me, and I am sure with many others, that those who serve, especially mature servants, should have their links in the Lord, not on social lines or lines of natural relationship."
+     ]
     },
     {
-     "text": "WMcK On that elevated level! Jehovah had already spoken to Aaron, and I am sure all this is to impress us with the wide scope of God’s working. How far apart they were at this point geographically, I do not know. But God had already spoken to Aaron, and He is telling Moses how Aaron will react in his heart, not just in his handshake, but in his heart—“when he seeth thee he will be glad in his heart”. When he met him on this elevated level, it says, “And he went”, that is Aaron, “and met him on the mountain of God, and kissed him”. That would be a holy kiss, I would think; would you?"
+     "speaker": "JSp",
+     "text": [
+      "Would the thought of the anger of God coming in, and then later God coming upon him seeking to slay him, preserve us from pursuing anything on social and natural lines?"
+     ]
     },
     {
-     "text": "PvdB Yes, it works out on that level, does it not?"
+     "speaker": "WMcK",
+     "text": [
+      "It is a most solemn thing that, “Jehovah came upon him, and sought to slay him” (Exodus 4: 24). It was because of the circumcision. Moses was not maintaining it; how solemn that this leading minister should fail in his own house on that point. It was not that he failed with regard to those he was to serve, but it was his own house."
+     ]
     },
     {
-     "text": "WMcK It does."
+     "speaker": "JS",
+     "text": [
+      "Is it a matter that would come into service that we seek to be consistent with the truth we are presenting?"
+     ]
     },
     {
-     "text": "PvdB It is not on any social level, but it is on the level of the mountain of God, it is there we have our relations one with another."
+     "speaker": "WMcK",
+     "text": [
+      "That would be the import of circumcision, that we are carrying the thing the whole way; it is the cutting off of the body of the flesh in the circumcision of the Christ. It is an entire, complete matter. No doubt the second sign, Moses putting his hand into his bosom was to bring that home to him, because when he brought out his hand it was leprous as snow. It is a solemn thing to have that experience. I suppose that we need to remind ourselves that apart from the work of God, the other line of things is just leprous."
+     ]
     },
     {
-     "text": "WMcK That is a vital point. God does not just say, ‘Is not Aaron thy brother?’, but He says, ‘Is not Aaron the Levite thy brother?’ God had taken him up too and the whole levitical line is going to come from Aaron, the priestly person who has his own links with God. He is not going to meet with Moses and be happy just on a social or natural line. I must say it is an exercise with me, and I am sure with many others, that those who serve, especially mature servants, should have their links in the Lord, not on social lines or lines of natural relationship."
+     "speaker": "DR",
+     "text": [
+      "So that while God is gracious He is severe too. It says, “Behold then the goodness and severity of God”, Romans 11: 22. It is something to be faced in our histories, not in other people’s histories, but our own histories, do you not think? I noticed in verse 17 it says, “And thou shalt take this staff”, not merely ‘a staff’ or ‘the staff’, but “this staff”, as if the education really had borne fruit, do you think?"
+     ]
     },
     {
-     "text": "JSp Would the thought of the anger of God coming in, and then later God coming upon him seeking to slay him, preserve us from pursuing anything on social and natural lines?"
+     "speaker": "WMcK",
+     "text": [
+      "I think so. It is just called “a staff” earlier, but it is now “this staff”. As he goes on his way it says, “Moses took the staff of God in his hand”, Exodus 4: 20. You can see the transformation that is coming about in this great servant as he proceeds in his education under the hand of God. With regard to what you say about the severity of God, we have that word, “Cursed be he that doeth the work of Jehovah negligently, and cursed be he that keepeth back his sword from blood!”, Jeremiah 48: 10."
+     ]
     },
     {
-     "text": "WMcK It is a most solemn thing that, “Jehovah came upon him, and sought to slay him” (Exodus 4: 24). It was because of the circumcision. Moses was not maintaining it; how solemn that this leading minister should fail in his own house on that point. It was not that he failed with regard to those he was to serve, but it was his own house."
+     "speaker": "DR",
+     "text": [
+      "Do you not think it really takes us back to the teaching of the cross?"
+     ]
     },
     {
-     "text": "JS Is it a matter that would come into service that we seek to be consistent with the truth we are presenting?"
+     "speaker": "WMcK",
+     "text": [
+      "It really does, and so we have Paul not knowing anything among the Corinthians except Jesus Christ and Him crucified (1 Corinthians 2: 2). He could have more than met them on their own ground, humanly speaking, but he was on another line entirely, and he meets them really in the power of the Spirit of God by bringing the word of the cross to bear on them."
+     ]
     },
     {
-     "text": "WMcK That would be the import of circumcision, that we are carrying the thing the whole way; it is the cutting off of the body of the flesh in the circumcision of the Christ. It is an entire, complete matter. No doubt the second sign, Moses putting his hand into his bosom was to bring that home to him, because when he brought out his hand it was leprous as snow. It is a solemn thing to have that experience. I suppose that we need to remind ourselves that apart from the work of God, the other line of things is just leprous."
+     "speaker": "ACC",
+     "text": [
+      "The cross was the place where the serpent was taken by the head; Moses was told to take it by the tail. Is that an important lesson to anyone taking up service, that they have their limitations?"
+     ]
     },
     {
-     "text": "DR So that while God is gracious He is severe too. It says, “Behold then the goodness and severity of God”, Romans 11: 22. It is something to be faced in our histories, not in other people’s histories, but our own histories, do you not think? I noticed in verse 17 it says, “And thou shalt take this staff”, not merely ‘a staff’ or ‘the staff’, but “this staff”, as if the education really had borne fruit, do you think?"
+     "speaker": "WMcK",
+     "text": [
+      "Yes, we cannot meet Satan directly; only the Lord could do that. He bound the strong man, but then He annulled him who has the might of death, that was dealing with his head."
+     ]
     },
     {
-     "text": "WMcK I think so. It is just called “a staff” earlier, but it is now “this staff”. As he goes on his way it says, “Moses took the staff of God in his hand”, Exodus 4: 20. You can see the transformation that is coming about in this great servant as he proceeds in his education under the hand of God. With regard to what you say about the severity of God, we have that word, “Cursed be he that doeth the work of Jehovah negligently, and cursed be he that keepeth back his sword from blood!”, Jeremiah 48: 10."
+     "speaker": "PB",
+     "text": [
+      "I thought, sometimes like Moses we excuse ourselves. Here he says, “Ah Lord! I am not eloquent”."
+     ]
     },
     {
-     "text": "DR Do you not think it really takes us back to the teaching of the cross?"
+     "speaker": "WMcK",
+     "text": [
+      "It must have been the effect of these forty years in the wilderness that he said, “for I am slow of speech and of a slow tongue”. Stephen says, he was mighty in his words and deeds, but God reduced him on that natural line. At this point he says, “I am slow of speech and of a slow tongue”. No doubt that was true at this point, but Moses is using it as a barrier to service, and so Jehovah said to him, “Who gave man a mouth?”"
+     ]
     },
     {
-     "text": "WMcK It really does, and so we have Paul not knowing anything among the Corinthians except Jesus Christ and Him crucified (1 Corinthians 2: 2). He could have more than met them on their own ground, humanly speaking, but he was on another line entirely, and he meets them really in the power of the Spirit of God by bringing the word of the cross to bear on them."
+     "speaker": "JS",
+     "text": [
+      "He goes on to say, “And now go, and I will be with thy mouth, and will teach thee what thou shalt say”.. We have to learn what to say."
+     ]
     },
     {
-     "text": "ACC The cross was the place where the serpent was taken by the head; Moses was told to take it by the tail. Is that an important lesson to anyone taking up service, that they have their limitations?"
+     "speaker": "WMcK",
+     "text": [
+      "It is a most important point—“I will be with thy mouth, and will teach thee what thou shalt say”. I have been struck a great deal lately that the Lord said to His own, “the Holy Spirit shall teach you in the hour itself what should be said” (Luke 12: 12), the very words themselves. It is a wonderful matter, and I think it involves really the working of the temple among the saints. It is not only what might be the servant’s own experience as taking on service, but what is resident among the saints, and the reservoir of wealth that is there."
+     ]
     },
     {
-     "text": "WMcK Yes, we cannot meet Satan directly; only the Lord could do that. He bound the strong man, but then He annulled him who has the might of death, that was dealing with his head."
+     "speaker": "JS",
+     "text": [
+      "I think we have to learn to distrust human eloquence, and lean on the Spirit, as you say."
+     ]
     },
     {
-     "text": "PB I thought, sometimes like Moses we excuse ourselves. Here he says, “Ah Lord! I am not eloquent”."
+     "speaker": "WMcK",
+     "text": [
+      "I believe we do. I noticed too a few months ago that Mr. Raven said, as he was getting towards the end of his ministry, that he had come to the point that he would much prefer to be even halting in his speech, in order to make way for the Spirit of God, than to be eloquent in his delivery. We have to admit that humanly we are much impressed with the eloquent side of things; not that God cannot use that because He did with Apollos, but then that did not mark Paul, they said his speech was contemptible."
+     ]
     },
     {
-     "text": "WMcK It must have been the effect of these forty years in the wilderness that he said, “for I am slow of speech and of a slow tongue”. Stephen says, he was mighty in his words and deeds, but God reduced him on that natural line. At this point he says, “I am slow of speech and of a slow tongue”. No doubt that was true at this point, but Moses is using it as a barrier to service, and so Jehovah said to him, “Who gave man a mouth?”"
+     "speaker": "RT",
+     "text": [
+      "Moses really learned here divine resources, do you think? And they are not in himself, but they are infinite in God and requiring a channel that they may be suitably expressed and circulate among the saints."
+     ]
     },
     {
-     "text": "JS He goes on to say, “And now go, and I will be with thy mouth, and will teach thee what thou shalt say”.. We have to learn what to say."
+     "speaker": "WMcK",
+     "text": [
+      "It is helpful to note they are not in him, it is all there in God, and infinitely so. He must have had some impression as he sat by the well that there was infinite resource there, but he did not initially make use of it. Subsequently he did, he rose and watered the flock. We learn first what is in the Spirit, then we learn how to use those resources. Think of the Spirit making Himself so graciously available to us that what is of God should come out!"
+     ]
     },
     {
-     "text": "WMcK It is a most important point—“I will be with thy mouth, and will teach thee what thou shalt say”. I have been struck a great deal lately that the Lord said to His own, “the Holy Spirit shall teach you in the hour itself what should be said” (Luke 12: 12), the very words themselves. It is a wonderful matter, and I think it involves really the working of the temple among the saints. It is not only what might be the servant’s own experience as taking on service, but what is resident among the saints, and the reservoir of wealth that is there."
+     "speaker": "RT",
+     "text": [
+      "In view of that connection and what you said about the mouth, it is not a question of learning and rehearsing but of being a channel to be a link with the infinite resources that are there."
+     ]
     },
     {
-     "text": "JS I think we have to learn to distrust human eloquence, and lean on the Spirit, as you say."
+     "speaker": "WMcK",
+     "text": [
+      "It is a wonderful matter to be conscious that you are in touch with what you really cannot compass, but it is available in whatever the measure of service is."
+     ]
     },
     {
-     "text": "WMcK I believe we do. I noticed too a few months ago that Mr. Raven said, as he was getting towards the end of his ministry, that he had come to the point that he would much prefer to be even halting in his speech, in order to make way for the Spirit of God, than to be eloquent in his delivery. We have to admit that humanly we are much impressed with the eloquent side of things; not that God cannot use that because He did with Apollos, but then that did not mark Paul, they said his speech was contemptible."
+     "speaker": "PvdB",
+     "text": [
+      "Is it in view that God might be served on this mountain? The way that God came out, the way He secured conditions, by affection and deliverance of the people, was all in view of serving God on this mountain; there was nothing less than that in mind."
+     ]
     },
     {
-     "text": "RT Moses really learned here divine resources, do you think? And they are not in himself, but they are infinite in God and requiring a channel that they may be suitably expressed and circulate among the saints."
+     "speaker": "WMcK",
+     "text": [
+      "Exactly. That really would connect with the service of God in Corinth, because this mount was in the wilderness. It shows that the idea of spiritual elevation enters into the Corinthian position."
+     ]
     },
     {
-     "text": "WMcK It is helpful to note they are not in him, it is all there in God, and infinitely so. He must have had some impression as he sat by the well that there was infinite resource there, but he did not initially make use of it. Subsequently he did, he rose and watered the flock. We learn first what is in the Spirit, then we learn how to use those resources. Think of the Spirit making Himself so graciously available to us that what is of God should come out!"
+     "speaker": "PvdB",
+     "text": [
+      "In the light of the assembly of God which is at Corinth, and in the reality of it too."
+     ]
     },
     {
-     "text": "RT In view of that connection and what you said about the mouth, it is not a question of learning and rehearsing but of being a channel to be a link with the infinite resources that are there."
+     "speaker": "WMcK",
+     "text": [
+      "Precisely."
+     ]
     },
     {
-     "text": "WMcK It is a wonderful matter to be conscious that you are in touch with what you really cannot compass, but it is available in whatever the measure of service is."
+     "speaker": "WL",
+     "text": [
+      "So it is not just what the servant says, it is also what he does. I was thinking of what God says to Moses here, “I will be with thy mouth, and with his mouth, and will teach you” not, what ye shall say, but “what ye shall do” (Exodus 4: 15). It reminds us of the Lord that He began both to do and to teach (Acts 1: 1). So what the servant says, he should be consistent with in what he does. Do you think that is right?"
+     ]
     },
     {
-     "text": "PvdB Is it in view that God might be served on this mountain? The way that God came out, the way He secured conditions, by affection and deliverance of the people, was all in view of serving God on this mountain; there was nothing less than that in mind."
+     "speaker": "WMcK",
+     "text": [
+      "Exactly. One thing we see with Paul and his service, and with Moses and his, is that they were untiring. Moses complained a bit, but God helped him. Paul spoke about the burden of all the assemblies (2 Corinthians 11: 28), but nevertheless he went on with the work."
+     ]
     },
     {
-     "text": "WMcK Exactly. That really would connect with the service of God in Corinth, because this mount was in the wilderness. It shows that the idea of spiritual elevation enters into the Corinthian position."
+     "speaker": "DR",
+     "text": [
+      "That should be repeated in every servant. I think it is a serious thing when there are differing standards of practice among servants. Paul says, Have we not walked in the same steps? (2 Corinthians 12: 18). Do you think that is an important feature?"
+     ]
     },
     {
-     "text": "PvdB In the light of the assembly of God which is at Corinth, and in the reality of it too."
+     "speaker": "WMcK",
+     "text": [
+      "I believe it is. The Lord really had that in mind in the selection of the twelve; the same thing was to mark the twelve. He gave them power so that what they did would bring out what He was."
+     ]
     },
     {
-     "text": "WMcK Precisely."
+     "speaker": "DR",
+     "text": [
+      "Even Timothy, a young man, would remind the Corinthians of Paul’s ways as they are in Christ. In that sense there would be no difference."
+     ]
     },
     {
-     "text": "WL So it is not just what the servant says, it is also what he does. I was thinking of what God says to Moses here, “I will be with thy mouth, and with his mouth, and will teach you” not, what ye shall say, but “what ye shall do” (Exodus 4: 15). It reminds us of the Lord that He began both to do and to teach (Acts 1: 1). So what the servant says, he should be consistent with in what he does. Do you think that is right?"
+     "speaker": "WMcK",
+     "text": [
+      "There would not be. I would encourage all of us, whether we are older or younger, that we should be thinking the same thing, and saying one thing, and walking in the same steps because the divine standard of service is one."
+     ]
     },
     {
-     "text": "WMcK Exactly. One thing we see with Paul and his service, and with Moses and his, is that they were untiring. Moses complained a bit, but God helped him. Paul spoke about the burden of all the assemblies (2 Corinthians 11: 28), but nevertheless he went on with the work."
+     "speaker": "RSR",
+     "text": [
+      "Is this not a very fine touch, “when he seeth thee he will be glad in his heart”?",
+      "There would be the organic link which we know something of in our day."
+     ]
     },
     {
-     "text": "DR That should be repeated in every servant. I think it is a serious thing when there are differing standards of practice among servants. Paul says, Have we not walked in the same steps? (2 Corinthians 12: 18). Do you think that is an important feature?"
+     "speaker": "WMcK",
+     "text": [
+      "There would be, and Aaron was older than Moses but that would not influence his love for Moses, he would be glad in his heart."
+     ]
     },
     {
-     "text": "WMcK I believe it is. The Lord really had that in mind in the selection of the twelve; the same thing was to mark the twelve. He gave them power so that what they did would bring out what He was."
+     "speaker": "PvdB",
+     "text": [
+      "We are glad to see one another here, and the grace that has preserved us in the light of these great things."
+     ]
     },
     {
-     "text": "DR Even Timothy, a young man, would remind the Corinthians of Paul’s ways as they are in Christ. In that sense there would be no difference."
+     "speaker": "WMcK",
+     "text": [
+      "We are; it is a joy to see one another, and as I remarked earlier, a particular joy to see those who serve, present to support the truth, and all of us seeking through grace to walk in the same steps, to maintain the divine standard."
+     ]
     },
     {
-     "text": "WMcK There would not be. I would encourage all of us, whether we are older or younger, that we should be thinking the same thing, and saying one thing, and walking in the same steps because the divine standard of service is one."
+     "speaker": "RT",
+     "text": [
+      "The way that God leaves it here, they are dependent on one another, are they not? Moses and Aaron need each other to fill out this matter. It would preserve us from any self-esteem or independency, but the whole thing is needed to gather and to preserve the saints."
+     ]
     },
     {
-     "text": "RSR Is this not a very fine touch, “when he seeth thee he will be glad in his heart”?"
+     "speaker": "WMcK",
+     "text": [
+      "That is a good point to finish with, that we need one another. They needed each other and we need one another."
+     ]
     },
     {
-     "text": "There would be the organic link which we know something of in our day."
+     "speaker": "RT",
+     "text": [
+      "There were times when they could each encourage the other to take the lead, to say the things that needed to be said. Each one has their own distinctive way of saying things and doing things, and to be able to identify that helps the brethren, do you think?"
+     ]
     },
     {
-     "text": "WMcK There would be, and Aaron was older than Moses but that would not influence his love for Moses, he would be glad in his heart."
-    },
-    {
-     "text": "PvdB We are glad to see one another here, and the grace that has preserved us in the light of these great things."
-    },
-    {
-     "text": "WMcK We are; it is a joy to see one another, and as I remarked earlier, a particular joy to see those who serve, present to support the truth, and all of us seeking through grace to walk in the same steps, to maintain the divine standard."
-    },
-    {
-     "text": "RT The way that God leaves it here, they are dependent on one another, are they not? Moses and Aaron need each other to fill out this matter. It would preserve us from any self-esteem or independency, but the whole thing is needed to gather and to preserve the saints."
-    },
-    {
-     "text": "WMcK That is a good point to finish with, that we need one another. They needed each other and we need one another."
-    },
-    {
-     "text": "RT There were times when they could each encourage the other to take the lead, to say the things that needed to be said. Each one has their own distinctive way of saying things and doing things, and to be able to identify that helps the brethren, do you think?"
-    },
-    {
-     "text": "WMcK It does, and even when Aaron failed in regard of the sin-offering and Moses spoke to him sharply, they quickly resolved the matter between them. It says it seemed good in Moses’ sight. So that things can be quickly adjusted between those who serve in order to maintain the efficiency of the levitical system."
+     "speaker": "WMcK",
+     "text": [
+      "It does, and even when Aaron failed in regard of the sin-offering and Moses spoke to him sharply, they quickly resolved the matter between them. It says it seemed good in Moses’ sight. So that things can be quickly adjusted between those who serve in order to maintain the efficiency of the levitical system."
+     ]
     }
    ]
   },
@@ -600,11 +1009,15 @@
    "paragraphs": [
     {
      "speaker": "RWS",
-     "text": "“Reckon yourselves dead to sin and alive to God in Christ Jesus”, Romans 6: 11. Would that not bear on being quickened with Christ?"
+     "text": [
+      "“Reckon yourselves dead to sin and alive to God in Christ Jesus”, Romans 6: 11. Would that not bear on being quickened with Christ?"
+     ]
     },
     {
      "speaker": "JT",
-     "text": "That is Roman truth; it is intelligible, because the epistle is initial and basic. Sin has a great place there. In the passage you quote it is not yet sin in themselves, but sin in the world. “Alive to God” is that you are feeling Godward; God has a place with you. It is reckoning, which implies that the christians at Rome had not progressed far. The apostle does not say they were dead, but they were to reckon themselves to be dead to sin. The word ‘reckon’ there is important. You act in light and on principle, and thus in time you will come to the state that corresponds. Colossians says that as having been raised with Christ we have died (Colossians 3: 1–3). One recently converted who had been accustomed to attend theatres might still have an inclination to go to them, but light controlling his conscience would hinder him; but as he maintained this attitude, the Spirit helping him; he would overcome the desire. He thus would be dead to the evil.",
+     "text": [
+      "That is Roman truth; it is intelligible, because the epistle is initial and basic. Sin has a great place there. In the passage you quote it is not yet sin in themselves, but sin in the world. “Alive to God” is that you are feeling Godward; God has a place with you. It is reckoning, which implies that the christians at Rome had not progressed far. The apostle does not say they were dead, but they were to reckon themselves to be dead to sin. The word ‘reckon’ there is important. You act in light and on principle, and thus in time you will come to the state that corresponds. Colossians says that as having been raised with Christ we have died (Colossians 3: 1–3). One recently converted who had been accustomed to attend theatres might still have an inclination to go to them, but light controlling his conscience would hinder him; but as he maintained this attitude, the Spirit helping him; he would overcome the desire. He thus would be dead to the evil."
+     ],
      "source": "J. Taylor (Vol. 52, p.304)"
     }
    ]
@@ -612,5 +1025,13 @@
  ],
  "back_matter": [
   "Edited and Published by J. Strachan, 59 Frederick Street, Dundee, DD3 9DE, Scotland Printed by Crystal Stationery, 22 Western Road, Billericay, Essex CM12 9DZ, (T) (01277) 650661"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "EDUCATION FOR LEVITICAL SERVICE",
+   "kind": "initials_before_name",
+   "detail": "19 entries written as initials then name (\"ACC ...\")"
+  }
  ]
 }

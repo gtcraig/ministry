@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -27,31 +27,29 @@
    "place": "REDBRIDGE",
    "date": "4 June 1977",
    "speakers": [
-    "E.P.",
-    "F.C.M.",
-    "F.N.S.",
-    "D.J.",
-    "A.A.B.",
-    "G.W.B.",
-    "C.A.G.",
-    "C A.G.",
-    "B.W.W.",
-    "C.R.B.",
-    "G.A.P.",
-    "D.J.H.",
-    "E.M.W.",
-    "D.E.B.",
-    "R.E.T.",
-    "E.C.M.",
-    "S.D.K.R.",
-    "E.H.W.",
-    "W.T.A.",
-    "C.C.I.",
-    "F.M.K.",
-    "D.E.R.",
-    "T.F.",
-    "G.W.E.",
-    "A A.B."
+    "EP",
+    "FCM",
+    "FNS",
+    "DJ",
+    "AAB",
+    "GWB",
+    "CAG",
+    "BWW",
+    "CRB",
+    "GAP",
+    "DJH",
+    "EMW",
+    "DEB",
+    "RET",
+    "ECM",
+    "SDKR",
+    "EHW",
+    "WTA",
+    "CCI",
+    "FMK",
+    "DER",
+    "TF",
+    "GWE"
    ],
    "initials": [
     {
@@ -71,7 +69,8 @@
     },
     {
      "initials": "DEB",
-     "name": "D.E.Burr Redbridge"
+     "name": "D. E. Burr",
+     "place": "Redbridge"
     },
     {
      "initials": "GWB",
@@ -90,7 +89,8 @@
     },
     {
      "initials": "CAG",
-     "name": "C.A.Gray Helston"
+     "name": "C. A. Gray",
+     "place": "Helston"
     },
     {
      "initials": "DJH",
@@ -114,7 +114,7 @@
     {
      "initials": "FCM",
      "name": "F",
-     "place": "C,Mutton Redbridge"
+     "place": "C, Mutton Redbridge"
     },
     {
      "initials": "EP",
@@ -138,7 +138,8 @@
     },
     {
      "initials": "FNS",
-     "name": "F.N.Stickland Redbridge"
+     "name": "F. N. Stickland",
+     "place": "Redbridge"
     },
     {
      "initials": "AT",
@@ -147,7 +148,8 @@
     },
     {
      "initials": "RET",
-     "name": "R.E.Turner St Albans"
+     "name": "R. E. Turner",
+     "place": "St Albans"
     },
     {
      "initials": "BWW",
@@ -163,6 +165,10 @@
      "initials": "EMW",
      "name": "E M.Walkinshaw",
      "place": "Gillingham"
+    },
+    {
+     "initials": "DJ",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to initials",
@@ -171,584 +177,846 @@
    ],
    "paragraphs": [
     {
-     "speaker": "E.P.",
-     "text": "As we pursue this enquiry together we desire to arrive in a substantial way (that is in a formed way in our souls) at God's thoughts as to the assembly. In Ephesians 2 (v 21) it says \"in whom all the building fitted together increases to a holy temple in the Lord; in whom ye also are built together for a habitation of God in the Spirit\". It increases; it does not say that it is built on. It seems as if the activity of the Spirit is in it so that there is a habitation of God in the Spirit. I think it has a testimonial bearing, that is that the reality of it is extant, it is known at the present time; there is a sphere of things maintained because of the presence of the blessed Spirit here. In Matthew 16 it is Christ who builds - \"I will build\" - and we may be sure that what He builds is perfection. I do not think that word needs to be qualified in any sense. It is wonderful to think of the foundation, this rock that we might carefully say provides Him with a foundation on which to build. No doubt we shall be helped together about this and about the choice thoughts of God in regard to the assembly, and also as to the assembly being a sphere where the Lord has liberty Himself as Man to exercise His prerogative to serve God in the midst. I thought that these choice thoughts are to be arrived at not only by way of knowledge but by way of experience in this the time of the recovery. I believe the Spirit would keep that word 'recovery' fresh with us so that it would not become hackneyed in any sense. It is recovery to the truth as to Christ and as to the assembly, and to what is at the present time for the satisfaction of the heart of Christ and available in the service of God."
+     "speaker": "EP",
+     "text": [
+      "As we pursue this enquiry together we desire to arrive in a substantial way (that is in a formed way in our souls) at God's thoughts as to the assembly. In Ephesians 2 (v 21) it says \"in whom all the building fitted together increases to a holy temple in the Lord; in whom ye also are built together for a habitation of God in the Spirit\". It increases; it does not say that it is built on. It seems as if the activity of the Spirit is in it so that there is a habitation of God in the Spirit. I think it has a testimonial bearing, that is that the reality of it is extant, it is known at the present time; there is a sphere of things maintained because of the presence of the blessed Spirit here. In Matthew 16 it is Christ who builds - \"I will build\" - and we may be sure that what He builds is perfection. I do not think that word needs to be qualified in any sense. It is wonderful to think of the foundation, this rock that we might carefully say provides Him with a foundation on which to build. No doubt we shall be helped together about this and about the choice thoughts of God in regard to the assembly, and also as to the assembly being a sphere where the Lord has liberty Himself as Man to exercise His prerogative to serve God in the midst. I thought that these choice thoughts are to be arrived at not only by way of knowledge but by way of experience in this the time of the recovery. I believe the Spirit would keep that word 'recovery' fresh with us so that it would not become hackneyed in any sense. It is recovery to the truth as to Christ and as to the assembly, and to what is at the present time for the satisfaction of the heart of Christ and available in the service of God.",
+      "I thought that in the time of recovery in Ezra both the basis for that in the altar and the stimulation of the persons who are recovered to the truth through the prophets are to be known by us; and the rightness of taking up such an order of things is confirmed by the edict of the king. I believe that with all due humility, and without any sense of presumption, there is no reason whatever to be apologetic in regard to the great sphere of glory to which in grace we have been called. There is no need to be apologetic because the legality, the rightness, of what saints desire to go on with in regard to the truth, and this in our day when publicly there is nothing to draw attention to, can be substantiated on the authority of Scripture, and not only the letter of Scripture but the very spirit of it. So there is a way to these things, often referred to in 2 Timothy, not only to be taken but to be maintained practically, so that the reality of what is precious to Christ might be entered into for His satisfaction."
+     ]
     },
     {
-     "text": "I thought that in the time of recovery in Ezra both the basis for that in the altar and the stimulation of the persons who are recovered to the truth through the prophets are to be known by us; and the rightness of taking up such an order of things is confirmed by the edict of the king. I believe that with all due humility, and without any sense of presumption, there is no reason whatever to be apologetic in regard to the great sphere of glory to which in grace we have been called. There is no need to be apologetic because the legality, the rightness, of what saints desire to go on with in regard to the truth, and this in our day when publicly there is nothing to draw attention to, can be substantiated on the authority of Scripture, and not only the letter of Scripture but the very spirit of it. So there is a way to these things, often referred to in 2 Timothy, not only to be taken but to be maintained practically, so that the reality of what is precious to Christ might be entered into for His satisfaction."
+     "speaker": "FCM",
+     "text": [
+      "In this first scripture, linking with what you have said about not being ashamed of things, the Lord owns Peter, the work of God in him - \"thou art Peter\"; and then He speaks of \"my assembly\". He owns the assembly too, He claims it."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "In this first scripture, linking with what you have said about not being ashamed of things, the Lord owns Peter, the work of God in him - \"thou art Peter\"; and then He speaks of \"my assembly\". He owns the assembly too, He claims it."
+     "speaker": "EP",
+     "text": [
+      "What glory that is and what assurance! Of course we know in Peter's case that the Lord said to him that \"flesh and blood has not revealed it to thee\"; it was not communicated by man, He says, but by \"my Father who is in the heavens\". So in that sense it was special to Peter. But in answer to the Lord's question \"But ye, who do ye say that I am?\" Peter was the spokesman, and I believe the Lord's question demands an answer from us all."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "What glory that is and what assurance! Of course we know in Peter's case that the Lord said to him that \"flesh and blood has not revealed it to thee\"; it was not communicated by man, He says, but by \"my Father who is in the heavens\". So in that sense it was special to Peter. But in answer to the Lord's question \"But ye, who do ye say that I am?\" Peter was the spokesman, and I believe the Lord's question demands an answer from us all."
+     "speaker": "FNS",
+     "text": [
+      "Does the experience of a transaction with a divine Person give us this assurance and a sense that we do not have to be apologetic? Is it not basic to our vital and living part in the testimony that each of us has a link with divine Persons that gives us this assurance?"
+     ]
     },
     {
-     "speaker": "F.N.S.",
-     "text": "Does the experience of a transaction with a divine Person give us this assurance and a sense that we do not have to be apologetic? Is it not basic to our vital and living part in the testimony that each of us has a link with divine Persons that gives us this assurance?"
+     "speaker": "EP",
+     "text": [
+      "You would encourage us therefore to cultivate that in private and as presenting ourselves when together in the presence of God. We are not here just to enjoy one another's company - we do enjoy one an other's company - but we are not here only for that. We are here to be in the presence of God. I remember a brother saying that you could never go into the presence of Jesus and come out the same as when you went in. The experience would effect something, and it is for us to prove that."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "You would encourage us therefore to cultivate that in private and as presenting ourselves when together in the presence of God. We are not here just to enjoy one another's company - we do enjoy one an other's company - but we are not here only for that. We are here to be in the presence of God. I remember a brother saying that you could never go into the presence of Jesus and come out the same as when you went in. The experience would effect something, and it is for us to prove that."
+     "speaker": "DJ",
+     "text": [
+      "H. Does this scripture show that the concept of the assembly is nothing mystical but is something substantial in persons? \"Thou art Peter, and on this rock I will build my assembly\"."
+     ]
     },
     {
-     "speaker": "D.J.",
-     "text": "H. Does this scripture show that the concept of the assembly is nothing mystical but is something substantial in persons? \"Thou art Peter, and on this rock I will build my assembly\"."
+     "speaker": "EP",
+     "text": [
+      "Would the Lord build on anything that was mystical? It is what was formed in that man's soul and characteristically it was Christ because He is the rock. It was in that man's soul and it is to be in our souls."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Would the Lord build on anything that was mystical? It is what was formed in that man's soul and characteristically it was Christ because He is the rock. It was in that man's soul and it is to be in our souls."
+     "speaker": "AAB",
+     "text": [
+      "\"This rock\" would be a marked contrast with what attaches to the Babylonish system where they have brick for stone and asphalt for mortar."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "\"This rock\" would be a marked contrast with what attaches to the Babylonish system where they have brick for stone and asphalt for mortar."
+     "speaker": "EP",
+     "text": [
+      "Yes, it is basically what is of God and it is characteristically of Christ; He is the rock."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, it is basically what is of God and it is characteristically of Christ; He is the rock."
+     "speaker": "AAB",
+     "text": [
+      "It belongs to the realm of things which is revealed. It is not acquired knowledge; flesh and blood is ruled out."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "It belongs to the realm of things which is revealed. It is not acquired knowledge; flesh and blood is ruled out."
+     "speaker": "EP",
+     "text": [
+      "Do you think that underlines what was said as to the necessity of each of us having to do with God?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Do you think that underlines what was said as to the necessity of each of us having to do with God?"
+     "speaker": "AAB",
+     "text": [
+      "I think that, and Peter's personal and subsequent history shows how important that was in his own links with the Lord."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "I think that, and Peter's personal and subsequent history shows how important that was in his own links with the Lord."
+     "speaker": "FNS",
+     "text": [
+      "David said in his last words \"The God of Israel said, The Rock of Israel spoke to me\", 2 Sam 23: 3. Could anything greater be conceived to give stability and assurance in the soul?"
+     ]
     },
     {
-     "speaker": "F.N.S.",
-     "text": "David said in his last words \"The God of Israel said, The Rock of Israel spoke to me\", 2 Sam 23: 3. Could anything greater be conceived to give stability and assurance in the soul?"
+     "speaker": "EP",
+     "text": [
+      "There is nothing like it, nothing to replace it; as was said, it is really in the soul of Peter. It is very wholesome and encouraging for us to realise that God has done something in each of our souls that is of Himself and it is characteristically like Christ. I did not do it, no other person did it for me, but God did it.",
+      "A.T. Is there something to learn from the way the Lord sees things? He sees this clearly and He can tell Peter just what it is. I do not suppose Peter could have explained it. Then later in the chapter the Lord turns round and says \"Satan\", but this work of God is there. The Lord sees through everything, even what is coming through and where it is coming through from; He says it has come from the Father, or, that was coming from Satan."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "There is nothing like it, nothing to replace it; as was said, it is really in the soul of Peter. It is very wholesome and encouraging for us to realise that God has done something in each of our souls that is of Himself and it is characteristically like Christ. I did not do it, no other person did it for me, but God did it."
+     "speaker": "EP",
+     "text": [
+      "It is assuring that though that solemn word was said to Peter it did not destroy what was solid and unshakable in his soul; it was still there. It is something for us to get back to as being valued by Christ Himself - my assembly, He will build on that."
+     ]
     },
     {
-     "text": "A.T. Is there something to learn from the way the Lord sees things? He sees this clearly and He can tell Peter just what it is. I do not suppose Peter could have explained it. Then later in the chapter the Lord turns round and says \"Satan\", but this work of God is there. The Lord sees through everything, even what is coming through and where it is coming through from; He says it has come from the Father, or, that was coming from Satan."
+     "speaker": "GWB",
+     "text": [
+      "And He would be there."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "It is assuring that though that solemn word was said to Peter it did not destroy what was solid and unshakable in his soul; it was still there. It is something for us to get back to as being valued by Christ Himself - my assembly, He will build on that."
+     "speaker": "EP",
+     "text": [
+      "Quite so - in the assembly."
+     ]
     },
     {
-     "speaker": "G.W.B.",
-     "text": "And He would be there."
+     "speaker": "FCM",
+     "text": [
+      "Is this another view of what we come to in Romans 7? \"I myself\"; I identify it. Is not the Lord identifying it here: \"thou\"? That is the real Peter, is it not, the work of God in that man or in any one of us?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Quite so - in the assembly."
+     "speaker": "EP",
+     "text": [
+      "I think that and let us assure our hearts together that that work corresponds in its character to Christ Himself who is the foundation."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Is this another view of what we come to in Romans 7? \"I myself\"; I identify it. Is not the Lord identifying it here: \"thou\"? That is the real Peter, is it not, the work of God in that man or in any one of us?"
+     "speaker": "CAG",
+     "text": [
+      "So literally Peter is 'piece of rock'."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I think that and let us assure our hearts together that that work corresponds in its character to Christ Himself who is the foundation."
+     "speaker": "EP",
+     "text": [
+      "Yes, that just adds point; it is in character the same and it is that because it is God's work; it is not our work it is God's work and the Lord claims it as His own. It is wonderful to get an impression of the holy possessiveness of the Person of Christ in relation to the assembly and hence His holy jealousy of any rival to what is His."
+     ]
     },
     {
-     "speaker": "C.A.G.",
-     "text": "So literally Peter is 'piece of rock'."
+     "speaker": "CAG",
+     "text": [
+      "And is that exemplified in Acts 9: \"why dost thou persecute me? \""
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, that just adds point; it is in character the same and it is that because it is God's work; it is not our work it is God's work and the Lord claims it as His own. It is wonderful to get an impression of the holy possessiveness of the Person of Christ in relation to the assembly and hence His holy jealousy of any rival to what is His."
+     "speaker": "EP",
+     "text": [
+      "Quite so, very a propos."
+     ]
     },
     {
-     "speaker": "C A.G.",
-     "text": "And is that exemplified in Acts 9: \"why dost thou persecute me? \""
+     "speaker": "BWW",
+     "text": [
+      "Would any part in work which any of us might have be properly related to this of which the Lord is Himself the builder?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Quite so, very a propos."
+     "speaker": "EP",
+     "text": [
+      "Yes, I think that. I feel there is something so positively personal to the Lord about this, something that would in a special way respond to His affections. When the Lord says \"my assembly\" it is in a place where hades' gates can assail it, but I think that it is something that is preserved for Himself. He claims it as His own; He will never relinquish what is His and He will see to it that hades' gates will never prevail against it; they will assail it but they will never prevail.",
+      "A.T. The Lord asked His disciples what men said about Him and they have a beclouded view; but Peter brings out the perfect view of who Christ is."
+     ]
     },
     {
-     "speaker": "B.W.W.",
-     "text": "Would any part in work which any of us might have be properly related to this of which the Lord is Himself the builder?"
+     "speaker": "EP",
+     "text": [
+      "He did not do it by enquiry amongst others but through that which was revealed to him.",
+      "A.T. That is perfection; revealed things are ours in the assembly."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, I think that. I feel there is something so positively personal to the Lord about this, something that would in a special way respond to His affections. When the Lord says \"my assembly\" it is in a place where hades' gates can assail it, but I think that it is something that is preserved for Himself. He claims it as His own; He will never relinquish what is His and He will see to it that hades' gates will never prevail against it; they will assail it but they will never prevail."
+     "speaker": "EP",
+     "text": [
+      "Quite so. It seems to me to be a very vital and precious portion that so to speak pin-points the value that Christ puts upon the assembly - \"my assembly\".",
+      "C.R B. Do you think there is something very wonderful about what Peter says, \"Thou art the Christ, the Son of the living God\"? It had never been said before."
+     ]
     },
     {
-     "text": "A.T. The Lord asked His disciples what men said about Him and they have a beclouded view; but Peter brings out the perfect view of who Christ is."
+     "speaker": "EP",
+     "text": [
+      "Hence the revelation. Could you say some more about it?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "He did not do it by enquiry amongst others but through that which was revealed to him."
+     "speaker": "CRB",
+     "text": [
+      "Do you think it brings into view what was in the purposes of God, that the assembly should be brought to light in relation to One who was to come here as the Son of the living God?"
+     ]
     },
     {
-     "text": "A.T. That is perfection; revealed things are ours in the assembly."
+     "speaker": "EP",
+     "text": [
+      "When the figure of Him who was to come appeared it was not long before there was that which spoke of His counterpart, and it shows that man was in view but it was this Man that was in view. Adam was but a figure; it was this Man that was in view but the counterpart was in view too, and that for the satisfaction of the Man. He claims it. Adam claimed the woman - \"This time it is bone of my bones and flesh of my flesh\", Gen 2: 23. The apostle in Ephesians 5 says \"but I speak as to Christ, and as to the assembly\" (v 32) in that context."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Quite so. It seems to me to be a very vital and precious portion that so to speak pin-points the value that Christ puts upon the assembly - \"my assembly\"."
+     "speaker": "CAG",
+     "text": [
+      "Is what the Lord is looking for, when He comes in at the Supper, that which corresponds to what we have in Genesis 2?"
+     ]
     },
     {
-     "text": "C.R B. Do you think there is something very wonderful about what Peter says, \"Thou art the Christ, the Son of the living God\"? It had never been said before."
+     "speaker": "EP",
+     "text": [
+      "It is wonderful to think that it is possible, that such is the character of divine workmanship in people like ourselves that there can be that which corresponds as counterpart to the holy perfection of the manhood of Jesus, and indeed can be united to Him."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Hence the revelation. Could you say some more about it?"
+     "speaker": "FCM",
+     "text": [
+      "And every first day of the week should bring demonstration that this building is in fact proceeding."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Do you think it brings into view what was in the purposes of God, that the assembly should be brought to light in relation to One who was to come here as the Son of the living God?"
+     "speaker": "EP",
+     "text": [
+      "Quite so - \"I will build\". We will seek grace and help by the Spirit not to surrender in any sense that which Christ will not surrender. I think that as we see how it is founded, and where it is founded, we might take courage to pursue in regard to this wonderful truth and the experience of it."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "When the figure of Him who was to come appeared it was not long before there was that which spoke of His counterpart, and it shows that man was in view but it was this Man that was in view. Adam was but a figure; it was this Man that was in view but the counterpart was in view too, and that for the satisfaction of the Man. He claims it. Adam claimed the woman - \"This time it is bone of my bones and flesh of my flesh\", Gen 2: 23. The apostle in Ephesians 5 says \"but I speak as to Christ, and as to the assembly\" (v 32) in that context."
+     "speaker": "GAP",
+     "text": [
+      "Would the two aspects, what is for the heart of Christ and what is related to the service of God, be in view in that expression \"Thou art the Christ, the Son of the living God\"?"
+     ]
     },
     {
-     "speaker": "C.A.G.",
-     "text": "Is what the Lord is looking for, when He comes in at the Supper, that which corresponds to what we have in Genesis 2?"
+     "speaker": "EP",
+     "text": [
+      "Yes, very good; you mean that the living God is brought into it. So in what we speak of as assembly service the Lord takes the initiative that belongs to Him in it and uses the assembly \"in the midst of the assembly will I sing thy praises\", Heb 2: 12. What joy it must minister to the heart of Christ that God is rightly served and rightly responded to, in His own initiative to do it, but in a vessel that is adequate for it. The Spirit would help us and stir us that we will not surrender this, and He will give us power to hold the ground for the sake of what is for Christ."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "It is wonderful to think that it is possible, that such is the character of divine workmanship in people like ourselves that there can be that which corresponds as counterpart to the holy perfection of the manhood of Jesus, and indeed can be united to Him."
+     "speaker": "DJH",
+     "text": [
+      "So would you say that in a sense this scripture in Matthew lightens up the word \"ye are Christ's, and Christ is God's\", 1 Cor 3: 23? I am thinking of His reference to \"my assembly\"; as you said, it is what He claims, but then it is the Christ the Son of the living God."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "And every first day of the week should bring demonstration that this building is in fact proceeding."
+     "speaker": "EP",
+     "text": [
+      "Quite so. So what is here in Matthew 16 is I suppose the claims of His love, the claims of what He delights in, and is to be carried in the testimonial position in the affections of the saints who compose the assembly."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Quite so - \"I will build\". We will seek grace and help by the Spirit not to surrender in any sense that which Christ will not surrender. I think that as we see how it is founded, and where it is founded, we might take courage to pursue in regard to this wonderful truth and the experience of it."
+     "speaker": "EMW",
+     "text": [
+      "Would the Son of the living God be over against the gates of the place of death? You have just made a remark about the testimony: this would be the church militant, would it not? So there is life and power as linked with that Person as having completely and absolutely left all human organisation and what is of man."
+     ]
     },
     {
-     "speaker": "G.A.P.",
-     "text": "Would the two aspects, what is for the heart of Christ and what is related to the service of God, be in view in that expression \"Thou art the Christ, the Son of the living God\"?"
+     "speaker": "EP",
+     "text": [
+      "Yes, and is identified only with what is truly of God. Say some more of what is in your mind because I feel it is important."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, very good; you mean that the living God is brought into it. So in what we speak of as assembly service the Lord takes the initiative that belongs to Him in it and uses the assembly \"in the midst of the assembly will I sing thy praises\", Heb 2: 12. What joy it must minister to the heart of Christ that God is rightly served and rightly responded to, in His own initiative to do it, but in a vessel that is adequate for it. The Spirit would help us and stir us that we will not surrender this, and He will give us power to hold the ground for the sake of what is for Christ."
+     "speaker": "EMW",
+     "text": [
+      "I was thinking of the great administration where, as linked with the Son of the living God, everything is kept in life; death will try to invade it, and the administration of death under the power of Satan may try to overthrow it, but faith would lay hold of the fact that hades' gates shall not prevail against it."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "So would you say that in a sense this scripture in Matthew lightens up the word \"ye are Christ's, and Christ is God's\", 1 Cor 3: 23? I am thinking of His reference to \"my assembly\"; as you said, it is what He claims, but then it is the Christ the Son of the living God."
+     "speaker": "EP",
+     "text": [
+      "Well, we have often thought of the special value of the Lord's own words and these are some of them; we can rely on what He says."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Quite so. So what is here in Matthew 16 is I suppose the claims of His love, the claims of what He delights in, and is to be carried in the testimonial position in the affections of the saints who compose the assembly."
+     "speaker": "DEB",
+     "text": [
+      "Could I ask what is the objective of the church militant?"
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "Would the Son of the living God be over against the gates of the place of death? You have just made a remark about the testimony: this would be the church militant, would it not? So there is life and power as linked with that Person as having completely and absolutely left all human organisation and what is of man."
+     "speaker": "EMW",
+     "text": [
+      "I suppose it is the church here in testimony where everything of God is cherished and held in the presence of opposing forces until the day of Christ when everything will be displayed. What is displayed is what is at the present moment held in testimony, is it not? But it is not simply held in testimony and cherished but held in the very presence of Satan, in Satan's territory."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, and is identified only with what is truly of God. Say some more of what is in your mind because I feel it is important."
+     "speaker": "EP",
+     "text": [
+      "That is very helpful, but we would like to get some more out of Mr Burr."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I was thinking of the great administration where, as linked with the Son of the living God, everything is kept in life; death will try to invade it, and the administration of death under the power of Satan may try to overthrow it, but faith would lay hold of the fact that hades' gates shall not prevail against it."
+     "speaker": "DEB",
+     "text": [
+      "I was interested that Mr Walkinshaw used it in this context. We think of \"my assembly\" as what is affectionate and personal in the way of a link, perhaps even in union with Christ, but this idea of what is held militantly is interesting; nothing is surrendered although we are in a scene where efforts to surrender are continually being made. Giving things up may enter into our own thoughts but the church in this aspect does not give up."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Well, we have often thought of the special value of the Lord's own words and these are some of them; we can rely on what He says."
+     "speaker": "AAB",
+     "text": [
+      "\"Terrible as troops with banners\" (Song of Sol 6: 10) is one of the features of the spouse, and that is not at all incompatible with the affectionate life which is also in that book. Abigail would be the type."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "Could I ask what is the objective of the church militant?"
+     "speaker": "EP",
+     "text": [
+      "Yes, she would. I was thinking of that very reference; troops with banners are attractive to Christ, and they are not defeated troops but triumphant troops. Do you think we might be helped to see that under Christ the assembly is triumphant, and that as we seek to govern ourselves by that life we should be triumphant too?"
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I suppose it is the church here in testimony where everything of God is cherished and held in the presence of opposing forces until the day of Christ when everything will be displayed. What is displayed is what is at the present moment held in testimony, is it not? But it is not simply held in testimony and cherished but held in the very presence of Satan, in Satan's territory."
+     "speaker": "AAB",
+     "text": [
+      "The thought of a banner is that it is displayed because of the truth (see Ps 60: 4)."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "That is very helpful, but we would like to get some more out of Mr Burr."
+     "speaker": "RET",
+     "text": [
+      "Would the power of the kingdom be carried in our souls in this militant position in regard to the assembly? This is Matthew's gospel and it is Peter we are speaking about."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "I was interested that Mr Walkinshaw used it in this context. We think of \"my assembly\" as what is affectionate and personal in the way of a link, perhaps even in union with Christ, but this idea of what is held militantly is interesting; nothing is surrendered although we are in a scene where efforts to surrender are continually being made. Giving things up may enter into our own thoughts but the church in this aspect does not give up."
+     "speaker": "EP",
+     "text": [
+      "Yes, the power of the kingdom is known by persons who are characteristically subject. If I am an insubject person I know nothing about the power of the kingdom, but if I am a subject person I come under the authority of Christ and therefore am available to protect what is of the assembly."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "\"Terrible as troops with banners\" (Song of Sol 6: 10) is one of the features of the spouse, and that is not at all incompatible with the affectionate life which is also in that book. Abigail would be the type."
+     "speaker": "ECM",
+     "text": [
+      "Would that feature come out particularly in Abigail (who has been referred to in regard to the church militant) in what David says of her: \"blessed be thy discernment, and blessed be thou\", 1 Sam 25: 33? She became the wife of David. So her many references to David as \"my lord\" would support what you are saying."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, she would. I was thinking of that very reference; troops with banners are attractive to Christ, and they are not defeated troops but triumphant troops. Do you think we might be helped to see that under Christ the assembly is triumphant, and that as we seek to govern ourselves by that life we should be triumphant too?"
+     "speaker": "EP",
+     "text": [
+      "Yes, she had a real part in the position as it was at that time with David. I have often wondered why at the end of that section it speaks of Ahinoam too (see v 43). It says \"they became, even both of them, his wives\". It seems to me that the more secret side of things is in Ahinoam; there is not much said about her. I wondered if they coalesce in the assembly and provide two distinct aspects of the truth."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "The thought of a banner is that it is displayed because of the truth (see Ps 60: 4)."
+     "speaker": "SDKR",
+     "text": [
+      "There is another verse in the Song of Songs in chapter 4: \"Thy neck is like the tower of David, Built for an armoury: A thousand bucklers hang thereon, All shields of mighty men\" (v 4). Would that bring out the protective feature?"
+     ]
     },
     {
-     "speaker": "R.E.T.",
-     "text": "Would the power of the kingdom be carried in our souls in this militant position in regard to the assembly? This is Matthew's gospel and it is Peter we are speaking about."
+     "speaker": "EP",
+     "text": [
+      "There is every potential there to defend what is precious and to love it."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, the power of the kingdom is known by persons who are characteristically subject. If I am an insubject person I know nothing about the power of the kingdom, but if I am a subject person I come under the authority of Christ and therefore am available to protect what is of the assembly."
+     "speaker": "EHW",
+     "text": [
+      "Ahinoam and Abigail, and the features seen in them individually, are what the enemy is dead set against; they were both taken by the Amalekites at Ziklag but both recovered by David, showing how Christ values and delights in the features of the assembly seen typically in those two."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "Would that feature come out particularly in Abigail (who has been referred to in regard to the church militant) in what David says of her: \"blessed be thy discernment, and blessed be thou\", 1 Sam 25: 33? She became the wife of David. So her many references to David as \"my lord\" would support what you are saying."
+     "speaker": "EP",
+     "text": [
+      "Yes, that is very interesting because he recovered all at that time and it says \"and... his two wives\", 1 Sam 30: 18. It shows that what was personally precious to him was fully recovered."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, she had a real part in the position as it was at that time with David. I have often wondered why at the end of that section it speaks of Ahinoam too (see v 43). It says \"they became, even both of them, his wives\". It seems to me that the more secret side of things is in Ahinoam; there is not much said about her. I wondered if they coalesce in the assembly and provide two distinct aspects of the truth."
+     "speaker": "EHW",
+     "text": [
+      "Do you not think that is what we are experiencing today?"
+     ]
     },
     {
-     "speaker": "S.D.K.R.",
-     "text": "There is another verse in the Song of Songs in chapter 4: \"Thy neck is like the tower of David, Built for an armoury: A thousand bucklers hang thereon, All shields of mighty men\" (v 4). Would that bring out the protective feature?"
+     "speaker": "EP",
+     "text": [
+      "Well, one would like to lay hold of that and be preserved in the maintenance of what is suitable to it."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "There is every potential there to defend what is precious and to love it."
+     "speaker": "CRB",
+     "text": [
+      "Do you think this is all connected with a spiritual sphere of life which is entirely distinct from a world which is marked by silence and death? It is a living system of things related to the living God and providing a habitation of God in the Spirit. It is apart from a scene that is out of keeping with a living God and yet in the ways of God the assembly is here as a witness for God to a scene which is contrary to it."
+     ]
     },
     {
-     "speaker": "E.H.W.",
-     "text": "Ahinoam and Abigail, and the features seen in them individually, are what the enemy is dead set against; they were both taken by the Amalekites at Ziklag but both recovered by David, showing how Christ values and delights in the features of the assembly seen typically in those two."
+     "speaker": "EP",
+     "text": [
+      "That is in itself triumphant, that in such a setting there should be such a witness. It just stimulates us, I feel, to take any step that may be necessary to have a vital part in it, because to have part in an order of things that is marked by what belongs to the living God means that nothing that belongs to an order of things that is under death can find a place there.",
+      "C.R B. It is \"the Christ, the Son of the living God\" who is going to operate so that God is going to be all in all. Does He not count upon the assembly as His assembly to be sympathetically with Him in all that He is doing at the present time and all that He will do all to secure a scene where God, the living God, God Himself, will be all in all?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, that is very interesting because he recovered all at that time and it says \"and... his two wives\", 1 Sam 30: 18. It shows that what was personally precious to him was fully recovered."
+     "speaker": "EP",
+     "text": [
+      "That would stimulate us I am sure and we would seek help from the Spirit to move on those lines. I would like to feel that the truth would draw us, attract us, to the Person concerning whom the truth is. That is one's exercise in regard to these meetings, that we might not only speak about these things but take some definite steps in our spiritual pathway and move in regard to what is presented to us."
+     ]
     },
     {
-     "speaker": "E.H.W.",
-     "text": "Do you not think that is what we are experiencing today?"
+     "speaker": "ECM",
+     "text": [
+      "Do you think that, whilst the revelation is special to Peter, it is essential that we should have some clear understanding of the revelation in order to be vitally in the testimony today?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Well, one would like to lay hold of that and be preserved in the maintenance of what is suitable to it."
+     "speaker": "EP",
+     "text": [
+      "I am sure of that because we would say now that this revelation is church property. It has been said that the word 'assembly' is a special word, a spiritual word that does not belong to the world's vocabulary but is understood by the saints who compose it."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Do you think this is all connected with a spiritual sphere of life which is entirely distinct from a world which is marked by silence and death? It is a living system of things related to the living God and providing a habitation of God in the Spirit. It is apart from a scene that is out of keeping with a living God and yet in the ways of God the assembly is here as a witness for God to a scene which is contrary to it."
+     "speaker": "WTA",
+     "text": [
+      "When we come into the assembly we are aware that we belong to a very glorious Person."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "That is in itself triumphant, that in such a setting there should be such a witness. It just stimulates us, I feel, to take any step that may be necessary to have a vital part in it, because to have part in an order of things that is marked by what belongs to the living God means that nothing that belongs to an order of things that is under death can find a place there."
+     "speaker": "EP",
+     "text": [
+      "You are bringing forward something that we might well pay attention to, and that is that when we are together in assembly we are present in the most dignified company that we could think of, and therefore our behaviour should be in accord with that."
+     ]
     },
     {
-     "text": "C.R B. It is \"the Christ, the Son of the living God\" who is going to operate so that God is going to be all in all. Does He not count upon the assembly as His assembly to be sympathetically with Him in all that He is doing at the present time and all that He will do all to secure a scene where God, the living God, God Himself, will be all in all?"
+     "speaker": "CCI",
+     "text": [
+      "Do you think that Peter's fundamental ministry shone out in the early chapters of Acts? Do you think the foundation was there for Paul's ministry? Those early chapters suggest militancy and power, the power of the kingdom."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "That would stimulate us I am sure and we would seek help from the Spirit to move on those lines. I would like to feel that the truth would draw us, attract us, to the Person concerning whom the truth is. That is one's exercise in regard to these meetings, that we might not only speak about these things but take some definite steps in our spiritual pathway and move in regard to what is presented to us."
+     "speaker": "EP",
+     "text": [
+      "The kingdom makes way, and is protective of, the assembly, and no doubt Peter's ministry was used of the Spirit to provide, I was going to say, a forerunner of what would come in in Paul. The truth of the kingdom, that is that we are under the authority of Christ and recognise His lordship and supremacy, is protective of what is precious in the assembly."
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "Do you think that, whilst the revelation is special to Peter, it is essential that we should have some clear understanding of the revelation in order to be vitally in the testimony today?"
+     "speaker": "CCI",
+     "text": [
+      "So it says, after assembly discipline, \"but of the rest durst no man join them\", Acts 5: 13."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I am sure of that because we would say now that this revelation is church property. It has been said that the word 'assembly' is a special word, a spiritual word that does not belong to the world's vocabulary but is understood by the saints who compose it."
+     "speaker": "DEB",
+     "text": [
+      "Did you finish what you were saying as to respect for the local assembly?"
+     ]
     },
     {
-     "speaker": "W.T.A.",
-     "text": "When we come into the assembly we are aware that we belong to a very glorious Person."
+     "speaker": "EP",
+     "text": [
+      "Well, I think that if a matter is put among the brethren, and as we are now soberly seeking to pursue the truth, the instincts in the saints would take account of it. I think that very largely the actual conduct of the saints as assembled carries with it the dignity proper to it. At one time it was far from that and we may secretly mourn that, but nevertheless I think our conduct as assembled should witness to the appreciation we have of the company in which we are."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "You are bringing forward something that we might well pay attention to, and that is that when we are together in assembly we are present in the most dignified company that we could think of, and therefore our behaviour should be in accord with that."
+     "speaker": "AAB",
+     "text": [
+      "Certain matters are hidden from wise and prudent but are revealed to babes. Peter is one such, is he not? There is the instinctive side of God's work, the Father's work, and sensitiveness involved in this revelation by the Father to Peter."
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "Do you think that Peter's fundamental ministry shone out in the early chapters of Acts? Do you think the foundation was there for Paul's ministry? Those early chapters suggest militancy and power, the power of the kingdom."
+     "speaker": "EP",
+     "text": [
+      "And we carry that with us even as we may develop in some fuller appreciation of the truth of what the assembly is to Christ."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "The kingdom makes way, and is protective of, the assembly, and no doubt Peter's ministry was used of the Spirit to provide, I was going to say, a forerunner of what would come in in Paul. The truth of the kingdom, that is that we are under the authority of Christ and recognise His lordship and supremacy, is protective of what is precious in the assembly."
+     "speaker": "AAB",
+     "text": [
+      "You referred to conduct becoming the assembly of the living God: it really springs not from external regulation or commandment but from the instinctive side, and the proper conduct should be able to be traced back to what is instinctive in persons, should it not?"
+     ]
     },
     {
-     "speaker": "C.C.I.",
-     "text": "So it says, after assembly discipline, \"but of the rest durst no man join them\", Acts 5: 13."
+     "speaker": "EP",
+     "text": [
+      "Yes, I think so. That would be I suppose on account of the presence and liberty of the Spirit, do you think?"
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "Did you finish what you were saying as to respect for the local assembly?"
+     "speaker": "AAB",
+     "text": [
+      "Yes indeed. What would you say about the peculiar reference here to the Father's action in revealing it to Peter?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Well, I think that if a matter is put among the brethren, and as we are now soberly seeking to pursue the truth, the instincts in the saints would take account of it. I think that very largely the actual conduct of the saints as assembled carries with it the dignity proper to it. At one time it was far from that and we may secretly mourn that, but nevertheless I think our conduct as assembled should witness to the appreciation we have of the company in which we are."
+     "speaker": "EP",
+     "text": [
+      "I had only thought with regard to that that the Father has peculiar regard for what ministers to the satisfaction of Christ; and the affections that enter into that relationship into which the Lord came, that holy reciprocal affection that is there, would be that the Father's affection would consider for Him, so that what was substantially in divine purpose might appear for the present satisfaction of the heart of Christ. What do you say?"
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "Certain matters are hidden from wise and prudent but are revealed to babes. Peter is one such, is he not? There is the instinctive side of God's work, the Father's work, and sensitiveness involved in this revelation by the Father to Peter."
+     "speaker": "AAB",
+     "text": [
+      "I am sure that is true. The Lord says \"And I also\": we get the impression of how near He was consciously in His communion with the Father at this moment."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "And we carry that with us even as we may develop in some fuller appreciation of the truth of what the assembly is to Christ."
+     "speaker": "EP",
+     "text": [
+      "And it is in a very touching setting because, after this incident, the Lord began to show to His disciples that He must go away to Jerusalem and suffer. But what it must have meant to His heart to know that there had appeared, on account of the Father's revelation, something that He identified as that upon which His assembly was to be built. He identified it and He named it and He claims it and He will never relinquish it."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "You referred to conduct becoming the assembly of the living God: it really springs not from external regulation or commandment but from the instinctive side, and the proper conduct should be able to be traced back to what is instinctive in persons, should it not?"
+     "speaker": "CRB",
+     "text": [
+      "Is it some anticipation of the mountain in the following chapter? There had been some indication through Moses and through Elias of the One who was going to come, the Son of the living God, but this was the reality, and \"my Father\" operating in relation to Christ's assembly. But on the mountain it comes to light that it is, too, in relation to association with Christ in sonship; it is the same glorious Son of the Father."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, I think so. That would be I suppose on account of the presence and liberty of the Spirit, do you think?"
+     "speaker": "EP",
+     "text": [
+      "So that withal His Person is brought into the focus of assembly affection - among the saints, I mean, this afternoon."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "Yes indeed. What would you say about the peculiar reference here to the Father's action in revealing it to Peter?"
+     "speaker": "CRB",
+     "text": [
+      "Do you think that taking them to the high mountain apart shows that the only basis for separation from anything that is out of keeping with God is attraction to Christ? Anything else will not be really according to the feelings of God."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I had only thought with regard to that that the Father has peculiar regard for what ministers to the satisfaction of Christ; and the affections that enter into that relationship into which the Lord came, that holy reciprocal affection that is there, would be that the Father's affection would consider for Him, so that what was substantially in divine purpose might appear for the present satisfaction of the heart of Christ. What do you say?"
+     "speaker": "EP",
+     "text": [
+      "Quite so. It puts that great principle, that we need to regard and act on, in true perspective when we view it from that point of view."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "I am sure that is true. The Lord says \"And I also\": we get the impression of how near He was consciously in His communion with the Father at this moment."
+     "speaker": "CRB",
+     "text": [
+      "If we take things on except as a result of being attracted to Christ it will just be formal and we shall find that we are quickly marked by a spirit of self-righteousness. Attraction to Christ must lead in the power of the Spirit to separation from everything that is out of keeping with the living God. Attraction to the One who is the Christ the Son of the living God is a primary matter, is it not?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "And it is in a very touching setting because, after this incident, the Lord began to show to His disciples that He must go away to Jerusalem and suffer. But what it must have meant to His heart to know that there had appeared, on account of the Father's revelation, something that He identified as that upon which His assembly was to be built. He identified it and He named it and He claims it and He will never relinquish it."
+     "speaker": "EP",
+     "text": [
+      "So Mr Darby said that His very speaking 'Calls me from earth apart' - not from the world but 'Calls me from earth apart', as if He was the alone object for that beloved man's soul at that time.",
+      "A.T. Would Peter come into the good of these words of the Lord Jesus when He said \"Blessed art thou, Simon Barjona\"? Would these blessings come into his life when on the mount - association, and all these glories that he entered into?"
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Is it some anticipation of the mountain in the following chapter? There had been some indication through Moses and through Elias of the One who was going to come, the Son of the living God, but this was the reality, and \"my Father\" operating in relation to Christ's assembly. But on the mountain it comes to light that it is, too, in relation to association with Christ in sonship; it is the same glorious Son of the Father."
+     "speaker": "EP",
+     "text": [
+      "Peter accumulated experience so when the test came - \"if it be thou, command me to come to thee\" (Mat 14: 28) - it is all gathered up in Peter's soul, focused in that Person.",
+      "With regard to the recovery and revival referred to in Ezra, those who returned to Jerusalem built the altar of the God of Israel to offer up burnt-offerings on it, as is written in the law of Moses the man of God. It does not say they offered up sin-offerings, they offered up burnt-offerings, and they set the altar on its base for fear was upon them because of the people of the countries; and they offered up burnt· offerings unto Jehovah, morning and evening burntofferings. I just emphasise that because the burntoffering in a special way speaks of what the Lord met and endured, and the way that He offered Himself in view of the fulfilment of the will of God, providing a basis from which His will could be worked out in a manner that vindicated and glorified Him. The altar is set on its base; Christ is both the sacrifice and the altar, and I thought that the Person of Christ and the manner of His offering up to God in this setting of the burnt-offering is basic in these days of recovery; that must be held to. Is that right teaching?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "So that withal His Person is brought into the focus of assembly affection - among the saints, I mean, this afternoon."
+     "speaker": "EMW",
+     "text": [
+      "I think so, as far as I understand it. You had something more in mind about the burnt-offerings and not sin-offerings. I notice it is the morning and evening burnt-offerings."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Do you think that taking them to the high mountain apart shows that the only basis for separation from anything that is out of keeping with God is attraction to Christ? Anything else will not be really according to the feelings of God."
+     "speaker": "EP",
+     "text": [
+      "I notice as to the burnt-offering in Leviticus that it is the part of the offerer to place his hand on the head of the offering, and it says in such simplicity and directness, \"and it shall be accepted for him\" (chap 1: 4) - for him - and it seems to me that the excellence of Christ as He offered Himself to God would be that which we could identify ourselves with and understand something of what our acceptance is in Him."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Quite so. It puts that great principle, that we need to regard and act on, in true perspective when we view it from that point of view."
+     "speaker": "FMK",
+     "text": [
+      "Is that confirmed in that they gathered together as one man to Jerusalem? Does that mean that they were fully in accord with the foundation that was laid and what was upon it?"
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "If we take things on except as a result of being attracted to Christ it will just be formal and we shall find that we are quickly marked by a spirit of self-righteousness. Attraction to Christ must lead in the power of the Spirit to separation from everything that is out of keeping with the living God. Attraction to the One who is the Christ the Son of the living God is a primary matter, is it not?"
+     "speaker": "EP",
+     "text": [
+      "Yes, it is delightful to see that, that they were unified, and this is expressed in their appreciation of what was due to God, morning and evening. Not a day passed but this appreciation of Christ was presented to God. It seems to me that if we are identified with that kind of thing it keeps us tender and sensitive as to what is due to God. You cannot be identified with the offering of Christ, the sacrifice of Christ, and retain any hard or legal outlook on things; it keeps us tender and sensitive as to what is rightly due to God."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "So Mr Darby said that His very speaking 'Calls me from earth apart' - not from the world but 'Calls me from earth apart', as if He was the alone object for that beloved man's soul at that time."
+     "speaker": "CRB",
+     "text": [
+      "Why does it begin on the first day of the seventh month?"
+     ]
     },
     {
-     "text": "A.T. Would Peter come into the good of these words of the Lord Jesus when He said \"Blessed art thou, Simon Barjona\"? Would these blessings come into his life when on the mount - association, and all these glories that he entered into?"
+     "speaker": "EP",
+     "text": [
+      "I do not know; perhaps you would tell us."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Peter accumulated experience so when the test came - \"if it be thou, command me to come to thee\" (Mat 14: 28) - it is all gathered up in Peter's soul, focused in that Person."
+     "speaker": "CRB",
+     "text": [
+      "It seems to be emphasised in both verse 1 and verse 6. It was the day of the memorial of blowing of trumpets, was it not, leading up to the tenth day, the day of atonement?"
+     ]
     },
     {
-     "text": "With regard to the recovery and revival referred to in Ezra, those who returned to Jerusalem built the altar of the God of Israel to offer up burnt-offerings on it, as is written in the law of Moses the man of God. It does not say they offered up sin-offerings, they offered up burnt-offerings, and they set the altar on its base for fear was upon them because of the people of the countries; and they offered up burnt· offerings unto Jehovah, morning and evening burntofferings. I just emphasise that because the burntoffering in a special way speaks of what the Lord met and endured, and the way that He offered Himself in view of the fulfilment of the will of God, providing a basis from which His will could be worked out in a manner that vindicated and glorified Him. The altar is set on its base; Christ is both the sacrifice and the altar, and I thought that the Person of Christ and the manner of His offering up to God in this setting of the burnt-offering is basic in these days of recovery; that must be held to. Is that right teaching?"
+     "speaker": "EP",
+     "text": [
+      "Yes, so there is a testimony connected with it, and the great day of atonement set God free in relation to the people, and set the people free in relation to Him, because everything would have been met before God on that day. The sins of the people on that day were confessed over the head of the goat and sent right away."
+     ]
     },
     {
-     "speaker": "E.M.W.",
-     "text": "I think so, as far as I understand it. You had something more in mind about the burnt-offerings and not sin-offerings. I notice it is the morning and evening burnt-offerings."
+     "speaker": "FCM",
+     "text": [
+      "Does it indicate then that in a day of recovery (and things must have seemed quite small here) God's greatest thoughts and the completion of them in the seventh month are to be before us and to be embraced, and the assurance of them, in the light of the burnt-offering?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I notice as to the burnt-offering in Leviticus that it is the part of the offerer to place his hand on the head of the offering, and it says in such simplicity and directness, \"and it shall be accepted for him\" (chap 1: 4) - for him - and it seems to me that the excellence of Christ as He offered Himself to God would be that which we could identify ourselves with and understand something of what our acceptance is in Him."
+     "speaker": "EP",
+     "text": [
+      "I like that word 'assurance', because every one of us needs assurance at some time or other, and what shakes many of us sometimes is untoward circumstances. But this takes us beyond circumstances, it takes us outside the range of that, and these things - the sacrifice of Christ, the foundation that is laid - are unchanging. Let the circumstances be what they are, they are under God's hand anyway. So that would comfort and encourage us."
+     ]
     },
     {
-     "speaker": "F.M.K.",
-     "text": "Is that confirmed in that they gathered together as one man to Jerusalem? Does that mean that they were fully in accord with the foundation that was laid and what was upon it?"
+     "speaker": "FCM",
+     "text": [
+      "We think constantly of brethren from meetings maybe thousands of miles away from their nearest brethren, in numerical smallness; these things hold good irrespective of the circumstances."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, it is delightful to see that, that they were unified, and this is expressed in their appreciation of what was due to God, morning and evening. Not a day passed but this appreciation of Christ was presented to God. It seems to me that if we are identified with that kind of thing it keeps us tender and sensitive as to what is due to God. You cannot be identified with the offering of Christ, the sacrifice of Christ, and retain any hard or legal outlook on things; it keeps us tender and sensitive as to what is rightly due to God."
+     "speaker": "EP",
+     "text": [
+      "They do indeed, and they hold good universally."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Why does it begin on the first day of the seventh month?"
+     "speaker": "DJH",
+     "text": [
+      "Is that why it says \"for fear was upon them because of the people of the countries\"? It seems as though they rose above that, fear and a sense of being under attack, as they laid hold of this great matter of the burnt-offering."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I do not know; perhaps you would tell us."
+     "speaker": "EP",
+     "text": [
+      "That helps very much and we would say to one another, let us do that. My concern is that we want to find out how divine things - God's things that through grace we are in touch with - work, otherwise it becomes a kind of theory."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "It seems to be emphasised in both verse 1 and verse 6. It was the day of the memorial of blowing of trumpets, was it not, leading up to the tenth day, the day of atonement?"
+     "speaker": "FNS",
+     "text": [
+      "Is not the over-riding consideration in a burnt-offering what there is for God. The note to the first use of the word burnt-offering is in Genesis 8 and it is an 'odour of rest'. God smells an odour of rest for the satisfaction of His own heart."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, so there is a testimony connected with it, and the great day of atonement set God free in relation to the people, and set the people free in relation to Him, because everything would have been met before God on that day. The sins of the people on that day were confessed over the head of the goat and sent right away."
+     "speaker": "EP",
+     "text": [
+      "Yes, and it was offered, as you know, on that particular occasion when the earth had been rid of corruption by judgment and Noah had come out of that ark; he offered those clean animals as burnt-offerings, and God smelled an odour of rest. It speaks in a peculiar way of the excellence of Christ as fragrant to God."
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "Does it indicate then that in a day of recovery (and things must have seemed quite small here) God's greatest thoughts and the completion of them in the seventh month are to be before us and to be embraced, and the assurance of them, in the light of the burnt-offering?"
+     "speaker": "CRB",
+     "text": [
+      "Is it interesting that John's gospel, which brings out the glory of the burnt-offering, brings in that reference to Jesus as the only-begotten Son?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I like that word 'assurance', because every one of us needs assurance at some time or other, and what shakes many of us sometimes is untoward circumstances. But this takes us beyond circumstances, it takes us outside the range of that, and these things - the sacrifice of Christ, the foundation that is laid - are unchanging. Let the circumstances be what they are, they are under God's hand anyway. So that would comfort and encourage us."
+     "speaker": "EP",
+     "text": [
+      "Does that confirm what Mr Stickland has said that it is peculiarly for God?"
+     ]
     },
     {
-     "speaker": "F.C.M.",
-     "text": "We think constantly of brethren from meetings maybe thousands of miles away from their nearest brethren, in numerical smallness; these things hold good irrespective of the circumstances."
+     "speaker": "CRB",
+     "text": [
+      "Yes, I wondered whether it is remarkable that the Spirit of God brings in that peculiar reference of unique affection, \"the only-begotten\", It is not exactly the Christ the Son of the living God, that lies behind it; but the only-begotten is a peculiarly intimate touch which we are privileged to be drawn into some understanding of."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "They do indeed, and they hold good universally."
+     "speaker": "EP",
+     "text": [
+      "Yes, directly related to divine affection, were you thinking?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Is that why it says \"for fear was upon them because of the people of the countries\"? It seems as though they rose above that, fear and a sense of being under attack, as they laid hold of this great matter of the burnt-offering."
+     "speaker": "CRB",
+     "text": [
+      "Yes; John says \"and we have contemplated his glory, a glory as of an only-begotten with a father\" chap 1: 14. That is John's reference really to the mount of transfiguration, but it colours the whole gospel, does it not, and enriches the worship?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "That helps very much and we would say to one another, let us do that. My concern is that we want to find out how divine things - God's things that through grace we are in touch with - work, otherwise it becomes a kind of theory."
+     "speaker": "EP",
+     "text": [
+      "I am sure that is good and stimulating to us."
+     ]
     },
     {
-     "speaker": "F.N.S.",
-     "text": "Is not the over-riding consideration in a burnt-offering what there is for God. The note to the first use of the word burnt-offering is in Genesis 8 and it is an 'odour of rest'. God smells an odour of rest for the satisfaction of His own heart."
+     "speaker": "FNS",
+     "text": [
+      "Would you make a remark about the altar set on its base; it seems to be in line with your general theme through these meetings."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, and it was offered, as you know, on that particular occasion when the earth had been rid of corruption by judgment and Noah had come out of that ark; he offered those clean animals as burnt-offerings, and God smelled an odour of rest. It speaks in a peculiar way of the excellence of Christ as fragrant to God."
+     "speaker": "EP",
+     "text": [
+      "I thought it showed that the altar and the base, the foundation, are really one thing. Christ is not only the sacrifice, as we said earlier, but He is the altar, able to sustain all that was necessary for the glory of God; that Man was able to sustain it. He sustained it on account of who He is but He sustained it in manhood. Then the base would be the stability of such a thing; it is set up on its base and, as was said, it is really the answer to any intimidation that was around at that time."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Is it interesting that John's gospel, which brings out the glory of the burnt-offering, brings in that reference to Jesus as the only-begotten Son?"
+     "speaker": "ECM",
+     "text": [
+      "Do you connect the base with \"the firm foundation of God stands\"?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Does that confirm what Mr Stickland has said that it is peculiarly for God?"
+     "speaker": "EP",
+     "text": [
+      "Well, Mr Darby helps us about that in the note to 2 Tim 2: 19 because he does not say what it is or of what, but it is just the fact; and I think that does help with regard to this particular scripture because it is brought in to convey an impression of immovable stability. Nothing can shake it, nothing can move it, and it stands, come what will; that is strengthening to the heart."
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Yes, I wondered whether it is remarkable that the Spirit of God brings in that peculiar reference of unique affection, \"the only-begotten\", It is not exactly the Christ the Son of the living God, that lies behind it; but the only-begotten is a peculiarly intimate touch which we are privileged to be drawn into some understanding of."
+     "speaker": "ECM",
+     "text": [
+      "He makes much of the reference to 'firm', not just the foundation of God but the firm foundation of God stands."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, directly related to divine affection, were you thinking?"
+     "speaker": "DER",
+     "text": [
+      "Recovery is to first principles, according to \"the law of Moses the man of God\". But the first thing they do is to build the altar, and then subsequently they build the house. Is there instruction in that?"
+     ]
     },
     {
-     "speaker": "C.R.B.",
-     "text": "Yes; John says \"and we have contemplated his glory, a glory as of an only-begotten with a father\" chap 1: 14. That is John's reference really to the mount of transfiguration, but it colours the whole gospel, does it not, and enriches the worship?"
+     "speaker": "EP",
+     "text": [
+      "Yes, it is the order presented in relation to the tabernacle - the ark first and then that which was to house the ark. I think the reference to divine principles - we call them first principles which is right is essential, and there are certain principles laid down in regard to a time when outwardly things would be in confusion. But I note in passing with regard to Ezra that in chapter 4 there was an attempt by some to build with them which they refused; they said this is to be in our hands and so far that was right. It was to be entirely in their hands but how to sustain that in the presence of the opposition was another thing. So what happened was, just to follow the history through rapidly, that God raised up prophets, Haggai and Zechariah, and the effect was that what was caused to cease by the opposition was taken up again, the building recommenced. I verily feel that the maintenance of what is exclusive for Christ must be supported by the current word of God, the mind of God made known at the present time. Mr Burr has referred to the smaller meetings, and we are very thankful to know that many of them, perhaps most of them, maintain week by week the prophetic meeting. I believe it is calculated to sustain the brethren in a position - I use that word rightly I trust - that is exclusively for God."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I am sure that is good and stimulating to us."
+     "speaker": "CAG",
+     "text": [
+      "So the edification of 1 Corinthians 14, the edification of the assembly, is the same expression as \"I will build my assembly\"."
+     ]
     },
     {
-     "speaker": "F.N.S.",
-     "text": "Would you make a remark about the altar set on its base; it seems to be in line with your general theme through these meetings."
+     "speaker": "EP",
+     "text": [
+      "That helps because to be separate is right, but it has to be maintained in the appreciation of current speaking from God. So when we come to the meeting for prophetic ministry we are there waiting to hear what God is going to say to us, what the Lord will say."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "I thought it showed that the altar and the base, the foundation, are really one thing. Christ is not only the sacrifice, as we said earlier, but He is the altar, able to sustain all that was necessary for the glory of God; that Man was able to sustain it. He sustained it on account of who He is but He sustained it in manhood. Then the base would be the stability of such a thing; it is set up on its base and, as was said, it is really the answer to any intimidation that was around at that time."
+     "speaker": "TF",
+     "text": [
+      "In chapter 3 it says that they gathered together as one man. Is that important in relation to what you are saying now? Would things be maintained on that basis?"
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "Do you connect the base with \"the firm foundation of God stands\"?"
+     "speaker": "EP",
+     "text": [
+      "Unity is an essential requirement; to use Mr Walkinshaw's expression, the good teaching tells us that unless there is unity we know nothing of union. But being together as one man is essential and they actually take certain movements in that light. Then they are attacked and whilst they declare their determination to be exclusively for God, not to let any of those who had no right to build with them, at the same time it is proved by the experience that they need to be maintained by the prophetic word. Then in chapter 6 we find that God comes in and confirms the rightness of what they were doing. He confirms it by the decree of a king and search is made and they find this that has been written by Cyrus, and Darius sends his instruction and the work proceeds and is completed."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Well, Mr Darby helps us about that in the note to 2 Tim 2: 19 because he does not say what it is or of what, but it is just the fact; and I think that does help with regard to this particular scripture because it is brought in to convey an impression of immovable stability. Nothing can shake it, nothing can move it, and it stands, come what will; that is strengthening to the heart."
+     "speaker": "GWE",
+     "text": [
+      "Is the word 'let' in 2 Timothy like a call?"
+     ]
     },
     {
-     "speaker": "E.C.M.",
-     "text": "He makes much of the reference to 'firm', not just the foundation of God but the firm foundation of God stands."
+     "speaker": "EP",
+     "text": [
+      "Yes, and if that word is used it has to be implemented. So just to touch 2 Timothy, it was to call attention to what has been referred to already, that the firm foundation of God stands; yet the firm foundation of God stands in spite of all that is extant, \"having this seal, The Lord knows those that are his\". And then \"and\"; that conjunction puts the sides of the seal in relation to one another."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "Recovery is to first principles, according to \"the law of Moses the man of God\". But the first thing they do is to build the altar, and then subsequently they build the house. Is there instruction in that?"
+     "speaker": "DEB",
+     "text": [
+      "It is interesting that in both Ezra 6 and 2 Timothy 2 you get a reference to gold and silver vessels and it says that they are to be restored in their place."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, it is the order presented in relation to the tabernacle - the ark first and then that which was to house the ark. I think the reference to divine principles - we call them first principles which is right is essential, and there are certain principles laid down in regard to a time when outwardly things would be in confusion. But I note in passing with regard to Ezra that in chapter 4 there was an attempt by some to build with them which they refused; they said this is to be in our hands and so far that was right. It was to be entirely in their hands but how to sustain that in the presence of the opposition was another thing. So what happened was, just to follow the history through rapidly, that God raised up prophets, Haggai and Zechariah, and the effect was that what was caused to cease by the opposition was taken up again, the building recommenced. I verily feel that the maintenance of what is exclusive for Christ must be supported by the current word of God, the mind of God made known at the present time. Mr Burr has referred to the smaller meetings, and we are very thankful to know that many of them, perhaps most of them, maintain week by week the prophetic meeting. I believe it is calculated to sustain the brethren in a position - I use that word rightly I trust - that is exclusively for God."
+     "speaker": "EP",
+     "text": [
+      "Very good, I had not noticed that before; say something more."
+     ]
     },
     {
-     "speaker": "C.A.G.",
-     "text": "So the edification of 1 Corinthians 14, the edification of the assembly, is the same expression as \"I will build my assembly\"."
+     "speaker": "DEB",
+     "text": [
+      "The emphasis is rightly enough on separation in 2 Timothy 2, but is not the objective that the silver and gold vessels should be in their right place, that is in the temple if you like in relation to the service of God?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "That helps because to be separate is right, but it has to be maintained in the appreciation of current speaking from God. So when we come to the meeting for prophetic ministry we are there waiting to hear what God is going to say to us, what the Lord will say."
+     "speaker": "EP",
+     "text": [
+      "Quite so. So separation is essential to the individual in 2 Timothy but the result does not remain like that. But it is essential that every one of us should face the matter of being separate from everything that dishonours the name of the Lord. \"Let every one who names the name of the Lord\" would be everybody that says, I am a Christian. They name His name, but there is an authoritative word: let \"every one who names the name of the Lord withdraw from iniquity\" - leave anything and everything that dishonours the name of the Lord."
+     ]
     },
     {
-     "speaker": "T.F.",
-     "text": "In chapter 3 it says that they gathered together as one man. Is that important in relation to what you are saying now? Would things be maintained on that basis?"
+     "speaker": "AAB",
+     "text": [
+      "Is it important to see that there are two parts in this exhortation? The one covers what you have referred to as the necessity for separation and the other the positiveness of following righteousness, faith, love, peace in order that the vessels may be set in their place in the temple to which Mr Burr has referred. The second step is essential, is it not?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Unity is an essential requirement; to use Mr Walkinshaw's expression, the good teaching tells us that unless there is unity we know nothing of union. But being together as one man is essential and they actually take certain movements in that light. Then they are attacked and whilst they declare their determination to be exclusively for God, not to let any of those who had no right to build with them, at the same time it is proved by the experience that they need to be maintained by the prophetic word. Then in chapter 6 we find that God comes in and confirms the rightness of what they were doing. He confirms it by the decree of a king and search is made and they find this that has been written by Cyrus, and Darius sends his instruction and the work proceeds and is completed."
+     "speaker": "EP",
+     "text": [
+      "It is an essential consequence upon taking the first one."
+     ]
     },
     {
-     "speaker": "G.W.E.",
-     "text": "Is the word 'let' in 2 Timothy like a call?"
+     "speaker": "AAB",
+     "text": [
+      "But many are failing to take it; many of our brethren have gained, no doubt, great relief from disconnecting themselves from evil but they remain unconnected with those who follow righteousness, faith, love and peace."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, and if that word is used it has to be implemented. So just to touch 2 Timothy, it was to call attention to what has been referred to already, that the firm foundation of God stands; yet the firm foundation of God stands in spite of all that is extant, \"having this seal, The Lord knows those that are his\". And then \"and\"; that conjunction puts the sides of the seal in relation to one another."
+     "speaker": "EP",
+     "text": [
+      "There is a word in the prophets: \"Wash you, make you clean... cease to do evil, learn to do well\", Isa 1: 16, 17."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "It is interesting that in both Ezra 6 and 2 Timothy 2 you get a reference to gold and silver vessels and it says that they are to be restored in their place."
+     "speaker": "AAB",
+     "text": [
+      "There is a very valuable piece of Mr Stoney's entitled 'The Snare of a Step in the Right Direction' (see Vol 9, p. 39)."
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Very good, I had not noticed that before; say something more."
+     "speaker": "EP",
+     "text": [
+      "Yes, that can be commended I am sure to the brethren."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "The emphasis is rightly enough on separation in 2 Timothy 2, but is not the objective that the silver and gold vessels should be in their right place, that is in the temple if you like in relation to the service of God?"
+     "speaker": "SDKR",
+     "text": [
+      "Then would righteousness, including practical righteousness, be mainly the rights of Christ?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Quite so. So separation is essential to the individual in 2 Timothy but the result does not remain like that. But it is essential that every one of us should face the matter of being separate from everything that dishonours the name of the Lord. \"Let every one who names the name of the Lord\" would be everybody that says, I am a Christian. They name His name, but there is an authoritative word: let \"every one who names the name of the Lord withdraw from iniquity\" - leave anything and everything that dishonours the name of the Lord."
+     "speaker": "EP",
+     "text": [
+      "Surely, that must be so."
+     ]
     },
     {
-     "speaker": "A A.B.",
-     "text": "Is it important to see that there are two parts in this exhortation? The one covers what you have referred to as the necessity for separation and the other the positiveness of following righteousness, faith, love, peace in order that the vessels may be set in their place in the temple to which Mr Burr has referred. The second step is essential, is it not?"
+     "speaker": "CCI",
+     "text": [
+      "Is it a vital necessity to know what it is to be alone before really enjoying the fellowship to which we are called? Most of us here have been born in the circle where the truth is and have been brought up in the enjoyment of an environment of fellowship. A century ago it was completely different. Do you think this principle remains, that I am to be alone before enjoying collective privileges?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "It is an essential consequence upon taking the first one."
+     "speaker": "EP",
+     "text": [
+      "Yes, I am sure that is the truth and I expect most of us have read that the company is reached through Christ, not Christ through the company. That is the way of it, that each one of us is to have that personal link, whether it be in this setting or initially, but especially in this setting, if we are to know what it is to pursue righteousness, faith, love and peace with those that call on the Lord out of a pure heart. We have to take our place as 'one' - \"Let every one\". If we have been brought up in fellowship, thank God for it. If we have been in the presence of the truth since childhood, we could thank God for that too. Some of us have not, but the fact is that there comes a point when it is necessary to have this transaction with the Lord personally."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "But many are failing to take it; many of our brethren have gained, no doubt, great relief from disconnecting themselves from evil but they remain unconnected with those who follow righteousness, faith, love and peace."
+     "speaker": "FNS",
+     "text": [
+      "And does it underline the thought you brought out early in the meetings, that we are not just to assent to the truth but to practise it? Following means action of faith and affection and obedience, and probably that is more necessary for those who have been brought up in the environment where the fellowship has been enjoyed by others. Is it not easy to agree to things and not practise them?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "There is a word in the prophets: \"Wash you, make you clean... cease to do evil, learn to do well\", Isa 1: 16, 17."
+     "speaker": "EP",
+     "text": [
+      "That is right. We were speaking in the house yesterday of a Christian who said, I have believed twice. I questioned this lady as to that, and she said, Well, you know what it is when you are young and all the family go to the meeting, you do not want to be one out so you just say you believe and you go; but there comes a time in your history when you really have to do with the Lord for yourself, and that was the second time that I believed. Now I think there is some point in that. So let us encourage one another, let us encourage our young folks, to have to do with the Lord personally and do not let anything get in your way. There are specific instructions from the Lord Himself. You have somewhere you can go and shut the door. You do that and tell the Lord that you want to have this link with Him in a real way personally, and you will find that you will enjoy your place in the meeting ever so much more."
+     ]
     },
     {
-     "speaker": "A.A.B.",
-     "text": "There is a very valuable piece of Mr Stoney's entitled 'The Snare of a Step in the Right Direction' (see Vol 9, p. 39)."
+     "speaker": "EHW",
+     "text": [
+      "In Isaiah 1: 16, which you quoted, it says \"Wash you, make you clean; put away the evil of your doings from before mine eyes\". Do we need to realise that God can see what is done, what steps we might make in whatever way it is?"
+     ]
     },
     {
-     "speaker": "E.P.",
-     "text": "Yes, that can be commended I am sure to the brethren."
-    },
-    {
-     "speaker": "S.D.K.R.",
-     "text": "Then would righteousness, including practical righteousness, be mainly the rights of Christ?"
-    },
-    {
-     "speaker": "E.P.",
-     "text": "Surely, that must be so."
-    },
-    {
-     "speaker": "C.C.I.",
-     "text": "Is it a vital necessity to know what it is to be alone before really enjoying the fellowship to which we are called? Most of us here have been born in the circle where the truth is and have been brought up in the enjoyment of an environment of fellowship. A century ago it was completely different. Do you think this principle remains, that I am to be alone before enjoying collective privileges?"
-    },
-    {
-     "speaker": "E.P.",
-     "text": "Yes, I am sure that is the truth and I expect most of us have read that the company is reached through Christ, not Christ through the company. That is the way of it, that each one of us is to have that personal link, whether it be in this setting or initially, but especially in this setting, if we are to know what it is to pursue righteousness, faith, love and peace with those that call on the Lord out of a pure heart. We have to take our place as 'one' - \"Let every one\". If we have been brought up in fellowship, thank God for it. If we have been in the presence of the truth since childhood, we could thank God for that too. Some of us have not, but the fact is that there comes a point when it is necessary to have this transaction with the Lord personally."
-    },
-    {
-     "speaker": "F.N.S.",
-     "text": "And does it underline the thought you brought out early in the meetings, that we are not just to assent to the truth but to practise it? Following means action of faith and affection and obedience, and probably that is more necessary for those who have been brought up in the environment where the fellowship has been enjoyed by others. Is it not easy to agree to things and not practise them?"
-    },
-    {
-     "speaker": "E.P.",
-     "text": "That is right. We were speaking in the house yesterday of a Christian who said, I have believed twice. I questioned this lady as to that, and she said, Well, you know what it is when you are young and all the family go to the meeting, you do not want to be one out so you just say you believe and you go; but there comes a time in your history when you really have to do with the Lord for yourself, and that was the second time that I believed. Now I think there is some point in that. So let us encourage one another, let us encourage our young folks, to have to do with the Lord personally and do not let anything get in your way. There are specific instructions from the Lord Himself. You have somewhere you can go and shut the door. You do that and tell the Lord that you want to have this link with Him in a real way personally, and you will find that you will enjoy your place in the meeting ever so much more."
-    },
-    {
-     "speaker": "E.H.W.",
-     "text": "In Isaiah 1: 16, which you quoted, it says \"Wash you, make you clean; put away the evil of your doings from before mine eyes\". Do we need to realise that God can see what is done, what steps we might make in whatever way it is?"
-    },
-    {
-     "speaker": "E.P.",
-     "text": "Yes, and He will help us to learn to do well, to do what is pleasing to Him."
+     "speaker": "EP",
+     "text": [
+      "Yes, and He will help us to learn to do well, to do what is pleasing to Him."
+     ]
     }
    ]
   },
@@ -815,6 +1083,44 @@
      "text": "The result of these experiences was a doxology or 'glory-word'. Gideon built an altar, which for Christians means the enjoyment of holy friendship with God through the work of Jesus. Because he saw how he had been blessed he called the altar \"Jehovah Shallom\" meaning 'God of Peace'. It is one of the many things in the Scriptures said to be there \"to this day\". Can you find some more?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "GOD'S FOUNDATION (ii)",
+   "kind": "no_comma_before_place",
+   "detail": "\"D.E.Burr Redbridge\" read as D. E. Burr, Redbridge"
+  },
+  {
+   "article": 1,
+   "title": "GOD'S FOUNDATION (ii)",
+   "kind": "no_comma_before_place",
+   "detail": "\"C.A.Gray Helston\" read as C. A. Gray, Helston"
+  },
+  {
+   "article": 1,
+   "title": "GOD'S FOUNDATION (ii)",
+   "kind": "no_comma_before_place",
+   "detail": "\"F.N.Stickland Redbridge\" read as F. N. Stickland, Redbridge"
+  },
+  {
+   "article": 1,
+   "title": "GOD'S FOUNDATION (ii)",
+   "kind": "no_comma_before_place",
+   "detail": "\"R.E.Turner St Albans\" read as R. E. Turner, St Albans"
+  },
+  {
+   "article": 1,
+   "title": "GOD'S FOUNDATION (ii)",
+   "kind": "initials_before_name",
+   "detail": "19 entries written as initials then name (\"WTA ...\")"
+  },
+  {
+   "article": 1,
+   "title": "GOD'S FOUNDATION (ii)",
+   "kind": "speaker_not_in_key",
+   "detail": "DJ (in the text)"
   }
  ]
 }

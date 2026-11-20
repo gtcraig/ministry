@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -37,10 +37,13 @@
     "GAB",
     "RG",
     "TM",
+    "RWMcC",
     "DCB",
     "RT",
     "DTP",
     "AGM",
+    "WWL",
+    "PAG",
     "JW"
    ],
    "initials": [
@@ -70,7 +73,7 @@
      "place": "Dundee"
     },
     {
-     "initials": "RWM",
+     "initials": "RWMcC",
      "name": "R W McClean",
      "place": "Grimsby"
     },
@@ -85,7 +88,7 @@
      "place": "Cullen"
     },
     {
-     "initials": "BWL",
+     "initials": "WWL",
      "name": "B W Lovie",
      "place": "Aberdeen"
     },
@@ -118,6 +121,10 @@
      "initials": "JW",
      "name": "J Webster",
      "place": "Fraserburgh"
+    },
+    {
+     "initials": "PAG",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to Initials:",
@@ -127,659 +134,793 @@
    "paragraphs": [
     {
      "speaker": "AM",
-     "text": "I think we had a distinct sense this morning of having part in a response to divine Persons in singing. As we gather together for the Supper - we have said it so often, we know it well - we gather together in the wilderness. But we started with the words:"
-    },
-    {
-     "text": "Jesus our Lord, of Thee, the King,"
-    },
-    {
-     "text": "Our song shall ever be;"
-    },
-    {
-     "text": "(Hymn 150)."
-    },
-    {
-     "text": "As the service proceeded, the spirits of the brethren were caught up in response to divine Persons in song. That is a very blessed thing. In the old dispensation, God waited a long time before He had a collective response in song. There was the song of redemption in Exodus 15, but really the service of song awaited David. I think God was waiting for that because it is an exalted level of response that He receives in song."
-    },
-    {
-     "text": "In the Song of Songs where we read, the Beloved speaks. There is what has gone before. “The winter is past”, He says. He has gone through the winter; He has experienced it; He has known what it is to experience the cold."
-    },
-    {
-     "text": "The winter is past,"
-    },
-    {
-     "text": "The rain is over, it is gone."
-    },
-    {
-     "text": "All the circumstances that the Lord passed through in flesh and blood condition are now complete; they are over. He is now in another condition altogether and, typically, He says, “The time of singing is come”. There was a sense this morning - it was expressed in thanksgiving more than once - that something has begun that is eternal: “The time of singing is come”. He goes on to speak about the fruit that there is and what is fragrant to Himself, and then He says,"
-    },
-    {
-     "text": "Let me see thy countenance,"
-    },
-    {
-     "text": "let me hear thy voice."
-    },
-    {
-     "text": "The Lord has received, on account of the way He has been, that which is so pleasing to His own affections and He says, “Let me hear thy voice”. How precious that is!"
-    },
-    {
-     "text": "But then we had a very precious touch this morning. The Lord has gained the assembly for Himself, but it is as if He would take account of the assembly and say this is a vessel that is suited to the praises of God. So He says, “in the midst of the assembly will I sing thy praises”. Think of the desires of the Lord that there should be an answer to God, and the very vessel which answers to His own affections is the vessel in which He can lead in the praises to God. How great the assembly is! Let us just ponder that as we speak together: there is a creature vessel of which every one of us here who knows the Lord and has received the Holy Spirit forms part. Every one of us forms part of that vessel, and it is a creature vessel which is capable of satisfying the heart of the Lord Jesus and is capable of satisfying God in the way of response. How wonderful that is! He says, “in the midst of the assembly will I sing thy praises”. Think of Christ Himself, His voice being raised! He leads in the response to God, and God is satisfied. In the prophet it says, “he will rest in his love; he will exult over thee with singing”. That is an extraordinary expression. It is not there exactly in what He hears, but He will joy over His own with singing. You think of the saints being caught up together in a oneness with divine Persons in this great chorus that is eternal in character."
-    },
-    {
-     "text": "So the psalmist says, “Let everything that hath breath praise Jah”. The whole universe ultimately will be responsive to God, “everything that hath breath”. Think of that, every family, the assembly, of course, the greatest of them all, but “everything that hath breath” praising Jah!"
-    },
-    {
-     "text": "These are the thoughts that have been in my mind since we had the occasion this morning."
+     "text": [
+      "I think we had a distinct sense this morning of having part in a response to divine Persons in singing. As we gather together for the Supper - we have said it so often, we know it well - we gather together in the wilderness. But we started with the words:",
+      "Jesus our Lord, of Thee, the King,",
+      "Our song shall ever be;",
+      "(Hymn 150).",
+      "As the service proceeded, the spirits of the brethren were caught up in response to divine Persons in song. That is a very blessed thing. In the old dispensation, God waited a long time before He had a collective response in song. There was the song of redemption in Exodus 15, but really the service of song awaited David. I think God was waiting for that because it is an exalted level of response that He receives in song.",
+      "In the Song of Songs where we read, the Beloved speaks. There is what has gone before. “The winter is past”, He says. He has gone through the winter; He has experienced it; He has known what it is to experience the cold.",
+      "The winter is past,",
+      "The rain is over, it is gone.",
+      "All the circumstances that the Lord passed through in flesh and blood condition are now complete; they are over. He is now in another condition altogether and, typically, He says, “The time of singing is come”. There was a sense this morning - it was expressed in thanksgiving more than once - that something has begun that is eternal: “The time of singing is come”. He goes on to speak about the fruit that there is and what is fragrant to Himself, and then He says,",
+      "Let me see thy countenance,",
+      "let me hear thy voice.",
+      "The Lord has received, on account of the way He has been, that which is so pleasing to His own affections and He says, “Let me hear thy voice”. How precious that is!",
+      "But then we had a very precious touch this morning. The Lord has gained the assembly for Himself, but it is as if He would take account of the assembly and say this is a vessel that is suited to the praises of God. So He says, “in the midst of the assembly will I sing thy praises”. Think of the desires of the Lord that there should be an answer to God, and the very vessel which answers to His own affections is the vessel in which He can lead in the praises to God. How great the assembly is! Let us just ponder that as we speak together: there is a creature vessel of which every one of us here who knows the Lord and has received the Holy Spirit forms part. Every one of us forms part of that vessel, and it is a creature vessel which is capable of satisfying the heart of the Lord Jesus and is capable of satisfying God in the way of response. How wonderful that is! He says, “in the midst of the assembly will I sing thy praises”. Think of Christ Himself, His voice being raised! He leads in the response to God, and God is satisfied. In the prophet it says, “he will rest in his love; he will exult over thee with singing”. That is an extraordinary expression. It is not there exactly in what He hears, but He will joy over His own with singing. You think of the saints being caught up together in a oneness with divine Persons in this great chorus that is eternal in character.",
+      "So the psalmist says, “Let everything that hath breath praise Jah”. The whole universe ultimately will be responsive to God, “everything that hath breath”. Think of that, every family, the assembly, of course, the greatest of them all, but “everything that hath breath” praising Jah!",
+      "These are the thoughts that have been in my mind since we had the occasion this morning."
+     ]
     },
     {
      "speaker": "EJM",
-     "text": "It says in 2 Chronicles 29, “Hezekiah commanded to offer up the burnt-offering on the altar. And at the moment the burnt-offering began, the song of Jehovah began, and the trumpets, accompanied by the instruments of David king of Israel”, v 27. Do you think at the moment the burnt-offering began, we come together in limitation and smallness, but as soon as the burnt-offering is offered up, the service of God begins? In song we are really lifted into it, are we not?"
+     "text": [
+      "It says in 2 Chronicles 29, “Hezekiah commanded to offer up the burnt-offering on the altar. And at the moment the burnt-offering began, the song of Jehovah began, and the trumpets, accompanied by the instruments of David king of Israel”, v 27. Do you think at the moment the burnt-offering began, we come together in limitation and smallness, but as soon as the burnt-offering is offered up, the service of God begins? In song we are really lifted into it, are we not?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is good. Yes, we are, and as that chapter goes on, we find that towards the end there are the drink-offerings, v 35. That is really like the pouring out in song. It is like the voices of the saints being lifted together in song to God. It is good to draw attention to Hezekiah, because that was a day when things were not in their pristine glory, but the service of God was maintained. The instruments of David were there; the burnt-offering was there - Christ in His devotion to the will of God, in all His perfection going even into death - and the service went on in song."
+     "text": [
+      "That is good. Yes, we are, and as that chapter goes on, we find that towards the end there are the drink-offerings, v 35. That is really like the pouring out in song. It is like the voices of the saints being lifted together in song to God. It is good to draw attention to Hezekiah, because that was a day when things were not in their pristine glory, but the service of God was maintained. The instruments of David were there; the burnt-offering was there - Christ in His devotion to the will of God, in all His perfection going even into death - and the service went on in song."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "They started to sing as they were leaving the wilderness in Numbers 21. They had the exercise of the red heifer just before that so their hearts were free; and their spirits were free to lift them up and cause their hearts to sing ere they left the wilderness."
+     "text": [
+      "They started to sing as they were leaving the wilderness in Numbers 21. They had the exercise of the red heifer just before that so their hearts were free; and their spirits were free to lift them up and cause their hearts to sing ere they left the wilderness."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is right. They were singing to the well: “Rise up, well! sing unto it”, v 17. There are three songs in the wilderness. There is the song of redemption:"
-    },
-    {
-     "text": "I will sing unto Jehovah,"
-    },
-    {
-     "text": "for he is highly exalted:"
-    },
-    {
-     "text": "The horse and his rider"
-    },
-    {
-     "text": "hath he thrown into the sea,"
-    },
-    {
-     "text": "Exod 15: 1."
-    },
-    {
-     "text": "Then there is the song to the springing well, and after that we get the song of Moses: “And Moses spoke in the ears of the whole congregation of Israel the words of this song”, Deut 31: 30. He is going over all of God’s ways, His ways with the people. You get that at the end of Deuteronomy. Think of how in every circumstance God was receiving a response!"
+     "text": [
+      "That is right. They were singing to the well: “Rise up, well! sing unto it”, v 17. There are three songs in the wilderness. There is the song of redemption:",
+      "I will sing unto Jehovah,",
+      "for he is highly exalted:",
+      "The horse and his rider",
+      "hath he thrown into the sea,",
+      "Exod 15: 1.",
+      "Then there is the song to the springing well, and after that we get the song of Moses: “And Moses spoke in the ears of the whole congregation of Israel the words of this song”, Deut 31: 30. He is going over all of God’s ways, His ways with the people. You get that at the end of Deuteronomy. Think of how in every circumstance God was receiving a response!"
+     ]
     },
     {
      "speaker": "RB",
-     "text": "You come to the Supper with a song in your heart."
+     "text": [
+      "You come to the Supper with a song in your heart."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, you do. We often pray at home that as we come up to the Supper, as the saints come together, there may be a springing up of hearts, in response to divine love."
+     "text": [
+      "Yes, you do. We often pray at home that as we come up to the Supper, as the saints come together, there may be a springing up of hearts, in response to divine love."
+     ]
     },
     {
      "speaker": "GBG",
-     "text": "Do you think it is unifying? In 2 Chronicles 5, when Solomon had finished building the house of Jehovah, it says, “it came to pass when the trumpeters and singers were as one, to make one voice to be heard in praising and thanking Jehovah”, v 13. We experience that. We are all different in character, but we are unified in our spirits, are we not?"
+     "text": [
+      "Do you think it is unifying? In 2 Chronicles 5, when Solomon had finished building the house of Jehovah, it says, “it came to pass when the trumpeters and singers were as one, to make one voice to be heard in praising and thanking Jehovah”, v 13. We experience that. We are all different in character, but we are unified in our spirits, are we not?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is right. There is variety, and that is good, but there is a oneness about it. That is a marvellous section because what you find there is that even though it is not the present dispensation, what is official comes to an end. It can no longer function. The service is carried on by One, the Son: “Then said Solomon”, chap 6: 1. The service is carried on by Him. You might say He has unified the whole company, and the service continues under His guidance."
+     "text": [
+      "That is right. There is variety, and that is good, but there is a oneness about it. That is a marvellous section because what you find there is that even though it is not the present dispensation, what is official comes to an end. It can no longer function. The service is carried on by One, the Son: “Then said Solomon”, chap 6: 1. The service is carried on by Him. You might say He has unified the whole company, and the service continues under His guidance."
+     ]
     },
     {
      "speaker": "GBG",
-     "text": "Love does that. Love cannot be official."
+     "text": [
+      "Love does that. Love cannot be official."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "No, indeed. That is right, and so we are drawn to Christ. We were drawn to Him initially, but we are continually drawn to Him, and we are drawn to Him as He leads in relation to the service of God."
+     "text": [
+      "No, indeed. That is right, and so we are drawn to Christ. We were drawn to Him initially, but we are continually drawn to Him, and we are drawn to Him as He leads in relation to the service of God."
+     ]
     },
     {
      "speaker": "JS",
-     "text": "Does the first hymn have a bearing on that? We are occupied with the Lord Jesus together and we are set together in a responsive way in the sense of praise to Himself immediately, do you think?"
+     "text": [
+      "Does the first hymn have a bearing on that? We are occupied with the Lord Jesus together and we are set together in a responsive way in the sense of praise to Himself immediately, do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I think so. I am glad you have referred to that. I do not say this critically, because no one has less right to be critical of the brethren than I have, but I do appreciate it when the first hymn is addressed to the Lord. Occasionally we may have a hymn or a song which is not directly addressed to Him, but there is something that sets the saints together in relation to the Lord when it is addressed to Him, do you think?"
+     "text": [
+      "I think so. I am glad you have referred to that. I do not say this critically, because no one has less right to be critical of the brethren than I have, but I do appreciate it when the first hymn is addressed to the Lord. Occasionally we may have a hymn or a song which is not directly addressed to Him, but there is something that sets the saints together in relation to the Lord when it is addressed to Him, do you think?"
+     ]
     },
     {
      "speaker": "JS",
-     "text": "I think so; so we started with number 4 this morning:"
-    },
-    {
-     "text": "Thine is the love, Lord, that draws us together,"
-    },
-    {
-     "text": "and we are drawn together to Him in our links with one another. We come from different places and different situations, but He is before us and our affections are drawn out."
+     "text": [
+      "I think so; so we started with number 4 this morning:",
+      "Thine is the love, Lord, that draws us together,",
+      "and we are drawn together to Him in our links with one another. We come from different places and different situations, but He is before us and our affections are drawn out."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, that is right; so the saints are united. Even before they have the sense of the Lord coming in, the saints are united together in relation to Him. So He comes to a company that are gathered together for Him."
+     "text": [
+      "Yes, that is right; so the saints are united. Even before they have the sense of the Lord coming in, the saints are united together in relation to Him. So He comes to a company that are gathered together for Him."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "When the Supper was inaugurated, it says, “And having sung a hymn, they went out ...”, Matt 26: 30. There were places the Lord had to go where they could not go, but there He takes them with Him. I was thinking of what you are suggesting, that the Lord finds something there that He can use in regard to the service of song to the Father and to God."
+     "text": [
+      "When the Supper was inaugurated, it says, “And having sung a hymn, they went out ...”, Matt 26: 30. There were places the Lord had to go where they could not go, but there He takes them with Him. I was thinking of what you are suggesting, that the Lord finds something there that He can use in regard to the service of song to the Father and to God."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, and that is a very affecting thing as it came at the end of His service down here in flesh and blood condition, and there was that circle, those few souls, all His own work, and He could engage them in song. Would you think that that would be to the Father?"
+     "text": [
+      "Yes, and that is a very affecting thing as it came at the end of His service down here in flesh and blood condition, and there was that circle, those few souls, all His own work, and He could engage them in song. Would you think that that would be to the Father?"
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "I suppose it would be. We do not really know, of course. It has been said it might have been a psalm. I have often thought it probably was a psalm but in New Testament terms it is called a hymn, which takes you on to another level, does it not?"
+     "text": [
+      "I suppose it would be. We do not really know, of course. It has been said it might have been a psalm. I have often thought it probably was a psalm but in New Testament terms it is called a hymn, which takes you on to another level, does it not?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I was quite impressed in the interval, in looking through, the number of headings to the psalms where it says, “A Psalm: a Song”. So a psalm could be an up-springing of heart as well."
+     "text": [
+      "I was quite impressed in the interval, in looking through, the number of headings to the psalms where it says, “A Psalm: a Song”. So a psalm could be an up-springing of heart as well."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Mr James Taylor once said, 'It does not say who gave out the hymn, but I have no doubt the Lord did', vol 37 p59. The Lord is in control because there is an environment for this kind of singing to proceed, do you think?"
+     "text": [
+      "Mr James Taylor once said, 'It does not say who gave out the hymn, but I have no doubt the Lord did', vol 37 p59. The Lord is in control because there is an environment for this kind of singing to proceed, do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is right; so He is the Minister of the holy places, Heb 8: 2. He leads us. He is in control as we come to the Father. It is not a legal control; it is His headship. We are led by Him, and it is in view of the Father receiving His portion."
+     "text": [
+      "That is right; so He is the Minister of the holy places, Heb 8: 2. He leads us. He is in control as we come to the Father. It is not a legal control; it is His headship. We are led by Him, and it is in view of the Father receiving His portion."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "That is good, because it is fine to have a song, but it is finer to have a place to sing that song that is suitable to the song. So Hezekiah says, “And we will play upon my stringed instruments all the days of our life, in the house of Jehovah”, Isa 38: 20. At one point in the psalms they said, “How should we sing a song of Jehovah’s upon a foreign soil?” Ps 137: 4. But when you are not on foreign soil, when you are in the house of Jehovah, when you are in the assembly light too, then the singing can proceed and give God pleasure."
+     "text": [
+      "That is good, because it is fine to have a song, but it is finer to have a place to sing that song that is suitable to the song. So Hezekiah says, “And we will play upon my stringed instruments all the days of our life, in the house of Jehovah”, Isa 38: 20. At one point in the psalms they said, “How should we sing a song of Jehovah’s upon a foreign soil?” Ps 137: 4. But when you are not on foreign soil, when you are in the house of Jehovah, when you are in the assembly light too, then the singing can proceed and give God pleasure."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is good. It is in His own environment. We can come into the presence of God without fear. It is His own environment, and hearts can be lifted up in song."
+     "text": [
+      "That is good. It is in His own environment. We can come into the presence of God without fear. It is His own environment, and hearts can be lifted up in song."
+     ]
     },
     {
      "speaker": "EJM",
-     "text": "Have you some thought as to the turtle-dove here?"
+     "text": [
+      "Have you some thought as to the turtle-dove here?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Not particularly. Say something. You can help us about that."
+     "text": [
+      "Not particularly. Say something. You can help us about that."
+     ]
     },
     {
      "speaker": "EJM",
-     "text": "It is just after it says, “The time of singing is come” that it says, “And the voice of the turtle-dove is heard in our land”. It may be some allusion to the Holy Spirit, because it is really in His power that we are united to Christ. “No-one can say, Lord Jesus, unless in the power of the Holy Spirit”, 1 Cor 12: 3. We should enlarge in our thanksgivings to the Spirit when we are thinking of this."
+     "text": [
+      "It is just after it says, “The time of singing is come” that it says, “And the voice of the turtle-dove is heard in our land”. It may be some allusion to the Holy Spirit, because it is really in His power that we are united to Christ. “No-one can say, Lord Jesus, unless in the power of the Holy Spirit”, 1 Cor 12: 3. We should enlarge in our thanksgivings to the Spirit when we are thinking of this."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I find it a test as to what I can say to divine Persons about themselves. What can I say to the Lord about Himself? I can speak of His work. What can I say to the Holy Spirit about Himself? Again, I am well aware of His grace and His care. What can I say to the Father about Himself?"
+     "text": [
+      "I find it a test as to what I can say to divine Persons about themselves. What can I say to the Lord about Himself? I can speak of His work. What can I say to the Holy Spirit about Himself? Again, I am well aware of His grace and His care. What can I say to the Father about Himself?"
+     ]
     },
     {
      "speaker": "EJM",
-     "text": "In chapter 5 the spouse has something to say about Him, beginning with His being,"
-    },
-    {
-     "text": "The chiefest among ten thousand."
-    },
-    {
-     "text": "His head is as the finest gold;"
-    },
-    {
-     "text": "His locks are flowing, black as the raven ..."
-    },
-    {
-     "text": "v 10, 11."
+     "text": [
+      "In chapter 5 the spouse has something to say about Him, beginning with His being,",
+      "The chiefest among ten thousand.",
+      "His head is as the finest gold;",
+      "His locks are flowing, black as the raven ...",
+      "v 10, 11."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, that is right. And she ends with, “His mouth is most sweet”, v 16. That is the final touch. She hears that voice. It is the voice of the Beloved. She speaks about it here,"
-    },
-    {
-     "text": "The voice of my beloved!"
-    },
-    {
-     "text": "Behold, he cometh,"
-    },
-    {
-     "text": "chap 2: 8."
-    },
-    {
-     "text": "That is a touch from Him, that quickening touch."
+     "text": [
+      "Yes, that is right. And she ends with, “His mouth is most sweet”, v 16. That is the final touch. She hears that voice. It is the voice of the Beloved. She speaks about it here,",
+      "The voice of my beloved!",
+      "Behold, he cometh,",
+      "chap 2: 8.",
+      "That is a touch from Him, that quickening touch."
+     ]
     },
     {
      "speaker": "TM",
-     "text": "Would you say something as to the new song in Revelation 5?"
+     "text": [
+      "Would you say something as to the new song in Revelation 5?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I was wondering about that. That is an interesting scene. We have the four living creatures and the twenty-four elders. At the end of chapter 4 they are saying, “Thou art worthy, O our Lord and our God … for thou hast created all things, and for thy will they were, and they have been created”, v 11. That is the greatness of the Creator. But in chapter 5 “they sing a new song”. In chapter 4 it is not a song: they say these words; but in chapter 5 “they sing a new song, saying, Thou art worthy to take the book, and to open its seals; because thou hast been slain, and hast redeemed to God, by thy blood, out of every tribe, and tongue, and people, and nation”, v 9. It is redemption. I think it is right to say that singing begins with redemption, and here are these four living creatures and twenty-four elders representing all of God’s ways in time and all that has been secured through His ways, and they are saying, “Thou art worthy”. We sang this morning:"
-    },
-    {
-     "text": "Worthy by all to be adored,"
-    },
-    {
-     "text": "(Hymn 195)"
-    },
-    {
-     "text": "and here it is, “because thou … hast redeemed to God, by thy blood, out of every tribe, and tongue, and people, and nation”. They are taking account of the Lamb here in a sacrificial way, are they not? “Thou hast been slain”. It is a sacrificial view of the Lamb here, and the result of that is what is for God."
+     "text": [
+      "I was wondering about that. That is an interesting scene. We have the four living creatures and the twenty-four elders. At the end of chapter 4 they are saying, “Thou art worthy, O our Lord and our God … for thou hast created all things, and for thy will they were, and they have been created”, v 11. That is the greatness of the Creator. But in chapter 5 “they sing a new song”. In chapter 4 it is not a song: they say these words; but in chapter 5 “they sing a new song, saying, Thou art worthy to take the book, and to open its seals; because thou hast been slain, and hast redeemed to God, by thy blood, out of every tribe, and tongue, and people, and nation”, v 9. It is redemption. I think it is right to say that singing begins with redemption, and here are these four living creatures and twenty-four elders representing all of God’s ways in time and all that has been secured through His ways, and they are saying, “Thou art worthy”. We sang this morning:",
+      "Worthy by all to be adored,",
+      "(Hymn 195)",
+      "and here it is, “because thou … hast redeemed to God, by thy blood, out of every tribe, and tongue, and people, and nation”. They are taking account of the Lamb here in a sacrificial way, are they not? “Thou hast been slain”. It is a sacrificial view of the Lamb here, and the result of that is what is for God."
+     ]
     },
     {
      "speaker": "TM",
-     "text": "It was the wonderful result of redemption that it is “out of every tribe, and tongue, and people, and nation”, the great response there will be as a result of that."
+     "text": [
+      "It was the wonderful result of redemption that it is “out of every tribe, and tongue, and people, and nation”, the great response there will be as a result of that."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "It is a heavenly celebration of what, in type, took place on the banks of the Red Sea, the work of redemption; but there is one thing we need to lay hold of about redemption and that is that we have been “redeemed to God”. The work of redemption is for God. You might say, 'Well, I thought it was to relieve me of my sins'. It does that, but it is for God, in order that I should be for God. If I am conscious of the fact that I have been redeemed at all, then it is that I should be for God."
+     "text": [
+      "It is a heavenly celebration of what, in type, took place on the banks of the Red Sea, the work of redemption; but there is one thing we need to lay hold of about redemption and that is that we have been “redeemed to God”. The work of redemption is for God. You might say, 'Well, I thought it was to relieve me of my sins'. It does that, but it is for God, in order that I should be for God. If I am conscious of the fact that I have been redeemed at all, then it is that I should be for God."
+     ]
     },
     {
-     "text": "RWMcC You referenced the heading of a lot of the psalms speaking of song. A good number are from the sons of Korah. Do you think that brings in the thought of redemption, but then what is secured through that for the service of God?"
-    },
-    {
-     "speaker": "AM",
-     "text": "1 Chronicles 6: 31 says, “And these are they whom David set over the service of song in the house of Jehovah after that the ark was in rest”. Then it goes on, “Of the sons of the Kohathites” (v 33), and as you run through the list of names, you find “the son of Korah”, v 38. There they are. You think of those psalms: “Of the sons of Korah”. You read those psalms - many were obviously written in David’s time or later - and there were those who could trace their genealogy back, and they could say, ‘I am an object of mercy’, and the service of God is enriched through such. Can you say some more?"
-    },
-    {
-     "text": "RWMcC In Psalm 48 it says,"
-    },
-    {
-     "text": "We have thought, O God,"
-    },
-    {
-     "text": "of thy loving-kindness,"
-    },
-    {
-     "text": "in the midst of thy temple"
-    },
-    {
-     "text": "- it does not say it is a ‘song’ there, but -"
-    },
-    {
-     "text": "According to thy name,"
-    },
-    {
-     "text": "O God, so is thy praise unto"
-    },
-    {
-     "text": "the ends of the earth,"
-    },
-    {
-     "text": "v 9, 10."
+     "speaker": "RWMcC",
+     "text": [
+      "You referenced the heading of a lot of the psalms speaking of song. A good number are from the sons of Korah. Do you think that brings in the thought of redemption, but then what is secured through that for the service of God?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "What a fine psalm that is. That comes into the service of God frequently:"
+     "text": [
+      "1 Chronicles 6: 31 says, “And these are they whom David set over the service of song in the house of Jehovah after that the ark was in rest”. Then it goes on, “Of the sons of the Kohathites” (v 33), and as you run through the list of names, you find “the son of Korah”, v 38. There they are. You think of those psalms: “Of the sons of Korah”. You read those psalms - many were obviously written in David’s time or later - and there were those who could trace their genealogy back, and they could say, ‘I am an object of mercy’, and the service of God is enriched through such. Can you say some more?"
+     ]
     },
     {
-     "text": "As is thy Name so is Thy praise;"
+     "speaker": "RWMcC",
+     "text": [
+      "In Psalm 48 it says,",
+      "We have thought, O God,",
+      "of thy loving-kindness,",
+      "in the midst of thy temple",
+      "- it does not say it is a ‘song’ there, but -",
+      "According to thy name,",
+      "O God, so is thy praise unto",
+      "the ends of the earth,",
+      "v 9, 10."
+     ]
     },
     {
-     "text": "(Hymn 237)."
-    },
-    {
-     "text": "What a sense that wonderful psalm gives of the assembly, a place where God has set His Name. “Beautiful in elevation, the joy of the whole earth, is mount Zion, on the sides of the north, the city of the great King”, v 2. Think of the greatness of the sphere in which God is being served!"
+     "speaker": "AM",
+     "text": [
+      "What a fine psalm that is. That comes into the service of God frequently:",
+      "As is thy Name so is Thy praise;",
+      "(Hymn 237).",
+      "What a sense that wonderful psalm gives of the assembly, a place where God has set His Name. “Beautiful in elevation, the joy of the whole earth, is mount Zion, on the sides of the north, the city of the great King”, v 2. Think of the greatness of the sphere in which God is being served!"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "You mentioned the time, “the winter is past”. Is it necessary to have an increasing appreciation of the sufferings of Christ as giving us the background for the service of song?"
+     "text": [
+      "You mentioned the time, “the winter is past”. Is it necessary to have an increasing appreciation of the sufferings of Christ as giving us the background for the service of song?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I think so. It recurs through the Song of Songs. The loved One is constantly being brought back to the fact that He has been through the winter. In chapter 5 it is the night:"
-    },
-    {
-     "text": "Open to me…"
-    },
-    {
-     "text": "For my head is filled with dew,"
-    },
-    {
-     "text": "My locks with the drops of the night,"
-    },
-    {
-     "text": "v 2."
-    },
-    {
-     "text": "He has been through the night. He appeals to our affections on that basis and do you not think that the emblems before us when we come together appeal to our affections? It is good just to sit and contemplate the emblems before the Supper, as they speak to us of the way in which He has been. He would say, ‘I went that way for you’. “This is my body … This cup is the new covenant in my blood”, Luke 22: 19. 20. Think of how it has all been secured by that One, so that our affections are softened, are they not, and quickened as He comes in so that there is a response to Him?"
+     "text": [
+      "I think so. It recurs through the Song of Songs. The loved One is constantly being brought back to the fact that He has been through the winter. In chapter 5 it is the night:",
+      "Open to me…",
+      "For my head is filled with dew,",
+      "My locks with the drops of the night,",
+      "v 2.",
+      "He has been through the night. He appeals to our affections on that basis and do you not think that the emblems before us when we come together appeal to our affections? It is good just to sit and contemplate the emblems before the Supper, as they speak to us of the way in which He has been. He would say, ‘I went that way for you’. “This is my body … This cup is the new covenant in my blood”, Luke 22: 19. 20. Think of how it has all been secured by that One, so that our affections are softened, are they not, and quickened as He comes in so that there is a response to Him?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "“The winter is past”; would that be not only for Christ but for us?"
+     "text": [
+      "“The winter is past”; would that be not only for Christ but for us?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Go on. Say some more about that."
+     "text": [
+      "Go on. Say some more about that."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "We have some sense that the winter is past for us. We do not bring the memory of it exactly but we bring the formation, as being formed in the winter, to be pleasing to Him."
+     "text": [
+      "We have some sense that the winter is past for us. We do not bring the memory of it exactly but we bring the formation, as being formed in the winter, to be pleasing to Him."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is right, and so the saints are lifted up in their spirits. They are lifted up in relation to another world where there is no winter. Say some more."
+     "text": [
+      "That is right, and so the saints are lifted up in their spirits. They are lifted up in relation to another world where there is no winter. Say some more."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "So we should be ready to go!"
+     "text": [
+      "So we should be ready to go!"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, indeed. I think it is good if there is a quick response to the Lord. When we get a sense of the presence of the Lord, we would respond immediately and be with Him in His movements."
+     "text": [
+      "Yes, indeed. I think it is good if there is a quick response to the Lord. When we get a sense of the presence of the Lord, we would respond immediately and be with Him in His movements."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "Would the scripture you read in Hebrews 2 be a greater thought than what we have before us here in the Song of Songs?"
+     "text": [
+      "Would the scripture you read in Hebrews 2 be a greater thought than what we have before us here in the Song of Songs?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I think in Hebrews we get the Lord’s own feelings. Divine Persons are totally unselfish. The Lord has the assembly for Himself, but this morning something was said that just left that touch in my mind, that He would take account of the assembly and say, ‘I can use this vessel for the service of the Father. This is suitable for the praises of the Father’. So we ascend. It is an ascending line, is it not? We are moving on and we are moving upwards to what the Lord really has in His mind, that there should be something for the Father, do you think?"
+     "text": [
+      "I think in Hebrews we get the Lord’s own feelings. Divine Persons are totally unselfish. The Lord has the assembly for Himself, but this morning something was said that just left that touch in my mind, that He would take account of the assembly and say, ‘I can use this vessel for the service of the Father. This is suitable for the praises of the Father’. So we ascend. It is an ascending line, is it not? We are moving on and we are moving upwards to what the Lord really has in His mind, that there should be something for the Father, do you think?"
+     ]
     },
     {
      "speaker": "RB",
-     "text": "I was thinking this was from Psalm 22. We can say that, when the Lord came out of death, He would have been thinking about His assembly, but He was thinking about what was for the Father’s heart, what had been secured through His death for the Father’s heart."
+     "text": [
+      "I was thinking this was from Psalm 22. We can say that, when the Lord came out of death, He would have been thinking about His assembly, but He was thinking about what was for the Father’s heart, what had been secured through His death for the Father’s heart."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is right and so that word as He comes out of death is “Woman”, v 15. There is really that which would express the assembly. And then He says, “my Father and your Father … my God and your God”, v 17. His priority is not to claim what is for Himself. He receives that anyway, but He holds it in relation to the Father."
+     "text": [
+      "That is right and so that word as He comes out of death is “Woman”, v 15. There is really that which would express the assembly. And then He says, “my Father and your Father … my God and your God”, v 17. His priority is not to claim what is for Himself. He receives that anyway, but He holds it in relation to the Father."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "So this singing in the midst of the assembly would really be the enjoyment of the divine rest. That is where our hearts are set at liberty, in the divine rest, and nothing to intrude, nothing to disturb, love in its own resting place, and hearts can sing."
+     "text": [
+      "So this singing in the midst of the assembly would really be the enjoyment of the divine rest. That is where our hearts are set at liberty, in the divine rest, and nothing to intrude, nothing to disturb, love in its own resting place, and hearts can sing."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Think of the voice of the Lord Jesus being raised! He has an environment in which He can do this. His voice was raised alone when He was here as Man. He said, “I praise thee, Father”, Matt 11: 25. That was a response to God from one Man upon the earth, but now He has the assembly, and there is this collective response, this unified response, and He leads in it. It is a very precious thing."
+     "text": [
+      "Think of the voice of the Lord Jesus being raised! He has an environment in which He can do this. His voice was raised alone when He was here as Man. He said, “I praise thee, Father”, Matt 11: 25. That was a response to God from one Man upon the earth, but now He has the assembly, and there is this collective response, this unified response, and He leads in it. It is a very precious thing."
+     ]
     },
     {
      "speaker": "DTP",
-     "text": "There is something choice about, “Let me see thy countenance”. There is what the assembly is peculiarly for Himself, and it is choice and it proceeds from that. There is the countenance, and He wants to hear our voice too, the fulness of response."
+     "text": [
+      "There is something choice about, “Let me see thy countenance”. There is what the assembly is peculiarly for Himself, and it is choice and it proceeds from that. There is the countenance, and He wants to hear our voice too, the fulness of response."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "So the countenance would be uplifted for Him. There is nothing hidden. It is total, confiding affection in the One who is worthy of it."
+     "text": [
+      "So the countenance would be uplifted for Him. There is nothing hidden. It is total, confiding affection in the One who is worthy of it."
+     ]
     },
     {
      "speaker": "DTP",
-     "text": "There is a sweetness related to that. It is really where love is proved both from the Lord Himself, and also the fulness of it coming into expression in this one, the one He loves."
+     "text": [
+      "There is a sweetness related to that. It is really where love is proved both from the Lord Himself, and also the fulness of it coming into expression in this one, the one He loves."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "How much do we think of His own heart, the satisfaction of His own heart? That is really what is expressed here: “Let me see thy countenance, let me hear thy voice”. He is expressing His joy in the assembly, but it is for the satisfaction of His heart."
+     "text": [
+      "How much do we think of His own heart, the satisfaction of His own heart? That is really what is expressed here: “Let me see thy countenance, let me hear thy voice”. He is expressing His joy in the assembly, but it is for the satisfaction of His heart."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "Would you connect the last chapter of Hebrews with what we started with in the Song of Songs?"
+     "text": [
+      "Would you connect the last chapter of Hebrews with what we started with in the Song of Songs?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "You had better enlarge on that."
+     "text": [
+      "You had better enlarge on that."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "“Therefore let us go forth to him without the camp, bearing his reproach” (v 13) is like the north wind, the winter. But even at that point He says, “for we have not here an abiding city, but we seek the coming one. By him therefore let us offer the sacrifice of praise continually to God” - that comes in immediately. It is like the answer in the Song of Songs 2"
+     "text": [
+      "“Therefore let us go forth to him without the camp, bearing his reproach” (v 13) is like the north wind, the winter. But even at that point He says, “for we have not here an abiding city, but we seek the coming one. By him therefore let us offer the sacrifice of praise continually to God” - that comes in immediately. It is like the answer in the Song of Songs 2"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is good. We are going forth “to him” in Hebrews 13; we are with Him in the Song of Songs 2."
+     "text": [
+      "That is good. We are going forth “to him” in Hebrews 13; we are with Him in the Song of Songs 2."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "The winter is like going forth to Him, “bearing his reproach”. “Let us”, we are going out there, but then the other side is, “let us approach” (chap 10: 22), and we get the approach now in chapter 2 of the Song of Songs."
+     "text": [
+      "The winter is like going forth to Him, “bearing his reproach”. “Let us”, we are going out there, but then the other side is, “let us approach” (chap 10: 22), and we get the approach now in chapter 2 of the Song of Songs."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is helpful. Thank you."
+     "text": [
+      "That is helpful. Thank you."
+     ]
     },
     {
      "speaker": "AGM",
-     "text": "The title He uses is “My dove, in the clefts of the rock”. Do you think the assembly is sensitive and suitable for Christ? I was thinking of “the clefts of the rock” as really a reference to the effects of His death. “The rocks were rent” in Matthew (chap 27: 51), but I think the idea of “dove” is very important in that way."
+     "text": [
+      "The title He uses is “My dove, in the clefts of the rock”. Do you think the assembly is sensitive and suitable for Christ? I was thinking of “the clefts of the rock” as really a reference to the effects of His death. “The rocks were rent” in Matthew (chap 27: 51), but I think the idea of “dove” is very important in that way."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "It is as if there is a sensitivity wrought by the Holy Spirit that He finds in His assembly, “My dove, in the clefts of the rock”."
+     "text": [
+      "It is as if there is a sensitivity wrought by the Holy Spirit that He finds in His assembly, “My dove, in the clefts of the rock”.",
+      "I think it would be good to move on to Hebrews. There are those who are His brethren, those who are of His own order, but He quickly moves on to the assembly; it is the same personnel, but it is important to get a view of the assembly as one vessel, as a united vessel. We may think of the assembly as lots of believers, but the assembly is one vessel, one vessel that is capable of being taken by Christ in response to the Father."
+     ]
     },
     {
-     "text": "I think it would be good to move on to Hebrews. There are those who are His brethren, those who are of His own order, but He quickly moves on to the assembly; it is the same personnel, but it is important to get a view of the assembly as one vessel, as a united vessel. We may think of the assembly as lots of believers, but the assembly is one vessel, one vessel that is capable of being taken by Christ in response to the Father."
-    },
-    {
-     "text": "BL Is that why the word is changed from the psalm? It is “congregation” in Psalm 22: 22, but it is “assembly” here?"
-    },
-    {
-     "speaker": "AM",
-     "text": "That is right. There is dignity in the word “assembly”, what is dignified, what is exclusive to Him. Say some more."
-    },
-    {
-     "text": "BL “Congregation” is a collection of individuals."
+     "speaker": "WWL",
+     "text": [
+      "Is that why the word is changed from the psalm? It is “congregation” in Psalm 22: 22, but it is “assembly” here?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "And I think we need to be maintained in the sense that the assembly is a vessel, a holy and dignified vessel, that is suited to Christ Himself."
+     "text": [
+      "That is right. There is dignity in the word “assembly”, what is dignified, what is exclusive to Him. Say some more."
+     ]
+    },
+    {
+     "speaker": "WWL",
+     "text": [
+      "“Congregation” is a collection of individuals."
+     ]
+    },
+    {
+     "speaker": "AM",
+     "text": [
+      "And I think we need to be maintained in the sense that the assembly is a vessel, a holy and dignified vessel, that is suited to Christ Himself."
+     ]
     },
     {
      "speaker": "JS",
-     "text": "Do you think as we experience in the service what it is to be for the satisfaction of the heart of Christ and the enjoyment of His love, and union with Him, that would produce very sensitive feelings to know His promptings as He would lead us onwards?"
+     "text": [
+      "Do you think as we experience in the service what it is to be for the satisfaction of the heart of Christ and the enjoyment of His love, and union with Him, that would produce very sensitive feelings to know His promptings as He would lead us onwards?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I think so. That is good. So He has in mind movement to the Father. We can understand that somebody might want to prolong in unduly, but in fact His desires are to move on so that there should be a full answer to the Father. Is that what you think?"
+     "text": [
+      "I think so. That is good. So He has in mind movement to the Father. We can understand that somebody might want to prolong in unduly, but in fact His desires are to move on so that there should be a full answer to the Father. Is that what you think?"
+     ]
     },
     {
      "speaker": "JS",
-     "text": "Quite so. I thought the assembly having the experience of union would make her very sensitive as to His feelings and promptings immediately, do you think?"
+     "text": [
+      "Quite so. I thought the assembly having the experience of union would make her very sensitive as to His feelings and promptings immediately, do you think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, indeed. In a sense He does not have to say anything. As you say, it is His own feelings, His own promptings in relation to it, and the assembly would be conscious of that as united with Him."
+     "text": [
+      "Yes, indeed. In a sense He does not have to say anything. As you say, it is His own feelings, His own promptings in relation to it, and the assembly would be conscious of that as united with Him."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "In the reading of it you get the impression that the assembly has gathered round Him. He is “in the midst”."
+     "text": [
+      "In the reading of it you get the impression that the assembly has gathered round Him. He is “in the midst”."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Well, that is His place. Think of His voice being raised “in the midst”. I remember a brother who was addressing the Father - I am told his face was shining - and he spoke about the Lord praising the Father “in the midst of the assembly”, and he said, ‘We hear His voice. What must it be to Thee?’. Think of the Lord’s voice being raised to the Father “in the midst of the assembly”! He has the myriads who are with Him, who are one with Him in response to the Father. What must it be to the Father?"
+     "text": [
+      "Well, that is His place. Think of His voice being raised “in the midst”. I remember a brother who was addressing the Father - I am told his face was shining - and he spoke about the Lord praising the Father “in the midst of the assembly”, and he said, ‘We hear His voice. What must it be to Thee?’. Think of the Lord’s voice being raised to the Father “in the midst of the assembly”! He has the myriads who are with Him, who are one with Him in response to the Father. What must it be to the Father?"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Is it augmented by the assembly being with Him? He has already been in the presence of the Father. He went in there"
-    },
-    {
-     "text": "Received in glory bright up there,"
-    },
-    {
-     "text": "(Hymn 350)."
-    },
-    {
-     "text": "But the assembly being with Him adds something else to the song and the sweetness and the blessedness of the presence."
+     "text": [
+      "Is it augmented by the assembly being with Him? He has already been in the presence of the Father. He went in there",
+      "Received in glory bright up there,",
+      "(Hymn 350).",
+      "But the assembly being with Him adds something else to the song and the sweetness and the blessedness of the presence."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, it adds to it, and yet it does not introduce anything different, but it is adding to the richness and, you might say, greatness of what is for the Father’s pleasure."
+     "text": [
+      "Yes, it adds to it, and yet it does not introduce anything different, but it is adding to the richness and, you might say, greatness of what is for the Father’s pleasure."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "So we are there in sonship."
+     "text": [
+      "So we are there in sonship."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, that is right. The Lord’s brethren are the Father’s sons, and we are there in sonship, and all that that involves dignity, liberty, joy, intelligence: all these features that mark sons."
+     "text": [
+      "Yes, that is right. The Lord’s brethren are the Father’s sons, and we are there in sonship, and all that that involves dignity, liberty, joy, intelligence: all these features that mark sons."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "The psalmist speaks about “an instrument of ten strings”. Ps 92: 3. Each of these strings would be tightened to perfection to give a perfect note."
+     "text": [
+      "The psalmist speaks about “an instrument of ten strings”. Ps 92: 3. Each of these strings would be tightened to perfection to give a perfect note."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is right. There is a skill in playing a ten-stringed instrument. Think of the skill that is required, but the Lord strikes the chord, and He finds what is suited to the heart of God. Everything was suited to the heart of God in Him, but He finds it in His assembly. He can strike that chord and find that the response is perfect."
+     "text": [
+      "That is right. There is a skill in playing a ten-stringed instrument. Think of the skill that is required, but the Lord strikes the chord, and He finds what is suited to the heart of God. Everything was suited to the heart of God in Him, but He finds it in His assembly. He can strike that chord and find that the response is perfect."
+     ]
     },
     {
-     "text": "PAG Is one feature of the response that the assembly appreciates the economy into which God has come? We have spoken about the place that the Lord has, and the place that the Spirit has, and now the place that the Father has. That economy of love is uniquely appreciated by the assembly."
+     "speaker": "PAG",
+     "text": [
+      "Is one feature of the response that the assembly appreciates the economy into which God has come? We have spoken about the place that the Lord has, and the place that the Spirit has, and now the place that the Father has. That economy of love is uniquely appreciated by the assembly."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "The assembly is really in the full intelligence of the arrangements of divine Persons and can respond in that way. It is good that in the response to God it is not just that there is a response from the hearts in affection, but that it is suited to God. It is an intelligent response."
+     "text": [
+      "The assembly is really in the full intelligence of the arrangements of divine Persons and can respond in that way. It is good that in the response to God it is not just that there is a response from the hearts in affection, but that it is suited to God. It is an intelligent response."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "The psalm refers to God dwelling “amid the praises of Israel”, Ps 22: 3. I wondered if you see that, that God finds in this something that is His own resting place."
+     "text": [
+      "The psalm refers to God dwelling “amid the praises of Israel”, Ps 22: 3. I wondered if you see that, that God finds in this something that is His own resting place."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is right. It is as if God would say, 'This is what I have been working towards from the outset', and He rests in it. It says in Zephaniah, “he will rest in his love; he will exult over thee with singing”. The assembly in the presence of God forms a resting-place for God. He can actually find His rest there. You may think that is an extraordinary thing to say, but it is true. There is an eternal rest for God secured through the saints."
+     "text": [
+      "That is right. It is as if God would say, 'This is what I have been working towards from the outset', and He rests in it. It says in Zephaniah, “he will rest in his love; he will exult over thee with singing”. The assembly in the presence of God forms a resting-place for God. He can actually find His rest there. You may think that is an extraordinary thing to say, but it is true. There is an eternal rest for God secured through the saints."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "The type is often quoted, Jacob saying, “Bring them … to me” (Gen 48: 9); they “shall be mine”, v 5."
+     "text": [
+      "The type is often quoted, Jacob saying, “Bring them … to me” (Gen 48: 9); they “shall be mine”, v 5."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, that is right. They were those he could take account of and he could see their origin was in Joseph; they were Joseph’s seed, and he says, they “shall be mine”."
+     "text": [
+      "Yes, that is right. They were those he could take account of and he could see their origin was in Joseph; they were Joseph’s seed, and he says, they “shall be mine”."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "There would be elevation in a sense at that time, but that would be true as well. There is some sense of a further movement: they “shall be mine”. We come into the fulness of the divine purpose."
+     "text": [
+      "There would be elevation in a sense at that time, but that would be true as well. There is some sense of a further movement: they “shall be mine”. We come into the fulness of the divine purpose."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is right. What blessing to know that we are His and to have some understanding of divine purpose!"
+     "text": [
+      "That is right. What blessing to know that we are His and to have some understanding of divine purpose!"
+     ]
     },
     {
      "speaker": "RT",
-     "text": "“Let my name be named upon them”, v 16."
+     "text": [
+      "“Let my name be named upon them”, v 16."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "The Spirit of God gives us a beautiful touch in that section that Mr Taylor is referring to. It says, “he brought them nearer”, v 10."
+     "text": [
+      "The Spirit of God gives us a beautiful touch in that section that Mr Taylor is referring to. It says, “he brought them nearer”, v 10."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Our portion is that there is no distance, no distance at all. “Bring them … to me, that I may bless them”. There is to be no distance at all, and we have our place in the Father’s presence."
+     "text": [
+      "Our portion is that there is no distance, no distance at all. “Bring them … to me, that I may bless them”. There is to be no distance at all, and we have our place in the Father’s presence."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "I remember Mr A B Parker speaking on that verse. He said, ‘It says, “Bring them … to me, that I may bless them”, but the first thing he does is he kisses them before he blesses them’."
+     "text": [
+      "I remember Mr A B Parker speaking on that verse. He said, ‘It says, “Bring them … to me, that I may bless them”, but the first thing he does is he kisses them before he blesses them’."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is good, just to get a sense of the Father’s own affections. That is a fine touch. So as we come into the Father’s presence, it is without fear. There is reverence, but it is without fear, and there is a sense of welcome, the Father’s joy in having His sons in His own presence."
+     "text": [
+      "That is good, just to get a sense of the Father’s own affections. That is a fine touch. So as we come into the Father’s presence, it is without fear. There is reverence, but it is without fear, and there is a sense of welcome, the Father’s joy in having His sons in His own presence."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "“For both he that sanctifies and those sanctified are all of one”. It brings out wonderful harmony between the Lord’s own word and singing and those of His own. There is a unity and harmony, do you not think?"
+     "text": [
+      "“For both he that sanctifies and those sanctified are all of one”. It brings out wonderful harmony between the Lord’s own word and singing and those of His own. There is a unity and harmony, do you not think?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is right: “all of one”, all of one nature. It is a new order, another order of man altogether, “all of one”. Say some more."
+     "text": [
+      "That is right: “all of one”, all of one nature. It is a new order, another order of man altogether, “all of one”. Say some more."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "The Lord says in His prayer in John 17, “that the love with which thou hast loved me may be in them and I them”, v 26. We have the sense of the Father’s favour just as it is in Christ. Now, as united with Him, we can respond in that wonderful harmony."
+     "text": [
+      "The Lord says in His prayer in John 17, “that the love with which thou hast loved me may be in them and I them”, v 26. We have the sense of the Father’s favour just as it is in Christ. Now, as united with Him, we can respond in that wonderful harmony."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, and He also says in that prayer, “thou hast loved them as thou hast loved me”, v 23. I remember a brother, when I was young, raised a question in the meeting, which is the greater, the Father’s love for Christ or the Father’s love for you? Which is greater? Of course, I, as a lad, thought that it has to be the Father’s love for Christ. But it is the same love. We can understand the Father’s love for Christ, can we not? “Thou hast loved them as thou hast loved me” is the same love, one love, and we are brought into that scene of affection where the love that rests upon Christ rests upon His own, the same love. What a wonderful thing that is!"
+     "text": [
+      "Yes, and He also says in that prayer, “thou hast loved them as thou hast loved me”, v 23. I remember a brother, when I was young, raised a question in the meeting, which is the greater, the Father’s love for Christ or the Father’s love for you? Which is greater? Of course, I, as a lad, thought that it has to be the Father’s love for Christ. But it is the same love. We can understand the Father’s love for Christ, can we not? “Thou hast loved them as thou hast loved me” is the same love, one love, and we are brought into that scene of affection where the love that rests upon Christ rests upon His own, the same love. What a wonderful thing that is!"
+     ]
     },
     {
      "speaker": "GBG",
-     "text": "“Taken us into favour in the Beloved” (Eph 1: 6): that is like “the winter is past”."
+     "text": [
+      "“Taken us into favour in the Beloved” (Eph 1: 6): that is like “the winter is past”."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is good. Say some more."
+     "text": [
+      "That is good. Say some more."
+     ]
     },
     {
      "speaker": "GBG",
-     "text": "In that setting the sufferings and the sorrow of Christ are all over, “taken us into favour in the Beloved”, in Christ, in the Father’s presence, delighting in Him."
+     "text": [
+      "In that setting the sufferings and the sorrow of Christ are all over, “taken us into favour in the Beloved”, in Christ, in the Father’s presence, delighting in Him."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, that is right. What He means to the Father, and the Father looks upon the saints and He says, 'I am accepting you in all the worth of that One'. All He sees is Christ, is it not? He sees Christ in the saints."
+     "text": [
+      "Yes, that is right. What He means to the Father, and the Father looks upon the saints and He says, 'I am accepting you in all the worth of that One'. All He sees is Christ, is it not? He sees Christ in the saints."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "Shines on us now without recall,"
-    },
-    {
-     "text": "And lasts while Jesus lives."
-    },
-    {
-     "text": "(Hymn 26)"
+     "text": [
+      "Shines on us now without recall,",
+      "And lasts while Jesus lives.",
+      "(Hymn 26)"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is good. In those hymns of Mr Darby’s you see his joy in the knowledge of the Father’s love."
+     "text": [
+      "That is good. In those hymns of Mr Darby’s you see his joy in the knowledge of the Father’s love."
+     ]
     },
     {
      "speaker": "RG",
-     "text": "That all links with what Mr Taylor was referring to in relation to Jacob. Joseph says to them, “And behold, your eyes see, and the eyes of my brother Benjamin, that it is my mouth which speaks to you. And tell my father of all my glory”, Gen 45: 12, 13. It is a wonderful thing to have some sense that the voice of the Lord can be heard by us in this regard. “It is my mouth which speaks to you”. These are those that had opposed him; they had rejected him; they had sold him; but here they are in the complacency of love, secured through love, to be taken in to the Father, to understand before the Father, that the Father’s love was upon them as Joseph’s love was upon them."
+     "text": [
+      "That all links with what Mr Taylor was referring to in relation to Jacob. Joseph says to them, “And behold, your eyes see, and the eyes of my brother Benjamin, that it is my mouth which speaks to you. And tell my father of all my glory”, Gen 45: 12, 13. It is a wonderful thing to have some sense that the voice of the Lord can be heard by us in this regard. “It is my mouth which speaks to you”. These are those that had opposed him; they had rejected him; they had sold him; but here they are in the complacency of love, secured through love, to be taken in to the Father, to understand before the Father, that the Father’s love was upon them as Joseph’s love was upon them."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is very good. Well, you can understand Paul saying, “who has blessed us with every spiritual blessing in the heavenlies in Christ” (Eph 1: 3), the greatest blessings in the most exalted place secured in the most precious and the most blessed Man, all secured in Him; and you see it in type in Joseph, his brethren secured. It is Himself. Well, God has His delight in this: “he will rest in his love; he will exult over thee with singing”. Think of the heart of God exulting over His own, the joy of God over His own!"
+     "text": [
+      "That is very good. Well, you can understand Paul saying, “who has blessed us with every spiritual blessing in the heavenlies in Christ” (Eph 1: 3), the greatest blessings in the most exalted place secured in the most precious and the most blessed Man, all secured in Him; and you see it in type in Joseph, his brethren secured. It is Himself. Well, God has His delight in this: “he will rest in his love; he will exult over thee with singing”. Think of the heart of God exulting over His own, the joy of God over His own!"
+     ]
     },
     {
-     "text": "PAG Would we have some impression in this of what God has expended in order to secure what His heart was set on? I know it is a reference directly to the Father. We know that “God is a spirit; and they who worship him must worship him in spirit and truth”, John 4: 24. That is due to God. But “the Father seeks such as his worshippers”, v 23. God did not just purpose this in a past eternity and then wait for it all to come to fruition through some act of power. He has sought, He has been active, in order to secure what is dear to Him."
+     "speaker": "PAG",
+     "text": [
+      "Would we have some impression in this of what God has expended in order to secure what His heart was set on? I know it is a reference directly to the Father. We know that “God is a spirit; and they who worship him must worship him in spirit and truth”, John 4: 24. That is due to God. But “the Father seeks such as his worshippers”, v 23. God did not just purpose this in a past eternity and then wait for it all to come to fruition through some act of power. He has sought, He has been active, in order to secure what is dear to Him."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "God has a response that did come about through an act of power in angels. But think of the expenditure that there has been in order to secure a response in men, so that He should gain their affections and that His love should be known and that He Himself should be known. He will have in man what He will never have in angels, an expression of Himself, in man, in liberty and in joy in His own presence, responsive to Himself, and the glory is all His. What a wonderful thing, to think of the way in which God has worked, and that has taken the ages of time."
+     "text": [
+      "God has a response that did come about through an act of power in angels. But think of the expenditure that there has been in order to secure a response in men, so that He should gain their affections and that His love should be known and that He Himself should be known. He will have in man what He will never have in angels, an expression of Himself, in man, in liberty and in joy in His own presence, responsive to Himself, and the glory is all His. What a wonderful thing, to think of the way in which God has worked, and that has taken the ages of time."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "And He will display it throughout the countless ages of eternity for His own pleasure."
+     "text": [
+      "And He will display it throughout the countless ages of eternity for His own pleasure."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "He will display “the riches of his grace” (Eph 1: 7) in the coming ages. That is, what grace has secured, what could be secured in no other way, but that He has secured for His own joy and pleasure and He takes delight in displaying it. He will take delight in displaying what has been secured through grace and He will rest in it eternally."
+     "text": [
+      "He will display “the riches of his grace” (Eph 1: 7) in the coming ages. That is, what grace has secured, what could be secured in no other way, but that He has secured for His own joy and pleasure and He takes delight in displaying it. He will take delight in displaying what has been secured through grace and He will rest in it eternally."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "Canst all in love survey, Hymn 258."
+     "text": [
+      "Canst all in love survey, Hymn 258."
+     ]
     },
     {
      "speaker": "JW",
-     "text": "I was thinking of that poor woman in John 4 who had not found satisfaction, but she found it in Christ, and He was immediately thinking of what was due to the Father. She was just converted, and He was thinking of what was there for the Father’s pleasure."
+     "text": [
+      "I was thinking of that poor woman in John 4 who had not found satisfaction, but she found it in Christ, and He was immediately thinking of what was due to the Father. She was just converted, and He was thinking of what was there for the Father’s pleasure."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "And is that not what we have been taken up for? We have been taken up for the Father’s pleasure."
+     "text": [
+      "And is that not what we have been taken up for? We have been taken up for the Father’s pleasure."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "So there has been a great expenditure and energy of love to bring us in, but now He is resting. We sang this morning:"
-    },
-    {
-     "text": "Love in its own dwelling"
-    },
-    {
-     "text": "(Hymn 100)."
+     "text": [
+      "So there has been a great expenditure and energy of love to bring us in, but now He is resting. We sang this morning:",
+      "Love in its own dwelling",
+      "(Hymn 100)."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, that is good, so the striving, the cost, that was limited; the rest is eternal."
+     "text": [
+      "Yes, that is good, so the striving, the cost, that was limited; the rest is eternal."
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "There is a new voice here in this reference in Zephaniah, God Himself. Could you say something about that?"
+     "text": [
+      "There is a new voice here in this reference in Zephaniah, God Himself. Could you say something about that?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "I do not know that I could. I feel very limited about what I could say, but it just seems to me it is the expression of His own joy. What do you think?"
+     "text": [
+      "I do not know that I could. I feel very limited about what I could say, but it just seems to me it is the expression of His own joy. What do you think?"
+     ]
     },
     {
      "speaker": "DCB",
-     "text": "I do not know if I could say more. It affects our hearts that God Himself should look upon what is entirely according to His purpose and His pleasure and should sing because of it; it is for each one of us to be affected that God is singing because of us."
+     "text": [
+      "I do not know if I could say more. It affects our hearts that God Himself should look upon what is entirely according to His purpose and His pleasure and should sing because of it; it is for each one of us to be affected that God is singing because of us."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "It is an extraordinary thing to think of, but it must be so that He must secure what is completely in accord with His own mind and His own heart. He must secure it."
-    },
-    {
-     "text": "JD We use our bodies and our voices to sing, which is physical, but this is really spiritual response. I am looking for help, but we do not hear the Lord’s voice physically, but we know His headship, and we know Him singing through the saints and now the point we have reached here in relation to God is a spiritual matter."
+     "text": [
+      "It is an extraordinary thing to think of, but it must be so that He must secure what is completely in accord with His own mind and His own heart. He must secure it.",
+      "JD We use our bodies and our voices to sing, which is physical, but this is really spiritual response. I am looking for help, but we do not hear the Lord’s voice physically, but we know His headship, and we know Him singing through the saints and now the point we have reached here in relation to God is a spiritual matter."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "The whole realm of the Father is a spiritual realm, is it not? Yet we are caught up in it even though we are in these conditions and the saints’ voices are raised. I think we had a sense of that this morning. The saints were moved in response to divine Persons. There was a certain richness and liberty that was found as one after another gave expression in response to God."
+     "text": [
+      "The whole realm of the Father is a spiritual realm, is it not? Yet we are caught up in it even though we are in these conditions and the saints’ voices are raised. I think we had a sense of that this morning. The saints were moved in response to divine Persons. There was a certain richness and liberty that was found as one after another gave expression in response to God."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "Does what our brother says not bring out a further deep expression of the Spirit’s service to us in this very thing we are speaking about?"
+     "text": [
+      "Does what our brother says not bring out a further deep expression of the Spirit’s service to us in this very thing we are speaking about?"
+     ]
     },
     {
      "speaker": "AM",
-     "text": "Yes, help us."
+     "text": [
+      "Yes, help us."
+     ]
     },
     {
      "speaker": "RT",
-     "text": "At the end of Ephesians 3 where it is speaking about the eternal day, it says, “according to the power which works in us”, v 20. There is a power there all the time. It is not our physical bodies that are sustaining it, but the Spirit is there sustaining the whole thing for the Father’s pleasure."
+     "text": [
+      "At the end of Ephesians 3 where it is speaking about the eternal day, it says, “according to the power which works in us”, v 20. There is a power there all the time. It is not our physical bodies that are sustaining it, but the Spirit is there sustaining the whole thing for the Father’s pleasure."
+     ]
     },
     {
      "speaker": "AM",
-     "text": "That is good. That helps. And He has His part in that service. “For through him we have both access by one Spirit to the Father”, Eph 2: 18. He has His part in maintaining that service and sustaining the saints. As Christ leads in it, He sustains it."
+     "text": [
+      "That is good. That helps. And He has His part in that service. “For through him we have both access by one Spirit to the Father”, Eph 2: 18. He has His part in maintaining that service and sustaining the saints. As Christ leads in it, He sustains it."
+     ]
     }
    ]
   },
@@ -938,5 +1079,37 @@
  "back_matter": [
   "Edited and Published by",
   "David Brown and Andrew Burr 81 Roxburgh Road. West Norwood. London. SE27 OLE"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "RESPONSE TO GOD IN SONG",
+   "kind": "speaker_matched_loosely",
+   "detail": "BL used in the text for B W Lovie (key gives BWL)"
+  },
+  {
+   "article": 1,
+   "title": "RESPONSE TO GOD IN SONG",
+   "kind": "possible_speaker",
+   "detail": "JD opens one paragraph; not in the key, so not split"
+  },
+  {
+   "article": 1,
+   "title": "RESPONSE TO GOD IN SONG",
+   "kind": "speaker_not_in_key",
+   "detail": "PAG (2 paragraphs)"
+  },
+  {
+   "article": 1,
+   "title": "RESPONSE TO GOD IN SONG",
+   "kind": "speaker_matched_loosely",
+   "detail": "RWMcC used in the text for R W McClean (key gives RWM)"
+  },
+  {
+   "article": 1,
+   "title": "RESPONSE TO GOD IN SONG",
+   "kind": "person_fixed",
+   "detail": "B W Lovie: BL -> WWL (Bill W. Lovie)"
+  }
  ]
 }

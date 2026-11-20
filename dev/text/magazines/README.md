@@ -23,6 +23,7 @@ The scripts are in `dev/scripts` and use only the Python standard library.
 | Script                | What it does                                                         |
 |-----------------------|----------------------------------------------------------------------|
 | `build_magazines.py`  | Reads calibre's `metadata.db` (read-only), finds each issue's EPUB and writes the JSON here. By default builds only issues that have no JSON yet. |
+| `EXCEPTIONS.md` (here) | Regenerated on every build: each irregularity in the keys and speakers that the build worked round, by issue. Fix the EPUB in calibre and rebuild to clear an entry. |
 | `update_magazines.cmd` / `update_magazines.py` | Switches to the `magazine` branch, runs the build for anything missing, commits the new files, and switches back. |
 
 ```
@@ -54,6 +55,32 @@ Issues with no EPUB (NOM 195–205) are read from their DOCX.
    their own ("Key to Initials:", "LIST OF INITIALS:-", …) and sometimes a
    paragraph at the end of a reading. Either way the key is parsed and merged
    into the article it belongs to, the one before it, as `initials`.
+   The keys are typed inconsistently, so the parser also copes with a comma
+   where a semicolon belongs ("L E Oliver, S W Selman"), no comma before the
+   place ("C J Brien Aberdeen ID"), initials written before the name
+   ("A.A.B. A.A.Bellamy", "WTA W. T. Abbott"), stray headings, notes and OCR
+   fragments in the key, places in brackets ("D.McFarlane (New York)" is stored
+   as name and place, without the brackets; "(Jr)" and "(Snr)" stay with the
+   name), and "as in the January issue, plus ..." (names copied
+   from the nearest earlier issue's key). The key is then matched to the
+   initials the text actually uses, and each entry stores those: "L.McF." in
+   the text makes "L.McFarlane, New York" `LMcF`; "JSp" picks J. Spinks over
+   J. Strachan; "JTB(Gr)" picks the J. T. Brown marked Gr. A man known by his
+   second name (AGS in the text, "Graeme Smith" in the key) is matched when
+   only one entry fits. Speakers missing
+   from the key are added with `"not_in_key": true`, so their paragraphs are
+   still split. Every such case is recorded in the issue's `build_notes` and
+   listed in [EXCEPTIONS.md](EXCEPTIONS.md).
+   A default place in the key ("local unless otherwise stated", "London unless
+   otherwise stated", "all local in Aberdeen") is given to every name without
+   one; "local" is the place of the meeting. Titles (Dr., Mr.) stay in the name
+   but are not initials; Jnr / Snr stay in the name and appear in printed
+   initials as `(Jr)` / `(Snr)` (`PvdB(Jr)`). Editor and publisher lines end
+   the key.
+   **Known people.** `dev/scripts/magazine_people.json` lists men the keys name
+   inconsistently. It can fix their initials everywhere (Bill W. Lovie is
+   always `WWL`, in the key and in the text, whatever the issue printed) and
+   fill a place the key leaves out. Add to it rather than editing JSON by hand.
 4. **Article groups.** A heading with no text of its own ("AT TWO BURIALS - 1",
    "SOME FUNDAMENTALS -") is not an article: it becomes `group` on the article
    after it and on any following "(ii)", "(iii)" sub-articles.
@@ -129,7 +156,7 @@ may occasionally be missed or mis-assigned, in which case the line stays in
 
 | Field           | Meaning |
 |-----------------|---------|
-| `schema`        | Format version (currently `1`). |
+| `schema`        | Format version (currently `2`: speaker turns hold a list of paragraphs). |
 | `magazine`      | "A Word in its Season" or "Notes of Ministry". |
 | `code`          | `awiis` or `nom` (the folder). |
 | `series`        | `1` or `2` for AWIIS; `null` for NOM. |
@@ -142,6 +169,7 @@ may occasionally be missed or mis-assigned, in which case the line stays in
 | `article_count` | Number of articles. |
 | `articles`      | The articles, in order. |
 | `back_matter`   | Closing lines of the issue (publisher, printer, repeated contents). Optional. |
+| `build_notes`   | Irregularities the build worked round in this issue, each `{article, title, kind, detail}`. Optional. Collected into [EXCEPTIONS.md](EXCEPTIONS.md). |
 
 ### Article fields
 
@@ -160,8 +188,9 @@ Only `number`, `title` and `paragraphs` are always present.
 | `date`             | Date as printed, e.g. "4th October 2011", "28 April 1981". |
 | `servant`          | The brother named at the end of the article. |
 | `speakers`         | Distinct speaker initials in the order they first speak (readings). |
-| `initials`         | The merged Key / List of Initials: `initials` (as used in the text, derived from the name when the key does not give them), `name`, and `place` if given. |
+| `initials`         | The merged Key / List of Initials: `initials` (without dots, and in the form the text uses for that speaker, e.g. `DMcF` or `JSp`; derived from the name when the key does not give them), `name`, and `place` if given. `"not_in_key": true` (and no name) for a speaker the key leaves out. |
 | `initials_heading` | The key's heading as printed. |
+| `initials_comment` | Remarks printed in the key that are not names: "local unless otherwise stated", "Other speakers not identified in original notes". Optional. |
 | `initials_text`    | The key exactly as printed, in case the parsed form needs checking. |
 | `footer`           | Any other closing lines, e.g. "Words given at a marriage meeting". |
-| `paragraphs`       | The body. Each is `{"text": ...}`, plus `"speaker"` when a reading paragraph begins with someone's initials (removed from `text`), and `"source"` when an extract is followed by its attribution, e.g. "J. Taylor (Vol. 47, p.11, 12)". Line breaks within a paragraph (poetry, hymn lines) are kept as `\n`. |
+| `paragraphs`       | The body. Each is `{"text": ...}`, plus `"source"` when an extract is followed by its attribution, e.g. "J. Taylor (Vol. 47, p.11, 12)". Line breaks within a paragraph (poetry, hymn lines) are kept as `\n`. **In a reading** (an article with `speakers`), each speaker's contribution is one item `{"speaker": "WL", "text": [paragraph, paragraph, ...]}`: his initials, without dots, as they appear in `initials`, and all his paragraphs until the next speaker. Paragraphs before the first speaker stay as `{"text": "..."}`. A continuation paragraph that has its own `source` is a separate item with the speaker repeated. |

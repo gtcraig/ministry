@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 2,
@@ -31,6 +31,7 @@
     "GJR",
     "JTB",
     "JCG",
+    "AMB",
     "GAB",
     "ADM",
     "AML",
@@ -47,36 +48,44 @@
    ],
    "initials": [
     {
-     "initials": "GAMB",
-     "name": "(from Grangemouth unless otherwise stated): A M Brown"
+     "initials": "AMB",
+     "name": "A M Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "DAB",
-     "name": "D A Brown"
+     "name": "D A Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "GAB",
-     "name": "G A Brown"
+     "name": "G A Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "JAB",
-     "name": "J A Brown"
+     "name": "J A Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "JTB",
-     "name": "J T Brown"
+     "name": "J T Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "RB",
-     "name": "R Brown"
+     "name": "R Brown",
+     "place": "Grangemouth"
     },
     {
      "initials": "JCG",
-     "name": "J C Gray"
+     "name": "J C Gray",
+     "place": "Grangemouth"
     },
     {
      "initials": "PAG",
-     "name": "P A Gray"
+     "name": "P A Gray",
+     "place": "Grangemouth"
     },
     {
      "initials": "TJH",
@@ -85,24 +94,28 @@
     },
     {
      "initials": "PEH",
-     "name": "P E Hogan"
+     "name": "P E Hogan",
+     "place": "Grangemouth"
     },
     {
      "initials": "AML",
      "name": "A M Lidbeck",
-     "place": "Aberdeen (ID)"
+     "place": "Aberdeen, ID"
     },
     {
      "initials": "ADM",
-     "name": "A D Melville"
+     "name": "A D Melville",
+     "place": "Grangemouth"
     },
     {
      "initials": "ADM",
-     "name": "A D Munro"
+     "name": "A D Munro",
+     "place": "Grangemouth"
     },
     {
      "initials": "AP",
-     "name": "A Pittman"
+     "name": "A Pittman",
+     "place": "Grangemouth"
     },
     {
      "initials": "GJR",
@@ -111,18 +124,22 @@
     },
     {
      "initials": "DS",
-     "name": "D Spinks"
+     "name": "D Spinks",
+     "place": "Grangemouth"
     },
     {
      "initials": "JSS",
-     "name": "J S Speirs"
+     "name": "J S Speirs",
+     "place": "Grangemouth"
     },
     {
      "initials": "DAS",
-     "name": "D A Steven"
+     "name": "D A Steven",
+     "place": "Grangemouth"
     }
    ],
    "initials_heading": "Key to Initials",
+   "initials_comment": "from Grangemouth unless otherwise stated",
    "initials_text": [
     "(from Grangemouth unless otherwise stated):",
     "A M Brown; D A Brown; G A Brown; J A Brown; J T Brown; R Brown; J C Gray; P A Gray; T J Harvey, East Finchley; P E Hogan; A M Lidbeck, Aberdeen (ID); A D Melville; A D Munro; A Pittman; G J Richards, Malvern; D Spinks; J S Speirs; D A Steven"
@@ -130,442 +147,608 @@
    "paragraphs": [
     {
      "speaker": "GJR",
-     "text": "We have known something today, beloved, of the immense privilege of having part in the service of God in the assembly. We are greatly advantaged by the hymns we have, and I was thinking of the golden cups which the princes of Israel brought in Numbers 7, one from each prince, amounting to twelve, each of them filled with incense, and I liken them to the hymns that we have: originally compiled by individuals, as an expression of their personal appreciation of divine Persons, but retained for us for fresh - and repeated - use in the power of the Spirit: “twelve golden cups full of incense”, v 86."
-    },
-    {
-     "text": "We had a touch this morning from 1 Corinthians 15 as to “the end” - one of the very few scriptures where eternity is actually touched on - “Then the end, when he gives up the kingdom” (v 24), and how the love of the Lord Jesus for God will be expressed in that. These are immense matters and what a privilege that we should have access to them and have some living part in them!"
-    },
-    {
-     "text": "I suggested these earlier scriptures - from Exodus and from John - so that we might be freshly reminded that what underlies all these privileges is the love of a Man. I might say firstly, the love of a Man for His God: because it is a blessed truth that the Lord Jesus as Man has a God, and He loves that God. He has love too for His assembly and has love for His own individually. I was touched that the individual thought goes right through into Revelation 21, “I will be to him God, and he shall be to me son”. That is the individual thought going right through. Is that not touching? And then from John 17 I thought we would draw a fresh impression of the strength of the desires of this blessed Man. For our enquiry in chapter 21 of Revelation, we will need to wait on the Spirit to unfold that to us. Those are the thoughts, beloved, that I had to share."
-    },
-    {
-     "speaker": "JTB",
-     "text": "Exodus 21 brings out the absoluteness of His committal to the fulfilment of what is in the mind and heart of God."
-    },
-    {
-     "speaker": "GJR",
-     "text": "I think we were touched by that this morning. Each feature of the Lord’s devotion and indeed, every feature that came out in Him was pleasurable to God in an absolute way. You enlarge on that please."
+     "text": [
+      "We have known something today, beloved, of the immense privilege of having part in the service of God in the assembly. We are greatly advantaged by the hymns we have, and I was thinking of the golden cups which the princes of Israel brought in Numbers 7, one from each prince, amounting to twelve, each of them filled with incense, and I liken them to the hymns that we have: originally compiled by individuals, as an expression of their personal appreciation of divine Persons, but retained for us for fresh - and repeated - use in the power of the Spirit: “twelve golden cups full of incense”, v 86.",
+      "We had a touch this morning from 1 Corinthians 15 as to “the end” - one of the very few scriptures where eternity is actually touched on - “Then the end, when he gives up the kingdom” (v 24), and how the love of the Lord Jesus for God will be expressed in that. These are immense matters and what a privilege that we should have access to them and have some living part in them!",
+      "I suggested these earlier scriptures - from Exodus and from John - so that we might be freshly reminded that what underlies all these privileges is the love of a Man. I might say firstly, the love of a Man for His God: because it is a blessed truth that the Lord Jesus as Man has a God, and He loves that God. He has love too for His assembly and has love for His own individually. I was touched that the individual thought goes right through into Revelation 21, “I will be to him God, and he shall be to me son”. That is the individual thought going right through. Is that not touching? And then from John 17 I thought we would draw a fresh impression of the strength of the desires of this blessed Man. For our enquiry in chapter 21 of Revelation, we will need to wait on the Spirit to unfold that to us. Those are the thoughts, beloved, that I had to share."
+     ]
     },
     {
      "speaker": "JTB",
-     "text": "I was just thinking of what we sang:"
+     "text": [
+      "Exodus 21 brings out the absoluteness of His committal to the fulfilment of what is in the mind and heart of God."
+     ]
     },
     {
-     "text": "Told in answ’ring glory now (Hymn 302)."
+     "speaker": "GJR",
+     "text": [
+      "I think we were touched by that this morning. Each feature of the Lord’s devotion and indeed, every feature that came out in Him was pleasurable to God in an absolute way. You enlarge on that please."
+     ]
     },
     {
-     "text": "We can know it now. We will know it eternally, but it is a wonderful thing if we can know it now."
+     "speaker": "JTB",
+     "text": [
+      "I was just thinking of what we sang:",
+      "Told in answ’ring glory now (Hymn 302).",
+      "We can know it now. We will know it eternally, but it is a wonderful thing if we can know it now."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "The Spirit says that “the bondman shall say distinctly”. The Lord’s devotion did not begin at the cross, did it? What would you say about the distinctive love of Christ in the passage we have read?"
+     "text": [
+      "The Spirit says that “the bondman shall say distinctly”. The Lord’s devotion did not begin at the cross, did it? What would you say about the distinctive love of Christ in the passage we have read?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "I suppose we would need to remember that it is distinctive in that no one else has ever done this. I remember a brother remarking that when the British government introduced legislation to abolish slavery, no provision was ever made in that legislation for a slave who would not go free; so at the simplest level, this is outside of human consideration: that someone who had the opportunity to go free would turn it down. Then as to the teaching, we would need to bring in the mount of transfiguration. “Six years shall he serve”: I have heard it said that the Lord Jesus ‘could have stepped from the mount of transfiguration into glory’, and we know what we mean by saying that. However, that could not be because the counsels of God involved that He would go to the cross: but do you agree there is the sense in which He had ‘served the six years’?"
+     "text": [
+      "I suppose we would need to remember that it is distinctive in that no one else has ever done this. I remember a brother remarking that when the British government introduced legislation to abolish slavery, no provision was ever made in that legislation for a slave who would not go free; so at the simplest level, this is outside of human consideration: that someone who had the opportunity to go free would turn it down. Then as to the teaching, we would need to bring in the mount of transfiguration. “Six years shall he serve”: I have heard it said that the Lord Jesus ‘could have stepped from the mount of transfiguration into glory’, and we know what we mean by saying that. However, that could not be because the counsels of God involved that He would go to the cross: but do you agree there is the sense in which He had ‘served the six years’?"
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "Yes, I am sure that is right. Even the prophetic reference in Psalm 40, “Behold, I come … To do thy good pleasure, my God” (v 7, 8) involves a certain distinct speaking and committal."
+     "text": [
+      "Yes, I am sure that is right. Even the prophetic reference in Psalm 40, “Behold, I come … To do thy good pleasure, my God” (v 7, 8) involves a certain distinct speaking and committal."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Yes, it does, so we also need to remember what we read at the end of Leviticus, “Nothing devoted, which shall be devoted from among men, shall be ransomed: it shall certainly be put to death” (chap 27: 29), so that would be confirmed by the scripture you have helpfully brought forward, that there could be only one way out, and that was by way of death. Do you have an impression of this word “distinctly” for us?"
+     "text": [
+      "Yes, it does, so we also need to remember what we read at the end of Leviticus, “Nothing devoted, which shall be devoted from among men, shall be ransomed: it shall certainly be put to death” (chap 27: 29), so that would be confirmed by the scripture you have helpfully brought forward, that there could be only one way out, and that was by way of death. Do you have an impression of this word “distinctly” for us?"
+     ]
     },
     {
-     "text": "AMB One thing we can say about that distinct speaking is that the master and the wife and the children would hear it, would understand it, and would be affected by it."
+     "speaker": "AMB",
+     "text": [
+      "One thing we can say about that distinct speaking is that the master and the wife and the children would hear it, would understand it, and would be affected by it."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Yes, they would hear it."
+     "text": [
+      "Yes, they would hear it."
+     ]
     },
     {
-     "text": "AMB One thing we can say about the Supper that we had the privilege of participating in this morning is that it provides a tremendous assurance to us of the Lord’s love. It came out fully demonstrated at the cross, but it is as sure and distinct now as it was then and will go into eternity, will it not?"
+     "speaker": "AMB",
+     "text": [
+      "One thing we can say about the Supper that we had the privilege of participating in this morning is that it provides a tremendous assurance to us of the Lord’s love. It came out fully demonstrated at the cross, but it is as sure and distinct now as it was then and will go into eternity, will it not?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Yes, so the thought of what is current is implied in the Lord’s words, “This is my body which is given for you”, Luke 22: 19. He gave that body once and for all. We know that work was once and for all, but the way that is presented “which is given for you” suggests what is current."
+     "text": [
+      "Yes, so the thought of what is current is implied in the Lord’s words, “This is my body which is given for you”, Luke 22: 19. He gave that body once and for all. We know that work was once and for all, but the way that is presented “which is given for you” suggests what is current."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "Would it be fair enough to say that the master, wife and children would not be surprised to hear what they did hear because they were in the current enjoyment of his love?"
+     "text": [
+      "Would it be fair enough to say that the master, wife and children would not be surprised to hear what they did hear because they were in the current enjoyment of his love?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "We do not want to be sentimental, but certainly the master and the wife would know that the days were counting down to this great moment of decision. Persons would have been aware that this time was approaching, and wondering what would be the result; and your point is that the master, the wife, and the children would know. I think it is really touching what you say, that they would not have been surprised. I think that is expanded by what you have just said, that the master and the wife and perhaps the children would not have been surprised because this decision was in keeping with the person they had known. I will, in that connection, just add the touch, if I may, as to Revelation: when John saw this amazing vessel coming down “prepared as a bride adorned for her husband”, he did not express any wonder. I just submit that the way John welcomed this, easily absorbed, and later expressed, the vision that he saw - as to what had come down from heaven - was because it was entirely in keeping with the Christ whom he had known, the One in whose bosom he had lain. It was a worthy answer to that One."
+     "text": [
+      "We do not want to be sentimental, but certainly the master and the wife would know that the days were counting down to this great moment of decision. Persons would have been aware that this time was approaching, and wondering what would be the result; and your point is that the master, the wife, and the children would know. I think it is really touching what you say, that they would not have been surprised. I think that is expanded by what you have just said, that the master and the wife and perhaps the children would not have been surprised because this decision was in keeping with the person they had known. I will, in that connection, just add the touch, if I may, as to Revelation: when John saw this amazing vessel coming down “prepared as a bride adorned for her husband”, he did not express any wonder. I just submit that the way John welcomed this, easily absorbed, and later expressed, the vision that he saw - as to what had come down from heaven - was because it was entirely in keeping with the Christ whom he had known, the One in whose bosom he had lain. It was a worthy answer to that One."
+     ]
     },
     {
      "speaker": "ADM",
-     "text": "It says in Revelation 21, “I am the Alpha and the Omega”. Really Exodus 21 is like the beginning and Revelation 21 is like the end, but it is the same Person that carries it all through in the same glorious power, and we can say too that all were motivated by the same commitment, do you think?"
+     "text": [
+      "It says in Revelation 21, “I am the Alpha and the Omega”. Really Exodus 21 is like the beginning and Revelation 21 is like the end, but it is the same Person that carries it all through in the same glorious power, and we can say too that all were motivated by the same commitment, do you think?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "That is very touching."
+     "text": [
+      "That is very touching."
+     ]
     },
     {
      "speaker": "AML",
-     "text": "Would this word “distinctly” suggest what has been noticed in heaven?"
+     "text": [
+      "Would this word “distinctly” suggest what has been noticed in heaven?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, in the case of the Lord Jesus that moment would be central, and surely it does relate to the mount of transfiguration, but it anticipated all that that commitment would involve. That would certainly be noted in heaven."
+     "text": [
+      "Well, in the case of the Lord Jesus that moment would be central, and surely it does relate to the mount of transfiguration, but it anticipated all that that commitment would involve. That would certainly be noted in heaven."
+     ]
     },
     {
      "speaker": "AML",
-     "text": "I was thinking “whom heaven indeed must receive”, Acts 3: 21."
+     "text": [
+      "I was thinking “whom heaven indeed must receive”, Acts 3: 21."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Yes, that is a moral necessity “till the times of the restoring of all things”. That is good."
+     "text": [
+      "Yes, that is a moral necessity “till the times of the restoring of all things”. That is good."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "The cups that you mentioned from Numbers 7 “each cup of ten shekels, according to the shekel of the sanctuary” (v 86): do you think “the shekel of the sanctuary” involves what is distinctive? It is not common currency."
+     "text": [
+      "The cups that you mentioned from Numbers 7 “each cup of ten shekels, according to the shekel of the sanctuary” (v 86): do you think “the shekel of the sanctuary” involves what is distinctive? It is not common currency."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Enlarge on that, please."
+     "text": [
+      "Enlarge on that, please."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Well, really all the speaking of Christ is distinctive, and it sets a new standard for man. “According to the shekel of the sanctuary” means that every speaking of Christ was according to the divine standard, and it forms in souls who are indwelt by the Spirit what answers to that. You mentioned the cups as suggesting the hymns; I am sure that is so. There is what is formed in the hearts of saints that is distinctive, and answers directly to the distinct speaking of Christ. Is that so?"
+     "text": [
+      "Well, really all the speaking of Christ is distinctive, and it sets a new standard for man. “According to the shekel of the sanctuary” means that every speaking of Christ was according to the divine standard, and it forms in souls who are indwelt by the Spirit what answers to that. You mentioned the cups as suggesting the hymns; I am sure that is so. There is what is formed in the hearts of saints that is distinctive, and answers directly to the distinct speaking of Christ. Is that so?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "That is very helpful. Something of that distinctiveness comes to the surface; it did in what we had part in this morning. I think the expression has been used that in the service of song the saints’ best feelings are brought out. Maybe that links with what you say as to “the shekel of the sanctuary”, the best feelings, and, as we spoke of what is noticed in heaven, the word here is “his master shall bring him before the judges”; they were going to be witnesses. Can we think of the angelic hosts as witnesses to this great matter? I am sure there is more."
+     "text": [
+      "That is very helpful. Something of that distinctiveness comes to the surface; it did in what we had part in this morning. I think the expression has been used that in the service of song the saints’ best feelings are brought out. Maybe that links with what you say as to “the shekel of the sanctuary”, the best feelings, and, as we spoke of what is noticed in heaven, the word here is “his master shall bring him before the judges”; they were going to be witnesses. Can we think of the angelic hosts as witnesses to this great matter? I am sure there is more."
+     ]
     },
     {
      "speaker": "PEH",
-     "text": "Is the reason that the Lord’s words were distinctive because they are eternal. I was thinking about what Peter says, “thou hast words of life eternal” (John 6: 68); so that in turn marks Him out as being distinctive."
+     "text": [
+      "Is the reason that the Lord’s words were distinctive because they are eternal. I was thinking about what Peter says, “thou hast words of life eternal” (John 6: 68); so that in turn marks Him out as being distinctive."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Yes, I think that is very helpful. There are allusions in the Old Testament to the salt of the offerings. I think there are other scriptures where it comes in, suggesting, I think, what is eternal in character. But you could enlarge on that."
+     "text": [
+      "Yes, I think that is very helpful. There are allusions in the Old Testament to the salt of the offerings. I think there are other scriptures where it comes in, suggesting, I think, what is eternal in character. But you could enlarge on that."
+     ]
     },
     {
      "speaker": "PEH",
-     "text": "I was just thinking the words themselves express the Person, because Peter then goes on to say, “and we have believed and known that thou art the holy one of God”, v 69."
+     "text": [
+      "I was just thinking the words themselves express the Person, because Peter then goes on to say, “and we have believed and known that thou art the holy one of God”, v 69."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "That is not exactly the result of a revelation to Peter there. I see that more as an acquired appreciation, what had grown on them as they companied with Him. It may touch on what was suggested, that this would have been no surprise."
+     "text": [
+      "That is not exactly the result of a revelation to Peter there. I see that more as an acquired appreciation, what had grown on them as they companied with Him. It may touch on what was suggested, that this would have been no surprise."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "Do you think that the distinct speaking was in Gethsemane? “But not as I will, but as thou wilt”, Matt 26: 39. But then the cross and the three hours of darkness were the test of that."
+     "text": [
+      "Do you think that the distinct speaking was in Gethsemane? “But not as I will, but as thou wilt”, Matt 26: 39. But then the cross and the three hours of darkness were the test of that."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, we are moving on to holy ground in this consideration, but we are approaching the ‘boring of the ear’ at Gethsemane. I think we are right to suggest that the mount of transfiguration and the setting of His face to go to Jerusalem was the distinct speaking, but actually He had His ear bored going into death."
+     "text": [
+      "Well, we are moving on to holy ground in this consideration, but we are approaching the ‘boring of the ear’ at Gethsemane. I think we are right to suggest that the mount of transfiguration and the setting of His face to go to Jerusalem was the distinct speaking, but actually He had His ear bored going into death."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "You are thinking that the reference to the door and the door-post, and then the ear bored: what is in your mind?"
+     "text": [
+      "You are thinking that the reference to the door and the door-post, and then the ear bored: what is in your mind?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "I had not thought of bringing in the thought of atonement. I thought more the ear bored was His commitment in death that He would be a bondman for ever, but these are holy matters."
+     "text": [
+      "I had not thought of bringing in the thought of atonement. I thought more the ear bored was His commitment in death that He would be a bondman for ever, but these are holy matters."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "The Lord’s love for His “master” and for His “wife” and for His “children” would be the same, or does the love that He had for His master have anything distinct in mind?"
+     "text": [
+      "The Lord’s love for His “master” and for His “wife” and for His “children” would be the same, or does the love that He had for His master have anything distinct in mind?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "“But if the bondman shall say distinctly, I love my master, my wife, and my children, I will not go free”: it is one love. You are stressing it is one love. I would respect that."
+     "text": [
+      "“But if the bondman shall say distinctly, I love my master, my wife, and my children, I will not go free”: it is one love. You are stressing it is one love. I would respect that."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "I was just linking it in my mind with the end of the section you read in John 17, “that the love with which thou hast loved me” - that is, the Father’s love for Christ – “may be in them” - that is us - “and I in them”."
+     "text": [
+      "I was just linking it in my mind with the end of the section you read in John 17, “that the love with which thou hast loved me” - that is, the Father’s love for Christ – “may be in them” - that is us - “and I in them”."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "That confirms what you are suggesting. Thank you for that."
+     "text": [
+      "That confirms what you are suggesting. Thank you for that."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "Very blessed then it is that we are brought as saints into the circle where divine love is known and enjoyed. We are drawn into that circle of divine love which exists between divine Persons - brought right into the blessedness of it, do you think?"
+     "text": [
+      "Very blessed then it is that we are brought as saints into the circle where divine love is known and enjoyed. We are drawn into that circle of divine love which exists between divine Persons - brought right into the blessedness of it, do you think?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Then perhaps we should go onto chapter 17. We had a touch this morning as to the unselfish love of each divine Person for the Other. Is that not wonderful? I am not suggesting any of these scriptures directly refer to the Holy Spirit, but in His service He is present with and is in us, and we depend on that Person and His service. What you are bringing out is that this is something immense secured in men, that there can be this capacity to love. This is privilege."
+     "text": [
+      "Then perhaps we should go onto chapter 17. We had a touch this morning as to the unselfish love of each divine Person for the Other. Is that not wonderful? I am not suggesting any of these scriptures directly refer to the Holy Spirit, but in His service He is present with and is in us, and we depend on that Person and His service. What you are bringing out is that this is something immense secured in men, that there can be this capacity to love. This is privilege."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "I was just thinking it is a wonderful ingredient, we might say, for the working of the divine economy, and we have a living part in it."
+     "text": [
+      "I was just thinking it is a wonderful ingredient, we might say, for the working of the divine economy, and we have a living part in it."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "The economy involves the Father, the Son and the Holy Spirit and all those who are the objects of God’s grace - subjects of His purpose. It is good to have this in our hearts. Deity is in three divine Persons, the Holy Trinity, and there is no encroachment by the creature on that: divinity is in the Father and the Son and the Holy Spirit. The title “Lord” equally applies to each divine Person. But love’s economy - which I understand literally means something like a household arrangement - is that divine Persons have arranged themselves as Father, Son and Holy Spirit - equal in Godhead - but coming into these arrangements of love that God might be fully known."
+     "text": [
+      "The economy involves the Father, the Son and the Holy Spirit and all those who are the objects of God’s grace - subjects of His purpose. It is good to have this in our hearts. Deity is in three divine Persons, the Holy Trinity, and there is no encroachment by the creature on that: divinity is in the Father and the Son and the Holy Spirit. The title “Lord” equally applies to each divine Person. But love’s economy - which I understand literally means something like a household arrangement - is that divine Persons have arranged themselves as Father, Son and Holy Spirit - equal in Godhead - but coming into these arrangements of love that God might be fully known."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "Remembering that these words were uttered a few hours before Jesus went out and was taken by the band in Gethsemane, I am thinking of what we have been speaking about in Exodus 21; He says, “these have known that thou hast sent me”; He was talking about the men whom the Father had given Him, for whom He had already given thanks to the Father, and referred to in that way. I was just thinking of what was said earlier: all through that time of service, the Lord had had those with Him who were able to take account of Him in His service: “these have known that thou hast sent me”. It is a test to me, as having been brought up in a Christian environment all my life, how much I have absorbed of this blessed One."
+     "text": [
+      "Remembering that these words were uttered a few hours before Jesus went out and was taken by the band in Gethsemane, I am thinking of what we have been speaking about in Exodus 21; He says, “these have known that thou hast sent me”; He was talking about the men whom the Father had given Him, for whom He had already given thanks to the Father, and referred to in that way. I was just thinking of what was said earlier: all through that time of service, the Lord had had those with Him who were able to take account of Him in His service: “these have known that thou hast sent me”. It is a test to me, as having been brought up in a Christian environment all my life, how much I have absorbed of this blessed One."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, you have absorbed something. Whatever we have been able to absorb is through divine grace. I am thankful for what you say as to the moment in which this was expressed. I wonder if considering that would help us to appreciate this word, “I desire”. “Father, as to those whom thou hast given me, I desire that where I am they also may be with me”. The circumstance which you emphasise would strengthen our appreciation of that: “I desire”. But you were emphasising also how great this Person is."
+     "text": [
+      "Well, you have absorbed something. Whatever we have been able to absorb is through divine grace. I am thankful for what you say as to the moment in which this was expressed. I wonder if considering that would help us to appreciate this word, “I desire”. “Father, as to those whom thou hast given me, I desire that where I am they also may be with me”. The circumstance which you emphasise would strengthen our appreciation of that: “I desire”. But you were emphasising also how great this Person is."
+     ]
     },
     {
      "speaker": "AP",
-     "text": "You have drawn attention to, “I desire that where I am they also may be with me”. It is not ‘I desire that where I shall be’, but it is “where I am”: that is the present tense. Can you open that up for us?"
+     "text": [
+      "You have drawn attention to, “I desire that where I am they also may be with me”. It is not ‘I desire that where I shall be’, but it is “where I am”: that is the present tense. Can you open that up for us?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, what you read earlier in this gospel is that “the only-begotten Son, who is in the bosom of the Father, he hath declared him”, chap 1: 18. He could say the Father “has not left me alone”, John 8: 29. He was conscious of the Father being with Him right until that moment of the forsaking, which John does not actually give us. But you have a fuller thought."
+     "text": [
+      "Well, what you read earlier in this gospel is that “the only-begotten Son, who is in the bosom of the Father, he hath declared him”, chap 1: 18. He could say the Father “has not left me alone”, John 8: 29. He was conscious of the Father being with Him right until that moment of the forsaking, which John does not actually give us. But you have a fuller thought."
+     ]
     },
     {
      "speaker": "AP",
-     "text": "It is the first time I have really noticed it. Do you think it maybe links on with what was touched on as to being brought into the economy?"
+     "text": [
+      "It is the first time I have really noticed it. Do you think it maybe links on with what was touched on as to being brought into the economy?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "This is pure privilege. Elsewhere in this prayer He says, “And I do not demand for these only, but also for those who believe on me through their word” (v 20); so we can think of ourselves. “The men whom thou gavest me out of the world” (v 6), I suppose, was literally the eleven, but the Lord extended His request to include us."
+     "text": [
+      "This is pure privilege. Elsewhere in this prayer He says, “And I do not demand for these only, but also for those who believe on me through their word” (v 20); so we can think of ourselves. “The men whom thou gavest me out of the world” (v 6), I suppose, was literally the eleven, but the Lord extended His request to include us."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "We are brought into the glory that the Lord speaks of in verse 22, “And the glory which thou hast given me I have given them, that they may be one”. Earlier He speaks about the glory which He had with the Father “before the world was”, v 5. But this in verse 24 is different again, is it not? This glory seems to be peculiar to Christ alone."
+     "text": [
+      "We are brought into the glory that the Lord speaks of in verse 22, “And the glory which thou hast given me I have given them, that they may be one”. Earlier He speaks about the glory which He had with the Father “before the world was”, v 5. But this in verse 24 is different again, is it not? This glory seems to be peculiar to Christ alone."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Enlarge on that, please."
+     "text": [
+      "Enlarge on that, please."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "He says in verse 24, “That they may behold my glory which thou hast given me”: He does not exactly say it is the same glory He has given us, the glory of sonship. There is something special about what God has given to Christ to mark Him out, is there?"
+     "text": [
+      "He says in verse 24, “That they may behold my glory which thou hast given me”: He does not exactly say it is the same glory He has given us, the glory of sonship. There is something special about what God has given to Christ to mark Him out, is there?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, I think that is good. He is the only-begotten Son, and He is the Beloved. I could not say more than that."
+     "text": [
+      "Well, I think that is good. He is the only-begotten Son, and He is the Beloved. I could not say more than that."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "The scripture says “the mediator of God and men one, the man Christ Jesus”, 1 Tim 2: 5. There is only one Mediator; there is only one Creator; there is only one Redeemer; there is only one Saviour. These are glories that are His distinctively. He says, “that where I am they also may be with me”. We are with Him because He is the Creator and the Redeemer and the Mediator and the Saviour. That is how we can be with Him. We are with Him in dignity because He has given us the glory of sonship. It is made possible by Him to be with Him where He is."
+     "text": [
+      "The scripture says “the mediator of God and men one, the man Christ Jesus”, 1 Tim 2: 5. There is only one Mediator; there is only one Creator; there is only one Redeemer; there is only one Saviour. These are glories that are His distinctively. He says, “that where I am they also may be with me”. We are with Him because He is the Creator and the Redeemer and the Mediator and the Saviour. That is how we can be with Him. We are with Him in dignity because He has given us the glory of sonship. It is made possible by Him to be with Him where He is."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, that fills the heart to think of how great He is."
+     "text": [
+      "Well, that fills the heart to think of how great He is."
+     ]
     },
     {
      "speaker": "DS",
-     "text": "“That they may behold my glory”: is that an added glory to the thought of the bondman?"
+     "text": [
+      "“That they may behold my glory”: is that an added glory to the thought of the bondman?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, you enlarge on that."
+     "text": [
+      "Well, you enlarge on that."
+     ]
     },
     {
      "speaker": "DS",
-     "text": "I am looking for help in my own mind to understand this. This is something now that the Lord has distinctly that has been given from the Father as completing His committal as the bondman. I just wondered: there is a glory that relates to the Lord as a Bondman, but there seems to be a glory that relates to Him now as One who is in relationship with the Father, “that they may behold my glory which thou hast given me”. This is distinct between the Father and the Son, but I am looking for help."
+     "text": [
+      "I am looking for help in my own mind to understand this. This is something now that the Lord has distinctly that has been given from the Father as completing His committal as the bondman. I just wondered: there is a glory that relates to the Lord as a Bondman, but there seems to be a glory that relates to Him now as One who is in relationship with the Father, “that they may behold my glory which thou hast given me”. This is distinct between the Father and the Son, but I am looking for help."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, the hymn distinguishes:"
-    },
-    {
-     "text": "Great the glory Thou art given,"
-    },
-    {
-     "text": "And the glory Thou hast won;"
-    },
-    {
-     "text": "(hymn 181),"
-    },
-    {
-     "text": "but in His Person He is greater than both what He has been given and all that He has done. These thoughts bring us to worship."
+     "text": [
+      "Well, the hymn distinguishes:",
+      "Great the glory Thou art given,",
+      "And the glory Thou hast won;",
+      "(hymn 181),",
+      "but in His Person He is greater than both what He has been given and all that He has done. These thoughts bring us to worship."
+     ]
     },
     {
      "speaker": "PEH",
-     "text": "Does glory bring about change if it has an effect on persons? Can you say something as to that?"
+     "text": [
+      "Does glory bring about change if it has an effect on persons? Can you say something as to that?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Paul says, “But we all, looking on the glory of the Lord … are transformed”, 2 Cor 3: 18. He does not say that we might be but that we are! If we really look on that glory, we will be changed. In Ezekiel 46, the worshippers will go in by one door and they will always go out by a different door; not so the prince: when he goes in, he goes in by one door and he goes out by the same. That suggests the greatness of Christ, the One whose glory never changes, but the thought of the worshippers going in by one door, and always going out by a different door, suggests they had been affected by the glory of that One. I would love to convey that: that as we all long for an improved state of soul; we all long for brightness of spirit; we all long to be like that blessed Man whom we love and to whom we belong: the way to be like Him is to see Him through the eyes of our heart."
+     "text": [
+      "Paul says, “But we all, looking on the glory of the Lord … are transformed”, 2 Cor 3: 18. He does not say that we might be but that we are! If we really look on that glory, we will be changed. In Ezekiel 46, the worshippers will go in by one door and they will always go out by a different door; not so the prince: when he goes in, he goes in by one door and he goes out by the same. That suggests the greatness of Christ, the One whose glory never changes, but the thought of the worshippers going in by one door, and always going out by a different door, suggests they had been affected by the glory of that One. I would love to convey that: that as we all long for an improved state of soul; we all long for brightness of spirit; we all long to be like that blessed Man whom we love and to whom we belong: the way to be like Him is to see Him through the eyes of our heart."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "Your reference in Ezekiel is very helpful. You earlier spoke about the glory on the mount of transfiguration. Peter wanted three tabernacles, but the Father’s voice was, “This is my beloved Son: hear him” (Mark 9: 7), and Jesus was left “alone with themselves”, v 8. That is distinctive, is it?"
+     "text": [
+      "Your reference in Ezekiel is very helpful. You earlier spoke about the glory on the mount of transfiguration. Peter wanted three tabernacles, but the Father’s voice was, “This is my beloved Son: hear him” (Mark 9: 7), and Jesus was left “alone with themselves”, v 8. That is distinctive, is it?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Yes, and that account can be regarded as presenting the highest truth. That was Mark’s. Matthew tells us, “they saw no one but Jesus alone”, chap 17: 8. That is a necessary experience for us, but it is not the full thought. The full thought is what you have quoted, “Jesus alone with themselves”. Christ associated with His own and His own associated with Him, is the purpose of God."
+     "text": [
+      "Yes, and that account can be regarded as presenting the highest truth. That was Mark’s. Matthew tells us, “they saw no one but Jesus alone”, chap 17: 8. That is a necessary experience for us, but it is not the full thought. The full thought is what you have quoted, “Jesus alone with themselves”. Christ associated with His own and His own associated with Him, is the purpose of God."
+     ]
     },
     {
      "speaker": "GAB",
-     "text": "This glory we are speaking of would relate to the economy. There is a glory of Deity which we have in John 17: 5. We do not share in that; that is His alone. But this one, we can behold it; so for us the bodies of glory will be needed; and being part of the divine economy it will be ours to behold this glory, without sharing it."
+     "text": [
+      "This glory we are speaking of would relate to the economy. There is a glory of Deity which we have in John 17: 5. We do not share in that; that is His alone. But this one, we can behold it; so for us the bodies of glory will be needed; and being part of the divine economy it will be ours to behold this glory, without sharing it."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "That is helpful."
+     "text": [
+      "That is helpful."
+     ]
     },
     {
-     "text": "AMB It has been said already that there are glories personal to the Lord and revealed so that means they are made known to us. Our brother spoke earlier of His glory as the Creator and the Redeemer and the Mediator and the Saviour, and we have benefited from the display and the exercise of these glories, but the Lord wants us to be onlookers, and come into the enjoyment and appreciation of these glories of His and, as we do that, we would take up His praise on our lips. Is that the thought here? The whole context is because the Father loves Him from before the foundation of the world. The divine thoughts, the glories of this One who has come into manhood (although the glories extend back to pre-incarnate activities), should be appreciated by those who have been given the capacity to enjoy and admire them."
+     "speaker": "AMB",
+     "text": [
+      "It has been said already that there are glories personal to the Lord and revealed so that means they are made known to us. Our brother spoke earlier of His glory as the Creator and the Redeemer and the Mediator and the Saviour, and we have benefited from the display and the exercise of these glories, but the Lord wants us to be onlookers, and come into the enjoyment and appreciation of these glories of His and, as we do that, we would take up His praise on our lips. Is that the thought here? The whole context is because the Father loves Him from before the foundation of the world. The divine thoughts, the glories of this One who has come into manhood (although the glories extend back to pre-incarnate activities), should be appreciated by those who have been given the capacity to enjoy and admire them."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, that involves the indwelling Spirit. It must do."
+     "text": [
+      "Well, that involves the indwelling Spirit. It must do."
+     ]
     },
     {
      "speaker": "JSS",
-     "text": "Can you help further as to this glory that is given, “that they may behold my glory which thou hast given me”? What is your impression as to that?"
+     "text": [
+      "Can you help further as to this glory that is given, “that they may behold my glory which thou hast given me”? What is your impression as to that?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, I am limited but we have a hymn which says,"
-    },
-    {
-     "text": "And to know the blessed secret"
-    },
-    {
-     "text": "Of His preciousness to Thee"
-    },
-    {
-     "text": "(Hymn 277)."
-    },
-    {
-     "text": "What a privilege to be given some appreciation of that. It reminds me of the need to ask the Father to show us what He has found so precious in His Son and, indeed, what He finds so precious in Him now."
+     "text": [
+      "Well, I am limited but we have a hymn which says,",
+      "And to know the blessed secret",
+      "Of His preciousness to Thee",
+      "(Hymn 277).",
+      "What a privilege to be given some appreciation of that. It reminds me of the need to ask the Father to show us what He has found so precious in His Son and, indeed, what He finds so precious in Him now."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Does the scripture in Hebrews 1 help where it speaks in verse 2 of Him being “established heir of all things”. An heir is given something that he has not had before. You would not be an heir if you did not receive anything. “Whom he …” - that is God; so these are the glories given to Him by God, and they are listed there, “by whom also he made the worlds; who being the effulgence of his glory and the expression of his substance, and upholding all things by the word of his power, having made by himself the purification of sins, set himself down on the right hand of the greatness on high, taking a place by so much better than the angels, as he inherits a name more excellent than they” (v 2-4); so the glories He is given and the glories He has won are all encapsulated in these few verses. I would not make that exclusive; there are others too; but an heir inherits something he did not have before, and God gave Him that; He established Him “heir of all things”."
+     "text": [
+      "Does the scripture in Hebrews 1 help where it speaks in verse 2 of Him being “established heir of all things”. An heir is given something that he has not had before. You would not be an heir if you did not receive anything. “Whom he …” - that is God; so these are the glories given to Him by God, and they are listed there, “by whom also he made the worlds; who being the effulgence of his glory and the expression of his substance, and upholding all things by the word of his power, having made by himself the purification of sins, set himself down on the right hand of the greatness on high, taking a place by so much better than the angels, as he inherits a name more excellent than they” (v 2-4); so the glories He is given and the glories He has won are all encapsulated in these few verses. I would not make that exclusive; there are others too; but an heir inherits something he did not have before, and God gave Him that; He established Him “heir of all things”."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I was thinking of what you said about the longings of Christ that He might have those who can respond to this desire “that they may behold my glory” and as beholding it, the result would be worship and response. You spoke at the beginning of these hymns we have and we sometimes sing,"
-    },
-    {
-     "text": "And, responsive to Thy longing,"
-    },
-    {
-     "text": "We would now abide in love;"
-    },
-    {
-     "text": "(Hymn 161),"
-    },
-    {
-     "text": "and we do that really in the area that we were enjoying this morning. What is being brought out in this conversation about these glories of Christ is for a purpose and that is that there should be an answer to His heart. Many of us here will be saying that we do not fully understand everything that is being said about the glory of the Lord Jesus, but if we love Him, we want to know more about Him, and every little thing more that we absorb of Him, for instance, an impression received this morning, would cause an answer to His longings."
+     "text": [
+      "I was thinking of what you said about the longings of Christ that He might have those who can respond to this desire “that they may behold my glory” and as beholding it, the result would be worship and response. You spoke at the beginning of these hymns we have and we sometimes sing,",
+      "And, responsive to Thy longing,",
+      "We would now abide in love;",
+      "(Hymn 161),",
+      "and we do that really in the area that we were enjoying this morning. What is being brought out in this conversation about these glories of Christ is for a purpose and that is that there should be an answer to His heart. Many of us here will be saying that we do not fully understand everything that is being said about the glory of the Lord Jesus, but if we love Him, we want to know more about Him, and every little thing more that we absorb of Him, for instance, an impression received this morning, would cause an answer to His longings."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "First let it bow our heart, and then let us commit ourselves to understand it better. If our heart is bowed, God gets something."
+     "text": [
+      "First let it bow our heart, and then let us commit ourselves to understand it better. If our heart is bowed, God gets something."
+     ]
     },
     {
      "speaker": "RB",
-     "text": "Reference was made in thanksgiving this morning to that passage in Esther where it is asked, “What is to be done with the man whom the king delights to honour?” chap 6: 6. Is that a question we could each ask ourselves, and the consideration of it would relate to your exercise in terms of more for Him?"
+     "text": [
+      "Reference was made in thanksgiving this morning to that passage in Esther where it is asked, “What is to be done with the man whom the king delights to honour?” chap 6: 6. Is that a question we could each ask ourselves, and the consideration of it would relate to your exercise in terms of more for Him?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Yes, I think so, and the first word which comes to mind when we think of the Lord Jesus is His moral worth. I recall that in Esther “the man whom the king delights to honour” was someone who had earlier acted with moral uprightness, and that underlies everything for God."
+     "text": [
+      "Yes, I think so, and the first word which comes to mind when we think of the Lord Jesus is His moral worth. I recall that in Esther “the man whom the king delights to honour” was someone who had earlier acted with moral uprightness, and that underlies everything for God."
+     ]
     },
     {
      "speaker": "DAB",
-     "text": "You have mentioned once or twice the mount of transfiguration and there were the three men that were taken, Peter, James and John, not all the disciples, but these three. It is obvious that the glory that was manifest there had an effect on them. Peter speaks of it in his epistles (2 Pet 16-18); John speaks of it as contemplating His glory (John 1: 14) - that would include the mount of transfiguration. So they were affected in their experience by it, and I just wondered if our experiences, such as we had this morning, are to inculcate something, to form these characteristics of Christ with us, do you think, as appreciating His glory? I was thinking the Lord spoke this prayer in the presence of His disciples. He was not alone here. It says, “These things Jesus spoke, and lifted up his eyes to heaven and said …” (John 17: 1); so He was in the presence of these men, was He not? I was thinking as to learning as to His desires, and the disciples being drawn into the bosom of Christ’s affections for His Father; do you think that is how it works with us? So in the blessedness of having part in the service of God we begin to appreciate the greatness and glory of divine Persons and, too, what we are able to say in the presence of the Father as to Christ. I think it is wonderful that we can bring that forward. We do not leave things behind; it is cumulative; and I just wondered if we see something of that in John 17."
+     "text": [
+      "You have mentioned once or twice the mount of transfiguration and there were the three men that were taken, Peter, James and John, not all the disciples, but these three. It is obvious that the glory that was manifest there had an effect on them. Peter speaks of it in his epistles (2 Pet 16-18); John speaks of it as contemplating His glory (John 1: 14) - that would include the mount of transfiguration. So they were affected in their experience by it, and I just wondered if our experiences, such as we had this morning, are to inculcate something, to form these characteristics of Christ with us, do you think, as appreciating His glory? I was thinking the Lord spoke this prayer in the presence of His disciples. He was not alone here. It says, “These things Jesus spoke, and lifted up his eyes to heaven and said …” (John 17: 1); so He was in the presence of these men, was He not? I was thinking as to learning as to His desires, and the disciples being drawn into the bosom of Christ’s affections for His Father; do you think that is how it works with us? So in the blessedness of having part in the service of God we begin to appreciate the greatness and glory of divine Persons and, too, what we are able to say in the presence of the Father as to Christ. I think it is wonderful that we can bring that forward. We do not leave things behind; it is cumulative; and I just wondered if we see something of that in John 17."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, these disciples were witnessing service at the golden altar. What was ascending was incense; this prayer was incense to the Father, and they were witnesses of it."
-    },
-    {
-     "text": "ADM-e It says of the queen of Sheba, “there was no more spirit in her” when she beheld the glory of Solomon, and finally, “his ascent by which he went up”, 1 Kings 10: 5. Do you think that is one result of beholding glory?"
+     "text": [
+      "Well, these disciples were witnessing service at the golden altar. What was ascending was incense; this prayer was incense to the Father, and they were witnesses of it.",
+      "ADM-e It says of the queen of Sheba, “there was no more spirit in her” when she beheld the glory of Solomon, and finally, “his ascent by which he went up”, 1 Kings 10: 5. Do you think that is one result of beholding glory?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "I am thankful you bring that in, “his ascent by which he went up to the house of Jehovah”. The knowledge the Lord Jesus has of God is unique; His knowledge of God as a Man is unique. Am I right, brethren, that nowhere in the gospels is the Lord Jesus presented as leading His own in prayer? This was His prayer to the Father. Somewhere it says, “as he was praying alone, his disciples were with him”, Luke 9: 18. I think in the gospels His prayers were always His prayers to the Father. That was “his ascent by which he went up to the house of Jehovah”. One of the wonders of Christianity is that He sings “in the midst of the assembly”, Heb 2: 12. That is one of the marvels of the present time, of this dispensation."
+     "text": [
+      "I am thankful you bring that in, “his ascent by which he went up to the house of Jehovah”. The knowledge the Lord Jesus has of God is unique; His knowledge of God as a Man is unique. Am I right, brethren, that nowhere in the gospels is the Lord Jesus presented as leading His own in prayer? This was His prayer to the Father. Somewhere it says, “as he was praying alone, his disciples were with him”, Luke 9: 18. I think in the gospels His prayers were always His prayers to the Father. That was “his ascent by which he went up to the house of Jehovah”. One of the wonders of Christianity is that He sings “in the midst of the assembly”, Heb 2: 12. That is one of the marvels of the present time, of this dispensation."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I was thinking about that this morning. I was affected this week in my reading that the Lord does what you have said through the affections of the saints. His singing in the assembly is as we sing, and our affections are moved. It challenged me as to how often my affections are moved. Sometimes I sing a hymn and shut my book and can hardly remember what I have sung of it. If the Spirit helps us as we are singing as we did this morning, the Lord is singing through the hearts of the saints as moved by these things that you are speaking of; is that right?"
+     "text": [
+      "I was thinking about that this morning. I was affected this week in my reading that the Lord does what you have said through the affections of the saints. His singing in the assembly is as we sing, and our affections are moved. It challenged me as to how often my affections are moved. Sometimes I sing a hymn and shut my book and can hardly remember what I have sung of it. If the Spirit helps us as we are singing as we did this morning, the Lord is singing through the hearts of the saints as moved by these things that you are speaking of; is that right?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "That is very helpful. There is the suggestion that “having sung a hymn, they went out to the mount of Olives”, Matt 26: 30. It may have been a psalm; but the suggestion is that He led in that; we can only think of Him leading in that. You are emphasising what He now does through the affections of His own."
+     "text": [
+      "That is very helpful. There is the suggestion that “having sung a hymn, they went out to the mount of Olives”, Matt 26: 30. It may have been a psalm; but the suggestion is that He led in that; we can only think of Him leading in that. You are emphasising what He now does through the affections of His own."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "He did not lead His own in prayer but He sang with them, and it happened immediately after these words that we have read as we know from the other accounts. That hymn must have been sung after He had prayed to His Father, and He led in that singing."
+     "text": [
+      "He did not lead His own in prayer but He sang with them, and it happened immediately after these words that we have read as we know from the other accounts. That hymn must have been sung after He had prayed to His Father, and He led in that singing."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Well, what is described in Revelation is special and even includes the most intimate service, of God wiping “away every tear from their eyes”. There have been and there are, many tears, but what a precious, detailed, intimate service this is."
+     "text": [
+      "Well, what is described in Revelation is special and even includes the most intimate service, of God wiping “away every tear from their eyes”. There have been and there are, many tears, but what a precious, detailed, intimate service this is."
+     ]
     },
     {
      "speaker": "TJH",
-     "text": "Would these tears be the precious tears that would be in the bottle? There are tears that are not precious at all, but these tears are wiped away. These are precious tears, the feelings of the saints coming out."
+     "text": [
+      "Would these tears be the precious tears that would be in the bottle? There are tears that are not precious at all, but these tears are wiped away. These are precious tears, the feelings of the saints coming out."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "I am content to think of the embracing grace of God that will wipe away every tear."
+     "text": [
+      "I am content to think of the embracing grace of God that will wipe away every tear."
+     ]
     },
     {
      "speaker": "DAS",
-     "text": "It says, “prepared as a bride adorned for her husband”. Now, all we have been saying surely is by the power of the Holy Spirit; He is doing that work. Is He not preparing a bride for Christ? Would that be right to say that?"
+     "text": [
+      "It says, “prepared as a bride adorned for her husband”. Now, all we have been saying surely is by the power of the Holy Spirit; He is doing that work. Is He not preparing a bride for Christ? Would that be right to say that?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "I do believe that. You enlarge on it."
+     "text": [
+      "I do believe that. You enlarge on it."
+     ]
     },
     {
      "speaker": "DAS",
-     "text": "It is a very wonderful thing that we have power available; so any small impression we have, He can enlarge it and make it suitable for Christ. It is part of His service, part of the preparation that goes on, the result of which will be eternal."
+     "text": [
+      "It is a very wonderful thing that we have power available; so any small impression we have, He can enlarge it and make it suitable for Christ. It is part of His service, part of the preparation that goes on, the result of which will be eternal."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "And do you see the thought of freshness in the bride? This is a simile, “prepared as a bride adorned for her husband”. Historically, she would have been a wife already; she is presented as “the bride, the Lamb’s wife” (v 9), and she will share in His administration; but she is presented now as a bride, in freshness!"
+     "text": [
+      "And do you see the thought of freshness in the bride? This is a simile, “prepared as a bride adorned for her husband”. Historically, she would have been a wife already; she is presented as “the bride, the Lamb’s wife” (v 9), and she will share in His administration; but she is presented now as a bride, in freshness!"
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "Why is it repeated as to being with them: “and he shall tabernacle with them, and they shall be his people, and God himself shall be with them, their God”? There is something special in that, is there?"
+     "text": [
+      "Why is it repeated as to being with them: “and he shall tabernacle with them, and they shall be his people, and God himself shall be with them, their God”? There is something special in that, is there?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "So special that if that was all we knew that would be enough. For God to be with His people is really all we need to know, for it is infinite blessedness."
+     "text": [
+      "So special that if that was all we knew that would be enough. For God to be with His people is really all we need to know, for it is infinite blessedness."
+     ]
     },
     {
      "speaker": "JCG",
-     "text": "The idea of the tabernacle involved nearness, but it seems to be emphasised in a distinctive or double way, “God himself shall be with them, their God”, as if to say there is absolutely no uncertainty about it in the nearness to which God has declared Himself through Christ."
+     "text": [
+      "The idea of the tabernacle involved nearness, but it seems to be emphasised in a distinctive or double way, “God himself shall be with them, their God”, as if to say there is absolutely no uncertainty about it in the nearness to which God has declared Himself through Christ."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "The overwhelming need of creature man is God. Men, women, boys and girls may spend their lives hiding from God, but man’s overwhelming need is God, “and God himself shall be with them, their God”."
+     "text": [
+      "The overwhelming need of creature man is God. Men, women, boys and girls may spend their lives hiding from God, but man’s overwhelming need is God, “and God himself shall be with them, their God”."
+     ]
     },
     {
      "speaker": "PAG",
-     "text": "Does the expression “God himself” mean there is no distance?"
+     "text": [
+      "Does the expression “God himself” mean there is no distance?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "Are you contrasting that with God sending a servant, sending a prophet? No distance: this is immense!"
+     "text": [
+      "Are you contrasting that with God sending a servant, sending a prophet? No distance: this is immense!"
+     ]
     },
     {
-     "text": "AMB The matter of no distance is confirmed in the use of the word to “tabernacle”, which means, I would think literally, to dwell in tents, that is, with no distance known. It is an unusual word to use, “the tabernacle of God is with men”; His dwelling-place is with men; “and he shall tabernacle with them”. That would confirm what is being said."
+     "speaker": "AMB",
+     "text": [
+      "The matter of no distance is confirmed in the use of the word to “tabernacle”, which means, I would think literally, to dwell in tents, that is, with no distance known. It is an unusual word to use, “the tabernacle of God is with men”; His dwelling-place is with men; “and he shall tabernacle with them”. That would confirm what is being said."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "The first tabernacle, I suppose, was that made of boards and skins and so on, and there the word is used as a noun, but here it is used as a verb, God “shall tabernacle with them”; it is a doing word; it is what the blessed God will do."
+     "text": [
+      "The first tabernacle, I suppose, was that made of boards and skins and so on, and there the word is used as a noun, but here it is used as a verb, God “shall tabernacle with them”; it is a doing word; it is what the blessed God will do."
+     ]
     },
     {
      "speaker": "TJH",
-     "text": "Do you think it is of note that what we are speaking of now as to the tabernacle and the nearness of divine Persons to men comes before what is said as to the tears? There are tears in accord with the feelings of divine Persons, which are not merely sentimental. If they are in accord with the feelings of God, they have particular value."
+     "text": [
+      "Do you think it is of note that what we are speaking of now as to the tabernacle and the nearness of divine Persons to men comes before what is said as to the tears? There are tears in accord with the feelings of divine Persons, which are not merely sentimental. If they are in accord with the feelings of God, they have particular value."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "I should like to have feelings that are in accord with those of divine Persons."
+     "text": [
+      "I should like to have feelings that are in accord with those of divine Persons."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "You have spoken about the longings of divine Persons. I want to be careful in what I ask, but is God longing to do this? As the blessed God, He has longings, does He? He has desires. Would that be right?"
+     "text": [
+      "You have spoken about the longings of divine Persons. I want to be careful in what I ask, but is God longing to do this? As the blessed God, He has longings, does He? He has desires. Would that be right?"
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "I like that suggestion. I think we know that the Lord Jesus as Man is longing for the Father’s word, but I like that wider suggestion."
+     "text": [
+      "I like that suggestion. I think we know that the Lord Jesus as Man is longing for the Father’s word, but I like that wider suggestion."
+     ]
     },
     {
      "speaker": "JAB",
-     "text": "I am just thinking of what we sometimes say as to the purpose of God. His purpose was in a past eternity that there should be an answer to His love, and I wondered if that would fit in with the suggestions you have been making during the reading as to divine desire. We know what we want and what we would love to do, and in a spiritual sense we have been speaking of that and enjoying it this morning, but that is in response to a God who has longings: “The Father seeks such as his worshippers”, John 4: 23. That is in answer to the desires of His heart."
+     "text": [
+      "I am just thinking of what we sometimes say as to the purpose of God. His purpose was in a past eternity that there should be an answer to His love, and I wondered if that would fit in with the suggestions you have been making during the reading as to divine desire. We know what we want and what we would love to do, and in a spiritual sense we have been speaking of that and enjoying it this morning, but that is in response to a God who has longings: “The Father seeks such as his worshippers”, John 4: 23. That is in answer to the desires of His heart."
+     ]
     },
     {
      "speaker": "GJR",
-     "text": "That provides a good background for the gospel preaching."
+     "text": [
+      "That provides a good background for the gospel preaching."
+     ]
     }
    ]
   },
@@ -746,5 +929,13 @@
  "back_matter": [
   "Edited and Published by David Brown and Andrew Burr",
   "81 Roxburgh Road. West Norwood. London. SE27 OLE"
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "LOVE UNDERLYING PRIVILEGE",
+   "kind": "default_place",
+   "detail": "Grangemouth given to 15 names (\"from Grangemouth unless otherwise stated\")"
+  }
  ]
 }

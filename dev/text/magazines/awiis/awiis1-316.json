@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,31 +26,33 @@
    "place": "BUCKHURST HILL",
    "date": "2 January 1999",
    "speakers": [
-    "W.L.",
-    "K.J.S.",
-    "G.W.B.",
-    "J.W.",
-    "B.E.S.",
-    "D.E.R.",
-    "D.J.H.",
-    "P.M.",
-    "A.K.T.",
-    "V.E.W.",
-    "D.E.B.",
-    "R.H.B.",
-    "P.H.",
-    "M.W.",
-    "Rd.B."
+    "WL",
+    "KJS",
+    "GWB",
+    "JW",
+    "BES",
+    "DER",
+    "DJH",
+    "PM",
+    "AKT",
+    "VEW",
+    "DEB",
+    "RHB",
+    "AMcS",
+    "PH",
+    "MW",
+    "RdB"
    ],
    "initials": [
     {
-     "initials": "LDEB",
-     "name": "(Local if not otherwise stated) D.E.Burr",
+     "initials": "DEB",
+     "name": "D.E.Burr",
      "place": "Redbridge"
     },
     {
      "initials": "GWB",
-     "name": "G.W.Bywater"
+     "name": "G.W.Bywater",
+     "place": "BUCKHURST HILL"
     },
     {
      "initials": "RHB",
@@ -78,7 +80,7 @@
      "place": "Cumnock"
     },
     {
-     "initials": "AM",
+     "initials": "AMcS",
      "name": "A.McSeveney",
      "place": "Cumnock"
     },
@@ -94,7 +96,8 @@
     },
     {
      "initials": "KJS",
-     "name": "K.J.Samways"
+     "name": "K.J.Samways",
+     "place": "BUCKHURST HILL"
     },
     {
      "initials": "BES",
@@ -108,7 +111,8 @@
     },
     {
      "initials": "MW",
-     "name": "M.Webster"
+     "name": "M.Webster",
+     "place": "BUCKHURST HILL"
     },
     {
      "initials": "VEW",
@@ -119,561 +123,799 @@
      "initials": "JW",
      "name": "J.Wright",
      "place": "Redbridge"
+    },
+    {
+     "initials": "RdB",
+     "not_in_key": true
     }
    ],
    "initials_heading": "Key to Initials",
+   "initials_comment": "Local if not otherwise stated",
    "initials_text": [
     "(Local if not otherwise stated)",
     "D.E.Burr, Redbridge; G.W.Bywater; R.H.Brown, East Finchley; Richard Brown, East Finchley; P.Hutchinson, Rotherham; D.J.Hutson, London; W.Lamont, Cumnock; A.McSeveney, Cumnock; P.Martin, Colchester; D.E.Remmington, St. Albans; K.J.Samways; B.E.Surtees, Felixstowe; A.K.Turner, Rotherham; M.Webster; V.E.Wraighte, Gillingham; J.Wright, Redbridge"
    ],
    "paragraphs": [
     {
-     "speaker": "W.L.",
-     "text": "One wondered if the Lord would honour us in having a fresh look at the matter of fellowship, particularly, in this reading, to look at these references in the first epistle to the Corinthians. One read in Acts just to bring out that fellowship seemed to be a very intimate matter. I suppose we would all understand that the fellowship is very intimate – it involves each one of us. It has been likened to a partnership, a community of interest. Paul brings it forward in the first chapter of 1 Corinthians as being the fellowship of God’s Son, “Jesus Christ our Lord”. I thought we might look at the great privilege of belonging to the fellowship of God’s Son and equally, the great responsibility – these two sides to the fellowship."
+     "speaker": "WL",
+     "text": [
+      "One wondered if the Lord would honour us in having a fresh look at the matter of fellowship, particularly, in this reading, to look at these references in the first epistle to the Corinthians. One read in Acts just to bring out that fellowship seemed to be a very intimate matter. I suppose we would all understand that the fellowship is very intimate – it involves each one of us. It has been likened to a partnership, a community of interest. Paul brings it forward in the first chapter of 1 Corinthians as being the fellowship of God’s Son, “Jesus Christ our Lord”. I thought we might look at the great privilege of belonging to the fellowship of God’s Son and equally, the great responsibility – these two sides to the fellowship.",
+      "It is a wonderful privilege that God has called us into the fellowship of His Son, “Jesus Christ our Lord”. The fact that it says ‘our Lord’ brings out the distinctive character of the intimacy of the fellowship. As we go on in the epistle we will see that Paul puts quite clearly before the Corinthians the great responsibility of fellowship.",
+      "Paul approaches the Corinthians at a very high level. He brings in the local matter, “the assembly of God which is in Corinth”, but also “all that in every place call on the name of our Lord Jesus Christ, both theirs and ours”, showing that these matters are local, but not only local – universal, as is the fellowship. In the fellowship of God’s Son “Jesus Christ our Lord”, there is one standard, not several standards, but a universal standard worked out locally. That is the point, I think, that Paul is getting over to the Corinthians.",
+      "First of all he brings out the great dignity and privilege of being called by God to the fellowship of His Son, Jesus Christ our Lord. Even Paul’s language is sublime."
+     ]
     },
     {
-     "text": "It is a wonderful privilege that God has called us into the fellowship of His Son, “Jesus Christ our Lord”. The fact that it says ‘our Lord’ brings out the distinctive character of the intimacy of the fellowship. As we go on in the epistle we will see that Paul puts quite clearly before the Corinthians the great responsibility of fellowship."
+     "speaker": "KJS",
+     "text": [
+      "Is the fellowship of the apostles something special?"
+     ]
     },
     {
-     "text": "Paul approaches the Corinthians at a very high level. He brings in the local matter, “the assembly of God which is in Corinth”, but also “all that in every place call on the name of our Lord Jesus Christ, both theirs and ours”, showing that these matters are local, but not only local – universal, as is the fellowship. In the fellowship of God’s Son “Jesus Christ our Lord”, there is one standard, not several standards, but a universal standard worked out locally. That is the point, I think, that Paul is getting over to the Corinthians."
+     "speaker": "WL",
+     "text": [
+      "I think so, just as they have a distinct place in the foundations of the city: the names are there. I think it is something that they passed on, communicated. What you ask appeals to me as like what the Lord says to the Father in John 17, “I do not demand for these only, but also for those who believe on me through their word” (v 20). No doubt there is a special character."
+     ]
     },
     {
-     "text": "First of all he brings out the great dignity and privilege of being called by God to the fellowship of His Son, Jesus Christ our Lord. Even Paul’s language is sublime."
+     "speaker": "GWB",
+     "text": [
+      "From that day to this in the Spirit there has been no break, has there?"
+     ]
     },
     {
-     "speaker": "K.J.S.",
-     "text": "Is the fellowship of the apostles something special?"
+     "speaker": "WL",
+     "text": [
+      "No, that is right. Where it has been is somewhat of a mystery, but the fact that the Spirit has been here has ensured the continuation of it without a break. We will probably look, if the Lord helps us, at some other aspects of the fellowship, but I thought that in this reading we should try to control our minds and our remarks in concentrating on the way Paul presents it in 1 Corinthians. I read in Acts to show that the fellowship was there in the beginning, and, as you rightly say, has continued ever since. It is a very precious thing."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "I think so, just as they have a distinct place in the foundations of the city: the names are there. I think it is something that they passed on, communicated. What you ask appeals to me as like what the Lord says to the Father in John 17, “I do not demand for these only, but also for those who believe on me through their word” (v 20). No doubt there is a special character."
+     "speaker": "JW",
+     "text": [
+      "Could you say why the teaching comes before the fellowship of the apostles?"
+     ]
     },
     {
-     "speaker": "G.W.B.",
-     "text": "From that day to this in the Spirit there has been no break, has there?"
+     "speaker": "WL",
+     "text": [
+      "Do you have some impression?"
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "No, that is right. Where it has been is somewhat of a mystery, but the fact that the Spirit has been here has ensured the continuation of it without a break. We will probably look, if the Lord helps us, at some other aspects of the fellowship, but I thought that in this reading we should try to control our minds and our remarks in concentrating on the way Paul presents it in 1 Corinthians. I read in Acts to show that the fellowship was there in the beginning, and, as you rightly say, has continued ever since. It is a very precious thing."
+     "speaker": "JW",
+     "text": [
+      "I wondered if the teaching, and the authority that went with that teaching, of the apostles governed the fellowship and whether, by extension, the teaching of the apostle Paul (which you have in 1 Corinthians) would govern it."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Could you say why the teaching comes before the fellowship of the apostles?"
+     "speaker": "WL",
+     "text": [
+      "I think so. You mean in Paul’s distinctiveness. Some additional things came in by Paul. We will see that he received communications from the Lord in glory. He never knew the Lord in flesh. I think that strengthens what you say. It would seem in Acts that there is intimacy. What the teaching of the apostles was at this particular point is not enlarged on. The Lord in the beginning of the Acts, is speaking of things which concern the kingdom of God, but what exactly the teaching of the apostles was is not enlarged on. Some of it would come out in John and Peter’s ministry."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Do you have some impression?"
+     "speaker": "JW",
+     "text": [
+      "I was thinking that the fellowship is marked by authority: the apostles’ teaching would have authority. What you say as to intimacy and relations together would flow out of that."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "I wondered if the teaching, and the authority that went with that teaching, of the apostles governed the fellowship and whether, by extension, the teaching of the apostle Paul (which you have in 1 Corinthians) would govern it."
+     "speaker": "WL",
+     "text": [
+      "In spite of the public breakdown, that authority has not diminished. I think we should clearly see the authority that governs the fellowship. (I would recommend to the younger persons to read Authority in Doctrine in Fellowship (J.Taylor new series, 34 p271 & 274)). That comes right down to our day and governs what we do and what we do not do."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "I think so. You mean in Paul’s distinctiveness. Some additional things came in by Paul. We will see that he received communications from the Lord in glory. He never knew the Lord in flesh. I think that strengthens what you say. It would seem in Acts that there is intimacy. What the teaching of the apostles was at this particular point is not enlarged on. The Lord in the beginning of the Acts, is speaking of things which concern the kingdom of God, but what exactly the teaching of the apostles was is not enlarged on. Some of it would come out in John and Peter’s ministry."
+     "speaker": "BES",
+     "text": [
+      "It applies at all times, not just when we are gathered together. In this passage in the Acts “they persevered in the teaching and fellowship of the apostles”, that would be all the time, “in breaking of bread and prayers”; particularly on certain occasions."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "I was thinking that the fellowship is marked by authority: the apostles’ teaching would have authority. What you say as to intimacy and relations together would flow out of that."
+     "speaker": "WL",
+     "text": [
+      "That is very helpful. We are in the fellowship at all times, as we are in the house of God at all times. The fellowship governs everything we say and do. Where we go is governed by the principles of the fellowship, as we will see in 1 Corinthians 10 (where ‘communion’ is used), that the death of Christ is our boundary, the boundary of the fellowship. If we want to be preserved we dare not pass that boundary."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "In spite of the public breakdown, that authority has not diminished. I think we should clearly see the authority that governs the fellowship. (I would recommend to the younger persons to read Authority in Doctrine in Fellowship (J.Taylor new series, 34 p271 & 274)). That comes right down to our day and governs what we do and what we do not do."
+     "speaker": "DER",
+     "text": [
+      "The ”breaking of bread and prayers” follows the recognition of the authority in the doctrine and fellowship."
+     ]
     },
     {
-     "speaker": "B.E.S.",
-     "text": "It applies at all times, not just when we are gathered together. In this passage in the Acts “they persevered in the teaching and fellowship of the apostles”, that would be all the time, “in breaking of bread and prayers”; particularly on certain occasions."
+     "speaker": "WL",
+     "text": [
+      "They persevered in it. I think that is a very important word. We are to persevere in it. Some have given it up. I am not un-Christianising anyone – we dare not – but some have ceased to persevere. I think everyone of us here would be very aware that we arrived at where we are through perseverance, not fleshly perseverance, but spiritual perseverance."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is very helpful. We are in the fellowship at all times, as we are in the house of God at all times. The fellowship governs everything we say and do. Where we go is governed by the principles of the fellowship, as we will see in 1 Corinthians 10 (where ‘communion’ is used), that the death of Christ is our boundary, the boundary of the fellowship. If we want to be preserved we dare not pass that boundary."
+     "speaker": "DER",
+     "text": [
+      "This would lift attendance at the Supper and the prayer meeting to a higher level than just a religious occasion. It follows from the acceptance of authority in the truth and in what we have been taught as to the fellowship practically."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "The ”breaking of bread and prayers” follows the recognition of the authority in the doctrine and fellowship."
+     "speaker": "WL",
+     "text": [
+      "The fellowship involves obligations as well as privilege. We should also see that the fellowship is involved in the announcements on Lord’s Day morning. There is authority in the announcements. It is not just someone saying when there will be meetings: unless there is a very good reason, we are obliged to fill out the assembly calendar. These are well known things, we are not saying new things."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "They persevered in it. I think that is a very important word. We are to persevere in it. Some have given it up. I am not un-Christianising anyone – we dare not – but some have ceased to persevere. I think everyone of us here would be very aware that we arrived at where we are through perseverance, not fleshly perseverance, but spiritual perseverance."
+     "speaker": "DJH",
+     "text": [
+      "Authority is still here, is it not? We may say that persons cannot be identified as apostles, but that was a gift that was given from Christ in glory – “some apostles”. The authority is here in the Spirit, is it?"
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "This would lift attendance at the Supper and the prayer meeting to a higher level than just a religious occasion. It follows from the acceptance of authority in the truth and in what we have been taught as to the fellowship practically."
+     "speaker": "WL",
+     "text": [
+      "That is very helpful. Some say, Paul has gone, but we have his teaching, we still have his ministry and, as you are saying rightly, there is the authority in his ministry. I think the great test today is Paul’s ministry, and I would say by extension, that the ministries of the recovery are authoritative."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "The fellowship involves obligations as well as privilege. We should also see that the fellowship is involved in the announcements on Lord’s Day morning. There is authority in the announcements. It is not just someone saying when there will be meetings: unless there is a very good reason, we are obliged to fill out the assembly calendar. These are well known things, we are not saying new things."
+     "speaker": "DJH",
+     "text": [
+      "I was thinking that. The authority is maintained by the Spirit and comes through, through persons, but as long as the Spirit is here, the authority will remain."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Authority is still here, is it not? We may say that persons cannot be identified as apostles, but that was a gift that was given from Christ in glory – “some apostles”. The authority is here in the Spirit, is it?"
+     "speaker": "WL",
+     "text": [
+      "The brethren will be well aware of what we have said that things will not fail in the dispensation, because divine Persons themselves have retained the key position in the economy. They will not fail. The Spirit is here just as much as He was, and as powerful as He was in the beginning of the Acts. His power is undiminished. The public breakdown is something else. But that power that is available in the Spirit is available to us now. He in His sovereignty will maintain things. He begins the work of God in the soul. New birth is the work of the Spirit of God: that is a remarkable thing. We speak about the work of God, but new birth is the sovereign action of the Spirit of God, and it goes on from there."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is very helpful. Some say, Paul has gone, but we have his teaching, we still have his ministry and, as you are saying rightly, there is the authority in his ministry. I think the great test today is Paul’s ministry, and I would say by extension, that the ministries of the recovery are authoritative."
+     "speaker": "PM",
+     "text": [
+      "Would the intimacy that you spoke of flow from the perseverance in the fellowship, in the teaching and fellowship of the apostles? It is not the other way round is it?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "I was thinking that. The authority is maintained by the Spirit and comes through, through persons, but as long as the Spirit is here, the authority will remain."
+     "speaker": "WL",
+     "text": [
+      "No, that is helpful. I thought this passage in the Acts set out the unselfishness of the saints at the beginning. We do not have all things in common, we know that. Under Paul it is stewardship. We are each, as individuals, responsible for what we have and the use of it. But we persevere in this intimacy and in this unselfish character which marked the saints at the beginning – “all that believed were together, and had all things common”."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "The brethren will be well aware of what we have said that things will not fail in the dispensation, because divine Persons themselves have retained the key position in the economy. They will not fail. The Spirit is here just as much as He was, and as powerful as He was in the beginning of the Acts. His power is undiminished. The public breakdown is something else. But that power that is available in the Spirit is available to us now. He in His sovereignty will maintain things. He begins the work of God in the soul. New birth is the work of the Spirit of God: that is a remarkable thing. We speak about the work of God, but new birth is the sovereign action of the Spirit of God, and it goes on from there."
+     "speaker": "GWB",
+     "text": [
+      "So this perseverance in view of intimacy that has just been drawn attention to did not just happen; the Lord’s prayer to the Father in John 17 is fulfilled because there was a perseverance, from the side of man’s responsibility."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Would the intimacy that you spoke of flow from the perseverance in the fellowship, in the teaching and fellowship of the apostles? It is not the other way round is it?"
+     "speaker": "WL",
+     "text": [
+      "Quite so. “There were added in that day about three thousand souls. And they persevered”, Acts 2: 41,42. In chapter 4 it says “the heart and soul of the multitude of those that had believed were one” (v 42). Think of having conditions like that even in a meeting like this. The heart and soul of the brethren as one; not one dissenting voice, or thought."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "No, that is helpful. I thought this passage in the Acts set out the unselfishness of the saints at the beginning. We do not have all things in common, we know that. Under Paul it is stewardship. We are each, as individuals, responsible for what we have and the use of it. But we persevere in this intimacy and in this unselfish character which marked the saints at the beginning – “all that believed were together, and had all things common”."
+     "speaker": "AKT",
+     "text": [
+      "Would the fact that the Holy Spirit has such a place in these chapters – in chapter 2 verse 4 “And they were all filled with the Holy Spirit”, and then the gift of the Holy Spirit in verse 38 – and was so free and ungrieved at the commencement, all add to the intimacy of which you are speaking?"
+     ]
     },
     {
-     "speaker": "G.W.B.",
-     "text": "So this perseverance in view of intimacy that has just been drawn attention to did not just happen; the Lord’s prayer to the Father in John 17 is fulfilled because there was a perseverance, from the side of man’s responsibility."
+     "speaker": "WL",
+     "text": [
+      "I am sure it would. As in chapter 6 – qualification for the daily administration was that persons were to be filled with the Holy Spirit (see v 3). How simple the thing is and how real. Even in chapter 2, as we noticed, the matter comes down to simplicity, giving thanks for your food. That is the reality of Christianity. I think the tendency today, as marks the world, is that we become so sophisticated that we lose our sense of the simplicity of Christianity."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Quite so. “There were added in that day about three thousand souls. And they persevered”, Acts 2: 41,42. In chapter 4 it says “the heart and soul of the multitude of those that had believed were one” (v 42). Think of having conditions like that even in a meeting like this. The heart and soul of the brethren as one; not one dissenting voice, or thought."
+     "speaker": "DJH",
+     "text": [
+      "I often thought what a test it would be if we were told to look out seven men full of the Holy Spirit."
+     ]
     },
     {
-     "speaker": "A.K.T.",
-     "text": "Would the fact that the Holy Spirit has such a place in these chapters – in chapter 2 verse 4 “And they were all filled with the Holy Spirit”, and then the gift of the Holy Spirit in verse 38 – and was so free and ungrieved at the commencement, all add to the intimacy of which you are speaking?"
+     "speaker": "WL",
+     "text": [
+      "That is very testing. It is a very practical thing."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "I am sure it would. As in chapter 6 – qualification for the daily administration was that persons were to be filled with the Holy Spirit (see v 3). How simple the thing is and how real. Even in chapter 2, as we noticed, the matter comes down to simplicity, giving thanks for your food. That is the reality of Christianity. I think the tendency today, as marks the world, is that we become so sophisticated that we lose our sense of the simplicity of Christianity."
+     "speaker": "JW",
+     "text": [
+      "Is the place the Holy Spirit had with these persons the secret of their unselfishness? I often think how unselfish the Holy Spirit is Himself."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "I often thought what a test it would be if we were told to look out seven men full of the Holy Spirit."
+     "speaker": "WL",
+     "text": [
+      "Taking the third place in the economy in view of the glory both of the Father and of the Son. I have just been reflecting recently about the gentle grace of the Spirit; He can be grieved, He can be quenched, He does not assert Himself. We speak about lordship, Jesus being made both Lord and Christ, and Jesus Christ our Lord, and there being no blessing apart from coming under His domination as Lord. (Saul of Tarsus had to learn that.) The Spirit of God does not assert Himself, He takes the place we give Him. How wonderful that is! In His lowly grace He simply accepts the place that I give Him in my heart. It is from our side that we must make room for Him."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is very testing. It is a very practical thing."
+     "speaker": "BES",
+     "text": [
+      "When we speak about authority, it is really the Lord’s authority. The Spirit maintains it, but the authority is the Lord’s."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Is the place the Holy Spirit had with these persons the secret of their unselfishness? I often think how unselfish the Holy Spirit is Himself."
+     "speaker": "WL",
+     "text": [
+      "That is right. It is in the place where He is made both Lord and Christ (see Acts 2: 36).",
+      "I wondered if we should look at 1 Corinthians where Paul asserts his authority as an apostle, “apostle of Jesus Christ, by God’s will”. He links the brother with him which would emphasise the intimacy that we have been speaking about – brotherly relationship, “Sosthenes the brother”. One can observe, and one sees the tendency in one’s own heart, to give way to one of the enemy’s tactics today, to disrupt the relationships among the saints so that the brotherly covenant is broken. If that happens we are susceptible to all kinds of things. Paul links the brother with him here “Sosthenes the brother”. Sosthenes was not an apostle, he was a brother and Paul is so gracious in speaking of his own apostleship that he links the brother with him."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Taking the third place in the economy in view of the glory both of the Father and of the Son. I have just been reflecting recently about the gentle grace of the Spirit; He can be grieved, He can be quenched, He does not assert Himself. We speak about lordship, Jesus being made both Lord and Christ, and Jesus Christ our Lord, and there being no blessing apart from coming under His domination as Lord. (Saul of Tarsus had to learn that.) The Spirit of God does not assert Himself, He takes the place we give Him. How wonderful that is! In His lowly grace He simply accepts the place that I give Him in my heart. It is from our side that we must make room for Him."
+     "speaker": "JW",
+     "text": [
+      "Do we learn the principle of this in Damascus in Acts 9? He gained a lot of benefit from Ananias’s service to him."
+     ]
     },
     {
-     "speaker": "B.E.S.",
-     "text": "When we speak about authority, it is really the Lord’s authority. The Spirit maintains it, but the authority is the Lord’s."
+     "speaker": "WL",
+     "text": [
+      "“Saul, brother”, Acts 9: 17. That is very fine. These are very important things. One can observe that trouble in localities often arises when simple matters come up, but there is not the brotherly bond to handle them rightly, and then you get all sorts of trouble and confusion. The preparedness of the apostle Paul to link the brother with himself is remarkable, and it would seem, if we read it rightly, that he would link Sosthenes, the brother, with him in this matter of authority."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is right. It is in the place where He is made both Lord and Christ (see Acts 2: 36)."
+     "speaker": "VEW",
+     "text": [
+      "Along with intimacy, is there confidence that Paul can link a brother with him? I was thinking of the great matter of confidence which is needed in the fellowship."
+     ]
     },
     {
-     "text": "I wondered if we should look at 1 Corinthians where Paul asserts his authority as an apostle, “apostle of Jesus Christ, by God’s will”. He links the brother with him which would emphasise the intimacy that we have been speaking about – brotherly relationship, “Sosthenes the brother”. One can observe, and one sees the tendency in one’s own heart, to give way to one of the enemy’s tactics today, to disrupt the relationships among the saints so that the brotherly covenant is broken. If that happens we are susceptible to all kinds of things. Paul links the brother with him here “Sosthenes the brother”. Sosthenes was not an apostle, he was a brother and Paul is so gracious in speaking of his own apostleship that he links the brother with him."
+     "speaker": "WL",
+     "text": [
+      "Very much so. So that we are not suspicious of one another. You do not search out evil: treat one another with brotherly confidence. The only way we can take up matters is that if something becomes overt, it must be dealt with, and if it is not dealt with there is a breach of brotherly confidence and of fellowship."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Do we learn the principle of this in Damascus in Acts 9? He gained a lot of benefit from Ananias’s service to him."
+     "speaker": "JW",
+     "text": [
+      "Would the brotherly link be one aspect of the responsibilities that attach to the fellowship? I wondered whether we would be helped in the working of it out if we see that we have a responsibility, worked out in affection but part of that responsibility is in the maintaining of good relations with another."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "“Saul, brother”, Acts 9: 17. That is very fine. These are very important things. One can observe that trouble in localities often arises when simple matters come up, but there is not the brotherly bond to handle them rightly, and then you get all sorts of trouble and confusion. The preparedness of the apostle Paul to link the brother with himself is remarkable, and it would seem, if we read it rightly, that he would link Sosthenes, the brother, with him in this matter of authority."
+     "speaker": "WL",
+     "text": [
+      "That is important, because the fellowship of God’s Son is no area for the assertion of one’s natural and fleshy opinion. I think that is a lesson that sometimes we are slow to learn. In the assembly, the house of God, is no place for the assertion of human will."
+     ]
     },
     {
-     "speaker": "V.E.W.",
-     "text": "Along with intimacy, is there confidence that Paul can link a brother with him? I was thinking of the great matter of confidence which is needed in the fellowship."
+     "speaker": "JW",
+     "text": [
+      "Would the working out of our responsibilities provide an environment where we can, in liberty, enter into the privileges that attach to the fellowship? I wondered whether the enjoyment of the privileges would stimulate us in relation to the responsibilities."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Very much so. So that we are not suspicious of one another. You do not search out evil: treat one another with brotherly confidence. The only way we can take up matters is that if something becomes overt, it must be dealt with, and if it is not dealt with there is a breach of brotherly confidence and of fellowship."
+     "speaker": "WL",
+     "text": [
+      "That is helpful, because that is exactly how Paul approaches the Corinthians. He approaches them from the standpoint of the dignity that properly belongs to them in the mind of God, “the assembly of God which is in Corinth”. Today, we know that we could not refer to the assembly of God which is in Buckhurst Hill, we are in broken days; publicly it could not be identified, but the enjoyment of it, the light of it and not only the light of it, but the practicality of it, can still be enjoyed because the Holy Spirit is here."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Would the brotherly link be one aspect of the responsibilities that attach to the fellowship? I wondered whether we would be helped in the working of it out if we see that we have a responsibility, worked out in affection but part of that responsibility is in the maintaining of good relations with another."
+     "speaker": "DER",
+     "text": [
+      "We are living in days when there are lots of fellowships, but does this scripture help us to see that there can only be one true fellowship?"
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is important, because the fellowship of God’s Son is no area for the assertion of one’s natural and fleshy opinion. I think that is a lesson that sometimes we are slow to learn. In the assembly, the house of God, is no place for the assertion of human will."
+     "speaker": "WL",
+     "text": [
+      "Yes. The fellowship of God’s Son is exclusive. I think that the brethren will understand that I am not speaking about ‘exclusive brethren’. The thought of what is exclusive is right. The brethren will know the pamphlet of Mr Stoney’s Exclusiveness Its Ground and History which is very important."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Would the working out of our responsibilities provide an environment where we can, in liberty, enter into the privileges that attach to the fellowship? I wondered whether the enjoyment of the privileges would stimulate us in relation to the responsibilities."
+     "speaker": "BES",
+     "text": [
+      "Paul’s sense of the greatness of the fellowship of God’s Son would be enhanced by the sense that the fellowship of the apostles was there before He came into it. 1 John 1 opens that up, does it not?"
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is helpful, because that is exactly how Paul approaches the Corinthians. He approaches them from the standpoint of the dignity that properly belongs to them in the mind of God, “the assembly of God which is in Corinth”. Today, we know that we could not refer to the assembly of God which is in Buckhurst Hill, we are in broken days; publicly it could not be identified, but the enjoyment of it, the light of it and not only the light of it, but the practicality of it, can still be enjoyed because the Holy Spirit is here."
+     "speaker": "WL",
+     "text": [
+      "What you say is right. I think if we, and believers generally, had an impression of the dignity of the fellowship of God’s Son, Jesus Christ our Lord, they would have no desire to belong to any other fellowship. It is the greatest privilege open to us to have part in the fellowship of God’s Son, Jesus Christ our Lord."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "We are living in days when there are lots of fellowships, but does this scripture help us to see that there can only be one true fellowship?"
+     "speaker": "DEB",
+     "text": [
+      "There is prominence in these first nine verses of the word “call” – Paul himself writes as a “called apostle”, but there were the saints by divine calling (perhaps that is a slightly different aspect), and then “ye have been called into the fellowship”, so that none of us is here exactly by our own choice, we are here as a result of having heard a call, and as being there we recognise that such as Paul has been called within that to some prominent service."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Yes. The fellowship of God’s Son is exclusive. I think that the brethren will understand that I am not speaking about ‘exclusive brethren’. The thought of what is exclusive is right. The brethren will know the pamphlet of Mr Stoney’s Exclusiveness Its Ground and History which is very important."
+     "speaker": "WL",
+     "text": [
+      "What you say is helpful. We should have a very real sense of the great privilege of having been divinely called. What dignity that gives to the saints, that we are called by God! It says “God is faithful, by whom ye have been called”. You might say we have been beckoned into it. Here it is available, the fellowship of God’s Son, Jesus Christ our Lord, and as it were God in His grace would says, It is there for you, come into it, come into the enjoyment of it."
+     ]
     },
     {
-     "speaker": "B.E.S.",
-     "text": "Paul’s sense of the greatness of the fellowship of God’s Son would be enhanced by the sense that the fellowship of the apostles was there before He came into it. 1 John 1 opens that up, does it not?"
+     "speaker": "DJH",
+     "text": [
+      "Mr. Darby says:",
+      "What powerful mighty voice so near,",
+      "Calls me from earth apart.",
+      "What an impression he had of the call in that poem that he writes?"
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "What you say is right. I think if we, and believers generally, had an impression of the dignity of the fellowship of God’s Son, Jesus Christ our Lord, they would have no desire to belong to any other fellowship. It is the greatest privilege open to us to have part in the fellowship of God’s Son, Jesus Christ our Lord."
+     "speaker": "WL",
+     "text": [
+      "Is that where he says:",
+      "Reaching with tones, so still, so clear,",
+      "From the unseen world, my heart."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "There is prominence in these first nine verses of the word “call” – Paul himself writes as a “called apostle”, but there were the saints by divine calling (perhaps that is a slightly different aspect), and then “ye have been called into the fellowship”, so that none of us is here exactly by our own choice, we are here as a result of having heard a call, and as being there we recognise that such as Paul has been called within that to some prominent service."
+     "speaker": "JW",
+     "text": [
+      "Being called by God into it, enhances the importance of being governed by the principles of it. God has called me into it; I have no option, have I?"
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "What you say is helpful. We should have a very real sense of the great privilege of having been divinely called. What dignity that gives to the saints, that we are called by God! It says “God is faithful, by whom ye have been called”. You might say we have been beckoned into it. Here it is available, the fellowship of God’s Son, Jesus Christ our Lord, and as it were God in His grace would says, It is there for you, come into it, come into the enjoyment of it."
+     "speaker": "WL",
+     "text": [
+      "That is right. I cannot behave promiscuously, if I have been called into this fellowship, I must abide by what governs it. Then it says “God is faithful”. I think it has been said that it is not God’s faithfulness to us but it is God’s faithfulness to the fellowship of His Son. It will be divinely protected. I think that is the thought. Come what may, the God who has called us into it, will protect it, and that is an assurance that it will go on to the end. No matter what may happen publicly, whatever breakdown there may be, God is faithful to what He has called us into. We may fail in it, and we may even disgrace it by our conduct, but God remains faithful to it."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "Mr. Darby says:"
+     "speaker": "DJH",
+     "text": [
+      "I thought of that as comparing the expression here – “in respect of the grace of God given to you in Christ Jesus” – with what Paul says in a day of breakdown in 2 Timothy, “which was given to us in Christ Jesus before the ages of the time”, 2 Tim 1: 9. God will stand to that, you might say reverently, until the end."
+     ]
     },
     {
-     "text": "What powerful mighty voice so near,"
+     "speaker": "WL",
+     "text": [
+      "John the Baptist says to the Jews, “God is able of these stones to raise up children to Abraham”, Matt 3: 9. Beloved brethren, if we are not faithful in our responsibility to the fellowship of God’s Son, God will see to it in His sovereignty that there will be persons who are right to the end. In the meantime, it is our great privilege to have been called into this wonderful, dignified fellowship, the fellowship of God’s Son. I wish I could convey in language a greater impression of it, “the fellowship of God’s Son, Jesus Christ our Lord”."
+     ]
     },
     {
-     "text": "Calls me from earth apart."
+     "speaker": "PM",
+     "text": [
+      "Does God remain faithful to it because His Son gives character to it? He must be faithful to all that His Son gives character to, but would it help us to see the character of it, that it is His Son that gives character, it is dignified and the saints are to be dignified as walking in the light of it?"
+     ]
     },
     {
-     "text": "What an impression he had of the call in that poem that he writes?"
+     "speaker": "WL",
+     "text": [
+      "That is very fine. It is not fellowship with His Son, it is the fellowship of His Son, which brings out the uniqueness and dignity. I like what you say – a fellowship that is given character to by His Son. We have association with Him, but we do not have fellowship with Him."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Is that where he says:"
+     "speaker": "PM",
+     "text": [
+      "Would it not be right to say that as being called into it, if I take up the calling rightly my behaviour it to be reflective of what God has in His Son."
+     ]
     },
     {
-     "text": "Reaching with tones, so still, so clear,"
+     "speaker": "WL",
+     "text": [
+      "I am sure of that. So He in His glorious manhood gives character to the whole thing, which I thought we should see in 1 Corinthians 10."
+     ]
     },
     {
-     "text": "From the unseen world, my heart."
+     "speaker": "VEW",
+     "text": [
+      "Further to what has been said, not only does He give character to it, but He is God’s standard."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Being called by God into it, enhances the importance of being governed by the principles of it. God has called me into it; I have no option, have I?"
+     "speaker": "WL",
+     "text": [
+      "An unalterable standard. God has set out the standard in one glorious Man, and He has not and will not ever deviate from it eternally. There is a glorious Man, His own beloved Son who is His standard of manhood. That is very fine."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is right. I cannot behave promiscuously, if I have been called into this fellowship, I must abide by what governs it. Then it says “God is faithful”. I think it has been said that it is not God’s faithfulness to us but it is God’s faithfulness to the fellowship of His Son. It will be divinely protected. I think that is the thought. Come what may, the God who has called us into it, will protect it, and that is an assurance that it will go on to the end. No matter what may happen publicly, whatever breakdown there may be, God is faithful to what He has called us into. We may fail in it, and we may even disgrace it by our conduct, but God remains faithful to it."
+     "speaker": "JW",
+     "text": [
+      "Does the reference to Jesus Christ our Lord give us the bond we have together in the fellowship?"
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "I thought of that as comparing the expression here – “in respect of the grace of God given to you in Christ Jesus” – with what Paul says in a day of breakdown in 2 Timothy, “which was given to us in Christ Jesus before the ages of the time”, 2 Tim 1: 9. God will stand to that, you might say reverently, until the end."
+     "speaker": "WL",
+     "text": [
+      "Yes. I was linking it with the beginning of Romans, “according to the Spirit of holiness, by resurrection of the dead” Rom 1: 4. If you leave out the parenthesis it is “concerning his Son … Jesus Christ our Lord”. So we have a link in the glad tidings, but we also have a link in this wonderful fellowship."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "John the Baptist says to the Jews, “God is able of these stones to raise up children to Abraham”, Matt 3: 9. Beloved brethren, if we are not faithful in our responsibility to the fellowship of God’s Son, God will see to it in His sovereignty that there will be persons who are right to the end. In the meantime, it is our great privilege to have been called into this wonderful, dignified fellowship, the fellowship of God’s Son. I wish I could convey in language a greater impression of it, “the fellowship of God’s Son, Jesus Christ our Lord”."
+     "speaker": "JW",
+     "text": [
+      "If He is Lord to me and He is Lord to you, we have fellowship together in a practical way."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Does God remain faithful to it because His Son gives character to it? He must be faithful to all that His Son gives character to, but would it help us to see the character of it, that it is His Son that gives character, it is dignified and the saints are to be dignified as walking in the light of it?"
+     "speaker": "WL",
+     "text": [
+      "Of course we have, and we have only practical fellowship together as we both acknowledge His lordship. If I am rebellious I cannot have part practically in the fellowship of God’s Son, Jesus Christ our Lord. Is that your thought?"
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is very fine. It is not fellowship with His Son, it is the fellowship of His Son, which brings out the uniqueness and dignity. I like what you say – a fellowship that is given character to by His Son. We have association with Him, but we do not have fellowship with Him."
+     "speaker": "JW",
+     "text": [
+      "Yes."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Would it not be right to say that as being called into it, if I take up the calling rightly my behaviour it to be reflective of what God has in His Son."
+     "speaker": "DER",
+     "text": [
+      "Fellowship actually means anything done jointly with another, which is very searching if we appreciate that we have been called into the fellowship of God’s Son, Jesus Christ our Lord."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "I am sure of that. So He in His glorious manhood gives character to the whole thing, which I thought we should see in 1 Corinthians 10."
+     "speaker": "WL",
+     "text": [
+      "For the sake of those who are younger, it has been said it is like a business partnership. Say you have two or more partners in a business and one goes and squanders money, it affects the whole business and the other partners – that is the fellowship. What I do practically affects the whole fellowship. Just as an illustration, later on in the epistle, Paul speaks of the body. If I put my hand in a fire, my hand gets burnt; it affects my whole body. I sometimes wonder whether we fully realise that every action of mine involves the fellowship and the body. Do you understand that to be the truth?"
+     ]
     },
     {
-     "speaker": "V.E.W.",
-     "text": "Further to what has been said, not only does He give character to it, but He is God’s standard."
+     "speaker": "DER",
+     "text": [
+      "Yes, and how much that needs to be emphasised in the day of breakdown, so that fellowship is not just a matter of meeting at the Supper; it involves every aspect of our lives throughout the week."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "An unalterable standard. God has set out the standard in one glorious Man, and He has not and will not ever deviate from it eternally. There is a glorious Man, His own beloved Son who is His standard of manhood. That is very fine."
+     "speaker": "WL",
+     "text": [
+      "That is what I thought as to chapter 1; the first nine verses, heading up in God’s faithfulness to the fellowship of His Son, Jesus Christ our Lord, is the great privilege of being called. Then Paul takes account of the state of the Corinthians and he in effect says, Now we have enjoyed the privileges, what about the responsibilities. That is chapter 10, it is the question of the death of Christ. The fellowship involves faithfulness to Christ’s death."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Does the reference to Jesus Christ our Lord give us the bond we have together in the fellowship?"
+     "speaker": "RHB",
+     "text": [
+      "I wondered if you had more in mind as to the remark that the death of Christ is the boundary of the fellowship? Could you open that up for us."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Yes. I was linking it with the beginning of Romans, “according to the Spirit of holiness, by resurrection of the dead” Rom 1: 4. If you leave out the parenthesis it is “concerning his Son … Jesus Christ our Lord”. So we have a link in the glad tidings, but we also have a link in this wonderful fellowship."
+     "speaker": "WL",
+     "text": [
+      "I think chapter 10 sets that out “The cup of blessing which we bless, is it not the communion of the blood of the Christ? The bread which we break, is it not the communion of the body of the Christ?” Paul goes on to set out that – he is telling the Corinthians if you dabble in anything else you are linking on in the extreme case with what is of demons. It means that fellowship involves that yourself and I and the rest of the saints are consistent with the death of Christ."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "If He is Lord to me and He is Lord to you, we have fellowship together in a practical way."
+     "speaker": "RHB",
+     "text": [
+      "That exhortation is preceded by an affectionate appeal “Wherefore, my beloved, flee from idolatry”, 1 Cor 10: 14. Anything other than Christ has that character and can have that character in my affections."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Of course we have, and we have only practical fellowship together as we both acknowledge His lordship. If I am rebellious I cannot have part practically in the fellowship of God’s Son, Jesus Christ our Lord. Is that your thought?"
+     "speaker": "WL",
+     "text": [
+      "That is right. It has been said that anything that displaces Christ in my affections is an idol. If I become obsessed by something that is not consistent with the death of Christ, I become an idolater. One’s own thoughts, and observation of others, is that obsessions are destructive. Persons have become obsessed by matters of difficulty among the brethren to the point that they could not think straight. We should be aware of these things. The death of Christ is a great preservative, and it is the boundary within which the believer operates, and anything inconsistent with the death of Christ is untouchable. We cannot touch it or we will become defiled and we breach the principles of the fellowship."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "Yes."
+     "speaker": "RHB",
+     "text": [
+      "It is helpful to put it in those terms."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "Fellowship actually means anything done jointly with another, which is very searching if we appreciate that we have been called into the fellowship of God’s Son, Jesus Christ our Lord."
+     "speaker": "GWB",
+     "text": [
+      "Although we are on resurrection ground, nothing is suitable but what comes through Christ’s death."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "For the sake of those who are younger, it has been said it is like a business partnership. Say you have two or more partners in a business and one goes and squanders money, it affects the whole business and the other partners – that is the fellowship. What I do practically affects the whole fellowship. Just as an illustration, later on in the epistle, Paul speaks of the body. If I put my hand in a fire, my hand gets burnt; it affects my whole body. I sometimes wonder whether we fully realise that every action of mine involves the fellowship and the body. Do you understand that to be the truth?"
+     "speaker": "WL",
+     "text": [
+      "How true! Nothing for God but what has come out of the death of the Christ. We were looking elsewhere at the swarm of bees in the carcase of the lion (see Jud 14: 8), in Samson’s time. The lion was slain and in that carcase was the swarm of bees. One likened it to what we have referred to earlier, the heart and soul of the multitude was as one. All that swarm working to one end for the production of what was suitable. That is what we should be at in the fellowship and we can only have that as we stand firmly by the principles of the death of Christ and see quite clearly that blessed One, the true grain of wheat who has gone into the ground and died (see John 12: 24) and from that standpoint there has been much fruit and in God’s grace we are part of that much fruit."
+     ]
     },
     {
-     "speaker": "D.E.R.",
-     "text": "Yes, and how much that needs to be emphasised in the day of breakdown, so that fellowship is not just a matter of meeting at the Supper; it involves every aspect of our lives throughout the week."
+     "speaker": "GWB",
+     "text": [
+      "So pleasing myself, as comes in earlier in chapter 10, is the wrong side of death; indeed it is what Christ died for to be put away, all that sin."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is what I thought as to chapter 1; the first nine verses, heading up in God’s faithfulness to the fellowship of His Son, Jesus Christ our Lord, is the great privilege of being called. Then Paul takes account of the state of the Corinthians and he in effect says, Now we have enjoyed the privileges, what about the responsibilities. That is chapter 10, it is the question of the death of Christ. The fellowship involves faithfulness to Christ’s death."
+     "speaker": "BES",
+     "text": [
+      "How would you help persons practically who do not see that certain things are inconsistent with the death of Christ, certain kinds of reading, certain kinds of clothing, certain kinds of companionship and so on?"
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "I wondered if you had more in mind as to the remark that the death of Christ is the boundary of the fellowship? Could you open that up for us."
+     "speaker": "WL",
+     "text": [
+      "To me it is quite simple, if you are faced with a matter, whatever it may be, it is good just to ask oneself the simple question, How does the Lord view this? Is it consistent with His death and sufferings? If you have a true heart you must come to it that certain things are inconsistent with the death of Christ and therefore you are morally obliged to say, I cannot touch it."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "I think chapter 10 sets that out “The cup of blessing which we bless, is it not the communion of the blood of the Christ? The bread which we break, is it not the communion of the body of the Christ?” Paul goes on to set out that – he is telling the Corinthians if you dabble in anything else you are linking on in the extreme case with what is of demons. It means that fellowship involves that yourself and I and the rest of the saints are consistent with the death of Christ."
+     "speaker": "BES",
+     "text": [
+      "I am sure that is right. It is plain in principle but we find that we only arrive at specific things gradually and that when we try to help others about them there is resistance."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "That exhortation is preceded by an affectionate appeal “Wherefore, my beloved, flee from idolatry”, 1 Cor 10: 14. Anything other than Christ has that character and can have that character in my affections."
+     "speaker": "WL",
+     "text": [
+      "It is a very sad thing to see in a believer the assertion of the will of man. It is what we referred to before, “but as many as received him, to them gave he the right to be children of God, to those that believe those that believe on his name; who have been born, not of blood, nor of flesh’s will, nor of man’s will, but of God”, John 1: 12,13. The Lord sets it right in the beginning of His ministry in John, that the children of God are not of these things."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is right. It has been said that anything that displaces Christ in my affections is an idol. If I become obsessed by something that is not consistent with the death of Christ, I become an idolater. One’s own thoughts, and observation of others, is that obsessions are destructive. Persons have become obsessed by matters of difficulty among the brethren to the point that they could not think straight. We should be aware of these things. The death of Christ is a great preservative, and it is the boundary within which the believer operates, and anything inconsistent with the death of Christ is untouchable. We cannot touch it or we will become defiled and we breach the principles of the fellowship."
+     "speaker": "DJH",
+     "text": [
+      "We have spoken of resurrection ground and in Colossians Paul says “And everything, whatever ye may do in word or in deed, do all things in the name of the Lord Jesus, giving thanks to God the Father by him”, Col 3: 17. That is a very positive test is it not?"
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "It is helpful to put it in those terms."
+     "speaker": "WL",
+     "text": [
+      "Yes. My attention was drawn to something in Mr Stoney on that very passage. He said, Doing all things in the name of the Lord Jesus governs even what kind of tie you wear!"
+     ]
     },
     {
-     "speaker": "G.W.B.",
-     "text": "Although we are on resurrection ground, nothing is suitable but what comes through Christ’s death."
+     "speaker": "BES",
+     "text": [
+      "There is another verse in an earlier chapter of Corinthians, whatever ye do, eating or drinking, do to the glory of God."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "How true! Nothing for God but what has come out of the death of the Christ. We were looking elsewhere at the swarm of bees in the carcase of the lion (see Jud 14: 8), in Samson’s time. The lion was slain and in that carcase was the swarm of bees. One likened it to what we have referred to earlier, the heart and soul of the multitude was as one. All that swarm working to one end for the production of what was suitable. That is what we should be at in the fellowship and we can only have that as we stand firmly by the principles of the death of Christ and see quite clearly that blessed One, the true grain of wheat who has gone into the ground and died (see John 12: 24) and from that standpoint there has been much fruit and in God’s grace we are part of that much fruit."
+     "speaker": "WL",
+     "text": [
+      "These are the things that should be before us."
+     ]
     },
     {
-     "speaker": "G.W.B.",
-     "text": "So pleasing myself, as comes in earlier in chapter 10, is the wrong side of death; indeed it is what Christ died for to be put away, all that sin."
+     "speaker": "AMcS",
+     "text": [
+      "I was going to remind you of something that was said lately, that if a person is going on in iniquity, it cannot wait until that person comes on to Ephesian ground before we deal with it. Ultimately we would love persons to arrive at things and grow spiritually, but our links together in the fellowship are not based on that. They are on moral grounds and if we are inconsistent with the lordship of Christ, we ourselves are not fit for fellowship regardless of what we may understand spiritually."
+     ]
     },
     {
-     "speaker": "B.E.S.",
-     "text": "How would you help persons practically who do not see that certain things are inconsistent with the death of Christ, certain kinds of reading, certain kinds of clothing, certain kinds of companionship and so on?"
+     "speaker": "WL",
+     "text": [
+      "That is very true. As in the house of God and in the fellowship of His Son we are governed by the principles which belong to the fellowship of God’s Son and in God’s house we are governed by the law of the house and in God’s house everything is ordered according to His will. If I step outside of that I am on dangerous ground."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "To me it is quite simple, if you are faced with a matter, whatever it may be, it is good just to ask oneself the simple question, How does the Lord view this? Is it consistent with His death and sufferings? If you have a true heart you must come to it that certain things are inconsistent with the death of Christ and therefore you are morally obliged to say, I cannot touch it."
+     "speaker": "AMcS",
+     "text": [
+      "A practical illustration would be that we hope on the Lord’s day morning to rise to great spiritual heights. How can we expect the Lord to come to us if there has been something unseemly going on in houses previous to that?"
+     ]
     },
     {
-     "speaker": "B.E.S.",
-     "text": "I am sure that is right. It is plain in principle but we find that we only arrive at specific things gradually and that when we try to help others about them there is resistance."
+     "speaker": "WL",
+     "text": [
+      "That is quite true. I think we are in a day that requires honesty and transparency. I love to read about the family in Revelation that stand on the glass sea, where everything is transparent (see Rev 4: 6 or 15: 2).",
+      "In chapter 11 we read “let a man examine himself”: it would include brothers, sisters and young people. How can I touch what it unholy on a Saturday night and sometimes into Lord’s day and come and put unholy hands to the loaf and unholy lips to the cup. It is a moral impossibility, and as Paul says, if I do that I eat and drink judgment to myself. It is a very practical matter.",
+      "Paul in 1 Corinthians 10 speaks about “the cup of blessing which we bless, is it not the communion of the blood of the Christ?”. What can we say about the fellowship of the blood of the Christ. “The bread which we break, is it not the communion of the body of the Christ? Because we, being many, are one loaf”. That substantiates and emphasises what we have been saying as to the oneness of the fellowship."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "It is a very sad thing to see in a believer the assertion of the will of man. It is what we referred to before, “but as many as received him, to them gave he the right to be children of God, to those that believe those that believe on his name; who have been born, not of blood, nor of flesh’s will, nor of man’s will, but of God”, John 1: 12,13. The Lord sets it right in the beginning of His ministry in John, that the children of God are not of these things."
+     "speaker": "BES",
+     "text": [
+      "It is important to see there that the communion is that of things that the bread and the cup stand for; it is not participation in the material elements themselves that constitutes that communion or fellowship. That is the proof of it. The communion is of the blood of the Christ and the body of the Christ."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "We have spoken of resurrection ground and in Colossians Paul says “And everything, whatever ye may do in word or in deed, do all things in the name of the Lord Jesus, giving thanks to God the Father by him”, Col 3: 17. That is a very positive test is it not?"
+     "speaker": "WL",
+     "text": [
+      "It is important to get the moral structure of Paul’s teaching. It is obvious that 1 Corinthians 10 comes before chapter 11, but what I am speaking about is the moral teaching of it. He speaks about the communion of the blood of Christ and the communion of the body of Christ which is not the Lord’s supper as such. We do not get the Lord’s supper until chapter 11."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Yes. My attention was drawn to something in Mr Stoney on that very passage. He said, Doing all things in the name of the Lord Jesus governs even what kind of tie you wear!"
+     "speaker": "JW",
+     "text": [
+      "You spoke of this as being the boundary of fellowship. Would we also see in the death of Christ the basis of fellowship? It is the moral basis laid in the death of Christ for fellowship."
+     ]
     },
     {
-     "speaker": "B.E.S.",
-     "text": "There is another verse in an earlier chapter of Corinthians, whatever ye do, eating or drinking, do to the glory of God."
+     "speaker": "WL",
+     "text": [
+      "I wonder if we understand that. One challenges one’s thoughts often as we go about – you are confronted with something, we all are in our lives confronted continually by issues, young persons at school, older persons at work, wherever we are – we are continually confronted by issues of this world. The question immediately arises will I compromise or will I be faithful to the death of Christ."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "These are the things that should be before us."
+     "speaker": "VEW",
+     "text": [
+      "So the fellowship of the death of Christ is a public matter."
+     ]
     },
     {
-     "text": "A.McS I was going to remind you of something that was said lately, that if a person is going on in iniquity, it cannot wait until that person comes on to Ephesian ground before we deal with it. Ultimately we would love persons to arrive at things and grow spiritually, but our links together in the fellowship are not based on that. They are on moral grounds and if we are inconsistent with the lordship of Christ, we ourselves are not fit for fellowship regardless of what we may understand spiritually."
+     "speaker": "WL",
+     "text": [
+      "It is. I am glad you mentioned that. We might go on, in the next reading, to the private and secret side of fellowship. But what we are dealing with now is the fellowship in its public character."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is very true. As in the house of God and in the fellowship of His Son we are governed by the principles which belong to the fellowship of God’s Son and in God’s house we are governed by the law of the house and in God’s house everything is ordered according to His will. If I step outside of that I am on dangerous ground."
+     "speaker": "JW",
+     "text": [
+      "In its public character it is seen that the world and sin is judged."
+     ]
     },
     {
-     "text": "A.McS. A practical illustration would be that we hope on the Lord’s day morning to rise to great spiritual heights. How can we expect the Lord to come to us if there has been something unseemly going on in houses previous to that?"
+     "speaker": "WL",
+     "text": [
+      "It ought to be seen by worldly people and by other believers that here are persons who are faithful to the fellowship of God’s Son, Jesus Christ our Lord and faithful to the principles solidly established in the death of Christ. That is the public aspect."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is quite true. I think we are in a day that requires honesty and transparency. I love to read about the family in Revelation that stand on the glass sea, where everything is transparent (see Rev 4: 6 or 15: 2)."
+     "speaker": "VEW",
+     "text": [
+      "So that on the public side there is the bearing of His reproach, but underlying all these practical matters is my affection for the Person."
+     ]
     },
     {
-     "text": "In chapter 11 we read “let a man examine himself”: it would include brothers, sisters and young people. How can I touch what it unholy on a Saturday night and sometimes into Lord’s day and come and put unholy hands to the loaf and unholy lips to the cup. It is a moral impossibility, and as Paul says, if I do that I eat and drink judgment to myself. It is a very practical matter."
+     "speaker": "WL",
+     "text": [
+      "You have touched the vital point. I love the Lord’s commendation of the woman in Luke 7 “she loved much”, Luke 7: 47. I think that the measure of our devotion to the Lord Jesus is directly related to the measure for our affection for Him."
+     ]
     },
     {
-     "text": "Paul in 1 Corinthians 10 speaks about “the cup of blessing which we bless, is it not the communion of the blood of the Christ?”. What can we say about the fellowship of the blood of the Christ. “The bread which we break, is it not the communion of the body of the Christ? Because we, being many, are one loaf”. That substantiates and emphasises what we have been saying as to the oneness of the fellowship."
+     "speaker": "PH",
+     "text": [
+      "Would anything else be like those that offered strange fire?"
+     ]
     },
     {
-     "speaker": "B.E.S.",
-     "text": "It is important to see there that the communion is that of things that the bread and the cup stand for; it is not participation in the material elements themselves that constitutes that communion or fellowship. That is the proof of it. The communion is of the blood of the Christ and the body of the Christ."
+     "speaker": "WL",
+     "text": [
+      "That was a terrible state of things. God was displeased; it brought down His wrath. That is the end of this section – do we provoke the Lord to jealousy, are we stronger than He? That is a real challenge. What a thing that we, as believers, could provoke the Lord to jealousy. He so regards the purity of His assembly that if I do something inconsistent with the holiness of His assembly, or dabble in the world, I provoke Him to jealousy. I wonder if we really realise that."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "It is important to get the moral structure of Paul’s teaching. It is obvious that 1 Corinthians 10 comes before chapter 11, but what I am speaking about is the moral teaching of it. He speaks about the communion of the blood of Christ and the communion of the body of Christ which is not the Lord’s supper as such. We do not get the Lord’s supper until chapter 11."
+     "speaker": "RHB",
+     "text": [
+      "In relation to what has been said as to the fellowship being public, would it divert you to say something, for our help, as to the basis in which persons are received into fellowship, as we speak, and the basis on which we withdraw from persons. You mentioned at the beginning that the fellowship is universal, it is worked out locally, but the principles of it are universal. I wonder whether the emphasis that has been rightly made as to local responsibility has sometimes been to the exclusion of that principle, because there seem to be widely differing views and practice in those matters."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "You spoke of this as being the boundary of fellowship. Would we also see in the death of Christ the basis of fellowship? It is the moral basis laid in the death of Christ for fellowship."
+     "speaker": "WL",
+     "text": [
+      "It has been stated often, to deal with your last point, that priestly concern and priestly enquiring is a universal matter. If we do something in Cumnock, the brethren everywhere are entitled to say Why did you do that, but they are not entitled to come into Cumnock and say, Now listen, you will do this and you will do that. Administration is local, that needs to be firmly stated. Priestly interest, concern and enquiry is universal, administration is local. It has been pointed out there is no indication that Paul says to Cenchrea, seven miles from Corinth, you go into Corinth and sort out their troubles. In the Lord’s address to the seven assemblies in Asia, there is no indication that any of these assemblies should interfere in any of the others. But it is significant that it does say “He that has an ear, let him hear what the Spirit says to the assemblies” (Rev 2: 7), not to the assembly, for that would have kept it local, but to the assemblies. The principles which apply in one local assembly apply in another. A person is received into fellowship if they have washed their robes. It must be clearly seen that a person has washed their robes. If a person is withdrawn from they are withdrawn from on the basis that they refuse to listen to the assembly. 1 Corinthians 5 and 2 Timothy 2, are the principles on which we act."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "I wonder if we understand that. One challenges one’s thoughts often as we go about – you are confronted with something, we all are in our lives confronted continually by issues, young persons at school, older persons at work, wherever we are – we are continually confronted by issues of this world. The question immediately arises will I compromise or will I be faithful to the death of Christ."
+     "speaker": "AKT",
+     "text": [
+      "As to the question which has been raised as to difference in practice, I would like to ask as to how long we go on with persons who do not come to the Supper, or are not free to break bread, or absent themselves from the meetings. It does seem to be that there is a difference in practice as to that."
+     ]
     },
     {
-     "speaker": "V.E.W.",
-     "text": "So the fellowship of the death of Christ is a public matter."
+     "speaker": "WL",
+     "text": [
+      "That is an important question you ask. It is primarily a matter for local brethren who know the facts, if exercises in a locality, especially exercises that would compromise the fellowship, go on for an extended time undealt with there is a question mark over it. But administratively it remains the responsibility of the local brethren. Wisdom is needed."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "It is. I am glad you mentioned that. We might go on, in the next reading, to the private and secret side of fellowship. But what we are dealing with now is the fellowship in its public character."
+     "speaker": "DJH",
+     "text": [
+      "I am sure that is so. As to what you said as to priestly enquiry in such cases, there might be enquiry from neighbouring localities as to what was being done, but certainly not telling them what to do; that matter must remain local."
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "In its public character it is seen that the world and sin is judged."
+     "speaker": "WL",
+     "text": [
+      "I trust that we have learned the lesson of the terrible danger of interfering in the administration of another locality: so often it has led us to the brink. There are still situations that if not dealt with in great wisdom might again lead us to the brink."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "It ought to be seen by worldly people and by other believers that here are persons who are faithful to the fellowship of God’s Son, Jesus Christ our Lord and faithful to the principles solidly established in the death of Christ. That is the public aspect."
+     "speaker": "DEB",
+     "text": [
+      "Sometimes there is a very fine distinction between priestly enquiry and interference. You might speak to someone and make that enquiry – what has happened and why have you done this – but it is not infrequently followed up with ‘I consider that you should have done so and so differently’. That is on the borderline of interference."
+     ]
     },
     {
-     "speaker": "V.E.W.",
-     "text": "So that on the public side there is the bearing of His reproach, but underlying all these practical matters is my affection for the Person."
+     "speaker": "WL",
+     "text": [
+      "If help is needed in a locality and a local meeting comes to it that they cannot solve their own difficulties, the principle quite clearly is like the ships in Luke 5, Come over into our ship and help us (see verse 7). If there are difficulties that cannot be solved in a locality by the local brethren there is a clear principle that these brethren can ask for help. It is not for any other meeting to go in and say we will solve your difficulties for you; that is a breach of divine principle. At the same time some things cause concern that go on seemingly interminably undealt with."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "You have touched the vital point. I love the Lord’s commendation of the woman in Luke 7 “she loved much”, Luke 7: 47. I think that the measure of our devotion to the Lord Jesus is directly related to the measure for our affection for Him."
+     "speaker": "JW",
+     "text": [
+      "What would say about seeking to arouse the consciences of the brethren in a place in a situation like that?"
+     ]
     },
     {
-     "speaker": "P.H.",
-     "text": "Would anything else be like those that offered strange fire?"
+     "speaker": "WL",
+     "text": [
+      "That would be priestly."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That was a terrible state of things. God was displeased; it brought down His wrath. That is the end of this section – do we provoke the Lord to jealousy, are we stronger than He? That is a real challenge. What a thing that we, as believers, could provoke the Lord to jealousy. He so regards the purity of His assembly that if I do something inconsistent with the holiness of His assembly, or dabble in the world, I provoke Him to jealousy. I wonder if we really realise that."
+     "speaker": "JW",
+     "text": [
+      "That would not be interference. If there is something clearly wrong you do not tell them what to do or do it for them, but you seek to arouse their consciences to it."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "In relation to what has been said as to the fellowship being public, would it divert you to say something, for our help, as to the basis in which persons are received into fellowship, as we speak, and the basis on which we withdraw from persons. You mentioned at the beginning that the fellowship is universal, it is worked out locally, but the principles of it are universal. I wonder whether the emphasis that has been rightly made as to local responsibility has sometimes been to the exclusion of that principle, because there seem to be widely differing views and practice in those matters."
+     "speaker": "WL",
+     "text": [
+      "One has observed when difficulties come up in localities that it seems strange that there is a lack of knowledge of divine principles. So many things are done that are not according to the law of the house. We need to be careful that we are governed by the law of the house. One important thing is that if there are difficulties in the locality that are not being solved, priestly persons are at liberty to say, Look beloved brethren, the principles that apply in this case are such a such and such a such. Mr Taylor uses an illustration of a father going into a son’s house and seeing things there that are not in keeping with the Lord’s mind, and the father is obligated to say, Look, that and that is inconsistent with the terms of the fellowship, but he must leave it to the son to put right because it is the son’s house.",
+      "The difficulty in Corinth was great and the evil in Corinth was great but, worse still was they were not prepared to deal with it. When there is a state in a locality where there is known wrong, known evil, and it is obvious that brethren are not prepared to deal with it, that is a very serious situation. It requires great skill and wisdom and priestly activity."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "It has been stated often, to deal with your last point, that priestly concern and priestly enquiring is a universal matter. If we do something in Cumnock, the brethren everywhere are entitled to say Why did you do that, but they are not entitled to come into Cumnock and say, Now listen, you will do this and you will do that. Administration is local, that needs to be firmly stated. Priestly interest, concern and enquiry is universal, administration is local. It has been pointed out there is no indication that Paul says to Cenchrea, seven miles from Corinth, you go into Corinth and sort out their troubles. In the Lord’s address to the seven assemblies in Asia, there is no indication that any of these assemblies should interfere in any of the others. But it is significant that it does say “He that has an ear, let him hear what the Spirit says to the assemblies” (Rev 2: 7), not to the assembly, for that would have kept it local, but to the assemblies. The principles which apply in one local assembly apply in another. A person is received into fellowship if they have washed their robes. It must be clearly seen that a person has washed their robes. If a person is withdrawn from they are withdrawn from on the basis that they refuse to listen to the assembly. 1 Corinthians 5 and 2 Timothy 2, are the principles on which we act."
+     "speaker": "DJH",
+     "text": [
+      "We were speaking earlier as to relations together. Is that not seen in Corinth, because the first thing that Paul brings in is the question of divisions existing among them before he goes to dealing with the moral issue?"
+     ]
     },
     {
-     "speaker": "A.K.T.",
-     "text": "As to the question which has been raised as to difference in practice, I would like to ask as to how long we go on with persons who do not come to the Supper, or are not free to break bread, or absent themselves from the meetings. It does seem to be that there is a difference in practice as to that."
+     "speaker": "WL",
+     "text": [
+      "That is right. Parties are another thing one shrinks from; when serious issues come up, sometimes quickly there is the evidence of schools of opinion and parties and the brethren would know Mr Taylor’s comment that he would not belong to a party even if it was right. That requires priestly skill."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is an important question you ask. It is primarily a matter for local brethren who know the facts, if exercises in a locality, especially exercises that would compromise the fellowship, go on for an extended time undealt with there is a question mark over it. But administratively it remains the responsibility of the local brethren. Wisdom is needed."
+     "speaker": "MW",
+     "text": [
+      "Often we have seen difficulties arise where, as we have been discussing, you might say the symptoms have to be dealt with, either in the place or through priestly enquiry. I wondered whether it would be right to say that it is important that we consider the root as to why matters arise in the first place. Would it be right to say that perhaps one way in which that could be addressed is through ensuring that there is good teaching, particularly as to the principles of which you have spoken and the authority of Scripture and particularly, as I think was mentioned earlier, that which was given to Paul to bring out? Perhaps we may act or not act unwittingly – I do at any rate, think that the brethren are deliberately doing what is wrong – but sometimes it is lack of understanding as to what is right."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "I am sure that is so. As to what you said as to priestly enquiry in such cases, there might be enquiry from neighbouring localities as to what was being done, but certainly not telling them what to do; that matter must remain local."
+     "speaker": "WL",
+     "text": [
+      "Hence, as you say, there is a great need of teaching. We constantly need basic divine principles."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "I trust that we have learned the lesson of the terrible danger of interfering in the administration of another locality: so often it has led us to the brink. There are still situations that if not dealt with in great wisdom might again lead us to the brink."
+     "speaker": "KJS",
+     "text": [
+      "Even Paul in Corinth sought to arouse their spirit; he says “ye and my spirit being gathered together, with the power of our Lord Jesus Christ”, 1 Cor 5: 4. He did his best to activate what was there in the place."
+     ]
     },
     {
-     "speaker": "D.E.B.",
-     "text": "Sometimes there is a very fine distinction between priestly enquiry and interference. You might speak to someone and make that enquiry – what has happened and why have you done this – but it is not infrequently followed up with ‘I consider that you should have done so and so differently’. That is on the borderline of interference."
+     "speaker": "WL",
+     "text": [
+      "I am not going to be specific about this, but in line with what we are saying there is a generation now grown up which did not get the teaching that our brother is referring to, and the evidence of that in some cases is clear."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "If help is needed in a locality and a local meeting comes to it that they cannot solve their own difficulties, the principle quite clearly is like the ships in Luke 5, Come over into our ship and help us (see verse 7). If there are difficulties that cannot be solved in a locality by the local brethren there is a clear principle that these brethren can ask for help. It is not for any other meeting to go in and say we will solve your difficulties for you; that is a breach of divine principle. At the same time some things cause concern that go on seemingly interminably undealt with."
+     "speaker": "BES",
+     "text": [
+      "If that teaching is available in writing to us all, we have a responsibility even if we have not heard it by word of mouth, would you not say?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "What would say about seeking to arouse the consciences of the brethren in a place in a situation like that?"
+     "speaker": "WL",
+     "text": [
+      "I think there is a great obligation on all of us and especially on these young people here, young men especially, not only to have communion with divine Persons, but to read the Scriptures, to persevere in the reading of the ministry of the recovery. It is all there, not that we get precedents there – we do not get precedents in books. What comes from the Lord currently, comes out in the light of the temple of God. We get guidance in these ministries but not precedents, because every case that that comes up amongst us is in some way different. The same principles apply, but every case is somewhat different and needs to be handled in an wise and priestly way."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That would be priestly."
+     "speaker": "AMcS",
+     "text": [
+      "In reading 1 Corinthians, you drew attention to God being faithful; in chapter 10 too it is a question of provoking the Lord to jealousy, and then in chapter 11 we are told that because of the wrong way that persons partook of the Lord’s supper, “many among you are weak and infirm and a good many have fallen asleep”. Would it be important to see that if we ourselves do not take up our responsibilities in our localities, we may leave persons open for the severe government of God. Then God Himself will take the matter up, as it says in chapter 3 “if any one corrupt the temple of God, him shall God destroy” (v 17). Do you think that we should take the things up before God Himself takes them up?"
+     ]
     },
     {
-     "speaker": "J.W.",
-     "text": "That would not be interference. If there is something clearly wrong you do not tell them what to do or do it for them, but you seek to arouse their consciences to it."
+     "speaker": "WL",
+     "text": [
+      "That is very apropos at the present time and a word for those of us who would seek, under God’s hand, to take responsibility in localities, because ultimately responsibility falls back on experienced persons, persons who have an element of eldership. All are responsible, because it is noteworthy that elders are not mentioned in Corinthians which is quite significant, but responsibility lies on those who are elders in a locality to attend to these matters.",
+      "Paul goes on in chapter 11, to speak of the great privilege of being able to partake of the Lord’s supper. What a privilege, leading to the service of God, and again if the enemy is at anything, he is out to disrupt the service of God. It is like “Take us the foxes, The little foxes, that spoil the vineyards” (Song of Songs 2: 15). Some of these things that we are speaking about might appear to be little."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "One has observed when difficulties come up in localities that it seems strange that there is a lack of knowledge of divine principles. So many things are done that are not according to the law of the house. We need to be careful that we are governed by the law of the house. One important thing is that if there are difficulties in the locality that are not being solved, priestly persons are at liberty to say, Look beloved brethren, the principles that apply in this case are such a such and such a such. Mr Taylor uses an illustration of a father going into a son’s house and seeing things there that are not in keeping with the Lord’s mind, and the father is obligated to say, Look, that and that is inconsistent with the terms of the fellowship, but he must leave it to the son to put right because it is the son’s house."
+     "speaker": "PM",
+     "text": [
+      "Is it important that not only is the death of Christ the boundary, but in the early part of this book, the word of the cross involves that the death of Christ has a moral bearing in me? If that is the case local difficulties that so often arise would not arise, there would be a preservative that the boundaries of the fellowship would be maintained in the right and seemly way."
+     ]
     },
     {
-     "text": "The difficulty in Corinth was great and the evil in Corinth was great but, worse still was they were not prepared to deal with it. When there is a state in a locality where there is known wrong, known evil, and it is obvious that brethren are not prepared to deal with it, that is a very serious situation. It requires great skill and wisdom and priestly activity."
+     "speaker": "WL",
+     "text": [
+      "That is right, I am sure of that and we should also be very conscious that Paul brings in the matter of responsibility in chapter 11 in the same context that he speaks of the great privilege of partaking of the bread and the cup. He brings in the matter of responsibility in a very severe way."
+     ]
     },
     {
-     "speaker": "D.J.H.",
-     "text": "We were speaking earlier as to relations together. Is that not seen in Corinth, because the first thing that Paul brings in is the question of divisions existing among them before he goes to dealing with the moral issue?"
+     "speaker": "RdB",
+     "text": [
+      "Would you say a bit more about that expression that you used earlier as to washing our robes, because it may be that there are some young people here who are considering breaking bread."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "That is right. Parties are another thing one shrinks from; when serious issues come up, sometimes quickly there is the evidence of schools of opinion and parties and the brethren would know Mr Taylor’s comment that he would not belong to a party even if it was right. That requires priestly skill."
+     "speaker": "WL",
+     "text": [
+      "That is a good question. Robes generally, in Scripture, refer to our associations, what we come in contact with. So, is there anything we are doing or in contact with that is morally defiling. Washing your robes means, like here, “let a man prove himself”, or I think the Authorised Version says ‘examine himself’. Before the Lord you examine yourself and you say, In my life am I going on with anything, or touching anything or partaking in anything that is morally defiling. If the answer is in the affirmative you need to be before the Lord in self-judgment, but if it is in the negative, you can say to the brethren, I have washed my robes, my associations, whatever that may mean – companionship for instance, habits, all that enters into it – they are washed, they are clear. I speaks in Revelation of those who wash their robes in the blood of the Lamb (see Rev 22: 14). There is nothing in your life that is inconsistent with the blood of Christ, so therefore you are quite fit for the partaking of the Lord’s supper."
+     ]
     },
     {
-     "speaker": "M.W.",
-     "text": "Often we have seen difficulties arise where, as we have been discussing, you might say the symptoms have to be dealt with, either in the place or through priestly enquiry. I wondered whether it would be right to say that it is important that we consider the root as to why matters arise in the first place. Would it be right to say that perhaps one way in which that could be addressed is through ensuring that there is good teaching, particularly as to the principles of which you have spoken and the authority of Scripture and particularly, as I think was mentioned earlier, that which was given to Paul to bring out? Perhaps we may act or not act unwittingly – I do at any rate, think that the brethren are deliberately doing what is wrong – but sometimes it is lack of understanding as to what is right."
+     "speaker": "BES",
+     "text": [
+      "We would bear in mind too that washing our robes does not finish when we first break bread. Mr. Stoney says, if we are subject to the leading of the Spirit, things that we went on with last year we will not be free to go on with this year."
+     ]
     },
     {
-     "speaker": "W.L.",
-     "text": "Hence, as you say, there is a great need of teaching. We constantly need basic divine principles."
-    },
-    {
-     "speaker": "K.J.S.",
-     "text": "Even Paul in Corinth sought to arouse their spirit; he says “ye and my spirit being gathered together, with the power of our Lord Jesus Christ”, 1 Cor 5: 4. He did his best to activate what was there in the place."
-    },
-    {
-     "speaker": "W.L.",
-     "text": "I am not going to be specific about this, but in line with what we are saying there is a generation now grown up which did not get the teaching that our brother is referring to, and the evidence of that in some cases is clear."
-    },
-    {
-     "speaker": "B.E.S.",
-     "text": "If that teaching is available in writing to us all, we have a responsibility even if we have not heard it by word of mouth, would you not say?"
-    },
-    {
-     "speaker": "W.L.",
-     "text": "I think there is a great obligation on all of us and especially on these young people here, young men especially, not only to have communion with divine Persons, but to read the Scriptures, to persevere in the reading of the ministry of the recovery. It is all there, not that we get precedents there – we do not get precedents in books. What comes from the Lord currently, comes out in the light of the temple of God. We get guidance in these ministries but not precedents, because every case that that comes up amongst us is in some way different. The same principles apply, but every case is somewhat different and needs to be handled in an wise and priestly way."
-    },
-    {
-     "text": "A.McS. In reading 1 Corinthians, you drew attention to God being faithful; in chapter 10 too it is a question of provoking the Lord to jealousy, and then in chapter 11 we are told that because of the wrong way that persons partook of the Lord’s supper, “many among you are weak and infirm and a good many have fallen asleep”. Would it be important to see that if we ourselves do not take up our responsibilities in our localities, we may leave persons open for the severe government of God. Then God Himself will take the matter up, as it says in chapter 3 “if any one corrupt the temple of God, him shall God destroy” (v 17). Do you think that we should take the things up before God Himself takes them up?"
-    },
-    {
-     "speaker": "W.L.",
-     "text": "That is very apropos at the present time and a word for those of us who would seek, under God’s hand, to take responsibility in localities, because ultimately responsibility falls back on experienced persons, persons who have an element of eldership. All are responsible, because it is noteworthy that elders are not mentioned in Corinthians which is quite significant, but responsibility lies on those who are elders in a locality to attend to these matters."
-    },
-    {
-     "text": "Paul goes on in chapter 11, to speak of the great privilege of being able to partake of the Lord’s supper. What a privilege, leading to the service of God, and again if the enemy is at anything, he is out to disrupt the service of God. It is like “Take us the foxes, The little foxes, that spoil the vineyards” (Song of Songs 2: 15). Some of these things that we are speaking about might appear to be little."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "Is it important that not only is the death of Christ the boundary, but in the early part of this book, the word of the cross involves that the death of Christ has a moral bearing in me? If that is the case local difficulties that so often arise would not arise, there would be a preservative that the boundaries of the fellowship would be maintained in the right and seemly way."
-    },
-    {
-     "speaker": "W.L.",
-     "text": "That is right, I am sure of that and we should also be very conscious that Paul brings in the matter of responsibility in chapter 11 in the same context that he speaks of the great privilege of partaking of the bread and the cup. He brings in the matter of responsibility in a very severe way."
-    },
-    {
-     "speaker": "Rd.B.",
-     "text": "Would you say a bit more about that expression that you used earlier as to washing our robes, because it may be that there are some young people here who are considering breaking bread."
-    },
-    {
-     "speaker": "W.L.",
-     "text": "That is a good question. Robes generally, in Scripture, refer to our associations, what we come in contact with. So, is there anything we are doing or in contact with that is morally defiling. Washing your robes means, like here, “let a man prove himself”, or I think the Authorised Version says ‘examine himself’. Before the Lord you examine yourself and you say, In my life am I going on with anything, or touching anything or partaking in anything that is morally defiling. If the answer is in the affirmative you need to be before the Lord in self-judgment, but if it is in the negative, you can say to the brethren, I have washed my robes, my associations, whatever that may mean – companionship for instance, habits, all that enters into it – they are washed, they are clear. I speaks in Revelation of those who wash their robes in the blood of the Lamb (see Rev 22: 14). There is nothing in your life that is inconsistent with the blood of Christ, so therefore you are quite fit for the partaking of the Lord’s supper."
-    },
-    {
-     "speaker": "B.E.S.",
-     "text": "We would bear in mind too that washing our robes does not finish when we first break bread. Mr. Stoney says, if we are subject to the leading of the Spirit, things that we went on with last year we will not be free to go on with this year."
-    },
-    {
-     "speaker": "W.L.",
-     "text": "How true that is, it is a constant matter."
+     "speaker": "WL",
+     "text": [
+      "How true that is, it is a constant matter."
+     ]
     }
    ]
   },
@@ -718,6 +960,26 @@
      "text": "I finish with a few remarks as to Timothy – I think Paul recognised that if things were to continue rightly it would be in complete men, “that the man of God may be complete, fully fitted to every good work.” That is complete as to qualifications and it relates to Scripture which he had known from a child, “Thou hast known the sacred letters, which are able to make thee wise unto salvation, through faith which is in Christ Jesus” (v 15). Then Paul clearly brings out the greatness of Scripture, divinely inspired. There has never been a day like it when the Scriptures are under attack, even by persons who ought to know better. We would stand by what Paul said so long ago and publicly would reiterate it here, even in the reading of the Scripture and in the face of any who may be bold enough to challenge it, “every scripture is divinely inspired”. That remains, unalterable and it is profitable for teaching, for conviction. I understand that Mr Darby himself was converted not by hearing the gospel, but by reading Scripture – that “the man of God may be complete”. I believe that there is a need for men who are complete, that are fully qualified, not novices. What damage has been done by novices, as Paul says elsewhere; “not a novice, that he may not, being inflated, fall into the fault of the devil”, 1 Tim 3: 6. Mr Darby said, Divine principles in the hands of an unspiritual man, are like a sword in the hands of a drunkard. How careful we need to be in taking up divine matters, holy matters. It is safe and best left to persons who are of the character of men of God, who are complete and fully fitted for every good work. I am not speaking of anything official, because it is not an official thought here; it is persons who are morally qualified. It is not officially qualified but that the man of God may be complete, fully fitted to every good work. This coming in towards the end of 2 Timothy shows clearly what was in Paul’s mind for the continuation of the testimony, so that everything we say, and what we say in meetings, must be solidly based on Scripture. As one who taught us and helped us said, What saith the scripture? It must be based on Scripture, if it is based on Scripture it is unchallengeable. That is one of the qualifications that the Man of God may be complete, complete as to qualifications, fully fitted to every good work. Not just some good works, but every good work. The Lord is looking for such, not officially, but morally and spiritually. May everyone of us here, brothers and sisters and young persons, in their measure, be able to identify the need of the moment and one of them is that we should be men of God – I speak morally – who may be complete, fully fitted for every good work. It is such persons who will continue in the testimony and maintain the testimony until it is no longer needed. May every one of us in our measure be in it. For His Name’s sake."
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "FELLOWSHIP",
+   "kind": "default_place",
+   "detail": "BUCKHURST HILL given to 3 names (\"Local if not otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "FELLOWSHIP",
+   "kind": "speaker_matched_loosely",
+   "detail": "AMcS used in the text for A.McSeveney (key gives AM)"
+  },
+  {
+   "article": 1,
+   "title": "FELLOWSHIP",
+   "kind": "speaker_not_in_key",
+   "detail": "RdB (in the text)"
   }
  ]
 }

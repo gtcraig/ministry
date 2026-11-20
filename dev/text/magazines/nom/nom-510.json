@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -180,9 +180,9 @@
     "Hebrews 3:1-6; 10:19-22"
    ],
    "speakers": [
-    "J.B.",
-    "F.E.",
-    "C.A."
+    "JB",
+    "FE",
+    "CA"
    ],
    "paragraphs": [
     {
@@ -222,40 +222,30 @@
      "text": "[←1]"
     },
     {
-     "speaker": "J.B.",
-     "text": "Stoney Vol.2 p.527"
+     "speaker": "JB",
+     "text": [
+      "Stoney Vol.2 p.527",
+      "[←2]"
+     ]
     },
     {
-     "text": "[←2]"
+     "speaker": "FE",
+     "text": [
+      "Raven Vol.2 p.268",
+      "[←3]"
+     ]
     },
     {
-     "speaker": "F.E.",
-     "text": "Raven Vol.2 p.268"
-    },
-    {
-     "text": "[←3]"
-    },
-    {
-     "speaker": "C.A.",
-     "text": "Coates Vol.30 p.49"
-    },
-    {
-     "text": "[←4]"
-    },
-    {
-     "text": "JND Collected Writings Vol.9 p.32"
-    },
-    {
-     "text": "[←5]"
-    },
-    {
-     "text": "J. Taylor Vol.38 p.90"
-    },
-    {
-     "text": "[←6]"
-    },
-    {
-     "text": "J. Taylor Vol.5 p.167"
+     "speaker": "CA",
+     "text": [
+      "Coates Vol.30 p.49",
+      "[←4]",
+      "JND Collected Writings Vol.9 p.32",
+      "[←5]",
+      "J. Taylor Vol.38 p.90",
+      "[←6]",
+      "J. Taylor Vol.5 p.167"
+     ]
     }
    ]
   }

@@ -9,9 +9,9 @@ has to be fetched from anywhere but `raw.githubusercontent.com`.
 |---|---|
 | `Setting Up Scripture Text Prompt.md` | `bible/KJV.json`, `Darby.json`, `expand.py` |
 | `Adding Hymn Search Prompt.md` | `hymns/hymns.json`, `hymns.py`, notes |
-| `Adding Scribe Initials Prompt.md` | `ministry/scribes.json` from the spreadsheet (attach the .xlsx) |
+| `Adding JT Initials Prompt.md` | `ministry/jt_initials.json` from the spreadsheet (attach the .xlsx) |
 
-Run them in that order: hymns and scribes both assume the ministry texts are
+Run them in that order: hymns and JT initials both assume the ministry texts are
 already in place.
 
 The authoritative copies of the two scripts live in

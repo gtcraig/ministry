@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "A Word in its Season",
  "code": "awiis",
  "series": 1,
@@ -26,25 +26,27 @@
    "place": "NEW YORK",
    "date": "5 November 1988",
    "speakers": [
-    "E.F.W.",
-    "J.A.P.",
-    "J.R.C.",
-    "S.E.H.",
-    "T.E.D.",
-    "C.S.E.",
-    "A.R.S.",
-    "G.D.P.",
-    "G.H.",
-    "K.N.P.",
-    "A.G.S.",
-    "A.S.H.",
-    "G.A.",
-    "L.D.P."
+    "EFW",
+    "LMcF",
+    "JAP",
+    "JRC",
+    "SEH",
+    "TED",
+    "CSE",
+    "ARS",
+    "GDP",
+    "GH",
+    "KNP",
+    "AGS",
+    "ASH",
+    "GA",
+    "LDP"
    ],
    "initials": [
     {
-     "initials": "AGA",
-     "name": "(All local unless otherwise stated) G.Ashby"
+     "initials": "GA",
+     "name": "G.Ashby",
+     "place": "NEW YORK"
     },
     {
      "initials": "JRC",
@@ -58,11 +60,13 @@
     },
     {
      "initials": "CSE",
-     "name": "C.S.Elliott"
+     "name": "C.S.Elliott",
+     "place": "NEW YORK"
     },
     {
      "initials": "ASH",
-     "name": "A.S.Hinkson"
+     "name": "A.S.Hinkson",
+     "place": "NEW YORK"
     },
     {
      "initials": "GH",
@@ -75,8 +79,9 @@
      "place": "Plainfield"
     },
     {
-     "initials": "LM",
-     "name": "L.McFarlane"
+     "initials": "LMcF",
+     "name": "L.McFarlane",
+     "place": "NEW YORK"
     },
     {
      "initials": "GDP",
@@ -90,19 +95,23 @@
     },
     {
      "initials": "KNP",
-     "name": "K.N.Pye"
+     "name": "K.N.Pye",
+     "place": "NEW YORK"
     },
     {
      "initials": "LDP",
-     "name": "L.D.Phillips"
+     "name": "L.D.Phillips",
+     "place": "NEW YORK"
     },
     {
      "initials": "AGS",
-     "name": "A.G.Spooner"
+     "name": "A.G.Spooner",
+     "place": "NEW YORK"
     },
     {
      "initials": "ARS",
-     "name": "A.R.Stevens"
+     "name": "A.R.Stevens",
+     "place": "NEW YORK"
     },
     {
      "initials": "EFW",
@@ -111,346 +120,516 @@
     }
    ],
    "initials_heading": "Key to initials",
+   "initials_comment": "All local unless otherwise stated",
    "initials_text": [
     "(All local unless otherwise stated)",
     "G.Ashby; J.R.Cumming, Edinburgh; T.E.Druckenmiller, Plainfield; C.S.Elliott; A.S.Hinkson; G.Hesterman, Plainfield; S.E.Hesterman, Plainfield; L.McFarlane; G.D.Pfingst, Plainfield; J.A.Petersen, Plainfield; K.N.Pye; L.D.Phillips; A.G.Spooner; A.R.Stevens; E.F.Woodford, Dorking"
    ],
    "paragraphs": [
     {
-     "speaker": "E.F.W.",
-     "text": "I believe we are in days of gathering up. It may not appear like that - from the very fact that there are so few of us together in this great city it might appear that this is not a gathering up time at all. But I believe that that is what the Lord is doing, and that what the Spirit is active in is a gathering together, not only outwardly but inwardly. The Spirit is operating at the present time with a view to the greatest gathering together that there has ever been. When the Lord comes His shout will gather together the greatest number that have ever been gathered. It is a wonderful moment to which we are looking forward, but the Spirit is working at the present time with that in view. Without doubt the enemy is set against that, and his efforts to scatter have been sadly quite effective; but there is also no doubt that the Spirit's operations are also being effective - in gathering together. I wondered if these four scriptures might serve simply to help us speak over certain features of gathering. The first, how the Spirit came; He came when they were all together in one place. The second scripture, in Thessalonians, links the coming of our Lord Jesus Christ and our gathering together to Him. To gather together would involve having an objective, that is, the One who is coming. I wondered if we might link John's gospel with the food that has been given - ministry - the great abundance of ministry that we have had. But what are we doing with it now? I think the Lord would say freshly to us that there are the fragments to be gathered up, not to use ministry to offset other ministry but the fragments are to be gathered together. All the disciples were together in this matter and what the Lord recalls them to is not how many baskets each one had but what the total was. Finally, that we might be encouraged, despite the smallness of numbers, that the Lord is with the two or three: \"there am I in the midst\". Certain principles are involved in that because many claim that position, but I think the two things that are vital are, first, gathered to His name, and second, that He has the place in the midst. I wondered if that might serve to consider the great value, particularly in our minds and desires, of the idea that we are gathering together what is profitable."
+     "speaker": "EFW",
+     "text": [
+      "I believe we are in days of gathering up. It may not appear like that - from the very fact that there are so few of us together in this great city it might appear that this is not a gathering up time at all. But I believe that that is what the Lord is doing, and that what the Spirit is active in is a gathering together, not only outwardly but inwardly. The Spirit is operating at the present time with a view to the greatest gathering together that there has ever been. When the Lord comes His shout will gather together the greatest number that have ever been gathered. It is a wonderful moment to which we are looking forward, but the Spirit is working at the present time with that in view. Without doubt the enemy is set against that, and his efforts to scatter have been sadly quite effective; but there is also no doubt that the Spirit's operations are also being effective - in gathering together. I wondered if these four scriptures might serve simply to help us speak over certain features of gathering. The first, how the Spirit came; He came when they were all together in one place. The second scripture, in Thessalonians, links the coming of our Lord Jesus Christ and our gathering together to Him. To gather together would involve having an objective, that is, the One who is coming. I wondered if we might link John's gospel with the food that has been given - ministry - the great abundance of ministry that we have had. But what are we doing with it now? I think the Lord would say freshly to us that there are the fragments to be gathered up, not to use ministry to offset other ministry but the fragments are to be gathered together. All the disciples were together in this matter and what the Lord recalls them to is not how many baskets each one had but what the total was. Finally, that we might be encouraged, despite the smallness of numbers, that the Lord is with the two or three: \"there am I in the midst\". Certain principles are involved in that because many claim that position, but I think the two things that are vital are, first, gathered to His name, and second, that He has the place in the midst. I wondered if that might serve to consider the great value, particularly in our minds and desires, of the idea that we are gathering together what is profitable."
+     ]
     },
     {
-     "text": "L.McF. I am sure that should be of help to us. So, despite the day in which we are found, the day of small things, you are suggesting that in principle this should mark us."
+     "speaker": "LMcF",
+     "text": [
+      "I am sure that should be of help to us. So, despite the day in which we are found, the day of small things, you are suggesting that in principle this should mark us."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes, that is right. I was interested recently in noticing that God's principle of gathering was seen at the outset. If you read the first chapter of Genesis concerning the creation you find that God gathered, gathered the waters, and the reason behind it was that the dry land might appear. The dry land was where God was going to operate. God was operating as a result of His own gathering together, and He saw that it was good. I think God particularly valued and looked at what potential there was in the land."
+     "speaker": "EFW",
+     "text": [
+      "Yes, that is right. I was interested recently in noticing that God's principle of gathering was seen at the outset. If you read the first chapter of Genesis concerning the creation you find that God gathered, gathered the waters, and the reason behind it was that the dry land might appear. The dry land was where God was going to operate. God was operating as a result of His own gathering together, and He saw that it was good. I think God particularly valued and looked at what potential there was in the land."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "That is very helpful. In the first passage would you think there is a moral point in the gathering, and that is obedience - that the Lord Himself had said that they were to remain in a certain place until the Spirit came which they did? This would have a point now: that what underlies our gathering must be obedience as well as affection."
+     "speaker": "JAP",
+     "text": [
+      "That is very helpful. In the first passage would you think there is a moral point in the gathering, and that is obedience - that the Lord Himself had said that they were to remain in a certain place until the Spirit came which they did? This would have a point now: that what underlies our gathering must be obedience as well as affection."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "There were two things - they were to remain in the city (Luke 24: 49) - but here it is together not just in the city but in one place, as though they would have some divine intuition in carrying out that command not just by the letter but in the spirit of what the Lord had said. The one place seems to me to be a further suggestion."
+     "speaker": "EFW",
+     "text": [
+      "There were two things - they were to remain in the city (Luke 24: 49) - but here it is together not just in the city but in one place, as though they would have some divine intuition in carrying out that command not just by the letter but in the spirit of what the Lord had said. The one place seems to me to be a further suggestion."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "A very good point!"
+     "speaker": "JAP",
+     "text": [
+      "A very good point!"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "So we gather together in obedience yes, but not just by the letter; love would pin point where divine operations are actually going to go on."
+     "speaker": "EFW",
+     "text": [
+      "So we gather together in obedience yes, but not just by the letter; love would pin point where divine operations are actually going to go on."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Would it be right then to think that there was something instinctive in how they were together here? They were not told to assemble; there was something instinctive in how they reacted. You already mentioned that the Lord's commandment comes into things, and that is so, and is our guide and our direction, but there is something very healthy in that they seemed to feel the need of being together, and as together the Spirit operates, do you think?"
+     "speaker": "JRC",
+     "text": [
+      "Would it be right then to think that there was something instinctive in how they were together here? They were not told to assemble; there was something instinctive in how they reacted. You already mentioned that the Lord's commandment comes into things, and that is so, and is our guide and our direction, but there is something very healthy in that they seemed to feel the need of being together, and as together the Spirit operates, do you think?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes; and it adds, \"where they were sitting\". Do you think they were restful as they waited for this? I do not think we ever read that they asked for the Spirit to come during those days after the Lord's ascension, but there must have been a wonderful expectancy; they had had a promise and it was soon going to be fulfilled. They would be very concerned to be in the right place at the right time, and yet there was restfulness, they were just sitting there. And there should be that with us - restfulness. We are not waiting for the Spirit - He is already here - but we are waiting for the Lord to come."
+     "speaker": "EFW",
+     "text": [
+      "Yes; and it adds, \"where they were sitting\". Do you think they were restful as they waited for this? I do not think we ever read that they asked for the Spirit to come during those days after the Lord's ascension, but there must have been a wonderful expectancy; they had had a promise and it was soon going to be fulfilled. They would be very concerned to be in the right place at the right time, and yet there was restfulness, they were just sitting there. And there should be that with us - restfulness. We are not waiting for the Spirit - He is already here - but we are waiting for the Lord to come."
+     ]
     },
     {
-     "speaker": "S.E.H.",
-     "text": "Would what you are saying relate to Deuteronomy 26 where it speaks of going \"unto the place that Jehovah thy God will choose to cause his name to dwell there\" (v 2)? Were the brethren anticipating the incoming of the Spirit in the early Acts in this one place?"
+     "speaker": "SEH",
+     "text": [
+      "Would what you are saying relate to Deuteronomy 26 where it speaks of going \"unto the place that Jehovah thy God will choose to cause his name to dwell there\" (v 2)? Were the brethren anticipating the incoming of the Spirit in the early Acts in this one place?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Very good. In Deuteronomy they had to go to a place. I do not know what directions they were given but they were guided to that place. Here they were to remain and often remaining is more testing than going. I think we would all perhaps find it easier if we had to go somewhere, but to wait restfully in the place may be a greater exercise for us; it is where the Spirit is going to demonstrate what He is doing. I would love to know more of how the Spirit is moulding the lovers of Christ, moulding the work that has been carried on, so that when the Lord comes there will be the great gathering up literally. Perhaps we could say that there is the gathering up morally at the present time in anticipation of the gathering up literally."
+     "speaker": "EFW",
+     "text": [
+      "Very good. In Deuteronomy they had to go to a place. I do not know what directions they were given but they were guided to that place. Here they were to remain and often remaining is more testing than going. I think we would all perhaps find it easier if we had to go somewhere, but to wait restfully in the place may be a greater exercise for us; it is where the Spirit is going to demonstrate what He is doing. I would love to know more of how the Spirit is moulding the lovers of Christ, moulding the work that has been carried on, so that when the Lord comes there will be the great gathering up literally. Perhaps we could say that there is the gathering up morally at the present time in anticipation of the gathering up literally."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "Does love underlie this gathering principle?"
+     "speaker": "TED",
+     "text": [
+      "Does love underlie this gathering principle?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes, but tell us more how love operates."
+     "speaker": "EFW",
+     "text": [
+      "Yes, but tell us more how love operates."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "What was going through my mind was Abraham and Isaac: \"Take now thy son, thine only son, whom thou lovest ... and they went both of them together\", Gen 22: 2,6. The place was discerned by them. I wondered if that did not enter into this intuitive line, the love of God working in our affections directing to one place."
+     "speaker": "TED",
+     "text": [
+      "What was going through my mind was Abraham and Isaac: \"Take now thy son, thine only son, whom thou lovest ... and they went both of them together\", Gen 22: 2,6. The place was discerned by them. I wondered if that did not enter into this intuitive line, the love of God working in our affections directing to one place."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "I think that is a very affecting reference because it was unfolded to Abraham as he went on, which is very much like the present time. The Spirit loves to unfold things as we are going on, and love operating facilitates that. Indeed scripture speaks about \"love in the Spirit\", Col 1: 8."
+     "speaker": "EFW",
+     "text": [
+      "I think that is a very affecting reference because it was unfolded to Abraham as he went on, which is very much like the present time. The Spirit loves to unfold things as we are going on, and love operating facilitates that. Indeed scripture speaks about \"love in the Spirit\", Col 1: 8."
+     ]
     },
     {
-     "speaker": "S.E.H.",
-     "text": "Abraham discerned that particular place. The Lord told them to remain in Jerusalem, and it says they returned to Jerusalem; but then it says they went to the upper room. They had discernment as to this particular place. Would you say that?"
+     "speaker": "SEH",
+     "text": [
+      "Abraham discerned that particular place. The Lord told them to remain in Jerusalem, and it says they returned to Jerusalem; but then it says they went to the upper room. They had discernment as to this particular place. Would you say that?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes. Our brother used the word intuition. I think that is to be known more by us. You feel the direction that the Spirit is moving in and you are drawn together. The great power of love helps to draw us along together to the place where divine Persons are actually working."
+     "speaker": "EFW",
+     "text": [
+      "Yes. Our brother used the word intuition. I think that is to be known more by us. You feel the direction that the Spirit is moving in and you are drawn together. The great power of love helps to draw us along together to the place where divine Persons are actually working."
+     ]
     },
     {
-     "speaker": "C.S.E.",
-     "text": "The Supper is a wonderful opportunity just to be together. We sometimes sing, 'Thine is the love, Lord, that draws us together' (hymn 4), and it is truly love in our hearts for the Lord that brings us together and we look forward for Him to come into the midst. Is that like a preview of what is coming to take the saints? Is that what it feels like, do you think?"
+     "speaker": "CSE",
+     "text": [
+      "The Supper is a wonderful opportunity just to be together. We sometimes sing, 'Thine is the love, Lord, that draws us together' (hymn 4), and it is truly love in our hearts for the Lord that brings us together and we look forward for Him to come into the midst. Is that like a preview of what is coming to take the saints? Is that what it feels like, do you think?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "That is interesting because that was the hymn we had last Lord's day morning and rather confirmed this line, that it is love that draws us together. We felt that at the Supper, that we had been drawn together by divine love. I am thankful for your reference because, if I can just say practically, I felt very exercised about this occasion, but having had that start I then noticed, at the back of this room, in a book just published, that Mr Lock had taken up the thought of gathering. I think we should look for the Lord's confirmation concerning exercises. We need confirming and perhaps this subject. would help towards this end. I have not read that book and I do not know what line he took up but the Spirit is ready to guide us."
+     "speaker": "EFW",
+     "text": [
+      "That is interesting because that was the hymn we had last Lord's day morning and rather confirmed this line, that it is love that draws us together. We felt that at the Supper, that we had been drawn together by divine love. I am thankful for your reference because, if I can just say practically, I felt very exercised about this occasion, but having had that start I then noticed, at the back of this room, in a book just published, that Mr Lock had taken up the thought of gathering. I think we should look for the Lord's confirmation concerning exercises. We need confirming and perhaps this subject. would help towards this end. I have not read that book and I do not know what line he took up but the Spirit is ready to guide us."
+     ]
     },
     {
-     "text": "L.McF. So that the idea of being together, not just numerically but inwardly as you said, would provide the blessed Spirit holy liberty. We get that thought too in the beginning of Acts 13. So that as we assemble, the inward side is of the greatest import. It is not just what is external, is it?"
+     "speaker": "LMcF",
+     "text": [
+      "So that the idea of being together, not just numerically but inwardly as you said, would provide the blessed Spirit holy liberty. We get that thought too in the beginning of Acts 13. So that as we assemble, the inward side is of the greatest import. It is not just what is external, is it?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "No. That is an exercise at this very moment. It is clear that all of us are together in this room - the boys, the girls, the older ones, that we are all together - but are we really all together in spirit? The Holy Spirit would help so that we are all together, and the more we are all together in that way I feel that the Spirit can operate even more freely. There would, perhaps, be greater liberty for instance; that is one of the things, the fruit of the Spirit - \"where the Spirit of the Lord is, there is liberty\", 2 Cor 3: 17. We all know that the Spirit is here but is He free to operate so that there is liberty among us?"
+     "speaker": "EFW",
+     "text": [
+      "No. That is an exercise at this very moment. It is clear that all of us are together in this room - the boys, the girls, the older ones, that we are all together - but are we really all together in spirit? The Holy Spirit would help so that we are all together, and the more we are all together in that way I feel that the Spirit can operate even more freely. There would, perhaps, be greater liberty for instance; that is one of the things, the fruit of the Spirit - \"where the Spirit of the Lord is, there is liberty\", 2 Cor 3: 17. We all know that the Spirit is here but is He free to operate so that there is liberty among us?"
+     ]
     },
     {
-     "speaker": "A.R.S.",
-     "text": "In Acts 3 Peter and John went up together and it is clear that it was not just a matter of physically being together but they were together in heart and mind and they were very effective."
+     "speaker": "ARS",
+     "text": [
+      "In Acts 3 Peter and John went up together and it is clear that it was not just a matter of physically being together but they were together in heart and mind and they were very effective."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "They were. I love that suggestion - they were very effective as the result of being together. Those two were very different men as men, but in their operation at that time they went up together."
+     "speaker": "EFW",
+     "text": [
+      "They were. I love that suggestion - they were very effective as the result of being together. Those two were very different men as men, but in their operation at that time they went up together."
+     ]
     },
     {
-     "speaker": "C.S.E.",
-     "text": "In John 20 the disciples were together through fear of the Jews. That is the external side, you might say, which regulated them then, but the Lord Himself came in the midst. And after the Spirit came the idea of fear was completely removed from them and they spoke with boldness in the name of the Lord. I wondered, as you had stressed earlier, whether our coming together is preparation so to speak; we look forward to the Lord's coming - whether that ought not to be more in our minds."
+     "speaker": "CSE",
+     "text": [
+      "In John 20 the disciples were together through fear of the Jews. That is the external side, you might say, which regulated them then, but the Lord Himself came in the midst. And after the Spirit came the idea of fear was completely removed from them and they spoke with boldness in the name of the Lord. I wondered, as you had stressed earlier, whether our coming together is preparation so to speak; we look forward to the Lord's coming - whether that ought not to be more in our minds."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes, they were together perhaps not so much because of fear but together as waiting for the Lord to manifest Himself. What they did because of fear was to shut the door. There are things that we have to do practically because of conditions that would hinder what is going on. Shutting the door was because of fear of the Jews. It has often been said that what belongs outside needs to be left at the other side of the door, so that what is inside is the more pure."
+     "speaker": "EFW",
+     "text": [
+      "Yes, they were together perhaps not so much because of fear but together as waiting for the Lord to manifest Himself. What they did because of fear was to shut the door. There are things that we have to do practically because of conditions that would hinder what is going on. Shutting the door was because of fear of the Jews. It has often been said that what belongs outside needs to be left at the other side of the door, so that what is inside is the more pure."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "Where these conditions are, something comes in from heaven."
+     "speaker": "JRC",
+     "text": [
+      "Where these conditions are, something comes in from heaven."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "I was thinking of that - the strong link is now where the Lord had ascended, gone up far above all the heavens; and that is where the Spirit was coming from, from with the Father. There was a link from what was in heaven to down here and what was in heaven had never been quite the same before; there was a Man there, an ascended Man, and the Spirit was there."
+     "speaker": "EFW",
+     "text": [
+      "I was thinking of that - the strong link is now where the Lord had ascended, gone up far above all the heavens; and that is where the Spirit was coming from, from with the Father. There was a link from what was in heaven to down here and what was in heaven had never been quite the same before; there was a Man there, an ascended Man, and the Spirit was there."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "I wondered, along these lines, what are we expecting when we do come together? We sit down together, we see one another, we know one another, but really what dictates is what is heavenly. Is that right?"
+     "speaker": "JRC",
+     "text": [
+      "I wondered, along these lines, what are we expecting when we do come together? We sit down together, we see one another, we know one another, but really what dictates is what is heavenly. Is that right?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes, good."
+     "speaker": "EFW",
+     "text": [
+      "Yes, good."
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "In the Old Testament the two waveloaves come out of the houses at the time of Pentecost (see Lev 23: 17). Would that be involved in your thought of being together in view of increase and being more intensive together?"
+     "speaker": "GDP",
+     "text": [
+      "In the Old Testament the two waveloaves come out of the houses at the time of Pentecost (see Lev 23: 17). Would that be involved in your thought of being together in view of increase and being more intensive together?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Now, just for the help of us all, tell us a little more about these wave-loaves. I am very anxious that we carry the young ones here with us."
+     "speaker": "EFW",
+     "text": [
+      "Now, just for the help of us all, tell us a little more about these wave-loaves. I am very anxious that we carry the young ones here with us."
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "It seems that after that, when they come out of the houses, then comes the oblation and other offerings, the seven lambs and so forth. It seems to increase, does it not?"
+     "speaker": "GDP",
+     "text": [
+      "It seems that after that, when they come out of the houses, then comes the oblation and other offerings, the seven lambs and so forth. It seems to increase, does it not?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes it does; it is lovely."
+     "speaker": "EFW",
+     "text": [
+      "Yes it does; it is lovely."
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "It is a wonderful prospect - we shall all be caught up together to meet the Lord in the air, and so shall we be for ever with the Lord - wonderful!"
+     "speaker": "GH",
+     "text": [
+      "It is a wonderful prospect - we shall all be caught up together to meet the Lord in the air, and so shall we be for ever with the Lord - wonderful!"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "That in itself has a very uniting effect does it not, because that is what you are looking forward to and so am I, and so are all the dear brethren here - a wonderful uniting effect. But then the Spirit is operating in this waiting time and I feel we need perhaps a little more help as to how He is operating so that there may be oneness with us. The Lord's great desire in John 17 was \"that they may be one, as we are one\" (v 22)."
+     "speaker": "EFW",
+     "text": [
+      "That in itself has a very uniting effect does it not, because that is what you are looking forward to and so am I, and so are all the dear brethren here - a wonderful uniting effect. But then the Spirit is operating in this waiting time and I feel we need perhaps a little more help as to how He is operating so that there may be oneness with us. The Lord's great desire in John 17 was \"that they may be one, as we are one\" (v 22)."
+     ]
     },
     {
-     "speaker": "K.N.P.",
-     "text": "Does the testimony go out from this area where they are all together? They are all together and yet it sat on each one of them."
+     "speaker": "KNP",
+     "text": [
+      "Does the testimony go out from this area where they are all together? They are all together and yet it sat on each one of them."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "That is very good, because although all together we are still individuals, the Spirit is in each one of us - \"sat upon each one of them\"."
+     "speaker": "EFW",
+     "text": [
+      "That is very good, because although all together we are still individuals, the Spirit is in each one of us - \"sat upon each one of them\"."
+     ]
     },
     {
-     "speaker": "K.N.P.",
-     "text": "I wondered if that is how things work out. As you go on through the Acts you find that there is something in each one of these persons. It is set on from that position as being together. Would that help us in our local settings, that as together we can then have the strength to go out into the wilderness and the testimony and fulfil things rightly for God?"
+     "speaker": "KNP",
+     "text": [
+      "I wondered if that is how things work out. As you go on through the Acts you find that there is something in each one of these persons. It is set on from that position as being together. Would that help us in our local settings, that as together we can then have the strength to go out into the wilderness and the testimony and fulfil things rightly for God?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes, that is very good. I think that goes on because there were distinctive gifts, as we learn from another scripture, in relation to the testimony. So that the distinction of each is preserved; I cannot be you and you cannot be me, and yet each of us is so vital to the testimony. I think we should have the view that none of us can afford to be out of this; every one is absolutely vital in the testimony. The reason for writing to the Thessalonians was that they should not soon be shaken in mind. I think we are living in days when that is a great danger, and no doubt the scripture would have had our present time in view. But these two things in verse 1 are absolutely vital to preserve us from any influence that would tend to bring in fear. We have spoken of the fear of the Jews and there are other fears, but these two things, the coming of our Lord Jesus Christ and our gathering together to Him should help to steady us."
+     "speaker": "EFW",
+     "text": [
+      "Yes, that is very good. I think that goes on because there were distinctive gifts, as we learn from another scripture, in relation to the testimony. So that the distinction of each is preserved; I cannot be you and you cannot be me, and yet each of us is so vital to the testimony. I think we should have the view that none of us can afford to be out of this; every one is absolutely vital in the testimony. The reason for writing to the Thessalonians was that they should not soon be shaken in mind. I think we are living in days when that is a great danger, and no doubt the scripture would have had our present time in view. But these two things in verse 1 are absolutely vital to preserve us from any influence that would tend to bring in fear. We have spoken of the fear of the Jews and there are other fears, but these two things, the coming of our Lord Jesus Christ and our gathering together to Him should help to steady us."
+     ]
     },
     {
-     "speaker": "S.E.H.",
-     "text": "Would our gathering together to Him refer to the rapture, and also to the coming of our Lord Jesus Christ?"
+     "speaker": "SEH",
+     "text": [
+      "Would our gathering together to Him refer to the rapture, and also to the coming of our Lord Jesus Christ?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "I think that would have the rapture in mind. But what was perhaps more in mind was the influence of that at the present time. We may tend to leave too much to the rapture, to the Lord's coming, but our whole lives are to be more attuned now to that time."
+     "speaker": "EFW",
+     "text": [
+      "I think that would have the rapture in mind. But what was perhaps more in mind was the influence of that at the present time. We may tend to leave too much to the rapture, to the Lord's coming, but our whole lives are to be more attuned now to that time."
+     ]
     },
     {
-     "speaker": "A.G.S.",
-     "text": "Meanwhile we should be concerned to be ready for His coming. The wise virgins were ready, so we should be ready, should we not?"
+     "speaker": "AGS",
+     "text": [
+      "Meanwhile we should be concerned to be ready for His coming. The wise virgins were ready, so we should be ready, should we not?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes, that is exactly what was in mind. It says \"his wife has made herself ready\", Rev 19: 7. I do not know that I fully understand how extensive that is, but it involves a great deal. I think it would bring in a responsibility with all of us that we are in the 'being made ready'. The trimming of the lamps, having the oil, are all very significant matters in the preparation for the Lord's coming."
+     "speaker": "EFW",
+     "text": [
+      "Yes, that is exactly what was in mind. It says \"his wife has made herself ready\", Rev 19: 7. I do not know that I fully understand how extensive that is, but it involves a great deal. I think it would bring in a responsibility with all of us that we are in the 'being made ready'. The trimming of the lamps, having the oil, are all very significant matters in the preparation for the Lord's coming."
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "As was said, it is what comes out of heaven, and now the Lord is coming from heaven. If we had our minds more on what is above and heavenly we would be more steadfast."
+     "speaker": "GDP",
+     "text": [
+      "As was said, it is what comes out of heaven, and now the Lord is coming from heaven. If we had our minds more on what is above and heavenly we would be more steadfast."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "I am sure we would. There are persons today who say that the Lord has already come. I am sure such persons have little idea what it will be like when the Lord actually appears in view of the millennium. The reign of the Lord will be nothing like conditions today. Everything will be subject to Him. That rule will be a wonderful rule that this world has never known."
+     "speaker": "EFW",
+     "text": [
+      "I am sure we would. There are persons today who say that the Lord has already come. I am sure such persons have little idea what it will be like when the Lord actually appears in view of the millennium. The reign of the Lord will be nothing like conditions today. Everything will be subject to Him. That rule will be a wonderful rule that this world has never known."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "The Supper has been alluded to; is that where we get the experience of our gathering together to Him? We have been taught that we first, in a sense, gather to one another, but when He comes in that is the experience of gathering together to Him. Is that right?"
+     "speaker": "JAP",
+     "text": [
+      "The Supper has been alluded to; is that where we get the experience of our gathering together to Him? We have been taught that we first, in a sense, gather to one another, but when He comes in that is the experience of gathering together to Him. Is that right?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes, that is very helpful. I remember hearing that and we have heard it a few times since which is very good."
+     "speaker": "EFW",
+     "text": [
+      "Yes, that is very helpful. I remember hearing that and we have heard it a few times since which is very good."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "The assembly is a marvellous vessel and in some little way, when this great matter of which you have read takes place, the assembly will have had the experience of this - we may say, many times. Maybe some of us have missed it - I would say perhaps I have missed an occasion - but it is a wonderful thing when the Lord Jesus comes in and that you are gathered to Him and you go out when He goes."
+     "speaker": "JAP",
+     "text": [
+      "The assembly is a marvellous vessel and in some little way, when this great matter of which you have read takes place, the assembly will have had the experience of this - we may say, many times. Maybe some of us have missed it - I would say perhaps I have missed an occasion - but it is a wonderful thing when the Lord Jesus comes in and that you are gathered to Him and you go out when He goes."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Do you not feel that our appreciation of that must depend to some extent on how well we know the Lord? So we would all be concerned to know Him better."
+     "speaker": "EFW",
+     "text": [
+      "Do you not feel that our appreciation of that must depend to some extent on how well we know the Lord? So we would all be concerned to know Him better."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "The disciples said to Thomas, \"We have seen the Lord\", John 20: 25. It had the effect of an answer in Thomas' heart and soul so that he was present the next time."
+     "speaker": "TED",
+     "text": [
+      "The disciples said to Thomas, \"We have seen the Lord\", John 20: 25. It had the effect of an answer in Thomas' heart and soul so that he was present the next time."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "That was wonderfully effective in Thomas. They did not tell him to come but what they said was so attractive that he mad e sure he was there the next time."
+     "speaker": "EFW",
+     "text": [
+      "That was wonderfully effective in Thomas. They did not tell him to come but what they said was so attractive that he mad e sure he was there the next time."
+     ]
     },
     {
-     "speaker": "T.E.D.",
-     "text": "Speaking in a practical way you feel it. We see our young brother here, and his wife is in India; there are practical things that are hindering the togetherness. But there are some things that hinder togetherness that we can overcome if we are moving in the Spirit, would you say? Can you help us to look at things from the Lord's point of view and get the Spirit's help in view of the togetherness now to which I think you are drawing our attention?"
+     "speaker": "TED",
+     "text": [
+      "Speaking in a practical way you feel it. We see our young brother here, and his wife is in India; there are practical things that are hindering the togetherness. But there are some things that hinder togetherness that we can overcome if we are moving in the Spirit, would you say? Can you help us to look at things from the Lord's point of view and get the Spirit's help in view of the togetherness now to which I think you are drawing our attention?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "That is a good example because I am sure that they are doing things together although they are not physically together."
+     "speaker": "EFW",
+     "text": [
+      "That is a good example because I am sure that they are doing things together although they are not physically together."
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "There is government limitation in the matter we are speaking of, but I think it is in mind that we ought to see practically about being together with our brethren and that authority underlies it as well as instinct."
+     "speaker": "JAP",
+     "text": [
+      "There is government limitation in the matter we are speaking of, but I think it is in mind that we ought to see practically about being together with our brethren and that authority underlies it as well as instinct."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "The scripture speaks about not neglecting gathering together or assembling together as is the custom with some (see Heb 10: 25). It is very sad to see that some have neglected this, and you rightly feel that all of us would be stirred not to neglect the great privilege we have actually of assembling together. Is that right?"
+     "speaker": "EFW",
+     "text": [
+      "The scripture speaks about not neglecting gathering together or assembling together as is the custom with some (see Heb 10: 25). It is very sad to see that some have neglected this, and you rightly feel that all of us would be stirred not to neglect the great privilege we have actually of assembling together. Is that right?"
+     ]
     },
     {
-     "speaker": "J.A.P.",
-     "text": "Yes; heaven comes into that and I would not like to miss it."
+     "speaker": "JAP",
+     "text": [
+      "Yes; heaven comes into that and I would not like to miss it."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "That is good. The other two scriptures we could perhaps just touch very briefly. I thought we could link the food in John 6 with ministry. How much we value the past ministry would be a test to all of us, but there is no doubt that it is food of a distinctive kind. Surely the fragments are to be gathered up and, as the Lord adds, gather them up that nothing may be lost."
+     "speaker": "EFW",
+     "text": [
+      "That is good. The other two scriptures we could perhaps just touch very briefly. I thought we could link the food in John 6 with ministry. How much we value the past ministry would be a test to all of us, but there is no doubt that it is food of a distinctive kind. Surely the fragments are to be gathered up and, as the Lord adds, gather them up that nothing may be lost."
+     ]
     },
     {
-     "speaker": "A.S.H.",
-     "text": "There was a time when all were filled; they were filled to capacity and then there was what was over and above."
+     "speaker": "ASH",
+     "text": [
+      "There was a time when all were filled; they were filled to capacity and then there was what was over and above."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "The Lord is always ready to give more. You can never say there is no more that I can learn. This is a vital time for learning, for we know that we are not going to learn in heaven, but we learn here and this is where the food is available. We shall not need the books in heaven."
+     "speaker": "EFW",
+     "text": [
+      "The Lord is always ready to give more. You can never say there is no more that I can learn. This is a vital time for learning, for we know that we are not going to learn in heaven, but we learn here and this is where the food is available. We shall not need the books in heaven."
+     ]
     },
     {
-     "speaker": "A.S.H.",
-     "text": "We should make ourselves available in this learning period."
+     "speaker": "ASH",
+     "text": [
+      "We should make ourselves available in this learning period."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "And help one another in it. Some of us are not able to absorb ministry as easily as others but in occasions like this we can help one another into the good of it, into the enjoyment of it. I think ministry is to give us joy as well as instruction."
+     "speaker": "EFW",
+     "text": [
+      "And help one another in it. Some of us are not able to absorb ministry as easily as others but in occasions like this we can help one another into the good of it, into the enjoyment of it. I think ministry is to give us joy as well as instruction."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "In verse 6 it says of the Lord, \"for he knew what he was going to do\". You mentioned in prayer the matter of the headship of Christ operating when we are together. Is there something for us to learn that everything is in the Lord's hand and He is able for everything?"
+     "speaker": "JRC",
+     "text": [
+      "In verse 6 it says of the Lord, \"for he knew what he was going to do\". You mentioned in prayer the matter of the headship of Christ operating when we are together. Is there something for us to learn that everything is in the Lord's hand and He is able for everything?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "It is very comforting, is it not, that the Lord knows what He is going to do and He is able to carry it out. The nearer we are to Him the more conscious we become of His delight to unfold what He is going to do."
+     "speaker": "EFW",
+     "text": [
+      "It is very comforting, is it not, that the Lord knows what He is going to do and He is able to carry it out. The nearer we are to Him the more conscious we become of His delight to unfold what He is going to do."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "That leads to excess, does it not?"
+     "speaker": "JRC",
+     "text": [
+      "That leads to excess, does it not?"
+     ]
     },
     {
-     "text": "L.McF. So the little boy in the context here would encourage us all. We have some brethren not taking much part but how the Lord would draw on what this little boy had, small no doubt, but then think of the result. Is that to encourage us all to become involved?"
+     "speaker": "LMcF",
+     "text": [
+      "So the little boy in the context here would encourage us all. We have some brethren not taking much part but how the Lord would draw on what this little boy had, small no doubt, but then think of the result. Is that to encourage us all to become involved?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes indeed, and to bring what we have. In the Lord's hands He can make it do whatever He will."
+     "speaker": "EFW",
+     "text": [
+      "Yes indeed, and to bring what we have. In the Lord's hands He can make it do whatever He will."
+     ]
     },
     {
-     "speaker": "G.A.",
-     "text": "I was thinking about the children of Israel in Exodus 16, how what was like hoar frost came down from heaven and they diet not know what it was. But then Moses told them that it was the bread from heaven for every man to gather; it says, \"This is the bread which Jehovah has given you to eat ... Gather of it every man according to what he can eat, an omer a poll, according to the number of your persons\" (vv 15,16). They gathered it according to their measure; he that gathered much had nothing over and he that gathered little wanted nothing; they had gathered every man according to the measure of his eating. It says further on, \"Let no man leave any of it until the morning\" (v 19). How does that fit with what you are saying?"
+     "speaker": "GA",
+     "text": [
+      "I was thinking about the children of Israel in Exodus 16, how what was like hoar frost came down from heaven and they diet not know what it was. But then Moses told them that it was the bread from heaven for every man to gather; it says, \"This is the bread which Jehovah has given you to eat ... Gather of it every man according to what he can eat, an omer a poll, according to the number of your persons\" (vv 15,16). They gathered it according to their measure; he that gathered much had nothing over and he that gathered little wanted nothing; they had gathered every man according to the measure of his eating. It says further on, \"Let no man leave any of it until the morning\" (v 19). How does that fit with what you are saying?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "It gives you an impression of the wonderful supply that there is: as we had in the hymn at the outset (No 206), the perennial river, perennial food, the unlimited supply and we are not to despise it but remember that it comes from heaven."
+     "speaker": "EFW",
+     "text": [
+      "It gives you an impression of the wonderful supply that there is: as we had in the hymn at the outset (No 206), the perennial river, perennial food, the unlimited supply and we are not to despise it but remember that it comes from heaven."
+     ]
     },
     {
-     "speaker": "C.S.E.",
-     "text": "Is there something special for us to learn from this scripture in John's gospel? The Lord was concerned that they should gather the fragments which were over and above that nothing might be lost. Is the Lord teaching us there to appreciate what He is giving and to be very careful to use it rightly?"
+     "speaker": "CSE",
+     "text": [
+      "Is there something special for us to learn from this scripture in John's gospel? The Lord was concerned that they should gather the fragments which were over and above that nothing might be lost. Is the Lord teaching us there to appreciate what He is giving and to be very careful to use it rightly?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes that is right. The fragments were not something new, they were part of the loaves."
+     "speaker": "EFW",
+     "text": [
+      "Yes that is right. The fragments were not something new, they were part of the loaves.",
+      "I think Matthew 18 very much links on with what was said at the beginning about love. I think the Lord Jesus loves to be amongst those who are faithful and committed to Him. He is not there just to make a name but He is there in affection and appreciation of persons who are willing to come together - even two or three; He appreciates that and would give them a sense that that is where He would be. What a stimulation for those who remain, to come together and give the Lord the pleasure of being in the midst. The two governing features here are: gathered to His name and that He is in the midst."
+     ]
     },
     {
-     "text": "I think Matthew 18 very much links on with what was said at the beginning about love. I think the Lord Jesus loves to be amongst those who are faithful and committed to Him. He is not there just to make a name but He is there in affection and appreciation of persons who are willing to come together - even two or three; He appreciates that and would give them a sense that that is where He would be. What a stimulation for those who remain, to come together and give the Lord the pleasure of being in the midst. The two governing features here are: gathered to His name and that He is in the midst."
+     "speaker": "LDP",
+     "text": [
+      "I was thinking of Malachi where there was opposition, but despite this there were those who feared Jehovah: \"Then they that feared Jehovah spoke often one to another; and Jehovah observed it, and heard, and a book of remembrance was written before him for them that feared Jehovah, and that thought upon his name. And they shall be unto me a peculiar treasure, saith Jehovah of hosts\", chap 3: 16,17. Would that fit in?"
+     ]
     },
     {
-     "speaker": "L.D.P.",
-     "text": "I was thinking of Malachi where there was opposition, but despite this there were those who feared Jehovah: \"Then they that feared Jehovah spoke often one to another; and Jehovah observed it, and heard, and a book of remembrance was written before him for them that feared Jehovah, and that thought upon his name. And they shall be unto me a peculiar treasure, saith Jehovah of hosts\", chap 3: 16,17. Would that fit in?"
+     "speaker": "EFW",
+     "text": [
+      "That fits in very well and introduces something that should help to preserve us together, and that is, speaking often one to another. I think that that is something that would involve all of us. We are all human and may tend to gravitate towards certain ones, but one to another would involve every one."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "That fits in very well and introduces something that should help to preserve us together, and that is, speaking often one to another. I think that that is something that would involve all of us. We are all human and may tend to gravitate towards certain ones, but one to another would involve every one."
+     "speaker": "GH",
+     "text": [
+      "Verse 20 is very important: \"For where two or three are gathered together unto my name, there am I in the midst of them\". It would involve the importance of His headship and His lordship: is that something vital?"
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "Verse 20 is very important: \"For where two or three are gathered together unto my name, there am I in the midst of them\". It would involve the importance of His headship and His lordship: is that something vital?"
+     "speaker": "EFW",
+     "text": [
+      "That is right. And a name that never changes. That is an important matter, is it not? The Lord's name would involve what does not change."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "That is right. And a name that never changes. That is an important matter, is it not? The Lord's name would involve what does not change."
+     "speaker": "GDP",
+     "text": [
+      "You get confirmation of this where there is a living ministry. Is that not right?"
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "You get confirmation of this where there is a living ministry. Is that not right?"
+     "speaker": "EFW",
+     "text": [
+      "Somebody said that would be a test. If I have doubts as to where I should go, that is one thing I would look for - is there a living ministry?"
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Somebody said that would be a test. If I have doubts as to where I should go, that is one thing I would look for - is there a living ministry?"
+     "speaker": "GDP",
+     "text": [
+      "There are to be no more novelties but we would have something that is current, would we not?"
+     ]
     },
     {
-     "speaker": "G.D.P.",
-     "text": "There are to be no more novelties but we would have something that is current, would we not?"
+     "speaker": "EFW",
+     "text": [
+      "Yes, and the effect of that is very stimulating."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Yes, and the effect of that is very stimulating."
+     "speaker": "JRC",
+     "text": [
+      "What has been mentioned about \"gathered together unto my name\" is very important. 2 Timothy 2 says, if you name the name of the Lord you depart from iniquity. If persons take the name of the Lord, then there is to be a moral correspondence, and that is what makes it, should we say, simple in regard to any position that is taken up. There is diversity all around us but the way is clear - depart from iniquity; otherwise you are naming the name of the Lord and are not in correspondence with it."
+     ]
     },
     {
-     "speaker": "J.R.C.",
-     "text": "What has been mentioned about \"gathered together unto my name\" is very important. 2 Timothy 2 says, if you name the name of the Lord you depart from iniquity. If persons take the name of the Lord, then there is to be a moral correspondence, and that is what makes it, should we say, simple in regard to any position that is taken up. There is diversity all around us but the way is clear - depart from iniquity; otherwise you are naming the name of the Lord and are not in correspondence with it."
+     "speaker": "EFW",
+     "text": [
+      "I appreciate your comment that it is simple. If you try to put the iniquity right you realise that it is more than anybody can do. You get into the most complicated, difficult position, but just leave it, depart from it."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "I appreciate your comment that it is simple. If you try to put the iniquity right you realise that it is more than anybody can do. You get into the most complicated, difficult position, but just leave it, depart from it."
+     "speaker": "KNP",
+     "text": [
+      "Were you going to say something as to the difference between being gathered together unto His name and being gathered together to Him?"
+     ]
     },
     {
-     "speaker": "K.N.P.",
-     "text": "Were you going to say something as to the difference between being gathered together unto His name and being gathered together to Him?"
+     "speaker": "EFW",
+     "text": [
+      "Gathered together to Him, I think, would involve His Person, His feelings, His love; gathered together to His name, I think, brings in the principles, the directions. We have spoken about the commandments earlier on; all those things would be involved in gathering together to His name. The Supper really involves both because there is the commandment, \"This do in remembrance of me\", but then there is the love side, the love that delights to answer to that."
+     ]
     },
     {
-     "speaker": "E.F.W.",
-     "text": "Gathered together to Him, I think, would involve His Person, His feelings, His love; gathered together to His name, I think, brings in the principles, the directions. We have spoken about the commandments earlier on; all those things would be involved in gathering together to His name. The Supper really involves both because there is the commandment, \"This do in remembrance of me\", but then there is the love side, the love that delights to answer to that."
+     "speaker": "GH",
+     "text": [
+      "There is His tender love and then there is also His authority."
+     ]
     },
     {
-     "speaker": "G.H.",
-     "text": "There is His tender love and then there is also His authority."
-    },
-    {
-     "speaker": "E.F.W.",
-     "text": "That is what I thought. You cannot separate the two because His love is behind His authority."
+     "speaker": "EFW",
+     "text": [
+      "That is what I thought. You cannot separate the two because His love is behind His authority."
+     ]
     }
    ]
   },
@@ -632,6 +811,20 @@
      "text": "We are at all times in God's school and not waiting to be dismissed or sent on holiday. There is a window in the schoolroom through which we are encouraged to look for the coming of our great God and Saviour, Jesus Christ. He will come secretly for those whom He has redeemed and then in glory He will come again with them all. Will you be amongst these?"
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "GATHERING",
+   "kind": "default_place",
+   "detail": "NEW YORK given to 8 names (\"All local unless otherwise stated\")"
+  },
+  {
+   "article": 1,
+   "title": "GATHERING",
+   "kind": "speaker_matched_loosely",
+   "detail": "LMcF used in the text for L.McFarlane (key gives LM)"
   }
  ]
 }

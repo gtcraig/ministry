@@ -1,5 +1,5 @@
 {
- "schema": 1,
+ "schema": 2,
  "magazine": "Notes of Ministry",
  "code": "nom",
  "series": null,
@@ -27,129 +27,136 @@
    "place": "Maidstone",
    "date": "10 November 2018",
    "speakers": [
-    "A.M.",
-    "K.J.M.",
-    "J.R.W.",
-    "G.C.B.",
-    "D.A.B.",
-    "P.M.",
-    "D.H.B.",
-    "P.J.W.",
-    "R.M.B.",
-    "R.H.B.",
-    "C.H.S.",
-    "M.I.W.",
-    "A.A.C.",
-    "A.G.M.",
-    "R.S.",
-    "C.C.D.R.",
-    "L.C.",
-    "O.J.M.",
-    "S.T.E.",
-    "N.J.M.",
-    "D.A.S."
+    "AM",
+    "KJM",
+    "JRW",
+    "GCB",
+    "DAB",
+    "PM",
+    "DHB",
+    "PJW",
+    "RMB",
+    "RHB",
+    "CHS",
+    "MIW",
+    "AAC",
+    "AGM",
+    "RS",
+    "CCDR",
+    "LC",
+    "OJM",
+    "STE",
+    "NJM",
+    "DAS"
    ],
    "initials": [
     {
-     "initials": "DHBDHBM",
-     "name": "D.H.B. David H. Bailey Maidstone"
+     "initials": "DHB",
+     "name": "David H. Bailey",
+     "place": "Maidstone"
     },
     {
-     "initials": "RMBRMBS",
-     "name": "R.M.B. Richard M. Brown Strood"
+     "initials": "RMB",
+     "name": "Richard M. Brown",
+     "place": "Strood"
     },
     {
-     "initials": "RHBRHBEF",
-     "name": "R.H.B. Roland H. Brown East Finchley"
+     "initials": "RHB",
+     "name": "Roland H. Brown",
+     "place": "East Finchley"
     },
     {
-     "initials": "DABDABL",
-     "name": "D.A.B. D. Andrew Burr London"
+     "initials": "DAB",
+     "name": "D. Andrew Burr",
+     "place": "London"
     },
     {
-     "initials": "GCBGCBBH",
-     "name": "G.C.B. Geoffrey C. Bywater Buckhurst Hill"
+     "initials": "GCB",
+     "name": "Geoffrey C. Bywater",
+     "place": "Buckhurst Hill"
     },
     {
-     "initials": "LCLCS",
-     "name": "L.C. Llewellyn Clarke Stawell"
+     "initials": "LC",
+     "name": "Llewellyn Clarke",
+     "place": "Stawell"
     },
     {
-     "initials": "AACAACL",
-     "name": "A.A.C. Alan A. Croot London"
+     "initials": "AAC",
+     "name": "Alan A. Croot",
+     "place": "London"
     },
     {
-     "initials": "STESTED",
-     "name": "S.T.E. Stephen T. Eagle Dorking"
+     "initials": "STE",
+     "name": "Stephen T. Eagle",
+     "place": "Dorking"
     },
     {
-     "initials": "AGMAGMC",
-     "name": "A.G.M. Alec G. Mair Cullen"
+     "initials": "AGM",
+     "name": "Alec G. Mair",
+     "place": "Cullen"
     },
     {
-     "initials": "KJMKJMM",
-     "name": "K.J.M. Keith J. May Maidstone"
+     "initials": "KJM",
+     "name": "Keith J. May",
+     "place": "Maidstone"
     },
     {
-     "initials": "NJMNJMM",
-     "name": "N.J.M. Nigel J. May Maidstone"
+     "initials": "NJM",
+     "name": "Nigel J. May",
+     "place": "Maidstone"
     },
     {
-     "initials": "OJMOJMM",
-     "name": "O.J.M. Owen J. May Maidstone"
+     "initials": "OJM",
+     "name": "Owen J. May",
+     "place": "Maidstone"
     },
     {
-     "initials": "AMAMBH",
-     "name": "A.M. Andrew Martin Buckhurst Hill"
+     "initials": "AM",
+     "name": "Andrew Martin",
+     "place": "Buckhurst Hill"
     },
     {
-     "initials": "PMPMC",
-     "name": "P.M. Paul Martin Colchester"
+     "initials": "PM",
+     "name": "Paul Martin",
+     "place": "Colchester"
     },
     {
-     "initials": "CCDRCCDRSA",
-     "name": "C.C.D.R. Charles C.D. Remmington St Albans"
+     "initials": "CCDR",
+     "name": "Charles"
     },
     {
-     "initials": "DASDASS",
-     "name": "D.A.S. David A. Smith Sidcup"
+     "initials": "CDRSA",
+     "name": "C.D. Remmington St Albans"
     },
     {
-     "initials": "CHSCHSC",
-     "name": "C.H.S. Colin H. Smith Chelmsford"
+     "initials": "DAS",
+     "name": "David A. Smith",
+     "place": "Sidcup"
     },
     {
-     "initials": "RSRSS",
-     "name": "R.S. Richard Smith Strood"
+     "initials": "CHS",
+     "name": "Colin H. Smith",
+     "place": "Chelmsford"
     },
     {
-     "initials": "JRWJRWM",
-     "name": "J.R.W. Jim R. Walkinshaw Maidstone"
+     "initials": "RS",
+     "name": "Richard Smith",
+     "place": "Strood"
     },
     {
-     "initials": "PJWPJWS",
-     "name": "P.J.W. Philip J. Walkinshaw Strood"
+     "initials": "JRW",
+     "name": "Jim R. Walkinshaw",
+     "place": "Maidstone"
     },
     {
-     "initials": "MIWMIWBH",
-     "name": "M.I.W. Mark I. Webster Buckhurst Hill"
+     "initials": "PJW",
+     "name": "Philip J. Walkinshaw",
+     "place": "Strood"
     },
     {
-     "initials": "EPJBPM",
-     "name": "Edited and Published by John Brown and Paul Martin"
-    },
-    {
-     "initials": "LPLEA",
-     "name": "36 Laverock Park Linlithgow EH49 6AT"
-    },
-    {
-     "initials": "",
-     "name": "email notesofministry@virginmedia.com or paul@nofm.co.uk"
-    },
-    {
-     "initials": "PCP",
-     "name": "Printed by Crystal Print",
-     "place": "22 Western Road, Billericay, Essex CM12 9DZ Tel: 01277 650 661"
+     "initials": "MIW",
+     "name": "Mark I. Webster",
+     "place": "Buckhurst Hill"
     }
    ],
    "initials_heading": "LIST OF INITIALS",
@@ -182,532 +189,759 @@
    ],
    "paragraphs": [
     {
-     "speaker": "A.M.",
-     "text": "We often find in our conversations together, in our thoughts and in our prayers, that we tend to be occupied with what we have lost, and it is right that we should feel this – it would be a reproach on us if we did not. But at the same time, I think the Lord would give us a sense of what we have. There are things which are never lost, things which go through and which we are to value. The Lord would be looking to see how much we value what we have. There was another instance in the book of Kings where Elisha said to a woman, “what hast thou in the house?”, 2 Kings 4:2. She had something that would never run out."
+     "speaker": "AM",
+     "text": [
+      "We often find in our conversations together, in our thoughts and in our prayers, that we tend to be occupied with what we have lost, and it is right that we should feel this – it would be a reproach on us if we did not. But at the same time, I think the Lord would give us a sense of what we have. There are things which are never lost, things which go through and which we are to value. The Lord would be looking to see how much we value what we have. There was another instance in the book of Kings where Elisha said to a woman, “what hast thou in the house?”, 2 Kings 4:2. She had something that would never run out.",
+      "Philadelphia was a wonderful local assembly. We would regard it today as suggesting a state of soul which we would desire to see in evidence. If a company were to claim to be Philadelphia, that would be the simple proof that their state was Laodicean. The Lord had nothing to say to Philadelphia that was corrective; everything was commendatory. There were two local assemblies that the Lord addressed to which there was nothing corrective said, Smyrna and Philadelphia, and in the promises to the overcomers in them, He did not give them anything. In all the other addresses, He gives something which would meet the conditions in these local assemblies – the morning star (Rev.2:28), the hidden manna (Rev.2:17), and “white garments” (Rev.3:5). But with Philadelphia, they were in a sense already enjoying all that comes from Him; they had it, and He says, “hold fast what thou hast”, cling to what you have, “that no one take thy crown”. He would say, Do not let go of any thoughts of God’s, although the breakdown may be so terrible. There may be a trend around us to say that the truth as set out in Paul’s ministry does not apply now. It does apply. The Lord says, “that no one take thy crown”; do not let go of anything.",
+      "In Kings, this woman had “a handful of meal in a barrel, and a little oil in a cruse”. A handful of meal; that was her measure and she had it. It speaks of the manhood of our Lord Jesus. And she had a little oil in the cruse, it did not run out; the supply of the Spirit of Jesus Christ was in principle there and she was able to maintain the prophet for a whole year with her household.",
+      "Naboth was a wonderful man. He had the inheritance of his fathers. Beloved brethren, we have the inheritance of our fathers. I would say that there has never been a time when there has been such a rich unfolding of the truth as there is now. It is the inheritance of our fathers; it has come down. In Mr Darby’s time, how wonderful those days were, but think of the truth that has come out since then. There has never been a time when the truth has been so fully opened up as now. The word is “hold fast what thou hast”, not holding it as a mental exercise, but holding it fast means treasuring what we have in our affections. These were the simple thoughts before me."
+     ]
     },
     {
-     "text": "Philadelphia was a wonderful local assembly. We would regard it today as suggesting a state of soul which we would desire to see in evidence. If a company were to claim to be Philadelphia, that would be the simple proof that their state was Laodicean. The Lord had nothing to say to Philadelphia that was corrective; everything was commendatory. There were two local assemblies that the Lord addressed to which there was nothing corrective said, Smyrna and Philadelphia, and in the promises to the overcomers in them, He did not give them anything. In all the other addresses, He gives something which would meet the conditions in these local assemblies – the morning star (Rev.2:28), the hidden manna (Rev.2:17), and “white garments” (Rev.3:5). But with Philadelphia, they were in a sense already enjoying all that comes from Him; they had it, and He says, “hold fast what thou hast”, cling to what you have, “that no one take thy crown”. He would say, Do not let go of any thoughts of God’s, although the breakdown may be so terrible. There may be a trend around us to say that the truth as set out in Paul’s ministry does not apply now. It does apply. The Lord says, “that no one take thy crown”; do not let go of anything."
+     "speaker": "KJM",
+     "text": [
+      "We have been reading Thessalonians and noticing the much pressure that they were under outwardly. Paul says; “ye have no need that we should write to you, for ye yourselves are taught of God to love one another” (1 Thess.4:9), and then “ye have no need that ye should be written to, for ye know perfectly well yourselves, that the day of the Lord so comes as a thief by night”, 1 Thess.5:1,2. Affection amongst the saints and looking for the Lord’s coming are things that we have."
+     ]
     },
     {
-     "text": "In Kings, this woman had “a handful of meal in a barrel, and a little oil in a cruse”. A handful of meal; that was her measure and she had it. It speaks of the manhood of our Lord Jesus. And she had a little oil in the cruse, it did not run out; the supply of the Spirit of Jesus Christ was in principle there and she was able to maintain the prophet for a whole year with her household."
+     "speaker": "AM",
+     "text": [
+      "Exactly; that is Philadelphia. Philadelphia is brotherly love; that is the meaning of the name, and so the word is, “I come quickly”. These are things we can lay hold of, and of which the Lord would say, “hold fast”."
+     ]
     },
     {
-     "text": "Naboth was a wonderful man. He had the inheritance of his fathers. Beloved brethren, we have the inheritance of our fathers. I would say that there has never been a time when there has been such a rich unfolding of the truth as there is now. It is the inheritance of our fathers; it has come down. In Mr Darby’s time, how wonderful those days were, but think of the truth that has come out since then. There has never been a time when the truth has been so fully opened up as now. The word is “hold fast what thou hast”, not holding it as a mental exercise, but holding it fast means treasuring what we have in our affections. These were the simple thoughts before me."
+     "speaker": "JRW",
+     "text": [
+      "Is there a link between “I come quickly” and holding fast “what thou hast”?"
+     ]
     },
     {
-     "speaker": "K.J.M.",
-     "text": "We have been reading Thessalonians and noticing the much pressure that they were under outwardly. Paul says; “ye have no need that we should write to you, for ye yourselves are taught of God to love one another” (1 Thess.4:9), and then “ye have no need that ye should be written to, for ye know perfectly well yourselves, that the day of the Lord so comes as a thief by night”, 1 Thess.5:1,2. Affection amongst the saints and looking for the Lord’s coming are things that we have."
+     "speaker": "AM",
+     "text": [
+      "Yes, another of the things we have is the Lord’s word. In Haggai it says, “The word … and my Spirit, remain among you”, Hag.2:5. But “the word of my patience” – you think of the Lord’s patience. This dispensation has gone on for so long, and the Lord is waiting to receive His bride. We may think of His patience, but I can bring it closer to my life; I can think of His patience with me, and the word is to “keep the word of my patience”. In the waiting time, we are to keep what proceeds from Himself."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Exactly; that is Philadelphia. Philadelphia is brotherly love; that is the meaning of the name, and so the word is, “I come quickly”. These are things we can lay hold of, and of which the Lord would say, “hold fast”."
+     "speaker": "JRW",
+     "text": [
+      "What you have set on is most important. We can be occupied with what is negative and, as you said, what we may have lost. The reference to “the word of my patience” is very encouraging. We could say only a little about “the hour of trial” which we experience in measure day by day, but these thoughts would encourage us to hold fast what we have."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "Is there a link between “I come quickly” and holding fast “what thou hast”?"
+     "speaker": "GCB",
+     "text": [
+      "Would you say more about why the Lord does not give these two assemblies anything."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes, another of the things we have is the Lord’s word. In Haggai it says, “The word … and my Spirit, remain among you”, Hag.2:5. But “the word of my patience” – you think of the Lord’s patience. This dispensation has gone on for so long, and the Lord is waiting to receive His bride. We may think of His patience, but I can bring it closer to my life; I can think of His patience with me, and the word is to “keep the word of my patience”. In the waiting time, we are to keep what proceeds from Himself."
+     "speaker": "AM",
+     "text": [
+      "In Philadelphia, it is what He is going to make them, “him will I make a pillar”. They were doubtless in the gain of it already. We can read Mr Darby’s hymns; he already embraced the promises to those who overcome,:",
+      "‘With Thee in garments white,",
+      "Lord Jesus we shall walk’ (Hymn 270)",
+      "and",
+      "‘Called by that secret name",
+      "Of undisclosed delight’ (Hymn 79)",
+      "They embraced all the promises already, all the things that were to be given. You can see that in this condition that was found in Philadelphia, what is precious to Christ was being kept, and they were in the gain of all the things that He would give. In Philadelphia, there was, in a sense, just what the Lord was looking for. There was affection for Him there, and everything was related to Him. In Laodicea, nothing was related to the Lord; it was all “I”, but in Philadelphia, everything was related to the Lord."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "What you have set on is most important. We can be occupied with what is negative and, as you said, what we may have lost. The reference to “the word of my patience” is very encouraging. We could say only a little about “the hour of trial” which we experience in measure day by day, but these thoughts would encourage us to hold fast what we have."
+     "speaker": "DAB",
+     "text": [
+      "We talk about holding things fast, but might there be different reasons why something might fall out of our hands? There might be weakness, which we see in the widow, and for us, that weakness could be inattention. We could not say she was inattentive but her resources were running out, and the answer is ministry, bringing the Lord before His people. But someone might seize something out of our hands, and we see that in Naboth. Would the answer to that be in exercise that the strength to hold something will be built up through exercise."
+     ]
     },
     {
-     "speaker": "G.C.B.",
-     "text": "Would you say more about why the Lord does not give these two assemblies anything."
+     "speaker": "AM",
+     "text": [
+      "Yes, because the thing is so greatly valued. The Lord Jesus is a model; “no one shall seize them out of my hand”, John 10:28. His determination is that no one shall seize them out of His hand. He also says, “My Father who has given them to me is greater than all”; none can “seize out of the hand of my Father”. There is power."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "In Philadelphia, it is what He is going to make them, “him will I make a pillar”. They were doubtless in the gain of it already. We can read Mr Darby’s hymns; he already embraced the promises to those who overcome,:"
+     "speaker": "DAB",
+     "text": [
+      "A vineyard, especially an old vineyard, is the result of an enormous amount of labour. You cannot use a tractor to manage a vineyard, or even a horse and plough; it is not the way of doing it; you have to do it all yourself. You were talking about earlier generations of people who have maintained our inheritance, and if it has any value now, if there is any vintage from it, it is through their labours. So we cannot just rely on ministry, because we have to be exercised as well."
+     ]
     },
     {
-     "text": "‘With Thee in garments white,"
+     "speaker": "AM",
+     "text": [
+      "Yes indeed. I thought the vineyard is in view of something that is living and responsive to God. It is to cheer the heart of God and man. That is what is in view in the vineyard; it is the result of personal exercise and personal toil, but it is all in view of that joy."
+     ]
     },
     {
-     "text": "Lord Jesus we shall walk’ (Hymn 270)"
+     "speaker": "JRW",
+     "text": [
+      "The Lord does not actually specify here what He means by “what thou hast”. I wondered if it was at the heart of your exercise. I might raise that question with myself, What do I have? Our brother has spoken about ministry; I have books of ministry and maybe a certain memory and knowledge of what is written in them, but that is not exactly what is meant here, is it? “What thou hast” is experience with the Lord Jesus as we go through the wilderness, and then our experience within the land in the sphere of privilege; our knowledge of what it is to be in the Father’s house and the experience and enjoyment of all these things in the power of the Spirit."
+     ]
     },
     {
-     "text": "and"
+     "speaker": "AM",
+     "text": [
+      "I suppose every believer can say, ‘I have Christ’. That is your beginning. Ask believers what they have, and you quickly come to the reality of it when somebody might say, ‘I have the forgiveness of sins’ or ‘I have peace’. Then if they start by saying ‘I have Christ’, that is the Person, and then we develop in our knowledge of Him. It is interesting that both the Lord Jesus and the Holy Spirit are referred to as gifts; they are gifts from God. How extraordinary that a divine Person should condescend to take that place of being a gift that we have been given. If you take account of all that is contained in that, then you have every divine thought, every spiritual blessing in the heavenlies, you have everything available. But the question is, Do we enjoy it?"
+     ]
     },
     {
-     "text": "‘Called by that secret name"
+     "speaker": "JRW",
+     "text": [
+      "I was thinking that. Are we really living in the present conscious enjoyment of it? It is a test."
+     ]
     },
     {
-     "text": "Of undisclosed delight’ (Hymn 79)"
+     "speaker": "AM",
+     "text": [
+      "That is just the point. Laodicea had all the ministry. I read recently a comment in relation to the various churches to which the addresses were given, that Ephesus had shut the door on wicked men, but Laodicea had shut the door on Christ. “Behold, I stand at the door and am knocking”, Rev.3:20. Laodicea had every advantage, but they shut the door on Christ, while in Philadelphia, He had that essential, supreme place."
+     ]
     },
     {
-     "text": "They embraced all the promises already, all the things that were to be given. You can see that in this condition that was found in Philadelphia, what is precious to Christ was being kept, and they were in the gain of all the things that He would give. In Philadelphia, there was, in a sense, just what the Lord was looking for. There was affection for Him there, and everything was related to Him. In Laodicea, nothing was related to the Lord; it was all “I”, but in Philadelphia, everything was related to the Lord."
+     "speaker": "KJM",
+     "text": [
+      "In verse 8 it says, ‘thou hast a little power, thou hast kept my word, thou hast not denied My name’; these would be some of the things that they had."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "We talk about holding things fast, but might there be different reasons why something might fall out of our hands? There might be weakness, which we see in the widow, and for us, that weakness could be inattention. We could not say she was inattentive but her resources were running out, and the answer is ministry, bringing the Lord before His people. But someone might seize something out of our hands, and we see that in Naboth. Would the answer to that be in exercise that the strength to hold something will be built up through exercise."
+     "speaker": "AM",
+     "text": [
+      "That is right; “thou hast a little power” would be in the Holy Spirit. How can we say, ‘I do not have much’? You have His power."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes, because the thing is so greatly valued. The Lord Jesus is a model; “no one shall seize them out of my hand”, John 10:28. His determination is that no one shall seize them out of His hand. He also says, “My Father who has given them to me is greater than all”; none can “seize out of the hand of my Father”. There is power."
+     "speaker": "PM",
+     "text": [
+      "Does Philadelphia really maintain what Paul brought before the saints at Ephesus, and were they living in the enjoyment of that? In Ephesians 1, everything is in Christ and they were holding that because they were holding the Person."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "A vineyard, especially an old vineyard, is the result of an enormous amount of labour. You cannot use a tractor to manage a vineyard, or even a horse and plough; it is not the way of doing it; you have to do it all yourself. You were talking about earlier generations of people who have maintained our inheritance, and if it has any value now, if there is any vintage from it, it is through their labours. So we cannot just rely on ministry, because we have to be exercised as well."
+     "speaker": "AM",
+     "text": [
+      "I was thinking of Ephesians 1; the paragraph includes “in him” (v.4), “in the Beloved” (v.6), “in the Christ” (vv.10,12); and that paragraph ends “ye have been sealed with the Holy Spirit of promise, who is the earnest of our inheritance” (vv.13,14). We have Christ; everything is in Him. We have the Holy Spirit; the enjoyment of everything is in Him."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes indeed. I thought the vineyard is in view of something that is living and responsive to God. It is to cheer the heart of God and man. That is what is in view in the vineyard; it is the result of personal exercise and personal toil, but it is all in view of that joy."
+     "speaker": "DHB",
+     "text": [
+      "Would it be right to say that it is not how much we have, it is our valuation of it that matters. We might just have a little, but how much do we value it? I was thinking of the children of Israel and the manna; some gathered much and they had nothing left over, others gathered little and they wanted for nothing (Exod.16:18). They gathered each according to their need."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "The Lord does not actually specify here what He means by “what thou hast”. I wondered if it was at the heart of your exercise. I might raise that question with myself, What do I have? Our brother has spoken about ministry; I have books of ministry and maybe a certain memory and knowledge of what is written in them, but that is not exactly what is meant here, is it? “What thou hast” is experience with the Lord Jesus as we go through the wilderness, and then our experience within the land in the sphere of privilege; our knowledge of what it is to be in the Father’s house and the experience and enjoyment of all these things in the power of the Spirit."
+     "speaker": "AM",
+     "text": [
+      "Yes, they found that through God’s faithfulness the manna did not fail, it lasted. Natural man has never had a taste for it. The children of Israel lost their taste for it, and it is interesting in Numbers 11, when they spoke against the manna, the Spirit of God puts in the comment to say how wonderful the manna was. It is as if divine feelings were affected by the callous way in which they spoke of it. In type, they had Christ in the manna."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "I suppose every believer can say, ‘I have Christ’. That is your beginning. Ask believers what they have, and you quickly come to the reality of it when somebody might say, ‘I have the forgiveness of sins’ or ‘I have peace’. Then if they start by saying ‘I have Christ’, that is the Person, and then we develop in our knowledge of Him. It is interesting that both the Lord Jesus and the Holy Spirit are referred to as gifts; they are gifts from God. How extraordinary that a divine Person should condescend to take that place of being a gift that we have been given. If you take account of all that is contained in that, then you have every divine thought, every spiritual blessing in the heavenlies, you have everything available. But the question is, Do we enjoy it?"
+     "speaker": "PJW",
+     "text": [
+      "The question is asked in Zechariah, “who hath despised the day of small things?”, Zech.4:10. The disciples said, “what is it for so many?”, John 6:9. They were overlooking what the boy had. In the hands of the Lord, it fed a great multitude."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "I was thinking that. Are we really living in the present conscious enjoyment of it? It is a test."
+     "speaker": "AM",
+     "text": [
+      "Zechariah had a vision which suggests to us the constant supply of the Holy Spirit. He saw the golden tubes which empty the gold out of themselves (Zech.4:12), and there was an inexhaustible supply. “For who hath despised the day of small things?” (v.10). There is a supply that will never dry up."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is just the point. Laodicea had all the ministry. I read recently a comment in relation to the various churches to which the addresses were given, that Ephesus had shut the door on wicked men, but Laodicea had shut the door on Christ. “Behold, I stand at the door and am knocking”, Rev.3:20. Laodicea had every advantage, but they shut the door on Christ, while in Philadelphia, He had that essential, supreme place."
+     "speaker": "PJW",
+     "text": [
+      "Then it goes on to speak of “the plummet in the hand of Zerubbabel”, as though everything is maintained at its proper level in the hands of Christ."
+     ]
     },
     {
-     "speaker": "K.J.M.",
-     "text": "In verse 8 it says, ‘thou hast a little power, thou hast kept my word, thou hast not denied My name’; these would be some of the things that they had."
+     "speaker": "AM",
+     "text": [
+      "Yes, and according to divine standards."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is right; “thou hast a little power” would be in the Holy Spirit. How can we say, ‘I do not have much’? You have His power."
+     "speaker": "RMB",
+     "text": [
+      "Would what Philadelphia had include the light of the assembly? I was noticing that the Lord says something very similar to Thyatira in verse 25 of chapter 2, “what ye have hold fast till I shall come”. But to Philadelphia he adds these words, “that no one take thy crown”, as if there was something additional there, and there was an element of recovery with Philadelphia. We have spoken about the ministry; I wonder whether what has come out in relation to Christ and the assembly is particularly a crown for these last days?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "Does Philadelphia really maintain what Paul brought before the saints at Ephesus, and were they living in the enjoyment of that? In Ephesians 1, everything is in Christ and they were holding that because they were holding the Person."
+     "speaker": "AM",
+     "text": [
+      "I am very glad you say that. In Thyatira, there were some to whom the Lord says, “But to you I say, the rest who are in Thyatira, as many as have not this doctrine”. In the teaching of what Thyatira represents, there is a great religious system which has been built up and which has the character of Jezebel, but the Lord says to the rest who are caught up in this and who do not have that teaching, “what ye have hold fast till I shall come”. He was taking account graciously of what there was, which may have been found in smallness and was tied up in the systems of men. But when it comes to Philadelphia it is a complete thought. There is no question of a remnant there, or anything like that, it is the letter to that assembly. I think what you say is right, that the crown really represents the greatest thoughts of God – Christ and the assembly, and man in sonship."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "I was thinking of Ephesians 1; the paragraph includes “in him” (v.4), “in the Beloved” (v.6), “in the Christ” (vv.10,12); and that paragraph ends “ye have been sealed with the Holy Spirit of promise, who is the earnest of our inheritance” (vv.13,14). We have Christ; everything is in Him. We have the Holy Spirit; the enjoyment of everything is in Him."
+     "speaker": "RMB",
+     "text": [
+      "The Lord says that He had set before them an opened door, which He explains that no one could shut. I think it has been said that it means that the Lord will maintain something of assembly character right up until the end of the dispensation, which is a very comforting thought. Do you think the fact that the saints at Philadelphia had kept His word and not denied His name showed their appreciation of that and a desire to answer to it in a practical way?"
+     ]
     },
     {
-     "speaker": "D.H.B.",
-     "text": "Would it be right to say that it is not how much we have, it is our valuation of it that matters. We might just have a little, but how much do we value it? I was thinking of the children of Israel and the manna; some gathered much and they had nothing left over, others gathered little and they wanted for nothing (Exod.16:18). They gathered each according to their need."
+     "speaker": "AM",
+     "text": [
+      "Yes, that is right. They valued what they found in Him and what they were brought into. You get the impression as you read this that these Philadelphian saints must have been unshakeable in their faith and their affection for the Lord, and they were working together."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes, they found that through God’s faithfulness the manna did not fail, it lasted. Natural man has never had a taste for it. The children of Israel lost their taste for it, and it is interesting in Numbers 11, when they spoke against the manna, the Spirit of God puts in the comment to say how wonderful the manna was. It is as if divine feelings were affected by the callous way in which they spoke of it. In type, they had Christ in the manna."
+     "speaker": "RHB",
+     "text": [
+      "If that is so, why did they need an overcomer?"
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "The question is asked in Zechariah, “who hath despised the day of small things?”, Zech.4:10. The disciples said, “what is it for so many?”, John 6:9. They were overlooking what the boy had. In the hands of the Lord, it fed a great multitude."
+     "speaker": "AM",
+     "text": [
+      "We always need to overcome. If they stopped overcoming, it would have ceased to be Philadelphian conditions."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Zechariah had a vision which suggests to us the constant supply of the Holy Spirit. He saw the golden tubes which empty the gold out of themselves (Zech.4:12), and there was an inexhaustible supply. “For who hath despised the day of small things?” (v.10). There is a supply that will never dry up."
+     "speaker": "RHB",
+     "text": [
+      "These things – keeping the Lord’s word, not denying His name, maintaining the word of His patience –would have involved suffering for them, and “the synagogue of Satan” is referred to. So that there is a need for that feature as long as we are here, otherwise does it rapidly becomes what is characteristic of Laodicea?"
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "Then it goes on to speak of “the plummet in the hand of Zerubbabel”, as though everything is maintained at its proper level in the hands of Christ."
+     "speaker": "AM",
+     "text": [
+      "Yes, and it is interesting that the word to the overcomer relates to what is addressed to the whole assembly, “thou hast a little power … him will I make a pillar”, “hast kept my word … I will write upon him”, “hast not denied my name … my new name”. What the Lord said was addressed to an assembly of overcomers."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes, and according to divine standards."
+     "speaker": "CHS",
+     "text": [
+      "Paul said to Timothy, “Have an outline of sound words” (2 Tim.1:13) and note ‘a’ says it means ‘hold fast’. We should value the truth that we have; I was thinking of the way in which the enemy has attacked it. The Lord spoke of its separating power in His prayer in John 17. It is what has brought us to where we are, and it is what will maintain us."
+     ]
     },
     {
-     "speaker": "R.M.B.",
-     "text": "Would what Philadelphia had include the light of the assembly? I was noticing that the Lord says something very similar to Thyatira in verse 25 of chapter 2, “what ye have hold fast till I shall come”. But to Philadelphia he adds these words, “that no one take thy crown”, as if there was something additional there, and there was an element of recovery with Philadelphia. We have spoken about the ministry; I wonder whether what has come out in relation to Christ and the assembly is particularly a crown for these last days?"
+     "speaker": "AM",
+     "text": [
+      "In the epistle to the Thessalonians, Paul speaks of “the love of the truth”, 2 Thess.2:10. We have “the knowledge of the truth”, which is right; God “desires that all men should be saved and come to the knowledge of the truth”, 1 Tim.2:4. You get the knowledge of the truth in Jesus, “according as the truth is in Jesus” (Eph.4:21), but what He is really looking for is the love of the truth, and if you have a love of the truth, you value it."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "I am very glad you say that. In Thyatira, there were some to whom the Lord says, “But to you I say, the rest who are in Thyatira, as many as have not this doctrine”. In the teaching of what Thyatira represents, there is a great religious system which has been built up and which has the character of Jezebel, but the Lord says to the rest who are caught up in this and who do not have that teaching, “what ye have hold fast till I shall come”. He was taking account graciously of what there was, which may have been found in smallness and was tied up in the systems of men. But when it comes to Philadelphia it is a complete thought. There is no question of a remnant there, or anything like that, it is the letter to that assembly. I think what you say is right, that the crown really represents the greatest thoughts of God – Christ and the assembly, and man in sonship."
+     "speaker": "DAB",
+     "text": [
+      "Is holding fast “my name” (Rev.2:13) a feature of the Lamb’s wife? In traditional practice, a man’s wife takes his name, and Philadelphia held the Lord’s name with the utmost affection. In the address to Thyatira, He comments on their love; it was the only assembly whose love is spoken of, but there was a rival for it, so we could not imagine that they were holding fast His name."
+     ]
     },
     {
-     "speaker": "R.M.B.",
-     "text": "The Lord says that He had set before them an opened door, which He explains that no one could shut. I think it has been said that it means that the Lord will maintain something of assembly character right up until the end of the dispensation, which is a very comforting thought. Do you think the fact that the saints at Philadelphia had kept His word and not denied His name showed their appreciation of that and a desire to answer to it in a practical way?"
+     "speaker": "AM",
+     "text": [
+      "That is interesting, because apart from that reference to Thyatira, I do not think that you find anywhere in the Scriptures, directly or in the great types, a reference to the assembly’s love for Christ. You get references to Christ’s love for the assembly, we get Israel’s love, but we do not get the assembly’s love. Is that to be a challenge, an exercise to us – what does He find in the assembly?"
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes, that is right. They valued what they found in Him and what they were brought into. You get the impression as you read this that these Philadelphian saints must have been unshakeable in their faith and their affection for the Lord, and they were working together."
+     "speaker": "DAB",
+     "text": [
+      "And what does He find in me? The Lord does not write Thyatira off, and it is very touching that it should be to that assembly that He speaks about their love. But He is frank with them about the competing claims to it. These things are only maintained where there is a real striving to hold what is truth."
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "If that is so, why did they need an overcomer?"
+     "speaker": "AM",
+     "text": [
+      "And the overcomer in Thyatira would have a tremendous amount to overcome. I suppose many of us have encountered souls, genuine believers, who are in that system. They love the Lord Jesus but are caught in something which is more powerful than they are."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "We always need to overcome. If they stopped overcoming, it would have ceased to be Philadelphian conditions."
+     "speaker": "PM",
+     "text": [
+      "The saints in Philadelphia kept His word because it was His. They did not deny His name because it was His. They held fast to the assembly because it was His. We are in a day when I might be governed by what I feel, but are the overcomers governed by what Christ feels, and that is what gives them the valuation that is worth hold to?"
+     ]
     },
     {
-     "speaker": "R.H.B.",
-     "text": "These things – keeping the Lord’s word, not denying His name, maintaining the word of His patience –would have involved suffering for them, and “the synagogue of Satan” is referred to. So that there is a need for that feature as long as we are here, otherwise does it rapidly becomes what is characteristic of Laodicea?"
+     "speaker": "AM",
+     "text": [
+      "Yes, J.G. Bellett says in one of his works,",
+      "‘Because ‘tis Thine makes all things plain’1",
+      "Everything is plain to Philadelphia because of what is His."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes, and it is interesting that the word to the overcomer relates to what is addressed to the whole assembly, “thou hast a little power … him will I make a pillar”, “hast kept my word … I will write upon him”, “hast not denied my name … my new name”. What the Lord said was addressed to an assembly of overcomers."
+     "speaker": "MIW",
+     "text": [
+      "The first thing said to Philadelphia is “I know thy works”. I was thinking of what has been said as to exercise, that what we have should be worked out into a result, otherwise it becomes mere formality."
+     ]
     },
     {
-     "speaker": "C.H.S.",
-     "text": "Paul said to Timothy, “Have an outline of sound words” (2 Tim.1:13) and note ‘a’ says it means ‘hold fast’. We should value the truth that we have; I was thinking of the way in which the enemy has attacked it. The Lord spoke of its separating power in His prayer in John 17. It is what has brought us to where we are, and it is what will maintain us."
+     "speaker": "AM",
+     "text": [
+      "Indeed. “I know thy works” must have been a great encouragement to Philadelphia. It would not have been an encouragement to all the assemblies; they all received this message but to Philadelphia this must have been a real joy. Doubtless those works were largely unseen by men, they would have been hidden, they would have been secret, but they would have been in affection for Christ. He knew the works and the motive behind them."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "In the epistle to the Thessalonians, Paul speaks of “the love of the truth”, 2 Thess.2:10. We have “the knowledge of the truth”, which is right; God “desires that all men should be saved and come to the knowledge of the truth”, 1 Tim.2:4. You get the knowledge of the truth in Jesus, “according as the truth is in Jesus” (Eph.4:21), but what He is really looking for is the love of the truth, and if you have a love of the truth, you value it."
+     "speaker": "GCB",
+     "text": [
+      "Does the assembly’s love for Christ come out in freshness in the service of God?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Is holding fast “my name” (Rev.2:13) a feature of the Lamb’s wife? In traditional practice, a man’s wife takes his name, and Philadelphia held the Lord’s name with the utmost affection. In the address to Thyatira, He comments on their love; it was the only assembly whose love is spoken of, but there was a rival for it, so we could not imagine that they were holding fast His name."
+     "speaker": "AM",
+     "text": [
+      "It does; that is where it is expressed particularly. It is expressed at other times too, in the faithfulness of the saints, but it is expressed directly in the service of God. I have sometimes wondered what a stranger would think if he came in and actually heard brethren, grown men, unashamedly expressing their love for Christ. Such a thing is just not done in this country, but in the service of God, the assembly’s love for Christ is expressed."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is interesting, because apart from that reference to Thyatira, I do not think that you find anywhere in the Scriptures, directly or in the great types, a reference to the assembly’s love for Christ. You get references to Christ’s love for the assembly, we get Israel’s love, but we do not get the assembly’s love. Is that to be a challenge, an exercise to us – what does He find in the assembly?"
+     "speaker": "PJW",
+     "text": [
+      "Is there a suggestion in the widow woman, and how she maintains the prophet, of the present condition of the assembly?"
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "And what does He find in me? The Lord does not write Thyatira off, and it is very touching that it should be to that assembly that He speaks about their love. But He is frank with them about the competing claims to it. These things are only maintained where there is a real striving to hold what is truth."
+     "speaker": "AM",
+     "text": [
+      "Publicly the assembly is in a state of widowhood. She is here on this earth, but her Lord is absent. Where is she going to draw her resource? Paul speaks of the widow whose hope is in God (1 Tim.5:5). The reference to Philadelphia, to “them that dwell upon the earth”, would be in contrast to that. A widow woman is one who has no resource down here at all. It is a feature of the assembly publicly, and it is a feature that should mark saints."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "And the overcomer in Thyatira would have a tremendous amount to overcome. I suppose many of us have encountered souls, genuine believers, who are in that system. They love the Lord Jesus but are caught in something which is more powerful than they are."
+     "speaker": "PJW",
+     "text": [
+      "I was thinking of the contrast between that feature and, “I sit a queen, and I am not a widow”, Rev.18:7. It is largely unseen; the “righteousnesses of the saints” (Rev.19:8) may be unseen and little taken account of them by persons in the world, but they will be seen in glorious display."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "The saints in Philadelphia kept His word because it was His. They did not deny His name because it was His. They held fast to the assembly because it was His. We are in a day when I might be governed by what I feel, but are the overcomers governed by what Christ feels, and that is what gives them the valuation that is worth hold to?"
+     "speaker": "AM",
+     "text": [
+      "Yes. The great example of widowhood that we have in the Scriptures is Mary in John 20. The disciples went to their home, but she did not have a home because the Lord was not there; “they have taken away my Lord, and I know not where they have laid him”. She was bereft. What could she do? That was the feature of widowhood, and the Lord disclosed the greatest things to her."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes, J.G. Bellett says in one of his works,"
+     "speaker": "JRW",
+     "text": [
+      "This widow said, “I have not a cake but a handful of meal in a barrel, and a little oil in a cruse”. The full thought is not seen at the present time, it is not available. You said earlier that the “meal in a barrel” is the enjoyment of the Lord Jesus and the preciousness of His manhood, and “a little oil” is the power of the Spirit. ‘We see not all things yet’, the hymn writer says (Hymn 434), but what the widow had is precious."
+     ]
     },
     {
-     "text": "‘Because ‘tis Thine makes all things plain’1"
+     "speaker": "AM",
+     "text": [
+      "It is precious, and the prophet said to her, “make me thereof a little cake first”. He was saying, ‘You only have a small measure but keep the whole thought in mind, although you cannot see it’. We must always keep divine thoughts in their completeness in our minds otherwise we become governed by what is abnormal. Elijah said, ‘You have all the ingredients there, everything you need, just make something."
+     ]
     },
     {
-     "text": "Everything is plain to Philadelphia because of what is His."
+     "speaker": "PM",
+     "text": [
+      "What would you say about the barrel and the cruse?"
+     ]
     },
     {
-     "speaker": "M.I.W.",
-     "text": "The first thing said to Philadelphia is “I know thy works”. I was thinking of what has been said as to exercise, that what we have should be worked out into a result, otherwise it becomes mere formality."
+     "speaker": "AM",
+     "text": [
+      "It has been pointed out that she had these things in vessels, and the vessels would really represent ourselves. They contained these things safely."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Indeed. “I know thy works” must have been a great encouragement to Philadelphia. It would not have been an encouragement to all the assemblies; they all received this message but to Philadelphia this must have been a real joy. Doubtless those works were largely unseen by men, they would have been hidden, they would have been secret, but they would have been in affection for Christ. He knew the works and the motive behind them."
+     "speaker": "PM",
+     "text": [
+      "What you say helps. I may hold the truth loosely because I do not practise it, but she was not holding it loosely; these things were there in a barrel and in a cruse."
+     ]
     },
     {
-     "speaker": "G.C.B.",
-     "text": "Does the assembly’s love for Christ come out in freshness in the service of God?"
+     "speaker": "AM",
+     "text": [
+      "Would the barrel indicate that although she had a handful, which was her measure, there was an appreciation of what was much greater? A handful of meal in a barrel is what I can lay hold of, but really there is capacity for what is so much greater in Christ."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "It does; that is where it is expressed particularly. It is expressed at other times too, in the faithfulness of the saints, but it is expressed directly in the service of God. I have sometimes wondered what a stranger would think if he came in and actually heard brethren, grown men, unashamedly expressing their love for Christ. Such a thing is just not done in this country, but in the service of God, the assembly’s love for Christ is expressed."
+     "speaker": "AAC",
+     "text": [
+      "This woman was there for a purpose. God had seen to it that she was there. We were reading in Corinthians, “he that has wrought us for this very thing is God”, 2 Cor.5:5. We are not here by accident holding on to what is left; God has wrought us for this very thing, and then Paul says, “who also has given to us the earnest of the Spirit”. Do those two things come together here?"
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "Is there a suggestion in the widow woman, and how she maintains the prophet, of the present condition of the assembly?"
+     "speaker": "AM",
+     "text": [
+      "They do; that is good. Jehovah had told Elijah that He had commanded the widow woman to maintain him. She knew what was expected of her, she had a message from God that she was to maintain the prophet. She was not saying, ‘I am not going to give you anything’, she was just saying, ‘This is all I have’. What was she going to give? She just had her measure, her handful of meal and a little oil; really that was all prepared by God."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Publicly the assembly is in a state of widowhood. She is here on this earth, but her Lord is absent. Where is she going to draw her resource? Paul speaks of the widow whose hope is in God (1 Tim.5:5). The reference to Philadelphia, to “them that dwell upon the earth”, would be in contrast to that. A widow woman is one who has no resource down here at all. It is a feature of the assembly publicly, and it is a feature that should mark saints."
+     "speaker": "AAC",
+     "text": [
+      "Because of what God had already said to her, and the fact that God had gone before, for her it was quite simple. She did what she was asked to do, and we need to take account of that."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "I was thinking of the contrast between that feature and, “I sit a queen, and I am not a widow”, Rev.18:7. It is largely unseen; the “righteousnesses of the saints” (Rev.19:8) may be unseen and little taken account of them by persons in the world, but they will be seen in glorious display."
+     "speaker": "AM",
+     "text": [
+      "Yes, she said in principle, ‘Let us go forward in faith’; that was what she was doing."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes. The great example of widowhood that we have in the Scriptures is Mary in John 20. The disciples went to their home, but she did not have a home because the Lord was not there; “they have taken away my Lord, and I know not where they have laid him”. She was bereft. What could she do? That was the feature of widowhood, and the Lord disclosed the greatest things to her."
+     "speaker": "DAB",
+     "text": [
+      "Is she God’s answer to Jezebel. Jezebel came from Zarephath, and what a pretentious and profane woman she was. As our brother said, God had worked something in this widow that drew nothing from Jezebel’s ideas or Jezebel’s system at all."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "This widow said, “I have not a cake but a handful of meal in a barrel, and a little oil in a cruse”. The full thought is not seen at the present time, it is not available. You said earlier that the “meal in a barrel” is the enjoyment of the Lord Jesus and the preciousness of His manhood, and “a little oil” is the power of the Spirit. ‘We see not all things yet’, the hymn writer says (Hymn 434), but what the widow had is precious."
+     "speaker": "AM",
+     "text": [
+      "That is right, it is beautiful. Jezebel tried to beautify herself; but it is beautiful to see the work of God in a soul that is prepared to answer to the divine word. What the widow found is that she was maintained for the whole year, the winter of discipline, the spring of hopes, the summer of joy and the autumn of fruitfulness – the meal and the oil sustaining through it all."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "It is precious, and the prophet said to her, “make me thereof a little cake first”. He was saying, ‘You only have a small measure but keep the whole thought in mind, although you cannot see it’. We must always keep divine thoughts in their completeness in our minds otherwise we become governed by what is abnormal. Elijah said, ‘You have all the ingredients there, everything you need, just make something."
+     "speaker": "AGM",
+     "text": [
+      "Why does he ask for water first? He does not ask for the meal or the cake. Do you think the Lord approaches us in a very gentle manner? He is looking for refreshment, and then He brings in the deeper things."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "What would you say about the barrel and the cruse?"
+     "speaker": "AM",
+     "text": [
+      "That is right. This was a time of drought but she had access to water. There was no question of a limit on that; it is like John 4, “Give me to drink” (v.7)."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "It has been pointed out that she had these things in vessels, and the vessels would really represent ourselves. They contained these things safely."
+     "speaker": "RMB",
+     "text": [
+      "Elijah said to her, “make me therefore a little cake first”. It was not that she was not to make a cake for herself and her son, but she was to make one for him first. Would it be right to say on that basis that the secret of preservation in the last days and of being kept alive spiritually is putting the Lord and His interests first?"
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "What you say helps. I may hold the truth loosely because I do not practise it, but she was not holding it loosely; these things were there in a barrel and in a cruse."
+     "speaker": "AM",
+     "text": [
+      "That is right; the Lord says that if you do that, all the other things will be added to you (Luke 12:31). You will find you have all you need. I remember a couple who lived on that principle. When times became hard, as they often did, and money was running out, they just said, ‘Having food and clothing we will be content with these’ (1 Tim.6:8) and they lived on that principle. That is an example to us."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Would the barrel indicate that although she had a handful, which was her measure, there was an appreciation of what was much greater? A handful of meal in a barrel is what I can lay hold of, but really there is capacity for what is so much greater in Christ."
+     "speaker": "DHB",
+     "text": [
+      "Peter in Acts 3 said to the lame man who was expecting to receive something, “Silver and gold I have not; but what I have, this give I to thee” (v.6); then he brought in the name of Jesus. That is enough."
+     ]
     },
     {
-     "speaker": "A.A.C.",
-     "text": "This woman was there for a purpose. God had seen to it that she was there. We were reading in Corinthians, “he that has wrought us for this very thing is God”, 2 Cor.5:5. We are not here by accident holding on to what is left; God has wrought us for this very thing, and then Paul says, “who also has given to us the earnest of the Spirit”. Do those two things come together here?"
+     "speaker": "AM",
+     "text": [
+      "Yes. That man found the resource in that Name, and he found more and more as time went on. First of all he had power, “leaping up … walking, and leaping, and praising God”; he found he was having part in the service of God. Then you find him holding Peter and John. He found that he was in the company of those who loved the Lord Jesus and had been held by His name."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "They do; that is good. Jehovah had told Elijah that He had commanded the widow woman to maintain him. She knew what was expected of her, she had a message from God that she was to maintain the prophet. She was not saying, ‘I am not going to give you anything’, she was just saying, ‘This is all I have’. What was she going to give? She just had her measure, her handful of meal and a little oil; really that was all prepared by God."
+     "speaker": "PJW",
+     "text": [
+      "The widow said, “I am gathering two sticks”; it is quite specific. Does it relate to having whole thoughts about the people of God; in principle keeping Judah and Israel in our thoughts?"
+     ]
     },
     {
-     "speaker": "A.A.C.",
-     "text": "Because of what God had already said to her, and the fact that God had gone before, for her it was quite simple. She did what she was asked to do, and we need to take account of that."
+     "speaker": "AM",
+     "text": [
+      "That is an interesting suggestion. The two sticks, Judah and Israel, come into Ezekiel 37. The way she spoke of it is that she was gathering what was enough, but from the divine view it is a much greater thought."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes, she said in principle, ‘Let us go forward in faith’; that was what she was doing."
+     "speaker": "JRW",
+     "text": [
+      "Do we find there is increase as we value what we have and are prepared to share it by putting the Lord’s interests first and then in relation to one another. In Acts, Peter said, “what I have, this give I to thee”. We share with one another what we have in an occasion like this and it leads to increase."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Is she God’s answer to Jezebel. Jezebel came from Zarephath, and what a pretentious and profane woman she was. As our brother said, God had worked something in this widow that drew nothing from Jezebel’s ideas or Jezebel’s system at all."
+     "speaker": "AM",
+     "text": [
+      "That is right. She found that she had enough, not just to provide a cake for the prophet and a meal for herself, but she entertained the prophet for a whole year; “she, and he, and her house, ate a whole year”. There was the increase; it did not fail, it did not run out."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is right, it is beautiful. Jezebel tried to beautify herself; but it is beautiful to see the work of God in a soul that is prepared to answer to the divine word. What the widow found is that she was maintained for the whole year, the winter of discipline, the spring of hopes, the summer of joy and the autumn of fruitfulness – the meal and the oil sustaining through it all."
+     "speaker": "JRW",
+     "text": [
+      "“The meal in the barrel shall not waste, neither shall the oil in the cruse fail, until the day that Jehovah sendeth rain upon the face of the earth!”. You get impressions of the glory of the Lord Jesus Christ and of the power of the Spirit that will keep the testimony going until the day that Jehovah sends rain upon the face of the earth. “Behold, he comes with the clouds, and every eye shall see him”, Rev.1:7, which might be similar to “Jehovah sendeth rain upon the face of the earth”. These things will not fail us until then."
+     ]
     },
     {
-     "speaker": "A.G.M.",
-     "text": "Why does he ask for water first? He does not ask for the meal or the cake. Do you think the Lord approaches us in a very gentle manner? He is looking for refreshment, and then He brings in the deeper things."
+     "speaker": "AM",
+     "text": [
+      "No. Somebody stopped me in the street recently and started asking me some questions. I spoke of the Lord Jesus, and she said, ‘Has He ever failed to provide an answer?’. What a question! You might say, that is what an unbeliever might ask, but the question was such a shock. Has the Lord ever failed? Of course He has not failed, He can never fail, and what He provides will never fail. The dispensation will go on, although what will go through will be tested. It is not something that is just formed, it is something that has been put through the test and it will all be to His own glory."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is right. This was a time of drought but she had access to water. There was no question of a limit on that; it is like John 4, “Give me to drink” (v.7)."
+     "speaker": "DAB",
+     "text": [
+      "Does this have a present application? We look forward to the Lord’s coming, but I often think of that verse in 1 Corinthians 4, “do not judge anything before the time, until the Lord shall come” (v.5). I remember a brother saying, ‘and He comes into every matter’. Elijah prayed with prayer, and a cloud appeared, small as a man’s hand (1 Kings 18:44). After he had been with this widow, he went to Carmel to get that view; the Lord’s hand coming into a matter. Is that the answer to that lady’s question to you?"
+     ]
     },
     {
-     "speaker": "R.M.B.",
-     "text": "Elijah said to her, “make me therefore a little cake first”. It was not that she was not to make a cake for herself and her son, but she was to make one for him first. Would it be right to say on that basis that the secret of preservation in the last days and of being kept alive spiritually is putting the Lord and His interests first?"
+     "speaker": "AM",
+     "text": [
+      "It certainly is. The rain came as a result of Elijah’s exercise. It was not just that the time had come for it, but he was one who was going through things with God; he felt things. If you read the end of the previous chapter and the beginning of this one, you find that the world’s system which had been cursed by Joshua was set up, and immediately this unknown man who had never appeared before said, ‘This is the word of Jehovah, there will be no more rain’. If that is the world’s system being set up then there will be no blessing from heaven on that, until the prophet goes through things with God in tremendous exercise, and the Lord does come in."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is right; the Lord says that if you do that, all the other things will be added to you (Luke 12:31). You will find you have all you need. I remember a couple who lived on that principle. When times became hard, as they often did, and money was running out, they just said, ‘Having food and clothing we will be content with these’ (1 Tim.6:8) and they lived on that principle. That is an example to us."
+     "speaker": "DAB",
+     "text": [
+      "There might be a connection between your exercise and the cloud like a man’s hand. Was it a reward for things being held?. This woman’s hand had held things, and then the Lord comes in and shows that He holds things for those who do that."
+     ]
     },
     {
-     "speaker": "D.H.B.",
-     "text": "Peter in Acts 3 said to the lame man who was expecting to receive something, “Silver and gold I have not; but what I have, this give I to thee” (v.6); then he brought in the name of Jesus. That is enough."
+     "speaker": "AM",
+     "text": [
+      "That should promote exercise with us."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes. That man found the resource in that Name, and he found more and more as time went on. First of all he had power, “leaping up … walking, and leaping, and praising God”; he found he was having part in the service of God. Then you find him holding Peter and John. He found that he was in the company of those who loved the Lord Jesus and had been held by His name."
+     "speaker": "KJM",
+     "text": [
+      "There is what is given to us, but I was thinking of the way Paul wrote to Timothy. There were various things that he was to do, and by having those things he would save both himself and those that heard him."
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "The widow said, “I am gathering two sticks”; it is quite specific. Does it relate to having whole thoughts about the people of God; in principle keeping Judah and Israel in our thoughts?"
+     "speaker": "AM",
+     "text": [
+      "You mean we should be exercised to be more resourceful in relating to others?"
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is an interesting suggestion. The two sticks, Judah and Israel, come into Ezekiel 37. The way she spoke of it is that she was gathering what was enough, but from the divine view it is a much greater thought."
+     "speaker": "KJM",
+     "text": [
+      "It would be rather a shame on us if we should have to say that we have nothing; we all have something. When there was that big crowd, the disciples were told by the Lord, You feed them, and they said, We do not know what to do (Luke 9:13). They were put on the spot about whether they had the resource, and whether they could use the resource that was there."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "Do we find there is increase as we value what we have and are prepared to share it by putting the Lord’s interests first and then in relation to one another. In Acts, Peter said, “what I have, this give I to thee”. We share with one another what we have in an occasion like this and it leads to increase."
+     "speaker": "AM",
+     "text": [
+      "That is right. What have we that we have not received (1 Cor.4:7)? The resource comes from Himself; the Lord would look to us to use what He has provided."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is right. She found that she had enough, not just to provide a cake for the prophet and a meal for herself, but she entertained the prophet for a whole year; “she, and he, and her house, ate a whole year”. There was the increase; it did not fail, it did not run out."
+     "speaker": "RS",
+     "text": [
+      "The prophet emphasised what Jehovah had said before he went on to say that the meal would not waste. I was thinking about what you said as to holding on to things. Was she to hold on to God’s word?"
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "“The meal in the barrel shall not waste, neither shall the oil in the cruse fail, until the day that Jehovah sendeth rain upon the face of the earth!”. You get impressions of the glory of the Lord Jesus Christ and of the power of the Spirit that will keep the testimony going until the day that Jehovah sends rain upon the face of the earth. “Behold, he comes with the clouds, and every eye shall see him”, Rev.1:7, which might be similar to “Jehovah sendeth rain upon the face of the earth”. These things will not fail us until then."
+     "speaker": "AM",
+     "text": [
+      "That is good. God’s word comes particularly to this woman. She had received the commandment first and then the prophet brings in the word, “thus saith Jehovah the God of Israel”. Think of that title, “the God of Israel”. This was a poor widow woman. Elijah would say, I have a word for you from the God of Israel, and this was to be the assurance for her that nothing would fail."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "No. Somebody stopped me in the street recently and started asking me some questions. I spoke of the Lord Jesus, and she said, ‘Has He ever failed to provide an answer?’. What a question! You might say, that is what an unbeliever might ask, but the question was such a shock. Has the Lord ever failed? Of course He has not failed, He can never fail, and what He provides will never fail. The dispensation will go on, although what will go through will be tested. It is not something that is just formed, it is something that has been put through the test and it will all be to His own glory."
+     "speaker": "CCDR",
+     "text": [
+      "Is it significant that the Lord refers to this section in Luke 4? It brought out the enmity of the Jews, but all that we have is a provision of wonderful grace."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Does this have a present application? We look forward to the Lord’s coming, but I often think of that verse in 1 Corinthians 4, “do not judge anything before the time, until the Lord shall come” (v.5). I remember a brother saying, ‘and He comes into every matter’. Elijah prayed with prayer, and a cloud appeared, small as a man’s hand (1 Kings 18:44). After he had been with this widow, he went to Carmel to get that view; the Lord’s hand coming into a matter. Is that the answer to that lady’s question to you?"
+     "speaker": "AM",
+     "text": [
+      "It is. They wondered at the words of grace which came out of His mouth; they were happy about that. He could speak of many widows in Israel in the time of Elijah, but this woman in Zarephath was the one who received the blessing; she received the word. The Lord was really challenging the Jews: the word of God comes with grace, but will you receive it?"
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "It certainly is. The rain came as a result of Elijah’s exercise. It was not just that the time had come for it, but he was one who was going through things with God; he felt things. If you read the end of the previous chapter and the beginning of this one, you find that the world’s system which had been cursed by Joshua was set up, and immediately this unknown man who had never appeared before said, ‘This is the word of Jehovah, there will be no more rain’. If that is the world’s system being set up then there will be no blessing from heaven on that, until the prophet goes through things with God in tremendous exercise, and the Lord does come in."
+     "speaker": "AAC",
+     "text": [
+      "For a whole year, these two vessels remained with just a little in them. There was no increase in what was actually in them. There was enough, but these persons were kept in dependence."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "There might be a connection between your exercise and the cloud like a man’s hand. Was it a reward for things being held?. This woman’s hand had held things, and then the Lord comes in and shows that He holds things for those who do that."
+     "speaker": "AM",
+     "text": [
+      "Whatever the season, whatever the circumstances, there will be enough. We have a measure. I was reading an address which the brother concluded by saying, ‘I would ask you not to try to remember all that has been said, but just to get hold of the little bit that is from the Lord for you’. That is the measure, that is the handful of meal. There will always be something which applies to me, and which will be lasting."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That should promote exercise with us."
+     "speaker": "AAC",
+     "text": [
+      "There may be a lot of these impressions. We have each taken something and all together there is something very much greater, although we do not see it"
+     ]
     },
     {
-     "speaker": "K.J.M.",
-     "text": "There is what is given to us, but I was thinking of the way Paul wrote to Timothy. There were various things that he was to do, and by having those things he would save both himself and those that heard him."
+     "speaker": "AM",
+     "text": [
+      "Think of the wonderful accumulation of it all. I am sure that we all have some impression, and it will result in a great display of what speaks of Christ. I do not think any of us can understand what it will be in actuality."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "You mean we should be exercised to be more resourceful in relating to others?"
+     "speaker": "LC",
+     "text": [
+      "Do the two sticks refer to what is needed for a fire. If it was just one stick, it would smoulder and go out, but with two there is the thought of what would increase."
+     ]
     },
     {
-     "speaker": "K.J.M.",
-     "text": "It would be rather a shame on us if we should have to say that we have nothing; we all have something. When there was that big crowd, the disciples were told by the Lord, You feed them, and they said, We do not know what to do (Luke 9:13). They were put on the spot about whether they had the resource, and whether they could use the resource that was there."
+     "speaker": "AM",
+     "text": [
+      "Yes; in fact you can create a fire with two sticks. It says, “smoking flax shall he not quench” (Isa.42:3; Matt.12:20); it will develop. May there be a great flame in the hearts of each one of us! There is that which we have, but may the flame burn brighter in each heart."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is right. What have we that we have not received (1 Cor.4:7)? The resource comes from Himself; the Lord would look to us to use what He has provided."
+     "speaker": "AAC",
+     "text": [
+      "Would the sticks that our brother referred to link with Mr Darby’s impression of 2 Timothy 2, the need for energy in the darkening days of the assembly?"
+     ]
     },
     {
-     "speaker": "R.S.",
-     "text": "The prophet emphasised what Jehovah had said before he went on to say that the meal would not waste. I was thinking about what you said as to holding on to things. Was she to hold on to God’s word?"
+     "speaker": "AM",
+     "text": [
+      "That is helpful, yes. In the darkening days of the assembly, if we just sat down and looked at it, the fire would go out. “Where no wood is, the fire goeth out”, the wise man says in Proverbs (chap.26:20). It requires dedication to keep the fire burning."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is good. God’s word comes particularly to this woman. She had received the commandment first and then the prophet brings in the word, “thus saith Jehovah the God of Israel”. Think of that title, “the God of Israel”. This was a poor widow woman. Elijah would say, I have a word for you from the God of Israel, and this was to be the assurance for her that nothing would fail."
+     "speaker": "AGM",
+     "text": [
+      "So there was to be the whole year of her making cakes. It is one thing to have the truth objectively, and that is important, but we need to make it our own."
+     ]
     },
     {
-     "speaker": "C.C.D.R.",
-     "text": "Is it significant that the Lord refers to this section in Luke 4? It brought out the enmity of the Jews, but all that we have is a provision of wonderful grace."
+     "speaker": "AM",
+     "text": [
+      "Yes, it is a daily exercise. She did not have enough to make tomorrow’s cakes today, she had to wait until tomorrow before she had enough meal for that. It is like the manna."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "It is. They wondered at the words of grace which came out of His mouth; they were happy about that. He could speak of many widows in Israel in the time of Elijah, but this woman in Zarephath was the one who received the blessing; she received the word. The Lord was really challenging the Jews: the word of God comes with grace, but will you receive it?"
+     "speaker": "AGM",
+     "text": [
+      "She would be handling the meal. Do we need to work with these impressions of Christ and His manhood which builds up a constitution?"
+     ]
     },
     {
-     "speaker": "A.A.C.",
-     "text": "For a whole year, these two vessels remained with just a little in them. There was no increase in what was actually in them. There was enough, but these persons were kept in dependence."
+     "speaker": "AM",
+     "text": [
+      "Let us feed upon Him, feed upon our Lord Jesus. There is in Him food to satisfy every soul."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Whatever the season, whatever the circumstances, there will be enough. We have a measure. I was reading an address which the brother concluded by saying, ‘I would ask you not to try to remember all that has been said, but just to get hold of the little bit that is from the Lord for you’. That is the measure, that is the handful of meal. There will always be something which applies to me, and which will be lasting."
+     "speaker": "OJM",
+     "text": [
+      "Would you say something about “Fear not”."
+     ]
     },
     {
-     "speaker": "A.A.C.",
-     "text": "There may be a lot of these impressions. We have each taken something and all together there is something very much greater, although we do not see it"
+     "speaker": "AM",
+     "text": [
+      "It is good to draw attention to that; the expression comes throughout the Scriptures. It does not tell us to be restful. Elijah asked a woman to take the only resources she had in life and to make him a cake out of it. You might say, what an awful thing to suggest; it might almost sound as if it was pitiless, but she heard the word of God, and Elijah said, “Fear not”. We can trust in God."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Think of the wonderful accumulation of it all. I am sure that we all have some impression, and it will result in a great display of what speaks of Christ. I do not think any of us can understand what it will be in actuality."
+     "speaker": "OJM",
+     "text": [
+      "The Lord said it often, “Fear not” or “Peace be to you”, at the beginning of what He had to say to the disciples. It is good to hear it from Him."
+     ]
     },
     {
-     "speaker": "L.C.",
-     "text": "Do the two sticks refer to what is needed for a fire. If it was just one stick, it would smoulder and go out, but with two there is the thought of what would increase."
+     "speaker": "AM",
+     "text": [
+      "And He says to His own at the end, “In the world ye have tribulation”, John 16:33. A widow has tribulation, but “be of good courage: I have overcome the world”."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes; in fact you can create a fire with two sticks. It says, “smoking flax shall he not quench” (Isa.42:3; Matt.12:20); it will develop. May there be a great flame in the hearts of each one of us! There is that which we have, but may the flame burn brighter in each heart."
+     "speaker": "JRW",
+     "text": [
+      "It is a great encouragement to us because if we are holding fast what we have, then there is nothing to fear. The power of the enemy and the power in the world would seek to turn us aside and overcome us, but there is no need to fear if we hold fast to what we have, the meal in the barrel and the oil in the cruse – what you said as to feeding on Christ and relying on the power of the Spirit."
+     ]
     },
     {
-     "speaker": "A.A.C.",
-     "text": "Would the sticks that our brother referred to link with Mr Darby’s impression of 2 Timothy 2, the need for energy in the darkening days of the assembly?"
+     "speaker": "AM",
+     "text": [
+      "Naboth was a fearless man. He had this vineyard; it had come down to him. He would say, ‘This is something I treasure, it has come down to me, I have this vineyard’. One no less than the king said, ‘I will do a deal with you, I will take your vineyard and I will give you a better one, or I will give you money for it, or whatever you want I will do it’. Naboth said, ‘No, this is my inheritance, even the king is not going to take that from me, it is the inheritance of my fathers’. Really, the vineyard is in view of producing something that will be for the service of God."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is helpful, yes. In the darkening days of the assembly, if we just sat down and looked at it, the fire would go out. “Where no wood is, the fire goeth out”, the wise man says in Proverbs (chap.26:20). It requires dedication to keep the fire burning."
+     "speaker": "PJW",
+     "text": [
+      "Ahab wanted it for his own pleasure, “a garden of herbs”, but Naboth had, as you say, what God had in mind that cheers the heart of God and man."
+     ]
     },
     {
-     "speaker": "A.G.M.",
-     "text": "So there was to be the whole year of her making cakes. It is one thing to have the truth objectively, and that is important, but we need to make it our own."
+     "speaker": "AM",
+     "text": [
+      "Yes. What comparison is there between a vineyard and a garden of herbs? Naboth was prepared to suffer for it, and he did suffer for it too, but his name is mentioned here with honour. He is honoured in the divine records as one who valued what had come down from his fathers and he was not going to give it up."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes, it is a daily exercise. She did not have enough to make tomorrow’s cakes today, she had to wait until tomorrow before she had enough meal for that. It is like the manna."
+     "speaker": "JRW",
+     "text": [
+      "Moses too had it in his heart; he did not fear the wrath of the king."
+     ]
     },
     {
-     "speaker": "A.G.M.",
-     "text": "She would be handling the meal. Do we need to work with these impressions of Christ and His manhood which builds up a constitution?"
+     "speaker": "AM",
+     "text": [
+      "God took account of that. If you read Exodus, you might assume that Moses was afraid of the wrath of the king, but when you read in Hebrews, you see that that would not be right; it says there that Moses did not fear the wrath of the king (Heb.11:27). There is what is greater. Dear brethren, there is what is greater in us than what there is in the world, there is a greater power that we can draw on: “hold fast what thou hast”."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Let us feed upon Him, feed upon our Lord Jesus. There is in Him food to satisfy every soul."
+     "speaker": "STE",
+     "text": [
+      "Is a fearless man a dependent man?"
+     ]
     },
     {
-     "speaker": "O.J.M.",
-     "text": "Would you say something about “Fear not”."
+     "speaker": "AM",
+     "text": [
+      "Yes, and a dependent man is fearless. If you are relying on God alone for the resource, then you need fear no other. “Jehovah is my helper, what can man do unto me” (Ps.56:11)."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "It is good to draw attention to that; the expression comes throughout the Scriptures. It does not tell us to be restful. Elijah asked a woman to take the only resources she had in life and to make him a cake out of it. You might say, what an awful thing to suggest; it might almost sound as if it was pitiless, but she heard the word of God, and Elijah said, “Fear not”. We can trust in God."
+     "speaker": "DAB",
+     "text": [
+      "Ahab really provoked what was good in Naboth, because his first proposal was simply that Naboth should give him the vineyard, as though it was nothing to Naboth. We might appeal to our young people – do not give away what you have. The second proposal is to give you something instead, but the first proposal is to give you nothing instead. I think if we were to say that to a godly soul, it would arouse a sense of value. God was in that to bring forward right desires with Naboth."
+     ]
     },
     {
-     "speaker": "O.J.M.",
-     "text": "The Lord said it often, “Fear not” or “Peace be to you”, at the beginning of what He had to say to the disciples. It is good to hear it from Him."
+     "speaker": "AM",
+     "text": [
+      "That is right. Naboth had received this vineyard, and he treasured it. We have received so much, dear brethren. I think that what you say is so important. Do not give away anything that we have received from God. Keep it, treasure it. I know it is easy to be diverted, especially when we are young and all sorts of things are around, and perhaps we put the things of God in second place. If you put the things of God in second place, you are giving away your joy in the Lord, you are giving it away. Do not give away anything like that."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "And He says to His own at the end, “In the world ye have tribulation”, John 16:33. A widow has tribulation, but “be of good courage: I have overcome the world”."
+     "speaker": "PM",
+     "text": [
+      "You referred at the beginning to the wealth that there is among the saints. It has come down to us through exercise and suffering, and our fathers – not our natural fathers only although that would be true, but our spiritual fathers worked out the truth in soul exercise with God. How am I going to hold it?"
+     ]
     },
     {
-     "text": "J.RW. It is a great encouragement to us because if we are holding fast what we have, then there is nothing to fear. The power of the enemy and the power in the world would seek to turn us aside and overcome us, but there is no need to fear if we hold fast to what we have, the meal in the barrel and the oil in the cruse – what you said as to feeding on Christ and relying on the power of the Spirit."
+     "speaker": "AM",
+     "text": [
+      "It has been said that Mr Raven did not live to be a great age, but all that he went through in standing by the truth, and the conflicts that he endured, had an effect on his life; they shortened his life. Is that something trivial, something of no value to me? He was prepared to stand like that to the extent that his health suffered, his life was shortened – what does that mean to me? Am I prepared to give any of that away? Oh, let us never do that!"
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Naboth was a fearless man. He had this vineyard; it had come down to him. He would say, ‘This is something I treasure, it has come down to me, I have this vineyard’. One no less than the king said, ‘I will do a deal with you, I will take your vineyard and I will give you a better one, or I will give you money for it, or whatever you want I will do it’. Naboth said, ‘No, this is my inheritance, even the king is not going to take that from me, it is the inheritance of my fathers’. Really, the vineyard is in view of producing something that will be for the service of God."
+     "speaker": "NJM",
+     "text": [
+      "Why was the vineyard that Naboth had so awkwardly close to the king’s palace?"
+     ]
     },
     {
-     "speaker": "P.J.W.",
-     "text": "Ahab wanted it for his own pleasure, “a garden of herbs”, but Naboth had, as you say, what God had in mind that cheers the heart of God and man."
+     "speaker": "AM",
+     "text": [
+      "Naboth’s vineyard came down from his fathers. I would suggest that Ahab may have built his palace close to it; I do not think the vineyard had been planted next to his palace. The enemy will get as close as he can until he will say, I want that piece of land. What led my mind along these lines was that we were reading at home about the time in Israel’s history when Jonathan and his armour bearer, just two men, went up against the Philistines and slew them. It ended with a rout of the Philistines, and it took place on “the half-furrow of an acre of land”, 1 Sam.14:14. We were pondering why that would be mentioned. The enemy was taking over the inheritance, but someone was saying, ‘This may not be a large piece of land but I am claiming it back; we are getting this back because it belongs to the Lord’. However close the enemy comes, even if he overruns it, we must keep what belongs to the Lord."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes. What comparison is there between a vineyard and a garden of herbs? Naboth was prepared to suffer for it, and he did suffer for it too, but his name is mentioned here with honour. He is honoured in the divine records as one who valued what had come down from his fathers and he was not going to give it up."
+     "speaker": "JRW",
+     "text": [
+      "Ahab said, “I will give thee for it a better vineyard than it”. The enemy would make the attractions of what he has to offer appealing, but in Naboth’s heart, nothing came anywhere near what he had."
+     ]
     },
     {
-     "speaker": "J.R.W.",
-     "text": "Moses too had it in his heart; he did not fear the wrath of the king."
+     "speaker": "AM",
+     "text": [
+      "Satan offered the whole world to the Lord, all the glory and power of it. We see the divine valuation of that in that Satan could gain no entrance there. There was that which was better, and we have that which is better."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "God took account of that. If you read Exodus, you might assume that Moses was afraid of the wrath of the king, but when you read in Hebrews, you see that that would not be right; it says there that Moses did not fear the wrath of the king (Heb.11:27). There is what is greater. Dear brethren, there is what is greater in us than what there is in the world, there is a greater power that we can draw on: “hold fast what thou hast”."
+     "speaker": "AGM",
+     "text": [
+      "Ahab wanted it for a garden of herbs. The enemy is desperate to get the saints off the heavenly line of the truth and to be occupied with what is earthly and what satisfies the natural mind."
+     ]
     },
     {
-     "speaker": "S.T.E.",
-     "text": "Is a fearless man a dependent man?"
+     "speaker": "AM",
+     "text": [
+      "That is good. Herbs grow low down near the ground, whereas a vine grows up and you can pick the grapes without bending down. I think that is the point. It relates to the crown in Philadelphia, that the enemy would do anything to get us off the heavenly line of truth."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "Yes, and a dependent man is fearless. If you are relying on God alone for the resource, then you need fear no other. “Jehovah is my helper, what can man do unto me” (Ps.56:11)."
+     "speaker": "DAS",
+     "text": [
+      "Our brother referred to the subtlety of a better vineyard. The vineyard would speak of what is for God, but Naboth speaks of the inheritance of his fathers; there is not a better vineyard than that."
+     ]
     },
     {
-     "speaker": "D.A.B.",
-     "text": "Ahab really provoked what was good in Naboth, because his first proposal was simply that Naboth should give him the vineyard, as though it was nothing to Naboth. We might appeal to our young people – do not give away what you have. The second proposal is to give you something instead, but the first proposal is to give you nothing instead. I think if we were to say that to a godly soul, it would arouse a sense of value. God was in that to bring forward right desires with Naboth."
+     "speaker": "AM",
+     "text": [
+      "I sometimes think of that personally. Each of us have been set where we are, and we have to keep our vineyard. In the Song of Songs, the spouse was defective in that, but we have been set where we are; there is nowhere better for us. If God has placed me in circumstances, they are the best possible circumstances I could be in. If He has chosen to give me such extraordinary blessing as to place me in a circle where the assembly is experienced and appreciated, there is nothing to compare. Let us value and appreciate that."
+     ]
     },
     {
-     "speaker": "A.M.",
-     "text": "That is right. Naboth had received this vineyard, and he treasured it. We have received so much, dear brethren. I think that what you say is so important. Do not give away anything that we have received from God. Keep it, treasure it. I know it is easy to be diverted, especially when we are young and all sorts of things are around, and perhaps we put the things of God in second place. If you put the things of God in second place, you are giving away your joy in the Lord, you are giving it away. Do not give away anything like that."
+     "speaker": "PM",
+     "text": [
+      "Did the apostle Paul have a good vineyard? He says, “these entrust to faithful men, such as shall be competent to instruct others also”, 2 Tim.2:2."
+     ]
     },
     {
-     "speaker": "P.M.",
-     "text": "You referred at the beginning to the wealth that there is among the saints. It has come down to us through exercise and suffering, and our fathers – not our natural fathers only although that would be true, but our spiritual fathers worked out the truth in soul exercise with God. How am I going to hold it?"
-    },
-    {
-     "speaker": "A.M.",
-     "text": "It has been said that Mr Raven did not live to be a great age, but all that he went through in standing by the truth, and the conflicts that he endured, had an effect on his life; they shortened his life. Is that something trivial, something of no value to me? He was prepared to stand like that to the extent that his health suffered, his life was shortened – what does that mean to me? Am I prepared to give any of that away? Oh, let us never do that!"
-    },
-    {
-     "speaker": "N.J.M.",
-     "text": "Why was the vineyard that Naboth had so awkwardly close to the king’s palace?"
-    },
-    {
-     "speaker": "A.M.",
-     "text": "Naboth’s vineyard came down from his fathers. I would suggest that Ahab may have built his palace close to it; I do not think the vineyard had been planted next to his palace. The enemy will get as close as he can until he will say, I want that piece of land. What led my mind along these lines was that we were reading at home about the time in Israel’s history when Jonathan and his armour bearer, just two men, went up against the Philistines and slew them. It ended with a rout of the Philistines, and it took place on “the half-furrow of an acre of land”, 1 Sam.14:14. We were pondering why that would be mentioned. The enemy was taking over the inheritance, but someone was saying, ‘This may not be a large piece of land but I am claiming it back; we are getting this back because it belongs to the Lord’. However close the enemy comes, even if he overruns it, we must keep what belongs to the Lord."
-    },
-    {
-     "speaker": "J.R.W.",
-     "text": "Ahab said, “I will give thee for it a better vineyard than it”. The enemy would make the attractions of what he has to offer appealing, but in Naboth’s heart, nothing came anywhere near what he had."
-    },
-    {
-     "speaker": "A.M.",
-     "text": "Satan offered the whole world to the Lord, all the glory and power of it. We see the divine valuation of that in that Satan could gain no entrance there. There was that which was better, and we have that which is better."
-    },
-    {
-     "speaker": "A.G.M.",
-     "text": "Ahab wanted it for a garden of herbs. The enemy is desperate to get the saints off the heavenly line of the truth and to be occupied with what is earthly and what satisfies the natural mind."
-    },
-    {
-     "speaker": "A.M.",
-     "text": "That is good. Herbs grow low down near the ground, whereas a vine grows up and you can pick the grapes without bending down. I think that is the point. It relates to the crown in Philadelphia, that the enemy would do anything to get us off the heavenly line of truth."
-    },
-    {
-     "speaker": "D.A.S.",
-     "text": "Our brother referred to the subtlety of a better vineyard. The vineyard would speak of what is for God, but Naboth speaks of the inheritance of his fathers; there is not a better vineyard than that."
-    },
-    {
-     "speaker": "A.M.",
-     "text": "I sometimes think of that personally. Each of us have been set where we are, and we have to keep our vineyard. In the Song of Songs, the spouse was defective in that, but we have been set where we are; there is nowhere better for us. If God has placed me in circumstances, they are the best possible circumstances I could be in. If He has chosen to give me such extraordinary blessing as to place me in a circle where the assembly is experienced and appreciated, there is nothing to compare. Let us value and appreciate that."
-    },
-    {
-     "speaker": "P.M.",
-     "text": "Did the apostle Paul have a good vineyard? He says, “these entrust to faithful men, such as shall be competent to instruct others also”, 2 Tim.2:2."
-    },
-    {
-     "speaker": "A.M.",
-     "text": "Yes, he was a good keeper of a vineyard. In the Song of Songs the spouse finally came round; she did keep her vineyard. She was to give a thousand silver pieces, she said “The thousand silver pieces be to thee, Solomon; And to the keepers of its fruit, two hundred”, Song of Songs 8:12. Paul in that sense kept his vineyard well and there was that which was enriching for Christ."
+     "speaker": "AM",
+     "text": [
+      "Yes, he was a good keeper of a vineyard. In the Song of Songs the spouse finally came round; she did keep her vineyard. She was to give a thousand silver pieces, she said “The thousand silver pieces be to thee, Solomon; And to the keepers of its fruit, two hundred”, Song of Songs 8:12. Paul in that sense kept his vineyard well and there was that which was enriching for Christ."
+     ]
     }
    ]
   },
@@ -715,17 +949,153 @@
    "number": 2,
    "title": "Notes",
    "speakers": [
-    "G.H.S."
+    "GHS"
    ],
    "paragraphs": [
     {
      "text": "[←1]"
     },
     {
-     "speaker": "G.H.S.",
-     "text": "Price ‘A Selection of Poems’ p.88"
+     "speaker": "GHS",
+     "text": [
+      "Price ‘A Selection of Poems’ p.88"
+     ]
     }
    ]
+  }
+ ],
+ "build_notes": [
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "run_on_key",
+   "detail": "one line holds 2 entries; split at each set of initials"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"David H. Bailey Maidstone\" read as David H. Bailey, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Richard M. Brown Strood\" read as Richard M. Brown, Strood"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Roland H. Brown East Finchley\" read as Roland H. Brown, East Finchley"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"D. Andrew Burr London\" read as D. Andrew Burr, London"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Geoffrey C. Bywater Buckhurst Hill\" read as Geoffrey C. Bywater, Buckhurst Hill"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Llewellyn Clarke Stawell\" read as Llewellyn Clarke, Stawell"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alan A. Croot London\" read as Alan A. Croot, London"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Stephen T. Eagle Dorking\" read as Stephen T. Eagle, Dorking"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Alec G. Mair Cullen\" read as Alec G. Mair, Cullen"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Keith J. May Maidstone\" read as Keith J. May, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Nigel J. May Maidstone\" read as Nigel J. May, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Owen J. May Maidstone\" read as Owen J. May, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Andrew Martin Buckhurst Hill\" read as Andrew Martin, Buckhurst Hill"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Paul Martin Colchester\" read as Paul Martin, Colchester"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"David A. Smith Sidcup\" read as David A. Smith, Sidcup"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Colin H. Smith Chelmsford\" read as Colin H. Smith, Chelmsford"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Richard Smith Strood\" read as Richard Smith, Strood"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Jim R. Walkinshaw Maidstone\" read as Jim R. Walkinshaw, Maidstone"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Philip J. Walkinshaw Strood\" read as Philip J. Walkinshaw, Strood"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "no_comma_before_place",
+   "detail": "\"Mark I. Webster Buckhurst Hill\" read as Mark I. Webster, Buckhurst Hill"
+  },
+  {
+   "article": 1,
+   "title": "HOLD FAST WHAT YOU HAVE",
+   "kind": "initials_before_name",
+   "detail": "21 entries written as initials then name (\"DHB ...\")"
   }
  ]
 }
