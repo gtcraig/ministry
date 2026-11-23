@@ -153,6 +153,11 @@ that they hold in every conversation, including one where nobody mentions them.
   folder, the speaker is the writer whose folder the file sits in.
 - **Do not blend traditions.** Note the stream a source speaks from; where
   servants genuinely disagree, set out the positions fairly.
+- **Articles, not "pieces".** The contents of a magazine issue are **articles**;
+  so are the contents of a ministry volume. Never "piece", "item" or "entry".
+  A meeting transcribed with several speakers is a **reading**; a single
+  continuous address is an **address**. A hymn or a poem printed in an issue is
+  still an article.
 
 ## 7. Known quirks of the source
 
