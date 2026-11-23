@@ -45,6 +45,9 @@ or ask.
 
 ## The shape of one issue
 
+An issue is made up of **articles** — never "pieces". `articles[]` is the
+whole of the issue's text apart from the cover, contents page and back matter.
+
 ```
 issue
 ├── magazine, code, series, issue, number, title, date (YYYY-MM)
@@ -205,6 +208,9 @@ For a reading, add the speaker: "… Calgary, 2nd July 2011 (W S Chellberg,
 WSC)".
 
 Quote the text exactly as it is in `paragraphs`. Do not tidy the wording.
+
+Refer to what an issue contains as its articles: "the four articles in *Notes
+of Ministry* No. 649", not "the four pieces".
 
 ## Limits
 
