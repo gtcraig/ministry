@@ -40,6 +40,7 @@
     "RWMcC",
     "AM",
     "DAA",
+    "DMcL",
     "MJP"
    ],
    "initials": [
@@ -90,11 +91,13 @@
     },
     {
      "initials": "RWMcC",
-     "name": "Robert McClean Grimsby"
+     "name": "Robert McClean",
+     "place": "Grimsby"
     },
     {
-     "initials": "DMDMD",
-     "name": "D.McL David McLaren Dundee"
+     "initials": "DMcL",
+     "name": "D. McL",
+     "place": "David McLaren Dundee"
     },
     {
      "initials": "MJP",
@@ -128,11 +131,7 @@
     "R.D.P-r. Robert Painter Yeovil",
     "M.J.P. Michael Picton Spaldwick",
     "R.D.P. Ron Plant Birmingham",
-    "D.J.W. David Willetts Birmingham",
-    "Edited and Published by John Brown and Paul Martin",
-    "36 Laverock Park Linlithgow EH49 6AT",
-    "email notesofministry@virginmedia.com or paul@nofm.co.uk",
-    "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ Tel: 01277 650 661"
+    "D.J.W. David Willetts Birmingham"
    ],
    "paragraphs": [
     {
@@ -598,8 +597,13 @@
     {
      "speaker": "JL",
      "text": [
-      "It would seem so, yes.",
-      "D.McL. Daniel’s faithfulness was in what he was characteristically. Later on, he prayed three times to Jerusalem as he was used to doing, and here the pulse was his regular diet. Esau ate a dish of pulse, but it had no moral effect on him; it was just a one-off thing. This is Daniel’s regular diet."
+      "It would seem so, yes."
+     ]
+    },
+    {
+     "speaker": "DMcL",
+     "text": [
+      "Daniel’s faithfulness was in what he was characteristically. Later on, he prayed three times to Jerusalem as he was used to doing, and here the pulse was his regular diet. Esau ate a dish of pulse, but it had no moral effect on him; it was just a one-off thing. This is Daniel’s regular diet."
      ]
     },
     {
@@ -727,6 +731,12 @@
    ]
   }
  ],
+ "back_matter": [
+  "Edited and Published by John Brown and Paul Martin",
+  "36 Laverock Park Linlithgow EH49 6AT",
+  "email notesofministry@virginmedia.com or paul@nofm.co.uk",
+  "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ Tel: 01277 650 661"
+ ],
  "build_notes": [
   {
    "article": 1,
@@ -785,6 +795,18 @@
   {
    "article": 1,
    "title": "FAITHFULNESS",
+   "kind": "no_comma_before_place",
+   "detail": "\"Robert McClean Grimsby\" read as Robert McClean, Grimsby"
+  },
+  {
+   "article": 1,
+   "title": "FAITHFULNESS",
+   "kind": "no_comma_before_place",
+   "detail": "\"D.McL David McLaren Dundee\" read as D. McL, David McLaren Dundee"
+  },
+  {
+   "article": 1,
+   "title": "FAITHFULNESS",
    "kind": "not_a_name",
    "detail": "\"r. Robert Painter Yeovil\" left out of the key"
   },
@@ -811,6 +833,12 @@
    "title": "FAITHFULNESS",
    "kind": "initials_before_name",
    "detail": "13 entries written as initials then name (\"DAA ...\")"
+  },
+  {
+   "article": 1,
+   "title": "FAITHFULNESS",
+   "kind": "speaker_matched_loosely",
+   "detail": "DMcL used in the text for D. McL (key gives DM)"
   }
  ]
 }

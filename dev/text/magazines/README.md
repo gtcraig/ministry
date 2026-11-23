@@ -168,7 +168,7 @@ may occasionally be missed or mis-assigned, in which case the line stays in
 | `source`        | calibre book id, which file was read (relative to the library), its modified time, and how it was split. |
 | `article_count` | Number of articles. |
 | `articles`      | The articles, in order. |
-| `back_matter`   | Closing lines of the issue (publisher, printer, repeated contents). Optional. |
+| `back_matter`   | Closing lines of the issue: the "Edited and published by …" block with its address, copies and email lines, the printer, and any repeated contents. Anything printed after that block (EPUB footnotes, a correction) stays in the last article. Optional. |
 | `build_notes`   | Irregularities the build worked round in this issue, each `{article, title, kind, detail}`. Optional. Collected into [EXCEPTIONS.md](EXCEPTIONS.md). |
 
 ### Article fields
@@ -193,4 +193,4 @@ Only `number`, `title` and `paragraphs` are always present.
 | `initials_comment` | Remarks printed in the key that are not names: "local unless otherwise stated", "Other speakers not identified in original notes". Optional. |
 | `initials_text`    | The key exactly as printed, in case the parsed form needs checking. |
 | `footer`           | Any other closing lines, e.g. "Words given at a marriage meeting". |
-| `paragraphs`       | The body. Each is `{"text": ...}`, plus `"source"` when an extract is followed by its attribution, e.g. "J. Taylor (Vol. 47, p.11, 12)". Line breaks within a paragraph (poetry, hymn lines) are kept as `\n`. **In a reading** (an article with `speakers`), each speaker's contribution is one item `{"speaker": "WL", "text": [paragraph, paragraph, ...]}`: his initials, without dots, as they appear in `initials`, and all his paragraphs until the next speaker. Paragraphs before the first speaker stay as `{"text": "..."}`. A continuation paragraph that has its own `source` is a separate item with the speaker repeated. |
+| `paragraphs`       | The body. Each is `{"text": ...}`, plus `"source"` when an extract is followed by its attribution, e.g. "J. Taylor (Vol. 47, p.11, 12)", or by an "Extract from …" line ("Extract from JB Stoney New Series Vol.8 pp.145,146" gives `"source": "JB Stoney New Series Vol.8 pp.145,146"`). Line breaks within a paragraph (poetry, hymn lines) are kept as `\n`. **In a reading** (an article with `speakers`), each speaker's contribution is one item `{"speaker": "WL", "text": [paragraph, paragraph, ...]}`: his initials, without dots, as they appear in `initials`, and all his paragraphs until the next speaker. Paragraphs before the first speaker stay as `{"text": "..."}`. A continuation paragraph that has its own `source` is a separate item with the speaker repeated. |

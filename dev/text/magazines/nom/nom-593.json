@@ -84,7 +84,8 @@
     },
     {
      "initials": "RWMcC",
-     "name": "Rob W McClean Grimsby"
+     "name": "Rob W McClean",
+     "place": "Grimsby"
     },
     {
      "initials": "GJR",
@@ -113,7 +114,6 @@
     }
    ],
    "initials_heading": "List of Initials",
-   "initials_comment": "Edited and published monthly by John Brown and Paul Martin",
    "initials_text": [
     "R.M.B. Richard M Brown Strood",
     "R.H.B. Roland H Brown Maidstone",
@@ -128,12 +128,7 @@
     "R.A.S. Richard A Smith Strood",
     "J.R.W. Jim R Walkinshaw Maidstone",
     "P.J.W. Phil J Walkinshaw Strood",
-    "D.C.W. David C White Sidcup",
-    "Edited and published monthly by John Brown and Paul Martin",
-    "Additional copies are available, free of charge, by emailing",
-    "notesofministry@virginmedia.com or paul@nofm.co.uk",
-    "36 Laverock Park Linlithgow EH49 6AT",
-    "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ"
+    "D.C.W. David C White Sidcup"
    ],
    "paragraphs": [
     {
@@ -772,6 +767,13 @@
    ]
   }
  ],
+ "back_matter": [
+  "Edited and published monthly by John Brown and Paul Martin",
+  "Additional copies are available, free of charge, by emailing",
+  "notesofministry@virginmedia.com or paul@nofm.co.uk",
+  "36 Laverock Park Linlithgow EH49 6AT",
+  "Printed by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ"
+ ],
  "build_notes": [
   {
    "article": 1,
@@ -825,6 +827,12 @@
    "article": 1,
    "title": "appreciatING THE GREATNESS OF christ",
    "kind": "no_comma_before_place",
+   "detail": "\"Rob W McClean Grimsby\" read as Rob W McClean, Grimsby"
+  },
+  {
+   "article": 1,
+   "title": "appreciatING THE GREATNESS OF christ",
+   "kind": "no_comma_before_place",
    "detail": "\"G. John Richards Malvern\" read as G. John Richards, Malvern"
   },
   {
@@ -850,24 +858,6 @@
    "title": "appreciatING THE GREATNESS OF christ",
    "kind": "no_comma_before_place",
    "detail": "\"David C White Sidcup\" read as David C White, Sidcup"
-  },
-  {
-   "article": 1,
-   "title": "appreciatING THE GREATNESS OF christ",
-   "kind": "not_a_name",
-   "detail": "\"Additional copies are available\" left out of the key"
-  },
-  {
-   "article": 1,
-   "title": "appreciatING THE GREATNESS OF christ",
-   "kind": "publisher_in_key",
-   "detail": "\"@virginmedia.com or paul@nofm.co.uk...\" ignored"
-  },
-  {
-   "article": 1,
-   "title": "appreciatING THE GREATNESS OF christ",
-   "kind": "not_a_name",
-   "detail": "\"notesofministry\" left out of the key"
   },
   {
    "article": 1,
