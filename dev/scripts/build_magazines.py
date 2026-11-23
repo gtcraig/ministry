@@ -676,9 +676,16 @@ LABEL_LINE = re.compile(r'^\(?(?:address|reading|word|extracts?|notes?|poem|hymn
                         r'gospel|preaching|meeting)\b.{0,50}\)?$', re.I)
 BACK_RE = re.compile(r'(?i)^(?:edited|published|printed|copies|obtainable|available|price|'
                      r'subscriptions?|tel\b|telephone|e-?mail|www\.)|'
-                     r'\b[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}\b|\b\d+\s+\w+\s+(?:road|street|avenue|lane|drive)\b')
+                     r'\b[A-Z]{1,2}\d[A-Z\d]?\s*[\dO][A-Z]{2}\b|\b\d+\s+\w+\s+(?:road|street|avenue|lane|drive)\b')
 ATTRIB_RE = re.compile(r'^[-–—]?\s*(?:(?:[A-Z]\.\s?){1,4}\s*)?(?:[A-Z][\w’\'-]+\s*){1,3}'
                        r'\((?=.*(?i:vol|p\.|pp\.|page|coll|letters|notes|ministry|\d)).*\)\.?$')
+# "Extract from JB Stoney New Series Vol.8 pp.145,146", "Extracts from J N Darby
+# Collected Writings Vol.19 pp.160-162" - the source of the extract before it
+EXTRACT_RE = re.compile(r'^\(?\s*Extract(?:s|ed)?\s+from\s+(?P<ref>.+?)\s*\)?\.?$', re.I)
+EXTRACT_REF_RE = re.compile(r'(?i)\bvol|\bpp?\.|\bpages?\b|\d')
+# the editor / publisher block at the end of an issue
+PUB_ANCHOR_RE = re.compile(r'(?i)^edited\s+(?:and|&)\s+published\b')
+PUB_LINE_RE = re.compile(r'(?i)@|^(?:additional|further)\s+copies\b|\bfree of charge\b|^tel\b|^e-?mail\b')
 # "Address at Redbridge 2 September 1988", "Word in meeting for ministry, Grangemouth 28 April 1981"
 TRAIL_DATE_RE = re.compile(
     r'^(?P<loc>.*?)[,.]?\s+(?P<date>(?:\d{1,2}(?:st|nd|rd|th)?\s+)?(?:' + MONTHS +
@@ -710,7 +717,7 @@ def set_location(art, loc):
     loc = loc.strip(' ,')
     if not loc or loc.startswith('('):
         return
-    loc2 = re.sub(r'(?<=[a-z])\.\s+(?=[A-Z])', ', ', loc)   # "Ministry. Redbridge"
+    loc2 = re.sub(r'(?<=[a-z]{2})\.\s+(?=[A-Z])', ', ', loc)   # "Ministry. Redbridge", not "St. Albans"
     at_in = re.match(r'^(?P<m>.*?)\s+(?:at|in)\s+(?P<p>[A-Z].*)$', loc2)
     meeting, sep, place = loc2.rpartition(',')
     if sep and len(place.strip(' .')) <= 4:
@@ -719,6 +726,11 @@ def set_location(art, loc):
             art['meeting'], art['place'] = at_in.group('m').strip(' ,'), at_in.group('p').strip()
         else:
             art['place'] = loc2
+    elif sep and meeting.strip() and all(w[:1].isupper() for w in meeting.split()) \
+            and not re.search(r'(?i)\b(?:reading|address|word|ministry|preaching|meeting|lecture|gospel|'
+                              r'conference|burial|funeral|fellowship|care|remarks?|prayer)\b', meeting):
+        # "Aberdeen, Idaho" - a place with its state or country, not meeting + place
+        art['place'] = loc2.strip()
     elif sep and meeting.strip():
         art['meeting'], art['place'] = meeting.strip(), place.strip()
     elif at_in and at_in.group('m'):
@@ -1109,6 +1121,12 @@ def finalise_paragraphs(art, prior_key=None):
     paras, pending = [], None
     for t in art.pop('_lines'):
         one = flat(t)
+        m = EXTRACT_RE.match(one)
+        if m and paras and len(one) <= 200 and EXTRACT_REF_RE.search(m.group('ref')) \
+                and not re.search(r'\bof$', m.group('ref')):
+            paras[-1]['source'] = m.group('ref')
+            pending = None
+            continue
         if ATTRIB_RE.match(one):
             # "J. Taylor (Vol. 47, p.11, 12)" - source of the extract before it
             if paras:
@@ -1190,6 +1208,25 @@ def group_turns(paras):
             if 'speaker' in t else t for t in out]
 
 
+def pull_publisher_block(blks):
+    """'Edited and published by ...' with the names, address, copies, email and
+    printer lines after it, wherever it is printed (the EPUB's footnotes, or a
+    printed correction, may follow it).  Returns (remaining blocks, block)."""
+    for k in range(len(blks)):
+        if any(PUB_ANCHOR_RE.match(flat(x)) for x in blks[k]['text'].split('\n')):
+            j = k + 1
+            while j < len(blks):
+                lines = [flat(x) for x in blks[j]['text'].split('\n') if flat(x)]
+                prev = flat(blks[j - 1]['text'])
+                if lines and (all(BACK_RE.search(x) or PUB_LINE_RE.search(x) for x in lines)
+                              or (re.search(r'\bby$', prev) and len(' '.join(lines)) <= 80)):
+                    j += 1
+                else:
+                    break
+            return blks[:k] + blks[j:], blks[k:j]
+    return blks, []
+
+
 def strip_back_matter(blks):
     """Remove the issue's closing matter (repeated contents, publisher/printer)."""
     back = []
@@ -1201,7 +1238,6 @@ def strip_back_matter(blks):
     while blks and len(flat(blks[-1]['text'])) < 300 and \
             any(BACK_RE.search(x) for x in blks[-1]['text'].split('\n')):
         back.insert(0, blks.pop())
-    # a lone publisher name line just above the address
     return blks, split_lines(b['text'] for b in back)
 
 
@@ -1210,6 +1246,11 @@ def convert(blocks, entries, prior_key=None):
     back = []
     if arts:
         arts[-1]['blocks'], back = strip_back_matter(arts[-1]['blocks'])
+        pub = []
+        for a in arts:
+            a['blocks'], got = pull_publisher_block(a['blocks'])
+            pub += got
+        back = split_lines(b['text'] for b in pub) + back
     # a TOC entry that points at the author line ("E.E.Hoyte") of an otherwise
     # empty article belongs to that article
     k = 1

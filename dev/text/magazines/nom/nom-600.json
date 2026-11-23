@@ -153,6 +153,10 @@
      "place": "Spaldwick"
     },
     {
+     "initials": "N",
+     "name": "Notes"
+    },
+    {
      "initials": "EJM",
      "not_in_key": true
     },
@@ -162,7 +166,6 @@
     }
    ],
    "initials_heading": "List of initials",
-   "initials_comment": "Edited and published monthly by John Brown and Paul Martin",
    "initials_text": [
     "A.M.B Alistair M Brown Linlithgow",
     "H.T.F. H Tim Franklin Grimsby",
@@ -177,11 +180,6 @@
     "R.D.P. Ron D Plant Birmingham",
     "G.J.R. G John Richards Malvern",
     "R.W. Russell Wallace Spaldwick",
-    "Edited and published monthly by John Brown and Paul Martin",
-    "Additional copies are available, free of charge, by emailing",
-    "notesofministry@virginmedia.com or paul@nofm.co.uk",
-    "36 Laverock Park Linlithgow EH49 6AT",
-    "Printed for 50 years by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ",
     "Notes",
     "[←1]",
     "C.A. Coates Vol.29 (Outline of John’s Gospel) p.196"
@@ -744,6 +742,13 @@
    ]
   }
  ],
+ "back_matter": [
+  "Edited and published monthly by John Brown and Paul Martin",
+  "Additional copies are available, free of charge, by emailing",
+  "notesofministry@virginmedia.com or paul@nofm.co.uk",
+  "36 Laverock Park Linlithgow EH49 6AT",
+  "Printed for 50 years by Crystal Print, 22 Western Road, Billericay, Essex CM12 9DZ"
+ ],
  "build_notes": [
   {
    "article": 2,
@@ -815,25 +820,19 @@
    "article": 2,
    "title": "ALL THINGS NEW",
    "kind": "not_a_name",
-   "detail": "\"Additional copies are available\" left out of the key"
-  },
-  {
-   "article": 2,
-   "title": "ALL THINGS NEW",
-   "kind": "publisher_in_key",
-   "detail": "\"@virginmedia.com or paul@nofm.co.uk...\" ignored"
+   "detail": "\"[←1]\" left out of the key"
   },
   {
    "article": 2,
    "title": "ALL THINGS NEW",
    "kind": "not_a_name",
-   "detail": "\"notesofministry\" left out of the key"
+   "detail": "\"Coates Vol.29\" left out of the key"
   },
   {
    "article": 2,
    "title": "ALL THINGS NEW",
    "kind": "initials_before_name",
-   "detail": "11 entries written as initials then name (\"AMB ...\")"
+   "detail": "12 entries written as initials then name (\"AMB ...\")"
   },
   {
    "article": 2,

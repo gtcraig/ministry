@@ -96,7 +96,8 @@ Work out who spoke an article in this order:
 2. **Readings:** no single speaker. Use each paragraph's `speaker` and the
    article's `initials` key (see below).
 3. **Extracts:** each paragraph may have a `source`, e.g.
-   `"J. Taylor (Vol. 47, p.11, 12)"`. That is the original author and
+   `"J. Taylor (Vol. 47, p.11, 12)"` or `"JB Stoney New Series Vol.8 pp.145,146"`
+   (printed as "Extract from …"). That is the original author and
    reference: the magazine is quoting him.
 
 Names are printed in several ways for the same man ("J. Renton",
